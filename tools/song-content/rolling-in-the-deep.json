@@ -3805,5 +3805,1490 @@
     "filename": "codex-clipboard-abca5db5-4e2e-4ee2-8aba-b1eb358d2d14.png",
     "sha256": "f0847361761652fc57dce6f71642585dc67b2069f6b64974f8fd488367a4879a",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "22f888ec7652e04b8e3483d5686d0350d6cc5f104fb414d7c464748a6ba60ed6"
+    },
+    {
+      "section": "advanced",
+      "filename": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "28cf39a6b95441a98037405154f02471c6ae4e54eeec03d078f3b26b0621ac29"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "There is + 名詞 + V-ing",
+          "meaning": "某處有某人或某事正在發生；-ing 補充描述該名詞。",
+          "usage": "看到場景中出現進行中的活動時使用。",
+          "prompt": "自然館的窗外有鳥正在唱歌，哪一句最清楚描述？",
+          "options": [
+            "There is a bird singing outside the museum.",
+            "There are a bird singing outside the museum.",
+            "There is a bird to sing outside the museum.",
+            "There is singing a bird outside the museum."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "There is 引出單數的 bird，singing 補充牠正在做的事。",
+            "單數 bird 不搭配 there are。",
+            "to sing 不能在這裡直接取代後置的現在分詞。",
+            "singing a bird 的語序把動作錯放在名詞之前。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「There's a fire starting in my heart」",
+          "pattern": [
+            {
+              "text": "There is + 名詞 + V-ing →",
+              "fixed": true
+            },
+            {
+              "text": "a bird / singing outside",
+              "fixed": false
+            }
+          ],
+          "explanation": "There is 引出單數的 bird，singing 補充牠正在做的事。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "reach + 高點",
+          "meaning": "達到某種程度或頂點；原句的 -ing 是接續前面的詩意分詞片段。",
+          "usage": "談聲音、興奮或緊張逐漸升至高點時。",
+          "prompt": "木偶劇最後一分鐘觀眾越來越興奮，哪一句最自然？",
+          "options": [
+            "The excitement was reach its highest point at the end.",
+            "The excitement reached its highest point at the end.",
+            "The excitement reached to its highest point at the end.",
+            "The excitement reached its shoes at the end."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "was reach 動詞形式錯誤。",
+            "reach 直接接達到的目標或程度，不必再加 to。",
+            "reach 是及物動詞，這裡不接 to。",
+            "shoes 並非可以形容興奮程度的高點。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「Reaching a fever pitch」",
+          "pattern": [
+            {
+              "text": "reach + 程度／高點 →",
+              "fixed": true
+            },
+            {
+              "text": "reach its highest point",
+              "fixed": false
+            }
+          ],
+          "explanation": "reach 直接接達到的目標或程度，不必再加 to。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "bring + 受詞 + out",
+          "meaning": "將某人或物帶離某處；歌詞省略了通常會用的 of。",
+          "usage": "談帶人離開黑暗、房間或困難時；課堂採用標準 out of。",
+          "prompt": "導遊把大家帶出洞穴，哪句合適？",
+          "options": [
+            "The guide brought out us of the cave.",
+            "The guide brought us to out the cave.",
+            "The guide bringed us out of the cave.",
+            "The guide brought us out of the cave."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "人稱受詞 us 應放在 bring 後面、out 前面。",
+            "to out 不能這樣連用。",
+            "bring 的過去式是 brought，不是 bringed。",
+            "bring + 人 + out of + 地點，表示帶離洞穴。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「it's bringing me out the dark」",
+          "pattern": [
+            {
+              "text": "bring + 受詞 + out (of) + 地方 →",
+              "fixed": true
+            },
+            {
+              "text": "bring us out of the cave",
+              "fixed": false
+            }
+          ],
+          "explanation": "bring + 人 + out of + 地點，表示帶離洞穴。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "finally + can + 原形",
+          "meaning": "終於能做到某事，帶出等待或困難後的轉變。",
+          "usage": "努力一段時間後終於能完成動作時。",
+          "prompt": "經過多次嘗試，Mia 終於打開舊盒子。",
+          "options": [
+            "Finally Mia cans open the old box.",
+            "Finally Mia can to open the old box.",
+            "Finally Mia can opening the old box.",
+            "Finally Mia can open the old box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "can 不會因第三人稱而加 -s。",
+            "can 後不用 to。",
+            "情態動詞 can 後不接 opening。",
+            "can 後接 open 原形，finally 表示終於。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「Finally I can see you crystal clear」",
+          "pattern": [
+            {
+              "text": "Finally + 主詞 + can + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "Finally I can open the box",
+              "fixed": false
+            }
+          ],
+          "explanation": "can 後接 open 原形，finally 表示終於。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Go ahead and + 原形",
+          "meaning": "允許或鼓勵對方開始做某事；原歌帶挑釁意味。",
+          "usage": "告訴別人可以開始或不必猶豫時。",
+          "prompt": "陶藝老師說現在可以開始做杯子。",
+          "options": [
+            "Go ahead and make your cup now.",
+            "Go ahead to make your cup now.",
+            "Go ahead and made your cup now.",
+            "Go ahead and making your cup now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "and 後面使用動詞原形 make，語氣是「儘管開始」。",
+            "go ahead 後要接 and + 原形，或另外重組句型。",
+            "現在給予許可不使用 made 作原形。",
+            "and 後不能在此用 making。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「Go 'head and sell me out」",
+          "pattern": [
+            {
+              "text": "Go ahead and + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "go ahead and start",
+              "fixed": false
+            }
+          ],
+          "explanation": "and 後面使用動詞原形 make，語氣是「儘管開始」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "sell + 人 + out",
+          "meaning": "背叛某人，常指為自身利益犧牲別人。",
+          "usage": "談洩漏祕密或出賣夥伴時；與普通「賣商品」不同。",
+          "prompt": "有人為了拿獎金，把隊友的秘密告訴別隊。",
+          "options": [
+            "He sold her out to win a prize.",
+            "He sold her the out to win a prize.",
+            "He sold her out a prize to win.",
+            "He sold out her to win a prize."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "受詞代名詞 her 必須放在 sell 與 out 之間。",
+            "the out 不是這個片語的一部分。",
+            "sell her out 後多接 a prize 造成結構不自然。",
+            "代名詞不能放在 sell out 之後。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「sell me out」",
+          "pattern": [
+            {
+              "text": "sell + 受詞 + out →",
+              "fixed": true
+            },
+            {
+              "text": "sell her out",
+              "fixed": false
+            }
+          ],
+          "explanation": "受詞代名詞 her 必須放在 sell 與 out 之間。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "lay + 受詞 + bare",
+          "meaning": "揭露原本被隱藏的事情；兩個版本只換受詞，不增加句型。",
+          "usage": "要公開事實、原因或真相時；屬較有力或書面用法。",
+          "prompt": "記者提出文件，將事件真相公開。",
+          "options": [
+            "The reporter lay the facts bared to the public.",
+            "The reporter laid the facts to bare the public.",
+            "The reporter laid the facts bare to the public.",
+            "The reporter laid the facts to the bare at noon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "這裡動詞的過去式應 laid，補語為 bare。",
+            "to bare the public 變成對公眾作動作，意思不對。",
+            "lay the facts bare 是「把事實攤開」的受詞加補語結構。",
+            "to the bare 並非表示揭露真相的固定用法。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「I'll lay your ship bare」",
+          "pattern": [
+            {
+              "text": "lay + 受詞 + bare →",
+              "fixed": true
+            },
+            {
+              "text": "lay the facts bare",
+              "fixed": false
+            }
+          ],
+          "explanation": "lay the facts bare 是「把事實攤開」的受詞加補語結構。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "See how + 子句",
+          "meaning": "請對方觀察事情如何發生或進行。",
+          "usage": "展示做法、指出變化時使用。",
+          "prompt": "科技展上老師叫大家觀察機器人怎麼移動。",
+          "options": [
+            "See how moving the robot across the floor.",
+            "See how the robot moves across the floor.",
+            "See how the robot to move across the floor.",
+            "See how does the robot move across the floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "how 後面缺少完整主詞動詞。",
+            "how 引導間接問句，後面保留主詞 robot + 動詞 moves。",
+            "how the robot to move 不是完整子句。",
+            "間接問句不使用 does the robot 的直接問句語序。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「See how I leave with every piece of you」",
+          "pattern": [
+            {
+              "text": "See how + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "see how the robot moves",
+              "fixed": false
+            }
+          ],
+          "explanation": "how 引導間接問句，後面保留主詞 robot + 動詞 moves。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Don’t + 動詞原形",
+          "meaning": "否定祈使句，要求對方不要做某事。",
+          "usage": "提醒別人不要碰、不要忘記或不要誤判時。",
+          "prompt": "展覽的顏料還沒乾，工作人員提醒別碰。",
+          "options": [
+            "Don’t touching the wet paint.",
+            "Doesn’t touch the wet paint.",
+            "Don’t to touch the wet paint.",
+            "Don’t touch the wet paint."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "Don’t 後不接 touching。",
+            "Doesn’t touch 是第三人稱陳述，不是對聽者的指令。",
+            "Don’t 後不接 to。",
+            "Don’t 後接 touch 原形，是標準否定祈使句。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Don't underestimate the things that I will do」",
+          "pattern": [
+            {
+              "text": "Don’t + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "Don’t touch the paint",
+              "fixed": false
+            }
+          ],
+          "explanation": "Don’t 後接 touch 原形，是標準否定祈使句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "名詞 + that + 子句",
+          "meaning": "that 引導關係子句，說明前面的名詞。",
+          "usage": "要辨認是哪一批書、哪件東西時。",
+          "prompt": "你要指出昨天買的那幾本書。",
+          "options": [
+            "These are the books that I bought them yesterday.",
+            "These are the books that bought I yesterday.",
+            "These are the books that I bought yesterday.",
+            "These are the books that I buying yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "that 已承擔受詞作用，不能再多加 them。",
+            "that 子句應是 I bought，而非 bought I。",
+            "that I bought yesterday 修飾 books；that 在子句中充當受詞。",
+            "I buying 缺少正確動詞形式。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「the things that I will do」",
+          "pattern": [
+            {
+              "text": "名詞 + that + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "the books that I bought",
+              "fixed": false
+            }
+          ],
+          "explanation": "that I bought yesterday 修飾 books；that 在子句中充當受詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "remind + 人 + of",
+          "meaning": "讓某人想起另一人或往事。",
+          "usage": "照片、聲音或氣味勾起回憶時。",
+          "prompt": "舊照片令你想起海邊旅行。",
+          "options": [
+            "This photo reminds of me our beach trip.",
+            "This photo reminds me to our beach trip.",
+            "This photo reminds me of our beach trip.",
+            "This photo reminds me our beach trip of."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "of me 的語序錯誤。",
+            "回想起事情用 remind ... of，不是 to。",
+            "remind + me + of + 回憶；人稱受詞在 of 前。",
+            "of 不應放在整句末尾。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「remind me of us」",
+          "pattern": [
+            {
+              "text": "remind + 人 + of + 事 →",
+              "fixed": true
+            },
+            {
+              "text": "remind me of my trip",
+              "fixed": false
+            }
+          ],
+          "explanation": "remind + me + of + 回憶；人稱受詞在 of 前。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "keep + 人 + -ing",
+          "meaning": "使某人持續處於某動作或狀態。",
+          "usage": "某件事讓人一直笑、想或等時。",
+          "prompt": "戲院的小狗表演讓觀眾一直笑。",
+          "options": [
+            "The dog show kept the crowd to smile.",
+            "The dog show kept the crowd smiling.",
+            "The dog show kept the crowd smiled.",
+            "The dog show kept the crowd smile."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "keep 不採用受詞 + to smile 的結構。",
+            "kept + 人 + smiling 表示持續讓大家笑。",
+            "smiled 是過去式，非持續動作補語。",
+            "不能用裸原形 smile 作這裡的補語。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「They keep me thinking that we almost had it all」",
+          "pattern": [
+            {
+              "text": "keep + 人 + V-ing →",
+              "fixed": true
+            },
+            {
+              "text": "keep me smiling",
+              "fixed": false
+            }
+          ],
+          "explanation": "kept + 人 + smiling 表示持續讓大家笑。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "leave + 人 + 形容詞",
+          "meaning": "使某人最後感到某種狀態。",
+          "usage": "一次驚喜或演出留下強烈印象時。",
+          "prompt": "精彩的木偶演出讓所有人很開心。",
+          "options": [
+            "The puppet show left everyone happy.",
+            "The puppet show left everyone happily.",
+            "The puppet show left happy everyone.",
+            "The puppet show left everyone happiness."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "left + everyone + happy，形容詞表示觀眾最後的狀態。",
+            "happily 是副詞，不適合這個受詞補語。",
+            "受詞 everyone 應在形容詞之前。",
+            "happiness 是名詞，這裡需要形容詞。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「they leave me breathless」",
+          "pattern": [
+            {
+              "text": "leave + 人 + 形容詞 →",
+              "fixed": true
+            },
+            {
+              "text": "leave everyone happy",
+              "fixed": false
+            }
+          ],
+          "explanation": "left + everyone + happy，形容詞表示觀眾最後的狀態。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "can’t help + V-ing",
+          "meaning": "忍不住做某事。",
+          "usage": "反應自然出現、難以克制時。",
+          "prompt": "看到魔術師戴錯帽子，你忍不住笑。",
+          "options": [
+            "I can’t help to laugh at the funny hat.",
+            "I can’t help laughings at the funny hat.",
+            "I can’t helping laugh at the funny hat.",
+            "I can’t help laughing at the funny hat."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "此結構不接 to laugh。",
+            "laughing 不加 -s。",
+            "can’t 後要接 help 原形。",
+            "can’t help + laughing 是固定的動名詞用法。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「I can't help feeling」",
+          "pattern": [
+            {
+              "text": "can’t help + V-ing →",
+              "fixed": true
+            },
+            {
+              "text": "can’t help laughing",
+              "fixed": false
+            }
+          ],
+          "explanation": "can’t help + laughing 是固定的動名詞用法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "could have + 過去分詞",
+          "meaning": "過去本來可能成功或發生，實際沒有實現；含遺憾。",
+          "usage": "回顧錯過的機會時。",
+          "prompt": "球隊最後一球沒投進，回想原本可能獲勝。",
+          "options": [
+            "We could have winning the final game.",
+            "We could had won the final game.",
+            "We could have won the final game.",
+            "We could have win the final game."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "winning 不是這裡的過去分詞。",
+            "could 後需要 have，而不是 had。",
+            "could have + won 表示過去本可獲勝，卻未成真。",
+            "have 後要用過去分詞 won。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「We could have had it all」",
+          "pattern": [
+            {
+              "text": "could have + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "could have won",
+              "fixed": false
+            }
+          ],
+          "explanation": "could have + won 表示過去本可獲勝，卻未成真。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "wish + 過去完成式",
+          "meaning": "對已發生或未發生的過去事情感到後悔。",
+          "usage": "回顧昨天沒完成的事時。",
+          "prompt": "昨天忘了打電話給奶奶，今天很後悔。",
+          "options": [
+            "I wish I calling my grandma yesterday.",
+            "I wish I have called my grandma yesterday.",
+            "I wish I had called my grandma yesterday.",
+            "I wish I call my grandma yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "wish I calling 缺少動詞。",
+            "have called 是現在完成式，非標準過去反事實用法。",
+            "wish + had called 表達對過去沒打電話的遺憾。",
+            "現在式 call 不表達過去反事實。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「You're gonna wish you never had met me」",
+          "pattern": [
+            {
+              "text": "wish + 主詞 + had + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "wish I had called",
+              "fixed": false
+            }
+          ],
+          "explanation": "wish + had called 表達對過去沒打電話的遺憾。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "be going to + 原形",
+          "meaning": "預測即將發生的事；gonna 是非正式口語拼寫。",
+          "usage": "看到現象，預測快要發生某件事時。",
+          "prompt": "烏雲密布，你預測馬上會下雨。",
+          "options": [
+            "It going to rain in a minute.",
+            "It is going to rain in a minute.",
+            "It is going to raining in a minute.",
+            "It is going rain in a minute."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 be 動詞 is。",
+            "is going to + rain 原形，表示對接近未來的預測。",
+            "to 後要接 rain 原形。",
+            "going 後缺少 to。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「Tears are gonna fall」",
+          "pattern": [
+            {
+              "text": "be going to + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "are going to fall",
+              "fixed": false
+            }
+          ],
+          "explanation": "is going to + rain 原形，表示對接近未來的預測。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "have + 名詞 + to be + 過去分詞",
+          "meaning": "某事物尚待被處理；被動不定詞指出名詞承受的動作。",
+          "usage": "說明還有文件要寄、工作要完成時。",
+          "prompt": "辦公室尚有一封信需要寄出。",
+          "options": [
+            "We have a letter to be sent today.",
+            "We have a letter to sending today.",
+            "We have a letter to sent today.",
+            "We have a letter to be send today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "to be sent 是被動不定詞，表示信等待被寄。",
+            "to sending 不能表達這種被動結構。",
+            "缺少 be。",
+            "send 的過去分詞是 sent。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「I have no story to be told」",
+          "pattern": [
+            {
+              "text": "have + 名詞 + to be + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "have a letter to be sent",
+              "fixed": false
+            }
+          ],
+          "explanation": "to be sent 是被動不定詞，表示信等待被寄。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "現在完成式 have/has + pp",
+          "meaning": "過去發生的事對現在有影響，或談經驗與已知消息。",
+          "usage": "剛聽到消息並想告知對方時。",
+          "prompt": "你已經聽說博物館明天重新開放。",
+          "options": [
+            "I have hear the museum news.",
+            "I have heard the museum news.",
+            "I have hearing the museum news.",
+            "I has heard the museum news."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "hear 是原形，不是過去分詞。",
+            "have + heard（hear 的過去分詞）。",
+            "hearing 不是完成式需要的過去分詞。",
+            "I 不搭配 has。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「I've heard one on you」",
+          "pattern": [
+            {
+              "text": "have/has + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "have heard the news",
+              "fixed": false
+            }
+          ],
+          "explanation": "have + heard（hear 的過去分詞）。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "make + 人 + 原形",
+          "meaning": "讓某人做出反應或動作。",
+          "usage": "幽默表演讓大家笑時。",
+          "prompt": "主持人的笑話讓整個隊伍都笑了。",
+          "options": [
+            "The host made laughing the team.",
+            "The host made the team laugh.",
+            "The host made the team to laugh.",
+            "The host made the team laughing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "動詞 laugh 應在受詞後面。",
+            "made + 受詞 + laugh 裸原形，表使役。",
+            "使役 make 後不接 to laugh。",
+            "made + 受詞 + laughing 不符合此結構。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「make your head burn」",
+          "pattern": [
+            {
+              "text": "make + 受詞 + 動詞原形 →",
+              "fixed": true
+            },
+            {
+              "text": "make the team laugh",
+              "fixed": false
+            }
+          ],
+          "explanation": "made + 受詞 + laugh 裸原形，表使役。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "think of + 人／事",
+          "meaning": "想起、想到某人或某事。",
+          "usage": "提醒朋友在某個時刻想到你時。",
+          "prompt": "朋友出國時，你提醒他看到大海可以想到你。",
+          "options": [
+            "Think of to me when you see the sea.",
+            "Think me of when you see the sea.",
+            "Think about of me when you see the sea.",
+            "Think of me when you see the sea."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "of 後直接接 me，不需 to。",
+            "think me of 的順序錯誤。",
+            "about of 不能同時接在此處。",
+            "think of + me 是自然的固定搭配。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「Think of me in the depths of your despair」",
+          "pattern": [
+            {
+              "text": "think of + 名詞／代名詞 →",
+              "fixed": true
+            },
+            {
+              "text": "think of your friend",
+              "fixed": false
+            }
+          ],
+          "explanation": "think of + me 是自然的固定搭配。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "as + 子句（因為）",
+          "meaning": "as 可引導原因；原句 mine 指前文的 home，並含被動語態。",
+          "usage": "解釋為甚麼活動改在室內時。",
+          "prompt": "因為下雨，市集改在室內。",
+          "options": [
+            "As it is raining, the market will move inside.",
+            "As is raining, the market will move inside.",
+            "As it raining, the market will move inside.",
+            "As it is rain, the market will move inside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "As it is raining 提供原因，子句包含主詞與動詞。",
+            "as 子句缺主詞。",
+            "it raining 缺 be 動詞。",
+            "is rain 不是表示正在下雨的進行式。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「As mine sure won't be shared」",
+          "pattern": [
+            {
+              "text": "As + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "As it is raining, we will stay inside",
+              "fixed": false
+            }
+          ],
+          "explanation": "As it is raining 提供原因，子句包含主詞與動詞。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "指示／祈使 + to 表目的",
+          "meaning": "to + 原形說明前面動作的目的。",
+          "usage": "說明為什麼要看地圖、檢查物品時。",
+          "prompt": "野外旅行前，導遊要你看地圖以找到路。",
+          "options": [
+            "Check the map to find the road.",
+            "Check the map to finding the road.",
+            "Check the map find to the road.",
+            "Check the map for find the road."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "to find 表示看地圖的目的。",
+            "to 後需 find 原形。",
+            "find to the road 語序錯誤。",
+            "for 後不能直接接 find 原形。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「Count your blessings to find what you look for」",
+          "pattern": [
+            {
+              "text": "祈使句 + to + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "Check the map to find the road",
+              "fixed": false
+            }
+          ],
+          "explanation": "to find 表示看地圖的目的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "what + 主詞 + 動詞（名詞子句）",
+          "meaning": "what 引導名詞子句，表示「你需要的東西／事情」。",
+          "usage": "談某人要找的物品或需要的資訊時。",
+          "prompt": "你不知道朋友需要甚麼，想直接問。",
+          "options": [
+            "Tell me what do you need for the trip.",
+            "Tell me what are you need for the trip.",
+            "Tell me what you need for the trip.",
+            "Tell me what you needing for the trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "間接問句不用 do you need 的直接疑問語序。",
+            "are you need 不是正確子句。",
+            "what you need 使用陳述語序，整段作 tell 的受詞。",
+            "you needing 缺少正確動詞。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「what you look for」",
+          "pattern": [
+            {
+              "text": "what + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "what you need",
+              "fixed": false
+            }
+          ],
+          "explanation": "what you need 使用陳述語序，整段作 tell 的受詞。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "turn + 受詞 + into + 名詞",
+          "meaning": "把某物或情況轉變成另一物或狀態。",
+          "usage": "改造舊材料、把困難轉為成果時。",
+          "prompt": "工匠把舊木箱改造成書架。",
+          "options": [
+            "The maker turned an old box to a shelf.",
+            "The maker turned an old box into a shelf.",
+            "The maker turned into an old box a shelf.",
+            "The maker turned an old box into to a shelf."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "要用 into，不是 to。",
+            "turn A into B，舊木箱是 A，書架是 B。",
+            "into 不能放在受詞之前來表示此種改造。",
+            "into 後不需再接 to。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「Turn my sorrow into treasured gold」",
+          "pattern": [
+            {
+              "text": "turn + 受詞 + into + 名詞 →",
+              "fixed": true
+            },
+            {
+              "text": "turn a box into a shelf",
+              "fixed": false
+            }
+          ],
+          "explanation": "turn A into B，舊木箱是 A，書架是 B。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "pay + 人 + back + in kind",
+          "meaning": "以類似方式回報或報復他人；不等於單純還錢。",
+          "usage": "某人幫了你一個忙，你也以善意回報時。",
+          "prompt": "鄰居幫你種花，你也幫她修花園。",
+          "options": [
+            "I paid back her in kind by fixing her garden.",
+            "I paid her back kind in by fixing her garden.",
+            "I paid her back in kind by fixing her garden.",
+            "I paid her in kind back by fixing her garden."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "代名詞 her 放在 pay 與 back 中間。",
+            "kind in 顛倒了固定詞序。",
+            "pay her back in kind 說明以同類善意回報。",
+            "in kind 應放在 pay her back 之後。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「pay me back in kind」",
+          "pattern": [
+            {
+              "text": "pay + 受詞 + back + in kind →",
+              "fixed": true
+            },
+            {
+              "text": "pay him back in kind",
+              "fixed": false
+            }
+          ],
+          "explanation": "pay her back in kind 說明以同類善意回報。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "reap what + 子句",
+          "meaning": "得到自己行為造成的結果；諺語常用於正負後果。",
+          "usage": "努力練習後得到成果，或不努力承受後果時。",
+          "prompt": "一個人長期練舞，最後演出成功，哪句恰當？",
+          "options": [
+            "She reaped what she sowing after months of practice.",
+            "She reaped what she sow after months of practice.",
+            "She reaped what did she sow after months of practice.",
+            "She reaped what she sowed after months of practice."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "she sowing 缺少正確動詞形式。",
+            "過去情境與 sow 原形不一致。",
+            "what 子句不用 did she sow 的疑問語序。",
+            "reaped what she sowed：過去的付出帶來結果，what 子句用直述語序。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「reap just what you sow」",
+          "pattern": [
+            {
+              "text": "reap what + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "reap what you sow",
+              "fixed": false
+            }
+          ],
+          "explanation": "reaped what she sowed：過去的付出帶來結果，what 子句用直述語序。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "fever pitch",
+          "meaning": "（情緒、緊張或興奮）達到最高點",
+          "usage": "常用 reach a fever pitch；指氣氛愈來愈激烈，不是真的發燒。",
+          "prompt": "哪一句正確使用「fever pitch」？",
+          "options": [
+            "The train reached a fever pitch at the next station.",
+            "Her shoes reached a fever pitch because they were too small.",
+            "The crowd reached a fever pitch just before the final song.",
+            "The soup reached a fever pitch after I added cold water."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：列車到站應用 reached the station。",
+            "錯誤：鞋子太小是尺寸問題，不是情緒升至頂點。",
+            "正確：演出前觀眾情緒高漲到頂點。",
+            "錯誤：湯的溫度應說 reached a high temperature，不是情緒高點。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：演出前觀眾情緒高漲到頂點。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "sell someone out",
+          "meaning": "為私利出賣、背叛某人",
+          "usage": "指為了自身利益洩露秘密或背叛伙伴，通常帶強烈負面意味。",
+          "prompt": "哪一句正確使用「sell someone out」？",
+          "options": [
+            "My classmate sold me out by sharing lunch with me.",
+            "We sold the bus out because it arrived very late.",
+            "The spy sold his team out for money and gave away their plans.",
+            "She sold her homework out before dinner at home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：分享午餐是友善行為，不是背叛。",
+            "錯誤：公車遲到不會讓 sell someone out 成立。",
+            "正確：間諜為了錢出賣團隊、洩露計畫。",
+            "錯誤：交作業應用 handed in her homework。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：間諜為了錢出賣團隊、洩露計畫。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "lay something bare",
+          "meaning": "揭露、使真相完全顯露",
+          "usage": "用來描述把隱藏的事實或問題公開，語氣較正式。",
+          "prompt": "哪一句正確使用「lay something bare」？",
+          "options": [
+            "The painter laid the wall bare by hanging new pictures.",
+            "I laid my lunch bare when I put it into my bag.",
+            "We laid the bus bare because the trip was long.",
+            "The report laid bare the problems inside the company."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：掛畫是裝飾，並沒有揭露問題。",
+            "錯誤：放午餐進包裡不是揭露真相。",
+            "錯誤：旅程長短與揭露隱情無關。",
+            "正確：報告清楚揭露公司的內部問題。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：報告清楚揭露公司的內部問題。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "scar",
+          "meaning": "傷疤；（比喻）長久的心靈創傷",
+          "usage": "可指皮膚傷口癒合後的痕跡，也可指情感留下的傷害。",
+          "prompt": "哪一句正確使用「scar」？",
+          "options": [
+            "The coach put a scar on the team schedule for Tuesday.",
+            "The accident left a small scar on his right arm.",
+            "The scar on the map told us which road was shortest.",
+            "Her scar was a new medicine that she drank at night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：行事曆上的記號應用 mark，不是 scar。",
+            "正確：事故在他的右手臂留下疤痕。",
+            "錯誤：地圖路線應用 line 或 route。",
+            "錯誤：scar 是傷痕，不是藥水。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：事故在他的右手臂留下疤痕。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "breathless",
+          "meaning": "喘不過氣的；驚訝得屏息的",
+          "usage": "常見 leave someone breathless；可由運動、激動或震撼所致。",
+          "prompt": "哪一句正確使用「breathless」？",
+          "options": [
+            "Please breathless the door when the teacher comes.",
+            "The long run left us breathless at the finish line.",
+            "I put breathless in my bag before the school trip.",
+            "The film was breathless because the tickets were blue."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：breathless 是形容詞，不能充當關門動詞。",
+            "正確：跑完長跑後大家喘得說不出話。",
+            "錯誤：breathless 不是可裝進背包的物品。",
+            "錯誤：票的顏色與喘不過氣沒有關係。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：跑完長跑後大家喘得說不出話。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "depths",
+          "meaning": "最深處；（比喻）極端程度",
+          "usage": "常見 in the depths of despair／winter；注意通常用複數 depths。",
+          "prompt": "哪一句正確使用「depths」？",
+          "options": [
+            "She felt lonely in the depths of winter when days were short.",
+            "I ate the depths with rice during our family dinner.",
+            "We climbed the depths of the mountain to see the view.",
+            "The teacher depths the book before the lesson begins."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：in the depths of winter 表示隆冬時節。",
+            "錯誤：depths 不是食物。",
+            "錯誤：爬山通常往山頂，不是 climb the depths。",
+            "錯誤：depths 是名詞，不是閱讀的動詞。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：in the depths of winter 表示隆冬時節。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "despair",
+          "meaning": "絕望；完全失去希望",
+          "usage": "可說 feel despair 或 fall into despair，描述強烈的無助。",
+          "prompt": "哪一句正確使用「despair」？",
+          "options": [
+            "I used despair to pay for a ticket at the station.",
+            "The team felt despair because its new shirts were green.",
+            "Her despair went to the shop to buy some bread.",
+            "After weeks of searching, he began to fall into despair."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：despair 不是付款工具。",
+            "錯誤：衣服是綠色不足以自然解釋強烈絕望。",
+            "錯誤：despair 是情緒，不會自己去商店。",
+            "正確：找了好幾週沒有結果，開始陷入絕望。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：找了好幾週沒有結果，開始陷入絕望。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "sorrow",
+          "meaning": "悲傷；哀痛（較正式、文學）",
+          "usage": "比 sadness 更有文學色彩，可形容失去與難過的情感。",
+          "prompt": "哪一句正確使用「sorrow」？",
+          "options": [
+            "She wore sorrow because it matched her black shoes.",
+            "The letter brought her great sorrow after her friend died.",
+            "Our sorrow arrived at the airport before the plane.",
+            "He borrowed sorrow from the library for two weeks."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：悲傷不是衣服。",
+            "正確：好友過世後，那封信使她極度悲傷。",
+            "錯誤：情緒不會搭飛機抵達機場。",
+            "錯誤：抽象的悲傷不是可借閱的書。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：好友過世後，那封信使她極度悲傷。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "treasured",
+          "meaning": "珍愛的；珍貴保存的",
+          "usage": "常修飾回憶、照片或物品，強調個人情感價值。",
+          "prompt": "哪一句正確使用「treasured」？",
+          "options": [
+            "This old photo is a treasured memory of our family trip.",
+            "His treasured bus was late because there was heavy traffic.",
+            "I treasured my homework with a spoon before breakfast.",
+            "The teacher treasured the classroom door at seven o’clock."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：老照片承載全家珍藏的回憶。",
+            "不恰當：若單指遲到的公車，treasured 沒有合理的珍愛背景。",
+            "錯誤：treasure 不是用湯匙處理作業。",
+            "錯誤：這裡沒有珍惜或重視門的合理語境。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：老照片承載全家珍藏的回憶。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "in kind",
+          "meaning": "以同樣方式／同類形式回報",
+          "usage": "pay back in kind 表示以類似行為回應；也有「以實物」而非金錢支付的正式用法。",
+          "prompt": "哪一句正確使用「in kind」？",
+          "options": [
+            "He paid in kind of the train at the busy station.",
+            "My breakfast was in kind because I ate toast and eggs.",
+            "We put in kind inside the drawer next to our keys.",
+            "She helped me last week, so I returned her kindness in kind."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：搭火車或付款不能說 in kind of the train。",
+            "錯誤：in kind 不是早餐種類的形容詞。",
+            "錯誤：片語不是可放抽屜的實體物品。",
+            "正確：以善意回報先前得到的幫助。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：以善意回報先前得到的幫助。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "beat",
+          "meaning": "節拍；（亦可作動詞）擊敗",
+          "usage": "此處以名詞用法考節奏：常見 to the beat of music。",
+          "prompt": "哪一句正確使用「beat」？",
+          "options": [
+            "They danced to the beat of the music at the party.",
+            "The singer bought a beat of water after the concert.",
+            "The train ate a beat before it left the station.",
+            "I used a beat to unlock the door before school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：大家隨著音樂節拍跳舞。",
+            "錯誤：喝水應說 a bottle of water。",
+            "錯誤：火車不會吃節拍。",
+            "錯誤：開門要用 key，節拍不是鑰匙。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：大家隨著音樂節拍跳舞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "could have had",
+          "meaning": "本來可能已擁有（但事實並未實現）",
+          "usage": "could have + 過去分詞，用來回顧過去沒有實現的可能。",
+          "prompt": "哪一句正確使用「could have had」？",
+          "options": [
+            "We could have had more time if we had left earlier today.",
+            "I could have had a meeting tomorrow, so I will call today.",
+            "She could have had happy because the weather was nice.",
+            "The bus could have had to the library on Wednesday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：若早點出發，本來就能有更多時間。",
+            "錯誤：若談明天可能開會，應說 might have a meeting tomorrow。",
+            "錯誤：had 後不能這樣直接接 happy。",
+            "錯誤：had 不能直接接 to the library 表示前往。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：若早點出發，本來就能有更多時間。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "bring someone out of",
+          "meaning": "使某人脫離某種狀態",
+          "usage": "可說 bring someone out of sadness／isolation；歌詞省略 out 後的 of，為歌唱式表達。",
+          "prompt": "哪一句正確使用「bring someone out of」？",
+          "options": [
+            "The new book brought the table out of being blue.",
+            "I brought my shoes out of to the classroom every day.",
+            "Good friends helped bring him out of his sadness.",
+            "She brought the weather out of her bag at noon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：桌子原本是藍色並非此處心理狀態。",
+            "錯誤：介系詞搭配及句意不完整。",
+            "正確：朋友幫他走出悲傷。",
+            "錯誤：天氣不是能放進包裡再拿出的物品。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確：朋友幫他走出悲傷。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

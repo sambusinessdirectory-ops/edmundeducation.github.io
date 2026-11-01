@@ -2598,5 +2598,1145 @@
     "sha256": "f3bf8bcd203712ecefdcf65f02421a7e7f84db17e77380000748111c8f1354d1",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "6fc16df0823867d5b4248bebb907bdb6043d16e979664be41aed77417d3d9712"
+    },
+    {
+      "section": "structure",
+      "filename": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "bc3944507793958a29bcd946eee9d3e73624bb3ef6a5da120f175374d93b5f34"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "heaven",
+          "meaning": "天堂；極美好、令人幸福的地方",
+          "usage": "談宗教中的天堂，或比喻令人感到無比幸福的地方；比喻時常用 heaven。",
+          "prompt": "哪一句正確使用「heaven」？",
+          "options": [
+            "The shoes were heaven because they had laces.",
+            "This quiet garden feels like heaven to me.",
+            "My pencil became heaven after I sharpened it.",
+            "The bus was heaven because it arrived at six."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "誤用：鞋子有鞋帶不足以表示極大的幸福感。",
+            "正確：將安靜花園比喻成令人無比幸福的地方。",
+            "誤用：削鉛筆不會使筆成為天堂，語意不自然。",
+            "誤用：準時抵達只是正常交通狀況，不能因此自然地稱為天堂。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：將安靜花園比喻成令人無比幸福的地方。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "hell",
+          "meaning": "地獄；極痛苦、難以忍受的處境",
+          "usage": "用於宗教中的地獄，或比喻特別痛苦的經驗；語氣強烈，不宜濫用。",
+          "prompt": "哪一句正確使用「hell」？",
+          "options": [
+            "The cake was hell because it came with a fork.",
+            "The clock felt like hell when it showed noon.",
+            "My coat was hell since it had two pockets.",
+            "That long, painful journey felt like hell to us."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "誤用：附叉子沒有痛苦含意，hell 太強烈。",
+            "誤用：顯示中午本身不構成難以忍受的經驗。",
+            "誤用：外套有口袋不等於極痛苦的處境。",
+            "正確：以 hell 比喻一段十分難受的旅程。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：以 hell 比喻一段十分難受的旅程。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "religion",
+          "meaning": "宗教；宗教信仰",
+          "usage": "談宗教作為文化、社會或個人信仰的一部分時使用；尊重不同信仰。",
+          "prompt": "哪一句正確使用「religion」？",
+          "options": [
+            "Dad repaired the religion with a small tool.",
+            "Mia put her religion in a bag for lunch.",
+            "The bus had a religion of fifty seats.",
+            "Our class learned about religion in history today."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "誤用：宗教不是用工具維修的機器。",
+            "誤用：religion 不是可以裝進袋子吃的物品。",
+            "誤用：描述座位數應用 number 或 seats，而非 religion。",
+            "正確：在歷史課中認識宗教及其文化背景。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：在歷史課中認識宗教及其文化背景。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "possessions",
+          "meaning": "個人財物；所擁有的東西",
+          "usage": "指某人擁有的物品，常見 personal possessions；不等同於情緒或能力。",
+          "prompt": "哪一句正確使用「possessions」？",
+          "options": [
+            "He cooked his possessions in a pan for dinner.",
+            "She packed her few possessions into one bag.",
+            "Her possessions were late because the train stopped.",
+            "We studied possessions to learn how to swim."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "誤用：個人財物並不等於食材。",
+            "正確：表示把僅有的個人財物裝入一個袋子。",
+            "誤用：財物不是人，通常不說財物因列車停駛而遲到。",
+            "誤用：possessions 指所擁有的東西，與學游泳不構成自然搭配。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：表示把僅有的個人財物裝入一個袋子。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "greed",
+          "meaning": "貪婪；過度想要金錢或更多東西",
+          "usage": "批評不知滿足、只想獲得更多的態度；與正常需要有別。",
+          "prompt": "哪一句正確使用「greed」？",
+          "options": [
+            "His greed made him keep every prize for himself.",
+            "Her greed was clear when she shared her food.",
+            "The greed of the clock made it show nine.",
+            "Our greed grew because we gave our seats away."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：把所有獎品都留給自己，表現過度占有的態度。",
+            "誤用：主動分享食物較能說明慷慨，不能作為貪婪的證據。",
+            "誤用：時鐘沒有想占有更多東西的欲望。",
+            "誤用：讓座是付出，不能直接證明貪婪增加。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：把所有獎品都留給自己，表現過度占有的態度。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "hunger",
+          "meaning": "飢餓；（比喻）強烈的渴望",
+          "usage": "可指沒有足夠食物的飢餓，也可指對知識、成就等強烈渴望。",
+          "prompt": "哪一句正確使用「hunger」？",
+          "options": [
+            "She wore her hunger to school in the rain.",
+            "The chair had hunger because its legs were short.",
+            "After missing lunch, I felt real hunger.",
+            "The train fixed its hunger by changing tracks."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "誤用：飢餓是狀態，不能當衣服穿。",
+            "誤用：椅子腿短與飢餓無關。",
+            "正確：錯過午餐後覺得餓，符合 hunger 的字面意思。",
+            "誤用：列車換軌與飢餓沒有合理關係。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：錯過午餐後覺得餓，符合 hunger 的字面意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "brotherhood",
+          "meaning": "兄弟情誼；團結互助的情感或群體",
+          "usage": "指人們如兄弟般互相支持的關係，也可指團體的團結精神，不限血親。",
+          "prompt": "哪一句正確使用「brotherhood」？",
+          "options": [
+            "The brotherhood was blue because the sky was clear.",
+            "He wore brotherhood on his feet during the race.",
+            "The players felt brotherhood after helping each other.",
+            "We drank brotherhood with ice after our game."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "誤用：情誼或團體不會因晴天而變成藍色。",
+            "誤用：brotherhood 不表示鞋子或衣物。",
+            "正確：隊友互相幫助後感到團結和情誼。",
+            "誤用：brotherhood 不是可以喝的飲料。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：隊友互相幫助後感到團結和情誼。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "as one",
+          "meaning": "團結一致地；像一個整體",
+          "usage": "描述一群人共同合作、統一行動；也可具有詩意的團結意味。",
+          "prompt": "哪一句正確使用「as one」？",
+          "options": [
+            "The singers raised their voices as one.",
+            "She bought as one for the school show.",
+            "Our cake was as one because it tasted sweet.",
+            "The cat ate as one beside a red chair."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：歌手們齊聲唱出，像一個整體般共同動作。",
+            "誤用：as one 不是可以購買的物品。",
+            "誤用：蛋糕味道甜與群體團結無關。",
+            "誤用：as one 不能單獨表示吃飯的方式。"
+          ],
+          "sourceFile": "Imagine_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：歌手們齊聲唱出，像一個整體般共同動作。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Imagine + there is / there are",
+          "meaning": "想像某種情況存在或不存在。",
+          "usage": "邀請別人想像不同於現實的世界；此歌使用 there’s no。",
+          "prompt": "情境題 Q01： 你希望朋友想像一個沒有紅綠燈的城市，哪句最貼切？",
+          "options": [
+            "Imagine to there be no traffic lights in our town.",
+            "There imagine no traffic lights are in our town.",
+            "Imagine are there no traffic lights in our town.",
+            "Imagine there are no traffic lights in our town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。imagine 後此處不接 to there be。",
+            "錯誤。there 的位置與句序不對。",
+            "錯誤。將陳述句誤寫為問句倒裝。",
+            "正確。imagine 後可接完整的 there are 子句。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Imagine there's no heaven」",
+          "pattern": [
+            {
+              "text": "Imagine + there is / are",
+              "fixed": true
+            },
+            {
+              "text": "描述的世界",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。imagine 後可接完整的 there are 子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "It + be + adjective + if-clause",
+          "meaning": "先評價事情，再指出成立的條件。",
+          "usage": "說明某件事在特定條件下較容易或困難。",
+          "prompt": "情境題 Q02： 朋友害怕第一次做陶杯，你想說只要慢慢做就不難。",
+          "options": [
+            "It is easier if you work slowly.",
+            "It easier when work you slowly.",
+            "If slowly you work, it easy is.",
+            "It is easy if to work slowly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。先給評價，if 指出條件。",
+            "錯誤。缺少 be，且從句不完整。",
+            "錯誤。主要子句語序不對。",
+            "錯誤。if 後需要完整子句。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「It's easy if you try」",
+          "pattern": [
+            {
+              "text": "It + be + 形容詞 + if",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。先給評價，if 指出條件。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "No + noun：否定名詞片語",
+          "meaning": "直接表達「沒有某種東西」。",
+          "usage": "標示缺乏或禁止的事物；歌詞是省略動詞的詩意片段。",
+          "prompt": "情境題 Q03： 動物收容所的告示要說「禁止大聲喧嘩」。",
+          "options": [
+            "None loud noise in this room.",
+            "No noisy in this room.",
+            "Not noise in this room.",
+            "No loud noise in this room."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。none 不能這樣直接修飾名詞。",
+            "錯誤。noisy 是形容詞，這裡需要名詞。",
+            "錯誤。名詞前的否定限定詞應用 no。",
+            "正確。no 直接修飾名詞片語。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「No hell below us」",
+          "pattern": [
+            {
+              "text": "no",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。no 直接修飾名詞片語。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Below + object：位置介系詞",
+          "meaning": "表示在某物的下方。",
+          "usage": "地圖、展示、天文與位置說明。",
+          "prompt": "情境題 Q04： 博物館圖中，魚的圖片在船的圖下方。",
+          "options": [
+            "The fish picture is below of the boat picture.",
+            "The fish picture below the boat picture is.",
+            "The fish picture is below the boat picture.",
+            "The fish picture is below to the boat picture."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。below 後不需要 of。",
+            "錯誤。be 動詞位置錯誤。",
+            "正確。below 直接帶名詞片語。",
+            "錯誤。below 後不需要 to。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「No hell below us」",
+          "pattern": [
+            {
+              "text": "below",
+              "fixed": true
+            },
+            {
+              "text": "位置參照物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。below 直接帶名詞片語。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Above + object：位置介系詞",
+          "meaning": "表示在某物的上方。",
+          "usage": "說明空間、樓層或天空中的位置；原句是詩意倒裝省略。",
+          "prompt": "情境題 Q05： 劇院座位圖：燈在舞台上方。",
+          "options": [
+            "The light is above the stage.",
+            "The light above the stage is.",
+            "The light is above of the stage.",
+            "The light is above to the stage."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。above + 名詞表位置。",
+            "錯誤。這裡的語序不成完整句子。",
+            "錯誤。above 不加 of。",
+            "錯誤。above 不加 to。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「Above us only sky」",
+          "pattern": [
+            {
+              "text": "above",
+              "fixed": true
+            },
+            {
+              "text": "位置參照物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。above + 名詞表位置。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Imagine + object + V-ing",
+          "meaning": "想像人或事物正在做某事。",
+          "usage": "把腦中的畫面描述得更具體。",
+          "prompt": "情境題 Q06： 天文館的主持人要大家想像孩子在月球散步。",
+          "options": [
+            "Imagine the children to walking on the moon.",
+            "Imagine the children are walk on the moon.",
+            "Imagine the children walks on the moon.",
+            "Imagine the children walking on the moon."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。to walking 不符合此結構。",
+            "錯誤。are walk 形式錯誤。",
+            "錯誤。這裡不使用第三人稱單數 walks。",
+            "正確。受詞 children 後接 walking 描述想像的畫面。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「Imagine all the people / Living for today」",
+          "pattern": [
+            {
+              "text": "imagine",
+              "fixed": true
+            },
+            {
+              "text": "人／物 + V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。受詞 children 後接 walking 描述想像的畫面。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Live for + noun",
+          "meaning": "為某個時刻、理想或目標而活。",
+          "usage": "表達人生重心；歌詞是分詞片段，描述 people。",
+          "prompt": "情境題 Q07： 退休後的園丁想多享受每天的生活。",
+          "options": [
+            "She lives of today after she stops working.",
+            "She lives for today and enjoys her garden.",
+            "She lives at today and enjoys her garden.",
+            "She lives to today after she stops working."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。of today 不表示人生目標。",
+            "正確。live for today 表示重視當下。",
+            "錯誤。at today 不是自然搭配。",
+            "錯誤。to today 不自然。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「Living for today」",
+          "pattern": [
+            {
+              "text": "live for",
+              "fixed": true
+            },
+            {
+              "text": "時間／目標",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。live for today 表示重視當下。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "It + be + adjective + to-infinitive",
+          "meaning": "評論完成某動作的難度或特質。",
+          "usage": "說明新技巧、任務是否容易。",
+          "prompt": "情境題 Q08： 摺紙社要介紹一種簡單的紙船。",
+          "options": [
+            "It easy to make this paper boat.",
+            "It is easy to make this paper boat.",
+            "It is easy making to this paper boat.",
+            "It is easy to made this paper boat."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。缺少 is。",
+            "正確。It is + easy + to make，形式完整。",
+            "錯誤。making to 語序不對。",
+            "錯誤。to 後需接原形 make。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「It isn't hard to do」",
+          "pattern": [
+            {
+              "text": "It + be + 形容詞 + to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。It is + easy + to make，形式完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Nothing + to-infinitive",
+          "meaning": "沒有任何值得或需要做某事的東西。",
+          "usage": "說明「沒有可做／可用／可擔心的東西」；原詞句是省略完整主句的片段。",
+          "prompt": "情境題 Q09： 停電時每個電池都用完了，手電筒沒有可用的電池。",
+          "options": [
+            "There is nothing to using in the flashlight.",
+            "There is nothing using in the flashlight.",
+            "There is nothing to use in the flashlight.",
+            "There is nothing for use in the flashlight."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。to 後面不接 using。",
+            "錯誤。using 不能替代 to-infinitive。",
+            "正確。nothing to use 表沒有可使用的東西。",
+            "錯誤。for use 可當名詞用法，但此處不符合要練的 nothing + to V。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Nothing to kill or die for」",
+          "pattern": [
+            {
+              "text": "nothing + to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形（可含介系詞）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。nothing to use 表沒有可使用的東西。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "or：連接兩個選擇",
+          "meaning": "使用 or 連接兩個選項或動作。",
+          "usage": "在要二選一、列舉可能性時。",
+          "prompt": "情境題 Q10： 志工問你週末想去清理沙灘還是種樹。",
+          "options": [
+            "Would you like clean or to plant trees?",
+            "Would you like to clean the beach and or plant trees?",
+            "Would you like to clean the beach or plant trees?",
+            "Would you like to clean the beach or planting trees?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。like 後要接 to clean。",
+            "錯誤。and or 不能這樣並列。",
+            "正確。or 連接並列的 clean 和 plant。",
+            "錯誤。並列動詞形式應一致。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「kill or die for」",
+          "pattern": [
+            {
+              "text": "動詞 A + or",
+              "fixed": true
+            },
+            {
+              "text": "動詞 B",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。or 連接並列的 clean 和 plant。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "Live + object + in + state",
+          "meaning": "以某種狀態度過生活。",
+          "usage": "描述平靜、安全或自由的生活。",
+          "prompt": "情境題 Q11： 你描述小島居民彼此尊重、沒有爭吵。",
+          "options": [
+            "They live life in peace on the island.",
+            "They live life with peaceful on the island.",
+            "They live life in peaceful on the island.",
+            "They live life at peace on the island."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。live life in peace 表示和平生活。",
+            "錯誤。peaceful 是形容詞，搭配不成立。",
+            "錯誤。in 後面此處應接名詞 peace。",
+            "錯誤。這裡要使用 in peace。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「Living life in peace」",
+          "pattern": [
+            {
+              "text": "live",
+              "fixed": true
+            },
+            {
+              "text": "life + in + 狀態名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。live life in peace 表示和平生活。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "May + base verb：可能性",
+          "meaning": "表示某事有可能發生，或對方可能提出某個看法。",
+          "usage": "禮貌承認別人的可能反應。",
+          "prompt": "情境題 Q12： 你介紹自己的植物實驗，猜想有人會說它很奇怪。",
+          "options": [
+            "You may think my plant idea is strange.",
+            "You may thinks my plant idea is strange.",
+            "You may to think my plant idea is strange.",
+            "You may thinking my plant idea is strange."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。may 後接原形 think。",
+            "錯誤。may 後不用 thinks。",
+            "錯誤。may 後不接 to。",
+            "錯誤。may 後不接 thinking。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「You may say I'm a dreamer」",
+          "pattern": [
+            {
+              "text": "主詞 + may",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。may 後接原形 think。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "Say + content clause（省略 that）",
+          "meaning": "轉述某人說的內容，可省略 that。",
+          "usage": "重述別人的看法或說法。",
+          "prompt": "情境題 Q13： 策展人轉述遊客說展覽很安靜。",
+          "options": [
+            "Visitors say that quiet the hall.",
+            "Visitors say the hall being quiet.",
+            "Visitors say the hall is quiet.",
+            "Visitors say to the hall is quiet."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。子句缺少正常語序。",
+            "錯誤。being quiet 不是完整內容子句。",
+            "正確。say 後直接接完整子句。",
+            "錯誤。say 後此處不加 to。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「You may say I'm a dreamer」",
+          "pattern": [
+            {
+              "text": "say",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。say 後直接接完整子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "But：轉折",
+          "meaning": "對比兩個不同的事實或看法。",
+          "usage": "先承認一點，再說明不同的情況。",
+          "prompt": "情境題 Q14： 氣象台雖然雨下得大，活動仍然照常舉行。",
+          "options": [
+            "It is raining, but to the outdoor show.",
+            "It is raining, but the outdoor show will go on.",
+            "It is raining, but and the show will go on.",
+            "It is raining, but the show going on."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。後半不是完整子句。",
+            "正確。but 清楚連接兩個完整子句。",
+            "錯誤。but and 不能同時連接。",
+            "錯誤。缺少 is／will 等動詞。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「But I'm not the only one」",
+          "pattern": [
+            {
+              "text": "句子 A + but",
+              "fixed": true
+            },
+            {
+              "text": "句子 B",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。but 清楚連接兩個完整子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "The only one：唯一者",
+          "meaning": "指出某個群體中唯一符合條件的人或事物。",
+          "usage": "用來表示「唯一」或否定自己是唯一的人。",
+          "prompt": "情境題 Q15： 你不是村裡唯一會修腳踏車的人。",
+          "options": [
+            "I am not the only one can fix bikes here.",
+            "I am not only one who can fix bikes here.",
+            "I am not the only ones who can fix bikes here.",
+            "I am not the only one who can fix bikes here."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。one 後的關係子句缺少 who。",
+            "錯誤。需要 the only one。",
+            "錯誤。only ones 複數與此句不合。",
+            "正確。the only one 是固定名詞結構，後接 who 子句。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「I'm not the only one」",
+          "pattern": [
+            {
+              "text": "the only",
+              "fixed": true
+            },
+            {
+              "text": "one／名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。the only one 是固定名詞結構，後接 who 子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "Hope + finite clause",
+          "meaning": "表達希望某事將發生。",
+          "usage": "邀請朋友將來參與，表達期待。",
+          "prompt": "情境題 Q16： 社區合唱團邀請新鄰居日後來參加。",
+          "options": [
+            "I hope you to join our choir next week.",
+            "I hope you will join our choir next week.",
+            "I hope joining our choir you next week.",
+            "I hope you joining our choir next week."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。hope 不使用 hope + 人 + to V 這種結構。",
+            "正確。hope 後接 you will join 完整子句。",
+            "錯誤。語序不成句。",
+            "錯誤。缺少適當的有限動詞。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「I hope someday you'll join us」",
+          "pattern": [
+            {
+              "text": "hope",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。hope 後接 you will join 完整子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "Someday：未定的未來時間",
+          "meaning": "指未來某一天，但不確定哪一天。",
+          "usage": "談願望、長期計畫或期待。",
+          "prompt": "情境題 Q17： 你想未來某天參觀南極的研究站。",
+          "options": [
+            "Someday, I hope to visit a science station.",
+            "Someday is a station I will visit.",
+            "Yesterday someday, I visited a science station.",
+            "I visit someday yesterday a science station."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。someday 用來表達未來不確定的日期。",
+            "錯誤。someday 不是地點或物體。",
+            "錯誤。yesterday 與 someday 在此衝突。",
+            "錯誤。時間副詞及語序不合理。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「I hope someday you'll join us」",
+          "pattern": [
+            {
+              "text": "someday",
+              "fixed": true
+            },
+            {
+              "text": "未來的情況",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。someday 用來表達未來不確定的日期。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "Will + base verb：未來預期",
+          "meaning": "預測或期待未來發生的事。",
+          "usage": "表達未來的願景或預期。",
+          "prompt": "情境題 Q18： 公園管理員預計新花園明年開放。",
+          "options": [
+            "The new garden will to open next year.",
+            "The new garden will open next year.",
+            "The new garden will opening next year.",
+            "The new garden will opens next year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。will 後不用 to。",
+            "正確。will + open 是未來式。",
+            "錯誤。will 後不用 opening。",
+            "錯誤。will 後不用 opens。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「the world will live as one」",
+          "pattern": [
+            {
+              "text": "主詞 + will",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。will + open 是未來式。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "As one：團結成一體",
+          "meaning": "表示像一個整體一樣協力、團結。",
+          "usage": "團隊彼此合作、共同完成一件事。",
+          "prompt": "情境題 Q19： 街區居民一起清理颱風後的公園。",
+          "options": [
+            "The neighbors worked as ones to clean the park.",
+            "The neighbors worked as one to cleaning the park.",
+            "The neighbors worked as one to clean the park.",
+            "The neighbors worked like one of clean the park."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。慣用語不加複數 s。",
+            "錯誤。目的用 to clean，不是 to cleaning。",
+            "正確。as one 表大家團結一致。",
+            "錯誤。like one of 接法不對。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「the world will live as one」",
+          "pattern": [
+            {
+              "text": "as one",
+              "fixed": true
+            },
+            {
+              "text": "（整體狀態）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。as one 表大家團結一致。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "Wonder + if + statement order",
+          "meaning": "以間接問句表達好奇或不確定。",
+          "usage": "想委婉詢問是否有可能或能否做到某事；歌中省略 can 後面的動詞。",
+          "prompt": "情境題 Q20： 你想知道劇院是否仍有空座位。",
+          "options": [
+            "I wonder if there any seats left.",
+            "I wonder if are there any seats left.",
+            "I wonder if any seats are there left.",
+            "I wonder if there are any seats left."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。缺少 are。",
+            "錯誤。間接問句不用一般疑問句倒裝。",
+            "錯誤。語序不自然。",
+            "正確。if 後用 there are 陳述語序。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「I wonder if you can」",
+          "pattern": [
+            {
+              "text": "wonder + if",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋助動詞／動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。if 後用 there are 陳述語序。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "No need for + noun",
+          "meaning": "表示不需要某樣東西。",
+          "usage": "在說明某物多餘或不必要時；歌詞為省略 there is 的片段。",
+          "prompt": "情境題 Q21： 展覽館提供免費耳機，訪客不必帶自己的。",
+          "options": [
+            "There is no need of your own headphones.",
+            "There is no need for your own headphones.",
+            "There is no need to your own headphones.",
+            "There is no need for bring your own headphones."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。此處慣用 for 而不是 of。",
+            "正確。no need for 後接名詞片語。",
+            "錯誤。to 後面需有動詞。",
+            "錯誤。for 後不直接接動詞原形 bring。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「No need for greed or hunger」",
+          "pattern": [
+            {
+              "text": "no need for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。no need for 後接名詞片語。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "All + the + noun：整體",
+          "meaning": "強調整個範圍，沒有漏掉的部分。",
+          "usage": "表達覆蓋全部展品或全體參與者。",
+          "prompt": "情境題 Q22： 天文館展示整個夜空的星座地圖。",
+          "options": [
+            "The map shows all the stars in the night sky.",
+            "The map shows all a stars in the night sky.",
+            "The map shows all of stars in the night sky.",
+            "The map shows all stars the in night sky."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。all the + 複數名詞表整體。",
+            "錯誤。a 不能直接修飾複數 stars。",
+            "錯誤。all of 後面需加 the 或其他限定詞。",
+            "錯誤。all、the 語序錯。"
+          ],
+          "sourceFile": "Imagine_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「Sharing all the world」",
+          "pattern": [
+            {
+              "text": "all the",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。all the + 複數名詞表整體。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    }
   }
 }

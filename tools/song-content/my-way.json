@@ -2783,5 +2783,1690 @@
     "sha256": "5478ff45b49194c665e725c2d053adb03b29decc3dc6408ca730bdee53e04e8b",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "9fb0da505a9488d25c8aadabfbc43af5f6c2b8b0bddba4952fc2dc4e769d30b2"
+    },
+    {
+      "section": "advanced",
+      "filename": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "4eb7d971537d2e8e84de3b7a1bb868fb998ada6b5b16fac9de21e83fb9199be7"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "be + near",
+          "meaning": "表示某事快到來。",
+          "usage": "活動或階段快要結束。",
+          "prompt": "劇院今晚最後一場表演快結束了。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "The end is near.",
+            "The end are near.",
+            "The end is nearly.",
+            "The end near."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「be + near」。",
+            "錯誤。單數 end 應搭配 is。",
+            "錯誤。nearly 不能直接作表語表示「快結束」。",
+            "錯誤。缺少 be 動詞。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「the end is near」",
+          "pattern": [
+            {
+              "text": "is near",
+              "fixed": true
+            },
+            {
+              "text": "the end",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「be + near」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "and so + 子句",
+          "meaning": "表示「因此／於是」的承接。",
+          "usage": "前面已有背景，接著說結果。",
+          "prompt": "雨終於停了，於是大家走到花園。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "The rain stopped, and so went outside.",
+            "The rain stopped, and so outside.",
+            "The rain stopped, and so we went outside.",
+            "The rain stopped, and so because we went outside."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。後句缺少主詞 we。",
+            "錯誤。缺少完整主詞與動詞。",
+            "正確。語意符合情境，並正確運用「and so + 子句」。",
+            "錯誤。so 和 because 在此重複標示因果，句子不自然。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「And so I face the final curtain」",
+          "pattern": [
+            {
+              "text": "And so",
+              "fixed": true
+            },
+            {
+              "text": "I face the final curtain",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「and so + 子句」。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "will + 原形動詞",
+          "meaning": "用 will 表示接下來要做的事。",
+          "usage": "當場決定、承諾或預告。",
+          "prompt": "有人問你會不會把結果告訴隊友。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I'll telling the team tomorrow.",
+            "I'll tell the team tomorrow.",
+            "I'll told the team tomorrow.",
+            "I'll to tell the team tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。will 後不接 -ing 單獨成句。",
+            "正確。語意符合情境，並正確運用「will + 原形動詞」。",
+            "錯誤。will 後接原形 tell。",
+            "錯誤。will 後不加 to。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「I'll say it clear」",
+          "pattern": [
+            {
+              "text": "I'll say",
+              "fixed": true
+            },
+            {
+              "text": "it clear",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「will + 原形動詞」。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "state + 受詞",
+          "meaning": "清楚陳述立場。",
+          "usage": "會議或討論中說明看法。",
+          "prompt": "市民在會議中要清楚說明自己的計畫。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I will state my plan clearly.",
+            "I will state clearly my plan is.",
+            "I will state my plan to clearly.",
+            "I will state to my plan clearly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「state + 受詞」。",
+            "錯誤。末尾 is 多餘且破壞結構。",
+            "錯誤。to 後沒有受詞，結構不完整。",
+            "錯誤。state 可直接接計畫，不需 to。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「state my case」",
+          "pattern": [
+            {
+              "text": "state",
+              "fixed": true
+            },
+            {
+              "text": "my case",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「state + 受詞」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "介系詞 + which 的關係子句",
+          "meaning": "正式補充前面名詞的資訊。",
+          "usage": "較正式的書面說法。",
+          "prompt": "介紹一幅畫，並說你對其年代很有把握。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "This is the date of that I am certain.",
+            "This is the date which of I am certain.",
+            "This is the date of which I am certain.",
+            "This is the date of which I certain."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。介系詞後不可用 that 作此種關係代名詞。",
+            "錯誤。介系詞應放在 which 前。",
+            "正確。語意符合情境，並正確運用「介系詞 + which 的關係子句」。",
+            "錯誤。缺少 am。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「of which I'm certain」",
+          "pattern": [
+            {
+              "text": "of which",
+              "fixed": true
+            },
+            {
+              "text": "I'm certain",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「介系詞 + which 的關係子句」。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "現在完成式 have + p.p.",
+          "meaning": "表示至今累積的生活經歷。",
+          "usage": "回顧過去一路到現在的經驗。",
+          "prompt": "奶奶回顧自己多年居住海邊的日子。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I have living by the sea for many years.",
+            "I've live by the sea for many years.",
+            "I've living by the sea for many years.",
+            "I've lived by the sea for many years."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。have living 缺少 been，亦非歌中所示的完成式。",
+            "錯誤。have 後需要過去分詞 lived。",
+            "錯誤。完成式不用 living 代替過去分詞。",
+            "正確。語意符合情境，並正確運用「現在完成式 have + p.p.」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「I've lived a life that's full」",
+          "pattern": [
+            {
+              "text": "I've lived",
+              "fixed": true
+            },
+            {
+              "text": "a life",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「現在完成式 have + p.p.」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "that 主格關係子句",
+          "meaning": "用 that 子句描述前面的名詞。",
+          "usage": "想限定或描述是哪一類事物。",
+          "prompt": "導覽員介紹一個仍然開放的花園。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "This is a garden that's today open is.",
+            "This is a garden that's open today.",
+            "This is a garden that open today.",
+            "This is a garden that's opening yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。語序多出 is。",
+            "正確。語意符合情境，並正確運用「that 主格關係子句」。",
+            "錯誤。that 子句缺少 is。",
+            "錯誤。現在進行式與 yesterday 不合。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「a life that's full」",
+          "pattern": [
+            {
+              "text": "that's",
+              "fixed": true
+            },
+            {
+              "text": "a life / full",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「that 主格關係子句」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "each and every + 單數名詞",
+          "meaning": "強調「每一個，無一例外」。",
+          "usage": "強調逐一涵蓋全部。",
+          "prompt": "工作人員要檢查音樂廳的每張椅子。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "We checked each and every chair.",
+            "We checked each and every chair are.",
+            "We checked each and every of chair.",
+            "We checked each and every chairs."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「each and every + 單數名詞」。",
+            "錯誤。末尾 are 多餘。",
+            "錯誤。不應插入 of。",
+            "錯誤。each and every 後通常用單數 chair。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「each and every highway」",
+          "pattern": [
+            {
+              "text": "each and every",
+              "fixed": true
+            },
+            {
+              "text": "highway",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「each and every + 單數名詞」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "比較級 + than",
+          "meaning": "表達遠比某個基準更多。",
+          "usage": "數量或程度比較時。",
+          "prompt": "博物館今天的訪客比昨天多很多。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "There are many more people here that yesterday.",
+            "There are much more people here as yesterday.",
+            "There are many most people here than yesterday.",
+            "There are many more people here than yesterday."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。比較要用 than。",
+            "錯誤。可數 people 用 many，且比較詞是 than。",
+            "錯誤。most 為最高級，不搭配 than。",
+            "正確。語意符合情境，並正確運用「比較級 + than」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「much more than this」",
+          "pattern": [
+            {
+              "text": "much more than",
+              "fixed": true
+            },
+            {
+              "text": "this",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「比較級 + than」。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "方式副詞片語：my way",
+          "meaning": "按照自己的方式做。",
+          "usage": "不同人各有做事方法。",
+          "prompt": "陶藝師選擇自己的方法做花瓶。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I made the pot my ways.",
+            "I made the pot by my way.",
+            "I made the pot my way.",
+            "I made the pot my away."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。此固定用法用單數 way。",
+            "錯誤。此處用 my way，by my way 不自然。",
+            "正確。語意符合情境，並正確運用「方式副詞片語：my way」。",
+            "錯誤。away 不是「我的方式」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「I did it my way」",
+          "pattern": [
+            {
+              "text": "my way",
+              "fixed": true
+            },
+            {
+              "text": "I did it",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「方式副詞片語：my way」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "倒裝主題：名詞提前",
+          "meaning": "先提出話題再補充。",
+          "usage": "口語或歌詞用來突出焦點。",
+          "prompt": "你談到舊地圖，想強調自己收藏了幾張。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "Old maps, I've got a few.",
+            "Old maps, I got few a.",
+            "Old maps, I've a few got.",
+            "Old maps, have got I a few."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「倒裝主題：名詞提前」。",
+            "錯誤。a few 的順序顛倒。",
+            "錯誤。完成式語序錯誤。",
+            "錯誤。陳述句不應用疑問句倒裝。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「Regrets, I've had a few」",
+          "pattern": [
+            {
+              "text": "Regrets,",
+              "fixed": true
+            },
+            {
+              "text": "I have had a few",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「倒裝主題：名詞提前」。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "a few + 可數複數",
+          "meaning": "少量但有一些。",
+          "usage": "談少數可數的人事物。",
+          "prompt": "你有幾張可以送人的音樂會票。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I have a few tickets to share.",
+            "I have few a tickets to share.",
+            "I have a few water to share.",
+            "I have a little tickets to share."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「a few + 可數複數」。",
+            "錯誤。冠詞與量詞順序錯。",
+            "錯誤。water 不可數，不能用 a few。",
+            "錯誤。tickets 可數，應用 a few。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「had a few」",
+          "pattern": [
+            {
+              "text": "a few",
+              "fixed": true
+            },
+            {
+              "text": "regrets",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「a few + 可數複數」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "too + 形容詞 + to V",
+          "meaning": "表示少到不值得做後續動作。",
+          "usage": "程度使後續行動不成立或不必要。",
+          "prompt": "湖上只有極少幾艘船，不值得列清單。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "There are too little boats to list.",
+            "There are too few boats to list.",
+            "There are too few boats list.",
+            "There are too few boats for list."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。boats 為可數名詞，應用 few。",
+            "正確。語意符合情境，並正確運用「too + 形容詞 + to V」。",
+            "錯誤。缺少 to。",
+            "錯誤。for 後不直接接原形 list。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「too few to mention」",
+          "pattern": [
+            {
+              "text": "too few to",
+              "fixed": true
+            },
+            {
+              "text": "mention",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「too + 形容詞 + to V」。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "what + 子句作受詞",
+          "meaning": "what 引出「我必須做的事」。",
+          "usage": "不特指具體任務而概括一件事。",
+          "prompt": "修理師說自己已完成所有必須做的工作。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I did what did I have to do.",
+            "I did what I had to do.",
+            "I did what I had to doing.",
+            "I did what I have to did."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。間接結構不使用疑問倒裝。",
+            "正確。語意符合情境，並正確運用「what + 子句作受詞」。",
+            "錯誤。had to 後要原形 do。",
+            "錯誤。have to 後不能接 did。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「I did what I had to do」",
+          "pattern": [
+            {
+              "text": "what I had to do",
+              "fixed": true
+            },
+            {
+              "text": "I did",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「what + 子句作受詞」。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "have to + 原形動詞",
+          "meaning": "表示過去必須做的事。",
+          "usage": "描述先前的義務或必要行動。",
+          "prompt": "昨天暴雨，園丁必須提早關上大門。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "We had to closed the gate early.",
+            "We had close the gate early.",
+            "We had to close the gate early.",
+            "We had to closing the gate early."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。had to 後接原形。",
+            "錯誤。少了表示義務的 to。",
+            "正確。語意符合情境，並正確運用「have to + 原形動詞」。",
+            "錯誤。had to 後不接 -ing。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「had to do」",
+          "pattern": [
+            {
+              "text": "had to",
+              "fixed": true
+            },
+            {
+              "text": "do",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「have to + 原形動詞」。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "see + 受詞 + through",
+          "meaning": "把艱難的事做到底。",
+          "usage": "承諾要完成計畫時。",
+          "prompt": "一場展覽很難籌辦，但團隊完成了。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "The show was hard to plan, but we saw it across.",
+            "The show was hard to plan, but we saw through it.",
+            "The show was hard to plan, but we saw it over.",
+            "The show was hard to plan, but we saw it through."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。across 並非該片語。",
+            "錯誤。此處片語受詞 it 應放在 saw 與 through 之間。",
+            "錯誤。over 並非該片語。",
+            "正確。語意符合情境，並正確運用「see + 受詞 + through」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「saw it through」",
+          "pattern": [
+            {
+              "text": "saw it through",
+              "fixed": true
+            },
+            {
+              "text": "a task",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「see + 受詞 + through」。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "without + 名詞",
+          "meaning": "表示沒有某種例外或條件。",
+          "usage": "強調做事時沒有某種東西。",
+          "prompt": "每位參觀者都必須帶票，無一例外。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "Everyone needs a ticket, without exception.",
+            "Everyone needs a ticket, without except.",
+            "Everyone needs a ticket, without to except.",
+            "Everyone needs a ticket, without exceptions are."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「without + 名詞」。",
+            "錯誤。介系詞後需名詞 exception。",
+            "錯誤。without 後不用 to except。",
+            "錯誤。末尾 are 多餘。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「without exemption」",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "exemption",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「without + 名詞」。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "each + 單數名詞",
+          "meaning": "逐一指出每個項目。",
+          "usage": "逐項檢查路線、步驟。",
+          "prompt": "領隊仔細查看每條登山小徑。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "She checked each of path carefully.",
+            "She checked each paths carefully.",
+            "She checked each path are carefully.",
+            "She checked each path carefully."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。each of 後要限定的複數集合。",
+            "錯誤。each 後直接接單數名詞。",
+            "錯誤。多了 are。",
+            "正確。語意符合情境，並正確運用「each + 單數名詞」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「each charted course」",
+          "pattern": [
+            {
+              "text": "each",
+              "fixed": true
+            },
+            {
+              "text": "charted course",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「each + 單數名詞」。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "There were + 複數名詞",
+          "meaning": "描述過去存在的事物或時刻。",
+          "usage": "回憶某些過去情況。",
+          "prompt": "以前這座城鎮有兩家小戲院。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "There were two small cinemas is here.",
+            "There was two small cinemas here.",
+            "There were two small cinema here.",
+            "There were two small cinemas here."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。句尾多了 is。",
+            "錯誤。複數 cinemas 要搭配 were。",
+            "錯誤。two 後用複數。",
+            "正確。語意符合情境，並正確運用「There were + 複數名詞」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「there were times」",
+          "pattern": [
+            {
+              "text": "there were",
+              "fixed": true
+            },
+            {
+              "text": "times",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「There were + 複數名詞」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "bite off more than + can chew",
+          "meaning": "比喻接下超出能力的工作。",
+          "usage": "任務過多、無法負荷時。",
+          "prompt": "你同時答應整理三個大型活動，結果忙不過來。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I took on too much work. I bit off more than could I chew.",
+            "I took on too much work. I bit off more as I could chew.",
+            "I took on too much work. I bit off more than I could chew.",
+            "I took on too much work. I bit off more than I could chewing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。子句中不是疑問倒裝。",
+            "錯誤。比較詞要 than。",
+            "正確。語意符合情境，並正確運用「bite off more than + can chew」。",
+            "錯誤。could 後用原形 chew。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「bit off more than I could chew」",
+          "pattern": [
+            {
+              "text": "bit off more than",
+              "fixed": true
+            },
+            {
+              "text": "I could chew",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「bite off more than + can chew」。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "could + 原形動詞",
+          "meaning": "表示過去的能力或假設能做到的程度。",
+          "usage": "談過去能否完成某事。",
+          "prompt": "小時候他就能游過小河。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "At ten, he could swam across the river.",
+            "At ten, he could swimming across the river.",
+            "At ten, he could swim across the river.",
+            "At ten, he could to swim across the river."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。could 後用原形 swim。",
+            "錯誤。不可直接接 swimming。",
+            "正確。語意符合情境，並正確運用「could + 原形動詞」。",
+            "錯誤。could 後不加 to。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「I could chew」",
+          "pattern": [
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "chew",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「could + 原形動詞」。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "when + 過去式子句",
+          "meaning": "指出過去某件事發生的時候。",
+          "usage": "敘述兩個過去事件的時間關係。",
+          "prompt": "當燈熄滅時，觀眾很安靜。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "When the lights went out, everyone quiet.",
+            "When the lights went out, everyone were quiet.",
+            "When the lights goes out yesterday, everyone was quiet.",
+            "When the lights went out, everyone was quiet."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。缺少 was。",
+            "錯誤。everyone 視為單數，用 was。",
+            "錯誤。過去敘事使用 went。",
+            "正確。語意符合情境，並正確運用「when + 過去式子句」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「when there was doubt」",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "there was doubt",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「when + 過去式子句」。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "可分動詞片語：動詞＋代名詞＋up",
+          "meaning": "動詞與小品詞構成片語，it 放中間。",
+          "usage": "描述把某物完全吃光（此處只教語法位置）。",
+          "prompt": "你把最後一小塊餅乾吃光了。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I ate it before up the film.",
+            "I ate up it before the film.",
+            "I ate it up before the film.",
+            "I ate up before it the film."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。up 的位置錯誤。",
+            "錯誤。代名詞 it 在可分片語中需置於中間。",
+            "正確。語意符合情境，並正確運用「可分動詞片語：動詞＋代名詞＋up」。",
+            "錯誤。受詞與 up 的順序不自然。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「I ate it up and spit it out」",
+          "pattern": [
+            {
+              "text": "ate it up",
+              "fixed": true
+            },
+            {
+              "text": "it",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「可分動詞片語：動詞＋代名詞＋up」。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "過去式並列動詞",
+          "meaning": "串連兩個已發生的動作。",
+          "usage": "回顧先後或並列的過去行動。",
+          "prompt": "舞者摔倒後站起，繼續演出。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "She fell, and she stood up again.",
+            "She fell, and stood she up again.",
+            "She fell, and she standing up again.",
+            "She fell, and she stand up again."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「過去式並列動詞」。",
+            "錯誤。主詞與動詞語序顛倒。",
+            "錯誤。缺少助動詞，並列時態不一致。",
+            "錯誤。過去式應是 stood。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「I faced it all and I stood tall」",
+          "pattern": [
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "I stood tall",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「過去式並列動詞」。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "現在完成式並列：have + p.p.",
+          "meaning": "回顧人生累積的多種經歷。",
+          "usage": "總結從過去到現在的體驗。",
+          "prompt": "退休的演員談自己多年的表演。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I've acted, I've sang, and I've dance.",
+            "I've acted, I've sung, and I've danced.",
+            "I've act, I've sing, and I've dance.",
+            "I've acting, I've singing, and I've dancing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。最後 dance 應用 danced。",
+            "正確。語意符合情境，並正確運用「現在完成式並列：have + p.p.」。",
+            "錯誤。have 後都需過去分詞。",
+            "錯誤。have 後不可單獨接 -ing。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「I've loved, I've laughed and cried」",
+          "pattern": [
+            {
+              "text": "I've loved",
+              "fixed": true
+            },
+            {
+              "text": "I've laughed and cried",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「現在完成式並列：have + p.p.」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "have one’s fill",
+          "meaning": "表示已經享受或承受足夠。",
+          "usage": "不想再接受更多時。",
+          "prompt": "嚐了許多甜點之後已經吃夠了。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I've had my fill to cake today.",
+            "I've had my filled of cake today.",
+            "I've had my fill of cake today.",
+            "I've had my fill cake today."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。此片語連接對象用 of。",
+            "錯誤。fill 在這裡是名詞，不用 filled。",
+            "正確。語意符合情境，並正確運用「have one’s fill」。",
+            "錯誤。缺少 of。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「had my fill」",
+          "pattern": [
+            {
+              "text": "had my fill",
+              "fixed": true
+            },
+            {
+              "text": "of something",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「have one’s fill」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "as + 子句（當……時）",
+          "meaning": "表示兩件事同時發生。",
+          "usage": "描寫變化期間另一件事發生。",
+          "prompt": "隨著雨勢變小，群眾走出帳篷。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "As the rain stop, people leave the tent.",
+            "As the rain stops, people leaving the tent.",
+            "As the rain stops people are leave the tent.",
+            "As the rain stops, people leave the tent."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。單數 rain 的動詞加 -s。",
+            "錯誤。主句缺少完整動詞。",
+            "錯誤。are leave 不正確。",
+            "正確。語意符合情境，並正確運用「as + 子句（當……時）」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「as tears subside」",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "tears subside",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「as + 子句（當……時）」。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "find + 受詞 + 形容詞",
+          "meaning": "表示覺得某事具有某種特質。",
+          "usage": "分享對活動、書籍或故事的感受。",
+          "prompt": "你覺得新展覽很有趣。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "I find the new show very interesting.",
+            "I find very interesting the new show is.",
+            "I find the new show very interest.",
+            "I find the new show to interesting."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。語意符合情境，並正確運用「find + 受詞 + 形容詞」。",
+            "錯誤。詞序及句尾 is 不自然。",
+            "錯誤。需要形容詞 interesting。",
+            "錯誤。to 後缺少 be，且不屬歌詞句型。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "「I find it all so amusing」",
+          "pattern": [
+            {
+              "text": "find it",
+              "fixed": true
+            },
+            {
+              "text": "so amusing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「find + 受詞 + 形容詞」。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "may I + 原形動詞？",
+          "meaning": "禮貌請求發言許可。",
+          "usage": "會議中想打斷並提出意見。",
+          "prompt": "你想在董事會上簡短說一件事。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "May I said one thing?",
+            "May I say one thing?",
+            "May I saying one thing?",
+            "May I to say one thing?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。may 後不接過去式 said。",
+            "正確。語意符合情境，並正確運用「may I + 原形動詞？」。",
+            "錯誤。may 後用原形。",
+            "錯誤。may 後不加 to。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "「may I say」",
+          "pattern": [
+            {
+              "text": "may I",
+              "fixed": true
+            },
+            {
+              "text": "say",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「may I + 原形動詞？」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "if not ..., then ...",
+          "meaning": "省略式條件，先排除情況再給出結果。",
+          "usage": "較修辭性的對比與推論。",
+          "prompt": "如果不是今天，就改成明天。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "If not today, than tomorrow.",
+            "If not today, then tomorrow.",
+            "If no today, then tomorrow.",
+            "If not today, tomorrow then is."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。表示結果用 then，不是 than。",
+            "正確。語意符合情境，並正確運用「if not ..., then ...」。",
+            "錯誤。此省略結構用 not。",
+            "錯誤。後半語序不自然。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "「If not himself, then he has naught」",
+          "pattern": [
+            {
+              "text": "If not",
+              "fixed": true
+            },
+            {
+              "text": "himself, then he has naught",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「if not ..., then ...」。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "名詞 + who 關係子句",
+          "meaning": "who 引出對人的描述。",
+          "usage": "描述哪一位人。",
+          "prompt": "你在找一位會修理鐘的人。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "We need someone who fix can clocks.",
+            "We need someone which can fix clocks.",
+            "We need someone who can fixes clocks.",
+            "We need someone who can fix clocks."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。助動詞位置錯誤。",
+            "錯誤。指人通常用 who。",
+            "錯誤。can 後用原形 fix。",
+            "正確。語意符合情境，並正確運用「名詞 + who 關係子句」。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "「one who kneels」",
+          "pattern": [
+            {
+              "text": "one who",
+              "fixed": true
+            },
+            {
+              "text": "kneels",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「名詞 + who 關係子句」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 32,
+          "word": "一般現在式第三人稱單數",
+          "meaning": "敘述資料或證據顯示的事實。",
+          "usage": "解說紀錄、圖表、報告。",
+          "prompt": "表格顯示花園今天有十二朵新花。 哪一句英文最適合，且符合本題句型？",
+          "options": [
+            "The chart showing twelve new flowers.",
+            "The chart shows twelve new flowers.",
+            "The chart shows are twelve new flowers.",
+            "The chart show twelve new flowers."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。單獨 showing 缺 be。",
+            "正確。語意符合情境，並正確運用「一般現在式第三人稱單數」。",
+            "錯誤。shows 後不需 are。",
+            "錯誤。chart 單數，要 shows。"
+          ],
+          "sourceFile": "My_Way_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 32,
+          "cue": "「The record shows」",
+          "pattern": [
+            {
+              "text": "shows",
+              "fixed": true
+            },
+            {
+              "text": "The record",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。語意符合情境，並正確運用「一般現在式第三人稱單數」。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "final curtain",
+          "meaning": "最後一幕；比喻人生或事物的終點",
+          "usage": "常用於表演結束，也可詩意地指人生落幕。",
+          "prompt": "哪一句正確使用「final curtain」？",
+          "options": [
+            "At the final curtain, the actors bowed to everyone.",
+            "The cook added a final curtain to the hot soup.",
+            "We took the final curtain to the airport by bus.",
+            "The final curtain is a kind of winter coat."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：最後落幕時，演員向觀眾鞠躬。",
+            "不能把舞台帷幕當湯的配料。",
+            "不能把它當交通工具或乘車方式。",
+            "final curtain 不是冬衣名稱。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：最後落幕時，演員向觀眾鞠躬。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "state my case",
+          "meaning": "清楚陳述自己的理由、立場",
+          "usage": "想正式說明為何自己支持某項決定時使用。",
+          "prompt": "哪一句正確使用「state my case」？",
+          "options": [
+            "I will state my case before the group makes a choice.",
+            "The driver stated his case by turning left at the light.",
+            "I will state my case on the shelf with the plates.",
+            "We stated our case by painting the gate blue."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：在大家做決定前先陳述自己的理由。",
+            "轉彎是駕駛動作，不等於陳述論點。",
+            "case 在此不是可放在盤子旁的箱子。",
+            "把門漆成藍色不能清楚說明立場。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：在大家做決定前先陳述自己的理由。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "certain",
+          "meaning": "確信的、有把握的",
+          "usage": "be certain that... 表示有充分把握某事為真。",
+          "prompt": "哪一句正確使用「certain」？",
+          "options": [
+            "I put certain under the bed before leaving home.",
+            "I am certain that I locked the door this morning.",
+            "She bought three certain tickets for the museum.",
+            "The bus was certain because its seats were yellow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "certain 不是可存放的物品。",
+            "正確：確定今天早上有鎖門。",
+            "certain 是形容詞，這裡沒有合理的修飾意思。",
+            "座位顏色不表示有把握。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：確定今天早上有鎖門。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "mention",
+          "meaning": "提及、順帶說到",
+          "usage": "mention + 人／事情；表示簡短說到，無須詳細解釋。",
+          "prompt": "哪一句正確使用「mention」？",
+          "options": [
+            "He mentioned the window open with his old key.",
+            "She mentioned to close the radio with a sandwich.",
+            "The dog mentioned across the road very quickly.",
+            "Please mention the new meeting time to our team."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "若要說用鑰匙開窗，應用 opened。",
+            "這不是 mention 的自然結構，且情境不合理。",
+            "mention 是「提到」，不是穿越馬路。",
+            "正確：向團隊提及新的開會時間。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：向團隊提及新的開會時間。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "exemption",
+          "meaning": "豁免、免除某項義務",
+          "usage": "通常出現在規則、費用、稅務等正式情境；without exemption 指沒有豁免。",
+          "prompt": "哪一句正確使用「exemption」？",
+          "options": [
+            "We cooked an exemption for breakfast on Saturday.",
+            "Every student must pay the fee without exemption.",
+            "My brother wore an exemption to play football outside.",
+            "The train arrived exemption because the weather was cold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "豁免不是早餐食物。",
+            "正確：所有學生都必須繳費，沒有豁免。",
+            "exemption 不是可以穿的衣服。",
+            "exemption 不能代替表示到站方式的副詞。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：所有學生都必須繳費，沒有豁免。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "charted course",
+          "meaning": "已規劃、標示好的路線；引申為規劃方向",
+          "usage": "charted 表已標在地圖上或已仔細規劃；較偏正式。",
+          "prompt": "哪一句正確使用「charted course」？",
+          "options": [
+            "She charted a course with a spoon inside her bag.",
+            "The captain checked the charted course before leaving port.",
+            "The charted course was a song we ate at lunch.",
+            "He charted the course to turn his shoes into milk."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "用湯匙在包包裡無法自然地規劃航線。",
+            "正確：船長出港前檢查規劃好的航線。",
+            "路線不是可以吃的歌曲。",
+            "目的與動作不合邏輯，非自然用法。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：船長出港前檢查規劃好的航線。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "byway",
+          "meaning": "小路、偏僻道路（較文學／正式）",
+          "usage": "談鄉間道路、旅行路線時使用；日常更常說 small road。",
+          "prompt": "哪一句正確使用「byway」？",
+          "options": [
+            "We took a quiet byway to reach the small village.",
+            "The teacher drank the byway before our math test.",
+            "The byway was late, so we waited for another bus.",
+            "She put a byway on her head when it rained."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：走安靜的小路前往村莊。",
+            "小路不能被喝下去。",
+            "小路不是會遲到的公車。",
+            "byway 不是雨帽。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：走安靜的小路前往村莊。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "doubt",
+          "meaning": "懷疑、不確定；疑慮",
+          "usage": "have doubts 或 there is doubt 表對結果、資訊沒有把握。",
+          "prompt": "哪一句正確使用「doubt」？",
+          "options": [
+            "My father drove his doubt to work every morning.",
+            "The nurse put doubt into a bag for the long trip.",
+            "We used some doubt to fix the broken chair.",
+            "There was doubt about the plan, so we checked it again."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "懷疑不能當車輛駕駛。",
+            "doubt 是抽象概念，不是可打包物品。",
+            "doubt 不是修理椅子的材料。",
+            "正確：對計畫有疑慮，因此再次檢查。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：對計畫有疑慮，因此再次檢查。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "spit it out",
+          "meaning": "吐出來；口語也指「有話快說」",
+          "usage": "可指吐出食物，也可催促猶豫的人把話說出來；語氣可能不客氣。",
+          "prompt": "哪一句正確使用「spit it out」？",
+          "options": [
+            "Please spit it out the lights before you leave.",
+            "My aunt spat out a chair to make the room bigger.",
+            "If the milk tastes bad, spit it out right away.",
+            "The coach spat it out into the team bus schedule."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "關燈應說 turn off the lights。",
+            "不能把椅子「吐出來」讓房間變大。",
+            "正確：牛奶變味時，把它吐出來。",
+            "不能用此片語表示編制公車時刻表。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：牛奶變味時，把它吐出來。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "subside",
+          "meaning": "逐漸減弱、平息、消退",
+          "usage": "常與 pain, fear, rain, tears 等搭配；不是瞬間消失。",
+          "prompt": "哪一句正確使用「subside」？",
+          "options": [
+            "She subsided her new shoes before going outside.",
+            "The children subsided their homework into a drawer.",
+            "After some time, the heavy rain began to subside.",
+            "The taxi subsided us at the train station at six."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "穿新鞋應說 put on her new shoes。",
+            "subside 通常不如此表示收納作業。",
+            "正確：大雨過了一段時間開始減弱。",
+            "計程車載人到車站應說 took 或 dropped off。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：大雨過了一段時間開始減弱。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "amusing",
+          "meaning": "有趣好笑的、令人發笑的",
+          "usage": "形容事情有趣而令人覺得好笑；不同於 amazing「令人驚嘆」。",
+          "prompt": "哪一句正確使用「amusing」？",
+          "options": [
+            "Her funny story was so amusing that we all laughed.",
+            "The street was amusing because its length was two miles.",
+            "He amusing the door before his friends arrived.",
+            "Our train is amusing at exactly half past eight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：故事很好笑，大家都笑了。",
+            "道路的長度不代表它有趣好笑。",
+            "amusing 是形容詞，不能作開門動詞。",
+            "列車時間資訊與「好笑」無關。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：故事很好笑，大家都笑了。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "naught",
+          "meaning": "沒有、零、一無所有（古典／文學語氣）",
+          "usage": "較古老或詩意的用法；一般日常多用 nothing。",
+          "prompt": "哪一句正確使用「naught」？",
+          "options": [
+            "We arrived naught at the station before sunrise.",
+            "The children bought naught shoes to wear in the snow.",
+            "He had naught left after losing all his money.",
+            "She made naught a cake for her friend yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "naught 不是表示到達時間的副詞。",
+            "naught 不能直接充當一般形容詞修飾鞋。",
+            "正確：失去所有錢後，他什麼也沒剩。",
+            "句子缺乏自然語序，不能用來表示烤蛋糕。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：失去所有錢後，他什麼也沒剩。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "kneels",
+          "meaning": "跪下、屈膝（kneel 的第三人稱單數）",
+          "usage": "表示以一或雙膝跪下；歌詞也可象徵屈從。",
+          "prompt": "哪一句正確使用「kneels」？",
+          "options": [
+            "The office kneels at nine and closes at six.",
+            "My sister kneels a train to visit her friend.",
+            "He kneels the soup to make it taste sweeter.",
+            "The gardener kneels to plant flowers near the fence."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "辦公室開門營業不能用 kneels。",
+            "搭火車應說 takes a train。",
+            "kneel 不是調味動詞。",
+            "正確：園丁跪著在圍欄旁種花。"
+          ],
+          "sourceFile": "My_Way_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確：園丁跪著在圍欄旁種花。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -3154,5 +3154,1193 @@
     "sha256": "17d852cab6119ae37a6b62c5f936a5f4ab3a1bbdb99d63c2a035060a91ce5c7d",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "2c35e0ce58a83fa501999330da3b3c57a9616311e91244ed172fbb494c26dade"
+    },
+    {
+      "section": "advanced",
+      "filename": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "9761cd6e4539f21386ed35ad4c9511ccb246cd3444ae83c2c272bfbc9855c531"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "ain’t + 名詞片語的否定判斷",
+          "meaning": "表示「不是」；ain’t 是非標準口語。",
+          "usage": "歌曲或角色對話中辨認這種否定；正式書寫另用 is not。",
+          "prompt": "· 情境： 主持人澄清這場表演是科學示範，並無魔術成分。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "This ain’t show a magic.",
+            "This ain’t a magic show; it is science.",
+            "This ain’t a showing magic.",
+            "This ain’t to magic show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。缺少名詞前的冠詞，語序也不自然。",
+            "正確。ain’t 在此取代 is not，後面接名詞片語。",
+            "錯誤。showing magic 在此不是自然的名詞片語。",
+            "錯誤。to 不能取代冠詞 a。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "This ain't a song",
+          "pattern": [
+            {
+              "text": "ain’t",
+              "fixed": true
+            },
+            {
+              "text": "a song",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。ain’t 在此取代 is not，後面接名詞片語。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "the + 形容詞：指一類人",
+          "meaning": "「傷心的人們」；形容詞帶 the 可指群體。",
+          "usage": "要概括某類人而非描述單一人物時。",
+          "prompt": "· 情境： 公益電影想讓失去摯愛的人得到支持。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The broken-hearted is a blue chair.",
+            "The broken-heartedly need help.",
+            "The broken-hearted needs a ticket each.",
+            "The broken-hearted need kindness."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。不能把人的群體說成一張椅子。",
+            "錯誤。broken-heartedly 不是歌中這個名詞化結構。",
+            "錯誤。群體在此應配 need，不是 needs。",
+            "正確。the broken-hearted 在此指一群人，配複數動詞。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "the broken-hearted",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "broken-hearted",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。the broken-hearted 在此指一群人，配複數動詞。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "no + 形容詞 + 名詞",
+          "meaning": "用 no 直接否定整個名詞片語。",
+          "usage": "標語、公告與詩句可省略動詞，強調沒有某事。",
+          "prompt": "· 情境： 展覽館貼出「館內禁止大聲音樂」的短標示。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "No loud music inside.",
+            "No music loudly inside is.",
+            "No loudly music inside.",
+            "Not loud music inside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。no 可以直接修飾名詞 music。",
+            "錯誤。末尾 is 讓片語語法不完整。",
+            "錯誤。loudly 是副詞，不能直接修飾 music。",
+            "錯誤。not 不能直接在此替代 no 修飾名詞。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "No silent prayer",
+          "pattern": [
+            {
+              "text": "No + adjective",
+              "fixed": true
+            },
+            {
+              "text": "prayer",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。no 可以直接修飾名詞 music。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be gonna + 原形動詞：口語未來",
+          "meaning": "gonna 是 going to 的非正式口語寫法。",
+          "usage": "談已預想、將發生的事情；正式寫作不用 gonna。",
+          "prompt": "· 情境： 導覽員說遊客稍後會看到海豚。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "You gonna to see dolphins soon.",
+            "You’re gonna sees dolphins soon.",
+            "You’re gonna seeing dolphins soon.",
+            "You’re gonna see dolphins soon."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。缺少 be，且多了 to。",
+            "錯誤。sees 不是動詞原形。",
+            "錯誤。gonna 後不能用 seeing。",
+            "正確。gonna 後面直接用動詞原形 see。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "You're gonna hear my voice",
+          "pattern": [
+            {
+              "text": "be + gonna",
+              "fixed": true
+            },
+            {
+              "text": "hear",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。gonna 後面直接用動詞原形 see。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "when + 現在式子句",
+          "meaning": "用 when 表達某事發生的時候。",
+          "usage": "描述習慣性時機或安排中的時間。",
+          "prompt": "· 情境： 舞臺燈亮起時，演員才走出來。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "When the lights comes on, the actor walks out.",
+            "When the lights come on, the actor walks out.",
+            "When the lights coming on, the actor walks out.",
+            "When the lights come on the actor walks out yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。複數 lights 應用 come。",
+            "正確。when 後為完整現在式子句，主句動作隨之發生。",
+            "錯誤。缺少 are 才能形成進行式。",
+            "錯誤。yesterday 和此處習慣現在式衝突。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "When I shout it out loud",
+          "pattern": [
+            {
+              "text": "When + subject + present verb",
+              "fixed": true
+            },
+            {
+              "text": "I shout",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。when 後為完整現在式子句，主句動作隨之發生。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "shout + 受詞 + out loud",
+          "meaning": "把話大聲喊出來。",
+          "usage": "需要勇敢地說出自己想法時。",
+          "prompt": "· 情境： 合唱團要一起喊出隊名。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The team shouted its name out loud.",
+            "The team shouted its name out loudness.",
+            "The team shouted its name out quiet.",
+            "The team shouted out loud its name to."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。out loud 是表示出聲、清楚喊出的副詞片語。",
+            "錯誤。loudness 是名詞，不是副詞片語。",
+            "錯誤。out quiet 不是合適搭配。",
+            "錯誤。結尾 to 缺少對象，整句不完整。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "shout it out loud",
+          "pattern": [
+            {
+              "text": "shout + object + out loud",
+              "fixed": true
+            },
+            {
+              "text": "it",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。out loud 是表示出聲、清楚喊出的副詞片語。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "It’s now or never：固定抉擇句",
+          "meaning": "「就是現在，否則可能永遠沒機會」。",
+          "usage": "面對稍縱即逝的機會作決定時。",
+          "prompt": "· 情境： 最後一班渡輪準備開走。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The last boat is leaving. It’s now or always yesterday!",
+            "The last boat is leaving. It’s now or never!",
+            "The last boat is leaving. It’s now and never!",
+            "The last boat is leaving. It’s a now or never!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。always yesterday 時間自相矛盾。",
+            "正確。now or never 是固定搭配，表示機會緊迫。",
+            "錯誤。and 不能表達二擇一。",
+            "錯誤。此固定句不加冠詞 a。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "It's now or never",
+          "pattern": [
+            {
+              "text": "It’s",
+              "fixed": true
+            },
+            {
+              "text": "now or never",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。now or never 是固定搭配，表示機會緊迫。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "want to + 原形動詞（歌曲 wanna）",
+          "meaning": "wanna 為 want to 的非正式縮讀。",
+          "usage": "說自己希望做某事，尤其口語或歌詞。",
+          "prompt": "· 情境： 陶藝家只想做一個小花瓶。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "I just wanna make one small vase.",
+            "I just wanna made one small vase.",
+            "I just wanna making one small vase.",
+            "I just wanna to make one small vase."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。wanna 已包含 to，後接原形 make。",
+            "錯誤。made 不是動詞原形。",
+            "錯誤。不可用 making。",
+            "錯誤。wanna 後不重複 to。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I just wanna live",
+          "pattern": [
+            {
+              "text": "wanna + base verb",
+              "fixed": true
+            },
+            {
+              "text": "live",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。wanna 已包含 to，後接原形 make。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "while + 現在式：同時發生",
+          "meaning": "while 表示「在……期間」。",
+          "usage": "談某段持續狀態中發生的事。",
+          "prompt": "· 情境： 畫家在陽光還充足時畫畫。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "I paint while the room is bright.",
+            "I paint while is the room bright.",
+            "I paint while the room be bright.",
+            "I paint while the room bright."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。while 後接完整主詞、be 動詞和補語。",
+            "錯誤。這不是疑問句，應用陳述語序。",
+            "錯誤。be 未配合主詞變化。",
+            "錯誤。少了 is。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "while I'm alive",
+          "pattern": [
+            {
+              "text": "while + subject + be + adjective",
+              "fixed": true
+            },
+            {
+              "text": "I’m alive",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。while 後接完整主詞、be 動詞和補語。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "be like + 名詞：比喻",
+          "meaning": "說某物「像」另一物，形成明喻。",
+          "usage": "用熟悉的物件形容感受或特徵。",
+          "prompt": "· 情境： 老師說這個新計畫就像一座橋。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The new plan likes a bridge.",
+            "The new plan is like to a bridge.",
+            "The new plan is like a bridge.",
+            "The new plan is liked a bridge."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。likes 是「喜歡」，不是此處的比喻。",
+            "錯誤。like 後不用 to。",
+            "正確。is like + 名詞用於比喻。",
+            "錯誤。is liked 表示被喜歡，意思不同。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "My heart is like an open highway",
+          "pattern": [
+            {
+              "text": "be + like",
+              "fixed": true
+            },
+            {
+              "text": "an open highway",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。is like + 名詞用於比喻。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "like + 主詞 + 過去式：引用某人說法",
+          "meaning": "「正如某人說過的」。",
+          "usage": "引用先前的說法時。",
+          "prompt": "· 情境： 朋友想起導遊之前提醒的話。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "Like our guide said, the path is narrow.",
+            "Like our guide say, the path is narrow yesterday.",
+            "Like our guide saying, the path is narrow.",
+            "Like said our guide, the path is narrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。like 引出比較／引用，said 是完整過去式。",
+            "錯誤。過去式應用 said。",
+            "錯誤。saying 缺少適當的限定動詞。",
+            "錯誤。陳述句主詞動詞語序顛倒。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Like Frankie said",
+          "pattern": [
+            {
+              "text": "Like + person + past verb",
+              "fixed": true
+            },
+            {
+              "text": "Frankie said",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。like 引出比較／引用，said 是完整過去式。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "do + 受詞 + my way",
+          "meaning": "照某人自己的方式做事。",
+          "usage": "想強調方法或自主選擇時。",
+          "prompt": "· 情境： 木匠決定用自己的方式製作椅子。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "I built the chair to my way.",
+            "I built the chair my way.",
+            "I built the chair my ways.",
+            "I built the chair at my way."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。to my way 不是此搭配。",
+            "正確。my way 作方式副詞片語，無需介系詞。",
+            "錯誤。此處不用複數 ways。",
+            "錯誤。at my way 不是自然搭配。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I did it my way",
+          "pattern": [
+            {
+              "text": "do + object + possessive way",
+              "fixed": true
+            },
+            {
+              "text": "it my way",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。my way 作方式副詞片語，無需介系詞。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "for + the ones + who 關係子句",
+          "meaning": "who 說明「那些人」是誰。",
+          "usage": "需指出一群人中具有特定行為的人時。",
+          "prompt": "· 情境： 獎項頒給在風雨中仍協助鄰居的人。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The prize is for the ones who helping their neighbors.",
+            "The prize is for the ones which helped their neighbors.",
+            "The prize is for the ones who helped their neighbors.",
+            "The prize is for the ones who helps their neighbors."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。who 後缺少限定動詞。",
+            "錯誤。which 在此不用來指這些人。",
+            "正確。who 引導修飾人的關係子句。",
+            "錯誤。ones 是複數，應用 help 或 helped。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "the ones who stood their ground",
+          "pattern": [
+            {
+              "text": "the ones + who",
+              "fixed": true
+            },
+            {
+              "text": "stood their ground",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。who 引導修飾人的關係子句。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "stand one’s ground",
+          "meaning": "受到壓力時仍堅守自己的立場。",
+          "usage": "需要堅持自己認為對的事時。",
+          "prompt": "· 情境： 社區居民堅持保留小公園。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The neighbors stood the ground their.",
+            "The neighbors standed their ground yesterday.",
+            "The neighbors stood their ground and saved the park.",
+            "The neighbors stood their ground into the bus."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。所有格 their 應放在 ground 前。",
+            "錯誤。stand 過去式是不規則 stood。",
+            "正確。stood their ground 是過去式固定片語。",
+            "錯誤。into the bus 與堅持立場無關。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "stood their ground",
+          "pattern": [
+            {
+              "text": "stand + possessive + ground",
+              "fixed": true
+            },
+            {
+              "text": "their ground",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。stood their ground 是過去式固定片語。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "who + never + 過去式",
+          "meaning": "never 表示過去從未做某事。",
+          "usage": "描述一個人一貫不曾退讓的表現。",
+          "prompt": "· 情境： 攝影師從不在困難的拍攝中放棄。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "She was a photographer who never giving up.",
+            "She was a photographer who never gives up yesterday.",
+            "She was a photographer who never give up.",
+            "She was a photographer who never gave up."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。缺少限定動詞。",
+            "錯誤。昨天的過去時間應用過去式。",
+            "錯誤。過去敘述中動詞應為 gave。",
+            "正確。never 修飾過去式 gave，搭配過去敘事。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "who never backed down",
+          "pattern": [
+            {
+              "text": "who + never",
+              "fixed": true
+            },
+            {
+              "text": "backed down",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。never 修飾過去式 gave，搭配過去敘事。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "get + 比較級：變得更……",
+          "meaning": "表示狀態逐漸變得更……。",
+          "usage": "談天氣、任務或生活逐漸變化。",
+          "prompt": "· 情境： 夜晚漸漸變冷，露營者拿出外套。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "The night getting colder, so we need coats.",
+            "The night is getting coldest than before.",
+            "The night is getting colder, so we need coats.",
+            "The night is getting more coldest, so we need coats."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。現在進行式少了 is。",
+            "錯誤。最高級 coldest 不能這樣搭配 than。",
+            "正確。getting colder 表示正在變得更冷。",
+            "錯誤。more 和 coldest 混合了比較級／最高級。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Tomorrow's getting harder",
+          "pattern": [
+            {
+              "text": "get + comparative adjective",
+              "fixed": true
+            },
+            {
+              "text": "harder",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。getting colder 表示正在變得更冷。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "make no mistake：強調提醒",
+          "meaning": "強調「別弄錯了／務必明白」。",
+          "usage": "要明確提醒別人某件事時。",
+          "prompt": "· 情境： 登山隊長提醒大家山路很陡。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "Make no mistake this hill into a cup.",
+            "Make not mistake: this hill is steep.",
+            "Make no mistake: this hill is steep.",
+            "Made no mistake: this hill will steep."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。語意變成荒謬的變形動作。",
+            "錯誤。固定表達使用 no，不是 not。",
+            "正確。此固定話語後可用冒號接提醒事項。",
+            "錯誤。will 後缺少 be。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "make no mistake",
+          "pattern": [
+            {
+              "text": "make no mistake",
+              "fixed": true
+            },
+            {
+              "text": "(following claim)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。此固定話語後可用冒號接提醒事項。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "have got to + 原形動詞（省略主語）",
+          "meaning": "「必須……」；歌詞省略了主語與 have。",
+          "usage": "辨識歌詞中省略的義務表達；標準完整句另行示範。",
+          "prompt": "· 情境： 演唱會結束後，工作人員必須關好門。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "Got to locking the doors before leaving.",
+            "Got to lock to the doors before leaving.",
+            "Got to locked the doors before leaving.",
+            "Got to lock the doors before leaving."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。locking 不是原形。",
+            "錯誤。lock 是及物動詞，這裡不加 to。",
+            "錯誤。locked 不是原形。",
+            "正確。歌詞式簡略口語 Got to 後接原形。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Got to make your own breaks",
+          "pattern": [
+            {
+              "text": "Got to + base verb",
+              "fixed": true
+            },
+            {
+              "text": "make",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。歌詞式簡略口語 Got to 後接原形。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "own + 名詞：自己的",
+          "meaning": "own 強調是自己擁有、自己創造的。",
+          "usage": "強調不是別人替自己準備的。",
+          "prompt": "· 情境： 手作市集鼓勵大家設計自己的海報。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "Make your owns poster for the fair.",
+            "Make your own poster for the fair.",
+            "Make your poster own for the fair.",
+            "Make your ownly poster for the fair."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。own 不加複數 s。",
+            "正確。own 在此放在名詞前強調「自己的」。",
+            "錯誤。own 在此應位於 poster 前。",
+            "錯誤。ownly 不是自然用法。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "your own breaks",
+          "pattern": [
+            {
+              "text": "your own",
+              "fixed": true
+            },
+            {
+              "text": "breaks",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。own 在此放在名詞前強調「自己的」。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "Better + 原形動詞：口語勸告",
+          "meaning": "省略 You had 的口語建議或警告。",
+          "usage": "對某人提出急切提醒時。",
+          "prompt": "· 情境： 排練快開始，朋友提醒隊友準備。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "Better got ready; the show starts soon.",
+            "Better get ready; the show starts soon.",
+            "Better to get ready; the show starts soon.",
+            "Better getting ready; the show starts soon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。got 不是原形。",
+            "正確。歌詞式 Better 後直接接原形 get。",
+            "錯誤。此處省略式後不用 to。",
+            "錯誤。getting 不是原形。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Better stand tall",
+          "pattern": [
+            {
+              "text": "Better + base verb",
+              "fixed": true
+            },
+            {
+              "text": "stand tall",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。歌詞式 Better 後直接接原形 get。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "when + 現在進行式",
+          "meaning": "表示「當某人正在做……時」。",
+          "usage": "需要把正在發生的行動當背景時。",
+          "prompt": "· 情境： 當朋友正在喊她名字時，她走上舞台。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "She smiles when her friends calling her.",
+            "She smiles when her friends is calling her.",
+            "She smiles when are calling her friends.",
+            "She smiles when her friends are calling her."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。進行式缺少 are。",
+            "錯誤。friends 複數不能用 is。",
+            "錯誤。when 子句應先主詞再動詞。",
+            "正確。複數 friends 配 are calling。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "when they're calling you out",
+          "pattern": [
+            {
+              "text": "when + subject + be + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "they’re calling",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。複數 friends 配 are calling。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "否定祈使句：Don’t + 原形",
+          "meaning": "直接勸告或要求「不要……」。",
+          "usage": "警告或鼓勵別人避免某動作時。",
+          "prompt": "· 情境： 陶藝老師提醒不要碰未乾的作品。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "Don’t touch the wet clay.",
+            "Don’t to touch the wet clay.",
+            "Don’t touching the wet clay.",
+            "Doesn’t touch the wet clay."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。否定祈使句是 Don’t 加原形 touch。",
+            "錯誤。Don’t 後不用 to。",
+            "錯誤。不可用 touching。",
+            "錯誤。doesn’t 是陳述句結構，不是這個祈使形式。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Don't bend, don't break",
+          "pattern": [
+            {
+              "text": "Don’t + base verb",
+              "fixed": true
+            },
+            {
+              "text": "bend / break",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。否定祈使句是 Don’t 加原形 touch。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "back down：在壓力下退讓",
+          "meaning": "在壓力或反對下退縮。",
+          "usage": "鼓勵他人堅守有理的立場時。",
+          "prompt": "· 情境： 棋手輸了第一局仍堅持繼續。 請選出唯一符合此句型、自然且正確的英文。",
+          "options": [
+            "She lost the first game but did not backed down.",
+            "She lost the first game but did not back to down.",
+            "She lost the first game but did not back down.",
+            "She lost the first game but did not back downed."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。did not 後應用 back 原形。",
+            "錯誤。片語中間不加 to。",
+            "正確。back down 是不及物片語，助動詞後用原形。",
+            "錯誤。down 不是可加 -ed 的動詞。"
+          ],
+          "sourceFile": "Its_My_Life_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "don't back down",
+          "pattern": [
+            {
+              "text": "back down",
+              "fixed": true
+            },
+            {
+              "text": "(under pressure)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。back down 是不及物片語，助動詞後用原形。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "prayer",
+          "meaning": "祈禱；祈求（名詞）",
+          "usage": "談祈禱、心中的願望或宗教活動；say a prayer 是常見搭配。",
+          "prompt": "哪一句正確使用「prayer」？",
+          "options": [
+            "My cousin wore a prayer for the school concert.",
+            "Before the trip, Mia said a quiet prayer for her family.",
+            "The teacher swallowed a prayer with a glass of milk.",
+            "The singer bought a prayer from a shop to repair her guitar."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：prayer 並不是演出時穿的衣物。",
+            "正確：say a prayer for someone 表示為某人祈禱。",
+            "錯誤：prayer 不是可喝下去的東西；喝牛奶應直接說 drank milk。",
+            "錯誤：祈禱不是用來修理樂器的商品。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "參考程度：：B1",
+          "explanation": "正確：say a prayer for someone 表示為某人祈禱。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "faith-departed",
+          "meaning": "失去信念或信仰的人（歌詞中的創作性合成詞）",
+          "usage": "辨識歌詞的文學性構詞；這不是日常英文的標準固定詞。",
+          "prompt": "哪一句正確使用「faith-departed」？",
+          "options": [
+            "The poet called those who had lost belief the faith-departed.",
+            "The chef used faith-departed to describe soup that was too hot.",
+            "The coach said faith-departed meant a new sports medal.",
+            "Our driver said faith-departed was a type of bus."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：此為詩人自行使用的文學性稱呼，符合歌詞語義。",
+            "錯誤：並非用來描述食物溫度的普通形容詞。",
+            "錯誤：這個詞並不表示獎牌或運動成就。",
+            "錯誤：它不是巴士種類，也不是日常交通詞語。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "參考程度：：C1（詩意創作）",
+          "explanation": "正確：此為詩人自行使用的文學性稱呼，符合歌詞語義。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "highway",
+          "meaning": "公路；高速公路",
+          "usage": "描述連接城鎮的主要道路；歌曲中的 open highway 是自由的比喻。",
+          "prompt": "哪一句正確使用「highway」？",
+          "options": [
+            "I wore a highway because the winter air was cold.",
+            "Our highway tasted sweet after the school trip.",
+            "The bus took the highway to reach the next city.",
+            "The highway sang softly while the whole school choir was still asleep."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：highway 是道路，不是衣服。",
+            "錯誤：公路不是食物，不能以甜味描述。",
+            "正確：搭乘公車沿主要公路前往另一座城市。",
+            "錯誤：道路本身不能像人一樣唱歌；除非刻意擬人。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "參考程度：：B1",
+          "explanation": "正確：搭乘公車沿主要公路前往另一座城市。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "make your own breaks",
+          "meaning": "自己創造好機會；不只被動等待運氣",
+          "usage": "強調靠努力與主動行動獲得機會；break 在這裡是好運、機會。",
+          "prompt": "哪一句正確使用「make your own breaks」？",
+          "options": [
+            "The artist made her own breaks by breaking each of her new paintbrushes.",
+            "You can make your own breaks by asking people for a chance.",
+            "The baker made his own breaks by cutting bread into slices.",
+            "Our dog made his own breaks by sleeping all afternoon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：此表達不是字面上折斷東西；畫筆損壞也不會創造機會。",
+            "正確：主動爭取機會，不只是坐等好運降臨。",
+            "錯誤：這裡把 breaks 誤解為切開的碎塊。",
+            "錯誤：整個下午睡覺沒有展現主動創造機會。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "參考程度：：C1（口語）",
+          "explanation": "正確：主動爭取機會，不只是坐等好運降臨。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "call someone out",
+          "meaning": "公開指出某人的錯誤或不當行為；也可指點名挑戰",
+          "usage": "當某人需要為行為接受質疑時；歌曲中偏向「向你叫陣」。",
+          "prompt": "哪一句正確使用「call someone out」？",
+          "options": [
+            "Ben called his shoes out before the football match.",
+            "The nurse called the soup out because it needed salt.",
+            "The teacher called the blue sky out of the box.",
+            "The team called Max out for changing the scores."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：鞋子不是可被要求為不當行為負責的人。",
+            "錯誤：這不是指出某個人應負責的行為。",
+            "錯誤：不能用此片語表示從盒子拿出天空。",
+            "正確：隊友公開指出 Max 擅自改分數的不當行為。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "參考程度：：B2",
+          "explanation": "正確：隊友公開指出 Max 擅自改分數的不當行為。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "bend",
+          "meaning": "彎曲；屈服（依情境而定）",
+          "usage": "可說彎曲金屬、膝蓋；歌曲中的 Don’t bend 借指不要向壓力屈服。",
+          "prompt": "哪一句正確使用「bend」？",
+          "options": [
+            "Please bend the music much louder before our guests arrive tonight.",
+            "The chef bent the water until it became hot.",
+            "The strong wind made the young trees bend toward the road.",
+            "We bent the library at nine to borrow new books."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：音樂調大聲應說 turn up the music。",
+            "錯誤：加熱水應說 heated the water，不用 bend。",
+            "正確：風吹得小樹彎向道路，是 bend 的具體用法。",
+            "錯誤：圖書館開館應說 opened the library。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "參考程度：：B1–B2",
+          "explanation": "正確：風吹得小樹彎向道路，是 bend 的具體用法。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "ain't",
+          "meaning": "非正式的否定形式，視上下文可相當於 am not、is not、are not、have not 等",
+          "usage": "常見於歌曲與某些英語方言；一般正式寫作改用標準否定形式。",
+          "prompt": "哪一句正確使用「ain't」？",
+          "options": [
+            "My cousin cooked an ain’t for dinner last Sunday.",
+            "Ain’t is the name of the school bus near my house.",
+            "In a formal letter, we always use ain’t instead of isn’t.",
+            "He ain't ready yet, so we can wait for him."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：ain’t 不是可數的食物名稱。",
+            "錯誤：ain’t 是否定形式，不是一般交通工具的名稱。",
+            "錯誤：正式書信通常避免使用 ain’t。",
+            "正確：口語或方言中可表示 He isn’t ready yet。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "參考程度：：B2（非正式／方言）",
+          "explanation": "正確：口語或方言中可表示 He isn’t ready yet。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "shout",
+          "meaning": "大聲喊叫；高聲說出",
+          "usage": "需要讓遠方的人聽見，或因情緒激動提高音量時使用。",
+          "prompt": "哪一句正確使用「shout」？",
+          "options": [
+            "We had to shout because the music was very loud.",
+            "Dad shouted the window closed before the heavy rain came last night.",
+            "The artist shouted the wall blue using a large brush.",
+            "We shouted our homework into a small sandwich at lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：音樂很大聲，必須提高音量才能溝通。",
+            "錯誤：關窗應說 closed the window，不是 shouted。",
+            "錯誤：替牆壁上色應說 painted the wall blue。",
+            "錯誤：喊叫不能把作業變成三明治。"
+          ],
+          "sourceFile": "Its_My_Life_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "參考程度：：B1",
+          "explanation": "正確：音樂很大聲，必須提高音量才能溝通。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -3368,159 +3368,599 @@
   },
   "learning_sections": {
     "advanced": {
-      "version": 2,
+      "version": 3,
       "title": "進階字彙",
-      "note": "依本次提供的核對版材料編排；程度標籤為教學參考。",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
       "questions": [
         {
           "number": 1,
-          "word": "claim (B2)",
-          "meaning": "聲稱擁有；主張自己有權得到",
-          "usage": "在歌曲中用於「取得、認領」的意象；日常可談獎品、所有權或權利。",
-          "prompt": "哪一句最自然、最正確地使用「claim」（依上述意思）？",
+          "word": "claim",
+          "meaning": "聲稱；認領；主張擁有",
+          "usage": "正式申請物品、提出主張時常用 claim；歌中有「取得、據為己有」的詩意用法。",
+          "prompt": "哪一句正確使用「claim」？",
           "options": [
-            "The chef claimed the storm because the soup was salty.",
-            "The winner claimed her prize after the final round.",
-            "The singer claimed the window to make the sky look taller.",
-            "The clock claimed breakfast because it was almost noon."
+            "He claimed the soup because he wanted it warmer.",
+            "The school claimed the rain to its front gate.",
+            "Our teacher claimed the lights by switching them off.",
+            "Mia claimed her lost bag at the station desk."
           ],
-          "answer": 1,
+          "answer": 3,
           "optionExplanations": [
-            "錯誤。暴風雨不能因湯太鹹就被認領。",
-            "正確。贏家領取獎品是 claim 的自然用法。",
-            "錯誤。認領窗戶無法令天空變高。",
-            "錯誤。時鐘不會因為時間到了就領取早餐。"
+            "claim 不能表示把湯加熱，應用 heated。",
+            "claim 不能表示把雨搬到校門口；此處無合理的認領或聲稱用法。",
+            "claim 不是關燈，應用 switched off。",
+            "正確：claim a lost bag 表示憑所有權把遺失的包包領回。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
           "sourceItem": 1,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：claim it）。",
-          "cue": "claim it",
-          "explanation": "正確。贏家領取獎品是 claim 的自然用法。",
+          "explanation": "正確：claim a lost bag 表示憑所有權把遺失的包包領回。",
           "sourceOptionOrder": [
-            "A",
             "D",
+            "A",
             "B",
             "C"
           ]
         },
         {
           "number": 2,
-          "word": "falling to your feet (B2)",
-          "meaning": "倒在某人腳邊；比喻屈服或崇拜",
-          "usage": "歌詞原句的片語可指跌倒在某人腳邊；在歌曲中具有情感上的失去支撐意象。",
-          "prompt": "哪一句最自然、最正確地使用「falling to your feet」（依上述意思）？",
+          "word": "rose",
+          "meaning": "升起；起身（rise 的過去式）",
+          "usage": "描述人站起、太陽升起或某物向上移動；rise 通常不直接帶受詞。",
+          "prompt": "哪一句正確使用「rose」？",
           "options": [
-            "His bicycle was falling to your feet after a long repair.",
-            "Her plan was falling to your feet because the sky was blue.",
-            "Her knees were weak, and she was falling to his feet.",
-            "His homework was falling to your feet after eating lunch."
+            "She rose a photo for the school newspaper.",
+            "They rose the meeting until Monday morning.",
+            "The singer rose from her chair when the show ended.",
+            "The boy rose his suitcase onto the high shelf."
           ],
           "answer": 2,
           "optionExplanations": [
-            "錯誤。修理自行車並不解釋「臣服」的語義。",
-            "錯誤。天空的顏色與計劃倒在某人腳邊沒有合理關係，句中的搭配不自然。",
-            "正確。雙腿無力而跌倒在對方腳邊，符合歌中意象。",
-            "錯誤。功課不能吃午餐，句中的動作與主語不相配。"
+            "拍照片應用 took，不能說 rose a photo。",
+            "會議延期應用 moved 或 postponed。",
+            "正確：rose from her chair 表示從椅子上站起。",
+            "搬起行李應用 lifted；rose 不是及物動詞。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
           "sourceItem": 2,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：falling to your feet）。",
-          "cue": "falling to your feet",
-          "explanation": "正確。雙腿無力而跌倒在對方腳邊，符合歌中意象。",
+          "explanation": "正確：rose from her chair 表示從椅子上站起。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "knees",
+          "meaning": "膝蓋（knee 的複數）",
+          "usage": "談到跪下、膝蓋受傷，或腿部無力時使用；不要與 feet 混淆。",
+          "prompt": "哪一句正確使用「knees」？",
+          "options": [
+            "The train hurt its knees as it entered town.",
+            "The singer bent her knees before the high jump.",
+            "He washed his knees because his glasses were dirty.",
+            "My knees were hungry after our family lunch."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "火車沒有人的膝蓋，這裡不能當身體部位。",
+            "正確：跳高前彎曲膝蓋，身體動作合理。",
+            "眼鏡髒與洗膝蓋沒有合理關係。",
+            "膝蓋不會肚子餓；是人感到 hungry。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：跳高前彎曲膝蓋，身體動作合理。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "stand",
+          "meaning": "站立；承受、忍受",
+          "usage": "可指站起或保持站立；也能說 cannot stand + 名詞／-ing 表示無法忍受。",
+          "prompt": "哪一句正確使用「stand」？",
+          "options": [
+            "He stood his bicycle to the cinema yesterday.",
+            "My sister cannot stand loud noise while studying.",
+            "I stand the music on the bus every morning.",
+            "The waiter stood the soup until it was ready."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "騎車應說 rode his bicycle。",
+            "正確：cannot stand loud noise 是無法忍受吵鬧聲。",
+            "stand 不能直接表示播放音樂；可說 play music。",
+            "stand 不是加熱或端湯的動詞。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：cannot stand loud noise 是無法忍受吵鬧聲。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "touched",
+          "meaning": "觸碰；使感動（touch 的過去式）",
+          "usage": "描述實際碰觸，也能說 be touched by + 人／事，表示受到感動。",
+          "prompt": "哪一句正確使用「touched」？",
+          "options": [
+            "The speech touched everyone with its kind message.",
+            "We touched the weather to keep it sunny.",
+            "I touched the bus ticket into my schoolbag.",
+            "The map touched the village because it was accurate."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：演講內容使大家感動，touch 可表情感上的觸動。",
+            "人無法透過 touch 操控天氣。",
+            "把車票放進包包應用 put。",
+            "地圖準確並不代表它觸動村莊；此處應用 showed。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：演講內容使大家感動，touch 可表情感上的觸動。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "burned",
+          "meaning": "燃燒；燒傷（burn 的過去式）",
+          "usage": "可形容物品燃燒，或人被燙傷；比喻上也可說感到強烈情緒。",
+          "prompt": "哪一句正確使用「burned」？",
+          "options": [
+            "She burned the bus by missing it after school.",
+            "The cold drink burned his room into a larger place.",
+            "The chair burned its homework before the school bell.",
+            "The cook burned the rice because the heat was too high."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯過公車應說 missed the bus。",
+            "冷飲不會把房間變大，且 burn 不表示變大。",
+            "椅子不會做功課，不能如此使用 burned。",
+            "正確：火太大導致米飯燒焦。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：火太大導致米飯燒焦。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "screaming out",
+          "meaning": "大聲喊出；尖叫著喊",
+          "usage": "表示用很大的聲音喊出話語；通常帶有強烈情緒。",
+          "prompt": "哪一句正確使用「screaming out」？",
+          "options": [
+            "The fridge screamed out dinner by keeping milk cold.",
+            "Our team screamed out the train at six o’clock.",
+            "The coach was screaming out the scores over the crowd.",
+            "I screamed out my shoes before leaving the house."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "冰箱冷藏牛奶不是喊叫或說出內容。",
+            "這句無法表示搭火車或喊出可理解內容。",
+            "正確：教練隔著人群大聲喊出比分。",
+            "穿鞋應用 put on，不能用 screamed out。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：教練隔著人群大聲喊出比分。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "lay",
+          "meaning": "躺著（lie 的過去式；此處為不及物）",
+          "usage": "原歌詞 When I lay with you 使用 lie 的過去式 lay；與 lay a book（放下書）的現在式不同。",
+          "prompt": "哪一句正確使用「lay」？",
+          "options": [
+            "Yesterday, I lay on the sofa and read a book.",
+            "The children lay their coats on the bed yesterday.",
+            "I lay the tickets on the desk before class yesterday.",
+            "Yesterday, I lay the book on the shelf and left."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：lay on the sofa 是 lie（躺）的過去式。",
+            "放置外套的過去式應用 laid，而非 lay。",
+            "放票的過去式應用 laid；本題指定「躺」。",
+            "此處 lay 是「放置」動詞，且昨天需用 laid；不是本題要考的「躺」。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：lay on the sofa 是 lie（躺）的過去式。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "flames",
+          "meaning": "火焰（flame 的複數）",
+          "usage": "描寫實際燃燒的火焰；也可比喻熱情，但日常更常描述火勢。",
+          "prompt": "哪一句正確使用「flames」？",
+          "options": [
+            "The driver checked the flames to find his bus route.",
+            "The flames grew higher as the dry wood burned.",
+            "The singer wore flames to hear the song better.",
+            "Her notebook had three flames to write with in class."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "找公車路線應查 map，flames 是火焰。",
+            "正確：乾木燃燒，火焰越升越高。",
+            "火焰不是協助聽音樂的設備。",
+            "寫字需要 pens，flames 不是書寫工具。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：乾木燃燒，火焰越升越高。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "threw",
+          "meaning": "投擲；扔出（throw 的過去式）",
+          "usage": "throw—threw—thrown；可用 throw something into / across + 地點。",
+          "prompt": "哪一句正確使用「threw」？",
+          "options": [
+            "The teacher threw a question because it was blue.",
+            "We threw the train at the station before noon.",
+            "She threw her music louder with the new speaker.",
+            "He threw his jacket across the chair after work."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "提問應用 asked，不是 threw a question；顏色也不構成理由。",
+            "搭上火車應用 boarded 或 caught。",
+            "調大音樂應用 turned up。",
+            "正確：把外套扔到椅子上，符合 throw 的過去式。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：把外套扔到椅子上，符合 throw 的過去式。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "caught",
+          "meaning": "接住；抓到（catch 的過去式）",
+          "usage": "可指接住球、抓住物品，也可說 catch a bus 表示趕上公車。",
+          "prompt": "哪一句正確使用「caught」？",
+          "options": [
+            "The river caught a postcard and wrote a letter.",
+            "The cook caught the soup until it tasted sweet.",
+            "My friend caught the ball before it hit the window.",
+            "We caught the classroom to clean it after lunch."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "河流不會寫信；這不符合 catch 的常用意思。",
+            "調整湯的味道應用 tasted 或 cooked。",
+            "正確：在球碰到窗戶前把球接住。",
+            "打掃教室不是 catch the classroom。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：在球碰到窗戶前把球接住。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "must be",
+          "meaning": "想必是；一定是（根據線索推測）",
+          "usage": "must be + 名詞／形容詞／-ing，表示說話者根據證據做高度確信的推測。",
+          "prompt": "哪一句正確使用「must be」？",
+          "options": [
+            "Her coat is wet, so it must be raining outside.",
+            "The cake must be ate since the plate is empty.",
+            "He must be to school because his bag is heavy.",
+            "The door must be opens because the room is bright."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：外套濕了，推測外面一定正在下雨。",
+            "被動式應用 must have been eaten，不是 must be ate。",
+            "要表示在學校應用 must be at school。",
+            "must be 後應用 open（形容詞），不是 opens。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：外套濕了，推測外面一定正在下雨。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "even now",
+          "meaning": "即使到現在；至今仍然",
+          "usage": "強調一件事在經過一段時間後仍然如此，通常與仍持續的感受或狀態搭配。",
+          "prompt": "哪一句正確使用「even now」？",
+          "options": [
+            "Even now, I still remember my first day at school.",
+            "He even now his bag before leaving for the airport.",
+            "Even now means I will travel only next Tuesday morning.",
+            "Even now, yesterday will begin again tomorrow evening."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：即使過了很久，仍記得第一天上學。",
+            "even now 是副詞片語，不能當整理包包的動詞。",
+            "even now 不是「下週二」的專屬時間詞。",
+            "昨天不能再次開始；時間邏輯不通。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確：即使過了很久，仍記得第一天上學。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 3,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "｜讓某物掉落；let 後的動詞不用 to。",
+          "usage": "｜想表達允許或任由某事發生。",
+          "prompt": "魔術師想讓羽毛自然落到桌上，哪句最自然？",
+          "options": [
+            "I let the feather falling on the table.",
+            "I let the feather fell on the table.",
+            "I let the feather fall on the table.",
+            "I let the feather to fall on the table."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "這個結構不直接接 falling。",
+            "let 後不可用過去式 fell。",
+            "正確：let + 受詞 + 原形 fall。",
+            "let 後不用 to fall。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I let it fall",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "something",
+              "fixed": false
+            },
+            {
+              "text": "fall",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：let + 受詞 + 原形 fall。",
           "sourceOptionOrder": [
             "B",
             "C",
             "A",
             "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "as + 子句：兩件事同時發生",
+          "meaning": "｜當它落下的同時；as 可連接同步發生的動作。",
+          "usage": "｜描述一邊發生 A，一邊發生 B。",
+          "prompt": "小女孩揮手時，火車正離開，選正確句。",
+          "options": [
+            "As the train left, she waved goodbye.",
+            "As left the train, she waved goodbye.",
+            "As the train leaving, she waved goodbye.",
+            "As the train to leave, she waved goodbye."
           ],
-          "editorialCorrections": "Corrected source C/D explanations to match their supplied options; targets and options unchanged."
+          "answer": 0,
+          "optionExplanations": [
+            "正確：as 後接有主詞和動詞的子句。",
+            "英語一般須說 the train left。",
+            "缺少 was，不能只用 leaving。",
+            "to leave 不構成完整子句。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "as it fell",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "subject + past verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：as 後接有主詞和動詞的子句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
         },
         {
           "number": 3,
-          "word": "the games you’d play (B2)",
-          "meaning": "你耍的手段；你玩的心理遊戲",
-          "usage": "此處的 games 指操弄、欺騙或反覆試探，不是運動比賽。",
-          "prompt": "哪一句最自然、最正確地使用「the games you’d play」（依上述意思）？",
+          "word": "rise + to-infinitive：起身做某事",
+          "meaning": "｜rose 是 rise 的過去式；後接 to 表示隨後想做的事。",
+          "usage": "｜有人站起來發言、拿東西或幫忙時。",
+          "prompt": "會議中，一位女士站起來回答問題。",
           "options": [
-            "The games you’d play were football matches at school.",
-            "The games you’d play were chess tournaments at the library.",
-            "The games you’d play were card games with your grandparents.",
-            "The games you’d play made her doubt every promise you made."
+            "She rose to answer the question.",
+            "She rose for answer the question.",
+            "She rose answering the question.",
+            "She rose answer the question."
           ],
-          "answer": 3,
+          "answer": 0,
           "optionExplanations": [
-            "錯誤。這裡是字面上的運動，不是情感操弄。",
-            "錯誤。棋賽屬字面遊戲，偏離本題的比喻。",
-            "錯誤。與祖父母玩牌也只是字面遊戲。",
-            "正確。讓對方懷疑承諾，符合耍手段的比喻義。"
+            "正確：rose to answer，站起來回答。",
+            "for 後不能直接接原形 answer。",
+            "rose 後不能直接用 answering 表目的。",
+            "這裡缺少表目的的 to。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
           "sourceItem": 3,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：games you’d play）。",
-          "cue": "games you’d play",
-          "explanation": "正確。讓對方懷疑承諾，符合耍手段的比喻義。",
+          "cue": "you rose to claim it",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "rose to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：rose to answer，站起來回答。",
           "sourceOptionOrder": [
-            "A",
             "C",
+            "A",
             "D",
             "B"
           ]
         },
         {
           "number": 4,
-          "word": "set fire to (B2)",
-          "meaning": "點燃；放火燒",
-          "usage": "可指真的引燃物體；歌曲用 set fire to the rain 創造不可能的強烈比喻。",
-          "prompt": "哪一句最自然、最正確地使用「set fire to」（依上述意思）？",
+          "word": "until + 子句：直到某個時刻",
+          "meaning": "｜直到某事發生為止；until 引出時間界線。",
+          "usage": "｜解釋一件事一直持續到另一事件發生。",
+          "prompt": "房間一直很安靜，直到鐘響。",
           "options": [
-            "Someone set fire to the shed, and smoke filled the garden.",
-            "The museum set fire to its opening hours at noon.",
-            "The actor set fire to his birthday by sending invitations.",
-            "The coach set fire to the scoreboard by counting points."
+            "The room was quiet until rang the bell.",
+            "The room was quiet until to ring the bell.",
+            "The room was quiet until the bell rang.",
+            "The room was quiet until the bell ringing."
           ],
-          "answer": 0,
+          "answer": 2,
           "optionExplanations": [
-            "正確。棚屋燃燒冒煙，是字面上放火點燃。",
-            "錯誤。營業時間不是可燃的實物。",
-            "錯誤。寄邀請函並非點火。",
-            "錯誤。計分不等於點火。"
+            "until 後的子句語序不對。",
+            "until 後不可直接用 to ring 作子句。",
+            "正確：until + the bell rang。",
+            "缺少 be 動詞，ringing 不成完整子句。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
           "sourceItem": 4,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：set fire to the rain）。",
-          "cue": "set fire to the rain",
-          "explanation": "正確。棚屋燃燒冒煙，是字面上放火點燃。",
+          "cue": "Until you kissed my lips",
+          "pattern": [
+            {
+              "text": "until",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb + object",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：until + the bell rang。",
           "sourceOptionOrder": [
             "C",
-            "A",
             "B",
-            "D"
+            "D",
+            "A"
           ]
         },
         {
           "number": 5,
-          "word": "pour (B1–B2)",
-          "meaning": "傾瀉；（雨）傾盆而下",
-          "usage": "歌曲用於大雨；此題測雨水大量落下，而非單純倒水。",
-          "prompt": "哪一句最自然、最正確地使用「pour」（依上述意思）？",
+          "word": "主題先提出：名詞 + 代名詞重提",
+          "meaning": "｜先提出談論對象，再用 they 重提；常見於口語與歌詞。",
+          "usage": "｜強調一個主題；正式寫作通常直接用該名詞作主詞。",
+          "prompt": "想用相同的口語強調方式說「那些山，它們很高」。",
           "options": [
-            "The sun poured across the field, and the match was stopped.",
-            "Rain poured across the field, and the match was stopped.",
-            "The coach poured across the field, and the match was stopped.",
-            "The tickets poured across the field, and the match was stopped."
+            "Those mountains, it was high.",
+            "Those mountains, they were high.",
+            "Those mountains, they high.",
+            "Those mountains, were they high."
           ],
           "answer": 1,
           "optionExplanations": [
-            "錯誤。陽光可有比喻性 pour，但不是本題所指定的暴雨義。",
-            "正確。雨水傾瀉，導致比賽停止，符合用法。",
-            "錯誤。教練不能直接以此方式表達雨水傾瀉。",
-            "錯誤。票券四散不等於下傾盆大雨。"
+            "複數名詞不能對應單數 it was。",
+            "正確：複數 mountains 對應 they were；屬口語重提。",
+            "缺少 were。",
+            "變成倒裝疑問句，不是此處的陳述。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
           "sourceItem": 5,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：pour）。",
-          "cue": "pour",
-          "explanation": "正確。雨水傾瀉，導致比賽停止，符合用法。",
+          "cue": "My hands, they were strong",
+          "pattern": [
+            {
+              "text": "topic noun",
+              "fixed": false
+            },
+            {
+              "text": ", they were",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：複數 mountains 對應 they were；屬口語重提。",
           "sourceOptionOrder": [
             "B",
             "A",
@@ -3530,117 +3970,37 @@
         },
         {
           "number": 6,
-          "word": "flames (B2)",
-          "meaning": "火焰；烈火",
-          "usage": "談燃燒的可見火焰；歌曲另有將關係投入烈火的比喻。",
-          "prompt": "哪一句最自然、最正確地使用「flames」（依上述意思）？",
+          "word": "far too + 形容詞：強調過度",
+          "meaning": "｜「遠遠太……」；far 加強 too 的過度程度。",
+          "usage": "｜描述明顯超過可接受程度的狀態。",
+          "prompt": "這座橋太窄，大車不能通過。",
           "options": [
-            "The scientist checked the flames on the weather forecast.",
-            "The teacher counted flames in the school timetable.",
-            "The baker saw flames rising from the broken oven.",
-            "The singer packed flames into a suitcase for the tour."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤。天氣預報不是實際的火焰來源。",
-            "錯誤。課表上沒有可數的實際火焰。",
-            "正確。壞掉的烤箱冒出火焰，語意自然。",
-            "錯誤。火焰不能像衣服一樣裝進行李箱。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
-          "sourceItem": 6,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：flames）。",
-          "cue": "flames",
-          "explanation": "正確。壞掉的烤箱冒出火焰，語意自然。",
-          "sourceOptionOrder": [
-            "A",
-            "C",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 7,
-          "word": "can’t help myself (B2)",
-          "meaning": "忍不住；難以克制自己",
-          "usage": "表示知道自己不一定該做，但仍控制不住衝動或反應。",
-          "prompt": "哪一句最自然、最正確地使用「can’t help myself」（依上述意思）？",
-          "options": [
-            "I can’t help myself: I keep checking the message again.",
-            "I can’t help myself: the bus leaves at nine each night.",
-            "I can’t help myself: the clock has twelve numbers on it.",
-            "I can’t help myself: the book has a green cover today."
+            "The bridge is far too narrow for a big truck.",
+            "The bridge is far narrow too for a big truck.",
+            "The bridge is far too narrowly for a big truck.",
+            "The bridge far too narrow for a big truck."
           ],
           "answer": 0,
           "optionExplanations": [
-            "正確。反覆查看訊息表現難以克制的行動。",
-            "錯誤。公車時間是客觀事實，沒有失控的衝動。",
-            "錯誤。時鐘數字不表示難以克制的行為。",
-            "錯誤。封面顏色不是衝動或反應。"
+            "正確：is far too narrow。",
+            "far too 的順序不可顛倒。",
+            "narrowly 是副詞，不適合作表語形容詞。",
+            "缺少 is。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
-          "sourceItem": 7,
-          "sourceWitness": "✅ 已在原歌詞核實（教師核對片段：can’t help myself）。",
-          "cue": "can’t help myself",
-          "explanation": "正確。反覆查看訊息表現難以克制的行動。",
-          "sourceOptionOrder": [
-            "D",
-            "A",
-            "B",
-            "C"
-          ]
-        }
-      ]
-    },
-    "structure": {
-      "version": 2,
-      "title": "句型研習",
-      "note": "依本次提供的核對版材料編排；歌曲線索與教學改寫分開呈現。",
-      "questions": [
-        {
-          "number": 1,
-          "word": "let + object + base verb",
-          "meaning": "讓某人或某物做某事；let 後不加 to。",
-          "usage": "容許動作發生，或不阻止它時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "The boy let his kite to fly in the wind.",
-            "The boy let his kite fly, but he kept it locked in a box all day.",
-            "The boy let his kite fly because he wanted it to stay on the ground.",
-            "The boy let his kite fly in the wind."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤，let 後應接 fly，不用 to fly。",
-            "錯誤，風箏一直鎖在盒內，並沒有讓它飛。",
-            "錯誤，想讓風箏留在地上，與讓它飛的目的相反。",
-            "正確，放開風箏讓它在風中飛，動作和情境一致。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 1,
-          "sourceWitness": "let it fall · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "let it fall",
-          "example": "Let the balloon fly.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "far too weak",
           "pattern": [
             {
-              "text": "[允許者]",
-              "fixed": false
-            },
-            {
-              "text": "let",
+              "text": "far too",
               "fixed": true
             },
             {
-              "text": "[對象]",
-              "fixed": false
-            },
-            {
-              "text": "[原形動詞]",
+              "text": "adjective",
               "fixed": false
             }
           ],
-          "context": "風箏節",
-          "explanation": "正確，放開風箏讓它在風中飛，動作和情境一致。",
+          "explanation": "正確：is far too narrow。",
           "sourceOptionOrder": [
             "B",
             "C",
@@ -3649,79 +4009,34 @@
           ]
         },
         {
-          "number": 2,
-          "word": "as + clause, clause (simultaneous events)",
-          "meaning": "當……之際；兩個動作在同一段時間發生。",
-          "usage": "想把兩件同時發生的事情連在一起時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 7,
+          "word": "too + 形容詞 + to-infinitive",
+          "meaning": "｜太……以致無法做某事；形容詞與 to 可跨歌詞行。",
+          "usage": "｜描述能力或條件不足以完成某行動。",
+          "prompt": "孩子太矮，碰不到高架子。",
           "options": [
-            "As the film started, we left the cinema three days earlier.",
-            "As the sun rose, it was still midnight in the same town.",
-            "As the bell rang, the students went into class.",
-            "As I opened my gift, I had not received it yet."
+            "The child is too short for touch the shelf.",
+            "The child is too short touch the shelf.",
+            "The child is too short to touch the shelf.",
+            "The child is too short touching the shelf."
           ],
           "answer": 2,
           "optionExplanations": [
-            "錯誤，離開發生在三天前，並非電影開始之際。",
-            "錯誤，同一地方日出時不會仍是午夜。",
-            "正確，鐘響時學生進課室，時間關係自然。",
-            "錯誤，未收到禮物便不能同時打開它。"
+            "for 後不能直接接原形 touch。",
+            "缺少 to。",
+            "正確：too short to touch。",
+            "這裡需用 to-infinitive 表結果。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 2,
-          "sourceWitness": "as it fell · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "as it fell",
-          "example": "As the train arrived, we stood up.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "too weak\nTo stand",
           "pattern": [
             {
-              "text": "As",
+              "text": "too",
               "fixed": true
             },
             {
-              "text": "[一件事正在發生]",
-              "fixed": false
-            },
-            {
-              "text": "[同時發生的另一件事]",
-              "fixed": false
-            }
-          ],
-          "context": "校園鐘聲",
-          "explanation": "正確，鐘響時學生進課室，時間關係自然。",
-          "sourceOptionOrder": [
-            "A",
-            "C",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 3,
-          "word": "rise / move + to + base verb (purpose)",
-          "meaning": "用 to 加動詞原形交代行動的目的。",
-          "usage": "想解釋某人為甚麼起身、走近或移動時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "The bird flew away to stay in the same cage.",
-            "He ran to the kitchen to buy a train ticket from his bed.",
-            "She went to the library to swim in the pool there, but it has no pool.",
-            "The actor stood up to thank the people after the show."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤，飛走與留在同一個籠內互相矛盾。",
-            "錯誤，從床上買車票與跑進廚房的目的不相符。",
-            "錯誤，圖書館沒有泳池，目的與地點不配合。",
-            "正確，演員站起來是為了向觀眾道謝。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 3,
-          "sourceWitness": "rose to claim it · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "rose to claim it",
-          "example": "She stood up to answer the question.",
-          "pattern": [
-            {
-              "text": "[動作]",
+              "text": "adjective",
               "fixed": false
             },
             {
@@ -3729,153 +4044,735 @@
               "fixed": true
             },
             {
-              "text": "[做該動作的目的]",
+              "text": "base verb",
               "fixed": false
             }
           ],
-          "context": "舞台謝幕",
-          "explanation": "正確，演員站起來是為了向觀眾道謝。",
+          "explanation": "正確：too short to touch。",
           "sourceOptionOrder": [
-            "A",
-            "B",
             "D",
-            "C"
+            "B",
+            "C",
+            "A"
           ]
         },
         {
-          "number": 4,
-          "word": "and + clause (sequence / addition)",
-          "meaning": "把兩件相關的事情連接起來。",
-          "usage": "描述連續動作或兩件相關事實時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 8,
+          "word": "without + V-ing",
+          "meaning": "｜不做某事；介系詞 without 後可接動名詞。",
+          "usage": "｜描述完成某事而沒有發生另一件事。",
+          "prompt": "舞者完成整場表演，沒有跌倒。",
           "options": [
-            "I found a small key, and I used it to open the old door.",
-            "I put on my shoes, and my shoes were never on my feet.",
-            "I washed my hands, and I washed my hands, so these are opposite ideas.",
-            "The baker made bread, and the moon became a bicycle."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確，找到鑰匙後用它開門，兩個動作自然連接。",
-            "錯誤，已穿鞋卻說鞋從未在腳上，前後矛盾。",
-            "錯誤，兩句相同，不是相反的意思。",
-            "錯誤，做麵包與月亮變單車沒有合理關聯。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 4,
-          "sourceWitness": "kissed ... and ... saved · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "kissed ... and ... saved",
-          "example": "I opened the box, and I found a toy.",
-          "pattern": [
-            {
-              "text": "[第一件事]",
-              "fixed": false
-            },
-            {
-              "text": "and",
-              "fixed": true
-            },
-            {
-              "text": "[接續或補充的事]",
-              "fixed": false
-            }
-          ],
-          "context": "古屋鑰匙",
-          "explanation": "正確，找到鑰匙後用它開門，兩個動作自然連接。",
-          "sourceOptionOrder": [
-            "D",
-            "A",
-            "B",
-            "C"
-          ]
-        },
-        {
-          "number": 5,
-          "word": "until + clause",
-          "meaning": "一直到某件事發生為止。",
-          "usage": "說明等待或某個狀態持續到甚麼時候時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "I slept until six, so I woke up at four and stayed awake.",
-            "The shop stayed open until the last customer left.",
-            "We waited until the bus came, but we left two hours before it arrived.",
-            "The music played until it began, because it had not started yet."
+            "The dancer finished without fell.",
+            "The dancer finished without falling.",
+            "The dancer finished without to fall.",
+            "The dancer finished without fall."
           ],
           "answer": 1,
           "optionExplanations": [
-            "錯誤，四時已醒便不是睡到六時。",
-            "正確，商店一直開到最後一位客人離開。",
-            "錯誤，車還未到便離開，並非等到車來。",
-            "錯誤，音樂尚未開始，不可能已播放到開始那刻。"
+            "不能接過去式 fell。",
+            "正確：without falling。",
+            "without 不接 to-infinitive。",
+            "介系詞後不可直接用原形 fall。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 5,
-          "sourceWitness": "until you kissed · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "until you kissed",
-          "example": "We waited until the rain stopped.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Without falling",
           "pattern": [
             {
-              "text": "[持續的情況]",
-              "fixed": false
-            },
-            {
-              "text": "until",
+              "text": "without",
               "fixed": true
             },
             {
-              "text": "[終止或轉變的時間點]",
+              "text": "verb-ing",
               "fixed": false
             }
           ],
-          "context": "夜間商店",
-          "explanation": "正確，商店一直開到最後一位客人離開。",
+          "explanation": "正確：without falling。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "there is + 名詞：引入新資訊",
+          "meaning": "｜介紹某個存在的事物；there 並非地點副詞。",
+          "usage": "｜初次提出某個特徵、問題或事物。",
+          "prompt": "咖啡店旁有一座小花園。",
+          "options": [
+            "There a small garden is next to the café.",
+            "There are a small garden next to the café.",
+            "There have a small garden next to the café.",
+            "There is a small garden next to the café."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "此存在句的標準語序錯誤。",
+            "單數 a garden 不配 are。",
+            "there have 不能代替 there is。",
+            "正確：單數 a garden 用 there is。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "there's a side to you",
+          "pattern": [
+            {
+              "text": "there is",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：單數 a garden 用 there is。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "受詞關係子句：省略 that",
+          "meaning": "｜that 引出修飾名詞的關係子句；作受詞時常可省略。",
+          "usage": "｜補充「哪一個人／物」的資訊。",
+          "prompt": "畫家展示一幅她去年完成的畫。",
+          "options": [
+            "She showed a picture which painted she last year.",
+            "She showed a picture which she painting last year.",
+            "She showed a picture which did she paint last year.",
+            "She showed a picture which she painted last year."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "關係子句主詞動詞位置錯。",
+            "painting 前缺少助動詞。",
+            "關係子句通常不用疑問倒裝 did she。",
+            "正確：which 是 painted 的受詞，可替換成 that 或省略。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "a side to you\nThat I never knew",
+          "pattern": [
+            {
+              "text": "noun",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：which 是 painted 的受詞，可替換成 that 或省略。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "would + 原形：回憶反覆的習慣",
+          "meaning": "｜描述過去反覆發生的習慣，不一定表示現在或未來。",
+          "usage": "｜回想某人以前總會做的事。",
+          "prompt": "回憶小時候，奶奶每個週日都烤麵包。",
+          "options": [
+            "Grandma would always baked bread on Sundays.",
+            "Grandma would always to bake bread on Sundays.",
+            "Grandma would always bake bread on Sundays.",
+            "Grandma would always baking bread on Sundays."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "would 後需原形，不是 baked。",
+            "would 後不加 to。",
+            "正確：would always bake，描述以往習慣。",
+            "would 後不用 baking。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "You would always win",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "would always",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：would always bake，描述以往習慣。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "set fire to + 名詞",
+          "meaning": "｜「點燃……」；原歌將無法真正燃燒的雨當作比喻。",
+          "usage": "｜談歌曲意象時，分清字面事件與比喻；不需模仿真實危險行為。",
+          "prompt": "哪句正確解釋原歌中不可能真的發生的畫面？",
+          "options": [
+            "The singer is describing a real way to burn rain.",
+            "The singer tells us that rain is made of paper.",
+            "The singer uses fire and rain to show strong feelings.",
+            "The singer says that rain always starts fires."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "歌詞不是提供真實操作方式。",
+            "雨不是紙做的；原歌沒有這樣說。",
+            "正確：火與雨構成情緒上的超現實比喻。",
+            "並非主張雨總會引起火災。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "set fire to the rain",
+          "pattern": [
+            {
+              "text": "set fire to",
+              "fixed": true
+            },
+            {
+              "text": "noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：火與雨構成情緒上的超現實比喻。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "watch + 受詞 + 原形：觀看完整動作",
+          "meaning": "｜看見某個動作發生；watch 後接受詞與原形動詞。",
+          "usage": "｜描述親眼看見一件事發生。",
+          "prompt": "孩子看著飛機降落。",
+          "options": [
+            "The child watched the plane landed.",
+            "The child watched the plane land.",
+            "The child watched the plane landing down.",
+            "The child watched the plane to land."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不可在此處直接用過去式 landed。",
+            "正確：watched + plane + land。",
+            "landing 也可能合文法，但此選項多餘的 down 不自然，且重點是完整降落動作。",
+            "watch + object 後不接 to。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Watched it pour",
+          "pattern": [
+            {
+              "text": "watch",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": false
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：watched + plane + land。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "as + 過去式子句：同步背景",
+          "meaning": "｜一邊……一邊……；這裡 as 帶出同時發生的背景。",
+          "usage": "｜描述事情同時發生，而不是因為某事。",
+          "prompt": "燈亮起的同時，演員走上舞台。",
+          "options": [
+            "As came on the lights, the actor walked on stage.",
+            "As the lights to come on, the actor walked on stage.",
+            "As the lights coming on, the actor walked on stage.",
+            "As the lights came on, the actor walked on stage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "一般陳述子句不倒裝。",
+            "to come on 不成完整子句。",
+            "coming on 不成完整子句。",
+            "正確：完整過去式子句作時間背景。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "as I touched your face",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "subject + past verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：完整過去式子句作時間背景。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "while + 子句：同時發生",
+          "meaning": "｜「當……期間」；可描寫兩件同時持續的事情。",
+          "usage": "｜敘述某個動作發生時另一動作正在進行。",
+          "prompt": "雨下著的時候，他們待在室內。",
+          "options": [
+            "They stayed inside while raining.",
+            "They stayed inside while to rain.",
+            "They stayed inside while it rained.",
+            "They stayed inside while the rain."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "省掉主詞會造成不清楚的省略結構。",
+            "while 後不能直接接 to-infinitive。",
+            "正確：while it rained。",
+            "the rain 是名詞片語，不是完整子句。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "while I cried",
+          "pattern": [
+            {
+              "text": "while",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：while it rained。",
           "sourceOptionOrder": [
             "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "hear + 受詞 + V-ing",
+          "meaning": "｜聽見某動作正在發生，強調聽見過程。",
+          "usage": "｜聽到某人或物持續發出的聲音。",
+          "prompt": "半夜，她聽見門外有人唱歌。",
+          "options": [
+            "She heard someone to sing outside.",
+            "She heard someone sang outside.",
+            "She heard someone sings outside.",
+            "She heard someone singing outside."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "hear + object 後不加 to。",
+            "不能直接接過去式 sang。",
+            "不能直接接三單 sings。",
+            "正確：heard someone singing，強調過程。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "I heard it screaming",
+          "pattern": [
+            {
+              "text": "hear",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": false
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：heard someone singing，強調過程。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
             "A",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "could + 原形：過去的可能／能力",
+          "meaning": "｜could 在此可表示當時能夠或想像可能停留，需依語境判斷。",
+          "usage": "｜談某個過去情境下有可能做到的事。",
+          "prompt": "以前這間圖書館晚上開放，所以我能晚點走。",
+          "options": [
+            "I could to stay at the library late.",
+            "I could stayed at the library late.",
+            "I could staying at the library late.",
+            "I could stay at the library late."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "could 後不加 to。",
+            "could 後不用 stayed。",
+            "could 後不用 staying。",
+            "正確：could stay。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I could stay there",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could stay。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "祈使句：動詞原形起首",
+          "meaning": "｜祈使句常省略 you；但歌詞此處也可理解為承接前文的詩性省略。",
+          "usage": "｜直接請別人做某事時。",
+          "prompt": "攝影師請大家閉眼一秒。",
+          "options": [
+            "Close your eyes for a second.",
+            "To close your eyes for a second.",
+            "Closing your eyes for a second.",
+            "Closed your eyes for a second."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Close + 受詞。",
+            "單獨的 To close 是不定詞片語。",
+            "單獨的 Closing 不是標準祈使句。",
+            "祈使句動詞要用原形，不是 Closed。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Close my eyes",
+          "pattern": [
+            {
+              "text": "base verb",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Close + 受詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "Nothing + be + 比較級",
+          "meaning": "｜「沒有任何事更……」；nothing 作單數主詞，接 is。",
+          "usage": "｜強調某個選項對自己最有價值。",
+          "prompt": "朋友認為和家人吃晚飯是最好的。",
+          "options": [
+            "Nothing are better than dinner with my family.",
+            "Nothing better than dinner with my family is.",
+            "Nothing is better than dinner with my family.",
+            "Nothing is best than dinner with my family."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "nothing 為單數，應用 is。",
+            "語序不符合此比較句型。",
+            "正確：nothing is better than。",
+            "best 為最高級，不與 than 這樣搭配。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Nothing is better",
+          "pattern": [
+            {
+              "text": "nothing is",
+              "fixed": true
+            },
+            {
+              "text": "comparative adjective",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：nothing is better than。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
             "C",
             "D"
           ]
         },
         {
-          "number": 6,
-          "word": "but + contrasting clause",
-          "meaning": "前後形成對比或出乎意料的轉折。",
-          "usage": "想表達「雖然如此，結果卻不同」時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 20,
+          "word": "反事實對比以外：時態 would 的不同用途",
+          "meaning": "｜you’d 在此可理解為 you would；帶出以往反覆說過的事。",
+          "usage": "｜描述以前某人習慣說的話。",
+          "prompt": "回憶以前，每次下雨，爸爸都會說一樣的話。",
           "options": [
-            "The robot is metal, but it is made of metal.",
-            "The river is long, but it is not short.",
-            "I like the blue hat, but I like the blue hat.",
-            "The clown looked scary, but the children laughed with him."
+            "The words Dad would say were funny.",
+            "The words Dad would saying were funny.",
+            "The words Dad would to say were funny.",
+            "The words Dad would said were funny."
           ],
-          "answer": 3,
+          "answer": 0,
           "optionExplanations": [
-            "錯誤，前後重複同一事實，沒有轉折。",
-            "錯誤，長與不短是相同意思。",
-            "錯誤，兩句完全重複，沒有對比。",
-            "正確，看似可怕的表演者卻令孩子開心，形成反差。"
+            "正確：would say；words 後省略受詞關係代名詞。",
+            "would 後不直接用 saying。",
+            "would 後不加 to。",
+            "would 後用原形 say，不能用 said。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 6,
-          "sourceWitness": "But my knees · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "but my knees",
-          "example": "The cake looked bad, but it tasted good.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "All the things you'd say",
           "pattern": [
             {
-              "text": "[原先情況]",
+              "text": "noun",
               "fixed": false
             },
             {
-              "text": "but",
+              "text": "(that) you would",
               "fixed": true
             },
             {
-              "text": "[出乎意料的另一面]",
+              "text": "base verb",
               "fixed": false
             }
           ],
-          "context": "馬戲團",
-          "explanation": "正確，看似可怕的表演者卻令孩子開心，形成反差。",
+          "explanation": "正確：would say；words 後省略受詞關係代名詞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "threw + 受詞 + into + 地點",
+          "meaning": "｜throw 的過去式 threw，into 表移入某處；原歌採強烈比喻。",
+          "usage": "｜說某物被扔進容器；題目用安全的物品。",
+          "prompt": "畫家把舊紙丟進回收箱。",
+          "options": [
+            "The artist threw into the old paper the bin.",
+            "The artist threw the old paper into the bin.",
+            "The artist threw the old paper in to the bin.",
+            "The artist throwed the old paper into the bin."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "受詞和地點順序錯。",
+            "正確：threw + object + into + place。",
+            "此處 in to 被錯誤拆開；要用 into。",
+            "throw 的過去式為 threw，不是 throwed。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I threw us into the flames",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "threw",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": false
+            },
+            {
+              "text": "into",
+              "fixed": true
+            },
+            {
+              "text": "place",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：threw + object + into + place。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "something + 動詞：不定代名詞作主詞",
+          "meaning": "｜something 在文法上視為單數，即使指不明確的東西。",
+          "usage": "｜某個不知名的事物發生變化時。",
+          "prompt": "熄燈後，有東西掉到了地上。",
+          "options": [
+            "Something falling on the floor after the lights went out.",
+            "Something fell on the floor after the lights went out.",
+            "Something were falling on the floor after the lights went out.",
+            "Something fall on the floor after the lights went out."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少限定動詞，不是完整句。",
+            "正確：something fell，主詞＋過去式。",
+            "something 作單數，不能搭配 were。",
+            "過去事件要用 fell；fall 不是過去式。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "something died",
+          "pattern": [
+            {
+              "text": "something",
+              "fixed": true
+            },
+            {
+              "text": "singular verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：something fell，主詞＋過去式。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "know + that + 子句：兩個 that",
+          "meaning": "｜第一個 that 是連接詞，第二個 that 是「那件事」的指示代名詞。",
+          "usage": "｜解釋自己明白某個時刻具有特殊意義。",
+          "prompt": "最後一次看見舊家時，說「我知道那是最後一次」。",
+          "options": [
+            "I knew that was that the last visit.",
+            "I knew that that my last visit was.",
+            "I knew that that is my last visit yesterday.",
+            "I knew that that was my last visit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "兩個 that 的功能與順序顛倒。",
+            "一般英語子句語序不自然。",
+            "昨天回顧過去用 was，is 不合時態。",
+            "正確：knew that（連接詞）that（代名詞）was...。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I knew that that was the last time",
+          "pattern": [
+            {
+              "text": "knew that",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": false
+            },
+            {
+              "text": "was",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：knew that（連接詞）that（代名詞）was...。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "Sometimes + 現在簡單式：習慣",
+          "meaning": "｜sometimes 表示「有時」，常配現在簡單式談習慣。",
+          "usage": "｜說明偶爾發生的日常情況。",
+          "prompt": "一位攝影師有時清晨去拍照。",
+          "options": [
+            "Sometimes she going out early to take photos.",
+            "Sometimes goes she out early to take photos.",
+            "Sometimes she goes out early to take photos.",
+            "Sometimes she go out early to take photos."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 is。",
+            "標準陳述句不作這種倒裝。",
+            "正確：sometimes + 主詞 + 三單 goes。",
+            "主詞 she 的現在式要 goes。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "Sometimes I wake up",
+          "pattern": [
+            {
+              "text": "sometimes",
+              "fixed": true
+            },
+            {
+              "text": "subject + present verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：sometimes + 主詞 + 三單 goes。",
           "sourceOptionOrder": [
             "A",
             "C",
@@ -3884,502 +4781,234 @@
           ]
         },
         {
-          "number": 7,
-          "word": "far too + adjective",
-          "meaning": "強調程度遠超過合適水平。",
-          "usage": "抱怨或指出某事過度時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 25,
+          "word": "省略受詞關係代名詞",
+          "meaning": "｜名詞後的 you caught 修飾 heart；原本可有 that 作 caught 的受詞。",
+          "usage": "｜指出某人曾經得到或接住的特定物品。",
+          "prompt": "小孩找到媽媽昨天買的那本書。",
           "options": [
-            "This hat is far too small, so it fits my big head perfectly.",
-            "The suitcase is far too heavy, so we need two people to lift it.",
-            "The ice is far too cold, so it is warmer than my hot tea.",
-            "The ticket is far too expensive, so it costs nothing."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤，太小卻剛好合頭形，語意不合。",
-            "正確，行李太重，因此需要兩個人抬。",
-            "錯誤，極冷的冰不會比熱茶更暖。",
-            "錯誤，免費的票不會太貴。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 7,
-          "sourceWitness": "far too weak · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "far too weak",
-          "example": "The music is far too loud.",
-          "pattern": [
-            {
-              "text": "[人／事物]",
-              "fixed": false
-            },
-            {
-              "text": "far too",
-              "fixed": true
-            },
-            {
-              "text": "[形容詞]",
-              "fixed": false
-            }
-          ],
-          "context": "機場行李",
-          "explanation": "正確，行李太重，因此需要兩個人抬。",
-          "sourceOptionOrder": [
-            "A",
-            "C",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 8,
-          "word": "too + adjective + to + base verb",
-          "meaning": "太……以致不能做某事。",
-          "usage": "想說明某個程度造成限制時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "The water is too deep to walk through, so we walked through it easily.",
-            "The test is too hard to finish, so everyone finished it in one minute.",
-            "The box is too big to fit inside, so it fits with lots of room.",
-            "The ladder is too short to reach the roof, so we get a longer one."
+            "The book Mom buying yesterday is here.",
+            "The book that Mom buy yesterday is here.",
+            "The book bought Mom yesterday is here.",
+            "The book Mom bought yesterday is here."
           ],
           "answer": 3,
           "optionExplanations": [
-            "錯誤，水太深卻輕易走過，與限制相反。",
-            "錯誤，太難完成卻人人一分鐘完成，互相矛盾。",
-            "錯誤，箱子太大卻仍有大量空間，不合意思。",
-            "正確，梯子太短到不了屋頂，所以換長梯。"
+            "Mom buying 非完整關係子句。",
+            "yesterday 需過去式 bought。",
+            "缺少合理的主詞與動詞關係。",
+            "正確：book (that) Mom bought。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 8,
-          "sourceWitness": "far too weak to stand · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "far too weak / to stand",
-          "example": "The wall is too high to climb.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "That heart you caught",
           "pattern": [
             {
-              "text": "[程度過高]",
+              "text": "noun",
               "fixed": false
             },
             {
-              "text": "too + 形容詞 + to",
+              "text": "(that)",
               "fixed": true
             },
             {
-              "text": "[受阻的動作]",
+              "text": "subject + past verb",
               "fixed": false
             }
           ],
-          "context": "屋頂修理",
-          "explanation": "正確，梯子太短到不了屋頂，所以換長梯。",
+          "explanation": "正確：book (that) Mom bought。",
           "sourceOptionOrder": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 9,
-          "word": "without + verb-ing",
-          "meaning": "做一件事時沒有做另一件事。",
-          "usage": "描述省略某個步驟或動作時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "He went out without taking his keys, but he took them in his hand.",
-            "She finished the race without running, but she ran the whole way.",
-            "I ate the cake without tasting it, and I know its taste from eating it.",
-            "The chef made the soup without using salt, so it had no salt in it."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤，說沒帶鑰匙卻又說拿在手中。",
-            "錯誤，沒跑步與全程跑步互相矛盾。",
-            "錯誤，吃蛋糕時一般會嚐到味道，後文亦承認嚐過。",
-            "正確，煮湯時沒用鹽，結果也沒有鹽。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 9,
-          "sourceWitness": "without falling · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "without falling",
-          "example": "She left without saying goodbye.",
-          "pattern": [
-            {
-              "text": "[主要動作]",
-              "fixed": false
-            },
-            {
-              "text": "without + -ing",
-              "fixed": true
-            },
-            {
-              "text": "[沒有做的事]",
-              "fixed": false
-            }
-          ],
-          "context": "廚房實驗",
-          "explanation": "正確，煮湯時沒用鹽，結果也沒有鹽。",
-          "sourceOptionOrder": [
-            "B",
             "C",
             "D",
+            "B",
             "A"
           ]
         },
         {
-          "number": 10,
-          "word": "there is / there are + noun",
-          "meaning": "指出某個地方有甚麼。",
-          "usage": "介紹新出現或新發現的人或事物時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 26,
+          "word": "must be + V-ing：強烈推測",
+          "meaning": "｜現在某件事很可能正在發生；這裡 must 是推測。",
+          "usage": "｜從線索推測他人現在在做什麼。",
+          "prompt": "窗內有燈，爸爸大概還在工作。",
           "options": [
-            "There is a tiny frog in my shoe!",
-            "There are a small boat on the lake.",
-            "There is three singers on the stage.",
-            "There are one book on the desk."
+            "Dad must be working because his light is on.",
+            "Dad must working because his light is on.",
+            "Dad must be work because his light is on.",
+            "Dad must to be working because his light is on."
           ],
           "answer": 0,
           "optionExplanations": [
-            "正確，用 there is 指出鞋內有一隻小青蛙。",
-            "錯誤，a small boat 是單數，應用 there is。",
-            "錯誤，three singers 是複數，應用 there are。",
-            "錯誤，one book 是單數，應用 there is。"
+            "正確：must be working，推測正在工作。",
+            "must 後缺 be。",
+            "be 後若表示進行狀態，要用 working。",
+            "must 後不加 to。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 10,
-          "sourceWitness": "there’s a side · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "there’s a side",
-          "example": "There is a mouse in the cupboard.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "must be waiting for you",
           "pattern": [
             {
-              "text": "There is / are",
+              "text": "must be",
               "fixed": true
             },
             {
-              "text": "[存在的東西]",
-              "fixed": false
-            },
-            {
-              "text": "[地點]",
+              "text": "verb-ing",
               "fixed": false
             }
           ],
-          "context": "鞋中青蛙",
-          "explanation": "正確，用 there is 指出鞋內有一隻小青蛙。",
+          "explanation": "正確：must be working，推測正在工作。",
           "sourceOptionOrder": [
             "B",
-            "A",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 11,
-          "word": "noun + (that) + subject + verb (relative clause)",
-          "meaning": "補充說明是哪一個人或物。",
-          "usage": "想清楚指出某個特定對象時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "The girl that she won the race is my cousin.",
-            "The song that we heard on the radio is my favourite.",
-            "The book that I bought it yesterday is funny.",
-            "The house that it is next to the sea is blue."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤，that 已代表 girl，不應再加 she 作同一主語。",
-            "正確，關係子句說明是哪一首歌。",
-            "錯誤，that 已代表 book，不需要再加 it。",
-            "錯誤，that 已代表 house，不應再加 it。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 11,
-          "sourceWitness": "a side ... that I never knew · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "a side ... that I never knew",
-          "example": "This is the cake that Dad made.",
-          "pattern": [
-            {
-              "text": "[名詞]",
-              "fixed": false
-            },
-            {
-              "text": "that",
-              "fixed": true
-            },
-            {
-              "text": "[進一步描述名詞的句子]",
-              "fixed": false
-            }
-          ],
-          "context": "電台歌曲",
-          "explanation": "正確，關係子句說明是哪一首歌。",
-          "sourceOptionOrder": [
-            "A",
-            "C",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 12,
-          "word": "all the + plural noun + (that) + clause",
-          "meaning": "指某一組當中的全部事物。",
-          "usage": "想強調沒有遺漏某一類東西時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "All the cards I made is in this box.",
-            "All the chairs we painted are yellow now.",
-            "All the apples I bought was red.",
-            "All the stories she told it were funny."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤，cards 是複數，應用 are。",
-            "正確，表示我們油漆過的椅子全部變成黃色。",
-            "錯誤，apples 是複數，應用 were。",
-            "錯誤，stories 已是 told 的受詞，不需要 it。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 12,
-          "sourceWitness": "All the things you’d say · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "all the things you’d say",
-          "example": "All the pictures I took are on my phone.",
-          "pattern": [
-            {
-              "text": "All the",
-              "fixed": true
-            },
-            {
-              "text": "[複數名詞]",
-              "fixed": false
-            },
-            {
-              "text": "[限定它們的描述]",
-              "fixed": false
-            }
-          ],
-          "context": "家具改色",
-          "explanation": "正確，表示我們油漆過的椅子全部變成黃色。",
-          "sourceOptionOrder": [
             "A",
             "D",
-            "B",
             "C"
           ]
         },
         {
-          "number": 13,
-          "word": "would + base verb (repeated past behaviour)",
-          "meaning": "表示過去經常做的事，不是現在的習慣。",
-          "usage": "回憶以前反覆出現的動作時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 27,
+          "word": "even now：即使到了現在",
+          "meaning": "｜強調「即使現在已如此」；even now 與 when 子句引出讓步感。",
+          "usage": "｜事情已改變，但某種感受仍持續。",
+          "prompt": "這座店關門了，他仍會想到它。",
           "options": [
-            "Yesterday I would eat one apple at exactly noon, and it happened once.",
-            "Tomorrow I would visit my aunt every day last year.",
-            "When I was little, I would be tall every Monday and short every Tuesday.",
-            "When we were young, we would build small houses from sand each summer."
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤，單一次明確完成的動作通常用 ate。",
-            "錯誤，明天與去年混在一起，時間不一致。",
-            "錯誤，身高不會每週如此反覆改變。",
-            "正確，描述童年每年夏天反覆做的事。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 13,
-          "sourceWitness": "You would always win · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "you would always win",
-          "example": "Every summer, Grandpa would tell us stories.",
-          "pattern": [
-            {
-              "text": "[過去的時間背景]",
-              "fixed": false
-            },
-            {
-              "text": "would + 原形動詞",
-              "fixed": true
-            },
-            {
-              "text": "[反覆做的事]",
-              "fixed": false
-            }
-          ],
-          "context": "童年沙堡",
-          "explanation": "正確，描述童年每年夏天反覆做的事。",
-          "sourceOptionOrder": [
-            "B",
-            "C",
-            "D",
-            "A"
-          ]
-        },
-        {
-          "number": 14,
-          "word": "never + adjective / verb (negative frequency)",
-          "meaning": "強調一次也沒有或從不如此。",
-          "usage": "想否定一貫行為或某件事的真實性時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "She never eats fish; she has fish for dinner every night.",
-            "He never goes to school, but he attends every class each day.",
-            "My phone never works underwater, so I keep it dry.",
-            "This story was never true, and every part of it really happened exactly as told."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤，每晚吃魚與 never eats 矛盾。",
-            "錯誤，每天上課與從不上學矛盾。",
-            "正確，手機不能在水下運作，所以保持乾燥。",
-            "錯誤，從不真實與完全真實互相衝突。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 14,
-          "sourceWitness": "never true · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "never true / never knew",
-          "example": "He never forgets his sister’s birthday.",
-          "pattern": [
-            {
-              "text": "[人／事物]",
-              "fixed": false
-            },
-            {
-              "text": "never",
-              "fixed": true
-            },
-            {
-              "text": "[動詞／形容詞描述]",
-              "fixed": false
-            }
-          ],
-          "context": "水下手機",
-          "explanation": "正確，手機不能在水下運作，所以保持乾燥。",
-          "sourceOptionOrder": [
-            "A",
-            "C",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 15,
-          "word": "set + noun + on fire / set fire to + noun",
-          "meaning": "使某物燃燒；歌曲把它用作不可能的意象。",
-          "usage": "描述火災或分析歌曲的誇張比喻時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "The dry leaves caught fire, and the firefighters came quickly.",
-            "The artist set fire to the rain, so every drop became a real candle.",
-            "She set fire to her ice cream by putting it in the freezer.",
-            "He set fire to his lunch by eating it with a spoon."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確，乾葉起火後消防員到場，情境合理。",
-            "錯誤，雨滴不會真的變蠟燭；這只適合作比喻。",
-            "錯誤，放進冰箱不能點燃雪糕。",
-            "錯誤，用湯匙吃飯不等於點火。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 15,
-          "sourceWitness": "set fire to the rain · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "set fire to the rain",
-          "example": "The old paper caught fire, so we called for help.",
-          "pattern": [
-            {
-              "text": "set fire to",
-              "fixed": true
-            },
-            {
-              "text": "[可燃燒的東西]",
-              "fixed": false
-            }
-          ],
-          "context": "消防演習",
-          "explanation": "正確，乾葉起火後消防員到場，情境合理。",
-          "sourceOptionOrder": [
-            "C",
-            "A",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 16,
-          "word": "watch + object + base verb",
-          "meaning": "看見一個動作發生；後面不加 to。",
-          "usage": "描述親眼觀看某個動作時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "I watched the dancer to turn around.",
-            "We watched the little duck cross the road safely.",
-            "We watched the rabbit to run away.",
-            "She watched the chef to cut the bread."
+            "Even now, the shop to be closed, I still miss it.",
+            "Even now, when the shop has closed, I still miss it.",
+            "Even now the shop has closed, I still miss it.",
+            "Even now, when the shop closing, I still miss it."
           ],
           "answer": 1,
           "optionExplanations": [
-            "錯誤，watch 後不接 to turn。",
-            "正確，watch + duck + cross 表示看著鴨子過馬路。",
-            "錯誤，應說 watched the rabbit run away。",
-            "錯誤，應說 watched the chef cut the bread。"
+            "to be closed 不是完整時間子句。",
+            "正確：even now, when + 完整子句。",
+            "即使能理解，缺少 when 使此處連接不自然。",
+            "缺少限定動詞。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 16,
-          "sourceWitness": "Watched it pour · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "watched it pour",
-          "example": "We watched the cat jump over the box.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "Even now, when we're already over",
           "pattern": [
             {
-              "text": "[觀看者]",
-              "fixed": false
-            },
-            {
-              "text": "watch",
+              "text": "even now",
               "fixed": true
             },
             {
-              "text": "[對象]",
-              "fixed": false
-            },
-            {
-              "text": "[原形動詞]",
+              "text": "time/context clause",
               "fixed": false
             }
           ],
-          "context": "小鴨過馬路",
-          "explanation": "正確，watch + duck + cross 表示看著鴨子過馬路。",
+          "explanation": "正確：even now, when + 完整子句。",
           "sourceOptionOrder": [
-            "A",
-            "D",
             "B",
-            "C"
+            "C",
+            "A",
+            "D"
           ]
         },
         {
-          "number": 17,
-          "word": "while + clause (overlapping actions)",
-          "meaning": "強調兩件事在一段時間內同時進行。",
-          "usage": "描述兩個持續動作的時間重疊時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 28,
+          "word": "can't help oneself from + -ing",
+          "meaning": "｜歌詞使用較不典型的混合式；日常更自然是 can’t help looking 或 can’t stop myself from looking。",
+          "usage": "｜辨認歌詞原樣，再學習標準表達，不把改寫冒充歌詞。",
+          "prompt": "一看見小貓就忍不住笑，哪句是最自然的日常英文？",
           "options": [
-            "The nurse talked to the child while she cleaned his knee.",
-            "I studied while I was born, although I am ten now.",
-            "I watched TV while the TV was switched off all day.",
-            "He slept while he was awake the whole night."
+            "I can't help laughing when I see the kitten.",
+            "I can't help to laugh when I see the kitten.",
+            "I can't help myself looking to laugh at the kitten.",
+            "I can't stop myself from laugh when I see the kitten."
           ],
           "answer": 0,
           "optionExplanations": [
-            "正確，護士清潔傷口的同時與孩子說話。",
-            "錯誤，出生時不能像十歲孩子一樣溫習。",
-            "錯誤，電視整天關掉便不能觀看節目。",
-            "錯誤，睡著與整晚清醒互相矛盾。"
+            "正確：can’t help laughing；這是日常標準改寫，不是歌詞原句。",
+            "can’t help 後接 -ing，不接 to laugh。",
+            "混合搭配不自然，looking to laugh 意思也偏離。",
+            "from 後接 laughing。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 17,
-          "sourceWitness": "while I cried · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "while I cried",
-          "example": "I read while my brother cooked.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "I can't help myself from looking for you",
           "pattern": [
             {
-              "text": "[動作一]",
+              "text": "cannot help oneself from",
+              "fixed": true
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can’t help laughing；這是日常標準改寫，不是歌詞原句。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "look for + 受詞：尋找",
+          "meaning": "｜look for 表示尋找；for 不可隨意省略。",
+          "usage": "｜說明正在找某人或某物。",
+          "prompt": "朋友在演唱會入口尋找妹妹。",
+          "options": [
+            "He is looking for his sister near the gate.",
+            "He is looking after his sister near the gate.",
+            "He is looking at his sister near the gate.",
+            "He is looking his sister near the gate."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：look for = 尋找。",
+            "look after 表示照顧，不是尋找。",
+            "look at 表示看著，不是找。",
+            "looking 後缺 for，無法表尋找。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "looking for you",
+          "pattern": [
+            {
+              "text": "look for",
+              "fixed": true
+            },
+            {
+              "text": "person / thing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：look for = 尋找。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "過去式 + while：分辨背景與主要事件",
+          "meaning": "｜while 串起兩件同時進行的事；原歌以火與哭泣對照。",
+          "usage": "｜描述某件活動進行時，另一件事也發生。",
+          "prompt": "爸爸做飯時，孩子在畫畫。",
+          "options": [
+            "The children drew while Dad cook yesterday.",
+            "The children drew while Dad cooked.",
+            "The children drew while Dad cooking.",
+            "The children drew while cooking Dad."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "yesterday 的過去事件應用 cooked。",
+            "正確：兩個過去式完整子句。",
+            "缺少 was。",
+            "Dad 的位置不對，意思變成「煮爸爸」。"
+          ],
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "it burned while I cried",
+          "pattern": [
+            {
+              "text": "event",
               "fixed": false
             },
             {
@@ -4387,628 +5016,56 @@
               "fixed": true
             },
             {
-              "text": "[同時進行的動作二]",
+              "text": "other event",
               "fixed": false
             }
           ],
-          "context": "診所",
-          "explanation": "正確，護士清潔傷口的同時與孩子說話。",
+          "explanation": "正確：兩個過去式完整子句。",
           "sourceOptionOrder": [
+            "D",
             "B",
-            "A",
             "C",
-            "D"
+            "A"
           ]
         },
         {
-          "number": 18,
-          "word": "because / ’cause + clause (reason)",
-          "meaning": "解釋前面發生某事的原因。",
-          "usage": "想交代選擇背後的理由時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
+          "number": 31,
+          "word": "the last time：特定的最後一次",
+          "meaning": "｜last time 能指上一次，也能指最後一次；歌曲語境偏最後的告別。",
+          "usage": "｜回憶再也沒有機會去的某地方。",
+          "prompt": "一座老劇院關門前的最後一場演出。",
           "options": [
-            "The fish stayed in water because it wanted to fly in the sky.",
-            "We moved the picnic inside because a storm was coming.",
-            "I opened the umbrella because I wanted to get wet.",
-            "He turned the lamp on because he wanted the room to be darker."
+            "It was the lastly time we watched a show there before it closed.",
+            "It was the last time we watched a show there before it closed.",
+            "It was last time that we watch a show there before it closed.",
+            "It was the last times we watched a show there before it closed."
           ],
           "answer": 1,
           "optionExplanations": [
-            "錯誤，魚留在水中與想在天上飛的理由不配合。",
-            "正確，暴風雨將至，所以把野餐移到室內。",
-            "錯誤，打傘通常是為了不被淋濕。",
-            "錯誤，開燈會變亮，與想變暗相反。"
+            "lastly 是副詞，不能這樣修飾 time。",
+            "正確：the last time + 過去事件。",
+            "在這語境下需要 the，且 watch 應用過去式。",
+            "這裡說一次，time 不用複數。"
           ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 18,
-          "sourceWitness": "’Cause I heard · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "’cause I heard",
-          "example": "I left early because I felt ill.",
+          "sourceFile": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "the last time",
           "pattern": [
             {
-              "text": "[結果]",
-              "fixed": false
-            },
-            {
-              "text": "because",
+              "text": "the last time",
               "fixed": true
             },
             {
-              "text": "[原因]",
+              "text": "context",
               "fixed": false
             }
           ],
-          "context": "室內野餐",
-          "explanation": "正確，暴風雨將至，所以把野餐移到室內。",
-          "sourceOptionOrder": [
-            "A",
-            "C",
-            "B",
-            "D"
-          ]
-        },
-        {
-          "number": 19,
-          "word": "hear + object + -ing",
-          "meaning": "聽見某個動作正在進行。",
-          "usage": "想強調聽到聲音持續出現時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "I heard the dog to barking next door.",
-            "She heard the child to laughing.",
-            "The guard heard someone knocking on the museum door.",
-            "We heard the baby cryinging in the next room."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤，hear 後不能接 to barking。",
-            "錯誤，應說 heard the child laughing。",
-            "正確，保安聽到有人正在敲博物館的門。",
-            "錯誤，cryinging 拼法錯誤，應用 crying。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 19,
-          "sourceWitness": "heard it screaming · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "heard it screaming",
-          "example": "I heard someone singing outside.",
-          "pattern": [
-            {
-              "text": "[聽者]",
-              "fixed": false
-            },
-            {
-              "text": "hear",
-              "fixed": true
-            },
-            {
-              "text": "[對象]",
-              "fixed": false
-            },
-            {
-              "text": "-ing",
-              "fixed": true
-            }
-          ],
-          "context": "博物館保安",
-          "explanation": "正確，保安聽到有人正在敲博物館的門。",
-          "sourceOptionOrder": [
-            "A",
-            "B",
-            "D",
-            "C"
-          ]
-        },
-        {
-          "number": 20,
-          "word": "when + past clause, past clause",
-          "meaning": "指出某事發生時，另一件事也發生。",
-          "usage": "敘述故事中的關鍵時刻時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "When the lights went out, the dancers stopped because they could not see.",
-            "When the door opened, I walked in three days before it opened.",
-            "When the match ended, the players were still waiting for it to begin for the first time.",
-            "When the bell rang, I heard it before anyone rang it."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確，燈熄滅時舞者因看不見而停下。",
-            "錯誤，進門早於開門三天，不符合 when。",
-            "錯誤，比賽已結束卻仍首次等開賽，時間矛盾。",
-            "錯誤，鐘未響之前不可能已聽見那次鐘聲。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 20,
-          "sourceWitness": "When it fell · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "when I lay / when it fell",
-          "example": "When the lights went out, we stopped dancing.",
-          "pattern": [
-            {
-              "text": "When",
-              "fixed": true
-            },
-            {
-              "text": "[發生的時間／事件]",
-              "fixed": false
-            },
-            {
-              "text": "[當時的反應]",
-              "fixed": false
-            }
-          ],
-          "context": "舞蹈停電",
-          "explanation": "正確，燈熄滅時舞者因看不見而停下。",
-          "sourceOptionOrder": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 21,
-          "word": "could + base verb (past ability / possibility)",
-          "meaning": "表示過去有能力做某事，或某種可能。",
-          "usage": "談以前能做的事，或想像可行的情況時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "When I lived near the sea, I could walk to the beach in five minutes.",
-            "When I was six, I could swim, but I had never learned and could not swim at all.",
-            "I could to read when I was five.",
-            "We could played chess yesterday."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確，過去住海邊時可以步行到海灘。",
-            "錯誤，說以前能游泳，卻又說完全不會。",
-            "錯誤，could 後接 read，不加 to。",
-            "錯誤，could 後接 play，不用 played。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 21,
-          "sourceWitness": "I could stay · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "I could stay",
-          "example": "At eight, I could ride a bike.",
-          "pattern": [
-            {
-              "text": "[人]",
-              "fixed": false
-            },
-            {
-              "text": "could",
-              "fixed": true
-            },
-            {
-              "text": "[原形動詞]",
-              "fixed": false
-            }
-          ],
-          "context": "海邊童年",
-          "explanation": "正確，過去住海邊時可以步行到海灘。",
-          "sourceOptionOrder": [
-            "B",
-            "A",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 22,
-          "word": "imperative: base verb (+ object)",
-          "meaning": "直接提出指示、邀請或要求。",
-          "usage": "告訴別人現在做甚麼時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "To close your eyes before the photo!",
-            "Closed your eyes before the photo!",
-            "You smiling for the photo, everyone!",
-            "Smile for the photo, everyone!"
-          ],
-          "answer": 3,
-          "optionExplanations": [
-            "錯誤，祈使句通常直接用 Close 開始。",
-            "錯誤，祈使句應用 Close，不用 Closed。",
-            "錯誤，You smiling 不是正確的祈使句。",
-            "正確，直接用 Smile 邀請大家拍照時微笑。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 22,
-          "sourceWitness": "Close my eyes · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "close my eyes / let it burn",
-          "example": "Please close the gate.",
-          "pattern": [
-            {
-              "text": "[原形動詞]",
-              "fixed": false
-            },
-            {
-              "text": "[對象／補充資料]",
-              "fixed": false
-            }
-          ],
-          "context": "團體合照",
-          "explanation": "正確，直接用 Smile 邀請大家拍照時微笑。",
-          "sourceOptionOrder": [
-            "A",
-            "B",
-            "D",
-            "C"
-          ]
-        },
-        {
-          "number": 23,
-          "word": "nothing + be + comparative adjective",
-          "meaning": "表示沒有其他東西比某事更……。",
-          "usage": "強調自己最喜歡或最看重的選擇時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "Nothing is better than this cake, but I like every other cake more.",
-            "Nothing is cheaper than this free ticket, but the other tickets cost less than zero.",
-            "After a long walk, nothing is better than a glass of cold water.",
-            "Nothing is faster than this train, but every train is faster than it."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤，所有其他蛋糕都更喜歡，便不是最好。",
-            "錯誤，免費票已是零元，其他票不可能正常地更便宜。",
-            "正確，走很久後用比較級強調冷水最令人滿足。",
-            "錯誤，所有火車都更快，便不是最快。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 23,
-          "sourceWitness": "Nothing is better · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "nothing is better",
-          "example": "Nothing is better than a warm bed tonight.",
-          "pattern": [
-            {
-              "text": "Nothing",
-              "fixed": true
-            },
-            {
-              "text": "is",
-              "fixed": true
-            },
-            {
-              "text": "[比較級形容詞]",
-              "fixed": false
-            },
-            {
-              "text": "[可選：than...]",
-              "fixed": false
-            }
-          ],
-          "context": "遠足補水",
-          "explanation": "正確，走很久後用比較級強調冷水最令人滿足。",
-          "sourceOptionOrder": [
-            "A",
-            "B",
-            "D",
-            "C"
-          ]
-        },
-        {
-          "number": 24,
-          "word": "throw + object + into + place",
-          "meaning": "把某物拋進另一個空間或容器。",
-          "usage": "描述物件由外面移動到裡面時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "He threw the letter into the box, but the letter stayed in his hand.",
-            "She threw the stone into the pond, but it never left her pocket.",
-            "The player threw the ball into the basket and scored.",
-            "I threw my hat into the air, so it stayed on my head the whole time."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤，信仍在手上便沒有被投進箱內。",
-            "錯誤，石頭未離開口袋，便沒有投進池塘。",
-            "正確，球被投進籃框，方向與結果一致。",
-            "錯誤，帽子一直戴著便沒有被拋到空中。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 24,
-          "sourceWitness": "threw us into · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "threw us into the flames",
-          "example": "She threw the ball into the basket.",
-          "pattern": [
-            {
-              "text": "[人]",
-              "fixed": false
-            },
-            {
-              "text": "throw",
-              "fixed": true
-            },
-            {
-              "text": "[物件]",
-              "fixed": false
-            },
-            {
-              "text": "into",
-              "fixed": true
-            },
-            {
-              "text": "[進入的地方]",
-              "fixed": false
-            }
-          ],
-          "context": "籃球場",
-          "explanation": "正確，球被投進籃框，方向與結果一致。",
-          "sourceOptionOrder": [
-            "B",
-            "C",
-            "A",
-            "D"
-          ]
-        },
-        {
-          "number": 25,
-          "word": "know + that + clause",
-          "meaning": "表達自己知道或確認的事實。",
-          "usage": "想告訴別人自己已掌握甚麼資訊時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "I know that the museum is free because the sign says “Free Entry.”",
-            "I know that this train goes north, but I have no idea where it goes.",
-            "I know that the key is here, but I do not know whether it is here or not.",
-            "I know that she is eleven, but I do not know her age at all."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確，告示提供證據支持說話者知道的事。",
-            "錯誤，知道列車向北與完全不知道方向矛盾。",
-            "錯誤，同時說知道與不知道鑰匙是否在這裡。",
-            "錯誤，知道十一歲便已知道年齡。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 25,
-          "sourceWitness": "I knew that that was · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "I knew that that was",
-          "example": "I know that the shop closes at six.",
-          "pattern": [
-            {
-              "text": "[知道的人]",
-              "fixed": false
-            },
-            {
-              "text": "know that",
-              "fixed": true
-            },
-            {
-              "text": "[完整句子]",
-              "fixed": false
-            }
-          ],
-          "context": "博物館告示",
-          "explanation": "正確，告示提供證據支持說話者知道的事。",
-          "sourceOptionOrder": [
-            "B",
-            "A",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 26,
-          "word": "that + noun + (that) + clause (demonstrative + relative)",
-          "meaning": "先指出某個特定對象，再加上限定資料。",
-          "usage": "想指向大家知道的那一個人或物時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "That boy who he won the race is my cousin.",
-            "That song you heard it yesterday is new.",
-            "That cake you made for the party looks great.",
-            "That picture which it is on the wall is mine."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤，who 已代替 boy，不需再加 he。",
-            "錯誤，song 已是 heard 的受詞，不需 it。",
-            "正確，that 指特定蛋糕，後面說明是為派對做的。",
-            "錯誤，which 已代替 picture，不需 it。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 26,
-          "sourceWitness": "That heart you caught · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "that heart you caught",
-          "example": "That painting you chose is lovely.",
-          "pattern": [
-            {
-              "text": "That",
-              "fixed": true
-            },
-            {
-              "text": "[特定名詞]",
-              "fixed": false
-            },
-            {
-              "text": "[描述該名詞的子句]",
-              "fixed": false
-            }
-          ],
-          "context": "生日蛋糕",
-          "explanation": "正確，that 指特定蛋糕，後面說明是為派對做的。",
-          "sourceOptionOrder": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 27,
-          "word": "must be + -ing (strong guess)",
-          "meaning": "根據線索強烈推測某人正在做甚麼。",
-          "usage": "有明顯證據，但不是親眼確認時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "I can hear water in the bathroom; my brother must be taking a shower.",
-            "The room is silent, so the band must be playing loud music there now.",
-            "The bus is empty, so fifty people must be sitting inside it.",
-            "The shop is closed, so the workers must be serving customers there now."
-          ],
-          "answer": 0,
-          "optionExplanations": [
-            "正確，聽見浴室水聲，合理推測弟弟正在洗澡。",
-            "錯誤，房間完全安靜，與大聲演奏不合。",
-            "錯誤，空車不可能同時坐著五十人。",
-            "錯誤，商店已關門，不能據此推測正在招待顧客。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 27,
-          "sourceWitness": "must be waiting · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "must be waiting",
-          "example": "The door is open; Dad must be working outside.",
-          "pattern": [
-            {
-              "text": "[推測對象]",
-              "fixed": false
-            },
-            {
-              "text": "must be + -ing",
-              "fixed": true
-            },
-            {
-              "text": "[推測中的動作]",
-              "fixed": false
-            }
-          ],
-          "context": "浴室水聲",
-          "explanation": "正確，聽見浴室水聲，合理推測弟弟正在洗澡。",
+          "explanation": "正確：the last time + 過去事件。",
           "sourceOptionOrder": [
             "D",
-            "A",
-            "B",
-            "C"
-          ]
-        },
-        {
-          "number": 28,
-          "word": "sometimes + present simple",
-          "meaning": "某件事偶爾發生，但不是每次。",
-          "usage": "描述不固定的日常習慣時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "Sometimes I go fishing, which means I go every single day without a break.",
-            "Sometimes she eats rice, but she has never eaten rice in her life.",
-            "Sometimes our cat sleeps in the sink, but not every day.",
-            "Sometimes he walks to school, but he has never walked there once."
-          ],
-          "answer": 2,
-          "optionExplanations": [
-            "錯誤，每天都做應用 always 或 every day。",
-            "錯誤，從未吃過與偶爾吃矛盾。",
-            "正確，貓偶爾睡在洗手盆，符合 sometimes。",
-            "錯誤，從未步行過與偶爾步行矛盾。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 28,
-          "sourceWitness": "Sometimes I wake · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "sometimes I wake up",
-          "example": "Sometimes I take a different road home.",
-          "pattern": [
-            {
-              "text": "Sometimes",
-              "fixed": true
-            },
-            {
-              "text": "[主語]",
-              "fixed": false
-            },
-            {
-              "text": "[現在式習慣動作]",
-              "fixed": false
-            }
-          ],
-          "context": "貓咪洗手盆",
-          "explanation": "正確，貓偶爾睡在洗手盆，符合 sometimes。",
-          "sourceOptionOrder": [
-            "B",
             "C",
             "A",
-            "D"
-          ]
-        },
-        {
-          "number": 29,
-          "word": "even now + clause (unexpected continuation)",
-          "meaning": "即使到了現在，某件事仍然沒有改變。",
-          "usage": "強調時間已過但情況依舊時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "Even now, I remember the trip, but I have forgotten every part of it.",
-            "Even now, Grandma still keeps the postcard I sent ten years ago.",
-            "Even now, the snow is falling, but it stopped forever last year.",
-            "Even now, I can see the old tower, but it was taken away before I was born."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤，記得旅程與忘記所有內容矛盾。",
-            "正確，十年前寄的明信片至今仍被保存。",
-            "錯誤，去年已永遠停止與現在仍下雪不符。",
-            "錯誤，出生前已拆掉的塔不可能仍看見。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 29,
-          "sourceWitness": "Even now, when · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "even now",
-          "example": "Even now, I remember my first teacher.",
-          "pattern": [
-            {
-              "text": "Even now",
-              "fixed": true
-            },
-            {
-              "text": "[至今仍然成立的事]",
-              "fixed": false
-            }
-          ],
-          "context": "舊明信片",
-          "explanation": "正確，十年前寄的明信片至今仍被保存。",
-          "sourceOptionOrder": [
-            "A",
-            "B",
-            "C",
-            "D"
-          ]
-        },
-        {
-          "number": 30,
-          "word": "can’t help + -ing / can’t help oneself from + -ing",
-          "meaning": "忍不住做某件事，難以控制自己。",
-          "usage": "某種反應自然而然發生、很難停下時。",
-          "prompt": "哪一句最正確地運用了這個句型，且符合情境？",
-          "options": [
-            "I cannot help to laugh at the joke.",
-            "I cannot help smiling when the baby waves at me.",
-            "I cannot help laugh when the dog dances.",
-            "I cannot help myself from to smile when I see the puppy."
-          ],
-          "answer": 1,
-          "optionExplanations": [
-            "錯誤，can’t help 後要用 laughing。",
-            "正確，看到寶寶揮手忍不住微笑，形式也正確。",
-            "錯誤，can’t help 後不用原形 laugh。",
-            "錯誤，from 後應接 smiling，不加 to。"
-          ],
-          "sourceFile": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-          "sourceItem": 30,
-          "sourceWitness": "can’t help myself from looking · supplied song PDF, lyric page(s) 2–3.",
-          "cue": "can’t help myself from looking",
-          "example": "I can’t help laughing at that silly dance.",
-          "pattern": [
-            {
-              "text": "can’t help + -ing ／ can’t help oneself from + -ing",
-              "fixed": true
-            }
-          ],
-          "context": "寶寶揮手",
-          "explanation": "正確，看到寶寶揮手忍不住微笑，形式也正確。",
-          "sourceOptionOrder": [
-            "A",
-            "D",
-            "B",
-            "C"
+            "B"
           ]
         }
       ]
@@ -5113,14 +5170,14 @@
   },
   "extensionProvenance": [
     {
-      "filename": "Set_Fire_to_the_Rain_B1-C2_VERIFIED.md",
-      "sha256": "8f447fc210a233a213052c054f196adf4d999c5ce129e1fe616128900d31340f",
-      "section": "advanced"
+      "section": "advanced",
+      "filename": "Set_Fire_To_The_Rain_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "9b35e0cb24ae6d7e97f9c23f4083242de058241a7b7879398d8606b624c30df8"
     },
     {
-      "filename": "Set_Fire_to_the_Rain_SOURCE_VERIFIED.md",
-      "sha256": "142b8aef6c7ee47c67dc64c112e53552b3e94cc95cd90488df27c8e55dedd369",
-      "section": "structure"
+      "section": "structure",
+      "filename": "Set_Fire_To_The_Rain_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "51e6405e49738a33c6271cbf4dbee95c4498902207b56a89def213c84e75fe56"
     }
   ]
 }

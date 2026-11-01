@@ -2920,5 +2920,1560 @@
     "audioSha256": "0cdf3475c09b78444c9137961c58f68ab73e961097191db5141a226b77f56104",
     "duration": 281.5768125,
     "note": "Local speech-recognition alignment with transition rechecks."
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "64191d0ac3f86440ff4fd8ff40e2af0ed579acd36d093df41b84b0398fe75368"
+    },
+    {
+      "section": "advanced",
+      "filename": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "a51d4db0bb78f80fe28006073ed7e506b391d0b63684205ff38948e07fefb72a"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "When + 現在式：談未來情況",
+          "meaning": "當某種情況發生時；即使說將來，when 時間子句一般用現在式。",
+          "usage": "預想未來某個時間點或情況，再說屆時會怎樣。",
+          "prompt": "情境：朋友問明天下雨時，你會怎麼辦？ 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "When it raining tomorrow, I will stay home.",
+            "When it rains tomorrow, I will stay home.",
+            "When rain tomorrow, I will stay home.",
+            "When it will rain tomorrow, I stay home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 is，並不符合此句型。",
+            "正確；when 後用 rains，主句可用 will。",
+            "rain 前缺少主詞 it。",
+            "when 時間子句不宜用 will rain 表示一般未來條件。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "When your legs don't work（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "現在式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；when 後用 rains，主句可用 will。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "used to + 原形：昔日狀態",
+          "meaning": "過去習慣或狀態，如今已不同；歌詞的 used to 後面省略了前面出現的 work。",
+          "usage": "拿現在與過去相比。",
+          "prompt": "情境：以前每週末畫畫，現在不畫了。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I used to painting on Sundays.",
+            "I am used to paint on Sundays.",
+            "I used to painted on Sundays.",
+            "I used to paint on Sundays, but not now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "used to 後不用 -ing。",
+            "be used to 與 used to 是不同結構；此句需 used to paint。",
+            "used to 後面不能用過去式 painted。",
+            "正確；過去會畫畫，現在已改變。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "they used to before（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "used to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞（歌詞省略重複動詞）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；過去會畫畫，現在已改變。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "like + 子句：像以前那樣",
+          "meaning": "比較兩種做事方式；like 在這裡引出一個口語比較子句。",
+          "usage": "描述現在與過去的動作有沒有相同。",
+          "prompt": "情境：爺爺現在不再像以前那樣跑得快。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Grandpa cannot run like he did before.",
+            "Grandpa cannot run likes he did before.",
+            "Grandpa cannot run like he does yesterday.",
+            "Grandpa cannot run like before he did to."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；like 後是完整的比較子句。",
+            "like 不因主詞而加 s。",
+            "yesterday 需過去式 did 而非 does。",
+            "比較子句字序不自然，to 多餘。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "like they used to before（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；like 後是完整的比較子句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "can’t + 原形：能力限制",
+          "meaning": "表示做不到某個動作；can’t 後接原形。",
+          "usage": "描述體力或現實上的限制。",
+          "prompt": "情境：受傷的舞者解釋為何不能跳舞。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I can’t dancing today because my foot hurts.",
+            "I can’t dance today because my foot hurts.",
+            "I can’t danced today because my foot hurts.",
+            "I can’t to dance today because my foot hurts."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "can’t 後不能用 dancing。",
+            "正確；can’t 後接 dance 原形。",
+            "can’t 後不能用 danced。",
+            "情態動詞後不用 to。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I can't sweep you（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "can’t",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；can’t 後接 dance 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "sweep someone off their feet：使人傾倒",
+          "meaning": "使某人非常心動；這裡是慣用語，不必真的把人掃倒。",
+          "usage": "談到令人驚喜、感動的浪漫舉動。",
+          "prompt": "情境：朋友講述一次非常浪漫的約會。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "His kind words swept me in my feet.",
+            "His kind words swept me away my feet.",
+            "His kind words swept me at my feet.",
+            "His kind words swept me off my feet."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "in 不符合慣用語。",
+            "sweep someone off their feet 不用 away my feet。",
+            "at 不符合慣用語。",
+            "正確；表示對方的話讓我非常心動。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "sweep you off of your feet（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "sweep",
+              "fixed": true
+            },
+            {
+              "text": "人 + off (of)",
+              "fixed": false
+            },
+            {
+              "text": "所有格 + feet",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；表示對方的話讓我非常心動。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Will + 主詞 + 原形？：未來疑問",
+          "meaning": "詢問未來是否會發生；will 放在主詞前。",
+          "usage": "預測未來的事情。",
+          "prompt": "情境：小女孩想知道明天朋友會不會來。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Will your friend comes tomorrow?",
+            "Will your friend come tomorrow?",
+            "Your friend will come tomorrow?",
+            "Will come your friend tomorrow?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後應用 come，不是 comes。",
+            "正確；Will + 主詞 + 原形。",
+            "一般標準疑問句需要 will 倒裝至主詞前。",
+            "主詞與動詞的順序錯誤。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Will your mouth still remember（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "Will",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞...?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；Will + 主詞 + 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "still + 動詞：仍然",
+          "meaning": "強調事情到某時仍持續，still 通常置於一般動詞前。",
+          "usage": "談多年後還記得的人或事情。",
+          "prompt": "情境：十年後仍記得那首歌。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I still remember that song after ten years.",
+            "I remember still that song after ten years.",
+            "I still remembering that song after ten years.",
+            "I still remembers that song after ten years."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；still 放在主要動詞 remember 前。",
+            "一般這裡 still 不放在 remember 後。",
+            "缺少 am，動詞型態不完整。",
+            "主詞 I 不配 remembers。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "still remember the taste（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "still",
+              "fixed": true
+            },
+            {
+              "text": "主要動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；still 放在主要動詞 remember 前。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "will be + -ing：未來持續",
+          "meaning": "未來進行式，想像將來某段時間仍持續的動作或狀態。",
+          "usage": "強調未來某一刻會正在進行的事情；歌中的 love 用進行式帶詩意強調。",
+          "prompt": "情境：明天晚上八點時正在參加朋友的聚會。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "At eight tomorrow, I will dancing at the party.",
+            "At eight tomorrow, I will be dancing at the party.",
+            "At eight tomorrow, I will be dance at the party.",
+            "At eight tomorrow, I be dancing at the party."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後需 be。",
+            "正確；will be dancing 表示未來某時正在跳舞。",
+            "be 後要用 dancing。",
+            "主句缺少 will。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I will be loving you（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "will be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；will be dancing 表示未來某時正在跳舞。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "'til + 子句：直到",
+          "meaning": "’til 是 until 的非正式縮寫，表示「直到」。",
+          "usage": "說某狀態持續到一個時間點。",
+          "prompt": "情境：博物館開到六點，大家可以一直待著。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "We can stay here until the museum will close at six.",
+            "We can stay here until closes the museum at six.",
+            "We can stay here until the museum closes at six.",
+            "We can stay here till six is closing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "until 時間子句一般不用 will。",
+            "子句主詞與動詞字序錯誤。",
+            "正確；until 子句用現在式 closes。",
+            "時間表達不自然，沒有正確的直到結構。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "'til we're 70（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "’til",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 現在式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；until 子句用現在式 closes。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "could + 原形：可能性",
+          "meaning": "表達可能性或想像中的情況，不等同確定會發生。",
+          "usage": "委婉提出一種未來可能。",
+          "prompt": "情境：天氣預報不確定，週末可能下雨。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "It could raining on Sunday.",
+            "It could to rain on Sunday.",
+            "It could rain on Sunday.",
+            "It could rains on Sunday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "could 後接原形，不是 raining。",
+            "could 後不接 to。",
+            "正確；could rain 表示有可能。",
+            "could 後不能用 rains。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "my heart could still fall（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；could rain 表示有可能。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "as + 形容詞／副詞：程度",
+          "meaning": "這裡 as hard 描寫愛上的程度；歌詞有省略式比較，不可硬稱為完整 as…as 比較句。",
+          "usage": "描述一個動作達到某種強烈程度。",
+          "prompt": "情境：風很大，門關得很用力。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "The wind made the door close so hard than before.",
+            "The wind made the door close as hard as before.",
+            "The wind made the door close as harder as before.",
+            "The wind made the door close as hardly as before."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "so...than 不是這種比較句型。",
+            "正確；新例句採完整 as...as，注意歌詞只唱 as hard。",
+            "as...as 中不能用比較級 harder。",
+            "hardly 指「幾乎不」，不是 hard 的程度副詞。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "as hard at 23（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "形容詞／副詞 +（比較背景）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；新例句採完整 as...as，注意歌詞只唱 as hard。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "think about + how 間接疑問",
+          "meaning": "思考事情如何發生；how 後維持陳述句語序。",
+          "usage": "好奇一個現象的發生方式。",
+          "prompt": "情境：想知道鳥兒如何找到家。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I’m thinking about how do birds find home.",
+            "I’m thinking about how birds finds home.",
+            "I’m thinking about how birds find home.",
+            "I’m thinking about how birds to find home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "間接疑問句不使用 do birds 倒裝。",
+            "複數 birds 配 find。",
+            "正確；how birds find 保留陳述語序。",
+            "how 後缺少正確限定動詞。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "thinking 'bout how people fall in love（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "think about + how",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；how birds find 保留陳述語序。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "fall in love with + 人",
+          "meaning": "開始愛上某人；與單純的 like 不同。",
+          "usage": "談兩人的感情何時開始。",
+          "prompt": "情境：兩人認識多年後相愛。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "They fell in love each other last year.",
+            "They fell in love with each other last year.",
+            "They fell in loving with each other last year.",
+            "They fell in love to each other last year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 with。",
+            "正確；fell 是過去式。",
+            "fell in loving 不是慣用結構。",
+            "介系詞應用 with。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "fall in love with you（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "fall in love with",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；fell 是過去式。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "every single + 單數名詞",
+          "meaning": "強調每一個、毫無例外；後面用單數名詞。",
+          "usage": "強調某事天天發生。",
+          "prompt": "情境：花園主人天天給植物澆水。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "She waters her plants every single the day.",
+            "She waters her plants every single days.",
+            "She waters her plants every single day.",
+            "She waters her plants every singles day."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "the 多餘，語序錯誤。",
+            "every single 後應接 day 單數。",
+            "正確；強調一天也不漏。",
+            "single 不加 s。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "every single day（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "every single",
+              "fixed": true
+            },
+            {
+              "text": "單數可數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；強調一天也不漏。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "wanna + 原形（口語）",
+          "meaning": "wanna 是 want to 的口語拼寫，正式寫作使用 want to。",
+          "usage": "表示想做的事，辨識歌詞的口語縮寫。",
+          "prompt": "情境：想告訴朋友一件好消息。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I wanna tells you some good news.",
+            "I wanna tell you some good news.",
+            "I wanna to tell you some good news.",
+            "I wanna telling you some good news."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "wanna 後不用第三人稱 tells。",
+            "正確；口語 wanna tell；正式可寫 want to tell。",
+            "wanna 已包含 to，不能再加 to。",
+            "wanna 後接原形 tell。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "wanna tell you（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "wanna",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；口語 wanna tell；正式可寫 want to tell。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "直接請求或邀請對方採取行動；主詞 you 通常省略。",
+          "usage": "溫柔地請對方幫忙。",
+          "prompt": "情境：有人搬一個重箱子，請朋友幫忙。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Helps me lift this box, please.",
+            "To help me lift this box, please.",
+            "Helping me lift this box, please.",
+            "Help me lift this box, please."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "祈使句不用 helps。",
+            "to help 不是這裡的直接祈使句。",
+            "此處應使用原形祈使句，而非單獨 helping。",
+            "正確；動詞原形 Help 開頭。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Take me into your loving arms（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "受詞 +（補充資訊）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；動詞原形 Help 開頭。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "place + 受詞 + on + 地方",
+          "meaning": "把物品放到某個表面或位置；比 put 較正式、柔和。",
+          "usage": "請人把物件放到指定的位置。",
+          "prompt": "情境：美術老師要大家把作品放到桌上。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Place your drawing to the table.",
+            "Place on your drawing the table.",
+            "Place your drawing on the table.",
+            "Place your drawing in the table."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to 不是此處表示放在桌面的介系詞。",
+            "動詞、受詞、地點的順序不對。",
+            "正確；place 受詞 on 位置。",
+            "桌面通常用 on，不是 in。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Place your head on my beating heart（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "place",
+              "fixed": true
+            },
+            {
+              "text": "物件 + on",
+              "fixed": false
+            },
+            {
+              "text": "位置",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；place 受詞 on 位置。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "現在分詞修飾名詞",
+          "meaning": "用 -ing 形容正在做某動作的名詞。",
+          "usage": "描述動作中的人、物。",
+          "prompt": "情境：演出結束時，看見正在笑的孩子。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I saw a smiling child after the show.",
+            "I saw a smile child after the show.",
+            "I saw a smiled child after the show.",
+            "I saw a child smilingly after the show."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；smiling child 指正在笑的孩子。",
+            "smile 是動詞／名詞，不能這樣前置修飾 child。",
+            "smiled 不自然地表示正在笑的狀態。",
+            "smilingly 不適合這樣形容 child。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "my beating heart（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "V-ing",
+              "fixed": false
+            },
+            {
+              "text": "名詞（現在分詞作前置修飾）",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確；smiling child 指正在笑的孩子。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "think out loud：把想法說出",
+          "meaning": "邊思考邊說出尚未確定的想法；並非大聲思考的音量。",
+          "usage": "提出可能會改變的初步點子。",
+          "prompt": "情境：討論旅行路線時，想先說說自己的想法。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I’m thinking out loud, so nobody can hear me at all.",
+            "I’m thinking out loud because the music is too loud to speak.",
+            "I’m thinking out loud the train at seven.",
+            "I’m just thinking out loud; we could visit the lake."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "think out loud 的重點不是讓別人聽不到。",
+            "因音樂太大而無法說話，不是這個慣用語的意思。",
+            "不能把這個片語當作搭火車的動詞。",
+            "正確；先分享未定案的主意。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "thinking out loud（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "think out loud",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確；先分享未定案的主意。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "right where + 地點子句",
+          "meaning": "right 強調「正好就在」某處，where 後面接陳述子句。",
+          "usage": "強調不需要另找地方。",
+          "prompt": "情境：大家在公園找一個看表演的位置。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "We can stand right at where we are.",
+            "We can stand right where are we.",
+            "We can stand right to where we are.",
+            "We can stand right where we are."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "right at where 在這裡多出不自然的 at。",
+            "where 子句不倒裝為 are we。",
+            "right to where 在此不適合表示站立位置。",
+            "正確；就在現在這裡站著。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "right where we are（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "right where",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + be／動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；就在現在這裡站著。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "all but + 形容詞／分詞：幾乎",
+          "meaning": "幾乎完全、差不多已經；不能直譯為「除了所有」。",
+          "usage": "形容接近完成或消失的狀態。",
+          "prompt": "情境：演唱會結束時，座位幾乎都空了。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "By the end, the hall was all but emptying.",
+            "By the end, the hall was all but empties.",
+            "By the end, the hall was all but empty.",
+            "By the end, the hall was all but to empty."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "emptying 表動作，這裡需要空的狀態。",
+            "empties 是動詞型態，不適合 be 後的此形容詞位置。",
+            "正確；all but empty 表示幾乎空了。",
+            "to empty 不是這裡的 all but 形容詞結構。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "all but gone（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "all but",
+              "fixed": true
+            },
+            {
+              "text": "形容詞／過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；all but empty 表示幾乎空了。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "the same way：以同樣方式",
+          "meaning": "指做事方法不變，作副詞性修飾。",
+          "usage": "對比現在和以前的做法。",
+          "prompt": "情境：一家人的做茶方法很多年都沒有變。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "We make tea the same ways every morning.",
+            "We make tea at the same way every morning.",
+            "We make tea the same way every morning.",
+            "We make tea the same way for years ago."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此固定用法通常用 way 單數。",
+            "表方式不加 at。",
+            "正確；the same way 修飾 make tea 的方法。",
+            "for years ago 的時間搭配有誤。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "the same way（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "the same way",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確；the same way 修飾 make tea 的方法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "know + (that) 子句",
+          "meaning": "表示知道或確信一件事情，that 可省略。",
+          "usage": "表達對某件事有把握。",
+          "prompt": "情境：朋友確定店明天會開門。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I know the shop will open tomorrow.",
+            "I know that will open the shop tomorrow.",
+            "I know will the shop open tomorrow.",
+            "I know the shop to will open tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；know 後接完整陳述子句。",
+            "that 後需先有主詞 the shop。",
+            "間接陳述不用 will the shop 倒裝。",
+            "to will 不可連用。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I know you will still love me（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "know + (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；know 後接完整陳述子句。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "could never + 原形：強調不可能",
+          "meaning": "強烈表示某件事情難以想像會發生；在歌中是詩意的肯定。",
+          "usage": "強調絕不可能忘記重要回憶。",
+          "prompt": "情境：朋友感謝曾救助自己的鄰居。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I could never forgot her kindness.",
+            "I could never forget her kindness.",
+            "I could never to forget her kindness.",
+            "I could never forgetting her kindness."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "could 後應接 forget 原形。",
+            "正確；could never forget 表強烈不會忘記。",
+            "could 後不加 to。",
+            "could 後不接 -ing。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "could never grow old（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "could never",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；could never forget 表強烈不會忘記。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "grow + 形容詞：漸漸變得",
+          "meaning": "描述隨時間慢慢改變的狀態。",
+          "usage": "形容天色或人漸漸變化。",
+          "prompt": "情境：黃昏時天漸漸變暗。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "The sky grows darkly in the evening.",
+            "The sky grows to dark in the evening.",
+            "The sky grows darkness in the evening.",
+            "The sky grows dark in the evening."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "darkly 是副詞，不是主詞補語。",
+            "grow dark 不需要 to。",
+            "darkness 是名詞，此句需要形容詞。",
+            "正確；grow dark 表示漸漸變暗。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "grow old（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "grow",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；grow dark 表示漸漸變暗。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "part of + 名詞：其中一部分",
+          "meaning": "表示屬於較大整體的其中一部分。",
+          "usage": "說明一項活動是某個計畫的其中一步。",
+          "prompt": "情境：幫忙種樹是社區活動的一環。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Planting trees is part of our town plan.",
+            "Planting trees is part to our town plan.",
+            "Planting trees is part at our town plan.",
+            "Planting trees is a part for our town plan."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；種樹屬於整體計畫。",
+            "part of 不能換成 part to。",
+            "part at 不是這個結構。",
+            "這裡應接 of，不是 for。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "part of a plan（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "part of",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；種樹屬於整體計畫。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "keep on + V-ing：繼續做",
+          "meaning": "一再繼續某個動作，有時帶著停不下來的語氣。",
+          "usage": "說明練習即使困難仍繼續。",
+          "prompt": "情境：舞者摔倒後仍繼續練習。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "She kept on practicing after she fell.",
+            "She kept on practiced after she fell.",
+            "She kept on practice after she fell.",
+            "She kept on to practice after she fell."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；keep on 後接 practicing。",
+            "kept on 後不用過去式 practiced。",
+            "缺少 -ing。",
+            "keep on 後不能用 to practice。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "keep on making the same mistakes（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "keep on",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；keep on 後接 practicing。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "hope + that 子句",
+          "meaning": "希望某件事會成真；歌詞以 Hoping 開頭，是省略主詞的分詞片語。",
+          "usage": "希望別人明白你的決定。",
+          "prompt": "情境：你取消了旅行，希望朋友諒解。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "I hope you understanding why I stayed home.",
+            "I hope that you to understand why I stayed home.",
+            "I hope you will understands why I stayed home.",
+            "I hope that you will understand why I stayed home."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "hope 後不是這種缺少限定動詞的結構。",
+            "that 子句不使用 you to understand。",
+            "will 後用 understand 原形。",
+            "正確；完整 hope that 子句。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "Hoping that you'll understand（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "hope + (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；完整 hope that 子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "現在完成／過去式的區別：found",
+          "meaning": "found 是 find 的過去式；歌詞這裡沒有 have，因此不是現在完成式。",
+          "usage": "敘述過去發現或找到的事情。",
+          "prompt": "情境：昨天終於找到了丟失的畫。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Yesterday I found my lost picture.",
+            "Yesterday I finding my lost picture.",
+            "Yesterday I have found my lost picture.",
+            "Yesterday I finded my lost picture."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；found 是 find 的不規則過去式。",
+            "缺少限定動詞，finding 不可單獨當過去式。",
+            "明確的 yesterday 常配過去式，此句不宜用現在完成式。",
+            "find 的過去式是 found，不是 finded。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "we found love（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "過去式動詞 + 受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；found 是 find 的不規則過去式。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "maybe + 完整句：或許",
+          "meaning": "maybe 是句子副詞，表示可能；不同於 may be（情態動詞 + be）。",
+          "usage": "對事情不完全確定時提出猜測。",
+          "prompt": "情境：聽到門口有聲音，猜測是鄰居。 請選出唯一正確且符合目標用法的一句。",
+          "options": [
+            "Maybe our neighbor is at the door.",
+            "May be our neighbor is at the door.",
+            "Maybe is our neighbor at the door.",
+            "Maybe our neighbor at the door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；Maybe + 完整句。",
+            "may be 不可這樣作句首副詞使用。",
+            "maybe 後需要正常陳述語序與完整句。",
+            "缺少 is。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "Maybe we found love（原始英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "Maybe",
+              "fixed": true
+            },
+            {
+              "text": "完整句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確；Maybe + 完整句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "sweep you off of your feet",
+          "meaning": "使你神魂顛倒、被浪漫舉動深深打動",
+          "usage": "用於形容一個人的魅力或行動讓另一個人非常心動；一般可說 sweep someone off their feet。",
+          "prompt": "哪一句正確使用「sweep you off of your feet」？",
+          "options": [
+            "They swept her feet off with the old broom.",
+            "The wind swept you off your feet, so you felt in love.",
+            "She swept off her feet the room before dinner.",
+            "His kind words swept her off her feet."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：這是掃腳的字面組合，不是形容使人傾心的固定用法。",
+            "錯誤：此句只寫風吹倒與「感到愛」的錯誤搭配，並未自然表達浪漫心動。",
+            "錯誤：把掃地的 sweep 與慣用語混用；掃地應說 swept the room。",
+            "正確：他的溫柔話語讓她非常心動，是正確的比喻。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：他的溫柔話語讓她非常心動，是正確的比喻。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "mysterious ways",
+          "meaning": "神祕、難以解釋的方式",
+          "usage": "描述某些事情發生的方式令人難以理解；常用 in mysterious ways。",
+          "prompt": "哪一句正確使用「mysterious ways」？",
+          "options": [
+            "She mysterious ways her book every morning.",
+            "We took mysterious ways to buy the tickets.",
+            "The box is mysterious ways under the chair.",
+            "Sometimes good things happen in mysterious ways."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：名詞片語不能當作閱讀或整理的動詞。",
+            "錯誤：若指路線應說 routes；此句未呈現難以解釋的發生方式。",
+            "錯誤：mysterious ways 是名詞片語，不能直接取代位置或形容詞。",
+            "正確：好事有時以無法解釋的方式發生，用法自然。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：好事有時以無法解釋的方式發生，用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "touch of a hand",
+          "meaning": "手的輕觸；輕輕碰一下",
+          "usage": "描述溫柔而短暫的身體接觸；touch 是名詞，不等於 push。",
+          "prompt": "哪一句正確使用「touch of a hand」？",
+          "options": [
+            "We bought a touch of a hand at the store.",
+            "She touched of a hand when the music started.",
+            "A gentle touch of a hand made the child smile.",
+            "He gave the door a touch of a hand to lock it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：輕觸不是商店中的商品，搭配不自然。",
+            "錯誤：把名詞片語當動詞使用，文法不正確。",
+            "正確：輕柔碰觸讓孩子微笑，touch 作名詞很自然。",
+            "錯誤：要說鎖門應用 locked；這句沒有清楚的輕觸語境。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：輕柔碰觸讓孩子微笑，touch 作名詞很自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "loving arms",
+          "meaning": "充滿愛意的懷抱",
+          "usage": "形容溫暖、關愛的擁抱；通常搭配 in/into warm and loving arms。",
+          "prompt": "哪一句正確使用「loving arms」？",
+          "options": [
+            "He read the letter with loving arms on the desk.",
+            "The little girl ran into her mom's loving arms.",
+            "She carried the books in loving arms of the shelf.",
+            "I loved the arms of the chair for being very kind."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：loving arms 不是閱讀信件的工具，搭配不自然。",
+            "正確：女孩奔入母親溫暖的懷抱，使用正確。",
+            "錯誤：書架不會有充滿愛意的懷抱；搭配不合語意。",
+            "錯誤：扶手沒有情感，且不是 loving arms 的常見意思。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：女孩奔入母親溫暖的懷抱，使用正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "beating heart",
+          "meaning": "跳動的心臟；怦怦跳的心",
+          "usage": "描述心臟正在跳動，也常在情感描寫中出現。",
+          "prompt": "哪一句正確使用「beating heart」？",
+          "options": [
+            "She used her beating heart to beat the eggs.",
+            "I could feel my beating heart after the race.",
+            "He bought a beating heart for his new watch.",
+            "The room was beating heart because it was warm."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：beat eggs 是攪打雞蛋，不能用心臟作為工具。",
+            "正確：跑步後感到心跳強烈，是自然的用法。",
+            "錯誤：手錶零件不會如此稱作 beating heart，語意不合。",
+            "錯誤：beating heart 不是描述房間溫度的形容詞。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：跑步後感到心跳強烈，是自然的用法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "all but gone",
+          "meaning": "幾乎完全消失；所剩無幾",
+          "usage": "all but + 過去分詞或形容詞表示「幾乎已經……」，不是「除了全部」。",
+          "prompt": "哪一句正確使用「all but gone」？",
+          "options": [
+            "By evening, the snow was all but gone.",
+            "The boy all but gone his pencil after lunch.",
+            "I all but gone to school at eight yesterday.",
+            "Our cake is all but gone because no one ate it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：到傍晚雪幾乎融光了，使用正確。",
+            "錯誤：all but gone 不能作及物動詞來處理鉛筆。",
+            "錯誤：缺少適當 be 動詞，而且把片語當作「去學校」。",
+            "錯誤：既然沒人吃蛋糕，就沒有理由說它快吃光了。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：到傍晚雪幾乎融光了，使用正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "crowds",
+          "meaning": "人群；一大群人",
+          "usage": "crowd 的複數，指多群人或大量人群，常見於活動現場。",
+          "prompt": "哪一句正確使用「crowds」？",
+          "options": [
+            "He crowds a sandwich for lunch at school.",
+            "She felt very crowds before the big test.",
+            "Large crowds waited outside the concert hall.",
+            "The crowd of books was reading at the park."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：此處需要 eat，不能用 crowds 代替。",
+            "錯誤：crowds 不能當作表達情緒的形容詞。",
+            "正確：許多人群在演唱會場館外等候，使用自然。",
+            "錯誤：books 不是人群，且書本不能自行閱讀。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：許多人群在演唱會場館外等候，使用自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "strings",
+          "meaning": "弦；細繩",
+          "usage": "指吉他、小提琴的琴弦，也可泛指繩子；歌曲中指樂器的弦。",
+          "prompt": "哪一句正確使用「strings」？",
+          "options": [
+            "He drank two strings of water after the game.",
+            "She played the music with the strings of her shoes.",
+            "The old guitar needs new strings before the show.",
+            "My strings are hungry after the long walk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：水不可用 strings 作這樣的量詞。",
+            "錯誤：鞋帶不是演奏樂器的琴弦，搭配不自然。",
+            "正確：舊吉他表演前需要換弦，用法正確。",
+            "錯誤：弦不是有飢餓感的人，語意不合。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：舊吉他表演前需要換弦，用法正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "soul",
+          "meaning": "靈魂；人的精神內在",
+          "usage": "描述人的精神、情感或內心本質；常見於較有感情的寫作。",
+          "prompt": "哪一句正確使用「soul」？",
+          "options": [
+            "Her music touched my soul and made me cry.",
+            "We took a soul to school instead of the bus.",
+            "She put her soul in the fridge beside the milk.",
+            "He souls the door when he leaves the house."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：音樂深深觸動內心，是自然的比喻。",
+            "錯誤：soul 不是交通工具，用法不自然。",
+            "錯誤：靈魂是抽象概念，不能像食物放冰箱。",
+            "錯誤：soul 作名詞，不能當作關門動詞。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：音樂深深觸動內心，是自然的比喻。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "evergreen",
+          "meaning": "常綠的；長久保持活力或受歡迎的",
+          "usage": "形容常綠植物；比喻長久不衰的特質。",
+          "prompt": "哪一句正確使用「evergreen」？",
+          "options": [
+            "That tree is evergreen and stays green all year.",
+            "She ate an evergreen to feel less tired.",
+            "We evergreen our homework before dinner.",
+            "The rain was evergreen because it fell hard."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：樹木整年保持綠色，符合 evergreen 的字面用法。",
+            "錯誤：evergreen 不能不加名詞直接作食物名稱。",
+            "錯誤：evergreen 不是完成作業的動詞。",
+            "錯誤：下雨程度與常綠沒有關係。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：樹木整年保持綠色，符合 evergreen 的字面用法。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "Hoping that",
+          "meaning": "希望……；期待某件事發生",
+          "usage": "hope that + 子句表示期望，歌詞用 hoping that 接對方會理解的內容。",
+          "prompt": "哪一句正確使用「Hoping that」？",
+          "options": [
+            "I hoping that my new shoes by the door.",
+            "Hoping that the weather improves, we packed our bags.",
+            "They hoped that for to see the new movie.",
+            "She is hoping that to win the game tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少 am，that 後也沒有完整子句。",
+            "正確：抱著天氣會好轉的期望整理行李；分詞片語修飾 we。",
+            "錯誤：hope that 後接子句，不能用 for to see。",
+            "錯誤：that 後需完整子句；可說 hoping that she will win。"
+          ],
+          "sourceFile": "Thinking_Out_Loud_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：抱著天氣會好轉的期望整理行李；分詞片語修飾 we。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

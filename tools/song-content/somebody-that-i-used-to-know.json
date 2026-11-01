@@ -3123,5 +3123,1755 @@
     "sha256": "e3258e20483632f741e4c546062d51085b7de219a972aeb0e7c9e5b4e94bcf73",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "b69bb0acf78141438b2b6e1576e0478447f2e9aa5130112a886341e010757096"
+    },
+    {
+      "section": "structure",
+      "filename": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "100ce471a5d94c4275fa1a7fe514123d7edf6cf4efb871e9f01ddfe6703641db"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "company",
+          "meaning": "陪伴；有人作伴",
+          "usage": "表示與某人相處、作伴；不是只指「公司」。",
+          "prompt": "哪一句正確使用「company」？",
+          "options": [
+            "I bought some company for my old shoes.",
+            "I company my friends to school each day.",
+            "Her company was on the table for lunch.",
+            "I enjoy my sister’s company on long walks."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：company 在此不是能購買的物品。",
+            "錯誤：company 在此是名詞，不能直接代替 accompany。",
+            "錯誤：陪伴不是桌上的食物或物件。",
+            "正確：enjoy someone’s company 表示喜歡與某人相處。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：enjoy someone’s company 表示喜歡與某人相處。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "ache",
+          "meaning": "隱隱作痛；持續的疼痛",
+          "usage": "指身體持續不舒服，也可以比喻心裡的傷痛。",
+          "prompt": "哪一句正確使用「ache」？",
+          "options": [
+            "After the walk, I had an ache in my legs.",
+            "The music ached a ticket for our trip.",
+            "She ached a sandwich into the lunch box.",
+            "He used an ache to open the front door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：an ache in my legs 是腿部隱隱作痛。",
+            "錯誤：ache 不能表示購買或取得車票。",
+            "錯誤：ache 不能表示把食物放進盒子。",
+            "錯誤：ache 不是開門用的工具。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：an ache in my legs 是腿部隱隱作痛。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "addicted to",
+          "meaning": "沉迷於；對……上癮",
+          "usage": "常接名詞或動名詞；可能表示真正的成癮，也可口語表示過度沉迷。",
+          "prompt": "哪一句正確使用「addicted to」？",
+          "options": [
+            "She is addicted to watch videos every day.",
+            "They are addicted with drinking tea at night.",
+            "He addicted to his homework last night.",
+            "I got addicted to this game and played for hours."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to 是介系詞，應接 watching 而非 watch。",
+            "錯誤：固定搭配是 addicted to，不是 addicted with。",
+            "錯誤：缺少 be/get，時態與句型不完整。",
+            "正確：got addicted to this game 表示越玩越沉迷。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：got addicted to this game 表示越玩越沉迷。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "certain",
+          "meaning": "某種；特定的；確定的",
+          "usage": "放在名詞前，表示特定但不一定明說是哪一種。",
+          "prompt": "哪一句正確使用「certain」？",
+          "options": [
+            "She certain to the park before lunch.",
+            "He remembers a certain day from his childhood.",
+            "I have a certain of two new pencils.",
+            "The cake is certain on the blue table."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：certain 不能直接當「去」的動詞。",
+            "正確：a certain day 表示某個特定的日子。",
+            "錯誤：a certain of 不是自然的名詞搭配。",
+            "錯誤：此句要描述位置，不能用 certain 代替動詞。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：a certain day 表示某個特定的日子。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "resignation",
+          "meaning": "無奈接受；認命；辭職",
+          "usage": "此句教 resignation to something：無奈地接受無法改變的處境；另可表示辭職。",
+          "prompt": "哪一句正確使用「resignation」？",
+          "options": [
+            "He resigned a resignation into his new bag.",
+            "I am resignation at the bus stop today.",
+            "Her resignation to the result made her quiet.",
+            "She drank resignation after the football match."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：resignation 不是能放進書包的物品。",
+            "錯誤：resignation 是名詞，不可直接當形容詞使用。",
+            "正確：resignation to the result 表示無奈接受結果。",
+            "錯誤：resignation 不是飲品。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：resignation to the result 表示無奈接受結果。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "admit",
+          "meaning": "承認；坦承",
+          "usage": "常見 admit that + 子句、admit + -ing；通常承認原本不想說的事。",
+          "prompt": "哪一句正確使用「admit」？",
+          "options": [
+            "I admit that I forgot your birthday.",
+            "I admitted to went home very late.",
+            "He admitted with making the mistake.",
+            "She admits the lunch to be at six."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：admit that 後接完整子句，坦承忘了生日。",
+            "錯誤：admit to 後接 going，而非 went。",
+            "錯誤：應說 admitted making 或 admitted to making。",
+            "錯誤：不自然地把 admit 當作安排用餐時間。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：admit that 後接完整子句，坦承忘了生日。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "make out like",
+          "meaning": "裝作；假裝事情是某種樣子",
+          "usage": "非常口語，這裡指把情況說得彷彿如此；正式寫作可用 pretend。",
+          "prompt": "哪一句正確使用「make out like」？",
+          "options": [
+            "She made out like to have a new bike.",
+            "He made out like nothing was wrong, but he was upset.",
+            "I made out like the door with a key.",
+            "They made out like into the kitchen after school."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：make out like 後應接完整說法，不是 like to have。",
+            "正確：假裝一切正常，實際上心情不好。",
+            "錯誤：不能以此表示用鑰匙開門。",
+            "錯誤：make out like 不是表示走進廚房。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：假裝一切正常，實際上心情不好。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "stranger",
+          "meaning": "陌生人",
+          "usage": "指不認識的人；也可形容熟人態度變得疏遠。",
+          "prompt": "哪一句正確使用「stranger」？",
+          "options": [
+            "I stranger to the shop at nine.",
+            "The stranger was my best friend since birth.",
+            "A stranger asked me where the station was.",
+            "She bought a stranger for her birthday cake."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：stranger 是名詞，不是表示去某地的動詞。",
+            "錯誤：從小最好的朋友一般不是陌生人。",
+            "正確：不認識的人詢問車站位置。",
+            "錯誤：stranger 不是蛋糕原料或可購買的東西。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：不認識的人詢問車站位置。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "rough",
+          "meaning": "難受的；艱難的；粗糙的",
+          "usage": "可形容艱難經歷或粗糙表面；歌中指受到對待時心裡不好受。",
+          "prompt": "哪一句正確使用「rough」？",
+          "options": [
+            "He made the tea rough by reading a book.",
+            "Her rough was standing beside the door.",
+            "It was a rough week because I was ill.",
+            "I rough my shoes before leaving home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：讀書不會自然地讓茶變得 rough。",
+            "錯誤：rough 不適合如此單獨作可數名詞。",
+            "正確：a rough week 指不好過的一週。",
+            "錯誤：rough 通常是形容詞，不是穿鞋的動詞。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：a rough week 指不好過的一週。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "stoop so low",
+          "meaning": "自貶身價；做出卑劣的事",
+          "usage": "批評某人為達目的而做出不道德、卑鄙的行為；非指身體彎低。",
+          "prompt": "哪一句正確使用「stoop so low」？",
+          "options": [
+            "He stooped so low to pick up his pencil.",
+            "The child stooped so low under the table to hide.",
+            "She stooped so low because the door was short.",
+            "I never thought she would stoop so low as to cheat."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：撿鉛筆是字面彎腰，不是道德上的卑劣。",
+            "錯誤：鑽桌下是身體動作，不是卑劣行為。",
+            "錯誤：因門矮而彎腰是字面動作。",
+            "正確：stoop so low as to cheat 指竟卑鄙到作弊。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：stoop so low as to cheat 指竟卑鄙到作弊。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "collect",
+          "meaning": "收集；領取；取回",
+          "usage": "可以指逐一收集物品，也可指到某處領取某物。",
+          "prompt": "哪一句正確使用「collect」？",
+          "options": [
+            "I collected the rain because I felt tired.",
+            "We collected our bags after the school trip.",
+            "She collected to the library on her bicycle.",
+            "My brother collected happy from his new book."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：句子沒有自然的收集雨水情境，疲倦也不構成理由。",
+            "正確：旅行後取回自己的行李。",
+            "錯誤：collect 不表示騎車前往圖書館。",
+            "錯誤：happy 是形容詞，不能當作這裡的收集物。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：旅行後取回自己的行李。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "screwed me over",
+          "meaning": "坑害某人；欺騙或不公平地對待某人",
+          "usage": "非正式且帶粗魯語氣，通常用於遭到背叛、欺騙或佔便宜時。",
+          "prompt": "哪一句正確使用「screwed me over」？",
+          "options": [
+            "He screwed me over by giving me a fair price.",
+            "The seller screwed me over by taking my money and sending nothing.",
+            "I screwed me over when I tied my shoes.",
+            "She screwed me over by helping me win fairly."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：公平定價沒有顯示坑害。",
+            "正確：收錢卻不寄貨，是不公平的欺騙行為。",
+            "錯誤：反身代名詞應是 myself，繫鞋帶也不是欺騙。",
+            "錯誤：公平幫助獲勝不等於坑害。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：收錢卻不寄貨，是不公平的欺騙行為。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "reading into",
+          "meaning": "過度解讀；對……想太多",
+          "usage": "read into + 言行：從話語或行為推斷出可能不存在的隱含意義。",
+          "prompt": "哪一句正確使用「reading into」？",
+          "options": [
+            "You are reading into his short reply; he may just be busy.",
+            "I read into the book for my English test yesterday.",
+            "She reads into the window to see the rain outside.",
+            "We read into the bus because it comes at eight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：對簡短回覆過度推測其意思。",
+            "錯誤：閱讀一本書一般說 read the book。",
+            "錯誤：透過窗戶看風景用 look through the window。",
+            "錯誤：read into 不表示搭公車。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確：對簡短回覆過度推測其意思。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "catch",
+          "meaning": "撞見；發現某人正在做某事",
+          "usage": "catch + 人 + -ing：意外發現某人正做某事；歌中表示「不會逮到你還在……」。",
+          "prompt": "哪一句正確使用「catch」？",
+          "options": [
+            "I caught him looking at my notes during the test.",
+            "I caught my sister to eat my cake.",
+            "They caught the children to played outside.",
+            "She caught my teacher was walking to school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：catch someone doing something 表示當場發現對方正在做事。",
+            "錯誤：這個句型應接 eating，不是 to eat。",
+            "錯誤：應使用 playing，不是 to played。",
+            "錯誤：應說 caught my teacher walking，不接 was。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 14,
+          "explanation": "正確：catch someone doing something 表示當場發現對方正在做事。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "now and then：偶爾",
+          "meaning": "表示偶爾發生，而非每天的習慣。",
+          "usage": "想提及不定期發生的活動時。",
+          "prompt": "· 情境： 你偶爾去探望鄰居。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I now and then my neighbor a letter.",
+            "Now and then, I visit my old neighbor.",
+            "Every morning is now and then for my family.",
+            "I bought two now and thens at the shop."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此片語不是可以取代 send 的動詞。",
+            "now and then 作時間副詞片語，放在句首自然。",
+            "every morning 是每天，不能與偶爾畫上等號。",
+            "此片語不是可數物品。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Now and then I think of",
+          "pattern": [
+            {
+              "text": "Now and then",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "now and then 作時間副詞片語，放在句首自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "think of + 名詞／疑問詞子句",
+          "meaning": "想起某人、某事，或回憶一段時光。",
+          "usage": "回想以前共同經歷的片段時。",
+          "prompt": "· 情境： 你看著照片回憶旅行。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I think of when did we visit the beach.",
+            "I think of to meet my cousin tomorrow.",
+            "I think of when we went to the beach together.",
+            "I think my old trip of every night."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "間接疑問子句不使用 did we 的問句語序。",
+            "of 後不能直接接 to meet；應說 think about meeting。",
+            "of 後接 when 引導的陳述語序子句，表示回憶何時一起去海邊。",
+            "think of 的介系詞位置錯了。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I think of when we were together",
+          "pattern": [
+            {
+              "text": "think of",
+              "fixed": true
+            },
+            {
+              "text": "人／事／when 子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "of 後接 when 引導的陳述語序子句，表示回憶何時一起去海邊。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "when 引導的時間子句",
+          "meaning": "指出過去某段事件發生的時候。",
+          "usage": "說明某件回憶的時間背景。",
+          "prompt": "· 情境： 說明你們住在同一條街的時候。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "When we lived on the same street, we often talked.",
+            "When we live on the same street yesterday, we often talked.",
+            "When did we lived on the same street, we often talked.",
+            "When we living on the same street, we often talked."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "when 後用完整過去式子句 lived。",
+            "昨天的語境需用過去式 lived。",
+            "時間子句不用疑問句倒裝，且 did 後須用原形。",
+            "缺少 were 或應改用 lived。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "when we were together",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋過去式",
+              "fixed": false
+            }
+          ],
+          "explanation": "when 後用完整過去式子句 lived。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "say + (that) 子句",
+          "meaning": "轉述他人說過的內容；that 可以省略。",
+          "usage": "回想別人先前說的話。",
+          "prompt": "· 情境： 朋友告訴你她累了。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "Maya said that tired after the walk.",
+            "Maya said me she was tired after the walk.",
+            "Maya said was tired after the long walk.",
+            "Maya said she was tired after the long walk."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "that 後缺少主詞和動詞。",
+            "say 通常不能直接接「人＋子句」；可用 told me。",
+            "that 子句缺少主詞。",
+            "said 後接 she was tired 的完整子句。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "you said you felt so happy",
+          "pattern": [
+            {
+              "text": "said (that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋過去式／其他子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "said 後接 she was tired 的完整子句。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "so + 形容詞 + 結果子句",
+          "meaning": "程度非常高，後面的子句誇張說明結果；原詞省略 that。",
+          "usage": "用生動方式表達非常強烈的感覺。",
+          "prompt": "· 情境： 形容看表演時笑得停不下來。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "The show so funny that we could not stop laughing.",
+            "The show was so funny we could not stopping laugh.",
+            "The show was so funny that we could not stop laughing.",
+            "The show was such funny that we could not stop laughing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少系動詞 was。",
+            "could not 後接原形 stop，stop 後接 laughing。",
+            "so funny that 引出結果 we could not stop laughing。",
+            "such 後通常接名詞片語，不能直接修飾 funny。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "so happy you could die",
+          "pattern": [
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "結果子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "so funny that 引出結果 we could not stop laughing。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "tell oneself + that 子句",
+          "meaning": "對自己說、說服自己相信某件事；歌詞省略主詞 I。",
+          "usage": "整理自己的想法或給自己鼓勵時。",
+          "prompt": "· 情境： 你第一次參加舞蹈比賽。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I told myself to that I could dance.",
+            "I told myself that could dance in front of people.",
+            "I told me that I could dance in front of people.",
+            "I told myself that I could dance in front of people."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "that 前不加 to。",
+            "that 子句缺主詞 I。",
+            "主詞是 I，應用 myself，不是 me。",
+            "主詞 I 的反身代名詞是 myself，後接 that 子句。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Told myself that you were right for me",
+          "pattern": [
+            {
+              "text": "told",
+              "fixed": true
+            },
+            {
+              "text": "oneself",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "主詞 I 的反身代名詞是 myself，後接 that 子句。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "be right for someone",
+          "meaning": "表示人或選擇很適合某個人。",
+          "usage": "選課、選工作或決定合作夥伴時。",
+          "prompt": "· 情境： 你喜歡戶外工作，選擇花園工作。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "This job is right for because I love working outside.",
+            "This job is right to me because I love working outside.",
+            "This job right for me because I love working outside.",
+            "This job is right for me because I love working outside."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "for 後缺少對象。",
+            "表示適合某人一般用 for，不用 to。",
+            "缺少 is。",
+            "be right for me 表示這份工作適合我。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "you were right for me",
+          "pattern": [
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "be right for",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            }
+          ],
+          "explanation": "be right for me 表示這份工作適合我。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "feel + 形容詞",
+          "meaning": "用 feel 描述內心狀態，過去式 felt。",
+          "usage": "描述過去某次聚會的感受。",
+          "prompt": "· 情境： 你第一次獨自在家過夜。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I feel nervous yesterday when I stayed home alone.",
+            "I felt a nervous when I stayed home alone.",
+            "I felt nervous when I stayed home alone.",
+            "I felt nervously when I stayed home alone."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "昨天的回憶應用 felt。",
+            "nervous 是形容詞，不加 a。",
+            "felt 後接形容詞 nervous，表示當時感覺緊張。",
+            "nervously 是副詞，不是此處的主詞補語。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "felt so lonely",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "feel／felt",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "felt 後接形容詞 nervous，表示當時感覺緊張。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "關係子句省略受詞 that",
+          "meaning": "先行詞是動詞的受詞時，關係代名詞可省略。",
+          "usage": "補充說明某件自己記得或珍惜的事。",
+          "prompt": "· 情境： 描述去年做的禮物。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "This is the gift I made for my mother last year.",
+            "This is the gift I made it for my mother last year.",
+            "This is the gift I making for my mother last year.",
+            "This is the gift made I for my mother last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "gift 後省略受詞關係代名詞 that，made 已經以 gift 為受詞。",
+            "重複放 it，造成受詞多餘。",
+            "需要過去式 made。",
+            "關係子句詞序不對。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "an ache I still remember",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "gift 後省略受詞關係代名詞 that，made 已經以 gift 為受詞。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "can + 原形動詞",
+          "meaning": "表達可能性或能力；can 後用原形。",
+          "usage": "說明某活動可能讓人上癮的風險。",
+          "prompt": "· 情境： 談一款遊戲讓人一直玩。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "You can to spend too much time on this game.",
+            "You can spending too much time on this game.",
+            "You can spend too much time on this game.",
+            "You can spends too much time on this game."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "can 後不可加 to。",
+            "can 後不能直接用 -ing。",
+            "can 後面是原形 spend。",
+            "can 後動詞不可加 -s。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "You can get addicted to",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can + 動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "其餘",
+              "fixed": false
+            }
+          ],
+          "explanation": "can 後面是原形 spend。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "get + 過去分詞表示狀態變化",
+          "meaning": "表示逐漸變得依賴或沉迷某事。",
+          "usage": "提醒自己別太依賴網路或遊戲時。",
+          "prompt": "· 情境： 你的朋友花太久時間玩手機遊戲。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "He got addicting to playing games on his phone.",
+            "He got addicted to playing games on his phone.",
+            "He got addicted with playing games on his phone.",
+            "He got addicted to play games on his phone."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "表示人的狀態需 addicted，而非 addicting。",
+            "addicted to 後接 playing（動名詞）。",
+            "標準搭配是 addicted to。",
+            "介系詞 to 後要接動名詞。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "get addicted to",
+          "pattern": [
+            {
+              "text": "get addicted to",
+              "fixed": true
+            },
+            {
+              "text": "名詞／-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "addicted to 後接 playing（動名詞）。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "a certain kind of + 名詞",
+          "meaning": "表示某一種特定類型，但不必說明全部細節。",
+          "usage": "想談某種類型的音樂或感覺時。",
+          "prompt": "· 情境： 你在店內尋找特定種類的茶。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I am looking for a certain kinds of tea.",
+            "I am looking to a certain kind of tea.",
+            "I am looking for a certain kind of tea.",
+            "I am looking for certain a kind of tea."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "a 與複數 kinds 不一致。",
+            "look for 表示尋找，不是 look to。",
+            "a certain kind of 後接 tea 這個名詞。",
+            "certain 的順序不正確。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "a certain kind of sadness",
+          "pattern": [
+            {
+              "text": "a certain kind of",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "a certain kind of 後接 tea 這個名詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "find + that 子句",
+          "meaning": "發現或了解到某件事為真。",
+          "usage": "某次實驗後發現新的情況時。",
+          "prompt": "· 情境： 你發現植物需要更多水。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "We found the plants that needed more water.",
+            "We found that the plants needed more water.",
+            "We found that needed more water the plants.",
+            "We found that the plants needs more water yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "這句變成找到了植物，而非發現一項事實。",
+            "found that 後面是 plants needed water 的完整陳述句。",
+            "子句語序不正確。",
+            "過去發現的結果使用 needed，主謂時態須一致。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "we found that we could not make sense",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "found that",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "found that 後面是 plants needed water 的完整陳述句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "would + 原形：從過去看未來",
+          "meaning": "在過去的轉述中談當時預期未來會發生的事情。",
+          "usage": "轉述朋友先前對未來的承諾。",
+          "prompt": "· 情境： 朋友上週說她隔天會打電話。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "Last week, she said she would to call me.",
+            "Last week, she said she would call me the next day.",
+            "Last week, she said she will called me the next day.",
+            "Last week, she said she would called me the next day."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "would 後不加 to。",
+            "said 表示過去轉述，would call 表達從當時看未來。",
+            "will called 組合錯誤。",
+            "would 後面須接原形 call。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "we would still be friends",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "would (still) + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "said 表示過去轉述，would call 表達從當時看未來。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "admit + that 子句",
+          "meaning": "承認一件可能不容易說出口的事。",
+          "usage": "坦白自己真正的想法時。",
+          "prompt": "· 情境： 你承認自己忘了朋友生日。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I admit that forgot my friend's birthday.",
+            "I admit to that I forgot my friend's birthday.",
+            "I admit that I forgetting my friend's birthday.",
+            "I admit that I forgot my friend's birthday."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "that 子句缺主詞。",
+            "admit that 前面不加 to。",
+            "I forgetting 缺助動詞且時態不合。",
+            "admit that 接完整子句 I forgot...。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I'll admit that I was glad",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "admit that",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "admit that 接完整子句 I forgot...。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "did not have to + 原形",
+          "meaning": "表示過去其實沒有必要做某件事；不是說事情沒發生。",
+          "usage": "向朋友表示不必特地送禮。",
+          "prompt": "· 情境： 有人花錢買很貴的花送你。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "You didn't have buying such expensive flowers.",
+            "You didn't had to buy such expensive flowers.",
+            "You didn't have to buy such expensive flowers!",
+            "You didn't have to bought such expensive flowers."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "have to 後接原形動詞。",
+            "didn't 後用 have，不是 had。",
+            "didn't have to buy 指原本沒有必要買。",
+            "didn't 後面動詞用原形 buy。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "you didn't have to cut me off",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "didn't have to + 動詞原形",
+              "fixed": true
+            }
+          ],
+          "explanation": "didn't have to buy 指原本沒有必要買。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "cut + 人 + off（可分動詞片語）",
+          "meaning": "在本歌表示突然斷絕聯絡，也可表示打斷說話。",
+          "usage": "描述朋友突然封鎖你的訊息時。",
+          "prompt": "· 情境： 你突然無法聯絡以前常聊天的人。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "She cut off me and never answered my calls again.",
+            "She cut me off because we still talk every night.",
+            "She cut me of and never answered my calls again.",
+            "She cut me off and never answered my calls again."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "可分片語中代名詞必須放中間。",
+            "仍每晚聯絡不符合此題的「斷聯」意思。",
+            "off 拼字與形式錯。",
+            "代名詞 me 放在 cut 與 off 之間，且語境是斷聯。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "cut me off",
+          "pattern": [
+            {
+              "text": "cut",
+              "fixed": true
+            },
+            {
+              "text": "人／代名詞",
+              "fixed": false
+            },
+            {
+              "text": "off",
+              "fixed": true
+            }
+          ],
+          "explanation": "代名詞 me 放在 cut 與 off 之間，且語境是斷聯。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "make out like + 子句（口語）",
+          "meaning": "口語中表示裝作某事如此；並非「親吻」的 make out。",
+          "usage": "有人假裝沒有打破花瓶時。",
+          "prompt": "· 情境： 看見朋友打破杯子卻假裝不知道。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "He made out like nothing happening yesterday.",
+            "He made out to like nothing had happened.",
+            "He made out like nothing had happened.",
+            "He made out like did nothing happen."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 was 等助動詞。",
+            "make out like 中不插入 to。",
+            "made out like 後接完整的 nothing had happened。",
+            "語序不合陳述句。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Make out like it never happened",
+          "pattern": [
+            {
+              "text": "make out like",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "made out like 後接完整的 nothing had happened。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "treat + 人 + like + 名詞",
+          "meaning": "以對待某種人的方式對待他人。",
+          "usage": "描述有人像對待家人一樣照顧動物。",
+          "prompt": "· 情境： 小狗是家裡很重要的一員。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "They treat their dog like a member of the family.",
+            "They treat their dog like to a family member.",
+            "They treat their dog as like a member of the family.",
+            "They treat like their dog a member of the family."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "treat + dog + like + 名詞片語的順序正確。",
+            "like 後面接名詞片語，不用 to。",
+            "like 前不需要 as。",
+            "受詞 dog 應緊接 treat。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "treat me like a stranger",
+          "pattern": [
+            {
+              "text": "treat",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "treat + dog + like + 名詞片語的順序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "feel + so + 形容詞",
+          "meaning": "描述某件事帶來的感覺；rough 在歌中是難受。",
+          "usage": "談一段很累人的經驗。",
+          "prompt": "· 情境： 走了一整天以後，腳很疲倦。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "My feet feel so tiring after the long walk.",
+            "My feet feel so tired after the long walk.",
+            "My feet feel so tiredly after the long walk.",
+            "My feet feels so tired after the long walk."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "tiring 是令人疲倦，不能自然表示腳本身累。",
+            "複數 feet 配 feel，後面用形容詞 tired。",
+            "tiredly 是副詞，不能作此處補語。",
+            "複數主詞不配 feels。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "that feels so rough",
+          "pattern": [
+            {
+              "text": "情況／it",
+              "fixed": false
+            },
+            {
+              "text": "feels so",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "複數 feet 配 feel，後面用形容詞 tired。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "have + 人 + 原形動詞（使役）",
+          "meaning": "請、安排某人做某事；不同於 have to 的義務。",
+          "usage": "安排朋友幫忙領包裹時。",
+          "prompt": "· 情境： 你上班無法接包裹。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I will have my brother pick up the box for me.",
+            "I will have my brother picking up the box for me.",
+            "I will have picked up my brother the box for me.",
+            "I will have my brother to pick up the box for me."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "have + brother + 原形 pick up 是使役用法。",
+            "此框架要用原形 pick。",
+            "誤用完成式且受詞順序錯。",
+            "使役 have 後不接 to。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Have your friends collect your records",
+          "pattern": [
+            {
+              "text": "have",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "物品",
+              "fixed": false
+            }
+          ],
+          "explanation": "have + brother + 原形 pick up 是使役用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "somebody + 限定關係子句",
+          "meaning": "以 that 子句限制是哪一個人；這裡 that 在子句中當受詞。",
+          "usage": "介紹以前認識的人時。",
+          "prompt": "· 情境： 你在照片中指認以前一起工作的朋友。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "That is somebody that I work with him years ago.",
+            "That is somebody that worked I with years ago.",
+            "That is somebody that I worked with him years ago.",
+            "That is somebody that I worked with years ago."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "年份 years ago 要用過去式，且多加 him。",
+            "關係子句語序錯。",
+            "多加 him，造成受詞重複。",
+            "that 指 somebody，worked with 的受詞已由 that 承擔。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "somebody that I used to know",
+          "pattern": [
+            {
+              "text": "somebody that",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "that 指 somebody，worked with 的受詞已由 that 承擔。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "used to + 原形：過去與現在不同",
+          "meaning": "表示過去持續的習慣或狀態，現在已經不同。",
+          "usage": "比較自己小時候和現在的生活。",
+          "prompt": "· 情境： 小時候住在海邊，現在住城市。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I used to live near the sea, but now I live in the city.",
+            "I was used to live near the sea, but now I live in the city.",
+            "I used live near the sea, but now I live in the city.",
+            "I used to lived near the sea, but now I live in the city."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "used to live 指以前住，現在已改變。",
+            "was used to 是不同的結構，後通常接名詞或 -ing。",
+            "缺少 to。",
+            "used to 後接原形 live。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I used to know",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "used to + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "used to live 指以前住，現在已改變。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "all the times + 限定子句",
+          "meaning": "把過去多次發生的事件當成一組回憶；that 可省略。",
+          "usage": "想起朋友多次幫忙的經歷時。",
+          "prompt": "· 情境： 你回想姊姊多年來幫助你的次數。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I remember all the times helped you me.",
+            "I remember all the times you helped me.",
+            "I remember all the times you helped me them.",
+            "I remember all the times you help me yesterday years ago."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "子句詞序錯誤。",
+            "times 後省略 that，you helped me 為限定子句。",
+            "受詞重複添加 them。",
+            "過去多次經歷應以 helped 表達，時間語也不通順。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "all the times you screwed me over",
+          "pattern": [
+            {
+              "text": "all the times (that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋過去式",
+              "fixed": false
+            }
+          ],
+          "explanation": "times 後省略 that，you helped me 為限定子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "have + 人 + -ing（使某人持續某狀態）",
+          "meaning": "使某人持續相信、感到或做某件事；與 have 人＋原形的使役不同。",
+          "usage": "描述一部電影讓大家一直猜結局。",
+          "prompt": "· 情境： 電影情節不斷變化，觀眾一直猜。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "The film had us guessing until the end.",
+            "The film had us to guessing until the end.",
+            "The film had us guessings until the end.",
+            "The film had we guessing until the end."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "had + us + guessing 表示使我們持續猜測。",
+            "此結構不加 to。",
+            "guessing 不加複數 s。",
+            "have 後應使用受格 us。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "had me believing",
+          "pattern": [
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": true
+            }
+          ],
+          "explanation": "had + us + guessing 表示使我們持續猜測。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "過去完成式 had + 過去分詞",
+          "meaning": "在另一個過去時間點之前已經完成的動作。",
+          "usage": "回想原以為物品遺失，但其實早已收好。",
+          "prompt": "· 情境： 你昨天找不到鑰匙，想起前一天已放進抽屜。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I remembered that I had put the key in the drawer.",
+            "I remembered that I had putted the key in the drawer.",
+            "I remembered that I had puts the key in the drawer.",
+            "I remembered that I have put the key in the drawer yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "had put 是過去完成式；put 的過去分詞仍是 put。",
+            "put 的過去分詞不是 putted。",
+            "had 後不能用 puts。",
+            "敘述昨天以前更早的事，這裡以 had put 表達更清楚。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "something that I'd done",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "had／'d + 過去分詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "had put 是過去完成式；put 的過去分詞仍是 put。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "want to + 原形（wanna 口語）",
+          "meaning": "wanna 是 want to 的口語拼寫，表達不想做某事。",
+          "usage": "與朋友聊天表示不想再熬夜。",
+          "prompt": "· 情境： 朋友約你今晚再次熬夜。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I don't wanna staying up late again.",
+            "I don't wanna to stay up late again.",
+            "I don't wanna stayed up late again.",
+            "I don't wanna stay up late again."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "wanna 後接原形動詞。",
+            "wanna 已包含 to。",
+            "wanna 後不能接過去式。",
+            "wanna 後直接接原形 stay，不能再加 to。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "I don't wanna live that way",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "don't wanna + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "wanna 後直接接原形 stay，不能再加 to。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "read into + 名詞（過度解讀）",
+          "meaning": "把沒有明說的額外意思讀進某人的話；本歌為 -ing 片語。",
+          "usage": "朋友擔心一則簡短訊息暗藏不滿。",
+          "prompt": "· 情境： 朋友只回「OK」，你想勸對方別想太多。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "Don't read too much into to the word \"OK.\"",
+            "Don't read too much into the word \"OK.\"",
+            "Don't read too much in the word \"OK.\"",
+            "Don't read too much into the word \"OK\" is."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "into 後不再加 to。",
+            "read into 是固定搭配，too much 表示過度解讀。",
+            "此義用 into，不用 in。",
+            "句尾多了 is。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "Reading into every word you say",
+          "pattern": [
+            {
+              "text": "read into",
+              "fixed": true
+            },
+            {
+              "text": "言語／行為",
+              "fixed": false
+            }
+          ],
+          "explanation": "read into 是固定搭配，too much 表示過度解讀。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "let + 人／物 + 原形動詞",
+          "meaning": "允許某人做事，或讓某事離去；let it go 在此指放下。",
+          "usage": "你勸朋友放下小小的失誤。",
+          "prompt": "· 情境： 朋友因昨天打翻果汁一直難過。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "It was an accident. You can let go it.",
+            "It was an accident. You can let it go.",
+            "It was an accident. You can let it going.",
+            "It was an accident. You can let it to go."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "這個片語代名詞 it 應在 let 與 go 中間。",
+            "let + it + go，代名詞放中間，go 用原形。",
+            "let 後不接 going。",
+            "let 後不加 to。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "you could let it go",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "explanation": "let + it + go，代名詞放中間，go 用原形。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "catch + 人 + 形容詞／分詞補語",
+          "meaning": "發現某人處於某種狀態或正在做某件事。",
+          "usage": "偶然看到哥哥偷偷唱歌。",
+          "prompt": "· 情境： 你在廚房發現哥哥正在唱歌。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "I caught my brother singing in the kitchen.",
+            "I caught my brother sang in the kitchen.",
+            "I caught my brother to sing in the kitchen.",
+            "I caught my brother sings in the kitchen."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "caught + brother + singing 表示撞見當時正在唱歌。",
+            "需要 -ing 表示被撞見的動作。",
+            "此處 catch 後不用 to sing。",
+            "sings 不能直接當此處受詞補語。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "I wouldn't catch you hung up on somebody",
+          "pattern": [
+            {
+              "text": "catch",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "形容詞／-ing／分詞狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "caught + brother + singing 表示撞見當時正在唱歌。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "be hung up on + 人",
+          "meaning": "口語指一直放不下某人或某件往事；歌中省略系動詞，作補語。",
+          "usage": "朋友一直難忘以前的同事。",
+          "prompt": "· 情境： 你描述朋友一直談起前任。 選出唯一一個文法、用法及語境都正確的英文句子。",
+          "options": [
+            "He is still hung up for his ex.",
+            "He still hung up on his ex every time he calls.",
+            "He is still hung up on his ex.",
+            "He is still hung up to his ex."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此搭配不用 for。",
+            "這句較像「掛電話」且時態結構不完整，不能清楚表達指定感情狀態。",
+            "be hung up on 指情感上放不下前任。",
+            "介系詞應是 on。"
+          ],
+          "sourceFile": "Somebody_That_I_Used_To_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "hung up on somebody",
+          "pattern": [
+            {
+              "text": "be hung up on",
+              "fixed": true
+            },
+            {
+              "text": "人／事",
+              "fixed": false
+            }
+          ],
+          "explanation": "be hung up on 指情感上放不下前任。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

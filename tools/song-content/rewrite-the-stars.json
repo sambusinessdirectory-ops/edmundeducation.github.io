@@ -3758,5 +3758,1700 @@
     "sha256": "53bc8075defafa14bfc52dddce9927bfad8c1005bc1aaafc7f5ce13252c029da",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "d0cb713c3ce1ccd60213a775cb104404ddcaebede1c01ea32c77a3b921f3cc3c"
+    },
+    {
+      "section": "advanced",
+      "filename": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "fb5895b9f2f51bf9a4a4911faaf2697e47968551bdde7121567c016113736ea8"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "know + 受詞子句（省略 that）",
+          "meaning": "知道某個事實；know 後的 that 可省略。",
+          "usage": "有把握對方知道一件事，或說明自己知道別人的想法時。",
+          "prompt": "朋友問你是否知道音樂會今晚開始。你確認知道。",
+          "options": [
+            "I know that the concert starts tonight.",
+            "I know to the concert starts tonight.",
+            "I know the concert starting tonight.",
+            "I know because the concert tonight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "know 後接完整的 that 子句，明確表達已知道的事。",
+            "know to 後不能直接接陳述子句。",
+            "缺少 is，不能用 starting 當完整謂語。",
+            "because 後面沒有完整子句，也不是此處要表達的知道內容。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "You know I want you（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞 + know",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + know + 完整句子",
+          "explanation": "know 後接完整的 that 子句，明確表達已知道的事。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "名詞後省略受詞關係代名詞",
+          "meaning": "a secret 後有 I try to hide 修飾；hide 的受詞正是那個 secret。",
+          "usage": "說明一樣東西是誰做的、誰要找的或誰想保留的時。",
+          "prompt": "哪句最自然地說明『這是我昨天找到的地圖』？",
+          "options": [
+            "This is the map found I yesterday.",
+            "This is the map I found yesterday.",
+            "This is the map I found it yesterday.",
+            "This is the map I finding yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "關係子句內的主詞與動詞次序錯誤。",
+            "found 的受詞由前面的 the map 提供，關係代名詞可省略。",
+            "多加 it，重複佔用 found 的受詞位置。",
+            "I finding 缺少助動詞，且與 yesterday 不合。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "It's not a secret I try to hide（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "example": "名詞 + (that) + 主詞 + 動詞",
+          "explanation": "found 的受詞由前面的 the map 提供，關係代名詞可省略。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "try + to-infinitive",
+          "meaning": "努力嘗試做某件事，不保證成功。",
+          "usage": "有意識地努力完成一件困難或不熟悉的事情。",
+          "prompt": "你第一次學陶藝，努力做一隻杯子。",
+          "options": [
+            "I tried to made a cup at the art shop.",
+            "I tried make a cup at the art shop.",
+            "I tried to make a cup at the art shop.",
+            "I try making a cup yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to 後應用 make，不用過去式 made。",
+            "tried 後需接 to 再加原形動詞。",
+            "tried to make 清楚表達嘗試製作杯子。",
+            "try making 也可表示試用某方法，但此處 yesterday 搭配現在式 try 不對。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I try to hide（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "try to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "try to + 動詞原形",
+          "explanation": "tried to make 清楚表達嘗試製作杯子。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "keep + -ing（持續）",
+          "meaning": "不斷、反覆做同一件事。",
+          "usage": "某件行為重複發生，想描述它持續或請人停止時。",
+          "prompt": "導覽員每隔一分鐘就提醒大家不要碰畫。",
+          "options": [
+            "The guide keeps reminded us not to touch the art.",
+            "The guide keeps remind us not to touch the art.",
+            "The guide keeps to remind us not to touch the art.",
+            "The guide keeps reminding us not to touch the art."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "reminded 是過去分詞，不符合持續動作結構。",
+            "keep 後不能直接接原形 remind。",
+            "此處 keep 的持續義需用 -ing，不是 to-infinitive。",
+            "keep reminding 表示提醒的動作一再發生。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "don't keep saying our hands are tied（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "example": "keep + 動詞-ing",
+          "explanation": "keep reminding 表示提醒的動作一再發生。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "be + 過去分詞：受限制的狀態",
+          "meaning": "歌中 hands are tied 以被動形式表達身不由己、行動受限。",
+          "usage": "談規則或外在因素令某人無法作主時；注意此處是慣用比喻。",
+          "prompt": "美術館規定今晚不得延長開放時間；職員無法通融。",
+          "options": [
+            "The staff are tying by the rule yesterday.",
+            "The staff hands are tied because of the rule.",
+            "The staff are tie their hands because of the rule.",
+            "The staff's hands are tied by the rule."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "are tying 表示正在綁，意思與時態都不對。",
+            "缺少所有格與正確 be + 過去分詞結構。",
+            "are tie 不能構成這裡的被動。",
+            "hands are tied 表示因規則而受到限制，符合歌中比喻。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "our hands are tied（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + be + 過去分詞",
+          "explanation": "hands are tied 表示因規則而受到限制，符合歌中比喻。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "claim + (that) 子句",
+          "meaning": "聲稱一件事是真的；說話者不一定同意。",
+          "usage": "轉述某人尚待證實的說法時。",
+          "prompt": "一位魔術師說自己不用看就能猜中牌。",
+          "options": [
+            "The magician claims that he can guess the card without looking.",
+            "The magician claims because the card guess.",
+            "The magician claims to he can guess the card.",
+            "The magician claims he guessing the card."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "claims that 後接完整陳述句，正確轉述主張。",
+            "because 後缺乏完整語法與清楚的主張。",
+            "claims to 後應接動詞原形，不是完整子句。",
+            "he guessing 缺少 is。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "You claim it's not in the cards（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "claim (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "example": "claim (that) + 完整句子",
+          "explanation": "claims that 後接完整陳述句，正確轉述主張。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "be (not) in the cards：可能性慣用語",
+          "meaning": "某件事似乎不可能發生、目前看來沒有機會；不是字面的撲克牌。",
+          "usage": "表達一個計畫看似無法實現時。",
+          "prompt": "暴風雪令明天的山頂野餐無法成行。",
+          "options": [
+            "A picnic is not in the cards because our cards are red.",
+            "The snow isn't in the cards because it is cold.",
+            "A mountain picnic isn't in the cards with this snow.",
+            "Our picnic isn't in the cards inside my bag."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "只是描述撲克牌顏色，誤用了慣用語。",
+            "寒冷本身不能清楚表達某計畫不可能實現。",
+            "因大雪無法野餐，符合 not in the cards 的可能性含義。",
+            "把慣用語當成真的放在包包裡，語義錯誤。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "it's not in the cards（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "事件",
+              "fixed": false
+            },
+            {
+              "text": "be not in the cards",
+              "fixed": true
+            }
+          ],
+          "example": "事件 + be not in the cards",
+          "explanation": "因大雪無法野餐，符合 not in the cards 的可能性含義。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "現在進行式：be + -ing",
+          "meaning": "描述正在發生或持續進行的動作。",
+          "usage": "敘述眼前正在進行的事情時。",
+          "prompt": "你看見舞台工作人員正在搬一座大型紙城堡。",
+          "options": [
+            "The workers move the castle yesterday.",
+            "The workers are moving the castle now.",
+            "The workers moving the castle now.",
+            "The workers are move the castle now."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "yesterday 與現在式不合，也不是正在進行的說法。",
+            "are moving 表示此刻正在搬動。",
+            "缺少助動詞 are。",
+            "are 後需用 moving。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "fate is pulling you miles away（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + am/is/are + 動詞-ing",
+          "explanation": "are moving 表示此刻正在搬動。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "out of reach：無法觸及",
+          "meaning": "某物太遠、太高或抽象地無法得到。",
+          "usage": "描述實際搆不到、或目標難以達到時。",
+          "prompt": "風箏掛在高樹上，小孩搆不到。",
+          "options": [
+            "The kite is out of reach because it is in my hand.",
+            "The kite out of reach on the grass.",
+            "The kite is out of reach to turn it blue.",
+            "The kite is out of reach high in the tree."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "已拿在手中就不是搆不到。",
+            "缺少 is，無法構成完整句子。",
+            "to turn it blue 和距離無關，並非適當的延伸。",
+            "風箏在高樹上，out of reach 表示搆不到。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "out of reach from me（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "out of reach",
+              "fixed": true
+            },
+            {
+              "text": "補充距離／對象",
+              "fixed": false
+            }
+          ],
+          "example": "out of reach + 補充距離／對象",
+          "explanation": "風箏在高樹上，out of reach 表示搆不到。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "if + 現在式：真實條件",
+          "meaning": "提出可能成立的條件，以及條件下的結果。",
+          "usage": "規劃有可能發生的事情時。",
+          "prompt": "如果天氣好，明天你們會去看星星。",
+          "options": [
+            "If the sky will clear, we watch the stars tomorrow.",
+            "If the sky is clear, we will watch the stars tomorrow.",
+            "If the sky clear, we will watch the stars tomorrow.",
+            "If the sky is clear, we watching the stars tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此類 if 條件子句一般不用 will 表達普通未來條件。",
+            "if 子句用現在式 is；主句用 will 表達計畫。",
+            "缺少 be 動詞 is。",
+            "主句 we watching 缺少助動詞。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "who can stop me if I decide（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 現在式,",
+              "fixed": false
+            },
+            {
+              "text": "主句",
+              "fixed": false
+            }
+          ],
+          "example": "if + 主詞 + 現在式, 主句",
+          "explanation": "if 子句用現在式 is；主句用 will 表達計畫。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "What if + 子句？",
+          "meaning": "假如……會怎樣？用來提出新的可能性。",
+          "usage": "提出有創意的假設或邀請大家想像不同做法。",
+          "prompt": "團隊正在想用什麼顏色畫社區牆，你提出大膽想法。",
+          "options": [
+            "What if to paint the wall green?",
+            "What if we paint the whole wall green?",
+            "What if painting the whole wall green?",
+            "What if do we paint the wall green?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "to paint 缺少主詞和限定動詞。",
+            "What if 後接 we paint 的完整陳述語序子句。",
+            "只有 painting 片語，缺少完整子句。",
+            "使用疑問句倒裝 do we，不符合此處 what if 後的結構。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "What if we rewrite the stars?（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "What if",
+              "fixed": true
+            },
+            {
+              "text": "完整子句?",
+              "fixed": false
+            }
+          ],
+          "example": "What if + 完整子句?",
+          "explanation": "What if 後接 we paint 的完整陳述語序子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be made to + 動詞原形",
+          "meaning": "歌中表示『彷彿註定要成為……』；亦可表示被要求或被安排做某事，須看語境。",
+          "usage": "用來描述某人被要求完成動作，或帶有命運感的安排時。",
+          "prompt": "故事裡，年輕船員被要求每天清理船面。",
+          "options": [
+            "The sailor was made to clean the ship each day.",
+            "The sailor was made clean the ship each day.",
+            "The sailor made to clean the ship each day.",
+            "The sailor was made cleaning the ship each day."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "被動的 was made to clean 完整且自然。",
+            "被動式 made 後需保留 to。",
+            "缺少 was。",
+            "to 後不可用 cleaning。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "you were made to be mine（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be made to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + be made to + 動詞原形",
+          "explanation": "被動的 was made to clean 完整且自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "nothing + could + 動詞原形",
+          "meaning": "強調即使有阻礙，也沒有任何事情『能夠』做到某事；could 表可能性。",
+          "usage": "用假設或充滿信心的語氣談可能性。",
+          "prompt": "兩名朋友即使住在不同城市，也認為沒有什麼能阻止他們通信。",
+          "options": [
+            "Nothing could stopping us from writing.",
+            "Nothing could stop us from writing to each other.",
+            "Nothing could stopped us from writing.",
+            "Nothing can to stop us from writing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "could 後不可直接接 stopping。",
+            "Nothing could stop 的情態動詞後接原形動詞。",
+            "could 後不可接 stopped。",
+            "can 後不能接 to stop。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Nothing could keep us apart（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "Nothing could",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "Nothing could + 動詞原形",
+          "explanation": "Nothing could stop 的情態動詞後接原形動詞。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "keep + 受詞 + 補語",
+          "meaning": "令某人或某物持續處於特定狀態；歌中 apart 是分開的狀態。",
+          "usage": "談維持安全、安靜或分隔狀態。",
+          "prompt": "劇場後台貼告示，請大家在演出前保持門關閉。",
+          "options": [
+            "Please keep closed the door before the show.",
+            "Please keep the door to close before the show.",
+            "Please keep the door closed before the show.",
+            "Please keep the door closing before the show."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "受詞 the door 應放在 keep 後面。",
+            "to close 表示目的或行為，不是此處所需的狀態補語。",
+            "keep the door closed 表示維持門關閉的狀態。",
+            "closing 表示門正在關上的動作，不等於維持關閉。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "keep us apart（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "狀態補語",
+              "fixed": false
+            }
+          ],
+          "example": "keep + 人／物 + 狀態補語",
+          "explanation": "keep the door closed 表示維持門關閉的狀態。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be meant to + 動詞原形",
+          "meaning": "本來應該、被安排或命中注定要做某事。",
+          "usage": "描述計畫的用途或既定安排；在歌中帶宿命的情感。",
+          "prompt": "你原本應該在下午三點帶領博物館參觀團。",
+          "options": [
+            "I meant to led the tour at three.",
+            "I was meant lead the tour at three.",
+            "I was meant to lead the tour at three.",
+            "I was meant leading the tour at three."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to 後不能使用 led。",
+            "被動結構中 meant 後不可省略 to。",
+            "was meant to lead 表示原定安排，to 後是原形 lead。",
+            "meant 後需 to + 原形動詞。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I was meant to find（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be meant to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + be meant to + 動詞原形",
+          "explanation": "was meant to lead 表示原定安排，to 後是原形 lead。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "It's up to + 人：決定權",
+          "meaning": "由某人決定；某件事取決於誰。",
+          "usage": "在選活動、方法或時間時把選擇權交給某人。",
+          "prompt": "兩位朋友在選看花展還是攝影展，你讓對方決定。",
+          "options": [
+            "It's up to you which show we visit.",
+            "It's up to visit you which show.",
+            "It's up for you which show we visit.",
+            "It's up your choice which show to you."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "It's up to you 清楚指出決定權在對方。",
+            "to 後語序與主語關係錯誤。",
+            "up for you 不等於由你決定。",
+            "未形成固定表達 It's up to + 人。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "It's up to you（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "It's up to",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            }
+          ],
+          "example": "It's up to + 人",
+          "explanation": "It's up to you 清楚指出決定權在對方。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "get to + 動詞原形（機會／許可）",
+          "meaning": "有機會、獲准做某事；歌中指可以成為怎樣的人。",
+          "usage": "談得到特別機會或被允許參與活動時。",
+          "prompt": "因為抽籤中選，你明天可以進入天文台控制室參觀。",
+          "options": [
+            "I get to visiting the control room tomorrow.",
+            "I get visiting to the control room tomorrow.",
+            "I get to visit the control room tomorrow.",
+            "I get visit the control room tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to 後要用 visit，不用 visiting。",
+            "詞序與動詞形式均不符 get to + 原形。",
+            "get to visit 表示得到機會參觀。",
+            "get 在此需要 to 才能連接原形動詞。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "what we get to be（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "get to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "get to + 動詞原形",
+          "explanation": "get to visit 表示得到機會參觀。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "Why don't we + 原形動詞？",
+          "meaning": "我們何不……？提出建議或一起採取行動。",
+          "usage": "向朋友提議共同活動時。",
+          "prompt": "有空的下午，朋友們想找事情做，你提議去做陶碗。",
+          "options": [
+            "Why don't we to make clay bowls?",
+            "Why don't we making clay bowls?",
+            "Why don't we make clay bowls?",
+            "Why don't we made clay bowls?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不需要 to。",
+            "don't we 後不可直接接 making。",
+            "don't we 後接原形 make，是自然的團體建議。",
+            "不可以接過去式 made。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "why don't we rewrite the stars?（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "Why don't we",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形?",
+              "fixed": false
+            }
+          ],
+          "example": "Why don't we + 動詞原形?",
+          "explanation": "don't we 後接原形 make，是自然的團體建議。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "there are + 複數名詞",
+          "meaning": "表示某處有一些東西或存在一些情況。",
+          "usage": "介紹場地內有哪些物品或設施。",
+          "prompt": "導覽員介紹古堡裡有三座小橋。",
+          "options": [
+            "There are three small bridges in the castle.",
+            "There have three small bridges in the castle.",
+            "There are three small bridge in the castle.",
+            "There is three small bridges in the castle."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "three bridges 是複數，搭配 There are。",
+            "英文存在句不以 There have 取代 There are。",
+            "three 後名詞要用複數 bridges。",
+            "three bridges 複數不能搭配 is。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "there are doors that we can't walk through（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "There are",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": false
+            }
+          ],
+          "example": "There are + 複數名詞",
+          "explanation": "three bridges 是複數，搭配 There are。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "介系詞留在關係子句末尾",
+          "meaning": "關係子句修飾名詞，介系詞可留在子句末尾；歌中 through 對應 doors。",
+          "usage": "描述可走入、可坐上或可談論的地方與事物時。",
+          "prompt": "你要指給朋友看可以走過去的橋。",
+          "options": [
+            "This is the bridge that we can walk across.",
+            "This is the bridge that we can walk through it.",
+            "This is the bridge that can we walk across.",
+            "This is the bridge that we can across."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "bridge ... that we can walk across 裡 across 留在末尾，語序正確。",
+            "through it 多出 it，重複橋作受詞。",
+            "關係子句不可使用疑問句倒裝 can we。",
+            "can 後缺少 walk。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "doors that we can't walk through（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞 + 介系詞",
+              "fixed": false
+            }
+          ],
+          "example": "名詞 + that + 主詞 + 動詞 + 介系詞",
+          "explanation": "bridge ... that we can walk across 裡 across 留在末尾，語序正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "wonder + 疑問詞（省略後續內容）",
+          "meaning": "想知道原因或方式；歌中的 why 後省略已知的疑問內容。",
+          "usage": "要表達心中有疑問而非直接質問。",
+          "prompt": "朋友看到舞台燈全關了，很想知道原因。",
+          "options": [
+            "Mia is wondering why is the stage dark.",
+            "Mia is wondering why does the stage go dark.",
+            "Mia is wonder why the stage is dark.",
+            "Mia is wondering why the stage is dark."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "使用了直接問句倒裝語序。",
+            "間接問句不使用 does the stage 的直接問句次序。",
+            "is 後要用 wondering。",
+            "間接問句 why the stage is dark 用陳述語序。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "you're wondering why（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "wonder",
+              "fixed": true
+            },
+            {
+              "text": "why/how/where...",
+              "fixed": false
+            }
+          ],
+          "example": "wonder + why/how/where...",
+          "explanation": "間接問句 why the stage is dark 用陳述語序。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "be able to + 動詞原形",
+          "meaning": "有能力、有機會做某事。",
+          "usage": "談某個人因條件允許而做得到的事。",
+          "prompt": "修好望遠鏡之後，大家終於可以看到月亮。",
+          "options": [
+            "We are able seeing the moon now.",
+            "We able to see the moon now.",
+            "We are able see the moon now.",
+            "We are able to see the moon now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "able 後需 to，不接 seeing。",
+            "缺少 be 動詞 are。",
+            "少了 to。",
+            "are able to see 是完整的能力表達。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "we're able to be（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be able to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + be able to + 動詞原形",
+          "explanation": "are able to see 是完整的能力表達。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "when + 子句（時間）",
+          "meaning": "在……的時候；建立兩個事件的時間關係。",
+          "usage": "說明某活動發生時另一個動作會如何。",
+          "prompt": "去動物園時，天開始下雨，你們就進室內。",
+          "options": [
+            "When it rain, we go indoors.",
+            "When it rains, we go indoors.",
+            "When raining, we goes indoors.",
+            "When it will rain, we go indoors."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "it 第三人稱單數動詞須加 -s。",
+            "when it rains 用正確現在式表達發生時的行動。",
+            "we goes 主詞動詞不一致，也缺少清楚子句。",
+            "一般時間子句不必用 will 表示此類未來條件。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "when we go outside（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "example": "when + 主詞 + 動詞",
+          "explanation": "when it rains 用正確現在式表達發生時的行動。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "after all：結果／終究",
+          "meaning": "可表示終究、到頭來；也可用於補充原因，須看語境。",
+          "usage": "得知最終結果與先前想法不同時。",
+          "prompt": "大家以為戶外戲劇會取消，但最後演出仍舉行了。",
+          "options": [
+            "The play happened after all inside my shoe.",
+            "We after all the play on Tuesday.",
+            "The play was after all blue at seven.",
+            "The play happened after all, even though it rained."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "把 after all 與鞋子位置混用，語境不通。",
+            "缺少動詞，after all 不能當主要動詞。",
+            "after all 不能充當顏色形容詞。",
+            "after all 表示原先以為不會發生的事最後仍發生。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "it was hopeless after all（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "after all",
+              "fixed": true
+            }
+          ],
+          "example": "after all",
+          "explanation": "after all 表示原先以為不會發生的事最後仍發生。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "everything 作單數主詞",
+          "meaning": "everything 雖涵蓋全部事情，文法上仍是單數。",
+          "usage": "談所有因素都指向一個結果時。",
+          "prompt": "暴風雨時，所有東西都使戶外工作更難。",
+          "options": [
+            "Everything make the work harder today.",
+            "Everything making the work harder today.",
+            "Everything makes the work harder today.",
+            "Everything are making the work harder today."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "應用 makes，不是 make。",
+            "缺少 be 動詞。",
+            "everything 當單數主詞，因此用 makes。",
+            "everything 搭配 is，不是 are。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "Everything keeps us apart（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "Everything",
+              "fixed": true
+            },
+            {
+              "text": "第三人稱單數動詞",
+              "fixed": false
+            }
+          ],
+          "example": "Everything + 第三人稱單數動詞",
+          "explanation": "everything 當單數主詞，因此用 makes。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "All + (省略 that 的子句) + be + to-infinitive",
+          "meaning": "『我想要的全部，就是……』；聚焦最重要的一個願望。",
+          "usage": "強調自己最想做的一件事時。",
+          "prompt": "你今天只想和祖母一起烤餅乾。",
+          "options": [
+            "All I want is to bake cookies with Grandma.",
+            "All I want are baking cookies with Grandma.",
+            "All I want to baking cookies with Grandma.",
+            "All I want is to baked cookies with Grandma."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "All I want is to bake ... 完全對應歌中焦點句型。",
+            "all 作單一願望時搭配 is；此處 are baking 不符合要表達的主詞補語結構。",
+            "缺少 is，且 to 後動詞形式不對。",
+            "to 後不能用 baked。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "All I want is to fly with you（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "All",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            },
+            {
+              "text": "is to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "example": "All + 主詞 + 動詞 + is to + 原形動詞",
+          "explanation": "All I want is to bake ... 完全對應歌中焦點句型。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "feel + 形容詞（連綴動詞）",
+          "meaning": "感覺怎樣；feel 在此作連綴動詞，後面接形容詞。",
+          "usage": "描述一個活動給人的主觀感受。",
+          "prompt": "一開始做拼圖很難，但現在感覺容易多了。",
+          "options": [
+            "The puzzle feels easy now.",
+            "The puzzle feel easy now.",
+            "The puzzle feels easily now.",
+            "The puzzle is feel easy now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "feels easy 用形容詞說明感受。",
+            "第三人稱單數 puzzle 要用 feels。",
+            "easily 是副詞，這裡要形容詞 easy。",
+            "is feel 不合文法。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "It feels impossible（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "feel(s)",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + feel(s) + 形容詞",
+          "explanation": "feels easy 用形容詞說明感受。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "祈使句 + that 子句",
+          "meaning": "要求對方說明或確認一件事；say 後可用 that 引導內容。",
+          "usage": "請人清楚說出自己的承諾或意見時。",
+          "prompt": "你希望隊友直接說明明天能否參加彩排。",
+          "options": [
+            "Say that you coming to practice tomorrow.",
+            "Say to that you can come to practice tomorrow.",
+            "Say that you can come to practice tomorrow.",
+            "Say that can you come to practice tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "you coming 缺少 are。",
+            "say that 之間不加 to。",
+            "祈使句 Say that 後為陳述語序完整子句。",
+            "that 後不使用直接問句倒裝。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "Say that it's possible（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "Say that",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "example": "Say that + 完整句子",
+          "explanation": "祈使句 Say that 後為陳述語序完整子句。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "be bound to + 動詞原形",
+          "meaning": "幾乎必定會發生；說話者預測可能性極高。",
+          "usage": "有明確跡象，認為某結果幾乎不可避免時。",
+          "prompt": "雲又黑又厚，你覺得很快一定會下雨。",
+          "options": [
+            "It bound to rain soon.",
+            "It is bound to rain soon.",
+            "It is bound to raining soon.",
+            "It is bound raining soon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 is。",
+            "is bound to rain 表示極可能發生的未來事件。",
+            "to 後用原形 rain，不用 raining。",
+            "bound 後需要 to + 原形動詞。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "We're bound to break（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be bound to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "example": "主詞 + be bound to + 動詞原形",
+          "explanation": "is bound to rain 表示極可能發生的未來事件。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "No one + 單數動詞／情態動詞",
+          "meaning": "沒有人；主詞 no one 視為單數。",
+          "usage": "強調沒有任何一個人知道或做得到某事。",
+          "prompt": "全場沒有一個人知道魔術師把硬幣放在哪裡。",
+          "options": [
+            "No one know where the coin is.",
+            "No one are knowing where the coin is.",
+            "No one knowing where the coin is.",
+            "No one knows where the coin is."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "需用 knows。",
+            "are 不可與 no one 搭配。",
+            "缺少限定動詞。",
+            "No one 是單數主詞，搭配 knows。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "No one can say what we get to be（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "No one",
+              "fixed": true
+            },
+            {
+              "text": "動詞（或情態動詞 + 原形）",
+              "fixed": false
+            }
+          ],
+          "example": "No one + 動詞（或情態動詞 + 原形）",
+          "explanation": "No one 是單數主詞，搭配 knows。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "詩意 -ing 片語（無完整主句）",
+          "meaning": "歌中以 Changing 開頭作詩意片語，沒有完整獨立句子的主詞與限定動詞；日常英文宜補足句子。",
+          "usage": "描述正在改變的畫面時，先認識歌中 -ing 的形式，避免誤當完整句。",
+          "prompt": "你正在向朋友描述一張照片：工人正在改變舞台的樣子。哪個是完整句？",
+          "options": [
+            "The workers are change the stage for tomorrow.",
+            "The workers are changing the stage for tomorrow.",
+            "The workers changing the stage for tomorrow.",
+            "Changing the stage for tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "are 後應用 changing。",
+            "主詞與 are changing 齊全，成為標準完整句；原歌詞 Changing 則是片語。",
+            "缺少 are。",
+            "只有分詞片語，沒有完整主句。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "Changing the world to be ours（PDF 英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "動詞-ing",
+              "fixed": true
+            },
+            {
+              "text": "受詞／其他補語",
+              "fixed": false
+            }
+          ],
+          "example": "動詞-ing + 受詞／其他補語",
+          "explanation": "主詞與 are changing 齊全，成為標準完整句；原歌詞 Changing 則是片語。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "rewrite",
+          "meaning": "重新改寫；大幅修訂",
+          "usage": "改寫文章、計畫或規則；rewrite + 受詞。",
+          "prompt": "哪一句正確使用「rewrite」？",
+          "options": [
+            "The editor will rewrite the chair before Friday.",
+            "The editor will rewrite the ending before Friday.",
+            "The editor will rewrite the rain into her bag.",
+            "The editor will rewrite to the station tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：椅子需要修理或重新設計，通常不是改寫。",
+            "正確：編輯將改寫結尾，受詞與動作搭配自然。",
+            "錯誤：雨不能當成文字放進袋子改寫。",
+            "錯誤：rewrite 是及物動詞，這裡沒有被改寫的內容。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：編輯將改寫結尾，受詞與動作搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "fate",
+          "meaning": "命運；不可控制的結果",
+          "usage": "談人生的命運或結果，常用 fate of ...。",
+          "prompt": "哪一句正確使用「fate」？",
+          "options": [
+            "Nobody knew the fate of the lost ship.",
+            "She wore her fate to school every morning.",
+            "The team cooked its fate for breakfast today.",
+            "The bus paid its fate with a travel card."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：沒有人知道失蹤船隻的下落或最終命運。",
+            "錯誤：命運不是可以穿上的衣物。",
+            "錯誤：命運不能當早餐烹煮。",
+            "錯誤：支付車資不會用 pay its fate。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：沒有人知道失蹤船隻的下落或最終命運。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "in the cards",
+          "meaning": "有可能發生；在預期之中",
+          "usage": "常搭配 be / not be in the cards；源自紙牌占卜。",
+          "prompt": "哪一句正確使用「in the cards」？",
+          "options": [
+            "My ticket is in the cards under the desk.",
+            "A promotion may be in the cards next year.",
+            "We walked in the cards after the movie ended.",
+            "She cooked in the cards for the whole family."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：若指卡片裡面，通常要明確說 in the card 或 on the cards，非此慣用義。",
+            "正確：升職明年可能發生，符合「有可能」的意思。",
+            "錯誤：這個慣用語不表示走路的方式。",
+            "錯誤：不能用此片語替代在廚房做飯。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：升職明年可能發生，符合「有可能」的意思。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "decide",
+          "meaning": "決定；作出選擇",
+          "usage": "decide to + 動詞，或 decide between + 選項。",
+          "prompt": "哪一句正確使用「decide」？",
+          "options": [
+            "They decided happy about the final result.",
+            "We decided to the library after lunch.",
+            "He decided to take the earlier train home.",
+            "She decided her coffee very quickly yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：decide 後不能直接接 happy 來表示心情。",
+            "錯誤：decide to 後需動詞，例如 go to。",
+            "正確：決定搭乘較早的火車，句型正確。",
+            "錯誤：買或喝咖啡不能只用 decided her coffee。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：決定搭乘較早的火車，句型正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "walk through",
+          "meaning": "走過；逐步說明",
+          "usage": "既可指通過某處，也可指逐步講解流程。",
+          "prompt": "哪一句正確使用「walk through」？",
+          "options": [
+            "The guide walked us through a bowl of soup.",
+            "The guide walked us through because it was purple.",
+            "The guide walked us through the new safety rules.",
+            "The guide walked through the answer into a pencil."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：人無法合理「走過」一碗湯，亦非解釋流程。",
+            "錯誤：只有顏色，沒有說明講解或通過什麼。",
+            "正確：walk someone through something 可表示逐步講解規則。",
+            "錯誤：答案不會走進鉛筆，搭配不通。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：walk someone through something 可表示逐步講解規則。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "within",
+          "meaning": "在……之內；不超過（時間／範圍）",
+          "usage": "within + 時間或範圍，強調界限之內。",
+          "prompt": "哪一句正確使用「within」？",
+          "options": [
+            "The letter arrived within the blue bicycle.",
+            "She within the train because it was early.",
+            "We played within happily after school ended.",
+            "Please send your reply within three days."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：腳踏車不是信件合理的存放範圍。",
+            "錯誤：within 是介系詞，不能直接作動詞。",
+            "錯誤：within 後面需要名詞等受詞，不能只接 happily。",
+            "正確：三天之內回覆，是常用的時間範圍搭配。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：三天之內回覆，是常用的時間範圍搭配。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "wake up",
+          "meaning": "醒來；意識到現實",
+          "usage": "表示從睡眠中醒來；也可比喻認清真相。",
+          "prompt": "哪一句正確使用「wake up」？",
+          "options": [
+            "The train woke up its tickets before leaving.",
+            "His alarm woke up the meeting at noon.",
+            "Our teacher woke up a new blue pencil.",
+            "She woke up early to catch the first bus."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：車票無法睡覺，因此不能被喚醒。",
+            "錯誤：會議不是睡眠中的人；這裡語意不自然。",
+            "錯誤：鉛筆不會睡覺，無法被喚醒。",
+            "正確：她早起趕首班車，搭配正確。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：她早起趕首班車，搭配正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "after all",
+          "meaning": "畢竟；結果還是",
+          "usage": "說明理由或原本不確定之事的最終結果。",
+          "prompt": "哪一句正確使用「after all」？",
+          "options": [
+            "He packed after all the train to go home.",
+            "It rained, but we enjoyed the trip after all.",
+            "The movie was after all a large blue desk.",
+            "She was after all of her breakfast early."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：after all 不能插在動詞與車站之間充當受詞。",
+            "正確：雖然下雨，最後仍玩得愉快，符合結果用法。",
+            "錯誤：電影和書桌之間沒有自然的最終結果語意。",
+            "錯誤：after all 不應與 of 如此連接早餐。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：雖然下雨，最後仍玩得愉快，符合結果用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "impossible",
+          "meaning": "不可能的；無法做到的",
+          "usage": "用於超出能力或條件限制的任務；it is impossible to...。",
+          "prompt": "哪一句正確使用「impossible」？",
+          "options": [
+            "She impossible her bike because it was raining.",
+            "It is impossible my shoes before the school bus.",
+            "It is impossible to finish this work in one minute.",
+            "We did impossible to the cinema last night."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：impossible 是形容詞，不可代替騎車動詞。",
+            "錯誤：impossible 不能直接接 my shoes 當動詞。",
+            "正確：大量工作一分鐘無法完成，句型與語意自然。",
+            "錯誤：did impossible 不是自然英文，缺少適當結構。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：大量工作一分鐘無法完成，句型與語意自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "fly",
+          "meaning": "飛行；飛往某地",
+          "usage": "鳥、飛機飛行；也可說 fly to + 地點。",
+          "prompt": "哪一句正確使用「fly」？",
+          "options": [
+            "The birds fly south when the weather gets cold.",
+            "We flew our homework before the school bell.",
+            "The bus flew the station on its usual road.",
+            "She flew her lunch with a plastic fork."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：鳥天冷時向南飛，符合自然用法。",
+            "錯誤：做作業不會用 fly 代替 finish。",
+            "錯誤：公車沿馬路行駛通常用 drove，不用 flew。",
+            "錯誤：午餐不能以這種方式「飛」，也不表示吃飯。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：鳥天冷時向南飛，符合自然用法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "fall",
+          "meaning": "落下；跌倒；下降",
+          "usage": "描述從高處落下、意外跌倒或數值下降。",
+          "prompt": "哪一句正確使用「fall」？",
+          "options": [
+            "The teacher fell the homework for the class.",
+            "I fell my friend a message on Monday morning.",
+            "The blue jacket fell me to the supermarket.",
+            "Be careful, or you might fall on the ice."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：分發功課用 gave out，不用 fell。",
+            "錯誤：傳訊息用 sent，不用 fell。",
+            "錯誤：fell 不能像帶路動詞一樣直接接人和地點。",
+            "正確：冰上可能滑倒，fall 用法自然。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：冰上可能滑倒，fall 用法自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "changing",
+          "meaning": "改變；正在變化",
+          "usage": "change 可指狀況改變、計畫變動；changing 為動詞 -ing 形式。",
+          "prompt": "哪一句正確使用「changing」？",
+          "options": [
+            "The town is changing as more people move there.",
+            "The cake is changing my teacher at the station.",
+            "The rain is changing the bus into its timetable.",
+            "He is changing into the meeting every Tuesday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：人口增加使城鎮正在改變，搭配自然。",
+            "錯誤：蛋糕不能以此方式替代或改變老師。",
+            "錯誤：雨不會把公車變成時刻表，語意不自然。",
+            "錯誤：進入會議不能使用 changing into（意為變成）。"
+          ],
+          "sourceFile": "Rewrite_The_Stars_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：人口增加使城鎮正在改變，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

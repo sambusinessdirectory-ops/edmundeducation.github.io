@@ -2938,5 +2938,1232 @@
     "sha256": "85f4220233c5ecaa9baba204cefc35958503df0b824075495cadd9e391d527b5",
     "transformations": "none",
     "selectedOn": "2026-10-29"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "c52581f650b277d8971243de8b769bc34d14d84553eb4550f68ae4212756236c"
+    },
+    {
+      "section": "advanced",
+      "filename": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "671cf24846d55ce933f24150596d9a5bf672800219300148634202650c596875"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "過去分詞片語描寫受影響狀態",
+          "meaning": "省略主語與 be 的詩意片段，表示「受到某事影響」；並非完整句。",
+          "usage": "在標題、故事描述可看到省略式；一般寫作宜用完整被動句。",
+          "prompt": "哪句是完整、自然的被動句？",
+          "options": [
+            "The window broken was by the wind.",
+            "The window was break by the wind.",
+            "The window was breaking by wind yesterday.",
+            "The window was broken by the wind."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：be 與過去分詞的語序錯誤。",
+            "錯誤：被動語態要用過去分詞 broken。",
+            "錯誤：這裡要說被風吹破，不是進行中的 breaking。",
+            "正確：was + broken 正確表示窗戶被風吹破。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "“Shot through the heart”",
+          "pattern": [
+            {
+              "text": "過去分詞 + 介系詞片語",
+              "fixed": true
+            }
+          ],
+          "example": "Shocked by the news",
+          "explanation": "正確：was + broken 正確表示窗戶被風吹破。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "be to blame：應負責",
+          "meaning": "表示某人應為問題負責，不是一般的 to + 動詞不定詞。",
+          "usage": "談責任與失誤時可用，常接 for + 問題。",
+          "prompt": "展覽海報被弄壞，哪句正確？",
+          "options": [
+            "Maya is to blaming for the torn poster.",
+            "Maya is blame to the torn poster.",
+            "Maya to blame for the torn poster.",
+            "Maya is to blame for the torn poster."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to blame 不是進行式。",
+            "錯誤：to blame 的次序與形式錯。",
+            "錯誤：缺少 is。",
+            "正確：be to blame for + 事情是正確搭配。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "“you're to blame”",
+          "pattern": [
+            {
+              "text": "be + to blame",
+              "fixed": true
+            }
+          ],
+          "example": "I am / He is",
+          "explanation": "正確：be to blame for + 事情是正確搭配。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "give + 人／物 + 名詞：雙受詞",
+          "meaning": "一個動詞接兩個受詞；歌曲中的 give ... a bad name 是「損害名聲」的慣用表達。",
+          "usage": "贈送物品或描述某事造成評價時。",
+          "prompt": "哪句正確表示「我送姊姊一張卡片」？",
+          "options": [
+            "I gave a card my sister to.",
+            "I gave my sister a card.",
+            "I gave my sister to a card.",
+            "I gave to my sister a card."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：受詞順序和 to 的位置錯。",
+            "正確：give + 人 + 物，結構正確。",
+            "錯誤：to 不應放在第二受詞前。",
+            "錯誤：若用 to，通常說 I gave a card to my sister。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "“you give love a bad name”",
+          "pattern": [
+            {
+              "text": "give + 受詞一 + 受詞二",
+              "fixed": true
+            }
+          ],
+          "example": "my friend + a postcard",
+          "explanation": "正確：give + 人 + 物，結構正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "所有格 ’s + 名詞",
+          "meaning": "表示某人或某物的東西或特徵。",
+          "usage": "說明物品屬於誰，或描寫某人的特徵。",
+          "prompt": "哪句正確表示那是哥哥的相機？",
+          "options": [
+            "That is my brother camera.",
+            "That is my brother is camera.",
+            "That is my brothers camera.",
+            "That is my brother’s camera."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：需要所有格 ’s。",
+            "錯誤：is 不可取代所有格。",
+            "錯誤：brothers 是複數，不能替代單數所有格。",
+            "正確：brother’s camera 正確。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "“An angel's smile”",
+          "pattern": [
+            {
+              "text": "名詞 + ’s + 名詞",
+              "fixed": true
+            }
+          ],
+          "example": "my brother’s bike",
+          "explanation": "正確：brother’s camera 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "what + 子句：名詞性關係子句",
+          "meaning": "what 可表示「……的東西／事情」，整組當名詞使用。",
+          "usage": "想說「某人所說、所做、所需要的東西」。",
+          "prompt": "哪句自然表示「我理解你說的話」？",
+          "options": [
+            "I understand what you did said.",
+            "I understand what you said.",
+            "I understand what did you say.",
+            "I understand what you saying."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：did 與 said 不應同時如此使用。",
+            "正確：what you said 是正確的名詞性子句。",
+            "錯誤：嵌入句不使用直接問句語序。",
+            "錯誤：缺少 are 或改成 said。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "“what you sell”",
+          "pattern": [
+            {
+              "text": "what + 主詞 + 動詞",
+              "fixed": true
+            }
+          ],
+          "example": "what she needs",
+          "explanation": "正確：what you said 是正確的名詞性子句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "promise + 人 + 事物",
+          "meaning": "表示向某人承諾提供某物或某事。",
+          "usage": "談承諾、約定或保證時。",
+          "prompt": "哪句表示「店主答應給我們一張地圖」？",
+          "options": [
+            "The owner promised a map us.",
+            "The owner promised us a map.",
+            "The owner promised to us a map.",
+            "The owner promised we a map."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：名詞與人稱代詞順序不對。",
+            "正確：雙受詞結構正確。",
+            "錯誤：較自然為 promised us a map 或 promised a map to us。",
+            "錯誤：受詞應為 us 而非 we。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "“You promised me heaven”",
+          "pattern": [
+            {
+              "text": "promise + 人 + 事物",
+              "fixed": true
+            }
+          ],
+          "example": "us + a free ticket",
+          "explanation": "正確：雙受詞結構正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "then 表示先後",
+          "meaning": "then 連接先後發生的事件；原詞為前句的延續片段。",
+          "usage": "敘述故事發展、程序與順序。",
+          "prompt": "哪句清楚說明先關窗再離開？",
+          "options": [
+            "I closed the window, then left.",
+            "I then the window closed and left.",
+            "I closed then the window and left.",
+            "I closed the window, than left."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：先關窗，再離開，時間順序正確。",
+            "錯誤：then 不能當關窗的動詞。",
+            "錯誤：then 位置不自然。",
+            "錯誤：than 用於比較，不表示接著。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "“then put me through hell”",
+          "pattern": [
+            {
+              "text": "完成事件 A, then + 完成事件 B",
+              "fixed": true
+            }
+          ],
+          "example": "ate dinner, then washed the dishes",
+          "explanation": "正確：先關窗，再離開，時間順序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "put + 人 + through + 經歷",
+          "meaning": "使某人經歷艱難的事；歌中 through hell 是強烈比喻。",
+          "usage": "談某種程序、考驗或辛苦經驗。",
+          "prompt": "哪句正確表示訓練使隊員接受一項艱難考驗？",
+          "options": [
+            "The coach put a hard test through the players.",
+            "The coach put players through to a hard test.",
+            "The coach put the players through a hard test.",
+            "The coach put through the players a hard test."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：受詞位置不符合本句型。",
+            "錯誤：through 後直接接考驗，不加 to。",
+            "正確：put + 人 + through + 考驗正確。",
+            "錯誤：人通常放在 through 前。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "“put me through hell”",
+          "pattern": [
+            {
+              "text": "put + 人 + through + 經歷",
+              "fixed": true
+            }
+          ],
+          "example": "put her through a difficult test",
+          "explanation": "正確：put + 人 + through + 考驗正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "get a hold on + 人",
+          "meaning": "表示某事對某人產生強烈影響、使人難以擺脫；此處為比喻。",
+          "usage": "談讓人難以放下的興趣、恐懼或誘惑。",
+          "prompt": "哪句正確表達「這部影集讓我著迷」？",
+          "options": [
+            "This show is a hold on me.",
+            "This show has a hold to me.",
+            "This show has a hold on me.",
+            "This show has hold at me."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：需要 have/has a hold。",
+            "錯誤：介系詞應是 on。",
+            "正確：has a hold on me 結構正確。",
+            "錯誤：缺少冠詞 a，介系詞也不對。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "“got a hold on me”",
+          "pattern": [
+            {
+              "text": "get / have + a hold on + 人",
+              "fixed": true
+            }
+          ],
+          "example": "has a hold on him",
+          "explanation": "正確：has a hold on me 結構正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "when + 子句：條件或時間背景",
+          "meaning": "when 帶出時間或情境；歌詞中的 passion’s = passion is。",
+          "usage": "說明某種情況發生時，另一個反應會出現。",
+          "prompt": "哪句表示「下雨時，我待在屋內」？",
+          "options": [
+            "When it rains, I stay inside.",
+            "When it rain, I stay inside.",
+            "When it raining, I stay inside.",
+            "When rain, I stay inside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：when it rains 結構完整。",
+            "錯誤：it 為第三人稱單數，動詞要加 s。",
+            "錯誤：缺少 is。",
+            "錯誤：when 後通常需要完整子句。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "“When passion's a prison”",
+          "pattern": [
+            {
+              "text": "When + 主詞 + 動詞",
+              "fixed": true
+            }
+          ],
+          "example": "When the shop closes",
+          "explanation": "正確：when it rains 結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "cannot + 原形動詞",
+          "meaning": "can’t 表示無法或不能做某事；後接動詞原形。",
+          "usage": "說能力、限制或現實上辦不到的事。",
+          "prompt": "哪句表示「我今天無法參加排練」？",
+          "options": [
+            "I can't to join practice today.",
+            "I can't join practice today.",
+            "I can't joining practice today.",
+            "I can't joined practice today."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：can’t 後不加 to。",
+            "正確：can’t + join 正確。",
+            "錯誤：不能接 -ing。",
+            "錯誤：不能接過去式 joined。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "“you can't break free”",
+          "pattern": [
+            {
+              "text": "can’t + 動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "can’t + swim",
+          "explanation": "正確：can’t + join 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "there is + 地點／存在",
+          "meaning": "there is 用於表示存在；nowhere 是「沒有任何地方」。",
+          "usage": "介紹某地方有甚麼，或表達缺乏選擇。",
+          "prompt": "哪句表示「大廳裡有一部電梯」？",
+          "options": [
+            "There have a lift in the hall.",
+            "There is lift in the hall.",
+            "There is a lift in the hall.",
+            "There are a lift in the hall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：there have 不是此存在句型。",
+            "錯誤：單數可數名詞 lift 前須有冠詞。",
+            "正確：there is a lift 結構正確。",
+            "錯誤：a lift 單數，搭配 is。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "“there's nowhere to run”",
+          "pattern": [
+            {
+              "text": "There is + 名詞／存在表達",
+              "fixed": true
+            }
+          ],
+          "example": "There is + a chair",
+          "explanation": "正確：there is a lift 結構正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "nowhere + to + 原形動詞",
+          "meaning": "表示沒有地方可以做某事。",
+          "usage": "地方不足、沒有去處或缺乏選項時。",
+          "prompt": "哪句正確說明座位全滿？",
+          "options": [
+            "Every seat is taken, so there is nowhere sit.",
+            "Every seat is taken, so there is nowhere sitting.",
+            "Every seat is taken, so there is nowhere to sit.",
+            "Every seat is taken, so there is nowhere to sitting."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：nowhere 後缺 to。",
+            "錯誤：此處要用不定詞。",
+            "正確：nowhere to sit 結構正確。",
+            "錯誤：to 後需原形。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "“nowhere to run”",
+          "pattern": [
+            {
+              "text": "nowhere + to + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "nowhere to sit",
+          "explanation": "正確：nowhere to sit 結構正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "no one 作主詞",
+          "meaning": "no one 表示「沒有人」，作單數主詞。",
+          "usage": "強調無人知道、無人來或無人能做某事。",
+          "prompt": "哪句表示「沒有人知道答案」？",
+          "options": [
+            "No one know the answer.",
+            "No one knows the answer.",
+            "No one are knowing the answer.",
+            "No one knowing the answer."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：no one 當單數，動詞需 knows。",
+            "正確：no one knows 正確。",
+            "錯誤：助動詞與進行式不自然。",
+            "錯誤：缺少限定動詞。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "“No one can save me”",
+          "pattern": [
+            {
+              "text": "No one + 單數動詞／助動詞",
+              "fixed": true
+            }
+          ],
+          "example": "No one knows",
+          "explanation": "正確：no one knows 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "現在簡單被動：be + 過去分詞",
+          "meaning": "用被動語態描述某種結果或狀態。",
+          "usage": "重點在事情已造成的結果，或誰做的不重要時。",
+          "prompt": "哪句正確表示「門現在鎖著」？",
+          "options": [
+            "The door locked is now.",
+            "The door is lock now.",
+            "The door is locking now.",
+            "The door is locked now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：語序不正確。",
+            "錯誤：被動要用 locked。",
+            "錯誤：is locking 強調門正在執行鎖門動作，不合此意思。",
+            "正確：is locked 表示目前鎖著的狀態。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "“the damage is done”",
+          "pattern": [
+            {
+              "text": "be + 過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "The door is locked",
+          "explanation": "正確：is locked 表示目前鎖著的狀態。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "play + 所有格 + part",
+          "meaning": "履行自己的職責或扮演自己的角色。",
+          "usage": "團隊合作、戲劇或分工時。",
+          "prompt": "哪句表示「每個人都要做好自己的部分」？",
+          "options": [
+            "Everyone should play their part.",
+            "Everyone should play they part.",
+            "Everyone should plays their part.",
+            "Everyone should playing their part."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：play their part 為正確搭配。",
+            "錯誤：所有格要用 their。",
+            "錯誤：should 後要接原形 play。",
+            "錯誤：should 後不能直接接 playing。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "“I play my part”",
+          "pattern": [
+            {
+              "text": "play + 所有格 + part",
+              "fixed": true
+            }
+          ],
+          "example": "play + her + part",
+          "explanation": "正確：play their part 為正確搭配。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "對比連接詞 and",
+          "meaning": "and 連接兩個並列動作，原詞又藉 part / game 形成語意對比。",
+          "usage": "同時說明兩個人的活動或行為。",
+          "prompt": "哪句正確表示「我畫畫，她唱歌」？",
+          "options": [
+            "I draw, and she sings.",
+            "I draw, and she sing.",
+            "I draw, and sings she.",
+            "I draw, and she singing."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：兩個子句完整，單數 she 接 sings。",
+            "錯誤：she 為單數需 sings。",
+            "錯誤：第二子句語序錯誤。",
+            "錯誤：第二子句缺少 be 動詞。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "“I play my part and you play your game”",
+          "pattern": [
+            {
+              "text": "子句 + and + 子句",
+              "fixed": true
+            }
+          ],
+          "example": "I read + and + she writes",
+          "explanation": "正確：兩個子句完整，單數 she 接 sings。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "祈使句：原形動詞開頭",
+          "meaning": "祈使句用動詞原形開頭，可表示指示、要求或邀請；原詞帶詩意描寫。",
+          "usage": "說明步驟或請人做某件事。",
+          "prompt": "哪句是正確的祈使句？",
+          "options": [
+            "Opens the book at page ten.",
+            "Opening the book at page ten.",
+            "To open the book at page ten.",
+            "Open the book at page ten."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：命令句動詞不加 s。",
+            "錯誤：-ing 不是一般祈使句開頭形式。",
+            "錯誤：只有不定詞片語，不能作一般命令句。",
+            "正確：以原形 Open 開頭正確。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "“Paint your smile on your lips”",
+          "pattern": [
+            {
+              "text": "原形動詞 + 受詞／補語",
+              "fixed": true
+            }
+          ],
+          "example": "Write + your name",
+          "explanation": "正確：以原形 Open 開頭正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "形容詞 + 名詞的修飾",
+          "meaning": "形容詞放在名詞前描述顏色或特徵；blood red 是色彩描述，不是完整句。",
+          "usage": "描述衣物、裝飾與藝術作品的外觀。",
+          "prompt": "哪句形容「深藍色的窗簾」正確？",
+          "options": [
+            "She chose curtains dark blue.",
+            "She chose blue dark curtains.",
+            "She chose dark blue curtains.",
+            "She chose darkly blue curtains."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：一般形容詞置於名詞前。",
+            "錯誤：顏色詞序不自然。",
+            "正確：dark blue + curtains 正確。",
+            "錯誤：darkly 修飾動詞，不適合修飾 blue。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "“Blood red nails”",
+          "pattern": [
+            {
+              "text": "形容詞／顏色表達 + 名詞",
+              "fixed": true
+            }
+          ],
+          "example": "bright green + shoes",
+          "explanation": "正確：dark blue + curtains 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "act + 形容詞",
+          "meaning": "描述某人表現出某種態度；不一定證明對方真的有那種感受。",
+          "usage": "談某人在特定情境的行為表現。",
+          "prompt": "哪句正確表示「他在採訪時表現得很冷靜」？",
+          "options": [
+            "He acted calmness at the interview.",
+            "He acted calm at the interview.",
+            "He acted to calm at the interview.",
+            "He acted calmly shy at the interview."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：calmness 為名詞。",
+            "正確：acted calm 是自然的 act + adjective 用法。",
+            "錯誤：act 後不能這樣用 to calm。",
+            "錯誤：calmly shy 不符合目標結構。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "“you act so shy”",
+          "pattern": [
+            {
+              "text": "act + (so) + 形容詞",
+              "fixed": true
+            }
+          ],
+          "example": "act + very calm",
+          "explanation": "正確：acted calm 是自然的 act + adjective 用法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "very + 序數詞強調「正是」",
+          "meaning": "very 在 first / last 前可表示「正是、最初那一個」，不是一般「非常」。",
+          "usage": "強調第一個或最後一個具體時刻。",
+          "prompt": "哪句自然強調「我入學的第一天」？",
+          "options": [
+            "I remember my very first day at this school.",
+            "I remember my very firstly day at this school.",
+            "I remember my first very day at this school.",
+            "I remember my very one day at this school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：very first day 是自然且有強調的說法。",
+            "錯誤：firstly 是副詞，不能這樣修飾 day。",
+            "錯誤：順序應是 very first day。",
+            "錯誤：one 不構成 very first 的結構。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "“Your very first kiss”",
+          "pattern": [
+            {
+              "text": "very + 序數詞 + 名詞",
+              "fixed": true
+            }
+          ],
+          "example": "very + first + day",
+          "explanation": "正確：very first day 是自然且有強調的說法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "一般過去式敘述事實",
+          "meaning": "用 was/were 談過去的事實或狀態；原句有文字遊戲。",
+          "usage": "回憶旅行、活動或當時的感受。",
+          "prompt": "哪句正確回憶上週的音樂會？",
+          "options": [
+            "The concert were great last week.",
+            "The concert is great last week.",
+            "The concert was great last week.",
+            "The concert be great last week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：單數 concert 接 was。",
+            "錯誤：last week 指過去，應用 was。",
+            "正確：單數過去式 was 正確。",
+            "錯誤：缺少正確的限定動詞。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "“Your very first kiss was your first kiss goodbye”",
+          "pattern": [
+            {
+              "text": "主詞 + 過去式 be + 補語",
+              "fixed": true
+            }
+          ],
+          "example": "The show + was + wonderful",
+          "explanation": "正確：單數過去式 was 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "現在式表示習慣或反覆行為",
+          "meaning": "現在簡單式可用來指一再出現的行為或概括描述。",
+          "usage": "談習慣、平常會發生的事。",
+          "prompt": "哪句正確說明「他每星期六都練鋼琴」？",
+          "options": [
+            "He practices the piano every Saturday.",
+            "He is practice the piano every Saturday.",
+            "He practicing the piano every Saturday.",
+            "He practice the piano every Saturday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：practices 表習慣，正確。",
+            "錯誤：is 後不能直接接原形 practice。",
+            "錯誤：缺少 is，且原意為習慣動作。",
+            "錯誤：he 單數需 practices。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "“You give love a bad name”",
+          "pattern": [
+            {
+              "text": "主詞 + 現在式動詞 + 受詞",
+              "fixed": true
+            }
+          ],
+          "example": "She helps her friends",
+          "explanation": "正確：practices 表習慣，正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "shot through",
+          "meaning": "被穿透；被射穿（歌詞比喻心碎）",
+          "usage": "通常以 be shot through with 表示充滿某種感受；這裡練習被動式 be shot through with（充滿）。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "The cup was shot through with hot tea on the table.",
+            "He shot through his homework with a blue pencil.",
+            "We were shot through to the station on a bus.",
+            "Her voice was shot through with sadness when she said goodbye."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "這裡想說杯子裝滿茶，應說 filled with tea。",
+            "shot through 不表示用筆完成作業。",
+            "shot through 不表示搭公車前往某處。",
+            "正確：聲音中充滿悲傷，shot through with 表抽象感受貫穿其中。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：聲音中充滿悲傷，shot through with 表抽象感受貫穿其中。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "angel",
+          "meaning": "天使；非常善良的人（比喻）",
+          "usage": "可用 angel 比喻體貼、樂於助人的人；歌詞則以天使外貌營造反差。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "My school bus is an angel because it has four wheels.",
+            "You helped us all day. You are an angel!",
+            "The teacher angeled our tests before lunch.",
+            "Please put an angel of sugar in my tea."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "公車有輪子不代表它是非常善良的人。",
+            "正確：以 angel 稱讚一個人非常貼心。",
+            "angel 是名詞，不可這樣當動詞。",
+            "angel 不是糖的計量單位。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：以 angel 稱讚一個人非常貼心。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "chains",
+          "meaning": "鎖鏈；一連串相連的事物",
+          "usage": "chains 可指實際的鎖鏈，也可比喻限制自由的束縛。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "She wore chains to answer the question quickly.",
+            "The old gate had heavy chains around it.",
+            "The teacher chains the class a new song each week.",
+            "There were three chains of milk in my glass."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "戴鎖鏈並非快速回答問題的方式，語意不合理。",
+            "正確：鎖鏈圍住舊大門，為字面意思。",
+            "chains 不表示教導歌曲；應說 teaches。",
+            "chains 不是牛奶的計量單位。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：鎖鏈圍住舊大門，為字面意思。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "passion",
+          "meaning": "熱情；強烈的喜愛",
+          "usage": "指對活動、目標或某件事的強烈熱愛；歌詞將其比喻成牢籠。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "The passion arrived at six on the school bus.",
+            "I passion to the library after school.",
+            "My brother bought two passions at the market.",
+            "Mia has a passion for music and plays every day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "passion 不表示乘客或交通工具。",
+            "passion 是名詞，不能直接代替 go。",
+            "passion 在此是抽象情感，不是一般可數商品。",
+            "正確：have a passion for + 名詞表示非常熱愛。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：have a passion for + 名詞表示非常熱愛。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "prison",
+          "meaning": "監獄；令人受困的處境",
+          "usage": "可指真實監獄，也可比喻使人失去自由的環境。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "He felt his small room was a prison after weeks indoors.",
+            "I prison my sandwich before school.",
+            "The soup was prison because it was too salty.",
+            "We went to prison the door with a key."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：以監獄比喻被困住、沒有自由的感受。",
+            "prison 是名詞，不表示吃三明治。",
+            "prison 不能直接作形容詞表示湯太鹹。",
+            "prison 不是開門的動詞。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：以監獄比喻被困住、沒有自由的感受。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "loaded",
+          "meaning": "裝滿的；已裝載的",
+          "usage": "可形容車輛或容器裝滿貨物；歌詞用 loaded gun 比喻危險。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "The truck was loaded with boxes before it left.",
+            "The clock loaded to seven in the morning.",
+            "Our teacher is loaded the test very easy.",
+            "I loaded happy when the movie ended."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：be loaded with 表示裝滿箱子。",
+            "loaded 不表示時鐘顯示某時間。",
+            "句型錯誤；若指試卷簡單可說 the test was easy。",
+            "loaded 不能直接表示感到開心。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：be loaded with 表示裝滿箱子。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "save",
+          "meaning": "拯救；救助；節省",
+          "usage": "指救人脫離危險，或節約金錢、時間；這裡練習救助人的意思。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "The soup saved the spoon because it was cold.",
+            "She saved to the park with her school friends.",
+            "The lifeguard saved the child from the water.",
+            "Please save the door at eight so we can leave."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "湯不會救助湯匙；語意不符合所教意思。",
+            "save 不能表示去公園。",
+            "正確：救生員將小孩從水中救起。",
+            "save the door 並非開門；應說 open the door。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：救生員將小孩從水中救起。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "paint",
+          "meaning": "畫；塗上顏料；描繪",
+          "usage": "paint 可用於畫圖或將表面塗色；歌詞中的畫笑容是修辭。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "She painted happy when she heard the good news.",
+            "We painted the old wall white last Saturday.",
+            "I painted my ticket by riding the bus.",
+            "The painter painted to the museum at noon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "paint 不能直接接 happy 表示感到開心。",
+            "正確：paint + 物品 + 顏色表示把牆塗成白色。",
+            "paint 不表示搭公車或使用車票。",
+            "paint 不表示前往博物館。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：paint + 物品 + 顏色表示把牆塗成白色。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "fingertips",
+          "meaning": "指尖",
+          "usage": "指每根手指的最末端；也可延伸 at your fingertips 指資訊唾手可得，但該完整片語不是歌詞。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "The baby touched the soft toy with her fingertips.",
+            "He fingertipped his bike home after school.",
+            "I bought fingertips at the shop to make a cake.",
+            "The bus has five fingertips on its front door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：用指尖輕觸玩具。",
+            "fingertip 不是表示騎腳踏車的動詞。",
+            "fingertips 是身體部位，並非一般食材。",
+            "公車門沒有人的指尖；語境不合。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：用指尖輕觸玩具。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "blood red",
+          "meaning": "血紅色的；深紅色的",
+          "usage": "形容鮮明、濃烈的紅色；歌曲配合危險的意象。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "I blood red my dinner before leaving home.",
+            "The chair went blood red to the train station.",
+            "He is blood red at math because he studies hard.",
+            "The artist used blood-red paint for the flower."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "blood red 不是吃晚飯的動詞。",
+            "顏色不能代替前往車站的動作。",
+            "血紅色不表示擅長數學；應說 good at math。",
+            "正確：blood-red 當複合形容詞置於名詞前，描述顏色。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：blood-red 當複合形容詞置於名詞前，描述顏色。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "kiss goodbye",
+          "meaning": "親吻道別；放棄再擁有某事（延伸比喻）",
+          "usage": "日常可指吻別；kiss something goodbye 也能比喻向某事告別。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "They kissed their lunch goodbye because it was hot.",
+            "She kissed goodbye her homework with a new pencil.",
+            "Dad kissed his daughter goodbye at the station.",
+            "I kissed goodbye to the bus by buying a ticket."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "午餐很燙不自然地構成放棄午餐的理由。",
+            "kiss goodbye 不是寫功課的方法。",
+            "正確：kiss someone goodbye 表示親吻某人道別。",
+            "買車票不等於吻別公車；句意不合。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：kiss someone goodbye 表示親吻某人道別。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "play your game",
+          "meaning": "照自己的規則行事；玩自己的把戲（依語境）",
+          "usage": "歌詞暗示操縱感情；日常 game 亦可指某人的做事方式或策略。",
+          "prompt": "哪一句正確使用這個字詞／片語？",
+          "options": [
+            "Please play your game my homework after dinner.",
+            "The coach played your game into the bag yesterday.",
+            "I will not play your game; please tell me the truth.",
+            "She played your game at seven because her shoes were new."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此片語不表示完成他人的作業。",
+            "play your game 不能表示把遊戲裝入袋中。",
+            "正確：拒絕配合對方的操弄或把戲，要求坦誠。",
+            "鞋子新舊與暗中玩弄手段不相干。"
+          ],
+          "sourceFile": "You_Give_Love_A_Bad_Name_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：拒絕配合對方的操弄或把戲，要求坦誠。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

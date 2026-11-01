@@ -2786,5 +2786,1265 @@
     "sha256": "68d72579452282170a7620b88d873ef8423431e776f2b8de13f9f4c39022f66e",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "0fff22e8b4ac93610d03cb4e978c14ef3a5b2a8d7f26e8eda77e08409120fe88"
+    },
+    {
+      "section": "structure",
+      "filename": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "854f2a23e596d37f77eedc44201e8516aa69ee92db5d769030244658fe42393a"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "talking away",
+          "meaning": "不停地說話、聊個不停",
+          "usage": "描述一個人持續說話，常帶隨意聊天的感覺；talk away 也可表示毫不拘束地繼續談。",
+          "prompt": "哪一句正確使用「talking away」？",
+          "options": [
+            "She talked away to open the window.",
+            "We talked away our shoes after class.",
+            "We talked away for hours at the café.",
+            "He talked away the bus to school."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：開窗不能用 talk away 表示。",
+            "錯誤：talk away 不表示把鞋子拿走。",
+            "正確：朋友在咖啡館聊了好幾個小時，talk away 表示持續談話。",
+            "錯誤：搭車上學不能用 talk away 表示。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：朋友在咖啡館聊了好幾個小時，talk away 表示持續談話。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "I'm to say",
+          "meaning": "我該說、我被安排要說",
+          "usage": "be to + 原形動詞可表示安排、指示或預定；歌曲的 what I’m to say 帶有「我該說什麼」的文學語氣。",
+          "prompt": "哪一句正確使用「I'm to say」？",
+          "options": [
+            "I am to say the meeting at three.",
+            "We are to the park after lunch.",
+            "She is to happy about the news.",
+            "The guests are to arrive by six."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：say 後面需要可說出的內容；這裡應改成 The meeting is at three。",
+            "錯誤：要說去公園，應用 are going to the park。",
+            "錯誤：be to 後應接動詞原形，不是形容詞 happy。",
+            "正確：are to arrive 表示預定在六點前抵達。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：are to arrive 表示預定在六點前抵達。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "coming for",
+          "meaning": "前來找／來取（某人或某物）",
+          "usage": "come for + 人／物可表示為了接人、取得某物或某個目的而來；依情境也可能帶有追逐的意味。",
+          "prompt": "哪一句正確使用「coming for」？",
+          "options": [
+            "She is coming for to buy bread.",
+            "Dad is coming for me after school.",
+            "I am coming for tired after dinner.",
+            "They are coming for at the station."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：for 後不接 to buy；可說 coming to buy bread。",
+            "正確：爸爸放學後來接我，come for + 人用法自然。",
+            "錯誤：coming for 後不能直接接 tired 形容詞。",
+            "錯誤：coming for 後缺少對象；可說 coming for us。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：爸爸放學後來接我，come for + 人用法自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Slowly",
+          "meaning": "緩慢地；逐漸地",
+          "usage": "修飾動作或變化的速度；也可表示理解或進步是一點一點發生的。",
+          "prompt": "哪一句正確使用「Slowly」？",
+          "options": [
+            "She is a slowly runner in our class.",
+            "Please slowly the book to your friend.",
+            "The lesson slowly because it was easy.",
+            "He slowly learned how to swim."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：名詞 runner 前要用形容詞 slow。",
+            "錯誤：副詞不能取代 pass；可說 Please pass the book slowly。",
+            "錯誤：slowly 是副詞，不能單獨當動詞。",
+            "正確：逐漸學會游泳，slowly 修飾 learned。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：逐漸學會游泳，slowly 修飾 learned。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "learning",
+          "meaning": "正在學習；逐漸領悟",
+          "usage": "learn + 名詞或 learn + that 子句；可表示從經驗中逐漸明白一件事。",
+          "prompt": "哪一句正確使用「learning」？",
+          "options": [
+            "We are learning our shoes to the door.",
+            "She is learning to the blue bus today.",
+            "I am learning that mistakes can help me grow.",
+            "He is learning very happy after school."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：learn 不能表示把鞋子移向門口。",
+            "錯誤：learn 不表示搭公車，to the blue bus 搭配不對。",
+            "正確：learning that 後面接完整子句，表示逐漸明白錯誤也有幫助。",
+            "錯誤：這裡應說 becoming happy 或 feeling happy。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：learning that 後面接完整子句，表示逐漸明白錯誤也有幫助。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Say after me",
+          "meaning": "跟著我說／跟著我複誦",
+          "usage": "教學時可以請人重複自己說的話；一般口語也常用 Repeat after me。",
+          "prompt": "哪一句正確使用「Say after me」？",
+          "options": [
+            "Say after me: “I can do this.”",
+            "Say after me the bus goes to school.",
+            "Say after me the door with a key.",
+            "Say after me to wash the dishes."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：說話者讓聽眾跟讀引號中的一句話。",
+            "錯誤：缺少清楚的引述框架，且整句不適合作為跟讀指令；可改用 Say after me: “The bus goes to school.”",
+            "錯誤：這不是用鑰匙開門的動作。",
+            "錯誤：這不是表示洗碗的方法。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：說話者讓聽眾跟讀引號中的一句話。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "I've got to",
+          "meaning": "我必須；我得要",
+          "usage": "have got to + 原形動詞表示必要性，語氣偏口語；常縮寫為 I’ve got to。",
+          "prompt": "哪一句正確使用「I've got to」？",
+          "options": [
+            "I've got to the park on Saturday.",
+            "I've got to finish this work tonight.",
+            "I've got to my bag before I leave.",
+            "I've got to hungry after the game."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：要表示去公園，應說 I’ve got to go to the park。",
+            "正確：got to finish 表示今晚必須完成工作。",
+            "錯誤：got to 後需接動詞原形；可說 I’ve got to pack my bag。",
+            "錯誤：後面不能直接接 hungry；可說 I’ve got to eat。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：got to finish 表示今晚必須完成工作。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "worries away",
+          "meaning": "把煩惱暫時排遣掉（歌詞式表達）",
+          "usage": "原句 play my worries away 是富有創意的表達；日常較常說 dance/play your worries away，以活動暫時忘掉煩惱。",
+          "prompt": "哪一句正確使用「worries away」？",
+          "options": [
+            "We danced our worries away at the party.",
+            "I worries away my homework at seven.",
+            "She worries away the bus each morning.",
+            "He put worries away into the fridge."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：danced our worries away 表示藉跳舞暫時拋開煩惱。",
+            "錯誤：worries 是名詞／動詞形式，這樣不能表示做功課。",
+            "錯誤：worries away 不是可直接代替搭車的動詞。",
+            "錯誤：worries 是煩惱，不是能放進冰箱的物品。"
+          ],
+          "sourceFile": "Take_On_Me_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：danced our worries away 表示藉跳舞暫時拋開煩惱。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "現在分詞片段：持續說個不停",
+          "meaning": "現在分詞片段暗示說話動作持續；歌詞沒有完整主詞與 be。",
+          "usage": "描寫某個動作正在進行；寫完整句時補回主詞及 be。",
+          "prompt": "朋友在電話上聊了很久，哪句自然？",
+          "options": [
+            "Maya is talk away on the phone.",
+            "Maya talks away is on the phone.",
+            "Maya talking away on the phone.",
+            "Maya is talking away on the phone."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "is 後應用 talking，不用 talk。",
+            "多出不合理的 is，句型錯誤。",
+            "缺少 be，分詞不能單獨作完整述語。",
+            "有 is + talking，完整描述正在說個不停。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Talking away",
+          "pattern": [
+            {
+              "text": "talking away（片段） → 完整句可用",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be talking away",
+              "fixed": true
+            }
+          ],
+          "explanation": "有 is + talking，完整描述正在說個不停。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "不知道「該說甚麼」：know + 疑問詞子句",
+          "meaning": "不知道自己該說甚麼；what 後面用陳述語序。原文 be to say 帶書面／文學色彩。",
+          "usage": "需要說明不知道該說甚麼或做甚麼；日常亦可說 what to say。",
+          "prompt": "主持人突然請你發言，你不知道該講甚麼。",
+          "options": [
+            "I don’t know what should I say.",
+            "I don’t know what am I to say.",
+            "I don’t know what I to say.",
+            "I don’t know what I am to say."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "間接問句不採 should I 這種直接問句倒裝。",
+            "間接問句不應用 am I 倒裝。",
+            "缺少 be 動詞。",
+            "與歌中 be to + 原形的結構相符。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I don't know what I'm to say",
+          "pattern": [
+            {
+              "text": "I don't know what",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are to",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "與歌中 be to + 原形的結構相符。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "雖然如此還是做：anyway",
+          "meaning": "雖然有困難或顧慮，仍會做某件事。",
+          "usage": "表示原本有阻礙，但決定繼續。",
+          "prompt": "下雨了，但你仍想去看戶外藝術展。",
+          "options": [
+            "It is raining, but I will go anyway.",
+            "It is raining, but I go will anyway.",
+            "It rains, but I will went anyway.",
+            "It is raining, but I will going anyway."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "will go anyway 表示下雨仍照去。",
+            "will 應放在原形動詞 go 前。",
+            "will 後不能接 went。",
+            "will 後不能直接接 going。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I'll say it anyway",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "anyway",
+              "fixed": true
+            }
+          ],
+          "explanation": "will go anyway 表示下雨仍照去。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "名詞 + to V：可用來做某事的日子",
+          "meaning": "用不定詞補充某個時間、機會等的用途或內容。",
+          "usage": "談另一次機會、另一段時間可用來做甚麼。",
+          "prompt": "週末沒有找到遺失的狗；明天仍有時間找。",
+          "options": [
+            "Tomorrow is another day for find my dog.",
+            "Tomorrow is another day finding my dog.",
+            "Tomorrow is another day to look for my dog.",
+            "Tomorrow is another day to finding my dog."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "for 後不能直接接原形 find。",
+            "這個結構要 to + 原形，不是直接 -ing。",
+            "another day to look for 說明明天可用來繼續找狗。",
+            "to 後應接 look，不是 looking。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "another day to find you",
+          "pattern": [
+            {
+              "text": "another",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "another day to look for 說明明天可用來繼續找狗。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "退縮：shy away",
+          "meaning": "因緊張或害怕而避開某事；歌詞只唱 Shying away，是分詞片段。",
+          "usage": "想描寫有人一直逃避某個活動或話題。",
+          "prompt": "朋友很想唱歌，但每次被請上台都退縮。",
+          "options": [
+            "She shying away from singing on stage.",
+            "She is shying away from singing on stage.",
+            "She is shying away to sing on stage.",
+            "She is shy away from singing on stage."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "進行式缺 be。",
+            "be shying away from + -ing 自然且完整。",
+            "shy away 後若說明避開的活動，通常用 from + -ing。",
+            "is 後應用 shying。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Shying away",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be shying away",
+              "fixed": true
+            },
+            {
+              "text": "(from + 名詞/-ing)",
+              "fixed": false
+            }
+          ],
+          "explanation": "be shying away from + -ing 自然且完整。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "未來進行式：will be + -ing",
+          "meaning": "說將來會在進行的動作；歌詞帶有「我會來追求」的堅定語氣。",
+          "usage": "描述未來某時正在進行的活動，或溫和表達預期動作。",
+          "prompt": "明天下午三點你會在練舞。",
+          "options": [
+            "At three tomorrow, I be dancing.",
+            "At three tomorrow, I will be dance.",
+            "At three tomorrow, I will be dancing.",
+            "At three tomorrow, I will dancing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 will 或其他正確助動詞。",
+            "be 後要用 dancing。",
+            "will be dancing 是正確的未來進行式。",
+            "will 後少了 be。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I'll be coming for your love",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will be",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "will be dancing 是正確的未來進行式。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "come for + 名詞：為某個目的而來",
+          "meaning": "為了某事物而來；此處 your love 是詩意的追求對象。",
+          "usage": "到某地拿東西或為某個目的而來。",
+          "prompt": "有人問你為甚麼到櫃台。",
+          "options": [
+            "I come for my ticket.",
+            "I come my ticket for.",
+            "I come to my ticket.",
+            "I come for get my ticket."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "come for my ticket 表示來領票。",
+            "介系詞與受詞位置不對。",
+            "come to 後通常是地點或動詞原形，不是直接 ticket。",
+            "for 後不能直接接原形 get；可說 to get。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "coming for your love",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "come for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "come for my ticket 表示來領票。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "take + 人 + on：接受挑戰／接納",
+          "meaning": "一般可指接受某人挑戰、僱用某人；歌中是「接納我」的浪漫雙關。",
+          "usage": "在競賽情境下表示願意與對手較量。",
+          "prompt": "另一支球隊向你的球隊提出挑戰。",
+          "options": [
+            "Our team will take theirs on to.",
+            "Our team will take them on tomorrow.",
+            "Our team will take on against theirs.",
+            "Our team will take on them with."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "多了 to，句尾不完整。",
+            "take + them + on，代名詞放中間，正確。",
+            "take on 已是及物片語，此處不加 against。",
+            "with 多餘，不能這樣接。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Take me on",
+          "pattern": [
+            {
+              "text": "Take",
+              "fixed": true
+            },
+            {
+              "text": "人稱受詞",
+              "fixed": false
+            },
+            {
+              "text": "on",
+              "fixed": true
+            }
+          ],
+          "explanation": "take + them + on，代名詞放中間，正確。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "歌詞特例：Take on me 的語序",
+          "meaning": "歌詞反覆唱 Take on me；日常若指「接受我的挑戰」通常說 take me on。不能把兩者當作無差別的標準語序。",
+          "usage": "辨認歌詞的創作語序，並選擇日常較自然的說法。",
+          "prompt": "你想向朋友說「接受我的挑戰吧」。",
+          "options": [
+            "Take me in on this game!",
+            "Take on me in this game!",
+            "Take me on in this game!",
+            "Take on I in this game!"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "take me in 與 take me on 不同，並非接受挑戰。",
+            "這是歌曲用法，不宜作日常挑戰句型直接套用。",
+            "日常挑戰語境中 take me on 正常。",
+            "I 不能當動詞受詞。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Take on me",
+          "pattern": [
+            {
+              "text": "Take on me（歌詞原句） ≠",
+              "fixed": true
+            },
+            {
+              "text": "Take me on（常規可分離片語）",
+              "fixed": true
+            }
+          ],
+          "explanation": "日常挑戰語境中 take me on 正常。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "will be gone：將會離開／不見",
+          "meaning": "描述將來某時已經離開，gone 在此是狀態。",
+          "usage": "預告自己會離開或物品屆時會不見。",
+          "prompt": "你只會在派對待一小時，之後便離開。",
+          "options": [
+            "I will be gone by eight.",
+            "I will be go by eight.",
+            "I will be going gone by eight.",
+            "I will gone by eight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "will be gone 表示八點前已不在場。",
+            "be gone 不是 be go。",
+            "going gone 重疊，不能這樣搭配。",
+            "缺少 be。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I'll be gone",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will be gone",
+              "fixed": true
+            }
+          ],
+          "explanation": "will be gone 表示八點前已不在場。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "in + 一段時間：多久之後",
+          "meaning": "從現在算起一兩天之後；or two 表示概略數量。",
+          "usage": "預告回信、送貨或再見面的時間。",
+          "prompt": "朋友問你幾時能把照片傳給他。",
+          "options": [
+            "I will send them for a day or two.",
+            "I will send them in a day or two.",
+            "I will send them on a day or two.",
+            "I will send them at a day or two."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "for 指持續一兩天，而不是在一兩天後。",
+            "in a day or two 表示一兩天後。",
+            "on 通常接具體日期。",
+            "at 不用來表示一兩天之後。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "In a day or two",
+          "pattern": [
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "時間長度",
+              "fixed": false
+            }
+          ],
+          "explanation": "in a day or two 表示一兩天後。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "固定插入語：needless to say",
+          "meaning": "「不用說也知道」；通常置於句首，後面接完整說明。歌詞獨立出現是片段。",
+          "usage": "補充顯而易見的結果或反應。",
+          "prompt": "戲劇表演大成功，大家都非常開心。",
+          "options": [
+            "Needless to saying, everyone was happy.",
+            "Needless to say, was everyone happy.",
+            "Needless to say everyone happy after the show.",
+            "Needless to say, everyone was happy."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "固定說法用 say，不用 saying。",
+            "不是問句，不應倒裝 was everyone。",
+            "需要逗號，且 everyone 後缺 was。",
+            "插入語後接完整陳述句。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "needless to say",
+          "pattern": [
+            {
+              "text": "Needless to say,",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "插入語後接完整陳述句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "固定片語：odds and ends",
+          "meaning": "零碎雜物；歌詞前面接 Of，整行是詩意片段，不是獨立完整句。",
+          "usage": "談整理櫃子或箱子裡的各種小東西。",
+          "prompt": "你正清理抽屜，發現各種零碎物品。",
+          "options": [
+            "There are keys and other odds and ends in the drawer.",
+            "There is an odds and ends in the drawer.",
+            "The drawer is odds and ends my keys.",
+            "I odds and ends the drawer every week."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "odds and ends 當複數雜物名詞片語。",
+            "不可加 an 當單數名詞。",
+            "缺少合適的句型與動詞。",
+            "這不是動詞，不能代替 clean。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Of odds and ends",
+          "pattern": [
+            {
+              "text": "odds and ends（名詞片語）",
+              "fixed": true
+            }
+          ],
+          "explanation": "odds and ends 當複數雜物名詞片語。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "逐漸學會：learn that + 子句",
+          "meaning": "理解一個事實或道理；歌詞的 learning 是分詞片段，連著前面 slowly。",
+          "usage": "談經歷之後逐漸理解一件事。",
+          "prompt": "小貓生病康復後，你明白休息很重要。",
+          "options": [
+            "I learned that is rest important.",
+            "I learned that rest is important.",
+            "I learned that rest to be important.",
+            "I learned that rest important."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不能把 is 移到主語 rest 前面。",
+            "that 後用完整的陳述子句。",
+            "這裡應用 rest is important，而不是 to be。",
+            "that 從句缺少 is。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "learning that life is OK",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "learn that",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "that 後用完整的陳述子句。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "副詞 slowly 修飾學習過程",
+          "meaning": "slowly 表示慢慢地，修飾 learning；單獨一行不是完整句。",
+          "usage": "描述動作或進步並非一下完成。",
+          "prompt": "練習幾星期後，孩子正慢慢學會游泳。",
+          "options": [
+            "The child slowly learning to swim.",
+            "The child is learning slowly to swimming.",
+            "The child is slowly learn to swim.",
+            "The child is slowly learning to swim."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少 is。",
+            "to 後應用 swim，不是 swimming。",
+            "is 後應使用 learning。",
+            "slowly 放在 is 和 learning 中間自然。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Slowly learning",
+          "pattern": [
+            {
+              "text": "slowly",
+              "fixed": true
+            },
+            {
+              "text": "V-ing（片段）",
+              "fixed": false
+            }
+          ],
+          "explanation": "slowly 放在 is 和 learning 中間自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "重複別人說的話：say after me",
+          "meaning": "請別人跟著自己的話重複。這是祈使句。",
+          "usage": "帶領朗讀或練習發音。",
+          "prompt": "語言老師希望學生跟著唸一個新詞。",
+          "options": [
+            "Say me after: “Good morning.”",
+            "Say with after me: “Good morning.”",
+            "Say after me: “Good morning.”",
+            "Say to me: “Good morning.”"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "say me after 語序錯誤。",
+            "with after 不能連用。",
+            "正確要求對方跟讀。",
+            "say to me 只是「對我說」，不一定是跟著重複。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Say after me",
+          "pattern": [
+            {
+              "text": "Say after me,",
+              "fixed": true
+            },
+            {
+              "text": "要重複的話",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確要求對方跟讀。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "not + 比較級 + than：不比……更好",
+          "meaning": "用 no better ... than 表示 A 並不比 B 更好。歌詞改寫了慣用諺語 better safe than sorry，並非在教常見俗語的標準版本。",
+          "usage": "比較兩個做法的價值，表示其中一個並不更好。",
+          "prompt": "你覺得現在出門並不比等雨停更好。",
+          "options": [
+            "It is not better leave now than waiting.",
+            "It is no best to leave now than wait.",
+            "It is no better to leave now than to wait.",
+            "It is no better leaving now from waiting."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "better 後缺 to，結構不平衡。",
+            "best 是最高級，不與 than 搭配。",
+            "no better ... than ... 正確比較兩個選擇。",
+            "比較介系詞應用 than，不是 from。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "no better to be safe than sorry",
+          "pattern": [
+            {
+              "text": "It is no better to be",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "than",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "no better ... than ... 正確比較兩個選擇。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "名詞 + that + 子句：修飾所說的事",
+          "meaning": "關係代名詞 that 引入子句，指出是哪些事情；此處 that 是 say 的受詞。",
+          "usage": "補充說明所談的話、看到的物品等。",
+          "prompt": "你對朋友說：我記得你昨天說過的事。",
+          "options": [
+            "I remember the things that you said yesterday.",
+            "I remember the things that you said them yesterday.",
+            "I remember the things which you said them yesterday.",
+            "I remember the things that said you yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "結構完整，that 指代 things。",
+            "that 已充當 said 的受詞，不再加 them。",
+            "which 已充當受詞，不能再加 them。",
+            "關係子句應是主詞 you + said。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "things that you say",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "結構完整，that 指代 things。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "二選一疑問句：Is it A or B?",
+          "meaning": "用 or 提供兩個可能選項。原歌詞 A 是名詞 life，B 是不定詞片語，語法不對稱，屬歌詞特殊寫法。",
+          "usage": "在日常口語中提出兩個文法平行的選項。",
+          "prompt": "朋友給你一杯飲料，你想問是茶還是果汁。",
+          "options": [
+            "Is it tea nor juice?",
+            "Is tea it or juice?",
+            "Is it tea or juice?",
+            "It is tea or juice?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "二選一通常用 or，不是 nor。",
+            "一般疑問句應先用 Is it。",
+            "Is it tea or juice? 文法平行。",
+            "這是陳述語序，缺問句倒裝。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Is it life or just to play my worries away?",
+          "pattern": [
+            {
+              "text": "Is it",
+              "fixed": true
+            },
+            {
+              "text": "選項 A",
+              "fixed": false
+            },
+            {
+              "text": "or",
+              "fixed": true
+            },
+            {
+              "text": "選項 B",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "explanation": "Is it tea or juice? 文法平行。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "play + 東西 + away：用活動排遣",
+          "meaning": "以玩樂或音樂排遣煩惱。這是帶創意的歌詞搭配，不是所有名詞都能套用的通用片語。",
+          "usage": "討論用活動來暫時忘記煩惱時，可改用一般英文表達。",
+          "prompt": "朋友煩惱時，去公園踢球讓心情變好。",
+          "options": [
+            "He played away his worries by sleep.",
+            "He played away his worries with the bus.",
+            "He played his worries to away at the park.",
+            "He played his worries away with a game."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "by 後應用 sleeping，且語意與 played 不合。",
+            "用公車作方式不符合情境。",
+            "away 不應放在 to 後。",
+            "詩意用法與原詞序相同；以遊戲排遣煩惱。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "play my worries away",
+          "pattern": [
+            {
+              "text": "play",
+              "fixed": true
+            },
+            {
+              "text": "煩惱／不快",
+              "fixed": false
+            },
+            {
+              "text": "away（歌詞式表達）",
+              "fixed": true
+            }
+          ],
+          "explanation": "詩意用法與原詞序相同；以遊戲排遣煩惱。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "have got to + 動詞：必須做",
+          "meaning": "表示必須做某事；口語常用，與單純 have got（擁有）不同。",
+          "usage": "談必須記得的時間、工作或提醒。",
+          "prompt": "明天是媽媽生日，你一定要記得打電話。",
+          "options": [
+            "I have got to called my mother tomorrow.",
+            "I have got to call my mother tomorrow.",
+            "I got to calling my mother tomorrow.",
+            "I have got calling my mother tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "to 後不能接過去式 called。",
+            "have got to + call 正確表示必須。",
+            "got to 後需原形 call。",
+            "缺少 to，got 後不能直接接 calling。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I've got to remember",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has got to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "have got to + call 正確表示必須。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "all the things：全部的事物",
+          "meaning": "all the 表示某範圍內全部的多個事物。",
+          "usage": "總結一群已知物品或安排。",
+          "prompt": "旅行前你把所有需要的東西放進箱子。",
+          "options": [
+            "I packed all the things I need.",
+            "I packed all the thing I need.",
+            "I packed all the things I needs.",
+            "I packed all things the I need."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "all the things + 修飾子句，正確。",
+            "all the 後若可數通常用複數 things。",
+            "I 後動詞用 need，不用 needs。",
+            "the 的語序錯誤。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "all the things",
+          "pattern": [
+            {
+              "text": "all the",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "all the things + 修飾子句，正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "現在進行式：be + -ing",
+          "meaning": "正在發生的行為；歌詞在這裡唱完整進行式，前面單獨的 Shying away 則是片段。",
+          "usage": "觀察某人現在正在避開某項活動。",
+          "prompt": "你的朋友每次輪到他唱歌就往後退。",
+          "options": [
+            "He shying away from the song.",
+            "He is shying away from the song.",
+            "He is shying from away the song.",
+            "He is shy away from the song."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 is。",
+            "完整進行式加上 shy away from。",
+            "away from 是片語順序，不能拆開亂放。",
+            "is 後要使用 shying。"
+          ],
+          "sourceFile": "Take_On_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "You're shying away",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "完整進行式加上 shy away from。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

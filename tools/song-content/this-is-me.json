@@ -3221,5 +3221,1818 @@
     "sha256": "00792e27718424b1d72a572e20acce8ab026e1c8cc6f03a6b7e29964cdfdeac7",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "dfee378f47a8eecd967fd7fa47494ddae94ed06b0e4a2db0e004bf25ac498377"
+    },
+    {
+      "section": "structure",
+      "filename": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "d7f7160dcd1f80518ddb44ddd8bcdb8f5dcc63c80c5393b5e0d39d6370c62974"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "hide away",
+          "meaning": "躲起來；把自己藏起來",
+          "usage": "不想被看見或想避開別人時；可說 hide away from people。",
+          "prompt": "哪一句正確使用「hide away」？",
+          "options": [
+            "The singer hid away her song on the stage.",
+            "They hid away to the bus stop at six.",
+            "He hid away in his room to avoid the crowd.",
+            "She hid away the door before going home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：此處想表達在台上演唱，不是躲藏。",
+            "錯：hide away 不表示前往車站。",
+            "對：躲在房間裡避開人群，符合躲藏的意思。",
+            "錯：關門應用 closed the door。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "對：躲在房間裡避開人群，符合躲藏的意思。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "scars",
+          "meaning": "疤痕；（比喻）過去傷痛留下的痕跡",
+          "usage": "可談皮膚上癒合後的傷疤，或難忘的情感傷害。",
+          "prompt": "哪一句正確使用「scars」？",
+          "options": [
+            "The doctor scarred the news to my family.",
+            "He wore his scars to keep the rain off.",
+            "Her scars were new cuts that had not healed yet.",
+            "The old scars on his arm came from a fall."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：scar 不能代替 told 或 explained。",
+            "錯：scars 不是可穿戴的雨具。",
+            "錯：尚未癒合的新傷口通常叫 cuts 或 wounds，而非 scars。",
+            "對：舊傷留下的疤痕，scars 用法正確。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "對：舊傷留下的疤痕，scars 用法正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "glorious",
+          "meaning": "光輝燦爛的；令人讚嘆的",
+          "usage": "形容美麗壯觀的景象、成功時刻，或令人感到榮耀的事情。",
+          "prompt": "哪一句正確使用「glorious」？",
+          "options": [
+            "I glorious the dishes after dinner.",
+            "She has three glorious in her bag.",
+            "We saw a glorious sunset over the sea.",
+            "This train glorious at seven each day."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：glorious 是形容詞，不是洗碗的動詞。",
+            "錯：glorious 不是可數名詞。",
+            "對：壯麗的夕陽可以用 glorious 描述。",
+            "錯：句中缺少動詞，不能拿 glorious 當動詞。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "對：壯麗的夕陽可以用 glorious 描述。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "sharpest",
+          "meaning": "最尖銳的；最鋒利的（sharp 的最高級）",
+          "usage": "描述刀刃最鋒利，或言語特別刻薄、傷人。",
+          "prompt": "哪一句正確使用「sharpest」？",
+          "options": [
+            "Her sharpest words made her friend cry.",
+            "This was the sharpest rain of the day.",
+            "He sharpest the knife every week.",
+            "The cake is sharpest because it is sweet."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "對：尖銳傷人的言語可用 sharpest words。",
+            "錯：一般不以 sharpest rain 形容雨量或強度。",
+            "錯：sharpest 不是磨刀的動詞；應用 sharpens。",
+            "錯：甜味不是 sharpest 在這裡的意思。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "對：尖銳傷人的言語可用 sharpest words。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "flood",
+          "meaning": "洪水；大量湧來的事物",
+          "usage": "形容水大量淹沒地區，也可引申為訊息或情緒大量湧入。",
+          "prompt": "哪一句正確使用「flood」？",
+          "options": [
+            "She bought a flood to wear in winter.",
+            "The flood covered the road after heavy rain.",
+            "We flooded to school by bus every day.",
+            "The flood was small enough to fit in my cup."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：flood 不是可穿的衣物。",
+            "對：豪雨後淹過馬路，是 flood 的字面用法。",
+            "錯：flood 不是搭公車去上學。",
+            "錯：洪水不是能裝入杯中的小量水。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "對：豪雨後淹過馬路，是 flood 的字面用法。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "make no apologies",
+          "meaning": "不為自己的選擇道歉；坦然堅持立場",
+          "usage": "強調自己不因正當立場而感到抱歉；不代表犯錯時也拒絕道歉。",
+          "prompt": "哪一句正確使用「make no apologies」？",
+          "options": [
+            "I make no apologies with a knife and fork.",
+            "I make no apologies for speaking up against unfair rules.",
+            "We make no apologies the window each morning.",
+            "She made no apologies to go by bus each day."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：這個片語不能表達使用餐具。",
+            "對：對反對不公平規定的立場不感到抱歉，語意清楚。",
+            "錯：片語不能代替開窗動作。",
+            "錯：搭公車不是 make no apologies to go 的用法。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "對：對反對不公平規定的立場不感到抱歉，語意清楚。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "bullets",
+          "meaning": "子彈（bullet 的複數）",
+          "usage": "描述武器發射的彈丸；歌詞以子彈比喻傷人的批評。",
+          "prompt": "哪一句正確使用「bullets」？",
+          "options": [
+            "The teacher wrote bullets from her pen onto paper.",
+            "He opened the window with two bullets of air.",
+            "The police found two bullets near the broken wall.",
+            "Her new shoes were full of music bullets."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：若指條列項目，要說 bullet points，不是筆寫出的子彈。",
+            "錯：空氣不能用 bullets 計數。",
+            "對：在牆附近發現子彈，使用正確。",
+            "錯：music bullets 不是一般自然搭配。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "對：在牆附近發現子彈，使用正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "fire away",
+          "meaning": "儘管問；儘管說（口語）；字面也可指開火",
+          "usage": "當別人想問很多問題時，可以說 Fire away! 表示歡迎提問。",
+          "prompt": "哪一句正確使用「fire away」？",
+          "options": [
+            "If you have more questions, fire away!",
+            "Her lunch fired away because it was cold.",
+            "I fire away to school at eight every day.",
+            "Please fire away the book onto my desk."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "對：表示歡迎對方繼續提問，是常見口語說法。",
+            "錯：午餐變冷不是 fire away 的意思。",
+            "錯：fire away 不表示走去學校。",
+            "錯：放書到桌上應用 put the book on my desk。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "對：表示歡迎對方繼續提問，是常見口語說法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "bursting through",
+          "meaning": "猛然衝破；突然穿過",
+          "usage": "形容人或物以強大力量穿過障礙，也可用於突破限制的比喻。",
+          "prompt": "哪一句正確使用「bursting through」？",
+          "options": [
+            "My sister was bursting through her breakfast slowly.",
+            "I was bursting through the blue of the sky.",
+            "The letter burst through to my phone at noon.",
+            "The runners were bursting through the finish line tape."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：吃早餐不自然地使用 burst through。",
+            "錯：the blue of the sky 不是明確可衝破的障礙。",
+            "錯：接收訊息不用 burst through to my phone。",
+            "對：跑者衝破終點線綵帶，表示突然有力地穿過。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "對：跑者衝破終點線綵帶，表示突然有力地穿過。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "barricades",
+          "meaning": "路障；阻擋通行的障礙物",
+          "usage": "描述道路、入口為阻止通行而設的阻擋設施；也可比喻限制。",
+          "prompt": "哪一句正確使用「barricades」？",
+          "options": [
+            "Workers put barricades across the road for safety.",
+            "We drank barricades with dinner at home.",
+            "She wore barricades when the rain began.",
+            "The barricades told us what time it was."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "對：施工安全需要在道路設路障，搭配正確。",
+            "錯：路障不是飲料。",
+            "錯：路障不是雨衣。",
+            "錯：路障本身不會報時。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "對：施工安全需要在道路設路障，搭配正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "warriors",
+          "meaning": "戰士；勇敢努力的人（比喻）",
+          "usage": "可以指戰鬥的人，也可形容面對困難、努力奮鬥的人。",
+          "prompt": "哪一句正確使用「warriors」？",
+          "options": [
+            "Our warriors tasted sweet with the rice.",
+            "She warrior the homework after school.",
+            "The bus is warriors because it is early.",
+            "The story is about warriors who protected their town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：戰士不是食物。",
+            "錯：warrior 是名詞，不能代替做功課的動詞。",
+            "錯：warriors 不是形容公車準時的形容詞。",
+            "對：故事中保護城鎮的戰士，語意正確。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "對：故事中保護城鎮的戰士，語意正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "worthy of",
+          "meaning": "值得……；配得上……",
+          "usage": "用 be worthy of + 名詞或 V-ing，表示值得尊重、信任或獎賞。",
+          "prompt": "哪一句正確使用「worthy of」？",
+          "options": [
+            "Her hard work is worthy of our respect.",
+            "This old chair is worthy of to sell tomorrow.",
+            "He worthy of finished his work at six.",
+            "They are worthy of very quickly to school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "對：她的努力值得尊重，worthy of + 名詞。",
+            "錯：介系詞 of 後不能直接接 to sell。",
+            "錯：缺 be 動詞，且不能接 finished 作此句型。",
+            "錯：of 後面不能這樣接副詞及方向片語。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "對：她的努力值得尊重，worthy of + 名詞。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "reaching for",
+          "meaning": "伸手去拿；努力爭取",
+          "usage": "可表示手伸向物品；比喻努力追求願望時也常見。",
+          "prompt": "哪一句正確使用「reaching for」？",
+          "options": [
+            "I reached for my dinner by eating very fast.",
+            "She was reaching for the book on the top shelf.",
+            "The boy reached for to his pencil on the table.",
+            "We reached for to the park on the bus."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：吃得快不等於伸手拿取或追求。",
+            "對：伸手去拿高架上的書，使用自然。",
+            "錯：reach for 後面直接接名詞，不加 to。",
+            "錯：reach for 不能代替搭車去公園。"
+          ],
+          "sourceFile": "This_Is_Me_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "對：伸手去拿高架上的書，使用自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "be no stranger to + 名詞",
+          "meaning": "對某種經驗不陌生，可能已經經歷多次。",
+          "usage": "談工作挑戰、旅途或反覆遇到的情況。",
+          "prompt": "情境： 一位導遊經常遇到下雨天。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The guide is no stranger to rainy days.",
+            "The guide no stranger to rainy days.",
+            "The guide is no stranger for rainy days.",
+            "The guide is no stranger to rainly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：be no stranger to 後接名詞 rainy days。",
+            "錯：缺少 be 動詞 is。",
+            "錯：固定介系詞是 to，不是 for。",
+            "錯：rainly 不是可在這裡使用的名詞。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I'm not a stranger to the dark（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be not a stranger to",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：be no stranger to 後接名詞 rainy days。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "祈使句：原形動詞起首",
+          "meaning": "省略主詞 you，直接提出命令或請求。",
+          "usage": "給人即時指示；歌中是他人要求歌者躲藏，並非歌者認同的話。",
+          "prompt": "情境： 捉迷藏開始前，哥哥叫大家躲起來。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "You hide away behind the tree now, please?",
+            "To hide away behind the tree now.",
+            "Everyone hides away before I count.",
+            "Hide away behind the tree before the game starts."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：這是以 you 開頭的敘述式語序，不是目標祈使句。",
+            "錯：to hide 是不定詞片語，不能單獨作完整祈使句。",
+            "錯：這是直述句，不是本題要的直接祈使句。",
+            "正確：Hide 原形動詞直接起首，給出指示。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Hide away（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "副詞／受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Hide 原形動詞直接起首，給出指示。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "want + 名詞受詞",
+          "meaning": "want 後可直接接想要或不想要的事物。",
+          "usage": "表達想要的東西或拒絕某物；歌詞此句是傷人的排斥話語。",
+          "prompt": "情境： 露營時有人不想帶太多行李。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "We do not want heavy bags on the trip.",
+            "We do not want bringing heavy bags.",
+            "We do not want to heavy bags.",
+            "We do not want for heavy bags."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：want 直接接名詞 heavy bags。",
+            "錯：此處 want 不能直接接 bringing 表示要的物品。",
+            "錯：want to 後應接動詞原形，而非 heavy bags。",
+            "錯：want 後接名詞不需要 for。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "we don't want your broken parts（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞 + do not want",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：want 直接接名詞 heavy bags。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在完成式 + learn to + 動詞",
+          "meaning": "表示直到現在已逐漸學會某種做法或反應。",
+          "usage": "談累積經驗後學會的能力或態度。",
+          "prompt": "情境： 祖父最近學會用手機視訊。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "Grandpa has learned use video calls.",
+            "Grandpa has learned to use video calls.",
+            "Grandpa have learned to use video calls.",
+            "Grandpa has learned using video calls."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：learned 後需要 to 才接原形動詞。",
+            "正確：has learned to + 原形動詞 use。",
+            "錯：單數 Grandpa 配 has，不配 have。",
+            "錯：此句 learned to use 才符合歌中句型。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I've learned to be ashamed（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "have/has learned to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：has learned to + 原形動詞 use。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "be ashamed of + 名詞／V-ing",
+          "meaning": "因某件事或某種經驗感到羞愧；歌詞描述被迫內化的羞恥感。",
+          "usage": "談做錯事後的感受；不應假定人的外貌或傷痕值得羞愧。",
+          "prompt": "情境： 畫家不小心弄壞朋友的畫，覺得很過意不去。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The artist was ashamed of break her friend’s picture.",
+            "The artist was ashamed for breaking her friend’s picture.",
+            "The artist ashamed of breaking her friend’s picture.",
+            "The artist was ashamed of breaking her friend’s picture."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：of 後不可直接接原形動詞 break。",
+            "錯：目標搭配是 ashamed of，而不是 ashamed for。",
+            "錯：缺少 be 動詞 was。",
+            "正確：介系詞 of 後接動名詞 breaking。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "be ashamed of all my scars（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be ashamed of",
+              "fixed": true
+            },
+            {
+              "text": "名詞／V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：介系詞 of 後接動名詞 breaking。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "as + 主詞 + be：保持原樣",
+          "meaning": "照某人現在的樣子，不要求先改變。",
+          "usage": "表達接納、允許某人保持原有風格或狀態。",
+          "prompt": "情境： 化裝派對沒有衣著規定。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "Come as are you; there is no dress rule.",
+            "Come like you are; there is no dress rule.",
+            "Come as you are; there is no dress rule.",
+            "Come as you is; there is no dress rule."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：as 子句用直述語序 you are，而非倒裝。",
+            "錯：like you are 不對應本題歌中的 as 子句。",
+            "正確：as you are 表示照現在的樣子來。",
+            "錯：you 應搭配 are。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "as you are（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + be 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：as you are 表示照現在的樣子來。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "允許或不允許某人做某事；let 後不加 to。",
+          "usage": "說明規則、准許或保護自己的選擇。",
+          "prompt": "情境： 動物園管理員不准遊客餵熊。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The keeper will not let visitors feeding the bears.",
+            "The keeper will not let visitors to feed the bears.",
+            "The keeper will not let visitors feed the bears.",
+            "The keeper will not let visitors fed the bears."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：這裡 let 的補語需原形 feed。",
+            "錯：let 後的動詞不加 to。",
+            "正確：let + visitors + feed。",
+            "錯：fed 是過去式，不是原形。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I won't let them break me down（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：let + visitors + feed。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "break + 受詞 + down",
+          "meaning": "可比喻讓某人精神被擊垮；歌詞用化成塵土的誇飾。",
+          "usage": "說明壓力造成的心理影響；練習不把受傷的人當笑點。",
+          "prompt": "情境： 一位選手在失利後仍不讓批評使他失去信心。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "He did not let the comments broke him down.",
+            "He did not let the comments break him down.",
+            "He did not let the comments break down him.",
+            "He did not let the comments break him to down."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：let 後應使用 break，而非 broke。",
+            "正確：break him down 表示使他失去信心。",
+            "錯：代名詞 him 應置於 break 與 down 之間。",
+            "錯：down 位置錯誤，不可拆成 to down。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "break me down to dust（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "break",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "down (",
+              "fixed": true
+            },
+            {
+              "text": "結果)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：break him down 表示使他失去信心。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "know that + 完整子句",
+          "meaning": "說明知道或相信一項事情；that 引出內容。",
+          "usage": "談確定的消息或自己相信的事。",
+          "prompt": "情境： 工作坊主辦人知道每位參加者都有座位。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "I know that there a seat for everyone.",
+            "I know that there is a seat for everyone.",
+            "I know that is a seat for everyone.",
+            "I know that have a seat for everyone."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：there a seat 缺少 is。",
+            "正確：that 後是完整的 there is 子句。",
+            "錯：that 後缺少存在句主詞 there。",
+            "錯：have a seat 不能直接放在 that 後，缺少主詞。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "I know that there's a place for us（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "know (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 後是完整的 there is 子句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "there is + 名詞：存在句",
+          "meaning": "指出某個地方存在某人或某物。",
+          "usage": "介紹位置、機會或可用的設施。",
+          "prompt": "情境： 小鎮有一家晚上營業的書店。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "There is a bookshop near the park.",
+            "There are a bookshop near the park.",
+            "There have a bookshop near the park.",
+            "There be a bookshop near the park."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：there is + 單數名詞。",
+            "錯：a bookshop 是單數，應使用 is。",
+            "錯：存在句不是 there have。",
+            "錯：一般現在式不能直接寫 there be。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "there's a place for us（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "there is",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞 (+ 介系詞片語)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：there is + 單數名詞。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "for + 子句：書面因為",
+          "meaning": "此處 For 是較書面、詩意的連接詞，意思接近 because。",
+          "usage": "閱讀詩歌或文學語句時辨認因果；日常多用 because。",
+          "prompt": "情境： 一段故事用較文學的語氣說明大家停下腳步的原因。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "For the rain, we stayed inside.",
+            "We stayed inside, for was heavy the rain.",
+            "For raining hard, we stayed inside.",
+            "We stayed inside, for the rain was heavy."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：for + 名詞是其他用法，沒有展示歌中的 for + 子句。",
+            "錯：子句語序應為 the rain was heavy。",
+            "錯：for raining hard 不是完整原因子句。",
+            "正確：for the rain was heavy 是完整原因子句，偏書面。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "For we are glorious（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "For",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：for the rain was heavy 是完整原因子句，偏書面。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "when + 子句：當……時",
+          "meaning": "when 引出某事發生的時候；歌中該行後接主句。",
+          "usage": "描述兩件事發生的先後或同時關係。",
+          "prompt": "情境： 參觀者走進畫廊時看見一隻小貓。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "When entered the art room, I saw a small cat.",
+            "When I entered the art room, I saw a small cat.",
+            "When did I enter the art room, I saw a small cat.",
+            "When I entering the art room, I saw a small cat."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：when 後缺少主詞。",
+            "正確：When 子句有主詞 I 和過去式 entered。",
+            "錯：這不是直接問句，when 子句不倒裝 did I enter。",
+            "錯：I entering 缺少 be 動詞。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "When the sharpest words wanna cut me down（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞 (+ 主要子句)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：When 子句有主詞 I 和過去式 entered。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "最高級：the + -est",
+          "meaning": "在同一組中指出程度最高的項目。",
+          "usage": "比較物品、景色或不同選擇。",
+          "prompt": "情境： 四把刀中找最鋒利的一把來切紙。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "This is the most sharp knife in the set.",
+            "This is the sharpest knife in the set.",
+            "This is the sharper knife in the set of four.",
+            "This is sharpest knife in the set."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：short adjective sharp 的常見最高級是 sharpest。",
+            "正確：the sharpest + 名詞 knife。",
+            "錯：四把之中指最鋒利，應用 sharpest。",
+            "錯：最高級前缺少 the。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "the sharpest words（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "形容詞最高級 + 名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the sharpest + 名詞 knife。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "wanna + 原形動詞（非正式）",
+          "meaning": "wanna 是 want to 的非正式口語拼法，不適合正式書面文章。",
+          "usage": "辨認歌詞及隨意聊天中的口語意願。",
+          "prompt": "情境： 朋友傳訊問要不要今晚看電影。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "I wanna watch a film tonight.",
+            "I am wanna watch a film tonight.",
+            "I wanna to watch a film tonight.",
+            "I wanna watching a film tonight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：wanna + 原形 watch，屬非正式訊息。",
+            "錯：I wanna 不需額外加 am。",
+            "錯：wanna 已含 to，不可再加 to。",
+            "錯：wanna 後不可直接接 watching。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "wanna cut me down（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "wanna",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wanna + 原形 watch，屬非正式訊息。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be gonna + 原形動詞（非正式未來）",
+          "meaning": "gonna 代表非正式的 going to，表打算或預期。",
+          "usage": "理解對話和歌詞中的未來計畫。",
+          "prompt": "情境： 朋友打算星期六學做披薩。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "She gonna learn to make pizza on Saturday.",
+            "She is gonna learn to make pizza on Saturday.",
+            "She is gonna to learn to make pizza on Saturday.",
+            "She is gonna learning to make pizza on Saturday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：she 後需要 is。",
+            "正確：is gonna + 原形 learn。",
+            "錯：gonna 已包含 to，不需再加。",
+            "錯：gonna 後應接原形 learn。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I'm gonna send a flood（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "am/is/are + gonna",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is gonna + 原形 learn。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "drown + 受詞 + out：蓋過聲音",
+          "meaning": "更響的聲音讓另一種聲音聽不清楚；歌中具有洪水比喻。",
+          "usage": "談吵雜環境中聽不到廣播或說話。",
+          "prompt": "情境： 下雨聲太大，大家聽不到車上的收音機。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The rain drowned the radio from out.",
+            "The rain drowned out the radio.",
+            "The rain drowned out to the radio.",
+            "The rain drowned the radio to out."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：from out 不是這個片語的組成。",
+            "正確：drown out + 名詞 radio，表示聲音被蓋住。",
+            "錯：drown out 後直接接受詞，不加 to。",
+            "錯：to out 不合動詞片語語序。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "drown them out（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "drown",
+              "fixed": true
+            },
+            {
+              "text": "代名詞 + out",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：drown out + 名詞 radio，表示聲音被蓋住。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "be meant to + 動詞：應當／注定",
+          "meaning": "表示原定用途、應當做的事；在歌曲中有命運與身分意涵。",
+          "usage": "談安排、規則或某物的用途。",
+          "prompt": "情境： 劇場的這扇門只供演員使用。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "This door meant to be used by actors.",
+            "This door is meant for be used by actors.",
+            "This door is meant using by actors.",
+            "This door is meant to be used by actors."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：缺少 is，無法構成 be meant to。",
+            "錯：不可寫 meant for be used。",
+            "錯：meant 後需要 to + 原形動詞。",
+            "正確：is meant to be used，表指定用途。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I'm meant to be（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "am/is/are meant to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is meant to be used，表指定用途。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "who + 子句：身分補語",
+          "meaning": "who 引出「是怎樣的人／是誰」的內容，整個子句作補語。",
+          "usage": "談自己的身分、希望成為的人。",
+          "prompt": "情境： 一位多年後回鄉的畫家說自己仍是原來的自己。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "I am who I want to be.",
+            "I am who did I want to be.",
+            "I am who I want be.",
+            "I am who do I want to be."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：who I want to be 是直述語序的名詞子句。",
+            "錯：who 後為間接結構，不用問句倒裝。",
+            "錯：want 後的動詞要加 to。",
+            "錯：子句不需 do I 問句助動詞。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "I am who I'm meant to be（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be + who",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：who I want to be 是直述語序的名詞子句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "here + 主詞 + 動詞：位置宣告",
+          "meaning": "表示「我來了」，主詞是代名詞時常用 here I come 的語序。",
+          "usage": "來到某個地方、準備登場時宣布。",
+          "prompt": "情境： 小朋友準備滑下滑梯，大聲說我來啦。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "Here am come I!",
+            "Here I coming!",
+            "Here I come!",
+            "Here come I!"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：am come I 不是自然英文語序。",
+            "錯：I coming 缺少 am，而且不符合原句句型。",
+            "正確：Here I come! 是口語宣告。",
+            "錯：主詞 I 應放在 come 之前。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "here I come（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "here",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Here I come! 是口語宣告。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "march on：堅定地繼續",
+          "meaning": "表示持續向前；除了實際行進，也可比喻保持決心。",
+          "usage": "說一隊人即使遇到困難仍往前。",
+          "prompt": "情境： 遊行隊伍遇到小雨仍然前進。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The group kept marching to on despite the rain.",
+            "The group kept marching on despite the light rain.",
+            "The group kept marching on to despite the rain.",
+            "The group kept march on despite the rain."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：march on 不需 to on。",
+            "正確：keep + -ing，march on 表示繼續行進。",
+            "錯：despite 前不需要 to。",
+            "錯：keep 後應用 marching，不是 march。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I'm marching on（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "am/is/are marching on",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：keep + -ing，march on 表示繼續行進。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "省略受詞關係代名詞",
+          "meaning": "後面的小句修飾前面的名詞；此處 beat 是 drum 的受詞。",
+          "usage": "描述自己做出的作品或使用過的物品。",
+          "prompt": "情境： 鼓手向朋友介紹自己打出的節奏。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "This is the beat I drum every day.",
+            "This is the beat who I drum every day.",
+            "This is the beat I am drum every day.",
+            "This is the beat I drum it every day."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：the beat I drum 省略受詞關係代名詞。",
+            "錯：beat 是物，不用 who 引出這種關係子句。",
+            "錯：am drum 不是正確動詞形式。",
+            "錯：beat 已是 drum 的受詞，再加 it 重複。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "the beat I drum（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞（受詞關係詞省略）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the beat I drum 省略受詞關係代名詞。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "be scared to + 動詞",
+          "meaning": "害怕或不怕做某事；歌詞還包含被動式。",
+          "usage": "談面對第一次嘗試或公開發言的感受。",
+          "prompt": "情境： 學生第一次上台唱歌，卻不害怕。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "Lina is not scared to singing on stage.",
+            "Lina is not scared of sing on stage.",
+            "Lina is not scared sing on stage.",
+            "Lina is not scared to sing on stage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：scared to 後應用 sing。",
+            "錯：of 後應接 singing，不是原形 sing。",
+            "錯：scared 後需 to 才接原形 sing。",
+            "正確：not scared to + 原形 sing。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I'm not scared to be seen（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be (not) scared to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：not scared to + 原形 sing。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "be + 過去分詞：被動式",
+          "meaning": "表示「被……」；to be seen 是「被看見」，不是「去看」。",
+          "usage": "當受事者是句子重點時使用。",
+          "prompt": "情境： 設計師希望作品在展覽裡被大家看見。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The artist wants her work to be seeing at the show.",
+            "The artist wants her work to be see at the show.",
+            "The artist wants her work to be seen at the show.",
+            "The artist wants her work to seeing at the show."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：to be seeing 是進行式，非本題的被看見。",
+            "錯：be 後需要過去分詞 seen。",
+            "正確：to be + seen 是不定詞被動式。",
+            "錯：to 後不能直接接 seeing。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "to be seen（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "to be",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：to be + seen 是不定詞被動式。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "make no + 名詞複數",
+          "meaning": "用 no 強烈表示完全沒有；歌曲中「不為自己身分道歉」。",
+          "usage": "談清楚表達立場；仍要為真正的過錯負責。",
+          "prompt": "情境： 店主對誠實的定價政策不感到抱歉。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The owner makes no apologizing for fair prices.",
+            "The owner makes not apologies for fair prices.",
+            "The owner makes no apologying for fair prices.",
+            "The owner makes no apologies for fair prices."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：no 後此處是名詞 apologies，不是 apologizing。",
+            "錯：此結構用 no，而非 not。",
+            "錯：apologying 不是正確英文名詞。",
+            "正確：makes no apologies 是固定表達。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I make no apologies（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "make no",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：makes no apologies 是固定表達。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "another + 單數名詞",
+          "meaning": "另一個、再一個；another 後通常接單數可數名詞。",
+          "usage": "當一項活動或比賽再進行一輪。",
+          "prompt": "情境： 朋友們要玩第二輪猜字遊戲。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "Let us play another round of the game.",
+            "Let us play another of round the game.",
+            "Let us play an another round of the game.",
+            "Let us play another rounds of the game."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：another round of + 名詞。",
+            "錯：another of round 語序錯誤。",
+            "錯：another 前不再加 an。",
+            "錯：another 後應接單數 round。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "Another round of bullets（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "another",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞 (+ of ...)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：another round of + 名詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "fire away：放膽說／問",
+          "meaning": "依情境可表示「儘管開口／問吧」；歌中借用子彈意象，具雙關。",
+          "usage": "允許對方提出一連串問題時說。",
+          "prompt": "情境： 訪客問導覽員可否開始提問。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "You have questions? Fire away!",
+            "You have questions? Fire away me!",
+            "You have questions? Fire awaying!",
+            "You have questions? Fire to away!"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Fire away! 是口語鼓勵對方開始問。",
+            "錯：fire away 表放膽提問時不需直接接 me。",
+            "錯：祈使句用原形 fire，不用 awaying。",
+            "錯：固定片語不是 fire to away。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "fire away（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "fire away（口語祈使）",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：Fire away! 是口語鼓勵對方開始問。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "let + 受詞 + 原形：不讓感受進入",
+          "meaning": "延續 let 的使役句型，特別觀察無形的感受如何被擬人化；此焦點著重 sink in 的意義。",
+          "usage": "談一個消息或想法慢慢被理解。",
+          "prompt": "情境： 收到錄取通知後，一位演員過了好久才相信。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The news took a minute to sinking in.",
+            "The news took a minute to sink into.",
+            "The news took a minute to sink in.",
+            "The news took a minute to sink in it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：to 後接原形 sink。",
+            "錯：sink into 後需要受詞，而非句末單獨使用。",
+            "正確：sink in 可指消息慢慢被理解。",
+            "錯：sink in 在此不需 it 作受詞。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "I won't let the shame sink in（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "will not let",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：sink in 可指消息慢慢被理解。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "現在進行式：be + -ing",
+          "meaning": "描述當下正在發生的動作。",
+          "usage": "描述大家眼前正在進行的活動。",
+          "prompt": "情境： 小隊正在為戲劇演出布置舞台。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The team building the stage right now.",
+            "The team is built the stage right now.",
+            "The team is building the stage right now.",
+            "The team are build the stage right now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：building 前缺少 is。",
+            "錯：is built 是被動或其他形式，不是正在建造。",
+            "正確：is building 表正在布置。",
+            "錯：are 後需 building，不能直接用 build。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "We are bursting through the barricades（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is building 表正在布置。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "burst through + 障礙物",
+          "meaning": "用力衝破障礙；歌詞把路障作社會限制的比喻。",
+          "usage": "描述水流、陽光等穿過阻礙的畫面。",
+          "prompt": "情境： 暴風雨後陽光穿過雲層。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The sun burst the clouds through to.",
+            "The sun burst to through the clouds.",
+            "The sun burst through from the clouds.",
+            "The sun burst through the clouds."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：名詞受詞應接在 through 後。",
+            "錯：burst through 不再加 to。",
+            "錯：through 後直接接 clouds，不必加 from。",
+            "正確：burst through the clouds 表強力穿過雲層。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "bursting through the barricades（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "burst through",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：burst through the clouds 表強力穿過雲層。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "reach for + 目標",
+          "meaning": "伸手去拿或努力觸及某個目標。",
+          "usage": "描述伸手去拿高處物品，或比喻努力爭取。",
+          "prompt": "情境： 小孩伸手要拿架上的故事書。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The child reached to for the book on the shelf.",
+            "The child reached for to the book on the shelf.",
+            "The child reached for the book on the shelf.",
+            "The child reached the for book on the shelf."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：reached to for 重複介系詞。",
+            "錯：for 後不再加 to。",
+            "正確：reached for + 名詞 book。",
+            "錯：the for book 語序錯誤。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "reaching for the sun（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "reach for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：reached for + 名詞 book。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "現在完成式：have/has + 過去分詞",
+          "meaning": "強調直到現在發生的改變所造成的結果。",
+          "usage": "回顧從過去到現在的成長。",
+          "prompt": "情境： 兩位朋友多年練習後成為好廚師。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "We are become good cooks after years of practice.",
+            "We have become good cooks after years of practice.",
+            "We have became good cooks after years of practice.",
+            "We has become good cooks after years of practice."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：are become 不是此處的現在完成式。",
+            "正確：have + 過去分詞 become。",
+            "錯：become 的過去分詞是 become，非 became。",
+            "錯：we 應配 have，不配 has。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "that's what we've become（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：have + 過去分詞 become。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 32,
+          "word": "be worthy of + 名詞",
+          "meaning": "表示值得某事；歌詞有否定用法，重點仍是值得尊重和愛。",
+          "usage": "談表現是否值得肯定、努力是否值得稱讚。",
+          "prompt": "情境： 義工幫忙了一整天，值得感謝。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "The helpers are worthy for our thanks.",
+            "The helpers worthy of our thanks.",
+            "The helpers are worthy of our thanks.",
+            "The helpers are worthy to our thanks."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：此搭配使用 of，不是 for。",
+            "錯：worthy 前缺少 are。",
+            "正確：be worthy of our thanks。",
+            "錯：worthy of + 名詞，不是 worthy to + 名詞。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 32,
+          "cue": "I'm not worthy of（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be worthy of",
+              "fixed": true
+            },
+            {
+              "text": "名詞／V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：be worthy of our thanks。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 33,
+          "word": "nothing + 省略受詞關係子句／雙重否定",
+          "meaning": "nothing 與 not 的組合強調「沒有任何不值得的事」；of 的受詞就是前面的 nothing。",
+          "usage": "讀懂帶否定的複雜句，不誤解為「我什麼都不值得」。",
+          "prompt": "情境： 導遊表示這裡沒有她不熟悉的街道。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "There is anything I do not know about.",
+            "There is nothing I do not know about it.",
+            "There is nothing I am not knowing about.",
+            "There is nothing I do not know about."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：anything 在肯定存在句中不能取代 nothing 表相同意思。",
+            "錯：about 的受詞已在前面，不需再加 it。",
+            "錯：know 通常不用 am knowing 表這種一般知識。",
+            "正確：nothing + I do not know about，about 的受詞為 nothing。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 33,
+          "cue": "There's nothing I'm not worthy of（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "There is nothing",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + not + worthy of",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：nothing + I do not know about，about 的受詞為 nothing。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 34,
+          "word": "whenever + 子句：每當",
+          "meaning": "表示每一次某種情況發生時。",
+          "usage": "描述反覆出現的事件及相應反應。",
+          "prompt": "情境： 每當下雨時，公園的青蛙就會叫。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "Whenever does it rain, the frogs sing in the park.",
+            "Whenever raining, the frogs sing in the park.",
+            "Whenever it rains, the frogs sing in the park.",
+            "Whenever it rain, the frogs sing in the park."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：時間子句不用問句倒裝 does it rain。",
+            "錯：這裡缺少主詞 it。",
+            "正確：Whenever + it rains，完整子句。",
+            "錯：it 第三人稱單數應用 rains。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 34,
+          "cue": "Whenever the words wanna cut me down（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "Whenever",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Whenever + it rains，完整子句。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 35,
+          "word": "to + 原形：目的",
+          "meaning": "用不定詞表目的，意思是「為了……」。",
+          "usage": "解釋某項行動的目的。",
+          "prompt": "情境： 工作人員關門以免音樂吵到附近居民。 選出最符合本節句型且文法、語意自然的一句。",
+          "options": [
+            "They closed the door to keep the noise down.",
+            "They closed the door to keeping the noise down.",
+            "They closed the door for keep the noise down.",
+            "They closed the door keep the noise down."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：to keep 引出關門的目的。",
+            "錯：目的不定詞 to 後接 keep，不是 keeping。",
+            "錯：for 後不能接原形 keep 表目的。",
+            "錯：缺少目的不定詞的 to。"
+          ],
+          "sourceFile": "This_Is_Me_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 35,
+          "cue": "to drown them out（PDF 原歌詞第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞 (+ 受詞)",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：to keep 引出關門的目的。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

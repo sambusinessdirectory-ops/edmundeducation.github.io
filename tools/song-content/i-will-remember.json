@@ -3247,5 +3247,1374 @@
     "sha256": "71686a483fe5c7f755b7a8aac7c2ec8758910e1da9b197598a8dd0296090be31",
     "transformations": "none",
     "selectedOn": "2026-10-29"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "197802fbb1d3556b757054260baefebfab263ee6afbc81c7f72964bb81488373"
+    },
+    {
+      "section": "structure",
+      "filename": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "ad7229da7c60ee051aedfa4c12a29a228ecd2bfee261b928b4a6a0eae057bdfd"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "a sea of ...",
+          "meaning": "一大群／大量的……（比喻）",
+          "usage": "描述人、物或資訊多得像海一樣；偏生動、形象的說法。",
+          "prompt": "哪一句正確使用「a sea of ...」？",
+          "options": [
+            "The teacher wore a sea of shoes on one foot.",
+            "I saw a sea of faces at the school concert.",
+            "Dad cooked a sea of soup inside a tiny cup.",
+            "The shop sold a sea of one small apple today."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "a sea of 可表示大量事物，但一隻腳穿大量鞋子不符合合理情境。",
+            "正確：音樂會滿場人臉，a sea of faces 是自然比喻。",
+            "湯在小杯子裡不宜用 a sea of；這裡搭配很不自然。",
+            "只有一顆蘋果，不符合 a sea of 表示大量的意思。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：音樂會滿場人臉，a sea of faces 是自然比喻。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "thief / thieves",
+          "meaning": "小偷、竊賊（單數 thief；複數 thieves）",
+          "usage": "談偷走財物的人，或故事中比喻奪走某些重要事物的人。",
+          "prompt": "哪一句正確使用「thief / thieves」？",
+          "options": [
+            "Our teacher called the rain thieves after the storm.",
+            "My sister wore thieves to keep her feet warm.",
+            "The chef made three thieves with cheese for lunch.",
+            "The police caught two thieves near the old shop."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "雨不是偷財物的人；沒有建立明確比喻時搭配不自然。",
+            "thieves 不是襪子或鞋子，不能穿在腳上。",
+            "thieves 是人，不是用乳酪製作的餐點。",
+            "正確：thieves 是偷竊者，且 two 搭配不規則複數。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：thieves 是偷竊者，且 two 搭配不規則複數。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "canyon",
+          "meaning": "峽谷；兩側通常有陡峭岩壁的深谷",
+          "usage": "描述地理景觀、旅行或自然公園，和普通 valley（山谷）不同。",
+          "prompt": "哪一句正確使用「canyon」？",
+          "options": [
+            "We stood above the canyon and saw the river below.",
+            "The singer wore a canyon on stage with red shoes.",
+            "We used a canyon to cut our pizza into eight pieces.",
+            "Our dog ate a canyon and then asked for more food."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：從峽谷上方俯瞰下方河流，地形與詞義吻合。",
+            "峽谷不是衣物，不能穿在身上。",
+            "峽谷不是刀具，不能拿來切披薩。",
+            "峽谷不是食物；這裡是刻意荒謬的語意錯誤。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：從峽谷上方俯瞰下方河流，地形與詞義吻合。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "company",
+          "meaning": "陪伴；有人作伴（不只表示「公司」）",
+          "usage": "用於 enjoy someone’s company、keep someone company 等，表示有人陪伴。",
+          "prompt": "哪一句正確使用「company」？",
+          "options": [
+            "The bus was company because it arrived very early.",
+            "She company her lunch with a blue school notebook.",
+            "Grandpa enjoys my company when we play cards together.",
+            "My phone bought some company at the market yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "company 不是用來描述公車準時與否的形容詞。",
+            "company 在此不能直接當動詞表示吃飯。",
+            "正確：爺爺喜歡我陪他打牌，company 在此是陪伴。",
+            "陪伴不能像普通商品一樣買回來。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：爺爺喜歡我陪他打牌，company 在此是陪伴。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "lifetime",
+          "meaning": "一生；某人活著的整段時間",
+          "usage": "談一生中難忘的經驗，常見 in my lifetime、the chance of a lifetime。",
+          "prompt": "哪一句正確使用「lifetime」？",
+          "options": [
+            "This was the best meal I had eaten in my lifetime.",
+            "We painted the lifetime yellow before the guests arrived.",
+            "The bus took a lifetime to the park at nine today.",
+            "My brother put a lifetime in his backpack for school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：強調在自己一生中吃過的所有餐點裡最好。",
+            "一生不是牆壁，不能把它漆成黃色。",
+            "把 lifetime 當乘客，與表達時間的用法不同。",
+            "lifetime 是一段人生時間，不是能放進背包的物品。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：強調在自己一生中吃過的所有餐點裡最好。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "spirit",
+          "meaning": "精神、意志；也可指靈魂",
+          "usage": "談人的精神狀態、團隊士氣或宗教觀念；需依上下文判斷。",
+          "prompt": "哪一句正確使用「spirit」？",
+          "options": [
+            "The team showed great spirit even after losing the game.",
+            "The spirit arrived at school on the number ten bus.",
+            "Our teacher boiled some spirit with carrots for dinner.",
+            "I used my spirit to open the door with a metal key."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：球隊輸球後仍展現良好精神與鬥志，spirit 用法自然。",
+            "若沒有鬼魂故事背景，把 spirit 當一般學生不自然。",
+            "精神不是一般可烹煮的食材。",
+            "開鎖通常用鑰匙，spirit 不能代替實際工具。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：球隊輸球後仍展現良好精神與鬥志，spirit 用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "crush / crushed",
+          "meaning": "壓碎；（比喻）使精神受到沉重打擊",
+          "usage": "用於壓碎物品，或形容挫敗使人的信心和希望大受打擊。",
+          "prompt": "哪一句正確使用「crush / crushed」？",
+          "options": [
+            "My aunt crushed to the station on a late bus.",
+            "The bad news crushed his hopes of joining the team.",
+            "We crushed our coats to stay dry in the heavy rain.",
+            "The chef crushed a song to make the soup taste sweet."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "crush 不表示乘車前往車站。",
+            "正確：壞消息讓他入隊的希望破滅，是自然比喻。",
+            "把外套壓扁不能保證防雨；語意不合情境。",
+            "歌曲不是食材；crush 不表示播放或調味。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：壞消息讓他入隊的希望破滅，是自然比喻。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "come and gone",
+          "meaning": "曾經出現，現在已經過去／結束",
+          "usage": "描述季節、機會、風潮或一段經歷已走入過去。",
+          "prompt": "哪一句正確使用「come and gone」？",
+          "options": [
+            "Our cat is come and gone because its fur is black.",
+            "The train has come and gone my lunch at noon.",
+            "Summer has come and gone, and school has started.",
+            "I put come and gone into my bag before the trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "毛色與 come and gone 所表示的時間流逝無關。",
+            "不能直接接 my lunch 作為「吃午餐」的動作。",
+            "正確：夏天已過，學期開始，強調一段時間已結束。",
+            "片語不是可以裝入背包的物品。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：夏天已過，學期開始，強調一段時間已結束。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "tear someone free",
+          "meaning": "用力把某人／某物從束縛中拉開（偏文學性）",
+          "usage": "較詩意的說法；日常談脫困多用 pull free 或 break free。",
+          "prompt": "哪一句正確使用「tear someone free」？",
+          "options": [
+            "The class tore the homework free before the bell rang.",
+            "We tore free the cake with a spoon at dinner.",
+            "The painter tore me free with a purple pencil.",
+            "The strong wind tore the flag free from its rope."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "作業不是被束縛的人；此處語意與搭配都不自然。",
+            "用湯匙切蛋糕應說 cut the cake；這裡不是掙脫。",
+            "沒有提及任何束縛，鉛筆也無法自然地使人脫困。",
+            "正確：強風吹得旗子掙脫繩索，符合用力拉開的意思。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：強風吹得旗子掙脫繩索，符合用力拉開的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "被動語態：was born",
+          "meaning": "表示出生地；born 在此與 was 連用。",
+          "usage": "談自己或別人的出生地，而不是一般的「出生」主動動作。",
+          "prompt": "某位太空館導覽員介紹自己的出生地，哪句最自然？",
+          "options": [
+            "I was bore in a small town near the sea.",
+            "I am born yesterday near the sea.",
+            "I was born in a small town near the sea.",
+            "I born in a small town near the sea."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。bore 不是此處要用的過去分詞。",
+            "錯誤。過去出生事件不能用 am 搭配 yesterday。",
+            "正確。表示出生地；born 在此與 was 連用。在這個情境中，句型與時態都自然。",
+            "錯誤。缺少 was；出生通常用 be born。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「I was born in the land of the sun」",
+          "pattern": [
+            {
+              "text": "was born",
+              "fixed": true
+            },
+            {
+              "text": "in + 地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示出生地；born 在此與 was 連用。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "現在簡單式否定：don’t + 動詞",
+          "meaning": "表達現在不明白或不做某事。",
+          "usage": "主詞是 I、you、we、they 時，用 do not 否定一般動詞。",
+          "prompt": "博物館說明牌很難懂，參觀者會怎麼說？",
+          "options": [
+            "I am not understand this sign.",
+            "I does not understand this sign.",
+            "I do not understand this sign.",
+            "I do not understands this sign."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。understand 是一般動詞，這裡不用 am not 直接連接。",
+            "錯誤。I 要用 do，不用 does。",
+            "正確。表達現在不明白或不做某事。在這個情境中，句型與時態都自然。",
+            "錯誤。do not 後面使用動詞原形。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「I don't understand」",
+          "pattern": [
+            {
+              "text": "do not / don’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表達現在不明白或不做某事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "間接問句：how + 陳述語序",
+          "meaning": "間接問句中陳述「事情如何發生」。",
+          "usage": "放在 understand 等動詞後面時，how 子句不用直接問句的倒裝語序。",
+          "prompt": "修復古鐘的師傅不了解故障怎樣發生，哪句對？",
+          "options": [
+            "I do not understand how this happened.",
+            "I do not understand how did this happen.",
+            "I do not understand how this happen yesterday.",
+            "I do not understand how happened this."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。間接問句中陳述「事情如何發生」。在這個情境中，句型與時態都自然。",
+            "錯誤。這是間接問句，不用 did this happen 的倒裝。",
+            "錯誤。yesterday 指過去，應用 happened。",
+            "錯誤。how 後要有正常主詞和動詞語序。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「How all this has come to pass」",
+          "pattern": [
+            {
+              "text": "how",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 助動詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。間接問句中陳述「事情如何發生」。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在完成式：have + 過去分詞",
+          "meaning": "表示事情已發生，與現在有關。",
+          "usage": "回顧至今發生的變化，而不只列出單一過去時間。",
+          "prompt": "小村莊如今有了圖書館，要強調「已經有改變」，哪句對？",
+          "options": [
+            "A big change have happened in our town.",
+            "A big change has happen in our town.",
+            "A big change has happening in our town.",
+            "A big change has happened in our town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。單數主詞 change 要用 has。",
+            "錯誤。has 後面必須接過去分詞 happened。",
+            "錯誤。has 後面不是直接接 happening。",
+            "正確。表示事情已發生，與現在有關。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「has come to pass」",
+          "pattern": [
+            {
+              "text": "has / have",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示事情已發生，與現在有關。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "片語動詞：come to pass",
+          "meaning": "表示「發生、成真」，偏文學或正式。",
+          "usage": "描述不尋常事件、故事或重大改變的發生。",
+          "prompt": "小鎮突然出現一座神祕雕像，哪句正確表達不知事情如何發生？",
+          "options": [
+            "Nobody knows how it came to pass.",
+            "Nobody knows how it came to pass the key.",
+            "Nobody knows how it came pass to the town.",
+            "Nobody knows how it came to walk the street."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示「發生、成真」，偏文學或正式。在這個情境中，句型與時態都自然。",
+            "錯誤。come to pass 是固定片語，不是「遞鑰匙」。",
+            "錯誤。固定詞序是 come to pass。",
+            "錯誤。come to walk 指走路，不是「發生」。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「come to pass」",
+          "pattern": [
+            {
+              "text": "come to pass",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。表示「發生、成真」，偏文學或正式。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "come to + 原形：逐漸發展到",
+          "meaning": "逐漸變成會做某件事，或最終到了某個階段。",
+          "usage": "強調經過一段時間，想法或行為有所轉變。",
+          "prompt": "長時間練習後，樂團逐漸喜歡早起練習，哪句合適？",
+          "options": [
+            "We have come enjoy early practice.",
+            "We have came to enjoy early practice.",
+            "We have come to enjoy early practice.",
+            "We have come to enjoying early practice."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。come 後接 to + 原形。",
+            "錯誤。現在完成式要用 come，不是 came。",
+            "正確。逐漸變成會做某件事，或最終到了某個階段。在這個情境中，句型與時態都自然。",
+            "錯誤。to 後用原形 enjoy，不用 enjoying。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「we've come to surround ourselves」",
+          "pattern": [
+            {
+              "text": "have / has come to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。逐漸變成會做某件事，或最終到了某個階段。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "反身代名詞：surround ourselves",
+          "meaning": "讓自己被某些人或事物包圍。",
+          "usage": "強調自己選擇身旁的環境與人。",
+          "prompt": "陶藝師想和友善的藝術家一起工作，哪句正確？",
+          "options": [
+            "We surround us with kind artists.",
+            "We surround ourselves with kind artists.",
+            "We surround ourselves by kind artists.",
+            "We surround ourself with kind artists."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。主詞和受詞是同一群人時要用 ourselves。",
+            "正確。讓自己被某些人或事物包圍。在這個情境中，句型與時態都自然。",
+            "錯誤。這裡的固定搭配是 surround oneself with。",
+            "錯誤。we 的反身代名詞是 ourselves。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「surround ourselves」",
+          "pattern": [
+            {
+              "text": "surround",
+              "fixed": true
+            },
+            {
+              "text": "反身代名詞 + with + 名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。讓自己被某些人或事物包圍。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "without + 名詞 / -ing",
+          "meaning": "表示缺少某事，或沒有做某事。",
+          "usage": "說明某種事物或行動不存在。",
+          "prompt": "有位畫家不看說明便開始畫畫，哪句自然？",
+          "options": [
+            "She started painting without to read the guide.",
+            "She started painting without read the guide.",
+            "She started painting without reads the guide.",
+            "She started painting without reading the guide."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。without 後不用 to-infinitive。",
+            "錯誤。介系詞 without 後的動詞用 -ing。",
+            "錯誤。without 後不能直接用第三人稱單數動詞。",
+            "正確。表示缺少某事，或沒有做某事。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「without learning」",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "名詞或 V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示缺少某事，或沒有做某事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "only + 名詞短語：限制焦點",
+          "meaning": "表示「只有」某些人或東西符合情況。",
+          "usage": "當要強調一群人之中只有特定的人能做某事時。",
+          "prompt": "劇院正在排練，只有演員可上舞台，哪句自然？",
+          "options": [
+            "Only the actors can go on the stage.",
+            "The actors only can on the stage.",
+            "Only the actors can going on the stage.",
+            "Only actors the go on the stage."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示「只有」某些人或東西符合情況。在這個情境中，句型與時態都自然。",
+            "錯誤。can 後缺少原形動詞 go。",
+            "錯誤。can 後要用 go，不用 going。",
+            "錯誤。only 後的主詞語序混亂。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Only the fools believe」",
+          "pattern": [
+            {
+              "text": "only",
+              "fixed": true
+            },
+            {
+              "text": "名詞短語 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示「只有」某些人或東西符合情況。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "go + V-ing：活動",
+          "meaning": "表示去做某項活動。",
+          "usage": "用於 driving、swimming、shopping 等活動；原歌是 went driving。",
+          "prompt": "朋友昨天去划船，哪句符合此結構？",
+          "options": [
+            "We went boated on the lake yesterday.",
+            "We went boating on the lake yesterday.",
+            "We went boat on the lake yesterday.",
+            "We went to boating on the lake yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。boated 不是此片語所需的 V-ing。",
+            "正確。表示去做某項活動。在這個情境中，句型與時態都自然。",
+            "錯誤。go + 活動用 V-ing。",
+            "錯誤。這裡不加 to。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「I went driving last night」",
+          "pattern": [
+            {
+              "text": "go / went",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示去做某項活動。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "have + 受詞 + to oneself",
+          "meaning": "某個地方或東西可以獨自享用。",
+          "usage": "描述某人不必與別人共用地方、時間或物品。",
+          "prompt": "清晨泳池沒有其他人，哪句自然？",
+          "options": [
+            "I had the pool to me this morning.",
+            "I had myself to the pool this morning.",
+            "I had the pool to myself this morning.",
+            "I had the pool to himself this morning."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。這個搭配用反身代名詞 myself。",
+            "錯誤。物品須放在 to myself 前面。",
+            "正確。某個地方或東西可以獨自享用。在這個情境中，句型與時態都自然。",
+            "錯誤。I 對應 myself，不是 himself。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「Had the sky to myself」",
+          "pattern": [
+            {
+              "text": "have / had",
+              "fixed": true
+            },
+            {
+              "text": "事物 + to + 反身代名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。某個地方或東西可以獨自享用。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be not + 形容詞",
+          "meaning": "描述過去某時不是某種狀態。",
+          "usage": "談過去的感受或處境。",
+          "prompt": "夜間在天文台值班，有同事陪伴，哪句對？",
+          "options": [
+            "I was not alone at the observatory.",
+            "I were not alone at the observatory.",
+            "I did not alone at the observatory.",
+            "I was not aloning at the observatory."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。描述過去某時不是某種狀態。在這個情境中，句型與時態都自然。",
+            "錯誤。I 過去式搭配 was。",
+            "錯誤。alone 是形容詞，需要 be 動詞。",
+            "錯誤。alone 不是此處能加 -ing 的動詞。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「I wasn't alone」",
+          "pattern": [
+            {
+              "text": "was / were not",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。描述過去某時不是某種狀態。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "end up + like + 名詞／代名詞",
+          "meaning": "事情最後竟變成這樣。",
+          "usage": "詢問或感慨意想不到的最終結果。",
+          "prompt": "原本簡單的野餐竟變成大型派對，哪句最適合？",
+          "options": [
+            "How did our picnic end up like this?",
+            "How did our picnic ending up like this?",
+            "How did our picnic end up to this?",
+            "How our picnic did end up like this?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。事情最後竟變成這樣。在這個情境中，句型與時態都自然。",
+            "錯誤。did 後面用原形 end。",
+            "錯誤。歌詞的此用法是 end up like，不是 end up to。",
+            "錯誤。直接問句是 How did + 主詞 + 原形。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「end up like this」",
+          "pattern": [
+            {
+              "text": "end up like",
+              "fixed": true
+            },
+            {
+              "text": "名詞／代名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。事情最後竟變成這樣。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "when + 現在式：一般情況",
+          "meaning": "描述某事一發生時，常接續另一個情況。",
+          "usage": "談規律、一般情況或常發生的事。",
+          "prompt": "木工師傅講解木頭受潮的變化，哪句合理？",
+          "options": [
+            "When wood gets wet it can changes shape.",
+            "When wood gets wet, it can change shape.",
+            "When wood get wet, it can change shape.",
+            "When wood wet, it can change shape."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。can 後應用原形 change。",
+            "正確。描述某事一發生時，常接續另一個情況。在這個情境中，句型與時態都自然。",
+            "錯誤。wood 在此視為單數，動詞用 gets。",
+            "錯誤。when 子句缺少動詞 gets / is。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「When love breaks the promise」",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 現在式動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。描述某事一發生時，常接續另一個情況。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "have to + 原形",
+          "meaning": "表示必要或有責任做某事。",
+          "usage": "規定、責任或環境造成的需要。",
+          "prompt": "植物園員工必須每天給幼苗澆水，哪句對？",
+          "options": [
+            "The gardener have to water the new plants daily.",
+            "The gardener has water the new plants daily.",
+            "The gardener has to water the new plants daily.",
+            "The gardener has to watering the new plants daily."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。單數 gardener 用 has to。",
+            "錯誤。這裡說義務，要用 has to，不是 has + 原形。",
+            "正確。表示必要或有責任做某事。在這個情境中，句型與時態都自然。",
+            "錯誤。to 後接原形 water。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「The heart has to keep」",
+          "pattern": [
+            {
+              "text": "have / has to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示必要或有責任做某事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "名詞 + to-infinitive：待做的事",
+          "meaning": "表示某個需要發現或完成的事。",
+          "usage": "說明仍有待處理、探索或發現的東西。",
+          "prompt": "探險隊還有許多地方要探索，哪句自然？",
+          "options": [
+            "There are new places exploring to.",
+            "There are new places to explored.",
+            "There are new places to explore.",
+            "There are new places for explore."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。exploring to 的詞序不對。",
+            "錯誤。to 後用 explore，不用 explored。",
+            "正確。表示某個需要發現或完成的事。在這個情境中，句型與時態都自然。",
+            "錯誤。名詞後表待做的事用 to + 原形。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「truth here to find」",
+          "pattern": [
+            {
+              "text": "名詞 + to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示某個需要發現或完成的事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "被動語態：be + 過去分詞",
+          "meaning": "主詞受到某個動作影響。",
+          "usage": "著重受影響的事物，不一定指出動作者。",
+          "prompt": "修復展覽裡的古畫，哪句正確表達畫作受損？",
+          "options": [
+            "The old painting damaged is.",
+            "The old painting has damaging.",
+            "The old painting is damage.",
+            "The old painting is damaged."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。be 動詞要在過去分詞之前。",
+            "錯誤。has damaging 不是合適的被動結構。",
+            "錯誤。被動用 is + 過去分詞 damaged。",
+            "正確。主詞受到某個動作影響。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「When the spirit is crushed」",
+          "pattern": [
+            {
+              "text": "am / is / are",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。主詞受到某個動作影響。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "so + 形容詞：程度",
+          "meaning": "強調程度非常高。",
+          "usage": "表達感受、尺寸、音量等特徵很強烈。",
+          "prompt": "攀登者發現山谷非常深，哪句對？",
+          "options": [
+            "The valley so is deep.",
+            "The valley is so deeply.",
+            "The valley is deep so much.",
+            "The valley is so deep."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。so 要放在形容詞前。",
+            "錯誤。be 後這裡需要形容詞 deep，不是副詞 deeply。",
+            "錯誤。so much 不能這樣直接放在 deep 後面。",
+            "正確。強調程度非常高。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「the hurt is so deep」",
+          "pattern": [
+            {
+              "text": "be + so",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。強調程度非常高。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "even when + 子句",
+          "meaning": "即使在某種情況發生時，主句仍成立。",
+          "usage": "強調不管某種情況如何，某個承諾或結果不變。",
+          "prompt": "天氣轉冷，花店仍然營業，哪句自然？",
+          "options": [
+            "Even when it cold, the flower shop stays open.",
+            "Even when it is cold, the flower shop stays open.",
+            "Even when is cold, the flower shop stays open.",
+            "Even when it is cold, the flower shop stay open."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。it 後缺少 is。",
+            "正確。即使在某種情況發生時，主句仍成立。在這個情境中，句型與時態都自然。",
+            "錯誤。when 後要有主詞 it。",
+            "錯誤。單數 shop 用 stays。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「Even when love has come and gone」",
+          "pattern": [
+            {
+              "text": "even when",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。即使在某種情況發生時，主句仍成立。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "move along：逐漸向前生活",
+          "meaning": "向前走、逐漸走出過往。",
+          "usage": "描寫人生或情緒逐步前進；注意歌詞本身同時使用現在完成式。",
+          "prompt": "兩位老朋友過去爭吵，如今都已放下，哪句符合？",
+          "options": [
+            "After the show, the crowd moved along to the next room.",
+            "After the show, the crowd moved along to singing.",
+            "After the show, the crowd moved along the next room.",
+            "After the show, the crowd moved along to happy."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。向前走、逐漸走出過往。在這個情境中，句型與時態都自然。",
+            "錯誤。這裡指走向下一個房間，不是接 to singing。",
+            "錯誤。前往下一個房間需要 to the next room。",
+            "錯誤。happy 是形容詞，不能充當移動目的地。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「our hearts have moved along」",
+          "pattern": [
+            {
+              "text": "move along（歌中使用 have moved along）",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。向前走、逐漸走出過往。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "will + 原形：將來承諾",
+          "meaning": "表達未來的決定、承諾或預測。",
+          "usage": "向某人保證未來會記得或做某事。",
+          "prompt": "一位舞者向教練承諾會記得建議，哪句對？",
+          "options": [
+            "I will remembering your advice.",
+            "I will remembered your advice.",
+            "I will remembers your advice.",
+            "I will remember your advice."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。will 後不用 -ing。",
+            "錯誤。will 後面用原形 remember。",
+            "錯誤。will 後不加第三人稱 -s。",
+            "正確。表達未來的決定、承諾或預測。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「I will remember you」",
+          "pattern": [
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表達未來的決定、承諾或預測。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "there was + 名詞：過去存在",
+          "meaning": "表示過去曾存在某個人、時段或事物。",
+          "usage": "回憶昔日存在、如今可能不同的事物。",
+          "prompt": "老戲院以前有個小舞台，哪句自然？",
+          "options": [
+            "There were a small stage in the old cinema.",
+            "There was a small stage in the old cinema.",
+            "There was small stage in the old cinema.",
+            "There was a small stage at yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。單數 a stage 搭配 was。",
+            "正確。表示過去曾存在某個人、時段或事物。在這個情境中，句型與時態都自然。",
+            "錯誤。可數單數名詞 stage 前要有 a。",
+            "錯誤。yesterday 前通常不用 at；此處句意也不自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「There was a time」",
+          "pattern": [
+            {
+              "text": "there was",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示過去曾存在某個人、時段或事物。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "省略關係代名詞的名詞修飾",
+          "meaning": "用後方子句補充說明是哪段時間。",
+          "usage": "口語、歌詞中可省略關係連接詞；要留意其實際功能。",
+          "prompt": "敘述曾經每週一起畫畫的一段日子，哪句自然？",
+          "options": [
+            "There was a time painted we together every week.",
+            "There was a time we paint together yesterday.",
+            "There was a time we painted together every week.",
+            "There was a time we painting together every week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。關係子句維持主詞 we + 動詞的語序。",
+            "錯誤。過去的持續習慣通常用 painted；yesterday 亦不合每週習慣。",
+            "正確。用後方子句補充說明是哪段時間。在這個情境中，句型與時態都自然。",
+            "錯誤。we 後缺少完整動詞 were painting 或 painted。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「a time we had the trust」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "[省略 that / when 的關係結構]",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用後方子句補充說明是哪段時間。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "as + 子句：同時",
+          "meaning": "當……的時候；兩件事同時發生。",
+          "usage": "描述兩個動作幾乎同時發生。",
+          "prompt": "畫廊準備開門時，燈也亮了，哪句自然？",
+          "options": [
+            "As the doors opened, the lights coming on.",
+            "As the doors opened, the lights came on.",
+            "As opened the doors, the lights came on.",
+            "As the doors opening, the lights came on."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。主句需要限定動詞 came，不是單獨 coming。",
+            "正確。當……的時候；兩件事同時發生。在這個情境中，句型與時態都自然。",
+            "錯誤。as 後的子句語序是主詞 + 動詞。",
+            "錯誤。as 子句需要完整謂語 opened。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「As I open my eyes」",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。當……的時候；兩件事同時發生。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "現在進行式：be + V-ing",
+          "meaning": "說明動作正在發生。",
+          "usage": "描述眼前正在進行的動作。",
+          "prompt": "舞台上的機器人正向前拉小車，哪句對？",
+          "options": [
+            "The robot is pull the cart forward.",
+            "The robot is pulling the cart forward.",
+            "The robot are pulling the cart forward.",
+            "The robot pulling the cart forward."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。is 後需用 pulling。",
+            "正確。說明動作正在發生。在這個情境中，句型與時態都自然。",
+            "錯誤。單數 robot 要用 is。",
+            "錯誤。進行式需要 be 動詞 is。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「it's pulling me forward」",
+          "pattern": [
+            {
+              "text": "am / is / are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。說明動作正在發生。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "動詞 + 受詞 + 形容詞結果",
+          "meaning": "使某人擺脫束縛；形容詞表示動作造成的狀態。",
+          "usage": "描寫將人從束縛中拉開，歌中是強烈的比喻。",
+          "prompt": "風箏線被樹枝卡住，風終於把它扯開，哪句符合歌中的結果結構？",
+          "options": [
+            "The strong wind tore free the kite.",
+            "The strong wind tear the kite free yesterday.",
+            "The strong wind tore the kite freely.",
+            "The strong wind tore the kite free."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。本結構中受詞 kite 在 free 前面。",
+            "錯誤。yesterday 指過去，應使用 tore。",
+            "錯誤。freely 是副詞，不能表達「扯脫束縛」的結果狀態。",
+            "正確。使某人擺脫束縛；形容詞表示動作造成的狀態。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「It tears me free」",
+          "pattern": [
+            {
+              "text": "tear",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "free",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。使某人擺脫束縛；形容詞表示動作造成的狀態。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "only thing left：過去分詞後置",
+          "meaning": "表示唯一剩下的事物。",
+          "usage": "從幾件物品中強調所剩的一件。",
+          "prompt": "展覽結束後只剩一張海報，哪句自然？",
+          "options": [
+            "The only poster left is on the wall.",
+            "The only poster leaving is on the wall.",
+            "The only poster leave is on the wall.",
+            "The only left poster is on the wall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示唯一剩下的事物。在這個情境中，句型與時態都自然。",
+            "錯誤。leaving 指正在離開，不是「剩下」。",
+            "錯誤。表剩餘狀態要用 left，不是 leave。",
+            "錯誤。這裡歌中的結構是名詞 + left 的後置修飾。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「the only thing left」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "left（後置過去分詞）",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。表示唯一剩下的事物。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

@@ -2828,5 +2828,1258 @@
     "audioSha256": "9bcd4816c1d95095d2ce382f9793c439e1bf14f43fc608f0cbf6e36b6b7de62e",
     "duration": 199.4453125,
     "note": "Local ASR word alignment, with short passage rechecks; not a manual listening audit."
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "4097b9e0d77b39f0760ae6dcf1f0849ddd022bbd787c88b502ac25047af519a6"
+    },
+    {
+      "section": "structure",
+      "filename": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "4093450217b44d9661ec64e245e390018665d065d9c296328c552c9a53a255b7"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "lying",
+          "meaning": "躺著；lie（躺）的現在分詞",
+          "usage": "說明人平躺或靠躺的姿勢；注意不要與 laying（放置某物）混淆。",
+          "prompt": "哪一句正確使用「lying」？",
+          "options": [
+            "The painter was lying the picture on the wall.",
+            "The baby was lying quietly on the soft bed.",
+            "The nurse was lying the blanket on the bed.",
+            "Dad was lying the books neatly on the shelf."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：把畫掛上牆應用 hanging，不用 lying。",
+            "正確：lying on the bed 表示寶寶躺在床上。",
+            "錯誤：鋪放毯子應用 laying；lying 不直接帶此受詞。",
+            "錯誤：放書應用 laying 或 placing，不能用 lying。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：lying on the bed 表示寶寶躺在床上。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "heartbeat",
+          "meaning": "心跳；心臟跳動的節奏",
+          "usage": "談身體心跳、緊張感或運動後的生理反應。",
+          "prompt": "哪一句正確使用「heartbeat」？",
+          "options": [
+            "I checked the heartbeat of my train ticket.",
+            "She used a heartbeat to unlock the front door.",
+            "The teacher gave us three heartbeats of homework.",
+            "My heartbeat grew faster as the race began."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：車票沒有心跳；可以 checked the date on my ticket。",
+            "錯誤：一般開門使用 key 或 code，不是 heartbeat。",
+            "錯誤：heartbeat 不是作業的計量單位。",
+            "正確：緊張或運動時心跳加快。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：緊張或運動時心跳加快。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "softly",
+          "meaning": "輕柔地；輕聲地",
+          "usage": "修飾說話、音樂或動作，表示音量低或動作溫柔。",
+          "prompt": "哪一句正確使用「softly」？",
+          "options": [
+            "She closed the door softly while her brother slept.",
+            "She shouted softly so everyone across town heard.",
+            "The alarm rang softly to wake the whole street.",
+            "He spoke softly because the music was very loud."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：為免吵醒弟弟，輕輕關門。",
+            "矛盾：shouted 並讓全城聽見，與 softly 的低聲相衝。",
+            "不恰當：要吵醒整條街的警報通常要響亮，而非 softly。",
+            "不恰當：若想蓋過大聲音樂，通常須 speak loudly；此處理由不合語境。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：為免吵醒弟弟，輕輕關門。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "blind",
+          "meaning": "盲目的；沒有察覺明顯問題的（比喻）",
+          "usage": "形容人在情緒影響下忽略問題；也可指視力無法看見。",
+          "prompt": "哪一句正確使用「blind」？",
+          "options": [
+            "He was blind to the warning signs and trusted everyone.",
+            "The road was blind because the bus was late.",
+            "The soup went blind after we added more salt.",
+            "Her homework was blind because the answers were short."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：blind to warning signs 指忽視明顯警訊。",
+            "錯誤：公車遲到不代表道路盲目；可說 the bus was delayed。",
+            "錯誤：湯不會因加鹽而失去視力；可說 became salty。",
+            "錯誤：答案很短與 blind 的字面或比喻意思無關。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：blind to warning signs 指忽視明顯警訊。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "sailed on",
+          "meaning": "繼續航行；（比喻）繼續向前",
+          "usage": "談船隻前行，也可比喻事情持續順利推進；歌中是感情旅程。",
+          "prompt": "哪一句正確使用「sailed on」？",
+          "options": [
+            "The students sailed on the bus across the city.",
+            "She sailed on her shoes before leaving the house.",
+            "We sailed on our homework before the test began.",
+            "Despite the rain, our little boat sailed on."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：搭公車通常用 rode the bus，不說 sailed on the bus。",
+            "錯誤：穿鞋要說 put on her shoes。",
+            "錯誤：sail on 不表示做作業；應用 worked on。",
+            "正確：小船雖遇雨仍繼續航行。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：小船雖遇雨仍繼續航行。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "alone",
+          "meaning": "獨自；沒有他人陪伴（狀態）",
+          "usage": "描述居住、旅行或完成事情時沒有其他人一起；與 lonely 的感受不同。",
+          "prompt": "哪一句正確使用「alone」？",
+          "options": [
+            "My class studied alone in groups of six students.",
+            "After college, Maya lived alone in a small flat.",
+            "They lived alone together with their five cousins.",
+            "He felt alone because his new jacket was blue."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "矛盾：六人小組合作不屬於各自單獨學習。",
+            "正確：Maya 畢業後獨居。",
+            "矛盾：與五位表親一起住，不符合 lived alone。",
+            "不恰當：外套顏色並不能自然解釋孤獨的感受。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：Maya 畢業後獨居。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "now that",
+          "meaning": "既然；由於現在已經……",
+          "usage": "引出已改變的情況，接著說明因此可以做什麼。",
+          "prompt": "哪一句正確使用「now that」？",
+          "options": [
+            "Now that the meeting yesterday, please bring a pen.",
+            "Now that because it was cold, we closed the window.",
+            "Now that the rain has stopped, we can go outside.",
+            "Now that I will be born next week, I need shoes."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：now that 後需要完整子句，如 the meeting has started。",
+            "錯誤：now that 後不能直接再接 because，且缺少子句。",
+            "正確：雨已停，因此可以出門。",
+            "錯誤：現在已成事實的情況不應用尚未出生的 I。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：雨已停，因此可以出門。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "turn night into day",
+          "meaning": "把黑夜變成白天；（詩意）使黑暗處境變明朗",
+          "usage": "歌中的意象，表達某人帶來巨大而正面的改變；不是日常固定慣用語。",
+          "prompt": "哪一句正確使用「turn night into day」？",
+          "options": [
+            "We turned night into day by arriving at midnight.",
+            "The new lamp turned night into day by changing the calendar.",
+            "Her kindness turned my night into day after a hard week.",
+            "He turned night into day because the clock was round."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不恰當：午夜到達不會令黑夜變白天，也缺乏比喻。",
+            "不恰當：燈無法更改日曆或實際時間。",
+            "正確：用詩意比喻善意讓低落生活明亮起來。",
+            "不恰當：時鐘形狀不能解釋這種巨大改變。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：用詩意比喻善意讓低落生活明亮起來。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "hoping",
+          "meaning": "懷抱希望；希望某事發生",
+          "usage": "常用 hoping (that) + 子句，或 hoping to + 原形動詞。",
+          "prompt": "哪一句正確使用「hoping」？",
+          "options": [
+            "We are hoping to see our cousins this weekend.",
+            "She was hoping of buy tickets before Friday.",
+            "He is hoping the bus arrives yesterday morning.",
+            "I am hoping my schoolbag to open by itself."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：hoping to see 表示希望週末見到表親。",
+            "錯誤：應用 hoping to buy 或 hoping for tickets。",
+            "錯誤：希望未來發生的事，不搭配 yesterday morning。",
+            "錯誤：hope 不用 hoping + 物品 + to V 這種使役句型。"
+          ],
+          "sourceFile": "Open_Arms_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：hoping to see 表示希望週末見到表親。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "分詞開頭的畫面片段",
+          "meaning": "以現在分詞描寫正在發生的畫面；這裡沒有寫出主詞。",
+          "usage": "歌詞或描述場景可以用分詞片段；獨立正式句子通常需要主詞與完整動詞。",
+          "prompt": "露營照片中，兩人正躺在草地上看星星。哪一句最能描述這個畫面？",
+          "options": [
+            "Lying beside my friend, I watched the stars.",
+            "Lying beside my friend, I was the stars.",
+            "Lying beside my friend, I watch the stars yesterday.",
+            "Lie beside my friend, I watched the stars."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "句意符合情境，並正確使用「分詞開頭的畫面片段」所示的文法／表達。",
+            "was the stars 無法表達觀看星星的動作。",
+            "yesterday 需要搭配過去敘事，watch 現在式不合。",
+            "Lie 是原形，不適合作此處的背景分詞。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Lying beside you",
+          "pattern": [
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "beside someone",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「分詞開頭的畫面片段」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "表示所在環境：in the + 名詞",
+          "meaning": "在黑暗的環境中；here 是地點副詞。",
+          "usage": "說明人所處的光線或環境；歌詞是地點片段。",
+          "prompt": "劇院熄燈後，觀眾等著表演開始。哪句符合情境？",
+          "options": [
+            "We waited in the dark for the show.",
+            "We waited in a dark for the show.",
+            "We waited into the dark for the show.",
+            "We waited the dark for the show."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "句意符合情境，並正確使用「表示所在環境：in the + 名詞」所示的文法／表達。",
+            "dark 前不應在此固定片語中加 a。",
+            "into 表示進入的動作，這裡需要表示身處其中的 in。",
+            "wait 後缺少表示位置的 in。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Here in the dark",
+          "pattern": [
+            {
+              "text": "in the",
+              "fixed": true
+            },
+            {
+              "text": "dark",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「表示所在環境：in the + 名詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "with + 所屬代名詞",
+          "meaning": "mine 代替 my heartbeat，避免重複名詞。",
+          "usage": "兩件同類事物一起比較或相連時，使用所有格代名詞。",
+          "prompt": "兩位畫家把作品放在一起展示。哪句自然地避免重複 painting？",
+          "options": [
+            "Her painting is next to my.",
+            "Her painting is next to mine.",
+            "Her painting is next to I.",
+            "Her painting is next to me painting."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "my 後面還要接名詞，不能獨立代替 painting。",
+            "句意符合情境，並正確使用「with + 所屬代名詞」所示的文法／表達。",
+            "I 是主格，不能代替 my painting。",
+            "me painting 不是標準的所有格結構。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Feeling your heartbeat with mine",
+          "pattern": [
+            {
+              "text": "with",
+              "fixed": true
+            },
+            {
+              "text": "mine / yours / his / hers",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「with + 所屬代名詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "副詞前置修飾動詞",
+          "meaning": "softly 修飾說話方式；為文學效果放在主詞前。",
+          "usage": "平常也能用主詞＋動詞＋副詞，歌詞採用前置語序。",
+          "prompt": "圖書館有人睡著了，你要請朋友小聲說話。哪句自然？",
+          "options": [
+            "Please speak softly near the baby.",
+            "Please softly near the baby speaked.",
+            "Please speaking softly near the baby.",
+            "Please speak soft near the baby."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "句意符合情境，並正確使用「副詞前置修飾動詞」所示的文法／表達。",
+            "speaked 不是 speak 的正確形式，且詞序不自然。",
+            "Please 後要接動詞原形，不是 speaking。",
+            "soft 是形容詞，這裡修飾 speak 應用 softly。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Softly you whisper",
+          "pattern": [
+            {
+              "text": "Softly",
+              "fixed": true
+            },
+            {
+              "text": "you whisper",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「副詞前置修飾動詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "so + 形容詞",
+          "meaning": "so 加強形容詞程度，表示「如此……」。",
+          "usage": "稱讚真誠、友善或其他特質時使用。",
+          "prompt": "志工真心協助遊客找失物。你要表達感謝。哪句合適？",
+          "options": [
+            "You are so kindness to help us.",
+            "You so kind to help us.",
+            "You are so kindly to help us.",
+            "You are so kind to help us."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "kindness 是名詞，不能直接作 are so 後的形容詞。",
+            "句子缺少 be 動詞 are。",
+            "kindly 在這裡是副詞，描述人的特質應用 kind。",
+            "句意符合情境，並正確使用「so + 形容詞」所示的文法／表達。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "You're so sincere",
+          "pattern": [
+            {
+              "text": "be so",
+              "fixed": true
+            },
+            {
+              "text": "sincere",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「so + 形容詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "How could + 主詞 + 動詞？",
+          "meaning": "could 在此帶有驚訝與反思，不只是詢問過去能力。",
+          "usage": "驚訝某件事竟會發生時，可用 How could...?",
+          "prompt": "朋友把重要門票忘在家，驚訝地問他怎麼會忘記。",
+          "options": [
+            "How could you forget the tickets?",
+            "How could you forgot the tickets?",
+            "How you could forget the tickets?",
+            "How can you forgetting the tickets?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "句意符合情境，並正確使用「How could + 主詞 + 動詞？」所示的文法／表達。",
+            "could 後接原形 forget，不能用 forgot。",
+            "直接問句須將 could 放在主詞前。",
+            "can 後接原形，不能用 forgetting。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "How could our love be so blind",
+          "pattern": [
+            {
+              "text": "How could",
+              "fixed": true
+            },
+            {
+              "text": "our love",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "so blind?",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「How could + 主詞 + 動詞？」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "一般過去式：已結束的事件",
+          "meaning": "sailed 是 sail 的過去式，說已發生的事。",
+          "usage": "回憶旅行或已結束的共同經歷。",
+          "prompt": "去年兩個朋友乘船遊湖。哪句最適合回憶？",
+          "options": [
+            "We sail on the lake last year.",
+            "We sailed on the lake last year.",
+            "We have sail on the lake last year.",
+            "We sailing on the lake last year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "last year 是過去時間，不應用一般現在式。",
+            "句意符合情境，並正確使用「一般過去式：已結束的事件」所示的文法／表達。",
+            "have 後應接 sailed，且明確的 last year 通常用一般過去式。",
+            "缺少 be 動詞或正確過去式。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "We sailed on together",
+          "pattern": [
+            {
+              "text": "We",
+              "fixed": false
+            },
+            {
+              "text": "sailed",
+              "fixed": true
+            },
+            {
+              "text": "together",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「一般過去式：已結束的事件」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "drift apart：關係漸遠",
+          "meaning": "原義是逐漸漂離，也可指朋友慢慢疏遠。",
+          "usage": "談長時間沒有聯繫、關係自然淡去。",
+          "prompt": "兩位舊隊友搬往不同城市後，聯繫越來越少。",
+          "options": [
+            "They drifted a part the letters yesterday.",
+            "They drifted apart because they met daily.",
+            "They slowly drifted apart after moving away.",
+            "They drifted apart to the museum by train."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "drift apart 不能拆成 drifted a part 並直接接受詞。",
+            "每天見面與「漸漸疏遠」的語境矛盾。",
+            "句意符合情境，並正確使用「drift apart：關係漸遠」所示的文法／表達。",
+            "drift apart 不表示乘火車前往某地。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "We drifted apart",
+          "pattern": [
+            {
+              "text": "We",
+              "fixed": false
+            },
+            {
+              "text": "drifted apart",
+              "fixed": true
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「drift apart：關係漸遠」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "come to + 人",
+          "meaning": "come to 表示來到某人身邊；to 標示移動方向。",
+          "usage": "決定走向對方或到某個人所在處。",
+          "prompt": "表演結束後，演員走到觀眾席找他的家人。",
+          "options": [
+            "After the show, he came at his family.",
+            "After the show, he came to his family.",
+            "After the show, he came his family.",
+            "After the show, he come to his family."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "at 改變了方向關係，此處要用 to。",
+            "句意符合情境，並正確使用「come to + 人」所示的文法／表達。",
+            "come 接移動目標時通常需要 to。",
+            "過去時間 after the show 要用 came。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "So now I come to you",
+          "pattern": [
+            {
+              "text": "come to",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「come to + 人」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "with open arms：熱情迎接",
+          "meaning": "以張開雙臂的形象表示熱烈歡迎；本身是片語。",
+          "usage": "迎接久別的親友或新成員。",
+          "prompt": "一位旅人多年後回到村莊，大家很開心地迎接他。",
+          "options": [
+            "The village welcomed him by open arms.",
+            "The village welcomed him with open arms.",
+            "The village welcomed him with open doors only.",
+            "The village welcomed him at open arms."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此固定搭配使用 with，不是 by。",
+            "句意符合情境，並正確使用「with open arms：熱情迎接」所示的文法／表達。",
+            "open doors 不是這題要表達的熱情迎接片語。",
+            "此固定搭配使用 with，不是 at。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "With open arms",
+          "pattern": [
+            {
+              "text": "with open arms",
+              "fixed": true
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「with open arms：熱情迎接」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "nothing + to-infinitive",
+          "meaning": "不定詞說明「沒有甚麼可隱瞞」。歌詞省略完整句架構。",
+          "usage": "表示沒有可做、可說、可吃或可藏的東西。",
+          "prompt": "店員說所有價格都清楚標示，沒有秘密。",
+          "options": [
+            "We have no to hide about the prices.",
+            "We have nothing hide about the prices.",
+            "We have nothing to hide about the prices.",
+            "We have nothing hiding about the prices."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "no to hide 不構成正確名詞片語。",
+            "nothing 後面要接 to hide，不是直接接 hide。",
+            "句意符合情境，並正確使用「nothing + to-infinitive」所示的文法／表達。",
+            "不能把 hiding 當作此處的後置不定詞。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Nothing to hide",
+          "pattern": [
+            {
+              "text": "nothing to",
+              "fixed": true
+            },
+            {
+              "text": "hide",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「nothing + to-infinitive」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "祈使句以動詞原形開頭，主詞 you 通常省略。",
+          "usage": "給出直接請求、指示或鼓勵。",
+          "prompt": "嚮導請遊客相信他提供的路線資訊。",
+          "options": [
+            "Trust the guide and follow the signs.",
+            "Trusts the guide and follow the signs.",
+            "Trusting the guide and follow the signs.",
+            "To trust the guide and follow the signs."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "句意符合情境，並正確使用「祈使句：動詞原形開頭」所示的文法／表達。",
+            "Trusts 是第三人稱單數，不是祈使動詞原形。",
+            "Trusting 不是這個完整祈使句應有的動詞形式。",
+            "祈使句通常直接用原形 Trust 開頭。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "Believe what I say",
+          "pattern": [
+            {
+              "text": "Believe",
+              "fixed": true
+            },
+            {
+              "text": "what I say",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「祈使句：動詞原形開頭」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "what + 子句作受詞",
+          "meaning": "what I say 是名詞性子句，表示「我說的內容」。",
+          "usage": "說相信、記得、理解某人所說或做的事。",
+          "prompt": "博物館員告訴你注意什麼，請你記住她說的內容。",
+          "options": [
+            "Remember what does the guide say.",
+            "Remember what the guide say?",
+            "Remember what says the guide.",
+            "Remember what the guide says."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "what 引導名詞性子句，不用 does 的疑問倒裝。",
+            "the guide 是單數，後面的動詞須用 says。",
+            "間接問句不是 what says the guide 的倒裝語序。",
+            "句意符合情境，並正確使用「what + 子句作受詞」所示的文法／表達。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Believe what I say",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "I say",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「what + 子句作受詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "here + 主詞 + be",
+          "meaning": "here I am 是表達自己抵達、出現或願意面對的句式。",
+          "usage": "告知對方「我到了」「我就在這裡」。",
+          "prompt": "朋友約你在鐘樓下見面，你抵達時傳訊息。",
+          "options": [
+            "Here I be, next to the clock tower!",
+            "Here I am, next to the clock tower!",
+            "Here I is, next to the clock tower!",
+            "Here am I, next to the clock tower!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "主詞 I 要搭配 am，不能搭配 be。",
+            "句意符合情境，並正確使用「here + 主詞 + be」所示的文法／表達。",
+            "主詞 I 要搭配 am，不能搭配 is。",
+            "這裡的歌詞式固定語序是 Here I am，不是 Here am I。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "So here I am",
+          "pattern": [
+            {
+              "text": "here",
+              "fixed": true
+            },
+            {
+              "text": "I",
+              "fixed": false
+            },
+            {
+              "text": "am",
+              "fixed": true
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「here + 主詞 + be」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "hope + will 子句",
+          "meaning": "hoping 是分詞片段；you’ll = you will，表示期待未來。",
+          "usage": "描述對未來結果的期待；平常完整句可用 I hope ...。",
+          "prompt": "你寄出手寫邀請卡，希望朋友明天收到。",
+          "options": [
+            "I hope you will got my card tomorrow.",
+            "I hope you getting my card tomorrow.",
+            "I hope will you get my card tomorrow.",
+            "I hope you will get my card tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "will 後不能接過去式 got。",
+            "will 後需接動詞原形 get。",
+            "hope 後的間接陳述句不用 will you 倒裝。",
+            "句意符合情境，並正確使用「hope + will 子句」所示的文法／表達。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Hoping you'll see",
+          "pattern": [
+            {
+              "text": "hoping",
+              "fixed": true
+            },
+            {
+              "text": "you'll see",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「hope + will 子句」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "what + 主詞 + 動詞的間接問題",
+          "meaning": "what 引導的名詞性子句採直述語序，不用疑問倒裝。",
+          "usage": "談「某件事對某人意義何在」時，放在 know、see 等動詞後。",
+          "prompt": "你想讓朋友明白一張舊照片對你的意義。",
+          "options": [
+            "I want you to know what this photo mean to me.",
+            "I want you to know what does this photo mean to me.",
+            "I want you to know what this photo means to me.",
+            "I want you to know what means this photo to me."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "this photo 為單數，須使用 means。",
+            "間接問句不用 does ... mean 的疑問語序。",
+            "句意符合情境，並正確使用「what + 主詞 + 動詞的間接問題」所示的文法／表達。",
+            "what 子句不能把 means 放到主詞之前。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "What your love means to me",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "your love",
+              "fixed": false
+            },
+            {
+              "text": "means to",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「what + 主詞 + 動詞的間接問題」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "seem + 形容詞",
+          "meaning": "seem 為連綴動詞，後接形容詞描述印象。",
+          "usage": "從觀察或感受推測事物的狀態。",
+          "prompt": "你看見一間沒人住的舊屋，覺得它很安靜。",
+          "options": [
+            "The old house seeming quiet.",
+            "The old house seems quietly.",
+            "The old house seems quiet.",
+            "The old house seem quiet."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少限定動詞 seems。",
+            "quietly 是副詞，seem 後應用形容詞 quiet。",
+            "句意符合情境，並正確使用「seem + 形容詞」所示的文法／表達。",
+            "主詞 house 是單數，現在式應用 seems。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "This empty house seems so cold",
+          "pattern": [
+            {
+              "text": "This house",
+              "fixed": false
+            },
+            {
+              "text": "seems",
+              "fixed": true
+            },
+            {
+              "text": "cold",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「seem + 形容詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "want to + 動詞原形",
+          "meaning": "want to 後接原形動詞；歌詞用 -ing 開頭，是片段。",
+          "usage": "表示自己想做某件事。",
+          "prompt": "你看到一隻可愛的小狗，很想摸摸牠。",
+          "options": [
+            "I want petting the little dog.",
+            "I want pet the little dog.",
+            "I want to petting the little dog.",
+            "I want to pet the little dog."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "want to 後接原形，不能接 petting。",
+            "want 後不能直接接原形 pet 表示想做某事。",
+            "to 後應接 pet，而不是 petting。",
+            "句意符合情境，並正確使用「want to + 動詞原形」所示的文法／表達。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Wanting to hold you",
+          "pattern": [
+            {
+              "text": "wanting to",
+              "fixed": true
+            },
+            {
+              "text": "hold you",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「want to + 動詞原形」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "want + 人 + 形容詞／位置補語",
+          "meaning": "want 後接受詞 you 和補語 near，描述希望對方處於某狀態。",
+          "usage": "希望某人留在近處，或希望某物保持某種狀態。",
+          "prompt": "一位年長旅客希望家人在附近陪他。",
+          "options": [
+            "He wants his family nearly him.",
+            "He wants near his family him.",
+            "He wants his family to near him.",
+            "He wants his family near him."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "nearly 是「幾乎」，不能代替表示距離的 near。",
+            "受詞和補語的詞序不自然。",
+            "near 在這句作補語，不是動詞，不能接 to near。",
+            "句意符合情境，並正確使用「want + 人 + 形容詞／位置補語」所示的文法／表達。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Wanting you near",
+          "pattern": [
+            {
+              "text": "wanting",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "near",
+              "fixed": true
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「want + 人 + 形容詞／位置補語」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "How much + 主詞 + 動詞 的感嘆片段",
+          "meaning": "這裡是感嘆程度的從句片段，不是完整的疑問句。",
+          "usage": "強調感受或願望有多強烈；完整句可為 You know how much ...。",
+          "prompt": "你想讓朋友知道自己當時有多想見他。",
+          "options": [
+            "You know how much I missed you.",
+            "You know how much did I miss you.",
+            "You know how many I missed you.",
+            "You know how much I miss you yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "句意符合情境，並正確使用「How much + 主詞 + 動詞 的感嘆片段」所示的文法／表達。",
+            "間接感嘆句要用直述語序，不用 did I 倒裝。",
+            "感情強烈程度用 how much，不用 how many。",
+            "yesterday 的過去事件應搭配 missed。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "How much I wanted you home",
+          "pattern": [
+            {
+              "text": "How much",
+              "fixed": true
+            },
+            {
+              "text": "I wanted you home",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「How much + 主詞 + 動詞 的感嘆片段」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "now that + 已改變的情況",
+          "meaning": "now that 表示「既然現在……」，指出新情況所帶來的結果。",
+          "usage": "事情已經改變，因此可以做下一步。",
+          "prompt": "下雨已經停了，大家可以重新開始野餐。",
+          "options": [
+            "Now that the rain stop, we can eat outside yesterday.",
+            "Now that the rain has stopped, we can eat outside.",
+            "Now that has the rain stopped, we can eat outside.",
+            "Now the rain that has stopped, we can eat outside."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "yesterday 的敘事和 stop 的時態搭配不當。",
+            "句意符合情境，並正確使用「now that + 已改變的情況」所示的文法／表達。",
+            "now that 後是直述語序，不用 has the rain。",
+            "now that 是固定連接詞組，不能倒過來。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "But now that you've come back",
+          "pattern": [
+            {
+              "text": "now that",
+              "fixed": true
+            },
+            {
+              "text": "you've come back",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「now that + 已改變的情況」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "turn + 受詞 + into + 名詞",
+          "meaning": "turn ... into ... 表示使某物變成另一種樣子；此句是省略主詞的歌詞片段。",
+          "usage": "描述材料、環境或情況發生轉變。",
+          "prompt": "工匠把一塊木頭變成一張小桌子。",
+          "options": [
+            "The artist turned the wood to a small table.",
+            "The artist turned the wood in a small table.",
+            "The artist turned the wood into a small table.",
+            "The artist turned into the wood a small table."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "轉變結果使用 into，而不是 to。",
+            "這裡必須是 into，不是單純的 in。",
+            "句意符合情境，並正確使用「turn + 受詞 + into + 名詞」所示的文法／表達。",
+            "應先接受詞 wood，再接 into 和結果。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Turned night into day",
+          "pattern": [
+            {
+              "text": "turned",
+              "fixed": true
+            },
+            {
+              "text": "night",
+              "fixed": false
+            },
+            {
+              "text": "into",
+              "fixed": true
+            },
+            {
+              "text": "day",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「turn + 受詞 + into + 名詞」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "need + 人 + to-infinitive",
+          "meaning": "need + 人 + to + 動詞原形，說明希望某人做的事。",
+          "usage": "請求某人的實際協助或留下。",
+          "prompt": "醫生請助理在會議期間留在診間。",
+          "options": [
+            "I need to you stay here during the meeting.",
+            "I need you stay here during the meeting.",
+            "I need you to stay here during the meeting.",
+            "I need you staying here during the meeting."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "need you to stay 不可寫成 need to you stay。",
+            "need + 人後須有 to 才能接 stay。",
+            "句意符合情境，並正確使用「need + 人 + to-infinitive」所示的文法／表達。",
+            "需要某人做某事用 to stay，不直接接 staying。"
+          ],
+          "sourceFile": "Open_Arms_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I need you to stay",
+          "pattern": [
+            {
+              "text": "need",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "stay",
+              "fixed": false
+            }
+          ],
+          "explanation": "句意符合情境，並正確使用「need + 人 + to-infinitive」所示的文法／表達。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

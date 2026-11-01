@@ -3063,5 +3063,1542 @@
     "sha256": "86ebe7025e6b93725072227f658215be200afdb91d35b8dc07d0b5485ebeaecd",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "65ce07820380073f441ba5c001cd05e057e05041e033a7de8b77209a5126bbf8"
+    },
+    {
+      "section": "structure",
+      "filename": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "17c37db42dbc3c875eb3c77fd9c42e12e901d27a2bf64f102e41ffc65feac449"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "own",
+          "meaning": "B1｜擁有；屬於自己的",
+          "usage": "描述所有權；own 作動詞通常直接接物品。",
+          "prompt": "哪一句正確使用「own」？",
+          "options": [
+            "We own at home until the rain stops.",
+            "I own this small shop with my sister.",
+            "She owns very happy after her exam.",
+            "I own to school when it is raining."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：own 不表示待在家；應說 stay at home。",
+            "正確：own 是「擁有」，可直接接 shop。",
+            "錯誤：own 不是連綴動詞；應說 feels happy。",
+            "錯誤：own 不是「走去」；應說 walk to school。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：own 是「擁有」，可直接接 shop。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "underneath",
+          "meaning": "B2｜在……下面",
+          "usage": "描述某物在另一物之下；underneath 可作介系詞或副詞。",
+          "prompt": "哪一句正確使用「underneath」？",
+          "options": [
+            "His answer was underneath the question in time.",
+            "The spare key was hidden underneath the mat.",
+            "The meeting began underneath eight in the morning.",
+            "She put underneath because she felt very tired."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：underneath 不能表示比問題更早發生。",
+            "正確：underneath the mat 表示在墊子下面。",
+            "錯誤：underneath 不表示「八點前」；應用 before eight。",
+            "錯誤：underneath 不能單獨取代 went to bed。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：underneath the mat 表示在墊子下面。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "whispered",
+          "meaning": "B1｜低聲說；耳語",
+          "usage": "whisper something to someone 或 whisper to someone，表示刻意壓低音量。",
+          "prompt": "哪一句正確使用「whispered」？",
+          "options": [
+            "We whispered the bus to arrive on time.",
+            "He whispered the heavy box onto the table.",
+            "She whispered the answer to her friend quietly.",
+            "I whispered a bright blue coat yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：不能用 whisper 讓公車準時到。",
+            "錯誤：把箱子放上桌應用 put，不是 whisper。",
+            "正確：whispered the answer to her friend 是自然搭配。",
+            "錯誤：買外套應用 bought，不能用 whispered。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：whispered the answer to her friend 是自然搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "carry",
+          "meaning": "B1–B2｜攜帶；承擔",
+          "usage": "除攜帶實物外，也可表示承擔責任、負擔。",
+          "prompt": "哪一句正確使用「carry」？",
+          "options": [
+            "Our team must carry the cost of the repair.",
+            "He carries the weather when he travels abroad.",
+            "She carried a decision before she heard the news.",
+            "I carried the music louder with my phone."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：carry the cost 可表示承擔費用。",
+            "錯誤：天氣無法被人攜帶；可說 checks the weather。",
+            "錯誤：做決定應用 made a decision。",
+            "錯誤：把音量調大應說 turned up the music。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：carry the cost 可表示承擔費用。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "secrets",
+          "meaning": "B1｜祕密；不願公開的事情",
+          "usage": "keep a secret 指保守祕密；share a secret 指透露給信任的人。",
+          "prompt": "哪一句正確使用「secrets」？",
+          "options": [
+            "Mia can keep a secret, so I trust her.",
+            "He drove his secrets to work every day.",
+            "We cooked three secrets for our evening meal.",
+            "I gave the secret a long drink of water."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：keep a secret 是常見搭配，表示保密。",
+            "錯誤：祕密不是可以開車載去上班的乘客。",
+            "錯誤：秘密不是可以烹煮的食材。",
+            "錯誤：祕密不是能喝水的生物。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：keep a secret 是常見搭配，表示保密。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "of our own",
+          "meaning": "B2｜屬於我們自己的",
+          "usage": "名詞 + of our own，強調自己擁有而不是借用別人的。",
+          "prompt": "哪一句正確使用「of our own」？",
+          "options": [
+            "They walked of our own to the station.",
+            "We hope to have of our own a garden.",
+            "Our garden of our own belongs to our neighbour.",
+            "We hope to have a garden of our own."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：of our own 不能表示走路方式。",
+            "錯誤：應將 of our own 放在 garden 後面。",
+            "錯誤：若屬於鄰居，就不符合「我們自己的」。",
+            "正確：a garden of our own 強調屬於我們自己的花園。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：a garden of our own 強調屬於我們自己的花園。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "future",
+          "meaning": "B1｜未來；將來的發展",
+          "usage": "可說 plan for the future、in the future 或 future plans。",
+          "prompt": "哪一句正確使用「future」？",
+          "options": [
+            "He future his homework before going home.",
+            "Our future arrived late at the train station.",
+            "We are saving money for our future together.",
+            "She put the future inside her lunch box."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：future 是名詞或形容詞，不是做作業的動詞。",
+            "錯誤：future 不是會抵達車站的人或車。",
+            "正確：save for our future 是為共同未來存錢。",
+            "錯誤：未來不是能放進便當盒的物品。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：save for our future 是為共同未來存錢。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "deserve",
+          "meaning": "B2｜值得；應得",
+          "usage": "deserve + 名詞，或 deserve to + 原形動詞。",
+          "prompt": "哪一句正確使用「deserve」？",
+          "options": [
+            "After weeks of hard work, you deserve a break.",
+            "She deserves the train to yesterday morning.",
+            "After the race, you deserve to a break.",
+            "I deserve happy because the weather is nice."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：deserve a break 表示值得休息一下。",
+            "錯誤：deserve 不表示搭車到某個時間。",
+            "錯誤：deserve to 後應接動詞，如 deserve to rest。",
+            "錯誤：deserve 後不能直接接 happy；可說 deserve happiness。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：deserve a break 表示值得休息一下。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "in person",
+          "meaning": "B2｜親自；本人到場",
+          "usage": "強調本人到現場，而非透過影片、電話或他人代辦。",
+          "prompt": "哪一句正確使用「in person」？",
+          "options": [
+            "She was in person happy about the results.",
+            "The photo came in person through the post.",
+            "I sent the email in person from my phone.",
+            "I met the artist in person after the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：in person 不能取代 very 來修飾 happy。",
+            "錯誤：照片不是會親自到場的人。",
+            "錯誤：寄電子郵件是線上行為，不是親自見面。",
+            "正確：met ... in person 表示面對面見到本人。"
+          ],
+          "sourceFile": "Perfect_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：met ... in person 表示面對面見到本人。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：just + 動詞原形",
+          "meaning": "just 用來柔和地鼓勵對方採取行動。",
+          "usage": "鼓勵別人直接開始，不必一直猶豫。",
+          "prompt": "情境： 陶藝老師鼓勵新手直接開始做第一個杯子。 請選出最合適的一句：",
+          "options": [
+            "Just trying making a cup.",
+            "Just tried making a cup.",
+            "Just try making a cup.",
+            "Just to try making a cup."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此處要用動詞原形 try，不是 trying。",
+            "祈使句不使用過去式 tried。",
+            "正確。just 用來柔和地鼓勵對方採取行動。此句符合題目的場景與句型。",
+            "祈使句不在 just 後面加 to。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "just dive right in",
+          "pattern": [
+            {
+              "text": "just",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "動作／受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。just 用來柔和地鼓勵對方採取行動。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "片語動詞：dive right in",
+          "meaning": "立刻投入一項活動；這裡是比喻，不一定是跳水。",
+          "usage": "想鼓勵人勇敢參與新活動。",
+          "prompt": "情境： 有人一直不敢開始做模型船。 請選出最合適的一句：",
+          "options": [
+            "Dive right under the model and sleep.",
+            "Dive right at the model with water.",
+            "Don’t worry. Dive right in and start.",
+            "Dive right in the river to start the model."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "沒有表達投入製作活動。",
+            "不是「對模型潛水」的意思。",
+            "正確。立刻投入一項活動；這裡是比喻，不一定是跳水。此句符合題目的場景與句型。",
+            "把比喻誤解成真的跳進河裡。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "dive right in",
+          "pattern": [
+            {
+              "text": "dive right in",
+              "fixed": true
+            },
+            {
+              "text": "活動（從上下文得知）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。立刻投入一項活動；這裡是比喻，不一定是跳水。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "follow + 所有格 + lead",
+          "meaning": "跟著某人的示範或帶領做。",
+          "usage": "示範舞步、做手工或帶領活動時。",
+          "prompt": "情境： 舞蹈教練邀請大家模仿他的動作。 請選出最合適的一句：",
+          "options": [
+            "Watch me first, then lead my follow.",
+            "Watch me first, then follow my lead.",
+            "Watch me first, then follow to my lead.",
+            "Watch me first, then follow my leading."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "詞序顛倒，沒有表達跟著示範。",
+            "正確。跟著某人的示範或帶領做。此句符合題目的場景與句型。",
+            "follow 在這裡直接接受詞，不加 to。",
+            "本片語用名詞 lead，不是 leading。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "follow my lead",
+          "pattern": [
+            {
+              "text": "follow",
+              "fixed": true
+            },
+            {
+              "text": "所有格 + lead",
+              "fixed": false
+            },
+            {
+              "text": "所有格代名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。跟著某人的示範或帶領做。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "形容詞後置補述",
+          "meaning": "用逗號後的形容詞補充描繪剛提過的人。",
+          "usage": "敘事或文學語氣中，補充角色特徵。",
+          "prompt": "情境： 導遊描述他在森林裡見到的一隻鳥。 請選出最合適的一句：",
+          "options": [
+            "I saw a bird, small and flew.",
+            "I saw a bird, small and a blue.",
+            "I saw a bird, small and blue.",
+            "I saw a bird, small and beautifully."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "flew 是動詞過去式，不能和形容詞 small 並列。",
+            "blue 作形容詞不需冠詞 a。",
+            "正確。用逗號後的形容詞補充描繪剛提過的人。此句符合題目的場景與句型。",
+            "beautifully 是副詞，和 small 的詞性不一致。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "a girl, beautiful and sweet",
+          "pattern": [
+            {
+              "text": "名詞,",
+              "fixed": false
+            },
+            {
+              "text": "形容詞 and 形容詞",
+              "fixed": false
+            },
+            {
+              "text": "名詞與形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用逗號後的形容詞補充描繪剛提過的人。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "never + 過去式",
+          "meaning": "表示以前從不知道某個事實。",
+          "usage": "談及過去才發現的事情。",
+          "prompt": "情境： 館長驚訝發現老畫框裡有一張地圖。 請選出最合適的一句：",
+          "options": [
+            "I never knew there was a map inside.",
+            "I never know there was a map inside.",
+            "I never knowing there was a map inside.",
+            "I never knew there is a map yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示以前從不知道某個事實。此句符合題目的場景與句型。",
+            "過去才發現的事情，此處需用 knew。",
+            "never 後需有完整動詞，不用單獨 knowing。",
+            "昨天的過去時間與 is 不協調。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "I never knew",
+          "pattern": [
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            },
+            {
+              "text": "過去式動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示以前從不知道某個事實。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "名詞 + -ing 後置修飾",
+          "meaning": "用 -ing 片語描述正在做某事的人。",
+          "usage": "想補充說明某個人當時正在做甚麼。",
+          "prompt": "情境： 市集入口有一名正在等候的志工。 請選出最合適的一句：",
+          "options": [
+            "I saw a volunteer waiting at the gate.",
+            "I saw a volunteer wait at the gate yesterday.",
+            "I saw a volunteer waited at the gate.",
+            "I saw a volunteer to waiting at the gate."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。用 -ing 片語描述正在做某事的人。此句符合題目的場景與句型。",
+            "這裡練習的是名詞後置 -ing 修飾；wait 會變成不同的感官動詞結構。",
+            "waited 不能直接這樣後置修飾 volunteer。",
+            "to waiting 不能用作這種後置修飾。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "someone waiting for me",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "V-ing 片語",
+              "fixed": false
+            },
+            {
+              "text": "名詞／現在分詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用 -ing 片語描述正在做某事的人。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "when + 過去式子句",
+          "meaning": "用 when 表示過去某事發生的時間。",
+          "usage": "回憶過去的一件事。",
+          "prompt": "情境： 回憶第一次參觀海洋館時看見海豚。 請選出最合適的一句：",
+          "options": [
+            "I smiled when saw I the dolphin.",
+            "I smiled when I see the dolphin yesterday.",
+            "I smiled when I saw the dolphin.",
+            "I smiled when to see the dolphin."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "when 子句要用主詞在動詞前的正常語序。",
+            "過去回憶應使用 saw。",
+            "正確。用 when 表示過去某事發生的時間。此句符合題目的場景與句型。",
+            "when 後這裡需完整主詞與動詞。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "when we fell in love",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 過去式",
+              "fixed": false
+            },
+            {
+              "text": "主詞／動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用 when 表示過去某事發生的時間。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "fall in love",
+          "meaning": "愛上某人；歌中使用不及物片語 fell in love。",
+          "usage": "描述開始產生愛情，而非單純喜歡。",
+          "prompt": "情境： 兩位演員相識多年後開始相愛。 請選出最合適的一句：",
+          "options": [
+            "They fell in loves after working together.",
+            "They fell love after working together.",
+            "They fell in love after working together.",
+            "They fell in loving after working together."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "love 在此不加複數 s。",
+            "片語不能省略 in。",
+            "正確。愛上某人；歌中使用不及物片語 fell in love。此句符合題目的場景與句型。",
+            "in love 是固定搭配，不是 in loving。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "fell in love",
+          "pattern": [
+            {
+              "text": "fall in love",
+              "fixed": true
+            },
+            {
+              "text": "with + 人（歌中未出現）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。愛上某人；歌中使用不及物片語 fell in love。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "分詞片語：Not + V-ing",
+          "meaning": "用否定 -ing 片語補充當時「不知道」的背景。",
+          "usage": "敘述做事時缺乏某項資訊。",
+          "prompt": "情境： 新手不懂遊戲規則，就先開始玩。 請選出最合適的一句：",
+          "options": [
+            "Not to knowing the rules, Mia asked for help.",
+            "Not knowing the rules, Mia asked for help.",
+            "Not knew the rules, Mia asked for help.",
+            "Not know the rules, Mia asked for help."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "to knowing 不能組成此處的分詞片語。",
+            "正確。用否定 -ing 片語補充當時「不知道」的背景。此句符合題目的場景與句型。",
+            "knew 是過去式，不可用來形成這種分詞片語。",
+            "片語需要現在分詞 knowing。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Not knowing what it was",
+          "pattern": [
+            {
+              "text": "Not",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            },
+            {
+              "text": "現在分詞／受詞子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用否定 -ing 片語補充當時「不知道」的背景。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "give + 代名詞 + up",
+          "meaning": "放棄某人；代名詞放在 give 和 up 中間。",
+          "usage": "表示不想放棄一段重要關係或努力。",
+          "prompt": "情境： 隊員承諾不會放棄需要協助的搭檔。 請選出最合適的一句：",
+          "options": [
+            "I won’t give you on when things are hard.",
+            "I won’t give you up when things are hard.",
+            "I won’t give you up to when things are hard.",
+            "I won’t give up you when things are hard."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "固定片語是 give up，不是 give on。",
+            "正確。放棄某人；代名詞放在 give 和 up 中間。此句符合題目的場景與句型。",
+            "後面沒有接受者時不可多加 to。",
+            "代名詞 you 應放在 give 和 up 之間。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "give you up",
+          "pattern": [
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "代名詞 + up",
+              "fixed": false
+            },
+            {
+              "text": "代名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。放棄某人；代名詞放在 give 和 up 中間。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "所有格 + all + 受詞關係子句",
+          "meaning": "all I own 表示「我擁有的一切」，省略受詞關係詞。",
+          "usage": "想強調某物或某人就是最重要的一切。",
+          "prompt": "情境： 露營者只帶了一個小背包，裡面有他的全部物品。 請選出最合適的一句：",
+          "options": [
+            "This bag is all I has with me.",
+            "This bag is all have I with me.",
+            "This bag is all I having with me.",
+            "This bag is all I have with me."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "主詞 I 後用 have，不用 has。",
+            "all 後的子句要用 I have 的陳述語序。",
+            "have 應為完整限定動詞，不是單獨 having。",
+            "正確。all I own 表示「我擁有的一切」，省略受詞關係詞。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Your heart is all I own",
+          "pattern": [
+            {
+              "text": "主詞 + be + all",
+              "fixed": false
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞／動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。all I own 表示「我擁有的一切」，省略受詞關係詞。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "現在進行式",
+          "meaning": "表示說話時正在做的事情。",
+          "usage": "現場描述目前正在發生的事。",
+          "prompt": "情境： 朋友打來時你正在拼圖。 請選出最合適的一句：",
+          "options": [
+            "I making a puzzle right now.",
+            "I am making a puzzle right now.",
+            "I am make a puzzle right now.",
+            "I was making a puzzle tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "現在進行式缺少 be 動詞。",
+            "正確。表示說話時正在做的事情。此句符合題目的場景與句型。",
+            "be 後應接 making。",
+            "明天的時間不搭配此過去進行式。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I'm dancing in the dark",
+          "pattern": [
+            {
+              "text": "主詞 + be + V-ing",
+              "fixed": false
+            },
+            {
+              "text": "主詞／動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示說話時正在做的事情。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "介系詞：between + 所有格 + 複數名詞",
+          "meaning": "表示在兩個部位或物件之間。",
+          "usage": "說明某個東西被兩側包圍的位置。",
+          "prompt": "情境： 小兔子躲在兩個石頭中間。 請選出最合適的一句：",
+          "options": [
+            "The rabbit sat between rocks two.",
+            "The rabbit sat between to rocks.",
+            "The rabbit sat between a rock.",
+            "The rabbit sat between two rocks."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "數詞 two 要放在名詞 rocks 前。",
+            "數量 two 不能寫成介系詞 to。",
+            "本題指定兩塊石頭，單數 a rock 不足以表示兩者之間。",
+            "正確。表示在兩個部位或物件之間。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "between my arms",
+          "pattern": [
+            {
+              "text": "between",
+              "fixed": true
+            },
+            {
+              "text": "所有格 + 複數名詞",
+              "fixed": false
+            },
+            {
+              "text": "所有格／兩側物件",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示在兩個部位或物件之間。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "分詞片語描述伴隨動作",
+          "meaning": "-ing 片語可以描述與主要場景同時發生的動作，歌中是詩意片段。",
+          "usage": "敘述另一動作進行時的伴隨情況。",
+          "prompt": "情境： 畫家一邊聽收音機，一邊畫海。 請選出最合適的一句：",
+          "options": [
+            "Listen to the radio, she painted the sea.",
+            "Listening to the radio, she painted the sea.",
+            "Listening to the radio, her paint painted the sea.",
+            "Listening the radio, she painted the sea."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此處前半部分應是伴隨分詞片語 Listening。",
+            "正確。-ing 片語可以描述與主要場景同時發生的動作，歌中是詩意片段。此句符合題目的場景與句型。",
+            "分詞片語的動作者應是主句的 she，而不是顏料。",
+            "listen 後需介系詞 to。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "Listening to our favourite song",
+          "pattern": [
+            {
+              "text": "Listening to",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "所聽的事物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。-ing 片語可以描述與主要場景同時發生的動作，歌中是詩意片段。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "look + 名詞補語",
+          "meaning": "look a mess 表示外表看起來凌亂。",
+          "usage": "描述人剛經歷一件事後看起來很狼狽。",
+          "prompt": "情境： 朋友淋雨之後頭髮亂糟糟。 請選出最合適的一句：",
+          "options": [
+            "After the rain, Dan looked mess.",
+            "After the rain, Dan looked to a mess.",
+            "After the rain, Dan looked a messy.",
+            "After the rain, Dan looked a mess."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "這個片語需要冠詞 a。",
+            "look a mess 不在中間加 to。",
+            "a 後面需要名詞 mess，不能單獨用形容詞 messy。",
+            "正確。look a mess 表示外表看起來凌亂。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "you looked a mess",
+          "pattern": [
+            {
+              "text": "主詞 + look",
+              "fixed": false
+            },
+            {
+              "text": "名詞片語",
+              "fixed": false
+            },
+            {
+              "text": "主詞／名詞補語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。look a mess 表示外表看起來凌亂。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "比較級 + than",
+          "meaning": "表示某人或某物比另一方更具有某特徵。",
+          "usage": "比較兩個人的力氣、速度或其他特質。",
+          "prompt": "情境： 兩條路相比，河邊的路更短。 請選出最合適的一句：",
+          "options": [
+            "The river path is shorter than the hill path.",
+            "The river path is short than the hill path.",
+            "The river path is most short than the hill path.",
+            "The river path is shorter then the hill path."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示某人或某物比另一方更具有某特徵。此句符合題目的場景與句型。",
+            "than 前需比較級 shorter。",
+            "兩者比較不用 most short。",
+            "比較要用 than，不是 then。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "stronger than anyone I know",
+          "pattern": [
+            {
+              "text": "比較級 + than",
+              "fixed": false
+            },
+            {
+              "text": "比較對象",
+              "fixed": false
+            },
+            {
+              "text": "比較級／比較對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示某人或某物比另一方更具有某特徵。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "hope that + 將來式",
+          "meaning": "表達希望未來某事會發生。",
+          "usage": "說出還未實現的願望。",
+          "prompt": "情境： 旅人希望明年能回去看海。 請選出最合適的一句：",
+          "options": [
+            "I hope that I will see the sea next year.",
+            "I hope that I will saw the sea next year.",
+            "I hope that I seeing the sea next year.",
+            "I hope that will I see the sea next year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表達希望未來某事會發生。此句符合題目的場景與句型。",
+            "will 後應用動詞原形 see。",
+            "that 子句需要完整動詞結構。",
+            "that 子句用主詞在 will 前的陳述語序。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I hope that someday I'll share her home",
+          "pattern": [
+            {
+              "text": "hope that",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + will + 動詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞／未來行動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表達希望未來某事會發生。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "名詞 + to-infinitive 後置說明",
+          "meaning": "to-infinitive 用來補充這份愛能承載或被期待承載的事。",
+          "usage": "說明物品、機會或人能用來做甚麼。",
+          "prompt": "情境： 手工藝人需要一個盒子放玻璃珠。 請選出最合適的一句：",
+          "options": [
+            "I need a box holding to these beads.",
+            "I need a box to holding these beads.",
+            "I need a box to holds these beads.",
+            "I need a box to hold these beads."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "後置不定詞的次序應是 to hold。",
+            "to 後需要動詞原形 hold。",
+            "不定詞動詞不加第三人稱 s。",
+            "正確。to-infinitive 用來補充這份愛能承載或被期待承載的事。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "a love to carry more than just my secrets",
+          "pattern": [
+            {
+              "text": "名詞 + to + 動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "名詞／動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。to-infinitive 用來補充這份愛能承載或被期待承載的事。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "more than just + 名詞",
+          "meaning": "不只是某事物，暗示還包括其他重要內容。",
+          "usage": "強調一項事物的價值不止表面所見。",
+          "prompt": "情境： 自然中心不只讓人看鳥，也教人保護森林。 請選出最合適的一句：",
+          "options": [
+            "The trip is more that just a walk.",
+            "The trip is more than just a walk.",
+            "The trip is more than just walking a.",
+            "The trip is more than only just to walk."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "比較用 than，不是 that。",
+            "正確。不只是某事物，暗示還包括其他重要內容。此句符合題目的場景與句型。",
+            "名詞片語不自然，應是 a walk。",
+            "本題所教的結構是 more than just + 名詞。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "more than just my secrets",
+          "pattern": [
+            {
+              "text": "more than just",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。不只是某事物，暗示還包括其他重要內容。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "of our own",
+          "meaning": "表示屬於自己、由自己擁有的東西。",
+          "usage": "談自己的作品、房間、土地或家庭。",
+          "prompt": "情境： 陶藝學生終於做出自己的杯子。 請選出最合適的一句：",
+          "options": [
+            "Now I have a cup of my own.",
+            "Now I have a cup of mine own.",
+            "Now I have a cup of my owns.",
+            "Now I have a cup of me own."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示屬於自己、由自己擁有的東西。此句符合題目的場景與句型。",
+            "of one’s own 的固定形式用 my own。",
+            "own 在這裡不加複數 s。",
+            "own 前要用所有格 my。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "children of our own",
+          "pattern": [
+            {
+              "text": "名詞 + of",
+              "fixed": false
+            },
+            {
+              "text": "所有格 + own",
+              "fixed": false
+            },
+            {
+              "text": "名詞／所有格",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示屬於自己、由自己擁有的東西。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "still + be + 名詞",
+          "meaning": "still 表示某種情況仍持續。",
+          "usage": "強調經過一段時間仍處於同一狀態。",
+          "prompt": "情境： 一間舊屋整修後仍然是圖書館。 請選出最合適的一句：",
+          "options": [
+            "After the work, it is still library.",
+            "After the work, it still a library.",
+            "After the work, it is still a library.",
+            "After the work, it is a still library."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "單數可數名詞 library 前需冠詞 a。",
+            "名詞補語前需要 be 動詞 is。",
+            "正確。still 表示某種情況仍持續。此句符合題目的場景與句型。",
+            "still 在此修飾整個狀態，不放在冠詞後。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "We are still kids",
+          "pattern": [
+            {
+              "text": "主詞 + be + still",
+              "fixed": false
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞／身分",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。still 表示某種情況仍持續。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "against all odds",
+          "meaning": "即使困難重重、成功機會很小。",
+          "usage": "描述克服障礙仍努力完成的事情。",
+          "prompt": "情境： 登山隊遇到大雨仍成功回到營地。 請選出最合適的一句：",
+          "options": [
+            "Against all odds, the tent is made of blue.",
+            "Against all odds, the team reached camp.",
+            "Against all odds, the map has four sides.",
+            "Against all odds, the team bought milk as usual."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "顏色描述與克服困難無關。",
+            "正確。即使困難重重、成功機會很小。此句符合題目的場景與句型。",
+            "地圖形狀不代表困境或成功。",
+            "普通買牛奶沒有顯示克服巨大困難。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "against all odds",
+          "pattern": [
+            {
+              "text": "against all odds",
+              "fixed": true
+            },
+            {
+              "text": "整體固定片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。即使困難重重、成功機會很小。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "know + will + 動詞",
+          "meaning": "說話者相信某件未來的事會發生。",
+          "usage": "表達對未來結果的信心。",
+          "prompt": "情境： 劇團導演相信明天的演出會順利。 請選出最合適的一句：",
+          "options": [
+            "I know the show will go well tomorrow.",
+            "I know will the show go well tomorrow.",
+            "I know the show will goes well tomorrow.",
+            "I know the show going well tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。說話者相信某件未來的事會發生。此句符合題目的場景與句型。",
+            "know 後面是陳述語序。",
+            "will 後面用原形 go。",
+            "缺少 will 或其他完整動詞結構。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I know we'll be alright this time",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + will + 動詞／補語",
+              "fixed": false
+            },
+            {
+              "text": "主詞／未來結果",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。說話者相信某件未來的事會發生。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "be + 名詞：肯定祈使句",
+          "meaning": "以 be 開頭的祈使句，請對方成為某種角色。",
+          "usage": "邀請別人在表演中擔任角色。",
+          "prompt": "情境： 導演請志工當舞台上的國王。 請選出最合適的一句：",
+          "options": [
+            "Be the king in our play!",
+            "Be to the king in our play!",
+            "Are the king in our play!",
+            "Being the king in our play!"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。以 be 開頭的祈使句，請對方成為某種角色。此句符合題目的場景與句型。",
+            "be 後直接接名詞補語，不加 to。",
+            "祈使句要以 Be 開頭，不是 Are。",
+            "Being 不是此處的祈使句原形。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "Be my girl",
+          "pattern": [
+            {
+              "text": "Be",
+              "fixed": true
+            },
+            {
+              "text": "名詞片語",
+              "fixed": false
+            },
+            {
+              "text": "身分／角色",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。以 be 開頭的祈使句，請對方成為某種角色。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "look + 形容詞",
+          "meaning": "look 是連綴動詞，後面接形容詞描述外觀。",
+          "usage": "稱讚一個人或物看起來如何。",
+          "prompt": "情境： 朋友的新畫看起來很美。 請選出最合適的一句：",
+          "options": [
+            "Your new painting look beautiful.",
+            "Your new painting looks beautifully.",
+            "Your new painting looks beauty.",
+            "Your new painting looks beautiful."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "單數主詞 painting 搭配 looks。",
+            "連綴動詞 looks 後描述外觀要用形容詞 beautiful。",
+            "beauty 是名詞，這裡需要形容詞。",
+            "正確。look 是連綴動詞，後面接形容詞描述外觀。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "you look perfect tonight",
+          "pattern": [
+            {
+              "text": "主詞 + look",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞／外觀狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。look 是連綴動詞，後面接形容詞描述外觀。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "deserve + 名詞",
+          "meaning": "deserve 表示某人應得或值得某件事。",
+          "usage": "表達某人應得到獎勵或待遇。",
+          "prompt": "情境： 一位志工工作了一整天，值得休息。 請選出最合適的一句：",
+          "options": [
+            "She deserves a rest after working all day.",
+            "She deserves to a rest after working all day.",
+            "She deserve a rest after working all day.",
+            "She deserves resting a after working all day."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。deserve 表示某人應得或值得某件事。此句符合題目的場景與句型。",
+            "deserve 後直接接名詞 a rest，不加 to。",
+            "單數主詞 she 需用 deserves。",
+            "此處應用名詞片語 a rest。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "I don't deserve this",
+          "pattern": [
+            {
+              "text": "主詞 + deserve",
+              "fixed": false
+            },
+            {
+              "text": "名詞／代名詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞／受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。deserve 表示某人應得或值得某件事。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "have faith in + 名詞子句",
+          "meaning": "相信某人或某事；what 子句可作 in 的受詞。",
+          "usage": "想表達對眼前證據或某人的信心。",
+          "prompt": "情境： 園丁看到新芽，對植物的成長有信心。 請選出最合適的一句：",
+          "options": [
+            "I have faith in what I can seeing: new leaves.",
+            "I have faith in what can I see: new leaves.",
+            "I have faith on what I can see: new leaves.",
+            "I have faith in what I can see: new leaves."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "can 後需動詞原形 see。",
+            "what 子句採陳述語序 I can see。",
+            "固定搭配用 faith in，不是 faith on。",
+            "正確。相信某人或某事；what 子句可作 in 的受詞。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "I have faith in what I see",
+          "pattern": [
+            {
+              "text": "have faith in",
+              "fixed": true
+            },
+            {
+              "text": "名詞／what 子句",
+              "fixed": false
+            },
+            {
+              "text": "信任對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。相信某人或某事；what 子句可作 in 的受詞。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "現在完成式 + 過去分詞",
+          "meaning": "用現在完成式談過去經驗與現在的關聯。",
+          "usage": "描述曾遇見某人或體驗某件事。",
+          "prompt": "情境： 女孩第一次親眼看見真正的流星。 請選出最合適的一句：",
+          "options": [
+            "I have saw a shooting star before.",
+            "I has seen a shooting star before.",
+            "I have seen a shooting star before.",
+            "I have see a shooting star before."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "have 後需過去分詞 seen，不是 saw。",
+            "主詞 I 使用 have。",
+            "正確。用現在完成式談過去經驗與現在的關聯。此句符合題目的場景與句型。",
+            "see 是原形，需改為 seen。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "I have met an angel in person",
+          "pattern": [
+            {
+              "text": "主詞 + have/has + 過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞／過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用現在完成式談過去經驗與現在的關聯。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "in person",
+          "meaning": "親自、本人現身，而非只在照片或影片看到。",
+          "usage": "比較親身見到和遠端觀看的經驗。",
+          "prompt": "情境： 歌迷第一次親自見到舞者。 請選出最合適的一句：",
+          "options": [
+            "We met the dancer in personal.",
+            "We met the dancer on person.",
+            "We met the dancer by persons.",
+            "We met the dancer in person."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "in personal 不是這個片語。",
+            "固定說法是 in person。",
+            "by persons 不是親自見面的說法。",
+            "正確。親自、本人現身，而非只在照片或影片看到。此句符合題目的場景與句型。"
+          ],
+          "sourceFile": "Perfect_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "an angel in person",
+          "pattern": [
+            {
+              "text": "in person",
+              "fixed": true
+            },
+            {
+              "text": "整體固定片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。親自、本人現身，而非只在照片或影片看到。此句符合題目的場景與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

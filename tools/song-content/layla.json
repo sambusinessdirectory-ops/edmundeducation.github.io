@@ -2799,5 +2799,1279 @@
     "sha256": "8720fb55499d79a939ffdc4f2c5e8e793d022550970ffee01477a5dbd076ffed",
     "transformations": "none",
     "selectedOn": "2026-10-29"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "1a18119fb6da55c973d723dc0f5b9e7bb7fe76ea1584fe49eb23e4b80b8f7971"
+    },
+    {
+      "section": "advanced",
+      "filename": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "bd89c22408830eb66cfa89808ca53f4857cbaed3809bd1fd8d91aa605d199841"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "What’ll + 主詞 + 原形動詞？",
+          "meaning": "What’ll = What will；詢問未來將如何應對。",
+          "usage": "面對還沒發生的狀況，問對方準備怎樣做。",
+          "prompt": "情境： 音樂節突然停電，想問朋友接下來怎樣辦。",
+          "options": [
+            "What’ll you do if the lights go out?",
+            "What’ll you did if the lights go out?",
+            "What’ll you doing if the lights go out?",
+            "What you will do if the lights go out?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。What’ll 後接主詞，再接原形動詞 do。",
+            "will 後不可接過去式 did。",
+            "will 後需接原形 do，不能接 doing。",
+            "疑問句未使用 will 的倒裝位置。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「What’ll you do」",
+          "pattern": [
+            {
+              "text": "What’ll",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "do?",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。What’ll 後接主詞，再接原形動詞 do。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "when + 主詞 + get + 形容詞",
+          "meaning": "表示當某人開始進入某種感覺或狀態時。",
+          "usage": "談到某個心情出現時的情況。",
+          "prompt": "情境： 妹妹初次獨自參加夏令營，哥哥想提醒她孤單時可打電話。",
+          "options": [
+            "Call me when you get loneliness.",
+            "Call me when you gets lonely.",
+            "Call me when you get lonely.",
+            "Call me when you getting lonely."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "get 後這裡需要 lonely 形容詞，不是 loneliness 名詞。",
+            "you 配 get，不配 gets。",
+            "正確。when 引導時間子句；you get lonely 是完整結構。",
+            "缺少 are，不能直接用 you getting。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「when you get lonely」",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "get",
+              "fixed": true
+            },
+            {
+              "text": "lonely",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。when 引導時間子句；you get lonely 是完整結構。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "nobody + is + V-ing",
+          "meaning": "用 nobody 作主詞，表示沒有任何人正在做某事。",
+          "usage": "想指出現場沒有人正在等待或工作。",
+          "prompt": "情境： 展覽館關門後，義工發現入口已無人排隊。",
+          "options": [
+            "Nobody’s waiting outside.",
+            "Nobody’s wait outside now.",
+            "Nobody waiting outside now.",
+            "Nobody are waiting outside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。nobody’s = nobody is，後接 waiting。",
+            "is 後需用 waiting，而非原形 wait。",
+            "現在進行式缺少 is。",
+            "nobody 當單數，不能用 are。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「nobody’s waiting」",
+          "pattern": [
+            {
+              "text": "nobody",
+              "fixed": false
+            },
+            {
+              "text": "’s",
+              "fixed": true
+            },
+            {
+              "text": "waiting",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。nobody’s = nobody is，後接 waiting。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在完成進行式 have/has been + V-ing",
+          "meaning": "表示過去開始的動作持續至今，並可能仍在進行。",
+          "usage": "談長時間持續的行動，強調過程。",
+          "prompt": "情境： 野生動物觀察員看見同伴整個上午都在追蹤足跡。",
+          "options": [
+            "You’ve been tracking the birds all morning.",
+            "You have tracking the birds all morning.",
+            "You’ve been track the birds all morning.",
+            "You been tracking the birds all morning."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。have been tracking 表持續至今。",
+            "have 後缺 been。",
+            "been 後應接 V-ing，不是 track。",
+            "標準句需要 have，不能只有 you been。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「You’ve been running and hiding」",
+          "pattern": [
+            {
+              "text": "You",
+              "fixed": false
+            },
+            {
+              "text": "’ve been",
+              "fixed": true
+            },
+            {
+              "text": "running and hiding",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。have been tracking 表持續至今。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "much too + 形容詞／副詞",
+          "meaning": "much 強調 too，表示遠遠超過合理程度。",
+          "usage": "提醒等待或距離、費用已經過度。",
+          "prompt": "情境： 舞台燈修了兩小時，演出已延遲很久。",
+          "options": [
+            "The show is much too lateness.",
+            "The show is much too late now.",
+            "The show waited much long.",
+            "The show is much too lately."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "lateness 是名詞，不能直接充當此處的形容詞。",
+            "正確。much too late 表示實在太晚。",
+            "缺少 too，且句意不像形容演出延誤。",
+            "lately 是「最近」，不能這樣接。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「much too long」",
+          "pattern": [
+            {
+              "text": "much too",
+              "fixed": true
+            },
+            {
+              "text": "long",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。much too late 表示實在太晚。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "know + (省略 that) 陳述子句",
+          "meaning": "know 後可直接接完整陳述子句，that 可以省略。",
+          "usage": "表達你知道某個事實或判斷。",
+          "prompt": "情境： 園丁想說自己知道花今天需要水。",
+          "options": [
+            "I know do the flowers need water.",
+            "I know needs the flowers water.",
+            "I know the flowers needing water.",
+            "I know the flowers need water."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "間接陳述不是疑問句倒裝。",
+            "know 後的詞序不完整。",
+            "缺少 are，不能直接用 needing。",
+            "正確。the flowers need water 是完整陳述句。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「You know it’s just your foolish pride」",
+          "pattern": [
+            {
+              "text": "You",
+              "fixed": false
+            },
+            {
+              "text": "know (that)",
+              "fixed": true
+            },
+            {
+              "text": "it’s just your foolish pride",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。the flowers need water 是完整陳述句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "have got + 受詞 + 介系詞片語（結果狀態）",
+          "meaning": "歌中 have got me on my knees 表示使我落入跪地懇求的狀態；帶強烈比喻。",
+          "usage": "描述某事讓人處在特定姿勢或處境；歌中偏詩意。",
+          "prompt": "情境： 攝影師安排演員跪在木地板上拍照。",
+          "options": [
+            "The director have got the actor on his knees.",
+            "The director has got the actor on his knees for the photo.",
+            "The director got the actor on his kneeing.",
+            "The director has got on his knees the actor for the photo."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "主詞單數 director 應用 has，而非 have。",
+            "正確。have got + 人 + on + 身體姿勢，表示讓人處於該狀態。",
+            "knees 是名詞複數，不能用 kneeing。",
+            "受詞 actor 應置於 got 後。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「You’ve got me on my knees」",
+          "pattern": [
+            {
+              "text": "You",
+              "fixed": false
+            },
+            {
+              "text": "’ve got",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            },
+            {
+              "text": "on",
+              "fixed": true
+            },
+            {
+              "text": "my knees",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。have got + 人 + on + 身體姿勢，表示讓人處於該狀態。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "be + V-ing（現在進行式）",
+          "meaning": "現在進行式表示正在進行的動作。",
+          "usage": "描述此刻正在懇求、等待、準備等。",
+          "prompt": "情境： 慈善義賣現場，一名志工正在收集捐款。",
+          "options": [
+            "She is collect tickets now.",
+            "She collecting tickets now.",
+            "She has collecting tickets now.",
+            "She is collecting tickets now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "is 後需要 collecting。",
+            "缺少 is。",
+            "has collecting 不構成此處現在進行式。",
+            "正確。is collecting 表示此刻正在收集。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「I’m begging」",
+          "pattern": [
+            {
+              "text": "I",
+              "fixed": false
+            },
+            {
+              "text": "’m",
+              "fixed": true
+            },
+            {
+              "text": "begging",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。is collecting 表示此刻正在收集。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Won’t + 主詞 + 原形動詞？（委婉懇求）",
+          "meaning": "以否定問句提出帶期待的請求；可能帶較強情緒。",
+          "usage": "想溫柔邀請對方幫忙，或表達急切希望。",
+          "prompt": "情境： 陶藝老師請學生再給新同學一次機會。",
+          "options": [
+            "Won’t you giving her another chance?",
+            "Won’t you gave her another chance?",
+            "Won’t you give her another chance?",
+            "Won’t she you give another chance?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "won’t 後需原形 give。",
+            "won’t 後不可用過去式 gave。",
+            "正確。Won’t you + 原形動詞，可帶有懇求語氣。",
+            "問句主詞語序錯誤。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「won’t you ease my worried mind」",
+          "pattern": [
+            {
+              "text": "Won’t",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "ease",
+              "fixed": false
+            },
+            {
+              "text": "my worried mind?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Won’t you + 原形動詞，可帶有懇求語氣。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "try to + 原形動詞",
+          "meaning": "表示曾試著做某事，重點是嘗試，不保證成功。",
+          "usage": "回顧自己努力但不一定成功的行動。",
+          "prompt": "情境： 志工試著修好社區的舊時鐘。",
+          "options": [
+            "We tried to fix the clock.",
+            "We tried to fixed the clock.",
+            "We tried fixing the clock to yesterday.",
+            "We tried to fixing the clock."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。tried to fix = 試著修理。",
+            "to 後必須用原形 fix。",
+            "結尾 to yesterday 無法合理表達此事；也換了教學重點。",
+            "to 後不可接 fixing。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「I tried to give you consolation」",
+          "pattern": [
+            {
+              "text": "I",
+              "fixed": false
+            },
+            {
+              "text": "tried to",
+              "fixed": true
+            },
+            {
+              "text": "give you consolation",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。tried to fix = 試著修理。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "give + 人 + 物（雙受詞）",
+          "meaning": "give 後可以連接「接受的人」和「給予的東西」。",
+          "usage": "給人幫助、資訊、禮物或安慰時。",
+          "prompt": "情境： 博物館導覽員要發給訪客每人一張地圖。",
+          "options": [
+            "The guide gave a map each visitor.",
+            "The guide gave each visitor to a map.",
+            "The guide gave to each visitor a map.",
+            "The guide gave each visitor a map."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "若物品先出現，通常需說 gave a map to each visitor。",
+            "第二受詞 map 前不能加 to。",
+            "這個次序中不應在接收者前插入 to。",
+            "正確。gave + 接收者 + 物品，是雙受詞結構。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「give you consolation」",
+          "pattern": [
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "consolation",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。gave + 接收者 + 物品，是雙受詞結構。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "when + 過去時間子句",
+          "meaning": "when 引出時間背景；歌詞用過去完成式表示更早發生的事。",
+          "usage": "交代過去某件事發生時的背景。",
+          "prompt": "情境： 故事描述：下雨時，劇場已經關門。",
+          "options": [
+            "When it rained, the theatre was closed.",
+            "When it raining, the theatre was closed.",
+            "When it rain, the theatre was closed.",
+            "When it rains yesterday, the theatre was closed."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。when + 過去式，交代過去時間背景。",
+            "缺少 was，不能直接接 raining。",
+            "過去事件應用 rained。",
+            "yesterday 與此句現在式 rains 不一致。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「When your old man had let you down」",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "your old man had let you down",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。when + 過去式，交代過去時間背景。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "had + 過去分詞（過去完成式）",
+          "meaning": "用 had + 過去分詞說明在另一個過去時間之前已發生的動作。",
+          "usage": "敘述兩件過去事件的先後。",
+          "prompt": "情境： 攝影比賽開始時，參賽者早已準備好相機。",
+          "options": [
+            "The contest began after she has packed her camera.",
+            "She had pack her camera before the contest began.",
+            "She had packed her camera before the contest began.",
+            "She had packing her camera before the contest began."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "has packed 為現在完成式，不符合這裡的過去先後敘事。",
+            "had 後要過去分詞 packed。",
+            "正確。had packed 表比賽開始前已準備完成。",
+            "had 後不可接 packing。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「had let you down」",
+          "pattern": [
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "let you down",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。had packed 表比賽開始前已準備完成。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "let + 人 + down（可分動詞片語）",
+          "meaning": "表示使某人失望，受詞代名詞放在 let 和 down 之間。",
+          "usage": "談沒有實現別人的期待或承諾。",
+          "prompt": "情境： 樂隊答應演出卻臨時取消，團長向觀眾道歉。",
+          "options": [
+            "We let them to down when we cancelled the show.",
+            "We let down them when we cancelled the show.",
+            "We let them downs when we cancelled the show.",
+            "We let them down when we cancelled the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "let down 中間不加 to。",
+            "代名詞 them 應夾在 let 和 down 之間。",
+            "down 是副詞，不加複數 s。",
+            "正確。let them down 表讓他們失望。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「let you down」",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "down",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。let them down 表讓他們失望。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "like + 名詞（比喻比較）",
+          "meaning": "like + 名詞可表示「像……一樣」，描述方式或外觀。",
+          "usage": "用比喻表達某人的行為或感受。",
+          "prompt": "情境： 畫家說新雲朵的形狀像一隻小兔子。",
+          "options": [
+            "The cloud looks like a rabbit.",
+            "The cloud looks like to a rabbit.",
+            "The cloud looks as a rabbit.",
+            "The cloud looks like rabbit is."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。like a rabbit 表示像兔子。",
+            "like 後面不加 to。",
+            "這裡用 looks like，不使用 looks as + 名詞。",
+            "結尾 is 使名詞結構不成立。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「Like a fool」",
+          "pattern": [
+            {
+              "text": "Like",
+              "fixed": true
+            },
+            {
+              "text": "a fool",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。like a rabbit 表示像兔子。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "fall in love with + 人／物",
+          "meaning": "表示開始愛上某人，也可比喻愛上某事物。",
+          "usage": "描述感情開始的時刻。",
+          "prompt": "情境： 兩位舞蹈員在一次排練後開始相愛。",
+          "options": [
+            "They fall in love with each other yesterday.",
+            "They fell in love to each other.",
+            "They fell in love with each other.",
+            "They fell love with each other."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "yesterday 需用過去式 fell。",
+            "介系詞要用 with。",
+            "正確。fell in love with each other 表過去相愛。",
+            "缺少 in。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「I fell in love with you」",
+          "pattern": [
+            {
+              "text": "fell in love with",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。fell in love with each other 表過去相愛。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "turn + 受詞 + upside down",
+          "meaning": "使某物翻轉；比喻令原有生活徹底改變。",
+          "usage": "談重大消息、改變或實際翻轉物品。",
+          "prompt": "情境： 孩子把裝積木的盒子翻轉，積木掉滿地。",
+          "options": [
+            "The child turned the box upside down and the blocks fell out.",
+            "The child turned the box down upside and the blocks fell out.",
+            "The child turned the box upside and down and the blocks fell out.",
+            "The child turned the box upside to down and the blocks fell out."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。turn + 受詞 + upside down。",
+            "固定組合不能顛倒詞序。",
+            "upside down 是固定組合，中間不加 and。",
+            "upside down 是固定組合，中間不能加 to。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「turned my whole world upside down」",
+          "pattern": [
+            {
+              "text": "turned",
+              "fixed": true
+            },
+            {
+              "text": "my whole world",
+              "fixed": false
+            },
+            {
+              "text": "upside down",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。turn + 受詞 + upside down。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "let’s + 原形動詞（提議）",
+          "meaning": "let’s + 原形動詞，邀請對方和自己一起行動。",
+          "usage": "提出一起做事的建議。",
+          "prompt": "情境： 戶外展覽突然下雨，朋友提議改去室內展廳。",
+          "options": [
+            "Let’s to visit the indoor gallery.",
+            "Let’s visit the indoor gallery.",
+            "Let’s visiting the indoor gallery.",
+            "Let’s visited the indoor gallery."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "let’s 後不加 to。",
+            "正確。Let’s visit 表一起去吧。",
+            "let’s 後面用原形 visit。",
+            "let’s 後不接過去式。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「Let’s make the best of the situation」",
+          "pattern": [
+            {
+              "text": "Let’s",
+              "fixed": true
+            },
+            {
+              "text": "make the best of the situation",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Let’s visit 表一起去吧。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "make the best of + 名詞",
+          "meaning": "雖然情況不理想，仍充分利用現有條件。",
+          "usage": "活動遇到小問題，想繼續享受或完成計畫。",
+          "prompt": "情境： 市集下雨，攤主們把活動搬到屋簷下繼續。",
+          "options": [
+            "We made the best to the rainy day and moved inside.",
+            "We made the best of the rainy day and moved inside.",
+            "We made the best of raining to day.",
+            "We made the best of the day into a chair."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "固定搭配是 of，不是 to。",
+            "正確。make the best of the rainy day 表善用不理想的當天。",
+            "of 後應接清楚名詞片語，且 raining to day 不自然。",
+            "把日子變成椅子不符合片語的意思。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「make the best of the situation」",
+          "pattern": [
+            {
+              "text": "make the best of",
+              "fixed": true
+            },
+            {
+              "text": "the situation",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。make the best of the rainy day 表善用不理想的當天。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "before + 主詞 + 動詞",
+          "meaning": "before 引出「在某事發生之前」的時間界線。",
+          "usage": "提醒某事要在另一件事發生前完成。",
+          "prompt": "情境： 圖書館即將關閉，工作人員提醒先借書。",
+          "options": [
+            "Take a book before close the library.",
+            "Take a book before the library closing.",
+            "Take a book before does the library close.",
+            "Take a book before the library closes."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少主詞，且此處不表達祈使句。",
+            "before 後完整子句缺少 is；目前不是完整子句。",
+            "時間子句不用疑問倒裝。",
+            "正確。before + the library closes 是完整時間子句。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「Before I finally go insane」",
+          "pattern": [
+            {
+              "text": "Before",
+              "fixed": true
+            },
+            {
+              "text": "I finally go insane",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。before + the library closes 是完整時間子句。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "go + 形容詞（變成某種狀態）",
+          "meaning": "go + 形容詞表示進入一種狀態；此處是情緒誇飾。",
+          "usage": "描述事物或人變得如何，如變質、變壞等。",
+          "prompt": "情境： 冰箱故障後，牛奶變質了。",
+          "options": [
+            "The milk went to bad after the fridge broke.",
+            "The milk went badly after the fridge broke.",
+            "The milk went bad after the fridge broke.",
+            "The milk went badness after the fridge broke."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "go bad 此處不加 to。",
+            "went 後這裡接形容詞 bad，不是副詞 badly。",
+            "正確。go bad 表示變質，符合 go + 形容詞。",
+            "badness 是名詞。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「go insane」",
+          "pattern": [
+            {
+              "text": "go",
+              "fixed": true
+            },
+            {
+              "text": "insane",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。go bad 表示變質，符合 go + 形容詞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "否定祈使句 don’t + 原形動詞",
+          "meaning": "用 don’t + 原形動詞勸對方不要做某事。",
+          "usage": "禮貌地禁止或勸阻某件事。",
+          "prompt": "情境： 陶藝展的工作人員提醒訪客不要碰作品。",
+          "options": [
+            "Please doesn’t touch the pots.",
+            "Please don’t touch the pots.",
+            "Please don’t touching the pots.",
+            "Please not touch the pots."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "祈使句不使用 doesn’t。",
+            "正確。Please don’t touch 是禮貌禁止。",
+            "don’t 後用原形 touch。",
+            "否定祈使句使用 don’t，而不是 not 直接接動詞。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「Please don’t say we’ll never find a way」",
+          "pattern": [
+            {
+              "text": "Please don’t",
+              "fixed": true
+            },
+            {
+              "text": "say we’ll never find a way",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Please don’t touch 是禮貌禁止。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "say + (省略 that) 子句",
+          "meaning": "say 後可接一個完整陳述子句，that 可省略。",
+          "usage": "轉述某人說了甚麼。",
+          "prompt": "情境： 隊長告訴大家明天的比賽會準時開始。",
+          "options": [
+            "The coach said would the game start on time.",
+            "The coach said the game to start on time.",
+            "The coach said the game would start on time.",
+            "The coach said start the game on time."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "間接陳述句不倒裝。",
+            "這裡的 say 後應用完整子句，不是 game to start。",
+            "正確。said 後接完整陳述子句。",
+            "這成了命令形式，不是說明比賽將準時開始。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「don’t say we’ll never find a way」",
+          "pattern": [
+            {
+              "text": "say (that)",
+              "fixed": true
+            },
+            {
+              "text": "we’ll never find a way",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。said 後接完整陳述子句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "tell + 人 + (省略 that) 子句",
+          "meaning": "tell 後先接聽話的人，再接所告知的完整內容。",
+          "usage": "告訴某人一項消息或判斷。",
+          "prompt": "情境： 園藝比賽的主辦人告知參賽者花展延期。",
+          "options": [
+            "They told that the show was late me.",
+            "They told me the show was late.",
+            "They told the show was late me.",
+            "They told me to the show was late."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "me 應接在 told 後，不在句尾。",
+            "正確。told me + 陳述子句。",
+            "told 後受詞位置錯誤。",
+            "tell me 後若接完整子句，不加 to。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「tell me all my love’s in vain」",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "me",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "all my love’s in vain",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。told me + 陳述子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "be + in vain（徒勞無功）",
+          "meaning": "表示某份付出沒有達到原本希望的結果。",
+          "usage": "努力或搜尋未有結果時。",
+          "prompt": "情境： 兩位志工找遍花園，最後仍找不到走失的兔子。",
+          "options": [
+            "Their search was in vain; they found the rabbit.",
+            "Their search in vain was find a rabbit.",
+            "Their search was in vain to the rabbit.",
+            "Their search was in vain; they could not find the rabbit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "已找到兔子，與徒勞無功的敘述相矛盾。",
+            "句型與動詞形式都不正確。",
+            "in vain 不是移動到兔子的方向。",
+            "正確。in vain 表示搜尋沒有結果。"
+          ],
+          "sourceFile": "Layla_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「my love’s in vain」",
+          "pattern": [
+            {
+              "text": "my love",
+              "fixed": false
+            },
+            {
+              "text": "’s in vain",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。in vain 表示搜尋沒有結果。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "foolish pride",
+          "meaning": "無謂的驕傲；因不肯認錯或退讓而誤事的自尊",
+          "usage": "批評一個人為了面子而拒絕合理的幫助；不是一般健康的自信。",
+          "prompt": "哪一句正確使用「foolish pride」？",
+          "options": [
+            "Mia showed foolish pride by asking for help when she needed it.",
+            "She felt foolish pride because she learned from her mistake.",
+            "His foolish pride stopped him from saying he was wrong.",
+            "His foolish pride helped him listen carefully to every suggestion."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。主動求助是理性行為，並非因面子而固執。",
+            "錯誤。願意從錯誤學習，不是這個詞所批評的行為。",
+            "正確。他因面子不願認錯，語意與搭配自然。",
+            "錯誤。願意聆聽建議並不符合「無謂的驕傲」。"
+          ],
+          "sourceFile": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。他因面子不願認錯，語意與搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "ease",
+          "meaning": "減輕、緩和（疼痛、擔憂或壓力）",
+          "usage": "常用 ease pain / worry / tension；不能把它當成「完全消除」的保證。",
+          "prompt": "哪一句正確使用「ease」？",
+          "options": [
+            "A short break helped ease the pain in my back.",
+            "The rain eased our shoes into a new red colour.",
+            "The new chair eased the price from ten to twenty dollars.",
+            "We eased the bus by buying tickets at the station."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。休息有助緩解背痛，ease 與 pain 搭配自然。",
+            "錯誤。ease 不表示把鞋子改成另一種顏色。",
+            "錯誤。十元漲到二十元表示價格上升，與緩和的意思相反。",
+            "錯誤。買票不會自然地說成緩和公車。"
+          ],
+          "sourceFile": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。休息有助緩解背痛，ease 與 pain 搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "consolation",
+          "meaning": "安慰；慰藉（尤其在失望或受挫之後）",
+          "usage": "常見 offer consolation / find consolation in something；屬較正式的名詞。",
+          "prompt": "哪一句正確使用「consolation」？",
+          "options": [
+            "We used consolation to open the locked gate at night.",
+            "The coach gave consolation to the clock before the match started.",
+            "She bought two consolations to wear on her hands.",
+            "After the loss, his kind words offered her some consolation."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。consolation 是安慰，不是開鎖工具。",
+            "錯誤。時鐘沒有需要慰藉的情緒。",
+            "錯誤。consolation 不是可穿戴的成對物品。",
+            "正確。失落後的善意話語帶來安慰，搭配正確。"
+          ],
+          "sourceFile": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。失落後的善意話語帶來安慰，搭配正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "old man",
+          "meaning": "（口語）丈夫、男友；也可能指父親",
+          "usage": "必須依情境判斷；歌詞指女性的伴侶，並非字面上的年長男子。",
+          "prompt": "哪一句正確使用「old man」？",
+          "options": [
+            "The new teacher called her old man a blue notebook.",
+            "Her old man is working late, so they will eat later.",
+            "My old man means my oldest phone in the kitchen.",
+            "She put her old man in the cupboard beside the cups."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。old man 是人物稱呼，不是藍色筆記本。",
+            "正確。這裡可自然指她的丈夫或男友，屬非正式口語。",
+            "錯誤。old man 通常指人，不表示舊手機。",
+            "錯誤。把伴侶放進櫥櫃不符合真實語境。"
+          ],
+          "sourceFile": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。這裡可自然指她的丈夫或男友，屬非正式口語。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "go insane",
+          "meaning": "（口語誇張）快抓狂、幾乎失去理智",
+          "usage": "可用於極度煩躁或難以承受的感覺；不應隨意把它當作醫學診斷。",
+          "prompt": "哪一句正確使用「go insane」？",
+          "options": [
+            "That loud noise all night is making me go insane.",
+            "We went insane the library books back on Monday.",
+            "The bus went insane because the driver changed its tyres.",
+            "The shop goes insane at nine because its doors open."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。整晚的噪音讓人快抓狂，屬誇張口語。",
+            "錯誤。go insane 不是歸還圖書的動詞片語。",
+            "錯誤。公車不是因換輪胎就會抓狂的人。",
+            "錯誤。開門營業不自然地等於快抓狂。"
+          ],
+          "sourceFile": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。整晚的噪音讓人快抓狂，屬誇張口語。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "running and hiding",
+          "meaning": "逃避、躲藏；歌中比喻不願面對感受",
+          "usage": "字面可指逃跑並藏起來；此處的進階重點是將身體動作轉為心理逃避。",
+          "prompt": "哪一句正確使用「running and hiding」？",
+          "options": [
+            "She was running and hiding by answering the question clearly.",
+            "Instead of facing the problem, he kept running and hiding.",
+            "The chef kept running and hiding by serving the food on time.",
+            "We were running and hiding by showing everyone our true feelings."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。清楚正面回答問題，與逃避相反。",
+            "正確。不面對問題而持續逃避，符合歌詞的比喻用法。",
+            "錯誤。準時送餐不是逃避問題的例子。",
+            "錯誤。坦白表達感受並不是在躲避。"
+          ],
+          "sourceFile": "Layla_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。不面對問題而持續逃避，符合歌詞的比喻用法。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

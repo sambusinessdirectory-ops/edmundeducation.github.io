@@ -3689,5 +3689,1305 @@
     "sha256": "541a043a6032acd98a19c6873df19af0b87bae9cf9855dce44a58a0665d9d2d9",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "3b1b046539f52d3d14e2062c2dae69efeac72299240d3bc2aeaa4ff575c80aa9"
+    },
+    {
+      "section": "advanced",
+      "filename": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "61e5cbd1df8557af013c0cacc7a5bf5d4dfd8e13223a3f78d8ea301c1b77c5df"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "現在分詞片語作開場畫面",
+          "meaning": "用分詞片語帶出正在進行的動作與畫面。",
+          "usage": "歌詞的 Lookin’ 是 looking 的口語省略；片語沒有明寫主詞，不要當成獨立完整句。",
+          "prompt": "舞台燈亮起，主持人一邊微笑一邊走進房間。哪句可自然作畫面描述？",
+          "options": [
+            "Smiling the host walks into the room.",
+            "Smiled, the host walks into the room.",
+            "Smiling, the host walks into the room.",
+            "Smile, the host walking into the room."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。少了分詞片語後的逗號，容易誤讀為 smiling the host。",
+            "錯誤。Smiled 不能這樣單獨作同時動作的開場片語。",
+            "正確。Smiling 是補充主詞 the host 同時的動作。",
+            "錯誤。開頭原形 Smile 與後面的分詞式敘述不搭配，且主句不完整。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Lookin' in your eyes",
+          "pattern": [
+            {
+              "text": "[V-ing] + in",
+              "fixed": true
+            },
+            {
+              "text": "your eyes",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Smiling 是補充主詞 the host 同時的動作。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "限定關係子句 that + 主詞 + 動詞",
+          "meaning": "用 that 子句說明是哪一個人或物。",
+          "usage": "此處 that 是 found 的受詞，描述「我找到的世界」。",
+          "prompt": "收藏家有三張地圖。她想指明自己昨天找到的那張。",
+          "options": [
+            "This map who I found yesterday is old.",
+            "This map that I found yesterday is old.",
+            "This map that found me yesterday is old.",
+            "This map where I found yesterday is old."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。地圖是物，這裡不宜用 who。",
+            "正確。that I found 指出她找到的那張地圖。",
+            "錯誤。變成地圖找到我，主客顛倒。",
+            "錯誤。where 不可直接當 found 的受詞。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "This world that I found",
+          "pattern": [
+            {
+              "text": "名詞 + that + 主詞 + 動詞",
+              "fixed": true
+            },
+            {
+              "text": "world / I found",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。that I found 指出她找到的那張地圖。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "too + 形容詞 + to + 動詞",
+          "meaning": "程度太高，以致難以達成後面的結果。",
+          "usage": "可談太熱無法碰、太遠無法走等；歌詞帶有「好得難以置信」的誇飾。",
+          "prompt": "一杯茶剛煮好，太燙，現在不能喝。",
+          "options": [
+            "The tea is too hot drink now.",
+            "The tea is enough hot to drink now.",
+            "The tea is too hot drinking now.",
+            "The tea is too hot to drink now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。缺少 to。",
+            "錯誤。enough 應放在形容詞後，意思也可能不同。",
+            "錯誤。too hot 後的動作需要 to drink。",
+            "正確。too hot to drink 表示燙到無法喝。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Is too good to be true",
+          "pattern": [
+            {
+              "text": "too + 形容詞 + to + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "good / be true",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。too hot to drink 表示燙到無法喝。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "want + to-infinitive 表達意願",
+          "meaning": "表達很想做某件事。",
+          "usage": "歌詞省略 I，並把 so much 放在 want 後強調願望；不是標準獨立完整句。",
+          "prompt": "志工很想參與週末的海灘清潔活動。",
+          "options": [
+            "I want to join the beach team.",
+            "I want joining the beach team.",
+            "I want to joined the beach team.",
+            "I want join the beach team."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。want to join 表示想加入活動。",
+            "錯誤。want 後要接 to + 原形動詞。",
+            "錯誤。to 後應用 join，不是 joined。",
+            "錯誤。缺少 to。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Want so much to give you",
+          "pattern": [
+            {
+              "text": "want + to + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "give you a gift",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。want to join 表示想加入活動。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "現在進行式 be + V-ing",
+          "meaning": "描述此刻正在發生的動作或狀態（部分動詞有特殊用法）。",
+          "usage": "歌詞 feelin’ 是 feeling 的省略拼寫；feel 在此作情感描寫，不能泛化成所有 feel 都必須用進行式。",
+          "prompt": "船上工作人員此刻正在檢查每一件救生衣。",
+          "options": [
+            "The crew is checking each life jacket now.",
+            "The crew is check each life jacket now.",
+            "The crew checking each life jacket now.",
+            "The crew checks each life jacket yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。is checking 表示現在正進行。",
+            "錯誤。is 後需 checking。",
+            "錯誤。缺少 be 動詞。",
+            "錯誤。yesterday 與一般現在式不相配。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "That I'm feelin' for you",
+          "pattern": [
+            {
+              "text": "am/is/are + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "feeling",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。is checking 表示現在正進行。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "let + 人 + 原形動詞",
+          "meaning": "允許或不阻止某人做事。",
+          "usage": "’em 是 them 的口語縮減；let 後不接 to。",
+          "prompt": "鄰居的孩子想看畫展，館長同意他們進去。",
+          "options": [
+            "The guide let they enter the room.",
+            "The guide let them enter the room.",
+            "The guide let them to enter the room.",
+            "The guide let them entering the room."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。let 後應用受格 them。",
+            "正確。let them enter 表示讓他們進入。",
+            "錯誤。let 後不用 to。",
+            "錯誤。let 後接原形 enter。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Let 'em say we're crazy",
+          "pattern": [
+            {
+              "text": "let + 受詞 + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "them / say",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。let them enter 表示讓他們進入。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "say + 省略 that 的受詞子句",
+          "meaning": "在 say 後直接報告某個說法。",
+          "usage": "歌詞沒有 that；不要把加入 that 的句型另算一個來源結構。",
+          "prompt": "郵差說包裹已到。哪句自然地轉述他的話？",
+          "options": [
+            "He says that parcel here.",
+            "He says the parcel arrives yesterday.",
+            "He says is the parcel here.",
+            "He says the parcel is here."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。that 後沒有完整主句結構。",
+            "錯誤。昨天的事不應用 arrives。",
+            "錯誤。陳述子句不使用疑問倒裝。",
+            "正確。says 後接完整陳述子句。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "say we're crazy",
+          "pattern": [
+            {
+              "text": "say + (that) + 子句",
+              "fixed": true
+            },
+            {
+              "text": "we are ready",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。says 後接完整陳述子句。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "否定一般現在式 don’t + 原形",
+          "meaning": "說明現在不做或不在乎某事。",
+          "usage": "’bout 是 about 的口語省略。",
+          "prompt": "有人問志工是否怕早起；他表示不介意。",
+          "options": [
+            "I doesn’t mind early mornings.",
+            "I don’t minds early mornings.",
+            "I don’t mind early mornings.",
+            "I not mind early mornings."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。I 應搭配 don’t。",
+            "錯誤。don’t 後接原形 mind。",
+            "正確。don’t mind 表示不介意。",
+            "錯誤。一般現在否定需要助動詞 do。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I don't care 'bout that",
+          "pattern": [
+            {
+              "text": "do not + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "care about that",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。don’t mind 表示不介意。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "肯定祈使句 + 受詞 + 地點",
+          "meaning": "指示他人把某物放到某處。",
+          "usage": "祈使句的 you 通常省略。",
+          "prompt": "入口有投票箱，工作人員請大家把紙票放入箱內。",
+          "options": [
+            "Put your ticket in the box.",
+            "Put in the box your ticket is.",
+            "You putted your ticket in the box.",
+            "Putting your ticket in the box."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。Put 開頭的祈使句清楚指出物品與位置。",
+            "錯誤。語序不自然且多出 is。",
+            "錯誤。put 的過去式也是 put，且此處是指示而不是敘事。",
+            "錯誤。單獨的 Putting 不是這裡的完整祈使句。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Put your hand in my hand",
+          "pattern": [
+            {
+              "text": "原形動詞 + 受詞 + 地點",
+              "fixed": true
+            },
+            {
+              "text": "put / the ticket / in the box",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Put 開頭的祈使句清楚指出物品與位置。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "否定祈使句 don’t ever",
+          "meaning": "強調「千萬不要／永遠別」做某事。",
+          "usage": "ever 在此加強否定指示，非獨立動詞。",
+          "prompt": "登山嚮導提醒團隊絕不要單獨走進封閉隧道。",
+          "options": [
+            "Don’t ever goes into that tunnel alone.",
+            "Never don’t go into that tunnel alone.",
+            "Don’t ever go into that tunnel alone.",
+            "Don’t ever going into that tunnel alone."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。don’t 後不能加 goes。",
+            "錯誤。never don’t 構成不合適的雙重否定。",
+            "正確。don’t ever go 是強烈的禁止提醒。",
+            "錯誤。don’t 後接原形 go。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "don't ever look back",
+          "pattern": [
+            {
+              "text": "don’t + ever + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "look back",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。don’t ever go 是強烈的禁止提醒。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "let + 物 + 原形動詞",
+          "meaning": "允許某事發生，或表達即使那件事發生也無妨。",
+          "usage": "真正的動詞 fall apart 在下一行「Just fall apart」；本項需跨兩行理解。與 let them say 同一語法家族，聚焦「讓事情發生」的語意，不重複問 let 的基本詞形。",
+          "prompt": "花園裡的葉子要自然落下，園丁不打算阻止。",
+          "options": [
+            "Let the leaves fall.",
+            "Let the leaves fell.",
+            "Let the leaves to fall.",
+            "Let the leaves falling."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。let the leaves fall 表示讓葉子自然落下。",
+            "錯誤。此處需原形 fall。",
+            "錯誤。let 後不加 to。",
+            "錯誤。let 後接原形，不接 falling。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Let the world around us",
+          "pattern": [
+            {
+              "text": "let + 受詞 + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "the world / fall apart",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。let the leaves fall 表示讓葉子自然落下。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "can + 原形動詞表能力",
+          "meaning": "表示有能力或可能做到。",
+          "usage": "make it 在歌中是「成功撐過難關」；它不是 make + 形容詞的使役結構。",
+          "prompt": "社區劇團還有時間，能在週六前完成佈景。",
+          "options": [
+            "We cans finish the stage before Saturday.",
+            "We can finish the stage before Saturday.",
+            "We can to finish the stage before Saturday.",
+            "We can finishing the stage before Saturday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。can 不加第三人稱 -s。",
+            "正確。can 後接 finish 原形。",
+            "錯誤。can 後不用 to。",
+            "錯誤。can 後不可直接接 finishing。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "we can make it",
+          "pattern": [
+            {
+              "text": "can + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "finish the show",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。can 後接 finish 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "if + 現在式的真實條件",
+          "meaning": "說出某件事成立的條件。",
+          "usage": "歌詞條件從句接前行「we can make it」，並非獨立完整句。",
+          "prompt": "假如明天下雨，戶外畫展就移到大廳。",
+          "options": [
+            "If it rains tomorrow, we will move inside.",
+            "If it will rain tomorrow, we move inside.",
+            "If it rain tomorrow, we will move inside.",
+            "If raining tomorrow, we will moves inside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。if it rains, we will move。",
+            "錯誤。此類未來真實條件的 if 子句通常用現在式而非 will。",
+            "錯誤。it 應搭配 rains。",
+            "錯誤。主詞與動詞形式不完整，且 will 後應 move。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "If we're heart to heart",
+          "pattern": [
+            {
+              "text": "if + 現在式子句",
+              "fixed": true
+            },
+            {
+              "text": "we are ready",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。if it rains, we will move。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "副詞 together 修飾動作",
+          "meaning": "表示大家一起完成某件事。",
+          "usage": "together 修飾 build，並不是名詞 dream 的一部分。",
+          "prompt": "四位木工共同做一張長桌。",
+          "options": [
+            "They built a table together.",
+            "They together a table built.",
+            "They built a together table.",
+            "They built together a table is."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。together 說明大家一起製作。",
+            "錯誤。動詞與副詞的語序混亂。",
+            "錯誤。together 不能直接放在冠詞與名詞之間。",
+            "錯誤。多了 is，語序也不自然。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "we can build this dream together",
+          "pattern": [
+            {
+              "text": "動詞 + 受詞 + together",
+              "fixed": true
+            },
+            {
+              "text": "build a boat",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。together 說明大家一起製作。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "分詞片語 Standing + 形容詞",
+          "meaning": "用分詞片語描寫持續中的姿態或狀態。",
+          "usage": "歌詞是缺主詞的詩意片語；不能當成標準獨立句。",
+          "prompt": "攝影師描述「舞者站得筆直，等待音樂開始」。",
+          "options": [
+            "Standing straight the dancer waits.",
+            "Stand straight, the dancer waits.",
+            "Stood straight, the dancer waits.",
+            "Standing straight, the dancer waits."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。缺少逗號分隔前置片語。",
+            "錯誤。原形 Stand 不能在此表示同時進行的背景動作。",
+            "錯誤。Stood 不是此處自然的分詞片語。",
+            "正確。Standing straight 描繪同一位舞者的姿態。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Standing strong forever",
+          "pattern": [
+            {
+              "text": "V-ing + 形容詞／副詞",
+              "fixed": true
+            },
+            {
+              "text": "standing / strong",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Standing straight 描繪同一位舞者的姿態。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "nothing + be going to + 原形",
+          "meaning": "表示沒有任何事物將會阻止某行動。",
+          "usage": "Nothing’s = Nothing is；gonna = going to，屬口語，正式寫作用 going to。",
+          "prompt": "天氣很好，而且道路已修好。隊員說沒有什麼會阻止他們出發。",
+          "options": [
+            "Nothing is going stop our trip.",
+            "Nothing are going to stop our trip.",
+            "Nothing is going to stop our trip.",
+            "Nothing going to stops our trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。going 後缺少 to。",
+            "錯誤。Nothing 搭配單數 is。",
+            "正確。Nothing is going to stop 表未來不會受阻。",
+            "錯誤。缺少 is，且 to 後需原形 stop。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Nothing's gonna stop us now",
+          "pattern": [
+            {
+              "text": "Nothing + is going to + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "stop us",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。Nothing is going to stop 表未來不會受阻。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "run out of + 名詞",
+          "meaning": "用完、耗盡某種資源。",
+          "usage": "歌詞用 lovers 作誇張假設；不要誤讀為 run away。",
+          "prompt": "夜市攤販的紙杯用光了。",
+          "options": [
+            "The stall ran out from paper cups.",
+            "The stall ran out of paper cups.",
+            "The stall ran of paper cups.",
+            "The stall ran out paper cups."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。此處不用 from。",
+            "正確。run out of 表示耗盡紙杯。",
+            "錯誤。缺少 out。",
+            "錯誤。缺少 of。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "this world runs out of lovers",
+          "pattern": [
+            {
+              "text": "run out of + 名詞",
+              "fixed": true
+            },
+            {
+              "text": "time",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。run out of 表示耗盡紙杯。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "will + still + 原形動詞",
+          "meaning": "表示到了將來仍會持續保持某種狀態。",
+          "usage": "still 修飾未來會持續的情況。",
+          "prompt": "博物館明年搬家，但舊展品仍會保留。",
+          "options": [
+            "The museum still will kept its old maps.",
+            "The museum will still keeps its old maps.",
+            "The museum will still keep its old maps.",
+            "The museum will keeping still its old maps."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。will 後不使用 kept。",
+            "錯誤。will 後動詞不可加 -s。",
+            "正確。will still keep 表示未來仍會保存。",
+            "錯誤。will 後需原形 keep。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "We'll still have each other",
+          "pattern": [
+            {
+              "text": "will + still + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "have each other",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。will still keep 表示未來仍會保存。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "each other 表相互關係",
+          "meaning": "表示兩個人或多個人彼此相互。",
+          "usage": "歌詞 have each other 表示「擁有彼此」；不等於 each another。",
+          "prompt": "兩名新消防隊員互相幫助完成訓練。",
+          "options": [
+            "The two workers help them each other.",
+            "The two workers help other each.",
+            "The two workers help each another.",
+            "The two workers help each other."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。多了 them。",
+            "錯誤。詞序錯誤。",
+            "錯誤。標準用法是 each other。",
+            "正確。help each other 表示互相幫忙。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "have each other",
+          "pattern": [
+            {
+              "text": "動詞 + each other",
+              "fixed": true
+            },
+            {
+              "text": "help",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。help each other 表示互相幫忙。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "so + 形容詞 + (that) 子句",
+          "meaning": "形容情緒很強烈，並說明原因或相關事情。",
+          "usage": "歌詞的 that 省略；此處不是 so ... that 表結果的必然用法。",
+          "prompt": "小鎮的合唱團得獎，指揮非常開心。",
+          "options": [
+            "I am so happy did our team win.",
+            "I am so happy our team won.",
+            "I am so happy we win tomorrow.",
+            "I so happy our team won."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。子句要用陳述語序。",
+            "正確。so happy 後接完整子句說明原因。",
+            "錯誤。tomorrow 與 win 不構成此處已得獎的敘述。",
+            "錯誤。缺少 am。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I'm so glad I found you",
+          "pattern": [
+            {
+              "text": "be + so + 形容詞 + (that) 子句",
+              "fixed": true
+            },
+            {
+              "text": "happy / you came",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。so happy 後接完整子句說明原因。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "whatever + 子句作自由關係詞",
+          "meaning": "意思是「無論需要做甚麼」，可作句子的一部分。",
+          "usage": "歌詞是省略／獨立成行的固定表達；並非完整普通句。",
+          "prompt": "風暴過後，社區決定盡一切必要努力重開圖書館。",
+          "options": [
+            "We will do what ever it takes and reopen it to.",
+            "We will do whatever it takes to reopen it.",
+            "We will do whatever it takes reopening it.",
+            "We will do whatever it take to reopen it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。what ever 分寫與句尾多餘 to 不符合此意。",
+            "正確。whatever it takes 指一切必要的努力。",
+            "錯誤。表示目的需 to reopen。",
+            "錯誤。it 搭配 takes。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Whatever it takes",
+          "pattern": [
+            {
+              "text": "whatever + 主詞 + 動詞",
+              "fixed": true
+            },
+            {
+              "text": "it takes",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。whatever it takes 指一切必要的努力。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "see + 受詞 + through 表堅持完成",
+          "meaning": "在困難中把事情做到底。",
+          "usage": "歌詞在 through 後接 the bad times，表示熬過困難時期；不是用眼睛看穿。",
+          "prompt": "志工遇到大雨仍承諾完成橋樑修復計畫。",
+          "options": [
+            "We will see the plan throughing.",
+            "We will see through the plan by our eyes.",
+            "We will see the plan to through.",
+            "We will see the plan through."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。through 是介系詞／副詞，不加 -ing。",
+            "錯誤。此情境不指用眼睛看東西。",
+            "錯誤。to through 結構不對。",
+            "正確。see a plan through 表示完成計畫。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "See it through the bad times",
+          "pattern": [
+            {
+              "text": "see + 受詞 + through",
+              "fixed": true
+            },
+            {
+              "text": "see / the project",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。see a plan through 表示完成計畫。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "一般現在式的 wh- 疑問句",
+          "meaning": "詢問對方掌握什麼資訊；歌中帶反問語氣。",
+          "usage": "do 是疑問助動詞，不是「做」的主動詞。",
+          "prompt": "新員工想了解導覽員知道哪些關於老城堡的事。",
+          "options": [
+            "What does they know about the castle?",
+            "What do they knows about the castle?",
+            "What they know about the castle?",
+            "What do they know about the castle?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。they 用 do。",
+            "錯誤。do 後接原形 know。",
+            "錯誤。一般現在疑問句缺少 do。",
+            "正確。What do they know 為自然的疑問語序。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "What do they know",
+          "pattern": [
+            {
+              "text": "疑問詞 + do + 主詞 + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "what / they / know",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。What do they know 為自然的疑問語序。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "put + 受詞 + around + 人",
+          "meaning": "把手臂環繞在某人身邊；也可把物件放在物體周圍。",
+          "usage": "此處是擁抱動作，與 put your hand in my hand 的位置介系詞不同。",
+          "prompt": "小孩怕冷，父親把圍巾圍在她脖子上。",
+          "options": [
+            "He put a scarf at her neck around.",
+            "He put a scarf around her neck.",
+            "He put around scarf her neck.",
+            "He put a scarf her neck around."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。around 的位置與搭配不自然。",
+            "正確。put a scarf around her neck 表示圍上圍巾。",
+            "錯誤。缺少冠詞，介系詞語序不自然。",
+            "錯誤。around 應在 her neck 前。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "Put your arms around me",
+          "pattern": [
+            {
+              "text": "put + 受詞 + around + 人／物",
+              "fixed": true
+            },
+            {
+              "text": "your arms / me",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。put a scarf around her neck 表示圍上圍巾。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "all that + 主詞 + 動詞 名詞性結構",
+          "meaning": "表達「我所需要的全部就是……」。",
+          "usage": "all that I need 作名詞性成分，後接 is 作述語；歌詞另有 all that I want to do，同家族不重複計數。",
+          "prompt": "野外觀星活動只欠一盞燈。",
+          "options": [
+            "All that we need are a lamp.",
+            "All that we need a lamp.",
+            "All that we need is a lamp.",
+            "All what we need is a lamp."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。本句把所需事物視為一件，be 用 is。",
+            "錯誤。缺少 is。",
+            "正確。all that we need is a lamp。",
+            "錯誤。all what 在這裡不是標準結構。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "all that I need is you",
+          "pattern": [
+            {
+              "text": "all that + 主詞 + 動詞 + be",
+              "fixed": true
+            },
+            {
+              "text": "I need / water",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。all that we need is a lamp。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "主詞補語是省略 to 的原形動詞",
+          "meaning": "在「想做的事就是……」中，be 後可用原形動詞作補語。",
+          "usage": "要連讀前行「And all that I want to do」；歌詞用 hold，不是 to hold。",
+          "prompt": "工作坊結束後，一位陶藝師只想休息。",
+          "options": [
+            "All I want to do is rest.",
+            "All I want to do is resting.",
+            "All I want to do is to rest at.",
+            "All I want to do are rest."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。All I want to do is rest 與歌詞同樣的原形補語。",
+            "錯誤。此句型不接 resting。",
+            "錯誤。to rest 本身可用，但句尾 at 多餘；本題要自然完整句。",
+            "錯誤。此處用 is，不是 are。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "Is hold you forever ever and ever",
+          "pattern": [
+            {
+              "text": "All ... want to do + is + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "play / listen",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。All I want to do is rest 與歌詞同樣的原形補語。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "paradise",
+          "meaning": "天堂般美好的地方；樂園",
+          "usage": "形容風景或環境非常美好；也能比喻幸福的感受。",
+          "prompt": "哪一句正確使用「paradise」？",
+          "options": [
+            "The noisy bus was a paradise because it was late.",
+            "My old shoes were paradise after the long rainy walk.",
+            "We reached paradise by answering the phone twice.",
+            "The island felt like paradise, with clear blue water."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不適合。公車又吵又誤點，與樂園般美好的情境相反。",
+            "不適合。潮濕舊鞋通常不適合稱為天堂般的地方。",
+            "不適合。接電話不會讓人「抵達樂園」；沒有合理語境。",
+            "正確。島嶼美得像樂園，paradise 的比喻自然。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。島嶼美得像樂園，paradise 的比喻自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "let 'em say",
+          "meaning": "隨他們說吧（非正式口語）",
+          "usage": "em 是 them 的口語縮寫；let + 人 + 動詞原形，表示允許他人說話。",
+          "prompt": "哪一句正確使用「let 'em say」？",
+          "options": [
+            "Let 'em say into the box before the meeting starts.",
+            "I let 'em say the window with my new blue key.",
+            "Let 'em say what they want; we know the truth.",
+            "The singer let 'em say because the shoes were dancing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不適合。say 後面不能這樣用 into the box 表示進入箱子。",
+            "不適合。不能拿 let ... say 代替用鑰匙開窗。",
+            "正確。「讓他們想說什麼就說」，自然表達不受旁人評論影響。",
+            "不適合。鞋子跳舞與讓別人發言沒有合理關係。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。「讓他們想說什麼就說」，自然表達不受旁人評論影響。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "standing strong",
+          "meaning": "堅定不移地站穩；保持堅強",
+          "usage": "可描寫人在壓力下堅定，也可描述建築物仍穩固；歌詞具有激勵意味。",
+          "prompt": "哪一句正確使用「standing strong」？",
+          "options": [
+            "The letter was standing strong inside the small envelope.",
+            "After the storm, the old bridge was still standing strong.",
+            "We stood strong the coffee with a wooden spoon.",
+            "The teacher stood strong to the library with five books."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不適合。信紙放在信封裡，不會自然稱為站得堅固。",
+            "正確。風暴後橋仍然牢固挺立，語意貼切。",
+            "不適合。這個搭配不能表示用湯匙攪拌咖啡。",
+            "不適合。去圖書館應用 went to；standing strong 不是移動動詞。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。風暴後橋仍然牢固挺立，語意貼切。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "see it through",
+          "meaning": "堅持完成；把事情做到底",
+          "usage": "指事情雖然艱難，仍完成已開始的任務；與單純看見不同。",
+          "prompt": "哪一句正確使用「see it through」？",
+          "options": [
+            "The project was difficult, but we decided to see it through.",
+            "She saw it through the bus stop at half past seven.",
+            "He saw it through because the new coat was very green.",
+            "I saw it through my window and bought two oranges."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。儘管計畫困難，仍決定做到最後，使用自然。",
+            "不適合。不能把 see it through 當成經過公車站的說法。",
+            "不適合。綠色外套與堅持完成一項工作沒有關聯。",
+            "不適合。這裡描述從窗戶看東西，不是完成任務；意思不同。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。儘管計畫困難，仍決定做到最後，使用自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "put your arms around",
+          "meaning": "伸出雙臂環抱、擁抱",
+          "usage": "表達擁抱或保護某人；注意 put + arms + around + 人。",
+          "prompt": "哪一句正確使用「put your arms around」？",
+          "options": [
+            "Dad put his arms around me when I felt sad.",
+            "She put her arms around the weather before going outside.",
+            "We put our arms around the concert tickets to buy them.",
+            "The pilot put his arms around the airport to land safely."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。父親用雙臂擁抱孩子安慰他，搭配正確。",
+            "不適合。天氣不是能被雙臂環抱的對象。",
+            "不適合。買票與雙臂環抱票券不相符；應使用 bought。",
+            "不適合。機師無法環抱整個機場；降落應用 landed。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。父親用雙臂擁抱孩子安慰他，搭配正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "what do they know",
+          "meaning": "他們又懂什麼？（反問句）",
+          "usage": "當說話者質疑別人是否真的了解情況時使用；語氣可能帶反駁意味。",
+          "prompt": "哪一句正確使用「what do they know」？",
+          "options": [
+            "I what do they know my lunch after the music show.",
+            "What do they know to open the window with a key?",
+            "What do they know? They were not even at the meeting.",
+            "What do they know is the colour of our new train?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不適合。完整反問句不能當一般動詞表示吃午餐。",
+            "不適合。若詢問開窗方法應用 How do they open ...。",
+            "正確。對方連會議都沒參加，質疑其了解程度很自然。",
+            "不適合。若詢問顏色應用 What colour is ...；不能混接兩種問句。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。對方連會議都沒參加，質疑其了解程度很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "lovers",
+          "meaning": "戀人；相愛的兩個人",
+          "usage": "常指彼此有浪漫關係的人，語氣比 friends 更親密。",
+          "prompt": "哪一句正確使用「lovers」？",
+          "options": [
+            "The lovers repaired the rain with an old pencil.",
+            "The two lovers held hands while walking by the sea.",
+            "Our teacher put three lovers inside the new timetable.",
+            "Two lovers are the name of the train at noon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不適合。戀人無法用鉛筆修理雨，搭配錯誤。",
+            "正確。兩名戀人沿海邊散步並牽手，語意自然。",
+            "不適合。不能把戀人當作物品放入時刻表。",
+            "不適合。戀人指人，不是列車的名稱；句意無自然上下文。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確。兩名戀人沿海邊散步並牽手，語意自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "build this dream together",
+          "meaning": "共同實現這個夢想（比喻）",
+          "usage": "build 可比喻逐步建立計畫或未來；歌詞用 build a dream，並非建造實體建築。",
+          "prompt": "哪一句正確使用「build this dream together」？",
+          "options": [
+            "They built this dream together because the bus was purple.",
+            "The family built this dream together at the shoe shop door.",
+            "We built this dream together into a blue breakfast plate.",
+            "We want to build this dream together and open a small café."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不適合。紫色公車不能解釋共同實現夢想的意義。",
+            "不適合。片語若無共同目標，僅加上鞋店門口沒有合理語境。",
+            "不適合。夢想不是能被做成藍色餐盤的材料，搭配不自然。",
+            "正確。一起努力開設小咖啡館，是共同實現夢想的自然情境。"
+          ],
+          "sourceFile": "Nothings_Gonna_Stop_Us_Now_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確。一起努力開設小咖啡館，是共同實現夢想的自然情境。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

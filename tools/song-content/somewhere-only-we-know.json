@@ -2873,5 +2873,1442 @@
     "sha256": "637a3d7bce02cb34c8f0f3c886ffc286ec60f394b768e307f638789a00693dfc",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "517a6acc5484c833329680f690b69ab83c9f0e68a231d50ba092a16673ee1851"
+    },
+    {
+      "section": "structure",
+      "filename": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "44cff31a89b643c34e5942446e7bcf35f0c8cdc00d27a044779f9ca6000af3de"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "pathway",
+          "meaning": "小徑；供人步行的道路",
+          "usage": "談公園、森林或住家附近供人行走的小路；比 road 更偏向步道。",
+          "prompt": "哪一句正確使用「pathway」？",
+          "options": [
+            "The pathway leads us through the small park.",
+            "She put a pathway on her feet like shoes.",
+            "The pathway cooked lunch for all the children.",
+            "I pathway my bicycle to the library today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：pathway 是供人行走的小徑，通往公園的說法自然。",
+            "錯誤：pathway 不是穿在腳上的鞋子。",
+            "錯誤：pathway 是道路，不會烹煮午餐。",
+            "錯誤：pathway 在此是名詞，不能代替 ride。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：pathway 是供人行走的小徑，通往公園的說法自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "fallen tree",
+          "meaning": "倒下的樹木",
+          "usage": "描述一棵已經倒在地上的樹；fallen 是 fall 的過去分詞作形容詞。",
+          "prompt": "哪一句正確使用「fallen tree」？",
+          "options": [
+            "My friend fallen tree to school this morning.",
+            "We had to walk around a fallen tree on the path.",
+            "The fallen tree flew away like a small bird.",
+            "A fallen tree means a tree is growing taller."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：不能把 fallen tree 當成表示行走的動詞。",
+            "正確：倒下的樹擋住小徑，需要繞路走。",
+            "錯誤：倒下的樹不會像小鳥自行飛走。",
+            "錯誤：fallen tree 指倒下的樹，不是正在長高的樹。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：倒下的樹擋住小徑，需要繞路走。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "complete",
+          "meaning": "完整的；完成的；使人感到圓滿",
+          "usage": "描述事情已經做完，或某人感到滿足、圓滿；歌詞是後一種用法。",
+          "prompt": "哪一句正確使用「complete」？",
+          "options": [
+            "He completed happy after his friends called him.",
+            "Please complete to school by the morning bus.",
+            "The puzzle is complete; no pieces are missing.",
+            "I bought a complete of milk for breakfast."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：complete 若當動詞，不能直接接 happy 表示變開心。",
+            "錯誤：complete 不是「前往」；應說 go to school。",
+            "正確：拼圖沒有缺塊，表示已完整。",
+            "錯誤：complete 不是可數容器，不能說 a complete of milk。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：拼圖沒有缺塊，表示已完整。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "simple thing",
+          "meaning": "簡單的事物；單純的事",
+          "usage": "指不複雜的小事情；歌詞中帶有對純粹事物的懷念，非固定成語。",
+          "prompt": "哪一句正確使用「simple thing」？",
+          "options": [
+            "A simple thing is always the biggest mountain.",
+            "I simple thing to the park every Sunday.",
+            "She put a simple thing inside her happy.",
+            "A smile is a simple thing that can help someone."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：always the biggest mountain 與「簡單的事物」語意衝突，也缺少合理語境。",
+            "錯誤：simple thing 是名詞片語，不能代替 go。",
+            "錯誤：happy 是形容詞，不能作為 inside 的容器名詞。",
+            "正確：微笑是一件簡單的小事，也可能幫助他人。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：微笑是一件簡單的小事，也可能幫助他人。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "branches",
+          "meaning": "樹枝；分支",
+          "usage": "談樹木從樹幹向外生長的部分；也能指組織的分部。",
+          "prompt": "哪一句正確使用「branches」？",
+          "options": [
+            "Birds sat on the branches of the old tree.",
+            "She branches her shoes before leaving the house.",
+            "The branches went to school by bus this morning.",
+            "We drank three branches of water at lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：鳥停在老樹的枝條上，搭配自然。",
+            "錯誤：branches 不能用作「穿鞋」動詞。",
+            "錯誤：樹枝不會搭公車去上學。",
+            "錯誤：水不能以 branches 作為量詞。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：鳥停在老樹的枝條上，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "getting old",
+          "meaning": "逐漸變老；年紀漸長",
+          "usage": "談人隨時間逐漸年長，也可帶出時間流逝的感慨。",
+          "prompt": "哪一句正確使用「getting old」？",
+          "options": [
+            "My grandfather says he is getting old now.",
+            "The cake is getting old because it tastes sweet.",
+            "I am getting old to the station by train.",
+            "My phone is getting old because it is charging today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：祖父談自己年紀漸長，用法自然。",
+            "錯誤：味道甜與逐漸變老沒有直接關係。",
+            "錯誤：getting old 不表示搭車前往某地。",
+            "錯誤：正在充電不能證明物品老舊，這裡沒有表達日漸老化。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：祖父談自己年紀漸長，用法自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "somewhere to begin",
+          "meaning": "可以開始的地方；一個起點",
+          "usage": "想尋找開始新計畫、新生活或新活動的地方時使用；somewhere 後可接 to + 動詞。",
+          "prompt": "哪一句正確使用「somewhere to begin」？",
+          "options": [
+            "She found somewhere to begin because the bus is red.",
+            "I somewhere to begin my lunch at seven today.",
+            "They bought a somewhere to begin from that shop.",
+            "This small room gives us somewhere to begin our work."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：公車是紅色並不能解釋找到起點，語意無關。",
+            "錯誤：somewhere to begin 不能當成動詞直接放在主詞後面。",
+            "錯誤：somewhere 是副詞性詞語，不能說 a somewhere。",
+            "正確：這個房間提供了開始工作的地方，表達自然。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：這個房間提供了開始工作的地方，表達自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "earth",
+          "meaning": "土地；地面；地球",
+          "usage": "描述腳下的土地、大自然，或我們居住的星球；依上下文判斷。",
+          "prompt": "哪一句正確使用「earth」？",
+          "options": [
+            "She wore an earth when it began to rain.",
+            "The children planted seeds in the warm earth.",
+            "This earth is very hungry after our long walk.",
+            "We earth the bus at seven every day."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：earth 不是可以穿在身上的衣物。",
+            "正確：earth 指土壤，適合種下種子。",
+            "錯誤：土地不會像人一樣肚子餓。",
+            "錯誤：earth 不能作「搭車」動詞。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：earth 指土壤，適合種下種子。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "walked across",
+          "meaning": "走過；穿越（某片區域或表面）",
+          "usage": "強調從某處的一邊走到另一邊；後面常接 street、field、bridge 等地點。",
+          "prompt": "哪一句正確使用「walked across」？",
+          "options": [
+            "I walked across my homework before class began.",
+            "She walked across because her shoes were new.",
+            "They walked across the field to reach the farm.",
+            "We walked across to the bridge with our dinner."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：homework 不是可以步行穿越的地點。",
+            "錯誤：沒有交代穿越的範圍，單用 walked across 在此不完整。",
+            "正確：走過田野到達農場，across 表示穿越。",
+            "錯誤：若是走到橋那裡，用 walked to the bridge；walked across the bridge 才是走過橋。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：走過田野到達農場，across 表示穿越。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "walk across + 地點",
+          "meaning": "表示從一片地方的一側走過到另一側；across 強調橫越。",
+          "usage": "描述走過廣場、草地或其他開闊地方時。",
+          "prompt": "一位攝影師要從廣場另一邊去找朋友。哪句最符合「橫越」？",
+          "options": [
+            "She walked across the square to meet her friend.",
+            "She walked under the square to meet her friend.",
+            "She walked the square across to meet her friend.",
+            "She walked across to square to meet her friend."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "walked across the square 結構正確，表示穿過廣場。",
+            "under 表示在下方，不是穿越廣場表面。",
+            "across 應放在地點名詞前面。",
+            "across 後直接接 the square，不加 to。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "walked across an empty land",
+          "pattern": [
+            {
+              "text": "walk across",
+              "fixed": true
+            },
+            {
+              "text": "a place",
+              "fixed": false
+            }
+          ],
+          "explanation": "walked across the square 結構正確，表示穿過廣場。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "know ... like the back of one’s hand",
+          "meaning": "對某個地方非常熟悉；歌中 knew 是 know 的過去式。",
+          "usage": "描述熟悉的道路、街區或場所。",
+          "prompt": "導遊從小在村子長大，哪句自然？",
+          "options": [
+            "The guide knows the town from the back of her hand.",
+            "The guide knows the town like the back of her hand.",
+            "The guide knows the town at the back of her hand.",
+            "The guide knows the town like the back of my hand."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "from 不是這個比喻的搭配。",
+            "正確慣用語，her 與導遊一致。",
+            "慣用語用 like the back of，不用 at。",
+            "導遊是 she，應用 her hand，不是 my hand。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "knew the pathway like the back of my hand",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "a place",
+              "fixed": false
+            },
+            {
+              "text": "like the back of",
+              "fixed": true
+            },
+            {
+              "text": "my hand",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確慣用語，her 與導遊一致。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "feel + 受詞 + 地點",
+          "meaning": "感覺某物位於自己的腳下；beneath 是「在……下面」。",
+          "usage": "描述觸覺與物體所在的位置。",
+          "prompt": "赤腳走在沙灘上，哪句能表達腳下感覺到沙子？",
+          "options": [
+            "I felt beneath the sand my feet.",
+            "I felt the sand beneath to my feet.",
+            "I felt the sand beneath of my feet.",
+            "I felt the sand beneath my feet."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "沙子應是 felt 的受詞，語序不對。",
+            "beneath 後不能加 to。",
+            "beneath 後不需要 of。",
+            "受詞 the sand 和地點 beneath my feet 搭配正確。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "felt the earth beneath my feet",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "something",
+              "fixed": false
+            },
+            {
+              "text": "beneath",
+              "fixed": true
+            },
+            {
+              "text": "my feet",
+              "fixed": false
+            }
+          ],
+          "explanation": "受詞 the sand 和地點 beneath my feet 搭配正確。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "省略主詞的過去式敘述",
+          "meaning": "歌詞承接前面 I 的敘事，省略主詞；sat 是 sit 的過去式。",
+          "usage": "敘事中可以辨認省略，但一般完整英文句子需補出主詞。",
+          "prompt": "朋友問昨天在哪裡休息，哪句是標準完整句？",
+          "options": [
+            "I sit by the river yesterday.",
+            "I sat by the river yesterday.",
+            "I was sat by the river yesterday and sat.",
+            "I sitting by the river yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "yesterday 指過去，普通敘述用 sat。",
+            "I sat 為一般過去式，說明昨天的動作。",
+            "was sat 在此不適合作一般主動敘述，後面亦累贅。",
+            "需用 I sat 或 I was sitting；此句缺助動詞。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Sat by the river",
+          "pattern": [
+            {
+              "text": "(I) sat by",
+              "fixed": true
+            },
+            {
+              "text": "the river",
+              "fixed": false
+            }
+          ],
+          "explanation": "I sat 為一般過去式，說明昨天的動作。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "make + 受詞 + 形容詞",
+          "meaning": "某事讓某人產生一種感覺或狀態；made 是過去式。",
+          "usage": "談活動、消息或經驗帶來的情緒改變。",
+          "prompt": "演出結束後，每個人都很開心；哪句結構正確？",
+          "options": [
+            "The music made us happy.",
+            "The music made us to happy.",
+            "The music made happy us.",
+            "The music made us happily."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "made + us + happy 表示音樂讓我們開心。",
+            "此結構不用 to。",
+            "受詞 us 應放在 happy 前面。",
+            "這裡要形容詞 happy，不能用副詞 happily。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "made me complete",
+          "pattern": [
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "someone",
+              "fixed": false
+            },
+            {
+              "text": "an adjective",
+              "fixed": false
+            }
+          ],
+          "explanation": "made + us + happy 表示音樂讓我們開心。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "現在完成式的去向問句",
+          "meaning": "詢問某人去了哪裡，現在還不在眼前；have gone 是現在完成式。",
+          "usage": "找不到離開的人時，帶有關心或疑惑地提問。",
+          "prompt": "朋友從派對消失，哪句是正確問句？",
+          "options": [
+            "Where did you gone?",
+            "Where you have gone?",
+            "Where have you went?",
+            "Where have you gone?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "did 後面要用 go 而非 gone。",
+            "疑問句需 have 提到主詞前。",
+            "go 的過去分詞是 gone，不是 went。",
+            "現在完成式問句的順序和過去分詞都正確。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "where have you gone?",
+          "pattern": [
+            {
+              "text": "Where have",
+              "fixed": true
+            },
+            {
+              "text": "you",
+              "fixed": false
+            },
+            {
+              "text": "gone?",
+              "fixed": true
+            }
+          ],
+          "explanation": "現在完成式問句的順序和過去分詞都正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "get + 形容詞：狀態漸變",
+          "meaning": "表示正逐漸變成某種狀態；getting 在這裡表示變化。",
+          "usage": "說天氣漸冷、自己漸累或情況逐漸變難。",
+          "prompt": "大家在戶外等太久，哪句表示「漸漸變冷」？",
+          "options": [
+            "It is getting to cold outside.",
+            "It is getting coldly outside.",
+            "It is getting cold outside.",
+            "It getting cold outside."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "getting 與形容詞之間不需要 to。",
+            "這裡應用形容詞 cold 而非副詞 coldly。",
+            "be getting + cold 正確表示逐漸變冷。",
+            "主詞 it 後面缺少 is。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I'm getting old",
+          "pattern": [
+            {
+              "text": "be getting",
+              "fixed": true
+            },
+            {
+              "text": "an adjective",
+              "fixed": false
+            }
+          ],
+          "explanation": "be getting + cold 正確表示逐漸變冷。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "need + something + to-infinitive",
+          "meaning": "需要某樣可供某種用途的東西；to rely on 修飾 something。",
+          "usage": "想找可依靠的人或物；介系詞 on 應保留。",
+          "prompt": "露營時需要照明，哪句符合「需要某物來使用」？",
+          "options": [
+            "We need something for light us.",
+            "We need something to light the tent.",
+            "We need something lighting to us.",
+            "We need something to light."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "for 後不能接原形 light us。",
+            "something to light the tent 清楚說明所需物品的用途。",
+            "名詞後的用途結構及語序不自然。",
+            "to light 可有其他用法但沒有明確受詞，未完整表達照亮帳篷的情境。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I need something to rely on",
+          "pattern": [
+            {
+              "text": "need",
+              "fixed": true
+            },
+            {
+              "text": "something",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "verb (+ preposition)",
+              "fixed": false
+            }
+          ],
+          "explanation": "something to light the tent 清楚說明所需物品的用途。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "rely on + 對象",
+          "meaning": "依賴、信任某人或某物；on 是必須的介系詞。",
+          "usage": "求助或信賴可靠的支援時。",
+          "prompt": "獨自旅行的人需要可靠的朋友，哪句自然？",
+          "options": [
+            "I can rely at my cousin when I am lost.",
+            "I can rely my cousin when I am lost.",
+            "I can rely on my cousin when I am lost.",
+            "I can rely to my cousin when I am lost."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此意思不用 rely at。",
+            "rely 後不能直接接人。",
+            "rely on + 人表示可以依靠表親。",
+            "此意思不用 rely to。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "something to rely on",
+          "pattern": [
+            {
+              "text": "rely on",
+              "fixed": true
+            },
+            {
+              "text": "someone or something",
+              "fixed": false
+            }
+          ],
+          "explanation": "rely on + 人表示可以依靠表親。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "tell + 人 + 間接問句",
+          "meaning": "tell me 後接間接問句，when 後維持陳述句語序。",
+          "usage": "詢問開門、開始活動或見面的時間。",
+          "prompt": "你想知道朋友何時到達，哪句合乎間接問句語序？",
+          "options": [
+            "Tell me when you will arrive.",
+            "Tell me when do you arrive.",
+            "Tell me when will you arrive.",
+            "Tell when me you will arrive."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "when + you will arrive 為陳述語序。",
+            "不用 do you 的直接問句語序。",
+            "間接問句不用 will you 的倒裝語序。",
+            "tell 的受詞 me 應緊跟 tell。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "tell me when you're gonna let me in",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "someone",
+              "fixed": false
+            },
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "when + you will arrive 為陳述語序。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "be gonna + 原形動詞（口語）",
+          "meaning": "gonna 是 going to 的口語拼寫，前面仍有 be，後接原形動詞。",
+          "usage": "理解歌詞和非正式口語；正式書寫使用 going to。",
+          "prompt": "朋友說今晚打算看星星，哪句口語結構正確？",
+          "options": [
+            "We are gonna watching the stars tonight.",
+            "We are gonna watch the stars tonight.",
+            "We gonna watch the stars tonight.",
+            "We are gonna to watch the stars tonight."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "gonna 後接 watch，不接 watching。",
+            "are gonna watch 是自然的非正式口語。",
+            "一般這個未來結構需要 are。",
+            "gonna 已含 to 的意思，不再加 to。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "you're gonna let me in",
+          "pattern": [
+            {
+              "text": "be gonna",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "are gonna watch 是自然的非正式口語。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "允許某人進入；let 後接受詞，in 在此表示進來。",
+          "usage": "有人在門外，希望獲准入內時。",
+          "prompt": "外面下雨，朋友敲門；哪句最自然？",
+          "options": [
+            "Please let me in. It is raining.",
+            "Please let I in. It is raining.",
+            "Please let in me. It is raining.",
+            "Please let me to in. It is raining."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "let me in 表示讓我進門，結構正確。",
+            "let 後要用受格 me，不用 I。",
+            "代名詞 me 要在 let 與 in 之間。",
+            "in 此處不是動詞，不加 to。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "let me in",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "someone",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": false
+            }
+          ],
+          "explanation": "let me in 表示讓我進門，結構正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "need + somewhere + to-infinitive",
+          "meaning": "需要一個可以開始的地方；somewhere 是地點詞。",
+          "usage": "尋找開始工作、練習或旅程的位置。",
+          "prompt": "樂隊想找地方排練，哪句正確？",
+          "options": [
+            "We need somewhere practicing.",
+            "We need somewhere to practicing.",
+            "We need somewhere to practice.",
+            "We need somewhere for practise."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少能說明用途的自然結構。",
+            "to 後接動詞原形 practice。",
+            "somewhere to practice 表示可練習的地方。",
+            "for 後若用動詞通常需 -ing，且此處不如 to practice 簡潔。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I need somewhere to begin",
+          "pattern": [
+            {
+              "text": "need",
+              "fixed": true
+            },
+            {
+              "text": "somewhere",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "somewhere to practice 表示可練習的地方。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "come across + 名詞",
+          "meaning": "偶然發現、碰巧遇見某物，不是刻意尋找。",
+          "usage": "描述旅途或整理房間時的意外發現。",
+          "prompt": "整理閣樓時突然找到一封舊信，哪句正確？",
+          "options": [
+            "I came across with an old letter in the attic.",
+            "I came across an old letter in the attic.",
+            "I came an old letter across in the attic.",
+            "I came across to an old letter in the attic."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "come across 不接 with。",
+            "came across + an old letter 表示偶然找到。",
+            "片語動詞順序不可把 across 移到受詞後。",
+            "come across 在此不接 to。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "came across a fallen tree",
+          "pattern": [
+            {
+              "text": "come across",
+              "fixed": true
+            },
+            {
+              "text": "something",
+              "fixed": false
+            }
+          ],
+          "explanation": "came across + an old letter 表示偶然找到。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "過去分詞作名詞前形容詞",
+          "meaning": "fallen 是 fall 的過去分詞，在名詞前表示已倒下的狀態。",
+          "usage": "描寫倒下的樹、打破的杯子等結果狀態。",
+          "prompt": "暴風雨後路上有倒下的樹，哪句自然？",
+          "options": [
+            "There was a fell tree on the road.",
+            "There was a fallen tree on the road.",
+            "There was a falling tree on the road since yesterday.",
+            "There was a fall tree on the road."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "fell 是過去式，不宜直接當形容詞修飾 tree。",
+            "fallen tree 表示已倒下的樹。",
+            "falling 著重正在倒下，與「昨天起就倒在那裡」不合。",
+            "fall 是原形，不是此處的形容詞形式。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "a fallen tree",
+          "pattern": [
+            {
+              "text": "a",
+              "fixed": true
+            },
+            {
+              "text": "past participle",
+              "fixed": false
+            },
+            {
+              "text": "noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "fallen tree 表示已倒下的樹。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "feel + 受詞 + -ing",
+          "meaning": "感受到某人或物正在進行某動作；歌中讓樹枝「看人」是擬人法。",
+          "usage": "描述感受到正在發生的動作，如車子搖晃。",
+          "prompt": "坐船時能感受到船正在搖動，哪句正確？",
+          "options": [
+            "I felt the boat moves under me.",
+            "I felt the boat to move under me.",
+            "I felt the boat moved under me.",
+            "I felt the boat moving under me."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不能直接用第三人稱 moves 作受詞補語。",
+            "本題強調正在發生的過程，用 moving 比 to move 自然。",
+            "此處不用 moved 作受詞補語來描述正在移動。",
+            "felt + object + moving 表示感受到船在晃動。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "felt the branches of it looking at me",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "object",
+              "fixed": false
+            },
+            {
+              "text": "-ing",
+              "fixed": true
+            }
+          ],
+          "explanation": "felt + object + moving 表示感受到船在晃動。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "used to + 原形動詞",
+          "meaning": "表示過去曾經有的習慣或狀態，現在可能已不同。",
+          "usage": "對照以前與現在的生活。",
+          "prompt": "以前住在山邊，現在住城裡，哪句正確？",
+          "options": [
+            "I use to lived near the hills.",
+            "I used to live near the hills.",
+            "I am used to live near the hills.",
+            "I used to living near the hills."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "used to 後不能用 lived。",
+            "used to + live 說過去狀態。",
+            "be used to 後接名詞或 -ing，與這裡不同。",
+            "used to 後面接 live，不接 living。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "we used to love",
+          "pattern": [
+            {
+              "text": "used to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "used to + live 說過去狀態。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "省略受詞關係代名詞",
+          "meaning": "place 是後面 love 的受詞；關係代名詞 that 可省略。",
+          "usage": "把一個地點和對它的回憶放在同一個名詞片語。",
+          "prompt": "朋友想介紹以前常去的書店，哪句正確？",
+          "options": [
+            "This is the shop I used visit.",
+            "This is the shop I used to visited.",
+            "This is the shop I used to visit.",
+            "This is the shop I used to visit it."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 used to 中的 to。",
+            "used to 後接原形 visit。",
+            "省略 that 時，visit 的受詞就是 shop。",
+            "it 造成受詞重複。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "the place we used to love",
+          "pattern": [
+            {
+              "text": "the place (that)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "省略 that 時，visit 的受詞就是 shop。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "現在完成進行式",
+          "meaning": "從過去一段時間持續至今的行為或想法。",
+          "usage": "描述一直以來的期待、練習或等待。",
+          "prompt": "一位舞者連續幾個月都在準備演出，哪句自然？",
+          "options": [
+            "She has being practicing for months.",
+            "She has been practice for months.",
+            "She have been practicing for months.",
+            "She has been practicing for months."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "完成進行式用 been，不用 being。",
+            "been 後需用 practicing。",
+            "主詞 she 搭配 has，不是 have。",
+            "has been practicing 表示持續數月。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I've been dreaming of",
+          "pattern": [
+            {
+              "text": "have been",
+              "fixed": true
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "has been practicing 表示持續數月。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "dream of + 人事物",
+          "meaning": "夢見或夢想某事；of 是介系詞，後可接名詞或 -ing。",
+          "usage": "談對未來的理想和希望。",
+          "prompt": "朋友一直夢想有一天能開一家小店，哪句自然？",
+          "options": [
+            "He dreams of open a small shop.",
+            "He dreams opening of a small shop.",
+            "He dreams of opening a small shop.",
+            "He dreams of to open a small shop."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "of 後應用 opening 而非 open。",
+            "opening 應接在 of 後面。",
+            "dream of + opening 表示夢想開店。",
+            "介系詞 of 後不能直接接 to open。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "dreaming of",
+          "pattern": [
+            {
+              "text": "dream of",
+              "fixed": true
+            },
+            {
+              "text": "something / verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "dream of + opening 表示夢想開店。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "if + 現在式：提出條件",
+          "meaning": "提出「如果有時間」的條件；if 子句可放句首或句尾。",
+          "usage": "禮貌邀請對方短暫談話時。",
+          "prompt": "想請朋友幫你看一幅畫，哪句最自然？",
+          "options": [
+            "If you have a minute, look at this painting.",
+            "If you will have a minute, look at this painting.",
+            "If you has a minute, look at this painting.",
+            "If you having a minute, look at this painting."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "if you have a minute 是自然的邀請開頭。",
+            "這種真實條件子句通常用現在式 have，不需 will。",
+            "you 搭配 have，不是 has。",
+            "缺少 are，且不符合此處的普通現在式。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "if you have a minute",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "subject + present verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "if you have a minute 是自然的邀請開頭。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "Why don’t we + 原形動詞？",
+          "meaning": "提出建議：「我們何不……？」語氣友好、商量。",
+          "usage": "邀請朋友一起做活動或換個地點。",
+          "prompt": "兩人想在日落前去河邊，哪句是自然的建議？",
+          "options": [
+            "Why don't we walk to the river?",
+            "Why don't we walking to the river?",
+            "Why we don't walk to the river?",
+            "Why don't we to walk to the river?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "Why don’t we + walk 語序與動詞形式正確。",
+            "助動詞 don’t 後用原形 walk。",
+            "一般問句需 don’t 放在主詞 we 之前。",
+            "we 後直接接 walk，不加 to。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "why don't we go",
+          "pattern": [
+            {
+              "text": "Why don't we",
+              "fixed": true
+            },
+            {
+              "text": "base verb?",
+              "fixed": false
+            }
+          ],
+          "explanation": "Why don’t we + walk 語序與動詞形式正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "talk about + 主題",
+          "meaning": "談論某件事情；about 引出談話的主題。",
+          "usage": "想邀人討論計畫、電影、問題或感受時。",
+          "prompt": "你和朋友想談一下明天的旅行，哪句正確？",
+          "options": [
+            "We should talk for the trip.",
+            "We should talk the trip about.",
+            "We should talk to the trip.",
+            "We should talk about the trip."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "talk for 不表示「談論某個話題」。",
+            "about 要放在主題前。",
+            "talk to 通常接人；旅程是主題。",
+            "talk about the trip 表示談論旅行。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "Talk about it",
+          "pattern": [
+            {
+              "text": "talk about",
+              "fixed": true
+            },
+            {
+              "text": "something",
+              "fixed": false
+            }
+          ],
+          "explanation": "talk about the trip 表示談論旅行。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "somewhere + 省略關係詞的子句",
+          "meaning": "somewhere 後面用子句限定是哪個地方；本句省略 that。",
+          "usage": "描述只有特定人知道或喜歡的地點。",
+          "prompt": "兩個朋友有一個只有他們知道的秘密花園，哪句自然？",
+          "options": [
+            "We found somewhere only we knowing.",
+            "We found somewhere we only knows.",
+            "We found somewhere only we know.",
+            "We found somewhere only us know."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少有限動詞 know。",
+            "we 後動詞要用 know，不用 knows。",
+            "only we know 正確描述只有我們知道的地方。",
+            "know 的主詞需用 we，不用受格 us。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "somewhere only we know",
+          "pattern": [
+            {
+              "text": "somewhere (that)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "only we know 正確描述只有我們知道的地方。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "could be：不確定的可能",
+          "meaning": "could 表示某種可能，但並非確定。",
+          "usage": "看到跡象，猜測一件事可能是重大轉變時。",
+          "prompt": "天色很暗，但不確定會不會下雨；哪句表達「可能」？",
+          "options": [
+            "This could to be a storm.",
+            "This could raining soon.",
+            "This could be a storm.",
+            "This could is rain soon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "could 後不加 to。",
+            "could 後要接原形動詞 be 等。",
+            "could be a storm 表示可能是暴風雨。",
+            "could 後不能接 is。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "This could be the end of everything",
+          "pattern": [
+            {
+              "text": "This could be",
+              "fixed": true
+            },
+            {
+              "text": "a noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "could be a storm 表示可能是暴風雨。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "the end of + 名詞",
+          "meaning": "指某事的結尾或終點；of 後接名詞。",
+          "usage": "談電影、旅行、一天或階段即將結束。",
+          "prompt": "一場長途旅行快結束，哪句自然？",
+          "options": [
+            "We are near the end to our trip.",
+            "We are near the end for our trip.",
+            "We are near the end our trip.",
+            "We are near the end of our trip."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "這個名詞組合一般用 of，不用 to。",
+            "for 不能取代表示所屬關係的 of。",
+            "end 與 our trip 之間缺少 of。",
+            "the end of our trip 直接指出旅行的尾聲。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "the end of everything",
+          "pattern": [
+            {
+              "text": "the end of",
+              "fixed": true
+            },
+            {
+              "text": "something",
+              "fixed": false
+            }
+          ],
+          "explanation": "the end of our trip 直接指出旅行的尾聲。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "反問中的直接問句與邀請",
+          "meaning": "主句用 Is this... 提問；that 引出的關係子句修飾 place，介系詞 of 留在句尾。",
+          "usage": "詢問眼前的地方是否就是自己一直嚮往的地點。",
+          "prompt": "抵達海邊小鎮，看見夢想中的房子，哪句正確？",
+          "options": [
+            "Is this the house that you have been dreaming of?",
+            "Is this the house that you have dreaming of?",
+            "Is this the house that you have been dreaming of it?",
+            "Is this the house that have you been dreaming of?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "主句倒裝 Is this，關係子句正常語序，句尾保留 of。",
+            "現在完成進行式缺少 been。",
+            "house 已是 dream of 的對象，不再加 it。",
+            "關係子句內不用 have you 的問句倒裝。"
+          ],
+          "sourceFile": "Somewhere_Only_We_Know_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "Is this the place that I've been dreaming of?",
+          "pattern": [
+            {
+              "text": "Is this",
+              "fixed": true
+            },
+            {
+              "text": "the noun",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "subject + have been + -ing + preposition?",
+              "fixed": false
+            }
+          ],
+          "explanation": "主句倒裝 Is this，關係子句正常語序，句尾保留 of。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

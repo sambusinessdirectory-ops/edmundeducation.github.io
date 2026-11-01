@@ -2973,5 +2973,1579 @@
     "sha256": "0347ae8cb1d1aa88dde7c5cf71c92e294ae18c50b499d6a540e0b63198a1624a",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "2fcac2d2211ac73132d14907ad59925af527b8cd11135e1c4610afb341f2b4c4"
+    },
+    {
+      "section": "advanced",
+      "filename": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "caf14465c8387fa4f732bb383b613c5d75c1000ae12ce7a2394505325215035a"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "feel one’s way through：摸索前進",
+          "meaning": "靠觸覺或有限的線索慢慢前進；歌詞為省略主詞的 -ing 片語。",
+          "usage": "停電、看不清路，或比喻面對陌生情況。",
+          "prompt": "停電後，小華要在走廊摸索前進。哪句最自然？",
+          "options": [
+            "She felt her way through to the dark hall.",
+            "She felt to her way through the dark hall.",
+            "She felt her way through the dark hall.",
+            "She felt her through way the dark hall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：through 後直接接穿過的空間，不能多加 to。",
+            "錯誤：feel one’s way 後不加 to。",
+            "正確：felt her way through 表示在走廊裡摸索走過。",
+            "錯誤：所有格與 way 的語序顛倒。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Feeling my way through the darkness」",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": true
+            },
+            {
+              "text": "way through",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "my / the darkness",
+          "explanation": "正確：felt her way through 表示在走廊裡摸索走過。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "被動分詞片語：guided by",
+          "meaning": "被某人或某事引導；句首沒有寫出主詞，承接歌者「我」。",
+          "usage": "用簡短片語說明行動受到什麼引導。",
+          "prompt": "迷路的旅客由志工帶領。哪句符合被動結構？",
+          "options": [
+            "Guided of a volunteer, we found the exit.",
+            "Guiding by a volunteer, we found the exit.",
+            "Guide by a volunteer, we found the exit.",
+            "Guided by a volunteer, we found the exit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：表示施事者用 by，不用 of。",
+            "錯誤：guiding 表示主動引導，不符被人帶領。",
+            "錯誤：需要過去分詞 guided，而非原形 guide。",
+            "正確：guided by 指「受到志工引導」。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「Guided by a beating heart」",
+          "pattern": [
+            {
+              "text": "過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "by",
+              "fixed": true
+            },
+            {
+              "text": "引導者",
+              "fixed": true
+            }
+          ],
+          "example": "Guided / a beating heart",
+          "explanation": "正確：guided by 指「受到志工引導」。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在分詞修飾名詞",
+          "meaning": "beating 描述心臟「正在跳動」的特徵。",
+          "usage": "描述正在發出聲音、移動或運作的事物。",
+          "prompt": "老師請大家靜聽正在滴答作響的時鐘。",
+          "options": [
+            "Listen to a clock ticked.",
+            "Listen to a ticking clock.",
+            "Listen to a clock tickingly.",
+            "Listen to a tick clock."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：ticked 在此不表示正在滴答響。",
+            "正確：ticking 是現在分詞作形容詞。",
+            "錯誤：tickingly 不是自然的時鐘修飾語。",
+            "錯誤：tick 是動詞原形，不能直接這樣修飾 clock。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「a beating heart」",
+          "pattern": [
+            {
+              "text": "a/an",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "beating / heart",
+          "explanation": "正確：ticking 是現在分詞作形容詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "can’t tell + 間接問句",
+          "meaning": "表示無法判斷或確定某件事，間接問句使用直述句語序。",
+          "usage": "不知道目的地、結果或答案時。",
+          "prompt": "朋友問：「你知道會議何時結束嗎？」你不確定。",
+          "options": [
+            "I can’t tell when does the meeting end.",
+            "I can’t tell when the meeting will end.",
+            "I can’t tell when will the meeting end.",
+            "I can’t tell when the meeting ending."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：不使用 does 的問句語序。",
+            "正確：when + 主詞 + will end。",
+            "錯誤：間接問句不採用 will the meeting 的倒裝。",
+            "錯誤：缺少完整限定動詞。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「I can't tell where the journey will end」",
+          "pattern": [
+            {
+              "text": "can’t tell",
+              "fixed": true
+            },
+            {
+              "text": "疑問詞",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "where / the journey will end",
+          "explanation": "正確：when + 主詞 + will end。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "疑問詞 + to-infinitive",
+          "meaning": "用精簡結構表達「該從哪裡開始」；與完整間接問句不同。",
+          "usage": "詢問下一步該在哪裡、如何或何時做。",
+          "prompt": "新同事不知道該從哪裡開始整理檔案。",
+          "options": [
+            "I don’t know where starting.",
+            "I don’t know where start to.",
+            "I don’t know where to start.",
+            "I don’t know where to starting."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：where starting 不能取代疑問詞加不定詞。",
+            "錯誤：to 必須放在動詞前。",
+            "正確：where to start 表示「從哪裡開始」。",
+            "錯誤：to 後用原形 start，不用 starting。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「where to start」",
+          "pattern": [
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "where / start",
+          "explanation": "正確：where to start 表示「從哪裡開始」。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "tell + 人 + 內容子句",
+          "meaning": "tell 後先接被告知者，再接完整訊息；that 可以省略。",
+          "usage": "傳達別人的話、建議或提醒。",
+          "prompt": "導遊告訴我們博物館週一休館。",
+          "options": [
+            "The guide told that us the museum is closed on Monday.",
+            "The guide told us is the museum closed on Monday.",
+            "The guide told us the museum is closed on Monday.",
+            "The guide told to us the museum is closed on Monday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：that 不能放在受詞 us 前。",
+            "錯誤：內容子句應使用直述語序。",
+            "正確：told us + 內容子句。",
+            "錯誤：tell someone 不必加 to。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「They tell me I'm too young to understand」",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "me / I’m too young to understand",
+          "explanation": "正確：told us + 內容子句。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "too + 形容詞 + to + 動詞",
+          "meaning": "表示程度過高（或過低），以致做不到後面的事。",
+          "usage": "談年齡、距離、重量或難度造成的限制。",
+          "prompt": "箱子太重，莉莉無法獨自搬動。",
+          "options": [
+            "The box is too heavy for Lily to carry.",
+            "The box is too heavy that Lily carry it.",
+            "The box is too heavy for Lily carrying.",
+            "The box is too heavy to Lily carry."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：too heavy for Lily to carry。",
+            "錯誤：too...to 結構不能用 that 代替 to。",
+            "錯誤：for Lily 後接 to carry。",
+            "錯誤：for 應引入執行者 Lily，再接 to carry。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「too young to understand」",
+          "pattern": [
+            {
+              "text": "too",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "young / understand",
+          "explanation": "正確：too heavy for Lily to carry。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "be caught up in + 名詞",
+          "meaning": "陷入或過度投入某事；此處是狀態，不是字面「被抓住」。",
+          "usage": "沉迷電影、工作或想法，忘了其他事情。",
+          "prompt": "阿明讀故事太投入，忘記看時間。",
+          "options": [
+            "He was caught up to the story.",
+            "He was caught up on the story.",
+            "He was caught up in the story.",
+            "He caught up in the story."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：此義固定搭配 in，不是 to。",
+            "錯誤：此義固定搭配 in，不是 on。",
+            "正確：was caught up in the story。",
+            "錯誤：少了 be 動詞 was。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「I'm caught up in a dream」",
+          "pattern": [
+            {
+              "text": "be caught up in",
+              "fixed": true
+            },
+            {
+              "text": "名詞／V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "a dream",
+          "explanation": "正確：was caught up in the story。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "未來式 + if 條件子句",
+          "meaning": "說未來可能結果；if 子句通常用現在式表未來條件。",
+          "usage": "預測在某個條件下可能發生的事。",
+          "prompt": "如果今晚下雨，我們就待在家。",
+          "options": [
+            "We will stayed home if it rains tonight.",
+            "We will stay home if it rains tonight.",
+            "We will stay home if it will rain tonight.",
+            "We staying home if it rains tonight."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：will 後必須接 stay 原形。",
+            "正確：主句 will stay、if 子句 rains。",
+            "錯誤：一般第一類條件句的 if 子句不用 will rain。",
+            "錯誤：主句缺少適當限定動詞。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「life will pass me by if I don't open up my eyes」",
+          "pattern": [
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "現在簡單式",
+              "fixed": true
+            }
+          ],
+          "example": "pass / I don’t open up my eyes",
+          "explanation": "正確：主句 will stay、if 子句 rains。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "pass + 人 + by：機會溜走",
+          "meaning": "此處指人生或機會在未留意時悄悄溜走；也可有字面「經過」之義。",
+          "usage": "提醒把握短暫活動和機會。",
+          "prompt": "展覽明天結束，朋友提醒你別錯過。",
+          "options": [
+            "Don’t let the art show pass you by.",
+            "Don’t let the art show passed you by.",
+            "Don’t let the art show pass by you it.",
+            "Don’t pass the art show me by."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：let + show + pass + you + by。",
+            "錯誤：let 後用原形 pass。",
+            "錯誤：多了一個 it，結構不自然。",
+            "錯誤：pass someone by 的受詞位置不對。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「life will pass me by」",
+          "pattern": [
+            {
+              "text": "pass",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "by",
+              "fixed": true
+            }
+          ],
+          "example": "me",
+          "explanation": "正確：let + show + pass + you + by。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "祈使句 + 受詞 + up",
+          "meaning": "叫醒某人；代名詞受詞放在 wake 與 up 中間。",
+          "usage": "請人提醒自己起床或叫醒家人。",
+          "prompt": "明早六點請哥哥叫醒你。",
+          "options": [
+            "Please wake up me at six.",
+            "Please waking me up at six.",
+            "Please wake me up at six.",
+            "Please wake me at up six."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：代名詞 me 應放 wake 和 up 之間。",
+            "錯誤：祈使句使用動詞原形 wake。",
+            "正確：wake me up。",
+            "錯誤：不能把 at 插在 wake me up 中間。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「wake me up」",
+          "pattern": [
+            {
+              "text": "wake",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "up",
+              "fixed": true
+            }
+          ],
+          "example": "me",
+          "explanation": "正確：wake me up。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "when + 現在式，談未來",
+          "meaning": "談未來「當……的時候」，時間子句通常不用 will。",
+          "usage": "約定在某個活動結束後做事。",
+          "prompt": "表演結束後打電話給爸爸。",
+          "options": [
+            "I’ll call Dad when the show will be over.",
+            "I’ll call Dad when the show over.",
+            "I’ll call Dad when is the show over.",
+            "I’ll call Dad when the show is over."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：未來時間子句不用 will be。",
+            "錯誤：缺少 is。",
+            "錯誤：when 子句使用直述語序。",
+            "正確：when the show is over。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「when it's all over」",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "現在簡單式",
+              "fixed": true
+            }
+          ],
+          "example": "it’s all over",
+          "explanation": "正確：when the show is over。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "形容詞比較級：wiser / older",
+          "meaning": "以 -er 比較現在與未來的程度，不一定明說 than。",
+          "usage": "談成長、學習後會變得如何。",
+          "prompt": "練習一年後，妮娜希望變得更快、更強壯。",
+          "options": [
+            "Nina hopes to be fastest and strongest next year.",
+            "Nina hopes to be faster and stronger next year.",
+            "Nina hopes to be faster and strongester next year.",
+            "Nina hopes to be more fast and more strong next year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：最高級不符合「比現在更……」的比較。",
+            "正確：fast→faster；strong→stronger。",
+            "錯誤：strongester 不是正確比較級。",
+            "錯誤：fast 和 strong 通常直接加 -er。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「When I'm wiser and I'm older」",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "比較級",
+              "fixed": true
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "比較級",
+              "fixed": true
+            }
+          ],
+          "example": "wiser / older",
+          "explanation": "正確：fast→faster；strong→stronger。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "過去進行式：was + -ing",
+          "meaning": "描寫過去某段時間持續進行的動作或探索。",
+          "usage": "回顧過去正在持續做的事情。",
+          "prompt": "昨晚八點時，我正在為畫展作準備。",
+          "options": [
+            "I was preparing for the art show at eight last night.",
+            "I preparing for the art show at eight last night.",
+            "I were preparing for the art show at eight last night.",
+            "I was prepare for the art show at eight last night."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：I was preparing 表示過去某時正在進行。",
+            "錯誤：缺少 was。",
+            "錯誤：I 應搭配 was，非 were。",
+            "錯誤：was 後需要 -ing。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「I was finding myself」",
+          "pattern": [
+            {
+              "text": "was/were",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "was / finding",
+          "explanation": "正確：I was preparing 表示過去某時正在進行。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "反身代名詞：find oneself",
+          "meaning": "這裡指逐漸認識自己；不是 find myself + -ing（發現自己正在做某事）。",
+          "usage": "談探索興趣、方向和自我認識。",
+          "prompt": "小傑旅行後更加了解自己。",
+          "options": [
+            "The trip helped Jay find himselfs.",
+            "The trip helped Jay find himself.",
+            "The trip helped Jay find herself.",
+            "The trip helped Jay find he."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：himselfs 不是反身代名詞。",
+            "正確：find himself 表示認識自我。",
+            "錯誤：Jay 在本題指男生，應用 himself。",
+            "錯誤：find oneself 中應用反身代名詞，而非 he。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「finding myself」",
+          "pattern": [
+            {
+              "text": "find",
+              "fixed": true
+            },
+            {
+              "text": "反身代名詞",
+              "fixed": true
+            }
+          ],
+          "example": "myself",
+          "explanation": "正確：find himself 表示認識自我。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "didn’t know + 省略 that 的子句",
+          "meaning": "know 後的內容子句可以省略 that；didn’t 後用 know 原形。",
+          "usage": "回顧當時未發現的事實。",
+          "prompt": "我當時不知道畫廊已經關門。",
+          "options": [
+            "I didn’t know was the gallery closed.",
+            "I didn’t know the gallery was closed.",
+            "I didn’t know the gallery close was.",
+            "I didn’t knew the gallery was closed."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：內容子句不用倒裝語序。",
+            "正確：didn’t know + 完整內容子句。",
+            "錯誤：動詞與補語順序不對。",
+            "錯誤：didn’t 後須用 know，不是 knew。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「I didn't know I was lost」",
+          "pattern": [
+            {
+              "text": "didn’t know",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I was lost",
+          "explanation": "正確：didn’t know + 完整內容子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "try + -ing：嘗試做看看",
+          "meaning": "強調曾試著做某事；不等於保證做到。也可說 try to do，但語意著眼點可能不同。",
+          "usage": "描述試過一種方法或體驗。",
+          "prompt": "房間太熱，艾瑪試著打開窗戶改善空氣。",
+          "options": [
+            "Emma tried opening the window to cool the room.",
+            "Emma tried to opening the window to cool the room.",
+            "Emma tried opened the window to cool the room.",
+            "Emma tried open the window to cool the room."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：tried opening 指試著採用開窗這方法。",
+            "錯誤：to 後不接 opening。",
+            "錯誤：tried 後不能直接接 opened。",
+            "錯誤：此句型需要 opening，而非裸原形。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「I tried carrying the weight of the world」",
+          "pattern": [
+            {
+              "text": "try",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "carrying",
+          "explanation": "正確：tried opening 指試著採用開窗這方法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "get the chance + to-infinitive",
+          "meaning": "有機會做某事；to 是不定詞標記。",
+          "usage": "談工作體驗、旅行或活動機會。",
+          "prompt": "學生獲得在舞台上唱歌的機會。",
+          "options": [
+            "Maya got the chance for sing on stage.",
+            "Maya got the chance to singing on stage.",
+            "Maya got the chance singing on stage.",
+            "Maya got the chance to sing on stage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：不能用 for sing 取代 to sing。",
+            "錯誤：to 後用原形。",
+            "錯誤：此句型使用 to sing，不直接用 singing。",
+            "正確：got the chance to sing。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「get the chance to travel the world」",
+          "pattern": [
+            {
+              "text": "get the chance to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "travel the world",
+          "explanation": "正確：got the chance to sing。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "not + any：否定中的任何",
+          "meaning": "在否定句中用 any 表示「沒有任何」。",
+          "usage": "說目前沒有安排、問題或想法。",
+          "prompt": "週日沒有任何會議安排。",
+          "options": [
+            "We don’t have any meetings on Sunday.",
+            "We doesn’t have any meetings on Sunday.",
+            "We don’t have some meetings on Sunday.",
+            "We don’t has any meetings on Sunday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：don’t have any meetings。",
+            "錯誤：we 搭配 don’t，不是 doesn’t。",
+            "錯誤：這裡用 any 才清楚表示「完全沒有」。",
+            "錯誤：don’t 後應為 have。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「I don't have any plans」",
+          "pattern": [
+            {
+              "text": "don’t/doesn’t have",
+              "fixed": true
+            },
+            {
+              "text": "any",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": true
+            }
+          ],
+          "example": "any / plans",
+          "explanation": "正確：don’t have any meetings。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "wish + (that) + could：願望",
+          "meaning": "表示對現況或不容易實現的事抱有願望；歌詞省略 I。",
+          "usage": "希望自己具有目前沒有的能力或機會。",
+          "prompt": "我希望我會彈鋼琴，能參加樂隊。",
+          "options": [
+            "I wish I could playing the piano.",
+            "I wish I could to play the piano.",
+            "I wish I can played the piano.",
+            "I wish I could play the piano."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：could 後用原形。",
+            "錯誤：could 後不加 to。",
+            "錯誤：can played 不是正確搭配。",
+            "正確：wish I could + 動詞原形。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「Wish that I could stay forever this young」",
+          "pattern": [
+            {
+              "text": "wish",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I / stay",
+          "explanation": "正確：wish I could + 動詞原形。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "be afraid + to-infinitive",
+          "meaning": "表示害怕或不害怕做某事；歌詞省略主詞和 be。",
+          "usage": "談面對新活動是否緊張。",
+          "prompt": "凱文不害怕向新同學打招呼。",
+          "options": [
+            "Kevin isn’t afraid to saying hello to new classmates.",
+            "Kevin isn’t afraid say hello to new classmates.",
+            "Kevin isn’t afraid to say hello to new classmates.",
+            "Kevin isn’t afraid of to say hello to new classmates."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後用 say 原形。",
+            "錯誤：缺少 to。",
+            "正確：not afraid to say。",
+            "錯誤：afraid of 後用 -ing；不能 of to say。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「Not afraid to close my eyes」",
+          "pattern": [
+            {
+              "text": "be (not) afraid to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "close my eyes",
+          "explanation": "正確：not afraid to say。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "被動分詞後置修飾：made for",
+          "meaning": "made for everyone 修飾前面的 game，接近 which is made for everyone。",
+          "usage": "簡短描述產品或活動的適用對象。",
+          "prompt": "這套遊戲是為小朋友設計的。",
+          "options": [
+            "This is a game making for children.",
+            "This is a game make for children.",
+            "This is a game made for children.",
+            "This is a game made to children."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：making 表主動製造，不是「被製作給」。",
+            "錯誤：需用過去分詞 made，而非 make。",
+            "正確：made for children 是後置分詞片語。",
+            "錯誤：此處「為……設計」用 for。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「a game made for everyone」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": true
+            }
+          ],
+          "example": "game / everyone",
+          "explanation": "正確：made for children 是後置分詞片語。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "be + 名詞：比喻定義",
+          "meaning": "用 be 將抽象概念比作某種事物；歌詞為比喻，不是獎品的字面定義。",
+          "usage": "簡單說明一件事是什麼或扮演的角色。",
+          "prompt": "活動的獎品是一張演唱會門票。",
+          "options": [
+            "The prize is a ticket to the concert.",
+            "The prize be a ticket to the concert.",
+            "The prize are a ticket to the concert.",
+            "The prize a ticket to the concert."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：The prize is + 名詞補語。",
+            "錯誤：一般現在式不能直接用 be 原形。",
+            "錯誤：單數主詞 prize 搭配 is。",
+            "錯誤：缺少 is。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「love is the prize」",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "名詞補語",
+              "fixed": true
+            }
+          ],
+          "example": "love / the prize",
+          "explanation": "正確：The prize is + 名詞補語。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "hope + 內容子句",
+          "meaning": "希望某件事實現；歌詞省略主詞 I，that 也未寫出。",
+          "usage": "向朋友表達對未來結果的希望。",
+          "prompt": "我希望莉亞明天能收到好消息。",
+          "options": [
+            "I hope Leah to gets good news tomorrow.",
+            "I hope for Leah gets good news tomorrow.",
+            "I hope that gets Leah good news tomorrow.",
+            "I hope that Leah gets good news tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：hope 後不能接 Leah to gets。",
+            "錯誤：hope for 後不接這種子句。",
+            "錯誤：that 後應為主詞 Leah 再接 gets。",
+            "正確：hope that + 完整子句。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「Hope I get the chance to travel the world」",
+          "pattern": [
+            {
+              "text": "hope",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "I get the chance",
+          "explanation": "正確：hope that + 完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "only + 數量：強調限制",
+          "meaning": "only 表示「只有」；歌詞強調能力或資源有限。",
+          "usage": "表達手上時間、座位或物品不多。",
+          "prompt": "我們只剩兩張入場券。",
+          "options": [
+            "We have only two ticket left.",
+            "We only have two tickets left.",
+            "We only has two tickets left.",
+            "We have only two tickets leaving."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：two 後要複數 tickets。",
+            "正確：only have two tickets left。",
+            "錯誤：we 搭配 have 而非 has。",
+            "錯誤：表示「剩下」要用 left，非 leaving。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「I only have two hands」",
+          "pattern": [
+            {
+              "text": "only",
+              "fixed": true
+            },
+            {
+              "text": "動詞／數量相關位置",
+              "fixed": true
+            }
+          ],
+          "example": "two hands",
+          "explanation": "正確：only have two tickets left。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "所有格 + 名詞：the weight of",
+          "meaning": "of 表示兩個名詞之間的關係；整組在歌詞中是承擔巨大壓力的比喻。",
+          "usage": "描述重量、顏色、名字等某物的屬性。",
+          "prompt": "工程師測量箱子的重量。",
+          "options": [
+            "The engineer checked the weight on the box.",
+            "The engineer checked the weight from the box.",
+            "The engineer checked the weight to the box.",
+            "The engineer checked the weight of the box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：on the box 是在箱子上，不表示重量所屬。",
+            "錯誤：表示箱子的重量通常用 of，不是 from。",
+            "錯誤：to 不能表示此處的所屬關係。",
+            "正確：the weight of the box。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「the weight of the world」",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "of",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "weight / world",
+          "explanation": "正確：the weight of the box。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "形容詞 lost：be + 過去分詞形容詞",
+          "meaning": "lost 在這裡描述迷路／迷失的狀態，不一定指「被某人弄丟」。",
+          "usage": "描述去陌生地方找不到路。",
+          "prompt": "在新城市裡，我們一度迷了路。",
+          "options": [
+            "We were lost in the new city.",
+            "We were losing in the new city.",
+            "We were lose in the new city.",
+            "We was lost in the new city."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：were lost。",
+            "錯誤：were losing 不等於迷路狀態。",
+            "錯誤：lose 是動詞原形，不是此處所需狀態。",
+            "錯誤：we 搭配 were。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「I was lost」",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "lost",
+              "fixed": true
+            }
+          ],
+          "example": "was / lost",
+          "explanation": "正確：were lost。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "darkness",
+          "meaning": "黑暗；也可比喻困惑或艱難時期",
+          "usage": "描述沒有光的環境；較文學的用法也可指心理或人生的低潮。",
+          "prompt": "哪一句正確使用「darkness」？",
+          "options": [
+            "The darkness made it hard to see the road.",
+            "We darkness the road after dinner today.",
+            "She put darkness beside her lunch at noon.",
+            "The teacher darknessed the test for us."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：darkness 是名詞，指黑暗使人難以看清道路。",
+            "錯誤：darkness 不是動詞；應說 walked along the road。",
+            "錯誤：darkness 不是可擺放的實體物品。",
+            "錯誤：不能把 darkness 當動詞並加 -ed。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：darkness 是名詞，指黑暗使人難以看清道路。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "journey",
+          "meaning": "旅程；也可指長期的成長過程",
+          "usage": "談旅行過程，或比喻學習、成長等持續一段時間的經歷。",
+          "prompt": "哪一句正確使用「journey」？",
+          "options": [
+            "She journeyed a sandwich to make lunch.",
+            "Our journey took three hours by train.",
+            "The journey is a ticket I wear to school.",
+            "I journey my bags before I leave home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：journey 作動詞可表示旅行，但不能直接帶 sandwich 當受詞。",
+            "正確：journey 作名詞，表示搭火車的旅程。",
+            "錯誤：journey 是經歷或行程，不是可穿戴的車票。",
+            "錯誤：打包行李應說 pack my bags；journey 在這裡不能如此當動詞。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：journey 作名詞，表示搭火車的旅程。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "where to start",
+          "meaning": "從哪裡開始；該如何著手",
+          "usage": "不知道如何開始新任務時，可用 where to + 動詞原形。",
+          "prompt": "哪一句正確使用「where to start」？",
+          "options": [
+            "I know where to starting the new project.",
+            "The coach asked where to started the match.",
+            "This book is long; I don’t know where to start.",
+            "She where to start her lunch with a spoon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後應接 start 原形，不是 starting。",
+            "錯誤：to 後應接 start 原形，不是 started。",
+            "正確：表示書很長，不知從哪裡開始閱讀。",
+            "錯誤：where to start 不是可以放在主詞後直接當主要動詞的片語。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：表示書很長，不知從哪裡開始閱讀。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "too young to understand",
+          "meaning": "年紀太小，還無法理解",
+          "usage": "too + 形容詞 + to + 原形動詞，表示程度過高而無法做某事。",
+          "prompt": "哪一句正確使用「too young to understand」？",
+          "options": [
+            "She is too young for understand the story.",
+            "He is too young to understand this hard idea.",
+            "He is too young understanding this rule.",
+            "This child is too young understand that joke."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：此處不應使用 for understand。",
+            "正確：表達孩子年紀尚小，難以理解抽象想法。",
+            "錯誤：too young 後要接 to understand，不是 understanding。",
+            "錯誤：缺少 to，標準結構是 too young to understand。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：表達孩子年紀尚小，難以理解抽象想法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wiser",
+          "meaning": "更有智慧的；更明智的",
+          "usage": "wise 的比較級，用來比較不同時期或兩個人的判斷力。",
+          "prompt": "哪一句正確使用「wiser」？",
+          "options": [
+            "After that mistake, I made a wiser choice.",
+            "This advice is the wiser of all advice.",
+            "My friend wiser a new bag at the shop.",
+            "He is more wiser than he was last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：wiser 修飾 choice，指更明智的決定。",
+            "錯誤：這裡想表達最高級，應用 wisest 或更自然的說法。",
+            "錯誤：wiser 是形容詞比較級，不是購買的動詞。",
+            "錯誤：wiser 已是比較級，不再加 more。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：wiser 修飾 choice，指更明智的決定。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "all this time",
+          "meaning": "一直以來；這整段時間",
+          "usage": "回顧一段期間，強調某個情況其實一直持續。",
+          "prompt": "哪一句正確使用「all this time」？",
+          "options": [
+            "All this time is a bag beside my chair.",
+            "I bought all this time for twenty dollars.",
+            "She all this time her bike to the station.",
+            "All this time, I thought the shop was closed."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：all this time 是時間表達，不是可充當袋子的名詞。",
+            "錯誤：時間表達不能像商品一樣購買。",
+            "錯誤：不能拿時間片語代替 rode 等主要動詞。",
+            "正確：表示自己一直以為商店沒有開門。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：表示自己一直以為商店沒有開門。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "lost",
+          "meaning": "迷路的；也可形容人生中感到迷惘",
+          "usage": "描述找不到方向，或比喻不清楚自己下一步該怎麼辦。",
+          "prompt": "哪一句正確使用「lost」？",
+          "options": [
+            "She lost her homework to happy today.",
+            "I lost at the bus at eight this morning.",
+            "I felt lost when I moved to a new city.",
+            "We were lost of the map in the library."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：lost 的受詞及後續搭配不合句意。",
+            "錯誤：lost 作動詞時通常要有受詞，例如 lost my ticket。",
+            "正確：到陌生城市後覺得迷惘，是 lost 的自然引申用法。",
+            "錯誤：be lost 不搭配 of the map；可說 We were lost without a map。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：到陌生城市後覺得迷惘，是 lost 的自然引申用法。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "plans",
+          "meaning": "計畫；預先安排的事情",
+          "usage": "談未來活動或安排，常用 make plans、have plans。",
+          "prompt": "哪一句正確使用「plans」？",
+          "options": [
+            "She is plans the trip with her friends.",
+            "I plans my test before the next Monday.",
+            "We have no plans for the weekend yet.",
+            "We have plans going to the zoo tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：進行式應說 is planning。",
+            "錯誤：plans 是名詞複數或第三人稱動詞，不能搭配 I plans。",
+            "正確：表示週末還沒有安排。",
+            "錯誤：較自然為 have plans to go / plans for going。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：表示週末還沒有安排。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "forever",
+          "meaning": "永遠；一直持續下去",
+          "usage": "描述希望一件事持續很久或永不結束，注意歌詞是詩意語序。",
+          "prompt": "哪一句正確使用「forever」？",
+          "options": [
+            "My teacher forever the lesson at nine.",
+            "I hope we can stay friends forever.",
+            "He is forever years old this Monday.",
+            "We bought two forevers at the shop."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：forever 是副詞，不是上課的動詞。",
+            "正確：forever 修飾 stay friends，表示希望友誼一直延續。",
+            "錯誤：forever 不能直接與 years old 這樣描述年齡。",
+            "錯誤：forever 不是可數商品，不能說 two forevers。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：forever 修飾 stay friends，表示希望友誼一直延續。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "prize",
+          "meaning": "獎品；獎項；值得追求的收穫",
+          "usage": "比賽得獎時可用 prize；歌曲把愛比喻為人生的獎賞。",
+          "prompt": "哪一句正確使用「prize」？",
+          "options": [
+            "He won first prize in the school art show.",
+            "The prize is how many students are absent.",
+            "She prized the door to get on the bus.",
+            "I took a prize to school by walking it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：win first prize 是自然的得獎搭配。",
+            "錯誤：此句想說缺席人數，不能直接以 the prize 表示。",
+            "錯誤：prize 作動詞是珍視，不表示開門或搭車。",
+            "錯誤：獎品不是可以自己走路的對象；walking it 不合語境。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：win first prize 是自然的得獎搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "made for everyone",
+          "meaning": "為每個人設計／準備的",
+          "usage": "be made for + 人，表示某物是為特定使用者打造；歌曲是人生比喻。",
+          "prompt": "哪一句正確使用「made for everyone」？",
+          "options": [
+            "The chairs made for everyone are sits here.",
+            "This game made everyone for a new class.",
+            "She made for everyone the shop before lunch.",
+            "This free game was made for everyone to enjoy."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：are sits 不合文法；可說 The chairs are made for everyone。",
+            "錯誤：缺少 be 或明確受詞，且意思不完整。",
+            "錯誤：made for everyone 不能當成前往商店的動詞片語。",
+            "正確：被動式 was made for everyone 表示人人都能享受。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：被動式 was made for everyone 表示人人都能享受。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    }
   }
 }

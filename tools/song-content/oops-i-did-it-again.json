@@ -3267,5 +3267,1501 @@
     "sha256": "3577a6dddba2c1d8bab3095c755982a2eed765a73c0360dfc3445cf3556790d0",
     "selectedOn": "2026-10-29",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "986aac145964e5a3b51fc093c3bb47a8b2a33cc9d975813e13566441f068983f"
+    },
+    {
+      "section": "advanced",
+      "filename": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "ae233ce24a194b256aeb28447edffb376883826b3ff5cb226a3841ec3686a48a"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "think + 省略 that 的陳述子句",
+          "meaning": "我認為／我想某事是真的。",
+          "usage": "表達尚未完全確定的看法；歌詞省略 that。",
+          "prompt": "修理師看了舊鐘，認為它還能運作。他怎樣說？",
+          "options": [
+            "I think this clock can work again.",
+            "I think working this clock again.",
+            "I think can this clock work again.",
+            "I think this clock to work again."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：我認為／我想某事是真的。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：working 不能代替完整的陳述子句。",
+            "錯誤：間接陳述應用主詞在前的語序。",
+            "錯誤：think 後不能直接用受詞加 to work 表示此想法。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I think I did it again",
+          "pattern": [
+            {
+              "text": "I think (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整想法",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：我認為／我想某事是真的。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "一般過去式 + again",
+          "meaning": "過去又做了一次同樣的事。",
+          "usage": "描述已完成的重複行動。",
+          "prompt": "陶藝家昨天做過一個杯子，今天又做了一個同樣的杯子。",
+          "options": [
+            "I make the same cup again yesterday.",
+            "I made the same cup again today.",
+            "I making the same cup again today.",
+            "I made again the same cup yesterday tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：昨天需用過去式 made，不用現在式 make。",
+            "正確：過去又做了一次同樣的事。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：主句缺少 be 動詞，且未表達完整時態。",
+            "錯誤：yesterday 與 tomorrow 互相衝突，語序也不自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I did it again",
+          "pattern": [
+            {
+              "text": "did + 事情 + again",
+              "fixed": true
+            },
+            {
+              "text": "did、事情",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：過去又做了一次同樣的事。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "make + 人 + 原形動詞",
+          "meaning": "使某人產生某個想法或做某事。",
+          "usage": "形容某人的言語或行為引起別人的反應。",
+          "prompt": "魔術師用小把戲令觀眾相信硬幣消失了。",
+          "options": [
+            "The trick made us believing the coin was gone.",
+            "The trick made us to believe the coin was gone.",
+            "The trick made believe us the coin was gone.",
+            "The trick made us believe the coin was gone."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處應接原形 believe，而非 believing。",
+            "錯誤：主動式 make 後的補語動詞不加 to。",
+            "錯誤：make 後應先放人，再接原形動詞。",
+            "正確：使某人產生某個想法或做某事。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I made you believe",
+          "pattern": [
+            {
+              "text": "made + 人 + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "人、動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：使某人產生某個想法或做某事。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "比較：more than just + 名詞",
+          "meaning": "不只是某個身分或事物，強調超出一般程度。",
+          "usage": "想指出一個人或事物具有更多角色或價值。",
+          "prompt": "社區花園除了種菜，還是鄰居相聚的地方。",
+          "options": [
+            "The garden is more than just a place for plants.",
+            "The garden is just only a place for plants.",
+            "The garden is less than just a place for plants.",
+            "The garden is more as just a place for plants."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不只是某個身分或事物，強調超出一般程度。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：just only 表示「僅僅」，沒有「不只是」的意思。",
+            "錯誤：less than 表示較少，與題意相反。",
+            "錯誤：比較結構應用 than，不用 as。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "more than just friends",
+          "pattern": [
+            {
+              "text": "more than just",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：不只是某個身分或事物，強調超出一般程度。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "might + 原形動詞",
+          "meaning": "可能發生或可能是真的，語氣保留。",
+          "usage": "猜測尚未確定的情況。",
+          "prompt": "天上有烏雲，但還不確定會不會下雨。",
+          "options": [
+            "It might rains this afternoon.",
+            "It might raining this afternoon.",
+            "It might to rain this afternoon.",
+            "It might rain this afternoon."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：情態動詞後用原形 rain，不加 s。",
+            "錯誤：might 後不可直接接 raining。",
+            "錯誤：might 後不用 to-infinitive。",
+            "正確：可能發生或可能是真的，語氣保留。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "It might seem like a crush",
+          "pattern": [
+            {
+              "text": "might + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：可能發生或可能是真的，語氣保留。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "seem like + 名詞",
+          "meaning": "看起來像某一種事物或情況。",
+          "usage": "根據表象作初步判斷。",
+          "prompt": "博物館導覽員指著一塊形狀像心的石頭。",
+          "options": [
+            "This stone seems like a heart.",
+            "This stone seems a heart like.",
+            "This stone seem like a heart.",
+            "This stone seems like to a heart."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：看起來像某一種事物或情況。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：seem like 順序不可顛倒。",
+            "錯誤：單數主詞 this stone 應接 seems。",
+            "錯誤：like 後面接名詞，不加 to。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "seem like a crush",
+          "pattern": [
+            {
+              "text": "seem like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：看起來像某一種事物或情況。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "doesn’t mean + that 子句",
+          "meaning": "不代表某件事情就一定是真的。",
+          "usage": "糾正別人由表象作出的推論。",
+          "prompt": "畫家笑了，但她並不表示已經同意這個計畫。",
+          "options": [
+            "Her smile not means that she agrees.",
+            "Her smile does not mean that she agrees.",
+            "Her smile does not means that she agrees.",
+            "Her smile does not mean she agreeing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：一般現在式否定需 does not mean。",
+            "正確：不代表某件事情就一定是真的。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：does not 後用原形 mean。",
+            "錯誤：agreeing 缺少助動詞，無法構成完整子句。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "it doesn't mean that I'm serious",
+          "pattern": [
+            {
+              "text": "doesn't mean (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：不代表某件事情就一定是真的。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "to + 原形動詞作名詞性片語",
+          "meaning": "把一個動作當作正在討論的事情。",
+          "usage": "抽象地談論某個行為；原句是詩意片段，不能當作完整獨立句。",
+          "prompt": "作為故事標題，哪個片語正確表示「幫助別人」？",
+          "options": [
+            "To help other people",
+            "To helped other people",
+            "To helps other people",
+            "To helping other people"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：把一個動作當作正在討論的事情。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：to 後不可接過去式 helped。",
+            "錯誤：to 後不可接第三人稱單數 helps。",
+            "錯誤：不定詞 to 後接原形，不接 helping。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "to lose all my senses",
+          "pattern": [
+            {
+              "text": "to + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：把一個動作當作正在討論的事情。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "so + 副詞 + 形容詞性描述",
+          "meaning": "強調某個行為「非常符合平日的自己」。",
+          "usage": "描述一個人習慣性的風格；歌詞 typically me 是口語／不規則搭配，不是一般形容詞句型。",
+          "prompt": "一個朋友又忘了帶帽子，大家都知道他常這樣；哪句最自然？",
+          "options": [
+            "That is too typical to him.",
+            "That is so typically of him.",
+            "That is so typical of him.",
+            "That is so typical him is."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：典型屬性通常用 typical of，不用 typical to。",
+            "錯誤：標準典型表達用 typical of，不用 typically of。",
+            "正確：強調某個行為「非常符合平日的自己」。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：句尾多餘 is，語序錯。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "just so typically me",
+          "pattern": [
+            {
+              "text": "so + 副詞",
+              "fixed": true
+            },
+            {
+              "text": "描述方式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：強調某個行為「非常符合平日的自己」。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "play with + 名詞",
+          "meaning": "與某物玩耍；對感情可表示玩弄。",
+          "usage": "描述遊戲或別人的感受；歌詞是情感上的比喻。",
+          "prompt": "小孩在草地上玩紙飛機。",
+          "options": [
+            "The child played from a paper plane.",
+            "The child played with a paper plane.",
+            "The child played at a paper plane.",
+            "The child played to a paper plane."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：from 不能表達和某物玩耍。",
+            "正確：與某物玩耍；對感情可表示玩弄。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：此義需用 play with，非 play at。",
+            "錯誤：此義需用 with，不是 to。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I played with your heart",
+          "pattern": [
+            {
+              "text": "play with",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：與某物玩耍；對感情可表示玩弄。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "get lost in + 名詞",
+          "meaning": "在某處迷路或太投入某活動而迷失。",
+          "usage": "迷路、迷失方向，或比喻沉浸其中。",
+          "prompt": "遊客在舊城的小巷中找不到出口。",
+          "options": [
+            "The visitors got lose in the old town.",
+            "The visitors got lost to the old town.",
+            "The visitors got lost on the old town.",
+            "The visitors got lost in the old town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：get 後用過去分詞／形容詞 lost，不是 lose。",
+            "錯誤：此情境應用 in 表示在某範圍內迷路。",
+            "錯誤：on 不適合表示在城區內迷路。",
+            "正確：在某處迷路或太投入某活動而迷失。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Got lost in the game",
+          "pattern": [
+            {
+              "text": "get lost in",
+              "fixed": true
+            },
+            {
+              "text": "地點或活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在某處迷路或太投入某活動而迷失。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be in love",
+          "meaning": "正處於愛戀的狀態。",
+          "usage": "描述對某人的愛慕；若說明對象常加 with。",
+          "prompt": "兩位同事已經交往多年，互相深愛。",
+          "options": [
+            "They in love with each other.",
+            "They are in loving with each other.",
+            "They are on love with each other.",
+            "They are in love with each other."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：句子必須有 be 動詞 are。",
+            "錯誤：in love 是狀態，不是 in loving。",
+            "錯誤：固定搭配是 in love。",
+            "正確：正處於愛戀的狀態。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I'm in love",
+          "pattern": [
+            {
+              "text": "be in love",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：正處於愛戀的狀態。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "被動式 be + 過去分詞",
+          "meaning": "表示主詞接受某項動作。",
+          "usage": "焦點放在接受動作的事物，而非做動作的人。",
+          "prompt": "美術館的新畫作是從另一個城市運來的。",
+          "options": [
+            "The painting was sent from another city.",
+            "The painting sent from another city yesterday.",
+            "The painting was send from another city.",
+            "The painting was sending from another city."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示主詞接受某項動作。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：缺少 be 動詞，不能構成一般被動式。",
+            "錯誤：被動式用過去分詞 sent，不是原形 send。",
+            "錯誤：was sending 是主動進行式，不是被送來。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'm sent from above",
+          "pattern": [
+            {
+              "text": "be + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示主詞接受某項動作。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "not that + 形容詞",
+          "meaning": "沒有別人以為的那麼……。",
+          "usage": "溫和否定某個程度，或澄清印象。",
+          "prompt": "小鎮的山坡看起來很高，走上去卻不算太難。",
+          "options": [
+            "The hill is not those hard to climb.",
+            "The hill not that hard to climb.",
+            "The hill is not that hard to climb.",
+            "The hill is not that hardly to climb."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：程度修飾用 that，不用 those。",
+            "錯誤：be 動詞 is 不可省略。",
+            "正確：沒有別人以為的那麼……。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：hardly 是副詞，不等於形容詞 hard。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I'm not that innocent",
+          "pattern": [
+            {
+              "text": "not that",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：沒有別人以為的那麼……。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be + -ing：現在進行式",
+          "meaning": "正在發生的動作。",
+          "usage": "描述說話當下持續的行為。",
+          "prompt": "在車站，孩子正畫一張地圖。",
+          "options": [
+            "The child drawing a map now.",
+            "The child is draw a map now.",
+            "The child is drawing a map now.",
+            "The child draws a map yesterday now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：現在進行式必須有 be 動詞。",
+            "錯誤：be 後需 drawing，不接 draw。",
+            "正確：正在發生的動作。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：yesterday 與 now 互相衝突。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I'm dreaming away",
+          "pattern": [
+            {
+              "text": "be + 動詞 -ing",
+              "fixed": true
+            },
+            {
+              "text": "活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：正在發生的動作。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "wish + that 陳述子句（歌詞分詞片段）",
+          "meaning": "表示心中的希望，但原詞是沒有明確主句的分詞片段。",
+          "usage": "談願望；此處「heroes, they」是重複主詞的口語特色，不建議模仿成正式語法。",
+          "prompt": "旅行者希望今天能看到彩虹。",
+          "options": [
+            "I wish that I could see a rainbow today.",
+            "I wishing that I could see a rainbow today.",
+            "I wish that could I see a rainbow today.",
+            "I wish to that see a rainbow today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示心中的希望，但原詞是沒有明確主句的分詞片段。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：缺少 be，且此處應用 I wish。",
+            "錯誤：wish 子句應用陳述語序，不倒裝。",
+            "錯誤：wish that 後應接子句，而非 to see。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Wishing that heroes, they truly exist",
+          "pattern": [
+            {
+              "text": "wishing that",
+              "fixed": true
+            },
+            {
+              "text": "完整主詞動詞句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示心中的希望，但原詞是沒有明確主句的分詞片段。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "動詞 + -ing 分詞表同時動作",
+          "meaning": "說明主要動作發生時，另一件事也正在進行。",
+          "usage": "描述兩個同時發生的活動；歌詞帶詩意。",
+          "prompt": "小女孩一邊笑一邊看小狗玩。",
+          "options": [
+            "She smiled watching the dogs play.",
+            "She smiled watches the dogs play.",
+            "She smiled to watching the dogs play.",
+            "She smiled watch the dogs play."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：說明主要動作發生時，另一件事也正在進行。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：兩個限定動詞不能直接連寫。",
+            "錯誤：to watching 的形式不適合此處。",
+            "錯誤：這裡需要 watching 表伴隨動作。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I cry watching the days",
+          "pattern": [
+            {
+              "text": "動詞 + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "同時的動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：說明主要動作發生時，另一件事也正在進行。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "Can’t you + 原形動詞？",
+          "meaning": "帶情緒地問「難道你不能……嗎？」。",
+          "usage": "確認對方是否能注意某件明顯事情；有時可能帶責備。",
+          "prompt": "大家都在看海上的鯨魚，朋友卻沒看見。",
+          "options": [
+            "Can’t you sees the whale near the boat?",
+            "Can’t you see the whale near the boat?",
+            "Can’t you to see the whale near the boat?",
+            "Can’t you seeing the whale near the boat?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：can 後需原形 see，不加 s。",
+            "正確：帶情緒地問「難道你不能……嗎？」。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：can 後不能加 to。",
+            "錯誤：can 後不能直接用 seeing。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Can't you see I'm a fool",
+          "pattern": [
+            {
+              "text": "Can't you + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：帶情緒地問「難道你不能……嗎？」。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "before + 主詞 + 動詞",
+          "meaning": "在某件事發生之前。",
+          "usage": "安排先後順序。",
+          "prompt": "登山前，導遊提醒大家帶水。",
+          "options": [
+            "Check your water before you leaving.",
+            "Check your water before leave you.",
+            "Check your water before to you leave.",
+            "Check your water before you leave."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：before 後接完整子句時需 you leave。",
+            "錯誤：不能用 leave you 代替主詞在前的子句。",
+            "錯誤：before 後不能直接接 to you leave。",
+            "正確：在某件事發生之前。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "before you go",
+          "pattern": [
+            {
+              "text": "before + 子句",
+              "fixed": true
+            },
+            {
+              "text": "事件",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在某件事發生之前。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "there is + 不定代名詞",
+          "meaning": "表示存在某件事情或物品。",
+          "usage": "介紹一件尚未確切說明的事。",
+          "prompt": "盒子裡有一張特別的卡片。",
+          "options": [
+            "There something special is in the box.",
+            "There is something special in the box.",
+            "There are something special in the box.",
+            "There is special something in the box."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：存在句正確順序是 There is something。",
+            "正確：表示存在某件事情或物品。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：something 視為單數，需 is。",
+            "錯誤：不定代名詞後接修飾形容詞 special。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "there's something",
+          "pattern": [
+            {
+              "text": "there is",
+              "fixed": true
+            },
+            {
+              "text": "某事／某物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示存在某件事情或物品。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "want + 人 + to + 原形動詞",
+          "meaning": "希望某人做某事。",
+          "usage": "提出希望或意願。",
+          "prompt": "導覽員希望訪客仔細看這幅畫。",
+          "options": [
+            "I want to you look at this painting.",
+            "I want you to looking at this painting.",
+            "I want you look at this painting.",
+            "I want you to look at this painting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：人應放在 want 後、to 前。",
+            "錯誤：to 後用原形 look，不用 looking。",
+            "錯誤：want + 人後需加 to。",
+            "正確：希望某人做某事。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I want you to have",
+          "pattern": [
+            {
+              "text": "want + 人 + to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：希望某人做某事。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "省略關係代名詞的修飾子句",
+          "meaning": "用後面的子句描述前面的東西。",
+          "usage": "受詞關係代名詞可省略，原文確有此結構。",
+          "prompt": "攝影師找到一張她想送給媽媽的照片。",
+          "options": [
+            "I found a photo want my mother to have.",
+            "I found a photo I want to my mother have.",
+            "I found a photo I want my mother to have.",
+            "I found a photo I want my mother have."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：後置子句缺少主詞 I。",
+            "錯誤：人和 to 的位置顛倒。",
+            "正確：用後面的子句描述前面的東西。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：want + 人 + to + 動詞，不能漏掉 to。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "something I want you to have",
+          "pattern": [
+            {
+              "text": "名詞 +（省略 that）",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用後面的子句描述前面的東西。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "否定疑問句 isn’t + 主詞？",
+          "meaning": "用否定問句確認自己已想到的事情。",
+          "usage": "驚訝地辨認某物；此歌詞省略問句後半，屬口語不完整句。",
+          "prompt": "博物館裡一位訪客指著照片問：「這不是你的朋友嗎？」",
+          "options": [
+            "Doesn’t this your friend in the photo?",
+            "Isn’t this is your friend in the photo?",
+            "Isn’t your friend this in the photo?",
+            "Isn’t this your friend in the photo?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此為 be 動詞問句，不用 doesn’t。",
+            "錯誤：isn’t 已包含 is，不再加第二個 is。",
+            "錯誤：主詞 this 應直接接在 isn’t 後。",
+            "正確：用否定問句確認自己已想到的事情。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "isn't this?",
+          "pattern": [
+            {
+              "text": "isn't + 主詞",
+              "fixed": true
+            },
+            {
+              "text": "名詞／補足內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用否定問句確認自己已想到的事情。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "thought + 過去式陳述子句",
+          "meaning": "我原先認為某件事發生了。",
+          "usage": "報告先前所相信的資訊；原句沒有明說想法現已改變。",
+          "prompt": "觀眾原以為畫作已被送往另一座城市。",
+          "options": [
+            "I thought they moving the painting yesterday.",
+            "I thought they moved the painting yesterday.",
+            "I thought they moves the painting yesterday.",
+            "I thought did they move the painting yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少完整限定動詞。",
+            "正確：我原先認為某件事發生了。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：yesterday 搭配 moved 比較合適。",
+            "錯誤：thought 後為陳述句語序，不能倒裝 did。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I thought the old lady dropped it",
+          "pattern": [
+            {
+              "text": "I thought (that)",
+              "fixed": true
+            },
+            {
+              "text": "過去式子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：我原先認為某件事發生了。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "drop + 受詞 + into + 地點",
+          "meaning": "把某物丟進或掉進某個空間。",
+          "usage": "描述物品從外面進入容器或水中。",
+          "prompt": "攝影師不小心把筆掉進箱子裡。",
+          "options": [
+            "She dropped into her pen the box.",
+            "She dropped her pen onto the box inside.",
+            "She dropped her pen into the box.",
+            "She dropped her pen through the box."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：應先放受詞 her pen，再放 into 地點。",
+            "錯誤：onto 是落在表面，不是進到裡面。",
+            "正確：把某物丟進或掉進某個空間。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：through 表示穿過，不是掉進盒子。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "dropped it into the ocean",
+          "pattern": [
+            {
+              "text": "dropped + 東西 + into",
+              "fixed": true
+            },
+            {
+              "text": "容器／空間",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：把某物丟進或掉進某個空間。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "for + 人：受益者",
+          "meaning": "為某人取得某物。",
+          "usage": "描述為別人購買、尋找、拿取東西；ya 是 you 的口語拼寫。",
+          "prompt": "朋友幫莉亞拿了一張節目表。",
+          "options": [
+            "He got for a program Lia.",
+            "He got a program to Lia for.",
+            "He got a program for Lia.",
+            "He got a program by Lia."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：for 後應直接接人，名詞受詞在前。",
+            "錯誤：這個語序不適合表示受益者。",
+            "正確：為某人取得某物。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：by 指動作方式或執行者，不表示「替某人」。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "got it for ya",
+          "pattern": [
+            {
+              "text": "got + 東西 + for",
+              "fixed": true
+            },
+            {
+              "text": "受益者",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：為某人取得某物。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "shouldn’t have + 過去分詞",
+          "meaning": "原意是「過去不應該做」，在收禮時也可作感謝的客套話。",
+          "usage": "說過去行為不妥，或收到貼心禮物時客氣回應；原歌省略已知動作。",
+          "prompt": "朋友送了一件貼心小禮物，你驚喜地回應。",
+          "options": [
+            "You shouldn’t having! Thank you so much!",
+            "You shouldn’t have! Thank you so much!",
+            "You shouldn’t had! Thank you so much!",
+            "You shouldn’t has! Thank you so much!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：shouldn’t 後不能直接使用 having。",
+            "正確：原意是「過去不應該做」，在收禮時也可作感謝的客套話。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：shouldn’t 後不用 had。",
+            "錯誤：情態動詞後需原形 have。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "you shouldn't have",
+          "pattern": [
+            {
+              "text": "shouldn't have + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "過去動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：原意是「過去不應該做」，在收禮時也可作感謝的客套話。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "in the end：最後",
+          "meaning": "最後／結果如何。",
+          "usage": "談事情結束時發生的結果。",
+          "prompt": "雖然比賽一開始很難，球隊最後贏了。",
+          "options": [
+            "In end, our team won the game.",
+            "In the ending, our team won the game.",
+            "In the end, our team won the game.",
+            "At the end, our team won the game of finally."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：固定短語需要 the。",
+            "錯誤：表示「結果／最後」常用 in the end，不用 in the ending。",
+            "正確：最後／結果如何。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：at the end 常需說明某事的末端，這句結構不自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "in the end",
+          "pattern": [
+            {
+              "text": "in the end",
+              "fixed": true
+            },
+            {
+              "text": "最後的結果",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：最後／結果如何。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "make someone believe",
+          "meaning": "使某人相信某事",
+          "usage": "談論言語、證據或行為如何讓人形成某種信念。",
+          "prompt": "哪一句正確使用「make someone believe」？",
+          "options": [
+            "The picture made us believe into a blue bicycle.",
+            "The picture made us believe for three hours of rain.",
+            "The picture made us believe the story was real.",
+            "The picture made us believe at the train station."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：believe into 不適用此意，句意也不完整。",
+            "錯誤：believe for three hours of rain 不能表達相信的內容。",
+            "正確：照片讓我們相信故事是真的，搭配 make + 人 + believe + 子句。",
+            "錯誤：believe 後的地點片語不能自然表示「相信某件事」。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：照片讓我們相信故事是真的，搭配 make + 人 + believe + 子句。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "senses",
+          "meaning": "感官；理智（依語境）",
+          "usage": "常見 come to one’s senses 表示恢復理智；lose one’s senses 可作強烈、較不尋常的說法。",
+          "prompt": "哪一句正確使用「senses」？",
+          "options": [
+            "After the shock, he slowly came to his senses.",
+            "Her senses were a ticket she bought for the show.",
+            "The loud music senses our ears during the concert.",
+            "After sleeping, Mia could senses the cold wind clearly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：come to his senses 指逐漸恢復清醒或理智。",
+            "錯誤：senses 不是可購買的票券。",
+            "錯誤：senses 作複數名詞，不能這樣當動詞。",
+            "錯誤：sense 作動詞應為 sense，不是 could senses。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：come to his senses 指逐漸恢復清醒或理智。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "typically",
+          "meaning": "通常地；典型地",
+          "usage": "常用 typically + 動詞，或 typically + 形容詞；表示常見特徵。",
+          "prompt": "哪一句正確使用「typically」？",
+          "options": [
+            "The photo is typically because it has two people.",
+            "We typically the lunch near the river each day.",
+            "Our teacher typically arrives early on Mondays.",
+            "The train typically at seven and leaves at eight."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：typically 不能單獨作表語形容詞；可用 typical。",
+            "錯誤：typically 是副詞，不能單獨作主要動詞。",
+            "正確：typically 修飾 arrives，表示老師通常提早到。",
+            "錯誤：typically 不能取代 arrives 等動詞。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：typically 修飾 arrives，表示老師通常提早到。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "play with someone’s heart",
+          "meaning": "玩弄某人的感情（比喻）",
+          "usage": "指不真誠地對待對方的感情；帶有負面評價。",
+          "prompt": "哪一句正確使用「play with someone’s heart」？",
+          "options": [
+            "He played with her heart to check her blood pressure.",
+            "He played with her heart by making promises he never kept.",
+            "He played with her heart by showing her a card trick.",
+            "He played with her heart because she had a red coat."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：檢查血壓不叫 play with someone’s heart。",
+            "正確：不斷給出不打算履行的承諾，符合玩弄感情的意思。",
+            "錯誤：紙牌魔術不代表玩弄感情，較自然為 played a card trick。",
+            "錯誤：紅色外套與玩弄感情沒有關聯。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：不斷給出不打算履行的承諾，符合玩弄感情的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "sent from above",
+          "meaning": "彷彿上天送來的；來自天上的（文學語氣）",
+          "usage": "常用於讚美某人或某件事像天賜的禮物；不是普通寄件說法。",
+          "prompt": "哪一句正確使用「sent from above」？",
+          "options": [
+            "The bus ticket was sent from above the station roof.",
+            "The office email was sent from above the desk yesterday.",
+            "The parcel was sent from above the blue mailbox today.",
+            "Her kind help felt like a gift sent from above."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：車票的寄件來源不會用這個比喻。",
+            "錯誤：一般郵件來源應說 sent from the office，而非 above the desk。",
+            "錯誤：包裹的寄送地點不能如此描述。",
+            "正確：把幫助比作上天賜予的禮物，符合詩意用法。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：把幫助比作上天賜予的禮物，符合詩意用法。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "dreaming away",
+          "meaning": "沉浸在幻想中（詩意、非固定常用片語）",
+          "usage": "歌詞中描述沉浸於幻想；日常較常說 daydream 或 dream the day away。",
+          "prompt": "哪一句正確使用「dreaming away」？",
+          "options": [
+            "She sat by the window, dreaming away the afternoon.",
+            "She is dreaming away her bike to the library tomorrow.",
+            "He was dreaming away his dinner into the cold oven.",
+            "They were dreaming away to open the classroom door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：dream away the afternoon 表示把午後時光消磨在幻想中。",
+            "錯誤：dream away 不能用來表示騎車去圖書館。",
+            "錯誤：dream away 不表示把餐點放入烤箱。",
+            "錯誤：此處不能接 to open 表示開門的動作。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：dream away the afternoon 表示把午後時光消磨在幻想中。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "truly",
+          "meaning": "真正地；確實地",
+          "usage": "用來加強真誠或程度；常修飾形容詞或動詞。",
+          "prompt": "哪一句正確使用「truly」？",
+          "options": [
+            "The driver truly his car beside the shopping mall.",
+            "I truly appreciate the time you spent helping me.",
+            "The music truly to the park on Sunday afternoon.",
+            "The students were truly the classroom after lunch."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：truly 不能取代 parked 等動詞。",
+            "正確：truly appreciate 表示真心感激。",
+            "錯誤：truly 不是表示移動的動詞。",
+            "錯誤：truly 不能代替 in 等介系詞。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：truly appreciate 表示真心感激。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "exist",
+          "meaning": "存在",
+          "usage": "描述某個人、事物或現象確實存在，為不及物動詞。",
+          "prompt": "哪一句正確使用「exist」？",
+          "options": [
+            "Some rare birds still exist on this small island.",
+            "Many old stories exist a book in our library.",
+            "The scientist exists a new planet every summer.",
+            "Animals exist the large cage near the museum."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：稀有鳥類仍在小島上存在，符合 exist 的用法。",
+            "錯誤：描述故事收錄在書中，可說 appear in a book。",
+            "錯誤：發現行星用 discovers，不用 exists。",
+            "錯誤：exist 不能直接接 cage 當受詞；可說 live in。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：稀有鳥類仍在小島上存在，符合 exist 的用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "fool",
+          "meaning": "傻瓜；做出愚蠢事情的人",
+          "usage": "可自嘲，也可責備他人；對人直接使用可能不禮貌。",
+          "prompt": "哪一句正確使用「fool」？",
+          "options": [
+            "The coach fooled the door to arrive before nine.",
+            "I bought a fool of milk to make the pancakes.",
+            "My brother is fool because his backpack is heavy.",
+            "I felt like a fool after forgetting my own phone number."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：fooled the door 在這種語境毫無合理意思。",
+            "錯誤：fool 不是牛奶的計量單位。",
+            "錯誤：單數可數名詞 fool 前須有 a，且背包重並不代表愚笨。",
+            "正確：忘記自己的電話號碼後自嘲像傻瓜，語意自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：忘記自己的電話號碼後自嘲像傻瓜，語意自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "all aboard",
+          "meaning": "請全體上車／登船！",
+          "usage": "車長或工作人員通知乘客準備搭乘的呼喊。",
+          "prompt": "哪一句正確使用「all aboard」？",
+          "options": [
+            "All aboard! The soup is ready in the kitchen.",
+            "All aboard! The movie is funny and very short.",
+            "All aboard! The train is leaving in two minutes.",
+            "All aboard! Please put your homework on the desk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：用餐通知不是乘車或登船的呼喊。",
+            "錯誤：電影有趣與否不適合用這句提醒。",
+            "正確：火車即將發車，呼喊 All aboard! 很自然。",
+            "錯誤：收作業不需要通知乘客上車。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：火車即將發車，呼喊 All aboard! 很自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "drop something into",
+          "meaning": "將某物掉入／丟進某處",
+          "usage": "drop + 物品 + into + 地點；可指不小心掉落或刻意投入。",
+          "prompt": "哪一句正確使用「drop something into」？",
+          "options": [
+            "They dropped the river into a phone during the trip.",
+            "He dropped his phone into the river by mistake.",
+            "She dropped into her keys the bag before the trip.",
+            "I dropped into the bus my ticket as I walked home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：物品與地點位置顛倒，並且語意不通。",
+            "正確：手機不小心掉進河裡，搭配自然。",
+            "錯誤：語序應是 dropped her keys into the bag。",
+            "錯誤：drop something into 的物品通常放在 drop 後面。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：手機不小心掉進河裡，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "in so many ways",
+          "meaning": "在許多方面；以許多方式",
+          "usage": "描述某個想法、感受或事物體現在多個不同方面。",
+          "prompt": "哪一句正確使用「in so many ways」？",
+          "options": [
+            "The blue bag is in so many ways under the desk.",
+            "The cake weighs in so many ways before we eat it.",
+            "We drove in so many ways at exactly six o’clock.",
+            "Our new school is better in so many ways."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處只說書包位置，不是多個方面。",
+            "錯誤：weigh 是測量重量，不以 in so many ways 代替重量。",
+            "錯誤：要描述多條路線可說 by many different routes。",
+            "正確：學校在許多方面更好，搭配自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：學校在許多方面更好，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
   }
 }

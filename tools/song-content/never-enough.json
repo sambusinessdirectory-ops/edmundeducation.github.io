@@ -3316,5 +3316,938 @@
     "sha256": "b81651b0f9ca63e5f1b28f6ddf4f0099f88d326cc9ddaeff095838c12e07a0d9",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Never_Enough_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "efbdd7480b8604870f3f8d0c797f06a9866e8508965254cf2070db062bd83654"
+    },
+    {
+      "section": "structure",
+      "filename": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "373eb527fece2f64b9f47eb5c4f27922f2116d7a2813f8afe93e41a575776a0c"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "shine",
+          "meaning": "（名詞）光澤、光芒；也可指耀眼的表現",
+          "usage": "談到金屬、光線或事物明亮的外觀；名詞用法不同於動詞 shine。",
+          "prompt": "哪一句正確使用「shine」？",
+          "options": [
+            "The shine of the clean floor made the room look bright.",
+            "The bus had a shine at six because the driver was late.",
+            "I bought three shines at the market to make soup tonight.",
+            "The teacher used shine to count how many students came today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：the shine of ... 指地板乾淨後的光澤。",
+            "錯誤：shine 不是公車的發車時間，也不表示誤點。",
+            "錯誤：shine 在此是不可數的光澤，不能當作食材計數。",
+            "錯誤：shine 不能代替學生人數；應用 number。"
+          ],
+          "sourceFile": "Never_Enough_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：the shine of ... 指地板乾淨後的光澤。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "steal",
+          "meaning": "偷取；也能比喻奪走注意力或重要事物",
+          "usage": "一般是未經允許拿走東西；文學中也可能指不可能的浪漫想像。",
+          "prompt": "哪一句正確使用「steal」？",
+          "options": [
+            "The chef stole the soup by adding a little extra salt.",
+            "Someone tried to steal my bike, so I called the police.",
+            "We steal the classroom lights when we switch them off.",
+            "Please steal the bus ticket from the machine after paying."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：加鹽是 season，不是偷走湯。",
+            "正確：steal 指未經同意拿走別人的腳踏車。",
+            "錯誤：關燈是 turn off，不是把燈偷走。",
+            "錯誤：付錢購票是 buy 或 collect，不是偷。"
+          ],
+          "sourceFile": "Never_Enough_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：steal 指未經同意拿走別人的腳踏車。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "towers",
+          "meaning": "高塔；高聳的塔狀建築物（tower 的複數）",
+          "usage": "形容城市中的高塔或高聳的建築；歌詞用黃金高塔象徵巨額財富。",
+          "prompt": "哪一句正確使用「towers」？",
+          "options": [
+            "Two tall towers stood beside the old city gate.",
+            "We took two towers of water to drink during our walk.",
+            "The artist towers three songs before the evening show.",
+            "Her towers arrived late because she missed the last train."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：towers 是高塔的複數。",
+            "錯誤：水通常用 bottles 或 glasses 計量。",
+            "錯誤：tower 不能表示演唱三首歌。",
+            "錯誤：towers 指建築或塔狀物，不是旅客。"
+          ],
+          "sourceFile": "Never_Enough_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：towers 是高塔的複數。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "darling",
+          "meaning": "親愛的；對親近者的親暱稱呼",
+          "usage": "對伴侶、家人使用的溫柔稱呼，通常不適合對陌生人或正式客戶使用。",
+          "prompt": "哪一句正確使用「darling」？",
+          "options": [
+            "The bus driver used darling as the name of the next stop.",
+            "My computer needs a new darling because the screen is broken.",
+            "“Good morning, darling,” she said warmly to her husband.",
+            "The bank wrote darling on the bill to show the total cost."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：darling 本身不是表示公車站或地點的名詞。",
+            "錯誤：darling 是親暱稱呼，不能表示電腦零件。",
+            "正確：darling 可用來親暱地稱呼伴侶。",
+            "錯誤：darling 不是表示金額的財務用語。"
+          ],
+          "sourceFile": "Never_Enough_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：darling 可用來親暱地稱呼伴侶。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "tryin'",
+          "meaning": "trying 的非正式省音拼寫，表示「正在試著」",
+          "usage": "常見於歌詞或口語風格的文字；正式寫作通常拼作 trying。",
+          "prompt": "哪一句正確使用「tryin'」？",
+          "options": [
+            "I wrote tryin' as the official name for a science unit.",
+            "The price was tryin' dollars, so I paid with my phone.",
+            "The school report used tryin' as its formal heading for the results.",
+            "In the song, tryin' is a casual spelling of trying."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：tryin' 不是科學單位的名稱。",
+            "錯誤：tryin' 不表示數字或價格。",
+            "錯誤：正式報告應使用標準拼字 trying，而非歌詞式省音。",
+            "正確：tryin' 是省略字尾 g 的非正式拼寫，常見於歌詞。"
+          ],
+          "sourceFile": "Never_Enough_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：tryin' 是省略字尾 g 的非正式拼寫，常見於歌詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "try to + 原形動詞",
+          "meaning": "表示努力嘗試做一件事。",
+          "usage": "遇到需要努力才能完成的行動時使用。",
+          "prompt": "情境： 舞台的燈很暗，演員努力看清遠處的字。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "The actor tries read the sign in the dark.",
+            "The actor tries to the sign in the dark.",
+            "The actor tries reading to the sign in the dark.",
+            "The actor tries to read the sign in the dark."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "tries 後不能省略 to 而直接接 read。",
+            "tries to 後缺原形動詞。",
+            "tries reading 偏向試用某種方法，而且後面 to the sign 的搭配不成立。",
+            "有 try to read，正確表達努力閱讀。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I'm tryin' to hold my breath（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "try to + 動詞原形　",
+              "fixed": true
+            },
+            {
+              "text": "動作、目標",
+              "fixed": false
+            }
+          ],
+          "explanation": "有 try to read，正確表達努力閱讀。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "hold one’s breath",
+          "meaning": "暫時屏住呼吸。",
+          "usage": "潛水、緊張等待時可使用。",
+          "prompt": "情境： 小朋友準備在泳池水下游一小段。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "He holds his voice before going under water.",
+            "He holds his breath before going under water.",
+            "He holds breath his before going under water.",
+            "He holds his breath to make the water warm."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "hold his voice 並非屏住呼吸。",
+            "下水前屏息符合語境及結構。",
+            "所有格應置於 breath 前。",
+            "屏息不會使水溫升高。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "hold my breath（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "hold + 所有格 + breath　",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": false
+            }
+          ],
+          "explanation": "下水前屏息符合語境及結構。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "讓某人／某物保持或進行某動作。",
+          "usage": "允許或希望某種狀態繼續時使用。",
+          "prompt": "情境： 花園的燈光剛調好，設計師想保持不變。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "Let the lights to stay this way.",
+            "Let the lights staying this way.",
+            "Let stay the lights this way.",
+            "Let the lights stay this way."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "let 後不接 to-infinitive。",
+            "let 後應接動詞原形，不接 staying。",
+            "受詞應放在 let 與 stay 中間。",
+            "let + lights + stay，表達維持現狀。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Let it stay this way（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "let + 受詞 + 原形動詞　",
+              "fixed": true
+            },
+            {
+              "text": "受詞、動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "let + lights + stay，表達維持現狀。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "can’t + 原形動詞",
+          "meaning": "表示不能或不願意讓某事發生；歌詞省略主詞 I。",
+          "usage": "在能力或強烈不願意的情境使用。",
+          "prompt": "情境： 展覽即將關門，工作人員無法繼續留客。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "We can’t keeping the room open tonight.",
+            "We can’t keep the room open tonight.",
+            "We can’t kept the room open tonight.",
+            "We can’t to keep the room open tonight."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "can’t 後不接 -ing。",
+            "can’t + keep 動詞原形，表達不能維持開放。",
+            "can’t 後不接過去式 kept。",
+            "can’t 後不接 to。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Can't let this moment end（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "can’t + 動詞原形　",
+              "fixed": true
+            },
+            {
+              "text": "否定能力／意願、動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "can’t + keep 動詞原形，表達不能維持開放。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "set off + 受詞（引發）",
+          "meaning": "引發或啟動某件事。",
+          "usage": "意外觸發事件、警報或想法時使用。",
+          "prompt": "情境： 廚房的煙讓警報器響起。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "The smoke set off a loud alarm.",
+            "The smoke set out a loud alarm.",
+            "The smoke set off to a loud alarm.",
+            "The smoke set a loud alarm off to school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "set off an alarm 是觸發警報。",
+            "set out 不等於觸發警報。",
+            "這裡 set off 為及物片語，不需 to。",
+            "額外的 to school 使句意失焦、不自然。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "You set off a dream in me（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "set off + 名詞　",
+              "fixed": true
+            },
+            {
+              "text": "觸發的事物",
+              "fixed": false
+            }
+          ],
+          "explanation": "set off an alarm 是觸發警報。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "get + 比較級（逐漸變化）",
+          "meaning": "變得愈來愈……；原句是省略主詞和 be 的口語片段。",
+          "usage": "描述聲音、天氣、感覺的變化。",
+          "prompt": "情境： 劇院的音樂正逐漸變大聲。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "The music is getting loudly.",
+            "The music is getting more louder.",
+            "The music is getting louder.",
+            "The music is getting loudest."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "loudly 是副詞，不能作這裡的比較級補語。",
+            "more louder 是重複比較級。",
+            "getting louder 表達音量逐漸增大。",
+            "loudest 是最高級，未表示逐步變化。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Gettin' louder now（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "get + 比較級形容詞　",
+              "fixed": true
+            },
+            {
+              "text": "變化的性質",
+              "fixed": false
+            }
+          ],
+          "explanation": "getting louder 表達音量逐漸增大。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "hear + 受詞 + V-ing",
+          "meaning": "聽見某件事正在發生。",
+          "usage": "強調聽到一段持續中的聲響時使用。",
+          "prompt": "情境： 導覽員帶遊客進洞穴，裡面有水聲迴響。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "Can you hear the water to echo?",
+            "Can you hear echoing the water?",
+            "Can you hear the water echoes?",
+            "Can you hear the water echoing?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "hear 在這個結構後不接 to。",
+            "受詞與 -ing 動詞的語序不對。",
+            "受詞後不使用第三人稱單數 echoes。",
+            "hear + water + echoing，表示聽見持續迴響。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Can you hear it echoing?（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "hear + 受詞 + V-ing　",
+              "fixed": true
+            },
+            {
+              "text": "受詞、正在進行的動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "hear + water + echoing，表示聽見持續迴響。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "肯定祈使句：原形動詞開頭",
+          "meaning": "直接發出請求、邀請或指示。",
+          "usage": "需要簡短明確地請對方行動時使用。",
+          "prompt": "情境： 船長請乘客握緊扶手。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "You take hold the rail, please.",
+            "Holding the rail, please.",
+            "Hold the rail, please.",
+            "To hold the rail, please."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "You take hold 在此語序不自然。",
+            "Holding 分詞不能單獨作這種祈使句。",
+            "Hold 動詞原形開頭，是清楚的指示。",
+            "to-infinitive 片段不是標準直接祈使句。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Take my hand（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "動詞原形 + 受詞　",
+              "fixed": true
+            },
+            {
+              "text": "動作、對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "Hold 動詞原形開頭，是清楚的指示。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Will you + 原形動詞？（禮貌請求）",
+          "meaning": "請對方願不願意做某事。",
+          "usage": "邀請別人協助或共享時使用。",
+          "prompt": "情境： 畫家想請同伴分享新的畫筆。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "Will you to share these brushes with me?",
+            "Will you share these brushes with me?",
+            "Will you sharing these brushes with me?",
+            "Will you shared these brushes with me?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後不加 to。",
+            "Will you share…? 是完整請求。",
+            "will 後不能接 sharing。",
+            "will 後不能接過去式 shared。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Will you share this with me?（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "Will you + 動詞原形 + …?　",
+              "fixed": true
+            },
+            {
+              "text": "動作、受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "Will you share…? 是完整請求。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "share + 物品 + with + 人",
+          "meaning": "與某人分享某物。",
+          "usage": "分享工具、消息或經驗時使用。",
+          "prompt": "情境： 科學家讓同事一起查看研究結果。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "She shared to her results with her team.",
+            "She shared her team to her results.",
+            "She shared her results with her team.",
+            "She shared with her results her team."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "share 物品時不需在物品前加 to。",
+            "把分享對象和內容顛倒了。",
+            "share results with team 語序正確。",
+            "with 後接分享對象，不能這樣倒置。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "share this with me（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "share + 物品 + with + 人　",
+              "fixed": true
+            },
+            {
+              "text": "物品、分享對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "share results with team 語序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "without + 名詞／代名詞",
+          "meaning": "在沒有某人或某物的情況下。",
+          "usage": "解釋缺少一項必要條件時使用。",
+          "prompt": "情境： 太空站的工作人員發現沒有鑰匙無法開門。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "We cannot open the door without a key.",
+            "We cannot open the door without keying.",
+            "We cannot open the door without to key.",
+            "We cannot open the door without unlocking."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "without a key 說明缺少工具。",
+            "keying 不是鑰匙這個名詞。",
+            "without 後不是 to key。",
+            "without unlocking 雖可形成文法片語，但本情境指欠缺鑰匙，意思不同，且不能把它當作缺少物品的表達。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "without you（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "without + 名詞／代名詞　",
+              "fixed": true
+            },
+            {
+              "text": "缺少的人／物",
+              "fixed": false
+            }
+          ],
+          "explanation": "without a key 說明缺少工具。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "all the + 名詞 + of + 名詞",
+          "meaning": "指出某個來源的全部特質或數量。",
+          "usage": "強調某一群事物呈現的全部光線／聲音時使用。",
+          "prompt": "情境： 攝影師想拍下湖上的全部光線。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "All the light from the lake were gold.",
+            "All the light of the lake looked gold.",
+            "All of the light the lake looked gold.",
+            "All light of a lake are gold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不可數 light 作主詞，搭配 was 而不是 were。",
+            "all the light of the lake 是此處完整的名詞結構。",
+            "缺乏連接來源的介系詞。",
+            "缺少定冠詞且動詞一致性不符。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "All the shine of a thousand spotlights（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "all the + 名詞 + of + 名詞片語　",
+              "fixed": true
+            },
+            {
+              "text": "事物、來源",
+              "fixed": false
+            }
+          ],
+          "explanation": "all the light of the lake 是此處完整的名詞結構。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "省略受詞關係代名詞",
+          "meaning": "用子句說明哪一群事物；受詞關係代名詞可省略。",
+          "usage": "描述「我們看過的書」等特定物品時使用。",
+          "prompt": "情境： 博物館展示旅客從海邊找到的石頭。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "These are the stones they found by the sea.",
+            "These are the stones which they found them by the sea.",
+            "These are the stones they finding by the sea.",
+            "These are the stones they found them by the sea."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "stones 後接 they found，省略受詞關係代名詞。",
+            "which 與 them 重複表示同一受詞。",
+            "they finding 缺少有限動詞。",
+            "found 後多出重複受詞 them。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "All the stars we steal from the night sky（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "名詞 + 主詞 + 動詞　",
+              "fixed": true
+            },
+            {
+              "text": "名詞、修飾子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "stones 後接 they found，省略受詞關係代名詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "will + never + 原形動詞",
+          "meaning": "表示將來永遠不會有某種結果；歌詞需接前文主詞理解。",
+          "usage": "預測某個條件永遠不足以達成目標。",
+          "prompt": "情境： 一名登山客說一瓶水無法供全隊使用。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "One bottle will never is enough for us.",
+            "One bottle will never being enough for us.",
+            "One bottle never will to be enough for us.",
+            "One bottle will never be enough for us."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "will 後不能接 is。",
+            "will 後需原形 be。",
+            "will 後不接 to-infinitive。",
+            "will never be enough 表示將永遠不夠。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "Will never be enough（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "will + never + 動詞原形　",
+              "fixed": true
+            },
+            {
+              "text": "動作／狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "will never be enough 表示將永遠不夠。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be + enough（足夠）",
+          "meaning": "表示某事物已足夠或不足夠。",
+          "usage": "討論資源、時間或數量是否充足。",
+          "prompt": "情境： 園藝師確認三袋土是否足夠。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "Three bags of soil are enough for the garden.",
+            "Three bags of soil are enough to the garden.",
+            "Three bags of soil enough for the garden.",
+            "Three bags of soil are enoughs for the garden."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "are enough 完整表達足夠。",
+            "表示對某用途足夠，此處用 for the garden。",
+            "缺少 be 動詞。",
+            "enough 不加複數 s。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Never be enough（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "be + enough　",
+              "fixed": true
+            },
+            {
+              "text": "判斷對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "are enough 完整表達足夠。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "be + still + too + 形容詞",
+          "meaning": "表示即使到目前為止仍然過度或不足。",
+          "usage": "評估大小、溫度等仍不符合需求。",
+          "prompt": "情境： 服裝師把帽子改大，但還是太小。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "The hat still too small.",
+            "The hat is too still small.",
+            "The hat is still too small.",
+            "The hat is still small too to wear."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 be。",
+            "still 不能這樣放在 too 和形容詞之間。",
+            "is still too small 位置和意思正確。",
+            "too to wear 此處語序與結構不完整。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Towers of gold are still too little（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "be + still + too + 形容詞　",
+              "fixed": true
+            },
+            {
+              "text": "主詞、形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "is still too small 位置和意思正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "could + 原形動詞（假設能力）",
+          "meaning": "可以描述假設或想像中的能力。",
+          "usage": "描寫不太現實、想像性的情境時使用。",
+          "prompt": "情境： 小說裡的巨人力氣大得可以舉起城堡。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "The giant could lift a castle.",
+            "The giant could lifting a castle.",
+            "The giant could lifted a castle.",
+            "The giant could to lift a castle."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "could + lift 是正確情態動詞結構。",
+            "could 後不接 -ing。",
+            "could 後不接過去式 lifted。",
+            "could 後沒有 to。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "These hands could hold the world（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "could + 動詞原形　",
+              "fixed": true
+            },
+            {
+              "text": "假設動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "could + lift 是正確情態動詞結構。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "but + 轉折子句",
+          "meaning": "用 but 連接相反或出乎意料的結果；歌詞須與下一行接續。",
+          "usage": "想同時承認優點和指出缺點時使用。",
+          "prompt": "情境： 說明一件物品很好看，但並不實用。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "The lamp is pretty but for reading.",
+            "The lamp is pretty, but too reading.",
+            "The lamp is pretty, but it is too dark to read by.",
+            "The lamp is pretty, but dark for beautiful."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "but 後缺完整的對比內容。",
+            "but 後缺完整述語且 too reading 錯。",
+            "前後兩句形成清楚對比。",
+            "後半句語意及介系詞搭配不自然。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "but it'll（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "完整句子 + but + 完整句子　",
+              "fixed": true
+            },
+            {
+              "text": "兩個對比的事實",
+              "fixed": false
+            }
+          ],
+          "explanation": "前後兩句形成清楚對比。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "for + 代名詞（對某人而言）",
+          "meaning": "指出對誰來說、誰是感受的對象。",
+          "usage": "說明某個選擇對某人很重要。",
+          "prompt": "情境： 兩人選登山路線，一人認為短路線比較好。 請選出唯一最自然、符合本題句型的英文。",
+          "options": [
+            "For mine, the short path is better.",
+            "For me, the short path is better.",
+            "For myself the short path are better.",
+            "For I, the short path is better."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "mine 是所有格代名詞，不適合此處。",
+            "For me 表示就我而言，句意完整。",
+            "主詞 path 單數須接 is，且表達對象應用 me 更自然。",
+            "介系詞 for 後需受格 me。"
+          ],
+          "sourceFile": "Never_Enough_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "For me（PDF 第 2 頁；副歌部分也可能見第 3 頁）",
+          "pattern": [
+            {
+              "text": "for + 受格代名詞　",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "For me 表示就我而言，句意完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

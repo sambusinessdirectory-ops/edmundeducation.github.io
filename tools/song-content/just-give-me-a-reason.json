@@ -3722,5 +3722,1565 @@
     "sha256": "b4f5e66b98f24bb78dcfa0f5c7686609d29b00611fc310a11f95b4c9e02bc2f9",
     "transformations": "none",
     "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "de295b7af15c2dfb7d8f2d879f6acfc6a35ed81dab344fcdb2bef036e993b035"
+    },
+    {
+      "section": "advanced",
+      "filename": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "2c372455fb5101cc7631397f43ff477b756b266dc9f64820978cc084e0b688b3"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "right from + 起點",
+          "meaning": "強調「從一開始」便如此。",
+          "usage": "講事情從開始就有某種狀態。",
+          "prompt": "展覽第一天就有許多人參觀。哪句最貼切？",
+          "options": [
+            "Right from the start is a painting on the wall.",
+            "Right from the start, many people came to see the art.",
+            "Many people right from to see the art.",
+            "Right from the art, many people start came."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "把時間片語誤當作一幅畫。",
+            "正確；right from the start 指從最初就如此。",
+            "片語位置及動詞結構不完整。",
+            "把 right from 後的起點誤換成不合句意的 art。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Right from the start」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "right from",
+              "fixed": true
+            },
+            {
+              "text": "the start",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：固定時間起點，不必硬拆為兩個題目。",
+          "explanation": "正確；right from the start 指從最初就如此。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "一般過去式：敘述過去",
+          "meaning": "stole 是 steal 的過去式，敘述已發生的事。",
+          "usage": "談已完成的過去事件。",
+          "prompt": "昨晚有人拿走展館的舊地圖。",
+          "options": [
+            "Someone stolen the old map last night.",
+            "Someone steal the old map last night.",
+            "Someone stole the old map last night.",
+            "Someone stealing the old map last night."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "stolen 是過去分詞，不能單獨當述語。",
+            "last night 需用過去式 stole。",
+            "正確；stole 是過去式。",
+            "缺少助動詞，不能單用 stealing。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「You stole my heart」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "stole",
+              "fixed": true
+            },
+            {
+              "text": "my heart",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：原句以偷心作比喻，練習採中性敘事。",
+          "explanation": "正確；stole 是過去式。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "省略 be 的詩歌並列句",
+          "meaning": "歌詞略去 was，留下主詞與名詞補語。",
+          "usage": "閱讀詩歌、歌曲時辨認省略，正式寫作要補足動詞。",
+          "prompt": "哪句忠實描述原歌這個不完整句式？",
+          "options": [
+            "The line includes every verb needed in standard English.",
+            "The line leaves out 'was' after 'I'.",
+            "The word 'victim' is the main verb in the line.",
+            "The line uses have and a past participle."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "歌詞缺少連繫動詞。",
+            "正確；語境承接前一句的過去時。",
+            "victim 在這裡是名詞。",
+            "歌詞沒有 have/has + 過去分詞。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「And I your willing victim」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "And I [省略 was]",
+              "fixed": true
+            },
+            {
+              "text": "your willing victim",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：此題測來源辨識；補上的 was 只是教師說明，並非原詞。",
+          "explanation": "正確；語境承接前一句的過去時。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "let + 人 + 原形動詞",
+          "meaning": "let + 人 + 動詞原形，表示允許某人做事。",
+          "usage": "給予別人觀看、嘗試或參與的機會。",
+          "prompt": "攝影師同意朋友看看新照片。",
+          "options": [
+            "The artist let see her friend the photos.",
+            "The artist let her friend see the photos.",
+            "The artist let her friend to see the photos.",
+            "The artist lets her friend seeing the photos."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "受詞及 see 的順序不對。",
+            "正確；let + 人 + see。",
+            "let 後不加 to。",
+            "let 後用原形 see。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「I let you see the parts of me」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "you see the parts of me",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：這裡的 let 可作過去時，與原形同形。",
+          "explanation": "正確；let + 人 + see。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "關係子句 that + 動詞",
+          "meaning": "that 引出修飾前面名詞的關係子句。",
+          "usage": "要進一步說明「哪一些」人或物。",
+          "prompt": "你想談那些不是很乾淨的桌子。",
+          "options": [
+            "The tables that were not very clean needed help.",
+            "The tables that were not very clean needed helped.",
+            "The tables that not very clean needed help.",
+            "The tables were that not very clean needed help."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；that were ... 修飾 tables。",
+            "needed 後接原形 help，不是 helped。",
+            "that 後少了 were。",
+            "that 子句的位置錯誤。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「That weren't all that pretty」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "weren't all that pretty",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：此來源的 that 接上一行 parts of me。",
+          "explanation": "正確；that were ... 修飾 tables。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "not all that + 形容詞",
+          "meaning": "在否定環境中 all that + 形容詞意為「那麼、特別」。",
+          "usage": "婉轉說某事沒有想像中那麼好。",
+          "prompt": "餐館的海報很好看，實際餐點卻沒那麼美味。",
+          "options": [
+            "The soup was not all that taste.",
+            "The soup was all that not good.",
+            "The soup not was all that good.",
+            "The soup was not all that good."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "taste 不是此處所需的形容詞。",
+            "not 應放在 all that 前。",
+            "否定語序不對。",
+            "正確；not all that good 表示並沒有很好。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「all that pretty」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "all that",
+              "fixed": true
+            },
+            {
+              "text": "pretty",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：同一來源可含不同語法焦點，但本題專教程度修飾。",
+          "explanation": "正確；not all that good 表示並沒有很好。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "with every + 名詞",
+          "meaning": "with every + 單數名詞，表示每一次伴隨的情況。",
+          "usage": "描述每次某件事發生，便有同樣影響。",
+          "prompt": "每次敲鼓，舞者都向前一步。",
+          "options": [
+            "With every beat the dancers moving.",
+            "With every beats, the dancers move.",
+            "With every beat, the dancers move forward.",
+            "With every beat, the dancers moves forward."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "主句少了完整動詞。",
+            "every 後用單數 beat。",
+            "正確；with every + 單數名詞。",
+            "複數主詞 dancers 接 move。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「with every touch」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "with every",
+              "fixed": true
+            },
+            {
+              "text": "touch",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：不額外抽出未出現的 whenever 模式。",
+          "explanation": "正確；with every + 單數名詞。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "現在完成進行式",
+          "meaning": "have/has been + V-ing 表示從之前延續到現在的行為。",
+          "usage": "談最近一直發生的事情。",
+          "prompt": "花藝師這週一直在準備花展。",
+          "options": [
+            "The florist has been preparing flowers all week.",
+            "The florist has been prepare flowers all week.",
+            "The florist have been preparing flowers all week.",
+            "The florist has prepare flowers all week."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；has been preparing。",
+            "been 後需 V-ing。",
+            "單數主詞需 has。",
+            "has 後不能接原形 prepare。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「you've been talking」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "talking",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：與單純現在進行式不同。",
+          "explanation": "正確；has been preparing。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "省略受詞關係代名詞",
+          "meaning": "名詞後接主詞 + 動詞，受詞位置的關係代名詞可省略。",
+          "usage": "指出具體是哪一類東西。",
+          "prompt": "哪句最自然地說「我昨天拍的照片」？",
+          "options": [
+            "These are the photos who I took yesterday.",
+            "These are photos I yesterday took them.",
+            "These are the photos I took yesterday.",
+            "These are the photos I took them yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "who 一般指人，不能用來修飾 photos。",
+            "語序不自然且重複受詞。",
+            "正確；photos 後省略受詞關係代名詞。",
+            "多加 them，造成重複受詞。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Things you never say to me」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "Things [省略 that]",
+              "fixed": true
+            },
+            {
+              "text": "you never say to me",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：不將補出的 that 當來源中的字。",
+          "explanation": "正確；photos 後省略受詞關係代名詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "tell + 人 + that 子句",
+          "meaning": "tell + 人 + that 子句，傳達一個完整訊息。",
+          "usage": "要別人清楚說明實情。",
+          "prompt": "場館管理員請工作人員告訴他門已經關了。",
+          "options": [
+            "Tell me that the door is closed.",
+            "Tell that me the door is closed.",
+            "Tell to me that the door is closed.",
+            "Tell me the door closed is that."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；tell + me + that 子句。",
+            "tell 後的 me 應緊跟其後。",
+            "此處 tell me 不加 to。",
+            "子句字序錯誤。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「Tell me that you've had enough」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "me that you've had enough",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：來源中的 had enough 另有獨立語義焦點。",
+          "explanation": "正確；tell + me + that 子句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "have had enough of",
+          "meaning": "現在完成式 have had enough，表示已經受夠了。",
+          "usage": "遇到長時間不舒服、厭煩的情況。",
+          "prompt": "隔壁的鑽孔聲持續幾小時，住戶受夠了。",
+          "options": [
+            "I have had enough of the noise.",
+            "I had have enough of the noise.",
+            "I have had enough to the noise.",
+            "I have enough had of the noise."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；have had enough of。",
+            "完成式次序錯。",
+            "應是 enough of + 名詞。",
+            "完成式次序錯。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「you've had enough」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "have/has had enough",
+              "fixed": true
+            },
+            {
+              "text": "of + 名詞",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：of our love 在下一行；理解時應連讀。",
+          "explanation": "正確；have had enough of。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "just + 命令句",
+          "meaning": "just 可柔化或加強要求，意思近「只要／就」。",
+          "usage": "希望對方先做一件簡單的事。",
+          "prompt": "朋友希望你先看一眼表演時間。",
+          "options": [
+            "Just to check the show time.",
+            "Just checking the show time.",
+            "Just check the show time.",
+            "Just checks the show time."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此處不是完整命令句。",
+            "V-ing 不適合作此命令句核心。",
+            "正確；just + 命令句原形。",
+            "命令句用原形 check。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「Just give me a reason」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "just + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "give me a reason",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：不要把 just 當成額外的助動詞。",
+          "explanation": "正確；just + 命令句原形。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "give + 間接受詞 + 直接受詞",
+          "meaning": "give + 人 + 物，先指出接收者，再說給甚麼。",
+          "usage": "送出資訊、物品或理由。",
+          "prompt": "木工把一把工具給助手。",
+          "options": [
+            "The carpenter gave his helper a tool.",
+            "The carpenter gave to his helper a tool him.",
+            "The carpenter gave a tool his helper.",
+            "The carpenter gave his helper to a tool."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；gave + 人 + 物。",
+            "多出 him 且結構錯。",
+            "此形式少了介系詞 to，順序不對。",
+            "helper 後不接 to a tool。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「give me a reason」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "me a reason",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：與 just 的話語語氣不同，這是雙受詞結構。",
+          "explanation": "正確；gave + 人 + 物。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "a little bit + be + enough",
+          "meaning": "少量事物也足以符合需要；bit 是單數。",
+          "usage": "強調不必很多也夠。",
+          "prompt": "花盆只需一點陽光就夠了。",
+          "options": [
+            "A little bits is enough for the plant.",
+            "A little bit are enough for the plant.",
+            "A little bit is enough for this small plant.",
+            "A little bit be enough for the plant."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "a little bits 數量形式錯。",
+            "bit 是單數，要用 is。",
+            "正確；a little bit is enough。",
+            "缺少正確 be 動詞。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「a little bit's enough」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "a little bit + is",
+              "fixed": true
+            },
+            {
+              "text": "enough",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：來源 bit's = bit is。",
+          "explanation": "正確；a little bit is enough。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be not + 過去分詞／狀態形容詞",
+          "meaning": "broken、bent 在此描述狀態，與 be 連用，並非必須指被動事件。",
+          "usage": "對比受損程度或狀態。",
+          "prompt": "椅子只是彎了，沒有斷掉。",
+          "options": [
+            "The chair not is broken, just bent.",
+            "The chair is not break, just bend.",
+            "The chair does not broken, only bent.",
+            "The chair is not broken, just bent."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "否定順序錯。",
+            "break、bend 需用分詞／形容詞形式。",
+            "描述狀態應用 be + broken。",
+            "正確；is not broken, just bent。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「We're not broken just bent」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "be + not",
+              "fixed": true
+            },
+            {
+              "text": "broken / bent",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：不把歌詞說成一般事件被動語態的唯一例證。",
+          "explanation": "正確；is not broken, just bent。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "learn to + 原形動詞",
+          "meaning": "learn to + 動詞原形，表示學會做某事。",
+          "usage": "談技能、態度與新習慣的學習。",
+          "prompt": "成年初學者正學習游泳。",
+          "options": [
+            "They learn to swim after work.",
+            "They learn to swimming after work.",
+            "They learn swimming to after work.",
+            "They learn to swims after work."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；learn to swim。",
+            "to 後需原形 swim。",
+            "to 的位置錯。",
+            "swims 不是原形。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「learn to love again」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "learn to",
+              "fixed": true
+            },
+            {
+              "text": "love again",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：again 是重複副詞，原歌與 learn to 搭配。",
+          "explanation": "正確；learn to swim。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "present perfect passive",
+          "meaning": "has been written 是現在完成被動式，強調結果至今相關。",
+          "usage": "事情此前已完成，而痕跡現在仍在。",
+          "prompt": "展覽標題早已寫在牆上。",
+          "options": [
+            "The title is been written on the wall.",
+            "The title has been written on the wall.",
+            "The title has been wrote on the wall.",
+            "The title has written on the wall."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "is been 不能構成完成被動式。",
+            "正確；has been written。",
+            "write 的過去分詞是 written。",
+            "少了 been，不能表達此被動式。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「It's been written」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "has been + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "written",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：歌詞中的 It's = It has，由 been written 判斷。",
+          "explanation": "正確；has been written。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "現在進行式：此刻或目前",
+          "meaning": "be + V-ing 描述正在發生的事。",
+          "usage": "指眼前或近期正在發生的事件。",
+          "prompt": "橋樑現在正接受維修。",
+          "options": [
+            "The bridge repairing now.",
+            "Workers are repair the bridge now.",
+            "Workers are repairing the bridge now.",
+            "Workers is repairing the bridge now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 be 動詞，且 bridge 不能直接當修理者。",
+            "are 後需 repairing。",
+            "正確；are repairing。",
+            "複數 Workers 用 are。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「this is happenin'」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "happenin' (= happening)",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：來源 happenin' 為非正式省略 g 拼法。",
+          "explanation": "正確；are repairing。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "used to + 原形動詞",
+          "meaning": "used to + 原形動詞描述過去習慣、現在可能已不同。",
+          "usage": "回憶以前常做的事。",
+          "prompt": "爺爺以前每天在院子種花。",
+          "options": [
+            "My grandpa used to planted flowers.",
+            "My grandpa used to planting flowers.",
+            "My grandpa use to plant flowers.",
+            "My grandpa used to plant flowers."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "to 後用 plant。",
+            "used to 後接原形。",
+            "過去習慣通常用 used to。",
+            "正確；used to plant。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「You used to lie so close to me」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "used to",
+              "fixed": true
+            },
+            {
+              "text": "lie so close to me",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：lie 是「躺」，不是 lay（放置）。",
+          "explanation": "正確；used to plant。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "there is nothing more than + 名詞",
+          "meaning": "指出除了某物以外別無其他。",
+          "usage": "描述某處所剩無幾的東西。",
+          "prompt": "旅行箱裡只剩下一張紙。",
+          "options": [
+            "There is nothing more than a sheet of paper in the bag.",
+            "There is no more than papers a bag.",
+            "There is nothing more as a sheet of paper.",
+            "There are nothing more than a paper."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；there is nothing more than ...。",
+            "語序不合句意。",
+            "固定比較用 than，不用 as。",
+            "nothing 作單數，且 a paper 用法不當。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「There's nothing more than empty sheets」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "there is nothing more than",
+              "fixed": true
+            },
+            {
+              "text": "empty sheets",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：原歌後面 between our love 具比喻性，不應說是普通空間片語。",
+          "explanation": "正確；there is nothing more than ...。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "will + 原形動詞：承諾",
+          "meaning": "will 用於未來行動、當下承諾。",
+          "usage": "答應稍後解決問題。",
+          "prompt": "燈泡壞了，哥哥主動答應修好。",
+          "options": [
+            "I will fixing the lamp tomorrow.",
+            "I wills fix the lamp tomorrow.",
+            "I will fixed the lamp tomorrow.",
+            "I will fix the lamp tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "will 後不接 fixing。",
+            "will 不依主詞加 s。",
+            "will 後接原形 fix。",
+            "正確；will fix。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「I'll fix it for us」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "will + 原形",
+              "fixed": true
+            },
+            {
+              "text": "fix it for us",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：不同於 can 能力表達。",
+          "explanation": "正確；will fix。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "現在進行式＋慣用片語",
+          "meaning": "collect dust 表積灰塵或被閒置；正在持續時用 be + collecting。",
+          "usage": "某件物品長久沒有使用。",
+          "prompt": "舞台角落的舊鼓很久沒有用。",
+          "options": [
+            "The old drum is collect dust backstage.",
+            "The old drum is collecting dust backstage.",
+            "The old drum is collecting to dust backstage.",
+            "The old drum collecting dust backstage."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "is 後需 collecting。",
+            "正確；is collecting dust。",
+            "collect dust 不加 to。",
+            "缺少 is。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「We're collecting dust」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "be + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "collecting dust",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：本項聚焦片語與進行式的結合，不重複基礎進行式題。",
+          "explanation": "正確；is collecting dust。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "hold + 受詞 + in",
+          "meaning": "hold something in 表示將感受忍住不表露。",
+          "usage": "想說有人壓抑笑、眼淚或情緒。",
+          "prompt": "你想忍住笑，避免打斷魔術師。",
+          "options": [
+            "I held in it a laugh during the show.",
+            "I held my laughter in during the show.",
+            "I hold in to laugh during the show.",
+            "I held my laughter into during the show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "代名詞 it 通常置於 hold 和 in 中間。",
+            "正確；held my laughter in。",
+            "不合此片語結構。",
+            "應使用 in 而非 into。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「You're holding it in」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "hold + 受詞 + in",
+              "fixed": true
+            },
+            {
+              "text": "it",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：來源 it 指語境中的感受，並未明說具體是哪種情緒。",
+          "explanation": "正確；held my laughter in。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "as + adjective + as 比較",
+          "meaning": "表示程度一樣；搭配否定是「沒看起來那麼……」。",
+          "usage": "比較事情的實際情況與表面印象。",
+          "prompt": "箱子看起來很重，抬起來卻不那麼重。",
+          "options": [
+            "The box was not as heavy than it looked.",
+            "The box was not as heavy it looked.",
+            "The box was not so heavy that it looked.",
+            "The box was not as heavy as it looked."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "as...as 不能把第二個 as 換成 than。",
+            "少了第二個 as。",
+            "that 不符合此比較形式。",
+            "正確；not as heavy as it looked。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「as bad as it seems」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "as + 形容詞 + as",
+              "fixed": true
+            },
+            {
+              "text": "it seems",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：原歌前置 No 是話語標記，後接 nothing；不將兩者誤解為可任意套用的雙重否定。",
+          "explanation": "正確；not as heavy as it looked。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "as + it seems 的表面印象",
+          "meaning": "seem 表示某事給人的印象，不保證事情真的如此。",
+          "usage": "對照外表與真相。",
+          "prompt": "小劇院外觀看起來很小。",
+          "options": [
+            "The hall seem small from outside.",
+            "The hall seems small from outside.",
+            "The hall seeming small from outside.",
+            "The hall seems to small from outside."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "單數 hall 應用 seems。",
+            "正確；seems 後接形容詞 small。",
+            "缺少 be 動詞。",
+            "seems 後不能直接用 to + 形容詞。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「it seems」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "it",
+              "fixed": true
+            },
+            {
+              "text": "seems",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：本項著重 seem 感官／判斷動詞，不重複程度比較。",
+          "explanation": "正確；seems 後接形容詞 small。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "come clean：坦白",
+          "meaning": "come clean 是坦白實情的固定片語。",
+          "usage": "曾隱瞞錯誤，現在願意誠實說出。",
+          "prompt": "志工打破展示品，後來決定坦白。",
+          "options": [
+            "She came clean her room before lunch.",
+            "She came clean to the museum by train.",
+            "She came clean about the broken vase.",
+            "She came clean the glass with water."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "清理房間應說 cleaned her room。",
+            "前往某地應說 went to。",
+            "正確；came clean about + 事情。",
+            "字面「洗乾淨」不等於坦白，且缺少適當動詞。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「We'll come clean」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "come clean",
+              "fixed": true
+            },
+            {
+              "text": "[坦白的事情由上下文提供]",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：come clean 不是 come + 形容詞「變乾淨」的普通句型。",
+          "explanation": "正確；came clean about + 事情。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "can + 原形動詞：可能與能力",
+          "meaning": "can + 原形動詞表示可以／有能力做某事。",
+          "usage": "談努力後仍有可能做到的事。",
+          "prompt": "園丁相信植物仍能恢復。",
+          "options": [
+            "The plant can growing again.",
+            "The plant cans grow again.",
+            "The plant can grow again.",
+            "The plant can to grow again."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "can 後用原形 grow。",
+            "can 不加 s。",
+            "正確；can grow again。",
+            "can 後不加 to。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「we can learn to love again」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "can + 原形",
+              "fixed": true
+            },
+            {
+              "text": "learn to love again",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：和 learn to 的結構不同，是上層情態動詞。",
+          "explanation": "正確；can grow again。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "be + 副詞 + 過去分詞",
+          "meaning": "still 放在 be 與過去分詞之間，表示狀態仍持續。",
+          "usage": "說某事至今仍留有記錄。",
+          "prompt": "客人的姓名仍寫在名單上。",
+          "options": [
+            "Her name still is write on the list.",
+            "Her name is still writing on the list.",
+            "Her name is write still on the list.",
+            "Her name is still written on the list."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "written 才是過去分詞，語序也不自然。",
+            "writing 變成進行狀態，意思不同。",
+            "write 不是過去分詞，still 位置不當。",
+            "正確；is still written。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "「You're still written」｜來源：PDF 英文歌詞第 3 頁",
+          "pattern": [
+            {
+              "text": "be + still + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "written",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：與已出現的 has been written 不同：本句的 You're = You are。",
+          "explanation": "正確；is still written。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "not ... just ... 的對比",
+          "meaning": "用 not A, just B 修正對方過度嚴重的描述。",
+          "usage": "描述問題有存在但沒那麼嚴重。",
+          "prompt": "道具沒有碎掉，只是髒了。",
+          "options": [
+            "The model is not broken, only it dirty.",
+            "The model is not broken, just dirty.",
+            "The model is no broken, just dirty.",
+            "The model not broken, just dirty."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "後半句缺少 is 且結構不對等。",
+            "正確；not A, just B 形成對比。",
+            "形容詞前要 not，不用 no。",
+            "缺少 is。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "「not broken just bent」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "not",
+              "fixed": true
+            },
+            {
+              "text": "broken + just bent",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：這是修辭焦點，與過去分詞的形式分析不同。",
+          "explanation": "正確；not A, just B 形成對比。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 30,
+          "word": "that + 完整陳述子句",
+          "meaning": "thought that + 子句表達過去的想法。",
+          "usage": "回顧自己之前以為的情況。",
+          "prompt": "導覽員以為博物館今天開放。",
+          "options": [
+            "I thought that the museum was open today.",
+            "I thought that the museum were open today.",
+            "I thought that the museum open today.",
+            "I thought that was the museum open today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確；that + 主詞 + was open。",
+            "單數 museum 應用 was。",
+            "子句缺少 was。",
+            "把陳述子句倒裝成問句。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 30,
+          "cue": "「I thought that we were fine」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "thought that",
+              "fixed": true
+            },
+            {
+              "text": "we were fine",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：與 know that 的當下確信不同。",
+          "explanation": "正確；that + 主詞 + was open。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 31,
+          "word": "間接疑問句：where + 陳述語序",
+          "meaning": "間接問題維持陳述句語序，通常接在 understand 等動詞後。",
+          "usage": "想知道一個情況的來源。",
+          "prompt": "你不知道劇院裡的聲音從哪裡來。",
+          "options": [
+            "I do not know where is the sound coming from.",
+            "I do not know where does the sound come from.",
+            "I do not know where from the sound is coming.",
+            "I do not know where the sound is coming from."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "間接問句不倒裝 is。",
+            "間接問句不加疑問助動詞 does。",
+            "from 的位置錯誤。",
+            "正確；where + the sound + is coming。"
+          ],
+          "sourceFile": "Just_Give_Me_A_Reason_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 31,
+          "cue": "「Where all of this is coming from」｜來源：PDF 英文歌詞第 2 頁",
+          "pattern": [
+            {
+              "text": "where + 主詞 + be + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "all of this is coming from",
+              "fixed": false
+            }
+          ],
+          "context": "教師備註：：須連同上一行 I do not understand 一起理解。",
+          "explanation": "正確；where + the sound + is coming。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "thief",
+          "meaning": "小偷、竊賊（複數 thieves）",
+          "usage": "指偷取別人財物的人；歌詞把「偷心」的人比喻成竊賊。",
+          "prompt": "哪一句正確使用「thief」？",
+          "options": [
+            "A thief took her bag while she was away.",
+            "We called the nurse a thief because she helped us.",
+            "The thief taught us a new song at school.",
+            "The thief repaired my broken bike for free."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：小偷趁她不在時拿走包包。",
+            "護理師提供幫助不是竊賊的特徵。",
+            "教唱歌不是偷取財物，情境不支持 thief。",
+            "修理腳踏車並不構成偷竊，缺乏符合詞義的證據。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：小偷趁她不在時拿走包包。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "stole my heart / steal someone’s heart",
+          "meaning": "贏得某人的芳心、使某人愛上自己",
+          "usage": "浪漫比喻；不是真的偷走心臟。使用 steal + 人的 + heart。",
+          "prompt": "哪一句正確使用「stole my heart / steal someone’s heart」？",
+          "options": [
+            "The doctor stole my heart during the operation.",
+            "He stole my heart to check my blood pressure.",
+            "Her kind smile stole my heart on our first date.",
+            "The thief stole my heart from the hospital fridge."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "醫師動手術不是浪漫的「贏得芳心」；若真指手術也不能這樣含糊表達。",
+            "量血壓不是贏得芳心；此處把心當器官。",
+            "正確：初次約會時，她的笑容深深打動我。",
+            "把心臟當作冰箱物品，與浪漫比喻不符。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：初次約會時，她的笑容深深打動我。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "victim",
+          "meaning": "受害者；遭受傷害或不公平對待的人",
+          "usage": "談犯罪、事故、欺騙的受害者；歌詞中的 willing victim 是矛盾式的浪漫比喻。",
+          "prompt": "哪一句正確使用「victim」？",
+          "options": [
+            "The winner was a victim because she got first place.",
+            "Our cook was a victim because the soup was tasty.",
+            "The driver was a victim because his car was blue.",
+            "The victim lost her money in the online trick."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "得第一名不表示遭到傷害，不能由此稱受害者。",
+            "食物好吃並不構成受害情境。",
+            "車子顏色不能證明某人是受害者。",
+            "正確：她在網路詐騙中損失金錢。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：她在網路詐騙中損失金錢。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "talk in one’s sleep",
+          "meaning": "說夢話",
+          "usage": "指人在睡著時不自覺說話；不是睡前聊天。",
+          "prompt": "哪一句正確使用「talk in one’s sleep」？",
+          "options": [
+            "My roommate talks in her sleep, but remembers nothing.",
+            "I talked in my sleep before I went to bed.",
+            "We talked in our sleep over lunch at noon.",
+            "He talked in his sleep during a video call at work."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：室友睡著時說夢話，醒來不記得。",
+            "還沒上床睡覺時說話，不是睡夢中說話。",
+            "中午吃飯時聊天不等於睡著說夢話。",
+            "工作視訊通話時講話不代表在睡夢中。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：室友睡著時說夢話，醒來不記得。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "in the stars",
+          "meaning": "命中注定的、彷彿由命運安排",
+          "usage": "偏詩意的表達，常見於 it is written in the stars；不表示文字真的寫在星球上。",
+          "prompt": "哪一句正確使用「in the stars」？",
+          "options": [
+            "Our flight time is in the stars on the ticket.",
+            "Her name was in the stars on the class list.",
+            "They felt their meeting was written in the stars.",
+            "The library put its books in the stars last week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "機票上標示時間不會用 in the stars 表示。",
+            "班級名單上的名字不是命運安排的詩意用法。",
+            "正確：兩人覺得相遇彷彿命中注定。",
+            "書本存放地點並不是星星；搭配不自然。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：兩人覺得相遇彷彿命中注定。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "tear ducts",
+          "meaning": "淚管、淚液排出的通道",
+          "usage": "解剖名詞；淚液經淚點進入淚管等排出路徑。歌詞將其與 rust 並列，形成詩意意象。",
+          "prompt": "哪一句正確使用「tear ducts」？",
+          "options": [
+            "My tear ducts help me hear quiet sounds at night.",
+            "The nurse checked his tear ducts because tears could not drain.",
+            "Tear ducts carry food from my mouth to my stomach.",
+            "Our tear ducts help us smell the fresh flowers."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "聽力由耳朵相關構造負責，不是淚管。",
+            "正確：淚液排出不順，護理師檢查淚管。",
+            "從嘴巴輸送食物的不是淚管。",
+            "嗅覺由鼻腔相關構造負責，不是淚管。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：淚液排出不順，護理師檢查淚管。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "rust",
+          "meaning": "鐵鏽；（金屬）生鏽",
+          "usage": "談鐵或鋼暴露於水分、空氣後生鏽；歌詞把鏽蝕當成關係變舊的意象。",
+          "prompt": "哪一句正確使用「rust」？",
+          "options": [
+            "Her glass cup got rust after she washed it.",
+            "The old gate has rust after years of rain.",
+            "The wooden chair had rust because it was painted red.",
+            "The paper map had rust from being folded."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "一般玻璃杯不會本身生鐵鏽。",
+            "正確：舊鐵門受多年雨水影響而生鏽。",
+            "木椅本身不會像鐵器那樣生鐵鏽。",
+            "紙張摺疊可能破損，卻不會生鐵鏽。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：舊鐵門受多年雨水影響而生鏽。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "pouring a drink / pour a drink",
+          "meaning": "倒飲料；把液體倒入杯中",
+          "usage": "pour + 飲料，表示把液體倒出；歌詞中的 drink 依派對語境可能指酒。",
+          "prompt": "哪一句正確使用「pouring a drink / pour a drink」？",
+          "options": [
+            "He poured a drink into a glass for his guest.",
+            "The waiter poured a drink by closing the door.",
+            "She poured a drink by turning on the music.",
+            "I poured a drink by putting away my empty cup."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：他把飲料倒進杯子招待客人。",
+            "關門不是把液體倒出。",
+            "播放音樂不等於倒飲料。",
+            "收起空杯並不是倒飲料。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：他把飲料倒進杯子招待客人。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "parts of me",
+          "meaning": "我的不同面向；自己內在的一部分",
+          "usage": "歌詞指個性、情緒與不完美之處；不是字面上的身體零件。",
+          "prompt": "哪一句正確使用「parts of me」？",
+          "options": [
+            "My lunch has parts of me because it tastes sweet.",
+            "The teacher counted parts of me on the whiteboard.",
+            "The mechanic replaced the parts of me in my car.",
+            "I showed her the shy parts of me through my writing."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "食物味道不能證明含有「我的內在面向」。",
+            "老師在白板計數並非在描述我的性格面向。",
+            "汽車零件應說 parts of my car，不能說 parts of me。",
+            "正確：透過寫作展露自己害羞的一面。"
+          ],
+          "sourceFile": "Just_Give_Me_a_Reason_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：透過寫作展露自己害羞的一面。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
   }
 }

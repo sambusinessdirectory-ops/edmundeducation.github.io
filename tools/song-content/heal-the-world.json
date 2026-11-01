@@ -4434,5 +4434,1649 @@
     "filename": "codex-clipboard-637a4d85-9eaf-4505-a14e-a55f56fbf111.png",
     "sha256": "6ce2bacd8307071f108583a9b3d759530ae0773c1c016b812229860c862219f8",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "422f0b23eaf187a9d7ef75aa5c62be1ae4f39c50071ea7ab0e1fec102c734921"
+    },
+    {
+      "section": "advanced",
+      "filename": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "415ecc08ae50ca2240522b94ed1d095b977857f6e9fec9a9d362d288197eb934"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Think about + 名詞",
+          "meaning": "想一想某事。",
+          "usage": "提醒別人考慮某個問題或行動。",
+          "prompt": "情境： 社區想在河邊種樹，負責人請大家先想想長期照顧問題。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "Think about the trees and their need for water before we plant them.",
+            "Think about the trees into our truck at noon.",
+            "Think about to water the trees yesterday.",
+            "Think about the trees are blue on Monday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：先考慮樹木的澆水需要，符合種樹前思考的情境。",
+            "錯誤：缺乏完整的受詞或子句結構，into 也無法表達此意。",
+            "錯誤：think about 後不能直接接 to water。",
+            "錯誤：若接完整疑問內容，應說 whether the trees are blue。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Think about",
+          "pattern": [
+            {
+              "text": "Think about",
+              "fixed": true
+            },
+            {
+              "text": "[事情／人物]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：先考慮樹木的澆水需要，符合種樹前思考的情境。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "They say (that) + 子句",
+          "meaning": "人們說／據說……。",
+          "usage": "轉述別人的普遍說法，未必代表自己完全同意。",
+          "prompt": "情境： 村裡有人相信舊鐘樓有秘密，你想轉述傳聞。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "They say that only winter bell.",
+            "They say that the bell rings only in winter.",
+            "They say that in winter the bell.",
+            "They say to that the bell ring."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：that 後沒有完整主詞與動詞。",
+            "正確：that 後為完整子句，表示轉述傳聞。",
+            "錯誤：缺少主要動詞，意思不完整。",
+            "錯誤：say 後不能用 to that 連接這類內容。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "they say we wanna",
+          "pattern": [
+            {
+              "text": "They say (that)",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句]",
+              "fixed": false
+            }
+          ],
+          "context": "來源／語域提醒：：歌中口語 wanna 只作語域說明，不另算新句型。",
+          "explanation": "正確：that 後為完整子句，表示轉述傳聞。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "make + 受詞 + 形容詞／名詞補語",
+          "meaning": "讓某物變得／成為……。",
+          "usage": "談改變環境、結果或狀態；歌中使用名詞補語 a better place。",
+          "prompt": "情境： 志工重新整理舊花園，希望它成為適合家庭休息的地方。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "The clean paths make the park a safer place.",
+            "The clean paths make the park to a safer place.",
+            "The park makes a safer place the clean paths.",
+            "The broken gate makes the park a train."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：make + park + a safer place，表達改善公園。",
+            "錯誤：此結構不需要 to。",
+            "錯誤：補語和受詞位置顛倒。",
+            "錯誤：把公園變成火車不符合情境。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Make it a better place",
+          "pattern": [
+            {
+              "text": "Make",
+              "fixed": true
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            },
+            {
+              "text": "[名詞／形容詞補語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：make + park + a safer place，表達改善公園。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "so that + 子句（目的）",
+          "meaning": "好讓……；以便……。",
+          "usage": "說明某個行動的目的。",
+          "prompt": "情境： 博物館新增大字說明牌，方便年長參觀者閱讀。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "We put up large signs so that can older visitors read them.",
+            "We put up large signs so that older visitors can read them.",
+            "We put up large signs so that to read them.",
+            "We put up large signs so that reading visitors."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：此處應使用陳述句語序。",
+            "正確：so that 後完整子句解釋新增說明牌的目的。",
+            "錯誤：so that 不能直接接 to-infinitive。",
+            "錯誤：so that 後缺少完整句子。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "so that they they they know",
+          "pattern": [
+            {
+              "text": "so that",
+              "fixed": true
+            },
+            {
+              "text": "[主詞＋動詞]",
+              "fixed": false
+            }
+          ],
+          "context": "來源／語域提醒：：源自開場口白；重複 they 屬口說停頓。",
+          "explanation": "正確：so that 後完整子句解釋新增說明牌的目的。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "There is / There are + 名詞",
+          "meaning": "有……存在。",
+          "usage": "介紹某個地方或情況中有甚麼。",
+          "prompt": "情境： 城鎮的免費美術節提供多種活動。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "There are three art shows in the square today.",
+            "There have three art shows in the square.",
+            "There are a small show in the square.",
+            "There is three art shows in the square."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：複數 shows 與 there are 搭配。",
+            "錯誤：英文存在句不以 there have 取代 there are。",
+            "錯誤：單數 show 應用 there is。",
+            "錯誤：複數 shows 應用 there are。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "There are ways to get there",
+          "pattern": [
+            {
+              "text": "There are",
+              "fixed": true
+            },
+            {
+              "text": "[複數名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補充資訊]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：複數 shows 與 there are 搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "know that + 子句",
+          "meaning": "我知道……；確信……。",
+          "usage": "表達已知的資訊或個人判斷。",
+          "prompt": "情境： 你看過劇院的公佈欄，確定今天演出免費。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "I know that is free the show.",
+            "I know that free the show because the notice.",
+            "I know that to free the show.",
+            "I know that the show is free because I read the notice."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：缺少正確主詞位置。",
+            "錯誤：that 後的英文語序錯誤。",
+            "錯誤：to free 不能表達演出免費。",
+            "正確：that 後有主詞與動詞，交代確定的資訊。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I know that it is love",
+          "pattern": [
+            {
+              "text": "I know that",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 後有主詞與動詞，交代確定的資訊。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "could be + 比較級 + than",
+          "meaning": "可能比……更……。",
+          "usage": "討論尚未確定的比較或改善可能。",
+          "prompt": "情境： 導演看過新舞台燈，希望明晚更亮。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "Tomorrow’s lights could be most brighter than tonight’s.",
+            "Tomorrow’s lights could be much bright than tonight’s.",
+            "Tomorrow’s lights could be much brighter than tonight’s.",
+            "Tomorrow’s lights could brighter than tonight’s."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：比較級前不能再用 most。",
+            "錯誤：than 前應使用比較級 brighter。",
+            "正確：could be + brighter than 表示未來可能更明亮。",
+            "錯誤：could 後需要 be。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "could be much brighter than tomorrow",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "could be",
+              "fixed": true
+            },
+            {
+              "text": "[比較級]",
+              "fixed": false
+            },
+            {
+              "text": "than",
+              "fixed": true
+            },
+            {
+              "text": "[比較對象]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could be + brighter than 表示未來可能更明亮。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "If + 現在式，will + 原形動詞",
+          "meaning": "如果……，就會……。",
+          "usage": "談可能實現的條件與後果。",
+          "prompt": "情境： 鄰居想學騎獨輪車，但擔心太難。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "If you will practise, you will got better.",
+            "If you practise a little each day, you will get better.",
+            "If you practised yesterday, you will got better.",
+            "If you practise, you will getting better."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：條件句通常不用 will，got 也不是原形。",
+            "正確：條件句用現在式，結果句用 will + 原形動詞。",
+            "錯誤：will 後不能接 got。",
+            "錯誤：will 後應用 get。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "if you really try",
+          "pattern": [
+            {
+              "text": "If",
+              "fixed": true
+            },
+            {
+              "text": "[現在式子句]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：條件句用現在式，結果句用 will + 原形動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "find + (that) + 子句",
+          "meaning": "發現／察覺……。",
+          "usage": "得到新資訊或理解某件事實。",
+          "prompt": "情境： 遊客擔心進科技館要收費，走到入口才知道不用買票。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "At the door, we found that the museum free.",
+            "At the door, we found to the museum was free.",
+            "At the door, we found that free the museum.",
+            "At the door, we found that the museum was free."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：子句缺少 was。",
+            "錯誤：found to 不能連接此陳述句。",
+            "錯誤：子句語序不正確。",
+            "正確：found that 引出已發現的完整事實。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "find there's no need to cry",
+          "pattern": [
+            {
+              "text": "find",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：found that 引出已發現的完整事實。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "There is no need to + 原形動詞",
+          "meaning": "沒有必要做……。",
+          "usage": "安慰別人或說明某件事不需要做。",
+          "prompt": "情境： 野餐已備好餐具，朋友仍想再買一套。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "There is no need to more cups.",
+            "There is no need buying to more cups.",
+            "There is no need to bought more cups.",
+            "There is no need to buy more cups; we have enough."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to 後面缺少動詞。",
+            "錯誤：to 與動名詞的順序不對。",
+            "錯誤：to 後應用原形 buy。",
+            "正確：to buy 表示不必再購買。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "there's no need to cry",
+          "pattern": [
+            {
+              "text": "There is no need to",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：to buy 表示不必再購買。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "care enough for + 名詞",
+          "meaning": "足夠關心……。",
+          "usage": "強調對人或群體的關懷程度。",
+          "prompt": "情境： 動物收容中心的工作者每天留意老狗是否舒適。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "The workers care enough for the older dogs to check them every day.",
+            "The workers care enough for the older dogs are hungry.",
+            "The workers care enough the older dogs for check them.",
+            "The workers care enough for to the older dogs."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：care enough for 後接照顧對象，也說明實際關心的行動。",
+            "錯誤：後半段沒有正確連接的子句。",
+            "錯誤：介系詞和不定詞的位置均不正確。",
+            "錯誤：for 後不能這樣接 to。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "care enough for the living",
+          "pattern": [
+            {
+              "text": "care enough for",
+              "fixed": true
+            },
+            {
+              "text": "[人／群體]",
+              "fixed": false
+            }
+          ],
+          "context": "來源／語域提醒：：原文單獨使用 if 子句；此處擷取的焦點為其實際出現的 care enough for。",
+          "explanation": "正確：care enough for 後接照顧對象，也說明實際關心的行動。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "名詞 + to + 動詞（用途／方法）",
+          "meaning": "用來……的方法／東西。",
+          "usage": "補充說明方法、機會或需要完成的事情。",
+          "prompt": "情境： 你在小鎮找步行路線，導覽員說有幾種方式可到燈塔。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "There are two ways reach the lighthouse.",
+            "There are two ways to reaching the lighthouse.",
+            "There are two ways reaching to the lighthouse.",
+            "There are two ways to reach the lighthouse."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：ways 後缺少 to。",
+            "錯誤：to 後應用原形 reach。",
+            "錯誤：ways 後的修飾結構不自然。",
+            "正確：ways to reach 說明到燈塔的方法。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "ways to get there",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：ways to reach 說明到燈塔的方法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "請做……；一起做……。",
+          "usage": "提出直接建議、請求或鼓勵。",
+          "prompt": "情境： 社區清潔日開始，隊長請大家先撿垃圾。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "Please to pick up the paper near the lake.",
+            "Please picking up the paper near the lake.",
+            "Please pick up the paper near the lake.",
+            "Please picks up the paper near the lake."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：please 後不需 to。",
+            "錯誤：不能直接用 picking 作祈使動詞。",
+            "正確：祈使句以原形 pick 開頭。",
+            "錯誤：祈使句不加第三人稱 s。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Heal the world",
+          "pattern": [
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            },
+            {
+              "text": "[受詞／補語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：祈使句以原形 pick 開頭。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "There are + 名詞 + -ing",
+          "meaning": "有……正在……。",
+          "usage": "描述某個情景中正在發生的動作。",
+          "prompt": "情境： 海邊節慶開始了，有人正在放風箏。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "There are children flying kites near the beach.",
+            "There are children fly kites near the beach.",
+            "There is children flying kites near the beach.",
+            "There are flying children kites near the beach."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：there are + children + flying，描述正在放風箏的人。",
+            "錯誤：名詞後需要 -ing 形式表動作。",
+            "錯誤：children 是複數，應使用 are。",
+            "錯誤：語序把 flying 誤放成修飾 children 的位置。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "There are people dying",
+          "pattern": [
+            {
+              "text": "There are",
+              "fixed": true
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[現在分詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：there are + children + flying，描述正在放風箏的人。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "want to know + 疑問詞",
+          "meaning": "想知道為甚麼／如何／在哪裡……。",
+          "usage": "表達對原因或方法的疑問。",
+          "prompt": "情境： 你看到城鎮廣場的新鐘每天都在中午響。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "I want to know why the clock rings at noon.",
+            "I want to know why ringing the clock at noon.",
+            "I want know why the clock rings at noon.",
+            "I want to know why does the clock ring at noon."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：間接問句採主詞 + 動詞語序。",
+            "錯誤：why 後缺少完整正常語序的子句。",
+            "錯誤：want 後需接 to know。",
+            "錯誤：嵌入問句不使用直接問句的倒裝。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "want to know why",
+          "pattern": [
+            {
+              "text": "want to know",
+              "fixed": true
+            },
+            {
+              "text": "[why / how / where + 子句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：間接問句採主詞 + 動詞語序。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "關係子句：名詞 + that + 動詞",
+          "meaning": "……的某個人或事物。",
+          "usage": "用關係子句補充名詞的特點。",
+          "prompt": "情境： 動物園推出一隻能模仿人說話的鸚鵡。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "We met a bird that to copy simple words.",
+            "We met a bird that copying simple words.",
+            "We met a bird that can copy simple words.",
+            "We met a bird that it can copy simple words."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：that 後不能直接接 to-infinitive 作此種子句。",
+            "錯誤：缺少子句的限定動詞。",
+            "正確：that 在子句中作主詞，後接 can copy。",
+            "錯誤：that 已作主詞，不應多加 it。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "a love that cannot lie",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "[動詞片語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 在子句中作主詞，後接 can copy。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "stop + -ing；start + -ing",
+          "meaning": "停止做一件事，開始做另一件事。",
+          "usage": "描述由舊行動改為新行動。",
+          "prompt": "情境： 大家決定不再丟棄可修好的玩具，改為修理。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "We stop throwing toys away and start fixing them.",
+            "We stop to throwing toys away and start fixing them.",
+            "We stop throw toys away and start fixing them.",
+            "We stop throwing toys away and start fix them."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：stop throwing 與 start fixing 平行。",
+            "錯誤：stop 後不能用 to throwing。",
+            "錯誤：stop 後應用 throwing。",
+            "錯誤：本題要求兩個 -ing 形式平行。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "We stop existing and start living",
+          "pattern": [
+            {
+              "text": "stop",
+              "fixed": true
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            },
+            {
+              "text": "and start",
+              "fixed": true
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：stop throwing 與 start fixing 平行。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "被動語態：be + 過去分詞",
+          "meaning": "被……；某事受到某個動作影響。",
+          "usage": "當行動承受者比執行者更重要時使用。",
+          "prompt": "情境： 畫廊介紹一幅由小朋友共同完成的壁畫。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "The wall picture was paint by local children.",
+            "The wall picture painted by local children yesterday.",
+            "The wall picture was painted by local children.",
+            "The wall picture was painting by local children."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：was 後應接過去分詞 painted。",
+            "錯誤：缺少 was，無法形成完整被動句。",
+            "正確：was painted 為被動語態。",
+            "錯誤：was painting 是主動進行式，與 by 的被動施事搭配不符。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "we were conceived in",
+          "pattern": [
+            {
+              "text": "[主詞]",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "[過去分詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補語]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：was painted 為被動語態。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "省略受詞關係代名詞",
+          "meaning": "我們曾經相信的……。",
+          "usage": "關係代名詞在子句中作受詞時，可在部分情況下省略。",
+          "prompt": "情境： 老師展示學生上星期選出的劇本。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "This is the play chose we last week.",
+            "This is the play we chose it last week.",
+            "This is the play we chose last week.",
+            "This is the play we were chose last week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：關係子句語序錯誤。",
+            "錯誤：play 已是 chose 的受詞，不需再用 it。",
+            "正確：the play 後省略受詞關係代名詞，we chose 已完整。",
+            "錯誤：were chose 不是正確形式。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "the world we once believed in",
+          "pattern": [
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[主詞＋動詞＋介系詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the play 後省略受詞關係代名詞，we chose 已完整。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "keep + -ing",
+          "meaning": "不斷／持續做……。",
+          "usage": "強調某個行為一直發生。",
+          "prompt": "情境： 小貓一直碰到琴鍵，發出奇怪的聲音。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "The cat keeps press the piano keys.",
+            "The cat keeps pressing the piano keys.",
+            "The cat keeps to pressing the piano keys.",
+            "The cat keep pressing the piano keys."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：keep 後需要 -ing。",
+            "正確：keeps pressing 表示小貓不斷碰琴鍵。",
+            "錯誤：keep 不接 to pressing。",
+            "錯誤：單數主詞 cat 應用 keeps。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "keep strangling life",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "[V-ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：keeps pressing 表示小貓不斷碰琴鍵。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "Though + 子句（讓步）",
+          "meaning": "雖然……，但是……。",
+          "usage": "提出與主句形成對比的情況。",
+          "prompt": "情境： 外面下著雨，但市場表演照常進行。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "Though it raining, the show will go on.",
+            "Though raining is, the show will go on.",
+            "Though it is raining, but the show will go on.",
+            "Though it is raining, the show will go on."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：it 後缺少 is。",
+            "錯誤：語序錯誤，缺少正確主詞／動詞安排。",
+            "錯誤：標準英文通常不用 though 與 but 同時連接這兩句。",
+            "正確：though 引出完整讓步子句，後面接主句。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Though it's plain to see",
+          "pattern": [
+            {
+              "text": "Though",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句]",
+              "fixed": false
+            },
+            {
+              "text": ",",
+              "fixed": true
+            },
+            {
+              "text": "[主句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：though 引出完整讓步子句，後面接主句。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "Let + 受詞 + 原形動詞",
+          "meaning": "讓……做某事。",
+          "usage": "表示容許、邀請或希望某件事發生。",
+          "prompt": "情境： 農場小朋友希望小馬可以在草地自由奔跑。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "Let the little horse runs in the field.",
+            "Let the little horse run in the field.",
+            "Let running the little horse in the field.",
+            "Let the little horse to run in the field."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：let 後不能用 runs。",
+            "正確：let 後接受詞與原形 run。",
+            "錯誤：本句語序不符合 let + object + bare verb。",
+            "錯誤：let 後不使用 to-infinitive。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Let our spirits never die",
+          "pattern": [
+            {
+              "text": "Let",
+              "fixed": true
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：let 後接受詞與原形 run。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "feel + (that) + 子句",
+          "meaning": "覺得／感受到……。",
+          "usage": "表達個人直覺、想法或感受。",
+          "prompt": "情境： 你認為新同事很友善，即使剛認識。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "I feel that is very kind the new team.",
+            "I feel that very kind the new team.",
+            "I feel that the new team is very kind.",
+            "I feel to the new team is very kind."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：語序錯誤。",
+            "錯誤：that 後缺少 be 動詞。",
+            "正確：that 後為完整子句。",
+            "錯誤：feel to 不能引出這種陳述內容。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I feel you are all my brothers",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "[完整子句]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 後為完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "see + 受詞 + 原形動詞",
+          "meaning": "看見……做某個動作。",
+          "usage": "強調親眼見到一個事件或完整行為。",
+          "prompt": "情境： 你在公園看見園丁把舊木箱改造成鳥屋。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "I saw the gardener to turn an old box into a bird house.",
+            "I saw the gardener turn an old box into a bird house.",
+            "I saw the gardener turned an old box into a bird house.",
+            "I saw the gardener turns an old box into a bird house."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：感官動詞 see 後的此結構不接 to。",
+            "正確：saw + gardener + turn 使用原形動詞。",
+            "錯誤：受詞後不使用過去式 turned。",
+            "錯誤：受詞後不用第三人稱 turns。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "See the nations turn their swords",
+          "pattern": [
+            {
+              "text": "See",
+              "fixed": true
+            },
+            {
+              "text": "[受詞]",
+              "fixed": false
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "context": "來源／語域提醒：：歌曲也有 turn A into B；這裡教的是 see + object + bare infinitive，不另重複計算相同焦點。",
+          "explanation": "正確：saw + gardener + turn 使用原形動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "turn + A + into + B",
+          "meaning": "把 A 變成 B。",
+          "usage": "描述物件或情況的轉變。",
+          "prompt": "情境： 科學展上學生把廢紙做成新的筆記本。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "The children turned into old paper new notebooks.",
+            "The children turned old paper into to new notebooks.",
+            "The children turned old paper to new notebooks.",
+            "The children turned old paper into new notebooks."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：A 與 B 的位置不對。",
+            "錯誤：into 後不加 to。",
+            "錯誤：此轉變結構需要 into。",
+            "正確：turned old paper into notebooks 表示材料轉變。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "turn their swords into plowshares",
+          "pattern": [
+            {
+              "text": "turn",
+              "fixed": true
+            },
+            {
+              "text": "[A]",
+              "fixed": false
+            },
+            {
+              "text": "into",
+              "fixed": true
+            },
+            {
+              "text": "[B]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：turned old paper into notebooks 表示材料轉變。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "create + 名詞 + with no + 名詞",
+          "meaning": "創造一個沒有……的……。",
+          "usage": "說明想建立的環境或成果具有甚麼特點。",
+          "prompt": "情境： 兒童設計一個沒有汽車的公園模型。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "They created a small town with no to cars.",
+            "They created a small town with no cars.",
+            "They created a small town with not cars.",
+            "They created a small town without no cars."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：with no 後不加 to。",
+            "正確：with no cars 表示沒有汽車。",
+            "錯誤：with not cars 不是自然的名詞否定結構。",
+            "錯誤：without no 在此造成不必要的非標準雙重否定。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "Create a world with no fear",
+          "pattern": [
+            {
+              "text": "Create",
+              "fixed": true
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            },
+            {
+              "text": "with no",
+              "fixed": true
+            },
+            {
+              "text": "[名詞]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：with no cars 表示沒有汽車。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "save + 受詞 + for + 對象",
+          "meaning": "把某物留給某人或保存作某用途。",
+          "usage": "為別人保留資源或物品。",
+          "prompt": "情境： 大家在派對中為遲到的朋友留了一塊蛋糕。 選出最自然、符合情境與目標句型的一句。",
+          "options": [
+            "We saved a piece of cake for to our friend.",
+            "We saved for a piece of cake our friend.",
+            "We saved a piece of cake for our friend.",
+            "We saved a piece of cake to our friend."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：for 後不加 to。",
+            "錯誤：受詞與 for 片語順序顛倒。",
+            "正確：save + cake + for + friend 表示保留給朋友。",
+            "錯誤：本題的保留對象應搭配 for。"
+          ],
+          "sourceFile": "Heal_The_World_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "Save it for our children",
+          "pattern": [
+            {
+              "text": "Save",
+              "fixed": true
+            },
+            {
+              "text": "[東西]",
+              "fixed": false
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "[人／用途]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：save + cake + for + friend 表示保留給朋友。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "generations",
+          "meaning": "世代；好幾代人",
+          "usage": "談家庭不同年代，或長久延續的習慣時使用；常說 for generations。",
+          "prompt": "哪一句正確使用「generations」？",
+          "options": [
+            "She poured generations into the flower pot.",
+            "The teacher put generations on the classroom wall.",
+            "This recipe has been passed down for generations.",
+            "I drank two generations of water after football."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：generations 是世代，不能當成盆栽土壤。",
+            "錯誤：generations 指世代，不是可掛在牆上的物品。",
+            "正確：食譜世代相傳，搭配自然。",
+            "錯誤：水不能用「世代」作為數量單位。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "context": "參考難度：：B2",
+          "explanation": "正確：食譜世代相傳，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "sorrow",
+          "meaning": "悲傷；深切的難過",
+          "usage": "常用於失去親人、令人難過的消息或文學性表達，語氣比 sadness 稍正式。",
+          "prompt": "哪一句正確使用「sorrow」？",
+          "options": [
+            "She measured her sorrow in cups of rice.",
+            "We drove our sorrow to the school gate.",
+            "He felt great sorrow when his old dog died.",
+            "He wore a sorrow to keep his head warm."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：悲傷不是可用杯子測量的食材。",
+            "錯誤：sorrow 是情緒，不能當交通工具。",
+            "正確：寵物離世讓他感到深切悲傷。",
+            "錯誤：sorrow 不是帽子或衣服。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "context": "參考難度：：B2",
+          "explanation": "正確：寵物離世讓他感到深切悲傷。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "joyful",
+          "meaning": "充滿喜悅的；令人高興的",
+          "usage": "描述人、聲音、時刻或活動洋溢喜悅；比 happy 稍具文學感。",
+          "prompt": "哪一句正確使用「joyful」？",
+          "options": [
+            "The children gave a joyful shout when school ended.",
+            "She put a joyful in her bag before leaving.",
+            "The train was joyful because it had six wheels.",
+            "He joyful the door with his school key."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：孩子們開心地歡呼，joyful 修飾 shout。",
+            "錯誤：joyful 是形容詞，不是能裝進包包的物品。",
+            "錯誤：車輪數量不代表「充滿喜悅」。",
+            "錯誤：joyful 不是「開門」的動詞。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "context": "參考難度：：B2",
+          "explanation": "正確：孩子們開心地歡呼，joyful 修飾 shout。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "bliss",
+          "meaning": "極大的幸福；無比愉悅",
+          "usage": "描述平靜、滿足或極度快樂的狀態；常說 pure bliss。",
+          "prompt": "哪一句正確使用「bliss」？",
+          "options": [
+            "We bought three blisses at the corner shop.",
+            "After the long walk, a warm bath was pure bliss.",
+            "The dog used bliss to open the kitchen door.",
+            "My pencil wrote bliss across the playground."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：bliss 在此是不可數的抽象名詞。",
+            "正確：長途步行後泡熱水澡，令人無比享受。",
+            "錯誤：bliss 是幸福感，不是開門工具。",
+            "錯誤：鉛筆不會自行書寫，句意也不合理。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "context": "參考難度：：C1",
+          "explanation": "正確：長途步行後泡熱水澡，令人無比享受。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "dread",
+          "meaning": "強烈恐懼；非常害怕",
+          "usage": "常指擔心即將發生的不愉快事情；可說 dread an exam 或 feel dread。",
+          "prompt": "哪一句正確使用「dread」？",
+          "options": [
+            "I dread telling Dad that I lost his camera.",
+            "Our class painted dread onto a new bicycle.",
+            "She washed her dread with cold water at lunch.",
+            "The singer wore a dread under his blue coat."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：害怕告訴爸爸自己弄丟了相機。",
+            "錯誤：抽象的恐懼不是自行車油漆。",
+            "錯誤：dread 不是需要洗的物品。",
+            "錯誤：此處 dread 是恐懼，不是衣物。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "context": "參考難度：：C1",
+          "explanation": "正確：害怕告訴爸爸自己弄丟了相機。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "exist",
+          "meaning": "存在；實際上有",
+          "usage": "談某事物是否存在，或只是維持生存；不能直接接受詞。",
+          "prompt": "哪一句正確使用「exist」？",
+          "options": [
+            "The coach bought two exists for the team.",
+            "Do you think life exists on other planets?",
+            "She exists her breakfast with a wooden spoon.",
+            "Please exist this door before the show starts."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：exist 是動詞，不是可購買的物品。",
+            "正確：詢問其他星球是否有生命。",
+            "錯誤：exist 不表示吃飯，也不接早餐作受詞。",
+            "錯誤：exist 不是「打開」的及物動詞。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "context": "參考難度：：B2",
+          "explanation": "正確：詢問其他星球是否有生命。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "conceive",
+          "meaning": "構想；想出（計畫、想法）",
+          "usage": "常見 conceive an idea / plan；另有「懷孕、受孕」義，歌詞為詩意的 conceived in。",
+          "prompt": "哪一句正確使用「conceive」？",
+          "options": [
+            "He conceived the train with a paper ticket.",
+            "They conceived a plan to save the old library.",
+            "My jacket conceived blue after the long journey.",
+            "The scientist conceived her lunch at the bus stop."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：搭車不能以 conceive 代替 take。",
+            "正確：共同構想了保留舊圖書館的計畫。",
+            "錯誤：conceive 不是變成某種顏色。",
+            "錯誤：午餐不是在這裡用 conceive 表達的動作。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "context": "參考難度：：C1",
+          "explanation": "正確：共同構想了保留舊圖書館的計畫。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "reveal",
+          "meaning": "揭露；顯示原本不知道的事",
+          "usage": "揭曉結果、秘密、身分或意外發現；常接秘密、答案等。",
+          "prompt": "哪一句正確使用「reveal」？",
+          "options": [
+            "I revealed my homework into the blue cupboard.",
+            "The cook revealed his shoes before making soup.",
+            "The bus revealed to the station before sunset.",
+            "The school will reveal the winners on Friday."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：放東西進櫃子用 put，不用 reveal。",
+            "錯誤：沒有清楚的揭露資訊；此情境較像脫鞋。",
+            "錯誤：reveal 不表示交通工具抵達。",
+            "正確：星期五公布得獎者名單。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "context": "參考難度：：B2",
+          "explanation": "正確：星期五公布得獎者名單。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "grace",
+          "meaning": "優雅；從容的姿態",
+          "usage": "描述動作姿態的優美，也有「恩典」之義；此題考常見動作義。",
+          "prompt": "哪一句正確使用「grace」？",
+          "options": [
+            "The dancer moved across the stage with grace.",
+            "The coach graced his bicycle into a sandwich.",
+            "She sent two graces to school in her bag.",
+            "My brother put grace in the toaster at noon."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：舞者動作優雅、流暢。",
+            "錯誤：雖有動詞 grace，但不能這樣表示製作食物。",
+            "錯誤：此處 grace 不是可數、可寄送的物品。",
+            "錯誤：grace 不是可放進烤麵包機的食物。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "context": "參考難度：：C1",
+          "explanation": "正確：舞者動作優雅、流暢。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "strangle",
+          "meaning": "掐住喉嚨；扼殺、壓制",
+          "usage": "字面表示使人無法呼吸；比喻可說 strangle creativity（扼殺創意）；避免當成普通「阻止」使用。",
+          "prompt": "哪一句正確使用「strangle」？",
+          "options": [
+            "The dog strangled across the garden at night.",
+            "Too many rules can strangle new ideas.",
+            "The teacher strangled a song on the piano.",
+            "She strangled the tea with a spoon of honey."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：strangle 不是表示穿越花園的移動動詞。",
+            "正確：過多規定可能扼殺新想法，屬比喻義。",
+            "錯誤：彈奏歌曲應說 played a song。",
+            "錯誤：加蜂蜜用 sweeten，不會說 strangle tea。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "context": "參考難度：：C1",
+          "explanation": "正確：過多規定可能扼殺新想法，屬比喻義。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "wound",
+          "meaning": "傷害；使受傷（動詞）",
+          "usage": "可指身體受傷，也可比喻傷害感情；動詞 wound 的過去式 wounded。",
+          "prompt": "哪一句正確使用「wound」？",
+          "options": [
+            "The bus wounded to the airport at sunrise.",
+            "I wound a new pair of shoes for the party.",
+            "His unkind words wounded her feelings deeply.",
+            "She wounded her breakfast with a red pencil."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：wound 不表示開往機場；此處也不是 wind 的過去式。",
+            "錯誤：買鞋用 bought；wound 不是「購買」。",
+            "正確：難聽的話深深傷害她的感情。",
+            "錯誤：早餐不是能以這種方式造成傷害的對象。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "context": "參考難度：：B2",
+          "explanation": "正確：難聽的話深深傷害她的感情。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "crucify",
+          "meaning": "釘在十字架上；嚴厲批判（比喻）",
+          "usage": "強烈、有宗教歷史背景的字；現代比喻可表示公開苛責，需注意語氣很重。",
+          "prompt": "哪一句正確使用「crucify」？",
+          "options": [
+            "I crucified my homework before going to bed.",
+            "The cat crucified the window to let in air.",
+            "She crucified three apples for her fruit salad.",
+            "The press crucified the actor for one small mistake."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：做作業不是「釘十字架」或嚴厲批判。",
+            "錯誤：開窗通風應用 opened the window。",
+            "錯誤：切水果不使用 crucify。",
+            "正確：媒體因一次小失誤而嚴厲抨擊演員，為強烈比喻。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "context": "參考難度：：C2",
+          "explanation": "正確：媒體因一次小失誤而嚴厲抨擊演員，為強烈比喻。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "heavenly",
+          "meaning": "極美好的；天堂般的",
+          "usage": "形容景色、味道或感覺美好得像天堂；可自然形容食物。",
+          "prompt": "哪一句正確使用「heavenly」？",
+          "options": [
+            "The warm bread smelled heavenly in the morning.",
+            "She heavenly her bicycle before leaving home.",
+            "The rain is heavenly at six kilograms today.",
+            "We bought a heavenly to open the locked door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：剛出爐麵包香得讓人陶醉。",
+            "錯誤：heavenly 是形容詞，不是修腳踏車的動詞。",
+            "錯誤：雨不會用公斤描述這種「天堂般」的程度。",
+            "錯誤：heavenly 不是開鎖工具或可數名詞。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "context": "參考難度：：C1",
+          "explanation": "正確：剛出爐麵包香得讓人陶醉。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "plowshare",
+          "meaning": "犁頭；犁的金屬刀片",
+          "usage": "農具名詞；歌詞的 swords into plowshares 是以武器變農具象徵和平的典故。",
+          "prompt": "哪一句正確使用「plowshare」？",
+          "options": [
+            "She wore a plowshare to keep warm in winter.",
+            "The singer plowshared the song at the concert.",
+            "He put a plowshare in his tea for extra sugar.",
+            "The farmer replaced the old plowshare before spring."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：犁頭不是圍巾或冬天穿的衣物。",
+            "錯誤：plowshare 在此是名詞，不能取代 sang。",
+            "錯誤：犁頭是農具，不是茶飲配料。",
+            "正確：農夫在春耕前更換老舊的犁頭。"
+          ],
+          "sourceFile": "Heal_The_World_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 14,
+          "context": "參考難度：：C2",
+          "explanation": "正確：農夫在春耕前更換老舊的犁頭。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    }
   }
 }

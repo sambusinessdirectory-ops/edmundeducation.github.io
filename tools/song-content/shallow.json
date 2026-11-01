@@ -2878,5 +2878,1124 @@
     "filename": "codex-clipboard-196a038f-9de7-4235-b508-b4a3cc046a42.png",
     "sha256": "2bee483fd2e58337d41c8696256f7749ae4662a6da42f54cb904a9434858b581",
     "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "63ace0593178b534abcc0b3a7367f39d22110ead58f81775bd7347fe8200b0af"
+    },
+    {
+      "section": "advanced",
+      "filename": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "9cdc868d21c127e772385b182a58c512faa90ec6d3c769f91b5133b3d01d582c"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "直接請對方說某件事；祈使句通常省略主詞 you。",
+          "usage": "請朋友回答、分享消息或給予指示時使用。",
+          "prompt": "應用練習 主持人想邀請來賓說一件有趣的事，哪一句最合適？",
+          "options": [
+            "Told me one fun thing about your trip.",
+            "Tell me one fun thing about your trip.",
+            "Telling me one fun thing about your trip.",
+            "You tell me one fun thing about your trip?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "Told 是過去式，不能直接充當此處祈使句。",
+            "正確：Tell 原形起頭，直接提出邀請。",
+            "只有 -ing 片語，缺少完整句子的動詞。",
+            "此句用問號卻是陳述語序；若要問可說 Can you tell me…?"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Tell me something, boy",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "事情",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Tell 原形起頭，直接提出邀請。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "be + 形容詞 + 地點",
+          "meaning": "詢問某人在某環境中是否有某種感受。",
+          "usage": "關心他人在新工作、新地方是否適應。",
+          "prompt": "應用練習 朋友剛搬進新城市，想問她在那裡快不快樂。",
+          "options": [
+            "Do you happy in your new city?",
+            "Are you happy in your new city?",
+            "You are happy in your new city?",
+            "Are you happily in your new city?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "happy 是形容詞，問句需要 be 動詞。",
+            "正確：Are + 主詞 + happy + 地點。",
+            "陳述句語序；一般的是非問句要把 Are 放前面。",
+            "happily 是副詞，不能如此充當 be 後的表語。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Are you happy in this modern world?",
+          "pattern": [
+            {
+              "text": "Are",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": true
+            },
+            {
+              "text": "地點?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Are + 主詞 + happy + 地點。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "do + 主詞 + 動詞原形：一般現在式問句",
+          "meaning": "詢問需求、習慣或一般事實；一般動詞問句用 do。",
+          "usage": "詢問對方是否還需要飲水或幫助。",
+          "prompt": "應用練習 服務生見客人的杯子快空了，詢問是否還要水。",
+          "options": [
+            "Are you need more water?",
+            "Does you need more water?",
+            "Do you need more water?",
+            "Do you needs more water?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "need 是一般動詞，不能直接套 Are。",
+            "you 要配 do，不用 does。",
+            "正確：Do you need more water?",
+            "助動詞 do 後應用 need 原形。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Or do you need more?",
+          "pattern": [
+            {
+              "text": "Do",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "受詞?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Do you need more water?",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "there be：詢問是否存在",
+          "meaning": "詢問是否還有某件事或某樣東西。",
+          "usage": "店員詢問顧客是否還想找其他商品。",
+          "prompt": "應用練習 店員想問顧客還有沒有其他需要。",
+          "options": [
+            "There is anything else you need?",
+            "Are there anything else you need?",
+            "Is there need anything else you?",
+            "Is there anything else you need?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "是陳述語序；問句需 Is there。",
+            "anything 視為單數，這裡不搭 are there。",
+            "there be 不用 need 放這個位置。",
+            "正確：Is there anything else…?"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Is there somethin' else you're searchin' for?",
+          "pattern": [
+            {
+              "text": "Is there",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞片語",
+              "fixed": false
+            },
+            {
+              "text": "修飾語?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Is there anything else…?",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "省略受詞關係代名詞 + 介系詞置尾",
+          "meaning": "前文的東西是 search for 的受詞，關係代名詞可省略，for 仍留在後面。",
+          "usage": "說明某人正在找的東西；不要把 for 誤刪。",
+          "prompt": "應用練習 朋友在找一本特別的書，選出自然的描述。",
+          "options": [
+            "This is the book I am looking for.",
+            "This is the book I am looking.",
+            "This is the book I looking for.",
+            "This is the book I am looking for it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：省略 that，介系詞 for 留在句末。",
+            "look for 的 for 不可無故刪掉。",
+            "進行式缺少 am。",
+            "關係子句已有 book 作受詞，不能再加 it 重複受詞。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "you're searchin' for",
+          "pattern": [
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be + V-ing + 介系詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：省略 that，介系詞 for 留在句末。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "現在進行式：be + V-ing",
+          "meaning": "描述目前正在發生、逐漸變化的事；原歌的 falling 具有詩意歧義。",
+          "usage": "描述此刻正在進行的動作。",
+          "prompt": "應用練習 朋友問你正在做甚麼，你正在畫貓。",
+          "options": [
+            "I am draw a cat now.",
+            "I drawing a cat now.",
+            "I am drawing a cat now.",
+            "I draw a cat yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "am 後的現在進行式需 -ing。",
+            "缺少 be 動詞。",
+            "正確：am + drawing。",
+            "yesterday 指過去，不是在回答現在的動作。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I'm falling",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：am + drawing。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "find + 反身代名詞 + V-ing",
+          "meaning": "發現自己不知不覺在做某事，常帶出意外或自然產生的反應。",
+          "usage": "發現自己看見美景就笑、聽歌就哼。",
+          "prompt": "應用練習 每次看到小狗，Lena 都發現自己會微笑。",
+          "options": [
+            "Lena finds her smiling when she sees dogs.",
+            "Lena finds herself smiling when she sees dogs.",
+            "Lena finds herself smile when she sees dogs.",
+            "Lena finds herself to smile when she sees dogs."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "應用 herself 指回主詞 Lena。",
+            "正確：finds herself + smiling。",
+            "find herself 後此用法需 smiling。",
+            "此結構不接 to smile。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I find myself longin' for change",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "find",
+              "fixed": true
+            },
+            {
+              "text": "反身代名詞",
+              "fixed": false
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：finds herself + smiling。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "long for + 名詞：強烈渴望",
+          "meaning": "強烈渴望某個人、東西或改變；longin’ 是 longing 的歌唱省音。",
+          "usage": "很想念家、渴望平靜或假期。",
+          "prompt": "應用練習 一位旅行者離家三個月，最想念自己的床。",
+          "options": [
+            "She longs her own bed.",
+            "She longs for her own bed.",
+            "She longs for to sleep in her own bed.",
+            "She longs for sleeping to her own bed."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "long 作「渴望」時此處需 for。",
+            "正確：longs for + 名詞。",
+            "long for 不直接接 to + 原形；可改 longs to sleep。",
+            "介系詞搭配不自然；此意用 longs to sleep in her bed。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "longin' for change",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "long for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：longs for + 名詞。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "in + 時間／情境片語",
+          "meaning": "用 in 指某個時期或情境下所發生的感受或行為。",
+          "usage": "對比順利和困難時期的反應。",
+          "prompt": "應用練習 說明一家人在困難時刻仍互相幫忙。",
+          "options": [
+            "At hard times, our family helps each other.",
+            "On hard times, our family helps each other.",
+            "To hard times, our family helps each other.",
+            "In hard times, our family helps each other."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "at 在此不是最自然的時期搭配。",
+            "on 不用來表示這種時期。",
+            "to 表方向，不表身處某時期。",
+            "正確：in hard times 表「在艱難時期」。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "in the bad times",
+          "pattern": [
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "時期／情境",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：in hard times 表「在艱難時期」。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "be tired + -ing：口語省略介系詞",
+          "meaning": "歌詞是口語的「累於不斷嘗試」；日常較常用 tired of + V-ing。",
+          "usage": "問人是否厭倦重複做同一件事；需區分歌詞與教學標準句型。",
+          "prompt": "應用練習 朋友每天修同一台舊腳踏車，問他是否厭倦。",
+          "options": [
+            "Aren’t you tired of fix that bike?",
+            "Aren’t you tired fixing of that bike?",
+            "Aren’t you tired to fixing that bike?",
+            "Aren’t you tired of fixing that bike?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "of 後面需 fixing。",
+            "of 不應插在 fixing 後。",
+            "to fixing 搭配不對。",
+            "正確：tired of + V-ing；這是標準延伸，不是假稱歌中有 of。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Aren't you tired tryna fill that void?",
+          "pattern": [
+            {
+              "text": "Aren’t",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "tired",
+              "fixed": true
+            },
+            {
+              "text": "tryna + 原形?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：tired of + V-ing；這是標準延伸，不是假稱歌中有 of。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "ain’t：非標準口語否定問句",
+          "meaning": "ain’t 是非正式、非標準否定詞，這裡相當於 Isn’t it。",
+          "usage": "理解歌曲、口語對話；正式書面及一般課堂寫作改用 isn’t。",
+          "prompt": "應用練習 要用標準英文問「一直保持微笑不是很難嗎？」",
+          "options": [
+            "Isn’t it hard to smile all day?",
+            "Aren’t it hard to smile all day?",
+            "Isn’t it hardly to smile all day?",
+            "Doesn’t it hard to smile all day?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Isn’t it hard…，對應原歌 ain’t it。",
+            "it 搭配 is，不用 are。",
+            "hardly 表「幾乎不」，不是 hard 的普通替代。",
+            "hard 是形容詞；要 be，不用 does。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Ain't it hard keeping it so hardcore?",
+          "pattern": [
+            {
+              "text": "Ain’t",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "V-ing?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Isn’t it hard…，對應原歌 ain’t it。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "It is + 形容詞 + V-ing",
+          "meaning": "說某項活動本身難或容易。原句省略前面主語部分，且帶口語用法。",
+          "usage": "描述每天堅持某件事的難度。",
+          "prompt": "應用練習 每天清晨跑步對 Zoe 很難。",
+          "options": [
+            "It is hard running every morning.",
+            "It hard running every morning.",
+            "It is hard run every morning.",
+            "It is hardly running every morning."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：It is hard + running。",
+            "缺少 is。",
+            "此句需 running 或 to run。",
+            "hardly 不是「困難」的意思。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "hard keeping it so hardcore",
+          "pattern": [
+            {
+              "text": "It is",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：It is hard + running。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "watch + as + 子句",
+          "meaning": "請對方看某動作發生的過程，as 引出同步事件。",
+          "usage": "示範新技能並邀請別人觀看。",
+          "prompt": "應用練習 老師示範摺紙，讓孩子們看他如何摺。",
+          "options": [
+            "Watch as I folds this paper.",
+            "Watch as I to fold this paper.",
+            "Watch as I fold this paper.",
+            "Watch as I folding this paper."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "I 後一般現在式不用 folds。",
+            "as 後是完整子句，不接 to fold。",
+            "正確：Watch as I fold…",
+            "as 子句缺少正常謂語形式。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "watch as I dive in",
+          "pattern": [
+            {
+              "text": "watch + as",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Watch as I fold…",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "never + 動詞：強調不會發生",
+          "meaning": "表達對未來強烈的否定或承諾。",
+          "usage": "說未來絕不忘記某位幫助過你的人。",
+          "prompt": "應用練習 你想向幫助過你的鄰居表達感謝。",
+          "options": [
+            "I will never forgetting your help.",
+            "I will never forget your help.",
+            "I never will forgot your help.",
+            "I will never to forget your help."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後不能接 forgetting。",
+            "正確：will never + forget 原形。",
+            "forgot 是過去式，不配在 will 後。",
+            "will 後不加 to。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I'll never meet the ground",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will never",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will never + forget 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "祈使句中的動詞 + through + 受詞",
+          "meaning": "through 表示穿過、突破某物；原歌以強烈的衝撞動詞製造畫面。",
+          "usage": "描寫從某物中穿過，而不只是停在旁邊。",
+          "prompt": "應用練習 在故事中，一隻大鳥穿過薄雲飛出來。",
+          "options": [
+            "The bird flew the through clouds.",
+            "The bird flew through to the clouds.",
+            "The bird flew across through the clouds.",
+            "The bird flew through the clouds."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "the 與 through 順序錯。",
+            "through to 的搭配在此多餘且改變句意。",
+            "across through 重複不自然。",
+            "正確：flew through + 事物。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Crash through the surface",
+          "pattern": [
+            {
+              "text": "動詞原形 + through",
+              "fixed": true
+            },
+            {
+              "text": "障礙物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：flew through + 事物。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "where + 子句修飾場所",
+          "meaning": "where 引出地點關係子句，說明「在那裡」發生甚麼事。",
+          "usage": "介紹能讓人安靜閱讀或安全玩耍的地方。",
+          "prompt": "應用練習 朋友介紹一座能安靜讀書的小公園。",
+          "options": [
+            "This is a park which we can read quietly.",
+            "This is a park where we can quietly reading.",
+            "This is a park where we can read quietly.",
+            "This is a park where can we read quietly."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "用 which 時一般需要 in which 或 where。",
+            "can 後需 read 原形。",
+            "正確：where + 主詞 + 動詞。",
+            "關係子句用陳述語序，不倒裝。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "where they can't hurt us",
+          "pattern": [
+            {
+              "text": "地點",
+              "fixed": false
+            },
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：where + 主詞 + 動詞。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "can’t + 動詞原形：無法做某事",
+          "meaning": "表示無法或不可能做某件事。",
+          "usage": "說明因為某種限制而無法聽到聲音。",
+          "prompt": "應用練習 圖書館的門關上了，外面的人聽不見室內音樂。",
+          "options": [
+            "They can’t hear the music outside.",
+            "They can’t hearing the music outside.",
+            "They don’t can hear the music outside.",
+            "They can’t to hear the music outside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：can’t + hear。",
+            "can’t 後接 hear 原形。",
+            "否定情態動詞不用 don’t can。",
+            "情態動詞後不用 to。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "they can't hurt us",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can’t",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can’t + hear。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "far from + 名詞：距離或比喻差距",
+          "meaning": "表示距離很遠；原歌同時借水深象徵遠離表面生活。",
+          "usage": "說自己已遠離某個地點。",
+          "prompt": "應用練習 一家人開車兩小時後，離原本的城市很遠。",
+          "options": [
+            "We are far of the city now.",
+            "We are far to the city now.",
+            "We are far from the city now.",
+            "We are far at the city now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "far of 介系詞不對。",
+            "far to 不用於此距離關係。",
+            "正確：far from + 地點。",
+            "far at 介系詞不對。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "We're far from the shallow now",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be far from",
+              "fixed": true
+            },
+            {
+              "text": "地點／狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：far from + 地點。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "比較兩種時間：good times / bad times",
+          "meaning": "all the 修飾複數 times，表示一段經歷中的所有好時光。",
+          "usage": "回想過往所有快樂時刻。",
+          "prompt": "應用練習 朋友回憶他們一起度過的好時光。",
+          "options": [
+            "We remember all the happy times together.",
+            "We remember every happy times together.",
+            "We remember all happy times the together.",
+            "We remember all the happy time together."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：all the + 形容詞 + 複數名詞。",
+            "every 後接單數 time。",
+            "the 位置錯誤。",
+            "此意多段時光要用複數 times。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "In all the good times",
+          "pattern": [
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "all the + 形容詞 + times",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：all the + 形容詞 + 複數名詞。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "or：提出另一種可能",
+          "meaning": "承接上一個提問，給對方另一種選擇或可能。",
+          "usage": "先問一個選項，再詢問另一個選項。",
+          "prompt": "應用練習 店員先問要茶，再問是否想喝水。",
+          "options": [
+            "Would you like tea? Or liking water?",
+            "Would you like tea? Or do water?",
+            "Would you like tea? Or you would like water?",
+            "Would you like tea? Or would you like water?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少主詞和完整動詞結構。",
+            "do water 不是詢問要不要水的自然說法。",
+            "一般問句應把 would 放在主詞前。",
+            "正確：or 後接完整的另一個問句。"
+          ],
+          "sourceFile": "Shallow_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Or do you need more?",
+          "pattern": [
+            {
+              "text": "Or",
+              "fixed": true
+            },
+            {
+              "text": "完整疑問句?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：or 後接完整的另一個問句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "modern",
+          "meaning": "現代的；符合當代生活或科技的",
+          "usage": "形容當代建築、設備或生活方式；modern technology、modern art 都很常見。",
+          "prompt": "哪一句正確使用「modern」？",
+          "options": [
+            "The old coin became modern because it was dirty.",
+            "Our teacher modern the lesson before lunch today.",
+            "This modern museum has many new digital displays.",
+            "This modern bread was baked two hundred years ago."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：硬幣髒了不代表它成為現代物品。",
+            "錯誤：modern 是形容詞，不能直接當動詞使用。",
+            "正確：現代博物館配備新式數位展示，搭配自然。",
+            "錯誤：此處若強調兩百年前的麵包，modern 與時間不符。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：現代博物館配備新式數位展示，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "falling",
+          "meaning": "墜落中；逐漸陷入某種狀態",
+          "usage": "fall 的現在分詞，可表示實際下落，也常和情感或狀態搭配。",
+          "prompt": "哪一句正確使用「falling」？",
+          "options": [
+            "My brother is falling the bus to his office.",
+            "The leaves are falling from the trees in autumn.",
+            "The book is falling a new story every Friday.",
+            "The teacher is falling her students new words."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：搭公車上班不能使用 falling。",
+            "正確：樹葉在秋天往下落，falling 用法正確。",
+            "錯誤：falling 不能表示寫出或講述故事。",
+            "錯誤：教學生單字應使用 teaching，而非 falling。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：樹葉在秋天往下落，falling 用法正確。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "fear",
+          "meaning": "害怕；恐懼（名詞或動詞）",
+          "usage": "可說 fear something、fear for someone；語氣通常比 worry 更強。",
+          "prompt": "哪一句正確使用「fear」？",
+          "options": [
+            "I fear my bicycle because its basket is yellow.",
+            "She feared the weather by bringing an umbrella.",
+            "Many children fear the dark after a scary film.",
+            "We fear the library when books are on shelves."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：籃子是黃色不足以合理解釋強烈恐懼。",
+            "錯誤：帶傘可表示預防下雨，不一定表示恐懼天氣。",
+            "正確：看完可怕電影後害怕黑暗，語境自然。",
+            "錯誤：書放書架是正常情況，不構成恐懼原因。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：看完可怕電影後害怕黑暗，語境自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "hardcore",
+          "meaning": "極投入的；極端或強硬的（非正式）",
+          "usage": "常說 hardcore fan（死忠粉絲）或 hardcore training（高強度訓練）；視語境可能帶批評。",
+          "prompt": "哪一句正確使用「hardcore」？",
+          "options": [
+            "Our hardcore table has four wooden legs today.",
+            "He hardcore his shoes before the morning race.",
+            "The hardcore water tastes cold after the walk.",
+            "She is a hardcore fan and attends every match."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：hardcore 不用來單純描述桌子有四條腿。",
+            "錯誤：hardcore 不能直接當作穿鞋的動詞。",
+            "錯誤：hardcore 不用來表示水很冰或味道。",
+            "正確：hardcore fan 表示非常投入的忠實球迷。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：hardcore fan 表示非常投入的忠實球迷。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "shallow",
+          "meaning": "淺的；（比喻）膚淺的、缺乏深度的",
+          "usage": "可形容 shallow water（淺水）或 shallow comments（膚淺的評論）。",
+          "prompt": "哪一句正確使用「shallow」？",
+          "options": [
+            "The lake is shallow here, so children can stand.",
+            "The shallow train arrived because it was early.",
+            "My cousin shallow her homework before breakfast.",
+            "I bought shallow at the shop with my coins."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：湖水在這一帶較淺，孩子可以站立。",
+            "錯誤：shallow 不表示列車提早抵達。",
+            "錯誤：shallow 不是做功課的動詞。",
+            "錯誤：shallow 是形容詞，不能單獨當商品名稱。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：湖水在這一帶較淺，孩子可以站立。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "ground",
+          "meaning": "地面；土地；（某些語境）理由、根據",
+          "usage": "常見 on the ground、fall to the ground；歌中和深水意象形成對比。",
+          "prompt": "哪一句正確使用「ground」？",
+          "options": [
+            "The ball hit the ground and rolled under a chair.",
+            "The ground was hungry after a very long winter.",
+            "My ground finished its homework before dinner.",
+            "I ground to the shop to buy some vegetables."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：球碰到地面後滾到椅子底下。",
+            "錯誤：地面不會飢餓；可說 the ground was dry。",
+            "錯誤：ground 不是會完成作業的人。",
+            "錯誤：此處不能用名詞 ground 表示前往商店。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：球碰到地面後滾到椅子底下。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "change",
+          "meaning": "改變；變化（名詞或動詞）",
+          "usage": "歌詞用 long for change 表示渴望生活有所不同；日常可說 make a change。",
+          "prompt": "哪一句正確使用「change」？",
+          "options": [
+            "She changed the rain to school before eight.",
+            "He wanted a change, so he tried a new hobby.",
+            "We made change yesterday because the clock was blue.",
+            "The teacher changed a sandwich into the classroom."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：change 不能代替搭車或走路上學。",
+            "正確：想要生活有所變化，於是開始新的嗜好。",
+            "錯誤：時鐘顏色無法合理說明做出哪種改變。",
+            "錯誤：changed ... into 不能表示把三明治帶進教室。"
+          ],
+          "sourceFile": "Shallow_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：想要生活有所變化，於是開始新的嗜好。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
   }
 }

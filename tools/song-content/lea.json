@@ -2822,5 +2822,1047 @@
       "resolution": "Editorial completion of the final sentence; not recovered source text.",
       "addedText": "受的，是無法確定這份愛是否仍被需要。"
     }
-  ]
+  ],
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "c1229bd8d9079f2149e56706f643cea10efacff9935663bb5687545abeaff58d"
+    },
+    {
+      "section": "advanced",
+      "filename": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "c119a251ce971e790bd54cba0c9e2c7e845e103ab375b6f5c692ce063fe8ddca"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Here’s to + 名詞",
+          "meaning": "向某人致敬或為某事祝賀，不是「這裡是」。",
+          "usage": "在頒獎、聚會或感謝他人時，用短句向對方致意。",
+          "prompt": "志工修好了社區花園，主持人要向他們致敬，哪句最自然？",
+          "options": [
+            "Here’s to our volunteers!",
+            "Here’s to open the garden yesterday.",
+            "Here’s our volunteers to the garden.",
+            "Our volunteers are to a flower."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 表示向志工致敬。",
+            "D 將 to 後錯接動詞原形與過去時間。",
+            "B 的語序不能表達致敬。",
+            "C 沒有可理解的致意意思。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Here's to the few」",
+          "pattern": [
+            {
+              "text": "Here’s to",
+              "fixed": true
+            },
+            {
+              "text": "人物／團體",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 表示向志工致敬。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "the + 形容詞：指一群人",
+          "meaning": "the few 可當名詞片語，指少數人；不是必然指特定數字。",
+          "usage": "想說「只有少數幾個人」而不重複 people 時。",
+          "prompt": "演唱會後只有少數人留下收椅子，哪句準確？",
+          "options": [
+            "The few who stayed helped clean the hall.",
+            "The few is a number on the wall.",
+            "The few was a loud song.",
+            "Few the helped to chair."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 用 the few 指留下的少數人。",
+            "D 將群體誤當一個牆上數字。",
+            "B 把人群當歌曲且主謂不合。",
+            "C 詞序不構成英文句子。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「the few」",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "few（少數的人）",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 用 the few 指留下的少數人。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "who 引導關係子句",
+          "meaning": "who 連接前面的指人名詞／代名詞，補充描述那個人。",
+          "usage": "需要指出「做過某事的那個人」時。",
+          "prompt": "博物館導覽員要介紹修復舊畫的女子，哪句正確？",
+          "options": [
+            "She is the artist who the old painting saved.",
+            "She is the artist who saved the old painting.",
+            "She is who artist saved old painting.",
+            "She is the artist which saved the old painting."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B 子句語序顛倒。",
+            "A 的 who 指 artist 並作子句主詞。",
+            "D 名詞與關係詞位置錯誤。",
+            "C 指人時此處應用 who 而非 which。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「Who saved my love」",
+          "pattern": [
+            {
+              "text": "who",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 who 指 artist 並作子句主詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Only + 介系詞片語置前",
+          "meaning": "把 only for you 放句首以強調「只為你」；歌詞用詩意語序，正式語境通常將它放後面。",
+          "usage": "需要理解歌曲如何把受詞對象提前強調時；練習採詩意對照。",
+          "prompt": "詩人要特別強調「只為姐姐寫詩」，哪句最貼近歌詞的前置焦點？",
+          "options": [
+            "For only my sister wrote me this poem.",
+            "Only my sister wrote for I this poem.",
+            "Only for my sister I wrote this poem.",
+            "Only I wrote for my sister this poem yesterday blue."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C 改為姐姐是寫作者，焦點不同。",
+            "D I 應作介系詞受詞 me，且結構不順。",
+            "A 以 Only for ... 置首強調對象，語氣文學化。",
+            "B 句尾 blue 破壞句意及語序。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「Only for you I cared」",
+          "pattern": [
+            {
+              "text": "Only for + 名詞／代名詞",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 以 Only for ... 置首強調對象，語氣文學化。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "care for + 人",
+          "meaning": "care for 可表示在乎、愛慕或照顧；此處偏向情感上的在乎。",
+          "usage": "要表示關心某個人，而非買東西給對方時。",
+          "prompt": "一位護士談多年來照顧的長者，哪句最自然？",
+          "options": [
+            "She cared for the older man every day.",
+            "She cared to the older man every day.",
+            "She cared for to meet the older man.",
+            "She cared the older man into a taxi."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 的 cared for 表示照顧。",
+            "B care for 不可改為 cared to + 人。",
+            "D for 後不能直接接 to meet。",
+            "C care 不等於把人搬進車。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「for you I cared」",
+          "pattern": [
+            {
+              "text": "care for",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 cared for 表示照顧。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "have + 過去分詞：現在完成式",
+          "meaning": "從過去到現在與當下有關的行動；歌詞用 I’ve given，不是過去簡單式。",
+          "usage": "要談已經完成、現時仍有關聯的事。",
+          "prompt": "活動主辦人剛把所有門票交給同事，想說「已交了」，哪句正確？",
+          "options": [
+            "I have given the tickets to Jo.",
+            "I giving have the tickets to Jo.",
+            "I has given the tickets to Jo.",
+            "I have give the tickets to Jo."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 用 have given 表示已交出。",
+            "D 動詞順序不對。",
+            "C I 應搭配 have。",
+            "B have 後應接 given。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「I've given it hope」",
+          "pattern": [
+            {
+              "text": "have／has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞＋受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 用 have given 表示已交出。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "know + 省略 that 的內容子句",
+          "meaning": "know 後可直接接子句，歌詞未明寫 that。",
+          "usage": "要說明自己知道哪件事時。",
+          "prompt": "排練負責人知道燈已經關了，哪句自然？",
+          "options": [
+            "I know are the lights off.",
+            "I know the lights are off.",
+            "I know to the lights are off.",
+            "I know the lights off are."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B 把陳述句誤用問句語序。",
+            "A 的 know 後接完整子句。",
+            "C 在子句前多了 to。",
+            "D 補語位置錯。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「I know it's only you」",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞的完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 know 後接完整子句。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "過去分詞片語（省略主詞與 be）",
+          "meaning": "encased 表示被包覆；這裡是沒有主詞的詩意片段，不能當成完整的主動句。",
+          "usage": "閱讀歌詞或詩時辨識被動感的縮短描寫。",
+          "prompt": "畫廊標籤寫著「被玻璃保護的舊硬幣」，哪句最適合做標籤式片語？",
+          "options": [
+            "Protect by glass, the old coin looked new.",
+            "Protected glass by, the old coin looked new.",
+            "Protecting by glass, the old coin looked new.",
+            "Protected by glass, the old coin looked new."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "D 原形動詞不適合作被動縮短修飾語。",
+            "C 介系詞片語詞序錯誤。",
+            "B protecting 表主動，與硬幣的角色不符。",
+            "A 用過去分詞表硬幣受到保護。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「Encased in silence」",
+          "pattern": [
+            {
+              "text": "過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "介系詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 用過去分詞表硬幣受到保護。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "give + 受詞 + 名詞",
+          "meaning": "give it thought 是「考慮這件事」，it 指代前文事情；不是把實體物品交出去。",
+          "usage": "在答應邀約或決策前表示已經仔細考慮。",
+          "prompt": "朋友邀你加入攝影社，你已認真考慮，哪句自然？",
+          "options": [
+            "I have given it a photo, and I will join.",
+            "I have given it thought, and I will join.",
+            "I have given thought it, and I will join.",
+            "I have given it think, and I will join."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B 變成給東西一張照片，失去「思考」意思。",
+            "A 是歌詞相同的 give it thought 結構。",
+            "D 受詞與 thought 語序不對。",
+            "C think 是動詞，不能如此作名詞。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「I've given it thought」",
+          "pattern": [
+            {
+              "text": "give + 受詞",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 是歌詞相同的 give it thought 結構。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "not all + 關係子句",
+          "meaning": "強調眼前所見並非全部；歌詞文學化且指涉模糊，不可武斷翻成特定的事情。",
+          "usage": "要提醒別人事情可能不只表面那麼簡單時。",
+          "prompt": "舞台看似空的，後方卻有演員等候，哪句能表達「眼見不是全部」？",
+          "options": [
+            "What you see is not all that is there.",
+            "What you see is not all than there.",
+            "What you see not all are there.",
+            "What you see is all not that there."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 的 not all that ... 表示所見並非全部。",
+            "C than 是比較詞，不能取代關係詞 that。",
+            "B 缺少 is 且語序錯亂。",
+            "D 否定詞位置造成句意與句型不清。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「it's not all that appears」",
+          "pattern": [
+            {
+              "text": "not all",
+              "fixed": true
+            },
+            {
+              "text": "that＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 not all that ... 表示所見並非全部。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "How long + will + 主詞 + 動詞",
+          "meaning": "詢問未來某個動作或狀態還會持續多久。",
+          "usage": "不知道某項安排還會維持多長時間時。",
+          "prompt": "船長想知道船還會在港口停多久，哪句正確？",
+          "options": [
+            "How long did the ship will stay here?",
+            "How long the ship will stay here?",
+            "How long will the ship stay here?",
+            "How long will stay the ship here?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "D did 與 will 不可在此疊加。",
+            "B 是間接問句語序，不是直接問句。",
+            "A 用 How long + will + 主詞 + 原形動詞。",
+            "C will 後主詞與動詞順序錯。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「how long will you still want」",
+          "pattern": [
+            {
+              "text": "How long + will",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 用 How long + will + 主詞 + 原形動詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "want + 人 + to + 動詞",
+          "meaning": "主詞希望另一個人去做某事；want me to want you 是「希望我渴望你」，不是「你渴望我」。",
+          "usage": "有人希望另一人執行某件事時。",
+          "prompt": "導演希望演員再唱一次，哪句最清楚？",
+          "options": [
+            "The director wants Mia to sing again.",
+            "The director wants Mia sing again.",
+            "The director wants Mia singing again to.",
+            "The director wants to Mia sing again."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "A 的 Mia 是被要求唱歌的人。",
+            "B want + 人後缺少 to。",
+            "D 不符合此 want + 人 + to 原形動詞格式。",
+            "C to 的位置放錯。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「want me to want you」",
+          "pattern": [
+            {
+              "text": "want + 人 + to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 Mia 是被要求唱歌的人。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "雙層 want + 人 + to + want + 人",
+          "meaning": "內層與外層 want 主詞不同；歌曲的重點是「你希望我想要你」。",
+          "usage": "討論複雜心意或故事人物希望誰喜歡誰時。",
+          "prompt": "小說人物說「Lena 希望我喜歡她」，哪句意思完全符合？",
+          "options": [
+            "I want Lena to want me.",
+            "Lena wants to want me.",
+            "Lena wants me to want her.",
+            "Lena wants me, and I want her."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C 改成我希望 Lena 喜歡我。",
+            "B 變成 Lena 想要喜歡我。",
+            "A 的兩層 want 角色及方向符合。",
+            "D 是兩人各自喜歡對方，不含希望他人改變心意。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「want me to want you」",
+          "pattern": [
+            {
+              "text": "want + 人 + to want",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的兩層 want 角色及方向符合。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "Will + 主詞 + still + 動詞？",
+          "meaning": "在將來／某個時間仍然會做某事嗎？still 表延續。",
+          "usage": "想確認未來會不會繼續保留原來意願時。",
+          "prompt": "朋友準備搬家，你想問她以後還會來看球賽嗎？",
+          "options": [
+            "Do you will still come to the games?",
+            "Will you still comes to the games?",
+            "Will still you come to the games?",
+            "Will you still come to the games?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "D 不可同時用 Do 和 will 發問。",
+            "C will 後應用原形 come。",
+            "B still 放在主詞前不合這個問句語序。",
+            "A 的 still 放在主詞與動詞間。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「Will you still want me」",
+          "pattern": [
+            {
+              "text": "Will + 主詞 + still",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 still 放在主詞與動詞間。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "Only with + 人 置前",
+          "meaning": "將 Only with you 置句首，強調分享對象；歌詞帶詩意語序。",
+          "usage": "詩歌或舞台台詞中，特別突出同行者或分享對象時。",
+          "prompt": "角色要用抒情句子強調「只有和兄弟一起，才分享祕密」，哪句符合歌詞式前置？",
+          "options": [
+            "Only my brother with shared the secret.",
+            "With my brother only secret I shared.",
+            "Only with my brother shared I the secret.",
+            "Only with my brother I shared the secret."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "B only 與介系詞位置錯。",
+            "C 受詞結構不通順。",
+            "D 此處不應顛倒主詞 I 與 shared。",
+            "A 將 Only with + 人置前；是文學式語序。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「Only with you I shared my love」",
+          "pattern": [
+            {
+              "text": "Only with",
+              "fixed": true
+            },
+            {
+              "text": "人物＋主詞＋過去式動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 將 Only with + 人置前；是文學式語序。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "現在進行式 be + -ing",
+          "meaning": "表示目前正在進行的動作；So 說明前因後果。",
+          "usage": "要說現在正在向人提問或進行其他事情時。",
+          "prompt": "你正在詢問展覽開放時間，哪句正確？",
+          "options": [
+            "I am ask the guide now.",
+            "I am asked the guide now.",
+            "I am asking the guide now.",
+            "I asking the guide now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C am 後需要 -ing。",
+            "D am asked 是被動意思，不是我主動在問。",
+            "A 用 am asking 說現在正在詢問。",
+            "B 缺少 be 動詞。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「So I'm asking」",
+          "pattern": [
+            {
+              "text": "am／is／are",
+              "fixed": true
+            },
+            {
+              "text": "動詞 -ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 用 am asking 說現在正在詢問。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "Who cares + 內嵌 what 子句",
+          "meaning": "帶反問語氣，表示「誰在乎別人說甚麼」；what the cynics say 是陳述語序的內嵌內容。",
+          "usage": "有人想表達不受評論左右時；語氣可能較直接。",
+          "prompt": "有人批評你的畫，但你依然喜歡，哪句符合此結構？",
+          "options": [
+            "Who cares what they says? I love my picture.",
+            "Who care what they say? I love my picture.",
+            "Who cares what do they say? I love my picture.",
+            "Who cares what they say? I love my picture."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "C they 需搭配 say。",
+            "D Who 作此問句主詞用 cares。",
+            "B 嵌入問句不能再用 do 倒裝。",
+            "A 使用 what they say 的間接子句語序。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「Who cares what the cynics say」",
+          "pattern": [
+            {
+              "text": "Who cares + what",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 使用 what they say 的間接子句語序。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "if only + 子句（語意依上下文）",
+          "meaning": "歌詞的 if only you’re ... 可按「只要……」理解，也可能帶期盼；不能一律當作非真實願望句。",
+          "usage": "說話者強調唯一重要的條件時，須看語境分辨意思。",
+          "prompt": "旅館接待員說：「只要旅客已經在路上，我就放心。」哪句最符合？",
+          "options": [
+            "I am glad if only they on their way.",
+            "I am glad if only to be on their way.",
+            "I am glad if only they are on their way.",
+            "I am glad if only are they on their way."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "C 缺少 are。",
+            "D if only 後缺少主詞與完整動詞。",
+            "A 以 if only + 完整子句表此語境的條件。",
+            "B 條件子句不應倒裝。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「if only you're on your way」",
+          "pattern": [
+            {
+              "text": "if only",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 以 if only + 完整子句表此語境的條件。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "be on one’s way",
+          "meaning": "正在路上／正在前往；本歌沒有說出具體目的地。",
+          "usage": "要告知對方自己已經出發或接近目的地時。",
+          "prompt": "朋友問你是否出門去看畫展，哪句自然？",
+          "options": [
+            "I am in my way at the gallery.",
+            "I am on my way to the gallery.",
+            "I on my way to the gallery.",
+            "I am on me way to the gallery."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "B in my way 意思不同，不能表示在路上。",
+            "A 的 on my way to 表示正前往。",
+            "C 缺少 am。",
+            "D 物主代名詞應為 my。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「you're on your way」",
+          "pattern": [
+            {
+              "text": "be + on + 物主代名詞 + way",
+              "fixed": true
+            },
+            {
+              "text": "（可加 to 地點）",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 on my way to 表示正前往。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "否定命令：don’t let + 人／事物 + 原形動詞",
+          "meaning": "勸對方不要讓某種事情成真；the same 指甚麼在歌詞中有歧義。",
+          "usage": "想提醒某人別讓負面結果發生時。",
+          "prompt": "團隊去年忘記帶相機，今年領隊提醒「別讓同樣錯誤重演」，哪句正確？",
+          "options": [
+            "Don’t let happening the same mistake again.",
+            "Don’t let the same mistake happen again.",
+            "Don’t let the same mistake to happen again.",
+            "Don’t let the same mistake happens again."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "C 動詞與受詞詞序不對。",
+            "A 的 let 後接受詞及原形 happen。",
+            "D let 後不加 to。",
+            "B let 後不用 happens。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「don't let the same be true」",
+          "pattern": [
+            {
+              "text": "Don’t let",
+              "fixed": true
+            },
+            {
+              "text": "受詞＋原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 let 後接受詞及原形 happen。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "Do + 主詞 + still + 動詞？",
+          "meaning": "問現在是否仍然有某種想法／習慣，與 Will you still 的未來問法不同。",
+          "usage": "確認某人目前是否仍要維持原來安排時。",
+          "prompt": "你想問朋友現在是否仍想參加陶藝班，哪句最自然？",
+          "options": [
+            "Are you still want to join the art class?",
+            "Do still you want to join the art class?",
+            "Do you still wants to join the art class?",
+            "Do you still want to join the art class?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "C are 與 want 不能這樣並用。",
+            "B still 不應放在 you 前。",
+            "D do 後應接原形 want。",
+            "A 的 Do you still want ... 是現在的一般疑問句。"
+          ],
+          "sourceFile": "Lea_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「do you still want me to want you」",
+          "pattern": [
+            {
+              "text": "Do + 主詞 + still",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "A 的 Do you still want ... 是現在的一般疑問句。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "fare / fared",
+          "meaning": "（事情進展）表現如何、過得如何；fared 為過去式",
+          "usage": "談一個人在考試、旅程或困難中的經歷和結果；常見 fare well / fare badly。",
+          "prompt": "哪一句正確使用「fare / fared」？",
+          "options": [
+            "Our team fared well in the final game despite the rain.",
+            "The soup fared too salty after Dad added more water.",
+            "The blue curtains fared the window before the guests arrived.",
+            "Mina fared her new bike to the station after lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。fared well 表示球隊在決賽表現不錯。",
+            "湯變得太鹹應說 became too salty；fare 不描述調味變化。",
+            "fare 不能代替 covered；窗簾覆蓋窗戶不叫 fared。",
+            "騎車去車站用 rode；fare 不能表示騎乘。"
+          ],
+          "sourceFile": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。fared well 表示球隊在決賽表現不錯。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "encased in",
+          "meaning": "被包裹在……之中；被封存在……裡",
+          "usage": "描述物品被外殼、玻璃、冰等包覆；也可用於文學比喻。",
+          "prompt": "哪一句正確使用「encased in」？",
+          "options": [
+            "The guide encased the visitors in the museum at ten.",
+            "The old coin was encased in clear glass for safety.",
+            "The new music was encased with the radio every Sunday.",
+            "We encased our homework to the teacher before the bell."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "此處要說帶領參觀，用 guided；不是把遊客封在博物館。",
+            "正確。硬幣被透明玻璃封存保護。",
+            "播放音樂應用 played；encased with 不表示廣播。",
+            "交作業用 handed in；encase 不表示提交。"
+          ],
+          "sourceFile": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。硬幣被透明玻璃封存保護。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "silence",
+          "meaning": "寂靜、沉默；無人說話或沒有聲響的狀態",
+          "usage": "描寫安靜的空間，也可描述刻意不說出口的事情。",
+          "prompt": "哪一句正確使用「silence」？",
+          "options": [
+            "My uncle put silence on his feet before going outside.",
+            "We silence the blue bus to school each morning.",
+            "The baker bought three silences for the birthday cake.",
+            "The whole room fell into silence when the lights went out."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "穿鞋應說 put on shoes；silence 不是鞋襪。",
+            "搭車應說 take the bus；不能用 silence 表示交通。",
+            "silence 通常不可數，不能當成蛋糕材料購買。",
+            "正確。fell into silence 表示房間突然安靜下來。"
+          ],
+          "sourceFile": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。fell into silence 表示房間突然安靜下來。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "concertina",
+          "meaning": "六角手風琴等小型風箱式自由簧樂器；與一般手風琴不同",
+          "usage": "指一種可拉伸與壓縮風箱來發聲的樂器；歌詞也把它當成親暱比喻。",
+          "prompt": "哪一句正確使用「concertina」？",
+          "options": [
+            "The concertina arrived late because its train was cancelled.",
+            "We used a concertina to see stars far away at night.",
+            "Grandpa played a short song on his concertina after dinner.",
+            "The artist mixed red paint with a concertina to make pink."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "樂器本身不會搭火車遲到；此處缺乏合理的演奏者語境。",
+            "看遠處星星用 telescope；concertina 是樂器。",
+            "正確。play a song on a concertina 是自然的樂器用法。",
+            "concertina 不是顏料或調色材料。"
+          ],
+          "sourceFile": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。play a song on a concertina 是自然的樂器用法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "cynic / cynics",
+          "meaning": "憤世嫉俗者；懷疑別人的善意或真誠的人",
+          "usage": "指習慣質疑別人動機、認為人通常出於私利的人；不等同一般的「小心謹慎」。",
+          "prompt": "哪一句正確使用「cynic / cynics」？",
+          "options": [
+            "Our bus became a cynic because it had four new tyres.",
+            "The cynic said nobody helped unless they wanted a reward.",
+            "She bought two cynics and cooked them with rice for lunch.",
+            "The cynic measured the river with a long yellow ruler."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "公車不會具有對他人動機的懷疑態度。",
+            "正確。認為所有幫助都為了回報，符合 cynic 的懷疑態度。",
+            "cynic 指人，不是食材。",
+            "測量河流不代表對人性抱持懷疑；這裡只是在描述工具。"
+          ],
+          "sourceFile": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。認為所有幫助都為了回報，符合 cynic 的懷疑態度。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "the few",
+          "meaning": "少數人；特定群體裡為數不多的人",
+          "usage": "the + 形容詞可指某類人；the few 可在上下文已明確時指那少數的人。",
+          "prompt": "哪一句正確使用「the few」？",
+          "options": [
+            "Only the few who finished early could join the extra tour.",
+            "We put the few into our tea to make it taste sweet.",
+            "My mother drove the few very fast across the city last week.",
+            "The few was a big building beside the river yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。the few 指完成得早的少數人；who 補充是哪一群。",
+            "the few 不是可以加入茶裡的糖或材料。",
+            "the few 指人，不能直接取代 car 當成交通工具。",
+            "the few 指少數人，不是建築名稱。"
+          ],
+          "sourceFile": "Lea_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。the few 指完成得早的少數人；who 補充是哪一群。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    }
+  }
 }
