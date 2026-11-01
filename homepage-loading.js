@@ -34,22 +34,10 @@
     }));
   }
 
-  function useGifFallback() {
-    const gif = new Image();
-    gif.alt = '';
-    gif.width = 400;
-    gif.height = 400;
-    gif.onload = () => {
-      scene.replaceChildren(gif);
-      startPlayback();
-    };
-    gif.onerror = () => {
-      // The SVG poster still gives visitors a visible loading state.
-      animationReady = true;
-      playbackStart = performance.now();
-      scheduleHide();
-    };
-    gif.src = 'homepage-eddy-loading.gif';
+  function usePurpleFallback() {
+    animationReady = true;
+    playbackStart = performance.now();
+    scheduleHide();
   }
 
   fetch('homepage-eddy-loading-animated.svg', { cache: 'force-cache' })
@@ -65,7 +53,7 @@
       scene.replaceChildren(document.importNode(parsed.documentElement, true));
       startPlayback();
     })
-    .catch(useGifFallback);
+    .catch(usePurpleFallback);
 
   if (!pageReady) {
     document.addEventListener('DOMContentLoaded', () => {
