@@ -209,7 +209,7 @@
   const fontSizes = [{label:'標準',scale:1},{label:'大',scale:1.15},{label:'特大',scale:1.3}];
   let fontIndex = Math.max(0, fontSizes.findIndex(option => option.scale === Number(localStorage.getItem('edmund-memory-font-scale') || '1')));
   function applyFontSize() { document.documentElement.style.setProperty('--reader-scale', fontSizes[fontIndex].scale); $('#font-size-button').textContent = '字體大小：' + fontSizes[fontIndex].label + (fontIndex===fontSizes.length-1?'（按此還原）':'（按此放大）'); }
-  $('#font-size-button').addEventListener('click', () => {fontIndex=(fontIndex+1)%fontSizes.length;localStorage.setItem('edmund-memory-font-scale',String(fontSizes[fontIndex].scale));applyFontSize();});
+  $('#font-size-button').addEventListener('click', () => {fontIndex=(fontIndex+1)%fontSizes.length;localStorage.setItem('edmund-memory-font-scale',String(fontSizes[fontIndex].scale));applyFontSize();balanceTransferChoices();});
   applyFontSize();
   let segmentEnd = null;
   let audioButton = null;
@@ -308,8 +308,52 @@
   }
   function renderQuiz(item) {
     const indices = orderedSeed(item.options.length, state.stage * 43 + state.round * 17);
-    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context && item.question?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span>${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
+    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context && item.question?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span class="choice-text">${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
   }
+  function shortChineseTail(element) {
+    const lines = new Map();
+    const walker = document.createTreeWalker(element, NodeFilter.SHOW_TEXT);
+    let node;
+    while ((node = walker.nextNode())) {
+      for (let index = 0; index < node.textContent.length; index++) {
+        const range = document.createRange();
+        range.setStart(node, index);
+        range.setEnd(node, index + 1);
+        const rect = range.getBoundingClientRect();
+        if (!rect.width && !rect.height) continue;
+        const top = Math.round(rect.top);
+        lines.set(top, (lines.get(top) || '') + node.textContent[index]);
+      }
+    }
+    if (lines.size < 2) return false;
+    const lastLine = [...lines].sort((a, b) => a[0] - b[0]).at(-1)[1];
+    return /^[\u3400-\u9fff]{1,3}[。！？]?$/.test(lastLine.trim());
+  }
+  function balanceTransferChoices() {
+    if (isPilot || state.stage !== 4) return;
+    document.querySelectorAll('#game-card .choice-card .choice-text').forEach(span => {
+      const fullText = span.dataset.fullText || span.textContent;
+      span.dataset.fullText = fullText;
+      span.textContent = fullText;
+      span.style.textWrap = 'wrap';
+      const needsBreak = shortChineseTail(span);
+      span.style.textWrap = '';
+      if (!needsBreak) return;
+      const breaks = [...fullText.matchAll(/，/g)]
+        .map(match => match.index + 1)
+        .filter(index => index >= 5 && fullText.length - index >= 5)
+        .sort((a, b) => Math.abs(a - fullText.length / 2) - Math.abs(b - fullText.length / 2));
+      if (!breaks.length) return;
+      const index = breaks[0];
+      span.replaceChildren(document.createTextNode(fullText.slice(0, index)), document.createElement('br'), document.createTextNode(fullText.slice(index)));
+      if (shortChineseTail(span)) span.textContent = fullText;
+    });
+  }
+  let transferResizeFrame = 0;
+  window.addEventListener('resize', () => {
+    cancelAnimationFrame(transferResizeFrame);
+    transferResizeFrame = requestAnimationFrame(balanceTransferChoices);
+  });
   function renderMulti(item) {
     const indices = orderedSeed(item.options.length, 29);
     return `<div class="question-intro"><span class="question-mark">2</span><div><p class="question-label">CHOOSE TWO</p><h3>${escapeHtml(item.prompt)}</h3><p>${escapeHtml(item.detail)}</p></div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card ${state.selection.includes(index) ? 'selected' : ''}" type="button" data-multi="${index}" aria-pressed="${state.selection.includes(index)}"><span class="choice-symbol" aria-hidden="true">${state.selection.includes(index) ? '✓' : '+'}</span><span>${escapeHtml(item.options[index])}</span></button>`).join('')}</div><div class="action-bar"><span>已選 ${state.selection.length} / 2 項</span><button class="primary-button" type="button" data-confirm ${state.selection.length !== 2 ? 'disabled' : ''}>確認兩條理由 <span aria-hidden="true">→</span></button></div>`;
@@ -427,6 +471,7 @@
     if (item.type === 'structure') card.classList.add('structure-card');
     if (item.type === 'vocabulary') card.classList.add(item.reverse ? 'exact-build' : 'simple-build'); void card.offsetWidth; card.classList.add('card-enter');
     card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : item.type==='speaking' ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
+    balanceTransferChoices();
     save();
   }
   function celebrate() {

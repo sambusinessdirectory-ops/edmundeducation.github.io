@@ -172,3 +172,4 @@ body{background:#fdfcf9}
 .structure-card .structure-part small{font-size:calc(.68rem * var(--reader-scale));line-height:1.4}
 .structure-card .concept-card p{font-size:calc(1.18rem * var(--reader-scale));line-height:1.55;font-weight:650}
 .structure-card .concept-label{font-size:calc(.68rem * var(--reader-scale))}
+.choice-text{min-width:0;text-wrap:balance}
