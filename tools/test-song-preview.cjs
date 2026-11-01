@@ -15,8 +15,9 @@ for(const field of ['bpm','year','difficulty','genre','voice'])for(const directi
 }
 assert.deepEqual(sortSongs(sample,'default').map(s=>s.slug),sample.map(s=>s.slug));
 vm.runInNewContext(fs.readFileSync(path.join(root,'song-preview-hooks.js'),'utf8'),sandbox);
-const hooks=sandbox.window.SONG_PREVIEW_HOOKS;assert.equal(Object.keys(hooks).length,profileCount);
+const hooks=sandbox.window.SONG_PREVIEW_HOOKS;
 const sources=fs.readdirSync(path.join(root,'tools/song-content')).filter(f=>f.endsWith('.json')).map(f=>JSON.parse(fs.readFileSync(path.join(root,'tools/song-content',f))));
+assert.deepEqual(Object.keys(hooks).sort(), [...new Set(sources.filter(s=>s.translations.length).map(s=>s.slug))].sort());
 for(const [slug,hook] of Object.entries(hooks)){const source=sources.find(s=>s.slug===slug);assert.ok(source,slug);const line=source.translations.find(r=>r.lineId===hook.lineId);assert.ok(Math.abs(line.startSeconds-hook.start-(hook.leadInSeconds||0))<.01,slug);assert.ok((hook.leadInSeconds||0)>=0&&(hook.leadInSeconds||0)<=1,slug);assert.equal(hook.duration,24);assert.deepEqual(Object.keys(hook).filter(k=>k!=='leadInSeconds').sort(),['duration','lineId','start']);}
 if(!process.env.PLAYWRIGHT_MODULE){console.log(profileCount+' difficulty profiles, metadata, six score ranges and star boundaries passed.');process.exit(0);}
 const {chromium}=require(process.env.PLAYWRIGHT_MODULE);
