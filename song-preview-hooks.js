@@ -371,5 +371,50 @@ window.SONG_PREVIEW_HOOKS = {
     "lineId": "line-23",
     "start": 133.86,
     "duration": 24
+  },
+  "la-isla-bonita": {
+    "lineId": "line-6",
+    "start": 42.56,
+    "duration": 24
+  },
+  "like-a-prayer": {
+    "lineId": "line-5",
+    "start": 37.24,
+    "duration": 24
+  },
+  "sorry": {
+    "lineId": "line-9",
+    "start": 53.52,
+    "duration": 24
+  },
+  "hung-up": {
+    "lineId": "line-7",
+    "start": 60.74,
+    "duration": 24
+  },
+  "applause": {
+    "lineId": "line-5",
+    "start": 39.96,
+    "duration": 24
+  },
+  "dust-in-the-wind": {
+    "lineId": "line-5",
+    "start": 41.46,
+    "duration": 24
+  },
+  "alejandro": {
+    "lineId": "line-12",
+    "start": 71.24,
+    "duration": 24
+  },
+  "telephone": {
+    "lineId": "line-27",
+    "start": 88.44,
+    "duration": 24
+  },
+  "paparazzi": {
+    "lineId": "line-10",
+    "start": 41.68,
+    "duration": 24
   }
 };

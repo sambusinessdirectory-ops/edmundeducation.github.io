@@ -549,3 +549,5 @@ button { color: inherit; }
 .analysis-card {border:1px solid #e8dce4;border-radius:18px;padding:clamp(20px,3vw,36px);margin:24px 0;background:white;color:#302936;line-height:1.85;}
 .analysis-card blockquote {border-left:3px solid #d63a72;padding-left:18px;margin:18px 0;}
 @media(max-width:640px){.structure-help{grid-template-columns:1fr;}}
+
+.song-load-copy{width:min(540px,100%);text-align:center}.song-load-copy p{margin:0 0 .55rem}.song-load-track{height:10px;overflow:hidden;border-radius:999px;background:#eadfe1}.song-load-track span{display:block;width:5%;height:100%;border-radius:inherit;background:linear-gradient(90deg,var(--rose),#f48ba5);transition:width .3s ease}.song-load-copy small{display:block;margin-top:.45rem;color:var(--muted)}

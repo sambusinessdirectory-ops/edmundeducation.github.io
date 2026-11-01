@@ -1,0 +1,196 @@
+{
+  "basis": "Editorial difficulty estimates; approximate BPM; year of first album/single appearance, not remaster. Draft-song ratings provisional.",
+  "references": [
+    "https://planetary.music/song-analysis/madonna",
+    "https://www.snaplyrics.com/artist/madonna",
+    "https://www.bpmdatabase.com/music/by/lady-gaga/",
+    "https://en.wikipedia.org/wiki/Paparazzi_(Lady_Gaga_song)",
+    "https://en.wikipedia.org/wiki/Telephone_(song)",
+    "https://supersimpledrum.com/artists/ac-dc",
+    "https://songbpm.com/@kiss/i-was-made-for-lovin-you-5d15326a-1712-4349-8d69-1c9e9367a89f"
+  ],
+  "profiles": {
+    "la-isla-bonita": {
+      "scores": [
+        4,
+        4,
+        4,
+        5,
+        5,
+        3
+      ],
+      "bpm": 100,
+      "year": 1986,
+      "genre": "Latin pop",
+      "vocals": "female"
+    },
+    "like-a-prayer": {
+      "scores": [
+        4,
+        6,
+        5,
+        6,
+        6,
+        4
+      ],
+      "bpm": 112,
+      "year": 1989,
+      "genre": "Pop rock / gospel",
+      "vocals": "female"
+    },
+    "sorry": {
+      "scores": [
+        3,
+        5,
+        7,
+        6,
+        6,
+        4
+      ],
+      "bpm": 133,
+      "year": 2005,
+      "genre": "Dance pop",
+      "vocals": "female"
+    },
+    "hung-up": {
+      "scores": [
+        3,
+        4,
+        6,
+        5,
+        5,
+        4
+      ],
+      "bpm": 125,
+      "year": 2005,
+      "genre": "Disco / dance pop",
+      "vocals": "female"
+    },
+    "applause": {
+      "scores": [
+        6,
+        6,
+        7,
+        7,
+        7,
+        5
+      ],
+      "bpm": 140,
+      "year": 2013,
+      "genre": "Electropop",
+      "vocals": "female"
+    },
+    "telephone": {
+      "scores": [
+        4,
+        8,
+        6,
+        8,
+        8,
+        6
+      ],
+      "bpm": 122,
+      "year": 2009,
+      "genre": "Dance pop",
+      "vocals": "female"
+    },
+    "alejandro": {
+      "scores": [
+        4,
+        5,
+        4,
+        6,
+        6,
+        4
+      ],
+      "bpm": 99,
+      "year": 2009,
+      "genre": "Synth pop",
+      "vocals": "female"
+    },
+    "paparazzi": {
+      "scores": [
+        5,
+        6,
+        5,
+        6,
+        6,
+        5
+      ],
+      "bpm": 115,
+      "year": 2008,
+      "genre": "Dance pop",
+      "vocals": "female"
+    },
+    "dust-in-the-wind": {
+      "scores": [
+        4,
+        3,
+        3,
+        3,
+        4,
+        4
+      ],
+      "bpm": 94,
+      "year": 1977,
+      "genre": "Folk rock",
+      "vocals": "male"
+    },
+    "i-was-made-for-lovin-you": {
+      "scores": [
+        3,
+        4,
+        6,
+        6,
+        5,
+        4
+      ],
+      "bpm": 128,
+      "year": 1979,
+      "genre": "Disco rock",
+      "vocals": "male"
+    },
+    "thunderstruck": {
+      "scores": [
+        5,
+        5,
+        7,
+        8,
+        7,
+        5
+      ],
+      "bpm": 134,
+      "year": 1990,
+      "genre": "Hard rock",
+      "vocals": "male"
+    },
+    "highway-to-hell": {
+      "scores": [
+        4,
+        4,
+        5,
+        7,
+        6,
+        6
+      ],
+      "bpm": 116,
+      "year": 1979,
+      "genre": "Hard rock",
+      "vocals": "male"
+    },
+    "everybody-backstreets-back": {
+      "scores": [
+        3,
+        5,
+        5,
+        5,
+        5,
+        4
+      ],
+      "bpm": 108,
+      "year": 1997,
+      "genre": "Dance pop",
+      "vocals": "male"
+    }
+  }
+}

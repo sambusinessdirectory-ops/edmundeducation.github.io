@@ -405,25 +405,51 @@
     offerUniversalSession();
   }
 
+  function libraryProgress(percent, message) {
+    const bar = $("[data-library-progress]");
+    if (!bar) return;
+    bar.setAttribute("aria-valuenow", String(percent));
+    $("[data-library-progress-fill]").style.width = `${percent}%`;
+    $("[data-library-progress-label]").textContent = message;
+  }
+
   async function loadStudentData() {
     const token = state.session.token;
-    await loadLessonExtras();
-    const [songRows, bookmarkRows, attemptRows, draftRows, playbackRows] = await Promise.all([
-      rpc(CONFIG.rpc.listSongs, { p_student_token: token }),
-      fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null }),
-      fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null }),
-      rpc(CONFIG.rpc.listDrafts, {p_student_token:token}),
-      rpc(CONFIG.rpc.listPlayback, {p_student_token:token})
-    ]);
+    libraryProgress(10, "正在取回歌曲清單…");
+    const extrasPromise = loadLessonExtras().catch(error => { console.warn("Optional song sections could not load:", error); });
+    const bookmarksPromise = fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null });
+    const attemptsPromise = fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null });
+    const draftsPromise = rpc(CONFIG.rpc.listDrafts, {p_student_token:token});
+    const playbackPromise = rpc(CONFIG.rpc.listPlayback, {p_student_token:token});
+    const secondaryPromise = Promise.allSettled([bookmarksPromise, attemptsPromise, draftsPromise, playbackPromise]);
+    const songRows = await rpc(CONFIG.rpc.listSongs, { p_student_token: token });
     if (state.session?.token !== token) return;
-    state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
+    state.songs = asArray(songRows)
+      .map(row => normalizeSong(row.song || row, { includeAnswers: false }))
+      .map(song => validateSong(song, { requireAnswers: false }))
+      .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+    libraryProgress(45, `已載入 ${state.songs.length} 首歌曲，正在顯示…`);
+    routeStudent("library", { skipLibraryRender: true });
+    renderLibrary(12, true);
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    renderLibrary();
+    await extrasPromise;
+    if (state.session?.token !== token) return;
     state.songs = asArray(songRows)
       .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: false }))
       .map(song => validateSong(song, { requireAnswers: false }))
       .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+    renderLibrary();
+    libraryProgress(70, "歌曲已可使用，正在同步收藏與學習紀錄…");
+    const results = await secondaryPromise;
+    if (state.session?.token !== token) return;
+    const [bookmarkRows, attemptRows, draftRows, playbackRows] = results.map(result => result.status === "fulfilled" ? result.value : []);
+    for (const result of results) if (result.status === "rejected") console.warn("Optional song account data could not load:", result.reason);
+    state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
     state.bookmarks = asArray(bookmarkRows).map(normalizeBookmark);
     state.attempts = asArray(attemptRows).map(normalizeAttempt);
     state.playbackDaily = asArray(playbackRows).map(normalizePlayback);
+    libraryProgress(100, "歌曲及學習紀錄已載入");
   }
 
   async function enterStudent() {
@@ -442,15 +468,14 @@
       renderAttempts();
       renderDashboard();
       setDashboardExpanded(readDashboardExpanded());
-      routeStudent("library");
     } catch (error) {
       setConnection("offline", "未能載入");
-      $("[data-library-state] p").textContent = text(error?.message || "未能載入歌曲庫。");
+      $("[data-library-load-message]").textContent = text(error?.message || "未能載入歌曲庫。");
       toast(error?.message || "未能載入歌曲庫。", "error");
     }
   }
 
-  function routeStudent(route) {
+  function routeStudent(route, { skipLibraryRender = false } = {}) {
     window.SongPreview?.stop();
     stopMistakeNavigation();
     if (state.session?.role !== "student") return;
@@ -466,13 +491,13 @@
     else if (state.activeTab === "exercise") startExerciseClock();
     if (valid === "bookmarks") renderBookmarks();
     if (valid === "progress") renderAttempts();
-    if (valid === "library") renderLibrary();
+    if (valid === "library" && !skipLibraryRender) renderLibrary();
     if (valid === "big-data") renderBigData();
     updateFloatingPlayer();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  function renderLibrary() {
+  function renderLibrary(limit = Infinity, keepProgress = false) {
     window.SongPreview?.stop();
     const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
     let songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
@@ -480,10 +505,10 @@
     renderSelectedTags();
     const grid = $("[data-song-grid]");
     grid.replaceChildren();
-    songs.forEach((song, index) => grid.append(createSongCard(song, index)));
+    songs.slice(0, limit).forEach((song, index) => grid.append(createSongCard(song, index)));
     $("[data-library-count]").textContent = String(state.songs.length);
     $("[data-search-status]").textContent = query || state.selectedTags.length || state.favoritesOnly ? `找到 ${songs.length} 首歌曲。` : `共 ${state.songs.length} 首歌曲。`;
-    $("[data-library-state]").hidden = true;
+    $("[data-library-state]").hidden = !keepProgress;
     grid.hidden = false;
   }
 
