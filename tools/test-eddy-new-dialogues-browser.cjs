@@ -43,7 +43,8 @@ const server = http.createServer((request, response) => {
     assert.equal(await grammar.locator('.eddy-horse-pun').innerText(), '馬');
     assert.equal(await grammar.locator('.eddy-portal-entry-overlay img').evaluate(image => image.complete && image.naturalWidth > 0), true);
     await grammar.reload();
-    assert.equal(await grammar.locator('.eddy-portal-entry-overlay').count(), 0, 'grammar greeting is once per HK day in this browser');
+    await grammar.locator('.eddy-portal-entry-overlay').waitFor();
+    assert.equal(await grammar.locator('.eddy-portal-entry-overlay').count(), 1, 'grammar greeting appears again when the system is reopened');
     assert.deepEqual(errors, []);
 
     const songs = await context.newPage();
@@ -81,6 +82,6 @@ const server = http.createServer((request, response) => {
     await noCandy.goto(origin + '/index.html');
     assert.equal(await noCandy.locator('.eddy-global-overlay').count(), 0, '10% threshold excludes .1');
     await context.close();
-    console.log('PASS: grammar daily greeting, song login greeting, and homepage-only 10% cotton candy event');
+    console.log('PASS: grammar entry greeting, song login greeting, and homepage-only 10% cotton candy event');
   } finally { await browser.close(); server.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; server.close(); });

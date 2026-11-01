@@ -10,6 +10,53 @@
   lexicon.push(
     ['public','ordinary people','公眾'],['understands','makes sense of','理解'],['history','events from the past','歷史'],['this essay','this writing','本文'],['that view','that opinion','該觀點'],['this view','this opinion','這個觀點'],['strongly disagree','do not agree at all','強烈不同意'],['strengthen','make stronger','加強'],['showing','putting on display','展示'],['far more','much more','遠更'],['international art','art from other countries','國際藝術'],['foreign art','art from abroad','外國藝術'],['reduce','make less','減少'],['also','as well','亦'],['support','help','支持'],['artists improve','artists get better','藝術家進步'],['challenged','made to think differently','受到挑戰'],['first','to begin with','首先'],['second','next','其次'],['in conclusion','to finish','總括而言'],['should not','ought not to','不應'],['museums and galleries','places that show art','博物館和美術館'],['creates','makes','創造'],['over time','as time passes','隨時間過去'],['reduces trust','makes people trust less','減低信任'],['within the workplace','at work','在工作場所內'],['another major issue','another important problem','另一重大問題'],['easily','without difficulty','容易地'],['disagreements','different opinions','分歧'],['clear job descriptions','written descriptions of each job','清晰職責說明'],['however','but','然而'],['leadership','who leads','領導權'],['especially dangerous','particularly risky','尤其危險'],['needs','requires','需要'],['steering wheel','the way it is directed','方向盤／企業方向'],['constantly','all the time','持續地'],['overall','in general','總括而言'],['more likely','more probable','更有可能'],['provide','offer','提供'],['smaller firms','small companies','小型企業'],['first problem','initial difficulty','第一個問題'],['leaves','makes','使得'],['less alive','less lively','較沒活力'],['a second problem','another issue','第二個問題'],['shaped by','influenced by','受…影響'],['real value','actual worth','真正價值'],['as a result','therefore','因此'],['pay more','spend extra','支付更多'],['healthier','better for health','更健康'],['fresher','more recently made','更新鮮'],['handmade goods','things made by hand','手製商品'],['as easily as','with the same ease as','像…一樣容易'],['local vegetables','vegetables grown nearby','本地蔬菜'],['also help','help too','亦可幫助'],['simple','easy to understand','簡單'],['made locally','produced nearby','本地製造'],['brief information','short facts','簡短資料'],['producer','person or firm that makes a product','生產者'],['remind','make someone remember','提醒'],['consumers','buyers','消費者'],['local spending','money spent nearby','本地消費'],['skills','abilities','技能']
   );
+  // Replace lexical glosses that were no easier than the IELTS wording.
+  const plainerWords = {
+    'shape':'change how people see',
+    'cultural identity':'what makes a group feel connected',
+    'institutions':'places',
+    'instead of':'and not',
+    'broaden':'help people learn more',
+    'long-term development':'growth over many years',
+    'meaningful basis':'good way',
+    'modernism':'newer styles of art',
+    'fresher':'newer',
+    'intellectual':'about learning and thinking',
+    'by contrast':'but',
+    'critics':'people who write about art',
+    'restrict':'show only',
+    'should not':'it is better not to',
+    'medium-sized firms':'companies that are not small or very large',
+    'arrangement':'way of doing things',
+    'selected':'chosen for a job',
+    'needs':'must have',
+    'criticism':'being told what was wrong',
+    'insult':'hurtful comment',
+    'stability':'things staying steady',
+    'rivalry':'people trying to beat each other',
+    'more likely':'has a better chance of',
+    'governance':'rules for running a business',
+    'advertising':'ads',
+    'online promotion':'ads on the internet',
+    'trend':'change',
+    'local economies':'jobs and shops in an area',
+    'first problem':'first thing that goes wrong',
+    'shaped by':'changed by',
+    'real value':'how good it really is',
+    'packaging':'box or wrapper',
+    'celebrity endorsement':'a famous person saying they like it',
+    'councils':'local leaders',
+    'convenient habit':'something easy to do often',
+    'moral chore':'something that feels like a hard duty',
+    'as easily as':'without more effort than',
+    'clear labelling':'labels people can read easily',
+    'fair shelf space':'a fair place on shop shelves',
+    'neighbourhood identity':'what makes an area feel like home',
+    'marketing power':'money to show products everywhere',
+    'brand-led consumption':'buying because of brand names',
+    'tilt demand back':'help people buy local goods again',
+  };
+  for (const entry of lexicon) if (plainerWords[entry[0]]) entry[1]=plainerWords[entry[0]];
   const sourceChunk = text => {
     const words = text.trim().split(/\s+/);
     const chunks = [];
@@ -31,25 +78,25 @@
       topic: 'Museums: local and international art',
       summary: '國際作品既能擴闊觀眾對藝術與社會的理解，也有助本地藝術家成長。',
       simple: [
-        'Museums and galleries influence how people understand art, history and their culture.',
-        'Some people say these places should show only local artists, not art from abroad.',
-        'The writer strongly disagrees with that idea',
-        'because art from other countries widens public understanding and helps local art grow over time.',
-        'Art from other countries makes museums better places to learn.',
-        'If visitors see only local art, they cannot compare it with other traditions, so their understanding becomes limited.',
-        'When students see local paintings next to Japanese prints or African sculptures, they can see how cultures use colour, symbols and shape to show similar human feelings and ideas.',
-        'Seeing art from other countries also helps people understand society better.',
-        'Art from other societies often shows war, people moving, religion or unfairness, so it helps viewers understand lives different from their own.',
-        'Therefore, leaving out foreign art would make museums less valuable for learning and culture.',
-        'Showing international art also helps local artists and the organisations that support them.',
-        'Artists improve when they meet new techniques and ideas about art.',
-        'Only showing local art can make creative work repetitive; art from elsewhere helps artists improve their methods and make more original work.',
-        'For example, a young artist may study European modern art and then show local subjects in new ways.',
-        'Different exhibitions bring in more kinds of visitors and keep galleries lively.',
-        'When galleries take turns showing local and foreign art, more students, reviewers and returning visitors may also find local artists.',
-        'To conclude, museums and galleries should not show only local artists.',
-        'The writer strongly disagrees with this idea',
-        'because international art helps the public understand more and gives local artists better conditions to grow.',
+        'Museums and art spaces help people learn about art, the past, and where they come from.',
+        'Some people say these places should show only art made by local people.',
+        'This essay says that idea is wrong',
+        'because art from other countries helps people learn more and helps local art grow.',
+        'Art from other countries helps people learn more in museums.',
+        'If people see only local art, they cannot compare it with art from other places, so they learn less.',
+        'When students see local art beside art from Japan or Africa, they see how different people use colours and shapes to show the same ideas.',
+        'Art from other countries also helps people understand other people.',
+        'Art made in other places can show war, people moving, faith, and unfair lives. It helps us understand lives unlike our own.',
+        'So, if museums leave out art from other countries, people can learn less from them.',
+        'Showing art from other countries also helps local artists and art spaces.',
+        'Artists get better when they see new ways to make art and new ideas.',
+        'If museums show only local art, artists may keep doing the same things. Art from other places can give them new ideas.',
+        'For example, a young artist can learn from art in Europe and then make local art in a new way.',
+        'Showing many kinds of art brings in more people and keeps art spaces busy.',
+        'When art spaces show local and foreign art in turn, more people may visit and find local artists.',
+        'In short, museums should show more than local art.',
+        'I do not agree with showing only local art',
+        'because art from other countries helps people learn and helps local artists grow.',
       ],
       stance: '強烈不同意只展出本地藝術家的作品',
       claims: ['國際藝術拓闊觀眾的藝術與社會理解', '國際展覽促進本地藝術家和美術館發展'],
@@ -75,23 +122,23 @@
       topic: 'Family-run businesses',
       summary: '作者認為家族關係主導企業會削弱公平與專業判斷，並讓私人衝突波及業務。',
       simple: [
-        'In many countries, families own small and medium businesses, and people often see this as a good base for success.',
+        'In many places, families own small and middle-sized businesses. Many people think this helps a business do well.',
         'I do not agree.',
-        'I think a business mainly run through family relationships is not the best way, because it can weaken good work decisions and turn personal arguments into business risks.',
-        'The first problem is that family businesses can confuse love for relatives with ability.',
-        'A good company chooses, promotes and corrects workers based on how well they do their jobs.',
-        'If relatives get high positions because they are family, weak managers may be protected. Skilled workers outside the family feel unappreciated, rules become uneven and hard decisions are put off.',
-        'For example, managers may avoid questioning an owner’s son who keeps losing clients because the family might take it as an insult.',
-        'After a while, this unfair preference damages trust at work and weakens the company.',
-        'Another problem is that family arguments can affect the business.',
-        'A company run by professional managers can use contracts, clear roles and formal steps to settle disagreements.',
-        'But in a family company, arguments about who will inherit or lead it, or about money, can become very personal.',
-        'For example, a fight between brothers or sisters about control can stop hiring, investment and growth.',
-        'Other workers may feel they must choose a side, so personal loyalty comes before business needs.',
-        'This is especially harmful when leadership changes and the company needs stability.',
-        'A company cannot grow well while family conflict keeps pulling it in different directions.',
-        'Overall, I think family businesses are more likely to cause problems than to be the best business model.',
-        'Businesses need fairness, skill and clear rules, but strong family control often weakens these qualities.',
+        'I think a business should not mainly be run through family ties. Family ties can lead to poor work choices and bring family fights into work.',
+        'First, a family business may treat love for family as if it were skill at work.',
+        'A good company gives jobs and better roles to people who do their work well. It also tells them when they need to improve.',
+        'If family members get top jobs just because they are family, poor leaders may keep their jobs. Good workers outside the family feel ignored, rules are unfair, and hard choices wait too long.',
+        'For example, if the owner’s son keeps losing buyers, other leaders may be afraid to tell him because his family could feel hurt.',
+        'After some time, this unfair treatment makes workers trust the company less and makes it harder for the business to do well.',
+        'Another problem is that family fights can cause problems at work.',
+        'A company with trained leaders can use written rules and clear jobs to settle fights.',
+        'But in a family company, fights about money or who will lead can feel very personal.',
+        'For example, a fight between brothers and sisters over who will lead can stop the company from hiring people or growing.',
+        'Other workers may feel they must pick a side. Then they care more about family ties than the needs of the business.',
+        'This can be very bad when the company needs a new leader and needs to stay strong.',
+        'A company cannot grow well if family fights keep pulling it in different ways.',
+        'In short, I think family businesses often cause more problems than they solve.',
+        'Businesses need fair rules and people who know how to do the work. Too much family control can get in the way.',
       ],
       stance: '不同意家族經營是最佳企業模式',
       claims: ['親情與能力混淆，損害公平和競爭力', '家族爭執進入企業，妨礙穩定決策'],
@@ -117,23 +164,23 @@
       topic: 'Large-brand marketing and local goods',
       summary: '大型品牌的宣傳擠壓本地企業並影響選擇；提高本地商品的可見度和購買便利性可改善情況。',
       simple: [
-        'Large companies often spend a lot on ads and online promotion, so people notice their products more than goods made locally.',
-        'This can hurt local businesses and reduce choice, but action can make local goods easier to buy.',
-        'The first problem is that small companies become hard to notice.',
-        'When buyers keep seeing the same brands on TV, online and in shops, they may trust them without thinking, even if a local product is just as good.',
-        'When more sales go to big companies, local shops and makers earn less, cut jobs and may close.',
-        'Then money leaves the community, and shopping streets become less varied and lively.',
-        'A second problem is that people may choose products for their image, not their real quality.',
-        'For example, a snack may seem better simply because people see its package, slogan and famous supporter everywhere.',
-        'So people may pay more for a known brand and miss fresher or healthier local goods.',
-        'To help people buy local goods, governments should first help them become easier to notice.',
-        'They can support markets, sections for local goods in shops, and websites where nearby makers sell to residents.',
-        'If families can find local food and handmade goods as easily as big brands, buying local becomes easy and normal.',
-        'Shops can also use clear labels and give local goods a fair place on shelves.',
-        'A local label and short information about the maker can help a normal purchase support the community.',
-        'Public messages can remind people that buying local supports jobs, skills and the area’s identity.',
-        'In conclusion, large companies’ marketing can hurt local firms and make people buy mainly by brand.',
-        'But if local goods are easy to see and buy and matter to people, communities can bring demand back to local makers.',
+        'Big companies can spend a lot on ads, so people see their products more often than products made nearby.',
+        'This can hurt local businesses and give people fewer choices, but we can make local goods easier to buy.',
+        'First, it is hard for people to notice small local businesses.',
+        'When buyers see the same big brands on TV, online, and in shops, they may trust them without thinking, even if local goods are just as good.',
+        'When more people buy from big companies, small shops make less money, let workers go, or even close.',
+        'This takes money out of the area and makes local shopping streets less lively.',
+        'Second, people may choose a product because of how it looks, not how good it is.',
+        'For example, people may think a snack is better just because they see its box, words, and famous faces everywhere.',
+        'So people may pay more for a name they know, while they miss local food that is better for them or made more recently.',
+        'To help people buy local goods, leaders should first help people see them.',
+        'They can pay for local markets, places for local goods in shops, and websites where nearby makers can sell to people.',
+        'If a family can find local food and things made by hand as easily as big-brand goods, buying local feels easy.',
+        'Shops can also help by making local labels clear and giving local goods a fair place on their shelves.',
+        'A label saying “made nearby,” with a little about the maker, can help people support their area when they shop.',
+        'Public messages can tell buyers that money spent nearby helps keep jobs and make their area strong.',
+        'In short, big companies’ ads can hurt small local shops and make people buy by brand name.',
+        'But if local goods are easy to see, buy, and care about, more people may choose them.',
       ],
       stance: '說明大型企業宣傳的問題，提出促進本地購物的方法',
       claims: ['本地企業被擠壓，消費者被品牌形象引導', '政府與零售商提高本地產品可見度和便利性'],
@@ -244,22 +291,72 @@
     },
   };
   frames.instance = { ...frames.example, frame:'[一般主張]; for instance, [符合主張的具體例子]', parts:[['[一般主張]','slot'],['; for instance, ','link'],['[具體例子]','slot']], options:frames.example.options.map(option => option.replace('for example', 'for instance')) };
-  const structureSources = {
-    'opinion:3': [[4,'because'],[6,'if'],[7,'when'],[9,'so'],[13,'contrast'],[14,'instance'],[16,'when']],
-    'discuss-both-views:4': [[3,'because'],[6,'rather'],[7,'if'],[14,'when'],[12,'instance'],[15,'if'],[17,'when']],
-    'cause-solution:2': [[1,'so'],[2,'but'],[4,'when'],[8,'instance'],[9,'while'],[12,'if'],[17,'however']],
+  // Every source sentence receives a card. The displayed coloured spans are
+  // contiguous substrings of the real sentence, including intentional fragments.
+  const relationTypes = {
+    because:['原因','後面的內容交代原因。','解釋前面的判斷或結果。'],
+    if:['條件','先提出條件，再說會發生甚麼。','說明條件與結果。'],
+    when:['時間／情況','說明某情況發生時的行動或結果。','連接情境與後果。'],
+    so:['結果','前面的情況帶來後面的結果。','指出因果結果。'],
+    but:['轉折','後面的內容與前面形成轉折。','提出不同方向。'],
+    while:['對比','把兩種不同情況放在一起比較。','比較兩種情況。'],
+    however:['轉折','後面的內容修正或對照前面的情況。','說明不同方向。'],
+    'rather than':['取捨','突出一個選擇，同時排除另一個。','說明選擇或優先次序。'],
+    'instead of':['取捨','突出一個選擇，同時排除另一個。','說明選擇或優先次序。'],
+    'for example':['舉例','用一個具體情況支持前面的意思。','用例子說明。'],
+    'for instance':['舉例','用一個具體情況支持前面的意思。','用例子說明。'],
+    'by contrast':['對比','把兩種情況放在一起，指出差別。','比較兩種情況。'],
+    'as a result':['結果','承接前面的原因，指出結果。','說明因果結果。'],
+    'in conclusion':['總結','收束前面的論證。','總結立場。'],
+    'overall':['總結','收束前面的論證。','總結立場。'],
+    'and':['並列','連接兩項同樣重要的內容。','並列兩個意思。'],
+    statement:['直接陳述','這句直接提出一項觀點或事實。','清楚陳述一項意思。'],
   };
-  for (const [key, mappings] of Object.entries(structureSources)) {
-    const essay = lessons[key];
-    essay.support.structures = mappings.map(([number, type], position) => {
-      const source = essay.sentences[number - 1], frame = frames[type];
-      if (!source || !frame) throw Error(`Invalid structure source: ${key} ${number}`);
+  const exampleOptions = {
+    reasonFragment:['I was tired. Because I slept badly.','I was tired. But I slept well.','I was tired. So I went to bed.','I was tired. When I got home.'],
+    statement:['I disagree.','If it rains, we will stay home.','I stayed home because it rained.','It was cold, but we went out.'],
+    and:['The class read books, and the teacher took notes.','If the bell rings, we will leave.','The class left because it was late.','The room was cold, but we stayed.'],
+    'in conclusion':['In conclusion, we should save water.','If it rains, we will stay home.','I stayed home because it rained.','For example, my brother cycles to work.'],
+    overall:['Overall, this plan helps students.','When the bell rings, we will leave.','I stayed home because it rained.','For example, my brother cycles to work.'],
+    'as a result':['As a result, fewer cars used the road.','If it rains, we will stay home.','I like tea, but she likes coffee.','For example, my brother cycles to work.'],
+    'instead of':['We walked instead of taking the bus.','We walked because it was sunny.','When it was sunny, we walked.','We walked, so we arrived late.'],
+  };
+  const connectorPattern = /\b(?:because|if|when|so|but|while|however|rather than|instead of|for example|for instance|by contrast|as a result|in conclusion|overall)\b|,\s+and\s+/ig;
+  for (const [key, essay] of Object.entries(lessons)) {
+    essay.support.structures = essay.sentences.map((source, position) => {
+      const text=source.english;
+      const match=connectorPattern.exec(text);
+      connectorPattern.lastIndex=0;
+      const rawType=match?.[0].trim().replace(/^,\s*/,'').toLowerCase() || 'statement';
+      const type=relationTypes[rawType] ? rawType : 'statement';
+      const [functionName,meaning,usage]=relationTypes[type];
+      const before=match ? text.slice(0,match.index) : '';
+      const connector=match?.[0] || '';
+      const after=match ? text.slice(match.index+connector.length) : text;
+      const startsWithBecause=type==='because' && !before.trim();
+      const mainVerb=/\b(?:am|is|are|was|were|be|can|could|may|might|should|would|will|has|have|had|help|helps|argue|disagree|disagrees|makes|make|reflect|reflects|benefits|benefit|attract|attracts|need|needs|improve|improves|reduce|reduces|grow|spend|become|becomes|give|gives|show|shows|think|believe|lose|loses|feel|feels|tend|tends|drains|leaves|use|uses|sustains|remind|reminds|tilt)\b/i;
+      const verbMatch=!match && mainVerb.exec(text);
+      const splitAt=verbMatch?.index ?? Math.min(text.length, text.indexOf(' ',Math.max(0,text.indexOf(' ')+1))+1);
+      const parts=match ? [
+        ...(before?[{text:before,kind:'slot',label:'前半句／前文'}]:[]),
+        {text:connector,kind:'link',label:functionName+'連接詞'},
+        ...(after?[{text:after,kind:'slot',label:startsWithBecause?'承接上一句的原因':'後半句／後文'}]:[]),
+      ] : [
+        {text:text.slice(0,splitAt),kind:'slot',label:'話題／主語'},
+        {text:text.slice(splitAt),kind:'slot',label:'動作／看法'},
+      ];
+      const frame=parts.map(part=>part.kind==='link'?part.text:`[${part.label}]`).join('');
+      const examples=startsWithBecause ? exampleOptions.reasonFragment : frames[type]?.options || exampleOptions[type] || exampleOptions.statement;
       return {id:`${essay.id}-frame-${String(position+1).padStart(2,'0')}`,
-        frame:frame.frame,meaning:frame.meaning,usage:frame.usage,
+        frame, meaning:startsWithBecause?'這句從 because 開始，承接上一句，補充原因。':meaning, usage,
         source:{paragraph:source.paragraph+1,sentence:source.index+1},
-        parts:frame.parts.map(([text,kind])=>({text,kind})),
-        context:'哪一句正確運用了上面的句型及其功能？',
-        options:frame.options,correct:0,explanations:frame.explanations};
+        parts,context:'哪一句也運用了這種句型功能？',
+        options:examples,correct:0,explanations:[
+          `這句同樣運用了「${functionName}」的功能。`,
+          '這句使用了不同的連接或論證方式。',
+          '這句使用了不同的連接或論證方式。',
+          '這句使用了不同的連接或論證方式。',
+        ]};
     });
   }
   const makeTransfer = (context,question,options,correct,explanations,sourceSentenceIndices,modelLink) => ({

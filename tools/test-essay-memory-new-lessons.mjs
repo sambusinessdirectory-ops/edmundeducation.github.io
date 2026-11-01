@@ -22,7 +22,7 @@ for (let n=0;n<keys.length;n++) {
   assert.equal(lesson.audio,canonical.window.EDMUND_WRITING_AUDIO[lesson.id].path);
 
   assert.equal(lesson.support.sentences.length,counts[n]);
-  assert.equal(lesson.support.structures.length,7);
+  assert.equal(lesson.support.structures.length,counts[n]);
   assert.equal(lesson.support.transfer.length,n===0?5:6);
   assert.equal(lesson.support.evidence.length,5);
   assert.equal(lesson.support.logic.length,2);
@@ -44,6 +44,9 @@ for (let n=0;n<keys.length;n++) {
     for(const synonym of bridge.synonyms) assert(synonym.original&&synonym.simple&&synonym.meaning);
   }
   for(const frame of lesson.support.structures){
+    const sourceSentence=lesson.sentences.find(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence);
+    assert.equal(frame.parts.map(part=>part.text).join(''),sourceSentence.english);
+    assert(frame.parts.length>=2);
     assert.equal(frame.options.length,4);
     assert.equal(new Set(frame.options).size,4);
     assert.equal(frame.explanations.length,4);
@@ -83,7 +86,8 @@ for(const key of keys){
     assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: overflow stage ${stage}`);
   }
   await page.locator('[data-stage="6"]').click();
-  assert(await page.locator('.structure-part').count()>=3);
+  assert(await page.locator('.structure-part').count()>=1);
+  assert.equal(await page.locator('.structure-translation').count(),1);
   await page.locator('[data-choice="1"]').click();
   assert.equal(await page.locator('[data-continue]').count(),0);
   await page.locator('[data-choice="0"]').click();
@@ -98,8 +102,17 @@ for(const key of keys){
     await page.locator('#step-select').evaluate((select,value)=>{select.value=String(value);select.dispatchEvent(new Event('change'));},index);
     assert((await page.locator('.speaking-text').innerText()).includes('＿'),`${key} recall sentence ${index+1} lacks blanks`);
   }
-  const recording=await page.locator('[data-edmund-record-id]').getAttribute('data-edmund-record-id');
-  assert(recording.startsWith(lesson.id+'-memory-'));
+  assert.equal(await page.locator('[data-edmund-record-id]').count(),0);
+  assert((await page.locator('.recording-practice a').getAttribute('href')).includes('essay-memory-recordings.html'));
+  const previousScale=await page.evaluate(()=>document.documentElement.style.getPropertyValue('--reader-scale'));
+  await page.locator('#font-size-button').click();
+  assert.notEqual(await page.evaluate(()=>document.documentElement.style.getPropertyValue('--reader-scale')),previousScale);
+  await page.locator('#playback-speed').selectOption('0.75');
+  assert.equal(await page.evaluate(()=>document.querySelector('#playback-speed').value),'0.75');
+  await page.locator('[data-stage="9"]').click();
+  assert.equal(await page.locator('#step-select option').count(),4);
+  await page.locator('[data-stage="10"]').click();
+  assert.equal(await page.locator('#step-select option').count(),counts[keys.indexOf(key)]);
   const stored=await page.evaluate(id=>localStorage.getItem(`edmund-essay-memory-${id}-v1`),lesson.id);
   assert(stored);
 }
