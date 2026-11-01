@@ -5232,9 +5232,10 @@ async function checkTwoDayIncompleteHomework(student, token, loadedWeek, loadedE
   if (checkedIncompleteHomeworkDays.has(checkKey)) return;
   checkedIncompleteHomeworkDays.add(checkKey);
   try {
-    const dates = [-1, -2].map((offset) => toISODate(addDays(parseISODate(today), offset)));
-    if (dates.some((date) => !isDateInScheduleRange(date))) return;
-    const weekStarts = [...new Set(dates.map((date) => toISODate(mondayFor(parseISODate(date)))))];
+    const dates = [-1, -2, -3].map((offset) => toISODate(addDays(parseISODate(today), offset)));
+    if (dates.slice(0, 2).some((date) => !isDateInScheduleRange(date))) return;
+    const availableDates = dates.filter(isDateInScheduleRange);
+    const weekStarts = [...new Set(availableDates.map((date) => toISODate(mondayFor(parseISODate(date)))))];
     const weeks = await Promise.all(weekStarts.map(async (weekStart) => {
       if (weekStart === loadedWeek) return loadedEntries;
       const payload = await callRpc("schedule_student_get_week", {
@@ -5247,13 +5248,18 @@ async function checkTwoDayIncompleteHomework(student, token, loadedWeek, loadedE
     if (state.currentUser?.role !== "student" || state.currentUser.id !== student.id
       || state.currentUser.studentToken !== token || hongKongDayKey() !== today) return;
     const recentHomework = weeks.flat().filter((entry) => {
-      if (!dates.includes(entry.scheduleDate)) return false;
+      if (!availableDates.includes(entry.scheduleDate)) return false;
       const homework = parseScheduleMessage(entry.message);
       return Boolean(homework.text.trim() || homework.resources.length);
     });
-    if (!recentHomework.length || recentHomework.some((entry) => entry.isCompleted === true)) return;
+    const recentTwoDays = recentHomework.filter((entry) => dates.slice(0, 2).includes(entry.scheduleDate));
+    const twoDaysIncomplete = recentTwoDays.length > 0
+      && !recentTwoDays.some((entry) => entry.isCompleted === true);
+    const threeDaysIncomplete = availableDates.length === 3 && recentHomework.length > 0
+      && !recentHomework.some((entry) => entry.isCompleted === true);
+    if (!twoDaysIncomplete && !threeDaysIncomplete) return;
     document.dispatchEvent(new CustomEvent("edmund:schedule-two-day-incomplete-homework", {
-      detail: { studentId: String(student.id), date: today }
+      detail: { studentId: String(student.id), date: today, days: threeDaysIncomplete ? 3 : 2 }
     }));
   } catch (error) {
     checkedIncompleteHomeworkDays.delete(checkKey);

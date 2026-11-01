@@ -7,12 +7,12 @@ const root = path.resolve(__dirname, '..');
 for (const page of ['phrasal-verb-system.html', 'proverb-system.html', 'idiom-system.html', 'polysemy-lab.html', 'synonyms-system.html', 'natural-english.html', 'irregular-verb-system.html', 'reading-logic-system.html', 'reading-logic-exercise-1.html']) {
   const html = fs.readFileSync(path.join(root, page), 'utf8');
   assert.match(html, /eddy-mc-wrong-streak-dialogue\.css\?v=20261101-1/);
-  assert.match(html, /eddy-mc-wrong-streak-dialogue\.js\?v=20261101-1/);
+  assert.match(html, /eddy-mc-wrong-streak-dialogue\.js\?v=20261101-4-recovery/);
 }
 for (const source of ['phrasal-verb-system.js', 'proverb-system.js', 'idiom-system.js', 'polysemy-lab/app.mjs', 'synonyms/app.mjs', 'natural-english/app.mjs', 'reading-logic/reading-logic.js', 'irregular-verbs/app.mjs']) {
   assert.ok(/mc\s*:\s*true|mc:true|correct, mc/.test(fs.readFileSync(path.join(root, source), 'utf8')), `${source} marks MC results`);
 }
-for (const asset of ['eddy-two-wrong-mc-dialogue.png', 'eddy-three-wrong-mc-dialogue.png']) assert.ok(fs.statSync(path.join(root, asset)).size > 100000);
+for (const asset of ['eddy-two-wrong-mc-dialogue.png', 'eddy-three-wrong-mc-dialogue.png', 'eddy-four-wrong-mc-surrender.png', 'eddy-mc-recovery-thank-you.png']) assert.ok(fs.statSync(path.join(root, asset)).size > 100000);
 const fixture = '<!doctype html><html><head><meta name="viewport" content="width=device-width,initial-scale=1"><link rel="stylesheet" href="/eddy-first-question-dialogue.css"><link rel="stylesheet" href="/eddy-mc-wrong-streak-dialogue.css"></head><body><button id="answer">Answer</button><script src="/eddy-mc-wrong-streak-dialogue.js"></script></body></html>';
 const server = http.createServer((req, res) => {
   if (req.url === '/') { res.writeHead(200, { 'content-type': 'text/html; charset=utf-8' }); res.end(fixture); return; }
@@ -50,8 +50,15 @@ const server = http.createServer((req, res) => {
     await page.keyboard.press('Escape');
     await art.waitFor({ state: 'detached' });
     await send(false);
-    assert.equal(await art.count(), 0, 'fourth error does not repeat milestone');
+    await art.waitFor();
+    assert.match(await art.getAttribute('src'), /four-wrong-mc-surrender/);
+    await page.keyboard.press('Escape');
+    await art.waitFor({ state: 'detached' });
     await send(true);
+    await art.waitFor();
+    assert.match(await art.getAttribute('src'), /mc-recovery-thank-you/);
+    await page.keyboard.press('Escape');
+    await art.waitFor({ state: 'detached' });
     await send(false);
     assert.equal(await art.count(), 0, 'correct answer resets streak');
     await send(false);
