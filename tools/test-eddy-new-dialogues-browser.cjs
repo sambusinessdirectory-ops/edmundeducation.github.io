@@ -73,6 +73,23 @@ const server = http.createServer((request, response) => {
     assert.match(await candy.locator('.eddy-global-art img').getAttribute('src'), /cotton-candy/);
     assert.equal(await candy.locator('.eddy-global-copy strong').innerText(), '拉絲雲朵棉花糖!');
     assert.equal(await candy.locator('.eddy-global-copy > span').isVisible(), false);
+    const bubble = await context.newPage();
+    await bubble.addInitScript(() => {
+      const RealDate = Date;
+      window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-07T05:30:00Z'])); } static now() { return RealDate.parse('2027-02-07T05:30:00Z'); } };
+      let draws = 0;
+      Math.random = () => draws++ === 0 ? .05 : .5;
+    });
+    await bubble.goto(origin + '/index.html?loading=1');
+    assert.equal(await bubble.locator('.eddy-global-overlay').count(), 0);
+    await bubble.evaluate(() => document.body.classList.remove('is-homepage-loading'));
+    await bubble.locator('.eddy-global-overlay').waitFor();
+    assert.match(await bubble.locator('.eddy-global-art img').getAttribute('src'), /bubble-gum/, 'bubble gum wins the other half of the 10% draw');
+    assert.equal(await bubble.locator('.eddy-global-copy strong').innerText(), '感覺香口膠快要爆了...');
+    assert.equal(await bubble.locator('.eddy-global-art img').evaluate(image => image.complete && image.naturalWidth > 0), true);
+    await bubble.keyboard.press('Escape');
+    await bubble.locator('.eddy-global-overlay').waitFor();
+    assert.doesNotMatch(await bubble.locator('.eddy-global-art img').getAttribute('src'), /bubble-gum/, 'scheduled Sunday greeting follows bubble gum');
     const first = await context.newPage();
     await first.addInitScript(() => {
       const RealDate = Date;
@@ -115,6 +132,6 @@ const server = http.createServer((request, response) => {
     await noCandy.goto(origin + '/index.html');
     assert.equal(await noCandy.locator('.eddy-global-overlay').count(), 0, '10% threshold excludes .1');
     await context.close();
-    console.log('PASS: grammar entry greeting, song login greeting, and homepage-only 10% cotton candy event');
+    console.log('PASS: grammar and song greetings; homepage 10% surprise split between cotton candy and bubble gum, both first');
   } finally { await browser.close(); server.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; server.close(); });

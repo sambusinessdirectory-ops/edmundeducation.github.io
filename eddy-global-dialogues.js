@@ -156,6 +156,7 @@
   const breakStoragePrefix = 'edmund-eddy-pomodoro-break-v1:';
   const queue = [];
   const cottonCandyLines = [['拉絲雲朵棉花糖!', '']];
+  const bubbleGumLines = [['感覺香口膠快要爆了...', '']];
   const queuedBreaks = new Set();
   let active = null;
   let overlay = null;
@@ -198,6 +199,7 @@
     try { localStorage.setItem(key, value); } catch { /* This page still deduplicates in memory. */ }
   }
   function pick(lines) { return lines[Math.floor(Math.random() * lines.length)]; }
+  function isHomepageSurprise(kind) { return kind === 'cottonCandy' || kind === 'bubbleGum'; }
   function setHorsePun(node, value) {
     const at = value.indexOf('放馬過來');
     if (at < 0) { node.textContent = value; return; }
@@ -266,7 +268,7 @@
   function showNext() {
     if (active || !document.body || document.hidden || document.body.classList.contains('is-homepage-loading') || document.querySelector('dialog[open]')) return;
     while (queue.length) {
-      const surpriseIndex = queue.findIndex((item) => item.kind === 'cottonCandy');
+      const surpriseIndex = queue.findIndex((item) => isHomepageSurprise(item.kind));
       const next = surpriseIndex < 0 ? queue.shift() : queue.splice(surpriseIndex, 1)[0];
       if (next.kind !== 'tomato' && !isMainPage()) continue;
       const timedMoment = timedMoments[next.kind];
@@ -302,8 +304,8 @@
           || shownBedtimeNight === next.night || stored(bedtimeStorageKey) === next.night) continue;
         shownBedtimeNight = next.night;
         remember(bedtimeStorageKey, next.night);
-      } else if (next.kind === 'cottonCandy') {
-        // This surprise is drawn once on each homepage visit.
+      } else if (isHomepageSurprise(next.kind)) {
+        // One of the two surprises is drawn once on each homepage visit.
       } else if (Date.now() >= next.endsAt || stored(breakStoragePrefix + next.owner) === String(next.endsAt)) {
         continue;
       } else {
@@ -314,7 +316,7 @@
       const lines = timedMoment ? timedMoment.lines : next.kind === 'lunch' ? lunchLines : next.kind === 'tea' ? teaLines : next.kind === 'weekend'
         ? (next.weekday === 'Saturday' ? saturdayLines : sundayLines)
         : next.kind === 'sleepy' ? sleepyLines : next.kind === 'bedtime' ? bedtimeLines
-          : next.kind === 'cottonCandy' ? cottonCandyLines : tomatoLines;
+          : next.kind === 'cottonCandy' ? cottonCandyLines : next.kind === 'bubbleGum' ? bubbleGumLines : tomatoLines;
       const [main, sub] = pick(lines);
       overlay = document.createElement('div');
       overlay.className = 'eddy-global-overlay';
@@ -324,13 +326,14 @@
       overlay.setAttribute('aria-label', timedMoment ? timedMoment.label : next.kind === 'lunch' ? 'Eddy 的午飯後問候' : next.kind === 'tea' ? 'Eddy 的下午茶時間'
         : next.kind === 'weekend' ? `Eddy 的${next.weekday === 'Saturday' ? '星期六' : '星期天'}問候`
           : next.kind === 'sleepy' ? 'Eddy 的晚間問候' : next.kind === 'bedtime' ? 'Eddy 的晚安問候'
-            : next.kind === 'cottonCandy' ? 'Eddy 的棉花糖驚喜' : 'Eddy 的番茄鐘休息時間');
+            : next.kind === 'cottonCandy' ? 'Eddy 的棉花糖驚喜' : next.kind === 'bubbleGum' ? 'Eddy 的香口膠驚喜' : 'Eddy 的番茄鐘休息時間');
       overlay.innerHTML = `<button type="button"><span class="eddy-global-art"><img alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>`;
       overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
         : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
           : next.kind === 'sleepy' ? '/eddy-evening-teddy-dialogue.png'
             : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png'
-              : next.kind === 'cottonCandy' ? '/eddy-cotton-candy-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
+              : next.kind === 'cottonCandy' ? '/eddy-cotton-candy-dialogue.png'
+                : next.kind === 'bubbleGum' ? '/eddy-bubble-gum-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
       const subtitle = overlay.querySelector('.eddy-global-copy > span');
       setHorsePun(overlay.querySelector('strong'), main);
       setHorsePun(subtitle, sub);
@@ -419,7 +422,7 @@
     if (!isMainPage() || surpriseChecked) return;
     surpriseChecked = true;
     if (Math.random() >= 0.1) return;
-    queue.unshift({ kind: 'cottonCandy' });
+    queue.unshift({ kind: Math.random() < 0.5 ? 'cottonCandy' : 'bubbleGum' });
     showNext();
   }
 
