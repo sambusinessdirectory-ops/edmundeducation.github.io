@@ -11,6 +11,15 @@
     ['唉唷……Eddy 都快忘記完成任務是什麼感覺了啦……'],
     ['唔……兩天都沒完成任務了……有點不甘心呢。']
   ];
+  const threeDayVariants = [
+    { main: '你看看你！都三天沒做任務了！', sub: 'Eddy 不是要唸你啦……可是事情放著不做，也不會自己完成啊！來，今天先做一件就好！' },
+    '唉唷！三天了耶！整整三天！你說說看，這些任務是打算留到過年才做嗎？',
+    '來來來，你自己看看！三天一個任務都沒動！這樣下去怎麼行呢？嗯？',
+    'Eddy 不是生氣，是擔心你啊！你看看，三天都沒做任務了！這樣要怎麼進步呢？',
+    '你看看隔壁的冒險家……啊，算了算了！不跟別人比！先把自己的任務做好就行！',
+    '唉～～三天了，任務清單連一筆都沒劃掉……Eddy 這顆心啊，真是操不完！',
+    '三天沒做任務啦！你說說看，這樣像話嗎？嗯？'
+  ];
   const storagePrefix = 'edmund-eddy-schedule-incomplete-two-days-v1:';
   const shown = new Set();
   let pending = null;
@@ -61,17 +70,20 @@
     }
     const calendar = document.querySelector('[data-view="calendar"]');
     if (!calendar || calendar.hidden || document.querySelector('dialog[open], .eddy-first-question-overlay')) return;
-    const key = `${storagePrefix}${pending.studentId}:${pending.date}`;
+    const days = pending.days === 3 ? 3 : 2;
+    const key = `${days === 3 ? 'edmund-eddy-schedule-incomplete-three-days-v1:' : storagePrefix}${pending.studentId}:${pending.date}`;
     pending = null;
     if (shown.has(key) || stored(key)) return;
-    const copy = variants[Math.floor(Math.random() * variants.length)][0];
+    const pool = days === 3 ? threeDayVariants : variants;
+    const picked = pool[Math.floor(Math.random() * pool.length)];
+    const copy = days === 3 ? picked : picked[0];
     previousFocus = document.activeElement;
     overlay = document.createElement('div');
     overlay.className = 'eddy-first-question-overlay eddy-schedule-incomplete-overlay';
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
-    overlay.setAttribute('aria-label', 'Eddy 的兩天未完成功課提醒');
-    overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="eddy-schedule-two-day-incomplete-dialogue.png" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>';
+    overlay.setAttribute('aria-label', `Eddy 的${days === 3 ? '三' : '兩'}天未完成功課提醒`);
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${days === 3 ? 'eddy-schedule-three-day-incomplete-dialogue.png' : 'eddy-schedule-two-day-incomplete-dialogue.png'}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>`;
     const message = overlay.querySelector('.eddy-first-question-message');
     if (typeof copy === 'string') message.textContent = copy;
     else {
@@ -90,9 +102,9 @@
     document.addEventListener('keydown', onKey, true);
   }
   document.addEventListener('edmund:schedule-two-day-incomplete-homework', (event) => {
-    const { studentId, date } = event.detail || {};
+    const { studentId, date, days } = event.detail || {};
     if (typeof studentId !== 'string' || !studentId || !/^\d{4}-\d{2}-\d{2}$/.test(date)) return;
-    pending = { studentId, date };
+    pending = { studentId, date, days: days === 3 ? 3 : 2 };
     clearTimeout(fallbackTimer);
     fallbackTimer = setTimeout(() => { learningSummaryReceived = true; showIfReady(); }, 5000);
     requestAnimationFrame(showIfReady);

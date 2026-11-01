@@ -170,6 +170,9 @@ function showView(name) {
       : state.user.name;
   }
   if (name === "login") elements.dashboardGroups.hidden = true;
+  if (name === "dashboard" && state.user?.role === "student") {
+    document.dispatchEvent(new CustomEvent('edmund:student-progress-opened', { detail: { studentId: String(state.user.id) } }));
+  }
   window.scrollTo({ top: 0, behavior: "smooth" });
 }
 

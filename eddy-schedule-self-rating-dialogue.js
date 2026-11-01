@@ -2,6 +2,24 @@
 (() => {
   'use strict';
   const greetings = {
+    motivation: { ratings: [1, 2], image: 'eddy-self-rating-low-motivation-dialogue.png', lines: [
+      { main: '唔～今天怎麼就是提不起勁呢……', sub: '明明有好多事情想做，身體卻一點都不想動……算啦，先從簡單的開始吧！' },
+      '奇怪……Eddy 的幹勁跑去哪裡了？明明昨天還在這裡的說……',
+      '唔～今天什麼都不太想做呢……要是幹勁也能像點心一樣，吃一口就補滿就好了！',
+      '哼……今天好像不太有幹勁呢。不過，總不能一直這樣下去吧……先試試看好了！',
+      '嗯……今天好像少了點平常的衝勁呢。偶爾也會有這樣的日子吧。',
+      '好！今天也要拿出幹勁！……唔，奇怪？怎麼喊完還是一點力氣都沒有啊？',
+      '唉～今天的幹勁好像請假去了……'
+    ] },
+    'high-motivation': { ratings: [4, 5], image: 'eddy-self-rating-high-motivation-dialogue.png', lines: [
+      { main: '好！今天有好多事情想做呢！', sub: '光是想想就興奮得坐不住啦！嘿嘿，該從哪件事開始好呢？' },
+      '哼哼！今天的幹勁可是源源不絕喔！有什麼想做的事，就儘管放馬過來吧！',
+      '啊！想到啦！今天有好多點子想試試看！嘿嘿，光是坐在這裡可不行！',
+      '好！今天想挑戰的事情可多呢！不知道會有什麼新發現，真讓人期待！',
+      '唔喔喔！今天不知道為什麼，整個人都充滿幹勁！再不開始做點什麼，可要憋不住啦！',
+      '嘿嘿，今天的 Eddy 可是幹勁十足！不管是什麼任務，都想親自試試看呢！',
+      '好！今天的幹勁滿到快溢出來啦！'
+    ] },
     stress: { ratings: [1, 2], image: 'eddy-self-rating-low-stress-dialogue.png', lines: [
       { main: '呼～最近的日子還挺悠哉的嘛！', sub: '趁現在好好保養一下……嗯～這冰冰涼涼的小黃瓜，真舒服啊！' },
       '嗯哼～偶爾也要享受一下貴賓級的待遇嘛！來，再幫 Eddy 敷兩片小黃瓜～',
@@ -50,6 +68,14 @@
   }
   function stored(key) { try { return localStorage.getItem(key); } catch { return null; } }
   function remember(key) { shown.add(key); try { localStorage.setItem(key, 'shown'); } catch { /* Memory still deduplicates this page. */ } }
+  function setHorsePun(node, value) {
+    const at = value.indexOf('放馬過來');
+    if (at < 0) { node.textContent = value; return; }
+    const horse = document.createElement('span');
+    horse.className = 'eddy-horse-pun';
+    horse.textContent = '馬';
+    node.replaceChildren(value.slice(0, at + 1), horse, value.slice(at + 2));
+  }
   function finish() {
     overlay?.remove(); overlay = null;
     document.removeEventListener('keydown', onKey, true);
@@ -69,7 +95,7 @@
     while (queue.length) {
       const item = queue.shift();
       if (sessionStudentId() !== item.studentId || shown.has(item.key) || stored(item.key)) continue;
-      const greeting = greetings[item.metric];
+      const greeting = item.metric === 'motivation' && item.rating >= 4 ? greetings['high-motivation'] : greetings[item.metric];
       const copy = greeting.lines[Math.floor(Math.random() * greeting.lines.length)];
       previousFocus = document.activeElement;
       overlay = document.createElement('div');
@@ -78,11 +104,11 @@
       overlay.setAttribute('aria-label', `Eddy 的${item.metric}自評回應`);
       overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${greeting.image}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--schedule-two-day" lang="zh-Hant"></span></span></button>`;
       const message = overlay.querySelector('.eddy-first-question-message');
-      if (typeof copy === 'string') message.textContent = copy;
+      if (typeof copy === 'string') setHorsePun(message, copy);
       else {
         message.classList.add('eddy-first-question-message--schedule-two-day-headline');
         const main = document.createElement('strong'); const sub = document.createElement('span');
-        main.textContent = copy.main; sub.textContent = copy.sub; message.replaceChildren(main, sub);
+        setHorsePun(main, copy.main); setHorsePun(sub, copy.sub); message.replaceChildren(main, sub);
       }
       overlay.querySelector('button').setAttribute('aria-label', `${typeof copy === 'string' ? copy : `${copy.main} ${copy.sub}`} 點擊、輕觸或按鍵關閉`);
       overlay.addEventListener('click', finish);
@@ -97,8 +123,9 @@
     if (typeof studentId !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date) || !greetings[metric]) return;
     const key = `${storagePrefix}${studentId}:${date}:${metric}`;
     for (let i = queue.length - 1; i >= 0; i--) if (queue[i].key === key) queue.splice(i, 1);
-    if (!greetings[metric].ratings.includes(Number(rating))) return;
-    queue.push({ studentId, date, metric, key });
+    const selected = metric === 'motivation' && Number(rating) >= 4 ? greetings['high-motivation'] : greetings[metric];
+    if (!selected.ratings.includes(Number(rating))) return;
+    queue.push({ studentId, date, metric, rating: Number(rating), key });
     requestAnimationFrame(showNext);
   });
   document.addEventListener('edmund:eddy-global-dialogue-finished', showNext);

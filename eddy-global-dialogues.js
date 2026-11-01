@@ -25,6 +25,14 @@
     ['早安……Eddy 的精神，還在這杯咖啡裡泡著呢……', ''],
     ['唔……早上六點的世界……原來長這個樣子啊……呼啊～～', '']
   ];
+  const morningStrengthLines = [
+    ['嘿嘿！今天的 Eddy 可是活力滿滿喔！', '看到這身肌肉了嗎？哼哼！感覺不管遇到什麼挑戰，都能輕鬆搞定呢！'],
+    ['哼哼！早上的暖身運動做完啦！怎麼樣？Eddy 的肌肉是不是又變結實了？', ''],
+    ['好！精神來了，力氣也有了！今天不管遇到什麼難關，都儘管放馬過來吧！', ''],
+    ['嘿咻！今天的 Eddy 可是力大無窮喔！……嗯？你說這只是普通的早晨伸展操？', ''],
+    ['哼哼！今天感覺連一座山都搬得動！……不過，還是先從簡單的任務開始好了！', ''],
+    ['今天也要大展身手啦！', '']
+  ];
   const middayMealLines = [
     ['嘿嘿……終於到午餐時間啦！', '光是想到香噴噴的飯菜，口水就快流下來了……不行不行，Eddy 已經等不及啦！'],
     ['嘿嘿……炸雞、漢堡、咖哩飯……吸溜！糟糕，光用想的就餓得受不了啦！', ''],
@@ -137,6 +145,7 @@
   const timedMoments = Object.freeze({
     midnightSnack: { startMinute: 120, endMinute: 350, lines: midnightSnackLines, image: '/eddy-midnight-snack-dialogue.png', label: 'Eddy 的深夜餅乾時間', storageKey: 'edmund-eddy-midnight-snack-day-v1' },
     morningCoffee: { startMinute: 360, endMinute: 480, lines: morningCoffeeLines, image: '/eddy-morning-coffee-dialogue.png', label: 'Eddy 的清晨咖啡時間', storageKey: 'edmund-eddy-morning-coffee-day-v1' },
+    morningStrength: { hour: 9, lines: morningStrengthLines, image: '/eddy-morning-strength-dialogue.png', label: 'Eddy 的早晨活力時間', storageKey: 'edmund-eddy-morning-strength-day-v1' },
     middayMeal: { hour: 12, lines: middayMealLines, image: '/eddy-lunchtime-dialogue.png', label: 'Eddy 的午餐時間', storageKey: 'edmund-eddy-lunchtime-day-v1' },
     saturdayGrocery: { startMinute: 780, endMinute: 900, weekday: 'Saturday', lines: saturdayGroceryLines, image: '/eddy-saturday-grocery-dialogue.png', label: 'Eddy 的星期六採購時間', storageKey: 'edmund-eddy-saturday-grocery-day-v1' },
     sundayCouch: { startMinute: 780, endMinute: 900, weekday: 'Sunday', lines: sundayCouchLines, image: '/eddy-sunday-couch-dialogue.png', label: 'Eddy 的星期天下午', storageKey: 'edmund-eddy-sunday-couch-day-v1' },
@@ -187,6 +196,15 @@
     try { localStorage.setItem(key, value); } catch { /* This page still deduplicates in memory. */ }
   }
   function pick(lines) { return lines[Math.floor(Math.random() * lines.length)]; }
+  function setHorsePun(node, value) {
+    const at = value.indexOf('放馬過來');
+    if (at < 0) { node.textContent = value; return; }
+    const horse = document.createElement('span');
+    horse.className = 'eddy-horse-pun';
+    horse.textContent = '馬';
+    node.replaceChildren(value.slice(0, at + 1), horse, value.slice(at + 2));
+  }
+
 
   function nightKey({ day, hour }) {
     if (hour >= 22) return day;
@@ -305,9 +323,10 @@
         : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
           : next.kind === 'sleepy' ? '/eddy-evening-teddy-dialogue.png'
             : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
-      overlay.querySelector('strong').textContent = main;
-      overlay.querySelector('.eddy-global-copy span').textContent = sub;
-      overlay.querySelector('.eddy-global-copy span').hidden = !sub;
+      const subtitle = overlay.querySelector('.eddy-global-copy > span');
+      setHorsePun(overlay.querySelector('strong'), main);
+      setHorsePun(subtitle, sub);
+      subtitle.hidden = !sub;
       overlay.querySelector('button').setAttribute('aria-label', `${main} ${sub} 點擊、輕觸或按鍵繼續`);
       overlay.addEventListener('click', dismiss);
       document.body.append(overlay);

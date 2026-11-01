@@ -2183,7 +2183,7 @@ function renderCompassLesson(sourceLesson, {preserveScroll = false} = {}) {
       latest.selections = cache.selections; latest.bookmarks = cache.bookmarks; latest.exercise = exercise;
       latest.pending[id] = {index, stamp: `${Date.now()}:${Math.random()}`};
       writeCompassCache(localStorage, owner, lesson.id, latest);
-      emitEddyStreakAnswer(option.correct, sourceLesson);
+      emitEddyStreakAnswer(option.correct, sourceLesson, true);
       elements.lessonRound.textContent = `${reviewedOriginalCount(lesson, exercise)}/${lesson.scoredCount??50} 題已完成`;
       compassView?.status('答案已保留，稍後同步成績…');
       queueCompassSave();
@@ -2354,10 +2354,10 @@ function scheduleExercisePersistence() {
   }, 450);
 }
 
-function emitEddyStreakAnswer(correct, lesson) {
+function emitEddyStreakAnswer(correct, lesson, mc = false) {
   if (!state.user?.id || !lesson?.id || typeof CustomEvent !== 'function') return;
   document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
-    detail: { scope: `proverb:${state.user.id}:${lesson.id}`, correct }
+    detail: { scope: `proverb:${state.user.id}:${lesson.id}`, correct, mc }
   }));
 }
 

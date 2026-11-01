@@ -14,11 +14,11 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
     await page.addScriptTag({ path: path.join(root, 'eddy-schedule-incomplete-dialogue.js') });
     return page;
   };
-  const fire = (page, studentId = 'student-1', date = today) => page.evaluate(({ studentId, date }) => {
+  const fire = (page, studentId = 'student-1', date = today, days = 2) => page.evaluate(({ studentId, date, days }) => {
     sessionStorage.setItem('edmund-schedule-session-v1', JSON.stringify({ role: 'student', id: studentId }));
-    document.dispatchEvent(new CustomEvent('edmund:schedule-two-day-incomplete-homework', { detail: { studentId, date } }));
+    document.dispatchEvent(new CustomEvent('edmund:schedule-two-day-incomplete-homework', { detail: { studentId, date, days } }));
     document.dispatchEvent(new CustomEvent('edmund:schedule-learning-day-summary', { detail: { studentId, date, streak: 0 } }));
-  }, { studentId, date });
+  }, { studentId, date, days });
   try {
     const page = await setup();
     const overlay = page.locator('.eddy-schedule-incomplete-overlay');
@@ -39,6 +39,16 @@ const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.
       await overlay.waitFor({ state: 'detached' });
       await fire(page, `student-${variant + 1}`);
       assert.equal(await overlay.count(), 0, 'reminder is once per student per Hong Kong day');
+    }
+    for (let variant = 0; variant < 7; variant += 1) {
+      await page.evaluate((fraction) => { Math.random = () => fraction; }, (variant + .01) / 7);
+      await fire(page, `three-day-student-${variant}`, today, 3);
+      await overlay.waitFor();
+      assert.equal(await overlay.locator('img').getAttribute('src'), 'eddy-schedule-three-day-incomplete-dialogue.png');
+      const fit = await message.evaluate((node) => ({ scroll: node.scrollHeight, visible: node.clientHeight }));
+      assert.ok(fit.scroll <= fit.visible + 1, `three-day variant ${variant + 1} fits mobile: ${JSON.stringify(fit)}`);
+      await page.keyboard.press('Escape');
+      await overlay.waitFor({ state: 'detached' });
     }
     await page.close();
     const next = await setup();

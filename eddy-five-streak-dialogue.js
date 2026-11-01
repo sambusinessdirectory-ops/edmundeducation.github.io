@@ -18,6 +18,23 @@
     ] }],
     [25, { art: 'eddy-twenty-five-streak-dialogue.png', lines: [
       '25 連勝.... 難道……您真的是傳說中的天才！？'
+    ] }],
+    [30, { art: 'eddy-thirty-streak-alien.png', random: true, lines: [
+      '哇啊！竟然連對 30 題！？\n你該不會偷偷得到了宇宙來的神祕力量吧？連 Eddy 都開始懷疑你是不是外星來的了！',
+      '30 題連續答對！？太誇張了吧！\n快老實說，你是不是偷偷跟外星人借了腦袋呀？',
+      '咦！？連對 30 題！？這已經不是普通人的等級了吧……\n難道你身上真的藏著宇宙的力量！？',
+      '嘿嘿，這隻小傢伙是不是偷偷把外星人的超能力借給你了呀？不然怎麼可能一口氣答對 30 題！',
+      '哇！30 題連勝耶！這種實力，簡直像從星星另一頭飛來的一樣厲害呢！',
+      '連對 30 題！？這根本是外星級的實力吧！',
+      '等等等等！30 題都答對了！？Eddy 得先摸摸這隻外星小傢伙確認一下……你該不會真的獲得宇宙之力了吧！？'
+    ] }],
+    [35, { art: 'eddy-thirty-five-streak-gentleman.png', random: true, lines: [
+      '哦呀……竟然已經連對 35 題了呢。\n看來，你已經不是當初那個初出茅廬的新手了。呵呵，真是讓 Eddy 感到驕傲啊。',
+      '呵呵，35 題連續答對……真是了不起！\n看著你一路進步到現在，連 Eddy 都忍不住想舉杯為你喝采了～',
+      '不知不覺，已經連對 35 題了呢。現在的你，已經成長得讓人另眼相看了～～\n真不愧是 Eddy 所看好的冒險家～～',
+      '哼哼……35 題連勝。這可不是隨隨便便就能辦到的成就呢～\n來，讓 Eddy 敬你一杯，為你的成長乾杯吧～',
+      '看到你連對 35 題，Eddy 真的很感慨呢～\n從前的你，和現在的你，已經完全不一樣了～',
+      '呵呵，看來你已經成為一位相當可靠的人了呢～\n35 題連續答對，這份實力可不是裝得出來的～'
     ] }]
   ]);
   const lostStreakLines = [
@@ -28,6 +45,7 @@
     '這座「努力獎」獎盃就送給您吧！下次一定會更順利的……大概啦！'
   ];
   const keyPrefix = 'edmund-eddy-five-streak-v1:';
+  const minimumMilestone = Number(document.currentScript?.dataset?.eddyMinStreak) || 0;
   const counts = new Map();
   const pending = [];
   let overlay = null;
@@ -120,7 +138,9 @@
     overlay.setAttribute('role', 'dialog');
     overlay.setAttribute('aria-modal', 'true');
     overlay.setAttribute('aria-label', 'Eddy 的連勝鼓勵');
-    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button" aria-label="${copy} 點擊、輕觸或按鍵繼續"><span class="eddy-first-question-art"><img src="${active.art}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--five-streak" lang="zh-Hant">${copy}</span></span></button>`;
+    overlay.innerHTML = `<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img src="${active.art}" alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-first-question-message--five-streak" lang="zh-Hant"></span></span></button>`;
+    overlay.querySelector('.eddy-first-question-message').textContent = copy;
+    overlay.querySelector('button').setAttribute('aria-label', `${copy.replace(/\n/g, ' ')} 點擊、輕觸或按鍵繼續`);
     overlay.addEventListener('click', advance);
     document.body.append(overlay);
     overlay.querySelector('button').focus({ preventScroll: true });
@@ -143,10 +163,13 @@
     const previous = Number.isInteger(previousStreak) && previousStreak >= 0 ? previousStreak : countFor(scope);
     const next = Number.isInteger(streak) && streak >= 0 ? streak : correct ? previous + 1 : 0;
     remember(scope, next);
-    if (correct && milestones.has(next)) {
-      pending.push(milestones.get(next));
+    if (correct && next >= minimumMilestone && milestones.has(next)) {
+      const milestone = milestones.get(next);
+      pending.push(milestone.random
+        ? { art: milestone.art, lines: [milestone.lines[Math.floor(Math.random() * milestone.lines.length)]] }
+        : milestone);
       schedule();
-    } else if (!correct && previous >= 10) {
+    } else if (!correct && minimumMilestone === 0 && previous >= 10) {
       pending.push({ art: 'eddy-lost-streak-dialogue.png', lines: [lostStreakLines[Math.floor(Math.random() * lostStreakLines.length)]] });
       schedule();
     }

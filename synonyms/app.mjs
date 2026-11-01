@@ -242,7 +242,7 @@ function answer(letter) {
   window.EdmundAnswerSound?.play(correct);
   render(); void syncPending();
   document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
-    detail: { scope: `synonyms:${owner}:${moduleId}`, correct, streak, previousStreak }
+    detail: { scope: `synonyms:${owner}:${moduleId}`, correct, streak, previousStreak, mc: true }
   }));
   if (correct && masteredBefore < total && mastered() === total)
     document.dispatchEvent(new CustomEvent('edmund:eddy-module-complete'));
