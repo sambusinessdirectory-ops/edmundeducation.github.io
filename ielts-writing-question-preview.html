@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="theme-color" content="#d9dbda">
+  <meta name="theme-color" content="#293434">
   <meta name="description" content="IELTS Writing Task 1 圖表與 Task 2 作文題目預覽。瀏覽題目、按需顯示繁體中文翻譯，並選擇作文題型。">
   <title>IELTS 寫作問題預覽系統｜EdmundEducation</title>
   <link rel="canonical" href="https://edmundeducation.com/ielts-writing-question-preview.html">
@@ -11,10 +11,11 @@
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="/shared-system-nav.css">
   <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261101-1">
+  <link rel="stylesheet" href="/ielts-writing-preview/workspace-overhaul.css?v=20261101-2">
   <script defer src="/supabase-config.js"></script>
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261101-1"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261101-2"></script>
   <script type="module" src="/ielts-writing-preview/highlighter.mjs?v=20261031-1"></script>
 </head>
 <body>
@@ -43,9 +44,9 @@
       <button class="tab" id="tab-task2" type="button" role="tab" aria-controls="panel-task2" aria-selected="false" data-tab="task2"><span class="tab-index">02</span><span><strong>Task 2</strong><small>Essays · 作文</small></span></button>
     </nav>
     <section id="panel-task1" class="panel" role="tabpanel" aria-labelledby="tab-task1">
-      <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>看題目與圖表，再選擇圖表類型、動態或靜態，以及適用時態。</p></div><span class="count" id="task1-count">載入中</span></div>
+      <div class="panel-heading"><div><p class="eyebrow">TASK 1 · DIAGRAMS</p><h2>圖表題目</h2><p>觀察圖表，判斷類型、變化及適用時態。</p></div><div class="progress-block"><span class="count" id="task1-count">載入中</span><div class="progress-track" id="task1-progress" role="progressbar" aria-label="Task 1 完成進度" aria-valuemin="0" aria-valuemax="60" aria-valuenow="0"><span id="task1-progress-fill"></span></div></div></div>
       <div class="toolbar"><label class="search"><span>搜尋圖表</span><input id="task1-search" type="search" placeholder="搜尋英文題目" autocomplete="off"></label></div>
-      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table><thead><tr><th scope="col">題目與圖表</th><th scope="col"><span class="visually-hidden">圖表類型</span></th><th scope="col"><span class="visually-hidden">動態 / 靜態</span></th><th scope="col"><span class="visually-hidden">適用時態（可多選）</span></th></tr></thead><tbody id="task1-rows"></tbody></table></div>
+      <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table role="table"><thead><tr><th scope="col">題目與圖表</th><th scope="col"><span class="visually-hidden">圖表類型</span></th><th scope="col"><span class="visually-hidden">動態 / 靜態</span></th><th scope="col"><span class="visually-hidden">適用時態（可多選）</span></th></tr></thead><tbody id="task1-rows"></tbody></table></div>
     </section>
     <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
       <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>閱讀題目，判斷題型。</p></div><div class="progress-block"><span class="count" id="task2-count">載入中</span><div class="progress-track" id="task2-progress" role="progressbar" aria-label="Task 2 完成進度" aria-valuemin="0" aria-valuemax="242" aria-valuenow="0"><span id="task2-progress-fill"></span></div></div></div>

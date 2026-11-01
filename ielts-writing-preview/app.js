@@ -389,6 +389,9 @@
       return total + Number(Boolean(answer.type && answer.motion && Array.isArray(answer.tenses) && answer.tenses.length));
     }, 0);
     $('task1-count').textContent = `${complete} / ${task1.length} 題`;
+    $('task1-progress').setAttribute('aria-valuemax', String(task1.length));
+    $('task1-progress').setAttribute('aria-valuenow', String(complete));
+    $('task1-progress-fill').style.width = `${complete / task1.length * 100}%`;
   }
   function refreshTask1Buttons() {
     for (const button of document.querySelectorAll('#task1-rows .answer-trigger')) {
@@ -514,9 +517,11 @@
     }
     for (const item of displayOrder) {
       const row = node('tr');
+      row.setAttribute('role', 'row');
       row.dataset.search = `${item.id} ${quizPrompt(item)}`.toLocaleLowerCase();
       row.dataset.questionId = item.id;
       const chartCell = node('td', 'chart-cell');
+      chartCell.setAttribute('role', 'cell');
       const heading = node('h3', 'question', quizPrompt(item));
       heading.lang = 'en';
       chartCell.append(node('span', 'row-id', item.id), heading, audioButton('task1', item));
@@ -531,10 +536,13 @@
       button.addEventListener('click', () => openDiagram(item));
       chartCell.append(button);
       const typeCell = node('td', 'task1-answer-cell');
+      typeCell.setAttribute('role', 'cell');
       typeCell.append(task1Choice(item, 'type', graphTypes, '選擇圖表類型'));
       const motionCell = node('td', 'task1-answer-cell');
+      motionCell.setAttribute('role', 'cell');
       motionCell.append(task1Choice(item, 'motion', TASK1_STATES, '選擇動態 / 靜態'));
       const tenseCell = node('td', 'task1-answer-cell');
+      tenseCell.setAttribute('role', 'cell');
       tenseCell.append(task1Choice(item, 'tenses', TASK1_TENSES, '選擇適用時態', true));
       row.append(chartCell, typeCell, motionCell, tenseCell);
       fragment.append(row);
