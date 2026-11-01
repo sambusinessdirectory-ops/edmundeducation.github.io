@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-30",
+  "batch": "afternoon-17",
+  "timing": [
+    {
+      "slug": "just-give-me-a-reason",
+      "lines": 69,
+      "timed": 63,
+      "untimed": 6
+    },
+    {
+      "slug": "hold-my-hand",
+      "lines": 43,
+      "timed": 37,
+      "untimed": 6
+    },
+    {
+      "slug": "snowman",
+      "lines": 42,
+      "timed": 36,
+      "untimed": 6
+    },
+    {
+      "slug": "what-makes-you-beautiful",
+      "lines": 81,
+      "timed": 56,
+      "untimed": 25
+    },
+    {
+      "slug": "cheap-thrills",
+      "lines": 59,
+      "timed": 40,
+      "untimed": 19
+    },
+    {
+      "slug": "rewrite-the-stars",
+      "lines": 71,
+      "timed": 60,
+      "untimed": 11
+    },
+    {
+      "slug": "never-enough",
+      "lines": 50,
+      "timed": 50,
+      "untimed": 0
+    },
+    {
+      "slug": "clocks",
+      "lines": 29,
+      "timed": 19,
+      "untimed": 10
+    },
+    {
+      "slug": "yellow",
+      "lines": 41,
+      "timed": 34,
+      "untimed": 7
+    },
+    {
+      "slug": "wake-me-up",
+      "lines": 36,
+      "timed": 35,
+      "untimed": 1
+    },
+    {
+      "slug": "just-dance",
+      "lines": 91,
+      "timed": 31,
+      "untimed": 60
+    },
+    {
+      "slug": "counting-stars",
+      "lines": 69,
+      "timed": 49,
+      "untimed": 20
+    },
+    {
+      "slug": "diamonds",
+      "lines": 63,
+      "timed": 53,
+      "untimed": 10
+    },
+    {
+      "slug": "believer",
+      "lines": 63,
+      "timed": 48,
+      "untimed": 15
+    },
+    {
+      "slug": "we-are-young",
+      "lines": 57,
+      "timed": 44,
+      "untimed": 13
+    },
+    {
+      "slug": "this-is-me",
+      "lines": 48,
+      "timed": 33,
+      "untimed": 15
+    },
+    {
+      "slug": "another-day-in-paradise",
+      "lines": 54,
+      "timed": 41,
+      "untimed": 13
+    }
+  ],
+  "timingStatus": "Conservative automatic alignment; untimed lines remain fully bilingual and chronological. Not certified as fully synchronized.",
+  "editorialCorrections": [
+    "Never Enough: split overlapping hear it / echoing targets.",
+    "Snowman: split overlapping Hell targets into independent spans.",
+    "Yellow: supplied worksheet omitted Hell question 15; added non-overlapping And it was target on line 11.",
+    "This Is Me: supplied worksheet omitted Hell question 14; added non-overlapping I am target on line 13.",
+    "Clocks: split nested target spans into independent audible phrases.",
+    "What Makes You Beautiful: replaced generic distractors with phrase-specific alternatives."
+  ],
+  "validation": [
+    "Whole-library quality, editorial, route, metadata, preview, application and SQL tests passed.",
+    "New batch: 2414 listening questions, 170 vocabulary questions, 966 Chinese lyric lines.",
+    "Real Chromium playback, saved vocabulary reload, translation visibility and desktop/mobile layout passed for all three late-material lessons."
+  ],
+  "artwork": "User supplied only.",
+  "sourceSelection": "Supplied PDF translations and descriptions; supplied DOCX/Markdown listening worksheets; supplied vocabulary files. Stable question identities retained separately from chronological display numbering."
+}

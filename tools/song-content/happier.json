@@ -1,0 +1,4105 @@
+{
+  "slug": "happier",
+  "title": "Happier",
+  "singer": "Ed Sheeran",
+  "exercise_name": "Happier · Listening & Vocabulary",
+  "description": "《Happier》描寫分手後看見舊愛找到新幸福時，內心充滿思念、遺憾與不捨的複雜感受。歌中的主角偶然遇見前度與新伴侶，發現她的笑容比從前更加燦爛，令他既心痛又難過。他承認自己曾經傷害對方，也明白她值得擁有更好的愛情，但內心仍然深愛著她，無法輕易放下。他只能用微笑掩飾悲傷，告訴自己終有一天也會重新快樂。最終，《Happier》傳達的是愛情中的失落、成長與無私：即使仍然渴望與對方重聚，也希望她能過得幸福，哪怕那份幸福不再有自己的參與。",
+  "tags": [
+    "ed sheeran",
+    "happier",
+    "heartbreak",
+    "memories"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Walking down 29th and park",
+      "chinese": "走在29街與公園大道上",
+      "startSeconds": 10.44,
+      "endSeconds": 13.56
+    },
+    {
+      "lineId": "line-2",
+      "english": "I saw you in another's arms",
+      "chinese": "我看見你依偎在別人懷裡",
+      "startSeconds": 13.56,
+      "endSeconds": 19.0
+    },
+    {
+      "lineId": "line-3",
+      "english": "Only a month we've been apart",
+      "chinese": "我們才分開不過一個月",
+      "startSeconds": 21.56,
+      "endSeconds": 24.34
+    },
+    {
+      "lineId": "line-4",
+      "english": "You look happier",
+      "chinese": "你看起來更快樂了",
+      "startSeconds": 24.34,
+      "endSeconds": 27.5
+    },
+    {
+      "lineId": "line-5",
+      "english": "Saw you walk inside a bar",
+      "chinese": "看見你走進一間酒吧",
+      "startSeconds": 32.71,
+      "endSeconds": 35.22
+    },
+    {
+      "lineId": "line-6",
+      "english": "He said something to make you laugh",
+      "chinese": "他說了些什麼逗你發笑",
+      "startSeconds": 38.16,
+      "endSeconds": 40.08
+    },
+    {
+      "lineId": "line-7",
+      "english": "I saw that both your smiles were twice as wide as ours",
+      "chinese": "我看見你們的笑容比我們從前燦爛兩倍",
+      "startSeconds": 40.08,
+      "endSeconds": 46.98
+    },
+    {
+      "lineId": "line-8",
+      "english": "Yeah you look happier, you do",
+      "chinese": "耶，你看起來更快樂了，真的",
+      "startSeconds": 46.98,
+      "endSeconds": 50.74
+    },
+    {
+      "lineId": "line-9",
+      "english": "Ain't nobody hurt you like I hurt you",
+      "chinese": "沒有人像我那樣傷害過你",
+      "startSeconds": 52.96,
+      "endSeconds": 57.08
+    },
+    {
+      "lineId": "line-10",
+      "english": "But ain't nobody love you like I do",
+      "chinese": "但也沒有人像我這樣愛你",
+      "startSeconds": 58.34,
+      "endSeconds": 63.18
+    },
+    {
+      "lineId": "line-11",
+      "english": "Promise that I will not take it personal baby",
+      "chinese": "寶貝，我保證我不會放在心上",
+      "startSeconds": 63.18,
+      "endSeconds": 68.72
+    },
+    {
+      "lineId": "line-12",
+      "english": "If you're moving on with someone new",
+      "chinese": "如果你正與新的人繼續前進",
+      "startSeconds": 68.72,
+      "endSeconds": 72.82
+    },
+    {
+      "lineId": "line-13",
+      "english": "Cause baby you look happier, you do",
+      "chinese": "因為寶貝，你看起來更快樂了，真的",
+      "startSeconds": 72.82,
+      "endSeconds": 77.46
+    },
+    {
+      "lineId": "line-14",
+      "english": "My friends told me one day I'll feel it too",
+      "chinese": "朋友告訴我，總有一天我也會感受到",
+      "startSeconds": 77.46,
+      "endSeconds": 82.78
+    },
+    {
+      "lineId": "line-15",
+      "english": "And until then I'll smile to hide the truth",
+      "chinese": "在那之前，我會用微笑掩飾真相",
+      "startSeconds": 83.6,
+      "endSeconds": 88.08
+    },
+    {
+      "lineId": "line-16",
+      "english": "But I know I was happier with you",
+      "chinese": "但我知道，和你在一起時我更快樂",
+      "startSeconds": 88.72,
+      "endSeconds": 93.92
+    },
+    {
+      "lineId": "line-17",
+      "english": "Sat in the corner of the room",
+      "chinese": "坐在房間的角落",
+      "startSeconds": 96.7,
+      "endSeconds": 99.08
+    },
+    {
+      "lineId": "line-18",
+      "english": "Everything's reminding me of you",
+      "chinese": "一切都讓我回想起你",
+      "startSeconds": 101.98,
+      "endSeconds": 104.8
+    },
+    {
+      "lineId": "line-19",
+      "english": "Nursing an empty bottle and telling myself you're happier",
+      "chinese": "抱著空酒瓶，告訴自己你更快樂了",
+      "startSeconds": 106.0,
+      "endSeconds": 112.8
+    },
+    {
+      "lineId": "line-20",
+      "english": "Aren't you?",
+      "chinese": "不是嗎？",
+      "startSeconds": 112.8,
+      "endSeconds": 114.78
+    },
+    {
+      "lineId": "line-21",
+      "english": "Ain't nobody hurt you like I hurt you",
+      "chinese": "沒有人像我那樣傷害過你",
+      "startSeconds": 117.44,
+      "endSeconds": 120.86
+    },
+    {
+      "lineId": "line-22",
+      "english": "But ain't nobody need you like I do",
+      "chinese": "但也沒有人像我這樣需要你",
+      "startSeconds": 122.48,
+      "endSeconds": 125.92
+    },
+    {
+      "lineId": "line-23",
+      "english": "I know that there's others that deserve you",
+      "chinese": "我知道還有其他人值得擁有你",
+      "startSeconds": 127.85,
+      "endSeconds": 131.6
+    },
+    {
+      "lineId": "line-24",
+      "english": "But my darling I am still in love with you",
+      "chinese": "但親愛的，我依然愛著你",
+      "startSeconds": 132.53,
+      "endSeconds": 136.56
+    },
+    {
+      "lineId": "line-25",
+      "english": "But I guess you look happier, you do",
+      "chinese": "但我猜你看起來更快樂了，真的",
+      "startSeconds": 136.93,
+      "endSeconds": 141.4
+    },
+    {
+      "lineId": "line-26",
+      "english": "My friends told me one day I'll feel it too",
+      "chinese": "朋友告訴我，總有一天我也會感受到",
+      "startSeconds": 142.09,
+      "endSeconds": 146.76
+    },
+    {
+      "lineId": "line-27",
+      "english": "I could try to smile to hide the truth",
+      "chinese": "我可以試著用微笑掩飾真相",
+      "startSeconds": 147.87,
+      "endSeconds": 152.08
+    },
+    {
+      "lineId": "line-28",
+      "english": "But I know I was happier with you",
+      "chinese": "但我知道，和你在一起時我更快樂",
+      "startSeconds": 152.48,
+      "endSeconds": 157.48
+    },
+    {
+      "lineId": "line-29",
+      "english": "Baby you look happier, you do",
+      "chinese": "寶貝，你看起來更快樂了，真的",
+      "startSeconds": 172.58,
+      "endSeconds": 184.48
+    },
+    {
+      "lineId": "line-30",
+      "english": "I knew one day you'd fall for someone new",
+      "chinese": "我知道總有一天你會愛上別人",
+      "startSeconds": 184.48,
+      "endSeconds": 189.58
+    },
+    {
+      "lineId": "line-31",
+      "english": "But if he breaks your heart like lovers do",
+      "chinese": "但如果他像情人們常做的那樣傷了你的心",
+      "startSeconds": 189.58,
+      "endSeconds": 194.74
+    },
+    {
+      "lineId": "line-32",
+      "english": "Just know that I'll be waiting here for you",
+      "chinese": "只要知道，我會在這裡等你",
+      "startSeconds": 194.74,
+      "endSeconds": 200.24
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "be apart",
+      "meaning": "分開、相隔",
+      "usage": "當朋友、家人或情侶不在一起，或住在不同地方時使用。",
+      "prompt": "哪一句正確使用「be apart」？",
+      "options": [
+        "I am apart the lift because I press the wrong button.",
+        "My sister and I live in different cities, so we are apart.",
+        "She is apart a job interview at nine.",
+        "We apart to the park every Sunday."
+      ],
+      "answer": 1,
+      "explanation": "正確。be apart 表示兩個人分開或相隔。",
+      "optionExplanations": [
+        "be apart 表示彼此分開，不能接 the lift 當作按電梯的動作。",
+        "正確。be apart 表示兩個人分開或相隔。",
+        "be apart 不能表示參加面試；可用 have a job interview。",
+        "錯誤。apart 不是「去」的動詞；應說 We go to the park every Sunday."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "make someone laugh",
+      "meaning": "逗某人笑",
+      "usage": "當你說笑話或做有趣的事，讓別人笑出來時使用。",
+      "prompt": "哪一句正確使用「make someone laugh」？",
+      "options": [
+        "The manager's tiny party hat made everyone laugh.",
+        "The clown made the children laugh a balloon.",
+        "She made laugh her brother with a silly dance.",
+        "I make my bank account laugh when I check it."
+      ],
+      "answer": 0,
+      "explanation": "make someone laugh 表示使人發笑，這裡是小派對帽的效果。",
+      "optionExplanations": [
+        "make someone laugh 表示使人發笑，這裡是小派對帽的效果。",
+        "make someone laugh 後不能直接加 a balloon；氣球的用途須另外說明。",
+        "受詞 her brother 要放在 made 與 laugh 之間。",
+        "銀行戶口無法發笑；此處需要一個會笑的人作受詞。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "twice as ... as",
+      "meaning": "是……的兩倍（程度或數量）",
+      "usage": "比較兩個東西的大小、長度或價格等，表示其中一個是另一個的兩倍時使用。",
+      "prompt": "哪一句正確使用「twice as ... as」？",
+      "options": [
+        "This lift is twice as the other lift.",
+        "I go twice as to the cinema each month.",
+        "This bag is twice as heavy as that bag.",
+        "My holiday is twice as last year."
+      ],
+      "answer": 2,
+      "explanation": "正確。twice as heavy as 表示重量是另一個的兩倍。",
+      "optionExplanations": [
+        "比較結構缺少形容詞及第二個 as，例如 twice as fast as。",
+        "表示每月兩次可說 twice a month，不能用 twice as。",
+        "正確。twice as heavy as 表示重量是另一個的兩倍。",
+        "比較長度可用 twice as long as last year's holiday；此句缺少必要成分。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "take it personally",
+      "meaning": "往心裡去；覺得別人在針對自己",
+      "usage": "當別人的批評或行為讓你覺得自己被針對時使用；常用在勸人不要太在意。",
+      "prompt": "哪一句正確使用「take it personally」？",
+      "options": [
+        "I take it personally the train to work.",
+        "I take it personally to very upset about the comment.",
+        "I take personally my painting to the gallery.",
+        "He forgot my name; I tried not to take it personally."
+      ],
+      "answer": 3,
+      "explanation": "take it personally 表示把事情視為針對自己；這裡盡量不介意。",
+      "optionExplanations": [
+        "take it personally 指把事情視為針對自己，不能表示乘火車。",
+        "to very upset 不能接在此；感到不快可另用 I feel upset。",
+        "親自把畫帶去可說 personally take my painting；這不是 take it personally 的用法。",
+        "take it personally 表示把事情視為針對自己；這裡盡量不介意。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "move on",
+      "meaning": "向前走；放下過去，開始新生活",
+      "usage": "當一段關係結束，或遇到不開心的事後，決定繼續往前生活時使用。",
+      "prompt": "哪一句正確使用「move on」？",
+      "options": [
+        "After the bad day, I went home and tried to move on.",
+        "I move on my watch to check the time.",
+        "She moved on a ticket at the station.",
+        "We move on the window when it is hot."
+      ],
+      "answer": 0,
+      "explanation": "正確。move on 表示不再一直想著壞事，繼續生活。",
+      "optionExplanations": [
+        "正確。move on 表示不再一直想著壞事，繼續生活。",
+        "move on 不能表示看手錶；可用 look at my watch。",
+        "買票可用 bought a ticket；move on 不能直接接 ticket 表示購買。",
+        "錯誤。開窗應說 open the window。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "hide the truth",
+      "meaning": "隱瞞真相",
+      "usage": "當一個人不告訴別人真正發生的事情，或不讓別人知道真實感受時使用。",
+      "prompt": "哪一句正確使用「hide the truth」？",
+      "options": [
+        "I hide the truth to the meeting by taxi.",
+        "He smiled to hide the truth: he'd forgotten our anniversary.",
+        "She hides the truth very tall beside her cousin.",
+        "We hide the truth to the beach by train."
+      ],
+      "answer": 1,
+      "explanation": "hide the truth 指隱瞞真相；他笑著掩飾忘記紀念日。",
+      "optionExplanations": [
+        "hide the truth 指隱瞞真相，不能表示乘的士前往會議。",
+        "hide the truth 指隱瞞真相；他笑著掩飾忘記紀念日。",
+        "hide the truth 不能描述身高；very tall 不能這樣接在後面。",
+        "錯誤。去海邊應說 go to the beach。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "remind someone of",
+      "meaning": "讓某人想起……",
+      "usage": "當一個人、地方、味道或東西讓你想起另一件事時使用。",
+      "prompt": "哪一句正確使用「remind someone of」？",
+      "options": [
+        "This song reminds me of my old school.",
+        "She reminds to me of our old neighbour.",
+        "I remind of my cousin when I hear this song.",
+        "This perfume reminds me to my first date."
+      ],
+      "answer": 0,
+      "explanation": "正確。這首歌讓我想起以前的學校。",
+      "optionExplanations": [
+        "正確。這首歌讓我想起以前的學校。",
+        "remind someone of 直接接人，不加 to。",
+        "使人想起某人可說 This song reminds me of my cousin；此句缺少受詞且主詞安排不合。",
+        "使人想起某人或某事用 remind someone of，這裡要用 of。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "deserve",
+      "meaning": "值得；應得",
+      "usage": "當某人因為努力或表現，應該得到好的東西或好的對待時使用。",
+      "prompt": "哪一句正確使用「deserve」？",
+      "options": [
+        "I deserve to a quiet holiday after this busy month.",
+        "He deserves win the prize after so much practice.",
+        "She deserves to won the art prize.",
+        "You survived three interviews. You deserve a rest."
+      ],
+      "answer": 3,
+      "explanation": "deserve 表示值得得到；應付多場面試後值得休息。",
+      "optionExplanations": [
+        "deserve to 後接動詞；接 a quiet holiday 時不用 to。",
+        "deserve 後接動作要用 to win。",
+        "deserve to 後用 win，不能用 won。",
+        "deserve 表示值得得到；應付多場面試後值得休息。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "fall for someone",
+      "meaning": "愛上某人；喜歡上某人",
+      "usage": "當你開始對一個人有戀愛的感覺時使用。",
+      "prompt": "哪一句正確使用「fall for someone」？",
+      "options": [
+        "I fell for the stairs and hurt my knee.",
+        "I think I am falling for my best friend.",
+        "She falls for to work at eight.",
+        "I fell for my alarm to make it ring."
+      ],
+      "answer": 1,
+      "explanation": "正確。fall for someone 可以表示慢慢愛上一個人。",
+      "optionExplanations": [
+        "跌落樓梯可說 fell down the stairs；fall for someone 指愛上某人。",
+        "正確。fall for someone 可以表示慢慢愛上一個人。",
+        "fall for 不能表示上班；to work 在此也接不上。",
+        "fall for 不能表示設定鬧鐘；可用 set my alarm。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "break someone’s heart",
+      "meaning": "傷某人的心；讓某人很傷心",
+      "usage": "當某人的行為，尤其是感情上的事，讓另一個人非常難過時使用。",
+      "prompt": "哪一句正確使用「break someone’s heart」？",
+      "options": [
+        "He broke my heart into a new password.",
+        "I break my heart to the station by taxi.",
+        "It broke her heart when her boyfriend said goodbye.",
+        "She broke my heart very two years old."
+      ],
+      "answer": 2,
+      "explanation": "正確。男友說再見讓她非常傷心。",
+      "optionExplanations": [
+        "break someone's heart 指使人心碎，不能表示建立密碼。",
+        "break my heart 不能表示交通方式或前往車站。",
+        "正確。男友說再見讓她非常傷心。",
+        "心碎的說法後不能接 very two years old；年齡需要獨立句子。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/happier/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/happier/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-2",
+          "prompt": "I saw you in {{blank}}",
+          "promptZh": "我看見你依偎在別人懷裡",
+          "options": [
+            "another's hands",
+            "another's arms",
+            "another's heart"
+          ],
+          "answer": "another's arms"
+        },
+        {
+          "number": 2,
+          "lineId": "line-3",
+          "prompt": "{{blank}} we've been apart",
+          "promptZh": "我們才分開不過一個月",
+          "options": [
+            "Only a month",
+            "Just a month",
+            "Only a while"
+          ],
+          "answer": "Only a month"
+        },
+        {
+          "number": 3,
+          "lineId": "line-4",
+          "prompt": "You look {{blank}}",
+          "promptZh": "你看起來更快樂了",
+          "options": [
+            "happier",
+            "happier now",
+            "so happy"
+          ],
+          "answer": "happier"
+        },
+        {
+          "number": 4,
+          "lineId": "line-5",
+          "prompt": "Saw you walk {{blank}}",
+          "promptZh": "看見你走進一間酒吧",
+          "options": [
+            "inside the bar",
+            "into a bar",
+            "inside a bar"
+          ],
+          "answer": "inside a bar"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "He said something to {{blank}}",
+          "promptZh": "他說了些什麼逗你發笑",
+          "options": [
+            "make you smile",
+            "make you laugh",
+            "make you cry"
+          ],
+          "answer": "make you laugh"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "I saw that both your smiles were {{blank}} as ours",
+          "promptZh": "我看見你們的笑容比我們從前燦爛兩倍",
+          "options": [
+            "twice as big",
+            "twice as wide",
+            "two times wide"
+          ],
+          "answer": "twice as wide"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "Ain't nobody {{blank}} like I hurt you",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "hurt you",
+            "hurt me",
+            "hate you"
+          ],
+          "answer": "hurt you"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "But ain't nobody {{blank}} like I do",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "miss you",
+            "need you",
+            "love you"
+          ],
+          "answer": "love you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "Promise that I will not {{blank}} baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "take it personal",
+            "take it badly",
+            "take it wrong"
+          ],
+          "answer": "take it personal"
+        },
+        {
+          "number": 10,
+          "lineId": "line-12",
+          "prompt": "If you're {{blank}} with 〔第 11 題〕",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "moving away",
+            "moving out",
+            "moving on"
+          ],
+          "answer": "moving on"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "If you're 〔第 10 題〕 with {{blank}}",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "someone else",
+            "someone new",
+            "another guy"
+          ],
+          "answer": "someone new"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{blank}}",
+          "promptZh": "朋友告訴我，總有一天我也會感受到",
+          "options": [
+            "feel it too",
+            "feel it soon",
+            "feel the same"
+          ],
+          "answer": "feel it too"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "And until then I'll smile to {{blank}}",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "hide the pain",
+            "hide the truth",
+            "hide my tears"
+          ],
+          "answer": "hide the truth"
+        },
+        {
+          "number": 14,
+          "lineId": "line-16",
+          "prompt": "But I know I was {{blank}}",
+          "promptZh": "但我知道，和你在一起時我更快樂",
+          "options": [
+            "happier then",
+            "happier before",
+            "happier with you"
+          ],
+          "answer": "happier with you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-17",
+          "prompt": "Sat in the {{blank}}",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "back of the room",
+            "corner of the bar",
+            "corner of the room"
+          ],
+          "answer": "corner of the room"
+        },
+        {
+          "number": 16,
+          "lineId": "line-18",
+          "prompt": "Everything's {{blank}}",
+          "promptZh": "一切都讓我回想起你",
+          "options": [
+            "reminding me of us",
+            "reminding me of you",
+            "bringing back to you"
+          ],
+          "answer": "reminding me of you"
+        },
+        {
+          "number": 17,
+          "lineId": "line-19",
+          "prompt": "Nursing an {{blank}} and telling myself you're happier",
+          "promptZh": "抱著空酒瓶，告訴自己你更快樂了",
+          "options": [
+            "empty bottle",
+            "empty glass",
+            "empty cup"
+          ],
+          "answer": "empty bottle"
+        },
+        {
+          "number": 18,
+          "lineId": "line-23",
+          "prompt": "I know that there's others that {{blank}}",
+          "promptZh": "我知道還有其他人值得擁有你",
+          "options": [
+            "love you",
+            "want you",
+            "deserve you"
+          ],
+          "answer": "deserve you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-24",
+          "prompt": "But my darling I am still {{blank}}",
+          "promptZh": "但親愛的，我依然愛著你",
+          "options": [
+            "in love with us",
+            "in love with you",
+            "in love with her"
+          ],
+          "answer": "in love with you"
+        },
+        {
+          "number": 20,
+          "lineId": "line-32",
+          "prompt": "Just know that I'll be {{blank}}",
+          "promptZh": "只要知道，我會在這裡等你",
+          "options": [
+            "waiting here for you",
+            "waiting right here",
+            "waiting for you"
+          ],
+          "answer": "waiting here for you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Walking down 29th and park"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I saw you in {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:2}} we've been apart"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You look {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Saw you walk {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He said something to {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I saw that both your smiles were {{q:6}} as ours"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, you do"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Ain't nobody {{q:7}} like I hurt you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "But ain't nobody {{q:8}} like I do"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Promise that I will not {{q:9}} baby"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "If you're {{q:10}} with {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Cause baby you look happier, you do"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{q:12}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And until then I'll smile to {{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But I know I was {{q:14}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Sat in the {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Everything's {{q:16}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Nursing an {{q:17}} and telling myself you're happier"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Aren't you?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nobody hurt you like I hurt you"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "But ain't nobody need you like I do"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I know that there's others that {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But my darling I am still {{q:19}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But I guess you look happier, you do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My friends told me one day I'll feel it too"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I could try to smile to hide the truth"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I know I was happier with you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby you look happier, you do"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I knew one day you'd fall for someone new"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But if he breaks your heart like lovers do"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just know that I'll be {{q:20}}"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 29th and park",
+          "promptZh": "走在29街與公園大道上",
+          "options": [
+            "Walking down",
+            "Walkin' down",
+            "Walking along"
+          ],
+          "answer": "Walking down"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "I saw you in {{blank}}",
+          "promptZh": "我看見你依偎在別人懷裡",
+          "options": [
+            "another's hands",
+            "another's arms",
+            "another's heart"
+          ],
+          "answer": "another's arms"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}} we've been apart",
+          "promptZh": "我們才分開不過一個月",
+          "options": [
+            "Just a month",
+            "Only a month",
+            "Only a while"
+          ],
+          "answer": "Only a month"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "You look {{blank}}",
+          "promptZh": "你看起來更快樂了",
+          "options": [
+            "happier",
+            "happier now",
+            "so happy"
+          ],
+          "answer": "happier"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "Saw you walk {{blank}}",
+          "promptZh": "看見你走進一間酒吧",
+          "options": [
+            "inside the bar",
+            "into a bar",
+            "inside a bar"
+          ],
+          "answer": "inside a bar"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "He said something to {{blank}}",
+          "promptZh": "他說了些什麼逗你發笑",
+          "options": [
+            "make you cry",
+            "make you laugh",
+            "make you smile"
+          ],
+          "answer": "make you laugh"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "I saw that both your smiles were {{blank}} as ours",
+          "promptZh": "我看見你們的笑容比我們從前燦爛兩倍",
+          "options": [
+            "twice as wide",
+            "twice as big",
+            "two times wide"
+          ],
+          "answer": "twice as wide"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, {{blank}}",
+          "promptZh": "耶，你看起來更快樂了，真的",
+          "options": [
+            "it's true",
+            "you know",
+            "you do"
+          ],
+          "answer": "you do"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "{{blank}} 〔第 10 題〕 like I hurt you",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "There ain't nobody",
+            "There is nobody",
+            "Ain't nobody"
+          ],
+          "answer": "Ain't nobody"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "〔第 9 題〕 {{blank}} like I hurt you",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "hurt you",
+            "hurt me",
+            "hate you"
+          ],
+          "answer": "hurt you"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 12 題〕 like I do",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "But there's nobody",
+            "But ain't nobody",
+            "And there's nobody"
+          ],
+          "answer": "But ain't nobody"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "〔第 11 題〕 {{blank}} like I do",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "miss you",
+            "need you",
+            "love you"
+          ],
+          "answer": "love you"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I will not 〔第 14 題〕 baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "I promise that",
+            "Promise that",
+            "I promise you"
+          ],
+          "answer": "Promise that"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "〔第 13 題〕 I will not {{blank}} baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "take it personal",
+            "take it badly",
+            "take it wrong"
+          ],
+          "answer": "take it personal"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "If you're {{blank}} with 〔第 16 題〕",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "moving out",
+            "moving on",
+            "moving away"
+          ],
+          "answer": "moving on"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "If you're 〔第 15 題〕 with {{blank}}",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "someone new",
+            "someone else",
+            "another guy"
+          ],
+          "answer": "someone new"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}} you look happier, you do",
+          "promptZh": "因為寶貝，你看起來更快樂了，真的",
+          "options": [
+            "Because baby",
+            "Stay, baby",
+            "Cause baby"
+          ],
+          "answer": "Cause baby"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{blank}}",
+          "promptZh": "朋友告訴我，總有一天我也會感受到",
+          "options": [
+            "feel it soon",
+            "feel the same",
+            "feel it too"
+          ],
+          "answer": "feel it too"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}} I'll smile to 〔第 20 題〕",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "And until then",
+            "And until that",
+            "So until then"
+          ],
+          "answer": "And until then"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "〔第 19 題〕 I'll smile to {{blank}}",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "hide the pain",
+            "hide the truth",
+            "hide my tears"
+          ],
+          "answer": "hide the truth"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "But I know I was {{blank}}",
+          "promptZh": "但我知道，和你在一起時我更快樂",
+          "options": [
+            "happier before",
+            "happier then",
+            "happier with you"
+          ],
+          "answer": "happier with you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "{{blank}} the 〔第 23 題〕",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "Sat in",
+            "Sitting in",
+            "Sat at"
+          ],
+          "answer": "Sat in"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "〔第 22 題〕 the {{blank}}",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "corner of the bar",
+            "corner of the room",
+            "back of the room"
+          ],
+          "answer": "corner of the room"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "Everything's {{blank}}",
+          "promptZh": "一切都讓我回想起你",
+          "options": [
+            "reminding me of you",
+            "reminding me of us",
+            "bringing back to you"
+          ],
+          "answer": "reminding me of you"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "Nursing an {{blank}} and telling myself you're happier",
+          "promptZh": "抱著空酒瓶，告訴自己你更快樂了",
+          "options": [
+            "empty cup",
+            "empty glass",
+            "empty bottle"
+          ],
+          "answer": "empty bottle"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "不是嗎？",
+          "options": [
+            "Don't you?",
+            "Aren't you?",
+            "Are you?"
+          ],
+          "answer": "Aren't you?"
+        },
+        {
+          "number": 27,
+          "lineId": "line-22",
+          "prompt": "But ain't nobody {{blank}} like I do",
+          "promptZh": "但也沒有人像我這樣需要你",
+          "options": [
+            "want you",
+            "need you",
+            "love you"
+          ],
+          "answer": "need you"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "I know that there's others that {{blank}}",
+          "promptZh": "我知道還有其他人值得擁有你",
+          "options": [
+            "want you",
+            "love you",
+            "deserve you"
+          ],
+          "answer": "deserve you"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "But my darling I am still {{blank}}",
+          "promptZh": "但親愛的，我依然愛著你",
+          "options": [
+            "in love with you",
+            "in love with us",
+            "in love with her"
+          ],
+          "answer": "in love with you"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "{{blank}} to smile to hide the truth",
+          "promptZh": "我可以試著用微笑掩飾真相",
+          "options": [
+            "I will try",
+            "I could try",
+            "I could smile"
+          ],
+          "answer": "I could try"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "{{blank}} happier, you do",
+          "promptZh": "寶貝，你看起來更快樂了，真的",
+          "options": [
+            "Baby you're",
+            "Baby you seem",
+            "Baby you look"
+          ],
+          "answer": "Baby you look"
+        },
+        {
+          "number": 32,
+          "lineId": "line-32",
+          "prompt": "Just know that I'll be {{blank}}",
+          "promptZh": "只要知道，我會在這裡等你",
+          "options": [
+            "waiting here for you",
+            "waiting right here",
+            "waiting for you"
+          ],
+          "answer": "waiting here for you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} 29th and park"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "I saw you in {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}} we've been apart"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You look {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Saw you walk {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He said something to {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I saw that both your smiles were {{q:7}} as ours"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:9}} {{q:10}} like I hurt you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:11}} {{q:12}} like I do"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} I will not {{q:14}} baby"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "If you're {{q:15}} with {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}} you look happier, you do"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}} I'll smile to {{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But I know I was {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:22}} the {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Everything's {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Nursing an {{q:25}} and telling myself you're happier"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nobody hurt you like I hurt you"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "But ain't nobody {{q:27}} like I do"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I know that there's others that {{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But my darling I am still {{q:29}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But I guess you look happier, you do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My friends told me one day I'll feel it too"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:30}} to smile to hide the truth"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I know I was happier with you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:31}} happier, you do"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I knew one day you'd fall for someone new"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "But if he breaks your heart like lovers do"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just know that I'll be {{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 29th and park",
+          "promptZh": "走在29街與公園大道上",
+          "options": [
+            "Walking down",
+            "Walkin' down",
+            "Walking along"
+          ],
+          "answer": "Walking down"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}} in 〔第 3 題〕",
+          "promptZh": "我看見你依偎在別人懷裡",
+          "options": [
+            "I saw you",
+            "I seen you",
+            "I saw ya"
+          ],
+          "answer": "I saw you"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "〔第 2 題〕 in {{blank}}",
+          "promptZh": "我看見你依偎在別人懷裡",
+          "options": [
+            "another's heart",
+            "another's hands",
+            "another's arms"
+          ],
+          "answer": "another's arms"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} we've been apart",
+          "promptZh": "我們才分開不過一個月",
+          "options": [
+            "Just a month",
+            "Only a month",
+            "Only a while"
+          ],
+          "answer": "Only a month"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "You look {{blank}}",
+          "promptZh": "你看起來更快樂了",
+          "options": [
+            "happier now",
+            "happier",
+            "so happy"
+          ],
+          "answer": "happier"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 7 題〕",
+          "promptZh": "看見你走進一間酒吧",
+          "options": [
+            "Saw you walking",
+            "Seen you walk",
+            "Saw you walk"
+          ],
+          "answer": "Saw you walk"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "〔第 6 題〕 {{blank}}",
+          "promptZh": "看見你走進一間酒吧",
+          "options": [
+            "inside a bar",
+            "into a bar",
+            "inside the bar"
+          ],
+          "answer": "inside a bar"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}} to 〔第 9 題〕",
+          "promptZh": "他說了些什麼逗你發笑",
+          "options": [
+            "He says something",
+            "He said something",
+            "He told something"
+          ],
+          "answer": "He said something"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "〔第 8 題〕 to {{blank}}",
+          "promptZh": "他說了些什麼逗你發笑",
+          "options": [
+            "make you smile",
+            "make you cry",
+            "make you laugh"
+          ],
+          "answer": "make you laugh"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "{{blank}} your smiles were 〔第 11 題〕 as ours",
+          "promptZh": "我看見你們的笑容比我們從前燦爛兩倍",
+          "options": [
+            "I saw that both",
+            "I saw that all",
+            "I seen that both"
+          ],
+          "answer": "I saw that both"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "〔第 10 題〕 your smiles were {{blank}} as ours",
+          "promptZh": "我看見你們的笑容比我們從前燦爛兩倍",
+          "options": [
+            "twice as wide",
+            "twice as big",
+            "two times wide"
+          ],
+          "answer": "twice as wide"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, {{blank}}",
+          "promptZh": "耶，你看起來更快樂了，真的",
+          "options": [
+            "it's true",
+            "you do",
+            "you know"
+          ],
+          "answer": "you do"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "{{blank}} 〔第 14 題〕 like I hurt you",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "There is nobody",
+            "There ain't nobody",
+            "Ain't nobody"
+          ],
+          "answer": "Ain't nobody"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "〔第 13 題〕 {{blank}} like I hurt you",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "hurt me",
+            "hurt you",
+            "hate you"
+          ],
+          "answer": "hurt you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 16 題〕 like I do",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "But ain't nobody",
+            "But there's nobody",
+            "And there's nobody"
+          ],
+          "answer": "But ain't nobody"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "〔第 15 題〕 {{blank}} like I do",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "miss you",
+            "need you",
+            "love you"
+          ],
+          "answer": "love you"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I will not 〔第 18 題〕 baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "Promise that",
+            "I promise that",
+            "I promise you"
+          ],
+          "answer": "Promise that"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "〔第 17 題〕 I will not {{blank}} baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "take it wrong",
+            "take it badly",
+            "take it personal"
+          ],
+          "answer": "take it personal"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 20 題〕 with 〔第 21 題〕",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "If you are",
+            "If you're",
+            "Since you're"
+          ],
+          "answer": "If you're"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "〔第 19 題〕 {{blank}} with 〔第 21 題〕",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "moving on",
+            "moving out",
+            "moving away"
+          ],
+          "answer": "moving on"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "〔第 19 題〕 〔第 20 題〕 with {{blank}}",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "another guy",
+            "someone else",
+            "someone new"
+          ],
+          "answer": "someone new"
+        },
+        {
+          "number": 22,
+          "lineId": "line-13",
+          "prompt": "{{blank}} you look happier, you do",
+          "promptZh": "因為寶貝，你看起來更快樂了，真的",
+          "options": [
+            "Stay, baby",
+            "Cause baby",
+            "Because baby"
+          ],
+          "answer": "Cause baby"
+        },
+        {
+          "number": 23,
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{blank}}",
+          "promptZh": "朋友告訴我，總有一天我也會感受到",
+          "options": [
+            "feel it too",
+            "feel it soon",
+            "feel the same"
+          ],
+          "answer": "feel it too"
+        },
+        {
+          "number": 24,
+          "lineId": "line-15",
+          "prompt": "{{blank}} I'll smile to 〔第 25 題〕",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "So until then",
+            "And until that",
+            "And until then"
+          ],
+          "answer": "And until then"
+        },
+        {
+          "number": 25,
+          "lineId": "line-15",
+          "prompt": "〔第 24 題〕 I'll smile to {{blank}}",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "hide the pain",
+            "hide the truth",
+            "hide my tears"
+          ],
+          "answer": "hide the truth"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "But I know I was {{blank}}",
+          "promptZh": "但我知道，和你在一起時我更快樂",
+          "options": [
+            "happier with you",
+            "happier before",
+            "happier then"
+          ],
+          "answer": "happier with you"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "{{blank}} the 〔第 28 題〕",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "Sitting in",
+            "Sat in",
+            "Sat at"
+          ],
+          "answer": "Sat in"
+        },
+        {
+          "number": 28,
+          "lineId": "line-17",
+          "prompt": "〔第 27 題〕 the {{blank}}",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "back of the room",
+            "corner of the bar",
+            "corner of the room"
+          ],
+          "answer": "corner of the room"
+        },
+        {
+          "number": 29,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 30 題〕",
+          "promptZh": "一切都讓我回想起你",
+          "options": [
+            "All is",
+            "Everything is",
+            "Everything's"
+          ],
+          "answer": "Everything's"
+        },
+        {
+          "number": 30,
+          "lineId": "line-18",
+          "prompt": "〔第 29 題〕 {{blank}}",
+          "promptZh": "一切都讓我回想起你",
+          "options": [
+            "reminding me of you",
+            "reminding me of us",
+            "bringing back to you"
+          ],
+          "answer": "reminding me of you"
+        },
+        {
+          "number": 31,
+          "lineId": "line-19",
+          "prompt": "Nursing an {{blank}} and telling myself you're happier",
+          "promptZh": "抱著空酒瓶，告訴自己你更快樂了",
+          "options": [
+            "empty glass",
+            "empty bottle",
+            "empty cup"
+          ],
+          "answer": "empty bottle"
+        },
+        {
+          "number": 32,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "不是嗎？",
+          "options": [
+            "Are you?",
+            "Don't you?",
+            "Aren't you?"
+          ],
+          "answer": "Aren't you?"
+        },
+        {
+          "number": 33,
+          "lineId": "line-22",
+          "prompt": "But ain't nobody {{blank}} like I do",
+          "promptZh": "但也沒有人像我這樣需要你",
+          "options": [
+            "need you",
+            "want you",
+            "love you"
+          ],
+          "answer": "need you"
+        },
+        {
+          "number": 34,
+          "lineId": "line-23",
+          "prompt": "{{blank}} there's others that 〔第 35 題〕",
+          "promptZh": "我知道還有其他人值得擁有你",
+          "options": [
+            "I know there's",
+            "I know that",
+            "I know that there"
+          ],
+          "answer": "I know that"
+        },
+        {
+          "number": 35,
+          "lineId": "line-23",
+          "prompt": "〔第 34 題〕 there's others that {{blank}}",
+          "promptZh": "我知道還有其他人值得擁有你",
+          "options": [
+            "deserve you",
+            "love you",
+            "want you"
+          ],
+          "answer": "deserve you"
+        },
+        {
+          "number": 36,
+          "lineId": "line-24",
+          "prompt": "But my darling I am still {{blank}}",
+          "promptZh": "但親愛的，我依然愛著你",
+          "options": [
+            "in love with us",
+            "in love with you",
+            "in love with her"
+          ],
+          "answer": "in love with you"
+        },
+        {
+          "number": 37,
+          "lineId": "line-27",
+          "prompt": "{{blank}} to smile to hide the truth",
+          "promptZh": "我可以試著用微笑掩飾真相",
+          "options": [
+            "I will try",
+            "I could smile",
+            "I could try"
+          ],
+          "answer": "I could try"
+        },
+        {
+          "number": 38,
+          "lineId": "line-29",
+          "prompt": "{{blank}} happier, you do",
+          "promptZh": "寶貝，你看起來更快樂了，真的",
+          "options": [
+            "Baby you seem",
+            "Baby you look",
+            "Baby you're"
+          ],
+          "answer": "Baby you look"
+        },
+        {
+          "number": 39,
+          "lineId": "line-31",
+          "prompt": "{{blank}} your heart like lovers do",
+          "promptZh": "但如果他像情人們常做的那樣傷了你的心",
+          "options": [
+            "But if he breaks",
+            "But if he broke",
+            "And if he breaks"
+          ],
+          "answer": "But if he breaks"
+        },
+        {
+          "number": 40,
+          "lineId": "line-32",
+          "prompt": "Just know that I'll be {{blank}}",
+          "promptZh": "只要知道，我會在這裡等你",
+          "options": [
+            "waiting for you",
+            "waiting right here",
+            "waiting here for you"
+          ],
+          "answer": "waiting here for you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} 29th and park"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} in {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} we've been apart"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You look {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} to {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}} your smiles were {{q:11}} as ours"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:13}} {{q:14}} like I hurt you"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} {{q:16}} like I do"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:17}} I will not {{q:18}} baby"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:19}} {{q:20}} with {{q:21}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:22}} you look happier, you do"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{q:23}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:24}} I'll smile to {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But I know I was {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:27}} the {{q:28}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:29}} {{q:30}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Nursing an {{q:31}} and telling myself you're happier"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nobody hurt you like I hurt you"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "But ain't nobody {{q:33}} like I do"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:34}} there's others that {{q:35}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But my darling I am still {{q:36}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But I guess you look happier, you do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My friends told me one day I'll feel it too"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:37}} to smile to hide the truth"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I know I was happier with you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:38}} happier, you do"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I knew one day you'd fall for someone new"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:39}} your heart like lovers do"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just know that I'll be {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 29th and park",
+          "promptZh": "走在29街與公園大道上",
+          "options": [
+            "Walking down",
+            "Walkin' down",
+            "Walking along"
+          ],
+          "answer": "Walking down"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}} in 〔第 3 題〕",
+          "promptZh": "我看見你依偎在別人懷裡",
+          "options": [
+            "I seen you",
+            "I saw you",
+            "I saw ya"
+          ],
+          "answer": "I saw you"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "〔第 2 題〕 in {{blank}}",
+          "promptZh": "我看見你依偎在別人懷裡",
+          "options": [
+            "another's hands",
+            "another's heart",
+            "another's arms"
+          ],
+          "answer": "another's arms"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "{{blank}} we've been apart",
+          "promptZh": "我們才分開不過一個月",
+          "options": [
+            "Only a month",
+            "Just a month",
+            "Only a while"
+          ],
+          "answer": "Only a month"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "You look {{blank}}",
+          "promptZh": "你看起來更快樂了",
+          "options": [
+            "happier now",
+            "happier",
+            "so happy"
+          ],
+          "answer": "happier"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 7 題〕",
+          "promptZh": "看見你走進一間酒吧",
+          "options": [
+            "Saw you walking",
+            "Seen you walk",
+            "Saw you walk"
+          ],
+          "answer": "Saw you walk"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "〔第 6 題〕 {{blank}}",
+          "promptZh": "看見你走進一間酒吧",
+          "options": [
+            "inside a bar",
+            "into a bar",
+            "inside the bar"
+          ],
+          "answer": "inside a bar"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}} to 〔第 9 題〕",
+          "promptZh": "他說了些什麼逗你發笑",
+          "options": [
+            "He says something",
+            "He said something",
+            "He told something"
+          ],
+          "answer": "He said something"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "〔第 8 題〕 to {{blank}}",
+          "promptZh": "他說了些什麼逗你發笑",
+          "options": [
+            "make you cry",
+            "make you laugh",
+            "make you smile"
+          ],
+          "answer": "make you laugh"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "{{blank}} your smiles were 〔第 11 題〕 as ours",
+          "promptZh": "我看見你們的笑容比我們從前燦爛兩倍",
+          "options": [
+            "I saw that both",
+            "I saw that all",
+            "I seen that both"
+          ],
+          "answer": "I saw that both"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "〔第 10 題〕 your smiles were {{blank}} as ours",
+          "promptZh": "我看見你們的笑容比我們從前燦爛兩倍",
+          "options": [
+            "two times wide",
+            "twice as big",
+            "twice as wide"
+          ],
+          "answer": "twice as wide"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, {{blank}}",
+          "promptZh": "耶，你看起來更快樂了，真的",
+          "options": [
+            "you know",
+            "it's true",
+            "you do"
+          ],
+          "answer": "you do"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "{{blank}} 〔第 14 題〕 〔第 15 題〕",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "There ain't nobody",
+            "Ain't nobody",
+            "There is nobody"
+          ],
+          "answer": "Ain't nobody"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "〔第 13 題〕 {{blank}} 〔第 15 題〕",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "hurt you",
+            "hurt me",
+            "hate you"
+          ],
+          "answer": "hurt you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "〔第 13 題〕 〔第 14 題〕 {{blank}}",
+          "promptZh": "沒有人像我那樣傷害過你",
+          "options": [
+            "like I did",
+            "like I hurt you",
+            "as I hurt you"
+          ],
+          "answer": "like I hurt you"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 17 題〕 〔第 18 題〕",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "And there's nobody",
+            "But there's nobody",
+            "But ain't nobody"
+          ],
+          "answer": "But ain't nobody"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "〔第 16 題〕 {{blank}} 〔第 18 題〕",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "love you",
+            "need you",
+            "miss you"
+          ],
+          "answer": "love you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "〔第 16 題〕 〔第 17 題〕 {{blank}}",
+          "promptZh": "但也沒有人像我這樣愛你",
+          "options": [
+            "like I did",
+            "like I do",
+            "as I do"
+          ],
+          "answer": "like I do"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I will not 〔第 20 題〕 baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "I promise you",
+            "I promise that",
+            "Promise that"
+          ],
+          "answer": "Promise that"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "〔第 19 題〕 I will not {{blank}} baby",
+          "promptZh": "寶貝，我保證我不會放在心上",
+          "options": [
+            "take it personal",
+            "take it badly",
+            "take it wrong"
+          ],
+          "answer": "take it personal"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 22 題〕 with 〔第 23 題〕",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "If you are",
+            "If you're",
+            "Since you're"
+          ],
+          "answer": "If you're"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "〔第 21 題〕 {{blank}} with 〔第 23 題〕",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "moving away",
+            "moving out",
+            "moving on"
+          ],
+          "answer": "moving on"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "〔第 21 題〕 〔第 22 題〕 with {{blank}}",
+          "promptZh": "如果你正與新的人繼續前進",
+          "options": [
+            "someone new",
+            "someone else",
+            "another guy"
+          ],
+          "answer": "someone new"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "{{blank}} you look happier, you do",
+          "promptZh": "因為寶貝，你看起來更快樂了，真的",
+          "options": [
+            "Cause baby",
+            "Stay, baby",
+            "Because baby"
+          ],
+          "answer": "Cause baby"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{blank}}",
+          "promptZh": "朋友告訴我，總有一天我也會感受到",
+          "options": [
+            "feel it soon",
+            "feel it too",
+            "feel the same"
+          ],
+          "answer": "feel it too"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "{{blank}} I'll smile to 〔第 27 題〕",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "So until then",
+            "And until that",
+            "And until then"
+          ],
+          "answer": "And until then"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "〔第 26 題〕 I'll smile to {{blank}}",
+          "promptZh": "在那之前，我會用微笑掩飾真相",
+          "options": [
+            "hide the truth",
+            "hide the pain",
+            "hide my tears"
+          ],
+          "answer": "hide the truth"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "But I know I was {{blank}}",
+          "promptZh": "但我知道，和你在一起時我更快樂",
+          "options": [
+            "happier then",
+            "happier before",
+            "happier with you"
+          ],
+          "answer": "happier with you"
+        },
+        {
+          "number": 29,
+          "lineId": "line-17",
+          "prompt": "{{blank}} the 〔第 30 題〕",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "Sitting in",
+            "Sat in",
+            "Sat at"
+          ],
+          "answer": "Sat in"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "〔第 29 題〕 the {{blank}}",
+          "promptZh": "坐在房間的角落",
+          "options": [
+            "corner of the bar",
+            "corner of the room",
+            "back of the room"
+          ],
+          "answer": "corner of the room"
+        },
+        {
+          "number": 31,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 32 題〕",
+          "promptZh": "一切都讓我回想起你",
+          "options": [
+            "Everything's",
+            "Everything is",
+            "All is"
+          ],
+          "answer": "Everything's"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "〔第 31 題〕 {{blank}}",
+          "promptZh": "一切都讓我回想起你",
+          "options": [
+            "bringing back to you",
+            "reminding me of us",
+            "reminding me of you"
+          ],
+          "answer": "reminding me of you"
+        },
+        {
+          "number": 33,
+          "lineId": "line-19",
+          "prompt": "Nursing an {{blank}} and 〔第 34 題〕 you're happier",
+          "promptZh": "抱著空酒瓶，告訴自己你更快樂了",
+          "options": [
+            "empty glass",
+            "empty cup",
+            "empty bottle"
+          ],
+          "answer": "empty bottle"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "Nursing an 〔第 33 題〕 and {{blank}} you're happier",
+          "promptZh": "抱著空酒瓶，告訴自己你更快樂了",
+          "options": [
+            "telling myself",
+            "telling me that",
+            "telling myself that"
+          ],
+          "answer": "telling myself"
+        },
+        {
+          "number": 35,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "不是嗎？",
+          "options": [
+            "Don't you?",
+            "Aren't you?",
+            "Are you?"
+          ],
+          "answer": "Aren't you?"
+        },
+        {
+          "number": 36,
+          "lineId": "line-22",
+          "prompt": "But ain't nobody {{blank}} like I do",
+          "promptZh": "但也沒有人像我這樣需要你",
+          "options": [
+            "need you",
+            "want you",
+            "love you"
+          ],
+          "answer": "need you"
+        },
+        {
+          "number": 37,
+          "lineId": "line-23",
+          "prompt": "{{blank}} there's others that 〔第 38 題〕",
+          "promptZh": "我知道還有其他人值得擁有你",
+          "options": [
+            "I know that there",
+            "I know there's",
+            "I know that"
+          ],
+          "answer": "I know that"
+        },
+        {
+          "number": 38,
+          "lineId": "line-23",
+          "prompt": "〔第 37 題〕 there's others that {{blank}}",
+          "promptZh": "我知道還有其他人值得擁有你",
+          "options": [
+            "love you",
+            "deserve you",
+            "want you"
+          ],
+          "answer": "deserve you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-24",
+          "prompt": "But my darling I am {{blank}} 〔第 40 題〕",
+          "promptZh": "但親愛的，我依然愛著你",
+          "options": [
+            "never",
+            "always",
+            "still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 40,
+          "lineId": "line-24",
+          "prompt": "But my darling I am 〔第 39 題〕 {{blank}}",
+          "promptZh": "但親愛的，我依然愛著你",
+          "options": [
+            "in love with us",
+            "in love with you",
+            "in love with her"
+          ],
+          "answer": "in love with you"
+        },
+        {
+          "number": 41,
+          "lineId": "line-25",
+          "prompt": "{{blank}} you look happier, you do",
+          "promptZh": "但我猜你看起來更快樂了，真的",
+          "options": [
+            "But I guess",
+            "I guess that",
+            "And I guess"
+          ],
+          "answer": "But I guess"
+        },
+        {
+          "number": 42,
+          "lineId": "line-26",
+          "prompt": "My friends told me {{blank}} it too",
+          "promptZh": "朋友告訴我，總有一天我也會感受到",
+          "options": [
+            "one day I will feel",
+            "someday I'll feel",
+            "one day I'll feel"
+          ],
+          "answer": "one day I'll feel"
+        },
+        {
+          "number": 43,
+          "lineId": "line-27",
+          "prompt": "{{blank}} to smile to hide the truth",
+          "promptZh": "我可以試著用微笑掩飾真相",
+          "options": [
+            "I could smile",
+            "I could try",
+            "I will try"
+          ],
+          "answer": "I could try"
+        },
+        {
+          "number": 44,
+          "lineId": "line-28",
+          "prompt": "But I know {{blank}} with you",
+          "promptZh": "但我知道，和你在一起時我更快樂",
+          "options": [
+            "I was happier",
+            "I was so happy",
+            "I was much happier"
+          ],
+          "answer": "I was happier"
+        },
+        {
+          "number": 45,
+          "lineId": "line-29",
+          "prompt": "{{blank}} happier, you do",
+          "promptZh": "寶貝，你看起來更快樂了，真的",
+          "options": [
+            "Baby you're",
+            "Baby you look",
+            "Baby you seem"
+          ],
+          "answer": "Baby you look"
+        },
+        {
+          "number": 46,
+          "lineId": "line-30",
+          "prompt": "I knew one day you'd {{blank}} new",
+          "promptZh": "我知道總有一天你會愛上別人",
+          "options": [
+            "fall in love with",
+            "fall for somebody",
+            "fall for someone"
+          ],
+          "answer": "fall for someone"
+        },
+        {
+          "number": 47,
+          "lineId": "line-31",
+          "prompt": "{{blank}} your heart 〔第 48 題〕",
+          "promptZh": "但如果他像情人們常做的那樣傷了你的心",
+          "options": [
+            "But if he breaks",
+            "But if he broke",
+            "And if he breaks"
+          ],
+          "answer": "But if he breaks"
+        },
+        {
+          "number": 48,
+          "lineId": "line-31",
+          "prompt": "〔第 47 題〕 your heart {{blank}}",
+          "promptZh": "但如果他像情人們常做的那樣傷了你的心",
+          "options": [
+            "like lovers do",
+            "as lovers do",
+            "like lovers will"
+          ],
+          "answer": "like lovers do"
+        },
+        {
+          "number": 49,
+          "lineId": "line-32",
+          "prompt": "{{blank}} I'll be 〔第 50 題〕",
+          "promptZh": "只要知道，我會在這裡等你",
+          "options": [
+            "Know that",
+            "Just know",
+            "Just know that"
+          ],
+          "answer": "Just know that"
+        },
+        {
+          "number": 50,
+          "lineId": "line-32",
+          "prompt": "〔第 49 題〕 I'll be {{blank}}",
+          "promptZh": "只要知道，我會在這裡等你",
+          "options": [
+            "waiting right here",
+            "waiting here for you",
+            "waiting for you"
+          ],
+          "answer": "waiting here for you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} 29th and park"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} in {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} we've been apart"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "You look {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}} to {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}} your smiles were {{q:11}} as ours"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Yeah you look happier, {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:13}} {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:16}} {{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:19}} I will not {{q:20}} baby"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:21}} {{q:22}} with {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:24}} you look happier, you do"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "My friends told me one day I'll {{q:25}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:26}} I'll smile to {{q:27}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "But I know I was {{q:28}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:29}} the {{q:30}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Nursing an {{q:33}} and {{q:34}} you're happier"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ain't nobody hurt you like I hurt you"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "But ain't nobody {{q:36}} like I do"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:37}} there's others that {{q:38}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But my darling I am {{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:41}} you look happier, you do"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "My friends told me {{q:42}} it too"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:43}} to smile to hide the truth"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "But I know {{q:44}} with you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:45}} happier, you do"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I knew one day you'd {{q:46}} new"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:47}} your heart {{q:48}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:49}} I'll be {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "60160cf83fcd90734e7ecb549550355b54cd981d48480a638d243a1f2b061de9",
+    "duration": 207.0175
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "in someone’s arms",
+          "meaning": "在某人的懷抱中；被某人抱著",
+          "usage": "描述擁抱、安慰或親密的姿態。歌詞使用 in another’s arms，是帶感情的描述。",
+          "prompt": "哪一句正確使用「in someone’s arms」？",
+          "options": [
+            "The music rested in the window’s arms.",
+            "The map slept in the driver’s arms.",
+            "The train waited in the station’s arms.",
+            "The baby slept in her father’s arms."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：窗戶不能像人一樣張開懷抱；屬於不合日常語境的擬人。",
+            "錯誤：地圖不是會睡覺的生命，這個畫面不自然。",
+            "錯誤：車站沒有真正能擁抱列車的手臂；一般情境不這樣說。",
+            "正確：寶寶睡在爸爸的懷裡，表示有人抱著。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：寶寶睡在爸爸的懷裡，表示有人抱著。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "ain’t nobody",
+          "meaning": "（非正式口語）沒有人；沒有任何人",
+          "usage": "歌詞採用帶有否定一致（negative concord）的口語形式。在標準書面英文中，通常改成 nobody ... 或 there isn’t anybody ...；不是在說「沒有人不存在」。",
+          "prompt": "哪一句正確使用「ain’t nobody」？",
+          "options": [
+            "Ain’t nobody is a name for a new dance.",
+            "Ain’t nobody here but us, said the singer.",
+            "Ain’t nobody means every person came today.",
+            "Ain’t nobody are waiting near the door."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：這是口語否定表達，不是舞步名稱。",
+            "正確：這是非正式、帶口語或歌曲風格的「這裡除了我們沒別人」。",
+            "錯誤：ain’t nobody 表示「沒有人」，不是「每個人都來了」。",
+            "錯誤：後接 are 不符合這種句式的搭配；可以說 Nobody is waiting。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：這是非正式、帶口語或歌曲風格的「這裡除了我們沒別人」。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "until then",
+          "meaning": "直到那時為止；在那之前",
+          "usage": "已提到未來某個時間或事情，說明在它發生前會維持的狀態或做法。",
+          "prompt": "哪一句正確使用「until then」？",
+          "options": [
+            "The shop opens at ten; until then, wait.",
+            "I put until then in my bag at school.",
+            "My bike rode until then across the soup.",
+            "The bus was yellow until then the station."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：商店十點開門；在那之前可以先等。",
+            "錯誤：這是時間片語，不是能放進書包的東西。",
+            "錯誤：腳踏車不能騎過湯；也沒有明確的「那時」。",
+            "錯誤：until then 後不能這樣直接接地點，句意也不清楚。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：商店十點開門；在那之前可以先等。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "nursing an empty bottle",
+          "meaning": "抱著空瓶久久不放（歌詞中的畫面）",
+          "usage": "這是帶有情緒的文學性用法。動詞 nurse 也常用於慢慢啜飲一杯飲料，但歌詞的瓶子是 empty，不能解讀為仍在喝酒。",
+          "prompt": "哪一句正確使用「nursing an empty bottle」？",
+          "options": [
+            "She nursed an empty bottle to water the tree.",
+            "He nursed an empty bottle to buy a ticket.",
+            "He sat alone, nursing an empty bottle in silence.",
+            "They nursed an empty bottle to start the car."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：空瓶不會自動為樹澆水；與這裡的情緒意象無關。",
+            "錯誤：抱著空瓶不是購票的方式，也不表示付錢。",
+            "正確：獨自抱著空瓶沉默不語，符合歌詞描繪的低落情緒。",
+            "錯誤：抱著空瓶不能啟動汽車；這不是機械動作。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：獨自抱著空瓶沉默不語，符合歌詞描繪的低落情緒。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "tell oneself",
+          "meaning": "告訴自己；在心裡反覆對自己說",
+          "usage": "想安慰、提醒或說服自己時使用；歌詞原文是 telling myself。",
+          "prompt": "哪一句正確使用「tell oneself」？",
+          "options": [
+            "The sandwich told itself to catch the bus.",
+            "I told myself to relax before class.",
+            "The cat told itself the door was a fish.",
+            "The chair told itself to read the news."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：三明治沒有自我對話或搭公車的能力。",
+            "正確：考試前提醒自己冷靜，符合心裡自我對話的意思。",
+            "錯誤：一般日常英文不會描述貓以人類語言在心裡說這種話。",
+            "錯誤：椅子無法思考或閱讀，句意刻意荒謬。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：考試前提醒自己冷靜，符合心裡自我對話的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "guess",
+          "meaning": "猜測；認為（但不完全確定）",
+          "usage": "不十分確定情況時，表示自己的推測；可以用 I guess + 子句。",
+          "prompt": "哪一句正確使用「guess」？",
+          "options": [
+            "I guess the shop is closed; its lights are off.",
+            "I guess a blanket over the sleeping dog.",
+            "I guess my shoes to the bus every day.",
+            "I guess the pizza with a knife for lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：看見燈關了，推測商店已打烊。",
+            "錯誤：把毯子蓋上應說 put a blanket over，不是 guess。",
+            "錯誤：guess 不能表示穿鞋或前往公車站。",
+            "錯誤：guess 是推測，不是用刀切披薩。"
+          ],
+          "sourceFile": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：看見燈關了，推測商店已打烊。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "現在分詞開頭的歌詞片段",
+          "meaning": "描述正在沿著某條路走的動作；原句省略主詞及完整述語。",
+          "usage": "敘事或照片說明可以看到這種片段；正式完整句子須補出主詞和動詞。",
+          "prompt": "情境： 攝影師要把「我當時正沿著河邊走」寫成完整句子。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I had walked down the path tomorrow.",
+            "I was walking a river inside my bag.",
+            "The river was walking me down the path.",
+            "I was walking down the path by the river."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：had walked 與 tomorrow 時間不符。",
+            "錯誤：把河流當成可以裝進背包的物品，語意不通。",
+            "錯誤：河流不能像人一樣帶著我沿路走。",
+            "正確：was walking down 表示當時沿著小路行走。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Walking down 29th and park",
+          "pattern": [
+            {
+              "text": "[Walking]",
+              "fixed": false
+            },
+            {
+              "text": "[down a street / place]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞是省略主詞的分詞片段；選項用完整句子教其合理語境。",
+          "explanation": "正確：was walking down 表示當時沿著小路行走。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "see + 受詞 + 地點片語",
+          "meaning": "看到某人身處某個位置或狀態。",
+          "usage": "目擊某人在哪裡、身處甚麼情境時使用。",
+          "prompt": "情境： 你在車站見到叔叔站在售票處。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I saw my uncle at the ticket desk.",
+            "I saw my uncle under an idea at the station.",
+            "I saw my uncle in tomorrow at the station.",
+            "I saw the ticket desk become my uncle."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：看到叔叔位於售票處。",
+            "錯誤：under an idea 不能自然表示站立位置。",
+            "錯誤：in tomorrow 不是自然的時間或位置片語。",
+            "錯誤：售票處不會變成叔叔。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I saw you in another's arms",
+          "pattern": [
+            {
+              "text": "[I saw]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[in/at + place or situation]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：看到叔叔位於售票處。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "only + 時間長度 + 現在完成式",
+          "meaning": "強調某狀態持續到現在的時間其實很短。",
+          "usage": "想說才經過幾天或幾個月，就已經感受到變化時使用。",
+          "prompt": "情境： 兩個朋友分開只有三天，卻已很想念彼此。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Only three days we have been hungry next year.",
+            "We are apart since three days and will meet last year.",
+            "Only three days we will be apart yesterday.",
+            "We have been apart for only three days, but I miss her."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：next year 與已經持續的現在完成式衝突。",
+            "錯誤：應用 for three days，而且 last year 時序衝突。",
+            "錯誤：will be 與 yesterday 不能這樣配合。",
+            "正確：have been apart for only three days 清楚表達分開至今的短時間。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Only a month we've been apart",
+          "pattern": [
+            {
+              "text": "[Only + duration]",
+              "fixed": false
+            },
+            {
+              "text": "[we have been + adjective]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞採詩歌式前置時間片語；例句以常見的 for only ... 語序呈現同一時態。",
+          "explanation": "正確：have been apart for only three days 清楚表達分開至今的短時間。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "look + 比較級形容詞",
+          "meaning": "某人看起來比以前更有某種感覺或狀態。",
+          "usage": "從外表或神情判斷某人近況時使用。",
+          "prompt": "情境： 朋友休息後看起來比昨天更開心。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "She looks happy yesterday than now.",
+            "She looks happily than yesterday.",
+            "She looks happier than yesterday after a good rest.",
+            "She looks more good after sleeping."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：比較語序與時態不自然。",
+            "錯誤：look 作連綴動詞時通常接形容詞 happier。",
+            "正確：looks happier 描述看起來更開心。",
+            "錯誤：good 的比較級是 better，不能說 more good。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "You look happier",
+          "pattern": [
+            {
+              "text": "[Person]",
+              "fixed": false
+            },
+            {
+              "text": "[look(s)]",
+              "fixed": false
+            },
+            {
+              "text": "[comparative adjective]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：looks happier 描述看起來更開心。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "see + 受詞 + 原形動詞",
+          "meaning": "看到某人完成或發生一個動作。",
+          "usage": "目睹別人走進、打開、拿起等動作時使用。",
+          "prompt": "情境： 你親眼看見魔術師打開盒子。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I saw the magician open the box.",
+            "I saw the magician opens the box.",
+            "I saw the magician to open the box.",
+            "I saw the magician opening to the box."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：saw + 人 + open 表示親眼見到動作。",
+            "錯誤：saw + 受詞 後要接原形 open，不能加 -s。",
+            "錯誤：感官動詞 saw 的此結構不接 to open。",
+            "錯誤：opening to the box 不是自然的動作搭配。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Saw you walk inside a bar",
+          "pattern": [
+            {
+              "text": "[see/saw]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[base verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞省略 I，但 Saw you walk 清楚包含 saw + 受詞 + 原形動詞。",
+          "explanation": "正確：saw + 人 + open 表示親眼見到動作。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "make + 人 + 原形動詞",
+          "meaning": "使某人做出某個動作或產生反應。",
+          "usage": "描述笑話、消息、行動使某人發笑或哭泣等時使用。",
+          "prompt": "情境： 一隻狗戴著帽子讓觀眾笑出來。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The dog made the audience laugh.",
+            "The dog made the audience to laugh.",
+            "The dog made laugh the audience.",
+            "The dog made the audience laughing to."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：make + 受詞 + 原形 laugh。",
+            "錯誤：make 的使役結構不需要 to。",
+            "錯誤：受詞 audience 必須放在 laugh 前。",
+            "錯誤：laughing to 不符合此使役句型。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "make you laugh",
+          "pattern": [
+            {
+              "text": "[make]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[base verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：make + 受詞 + 原形 laugh。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "twice as + 形容詞 + as",
+          "meaning": "某個特徵是另一個的兩倍。",
+          "usage": "比較長度、寬度、高度、重量等可測量特徵時使用。",
+          "prompt": "情境： 展覽有兩幅畫，第一幅的寬度是第二幅兩倍。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The first painting is twice as width as the second.",
+            "The first painting is twice as wide as the second.",
+            "The first painting is two as wide the second.",
+            "The first painting is twice wide as the second."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：width 是名詞，這裡需要形容詞 wide。",
+            "正確：twice as wide as 以相同特徵比較寬度。",
+            "錯誤：缺少第一個 as 和第二個 as 的完整結構。",
+            "錯誤：twice 後仍需要 as + 形容詞。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "twice as wide as ours",
+          "pattern": [
+            {
+              "text": "[twice as]",
+              "fixed": false
+            },
+            {
+              "text": "[adjective]",
+              "fixed": false
+            },
+            {
+              "text": "[as + comparison]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：twice as wide as 以相同特徵比較寬度。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "重述強調的助動詞 do",
+          "meaning": "用助動詞再次確認或強調前面說過的事。",
+          "usage": "對一個已說出的判斷加強語氣，或簡短附和時使用。",
+          "prompt": "情境： 朋友說你真的喜歡新的工作；你要強調確認。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I enjoy my new job, I am.",
+            "I enjoy my new job, I have.",
+            "I enjoy my new job, I can.",
+            "I enjoy my new job. I really do."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：am 不能替代前面的 enjoy。",
+            "錯誤：have 不能如此承接一般現在式動詞 enjoy。",
+            "錯誤：can 變成能力而不是確認喜歡。",
+            "正確：do 代替 enjoy my new job，並加強肯定語氣。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "you do",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[do/does/did]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞的 you do 承接 you look happier；不是獨立的完整新命題。",
+          "explanation": "正確：do 代替 enjoy my new job，並加強肯定語氣。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "非標準 ain’t nobody + 動詞 + like 比較",
+          "meaning": "帶有強烈感情的口語雙重否定和比較，意為「沒有任何人像……」。",
+          "usage": "分析歌曲或非正式口語的語域時使用；標準英語練習宜以 nobody ... like ... 表達。",
+          "prompt": "情境： 某人要說沒有任何其他人像祖母那樣鼓勵自己。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Nobody supports me unlike my grandma does.",
+            "Nobody support me like my grandma doing.",
+            "Ain’t nobody supports me like my grandma do in a formal report.",
+            "Nobody supports me like my grandma does."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：unlike 不能在此直接替代 like 建立相同比較。",
+            "錯誤：Nobody 作單數主詞時要用 supports，後句也須調整。",
+            "錯誤：在正式報告中不宜使用 ain’t nobody，且主謂配合亦不自然。",
+            "正確：Nobody ... like ... does 清楚表達比較。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Ain't nobody hurt you like I hurt you",
+          "pattern": [
+            {
+              "text": "[ain’t nobody]",
+              "fixed": false
+            },
+            {
+              "text": "[verb + person]",
+              "fixed": false
+            },
+            {
+              "text": "[like + clause]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：來源是非標準歌詞；正式例句使用標準結構，不將標準句聲稱為原歌詞。",
+          "explanation": "正確：Nobody ... like ... does 清楚表達比較。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "promise + that 子句",
+          "meaning": "保證將會或不會做某件事。",
+          "usage": "向別人作出明確承諾時使用。",
+          "prompt": "情境： 你向鄰居保證明天會把借來的梯子還回去。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I promise that I will return your ladder tomorrow.",
+            "I promise that I returning your ladder tomorrow.",
+            "I promise that I will to return your ladder tomorrow.",
+            "I promise that returned the ladder tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：promise that + 完整的未來承諾子句。",
+            "錯誤：缺少 am 等助動詞，不能直接 I returning。",
+            "錯誤：will 後直接接 return，不加 to。",
+            "錯誤：that 後缺少主詞及適當動詞。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Promise that I will not take it personal baby",
+          "pattern": [
+            {
+              "text": "[promise]",
+              "fixed": false
+            },
+            {
+              "text": "[that + subject + will + verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞省略 I 的祈使式／口語說法 Promise that...；不是 I promise 的逐字歌詞。",
+          "explanation": "正確：promise that + 完整的未來承諾子句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "if + 現在進行式的條件子句",
+          "meaning": "如果某個正在發生的情況成立，就談相應反應。",
+          "usage": "條件涉及目前進行中的轉變或安排時使用。",
+          "prompt": "情境： 朋友正在學做陶器；若他真的正在練習，你會借工具。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "If you practicing pottery, I will lend you tools.",
+            "If you are practice pottery, I will lend you tools.",
+            "If you are practicing pottery, I will lend you my tools.",
+            "If you are practicing pottery, I lend you tools last year."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：現在進行式缺少 are。",
+            "錯誤：are 後應接 practicing。",
+            "正確：if + are practicing 設定目前進行的條件。",
+            "錯誤：未來的結果與 last year 的時序不合。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "If you're moving on with someone new",
+          "pattern": [
+            {
+              "text": "[if]",
+              "fixed": false
+            },
+            {
+              "text": "[subject + am/is/are + -ing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：if + are practicing 設定目前進行的條件。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "tell + 人 + 子句",
+          "meaning": "把一個資訊、預測或看法告訴某人。",
+          "usage": "轉述朋友、老師等向你說過的話時使用。",
+          "prompt": "情境： 教練告訴你，練習之後你會跑得更快。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The coach told me I would run faster with practice.",
+            "The coach told that me I would run faster.",
+            "The coach told to me I would run faster.",
+            "The coach said me I would run faster."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：told me + 完整子句，表轉述。",
+            "錯誤：tell 的人稱受詞需緊接在 told 後。",
+            "錯誤：told me 不需加 to。",
+            "錯誤：said me 不自然；應說 told me 或 said to me。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "My friends told me one day I’ll feel it too",
+          "pattern": [
+            {
+              "text": "[tell/told]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + complete clause]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：told me + 完整子句，表轉述。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "until then + 未來敘述",
+          "meaning": "在那個未來時間到來之前，暫時會做甚麼。",
+          "usage": "等待某個已知事件發生時，說明之前的安排。",
+          "prompt": "情境： 你要等星期日才拿到新畫具，此前先借朋友的。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "My paints arrive on Sunday. Until then, I use yesterday.",
+            "My paints arrive on Sunday. Until then will I my friend’s set.",
+            "My paints arrive on Sunday. Until then, I will use my friend’s set.",
+            "My paints arrive on Sunday. Until then, I used next year."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：yesterday 與尚未到來的星期日不配合。",
+            "錯誤：一般敘述句應用 I will use 的語序。",
+            "正確：Until then 連結星期日前的暫時安排。",
+            "錯誤：used 與 next year 時間不符，句子也不完整。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "until then I'll smile",
+          "pattern": [
+            {
+              "text": "[until then]",
+              "fixed": false
+            },
+            {
+              "text": "[subject + will + verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Until then 連結星期日前的暫時安排。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "to + 動詞表目的",
+          "meaning": "做某件事，目的是達成另一個結果。",
+          "usage": "解釋為甚麼微笑、跑步、開窗或做其他行動時使用。",
+          "prompt": "情境： 研究員打開窗，目的是讓新鮮空氣進來。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The scientist opened the window to fresh air came in.",
+            "The scientist opened the window to let fresh air in.",
+            "The scientist opened the window for let air in.",
+            "The scientist opened the window to letting fresh air in."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：to 後不能直接接完整過去式子句。",
+            "正確：to let ... in 清楚交代開窗目的。",
+            "錯誤：for 後不能這樣直接接 let。",
+            "錯誤：目的不定詞後要用 let 原形。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I’ll smile to hide the truth",
+          "pattern": [
+            {
+              "text": "[do something]",
+              "fixed": false
+            },
+            {
+              "text": "[to + base verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：目的不定詞也出現在 said something to make you laugh；此處僅計一次，從完整動作的目的切入。",
+          "explanation": "正確：to let ... in 清楚交代開窗目的。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "know + 省略 that 的完整子句",
+          "meaning": "表示自己知道某件事是真的。",
+          "usage": "談有把握的事實或個人認知時使用。",
+          "prompt": "情境： 你知道去年那間圖書館週末開門。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I know the library was open Sundays is.",
+            "I know the library was open on Sundays last year.",
+            "I know the library open was on Sundays last year.",
+            "I know was the library open on Sundays last year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：子句末尾多出 is，使整句不成立。",
+            "正確：know 後直接接主詞 the library 與過去式 was。",
+            "錯誤：主詞與動詞語序不正確。",
+            "錯誤：間接敘述不能使用疑問式倒裝。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "But I know I was happier with you",
+          "pattern": [
+            {
+              "text": "[I know]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + subject + verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：know 後直接接主詞 the library 與過去式 was。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "remind + 人 + of + 事物",
+          "meaning": "某物使人想起另一個人、地方或經歷。",
+          "usage": "熟悉的聲音、味道、照片喚起回憶時使用。",
+          "prompt": "情境： 舊戲票令你想起去年看的表演。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "This old ticket reminds me of the play.",
+            "This old ticket reminds to me of the play.",
+            "This old ticket reminds me for the play.",
+            "This old ticket reminds me the play."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：reminds me of 用來表達戲票喚起回憶。",
+            "錯誤：remind 後直接接 me，不加 to。",
+            "錯誤：表示喚起回憶應接 of，而不是 for。",
+            "錯誤：此結構須加 of 才能連接回憶內容。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Everything's reminding me of you",
+          "pattern": [
+            {
+              "text": "[something]",
+              "fixed": false
+            },
+            {
+              "text": "[remind(s)]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            },
+            {
+              "text": "[of + person/thing]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：reminds me of 用來表達戲票喚起回憶。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "兩個 -ing 片語並列的歌詞片段",
+          "meaning": "兩個同時或連續的動作並列描述；歌詞中省略了完整主句。",
+          "usage": "敘事時想描述兩個動作，可用主詞 + be + -ing ... and -ing ...。",
+          "prompt": "情境： 園丁一邊澆花，一邊聽廣播。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The gardener was water flowers and listen to the radio.",
+            "The gardener watered flowers and to listening the radio.",
+            "The gardener watering flowers and listening to radio yesterday.",
+            "The gardener was watering flowers and listening to the radio."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：was 後應使用 watering 等 -ing 形式。",
+            "錯誤：and to listening 並非自然的平行形式。",
+            "錯誤：若作完整句子，需加 was 等限定動詞。",
+            "正確：was watering ... and listening ... 連接兩個並行動作。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Nursing an empty bottle and telling myself you're happier",
+          "pattern": [
+            {
+              "text": "[verb-ing + object]",
+              "fixed": false
+            },
+            {
+              "text": "[and + verb-ing + object/complement]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌曲中本身為 -ing 片段；不能誤稱歌詞有 was nursing。",
+          "explanation": "正確：was watering ... and listening ... 連接兩個並行動作。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "tell oneself + 子句",
+          "meaning": "在心中反覆告訴自己某件事。",
+          "usage": "自我安慰、提醒自己或鼓勵自己時使用。",
+          "prompt": "情境： 小提琴手在演出前提醒自己已經準備好了。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The violinist told herself to she was ready.",
+            "The violinist told she herself was ready.",
+            "The violinist told herself she was ready.",
+            "The violinist told herself ready is she."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：不能用 to 直接接 she was ready。",
+            "錯誤：反身代名詞 herself 位置不正確。",
+            "正確：told herself 後可以接完整敘述子句。",
+            "錯誤：子句應使用 she was ready 的直述語序。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "telling myself you're happier",
+          "pattern": [
+            {
+              "text": "[tell]",
+              "fixed": false
+            },
+            {
+              "text": "[myself/yourself/herself]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + clause]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：told herself 後可以接完整敘述子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "否定附加問句",
+          "meaning": "在肯定陳述後以簡短否定疑問確認。",
+          "usage": "想確認對方是否同意或狀態是否屬實時使用。",
+          "prompt": "情境： 你看到朋友已準備出門，想確認。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "You are ready, isn’t it?",
+            "You are ready, don’t you?",
+            "You are ready, aren’t you?",
+            "You are ready, are you not ready you?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：主詞是 you，不是 it。",
+            "錯誤：前句用 are，附加問句應接 aren’t。",
+            "正確：You are ... , aren’t you? 以反問確認。",
+            "錯誤：附加問句結構重複且不自然。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Aren't you?",
+          "pattern": [
+            {
+              "text": "[positive statement]",
+              "fixed": false
+            },
+            {
+              "text": "[, aren’t you?]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞獨立使用 Aren’t you? 來承接前文「you’re happier」，不是憑空出現。",
+          "explanation": "正確：You are ... , aren’t you? 以反問確認。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "there is/are + 名詞 + 關係子句",
+          "meaning": "說明有某些符合特定條件的人或事物。",
+          "usage": "介紹某地存在甚麼人，並補充他們的特徵時使用。",
+          "prompt": "情境： 社區中心有一些會教人畫畫的義工。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "There are volunteers which teaching painting here.",
+            "There are volunteers who teach painting here.",
+            "There is volunteers who teaches painting here.",
+            "There are volunteers who to teach painting here."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：人通常接 who/that，且缺乏限定動詞。",
+            "正確：there are + 人 + who teach 說明存在及特徵。",
+            "錯誤：複數 volunteers 應接 there are，且 teach 不加 -es。",
+            "錯誤：who 後應接 teach，不能直接接 to teach。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "there's others that deserve you",
+          "pattern": [
+            {
+              "text": "[there are]",
+              "fixed": false
+            },
+            {
+              "text": "[people]",
+              "fixed": false
+            },
+            {
+              "text": "[that/who + verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞有口語 there’s others（單複數不一致）；例句採用標準 there are。",
+          "explanation": "正確：there are + 人 + who teach 說明存在及特徵。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "be still in love with + 人",
+          "meaning": "表示即使時間過去，仍然愛著某人。",
+          "usage": "談持續未變的戀愛感情時使用。",
+          "prompt": "情境： 一對結婚二十年的伴侶仍然深愛對方。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "After twenty years, he still in love with his wife.",
+            "After twenty years, he is still love with his wife.",
+            "After twenty years, he is still in love with his wife.",
+            "After twenty years, he is still in love to his wife."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少 be 動詞 is。",
+            "錯誤：in love 是固定名詞片語，不能省略 in。",
+            "正確：is still in love with 表示愛意延續。",
+            "錯誤：介系詞應用 with，不是 to。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I am still in love with you",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[be + still]",
+              "fixed": false
+            },
+            {
+              "text": "[in love with + person]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is still in love with 表示愛意延續。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "could + try + to-infinitive",
+          "meaning": "表示可以嘗試做某件事，但不保證一定成功。",
+          "usage": "提出較保留的選項或可能的努力時使用。",
+          "prompt": "情境： 你想修理舊收音機，但不確定能不能成功。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I could try fix the old radio.",
+            "I could tried to fix the old radio.",
+            "I could try to fixing the old radio.",
+            "I could try to fix the old radio."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：try 後此處需接 to fix。",
+            "錯誤：could 後要用原形 try。",
+            "錯誤：to 後接原形 fix。",
+            "正確：could try to fix 是保留但願意嘗試的語氣。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I could try to smile to hide the truth",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[could try to + base verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could try to fix 是保留但願意嘗試的語氣。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "knew + would（過去視角的未來）",
+          "meaning": "從過去角度表示當時預期未來會發生的事。",
+          "usage": "回顧自己以前對某件後來事情的預測。",
+          "prompt": "情境： 你去年就知道那位年輕棋手有一天會贏比賽。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Last year I knew she would won a match one day.",
+            "Last year I knew she would win a match one day.",
+            "Last year I knew would she win a match one day.",
+            "Last year I knew she will win the match one day."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：would 後接動詞原形 win。",
+            "正確：knew ... would win 是過去視角的未來。",
+            "錯誤：嵌入的敘述子句不能用 would she 的疑問語序。",
+            "錯誤：從過去視角轉述預期，通常使用 would 而非 will。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I knew one day you'd fall for someone new",
+          "pattern": [
+            {
+              "text": "[I knew]",
+              "fixed": false
+            },
+            {
+              "text": "[(that) + subject + would + base verb]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：knew ... would win 是過去視角的未來。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "fall for + 人",
+          "meaning": "對某人產生戀愛感情。",
+          "usage": "說明慢慢喜歡上或愛上一個人時使用。",
+          "prompt": "情境： 電影角色慢慢愛上鄰居。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "In the film, he fell for his new neighbor.",
+            "In the film, he fall for his neighbor yesterday.",
+            "In the film, he fell his neighbor for.",
+            "In the film, he fell to his neighbor for love."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：fell for + 人 表示愛上某人。",
+            "錯誤：yesterday 應使用 fell 過去式。",
+            "錯誤：fell for 是不可拆成這種受詞順序。",
+            "錯誤：fell to ... for love 不是此片語。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "fall for someone new",
+          "pattern": [
+            {
+              "text": "[fall for]",
+              "fixed": false
+            },
+            {
+              "text": "[someone]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：fell for + 人 表示愛上某人。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "if + 現在式，主句 + will",
+          "meaning": "若未來某個可能情況發生，主句將採取某種行動。",
+          "usage": "談真實可能發生的未來條件時使用。",
+          "prompt": "情境： 如果明天下雨，樂隊就會在室內表演。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "If it will rain tomorrow, the band will play indoors.",
+            "If it rained tomorrow, the band will play indoors.",
+            "If it rains tomorrow, the band will play indoors.",
+            "If it rain tomorrow, the band will playing indoors."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：此類未來條件的 if 子句通常不用 will rain。",
+            "錯誤：rained 更像假設語氣，與 will 的搭配不一致。",
+            "正確：if it rains 對應 the band will play。",
+            "錯誤：主詞 it 要用 rains，will 後接 play 原形。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "if he breaks your heart like lovers do",
+          "pattern": [
+            {
+              "text": "[if + present simple]",
+              "fixed": false
+            },
+            {
+              "text": "[, will + base verb]",
+              "fixed": false
+            }
+          ],
+          "context": "語域／核實備註：歌詞的 if 子句與下一句的 will be waiting 連成同一個條件結果。",
+          "explanation": "正確：if it rains 對應 the band will play。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "like + 完整子句表示比較",
+          "meaning": "把某人的做法與另一類人的典型做法相比。",
+          "usage": "談行為方式相似時使用；與 as ... as 倍數比較不同。",
+          "prompt": "情境： 演員像真正的廚師那樣仔細切菜。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "The actor cut the vegetables like real chef to do.",
+            "The actor cut the vegetables like a real chef does.",
+            "The actor cut the vegetables like a real chef do.",
+            "The actor cut the vegetables like a real chef doing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少冠詞，to do 也無法完成比較子句。",
+            "正確：like + chef does 表示做法相同。",
+            "錯誤：單數 chef 應用 does。",
+            "錯誤：後面需要適當限定動詞 does。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "like lovers do",
+          "pattern": [
+            {
+              "text": "[verb phrase]",
+              "fixed": false
+            },
+            {
+              "text": "[like + subject + do/does]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：like + chef does 表示做法相同。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "will be + -ing 未來進行式",
+          "meaning": "表示未來某個時間仍在進行的動作。",
+          "usage": "承諾未來某時會正在做某事，或表達持續等待時使用。",
+          "prompt": "情境： 你告訴朋友明天下午三點你會在劇院門口等他。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "I will be waited outside the theatre at three.",
+            "I will be waiting outside the theatre at three.",
+            "I will be wait outside the theatre at three.",
+            "I will waiting outside the theatre at three."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：waited 不是未來進行式。",
+            "正確：will be waiting 表示到時正持續等待。",
+            "錯誤：be 後需接 waiting。",
+            "錯誤：未來進行式需要 be。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "I'll be waiting here for you",
+          "pattern": [
+            {
+              "text": "[subject]",
+              "fixed": false
+            },
+            {
+              "text": "[will be + verb-ing]",
+              "fixed": false
+            },
+            {
+              "text": "[place/time]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will be waiting 表示到時正持續等待。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "just + 祈使動詞 + that 子句",
+          "meaning": "以溫和而直接的語氣請對方記住一個訊息。",
+          "usage": "希望對方理解或牢記某件事情時使用。",
+          "prompt": "情境： 老師要學生記住，不懂問題可以問他。 哪一句英文最正確、最符合情境？",
+          "options": [
+            "Just know that can you ask me for help.",
+            "Just knowing that you can ask me for help.",
+            "Just know to you can ask me for help.",
+            "Just know that you can ask me for help."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：that 子句使用 you can 而非 can you 的疑問語序。",
+            "錯誤：這裡要求的是祈使原形 know。",
+            "錯誤：to you 不能這樣連接完整子句。",
+            "正確：Just know that 後接完整陳述子句。"
+          ],
+          "sourceFile": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "Just know that I'll be waiting here for you",
+          "pattern": [
+            {
+              "text": "[Just]",
+              "fixed": false
+            },
+            {
+              "text": "[base verb]",
+              "fixed": false
+            },
+            {
+              "text": "[that + complete clause]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Just know that 後接完整陳述子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Happier_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "7000778fdf38cbf5b3fcc0e746f2ed1d5f46471383143f383786372b1fc35b69"
+    },
+    {
+      "section": "structure",
+      "filename": "Happier_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "c6adca396c0e56a6abf76edc4e4bb03799a06b2ca42be66c9b8872e5fada98a7"
+    }
+  ]
+}

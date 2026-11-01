@@ -1,0 +1,543 @@
+{
+  "id": "proverb-04",
+  "titleEn": "Absence Makes the Heart Grow Fonder",
+  "titleZh": "小別勝新婚",
+  "version": "2026-10-28.1",
+  "scoredCount": 12,
+  "items": [
+    {
+      "id": "proverb-04-q01",
+      "number": 1,
+      "promptEn": "After a month studying away, May looked forward to calls with her mother more than before.",
+      "promptZh": "阿美到外地讀書一個月後，比以前更期待與母親通話。",
+      "options": [
+        {
+          "id": "key",
+          "text": "May missed her mother more while they were apart—absence makes the heart grow fonder.",
+          "reasonZh": "分開後更期待通話，顯示掛念增加。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "May forgot her mother while they were apart—absence makes the heart grow fonder.",
+          "reasonZh": "原文是更期待通話，不是忘記母親。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "May and her mother had not spent any time apart—absence makes the heart grow fonder.",
+          "reasonZh": "原文清楚說阿美到外地讀書一個月。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Every student misses their mother more after moving away—absence makes the heart grow fonder.",
+          "reasonZh": "一人的感受不能代表所有學生。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q02",
+      "number": 2,
+      "promptEn": "While her father was away for two weeks, Lok realised she valued cooking with him more.",
+      "promptZh": "父親出差兩週後，樂樂發覺自己比平日更珍惜與他一起煮飯。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Lok valued time with her father more during his trip—absence makes the heart grow fonder.",
+          "reasonZh": "分開令樂樂更珍惜相處時間。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lok stopped caring about time with her father during his trip—absence makes the heart grow fonder.",
+          "reasonZh": "與更珍惜相處的事實相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Lok learned to cook only after her father returned—absence makes the heart grow fonder.",
+          "reasonZh": "原文沒有說她何時學會煮飯。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The trip made everyone in the family a better cook—absence makes the heart grow fonder.",
+          "reasonZh": "諺語談感情，不是全家廚藝。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q03",
+      "number": 3,
+      "promptEn": "After spending the summer apart from his friend, Fung was more excited than before to meet again.",
+      "promptZh": "阿峰與好友分開過暑假後，見面時比以前更興奮。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Fung welcomed the reunion more eagerly after time apart—absence makes the heart grow fonder.",
+          "reasonZh": "先分開，重聚時更興奮，符合諺語。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Fung felt no different about the reunion after time apart—absence makes the heart grow fonder.",
+          "reasonZh": "原文有「比以前更興奮」的變化。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Fung had spent the whole summer beside his friend—absence makes the heart grow fonder.",
+          "reasonZh": "原文是整個暑假分開。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The friends had quarrelled and ended their friendship—absence makes the heart grow fonder.",
+          "reasonZh": "沒有爭吵或絕交的證據。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q04",
+      "number": 4,
+      "promptEn": "While her grandmother stayed in hospital, a girl remembered her stories daily and valued their time together more.",
+      "promptZh": "祖母住院期間，孫女每天想起她以前講的故事，越發珍惜相處的日子。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The girl valued her grandmother even more while they were apart—absence makes the heart grow fonder.",
+          "reasonZh": "故事與更珍惜的感受，支持因分開而更掛念。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The girl no longer remembered her grandmother’s stories—absence makes the heart grow fonder.",
+          "reasonZh": "原文說她每天想起故事。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The girl visited her grandmother at home every day—absence makes the heart grow fonder.",
+          "reasonZh": "原文說祖母住院，不是每天在家見面。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The hospital stay proved that every family grows closer—absence makes the heart grow fonder.",
+          "reasonZh": "一個家庭情況不能證明所有家庭如此。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q05",
+      "number": 5,
+      "promptEn": "Two sisters work in different cities and treasure their holiday visits more than they used to.",
+      "promptZh": "兩位姊妹在不同城市工作，假日見面時更加珍惜彼此。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The sisters treasure their visits more because they live apart—absence makes the heart grow fonder.",
+          "reasonZh": "分居兩城與更珍惜見面有清楚聯繫。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The sisters see each other every day at work—absence makes the heart grow fonder.",
+          "reasonZh": "兩人在不同城市工作，不是每日見面。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The sisters now dislike spending holidays together—absence makes the heart grow fonder.",
+          "reasonZh": "原文說更加珍惜見面。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Living apart guarantees that no sisters will ever argue—absence makes the heart grow fonder.",
+          "reasonZh": "掛念增加不保證姊妹永不爭執。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q06",
+      "number": 6,
+      "promptEn": "After half a term in a school hostel, Jun was more willing than before to listen to his younger brother at home.",
+      "promptZh": "阿俊在校外宿舍住了半學期，回家時比以前更願意聽弟弟說話。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Time away helped Jun appreciate conversations with his younger brother—absence makes the heart grow fonder.",
+          "reasonZh": "分開後更願意聆聽，屬感情變化。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Time away made Jun ignore his younger brother—absence makes the heart grow fonder.",
+          "reasonZh": "原文是更願意聽，不是忽略。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Jun had remained at home throughout the term—absence makes the heart grow fonder.",
+          "reasonZh": "阿俊在宿舍住了半學期。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Jun’s brother had moved into the hostel with him—absence makes the heart grow fonder.",
+          "reasonZh": "原文沒有說弟弟也入住。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q07",
+      "number": 7,
+      "promptEn": "During a tournament abroad, Ying began to miss training with her coach more than she expected.",
+      "promptZh": "阿瑩到外國參賽後，開始更想念與教練一起練習的時間。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Ying missed training with her coach while she was away—absence makes the heart grow fonder.",
+          "reasonZh": "參賽期間更想念教練，符合情境。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Ying was glad never to train with her coach again—absence makes the heart grow fonder.",
+          "reasonZh": "與想念練習的事實相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Ying’s coach travelled abroad with her—absence makes the heart grow fonder.",
+          "reasonZh": "原文沒有說教練同行。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Every athlete becomes fond of every coach while travelling—absence makes the heart grow fonder.",
+          "reasonZh": "不能擴大到所有運動員與教練。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q08",
+      "number": 8,
+      "promptEn": "A couple live apart temporarily; both say their reunion dinners feel more precious than before.",
+      "promptZh": "夫妻暫時分住兩地，兩人都說重聚的晚餐比以前珍貴。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Both partners value their dinners more during the separation—absence makes the heart grow fonder.",
+          "reasonZh": "兩人都說晚餐更珍貴，並有分開背景。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Both partners now avoid their reunion dinners—absence makes the heart grow fonder.",
+          "reasonZh": "與兩人更珍惜晚餐相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "They have lived together without any separation—absence makes the heart grow fonder.",
+          "reasonZh": "原文說暫時分住兩地。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Their dinners have become more expensive for everyone—absence makes the heart grow fonder.",
+          "reasonZh": "珍貴指感情價值，不是價格上漲。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q09",
+      "number": 9,
+      "promptEn": "After moving to another district, Di looked forward to weekend visits with his childhood friend more.",
+      "promptZh": "阿迪搬到另一區後，更期待週末見兒時好友。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Di looked forward to seeing his old friend more after moving—absence makes the heart grow fonder.",
+          "reasonZh": "搬遠後更盼見面，顯示掛念增加。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Di forgot the old friend after moving—absence makes the heart grow fonder.",
+          "reasonZh": "原文是更期待見面，不是淡忘。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Di moved into the same building as the old friend—absence makes the heart grow fonder.",
+          "reasonZh": "搬到另一區不等於住同一幢樓。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The friend stopped visiting Di because of a quarrel—absence makes the heart grow fonder.",
+          "reasonZh": "沒有爭吵的線索。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q10",
+      "number": 10,
+      "promptEn": "After a year away from her hometown, Sze valued her parents’ messages more than she had before.",
+      "promptZh": "阿詩離開家鄉一年後，比以往更珍惜父母寄來的短訊。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Sze came to value her parents’ messages more during her year away—absence makes the heart grow fonder.",
+          "reasonZh": "分開後更珍惜短訊，正是感情加深的證據。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Sze received no messages from her parents during the year—absence makes the heart grow fonder.",
+          "reasonZh": "原文說父母有寄短訊。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Sze valued her parents’ messages less than before—absence makes the heart grow fonder.",
+          "reasonZh": "與「更珍惜」相反。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The year away proved that all families communicate perfectly—absence makes the heart grow fonder.",
+          "reasonZh": "更珍惜不證明所有家庭溝通完美。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q11",
+      "number": 11,
+      "promptEn": "After five days at camp, a boy said he wanted to play chess with his grandfather more often.",
+      "promptZh": "男孩在露營五天後說，自己現在更想陪外公下棋。",
+      "options": [
+        {
+          "id": "key",
+          "text": "The boy missed chess with his grandfather while away at camp—absence makes the heart grow fonder.",
+          "reasonZh": "分開後更想相處，符合諺語。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "The boy decided never to play chess again—absence makes the heart grow fonder.",
+          "reasonZh": "原文是更想下棋，不是停止。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "The grandfather spent all five days at camp with him—absence makes the heart grow fonder.",
+          "reasonZh": "題目沒有說外公參加露營。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "The boy won every chess game after camp—absence makes the heart grow fonder.",
+          "reasonZh": "題目沒有交代勝負。",
+          "correct": false
+        }
+      ]
+    },
+    {
+      "id": "proverb-04-q12",
+      "number": 12,
+      "promptEn": "Working away from home made Lok realise she valued her friend’s regular letters more than before.",
+      "promptZh": "阿樂在外地工作後，才發現自己比以前更珍惜朋友定期來信。",
+      "options": [
+        {
+          "id": "key",
+          "text": "Lok valued her friend’s letters more after moving away—absence makes the heart grow fonder.",
+          "reasonZh": "分開後更珍惜來信，支持此用法。",
+          "correct": true
+        },
+        {
+          "id": "foil-1",
+          "text": "Lok stopped reading her friend’s letters after moving away—absence makes the heart grow fonder.",
+          "reasonZh": "原文沒有說停止閱讀。",
+          "correct": false
+        },
+        {
+          "id": "foil-2",
+          "text": "Lok and her friend had never been separated—absence makes the heart grow fonder.",
+          "reasonZh": "外地工作表示有距離。",
+          "correct": false
+        },
+        {
+          "id": "foil-3",
+          "text": "Regular letters prove that separation is always pleasant—absence makes the heart grow fonder.",
+          "reasonZh": "定期來信不等於分離一定愉快。",
+          "correct": false
+        }
+      ]
+    }
+  ],
+  "guide": {
+    "meaning": {
+      "zh": "與在乎的人分開一段時間後，可能因為掛念而更珍惜對方。",
+      "en": "Time apart can make someone miss and value a loved person more."
+    },
+    "model": {
+      "zh": "阿澄去外地實習後，反而更期待每週與祖母通話。",
+      "en": "While Cheng was away on placement, she looked forward to her weekly calls with her grandmother even more—absence makes the heart grow fonder."
+    },
+    "picture": {
+      "zh": "兩人相隔一段路；距離讓其中一人更清楚感到對方的重要。",
+      "en": "Imagine two people on opposite sides of a road: time apart makes one more aware of the other’s value."
+    },
+    "boundary": {
+      "zh": "分開不保證感情加深；要有「更掛念或更珍惜」的線索。",
+      "en": "Separation alone is insufficient: the scene must show increased affection or longing."
+    },
+    "where": {
+      "zh": "適合談親友或伴侶暫時分開後更思念對方；不要用它催促別人接受不想要的分離。",
+      "en": "Use it for growing fondness during a temporary separation, not to dismiss someone’s distress about being apart."
+    },
+    "tone": {
+      "zh": "通常溫暖、帶安慰意味；也可能只是描述個人的感受。",
+      "en": "Usually warm or reassuring; it can also be a simple personal observation."
+    },
+    "checks": [
+      {
+        "zh": "誰與誰分開？",
+        "en": "Who is apart?"
+      },
+      {
+        "zh": "哪個細節顯示掛念增加？",
+        "en": "What shows increased affection?"
+      },
+      {
+        "zh": "我有把可能性說成必然嗎？",
+        "en": "Am I turning a possibility into a rule?"
+      }
+    ],
+    "readAloud": {
+      "zh": "哥哥離家讀書後，我們更珍惜每月一起吃晚飯的時間。",
+      "en": "Since my brother moved away for college, our monthly dinners have meant more to us—absence makes the heart grow fonder."
+    },
+    "choices": {
+      "2": {
+        "prompt": {
+          "zh": "哪個情境真正支持這句諺語？",
+          "en": "Which scene supports the proverb?"
+        },
+        "options": [
+          {
+            "zh": "她離家三週後，比以前更期待聽到父親的聲音。",
+            "en": "After three weeks away, she longs to hear her father’s voice more than before.",
+            "reasonZh": "分開與掛念增加都有交代。",
+            "correct": true
+          },
+          {
+            "zh": "她離家三週，卻沒有說自己對父親的感受。",
+            "en": "She has been away for three weeks; nothing is said about her feelings for her father.",
+            "reasonZh": "只有距離，沒有感情變化的證據。",
+            "correct": false
+          },
+          {
+            "zh": "她每天都與父親同住，兩人仍然親近。",
+            "en": "She still lives with her father and they remain close.",
+            "reasonZh": "親近不等於因分開而更掛念。",
+            "correct": false
+          }
+        ]
+      },
+      "3": {
+        "prompt": {
+          "zh": "朋友因暫時分開而難過，哪個回應比較體貼？",
+          "en": "A friend is upset about a temporary separation. Which reply is considerate?"
+        },
+        "options": [
+          {
+            "zh": "「你很想念她；我們可以一起安排下次見面。」",
+            "en": "“You miss her. Shall we plan when you can meet again?”",
+            "reasonZh": "先承認感受，再提供實際支持。",
+            "correct": true
+          },
+          {
+            "zh": "「小別勝新婚，所以你根本不用難過。」",
+            "en": "“Absence makes the heart grow fonder, so you have no reason to feel sad.”",
+            "reasonZh": "諺語不能否定對方當下的難過。",
+            "correct": false
+          },
+          {
+            "zh": "「既然你想念她，就證明所有分離都有好處。」",
+            "en": "“Because you miss her, every separation must be good.”",
+            "reasonZh": "個人的感受不能證明所有分離都有益。",
+            "correct": false
+          }
+        ]
+      },
+      "5": {
+        "prompt": {
+          "zh": "兩個朋友分開後更珍惜重聚。哪一句最自然？",
+          "en": "Two friends value their reunions more after living apart. Which line sounds natural?"
+        },
+        "options": [
+          {
+            "zh": "「我們現在更期待見面；看來小別勝新婚。」",
+            "en": "“We look forward to seeing each other even more now—absence makes the heart grow fonder.”",
+            "reasonZh": "說出重聚更受珍惜的變化。",
+            "correct": true
+          },
+          {
+            "zh": "「我們從沒分開過；看來小別勝新婚。」",
+            "en": "“We have never been apart—absence makes the heart grow fonder.”",
+            "reasonZh": "沒有分開，缺少諺語的必要條件。",
+            "correct": false
+          },
+          {
+            "zh": "「我們分開後完全忘了對方；看來小別勝新婚。」",
+            "en": "“We forgot each other completely while apart—absence makes the heart grow fonder.”",
+            "reasonZh": "淡忘與更掛念相反。",
+            "correct": false
+          }
+        ]
+      },
+      "6": {
+        "prompt": {
+          "zh": "哪個說法沒有超出諺語的意思？",
+          "en": "Which claim stays within the proverb’s meaning?"
+        },
+        "options": [
+          {
+            "zh": "「對某些人而言，暫別可能令感情更深。」",
+            "en": "“For some people, time apart may deepen affection.”",
+            "reasonZh": "保留了個人差異與可能性。",
+            "correct": true
+          },
+          {
+            "zh": "「只要分開，感情一定會變得更深。」",
+            "en": "“Whenever people separate, their affection must grow.”",
+            "reasonZh": "把常見可能性誤說成必然。",
+            "correct": false
+          },
+          {
+            "zh": "「彼此不聯絡，就一定能修好任何關係。」",
+            "en": "“No contact is guaranteed to repair any relationship.”",
+            "reasonZh": "諺語沒有保證修復關係。",
+            "correct": false
+          }
+        ]
+      }
+    }
+  }
+}

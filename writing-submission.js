@@ -2,8 +2,8 @@ import { createClassroomLiveSync } from './classroom-live-sync.mjs?v=20261028-1'
 let classroomLive, classroomSubmitted = null;
 import { normalizeQuestionImages, combineQuestionImages, planningText, imageGallery, imageUploader } from './writing-materials.mjs?v=20261028';
 import { TOPIC_PICKER_TRACKS, TOPIC_PICKER_LEAVES, writingTopicInPickerCategory } from './writing-topic-categories.mjs?v=20261028';
-import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261028-studio1';
-import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261028-studio1';
+import {mountWritingSynonyms} from './writing-synonyms.mjs?v=20261028-browse1';
+import {mountReferencePocket} from './writing-reference-pocket.mjs?v=20261028-browse1';
 import { WRITING_FUNCTIONS, composeFunctionAnswer, normalizeFunctionHelper } from './writing-function-helper.mjs?v=20261028-materials1';
 import { mountSentenceSupport } from './writing-sentence-support.mjs?v=20261028-materials1';
 import {createWritingAdminArchive} from './writing-admin-archive.mjs?v=20261027-styled1';
@@ -84,7 +84,7 @@ import {
   parseNumberedFeedbackBlocks,
   sliceFeedbackFormattingRuns
 } from "./writing-submission-feedback-tools.mjs?v=20260924-feedback-paste1";
-import { filterHomeworkResources } from "./schedule-homework-links.mjs?v=20260814-2";
+import { filterHomeworkResources } from "./schedule-homework-links.mjs?v=20261031-ielts-types1";
 import {
   createWritingProofreadingGate,
   formatWritingProofreading,
@@ -105,7 +105,7 @@ const DRAFT_KEY_PREFIX = "edmund-writing-submission-draft-v1";
 const ISSUE_QUEUE_KEY_PREFIX = "edmund-writing-submission-issue-queue-v1";
 const ADMIN_FEEDBACK_RECOVERY_KEY_PREFIX = "edmund-writing-admin-feedback-recovery-v1";
 const ADMIN_FEEDBACK_RECOVERY_MAX_AGE_MS = 7 * 24 * 60 * 60 * 1000;
-const TOPIC_CATALOG_VERSION = "20261015-writing-images1";
+const TOPIC_CATALOG_VERSION = "20261031-ielts-types1";
 const TOPIC_REFERENCE_VERSION = "20260911-dse-part-b";
 const MAX_FEEDBACK_SENTENCE_LINKS = 100;
 const MAX_FEEDBACK_BODY_BYTES = 512 * 1024;

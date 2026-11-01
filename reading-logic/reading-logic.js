@@ -360,6 +360,7 @@
       check.querySelector('[data-check-result]').textContent=answer.feedback;
       if(answer.correct){check.dataset.complete='true';check.querySelectorAll('[data-logic-check]').forEach((choice)=>{choice.disabled=true;});}
       document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:answer.correct}}));
+      document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', { detail: { scope: `reading-logic:${state.userId}:${moduleId}`, correct: answer.correct, mc: true } }));
       return;
     }
     const orderButton=event.target.closest('[data-order]');
@@ -389,10 +390,11 @@
       dashboard.querySelector('.logic-answer-status').textContent='';
       dashboard.querySelector('[data-analysis]')?.removeAttribute('hidden');
       document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:true}}));
+      document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', { detail: { scope: `reading-logic:${state.userId}:${moduleId}`, correct: true, mc: true } }));
     } else {
       const showing=option.classList.toggle('is-flipped');
       dashboard.querySelector('.logic-answer-status').textContent='這張卡片背面有提示。想一想，再選一次。';
-      if(showing){state.streak=0;saveProgress();updateStreakDisplay();document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:false}}));}
+      if(showing){state.streak=0;saveProgress();updateStreakDisplay();document.dispatchEvent(new CustomEvent('edmund:answer-result',{detail:{correct:false}}));document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', { detail: { scope: `reading-logic:${state.userId}:${moduleId}`, correct: false, mc: true } }));}
     }
   });
   window.addEventListener('scroll',()=>{

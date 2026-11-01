@@ -1,0 +1,4788 @@
+{
+  "slug": "another-day-in-paradise",
+  "title": "Another Day In Paradise",
+  "singer": "Phil Collins",
+  "translations": [
+    {
+      "english": "She calls out to the man on the street",
+      "chinese": "她向街上的一名男子出聲求助",
+      "lineId": "line-1"
+    },
+    {
+      "english": "\"Sir, can you help me?",
+      "chinese": "「先生，您能幫幫我嗎？",
+      "lineId": "line-2",
+      "startSeconds": 59.72,
+      "endSeconds": 62.68
+    },
+    {
+      "english": "It's cold, and I've nowhere to sleep",
+      "chinese": "天氣這麼冷，我卻連個棲身過夜的地方都沒有",
+      "lineId": "line-3",
+      "startSeconds": 64.74,
+      "endSeconds": 68.22
+    },
+    {
+      "english": "Is there somewhere you can tell me?\"",
+      "chinese": "您能告訴我，哪裡有地方可以讓我落腳嗎？」",
+      "lineId": "line-4",
+      "startSeconds": 68.22,
+      "endSeconds": 72.14
+    },
+    {
+      "english": "He walks on, doesn't look back",
+      "chinese": "他繼續往前走，連頭也不回",
+      "lineId": "line-5",
+      "startSeconds": 73.64,
+      "endSeconds": 77.28
+    },
+    {
+      "english": "He pretends he can't hear her",
+      "chinese": "他假裝沒有聽見她的呼喚",
+      "lineId": "line-6",
+      "startSeconds": 77.28,
+      "endSeconds": 81.86
+    },
+    {
+      "english": "Starts to whistle as he crosses the street",
+      "chinese": "穿越街道時，他甚至開始吹起口哨",
+      "lineId": "line-7",
+      "startSeconds": 82.86,
+      "endSeconds": 86.86
+    },
+    {
+      "english": "Seems embarrassed to be there",
+      "chinese": "彷彿連身處那個場面，都令他感到尷尬",
+      "lineId": "line-8",
+      "startSeconds": 86.86,
+      "endSeconds": 91.74
+    },
+    {
+      "english": "Oh, think twice",
+      "chinese": "噢，請再三想想吧",
+      "lineId": "line-9"
+    },
+    {
+      "english": "'Cause it's another day",
+      "chinese": "因為這不過又是平凡的一天",
+      "lineId": "line-10",
+      "startSeconds": 95.86,
+      "endSeconds": 98.0
+    },
+    {
+      "english": "For you and me in paradise",
+      "chinese": "對身處天堂般生活的你我而言",
+      "lineId": "line-11",
+      "startSeconds": 98.0,
+      "endSeconds": 100.76
+    },
+    {
+      "english": "Oh, think twice",
+      "chinese": "噢，請再三想想吧",
+      "lineId": "line-12"
+    },
+    {
+      "english": "'Cause it's another day for you",
+      "chinese": "因為對你而言，這不過又是一天",
+      "lineId": "line-13",
+      "startSeconds": 104.7,
+      "endSeconds": 108.36
+    },
+    {
+      "english": "You and me in paradise",
+      "chinese": "你和我，依然生活在天堂之中",
+      "lineId": "line-14"
+    },
+    {
+      "english": "Think about it",
+      "chinese": "好好想一想吧",
+      "lineId": "line-15",
+      "startSeconds": 119.5,
+      "endSeconds": 121.86
+    },
+    {
+      "english": "She calls out to the man on the street",
+      "chinese": "她再次向街上的男子出聲求助",
+      "lineId": "line-16",
+      "startSeconds": 129.8,
+      "endSeconds": 133.7
+    },
+    {
+      "english": "He can see she's been crying",
+      "chinese": "他看得出來，她剛剛哭過",
+      "lineId": "line-17",
+      "startSeconds": 134.58,
+      "endSeconds": 137.56
+    },
+    {
+      "english": "She's got blisters on the soles of her feet",
+      "chinese": "她的腳底早已磨出了水泡",
+      "lineId": "line-18",
+      "startSeconds": 139.32,
+      "endSeconds": 143.1
+    },
+    {
+      "english": "She can't walk, but she's trying",
+      "chinese": "她幾乎走不動了，卻仍努力邁開腳步",
+      "lineId": "line-19",
+      "startSeconds": 143.1,
+      "endSeconds": 147.12
+    },
+    {
+      "english": "Oh, think twice",
+      "chinese": "噢，請再三想想吧",
+      "lineId": "line-20",
+      "startSeconds": 148.1,
+      "endSeconds": 151.82
+    },
+    {
+      "english": "'Cause it's another day",
+      "chinese": "因為這不過又是平凡的一天",
+      "lineId": "line-21",
+      "startSeconds": 152.54,
+      "endSeconds": 154.5
+    },
+    {
+      "english": "For you and me in paradise",
+      "chinese": "對身處天堂般生活的你我而言",
+      "lineId": "line-22",
+      "startSeconds": 154.5,
+      "endSeconds": 157.28
+    },
+    {
+      "english": "Oh, think twice",
+      "chinese": "噢，請再三想想吧",
+      "lineId": "line-23",
+      "startSeconds": 158.1,
+      "endSeconds": 161.18
+    },
+    {
+      "english": "It's just another day for you",
+      "chinese": "對你而言，這不過又是平凡的一天",
+      "lineId": "line-24",
+      "startSeconds": 161.82,
+      "endSeconds": 164.98
+    },
+    {
+      "english": "You and me in paradise",
+      "chinese": "你和我，依然生活在天堂之中",
+      "lineId": "line-25",
+      "startSeconds": 165.58,
+      "endSeconds": 167.58
+    },
+    {
+      "english": "Just think about it",
+      "chinese": "請好好想一想吧",
+      "lineId": "line-26"
+    },
+    {
+      "english": "Oh, Lord",
+      "chinese": "噢，主啊",
+      "lineId": "line-27",
+      "startSeconds": 186.64,
+      "endSeconds": 189.1
+    },
+    {
+      "english": "Is there nothing more anybody can do?",
+      "chinese": "難道真的沒有人能再為她做些什麼嗎？",
+      "lineId": "line-28",
+      "startSeconds": 190.32,
+      "endSeconds": 195.1
+    },
+    {
+      "english": "Oh, Lord",
+      "chinese": "噢，主啊",
+      "lineId": "line-29",
+      "startSeconds": 196.58,
+      "endSeconds": 198.42
+    },
+    {
+      "english": "There must be something you can say",
+      "chinese": "您一定還有些話能夠指引我們吧",
+      "lineId": "line-30",
+      "startSeconds": 199.3,
+      "endSeconds": 203.08
+    },
+    {
+      "english": "You can tell from the lines on her face",
+      "chinese": "從她臉上深深的皺紋與紋路，就能看出",
+      "lineId": "line-31",
+      "startSeconds": 207.46,
+      "endSeconds": 211.48
+    },
+    {
+      "english": "You can see that she's been there",
+      "chinese": "她早已歷經無數艱辛",
+      "lineId": "line-32",
+      "startSeconds": 211.48,
+      "endSeconds": 215.88
+    },
+    {
+      "english": "Probably been moved on from every place",
+      "chinese": "或許無論走到哪裡，她都曾被人驅趕離開",
+      "lineId": "line-33",
+      "startSeconds": 216.86,
+      "endSeconds": 220.96
+    },
+    {
+      "english": "'Cause she didn't fit in there",
+      "chinese": "只因為她在那些地方，始終不被接納",
+      "lineId": "line-34",
+      "startSeconds": 220.96,
+      "endSeconds": 225.86
+    },
+    {
+      "english": "Oh, think twice",
+      "chinese": "噢，請再三想想吧",
+      "lineId": "line-35",
+      "startSeconds": 225.86,
+      "endSeconds": 229.46
+    },
+    {
+      "english": "'Cause it's another day",
+      "chinese": "因為這不過又是平凡的一天",
+      "lineId": "line-36"
+    },
+    {
+      "english": "For you and me in paradise",
+      "chinese": "對身處天堂般生活的你我而言",
+      "lineId": "line-37",
+      "startSeconds": 232.26,
+      "endSeconds": 235.1
+    },
+    {
+      "english": "Oh, think twice",
+      "chinese": "噢，請再三想想吧",
+      "lineId": "line-38",
+      "startSeconds": 235.86,
+      "endSeconds": 238.92
+    },
+    {
+      "english": "It's just another day for you",
+      "chinese": "對你而言，這不過又是平凡的一天",
+      "lineId": "line-39",
+      "startSeconds": 239.98,
+      "endSeconds": 242.62
+    },
+    {
+      "english": "You and me in paradise",
+      "chinese": "你和我，依然生活在天堂之中",
+      "lineId": "line-40",
+      "startSeconds": 242.62,
+      "endSeconds": 245.34
+    },
+    {
+      "english": "Just think about it",
+      "chinese": "請好好想一想吧",
+      "lineId": "line-41",
+      "startSeconds": 248.1,
+      "endSeconds": 251.34
+    },
+    {
+      "english": "Mm, think about it",
+      "chinese": "嗯，好好想一想吧",
+      "lineId": "line-42",
+      "startSeconds": 258.62,
+      "endSeconds": 260.58
+    },
+    {
+      "english": "It's just another day",
+      "chinese": "這不過又是平凡的一天",
+      "lineId": "line-43",
+      "startSeconds": 262.94,
+      "endSeconds": 265.78
+    },
+    {
+      "english": "For you and me in paradise",
+      "chinese": "對生活在天堂般世界的你我而言",
+      "lineId": "line-44",
+      "startSeconds": 265.78,
+      "endSeconds": 270.24
+    },
+    {
+      "english": "It's just another day",
+      "chinese": "這不過又是平凡的一天",
+      "lineId": "line-45",
+      "startSeconds": 271.72,
+      "endSeconds": 275.14
+    },
+    {
+      "english": "For you and me in paradise (Para—, paradise)",
+      "chinese": "對生活在天堂般世界的你我而言（天——天堂）",
+      "lineId": "line-46",
+      "startSeconds": 275.14,
+      "endSeconds": 281.1
+    },
+    {
+      "english": "Paradise (It's just another day for you and me)",
+      "chinese": "天堂（對你我而言，這不過又是平凡的一天）",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Uh, just think about it (In paradise)",
+      "chinese": "啊，請好好想一想吧（在天堂之中）",
+      "lineId": "line-48"
+    },
+    {
+      "english": "Paradise (It's just another day for you and me)",
+      "chinese": "天堂（對你我而言，這不過又是平凡的一天）",
+      "lineId": "line-49"
+    },
+    {
+      "english": "Just think about it (In paradise, para—, paradise)",
+      "chinese": "請好好想一想吧（在天堂之中，天——天堂）",
+      "lineId": "line-50",
+      "startSeconds": 286.88,
+      "endSeconds": 294.68
+    },
+    {
+      "english": "It's just in paradise (It's just another day for you and me)",
+      "chinese": "這不過是在天堂之中（對你我而言，這不過又是平凡的一天）",
+      "lineId": "line-51"
+    },
+    {
+      "english": "Mm, paradise (In paradise)",
+      "chinese": "嗯，天堂（在天堂之中）",
+      "lineId": "line-52"
+    },
+    {
+      "english": "Paradise, just another day (It's just another day for you and me)",
+      "chinese": "天堂裡，又是平凡的一天（對你我而言，這不過又是平凡的一天）",
+      "lineId": "line-53"
+    },
+    {
+      "english": "Think about it (In paradise, para—, paradise)",
+      "chinese": "好好想一想吧（在天堂之中，天——天堂）",
+      "lineId": "line-54"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-5",
+          "answer": "walks on",
+          "options": [
+            "turns round",
+            "walks on",
+            "steps back"
+          ],
+          "prompt": "He {{blank}}, doesn't look back",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-5",
+          "answer": "doesn't look back",
+          "options": [
+            "doesn't slow down",
+            "doesn't say much",
+            "doesn't look back"
+          ],
+          "prompt": "He walks on, {{blank}}",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-6",
+          "answer": "pretends he can't hear her",
+          "options": [
+            "claims he cannot see her",
+            "pretends he can't hear her",
+            "says he will come later"
+          ],
+          "prompt": "He {{blank}}",
+          "promptZh": "他假裝沒有聽見她的呼喚"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "Starts to whistle",
+          "options": [
+            "Starts to whistle",
+            "Begins to hurry",
+            "Stops to listen"
+          ],
+          "prompt": "{{blank}} as he crosses the street",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-8",
+          "answer": "to be there",
+          "options": [
+            "to stay here",
+            "to be there",
+            "to go home"
+          ],
+          "prompt": "Seems embarrassed {{blank}}",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-11",
+          "answer": "you and me",
+          "options": [
+            "him and her",
+            "you and me",
+            "them and us"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-15",
+          "answer": "Think about it",
+          "options": [
+            "Think about it",
+            "Talk about her",
+            "Look around you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "好好想一想吧"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-18",
+          "answer": "blisters",
+          "options": [
+            "bruises",
+            "splinters",
+            "blisters"
+          ],
+          "prompt": "She's got {{blank}} on the soles of her feet",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-19",
+          "answer": "she's trying",
+          "options": [
+            "she's trying",
+            "she's hiding",
+            "she's leaving"
+          ],
+          "prompt": "She can't walk, but {{blank}}",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-22",
+          "answer": "you and me",
+          "options": [
+            "her and him",
+            "us and them",
+            "you and me"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-27",
+          "answer": "Oh, Lord",
+          "options": [
+            "Oh, dear",
+            "Oh, Lord",
+            "Oh, no"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "噢，主啊"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-30",
+          "answer": "something you can say",
+          "options": [
+            "something you can say",
+            "someone you can save",
+            "somewhere we can stay"
+          ],
+          "prompt": "There must be {{blank}}",
+          "promptZh": "您一定還有些話能夠指引我們吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-33",
+          "answer": "moved on",
+          "options": [
+            "turned back",
+            "moved on",
+            "left alone"
+          ],
+          "prompt": "Probably been {{blank}} from every place",
+          "promptZh": "或許無論走到哪裡，她都曾被人驅趕離開"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-35",
+          "answer": "think twice",
+          "options": [
+            "think twice",
+            "come closer",
+            "look outside"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-39",
+          "answer": "another day for you",
+          "options": [
+            "a different life for me",
+            "a lonely night for her",
+            "another day for you"
+          ],
+          "prompt": "It's just {{blank}}",
+          "promptZh": "對你而言，這不過又是平凡的一天"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-43",
+          "answer": "It's just another day",
+          "options": [
+            "It's just another day",
+            "It's such a lonely night",
+            "It's been a long hard road"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這不過又是平凡的一天"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-46",
+          "answer": "For you and me in paradise",
+          "options": [
+            "For him and her in the darkness",
+            "For you and me in paradise",
+            "For all of us on the highway"
+          ],
+          "prompt": "{{blank}} (Para—, paradise)",
+          "promptZh": "對生活在天堂般世界的你我而言（天——天堂）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-47",
+          "answer": "another day for you and me",
+          "options": [
+            "another day for you and me",
+            "a quiet night for you and her",
+            "a better place for all of us"
+          ],
+          "prompt": "Paradise (It's just {{blank}})",
+          "promptZh": "天堂（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-51",
+          "answer": "just in paradise",
+          "options": [
+            "lost in the city",
+            "out in the cold",
+            "just in paradise"
+          ],
+          "prompt": "It's {{blank}} (It's just another day for you and me)",
+          "promptZh": "這不過是在天堂之中（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-54",
+          "answer": "Think about it",
+          "options": [
+            "Speak about her",
+            "Look around here",
+            "Think about it"
+          ],
+          "prompt": "{{blank}} (In paradise, para—, paradise)",
+          "promptZh": "好好想一想吧（在天堂之中，天——天堂）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "She calls out to the man on the street"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "\"Sir, can you help me?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's cold, and I've nowhere to sleep"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somewhere you can tell me?\""
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "He {{q:1}}, {{q:2}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:4}} as he crosses the street"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Seems embarrassed {{q:5}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "'Cause it's another day"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "For {{q:6}} in paradise"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "'Cause it's another day for you"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:7}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "She calls out to the man on the street"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "He can see she's been crying"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "She's got {{q:8}} on the soles of her feet"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "She can't walk, but {{q:9}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause it's another day"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:10}} in paradise"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's just another day for you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Just think about it"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Is there nothing more anybody can do?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Oh, Lord"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "There must be {{q:12}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You can tell from the lines on her face"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You can see that she's been there"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Probably been {{q:13}} from every place"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause she didn't fit in there"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, {{q:14}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause it's another day"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "For you and me in paradise"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's just {{q:15}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just think about it"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Mm, think about it"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "For you and me in paradise"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "It's just another day"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "{{q:17}} (Para—, paradise)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Paradise (It's just {{q:18}})"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Uh, just think about it (In paradise)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Paradise (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just think about it (In paradise, para—, paradise)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's {{q:19}} (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Mm, paradise (In paradise)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Paradise, just another day (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:20}} (In paradise, para—, paradise)"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-5",
+          "answer": "walks on",
+          "options": [
+            "turns round",
+            "steps back",
+            "walks on"
+          ],
+          "prompt": "He {{blank}}, doesn't look back",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-5",
+          "answer": "doesn't look back",
+          "options": [
+            "doesn't look back",
+            "doesn't slow down",
+            "doesn't say much"
+          ],
+          "prompt": "He walks on, {{blank}}",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-6",
+          "answer": "pretends he can't hear her",
+          "options": [
+            "claims he cannot see her",
+            "pretends he can't hear her",
+            "says he will come later"
+          ],
+          "prompt": "He {{blank}}",
+          "promptZh": "他假裝沒有聽見她的呼喚"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "Starts to whistle",
+          "options": [
+            "Begins to hurry",
+            "Starts to whistle",
+            "Stops to listen"
+          ],
+          "prompt": "{{blank}} as he crosses the street",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "crosses the street",
+          "options": [
+            "crosses the street",
+            "walks down the road",
+            "turns at the corner"
+          ],
+          "prompt": "Starts to whistle as he {{blank}}",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "Seems embarrassed",
+          "options": [
+            "Looks delighted",
+            "Seems embarrassed",
+            "Sounds impatient"
+          ],
+          "prompt": "{{blank}} to be there",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "to be there",
+          "options": [
+            "to stay here",
+            "to go home",
+            "to be there"
+          ],
+          "prompt": "Seems embarrassed {{blank}}",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "think twice",
+          "options": [
+            "think twice",
+            "look back",
+            "hold tight"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "another day",
+          "options": [
+            "another day",
+            "a brighter day",
+            "a lonely night"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you and me",
+          "options": [
+            "him and her",
+            "you and me",
+            "them and us"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "in paradise",
+          "options": [
+            "in the city",
+            "on the roadside",
+            "in paradise"
+          ],
+          "prompt": "For you and me {{blank}}",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "another day for you",
+          "options": [
+            "another night for us",
+            "a better life for her",
+            "another day for you"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為對你而言，這不過又是一天"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "Think about it",
+          "options": [
+            "Think about it",
+            "Talk about her",
+            "Look around you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "好好想一想吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "calls out to the man",
+          "options": [
+            "speaks softly to the child",
+            "runs over to the woman",
+            "calls out to the man"
+          ],
+          "prompt": "She {{blank}} on the street",
+          "promptZh": "她再次向街上的男子出聲求助"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-17",
+          "answer": "she's been crying",
+          "options": [
+            "she's been crying",
+            "she's been waiting",
+            "she's been sleeping"
+          ],
+          "prompt": "He can see {{blank}}",
+          "promptZh": "他看得出來，她剛剛哭過"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-18",
+          "answer": "blisters",
+          "options": [
+            "bruises",
+            "blisters",
+            "splinters"
+          ],
+          "prompt": "She's got {{blank}} on the soles of her feet",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "soles of her feet",
+          "options": [
+            "soles of her feet",
+            "backs of her hands",
+            "sides of her legs"
+          ],
+          "prompt": "She's got blisters on the {{blank}}",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "She can't walk",
+          "options": [
+            "She can't walk",
+            "She won't stop",
+            "She can run"
+          ],
+          "prompt": "{{blank}}, but she's trying",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "she's trying",
+          "options": [
+            "she's hiding",
+            "she's trying",
+            "she's leaving"
+          ],
+          "prompt": "She can't walk, but {{blank}}",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "think twice",
+          "options": [
+            "walk away",
+            "stay close",
+            "think twice"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "another day",
+          "options": [
+            "a final day",
+            "a rainy night",
+            "another day"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "you and me",
+          "options": [
+            "you and me",
+            "her and him",
+            "us and them"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "Oh, Lord",
+          "options": [
+            "Oh, dear",
+            "Oh, Lord",
+            "Oh, no"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "噢，主啊"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-30",
+          "answer": "something you can say",
+          "options": [
+            "something you can say",
+            "someone you can save",
+            "somewhere we can stay"
+          ],
+          "prompt": "There must be {{blank}}",
+          "promptZh": "您一定還有些話能夠指引我們吧"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-33",
+          "answer": "moved on",
+          "options": [
+            "turned back",
+            "moved on",
+            "left alone"
+          ],
+          "prompt": "Probably been {{blank}} from every place",
+          "promptZh": "或許無論走到哪裡，她都曾被人驅趕離開"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-35",
+          "answer": "think twice",
+          "options": [
+            "come closer",
+            "think twice",
+            "look outside"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-39",
+          "answer": "another day for you",
+          "options": [
+            "a different life for me",
+            "a lonely night for her",
+            "another day for you"
+          ],
+          "prompt": "It's just {{blank}}",
+          "promptZh": "對你而言，這不過又是平凡的一天"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-43",
+          "answer": "It's just another day",
+          "options": [
+            "It's such a lonely night",
+            "It's just another day",
+            "It's been a long hard road"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這不過又是平凡的一天"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-46",
+          "answer": "For you and me in paradise",
+          "options": [
+            "For him and her in the darkness",
+            "For all of us on the highway",
+            "For you and me in paradise"
+          ],
+          "prompt": "{{blank}} (Para—, paradise)",
+          "promptZh": "對生活在天堂般世界的你我而言（天——天堂）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-47",
+          "answer": "another day for you and me",
+          "options": [
+            "a quiet night for you and her",
+            "a better place for all of us",
+            "another day for you and me"
+          ],
+          "prompt": "Paradise (It's just {{blank}})",
+          "promptZh": "天堂（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-51",
+          "answer": "just in paradise",
+          "options": [
+            "just in paradise",
+            "lost in the city",
+            "out in the cold"
+          ],
+          "prompt": "It's {{blank}} (It's just another day for you and me)",
+          "promptZh": "這不過是在天堂之中（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-54",
+          "answer": "Think about it",
+          "options": [
+            "Speak about her",
+            "Think about it",
+            "Look around here"
+          ],
+          "prompt": "{{blank}} (In paradise, para—, paradise)",
+          "promptZh": "好好想一想吧（在天堂之中，天——天堂）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "She calls out to the man on the street"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "\"Sir, can you help me?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's cold, and I've nowhere to sleep"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somewhere you can tell me?\""
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "He {{q:1}}, {{q:2}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:4}} as he {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Oh, {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "'Cause it's {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "For {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "'Cause it's {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "She {{q:14}} on the street"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "He can see {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "She's got {{q:16}} on the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}}, but {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause it's {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:22}} in paradise"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "It's just another day for you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Just think about it"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Is there nothing more anybody can do?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Oh, Lord"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "There must be {{q:24}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You can tell from the lines on her face"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You can see that she's been there"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Probably been {{q:25}} from every place"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause she didn't fit in there"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, {{q:26}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause it's another day"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "For you and me in paradise"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's just {{q:27}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just think about it"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Mm, think about it"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "For you and me in paradise"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "It's just another day"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "{{q:29}} (Para—, paradise)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Paradise (It's just {{q:30}})"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Uh, just think about it (In paradise)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Paradise (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just think about it (In paradise, para—, paradise)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's {{q:31}} (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Mm, paradise (In paradise)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Paradise, just another day (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:32}} (In paradise, para—, paradise)"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-5",
+          "answer": "walks on",
+          "options": [
+            "turns round",
+            "steps back",
+            "walks on"
+          ],
+          "prompt": "He {{blank}}, doesn't look back",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-5",
+          "answer": "doesn't look back",
+          "options": [
+            "doesn't slow down",
+            "doesn't look back",
+            "doesn't say much"
+          ],
+          "prompt": "He walks on, {{blank}}",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-6",
+          "answer": "pretends he can't hear her",
+          "options": [
+            "pretends he can't hear her",
+            "claims he cannot see her",
+            "says he will come later"
+          ],
+          "prompt": "He {{blank}}",
+          "promptZh": "他假裝沒有聽見她的呼喚"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "Starts to whistle",
+          "options": [
+            "Begins to hurry",
+            "Stops to listen",
+            "Starts to whistle"
+          ],
+          "prompt": "{{blank}} as he crosses the street",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "crosses the street",
+          "options": [
+            "walks down the road",
+            "crosses the street",
+            "turns at the corner"
+          ],
+          "prompt": "Starts to whistle as he {{blank}}",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "Seems embarrassed",
+          "options": [
+            "Looks delighted",
+            "Sounds impatient",
+            "Seems embarrassed"
+          ],
+          "prompt": "{{blank}} to be there",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "to be there",
+          "options": [
+            "to stay here",
+            "to be there",
+            "to go home"
+          ],
+          "prompt": "Seems embarrassed {{blank}}",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "think twice",
+          "options": [
+            "think twice",
+            "look back",
+            "hold tight"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "another day",
+          "options": [
+            "another day",
+            "a brighter day",
+            "a lonely night"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you and me",
+          "options": [
+            "him and her",
+            "them and us",
+            "you and me"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "in paradise",
+          "options": [
+            "in paradise",
+            "in the city",
+            "on the roadside"
+          ],
+          "prompt": "For you and me {{blank}}",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "another day for you",
+          "options": [
+            "another night for us",
+            "another day for you",
+            "a better life for her"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為對你而言，這不過又是一天"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "Think about it",
+          "options": [
+            "Talk about her",
+            "Think about it",
+            "Look around you"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "好好想一想吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "calls out to the man",
+          "options": [
+            "speaks softly to the child",
+            "runs over to the woman",
+            "calls out to the man"
+          ],
+          "prompt": "She {{blank}} on the street",
+          "promptZh": "她再次向街上的男子出聲求助"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-17",
+          "answer": "she's been crying",
+          "options": [
+            "she's been waiting",
+            "she's been sleeping",
+            "she's been crying"
+          ],
+          "prompt": "He can see {{blank}}",
+          "promptZh": "他看得出來，她剛剛哭過"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-18",
+          "answer": "blisters",
+          "options": [
+            "blisters",
+            "bruises",
+            "splinters"
+          ],
+          "prompt": "She's got {{blank}} on the soles of her feet",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "soles of her feet",
+          "options": [
+            "soles of her feet",
+            "backs of her hands",
+            "sides of her legs"
+          ],
+          "prompt": "She's got blisters on the {{blank}}",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "She can't walk",
+          "options": [
+            "She won't stop",
+            "She can run",
+            "She can't walk"
+          ],
+          "prompt": "{{blank}}, but she's trying",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "she's trying",
+          "options": [
+            "she's hiding",
+            "she's trying",
+            "she's leaving"
+          ],
+          "prompt": "She can't walk, but {{blank}}",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "think twice",
+          "options": [
+            "walk away",
+            "think twice",
+            "stay close"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "another day",
+          "options": [
+            "a final day",
+            "a rainy night",
+            "another day"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "you and me",
+          "options": [
+            "her and him",
+            "you and me",
+            "us and them"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "It's just another day",
+          "options": [
+            "It's been a lonely night",
+            "It's just another day",
+            "It feels like yesterday"
+          ],
+          "prompt": "{{blank}} for you",
+          "promptZh": "對你而言，這不過又是平凡的一天"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "Just think about it",
+          "options": [
+            "Just think about it",
+            "Just look around here",
+            "Please talk about her"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "請好好想一想吧"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "Oh, Lord",
+          "options": [
+            "Oh, Lord",
+            "Oh, dear",
+            "Oh, no"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "噢，主啊"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "nothing more",
+          "options": [
+            "something else",
+            "nothing more",
+            "anything new"
+          ],
+          "prompt": "Is there {{blank}} anybody can do?",
+          "promptZh": "難道真的沒有人能再為她做些什麼嗎？"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "anybody can do",
+          "options": [
+            "anybody can do",
+            "everyone should know",
+            "someone wants to say"
+          ],
+          "prompt": "Is there nothing more {{blank}}?",
+          "promptZh": "難道真的沒有人能再為她做些什麼嗎？"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "something you can say",
+          "options": [
+            "someone you can save",
+            "somewhere we can stay",
+            "something you can say"
+          ],
+          "prompt": "There must be {{blank}}",
+          "promptZh": "您一定還有些話能夠指引我們吧"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "lines on her face",
+          "options": [
+            "lines on her face",
+            "tears in her eyes",
+            "marks on her coat"
+          ],
+          "prompt": "You can tell from the {{blank}}",
+          "promptZh": "從她臉上深深的皺紋與紋路，就能看出"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "she's been there",
+          "options": [
+            "she's still here",
+            "she's been there",
+            "she's gone home"
+          ],
+          "prompt": "You can see that {{blank}}",
+          "promptZh": "她早已歷經無數艱辛"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "moved on",
+          "options": [
+            "moved on",
+            "turned back",
+            "left alone"
+          ],
+          "prompt": "Probably been {{blank}} from every place",
+          "promptZh": "或許無論走到哪裡，她都曾被人驅趕離開"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "from every place",
+          "options": [
+            "from every place",
+            "to another town",
+            "through the dark streets"
+          ],
+          "prompt": "Probably been moved on {{blank}}",
+          "promptZh": "或許無論走到哪裡，她都曾被人驅趕離開"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-34",
+          "answer": "didn't fit in there",
+          "options": [
+            "couldn't find her way",
+            "wouldn't stay with them",
+            "didn't fit in there"
+          ],
+          "prompt": "'Cause she {{blank}}",
+          "promptZh": "只因為她在那些地方，始終不被接納"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-35",
+          "answer": "think twice",
+          "options": [
+            "come closer",
+            "look outside",
+            "think twice"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-39",
+          "answer": "another day for you",
+          "options": [
+            "a different life for me",
+            "another day for you",
+            "a lonely night for her"
+          ],
+          "prompt": "It's just {{blank}}",
+          "promptZh": "對你而言，這不過又是平凡的一天"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-43",
+          "answer": "It's just another day",
+          "options": [
+            "It's just another day",
+            "It's such a lonely night",
+            "It's been a long hard road"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這不過又是平凡的一天"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-46",
+          "answer": "For you and me in paradise",
+          "options": [
+            "For you and me in paradise",
+            "For him and her in the darkness",
+            "For all of us on the highway"
+          ],
+          "prompt": "{{blank}} (Para—, paradise)",
+          "promptZh": "對生活在天堂般世界的你我而言（天——天堂）"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-47",
+          "answer": "another day for you and me",
+          "options": [
+            "a quiet night for you and her",
+            "a better place for all of us",
+            "another day for you and me"
+          ],
+          "prompt": "Paradise (It's just {{blank}})",
+          "promptZh": "天堂（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-51",
+          "answer": "just in paradise",
+          "options": [
+            "lost in the city",
+            "out in the cold",
+            "just in paradise"
+          ],
+          "prompt": "It's {{blank}} (It's just another day for you and me)",
+          "promptZh": "這不過是在天堂之中（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-54",
+          "answer": "Think about it",
+          "options": [
+            "Speak about her",
+            "Think about it",
+            "Look around here"
+          ],
+          "prompt": "{{blank}} (In paradise, para—, paradise)",
+          "promptZh": "好好想一想吧（在天堂之中，天——天堂）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "She calls out to the man on the street"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "\"Sir, can you help me?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's cold, and I've nowhere to sleep"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somewhere you can tell me?\""
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "He {{q:1}}, {{q:2}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:4}} as he {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Oh, {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "'Cause it's {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "For {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "'Cause it's {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "She {{q:14}} on the street"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "He can see {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "She's got {{q:16}} on the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}}, but {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause it's {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:22}} in paradise"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:23}} for you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Is there {{q:26}} {{q:27}}?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Oh, Lord"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "There must be {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You can tell from the {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You can see that {{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Probably been {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause she {{q:33}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, {{q:34}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause it's another day"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "For you and me in paradise"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's just {{q:35}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just think about it"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Mm, think about it"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "For you and me in paradise"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "It's just another day"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "{{q:37}} (Para—, paradise)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Paradise (It's just {{q:38}})"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Uh, just think about it (In paradise)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Paradise (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Just think about it (In paradise, para—, paradise)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's {{q:39}} (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Mm, paradise (In paradise)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Paradise, just another day (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:40}} (In paradise, para—, paradise)"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-5",
+          "answer": "walks on",
+          "options": [
+            "turns round",
+            "steps back",
+            "walks on"
+          ],
+          "prompt": "He {{blank}}, doesn't look back",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-5",
+          "answer": "doesn't look back",
+          "options": [
+            "doesn't slow down",
+            "doesn't say much",
+            "doesn't look back"
+          ],
+          "prompt": "He walks on, {{blank}}",
+          "promptZh": "他繼續往前走，連頭也不回"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-6",
+          "answer": "pretends he can't hear her",
+          "options": [
+            "claims he cannot see her",
+            "pretends he can't hear her",
+            "says he will come later"
+          ],
+          "prompt": "He {{blank}}",
+          "promptZh": "他假裝沒有聽見她的呼喚"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "Starts to whistle",
+          "options": [
+            "Begins to hurry",
+            "Starts to whistle",
+            "Stops to listen"
+          ],
+          "prompt": "{{blank}} as he crosses the street",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "crosses the street",
+          "options": [
+            "crosses the street",
+            "walks down the road",
+            "turns at the corner"
+          ],
+          "prompt": "Starts to whistle as he {{blank}}",
+          "promptZh": "穿越街道時，他甚至開始吹起口哨"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-8",
+          "answer": "Seems embarrassed",
+          "options": [
+            "Looks delighted",
+            "Seems embarrassed",
+            "Sounds impatient"
+          ],
+          "prompt": "{{blank}} to be there",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "to be there",
+          "options": [
+            "to be there",
+            "to stay here",
+            "to go home"
+          ],
+          "prompt": "Seems embarrassed {{blank}}",
+          "promptZh": "彷彿連身處那個場面，都令他感到尷尬"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "think twice",
+          "options": [
+            "look back",
+            "hold tight",
+            "think twice"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "another day",
+          "options": [
+            "another day",
+            "a brighter day",
+            "a lonely night"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "you and me",
+          "options": [
+            "you and me",
+            "him and her",
+            "them and us"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "in paradise",
+          "options": [
+            "in the city",
+            "on the roadside",
+            "in paradise"
+          ],
+          "prompt": "For you and me {{blank}}",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "another day for you",
+          "options": [
+            "another night for us",
+            "another day for you",
+            "a better life for her"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為對你而言，這不過又是一天"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "Think about it",
+          "options": [
+            "Talk about her",
+            "Look around you",
+            "Think about it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "好好想一想吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "calls out to the man",
+          "options": [
+            "calls out to the man",
+            "speaks softly to the child",
+            "runs over to the woman"
+          ],
+          "prompt": "She {{blank}} on the street",
+          "promptZh": "她再次向街上的男子出聲求助"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-17",
+          "answer": "she's been crying",
+          "options": [
+            "she's been waiting",
+            "she's been sleeping",
+            "she's been crying"
+          ],
+          "prompt": "He can see {{blank}}",
+          "promptZh": "他看得出來，她剛剛哭過"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-18",
+          "answer": "blisters",
+          "options": [
+            "blisters",
+            "bruises",
+            "splinters"
+          ],
+          "prompt": "She's got {{blank}} on the soles of her feet",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "soles of her feet",
+          "options": [
+            "soles of her feet",
+            "backs of her hands",
+            "sides of her legs"
+          ],
+          "prompt": "She's got blisters on the {{blank}}",
+          "promptZh": "她的腳底早已磨出了水泡"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "She can't walk",
+          "options": [
+            "She won't stop",
+            "She can run",
+            "She can't walk"
+          ],
+          "prompt": "{{blank}}, but she's trying",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "she's trying",
+          "options": [
+            "she's hiding",
+            "she's trying",
+            "she's leaving"
+          ],
+          "prompt": "She can't walk, but {{blank}}",
+          "promptZh": "她幾乎走不動了，卻仍努力邁開腳步"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "think twice",
+          "options": [
+            "walk away",
+            "think twice",
+            "stay close"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-21",
+          "answer": "another day",
+          "options": [
+            "another day",
+            "a final day",
+            "a rainy night"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-22",
+          "answer": "you and me",
+          "options": [
+            "her and him",
+            "us and them",
+            "you and me"
+          ],
+          "prompt": "For {{blank}} in paradise",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "It's just another day",
+          "options": [
+            "It's been a lonely night",
+            "It's just another day",
+            "It feels like yesterday"
+          ],
+          "prompt": "{{blank}} for you",
+          "promptZh": "對你而言，這不過又是平凡的一天"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-26",
+          "answer": "Just think about it",
+          "options": [
+            "Just think about it",
+            "Just look around here",
+            "Please talk about her"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "請好好想一想吧"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-27",
+          "answer": "Oh, Lord",
+          "options": [
+            "Oh, Lord",
+            "Oh, dear",
+            "Oh, no"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "噢，主啊"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-28",
+          "answer": "nothing more",
+          "options": [
+            "something else",
+            "nothing more",
+            "anything new"
+          ],
+          "prompt": "Is there {{blank}} anybody can do?",
+          "promptZh": "難道真的沒有人能再為她做些什麼嗎？"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "anybody can do",
+          "options": [
+            "everyone should know",
+            "anybody can do",
+            "someone wants to say"
+          ],
+          "prompt": "Is there nothing more {{blank}}?",
+          "promptZh": "難道真的沒有人能再為她做些什麼嗎？"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-30",
+          "answer": "something you can say",
+          "options": [
+            "someone you can save",
+            "somewhere we can stay",
+            "something you can say"
+          ],
+          "prompt": "There must be {{blank}}",
+          "promptZh": "您一定還有些話能夠指引我們吧"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "lines on her face",
+          "options": [
+            "lines on her face",
+            "tears in her eyes",
+            "marks on her coat"
+          ],
+          "prompt": "You can tell from the {{blank}}",
+          "promptZh": "從她臉上深深的皺紋與紋路，就能看出"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "she's been there",
+          "options": [
+            "she's been there",
+            "she's still here",
+            "she's gone home"
+          ],
+          "prompt": "You can see that {{blank}}",
+          "promptZh": "她早已歷經無數艱辛"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "moved on",
+          "options": [
+            "turned back",
+            "moved on",
+            "left alone"
+          ],
+          "prompt": "Probably been {{blank}} from every place",
+          "promptZh": "或許無論走到哪裡，她都曾被人驅趕離開"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "from every place",
+          "options": [
+            "to another town",
+            "from every place",
+            "through the dark streets"
+          ],
+          "prompt": "Probably been moved on {{blank}}",
+          "promptZh": "或許無論走到哪裡，她都曾被人驅趕離開"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-34",
+          "answer": "didn't fit in there",
+          "options": [
+            "couldn't find her way",
+            "wouldn't stay with them",
+            "didn't fit in there"
+          ],
+          "prompt": "'Cause she {{blank}}",
+          "promptZh": "只因為她在那些地方，始終不被接納"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-35",
+          "answer": "think twice",
+          "options": [
+            "come closer",
+            "think twice",
+            "look outside"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，請再三想想吧"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-36",
+          "answer": "another day",
+          "options": [
+            "a darker night",
+            "a brighter life",
+            "another day"
+          ],
+          "prompt": "'Cause it's {{blank}}",
+          "promptZh": "因為這不過又是平凡的一天"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-37",
+          "answer": "in paradise",
+          "options": [
+            "in the cold rain",
+            "on the pavement",
+            "in paradise"
+          ],
+          "prompt": "For you and me {{blank}}",
+          "promptZh": "對身處天堂般生活的你我而言"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-39",
+          "answer": "another day for you",
+          "options": [
+            "a different life for me",
+            "another day for you",
+            "a lonely night for her"
+          ],
+          "prompt": "It's just {{blank}}",
+          "promptZh": "對你而言，這不過又是平凡的一天"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-41",
+          "answer": "Just think about it",
+          "options": [
+            "Just look around you",
+            "Just think about it",
+            "Please remember her"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "請好好想一想吧"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-42",
+          "answer": "think about it",
+          "options": [
+            "talk about us",
+            "walk away now",
+            "think about it"
+          ],
+          "prompt": "Mm, {{blank}}",
+          "promptZh": "嗯，好好想一想吧"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-43",
+          "answer": "It's just another day",
+          "options": [
+            "It's such a lonely night",
+            "It's just another day",
+            "It's been a long hard road"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這不過又是平凡的一天"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-44",
+          "answer": "you and me in paradise",
+          "options": [
+            "her and him on the street",
+            "all of us in the city",
+            "you and me in paradise"
+          ],
+          "prompt": "For {{blank}}",
+          "promptZh": "對生活在天堂般世界的你我而言"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-45",
+          "answer": "It's just another day",
+          "options": [
+            "It's just another day",
+            "It's still a winter night",
+            "It's only yesterday"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "這不過又是平凡的一天"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-46",
+          "answer": "For you and me in paradise",
+          "options": [
+            "For him and her in the darkness",
+            "For all of us on the highway",
+            "For you and me in paradise"
+          ],
+          "prompt": "{{blank}} (Para—, paradise)",
+          "promptZh": "對生活在天堂般世界的你我而言（天——天堂）"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-47",
+          "answer": "another day for you and me",
+          "options": [
+            "another day for you and me",
+            "another night for him and her",
+            "a different world for everyone"
+          ],
+          "prompt": "Paradise (It's just {{blank}})",
+          "promptZh": "天堂（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-48",
+          "answer": "just think about it",
+          "options": [
+            "just turn around now",
+            "just think about it",
+            "just listen to her"
+          ],
+          "prompt": "Uh, {{blank}} (In paradise)",
+          "promptZh": "啊，請好好想一想吧（在天堂之中）"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-49",
+          "answer": "another day for you and me",
+          "options": [
+            "another day for you and me",
+            "a quiet night for you and her",
+            "a better place for all of us"
+          ],
+          "prompt": "Paradise (It's just {{blank}})",
+          "promptZh": "天堂（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-50",
+          "answer": "Just think about it",
+          "options": [
+            "Just talk about it",
+            "Just forget about it",
+            "Just think about it"
+          ],
+          "prompt": "{{blank}} (In paradise, para—, paradise)",
+          "promptZh": "請好好想一想吧（在天堂之中，天——天堂）"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-51",
+          "answer": "just in paradise",
+          "options": [
+            "just in paradise",
+            "lost in the city",
+            "out in the cold"
+          ],
+          "prompt": "It's {{blank}} (It's just another day for you and me)",
+          "promptZh": "這不過是在天堂之中（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-53",
+          "answer": "just another day",
+          "options": [
+            "just another day",
+            "such a lonely night",
+            "one more cold morning"
+          ],
+          "prompt": "Paradise, {{blank}} (It's just another day for you and me)",
+          "promptZh": "天堂裡，又是平凡的一天（對你我而言，這不過又是平凡的一天）"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-54",
+          "answer": "Think about it",
+          "options": [
+            "Speak about her",
+            "Think about it",
+            "Look around here"
+          ],
+          "prompt": "{{blank}} (In paradise, para—, paradise)",
+          "promptZh": "好好想一想吧（在天堂之中，天——天堂）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "She calls out to the man on the street"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "\"Sir, can you help me?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "It's cold, and I've nowhere to sleep"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Is there somewhere you can tell me?\""
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "He {{q:1}}, {{q:2}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "He {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:4}} as he {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Oh, {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "'Cause it's {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "For {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "'Cause it's {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "She {{q:14}} on the street"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "He can see {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "She's got {{q:16}} on the {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:18}}, but {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Oh, {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "'Cause it's {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:22}} in paradise"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:23}} for you"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Is there {{q:26}} {{q:27}}?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Oh, Lord"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "There must be {{q:28}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You can tell from the {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "You can see that {{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Probably been {{q:31}} {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Cause she {{q:33}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Oh, {{q:34}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "'Cause it's {{q:35}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "For you and me {{q:36}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Oh, think twice"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's just {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You and me in paradise"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Mm, {{q:39}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "For {{q:41}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "{{q:43}} (Para—, paradise)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Paradise (It's just {{q:44}})"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Uh, {{q:45}} (In paradise)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Paradise (It's just {{q:46}})"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "{{q:47}} (In paradise, para—, paradise)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "It's {{q:48}} (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Mm, paradise (In paradise)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Paradise, {{q:49}} (It's just another day for you and me)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:50}} (In paradise, para—, paradise)"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Another Day In Paradise · Listening & Vocabulary",
+  "description": "《Another Day in Paradise》描寫社會中無家可歸者所面對的貧困、孤獨與冷漠，呼籲人們關注弱勢群體的處境。歌中的女子在寒冷的街頭向路人求助，卻遭到漠視，對方甚至刻意避開，假裝沒有聽見她的呼喊。她雙腳受傷、疲憊不堪，仍然努力尋找容身之所，卻始終得不到理解與幫助。歌曲以「天堂」諷刺生活安穩的人對他人苦難的無動於衷，並反覆提醒人們重新思考自己的態度。最終，《Another Day in Paradise》傳達的是同理心、社會責任與人道關懷：當我們享受平凡而舒適的生活時，也應看見那些正在受苦的人，學會放下冷漠，以尊重、理解與實際行動，為有需要的人帶來希望與溫暖。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "call out to",
+      "meaning": "向某人高聲喊話",
+      "usage": "想吸引遠處某人的注意時使用；常接人。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The guide called out to the meeting because the clock was late.",
+        "The actor called out to a new name for his movie.",
+        "Maya called out to the bus driver when she saw her bag on the bus.",
+        "Our teacher called out to that the test was easy."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯：call out to 後面通常接被呼喊的人；會議和時鐘也不會「遲到」。",
+        "錯：要說「替電影想名字」可用 chose a new name，不能用 call out to。",
+        "對：Maya 大聲呼喊公車司機，想拿回留在車上的包包。",
+        "錯：call out to 不能直接接 that 子句；可以說 called out that...。"
+      ],
+      "explanation": "對：Maya 大聲呼喊公車司機，想拿回留在車上的包包。"
+    },
+    {
+      "number": 2,
+      "word": "pretend",
+      "meaning": "假裝",
+      "usage": "明明不是如此，卻故意表現得像真的一樣；常用 pretend to + 動詞。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The reporter pretended the station at seven every morning.",
+        "My uncle pretends very loudly when he sings at family parties.",
+        "Please pretend me your ticket before entering the museum.",
+        "Leo pretended to be a famous chef, but he could not boil an egg."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯：pretend 不是「到達」，應說 arrived at the station。",
+        "錯：pretend 不是「唱歌」，這裡應說 sings very loudly。",
+        "錯：出示票券應用 show me your ticket，不能用 pretend me。",
+        "對：Leo 假裝自己是名廚，卻連水煮蛋都不會做。"
+      ],
+      "explanation": "對：Leo 假裝自己是名廚，卻連水煮蛋都不會做。"
+    },
+    {
+      "number": 3,
+      "word": "embarrassed",
+      "meaning": "尷尬的；難為情的",
+      "usage": "形容「人」感到不好意思；令人尷尬的事則常用 embarrassing。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The science test was embarrassed, so nobody knew the answers.",
+        "Nina felt embarrassed when her phone rang during the quiet play.",
+        "We embarrassed to the train because it left early.",
+        "The new library opened with an embarrassed of books."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯：考試「令人尷尬」要用 embarrassing；若指很難，可用 difficult。",
+        "對：安靜的舞台劇中手機突然響起，Nina 覺得很尷尬。",
+        "錯：embarrassed 是形容詞，不能當「趕車」的動詞；可說 ran to the train。",
+        "錯：embarrassed 不是表示「大量」的名詞；可說 lots of books。"
+      ],
+      "explanation": "對：安靜的舞台劇中手機突然響起，Nina 覺得很尷尬。"
+    },
+    {
+      "number": 4,
+      "word": "think twice",
+      "meaning": "三思；重新考慮",
+      "usage": "做重要或可能有風險的事之前，先仔細想清楚。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The dancer thought twice across the stage in ten seconds.",
+        "My aunt thinks twice every birthday, so she is now sixty.",
+        "The pilot thought twice the plane after the long flight.",
+        "Think twice before posting that angry message online."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯：think twice 不是「跳兩次」；應說 danced across the stage twice。",
+        "錯：think twice 不是「一年過兩次生日」；應說 has two birthdays。",
+        "錯：think twice 不能表示「檢查飛機兩次」；應說 checked the plane twice。",
+        "對：生氣時發文前先三思，可能避免後悔。"
+      ],
+      "explanation": "對：生氣時發文前先三思，可能避免後悔。"
+    },
+    {
+      "number": 5,
+      "word": "blister",
+      "meaning": "水泡；（皮膚上的）小水泡",
+      "usage": "鞋子磨腳、長時間走路或輕微燙傷時可能出現。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "After the long hike, Daniel found a blister on his heel.",
+        "The singer had a blister in her voice, so she sang softly.",
+        "Our computer showed a blister because the internet was slow.",
+        "The museum was closed for a blister of three hours."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "對：健行後腳跟磨出了水泡，搭配自然。",
+        "錯：聲音沙啞應說 a sore throat 或 a weak voice；blister 指皮膚上的水泡。",
+        "錯：電腦網路慢不會出現皮膚水泡；可以說 an error message。",
+        "錯：blister 不能指時間長度；應說 for three hours。"
+      ],
+      "explanation": "對：健行後腳跟磨出了水泡，搭配自然。"
+    },
+    {
+      "number": 6,
+      "word": "sole",
+      "meaning": "腳底；鞋底",
+      "usage": "指腳或鞋子最下面的部分；注意 sole 也可表示「唯一的」。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The astronaut wrote the report on the sole of the moon.",
+        "There was a small stone in the sole of my running shoe.",
+        "The band played a new sole at the music festival.",
+        "A bright sole appeared in the sky after the rain."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯：月球的表面是 surface；sole 指腳底或鞋底。",
+        "對：鞋底卡了一顆小石頭，sole 用得正確。",
+        "錯：樂團演奏的是 song，不是 sole。",
+        "錯：雨後天空出現的可能是 rainbow；sole 不是彩虹。"
+      ],
+      "explanation": "對：鞋底卡了一顆小石頭，sole 用得正確。"
+    },
+    {
+      "number": 7,
+      "word": "tell from",
+      "meaning": "從……看出、判斷",
+      "usage": "從表情、聲音、痕跡等線索推知某件事；常用 can tell from... that...。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "I could tell from her smile that she liked the surprise party.",
+        "We told from the airport at six and reached the hotel at seven.",
+        "The judge told from a new rule for the football game.",
+        "Tara told from her sister a funny story about a robot."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "對：從她的笑容可看出她喜歡這場驚喜派對。",
+        "錯：表示從機場出發應用 left the airport；tell from 不表示出發。",
+        "錯：制定規則應說 made a new rule；tell from 不是「訂定」。",
+        "錯：告訴姊妹故事應說 told her sister a story；不需要 from。"
+      ],
+      "explanation": "對：從她的笑容可看出她喜歡這場驚喜派對。"
+    },
+    {
+      "number": 8,
+      "word": "fit in",
+      "meaning": "融入；與群體合得來",
+      "usage": "在新學校、社團、工作團隊等環境中感到被接納。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "We fitted in the bus at five, so it arrived on time.",
+        "My phone did not fit in with the weather, so it started to rain.",
+        "At first, Eva felt shy, but she soon fit in with her new basketball team.",
+        "The artist fit in a song to the wall with blue paint."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯：fit in 不是「預訂」或「開動」公車；可說 got on the bus。",
+        "錯：手機不會與天氣「融入群體」；這裡語意不通。",
+        "對：Eva 一開始害羞，後來融入了新的籃球隊。",
+        "錯：在牆上作畫應用 painted；fit in 不是畫畫。"
+      ],
+      "explanation": "對：Eva 一開始害羞，後來融入了新的籃球隊。"
+    },
+    {
+      "number": 9,
+      "word": "look back",
+      "meaning": "回頭看；回顧過去",
+      "usage": "可指真的向後看，也可指回想過去；look back on 表示回顧某段經歷。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The nurse looked back a new medicine for the patient.",
+        "When I look back on my first job, I remember how nervous I was.",
+        "The camera looked back the stars into a larger picture.",
+        "The city looked back a new bridge across the river last year."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯：尋找藥物應說 looked for a new medicine；look back 不表示尋找。",
+        "對：回顧第一份工作，想起當時的緊張感。",
+        "錯：放大影像應用 zoomed in on；look back 不是放大。",
+        "錯：興建橋梁應說 built a new bridge；look back 不表示建造。"
+      ],
+      "explanation": "對：回顧第一份工作，想起當時的緊張感。"
+    },
+    {
+      "number": 10,
+      "word": "move someone on",
+      "meaning": "請某人離開；要求移往別處",
+      "usage": "常指警察、保全或管理人員要求某人不要停留在某個地方；語境可能涉及權力與處境。",
+      "prompt": "哪一句使用正確？",
+      "options": [
+        "The guard moved the visitors on when the museum was closing.",
+        "The editor moved the article on because it had too many spelling mistakes.",
+        "I moved on my passport before flying to Japan.",
+        "The coach moved the team on a victory after the match."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "對：博物館要關門時，警衛請參觀者離開。",
+        "錯：move someone on 是要求「人」離開；修改文章應說 edited the article。",
+        "錯：護照需要檢查可說 checked my passport；move on 不表示檢查。",
+        "錯：贏球應說 led the team to a victory；此句的 move on 搭配不對。"
+      ],
+      "explanation": "對：博物館要關門時，警衛請參觀者離開。"
+    }
+  ],
+  "tags": [
+    "phil collins",
+    "another day in paradise",
+    "compassion",
+    "homelessness"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/another-day-in-paradise/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/another-day-in-paradise/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 323.0533125,
+    "audioSha256": "2bb13e92d99948db0eb285357ff9b159766ca81bfa2f2b88e0c4f55aff11f2c5",
+    "timedLines": 41,
+    "untimedLines": 13,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Another Day In Paradise_.pdf",
+      "sha256": "0384010a0fad5472d1ffbe8305adb4a58953ea5c7f55fbe7bc143f5d1f78bced"
+    },
+    "chosenListening": {
+      "filename": "Another_Day_In_Paradise_Four_Level_Listening_Exercise.md",
+      "sha256": "c9ae6779a89fe6c29d1efc7935f12deb3677bff5cd9075454c2acb849ff46053"
+    },
+    "chosenVocabulary": {
+      "filename": "Another_Day_in_Paradise_Vocabulary_Quiz.txt",
+      "sha256": "fdac9506ef82d81e9ed739015181e6b9f7d7e221d0cc5aeffc1ef509691135d1"
+    },
+    "mp3": {
+      "filename": "Another Day in Paradise (2016 Remaster) [x_XS5q0EUQs].mp3",
+      "sha256": "2bb13e92d99948db0eb285357ff9b159766ca81bfa2f2b88e0c4f55aff11f2c5"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-6372a783-fd35-4f84-8fb5-ff271c22403e.png",
+    "sha256": "2df0cd137b07dc88bf52a52b7526137a33a4a931a7498fd2e260576123dcb0a6",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Whistle (B1)",
+          "meaning": "吹口哨；以口哨聲示意。",
+          "usage": "開心時哼出旋律、引起注意，或用口哨傳遞訊號時使用。要分清楚「吹口哨」與「唱歌」、「大喊」。",
+          "prompt": "哪一句正確使用「whistle」？",
+          "options": [
+            "The baker whistled the dough until it became bread.",
+            "The librarian whistled the pages into the computer.",
+            "The referee whistled loudly to start the match.",
+            "The dentist whistled my tooth to make it cleaner."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "製作麵包需要揉麵團、烘烤；不是對麵團吹口哨。",
+            "把書頁輸入電腦可以說 scan the pages，不是 whistle。",
+            "裁判吹口哨示意比賽開始；此處 whistle 表示發出口哨聲。",
+            "清潔牙齒可用 clean，吹口哨並不是牙科清潔動作。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "裁判吹口哨示意比賽開始；此處 whistle 表示發出口哨聲。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Walk on (B1；此處表示繼續往前走)",
+          "meaning": "繼續走；不停下腳步。",
+          "usage": "遇到某事但沒有停留、繼續前進時使用。歌曲中這個動作帶有不願停下回應的意味，但片語本身不一定表示冷漠。",
+          "prompt": "哪一句正確使用「walk on」？",
+          "options": [
+            "The artist walked on the portrait with a small brush.",
+            "We rested for a minute, then walked on uphill.",
+            "My sister walked on the radio to hear the news.",
+            "The chef walked on the soup to improve its taste."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "用畫筆畫肖像應說 painted the portrait，不是 walked on。",
+            "休息一會兒之後又繼續上坡走，符合「繼續前進」。",
+            "想聽廣播通常要 turn on the radio，不是 walk on。",
+            "改善湯的味道可以加香料；walk on 不是烹飪方法。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "休息一會兒之後又繼續上坡走，符合「繼續前進」。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Nowhere (B1)",
+          "meaning": "無處；沒有任何地方。",
+          "usage": "表示找不到可去的地方、某物無處可放，或某件事沒有可行的地點時使用。常見於 nowhere to go / nowhere to sit / nowhere to park。",
+          "prompt": "哪一句正確使用「nowhere」？",
+          "options": [
+            "We parked nowhere beside the museum's front door.",
+            "She bought two nowheres at the market this morning.",
+            "My brother was nowhere his jacket before the party.",
+            "Every seat was taken, so we had nowhere to sit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "既然說停在博物館門前，就已指出具體地點；不能在此用 nowhere 表示停車位置。",
+            "nowhere 不是可數商品，不能「買兩個」。",
+            "尋找外套應說 couldn't find his jacket，不能用 nowhere 代替動詞。",
+            "所有座位都有人，因此完全沒有地方可坐；nowhere to sit 很自然。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "所有座位都有人，因此完全沒有地方可坐；nowhere to sit 很自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Paradise (B2；比喻用法)",
+          "meaning": "天堂；（比喻）令人極度幸福、舒適或美好的地方。",
+          "usage": "形容某個地方或生活狀態美好得像天堂。歌曲使用這個字時有強烈反諷：不同人的生活處境可能截然不同。",
+          "prompt": "哪一句正確使用「paradise」的比喻意思？",
+          "options": [
+            "With warm beaches and quiet mornings, the island felt like paradise.",
+            "The mechanic used paradise to repair my old bicycle.",
+            "The cashier gave me three paradises with my change.",
+            "The coach measured paradise before the basketball game."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "用 paradise 比喻海島生活非常舒適、美好。",
+            "paradise 不是修理腳踏車的工具。",
+            "paradise 在此不是收銀員找零時發給你的可數物品。",
+            "paradise 不是能用尺測量的運動數據。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "用 paradise 比喻海島生活非常舒適、美好。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Lines on someone's face (B2；意象表達)",
+          "meaning": "臉上的紋路、皺紋；有時令人聯想到年歲與人生經歷。",
+          "usage": "描寫年紀、外貌或歲月留下的痕跡。Lines 在這個語境不是排隊的隊伍，也不是台詞。",
+          "prompt": "哪一句正確使用「lines on someone's face」？",
+          "options": [
+            "The driver painted two lines on her face of the road.",
+            "The actor memorised the lines on his face for Friday.",
+            "Years of smiling had left fine lines on her face.",
+            "The singer drew lines on her face to fix the microphone."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "道路標線在路面上，不是「道路的臉上」。",
+            "演員背的是 lines（台詞），不是 lines on his face（臉部紋路）。",
+            "長年微笑讓她臉上留下細紋，符合外貌描述。",
+            "在臉上畫線不能修理麥克風；這裡的動作與目標不相符。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "長年微笑讓她臉上留下細紋，符合外貌描述。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Probably (B1)",
+          "meaning": "很可能；大概（有相當把握，但不是百分之百確定）。",
+          "usage": "有一些理由作判斷，卻不能完全肯定時使用；與 definitely（肯定地）或 possibly（有可能）語氣不同。",
+          "prompt": "哪一句最自然、準確地使用「probably」？",
+          "options": [
+            "The train probably definitely arrived, without any doubt.",
+            "The clouds look dark; it will probably rain soon.",
+            "The dog wore a probably collar at the weekend market.",
+            "I probably the ticket at the station yesterday afternoon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "probably 表示不完全確定；和 definitely / without any doubt 連用會造成不必要的確定程度衝突。",
+            "看見烏雲，因此推測很可能會下雨，語氣自然。",
+            "probably 不能像形容詞一樣直接形容 collar；可以說 The dog probably wore a collar.",
+            "probably 是副詞，不是「買票」的動詞；可以說 I probably bought the ticket yesterday."
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "看見烏雲，因此推測很可能會下雨，語氣自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Been there (B2；依語境可能有比喻義)",
+          "meaning": "去過那裡；（引申）經歷過那種處境。",
+          "usage": "表示自己能體會某個困難，因為曾經有類似經驗。注意：歌詞只寫 she's been there；結合前後文可以作經歷艱難的理解，但不是唯一可能的字面解讀。",
+          "prompt": "哪一句正確使用「been there」表示「有過類似經驗」？",
+          "options": [
+            "I know how scary the first day feels. I've been there.",
+            "We have been there a new phone for my father's birthday.",
+            "I've been there the cake, so please add more sugar.",
+            "My camera has been there the music at full volume."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "說話的人也經歷過第一天的緊張，因此能理解對方。",
+            "購買手機應用 bought a new phone；been there 不能代替購買動作。",
+            "been there 不表示替蛋糕加糖；句子也沒有合理的經驗語境。",
+            "播放音樂可說 played the music；been there 不是音量操作。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "說話的人也經歷過第一天的緊張，因此能理解對方。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "call out to + person",
+          "meaning": "向某人高聲呼喊，以引起對方注意。",
+          "usage": "對方在遠處、環境嘈雜，或你急需對方注意時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The farmer called out to his son across the field because dinner was ready.",
+            "The farmer called out to a potato because it was late for dinner.",
+            "The farmer called out to the rain to ask where his keys were.",
+            "The farmer called out to his hat, and the hat answered in English."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "兒子在田的另一邊，父親大聲呼喊有清楚目的。",
+            "馬鈴薯不是能聽懂呼喊的人，情境不合理。",
+            "向雨詢問鑰匙位置不符合一般溝通情境。",
+            "帽子不會回答問題，這是刻意設計的荒謬情境。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "“She calls out to the man on the street”",
+          "pattern": [
+            {
+              "text": "[發出呼喊的人]",
+              "fixed": false
+            },
+            {
+              "text": "call(s) out to",
+              "fixed": true
+            },
+            {
+              "text": "[被呼喊的人]",
+              "fixed": false
+            }
+          ],
+          "example": "The coach called out to the players.",
+          "explanation": "兒子在田的另一邊，父親大聲呼喊有清楚目的。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Can + subject + base verb...?",
+          "meaning": "詢問能力，也可禮貌請求協助。",
+          "usage": "需要別人幫忙，或想知道對方能否做一件事時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "Can you give me the moon before lunch?",
+            "Can you hold this ladder while I paint the wall?",
+            "Can the painting drive us to the concert?",
+            "Can your shoes cook dinner while you sleep?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "把月亮交給別人並不是現實可行的要求。",
+            "粉刷時請別人扶梯子，是清楚可行的請求。",
+            "畫作不能開車，能力與對象不相符。",
+            "鞋子不會煮飯，所問能力不合理。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "“Sir, can you help me?”",
+          "pattern": [
+            {
+              "text": "Can",
+              "fixed": true
+            },
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "[事情]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "Can you open this box?",
+          "explanation": "粉刷時請別人扶梯子，是清楚可行的請求。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "have nowhere to + base verb",
+          "meaning": "表示沒有任何合適的地方可以做某件事。",
+          "usage": "所有座位、地方或空間都不適合時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The train is full, so we have nowhere to sit.",
+            "There is a free room for us, so we have nowhere to sleep.",
+            "I have nowhere to put the cake because there are ten free tables.",
+            "We have nowhere to swim because the pool is open and empty."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "火車沒有空位，所以無處可坐。",
+            "既然已有空房間，就不是無處可睡。",
+            "已有很多空桌子，與 nowhere to put 矛盾。",
+            "游泳池開放又空曠，不支持「沒有地方游泳」。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "“I've nowhere to sleep”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "have/has nowhere to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "We have nowhere to sit.",
+          "explanation": "火車沒有空位，所以無處可坐。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Is there + somewhere + (subject + verb)?",
+          "meaning": "問是否存在一個符合需要的地方；後面可補充那地方能做甚麼。",
+          "usage": "需要尋找休息、工作、見面等適合的位置時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "Is there somewhere I can sleep? My bed is free and I am already in it.",
+            "Is there somewhere we can park? We are already in an empty car park.",
+            "Is there somewhere to buy food? I have just bought everything I need here.",
+            "Is there somewhere we can sing? The hall is closed, but the music room is open."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "人已躺在空著的床上，沒有找睡處的需要。",
+            "正處於空的停車場，已有可停車的地方。",
+            "已買齊所有食物，情境沒有購買需求。",
+            "大禮堂關閉，但仍需要找另一個可唱歌的地方。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "“Is there somewhere you can tell me?”",
+          "pattern": [
+            {
+              "text": "Is there",
+              "fixed": true
+            },
+            {
+              "text": "[某個地方]",
+              "fixed": false
+            },
+            {
+              "text": "[進一步說明]",
+              "fixed": false
+            },
+            {
+              "text": "?",
+              "fixed": true
+            }
+          ],
+          "example": "Is there somewhere we can rest?",
+          "explanation": "大禮堂關閉，但仍需要找另一個可唱歌的地方。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "walk on / keep moving",
+          "meaning": "繼續往前走，不停下來。",
+          "usage": "想描述人在途中繼續前進時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The hikers rested for ten minutes and then walked on towards the lake.",
+            "After the guide said stop, everyone walked on and stayed completely still.",
+            "When the road ended at a wall, the driver walked on in his car.",
+            "The children walked on, but they stayed in the same chairs all day."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "休息完繼續徒步走向湖泊，語境自然。",
+            "walked on 與「完全不動」在此直接衝突。",
+            "車裡的司機在開車，不是在步行前進。",
+            "一直坐在椅上，不符合繼續步行。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "“He walks on, doesn’t look back”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "walk(s) on",
+              "fixed": true
+            },
+            {
+              "text": "[背景情況]",
+              "fixed": false
+            }
+          ],
+          "example": "The hikers walked on after lunch.",
+          "explanation": "休息完繼續徒步走向湖泊，語境自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "do not / does not + base verb",
+          "meaning": "用一般現在式否定習慣或一般情況。",
+          "usage": "描述某人通常不做某件事時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The museum does not open on Mondays, so we visit on Tuesday.",
+            "He does not eats meat because he is a farmer.",
+            "The robot does not walks; it rolls on wheels.",
+            "My sister do not swim on cold days."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "星期一不開門，所以星期二去，否定形式也正確。",
+            "does not 後須用 eat，不是 eats。",
+            "does not 後須用 walk，不是 walks。",
+            "主詞 my sister 要配 does not。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "“doesn’t look back”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "do/does not",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "She does not like loud music.",
+          "explanation": "星期一不開門，所以星期二去，否定形式也正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "pretend + (that) clause",
+          "meaning": "假裝某件事是真的，實際上未必如此。",
+          "usage": "演戲、玩遊戲，或有人故意裝作不知道時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "Emma pretends her shoes are sandwiches, so she eats them for lunch.",
+            "The chef pretends that the oven is off, and then says it is definitely off.",
+            "The actor pretends he is asleep, but he is speaking loudly.",
+            "Leo pretends he is a tree, so his friends play a forest game."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "把鞋真的當午餐吃並不是合理的遊戲行為。",
+            "沒有顯示「裝作」與真相之間的差別。",
+            "一邊大聲說話不符合正在假裝睡著的表現。",
+            "在森林遊戲裡扮成樹，清楚表達假裝。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "“He pretends he can’t hear her”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "pretend(s) (that)",
+              "fixed": true
+            },
+            {
+              "text": "[完整情況句]",
+              "fixed": false
+            }
+          ],
+          "example": "She pretends she is a queen.",
+          "explanation": "在森林遊戲裡扮成樹，清楚表達假裝。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "start to + base verb",
+          "meaning": "表示某個動作開始發生。",
+          "usage": "想特別指出動作開始的時刻時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The band starts to music at eight.",
+            "The band started to playing after dinner.",
+            "The band started to played at six.",
+            "The band started to play when the singer came on stage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "music 是名詞，應寫 start to play music。",
+            "start to 後接原形 play，不是 playing。",
+            "to 後要用原形 play，不是 played。",
+            "歌手上台後樂隊開始演奏，時序清楚。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "“Starts to whistle”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "start(s) to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "The baby started to laugh.",
+          "explanation": "歌手上台後樂隊開始演奏，時序清楚。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "as + subject + verb (simultaneous time)",
+          "meaning": "表示兩件事在相同時間發生。",
+          "usage": "描述一個動作進行時另一件事也正在發生。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The girl waved as the boat left, although there was no boat and no one left.",
+            "The girl waved as the boat left the river bank.",
+            "The girl waved as the boat left, three years before she was born.",
+            "The girl waved as the boat left, but she did not move a hand."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "句中提到船離開，但後面又否定有船。",
+            "船離岸的同時女孩揮手，兩件事同時進行。",
+            "女孩尚未出生，不能在那個時間揮手。",
+            "聲稱揮手又完全沒動手，互相矛盾。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "“as he crosses the street”",
+          "pattern": [
+            {
+              "text": "[一個動作]",
+              "fixed": false
+            },
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "[同時發生的動作]",
+              "fixed": false
+            }
+          ],
+          "example": "I smiled as the train arrived.",
+          "explanation": "船離岸的同時女孩揮手，兩件事同時進行。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "seem + adjective + to-infinitive",
+          "meaning": "根據所見或所聞，推測某人的感受與某個動作有關。",
+          "usage": "不確定別人的內心想法，只能根據表情或行為作推測時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "Mia seems pleased to win because she says she is very sad about winning.",
+            "Mia seems pleased to win because she is smiling with her prize.",
+            "The dancer seems tired to rest because he has been sleeping for two days.",
+            "The boy seems excited to get his gift, but nobody has given him one and he knows nothing about it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "她明說對獲勝很傷心，不支持高興的推測。",
+            "笑著拿獎品是看起來高興的合理線索。",
+            "「累得想休息」並非這個詞組的自然搭配與描述。",
+            "連禮物消息都不知道，難以推測是因收到禮物而興奮。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "“Seems embarrassed to be there”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "seem(s)",
+              "fixed": true
+            },
+            {
+              "text": "[形容詞]",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "She seems happy to see us.",
+          "explanation": "笑著拿獎品是看起來高興的合理線索。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "imperative: base verb + object",
+          "meaning": "用祈使句要求、邀請或提醒別人做事。",
+          "usage": "下指示、給建議或要求對方注意時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "Please to close the gate before the goats escape.",
+            "Please closes the gate before the goats escape.",
+            "Please close the gate before the goats escape.",
+            "Please closing the gate before the goats escape."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "祈使句開頭不需要 to，應用 close。",
+            "祈使句不能用第三人稱形式 closes。",
+            "祈使句用原形 close，並有合理提醒目的。",
+            "這裡不能單用 closing 作祈使動詞。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "“Think about it”",
+          "pattern": [
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            },
+            {
+              "text": "[事情或對象]",
+              "fixed": false
+            }
+          ],
+          "example": "Read this sign.",
+          "explanation": "祈使句用原形 close，並有合理提醒目的。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "because / ’cause + reason",
+          "meaning": "用後面的原因解釋前面的情況。",
+          "usage": "說明決定、結果或感受的原因時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "I drank three glasses of water because I wanted to be more thirsty.",
+            "I put on my warmest coat because I wanted to cool down in the sun.",
+            "I wore sunglasses because I wanted the room to become dark.",
+            "We moved the party inside because the wind was very strong."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "喝水通常是解渴，不會使人更口渴。",
+            "穿最暖的外套與在太陽下想降溫互相衝突。",
+            "戴太陽眼鏡不會令整個房間變暗。",
+            "風太大，所以把派對移到室內，因果合理。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "“'Cause it's another day”",
+          "pattern": [
+            {
+              "text": "[看法或結果]",
+              "fixed": false
+            },
+            {
+              "text": "because",
+              "fixed": true
+            },
+            {
+              "text": "[原因句]",
+              "fixed": false
+            }
+          ],
+          "example": "I stayed inside because it was cold.",
+          "explanation": "風太大，所以把派對移到室內，因果合理。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "another + singular countable noun",
+          "meaning": "表示額外一個或另一個同類事物。",
+          "usage": "需要再多一件物品、再一次機會或多一天時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "She bought another many tickets for the show.",
+            "We need another chairs for the guests.",
+            "I need another water because I am thirsty.",
+            "The team needs another player, because one player is ill."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "another 不能直接和 many tickets 連用。",
+            "another 後面通常接單數 chair，而不是 chairs。",
+            "water 不可數，這裡可說 another glass of water。",
+            "少一名隊員，所以需要另一名球員，單複數也正確。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "“another day”",
+          "pattern": [
+            {
+              "text": "another",
+              "fixed": true
+            },
+            {
+              "text": "[單數可數名詞]",
+              "fixed": false
+            }
+          ],
+          "example": "We need another chair.",
+          "explanation": "少一名隊員，所以需要另一名球員，單複數也正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "can see + (that) clause",
+          "meaning": "從眼前線索看出一件事。",
+          "usage": "有可見證據，想說明自己觀察到的情況時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "I can see that the bus is here although it has not arrived and the road is empty.",
+            "I can see that the cake is ready because it is still raw inside.",
+            "I can see that the baby is sleeping because her eyes are closed and she is quiet.",
+            "I can see that the clock is broken because it tells the correct time every day."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "公車未到且路上沒有車，不支持看見公車已到。",
+            "蛋糕內部仍是生的，不支持已烤好的判斷。",
+            "嬰兒閉眼又安靜，是可能正在睡覺的線索。",
+            "時鐘每天準確顯示時間，不能據此判斷故障。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "“He can see she’s been crying”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "can see (that)",
+              "fixed": true
+            },
+            {
+              "text": "[觀察到的情況句]",
+              "fixed": false
+            }
+          ],
+          "example": "I can see that you are tired.",
+          "explanation": "嬰兒閉眼又安靜，是可能正在睡覺的線索。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "have/has been + verb-ing",
+          "meaning": "描述一段時間內持續發生、與現在有關的動作。",
+          "usage": "想強調活動持續一段時間或現在仍可見其影響時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "They have being practising since nine.",
+            "He has been cooks all afternoon.",
+            "She has been waiting for an hour, and she is still in the line.",
+            "She has been wait for an hour, and she is still in the line."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "現在完成進行式用 have been，不是 have being。",
+            "been 後須用 cooking，不是 cooks。",
+            "從一小時前等到現在，形式和時間關係都正確。",
+            "been 後要用 waiting，不是 wait。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "“she’s been crying”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "[動詞 -ing]",
+              "fixed": false
+            }
+          ],
+          "example": "They have been working all morning.",
+          "explanation": "從一小時前等到現在，形式和時間關係都正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "have/has got + noun",
+          "meaning": "在口語中表示擁有某物或處於某種狀況。",
+          "usage": "談物品、身體狀況或已有的東西時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The shop has got three doors, so we can enter from the front.",
+            "The shop has got to three doors, so we can enter.",
+            "The shop has got three door, so we can enter.",
+            "The shop have got three doors, so we can enter."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "has got 後接名詞 three doors，表達擁有。",
+            "這裡不需要 to，加入會破壞結構。",
+            "three 後要用複數 doors。",
+            "單數 shop 應配 has got，不是 have got。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "“She’s got blisters”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "have/has got",
+              "fixed": true
+            },
+            {
+              "text": "[物品或狀況]",
+              "fixed": false
+            }
+          ],
+          "example": "He has got a new camera.",
+          "explanation": "has got 後接名詞 three doors，表達擁有。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "cannot + verb, but + contrasting clause",
+          "meaning": "先說限制，再說與限制形成對比的努力或結果。",
+          "usage": "想表達「雖然做不到／很困難，卻仍然努力」時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "I cannot play chess, but I have never tried and refuse to learn it.",
+            "I cannot play chess, but I practise with my uncle every week.",
+            "I cannot find my hat, but it is on my head and I can see it.",
+            "I cannot open the jar, but it is already open and empty."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "沒有嘗試也拒絕學，沒有呈現努力的反差。",
+            "雖然不會下棋，仍每週練習，形成合理轉折。",
+            "帽子就在頭上且看見了，不能說找不到。",
+            "罐子已開，不能拿來支持打不開的限制。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "“She can't walk, but she's trying”",
+          "pattern": [
+            {
+              "text": "[困難／不能做的事]",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "[仍然嘗試的行動]",
+              "fixed": false
+            }
+          ],
+          "example": "I cannot dance well, but I keep practising.",
+          "explanation": "雖然不會下棋，仍每週練習，形成合理轉折。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "there is + no/nothing + relative clause",
+          "meaning": "表示不存在符合某個條件的事物。",
+          "usage": "尋找所有可能方法或表達「沒有任何選擇」時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "There is nothing he can do, so he fixes the problem in one minute.",
+            "There is nothing I can read, because the library has hundreds of books I like.",
+            "There is nothing we can cook because the kitchen has no food at all.",
+            "There is nothing I can wear because every shirt is clean and fits well."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "後面立刻成功修好，與 nothing he can do 不一致。",
+            "有很多喜歡的書，與「沒有可讀之物」矛盾。",
+            "廚房完全沒食物，所以沒有可煮的東西。",
+            "所有衣服都乾淨合身，與「沒衣服穿」矛盾。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "“Is there nothing more anybody can do?”",
+          "pattern": [
+            {
+              "text": "There is",
+              "fixed": true
+            },
+            {
+              "text": "[nothing / no + 名詞]",
+              "fixed": false
+            },
+            {
+              "text": "[補充說明的子句]",
+              "fixed": false
+            }
+          ],
+          "example": "There is nothing I can eat.",
+          "explanation": "廚房完全沒食物，所以沒有可煮的東西。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "there must be + noun + (relative clause)",
+          "meaning": "強烈相信某種事物或方法一定存在。",
+          "usage": "面對困難仍相信有辦法或有答案時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "There must be another door because this room has only one door and every wall is solid.",
+            "There must be a way out, so we should look for another exit.",
+            "There must be a key somewhere; we have checked nothing yet.",
+            "There must be a bus today, although the bus company says it closed the route forever."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "所有牆壁都是實心且只有一扇門，沒有支持另有門的線索。",
+            "相信仍有出口，於是主張繼續尋找，語意自然。",
+            "完全沒檢查前可猜想，但沒有明確線索支持強烈推斷。",
+            "路線已永久停運，斷言今天一定有公車缺乏依據。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "“There must be something you can say”",
+          "pattern": [
+            {
+              "text": "There must be",
+              "fixed": true
+            },
+            {
+              "text": "[某事物]",
+              "fixed": false
+            },
+            {
+              "text": "[補充內容]",
+              "fixed": false
+            }
+          ],
+          "example": "There must be a way we can help.",
+          "explanation": "相信仍有出口，於是主張繼續尋找，語意自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "can tell from + evidence",
+          "meaning": "根據某個線索推斷或辨認事情。",
+          "usage": "從聲音、表情、痕跡或其他證據作判斷時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "You can tell from the music that the window is square.",
+            "You can tell from the wet ground that it rained recently.",
+            "You can tell from the number eight that my rabbit is a doctor.",
+            "You can tell from my sandwich that tomorrow is Friday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "音樂無法直接證明窗戶的形狀。",
+            "地面濕了是最近下過雨的合理線索。",
+            "數字八不能證明兔子的職業。",
+            "三明治不能提供明天星期幾的可靠證據。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "“You can tell from the lines on her face”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "can tell from",
+              "fixed": true
+            },
+            {
+              "text": "[可觀察的線索]",
+              "fixed": false
+            }
+          ],
+          "example": "You can tell from the smoke that the food is burning.",
+          "explanation": "地面濕了是最近下過雨的合理線索。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "modal must + base verb (strong deduction)",
+          "meaning": "根據線索作強烈推測，而不只是命令。",
+          "usage": "看到明顯證據，相信某種判斷很可能正確時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The lights are off, and the cafe is locked. It must be closed.",
+            "The cake is cold and hard, so it must be fresh from the oven right now.",
+            "The lights are on and many people are eating. The cafe must be closed.",
+            "The children are asleep, so they must be running across the playground now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "鎖門加關燈是咖啡店已關門的強線索。",
+            "又冷又硬的蛋糕，不支持剛出爐的推斷。",
+            "有客人正用餐，不支持已關門的推斷。",
+            "已睡著與此刻在操場跑步互相衝突。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "“There must be something you can say”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "must",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "You must be tired after the long trip.",
+          "explanation": "鎖門加關燈是咖啡店已關門的強線索。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "probably + passive (elliptical lyric)",
+          "meaning": "表示「可能已經被……」：probably 加入不確定性，被動語態強調承受動作的人。",
+          "usage": "未能肯定發生了甚麼，只能推測某人過去曾被如何對待時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The gate has probably be opened after lunch.",
+            "The gate probably been open by the guard.",
+            "The gate has probably been opening by the wind yesterday.",
+            "The gate has probably been opened because it is now open and nobody saw who did it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "has 後要用 been opened，不是 be opened。",
+            "標準完整句少了 has，且被動需用 opened。",
+            "被動完成式不能用 been opening by。",
+            "門已開、沒人看見誰開的，可合理推測曾被打開。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "“Probably been moved on from every place”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "probably",
+              "fixed": true
+            },
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            },
+            {
+              "text": "[補充內容]",
+              "fixed": false
+            }
+          ],
+          "example": "She has probably been asked to leave.",
+          "explanation": "門已開、沒人看見誰開的，可合理推測曾被打開。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "past simple negative: did not + verb",
+          "meaning": "說明過去某件事沒有發生。",
+          "usage": "回顧昨天、上週或更早的情況時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "My cat did not slept under the table.",
+            "We did not go to the market yesterday because it was closed.",
+            "He did not came to the show yesterday.",
+            "They did not played football last week."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "did not 後用 sleep，不是 slept。",
+            "昨天市場關閉，所以沒去，否定形式正確。",
+            "did not 後用 come，不是 came。",
+            "did not 後用 play，不是 played。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "“she didn't fit in there”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "did not",
+              "fixed": true
+            },
+            {
+              "text": "[原形動詞]",
+              "fixed": false
+            }
+          ],
+          "example": "They did not join the game.",
+          "explanation": "昨天市場關閉，所以沒去，否定形式正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "fit in + place / group",
+          "meaning": "與某個群體或環境相處融洽、感到被接納。",
+          "usage": "加入新團隊、課外活動或新社區時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The singer fits in with the band because they refuse to speak to her and never let her sing.",
+            "The music fits in with the team because it scored three goals.",
+            "The new singer fits in with the band; they enjoy playing music together.",
+            "The table fits in at the club because it enjoys talking to people."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "被全體排斥，與融入的意義相反。",
+            "音樂不能像隊員一樣射門得分。",
+            "樂隊成員相處好且享受一起演出，表示融入。",
+            "桌子不會像人一樣與會員交談融入。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "“she didn’t fit in there”",
+          "pattern": [
+            {
+              "text": "[人]",
+              "fixed": false
+            },
+            {
+              "text": "fit in",
+              "fixed": true
+            },
+            {
+              "text": "[群體或環境]",
+              "fixed": false
+            }
+          ],
+          "example": "She fits in at her new club.",
+          "explanation": "樂隊成員相處好且享受一起演出，表示融入。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "just + noun phrase (minimising)",
+          "meaning": "強調某件事「不過是……」；有時會淡化事情的重要性。",
+          "usage": "想描述事情很普通，或表達「只是如此」時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "It is just a small problem, so the house has completely disappeared.",
+            "It is just a small scratch, so the whole bicycle is now missing.",
+            "It is just a small scratch, so the bike still works well.",
+            "It is just a short walk, but it takes five days without stopping."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "房屋完全消失不是一般能稱為小問題的情況。",
+            "整架單車不見並非小刮痕可解釋的結果。",
+            "只有小刮痕且單車仍可用，符合 just 的輕描淡寫。",
+            "不停走五天並非合理的短距離步行。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "“It's just another day for you”",
+          "pattern": [
+            {
+              "text": "[情況]",
+              "fixed": false
+            },
+            {
+              "text": "be just",
+              "fixed": true
+            },
+            {
+              "text": "[名詞片語]",
+              "fixed": false
+            }
+          ],
+          "example": "It is just a small mistake.",
+          "explanation": "只有小刮痕且單車仍可用，符合 just 的輕描淡寫。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "preposition + noun phrase for location",
+          "meaning": "介系詞片語補充人物或動作所在的位置。",
+          "usage": "想說明事情發生於街道、房間或特定地點時。",
+          "prompt": "哪一句最符合以上句型的功能和情境？",
+          "options": [
+            "The fish lives in the river, so we see it swimming in the water.",
+            "The fish lives at Wednesday, so we see it in a calendar.",
+            "The fish lives in tomorrow, so we can visit it yesterday.",
+            "The fish lives on happy, so it sings in the river."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "魚住在河裡，in the river 合理指出地點。",
+            "Wednesday 是時間，不是可居住的地點。",
+            "tomorrow 是時間概念，不能當魚的住所。",
+            "happy 不是這裡可用的地點名詞。"
+          ],
+          "sourceFile": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "“on the street”",
+          "pattern": [
+            {
+              "text": "[動作／人物]",
+              "fixed": false
+            },
+            {
+              "text": "on/in/at",
+              "fixed": true
+            },
+            {
+              "text": "[地點]",
+              "fixed": false
+            }
+          ],
+          "example": "The artist is in the garden.",
+          "explanation": "魚住在河裡，in the river 合理指出地點。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Another_Day_in_Paradise_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "10f09e11273f1a60e21fb43a9bf2a210509e3b266ad91dae245f9c2683083f01"
+    },
+    {
+      "section": "structure",
+      "filename": "Another_Day_in_Paradise_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "8fefb0d78e49c27ba738e875d6a19b33bc4c8a9eb16443953f0bfda531ab0ce3"
+    }
+  ]
+}

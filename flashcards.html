@@ -17,7 +17,7 @@
   <link rel="apple-touch-icon" sizes="152x152" href="/assets/icons/apple-touch-icon-152x152.png">
   <link rel="stylesheet" href="/pwa-ui.css">
   <link rel="stylesheet" href="eddy-first-question-dialogue.css?v=20261028-blank-recovery1">
-  <link rel="stylesheet" href="eddy-five-streak-dialogue.css?v=20261024-1">
+  <link rel="stylesheet" href="eddy-five-streak-dialogue.css?v=20261101-30-35">
   <script defer src="/pwa-register.js"></script>
   <script src="flashcard-theme-toggle.js?v=20260910-instant2"></script>
   <script>
@@ -4033,6 +4033,15 @@
       }
     }
 
+    @media (max-width: 680px) {
+      .deck-card { backdrop-filter: none; -webkit-backdrop-filter: none; }
+      .study-side .action-rail { position: fixed; inset: auto 0 0; z-index: 100; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 12px; padding: 10px max(16px,env(safe-area-inset-right)) calc(10px + env(safe-area-inset-bottom)) max(16px,env(safe-area-inset-left)); background: rgba(255,255,255,.97); border-top: 1px solid #cbd9ea; box-shadow: 0 -8px 28px #17396124; }
+      .study-side .action-row { width: 100%; }
+      .study-side .round-button { width: 100%; min-height: 54px; height: 54px; border-radius: 15px; font-size: 31px; touch-action: manipulation; }
+      .study-side .mouse-click-icon { display: none; }
+      .study-layout { padding-bottom: calc(84px + env(safe-area-inset-bottom)); }
+    }
+
     @media (prefers-reduced-motion: reduce) {
       html {
         scroll-behavior: auto;
@@ -4075,7 +4084,7 @@
   <link rel="stylesheet" href="common-expression-map.css?v=20260915-noirceleste1">
   <link rel="stylesheet" href="flashcard-range-map.css?v=20260914-worlds4">
   <script type="module" src="flashcard-range-map.mjs?v=20261017-r2-maps1"></script>
-<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261025-1">
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
 <body>
   <div class="page-loader" data-page-loader aria-hidden="true">
@@ -4196,7 +4205,7 @@
             let ready = false, active = true, mode = "startup", value = 5;
             let startedAt = Date.now(), stageAt = startedAt, timer, hideTimer;
             let resources = 0, resourcePhase = true;
-            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20260730-1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261026-daily-visit1","flashcards-data-catalog.js?v=20261027-last-train","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
+            const resourceSources = ["https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js","flashcards-ielts-writing-data.js?v=20260713-1","flashcards-ielts-reading-index.js?v=20260731-1","dse-writing-part-b-links.js?v=20260911-1","essay-portal-links.js?v=20260730-1","supabase-config.js","eddy-global-dialogues.js?v=20261027-homeonly1","shared-system-nav.js?v=20261101-coin-dialogue1","flashcards-data-catalog.js?v=20261027-last-train","dse-writing-part-b-topics.js?v=20260911-1","edmund-audio-config.js?v=1","italian-1-burro-montato-data.js?v=20260914-1","italian-1-audio.js?v=20260914-1","italian-2-torta-coi-bischeri-data.js?v=20260929-2","italian-2-audio.js?v=20260929-1","french-1-fondant-data.js?v=20260914-1","french-1-audio.js?v=20260914-1"];
             const pendingResources = new Set(resourceSources);
             form.addEventListener("submit", event => {
               event.preventDefault();
@@ -4890,7 +4899,7 @@
   <script src="dse-writing-part-b-links.js?v=20260911-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
   <script src="supabase-config.js"></script>
-  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261026-daily-visit1"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
   <script>window.EDMUND_FLASHCARD_SEED = window.EDMUND_FLASHCARD_SEED || {};</script>
   <script src="flashcards-data-catalog.js?v=20261027-last-train"></script>
   <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
@@ -5159,13 +5168,10 @@
     async function ensureFlashcardAudioManifest() {
       if (languageEdition.active || Object.keys(window.EDMUND_FLASHCARD_AUDIO || {}).length) return;
       if (flashcardAudioManifestPromise) return flashcardAudioManifestPromise;
-      flashcardAudioManifestPromise = loadFlashcardScriptOnce(
-        "flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2",
-        "flashcard-audio-manifest"
-      ).then(() => loadFlashcardScriptOnce(
-        "flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1",
-        "flashcard-dse-writing-audio"
-      )).catch(error => {
+      flashcardAudioManifestPromise = Promise.all([
+        loadFlashcardScriptOnce("flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2", "flashcard-audio-manifest"),
+        loadFlashcardScriptOnce("flashcards-dse-writing-part-b-audio.js?v=20260911-kokoro-1", "flashcard-dse-writing-audio")
+      ]).catch(error => {
         flashcardAudioManifestPromise = null;
         throw error;
       });
@@ -12085,11 +12091,6 @@
 
     async function performFlashcardLogin(trimmedName, password) {
       loginFailureMessage = "";
-      window.EdmundFlashcardLoginStartup?.loginStep(12, "正在檢查登入頁版本… Checking for a login update…");
-      if (await reloadForCurrentFlashcardClientUpdate("login")) {
-        loginFailureMessage = "正在載入最新安全版本；頁面會自動重新開啟，請稍後重新登入。";
-        return false;
-      }
       window.EdmundFlashcardLoginStartup?.loginStep(24, "正在檢查現有登入與復原狀態… Checking existing sign-in and recovery status…");
       const reusedRecovery = await reuseAuthenticatedFlashcardRecovery(trimmedName);
       if (reusedRecovery !== null) return reusedRecovery;
@@ -16943,8 +16944,8 @@
           </div>
         `;
       backCard.classList.toggle("hidden", !studySession.flipped);
-      greenButton.disabled = !studySession.flipped;
-      redButton.disabled = !studySession.flipped;
+      greenButton.disabled = false;
+      redButton.disabled = false;
       prevButtons.forEach(button => {
         button.disabled = studySession.currentPosition <= 0;
       });
@@ -16957,6 +16958,7 @@
       });
       if (speakButton) speakButton.disabled = !canSpeakCard();
       renderNeuralSpeechState();
+      warmCurrentCardAudio();
       if (bookmarkButton) {
         const bookmarked = isCurrentCardBookmarked();
         bookmarkButton.disabled = !currentCardBookmarkRef();
@@ -16965,8 +16967,8 @@
         bookmarkButton.setAttribute("title", bookmarked ? "移除書簽" : "加入書簽");
       }
       if (cardHint) cardHint.textContent = reversalMode
-        ? "中英反轉模式：先看中文，點擊後顯示例句與英文答案；向右掃為綠勾，向左掃為紅叉。"
-        : "點擊卡片即可揭示答案。翻開後可按綠勾／紅叉，或向右／左掃卡。";
+        ? "中英反轉模式：點擊卡片查看英文；亦可直接按綠勾／紅叉記錄。"
+        : "點擊卡片即可揭示答案；也可直接按綠勾／紅叉記錄。";
       greenButton.textContent = studySession.answers[cardIndex] === "green" ? "✓" : "✓";
       redButton.textContent = studySession.answers[cardIndex] === "red" ? "×" : "×";
       if (activeReviewStatus) renderReviewPanel(activeReviewStatus);
@@ -17032,6 +17034,30 @@
       }
     }
 
+    const warmSpeechCache = new Map();
+    function warmCurrentCardAudio() {
+      const card = currentCard();
+      if (!card) return;
+      const position = studySession.currentPosition;
+      const nextIndex = studySession.roundQueue.slice(position + 1).find(index => !studySession.answers[index]);
+      const terms = [card.front, nextIndex == null ? "" : studySession.cards[nextIndex]?.front].map(normalizedSpeechText).filter(Boolean);
+      void ensureFlashcardAudioManifest().then(() => {
+        if (currentCard() !== card) return;
+        for (const term of terms) {
+          const path = neuralAudioPathForText(term);
+          if (!path || warmSpeechCache.has(path)) continue;
+          const audio = new Audio(window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path);
+          audio.preload = "auto";
+          audio.load();
+          warmSpeechCache.set(path, audio);
+        }
+        while (warmSpeechCache.size > 3) {
+          const [oldPath, oldAudio] = warmSpeechCache.entries().next().value;
+          oldAudio.pause(); oldAudio.removeAttribute("src"); oldAudio.load(); warmSpeechCache.delete(oldPath);
+        }
+      }).catch(error => console.warn("Audio preload unavailable:", error));
+    }
+
     function stopNeuralSpeech({ refresh = true } = {}) {
       activeSpeechRequestId += 1;
       if (activeSpeechAudio) {
@@ -17071,7 +17097,8 @@
 
       stopNeuralSpeech({ refresh: false });
       const requestId = ++activeSpeechRequestId;
-      const audio = activeSpeechAudio || new Audio();
+      const audio = warmSpeechCache.get(path) || activeSpeechAudio || new Audio();
+      warmSpeechCache.delete(path);
       activeSpeechAudio = audio;
       audio.preload = "auto";
       audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
@@ -17622,7 +17649,7 @@
 
     function markCard(result) {
       queueMicrotask(() => classroomLive?.publish());
-      if (studyCardSwipeAnimating || !studySession || !studySession.flipped || !currentCard()) return;
+      if (studyCardSwipeAnimating || !studySession || !currentCard()) return;
       studySession.classroomFollowing=false;
       cancelStudyCardSwipe();
       stopNeuralSpeech({ refresh: false });
@@ -19012,22 +19039,37 @@
       classroomLive=createClassroomLiveSync({
         system:'flashcards',
         context:()=>({owner:currentUser?.role==='student'?currentUser.id:null,token:studentSessionToken,
-          scope:currentView==='deck-view' && studySession ? currentDeckId : null,active:true}),
+          // New practice (including the same range) must never consume an older completion.
+          scope:currentView==='deck-view' && studySession?.attemptId
+            ? `${currentDeckId}::attempt:${studySession.attemptId}` : null,active:true}),
         rpc:async(name,args)=>{await ensureSupabaseSession();const {data,error}=await supabaseClient.rpc(name,args);if(error)throw error;return data;},
         read:()=>{
-          if(!studySession)return null;
+          if(!studySession?.attemptId)return null;
           const keys=['mode','roundNumber','roundQueue','initialQueue','initialTotal','currentPosition','answers','outcomes','outcomeTimes','cardAttemptCounts','flipped','completed','reversalMode'];
-          return {deckId:currentDeckId,deckRevision:deckDataRevision(currentDeckId),cardCount:studySession.cards.length,
+          return {deckId:currentDeckId,attemptId:studySession.attemptId,elapsedMs:sessionElapsedMs(),
+            deckRevision:deckDataRevision(currentDeckId),cardCount:studySession.cards.length,
             familiarity:getDeckFamiliarity(),session:Object.fromEntries(keys.map(k=>[k,studySession[k]]))};
         },
         apply:snapshot=>{
+          if(!studySession?.attemptId||snapshot.attemptId!==studySession.attemptId)return;
           if(snapshot.deckId!==currentDeckId||snapshot.deckRevision!==deckDataRevision(currentDeckId)||!studySession||snapshot.cardCount!==studySession.cards.length||!Array.isArray(snapshot.session?.roundQueue))return;
-          if(!snapshot.session.roundQueue.every(i=>Number.isInteger(i)&&i>=0&&i<studySession.cards.length))return;
+          const initial=studySession.initialQueue;
+          if(!Array.isArray(initial)||!Array.isArray(snapshot.session.initialQueue)
+            ||JSON.stringify(snapshot.session.initialQueue)!==JSON.stringify(initial))return;
+          if(!snapshot.session.roundQueue.every(i=>Number.isInteger(i)&&i>=0&&i<studySession.cards.length&&initial.includes(i)))return;
+          if(snapshot.session.completed && (!initial.length||!initial.every(i=>snapshot.session.outcomes?.[i]==='green')))return;
           // Display overlay only: never manufacture a save receipt or bypass the durable outbox.
           classroomTickOverlays.set(`${currentUser.id}:${currentDeckId}`,{...normalizeFamiliarity(snapshot.familiarity),deckRevision:snapshot.deckRevision});
           stopCountdownTimers();hideCountdownClock();
-          Object.assign(studySession,snapshot.session);
+          // Preserve local attempt identity and range metadata; only copy display fields.
+          const keys=['mode','roundNumber','roundQueue','initialQueue','initialTotal','currentPosition','answers','outcomes','outcomeTimes','cardAttemptCounts','flipped','completed','reversalMode'];
+          for(const key of keys)studySession[key]=snapshot.session[key];
+          if(Number.isFinite(snapshot.elapsedMs)&&snapshot.elapsedMs>=0){
+            studySession.elapsedMs=snapshot.elapsedMs;
+            studySession.startedAt=Date.now()-snapshot.elapsedMs;
+          }
           studySession.classroomFollowing=true;
+          updateSessionTimer();
           renderStudyCard();
           stopCountdownTimers();hideCountdownClock();
         }
@@ -19042,6 +19084,7 @@
   <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="flashcards-eddy-toggle.js?v=20261022-2" defer></script>
-  <script defer src="eddy-five-streak-dialogue.js?v=20261025-tea1"></script>
+  <script defer src="eddy-five-streak-dialogue.js?v=20261101-30-35-allmc"></script>
+<script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>

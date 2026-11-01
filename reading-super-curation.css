@@ -59,3 +59,10 @@ body.rc-open{overflow:hidden}
 .rc[data-large=true] .rc-source-lesson .deep-source-body{font-size:1.2rem}
 @media(min-width:1250px){.rc-workspace{grid-template-columns:minmax(350px,420px) minmax(0,1fr) 240px}}
 @media(min-width:1700px){.rc-workspace{grid-template-columns:440px minmax(0,1fr) 280px}}
+/* Reading route: subdued introductions and a distinct evidence milestone. */
+.rc-rail [data-stage="0"],.rc-rail [data-stage="1"]{color:#7b8581;background:#f0f2ef}
+.rc-rail [data-stage="2"]{background:#fff3bc;border-radius:18px;box-shadow:0 0 20px #edbe4c66;color:#65440a}
+.rc-rail [data-stage="2"]>span{background:#f5c84c;border-color:#d6a02d;color:#45300a}
+.rc-guide-scroll{animation:rc-enter .3s ease-out}
+@keyframes rc-enter{from{opacity:.5;transform:translateY(5px)}to{opacity:1;transform:none}}
+@media(prefers-reduced-motion:reduce){.rc-guide-scroll{animation:none}}

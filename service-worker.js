@@ -15,6 +15,8 @@ const SHELL_URLS = [
   "/manifest.webmanifest",
   "/pwa-ui.css",
   "/pwa-register.js",
+  "/homepage-loading.css",
+  "/homepage-loading.js",
   "/apostrophe-normalizer.mjs",
   "/favicon.ico",
   "/apple-touch-icon.png",
@@ -22,12 +24,25 @@ const SHELL_URLS = [
   "/assets/icons/icon-192x192.png",
   "/assets/icons/icon-512x512.png",
   "/assets/icons/icon-maskable-192x192.png",
-  "/assets/icons/icon-maskable-512x512.png"
+  "/assets/icons/icon-maskable-512x512.png",
+  "/eddy-offline-dialogue.png"
 ];
 const SHELL_URL_SET = new Set(SHELL_URLS.map((path) => new URL(path, self.location.origin).href));
 
 self.addEventListener("install", (event) => {
-  event.waitUntil(caches.open(CACHE_NAME).then((cache) => cache.addAll(SHELL_URLS)));
+  event.waitUntil(
+    caches.open(CACHE_NAME)
+      .then((cache) => Promise.all(SHELL_URLS.map(async (path) => {
+        // A controlling older worker may serve stale cached shell files. A
+        // release-specific URL bypasses its exact-URL cache match.
+        const releaseUrl = new URL(path, self.location.origin);
+        releaseUrl.searchParams.set("__edmund_release", RELEASE_ID);
+        const response = await fetch(releaseUrl, { cache: "reload" });
+        if (!response.ok) throw new Error(`Unable to precache ${path}`);
+        await cache.put(path, response);
+      })))
+      .then(() => self.skipWaiting())
+  );
 });
 
 self.addEventListener("activate", (event) => {
@@ -93,7 +108,7 @@ self.addEventListener("fetch", (event) => {
 
   if (request.mode === "navigate") {
     event.respondWith(
-      fetch(request, { cache: "no-store" }).catch(() => caches.match(OFFLINE_URL))
+      fetch(request, { cache: "no-store" }).catch(() => caches.open(CACHE_NAME).then((cache) => cache.match(OFFLINE_URL)))
     );
     return;
   }
@@ -111,6 +126,6 @@ self.addEventListener("fetch", (event) => {
   }
 
   if (SHELL_URL_SET.has(url.href)) {
-    event.respondWith(caches.match(request).then((cached) => cached || fetch(request)));
+    event.respondWith(caches.open(CACHE_NAME).then((cache) => cache.match(request)).then((cached) => cached || fetch(request)));
   }
 });

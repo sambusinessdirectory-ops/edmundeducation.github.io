@@ -1,18 +1,19 @@
+import { CURATION_VERSION, CURATED_ANSWERS } from "./curated-catalog.js";
 import { ACCEPTED_ANSWERS } from "./catalog.js";
 import { answersEquivalent, normalizeAnswerText } from "../../shared-answer-comparison.js";
 
 const SERVICE_NAME = "edmund-proverb-system";
 const UUID_RE = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-const LESSON_IDS = new Set(["proverb-01", "proverb-02", "proverb-03"]);
+const QUESTION_COUNTS = Object.freeze(Object.fromEntries(Array.from({length:12},(_,i)=>[`proverb-${String(i+1).padStart(2,'0')}`,i<3?50:12])));
+const LESSON_IDS = new Set(Object.keys(QUESTION_COUNTS));
 const CONTENT_VERSION = "1";
-const QUESTIONS_PER_LESSON = 50;
 const SECTION_BOOKMARK_ID = "__section__";
 const CONTROL_RE = /[\u0000-\u001f\u007f]/;
 const MAX_LOGIN_BODY_BYTES = 4096;
 const MAX_ATTEMPT_BODY_BYTES = 128 * 1024;
 const MAX_ATTEMPT_RESULT_BYTES = 96 * 1024;
 const MAX_BOOKMARK_BODY_BYTES = 64 * 1024;
-const MAX_BOOKMARKS = 153;
+const MAX_BOOKMARKS = 270;
 const BOOKMARK_PAGE_SIZE = 100;
 const MAX_PAGE_SIZE = 100;
 const MAX_ADMIN_ATTEMPTS = 100;
@@ -48,7 +49,7 @@ const SPELLING_EQUIVALENTS = Object.freeze({
 
 function answerCatalogReadiness() {
   const expectedIds = [...LESSON_IDS].flatMap(lessonId => Array.from(
-    { length: QUESTIONS_PER_LESSON },
+    { length: QUESTION_COUNTS[lessonId] },
     (_, index) => `${lessonId}-q${String(index + 1).padStart(2, "0")}`
   ));
   const actualIds = Object.keys(ACCEPTED_ANSWERS);
@@ -114,6 +115,8 @@ async function route(request, env) {
         service: SERVICE_NAME,
         storage: "supabase-private",
         catalog,
+        curationVersion: CURATION_VERSION,
+        curatedQuestionCount: Object.keys(CURATED_ANSWERS).length,
         limits: {
           maxAttemptBodyBytes: MAX_ATTEMPT_BODY_BYTES,
           maxAttemptResultBytes: MAX_ATTEMPT_RESULT_BYTES,
@@ -584,7 +587,7 @@ function validQuestionId(lessonId, questionId) {
   const match = questionId.match(/^(proverb-\d{2})-q(\d{2})$/);
   if (!match || match[1] !== lessonId) return false;
   const number = Number(match[2]);
-  return number >= 1 && number <= QUESTIONS_PER_LESSON;
+  return number >= 1 && number <= QUESTION_COUNTS[lessonId];
 }
 
 function normalizeAnswer(value) {
@@ -592,7 +595,7 @@ function normalizeAnswer(value) {
 }
 
 function answerMatchesCatalog(questionId, answer) {
-  const accepted = ACCEPTED_ANSWERS[questionId];
+  const accepted = [...(ACCEPTED_ANSWERS[questionId] || []), ...(CURATED_ANSWERS[questionId] ? [CURATED_ANSWERS[questionId]] : [])];
   if (!Array.isArray(accepted) || !accepted.length) return false;
   return accepted.some(candidate => answersEquivalent(answer, candidate, {
     canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token
@@ -676,7 +679,9 @@ function normalizeAttemptResult(value, context) {
   for (const [questionId, state] of Object.entries(value.questionState)) {
     if (
       !validQuestionId(context.lessonId, questionId)
-      || !hasExactKeys(state, ["status", "lastAnswer", "reveal"])
+      || (!hasOnlyKeys(state, new Set(["status", "lastAnswer", "reveal", "curationVersion"]))
+        || !["status", "lastAnswer", "reveal"].every(key => Object.hasOwn(state, key))
+        || (Object.hasOwn(state, "curationVersion") && state.curationVersion !== CURATION_VERSION))
       || !["pending", "correct", "wrong"].includes(state.status)
       || typeof state.lastAnswer !== "string"
       || state.lastAnswer.length > 1000
@@ -687,13 +692,15 @@ function normalizeAttemptResult(value, context) {
     questionState[questionId] = {
       status: state.status,
       lastAnswer: state.lastAnswer,
-      reveal: state.reveal
+      reveal: state.reveal,
+      ...(state.curationVersion === CURATION_VERSION ? {curationVersion: CURATION_VERSION} : {})
     };
   }
   for (const questionId of correctIds) {
     if (
       questionState[questionId]?.status !== "correct"
       || !answerMatchesCatalog(questionId, questionState[questionId].lastAnswer)
+      || (questionState[questionId].curationVersion === CURATION_VERSION && !answersEquivalent(questionState[questionId].lastAnswer, CURATED_ANSWERS[questionId], {canonicalizeToken: token => SPELLING_EQUIVALENTS[token] || token}))
     ) {
       throw new HttpError(400, "INVALID_ATTEMPT", "A claimed correct answer does not match the lesson catalog");
     }
@@ -843,7 +850,7 @@ function normalizeAttemptPayload(payload) {
   if (!Number.isInteger(payload.roundNumber) || payload.roundNumber < 1 || payload.roundNumber > 1000) {
     throw new HttpError(400, "INVALID_ATTEMPT", "roundNumber is invalid");
   }
-  if (payload.totalCount !== QUESTIONS_PER_LESSON) {
+  if (payload.totalCount !== QUESTION_COUNTS[payload.lessonId]) {
     throw new HttpError(400, "INVALID_ATTEMPT", "totalCount is invalid");
   }
   if (

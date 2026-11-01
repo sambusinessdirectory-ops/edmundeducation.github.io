@@ -1,0 +1,166 @@
+{
+  "id": "proverb-12",
+  "order": 12,
+  "slug": "as-you-bake-so-shall-you-brew",
+  "version": "1",
+  "title": "怎樣做，便承受怎樣的結果",
+  "titleEn": "As You Bake, So Shall You Brew",
+  "titleZh": "怎樣做，便承受怎樣的結果",
+  "image": "assets/proverb-system/as-you-bake-so-shall-you-brew.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for As You Bake, So Shall You Brew.",
+  "imageAltZh": "「怎樣做，便承受怎樣的結果」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "One’s choices and actions shape the consequences one must later face.",
+    "zh": "自己的做法會帶來相應後果，之後仍須面對或承擔。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "as you bake, so shall you brew",
+      "highlight": "as you bake, so shall you brew"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "The club failed to check the booking date and arrived to find the venue taken—as you bake, so shall you brew.",
+      "zh": "社團沒有核對預訂日期，結果到場才發現場地已被別人租用。",
+      "highlight": "as you bake, so shall you brew"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “as you bake, so shall you brew” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「as you bake, so shall you brew」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-12-q01",
+      "number": 1,
+      "prompt": "A club failed to check its booking date and arrived to find the venue taken.",
+      "promptZh": "社團沒有核對訂場日期，到場才發現場地已租給別人。",
+      "starter": "The",
+      "answer": "The club’s unchecked date led to a lost venue—as you bake, so shall you brew.",
+      "answerZh": "社團沒有核對訂場日期，到場才發現場地已租給別人。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q02",
+      "number": 2,
+      "prompt": "Ka knew the deadline but did not submit the form and missed registration.",
+      "promptZh": "阿佳明知截止日期仍不提交表格，結果錯過報名。",
+      "starter": "Ka’s",
+      "answer": "Ka’s decision not to submit led to missing registration—as you bake, so shall you brew.",
+      "answerZh": "阿佳明知截止日期仍不提交表格，結果錯過報名。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q03",
+      "number": 3,
+      "prompt": "Jun made no backup; when his computer failed, he had to rewrite the report.",
+      "promptZh": "阿俊沒有備份報告，電腦壞了後要重新寫。",
+      "starter": "Jun’s",
+      "answer": "Jun’s lack of a backup left him with extra work—as you bake, so shall you brew.",
+      "answerZh": "阿俊沒有備份報告，電腦壞了後要重新寫。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q04",
+      "number": 4,
+      "prompt": "A player skipped practice for weeks and could not keep time with teammates during a performance.",
+      "promptZh": "球員連續數週不練習，演出時便跟不上隊友的節奏。",
+      "starter": "Skipping",
+      "answer": "Skipping practice contributed to the player losing the beat—as you bake, so shall you brew.",
+      "answerZh": "球員連續數週不練習，演出時便跟不上隊友的節奏。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q05",
+      "number": 5,
+      "prompt": "Man ignored the recipe, added salt instead of sugar, and the cake tasted salty.",
+      "promptZh": "阿文不看煮食步驟，把鹽當糖加進蛋糕，出爐後味道很鹹。",
+      "starter": "Man’s",
+      "answer": "Man’s ingredient choice affected the cake he had to eat—as you bake, so shall you brew.",
+      "answerZh": "阿文不看煮食步驟，把鹽當糖加進蛋糕，出爐後味道很鹹。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q06",
+      "number": 6,
+      "prompt": "A group kept avoiding task assignments and found two sections unwritten the night before submission.",
+      "promptZh": "小組一直不分工，交稿前夜才發現還有兩節沒寫。",
+      "starter": "Their",
+      "answer": "Their failure to divide the work led to a last-minute gap—as you bake, so shall you brew.",
+      "answerZh": "小組一直不分工，交稿前夜才發現還有兩節沒寫。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q07",
+      "number": 7,
+      "prompt": "Yan repeatedly skipped tyre checks and got a puncture in a worn tyre.",
+      "promptZh": "阿欣反覆不檢查單車輪胎，結果在已磨損的輪胎上爆胎。",
+      "starter": "The",
+      "answer": "The ignored worn tyre helped bring about the puncture—as you bake, so shall you brew.",
+      "answerZh": "阿欣反覆不檢查單車輪胎，結果在已磨損的輪胎上爆胎。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q08",
+      "number": 8,
+      "prompt": "A drama group did not rehearse scene changes, and moving props took too long during the show.",
+      "promptZh": "戲劇組沒有排練換景，正式演出時道具移位花了很久。",
+      "starter": "Skipping",
+      "answer": "Skipping scene-change practice contributed to the slow transition—as you bake, so shall you brew.",
+      "answerZh": "戲劇組沒有排練換景，正式演出時道具移位花了很久。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q09",
+      "number": 9,
+      "prompt": "Long left a plant in a dark corner and did not water it; after weeks its leaves wilted.",
+      "promptZh": "阿朗把植物放在黑暗角落卻一直不澆水，幾週後葉子枯萎。",
+      "starter": "Long’s",
+      "answer": "Long’s neglect was linked to the plant wilting—as you bake, so shall you brew.",
+      "answerZh": "阿朗把植物放在黑暗角落卻一直不澆水，幾週後葉子枯萎。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q10",
+      "number": 10,
+      "prompt": "Chui did not check the timetable and reached the platform just after the last train left.",
+      "promptZh": "阿翠沒有查列車時間，直到月台才發現尾班車剛開走。",
+      "starter": "Not",
+      "answer": "Not checking the timetable contributed to missing the train—as you bake, so shall you brew.",
+      "answerZh": "阿翠沒有查列車時間，直到月台才發現尾班車剛開走。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q11",
+      "number": 11,
+      "prompt": "May knew about tomorrow’s test but did not revise all evening, then struggled with material already taught.",
+      "promptZh": "阿美明知明天要考試，整晚不温習，測驗中不懂已教過的題目。",
+      "starter": "Skipping",
+      "answer": "Skipping revision contributed to May’s difficulty on the test—as you bake, so shall you brew.",
+      "answerZh": "阿美明知明天要考試，整晚不温習，測驗中不懂已教過的題目。",
+      "highlight": "as you bake, so shall you brew"
+    },
+    {
+      "id": "proverb-12-q12",
+      "number": 12,
+      "prompt": "Lok did not organise his inbox; an important invitation was buried and its reply deadline passed.",
+      "promptZh": "阿樂一直不整理電郵，重要邀請被淹沒，回覆期限便過了。",
+      "starter": "An",
+      "answer": "An unorganised inbox contributed to Lok missing the deadline—as you bake, so shall you brew.",
+      "answerZh": "阿樂一直不整理電郵，重要邀請被淹沒，回覆期限便過了。",
+      "highlight": "as you bake, so shall you brew"
+    }
+  ]
+}

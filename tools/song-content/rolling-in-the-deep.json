@@ -1,0 +1,5294 @@
+{
+  "slug": "rolling-in-the-deep",
+  "title": "Rolling In The Deep",
+  "singer": "Adele",
+  "translations": [
+    {
+      "english": "There's a fire starting in my heart",
+      "chinese": "我的心中，正燃起一團烈火",
+      "lineId": "line-1",
+      "startSeconds": 5.14,
+      "endSeconds": 9.64
+    },
+    {
+      "english": "Reaching a fever pitch, it's bringing me out the dark",
+      "chinese": "那火焰愈燒愈烈，終於將我帶出黑暗",
+      "lineId": "line-2",
+      "startSeconds": 9.64,
+      "endSeconds": 13.88
+    },
+    {
+      "english": "Finally I can see you crystal clear",
+      "chinese": "如今，我終於能將你看得一清二楚",
+      "lineId": "line-3",
+      "startSeconds": 13.88,
+      "endSeconds": 18.6
+    },
+    {
+      "english": "Go 'head and sell me out and I'll lay your ship bare",
+      "chinese": "［潔淨版：］儘管出賣我吧，我會將你的整艘船徹底揭露，讓一切無所遁形",
+      "lineId": "line-4",
+      "startSeconds": 18.96,
+      "endSeconds": 23.18
+    },
+    {
+      "english": "See how I leave with every piece of you",
+      "chinese": "看著我如何離去，帶走屬於你的每一片殘影",
+      "lineId": "line-5",
+      "startSeconds": 23.18,
+      "endSeconds": 27.94
+    },
+    {
+      "english": "Don't underestimate the things that I will do",
+      "chinese": "別低估了我接下來會做出的事",
+      "lineId": "line-6",
+      "startSeconds": 27.94,
+      "endSeconds": 32.28
+    },
+    {
+      "english": "There's a fire starting in my heart",
+      "chinese": "我的心中，正燃起一團烈火",
+      "lineId": "line-7",
+      "startSeconds": 32.28,
+      "endSeconds": 37.06
+    },
+    {
+      "english": "Reaching a fever pitch",
+      "chinese": "那火焰已燃燒至沸騰的頂點",
+      "lineId": "line-8",
+      "startSeconds": 37.06,
+      "endSeconds": 39.34
+    },
+    {
+      "english": "And it's bringing me out the dark",
+      "chinese": "正將我從黑暗之中帶出來",
+      "lineId": "line-9",
+      "startSeconds": 39.34,
+      "endSeconds": 41.16
+    },
+    {
+      "english": "The scars of your love remind me of us",
+      "chinese": "你的愛留下的傷痕，讓我想起曾經的我們",
+      "lineId": "line-10",
+      "startSeconds": 42.38,
+      "endSeconds": 47.36
+    },
+    {
+      "english": "They keep me thinking that we almost had it all",
+      "chinese": "它們不斷提醒我，我們曾經幾乎擁有了一切",
+      "lineId": "line-11",
+      "startSeconds": 47.36,
+      "endSeconds": 51.62
+    },
+    {
+      "english": "The scars of your love, they leave me breathless",
+      "chinese": "你的愛留下的傷痕，令我痛得幾乎無法呼吸",
+      "lineId": "line-12",
+      "startSeconds": 51.62,
+      "endSeconds": 56.5
+    },
+    {
+      "english": "I can't help feeling",
+      "chinese": "我無法抑制心中的感慨",
+      "lineId": "line-13",
+      "startSeconds": 56.5,
+      "endSeconds": 58.44
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-14",
+      "startSeconds": 58.44,
+      "endSeconds": 60.22
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-15"
+    },
+    {
+      "english": "Rolling in the deep",
+      "chinese": "在情感的深淵中翻騰",
+      "lineId": "line-16"
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-17"
+    },
+    {
+      "english": "You had my heart inside of your hand",
+      "chinese": "你曾將我的心緊握在掌中",
+      "lineId": "line-18"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-19"
+    },
+    {
+      "english": "And you played it, to the beat",
+      "chinese": "卻隨著節拍，將它肆意玩弄",
+      "lineId": "line-20",
+      "startSeconds": 73.34,
+      "endSeconds": 76.34
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Baby, I have no story to be told",
+      "chinese": "親愛的，我本沒有什麼故事可說",
+      "lineId": "line-22",
+      "startSeconds": 78.46,
+      "endSeconds": 82.54
+    },
+    {
+      "english": "But I've heard one on you",
+      "chinese": "但我卻聽說了關於你的那些事",
+      "lineId": "line-23",
+      "startSeconds": 82.54,
+      "endSeconds": 85.08
+    },
+    {
+      "english": "And I'm gonna make your head burn",
+      "chinese": "而我會讓你羞愧得無地自容",
+      "lineId": "line-24"
+    },
+    {
+      "english": "Think of me in the depths of your despair",
+      "chinese": "當你深陷絕望的谷底時，就想起我吧",
+      "lineId": "line-25",
+      "startSeconds": 86.9,
+      "endSeconds": 91.48
+    },
+    {
+      "english": "Make a home down there",
+      "chinese": "乾脆就在那深淵之中安家吧",
+      "lineId": "line-26",
+      "startSeconds": 91.48,
+      "endSeconds": 94.26
+    },
+    {
+      "english": "As mine sure won't be shared",
+      "chinese": "因為我的家，絕不會再與你共享",
+      "lineId": "line-27"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-28"
+    },
+    {
+      "english": "The scars of your love remind me of us",
+      "chinese": "你的愛留下的傷痕，讓我想起曾經的我們",
+      "lineId": "line-29",
+      "startSeconds": 96.18,
+      "endSeconds": 102.26
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-30"
+    },
+    {
+      "english": "They keep me thinking that we almost had it all",
+      "chinese": "它們不斷提醒我，我們曾經幾乎擁有了一切",
+      "lineId": "line-31",
+      "startSeconds": 102.26,
+      "endSeconds": 106.36
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-32"
+    },
+    {
+      "english": "The scars of your love, they leave me breathless",
+      "chinese": "你的愛留下的傷痕，令我痛得幾乎無法呼吸",
+      "lineId": "line-33",
+      "startSeconds": 106.36,
+      "endSeconds": 111.32
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-34"
+    },
+    {
+      "english": "I can't help feeling",
+      "chinese": "我無法抑制心中的感慨",
+      "lineId": "line-35",
+      "startSeconds": 111.66,
+      "endSeconds": 113.4
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-36",
+      "startSeconds": 113.4,
+      "endSeconds": 115.48
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-37"
+    },
+    {
+      "english": "Rolling in the deep",
+      "chinese": "在情感的深淵中翻騰",
+      "lineId": "line-38"
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-39"
+    },
+    {
+      "english": "You had my heart inside of your hand",
+      "chinese": "你曾將我的心緊握在掌中",
+      "lineId": "line-40"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-41"
+    },
+    {
+      "english": "And you played it, to the beat",
+      "chinese": "卻隨著節拍，將它肆意玩弄",
+      "lineId": "line-42"
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-43"
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-44"
+    },
+    {
+      "english": "Rolling in the deep",
+      "chinese": "在情感的深淵中翻騰",
+      "lineId": "line-45"
+    },
+    {
+      "english": "You had my heart inside of your hand",
+      "chinese": "你曾將我的心緊握在掌中",
+      "lineId": "line-46"
+    },
+    {
+      "english": "But you played it, with a beating",
+      "chinese": "可你卻玩弄著它，任它在掌中跳動",
+      "lineId": "line-47",
+      "startSeconds": 145.26,
+      "endSeconds": 149.94
+    },
+    {
+      "english": "Throw your soul through every open door (woah)",
+      "chinese": "將你的靈魂投入每一扇敞開的門扉（噢）",
+      "lineId": "line-48",
+      "startSeconds": 149.94,
+      "endSeconds": 155.64
+    },
+    {
+      "english": "Count your blessings to find what you look for (woah)",
+      "chinese": "細數你所擁有的福分，去尋找你渴望的一切（噢）",
+      "lineId": "line-49",
+      "startSeconds": 155.64,
+      "endSeconds": 160.04
+    },
+    {
+      "english": "Turn my sorrow into treasured gold (woah)",
+      "chinese": "將我的悲傷煉成珍貴的黃金（噢）",
+      "lineId": "line-50",
+      "startSeconds": 160.04,
+      "endSeconds": 165.4
+    },
+    {
+      "english": "You'll pay me back in kind and reap just what you sow (woah)",
+      "chinese": "你終將受到同樣的回報，親自承受自己種下的因果（噢）",
+      "lineId": "line-51"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-52"
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-53",
+      "startSeconds": 171.84,
+      "endSeconds": 175.54
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-54"
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-55",
+      "startSeconds": 176.88,
+      "endSeconds": 180.64
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-56"
+    },
+    {
+      "english": "It all, it all, it all",
+      "chinese": "那一切，那一切，所有的一切",
+      "lineId": "line-57",
+      "startSeconds": 181.6,
+      "endSeconds": 186.5
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-58"
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-59",
+      "startSeconds": 186.5,
+      "endSeconds": 190.56
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-60"
+    },
+    {
+      "english": "Rolling in the deep",
+      "chinese": "在情感的深淵中翻騰",
+      "lineId": "line-61"
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-62"
+    },
+    {
+      "english": "You had my heart inside of your hand",
+      "chinese": "你曾將我的心緊握在掌中",
+      "lineId": "line-63"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-64"
+    },
+    {
+      "english": "And you played it to the beat",
+      "chinese": "卻隨著節拍，將它肆意玩弄",
+      "lineId": "line-65"
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-66"
+    },
+    {
+      "english": "We could have had it all",
+      "chinese": "我們原本可以擁有一切",
+      "lineId": "line-67"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-68"
+    },
+    {
+      "english": "Rolling in the deep",
+      "chinese": "在情感的深淵中翻騰",
+      "lineId": "line-69"
+    },
+    {
+      "english": "(Tears are gonna fall, rolling in the deep)",
+      "chinese": "（淚水終將落下，在深淵中翻騰）",
+      "lineId": "line-70"
+    },
+    {
+      "english": "You had my heart inside of your hand",
+      "chinese": "你曾將我的心緊握在掌中",
+      "lineId": "line-71"
+    },
+    {
+      "english": "(You're gonna wish you never had met me)",
+      "chinese": "（你終將後悔，當初曾與我相遇）",
+      "lineId": "line-72"
+    },
+    {
+      "english": "But you played it",
+      "chinese": "可你卻玩弄了它",
+      "lineId": "line-73"
+    },
+    {
+      "english": "You played it",
+      "chinese": "你玩弄了它",
+      "lineId": "line-74"
+    },
+    {
+      "english": "You played it",
+      "chinese": "你玩弄了它",
+      "lineId": "line-75"
+    },
+    {
+      "english": "You played it to the beat",
+      "chinese": "你隨著節拍，將它肆意玩弄",
+      "lineId": "line-76"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-2",
+          "answer": "fever pitch",
+          "options": [
+            "fever pitch",
+            "higher point",
+            "fierce heat"
+          ],
+          "prompt": "Reaching a {{blank}}, it's bringing me out the dark",
+          "promptZh": "那火焰愈燒愈烈，終於將我帶出黑暗"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-5",
+          "answer": "every piece of you",
+          "options": [
+            "every trace of you",
+            "every piece of you",
+            "every part of me"
+          ],
+          "prompt": "See how I leave with {{blank}}",
+          "promptZh": "看著我如何離去，帶走屬於你的每一片殘影"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-7",
+          "answer": "my heart",
+          "options": [
+            "your heart",
+            "my mind",
+            "my heart"
+          ],
+          "prompt": "There's a fire starting in {{blank}}",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-10",
+          "answer": "scars of your love",
+          "options": [
+            "scars of my heart",
+            "scars of your love",
+            "marks of your love"
+          ],
+          "prompt": "The {{blank}} remind me of us",
+          "promptZh": "你的愛留下的傷痕，讓我想起曾經的我們"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-13",
+          "answer": "can't help feeling",
+          "options": [
+            "can't stop dreaming",
+            "can't keep smiling",
+            "can't help feeling"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法抑制心中的感慨"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-15",
+          "answer": "wish you never had met me",
+          "options": [
+            "hope you never forget me",
+            "wish you never had left me",
+            "wish you never had met me"
+          ],
+          "prompt": "(You're gonna {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-18",
+          "answer": "inside of your hand",
+          "options": [
+            "inside of your hand",
+            "inside of my head",
+            "underneath your hand"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-20",
+          "answer": "played it",
+          "options": [
+            "played it",
+            "saved it",
+            "made it"
+          ],
+          "prompt": "And you {{blank}}, to the beat",
+          "promptZh": "卻隨著節拍，將它肆意玩弄"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-23",
+          "answer": "heard one on you",
+          "options": [
+            "heard one from you",
+            "heard one on you",
+            "heard all about you"
+          ],
+          "prompt": "But I've {{blank}}",
+          "promptZh": "但我卻聽說了關於你的那些事"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-25",
+          "answer": "depths of your despair",
+          "options": [
+            "depths of my despair",
+            "depths of your despair",
+            "middle of your nightmare"
+          ],
+          "prompt": "Think of me in the {{blank}}",
+          "promptZh": "當你深陷絕望的谷底時，就想起我吧"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-28",
+          "answer": "never had met me",
+          "options": [
+            "never had met me",
+            "never had seen me",
+            "never had left me"
+          ],
+          "prompt": "(You're gonna wish you {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-30",
+          "answer": "rolling in the deep",
+          "options": [
+            "Falling in the sea",
+            "Calling in my sleep",
+            "rolling in the deep"
+          ],
+          "prompt": "(Tears are gonna fall, {{blank}})",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-33",
+          "answer": "leave me breathless",
+          "options": [
+            "make me speechless",
+            "leave me breathless",
+            "leave me restless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-40",
+          "answer": "inside of your hand",
+          "options": [
+            "inside of your heart",
+            "inside of my hand",
+            "inside of your hand"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-46",
+          "answer": "your hand",
+          "options": [
+            "your hand",
+            "my hand",
+            "your head"
+          ],
+          "prompt": "You had my heart inside of {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-48",
+          "answer": "Throw your soul",
+          "options": [
+            "Hold your breath",
+            "Throw your soul",
+            "Show your love"
+          ],
+          "prompt": "{{blank}} through every open door (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-49",
+          "answer": "what you look for",
+          "options": [
+            "what you look for",
+            "what you long for",
+            "what you live for"
+          ],
+          "prompt": "Count your blessings to find {{blank}} (woah)",
+          "promptZh": "細數你所擁有的福分，去尋找你渴望的一切（噢）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-50",
+          "answer": "treasured gold",
+          "options": [
+            "treasured gold",
+            "hidden gold",
+            "precious stones"
+          ],
+          "prompt": "Turn my sorrow into {{blank}} (woah)",
+          "promptZh": "將我的悲傷煉成珍貴的黃金（噢）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-57",
+          "answer": "It all, it all, it all",
+          "options": [
+            "It's gone, it's gone, it's gone",
+            "We fall, we fall, we fall",
+            "It all, it all, it all"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "那一切，那一切，所有的一切"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-73",
+          "answer": "But you played it",
+          "options": [
+            "But you saved it",
+            "But you played it",
+            "But you made it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "可你卻玩弄了它"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "There's a fire starting in my heart"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Reaching a {{q:1}}, it's bringing me out the dark"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Finally I can see you crystal clear"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Go 'head and sell me out and I'll lay your ship bare"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "See how I leave with {{q:2}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't underestimate the things that I will do"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "There's a fire starting in {{q:3}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Reaching a fever pitch"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And it's bringing me out the dark"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "The {{q:4}} remind me of us"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "They keep me thinking that we almost had it all"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The scars of your love, they leave me breathless"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:5}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "(You're gonna {{q:6}})"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You had my heart {{q:7}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:8}}, to the beat"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Baby, I have no story to be told"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "But I've {{q:9}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I'm gonna make your head burn"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Think of me in the {{q:10}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Make a home down there"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "As mine sure won't be shared"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(You're gonna wish you {{q:11}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "The scars of your love remind me of us"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(Tears are gonna fall, {{q:12}})"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "They keep me thinking that we almost had it all"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The scars of your love, they {{q:13}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I can't help feeling"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You had my heart {{q:14}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And you played it, to the beat"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You had my heart inside of {{q:15}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "But you played it, with a beating"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:16}} through every open door (woah)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Count your blessings to find {{q:17}} (woah)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Turn my sorrow into {{q:18}} (woah)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll pay me back in kind and reap just what you sow (woah)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "{{q:19}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And you played it to the beat"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "You played it"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "You played it"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You played it to the beat"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "fire starting",
+          "options": [
+            "fire starting",
+            "flame burning",
+            "storm rising"
+          ],
+          "prompt": "There's a {{blank}} in my heart",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fever pitch",
+          "options": [
+            "fierce heat",
+            "higher point",
+            "fever pitch"
+          ],
+          "prompt": "Reaching a {{blank}}, it's bringing me out the dark",
+          "promptZh": "那火焰愈燒愈烈，終於將我帶出黑暗"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "every piece of you",
+          "options": [
+            "every part of me",
+            "every trace of you",
+            "every piece of you"
+          ],
+          "prompt": "See how I leave with {{blank}}",
+          "promptZh": "看著我如何離去，帶走屬於你的每一片殘影"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "things that I will do",
+          "options": [
+            "things I used to do",
+            "things that I will do",
+            "words that I will say"
+          ],
+          "prompt": "Don't underestimate the {{blank}}",
+          "promptZh": "別低估了我接下來會做出的事"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "my heart",
+          "options": [
+            "my heart",
+            "my mind",
+            "your heart"
+          ],
+          "prompt": "There's a fire starting in {{blank}}",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-10",
+          "answer": "scars of your love",
+          "options": [
+            "marks of your love",
+            "scars of my heart",
+            "scars of your love"
+          ],
+          "prompt": "The {{blank}} remind me of us",
+          "promptZh": "你的愛留下的傷痕，讓我想起曾經的我們"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-12",
+          "answer": "leave me breathless",
+          "options": [
+            "make me restless",
+            "leave me breathless",
+            "leave me helpless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-13",
+          "answer": "can't help feeling",
+          "options": [
+            "can't stop dreaming",
+            "can't help feeling",
+            "can't keep smiling"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法抑制心中的感慨"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-15",
+          "answer": "wish you never had met me",
+          "options": [
+            "wish you never had met me",
+            "wish you never had left me",
+            "hope you never forget me"
+          ],
+          "prompt": "(You're gonna {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-16",
+          "answer": "Rolling in the deep",
+          "options": [
+            "Calling from the deep",
+            "Falling in my sleep",
+            "Rolling in the deep"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "在情感的深淵中翻騰"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-18",
+          "answer": "inside of your hand",
+          "options": [
+            "underneath your hand",
+            "inside of your hand",
+            "inside of my head"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-20",
+          "answer": "played it",
+          "options": [
+            "played it",
+            "made it",
+            "saved it"
+          ],
+          "prompt": "And you {{blank}}, to the beat",
+          "promptZh": "卻隨著節拍，將它肆意玩弄"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-21",
+          "answer": "are gonna fall",
+          "options": [
+            "are gonna fall",
+            "are gonna fade",
+            "are gonna rise"
+          ],
+          "prompt": "(Tears {{blank}}, rolling in the deep)",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-23",
+          "answer": "heard one on you",
+          "options": [
+            "heard one from you",
+            "heard one on you",
+            "heard all about you"
+          ],
+          "prompt": "But I've {{blank}}",
+          "promptZh": "但我卻聽說了關於你的那些事"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-25",
+          "answer": "depths of your despair",
+          "options": [
+            "depths of your despair",
+            "middle of your nightmare",
+            "depths of my despair"
+          ],
+          "prompt": "Think of me in the {{blank}}",
+          "promptZh": "當你深陷絕望的谷底時，就想起我吧"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-26",
+          "answer": "Make a home down there",
+          "options": [
+            "Find a way back here",
+            "Make a home down there",
+            "Build a life out there"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "乾脆就在那深淵之中安家吧"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-27",
+          "answer": "won't be shared",
+          "options": [
+            "won't be shared",
+            "can't be spared",
+            "won't be there"
+          ],
+          "prompt": "As mine sure {{blank}}",
+          "promptZh": "因為我的家，絕不會再與你共享"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-28",
+          "answer": "never had met me",
+          "options": [
+            "never had seen me",
+            "never had left me",
+            "never had met me"
+          ],
+          "prompt": "(You're gonna wish you {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-30",
+          "answer": "rolling in the deep",
+          "options": [
+            "rolling in the deep",
+            "Calling in my sleep",
+            "Falling in the sea"
+          ],
+          "prompt": "(Tears are gonna fall, {{blank}})",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-31",
+          "answer": "we almost had it all",
+          "options": [
+            "we never had it all",
+            "we almost had it all",
+            "we could have lost it all"
+          ],
+          "prompt": "They keep me thinking that {{blank}}",
+          "promptZh": "它們不斷提醒我，我們曾經幾乎擁有了一切"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-33",
+          "answer": "leave me breathless",
+          "options": [
+            "leave me restless",
+            "make me speechless",
+            "leave me breathless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-40",
+          "answer": "inside of your hand",
+          "options": [
+            "inside of your heart",
+            "inside of your hand",
+            "inside of my hand"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-44",
+          "answer": "We could have had it all",
+          "options": [
+            "We should have lost it all",
+            "We might have seen it all",
+            "We could have had it all"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們原本可以擁有一切"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-46",
+          "answer": "your hand",
+          "options": [
+            "your hand",
+            "your head",
+            "my hand"
+          ],
+          "prompt": "You had my heart inside of {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-48",
+          "answer": "Throw your soul",
+          "options": [
+            "Show your love",
+            "Throw your soul",
+            "Hold your breath"
+          ],
+          "prompt": "{{blank}} through every open door (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-48",
+          "answer": "every open door",
+          "options": [
+            "every open road",
+            "every open door",
+            "every broken door"
+          ],
+          "prompt": "Throw your soul through {{blank}} (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-49",
+          "answer": "what you look for",
+          "options": [
+            "what you look for",
+            "what you live for",
+            "what you long for"
+          ],
+          "prompt": "Count your blessings to find {{blank}} (woah)",
+          "promptZh": "細數你所擁有的福分，去尋找你渴望的一切（噢）"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-50",
+          "answer": "treasured gold",
+          "options": [
+            "hidden gold",
+            "treasured gold",
+            "precious stones"
+          ],
+          "prompt": "Turn my sorrow into {{blank}} (woah)",
+          "promptZh": "將我的悲傷煉成珍貴的黃金（噢）"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-51",
+          "answer": "pay me back in kind",
+          "options": [
+            "take me back in time",
+            "give me peace of mind",
+            "pay me back in kind"
+          ],
+          "prompt": "You'll {{blank}} and reap just what you sow (woah)",
+          "promptZh": "你終將受到同樣的回報，親自承受自己種下的因果（噢）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-57",
+          "answer": "It all, it all, it all",
+          "options": [
+            "It's gone, it's gone, it's gone",
+            "We fall, we fall, we fall",
+            "It all, it all, it all"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "那一切，那一切，所有的一切"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-73",
+          "answer": "But you played it",
+          "options": [
+            "But you played it",
+            "But you saved it",
+            "But you made it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "可你卻玩弄了它"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-74",
+          "answer": "You played it",
+          "options": [
+            "You saved it",
+            "You made it",
+            "You played it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "你玩弄了它"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "There's a {{q:1}} in my heart"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Reaching a {{q:2}}, it's bringing me out the dark"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Finally I can see you crystal clear"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Go 'head and sell me out and I'll lay your ship bare"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "See how I leave with {{q:3}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't underestimate the {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "There's a fire starting in {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Reaching a fever pitch"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And it's bringing me out the dark"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "The {{q:6}} remind me of us"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "They keep me thinking that we almost had it all"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The scars of your love, they {{q:7}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:8}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "(You're gonna {{q:9}})"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You had my heart {{q:11}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:12}}, to the beat"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(Tears {{q:13}}, rolling in the deep)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Baby, I have no story to be told"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "But I've {{q:14}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I'm gonna make your head burn"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Think of me in the {{q:15}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "As mine sure {{q:17}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(You're gonna wish you {{q:18}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "The scars of your love remind me of us"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(Tears are gonna fall, {{q:19}})"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "They keep me thinking that {{q:20}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The scars of your love, they {{q:21}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I can't help feeling"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You had my heart {{q:22}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And you played it, to the beat"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You had my heart inside of {{q:24}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "But you played it, with a beating"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:25}} through {{q:26}} (woah)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Count your blessings to find {{q:27}} (woah)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Turn my sorrow into {{q:28}} (woah)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll {{q:29}} and reap just what you sow (woah)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And you played it to the beat"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "You played it"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You played it to the beat"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "fire starting",
+          "options": [
+            "fire starting",
+            "flame burning",
+            "storm rising"
+          ],
+          "prompt": "There's a {{blank}} in my heart",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fever pitch",
+          "options": [
+            "fever pitch",
+            "fierce heat",
+            "higher point"
+          ],
+          "prompt": "Reaching a {{blank}}, it's bringing me out the dark",
+          "promptZh": "那火焰愈燒愈烈，終於將我帶出黑暗"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "crystal clear",
+          "options": [
+            "bright and clear",
+            "perfectly near",
+            "crystal clear"
+          ],
+          "prompt": "Finally I can see you {{blank}}",
+          "promptZh": "如今，我終於能將你看得一清二楚"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "every piece of you",
+          "options": [
+            "every part of me",
+            "every piece of you",
+            "every trace of you"
+          ],
+          "prompt": "See how I leave with {{blank}}",
+          "promptZh": "看著我如何離去，帶走屬於你的每一片殘影"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "things that I will do",
+          "options": [
+            "words that I will say",
+            "things I used to do",
+            "things that I will do"
+          ],
+          "prompt": "Don't underestimate the {{blank}}",
+          "promptZh": "別低估了我接下來會做出的事"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "my heart",
+          "options": [
+            "your heart",
+            "my mind",
+            "my heart"
+          ],
+          "prompt": "There's a fire starting in {{blank}}",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-9",
+          "answer": "out the dark",
+          "options": [
+            "into the light",
+            "out the dark",
+            "through the night"
+          ],
+          "prompt": "And it's bringing me {{blank}}",
+          "promptZh": "正將我從黑暗之中帶出來"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "scars of your love",
+          "options": [
+            "marks of your love",
+            "scars of my heart",
+            "scars of your love"
+          ],
+          "prompt": "The {{blank}} remind me of us",
+          "promptZh": "你的愛留下的傷痕，讓我想起曾經的我們"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-12",
+          "answer": "leave me breathless",
+          "options": [
+            "leave me helpless",
+            "leave me breathless",
+            "make me restless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-13",
+          "answer": "can't help feeling",
+          "options": [
+            "can't keep smiling",
+            "can't stop dreaming",
+            "can't help feeling"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法抑制心中的感慨"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-15",
+          "answer": "wish you never had met me",
+          "options": [
+            "wish you never had left me",
+            "wish you never had met me",
+            "hope you never forget me"
+          ],
+          "prompt": "(You're gonna {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-16",
+          "answer": "Rolling in the deep",
+          "options": [
+            "Rolling in the deep",
+            "Calling from the deep",
+            "Falling in my sleep"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "在情感的深淵中翻騰"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-17",
+          "answer": "Tears are gonna fall",
+          "options": [
+            "Tears are gonna dry",
+            "Tears are gonna fall",
+            "Years are gonna pass"
+          ],
+          "prompt": "({{blank}}, rolling in the deep)",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-18",
+          "answer": "inside of your hand",
+          "options": [
+            "inside of your hand",
+            "underneath your hand",
+            "inside of my head"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-20",
+          "answer": "played it",
+          "options": [
+            "saved it",
+            "played it",
+            "made it"
+          ],
+          "prompt": "And you {{blank}}, to the beat",
+          "promptZh": "卻隨著節拍，將它肆意玩弄"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-21",
+          "answer": "are gonna fall",
+          "options": [
+            "are gonna fade",
+            "are gonna rise",
+            "are gonna fall"
+          ],
+          "prompt": "(Tears {{blank}}, rolling in the deep)",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-22",
+          "answer": "no story to be told",
+          "options": [
+            "no story to be told",
+            "no reason to be cold",
+            "one secret to unfold"
+          ],
+          "prompt": "Baby, I have {{blank}}",
+          "promptZh": "親愛的，我本沒有什麼故事可說"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "heard one on you",
+          "options": [
+            "heard one on you",
+            "heard all about you",
+            "heard one from you"
+          ],
+          "prompt": "But I've {{blank}}",
+          "promptZh": "但我卻聽說了關於你的那些事"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-25",
+          "answer": "depths of your despair",
+          "options": [
+            "depths of my despair",
+            "middle of your nightmare",
+            "depths of your despair"
+          ],
+          "prompt": "Think of me in the {{blank}}",
+          "promptZh": "當你深陷絕望的谷底時，就想起我吧"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-26",
+          "answer": "Make a home down there",
+          "options": [
+            "Find a way back here",
+            "Make a home down there",
+            "Build a life out there"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "乾脆就在那深淵之中安家吧"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-27",
+          "answer": "won't be shared",
+          "options": [
+            "won't be shared",
+            "can't be spared",
+            "won't be there"
+          ],
+          "prompt": "As mine sure {{blank}}",
+          "promptZh": "因為我的家，絕不會再與你共享"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-28",
+          "answer": "never had met me",
+          "options": [
+            "never had met me",
+            "never had seen me",
+            "never had left me"
+          ],
+          "prompt": "(You're gonna wish you {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-29",
+          "answer": "remind me of us",
+          "options": [
+            "remind me of you",
+            "remind me of us",
+            "bring me back home"
+          ],
+          "prompt": "The scars of your love {{blank}}",
+          "promptZh": "你的愛留下的傷痕，讓我想起曾經的我們"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-30",
+          "answer": "rolling in the deep",
+          "options": [
+            "Calling in my sleep",
+            "rolling in the deep",
+            "Falling in the sea"
+          ],
+          "prompt": "(Tears are gonna fall, {{blank}})",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-31",
+          "answer": "we almost had it all",
+          "options": [
+            "we could have lost it all",
+            "we never had it all",
+            "we almost had it all"
+          ],
+          "prompt": "They keep me thinking that {{blank}}",
+          "promptZh": "它們不斷提醒我，我們曾經幾乎擁有了一切"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-33",
+          "answer": "leave me breathless",
+          "options": [
+            "leave me restless",
+            "make me speechless",
+            "leave me breathless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-36",
+          "answer": "could have had it all",
+          "options": [
+            "might have lost it all",
+            "could have had it all",
+            "should have known it all"
+          ],
+          "prompt": "We {{blank}}",
+          "promptZh": "我們原本可以擁有一切"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-40",
+          "answer": "inside of your hand",
+          "options": [
+            "inside of my hand",
+            "inside of your hand",
+            "inside of your heart"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-44",
+          "answer": "We could have had it all",
+          "options": [
+            "We could have had it all",
+            "We might have seen it all",
+            "We should have lost it all"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們原本可以擁有一切"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-46",
+          "answer": "your hand",
+          "options": [
+            "my hand",
+            "your head",
+            "your hand"
+          ],
+          "prompt": "You had my heart inside of {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-48",
+          "answer": "Throw your soul",
+          "options": [
+            "Throw your soul",
+            "Show your love",
+            "Hold your breath"
+          ],
+          "prompt": "{{blank}} through every open door (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-48",
+          "answer": "every open door",
+          "options": [
+            "every open door",
+            "every broken door",
+            "every open road"
+          ],
+          "prompt": "Throw your soul through {{blank}} (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-49",
+          "answer": "Count your blessings",
+          "options": [
+            "Find your blessings",
+            "Count your losses",
+            "Count your blessings"
+          ],
+          "prompt": "{{blank}} to find what you look for (woah)",
+          "promptZh": "細數你所擁有的福分，去尋找你渴望的一切（噢）"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-49",
+          "answer": "what you look for",
+          "options": [
+            "what you look for",
+            "what you live for",
+            "what you long for"
+          ],
+          "prompt": "Count your blessings to find {{blank}} (woah)",
+          "promptZh": "細數你所擁有的福分，去尋找你渴望的一切（噢）"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-50",
+          "answer": "treasured gold",
+          "options": [
+            "hidden gold",
+            "treasured gold",
+            "precious stones"
+          ],
+          "prompt": "Turn my sorrow into {{blank}} (woah)",
+          "promptZh": "將我的悲傷煉成珍貴的黃金（噢）"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-51",
+          "answer": "pay me back in kind",
+          "options": [
+            "pay me back in kind",
+            "give me peace of mind",
+            "take me back in time"
+          ],
+          "prompt": "You'll {{blank}} and reap just what you sow (woah)",
+          "promptZh": "你終將受到同樣的回報，親自承受自己種下的因果（噢）"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-51",
+          "answer": "reap just what you sow",
+          "options": [
+            "keep just what you know",
+            "see just where you go",
+            "reap just what you sow"
+          ],
+          "prompt": "You'll pay me back in kind and {{blank}} (woah)",
+          "promptZh": "你終將受到同樣的回報，親自承受自己種下的因果（噢）"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-57",
+          "answer": "It all, it all, it all",
+          "options": [
+            "It all, it all, it all",
+            "We fall, we fall, we fall",
+            "It's gone, it's gone, it's gone"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "那一切，那一切，所有的一切"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-73",
+          "answer": "But you played it",
+          "options": [
+            "But you saved it",
+            "But you made it",
+            "But you played it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "可你卻玩弄了它"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-74",
+          "answer": "You played it",
+          "options": [
+            "You saved it",
+            "You played it",
+            "You made it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "你玩弄了它"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "There's a {{q:1}} in my heart"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Reaching a {{q:2}}, it's bringing me out the dark"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Finally I can see you {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Go 'head and sell me out and I'll lay your ship bare"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "See how I leave with {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't underestimate the {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "There's a fire starting in {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Reaching a fever pitch"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And it's bringing me {{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "The {{q:8}} remind me of us"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "They keep me thinking that we almost had it all"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The scars of your love, they {{q:9}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "(You're gonna {{q:11}})"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "({{q:13}}, rolling in the deep)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You had my heart {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:15}}, to the beat"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(Tears {{q:16}}, rolling in the deep)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Baby, I have {{q:17}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "But I've {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I'm gonna make your head burn"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Think of me in the {{q:19}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "As mine sure {{q:21}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(You're gonna wish you {{q:22}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "The scars of your love {{q:23}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(Tears are gonna fall, {{q:24}})"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "They keep me thinking that {{q:25}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The scars of your love, they {{q:26}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I can't help feeling"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We {{q:27}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You had my heart {{q:28}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And you played it, to the beat"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You had my heart inside of {{q:30}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "But you played it, with a beating"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:31}} through {{q:32}} (woah)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "{{q:33}} to find {{q:34}} (woah)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Turn my sorrow into {{q:35}} (woah)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll {{q:36}} and {{q:37}} (woah)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And you played it to the beat"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "You played it"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You played it to the beat"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "fire starting",
+          "options": [
+            "fire starting",
+            "storm rising",
+            "flame burning"
+          ],
+          "prompt": "There's a {{blank}} in my heart",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "fever pitch",
+          "options": [
+            "fever pitch",
+            "fierce heat",
+            "higher point"
+          ],
+          "prompt": "Reaching a {{blank}}, it's bringing me out the dark",
+          "promptZh": "那火焰愈燒愈烈，終於將我帶出黑暗"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "crystal clear",
+          "options": [
+            "perfectly near",
+            "crystal clear",
+            "bright and clear"
+          ],
+          "prompt": "Finally I can see you {{blank}}",
+          "promptZh": "如今，我終於能將你看得一清二楚"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "every piece of you",
+          "options": [
+            "every trace of you",
+            "every part of me",
+            "every piece of you"
+          ],
+          "prompt": "See how I leave with {{blank}}",
+          "promptZh": "看著我如何離去，帶走屬於你的每一片殘影"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "underestimate",
+          "options": [
+            "underestimate",
+            "misunderstand",
+            "overestimate"
+          ],
+          "prompt": "Don't {{blank}} the things that I will do",
+          "promptZh": "別低估了我接下來會做出的事"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "things that I will do",
+          "options": [
+            "things that I will do",
+            "things I used to do",
+            "words that I will say"
+          ],
+          "prompt": "Don't underestimate the {{blank}}",
+          "promptZh": "別低估了我接下來會做出的事"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "my heart",
+          "options": [
+            "my mind",
+            "my heart",
+            "your heart"
+          ],
+          "prompt": "There's a fire starting in {{blank}}",
+          "promptZh": "我的心中，正燃起一團烈火"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "out the dark",
+          "options": [
+            "out the dark",
+            "into the light",
+            "through the night"
+          ],
+          "prompt": "And it's bringing me {{blank}}",
+          "promptZh": "正將我從黑暗之中帶出來"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "scars of your love",
+          "options": [
+            "scars of your love",
+            "marks of your love",
+            "scars of my heart"
+          ],
+          "prompt": "The {{blank}} remind me of us",
+          "promptZh": "你的愛留下的傷痕，讓我想起曾經的我們"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "almost had it all",
+          "options": [
+            "always wanted more",
+            "almost had it all",
+            "nearly lost it all"
+          ],
+          "prompt": "They keep me thinking that we {{blank}}",
+          "promptZh": "它們不斷提醒我，我們曾經幾乎擁有了一切"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "leave me breathless",
+          "options": [
+            "leave me breathless",
+            "leave me helpless",
+            "make me restless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "can't help feeling",
+          "options": [
+            "can't keep smiling",
+            "can't stop dreaming",
+            "can't help feeling"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法抑制心中的感慨"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "had it all",
+          "options": [
+            "seen it all",
+            "lost it all",
+            "had it all"
+          ],
+          "prompt": "We could have {{blank}}",
+          "promptZh": "我們原本可以擁有一切"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "wish you never had met me",
+          "options": [
+            "wish you never had met me",
+            "wish you never had left me",
+            "hope you never forget me"
+          ],
+          "prompt": "(You're gonna {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "Rolling in the deep",
+          "options": [
+            "Calling from the deep",
+            "Falling in my sleep",
+            "Rolling in the deep"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "在情感的深淵中翻騰"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-17",
+          "answer": "Tears are gonna fall",
+          "options": [
+            "Years are gonna pass",
+            "Tears are gonna dry",
+            "Tears are gonna fall"
+          ],
+          "prompt": "({{blank}}, rolling in the deep)",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-18",
+          "answer": "inside of your hand",
+          "options": [
+            "underneath your hand",
+            "inside of your hand",
+            "inside of my head"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-19",
+          "answer": "never had met me",
+          "options": [
+            "never had loved me",
+            "never had known me",
+            "never had met me"
+          ],
+          "prompt": "(You're gonna wish you {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-20",
+          "answer": "played it",
+          "options": [
+            "played it",
+            "saved it",
+            "made it"
+          ],
+          "prompt": "And you {{blank}}, to the beat",
+          "promptZh": "卻隨著節拍，將它肆意玩弄"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-21",
+          "answer": "are gonna fall",
+          "options": [
+            "are gonna fall",
+            "are gonna rise",
+            "are gonna fade"
+          ],
+          "prompt": "(Tears {{blank}}, rolling in the deep)",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "no story to be told",
+          "options": [
+            "one secret to unfold",
+            "no story to be told",
+            "no reason to be cold"
+          ],
+          "prompt": "Baby, I have {{blank}}",
+          "promptZh": "親愛的，我本沒有什麼故事可說"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "heard one on you",
+          "options": [
+            "heard one on you",
+            "heard all about you",
+            "heard one from you"
+          ],
+          "prompt": "But I've {{blank}}",
+          "promptZh": "但我卻聽說了關於你的那些事"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "make your head burn",
+          "options": [
+            "make your heart turn",
+            "make your face glow",
+            "make your head burn"
+          ],
+          "prompt": "And I'm gonna {{blank}}",
+          "promptZh": "而我會讓你羞愧得無地自容"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "depths of your despair",
+          "options": [
+            "depths of my despair",
+            "depths of your despair",
+            "middle of your nightmare"
+          ],
+          "prompt": "Think of me in the {{blank}}",
+          "promptZh": "當你深陷絕望的谷底時，就想起我吧"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "Make a home down there",
+          "options": [
+            "Build a life out there",
+            "Make a home down there",
+            "Find a way back here"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "乾脆就在那深淵之中安家吧"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "won't be shared",
+          "options": [
+            "can't be spared",
+            "won't be there",
+            "won't be shared"
+          ],
+          "prompt": "As mine sure {{blank}}",
+          "promptZh": "因為我的家，絕不會再與你共享"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "never had met me",
+          "options": [
+            "never had seen me",
+            "never had met me",
+            "never had left me"
+          ],
+          "prompt": "(You're gonna wish you {{blank}})",
+          "promptZh": "（你終將後悔，當初曾與我相遇）"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "remind me of us",
+          "options": [
+            "remind me of us",
+            "bring me back home",
+            "remind me of you"
+          ],
+          "prompt": "The scars of your love {{blank}}",
+          "promptZh": "你的愛留下的傷痕，讓我想起曾經的我們"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "rolling in the deep",
+          "options": [
+            "Falling in the sea",
+            "Calling in my sleep",
+            "rolling in the deep"
+          ],
+          "prompt": "(Tears are gonna fall, {{blank}})",
+          "promptZh": "（淚水終將落下，在深淵中翻騰）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "keep me thinking",
+          "options": [
+            "keep me waiting",
+            "keep me thinking",
+            "leave me wishing"
+          ],
+          "prompt": "They {{blank}} that we almost had it all",
+          "promptZh": "它們不斷提醒我，我們曾經幾乎擁有了一切"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-31",
+          "answer": "we almost had it all",
+          "options": [
+            "we could have lost it all",
+            "we almost had it all",
+            "we never had it all"
+          ],
+          "prompt": "They keep me thinking that {{blank}}",
+          "promptZh": "它們不斷提醒我，我們曾經幾乎擁有了一切"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "leave me breathless",
+          "options": [
+            "leave me restless",
+            "make me speechless",
+            "leave me breathless"
+          ],
+          "prompt": "The scars of your love, they {{blank}}",
+          "promptZh": "你的愛留下的傷痕，令我痛得幾乎無法呼吸"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-36",
+          "answer": "could have had it all",
+          "options": [
+            "should have known it all",
+            "might have lost it all",
+            "could have had it all"
+          ],
+          "prompt": "We {{blank}}",
+          "promptZh": "我們原本可以擁有一切"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-40",
+          "answer": "inside of your hand",
+          "options": [
+            "inside of my hand",
+            "inside of your hand",
+            "inside of your heart"
+          ],
+          "prompt": "You had my heart {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-42",
+          "answer": "to the beat",
+          "options": [
+            "to the end",
+            "to the beat",
+            "with the heat"
+          ],
+          "prompt": "And you played it, {{blank}}",
+          "promptZh": "卻隨著節拍，將它肆意玩弄"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-44",
+          "answer": "We could have had it all",
+          "options": [
+            "We should have lost it all",
+            "We might have seen it all",
+            "We could have had it all"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我們原本可以擁有一切"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-46",
+          "answer": "your hand",
+          "options": [
+            "your head",
+            "your hand",
+            "my hand"
+          ],
+          "prompt": "You had my heart inside of {{blank}}",
+          "promptZh": "你曾將我的心緊握在掌中"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-47",
+          "answer": "with a beating",
+          "options": [
+            "without meaning",
+            "with a beating",
+            "with a feeling"
+          ],
+          "prompt": "But you played it, {{blank}}",
+          "promptZh": "可你卻玩弄著它，任它在掌中跳動"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-48",
+          "answer": "Throw your soul",
+          "options": [
+            "Hold your breath",
+            "Show your love",
+            "Throw your soul"
+          ],
+          "prompt": "{{blank}} through every open door (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-48",
+          "answer": "every open door",
+          "options": [
+            "every open road",
+            "every broken door",
+            "every open door"
+          ],
+          "prompt": "Throw your soul through {{blank}} (woah)",
+          "promptZh": "將你的靈魂投入每一扇敞開的門扉（噢）"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-49",
+          "answer": "Count your blessings",
+          "options": [
+            "Count your blessings",
+            "Find your blessings",
+            "Count your losses"
+          ],
+          "prompt": "{{blank}} to find what you look for (woah)",
+          "promptZh": "細數你所擁有的福分，去尋找你渴望的一切（噢）"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-49",
+          "answer": "what you look for",
+          "options": [
+            "what you long for",
+            "what you look for",
+            "what you live for"
+          ],
+          "prompt": "Count your blessings to find {{blank}} (woah)",
+          "promptZh": "細數你所擁有的福分，去尋找你渴望的一切（噢）"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-50",
+          "answer": "my sorrow",
+          "options": [
+            "your sorrow",
+            "my shadow",
+            "my sorrow"
+          ],
+          "prompt": "Turn {{blank}} into treasured gold (woah)",
+          "promptZh": "將我的悲傷煉成珍貴的黃金（噢）"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-50",
+          "answer": "treasured gold",
+          "options": [
+            "hidden gold",
+            "treasured gold",
+            "precious stones"
+          ],
+          "prompt": "Turn my sorrow into {{blank}} (woah)",
+          "promptZh": "將我的悲傷煉成珍貴的黃金（噢）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-51",
+          "answer": "pay me back in kind",
+          "options": [
+            "pay me back in kind",
+            "take me back in time",
+            "give me peace of mind"
+          ],
+          "prompt": "You'll {{blank}} and reap just what you sow (woah)",
+          "promptZh": "你終將受到同樣的回報，親自承受自己種下的因果（噢）"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-51",
+          "answer": "reap just what you sow",
+          "options": [
+            "keep just what you know",
+            "reap just what you sow",
+            "see just where you go"
+          ],
+          "prompt": "You'll pay me back in kind and {{blank}} (woah)",
+          "promptZh": "你終將受到同樣的回報，親自承受自己種下的因果（噢）"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-57",
+          "answer": "It all, it all, it all",
+          "options": [
+            "It all, it all, it all",
+            "It's gone, it's gone, it's gone",
+            "We fall, we fall, we fall"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "那一切，那一切，所有的一切"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-65",
+          "answer": "to the beat",
+          "options": [
+            "with the beat",
+            "to the heat",
+            "to the beat"
+          ],
+          "prompt": "And you played it {{blank}}",
+          "promptZh": "卻隨著節拍，將它肆意玩弄"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-73",
+          "answer": "But you played it",
+          "options": [
+            "But you played it",
+            "But you made it",
+            "But you saved it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "可你卻玩弄了它"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-74",
+          "answer": "You played it",
+          "options": [
+            "You played it",
+            "You saved it",
+            "You made it"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "你玩弄了它"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "There's a {{q:1}} in my heart"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Reaching a {{q:2}}, it's bringing me out the dark"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Finally I can see you {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Go 'head and sell me out and I'll lay your ship bare"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "See how I leave with {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Don't {{q:5}} the {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "There's a fire starting in {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Reaching a fever pitch"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And it's bringing me {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "The {{q:9}} remind me of us"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "They keep me thinking that we {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The scars of your love, they {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "We could have {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "(You're gonna {{q:14}})"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "({{q:16}}, rolling in the deep)"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "You had my heart {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "(You're gonna wish you {{q:18}})"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And you {{q:19}}, to the beat"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "(Tears {{q:20}}, rolling in the deep)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Baby, I have {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "But I've {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I'm gonna {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Think of me in the {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "As mine sure {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "(You're gonna wish you {{q:27}})"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "The scars of your love {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "(Tears are gonna fall, {{q:29}})"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "They {{q:30}} that {{q:31}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "The scars of your love, they {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I can't help feeling"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "We {{q:33}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You had my heart {{q:34}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And you played it, {{q:35}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "You had my heart inside of {{q:37}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "But you played it, {{q:38}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:39}} through {{q:40}} (woah)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "{{q:41}} to find {{q:42}} (woah)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Turn {{q:43}} into {{q:44}} (woah)"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "You'll {{q:45}} and {{q:46}} (woah)"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "And you played it {{q:48}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "We could have had it all"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Rolling in the deep"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "(Tears are gonna fall, rolling in the deep)"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "You had my heart inside of your hand"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "(You're gonna wish you never had met me)"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "{{q:50}}"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "You played it"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "You played it to the beat"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Rolling In The Deep · Listening & Vocabulary",
+  "description": "《Rolling in the Deep》描寫一段原本充滿希望的愛情，因背叛與欺騙而變成憤怒、心痛與遺憾。歌中的主角曾經毫無保留地付出真心，相信兩人能擁有美好的未來，卻發現對方不但沒有珍惜，反而玩弄自己的感情。那些曾經留下的愛情回憶，如今成為難以磨滅的傷痕。面對背叛，她不再選擇沉默，而是將悲傷化為力量，決心重新掌握自己的人生。歌曲中的火焰象徵憤怒、覺醒與反抗。最終，《Rolling in the Deep》傳達的是愛情中的背叛、遺憾與自我成長：即使曾經深愛，也不應讓傷害決定自己的價值，而是要勇敢走出痛苦，重新找回尊嚴與力量。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Crystal clear",
+      "meaning": "非常清楚、一清二楚",
+      "usage": "當事情變得非常清楚，或你能清楚看見、理解某件事時使用。",
+      "prompt": "哪一句正確使用「Crystal clear」？",
+      "options": [
+        "I put crystal clear in my soup for lunch.",
+        "My dog crystal clear to the park every day.",
+        "She bought three crystal clears at the shop.",
+        "The teacher spoke slowly, so her words were crystal clear."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "crystal clear 不是食物，不能放進湯裡。",
+        "這個片語不是動詞，不能代替 goes。",
+        "crystal clear 不是一般可數物品，不能這樣加複數。",
+        "老師說得很慢，因此她的話非常清楚。"
+      ],
+      "explanation": "老師說得很慢，因此她的話非常清楚。"
+    },
+    {
+      "number": 2,
+      "word": "Underestimate",
+      "meaning": "低估、小看",
+      "usage": "當別人認為某人能力不強，或認為事情比實際簡單時使用。",
+      "prompt": "哪一句正確使用「Underestimate」？",
+      "options": [
+        "He underestimated the test, so he did not study enough.",
+        "Please underestimate my birthday cake with a spoon.",
+        "I underestimated to the bus stop at eight.",
+        "My shoes are underestimate because it is raining."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "他低估了考試難度，因此沒有準備夠。",
+        "underestimate 不是「吃」或「切」的意思。",
+        "underestimate 不表示「走去」，也不能接 to the bus stop 這樣使用。",
+        "underestimate 是動詞，不是形容鞋子的形容詞。"
+      ],
+      "explanation": "他低估了考試難度，因此沒有準備夠。"
+    },
+    {
+      "number": 3,
+      "word": "Remind someone of",
+      "meaning": "讓某人想起……",
+      "usage": "當一個人、東西或地方使你想起另一個人或回憶時使用。",
+      "prompt": "哪一句正確使用「Remind someone of」？",
+      "options": [
+        "I remind my homework of a pencil every night.",
+        "My sister reminds of me our teacher.",
+        "This song reminds me of our summer holiday.",
+        "The rain reminds me to the kitchen yesterday."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "這句沒有合理的想起關係；不能用來表示「用鉛筆寫作業」。",
+        "順序錯誤，應是 reminds me of our teacher。",
+        "這首歌使我想起暑假，符合 remind someone of 的用法。",
+        "想起某個地方或回憶應用 of，不是 to。"
+      ],
+      "explanation": "這首歌使我想起暑假，符合 remind someone of 的用法。"
+    },
+    {
+      "number": 4,
+      "word": "Almost",
+      "meaning": "幾乎、差一點",
+      "usage": "當一件事很接近發生，或數量非常接近某個數字時使用。",
+      "prompt": "哪一句正確使用「Almost」？",
+      "options": [
+        "I almost my bicycle to school.",
+        "I almost missed the bus, but I ran and caught it.",
+        "The soup tastes almost of blue.",
+        "He has an almost in his school bag."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "almost 是副詞，不能代替 ride 這個動詞。",
+        "差一點沒趕上公車，但最後趕上了，almost 用法正確。",
+        "almost 不能這樣接 of blue，句子意思也不通。",
+        "almost 不是可以用 an 修飾的物品。"
+      ],
+      "explanation": "差一點沒趕上公車，但最後趕上了，almost 用法正確。"
+    },
+    {
+      "number": 5,
+      "word": "Can’t help + -ing",
+      "meaning": "忍不住做某事",
+      "usage": "當你很難控制自己的反應，例如笑、哭或想起某件事時使用。",
+      "prompt": "哪一句正確使用「Can’t help + -ing」？",
+      "options": [
+        "I can’t help to laughing at this funny film.",
+        "I can’t help laughing when my cat sits in my bag.",
+        "My friend can’t help a swimming yesterday.",
+        "We can’t help laughings at the dog."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "這裡不應使用 to laughing；應說 can’t help laughing。",
+        "can’t help 後面接動詞 -ing，表示忍不住笑。",
+        "此句結構錯誤，help 後面不能這樣接 a swimming。",
+        "laughing 是動名詞，不需要加 s。"
+      ],
+      "explanation": "can’t help 後面接動詞 -ing，表示忍不住笑。"
+    },
+    {
+      "number": 6,
+      "word": "Think of",
+      "meaning": "想起、想到；考慮",
+      "usage": "當想到某人、某事，或想出一個主意時使用。",
+      "prompt": "哪一句正確使用「Think of」？",
+      "options": [
+        "Please think of the window with a knife.",
+        "She thinks of to the park every Sunday.",
+        "He is think of his breakfast now.",
+        "Can you think of a name for our new puppy?"
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "think of 不表示「切」或「處理」窗戶。",
+        "要表達去公園，不能使用 thinks of to the park。",
+        "現在進行式應說 is thinking of。",
+        "請對方想一個小狗名字，符合 think of 的用法。"
+      ],
+      "explanation": "請對方想一個小狗名字，符合 think of 的用法。"
+    },
+    {
+      "number": 7,
+      "word": "Count your blessings",
+      "meaning": "珍惜自己擁有的好事、心懷感恩",
+      "usage": "當你想提醒自己不要只注意壞事，也要感謝生活中的好事時使用。",
+      "prompt": "哪一句正確使用「Count your blessings」？",
+      "options": [
+        "I count my blessings with a ruler in math class.",
+        "I lost my phone, but I still have good friends. I should count my blessings.",
+        "My blessings count to the station by bus.",
+        "Please count your blessings into the hot oven."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "這個慣用語不是拿尺量東西。",
+        "雖然遇到壞事，仍記得自己擁有的好事，用法自然。",
+        "不能把這個片語當成「搭車」的意思。",
+        "count your blessings 不是可以放進烤箱的東西。"
+      ],
+      "explanation": "雖然遇到壞事，仍記得自己擁有的好事，用法自然。"
+    },
+    {
+      "number": 8,
+      "word": "Turn ... into ...",
+      "meaning": "把……變成……",
+      "usage": "當一樣東西或一種情況變成另一樣東西或情況時使用。",
+      "prompt": "哪一句正確使用「Turn ... into ...」？",
+      "options": [
+        "We turned the old box into a little house for our cat.",
+        "I turn my homework into before dinner.",
+        "We turned into our teacher a funny story.",
+        "He turns his shoes into to school."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "把舊盒子變成貓的小房子，符合 turn A into B 的用法。",
+        "turn A into B 後面需要說出變成什麼，這句不完整。",
+        "要說把故事變成什麼，不是這樣排列受詞。",
+        "不能用 turn into 表達「穿鞋上學」，to 也多餘。"
+      ],
+      "explanation": "把舊盒子變成貓的小房子，符合 turn A into B 的用法。"
+    },
+    {
+      "number": 9,
+      "word": "Pay someone back",
+      "meaning": "還錢給某人；回報某人",
+      "usage": "當你還別人借你的錢，或以某種方式回報別人時使用。",
+      "prompt": "哪一句正確使用「Pay someone back」？",
+      "options": [
+        "I pay my school back with a yellow pencil.",
+        "Can you pay back me the pizza at seven?",
+        "I borrowed ten dollars from Mia, and I’ll pay her back tomorrow.",
+        "The cat paid back the rain by sleeping."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "這句不自然，學校不是這樣用鉛筆償還的對象。",
+        "代名詞位置錯誤；應說 pay me back，而且 pizza 的意思不合適。",
+        "表示明天會把借的錢還給 Mia，正確。",
+        "這句沒有合理的還錢或回報關係。"
+      ],
+      "explanation": "表示明天會把借的錢還給 Mia，正確。"
+    },
+    {
+      "number": 10,
+      "word": "Reap what you sow",
+      "meaning": "種什麼因，得什麼果；自食其果",
+      "usage": "當你想表達一個人的行為會帶來相應結果時使用，常用於提醒人要對自己的行為負責。",
+      "prompt": "哪一句正確使用「Reap what you sow」？",
+      "options": [
+        "You never study, so you get bad marks. You reap what you sow.",
+        "I reap what you sow with two spoons of ice cream.",
+        "My brother reaps what you sow to the cinema.",
+        "We reap what you sow under the table at lunch."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "沒有讀書而考不好，是自己的行為帶來的結果。",
+        "這個片語不是吃冰淇淋的方法。",
+        "這個片語不能代替 goes，而且人稱也不一致。",
+        "這句把慣用語當成位置或日常動作，意思不通。"
+      ],
+      "explanation": "沒有讀書而考不好，是自己的行為帶來的結果。"
+    }
+  ],
+  "tags": [
+    "adele",
+    "rolling in the deep",
+    "heartbreak",
+    "betrayal"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/rolling-in-the-deep/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/rolling-in-the-deep/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 228.0933125,
+    "audioSha256": "1dc3af6647321573d17e9a69ee0897ded224f8b378390cc6f05ed703d871b92e",
+    "timedLines": 32,
+    "untimedLines": 44,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Rolling In The Deep_.pdf",
+      "sha256": "ca001b1847536c684f1da477a603ea359105d9a6b4bd15bef0fae21e10f363e4"
+    },
+    "chosenListening": {
+      "filename": "Rolling_In_The_Deep_Four_Level_Listening_Exercise.docx",
+      "sha256": "628277f2c10f3c39463ca13fdf827d2ebce4ea99c2c4374ac5563cc136d975bb"
+    },
+    "chosenVocabulary": {
+      "filename": "Rolling_In_The_Deep_Vocabulary_Quiz.md",
+      "sha256": "3eebcde4bd5e676321108212b4966f8e47715f7937d6da0811d0acf21608c895"
+    },
+    "audio": {
+      "filename": "Rolling in the Deep [x9Qv47HpEqw].mp3",
+      "sha256": "1dc3af6647321573d17e9a69ee0897ded224f8b378390cc6f05ed703d871b92e"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-abca5db5-4e2e-4ee2-8aba-b1eb358d2d14.png",
+    "sha256": "f0847361761652fc57dce6f71642585dc67b2069f6b64974f8fd488367a4879a",
+    "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "22f888ec7652e04b8e3483d5686d0350d6cc5f104fb414d7c464748a6ba60ed6"
+    },
+    {
+      "section": "advanced",
+      "filename": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "28cf39a6b95441a98037405154f02471c6ae4e54eeec03d078f3b26b0621ac29"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "There is + 名詞 + V-ing",
+          "meaning": "某處有某人或某事正在發生；-ing 補充描述該名詞。",
+          "usage": "看到場景中出現進行中的活動時使用。",
+          "prompt": "自然館的窗外有鳥正在唱歌，哪一句最清楚描述？",
+          "options": [
+            "There is a bird singing outside the museum.",
+            "There are a bird singing outside the museum.",
+            "There is a bird to sing outside the museum.",
+            "There is singing a bird outside the museum."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "There is 引出單數的 bird，singing 補充牠正在做的事。",
+            "單數 bird 不搭配 there are。",
+            "to sing 不能在這裡直接取代後置的現在分詞。",
+            "singing a bird 的語序把動作錯放在名詞之前。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「There's a fire starting in my heart」",
+          "pattern": [
+            {
+              "text": "There is + 名詞 + V-ing →",
+              "fixed": true
+            },
+            {
+              "text": "a bird / singing outside",
+              "fixed": false
+            }
+          ],
+          "explanation": "There is 引出單數的 bird，singing 補充牠正在做的事。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "reach + 高點",
+          "meaning": "達到某種程度或頂點；原句的 -ing 是接續前面的詩意分詞片段。",
+          "usage": "談聲音、興奮或緊張逐漸升至高點時。",
+          "prompt": "木偶劇最後一分鐘觀眾越來越興奮，哪一句最自然？",
+          "options": [
+            "The excitement was reach its highest point at the end.",
+            "The excitement reached its highest point at the end.",
+            "The excitement reached to its highest point at the end.",
+            "The excitement reached its shoes at the end."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "was reach 動詞形式錯誤。",
+            "reach 直接接達到的目標或程度，不必再加 to。",
+            "reach 是及物動詞，這裡不接 to。",
+            "shoes 並非可以形容興奮程度的高點。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「Reaching a fever pitch」",
+          "pattern": [
+            {
+              "text": "reach + 程度／高點 →",
+              "fixed": true
+            },
+            {
+              "text": "reach its highest point",
+              "fixed": false
+            }
+          ],
+          "explanation": "reach 直接接達到的目標或程度，不必再加 to。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "bring + 受詞 + out",
+          "meaning": "將某人或物帶離某處；歌詞省略了通常會用的 of。",
+          "usage": "談帶人離開黑暗、房間或困難時；課堂採用標準 out of。",
+          "prompt": "導遊把大家帶出洞穴，哪句合適？",
+          "options": [
+            "The guide brought out us of the cave.",
+            "The guide brought us to out the cave.",
+            "The guide bringed us out of the cave.",
+            "The guide brought us out of the cave."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "人稱受詞 us 應放在 bring 後面、out 前面。",
+            "to out 不能這樣連用。",
+            "bring 的過去式是 brought，不是 bringed。",
+            "bring + 人 + out of + 地點，表示帶離洞穴。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「it's bringing me out the dark」",
+          "pattern": [
+            {
+              "text": "bring + 受詞 + out (of) + 地方 →",
+              "fixed": true
+            },
+            {
+              "text": "bring us out of the cave",
+              "fixed": false
+            }
+          ],
+          "explanation": "bring + 人 + out of + 地點，表示帶離洞穴。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "finally + can + 原形",
+          "meaning": "終於能做到某事，帶出等待或困難後的轉變。",
+          "usage": "努力一段時間後終於能完成動作時。",
+          "prompt": "經過多次嘗試，Mia 終於打開舊盒子。",
+          "options": [
+            "Finally Mia cans open the old box.",
+            "Finally Mia can to open the old box.",
+            "Finally Mia can opening the old box.",
+            "Finally Mia can open the old box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "can 不會因第三人稱而加 -s。",
+            "can 後不用 to。",
+            "情態動詞 can 後不接 opening。",
+            "can 後接 open 原形，finally 表示終於。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「Finally I can see you crystal clear」",
+          "pattern": [
+            {
+              "text": "Finally + 主詞 + can + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "Finally I can open the box",
+              "fixed": false
+            }
+          ],
+          "explanation": "can 後接 open 原形，finally 表示終於。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Go ahead and + 原形",
+          "meaning": "允許或鼓勵對方開始做某事；原歌帶挑釁意味。",
+          "usage": "告訴別人可以開始或不必猶豫時。",
+          "prompt": "陶藝老師說現在可以開始做杯子。",
+          "options": [
+            "Go ahead and make your cup now.",
+            "Go ahead to make your cup now.",
+            "Go ahead and made your cup now.",
+            "Go ahead and making your cup now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "and 後面使用動詞原形 make，語氣是「儘管開始」。",
+            "go ahead 後要接 and + 原形，或另外重組句型。",
+            "現在給予許可不使用 made 作原形。",
+            "and 後不能在此用 making。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「Go 'head and sell me out」",
+          "pattern": [
+            {
+              "text": "Go ahead and + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "go ahead and start",
+              "fixed": false
+            }
+          ],
+          "explanation": "and 後面使用動詞原形 make，語氣是「儘管開始」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "sell + 人 + out",
+          "meaning": "背叛某人，常指為自身利益犧牲別人。",
+          "usage": "談洩漏祕密或出賣夥伴時；與普通「賣商品」不同。",
+          "prompt": "有人為了拿獎金，把隊友的秘密告訴別隊。",
+          "options": [
+            "He sold her out to win a prize.",
+            "He sold her the out to win a prize.",
+            "He sold her out a prize to win.",
+            "He sold out her to win a prize."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "受詞代名詞 her 必須放在 sell 與 out 之間。",
+            "the out 不是這個片語的一部分。",
+            "sell her out 後多接 a prize 造成結構不自然。",
+            "代名詞不能放在 sell out 之後。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「sell me out」",
+          "pattern": [
+            {
+              "text": "sell + 受詞 + out →",
+              "fixed": true
+            },
+            {
+              "text": "sell her out",
+              "fixed": false
+            }
+          ],
+          "explanation": "受詞代名詞 her 必須放在 sell 與 out 之間。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "lay + 受詞 + bare",
+          "meaning": "揭露原本被隱藏的事情；兩個版本只換受詞，不增加句型。",
+          "usage": "要公開事實、原因或真相時；屬較有力或書面用法。",
+          "prompt": "記者提出文件，將事件真相公開。",
+          "options": [
+            "The reporter lay the facts bared to the public.",
+            "The reporter laid the facts to bare the public.",
+            "The reporter laid the facts bare to the public.",
+            "The reporter laid the facts to the bare at noon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "這裡動詞的過去式應 laid，補語為 bare。",
+            "to bare the public 變成對公眾作動作，意思不對。",
+            "lay the facts bare 是「把事實攤開」的受詞加補語結構。",
+            "to the bare 並非表示揭露真相的固定用法。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「I'll lay your ship bare」",
+          "pattern": [
+            {
+              "text": "lay + 受詞 + bare →",
+              "fixed": true
+            },
+            {
+              "text": "lay the facts bare",
+              "fixed": false
+            }
+          ],
+          "explanation": "lay the facts bare 是「把事實攤開」的受詞加補語結構。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "See how + 子句",
+          "meaning": "請對方觀察事情如何發生或進行。",
+          "usage": "展示做法、指出變化時使用。",
+          "prompt": "科技展上老師叫大家觀察機器人怎麼移動。",
+          "options": [
+            "See how moving the robot across the floor.",
+            "See how the robot moves across the floor.",
+            "See how the robot to move across the floor.",
+            "See how does the robot move across the floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "how 後面缺少完整主詞動詞。",
+            "how 引導間接問句，後面保留主詞 robot + 動詞 moves。",
+            "how the robot to move 不是完整子句。",
+            "間接問句不使用 does the robot 的直接問句語序。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「See how I leave with every piece of you」",
+          "pattern": [
+            {
+              "text": "See how + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "see how the robot moves",
+              "fixed": false
+            }
+          ],
+          "explanation": "how 引導間接問句，後面保留主詞 robot + 動詞 moves。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "Don’t + 動詞原形",
+          "meaning": "否定祈使句，要求對方不要做某事。",
+          "usage": "提醒別人不要碰、不要忘記或不要誤判時。",
+          "prompt": "展覽的顏料還沒乾，工作人員提醒別碰。",
+          "options": [
+            "Don’t touching the wet paint.",
+            "Doesn’t touch the wet paint.",
+            "Don’t to touch the wet paint.",
+            "Don’t touch the wet paint."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "Don’t 後不接 touching。",
+            "Doesn’t touch 是第三人稱陳述，不是對聽者的指令。",
+            "Don’t 後不接 to。",
+            "Don’t 後接 touch 原形，是標準否定祈使句。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Don't underestimate the things that I will do」",
+          "pattern": [
+            {
+              "text": "Don’t + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "Don’t touch the paint",
+              "fixed": false
+            }
+          ],
+          "explanation": "Don’t 後接 touch 原形，是標準否定祈使句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "名詞 + that + 子句",
+          "meaning": "that 引導關係子句，說明前面的名詞。",
+          "usage": "要辨認是哪一批書、哪件東西時。",
+          "prompt": "你要指出昨天買的那幾本書。",
+          "options": [
+            "These are the books that I bought them yesterday.",
+            "These are the books that bought I yesterday.",
+            "These are the books that I bought yesterday.",
+            "These are the books that I buying yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "that 已承擔受詞作用，不能再多加 them。",
+            "that 子句應是 I bought，而非 bought I。",
+            "that I bought yesterday 修飾 books；that 在子句中充當受詞。",
+            "I buying 缺少正確動詞形式。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「the things that I will do」",
+          "pattern": [
+            {
+              "text": "名詞 + that + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "the books that I bought",
+              "fixed": false
+            }
+          ],
+          "explanation": "that I bought yesterday 修飾 books；that 在子句中充當受詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "remind + 人 + of",
+          "meaning": "讓某人想起另一人或往事。",
+          "usage": "照片、聲音或氣味勾起回憶時。",
+          "prompt": "舊照片令你想起海邊旅行。",
+          "options": [
+            "This photo reminds of me our beach trip.",
+            "This photo reminds me to our beach trip.",
+            "This photo reminds me of our beach trip.",
+            "This photo reminds me our beach trip of."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "of me 的語序錯誤。",
+            "回想起事情用 remind ... of，不是 to。",
+            "remind + me + of + 回憶；人稱受詞在 of 前。",
+            "of 不應放在整句末尾。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「remind me of us」",
+          "pattern": [
+            {
+              "text": "remind + 人 + of + 事 →",
+              "fixed": true
+            },
+            {
+              "text": "remind me of my trip",
+              "fixed": false
+            }
+          ],
+          "explanation": "remind + me + of + 回憶；人稱受詞在 of 前。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "keep + 人 + -ing",
+          "meaning": "使某人持續處於某動作或狀態。",
+          "usage": "某件事讓人一直笑、想或等時。",
+          "prompt": "戲院的小狗表演讓觀眾一直笑。",
+          "options": [
+            "The dog show kept the crowd to smile.",
+            "The dog show kept the crowd smiling.",
+            "The dog show kept the crowd smiled.",
+            "The dog show kept the crowd smile."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "keep 不採用受詞 + to smile 的結構。",
+            "kept + 人 + smiling 表示持續讓大家笑。",
+            "smiled 是過去式，非持續動作補語。",
+            "不能用裸原形 smile 作這裡的補語。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「They keep me thinking that we almost had it all」",
+          "pattern": [
+            {
+              "text": "keep + 人 + V-ing →",
+              "fixed": true
+            },
+            {
+              "text": "keep me smiling",
+              "fixed": false
+            }
+          ],
+          "explanation": "kept + 人 + smiling 表示持續讓大家笑。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "leave + 人 + 形容詞",
+          "meaning": "使某人最後感到某種狀態。",
+          "usage": "一次驚喜或演出留下強烈印象時。",
+          "prompt": "精彩的木偶演出讓所有人很開心。",
+          "options": [
+            "The puppet show left everyone happy.",
+            "The puppet show left everyone happily.",
+            "The puppet show left happy everyone.",
+            "The puppet show left everyone happiness."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "left + everyone + happy，形容詞表示觀眾最後的狀態。",
+            "happily 是副詞，不適合這個受詞補語。",
+            "受詞 everyone 應在形容詞之前。",
+            "happiness 是名詞，這裡需要形容詞。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「they leave me breathless」",
+          "pattern": [
+            {
+              "text": "leave + 人 + 形容詞 →",
+              "fixed": true
+            },
+            {
+              "text": "leave everyone happy",
+              "fixed": false
+            }
+          ],
+          "explanation": "left + everyone + happy，形容詞表示觀眾最後的狀態。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "can’t help + V-ing",
+          "meaning": "忍不住做某事。",
+          "usage": "反應自然出現、難以克制時。",
+          "prompt": "看到魔術師戴錯帽子，你忍不住笑。",
+          "options": [
+            "I can’t help to laugh at the funny hat.",
+            "I can’t help laughings at the funny hat.",
+            "I can’t helping laugh at the funny hat.",
+            "I can’t help laughing at the funny hat."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "此結構不接 to laugh。",
+            "laughing 不加 -s。",
+            "can’t 後要接 help 原形。",
+            "can’t help + laughing 是固定的動名詞用法。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「I can't help feeling」",
+          "pattern": [
+            {
+              "text": "can’t help + V-ing →",
+              "fixed": true
+            },
+            {
+              "text": "can’t help laughing",
+              "fixed": false
+            }
+          ],
+          "explanation": "can’t help + laughing 是固定的動名詞用法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "could have + 過去分詞",
+          "meaning": "過去本來可能成功或發生，實際沒有實現；含遺憾。",
+          "usage": "回顧錯過的機會時。",
+          "prompt": "球隊最後一球沒投進，回想原本可能獲勝。",
+          "options": [
+            "We could have winning the final game.",
+            "We could had won the final game.",
+            "We could have won the final game.",
+            "We could have win the final game."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "winning 不是這裡的過去分詞。",
+            "could 後需要 have，而不是 had。",
+            "could have + won 表示過去本可獲勝，卻未成真。",
+            "have 後要用過去分詞 won。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「We could have had it all」",
+          "pattern": [
+            {
+              "text": "could have + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "could have won",
+              "fixed": false
+            }
+          ],
+          "explanation": "could have + won 表示過去本可獲勝，卻未成真。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "wish + 過去完成式",
+          "meaning": "對已發生或未發生的過去事情感到後悔。",
+          "usage": "回顧昨天沒完成的事時。",
+          "prompt": "昨天忘了打電話給奶奶，今天很後悔。",
+          "options": [
+            "I wish I calling my grandma yesterday.",
+            "I wish I have called my grandma yesterday.",
+            "I wish I had called my grandma yesterday.",
+            "I wish I call my grandma yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "wish I calling 缺少動詞。",
+            "have called 是現在完成式，非標準過去反事實用法。",
+            "wish + had called 表達對過去沒打電話的遺憾。",
+            "現在式 call 不表達過去反事實。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「You're gonna wish you never had met me」",
+          "pattern": [
+            {
+              "text": "wish + 主詞 + had + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "wish I had called",
+              "fixed": false
+            }
+          ],
+          "explanation": "wish + had called 表達對過去沒打電話的遺憾。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "be going to + 原形",
+          "meaning": "預測即將發生的事；gonna 是非正式口語拼寫。",
+          "usage": "看到現象，預測快要發生某件事時。",
+          "prompt": "烏雲密布，你預測馬上會下雨。",
+          "options": [
+            "It going to rain in a minute.",
+            "It is going to rain in a minute.",
+            "It is going to raining in a minute.",
+            "It is going rain in a minute."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少 be 動詞 is。",
+            "is going to + rain 原形，表示對接近未來的預測。",
+            "to 後要接 rain 原形。",
+            "going 後缺少 to。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「Tears are gonna fall」",
+          "pattern": [
+            {
+              "text": "be going to + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "are going to fall",
+              "fixed": false
+            }
+          ],
+          "explanation": "is going to + rain 原形，表示對接近未來的預測。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "have + 名詞 + to be + 過去分詞",
+          "meaning": "某事物尚待被處理；被動不定詞指出名詞承受的動作。",
+          "usage": "說明還有文件要寄、工作要完成時。",
+          "prompt": "辦公室尚有一封信需要寄出。",
+          "options": [
+            "We have a letter to be sent today.",
+            "We have a letter to sending today.",
+            "We have a letter to sent today.",
+            "We have a letter to be send today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "to be sent 是被動不定詞，表示信等待被寄。",
+            "to sending 不能表達這種被動結構。",
+            "缺少 be。",
+            "send 的過去分詞是 sent。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「I have no story to be told」",
+          "pattern": [
+            {
+              "text": "have + 名詞 + to be + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "have a letter to be sent",
+              "fixed": false
+            }
+          ],
+          "explanation": "to be sent 是被動不定詞，表示信等待被寄。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "現在完成式 have/has + pp",
+          "meaning": "過去發生的事對現在有影響，或談經驗與已知消息。",
+          "usage": "剛聽到消息並想告知對方時。",
+          "prompt": "你已經聽說博物館明天重新開放。",
+          "options": [
+            "I have hear the museum news.",
+            "I have heard the museum news.",
+            "I have hearing the museum news.",
+            "I has heard the museum news."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "hear 是原形，不是過去分詞。",
+            "have + heard（hear 的過去分詞）。",
+            "hearing 不是完成式需要的過去分詞。",
+            "I 不搭配 has。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「I've heard one on you」",
+          "pattern": [
+            {
+              "text": "have/has + 過去分詞 →",
+              "fixed": true
+            },
+            {
+              "text": "have heard the news",
+              "fixed": false
+            }
+          ],
+          "explanation": "have + heard（hear 的過去分詞）。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "make + 人 + 原形",
+          "meaning": "讓某人做出反應或動作。",
+          "usage": "幽默表演讓大家笑時。",
+          "prompt": "主持人的笑話讓整個隊伍都笑了。",
+          "options": [
+            "The host made laughing the team.",
+            "The host made the team laugh.",
+            "The host made the team to laugh.",
+            "The host made the team laughing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "動詞 laugh 應在受詞後面。",
+            "made + 受詞 + laugh 裸原形，表使役。",
+            "使役 make 後不接 to laugh。",
+            "made + 受詞 + laughing 不符合此結構。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「make your head burn」",
+          "pattern": [
+            {
+              "text": "make + 受詞 + 動詞原形 →",
+              "fixed": true
+            },
+            {
+              "text": "make the team laugh",
+              "fixed": false
+            }
+          ],
+          "explanation": "made + 受詞 + laugh 裸原形，表使役。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "think of + 人／事",
+          "meaning": "想起、想到某人或某事。",
+          "usage": "提醒朋友在某個時刻想到你時。",
+          "prompt": "朋友出國時，你提醒他看到大海可以想到你。",
+          "options": [
+            "Think of to me when you see the sea.",
+            "Think me of when you see the sea.",
+            "Think about of me when you see the sea.",
+            "Think of me when you see the sea."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "of 後直接接 me，不需 to。",
+            "think me of 的順序錯誤。",
+            "about of 不能同時接在此處。",
+            "think of + me 是自然的固定搭配。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「Think of me in the depths of your despair」",
+          "pattern": [
+            {
+              "text": "think of + 名詞／代名詞 →",
+              "fixed": true
+            },
+            {
+              "text": "think of your friend",
+              "fixed": false
+            }
+          ],
+          "explanation": "think of + me 是自然的固定搭配。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "as + 子句（因為）",
+          "meaning": "as 可引導原因；原句 mine 指前文的 home，並含被動語態。",
+          "usage": "解釋為甚麼活動改在室內時。",
+          "prompt": "因為下雨，市集改在室內。",
+          "options": [
+            "As it is raining, the market will move inside.",
+            "As is raining, the market will move inside.",
+            "As it raining, the market will move inside.",
+            "As it is rain, the market will move inside."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "As it is raining 提供原因，子句包含主詞與動詞。",
+            "as 子句缺主詞。",
+            "it raining 缺 be 動詞。",
+            "is rain 不是表示正在下雨的進行式。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「As mine sure won't be shared」",
+          "pattern": [
+            {
+              "text": "As + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "As it is raining, we will stay inside",
+              "fixed": false
+            }
+          ],
+          "explanation": "As it is raining 提供原因，子句包含主詞與動詞。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "指示／祈使 + to 表目的",
+          "meaning": "to + 原形說明前面動作的目的。",
+          "usage": "說明為什麼要看地圖、檢查物品時。",
+          "prompt": "野外旅行前，導遊要你看地圖以找到路。",
+          "options": [
+            "Check the map to find the road.",
+            "Check the map to finding the road.",
+            "Check the map find to the road.",
+            "Check the map for find the road."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "to find 表示看地圖的目的。",
+            "to 後需 find 原形。",
+            "find to the road 語序錯誤。",
+            "for 後不能直接接 find 原形。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「Count your blessings to find what you look for」",
+          "pattern": [
+            {
+              "text": "祈使句 + to + 原形 →",
+              "fixed": true
+            },
+            {
+              "text": "Check the map to find the road",
+              "fixed": false
+            }
+          ],
+          "explanation": "to find 表示看地圖的目的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "what + 主詞 + 動詞（名詞子句）",
+          "meaning": "what 引導名詞子句，表示「你需要的東西／事情」。",
+          "usage": "談某人要找的物品或需要的資訊時。",
+          "prompt": "你不知道朋友需要甚麼，想直接問。",
+          "options": [
+            "Tell me what do you need for the trip.",
+            "Tell me what are you need for the trip.",
+            "Tell me what you need for the trip.",
+            "Tell me what you needing for the trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "間接問句不用 do you need 的直接疑問語序。",
+            "are you need 不是正確子句。",
+            "what you need 使用陳述語序，整段作 tell 的受詞。",
+            "you needing 缺少正確動詞。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「what you look for」",
+          "pattern": [
+            {
+              "text": "what + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "what you need",
+              "fixed": false
+            }
+          ],
+          "explanation": "what you need 使用陳述語序，整段作 tell 的受詞。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "turn + 受詞 + into + 名詞",
+          "meaning": "把某物或情況轉變成另一物或狀態。",
+          "usage": "改造舊材料、把困難轉為成果時。",
+          "prompt": "工匠把舊木箱改造成書架。",
+          "options": [
+            "The maker turned an old box to a shelf.",
+            "The maker turned an old box into a shelf.",
+            "The maker turned into an old box a shelf.",
+            "The maker turned an old box into to a shelf."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "要用 into，不是 to。",
+            "turn A into B，舊木箱是 A，書架是 B。",
+            "into 不能放在受詞之前來表示此種改造。",
+            "into 後不需再接 to。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「Turn my sorrow into treasured gold」",
+          "pattern": [
+            {
+              "text": "turn + 受詞 + into + 名詞 →",
+              "fixed": true
+            },
+            {
+              "text": "turn a box into a shelf",
+              "fixed": false
+            }
+          ],
+          "explanation": "turn A into B，舊木箱是 A，書架是 B。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "pay + 人 + back + in kind",
+          "meaning": "以類似方式回報或報復他人；不等於單純還錢。",
+          "usage": "某人幫了你一個忙，你也以善意回報時。",
+          "prompt": "鄰居幫你種花，你也幫她修花園。",
+          "options": [
+            "I paid back her in kind by fixing her garden.",
+            "I paid her back kind in by fixing her garden.",
+            "I paid her back in kind by fixing her garden.",
+            "I paid her in kind back by fixing her garden."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "代名詞 her 放在 pay 與 back 中間。",
+            "kind in 顛倒了固定詞序。",
+            "pay her back in kind 說明以同類善意回報。",
+            "in kind 應放在 pay her back 之後。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「pay me back in kind」",
+          "pattern": [
+            {
+              "text": "pay + 受詞 + back + in kind →",
+              "fixed": true
+            },
+            {
+              "text": "pay him back in kind",
+              "fixed": false
+            }
+          ],
+          "explanation": "pay her back in kind 說明以同類善意回報。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "reap what + 子句",
+          "meaning": "得到自己行為造成的結果；諺語常用於正負後果。",
+          "usage": "努力練習後得到成果，或不努力承受後果時。",
+          "prompt": "一個人長期練舞，最後演出成功，哪句恰當？",
+          "options": [
+            "She reaped what she sowing after months of practice.",
+            "She reaped what she sow after months of practice.",
+            "She reaped what did she sow after months of practice.",
+            "She reaped what she sowed after months of practice."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "she sowing 缺少正確動詞形式。",
+            "過去情境與 sow 原形不一致。",
+            "what 子句不用 did she sow 的疑問語序。",
+            "reaped what she sowed：過去的付出帶來結果，what 子句用直述語序。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「reap just what you sow」",
+          "pattern": [
+            {
+              "text": "reap what + 主詞 + 動詞 →",
+              "fixed": true
+            },
+            {
+              "text": "reap what you sow",
+              "fixed": false
+            }
+          ],
+          "explanation": "reaped what she sowed：過去的付出帶來結果，what 子句用直述語序。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "fever pitch",
+          "meaning": "（情緒、緊張或興奮）達到最高點",
+          "usage": "常用 reach a fever pitch；指氣氛愈來愈激烈，不是真的發燒。",
+          "prompt": "哪一句正確使用「fever pitch」？",
+          "options": [
+            "The train reached a fever pitch at the next station.",
+            "Her shoes reached a fever pitch because they were too small.",
+            "The crowd reached a fever pitch just before the final song.",
+            "The soup reached a fever pitch after I added cold water."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：列車到站應用 reached the station。",
+            "錯誤：鞋子太小是尺寸問題，不是情緒升至頂點。",
+            "正確：演出前觀眾情緒高漲到頂點。",
+            "錯誤：湯的溫度應說 reached a high temperature，不是情緒高點。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：演出前觀眾情緒高漲到頂點。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "sell someone out",
+          "meaning": "為私利出賣、背叛某人",
+          "usage": "指為了自身利益洩露秘密或背叛伙伴，通常帶強烈負面意味。",
+          "prompt": "哪一句正確使用「sell someone out」？",
+          "options": [
+            "My classmate sold me out by sharing lunch with me.",
+            "We sold the bus out because it arrived very late.",
+            "The spy sold his team out for money and gave away their plans.",
+            "She sold her homework out before dinner at home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：分享午餐是友善行為，不是背叛。",
+            "錯誤：公車遲到不會讓 sell someone out 成立。",
+            "正確：間諜為了錢出賣團隊、洩露計畫。",
+            "錯誤：交作業應用 handed in her homework。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：間諜為了錢出賣團隊、洩露計畫。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "lay something bare",
+          "meaning": "揭露、使真相完全顯露",
+          "usage": "用來描述把隱藏的事實或問題公開，語氣較正式。",
+          "prompt": "哪一句正確使用「lay something bare」？",
+          "options": [
+            "The painter laid the wall bare by hanging new pictures.",
+            "I laid my lunch bare when I put it into my bag.",
+            "We laid the bus bare because the trip was long.",
+            "The report laid bare the problems inside the company."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：掛畫是裝飾，並沒有揭露問題。",
+            "錯誤：放午餐進包裡不是揭露真相。",
+            "錯誤：旅程長短與揭露隱情無關。",
+            "正確：報告清楚揭露公司的內部問題。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：報告清楚揭露公司的內部問題。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "scar",
+          "meaning": "傷疤；（比喻）長久的心靈創傷",
+          "usage": "可指皮膚傷口癒合後的痕跡，也可指情感留下的傷害。",
+          "prompt": "哪一句正確使用「scar」？",
+          "options": [
+            "The coach put a scar on the team schedule for Tuesday.",
+            "The accident left a small scar on his right arm.",
+            "The scar on the map told us which road was shortest.",
+            "Her scar was a new medicine that she drank at night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：行事曆上的記號應用 mark，不是 scar。",
+            "正確：事故在他的右手臂留下疤痕。",
+            "錯誤：地圖路線應用 line 或 route。",
+            "錯誤：scar 是傷痕，不是藥水。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：事故在他的右手臂留下疤痕。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "breathless",
+          "meaning": "喘不過氣的；驚訝得屏息的",
+          "usage": "常見 leave someone breathless；可由運動、激動或震撼所致。",
+          "prompt": "哪一句正確使用「breathless」？",
+          "options": [
+            "Please breathless the door when the teacher comes.",
+            "The long run left us breathless at the finish line.",
+            "I put breathless in my bag before the school trip.",
+            "The film was breathless because the tickets were blue."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：breathless 是形容詞，不能充當關門動詞。",
+            "正確：跑完長跑後大家喘得說不出話。",
+            "錯誤：breathless 不是可裝進背包的物品。",
+            "錯誤：票的顏色與喘不過氣沒有關係。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：跑完長跑後大家喘得說不出話。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "depths",
+          "meaning": "最深處；（比喻）極端程度",
+          "usage": "常見 in the depths of despair／winter；注意通常用複數 depths。",
+          "prompt": "哪一句正確使用「depths」？",
+          "options": [
+            "She felt lonely in the depths of winter when days were short.",
+            "I ate the depths with rice during our family dinner.",
+            "We climbed the depths of the mountain to see the view.",
+            "The teacher depths the book before the lesson begins."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：in the depths of winter 表示隆冬時節。",
+            "錯誤：depths 不是食物。",
+            "錯誤：爬山通常往山頂，不是 climb the depths。",
+            "錯誤：depths 是名詞，不是閱讀的動詞。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：in the depths of winter 表示隆冬時節。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "despair",
+          "meaning": "絕望；完全失去希望",
+          "usage": "可說 feel despair 或 fall into despair，描述強烈的無助。",
+          "prompt": "哪一句正確使用「despair」？",
+          "options": [
+            "I used despair to pay for a ticket at the station.",
+            "The team felt despair because its new shirts were green.",
+            "Her despair went to the shop to buy some bread.",
+            "After weeks of searching, he began to fall into despair."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：despair 不是付款工具。",
+            "錯誤：衣服是綠色不足以自然解釋強烈絕望。",
+            "錯誤：despair 是情緒，不會自己去商店。",
+            "正確：找了好幾週沒有結果，開始陷入絕望。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：找了好幾週沒有結果，開始陷入絕望。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "sorrow",
+          "meaning": "悲傷；哀痛（較正式、文學）",
+          "usage": "比 sadness 更有文學色彩，可形容失去與難過的情感。",
+          "prompt": "哪一句正確使用「sorrow」？",
+          "options": [
+            "She wore sorrow because it matched her black shoes.",
+            "The letter brought her great sorrow after her friend died.",
+            "Our sorrow arrived at the airport before the plane.",
+            "He borrowed sorrow from the library for two weeks."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：悲傷不是衣服。",
+            "正確：好友過世後，那封信使她極度悲傷。",
+            "錯誤：情緒不會搭飛機抵達機場。",
+            "錯誤：抽象的悲傷不是可借閱的書。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：好友過世後，那封信使她極度悲傷。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "treasured",
+          "meaning": "珍愛的；珍貴保存的",
+          "usage": "常修飾回憶、照片或物品，強調個人情感價值。",
+          "prompt": "哪一句正確使用「treasured」？",
+          "options": [
+            "This old photo is a treasured memory of our family trip.",
+            "His treasured bus was late because there was heavy traffic.",
+            "I treasured my homework with a spoon before breakfast.",
+            "The teacher treasured the classroom door at seven o’clock."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：老照片承載全家珍藏的回憶。",
+            "不恰當：若單指遲到的公車，treasured 沒有合理的珍愛背景。",
+            "錯誤：treasure 不是用湯匙處理作業。",
+            "錯誤：這裡沒有珍惜或重視門的合理語境。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：老照片承載全家珍藏的回憶。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "in kind",
+          "meaning": "以同樣方式／同類形式回報",
+          "usage": "pay back in kind 表示以類似行為回應；也有「以實物」而非金錢支付的正式用法。",
+          "prompt": "哪一句正確使用「in kind」？",
+          "options": [
+            "He paid in kind of the train at the busy station.",
+            "My breakfast was in kind because I ate toast and eggs.",
+            "We put in kind inside the drawer next to our keys.",
+            "She helped me last week, so I returned her kindness in kind."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：搭火車或付款不能說 in kind of the train。",
+            "錯誤：in kind 不是早餐種類的形容詞。",
+            "錯誤：片語不是可放抽屜的實體物品。",
+            "正確：以善意回報先前得到的幫助。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：以善意回報先前得到的幫助。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "beat",
+          "meaning": "節拍；（亦可作動詞）擊敗",
+          "usage": "此處以名詞用法考節奏：常見 to the beat of music。",
+          "prompt": "哪一句正確使用「beat」？",
+          "options": [
+            "They danced to the beat of the music at the party.",
+            "The singer bought a beat of water after the concert.",
+            "The train ate a beat before it left the station.",
+            "I used a beat to unlock the door before school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：大家隨著音樂節拍跳舞。",
+            "錯誤：喝水應說 a bottle of water。",
+            "錯誤：火車不會吃節拍。",
+            "錯誤：開門要用 key，節拍不是鑰匙。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：大家隨著音樂節拍跳舞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "could have had",
+          "meaning": "本來可能已擁有（但事實並未實現）",
+          "usage": "could have + 過去分詞，用來回顧過去沒有實現的可能。",
+          "prompt": "哪一句正確使用「could have had」？",
+          "options": [
+            "We could have had more time if we had left earlier today.",
+            "I could have had a meeting tomorrow, so I will call today.",
+            "She could have had happy because the weather was nice.",
+            "The bus could have had to the library on Wednesday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：若早點出發，本來就能有更多時間。",
+            "錯誤：若談明天可能開會，應說 might have a meeting tomorrow。",
+            "錯誤：had 後不能這樣直接接 happy。",
+            "錯誤：had 不能直接接 to the library 表示前往。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：若早點出發，本來就能有更多時間。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "bring someone out of",
+          "meaning": "使某人脫離某種狀態",
+          "usage": "可說 bring someone out of sadness／isolation；歌詞省略 out 後的 of，為歌唱式表達。",
+          "prompt": "哪一句正確使用「bring someone out of」？",
+          "options": [
+            "The new book brought the table out of being blue.",
+            "I brought my shoes out of to the classroom every day.",
+            "Good friends helped bring him out of his sadness.",
+            "She brought the weather out of her bag at noon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：桌子原本是藍色並非此處心理狀態。",
+            "錯誤：介系詞搭配及句意不完整。",
+            "正確：朋友幫他走出悲傷。",
+            "錯誤：天氣不是能放進包裡再拿出的物品。"
+          ],
+          "sourceFile": "Rolling_In_The_Deep_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確：朋友幫他走出悲傷。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
+  }
+}

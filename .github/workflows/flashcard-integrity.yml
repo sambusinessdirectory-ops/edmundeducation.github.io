@@ -40,6 +40,9 @@ jobs:
       - name: Verify Flashcard state integrity
         run: node tools/test-flashcard-state-integrity.mjs
 
+      - name: Verify live screens cannot overwrite another flashcard attempt
+        run: node tools/test-flashcard-attempt-sync-isolation.mjs
+
       - name: Verify interrupted-sync and completion regressions
         run: node tools/test-flashcard-sync-resilience.mjs
 

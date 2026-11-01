@@ -1,0 +1,4420 @@
+{
+  "slug": "stop-loving-you",
+  "title": "Stop Loving You",
+  "singer": "Toto",
+  "exercise_name": "Stop Loving You · Listening & Vocabulary",
+  "description": "《Stop Loving You》描寫一段感情結束後，仍然無法停止愛著對方的深刻思念。歌中的主角不斷回憶兩人曾經共度的時光，甚至看著照片，也彷彿能聽見對方的笑聲。他反思過去的誤解、謊言與錯誤，卻始終無法確定究竟是誰造成了這段感情的破裂。雖然對方已經離開，他仍然感受到她在心中的存在，無法輕易放下。歌曲亦感嘆時光飛逝，珍貴的機會一旦錯過，便難以挽回。最終，《Stop Loving You》傳達的是愛情中的遺憾、執著與不捨：即使感情已成過去，真正深刻的愛仍可能長久留在心中，難以忘懷。",
+  "tags": [
+    "toto",
+    "stop loving you",
+    "love",
+    "heartbreak"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Reflections in my mind",
+      "chinese": "腦海中泛起的倒影",
+      "startSeconds": 38.32,
+      "endSeconds": 40.24
+    },
+    {
+      "lineId": "line-2",
+      "english": "Thoughts I can't define",
+      "chinese": "難以名狀的思緒",
+      "startSeconds": 40.86,
+      "endSeconds": 42.5
+    },
+    {
+      "lineId": "line-3",
+      "english": "My heart is racing and the night goes on",
+      "chinese": "我的心狂跳不已，而長夜仍在繼續",
+      "startSeconds": 42.5,
+      "endSeconds": 47.24
+    },
+    {
+      "lineId": "line-4",
+      "english": "I can almost hear a laugh",
+      "chinese": "我幾乎能聽見一陣笑聲",
+      "startSeconds": 47.24,
+      "endSeconds": 49.56
+    },
+    {
+      "lineId": "line-5",
+      "english": "Coming from your photograph",
+      "chinese": "從你的照片中傳出",
+      "startSeconds": 49.56,
+      "endSeconds": 51.44
+    },
+    {
+      "lineId": "line-6",
+      "english": "Funny how a look can share a thousand meanings",
+      "chinese": "有趣的是，一個眼神竟能傳達千言萬語",
+      "startSeconds": 52.28,
+      "endSeconds": 56.82
+    },
+    {
+      "lineId": "line-7",
+      "english": "Well-intended lies",
+      "chinese": "善意的謊言",
+      "startSeconds": 56.82,
+      "endSeconds": 59.04
+    },
+    {
+      "lineId": "line-8",
+      "english": "Contemplating alibis",
+      "chinese": "思索著各種藉口",
+      "startSeconds": 59.04,
+      "endSeconds": 61.4
+    },
+    {
+      "lineId": "line-9",
+      "english": "Is it really you or is it me I'm blaming?",
+      "chinese": "我責怪的究竟是你，還是自己？",
+      "startSeconds": 61.4,
+      "endSeconds": 65.78
+    },
+    {
+      "lineId": "line-10",
+      "english": "A distant memory",
+      "chinese": "一段遙遠的記憶",
+      "startSeconds": 66.66,
+      "endSeconds": 68.18
+    },
+    {
+      "lineId": "line-11",
+      "english": "Flashes over me",
+      "chinese": "瞬間閃過我腦海",
+      "startSeconds": 68.18,
+      "endSeconds": 70.66
+    },
+    {
+      "lineId": "line-12",
+      "english": "Even though you're gone I feel you deep inside",
+      "chinese": "即使你已離去，我仍能在內心深處感受到你",
+      "startSeconds": 70.66,
+      "endSeconds": 75.28
+    },
+    {
+      "lineId": "line-13",
+      "english": "Dance beneath the light with that look in your eyes",
+      "chinese": "在燈光下起舞，帶著你眼中的那抹神采",
+      "startSeconds": 78.66,
+      "endSeconds": 83.66
+    },
+    {
+      "lineId": "line-14",
+      "english": "I can't stop loving you",
+      "chinese": "我無法停止愛你",
+      "startSeconds": 84.18,
+      "endSeconds": 89.08
+    },
+    {
+      "lineId": "line-15",
+      "english": "Time passes quickly and chances are few",
+      "chinese": "時光飛逝，機會寥寥無幾",
+      "startSeconds": 89.22,
+      "endSeconds": 93.8
+    },
+    {
+      "lineId": "line-16",
+      "english": "I won't stop 'til I'm through loving you girl",
+      "chinese": "女孩，在愛你愛到盡頭之前，我不會停下",
+      "startSeconds": 94.5,
+      "endSeconds": 99.62
+    },
+    {
+      "lineId": "line-17",
+      "english": "There's a window in the heart",
+      "chinese": "每個人的心裡都有一扇窗",
+      "startSeconds": 103.72,
+      "endSeconds": 106.02
+    },
+    {
+      "lineId": "line-18",
+      "english": "I've tried to look through from the start",
+      "chinese": "從一開始我就試圖看透",
+      "startSeconds": 106.02,
+      "endSeconds": 108.42
+    },
+    {
+      "lineId": "line-19",
+      "english": "You're never really sure what someone else is thinking",
+      "chinese": "你永遠無法確定別人心裡在想什麼",
+      "startSeconds": 108.48,
+      "endSeconds": 112.9
+    },
+    {
+      "lineId": "line-20",
+      "english": "Someone's broken something new",
+      "chinese": "有人打破了某件新的事物",
+      "startSeconds": 113.34,
+      "endSeconds": 115.4
+    },
+    {
+      "lineId": "line-21",
+      "english": "Another altered point of view",
+      "chinese": "另一個被改變的觀點",
+      "startSeconds": 115.76,
+      "endSeconds": 117.88
+    },
+    {
+      "lineId": "line-22",
+      "english": "Just a certain someone's conscience playing",
+      "chinese": "只是某個人的良知在作祟",
+      "startSeconds": 118.42,
+      "endSeconds": 122.16
+    },
+    {
+      "lineId": "line-23",
+      "english": "I had it in my hand",
+      "chinese": "我曾經將它握在手中",
+      "startSeconds": 122.16,
+      "endSeconds": 124.88
+    },
+    {
+      "lineId": "line-24",
+      "english": "I did not understand",
+      "chinese": "卻不明白",
+      "startSeconds": 125.28,
+      "endSeconds": 127.12
+    },
+    {
+      "lineId": "line-25",
+      "english": "What lives inside the wind that cries her name",
+      "chinese": "那呼喊著她名字的風中，究竟住著什麼",
+      "startSeconds": 127.12,
+      "endSeconds": 131.16
+    },
+    {
+      "lineId": "line-26",
+      "english": "Tried to catch a shooting star",
+      "chinese": "試圖抓住劃過的流星",
+      "startSeconds": 131.76,
+      "endSeconds": 134.1
+    },
+    {
+      "lineId": "line-27",
+      "english": "What seems so close can't be that far",
+      "chinese": "看似如此接近的事物，不可能那麼遙遠",
+      "startSeconds": 134.18,
+      "endSeconds": 136.56
+    },
+    {
+      "lineId": "line-28",
+      "english": "Living in a dream that's never ending",
+      "chinese": "活在一個永無止境的夢裡",
+      "startSeconds": 136.56,
+      "endSeconds": 140.86
+    },
+    {
+      "lineId": "line-29",
+      "english": "Dance beneath the light with that look in your eyes",
+      "chinese": "在燈光下起舞，帶著你眼中的那抹神采",
+      "startSeconds": 144.48,
+      "endSeconds": 149.98
+    },
+    {
+      "lineId": "line-30",
+      "english": "I can't stop loving you",
+      "chinese": "我無法停止愛你",
+      "startSeconds": 149.98,
+      "endSeconds": 155.08
+    },
+    {
+      "lineId": "line-31",
+      "english": "Time passes quickly and chances are few",
+      "chinese": "時光飛逝，機會寥寥無幾",
+      "startSeconds": 155.08,
+      "endSeconds": 159.66
+    },
+    {
+      "lineId": "line-32",
+      "english": "I won't stop 'til I'm through loving you girl",
+      "chinese": "女孩，在愛你愛到盡頭之前，我不會停下",
+      "startSeconds": 159.66,
+      "endSeconds": 166.32
+    },
+    {
+      "lineId": "line-33",
+      "english": "Dancing with that look that's in your eyes",
+      "chinese": "帶著你眼中的那抹神采起舞",
+      "startSeconds": 206.68,
+      "endSeconds": 210.94
+    },
+    {
+      "lineId": "line-34",
+      "english": "I can't stop loving you",
+      "chinese": "我無法停止愛你",
+      "startSeconds": 211.04,
+      "endSeconds": 216.18
+    },
+    {
+      "lineId": "line-35",
+      "english": "Time passes quickly and chances are few",
+      "chinese": "時光飛逝，機會寥寥無幾",
+      "startSeconds": 216.18,
+      "endSeconds": 220.7
+    },
+    {
+      "lineId": "line-36",
+      "english": "I won't stop 'til I'm through loving you girl",
+      "chinese": "女孩，在愛你愛到盡頭之前，我不會停下",
+      "startSeconds": 220.7,
+      "endSeconds": 227.86
+    },
+    {
+      "lineId": "line-37",
+      "english": "I can't stop loving you",
+      "chinese": "我無法停止愛你",
+      "startSeconds": 230.5,
+      "endSeconds": 235.3
+    },
+    {
+      "lineId": "line-38",
+      "english": "Time passes quickly and chances are few",
+      "chinese": "時光飛逝，機會寥寥無幾",
+      "startSeconds": 235.3,
+      "endSeconds": 239.66
+    },
+    {
+      "lineId": "line-39",
+      "english": "I won't stop 'til I'm through loving you",
+      "chinese": "在愛你愛到盡頭之前，我不會停下",
+      "startSeconds": 239.66,
+      "endSeconds": 246.72
+    },
+    {
+      "lineId": "line-40",
+      "english": "Loving you",
+      "chinese": "愛著你",
+      "startSeconds": 247.0,
+      "endSeconds": 250.68
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "My heart is racing",
+      "meaning": "心跳很快；心臟砰砰跳",
+      "usage": "緊張、興奮或運動後心跳加快時使用。",
+      "prompt": "哪一句正確使用「My heart is racing」？",
+      "options": [
+        "My heart is racing because I have a big test today.",
+        "My heart is racing to the station by taxi.",
+        "My heart is racing to heard my name on stage.",
+        "My heart is racing blue because I like the sky."
+      ],
+      "answer": 0,
+      "explanation": "大考前緊張，心跳加快，使用正確。",
+      "optionExplanations": [
+        "大考前緊張，心跳加快，使用正確。",
+        "my heart is racing 描述心跳加快，不能表示自己乘的士。",
+        "to heard 的形式錯誤；原因可用 because I heard my name。",
+        "這個片語描述心跳快，不是顏色。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Go on",
+      "meaning": "繼續；持續發生",
+      "usage": "故事、活動或某件事繼續進行時使用。",
+      "prompt": "哪一句正確使用「Go on」？",
+      "options": [
+        "I go on to watched the next film.",
+        "The movie goes on, even when I close my eyes.",
+        "She goes on a red shirt every morning.",
+        "The concert go on yesterday after the rain."
+      ],
+      "answer": 1,
+      "explanation": "電影持續播放，go on 用法正確。",
+      "optionExplanations": [
+        "to 後用 watch，不能接 watched。",
+        "電影持續播放，go on 用法正確。",
+        "穿衣服要用 put on，不是 go on。",
+        "過去事件須用 went on。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Almost",
+      "meaning": "幾乎；差一點就……",
+      "usage": "事情快要發生、數量快到某個程度時使用。",
+      "prompt": "哪一句正確使用「Almost」？",
+      "options": [
+        "I almost to the shop after school.",
+        "I almost very excited about the trip.",
+        "We almost misses the train yesterday.",
+        "We almost missed the bus, but we got on in time."
+      ],
+      "answer": 3,
+      "explanation": "差一點錯過公車，almost 用得正確。",
+      "optionExplanations": [
+        "almost 是副詞，不能取代 go；應說 I almost went to the shop。",
+        "almost 是副詞，句子缺少主要動詞。",
+        "過去事件須用 missed，不能用 misses。",
+        "差一點錯過公車，almost 用得正確。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Blame",
+      "meaning": "責怪；把錯誤歸咎於某人",
+      "usage": "某件壞事發生，認為是某人的錯時使用。",
+      "prompt": "哪一句正確使用「Blame」？",
+      "options": [
+        "I blame to my cousin for the broken radio.",
+        "Please don't blame me for the broken glass.",
+        "She blames to the park after lunch.",
+        "He blames to his cousin for the broken radio."
+      ],
+      "answer": 1,
+      "explanation": "blame someone for something 表示因某件事責怪某人。",
+      "optionExplanations": [
+        "blame someone for 直接接人，不加 to。",
+        "blame someone for something 表示因某件事責怪某人。",
+        "blame 不是去某地；應說 She goes to the park。",
+        "blame someone for something 直接接人，不加 to。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Even though",
+      "meaning": "即使；雖然",
+      "usage": "兩件事有反差，但後面的情況仍然成立時使用。",
+      "prompt": "哪一句正確使用「Even though」？",
+      "options": [
+        "Even though it is raining, we are going for a walk.",
+        "Even though to the concert yesterday.",
+        "I even though my first interview.",
+        "She is even though a blue bicycle."
+      ],
+      "answer": 0,
+      "explanation": "雖然下雨，仍要散步，正確表達反差。",
+      "optionExplanations": [
+        "雖然下雨，仍要散步，正確表達反差。",
+        "Even though 後需要完整子句，不能只接地點片語。",
+        "even though 是連接詞，不能當作主要動詞。",
+        "even though 是連接語，不是形容詞或物品名稱。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Deep inside",
+      "meaning": "在內心深處",
+      "usage": "談藏在心裡、不容易說出口的想法或感覺時使用。",
+      "prompt": "哪一句正確使用「Deep inside」？",
+      "options": [
+        "I deep inside my feelings about the race.",
+        "She deep inside to missed her family.",
+        "Deep inside, I still miss my old friend.",
+        "Deep inside, I knows I need to say sorry."
+      ],
+      "answer": 2,
+      "explanation": "指心裡深處仍想念朋友，使用自然。",
+      "optionExplanations": [
+        "deep inside 不能單獨作動詞。",
+        "句子缺少主要動詞；to missed 的形式也不正確。",
+        "指心裡深處仍想念朋友，使用自然。",
+        "主詞 I 配 know，不能加 s。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Pass quickly",
+      "meaning": "很快過去；飛快流逝",
+      "usage": "描述時間過得很快時使用。",
+      "prompt": "哪一句正確使用「Pass quickly」？",
+      "options": [
+        "The holidays passes quickly every year.",
+        "I pass quickly my interview to the hotel.",
+        "The holidays pass quickly when I am having fun.",
+        "She passes quickly a beautiful weather."
+      ],
+      "answer": 2,
+      "explanation": "快樂時覺得假期很快過去，符合片語意思。",
+      "optionExplanations": [
+        "複數主詞 holidays 配 pass，不能加 es。",
+        "pass quickly 不能用此結構表示完成面試再去酒店。",
+        "快樂時覺得假期很快過去，符合片語意思。",
+        "weather 不能用這種句型；片語通常描述時間。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Look through",
+      "meaning": "透過……看；翻看、檢查",
+      "usage": "從窗戶向外看，或翻看書本、照片和資料時使用。",
+      "prompt": "哪一句正確使用「Look through」？",
+      "options": [
+        "I look through to my old photos.",
+        "I looked through the window and saw the wrong city.",
+        "She looks through to school every day.",
+        "We look through very happy at the party."
+      ],
+      "answer": 1,
+      "explanation": "look through the window 表示透過窗戶往外看。",
+      "optionExplanations": [
+        "look through 表示翻看時直接接 photos，不加 to。",
+        "look through the window 表示透過窗戶往外看。",
+        "去學校應用 go to，不能用 look through。",
+        "look through 不是表達心情的動詞。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Point of view",
+      "meaning": "觀點；看法",
+      "usage": "說明某人對一件事的想法，或比較不同意見時使用。",
+      "prompt": "哪一句正確使用「Point of view」？",
+      "options": [
+        "From my point of view, this game is too hard.",
+        "I point of view the new film.",
+        "From my point of view, he are right.",
+        "From my point of view to the plan is too costly."
+      ],
+      "answer": 0,
+      "explanation": "用 from my point of view 表達個人看法，正確。",
+      "optionExplanations": [
+        "用 from my point of view 表達個人看法，正確。",
+        "point of view 是名詞片語，不能當作評論電影的動詞。",
+        "主詞 he 配 is，不能用 are。",
+        "From my point of view 後接完整子句，不加 to。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Shooting star",
+      "meaning": "流星",
+      "usage": "看到夜空中快速劃過的亮光時使用，也常用於許願的故事。",
+      "prompt": "哪一句正確使用「Shooting star」？",
+      "options": [
+        "I shooting star the sky last night.",
+        "We saw a shooting star to flew across the sky.",
+        "She see a shooting star yesterday.",
+        "I saw a shooting star in the sky last night."
+      ],
+      "answer": 3,
+      "explanation": "在夜空看見流星，使用正確。",
+      "optionExplanations": [
+        "shooting star 是名詞，不能作觀看天空的動詞。",
+        "to flew 的形式錯誤；可說 a shooting star fly across the sky。",
+        "過去事件須用 saw。",
+        "在夜空看見流星，使用正確。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/stop-loving-you/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/stop-loving-you/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} in my mind",
+          "promptZh": "腦海中泛起的倒影",
+          "options": [
+            "Reactions",
+            "Reflections",
+            "Refractions"
+          ],
+          "answer": "Reflections"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Thoughts I {{blank}}",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "can't define",
+            "can't decide",
+            "can't deny"
+          ],
+          "answer": "can't define"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "My {{blank}} and the night goes on",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "heart is racing",
+            "heart is resting",
+            "heart is breaking"
+          ],
+          "answer": "heart is racing"
+        },
+        {
+          "number": 4,
+          "lineId": "line-5",
+          "prompt": "Coming from your {{blank}}",
+          "promptZh": "從你的照片中傳出",
+          "options": [
+            "autograph",
+            "paragraph",
+            "photograph"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "Funny how a look can share {{blank}}",
+          "promptZh": "有趣的是，一個眼神竟能傳達千言萬語",
+          "options": [
+            "a thousand memories",
+            "a thousand meanings",
+            "a hundred meanings"
+          ],
+          "answer": "a thousand meanings"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "Contemplating {{blank}}",
+          "promptZh": "思索著各種藉口",
+          "options": [
+            "allies",
+            "lullabies",
+            "alibis"
+          ],
+          "answer": "alibis"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "A {{blank}}",
+          "promptZh": "一段遙遠的記憶",
+          "options": [
+            "distant memory",
+            "different memory",
+            "distant melody"
+          ],
+          "answer": "distant memory"
+        },
+        {
+          "number": 8,
+          "lineId": "line-12",
+          "prompt": "Even though you're gone I feel you {{blank}}",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "deep in time",
+            "deep inside",
+            "deep outside"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 9,
+          "lineId": "line-13",
+          "prompt": "Dance {{blank}} with that look in your eyes",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "beneath the night",
+            "beyond the light",
+            "beneath the light"
+          ],
+          "answer": "beneath the light"
+        },
+        {
+          "number": 10,
+          "lineId": "line-14",
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "can't stop loving you",
+            "can't start loving you",
+            "won't stop leaving you"
+          ],
+          "answer": "can't stop loving you"
+        },
+        {
+          "number": 11,
+          "lineId": "line-15",
+          "prompt": "Time passes {{blank}} and 〔第 12 題〕",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "quietly",
+            "quickly",
+            "closely"
+          ],
+          "answer": "quickly"
+        },
+        {
+          "number": 12,
+          "lineId": "line-15",
+          "prompt": "Time passes 〔第 11 題〕 and {{blank}}",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "chances are new",
+            "changes are few",
+            "chances are few"
+          ],
+          "answer": "chances are few"
+        },
+        {
+          "number": 13,
+          "lineId": "line-16",
+          "prompt": "I won't stop {{blank}} loving you girl",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "'til I'm true",
+            "'til I'm through",
+            "'til you're through"
+          ],
+          "answer": "'til I'm through"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "There's a {{blank}} in the heart",
+          "promptZh": "每個人的心裡都有一扇窗",
+          "options": [
+            "window",
+            "winter",
+            "whisper"
+          ],
+          "answer": "window"
+        },
+        {
+          "number": 15,
+          "lineId": "line-18",
+          "prompt": "I've tried to look through {{blank}}",
+          "promptZh": "從一開始我就試圖看透",
+          "options": [
+            "from the start",
+            "from the stars",
+            "from the heart"
+          ],
+          "answer": "from the start"
+        },
+        {
+          "number": 16,
+          "lineId": "line-21",
+          "prompt": "Another altered {{blank}}",
+          "promptZh": "另一個被改變的觀點",
+          "options": [
+            "part of you",
+            "point of truth",
+            "point of view"
+          ],
+          "answer": "point of view"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "I did not {{blank}}",
+          "promptZh": "卻不明白",
+          "options": [
+            "undertake",
+            "understand",
+            "undermine"
+          ],
+          "answer": "understand"
+        },
+        {
+          "number": 18,
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{blank}}",
+          "promptZh": "試圖抓住劃過的流星",
+          "options": [
+            "shining star",
+            "shooting star",
+            "shooting spark"
+          ],
+          "answer": "shooting star"
+        },
+        {
+          "number": 19,
+          "lineId": "line-28",
+          "prompt": "Living in a dream that's {{blank}}",
+          "promptZh": "活在一個永無止境的夢裡",
+          "options": [
+            "never ending",
+            "ever changing",
+            "never bending"
+          ],
+          "answer": "never ending"
+        },
+        {
+          "number": 20,
+          "lineId": "line-33",
+          "prompt": "{{blank}} with that look that's in your eyes",
+          "promptZh": "帶著你眼中的那抹神采起舞",
+          "options": [
+            "Chancing",
+            "Glancing",
+            "Dancing"
+          ],
+          "answer": "Dancing"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} in my mind"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Thoughts I {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My {{q:3}} and the night goes on"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can almost hear a laugh"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Coming from your {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Funny how a look can share {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Well-intended lies"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Contemplating {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Is it really you or is it me I'm blaming?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "A {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Flashes over me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Even though you're gone I feel you {{q:8}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Dance {{q:9}} with that look in your eyes"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I {{q:10}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Time passes {{q:11}} and {{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I won't stop {{q:13}} loving you girl"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There's a {{q:14}} in the heart"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've tried to look through {{q:15}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're never really sure what someone else is thinking"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Someone's broken something new"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Another altered {{q:16}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's conscience playing"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I had it in my hand"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I did not {{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that cries her name"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{q:18}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "What seems so close can't be that far"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Living in a dream that's {{q:19}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Dance beneath the light with that look in your eyes"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I won't stop 'til I'm through loving you girl"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:20}} with that look that's in your eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I won't stop 'til I'm through loving you girl"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I won't stop 'til I'm through loving you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Loving you"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} in my mind",
+          "promptZh": "腦海中泛起的倒影",
+          "options": [
+            "Reactions",
+            "Reflections",
+            "Refractions"
+          ],
+          "answer": "Reflections"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}} I 〔第 3 題〕",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "Thoughts",
+            "Words",
+            "Dreams"
+          ],
+          "answer": "Thoughts"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "〔第 2 題〕 I {{blank}}",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "can't define",
+            "can't decide",
+            "can't deny"
+          ],
+          "answer": "can't define"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "My {{blank}} and 〔第 5 題〕",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "heart is breaking",
+            "heart is resting",
+            "heart is racing"
+          ],
+          "answer": "heart is racing"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "My 〔第 4 題〕 and {{blank}}",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "the light goes out",
+            "the night goes on",
+            "the night grows cold"
+          ],
+          "answer": "the night goes on"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I can almost {{blank}}",
+          "promptZh": "我幾乎能聽見一陣笑聲",
+          "options": [
+            "hear a laugh",
+            "hear a cry",
+            "see a laugh"
+          ],
+          "answer": "hear a laugh"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "Coming from your {{blank}}",
+          "promptZh": "從你的照片中傳出",
+          "options": [
+            "autograph",
+            "paragraph",
+            "photograph"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "Funny how a look can share {{blank}}",
+          "promptZh": "有趣的是，一個眼神竟能傳達千言萬語",
+          "options": [
+            "a thousand memories",
+            "a thousand meanings",
+            "a hundred meanings"
+          ],
+          "answer": "a thousand meanings"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} lies",
+          "promptZh": "善意的謊言",
+          "options": [
+            "Well-invented",
+            "Well-intended",
+            "Well-attended"
+          ],
+          "answer": "Well-intended"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "Contemplating {{blank}}",
+          "promptZh": "思索著各種藉口",
+          "options": [
+            "alibis",
+            "allies",
+            "lullabies"
+          ],
+          "answer": "alibis"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "Is it really you or is it me {{blank}}?",
+          "promptZh": "我責怪的究竟是你，還是自己？",
+          "options": [
+            "I'm breaking",
+            "I'm claiming",
+            "I'm blaming"
+          ],
+          "answer": "I'm blaming"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "A {{blank}}",
+          "promptZh": "一段遙遠的記憶",
+          "options": [
+            "distant melody",
+            "different memory",
+            "distant memory"
+          ],
+          "answer": "distant memory"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} over me",
+          "promptZh": "瞬間閃過我腦海",
+          "options": [
+            "Flashes",
+            "Crashes",
+            "Passes"
+          ],
+          "answer": "Flashes"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "Even though {{blank}} I feel you 〔第 15 題〕",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "you're wrong",
+            "you're gone",
+            "you've grown"
+          ],
+          "answer": "you're gone"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Even though 〔第 14 題〕 I feel you {{blank}}",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "deep outside",
+            "deep in time",
+            "deep inside"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "Dance {{blank}} with that look in your eyes",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "beneath the light",
+            "beneath the night",
+            "beyond the light"
+          ],
+          "answer": "beneath the light"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "can't start loving you",
+            "can't stop loving you",
+            "won't stop leaving you"
+          ],
+          "answer": "can't stop loving you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "Time passes {{blank}} and 〔第 19 題〕",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "quickly",
+            "quietly",
+            "closely"
+          ],
+          "answer": "quickly"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Time passes 〔第 18 題〕 and {{blank}}",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "changes are few",
+            "chances are few",
+            "chances are new"
+          ],
+          "answer": "chances are few"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "I won't stop {{blank}} loving you girl",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "'til you're through",
+            "'til I'm true",
+            "'til I'm through"
+          ],
+          "answer": "'til I'm through"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "There's a {{blank}} in the heart",
+          "promptZh": "每個人的心裡都有一扇窗",
+          "options": [
+            "whisper",
+            "window",
+            "winter"
+          ],
+          "answer": "window"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "I've tried to look through {{blank}}",
+          "promptZh": "從一開始我就試圖看透",
+          "options": [
+            "from the start",
+            "from the stars",
+            "from the heart"
+          ],
+          "answer": "from the start"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "You're never {{blank}} what someone else is thinking",
+          "promptZh": "你永遠無法確定別人心裡在想什麼",
+          "options": [
+            "nearly sure",
+            "really clear",
+            "really sure"
+          ],
+          "answer": "really sure"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "{{blank}} something new",
+          "promptZh": "有人打破了某件新的事物",
+          "options": [
+            "Someone's spoken",
+            "Someone's hoping",
+            "Someone's broken"
+          ],
+          "answer": "Someone's broken"
+        },
+        {
+          "number": 25,
+          "lineId": "line-21",
+          "prompt": "Another altered {{blank}}",
+          "promptZh": "另一個被改變的觀點",
+          "options": [
+            "point of truth",
+            "point of view",
+            "part of you"
+          ],
+          "answer": "point of view"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's {{blank}} playing",
+          "promptZh": "只是某個人的良知在作祟",
+          "options": [
+            "conscience",
+            "conscious",
+            "confidence"
+          ],
+          "answer": "conscience"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "I had it {{blank}}",
+          "promptZh": "我曾經將它握在手中",
+          "options": [
+            "in my heart",
+            "in my hand",
+            "in my head"
+          ],
+          "answer": "in my hand"
+        },
+        {
+          "number": 28,
+          "lineId": "line-24",
+          "prompt": "I did not {{blank}}",
+          "promptZh": "卻不明白",
+          "options": [
+            "understand",
+            "undertake",
+            "undermine"
+          ],
+          "answer": "understand"
+        },
+        {
+          "number": 29,
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that {{blank}}",
+          "promptZh": "那呼喊著她名字的風中，究竟住著什麼",
+          "options": [
+            "cries in vain",
+            "calls my name",
+            "cries her name"
+          ],
+          "answer": "cries her name"
+        },
+        {
+          "number": 30,
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{blank}}",
+          "promptZh": "試圖抓住劃過的流星",
+          "options": [
+            "shooting spark",
+            "shooting star",
+            "shining star"
+          ],
+          "answer": "shooting star"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "Living in a dream that's {{blank}}",
+          "promptZh": "活在一個永無止境的夢裡",
+          "options": [
+            "never ending",
+            "ever changing",
+            "never bending"
+          ],
+          "answer": "never ending"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "{{blank}} with that look that's in your eyes",
+          "promptZh": "帶著你眼中的那抹神采起舞",
+          "options": [
+            "Chancing",
+            "Glancing",
+            "Dancing"
+          ],
+          "answer": "Dancing"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} in my mind"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} I {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My {{q:4}} and {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can almost {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Coming from your {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Funny how a look can share {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} lies"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Contemplating {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Is it really you or is it me {{q:11}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "A {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} over me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Even though {{q:14}} I feel you {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Dance {{q:16}} with that look in your eyes"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Time passes {{q:18}} and {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I won't stop {{q:20}} loving you girl"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There's a {{q:21}} in the heart"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've tried to look through {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're never {{q:23}} what someone else is thinking"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:24}} something new"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Another altered {{q:25}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's {{q:26}} playing"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I had it {{q:27}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I did not {{q:28}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that {{q:29}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{q:30}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "What seems so close can't be that far"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Living in a dream that's {{q:31}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Dance beneath the light with that look in your eyes"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I won't stop 'til I'm through loving you girl"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:32}} with that look that's in your eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I won't stop 'til I'm through loving you girl"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I won't stop 'til I'm through loving you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Loving you"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} in my mind",
+          "promptZh": "腦海中泛起的倒影",
+          "options": [
+            "Reflections",
+            "Reactions",
+            "Refractions"
+          ],
+          "answer": "Reflections"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}} I 〔第 3 題〕",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "Words",
+            "Thoughts",
+            "Dreams"
+          ],
+          "answer": "Thoughts"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "〔第 2 題〕 I {{blank}}",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "can't define",
+            "can't decide",
+            "can't deny"
+          ],
+          "answer": "can't define"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "My {{blank}} and 〔第 5 題〕",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "heart is breaking",
+            "heart is resting",
+            "heart is racing"
+          ],
+          "answer": "heart is racing"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "My 〔第 4 題〕 and {{blank}}",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "the night goes on",
+            "the light goes out",
+            "the night grows cold"
+          ],
+          "answer": "the night goes on"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I can almost {{blank}}",
+          "promptZh": "我幾乎能聽見一陣笑聲",
+          "options": [
+            "hear a cry",
+            "hear a laugh",
+            "see a laugh"
+          ],
+          "answer": "hear a laugh"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "Coming from your {{blank}}",
+          "promptZh": "從你的照片中傳出",
+          "options": [
+            "autograph",
+            "paragraph",
+            "photograph"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "Funny how a look can share {{blank}}",
+          "promptZh": "有趣的是，一個眼神竟能傳達千言萬語",
+          "options": [
+            "a hundred meanings",
+            "a thousand memories",
+            "a thousand meanings"
+          ],
+          "answer": "a thousand meanings"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} lies",
+          "promptZh": "善意的謊言",
+          "options": [
+            "Well-intended",
+            "Well-invented",
+            "Well-attended"
+          ],
+          "answer": "Well-intended"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "Contemplating {{blank}}",
+          "promptZh": "思索著各種藉口",
+          "options": [
+            "allies",
+            "alibis",
+            "lullabies"
+          ],
+          "answer": "alibis"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "Is it really you or is it me {{blank}}?",
+          "promptZh": "我責怪的究竟是你，還是自己？",
+          "options": [
+            "I'm claiming",
+            "I'm blaming",
+            "I'm breaking"
+          ],
+          "answer": "I'm blaming"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "A {{blank}}",
+          "promptZh": "一段遙遠的記憶",
+          "options": [
+            "different memory",
+            "distant melody",
+            "distant memory"
+          ],
+          "answer": "distant memory"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "{{blank}} over me",
+          "promptZh": "瞬間閃過我腦海",
+          "options": [
+            "Flashes",
+            "Crashes",
+            "Passes"
+          ],
+          "answer": "Flashes"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "Even though {{blank}} I feel you 〔第 15 題〕",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "you're gone",
+            "you're wrong",
+            "you've grown"
+          ],
+          "answer": "you're gone"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Even though 〔第 14 題〕 I feel you {{blank}}",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "deep outside",
+            "deep inside",
+            "deep in time"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "Dance {{blank}} with that look 〔第 17 題〕",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "beyond the light",
+            "beneath the night",
+            "beneath the light"
+          ],
+          "answer": "beneath the light"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "Dance 〔第 16 題〕 with that look {{blank}}",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "in your eyes",
+            "in your mind",
+            "in your smile"
+          ],
+          "answer": "in your eyes"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "won't stop leaving you",
+            "can't start loving you",
+            "can't stop loving you"
+          ],
+          "answer": "can't stop loving you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 20 題〕 and 〔第 21 題〕",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "Time pauses",
+            "Time passes",
+            "Life passes"
+          ],
+          "answer": "Time passes"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "〔第 19 題〕 {{blank}} and 〔第 21 題〕",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "quietly",
+            "quickly",
+            "closely"
+          ],
+          "answer": "quickly"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "〔第 19 題〕 〔第 20 題〕 and {{blank}}",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "changes are few",
+            "chances are new",
+            "chances are few"
+          ],
+          "answer": "chances are few"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "I won't stop {{blank}} 〔第 23 題〕",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "'til I'm through",
+            "'til I'm true",
+            "'til you're through"
+          ],
+          "answer": "'til I'm through"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "I won't stop 〔第 22 題〕 {{blank}}",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "loving you girl",
+            "leaving you girl",
+            "loving your world"
+          ],
+          "answer": "loving you girl"
+        },
+        {
+          "number": 24,
+          "lineId": "line-17",
+          "prompt": "There's a {{blank}} in the heart",
+          "promptZh": "每個人的心裡都有一扇窗",
+          "options": [
+            "whisper",
+            "window",
+            "winter"
+          ],
+          "answer": "window"
+        },
+        {
+          "number": 25,
+          "lineId": "line-18",
+          "prompt": "I've tried to look through {{blank}}",
+          "promptZh": "從一開始我就試圖看透",
+          "options": [
+            "from the heart",
+            "from the stars",
+            "from the start"
+          ],
+          "answer": "from the start"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "You're never {{blank}} what someone else is thinking",
+          "promptZh": "你永遠無法確定別人心裡在想什麼",
+          "options": [
+            "nearly sure",
+            "really clear",
+            "really sure"
+          ],
+          "answer": "really sure"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "{{blank}} something new",
+          "promptZh": "有人打破了某件新的事物",
+          "options": [
+            "Someone's broken",
+            "Someone's spoken",
+            "Someone's hoping"
+          ],
+          "answer": "Someone's broken"
+        },
+        {
+          "number": 28,
+          "lineId": "line-21",
+          "prompt": "Another altered {{blank}}",
+          "promptZh": "另一個被改變的觀點",
+          "options": [
+            "point of truth",
+            "point of view",
+            "part of you"
+          ],
+          "answer": "point of view"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's {{blank}} playing",
+          "promptZh": "只是某個人的良知在作祟",
+          "options": [
+            "confidence",
+            "conscious",
+            "conscience"
+          ],
+          "answer": "conscience"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "I had it {{blank}}",
+          "promptZh": "我曾經將它握在手中",
+          "options": [
+            "in my head",
+            "in my hand",
+            "in my heart"
+          ],
+          "answer": "in my hand"
+        },
+        {
+          "number": 31,
+          "lineId": "line-24",
+          "prompt": "I did not {{blank}}",
+          "promptZh": "卻不明白",
+          "options": [
+            "understand",
+            "undertake",
+            "undermine"
+          ],
+          "answer": "understand"
+        },
+        {
+          "number": 32,
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that {{blank}}",
+          "promptZh": "那呼喊著她名字的風中，究竟住著什麼",
+          "options": [
+            "cries in vain",
+            "calls my name",
+            "cries her name"
+          ],
+          "answer": "cries her name"
+        },
+        {
+          "number": 33,
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{blank}}",
+          "promptZh": "試圖抓住劃過的流星",
+          "options": [
+            "shooting star",
+            "shining star",
+            "shooting spark"
+          ],
+          "answer": "shooting star"
+        },
+        {
+          "number": 34,
+          "lineId": "line-27",
+          "prompt": "What seems {{blank}} can't be that far",
+          "promptZh": "看似如此接近的事物，不可能那麼遙遠",
+          "options": [
+            "so cold",
+            "so close",
+            "so clear"
+          ],
+          "answer": "so close"
+        },
+        {
+          "number": 35,
+          "lineId": "line-28",
+          "prompt": "Living in a dream that's {{blank}}",
+          "promptZh": "活在一個永無止境的夢裡",
+          "options": [
+            "ever changing",
+            "never ending",
+            "never bending"
+          ],
+          "answer": "never ending"
+        },
+        {
+          "number": 36,
+          "lineId": "line-30",
+          "prompt": "I can't {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "start loving you",
+            "stop leaving you",
+            "stop loving you"
+          ],
+          "answer": "stop loving you"
+        },
+        {
+          "number": 37,
+          "lineId": "line-31",
+          "prompt": "Time passes quickly and {{blank}}",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "chances are few",
+            "chances are blue",
+            "changes are new"
+          ],
+          "answer": "chances are few"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "I won't stop 'til {{blank}} girl",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "I'm through leaving you",
+            "I'm true loving you",
+            "I'm through loving you"
+          ],
+          "answer": "I'm through loving you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-33",
+          "prompt": "{{blank}} with that look that's in your eyes",
+          "promptZh": "帶著你眼中的那抹神采起舞",
+          "options": [
+            "Glancing",
+            "Dancing",
+            "Chancing"
+          ],
+          "answer": "Dancing"
+        },
+        {
+          "number": 40,
+          "lineId": "line-34",
+          "prompt": "I can't stop {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "loving you",
+            "Leaving you",
+            "Losing you"
+          ],
+          "answer": "loving you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} in my mind"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} I {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My {{q:4}} and {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can almost {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Coming from your {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Funny how a look can share {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} lies"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Contemplating {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Is it really you or is it me {{q:11}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "A {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:13}} over me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Even though {{q:14}} I feel you {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Dance {{q:16}} with that look {{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}} {{q:20}} and {{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I won't stop {{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "There's a {{q:24}} in the heart"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I've tried to look through {{q:25}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're never {{q:26}} what someone else is thinking"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:27}} something new"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Another altered {{q:28}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's {{q:29}} playing"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I had it {{q:30}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I did not {{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that {{q:32}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{q:33}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "What seems {{q:34}} can't be that far"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Living in a dream that's {{q:35}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Dance beneath the light with that look in your eyes"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I can't {{q:36}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Time passes quickly and {{q:37}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I won't stop 'til {{q:38}} girl"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:39}} with that look that's in your eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I can't stop {{q:40}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I won't stop 'til I'm through loving you girl"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I won't stop 'til I'm through loving you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Loving you"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕",
+          "promptZh": "腦海中泛起的倒影",
+          "options": [
+            "Reflections",
+            "Reactions",
+            "Refractions"
+          ],
+          "answer": "Reflections"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}",
+          "promptZh": "腦海中泛起的倒影",
+          "options": [
+            "on my mind",
+            "in my mind",
+            "in my life"
+          ],
+          "answer": "in my mind"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} I 〔第 4 題〕",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "Thoughts",
+            "Words",
+            "Dreams"
+          ],
+          "answer": "Thoughts"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 I {{blank}}",
+          "promptZh": "難以名狀的思緒",
+          "options": [
+            "can't deny",
+            "can't decide",
+            "can't define"
+          ],
+          "answer": "can't define"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "My {{blank}} and 〔第 6 題〕",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "heart is resting",
+            "heart is racing",
+            "heart is breaking"
+          ],
+          "answer": "heart is racing"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "My 〔第 5 題〕 and {{blank}}",
+          "promptZh": "我的心狂跳不已，而長夜仍在繼續",
+          "options": [
+            "the light goes out",
+            "the night grows cold",
+            "the night goes on"
+          ],
+          "answer": "the night goes on"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "I can almost {{blank}}",
+          "promptZh": "我幾乎能聽見一陣笑聲",
+          "options": [
+            "hear a cry",
+            "hear a laugh",
+            "see a laugh"
+          ],
+          "answer": "hear a laugh"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} your 〔第 9 題〕",
+          "promptZh": "從你的照片中傳出",
+          "options": [
+            "Coming from",
+            "Running from",
+            "Calling from"
+          ],
+          "answer": "Coming from"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "〔第 8 題〕 your {{blank}}",
+          "promptZh": "從你的照片中傳出",
+          "options": [
+            "paragraph",
+            "photograph",
+            "autograph"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "Funny how a look can {{blank}} 〔第 11 題〕",
+          "promptZh": "有趣的是，一個眼神竟能傳達千言萬語",
+          "options": [
+            "shape",
+            "show",
+            "share"
+          ],
+          "answer": "share"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "Funny how a look can 〔第 10 題〕 {{blank}}",
+          "promptZh": "有趣的是，一個眼神竟能傳達千言萬語",
+          "options": [
+            "a thousand meanings",
+            "a thousand memories",
+            "a hundred meanings"
+          ],
+          "answer": "a thousand meanings"
+        },
+        {
+          "number": 12,
+          "lineId": "line-7",
+          "prompt": "{{blank}} lies",
+          "promptZh": "善意的謊言",
+          "options": [
+            "Well-attended",
+            "Well-invented",
+            "Well-intended"
+          ],
+          "answer": "Well-intended"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "思索著各種藉口",
+          "options": [
+            "Complicating",
+            "Contemplating",
+            "Concentrating"
+          ],
+          "answer": "Contemplating"
+        },
+        {
+          "number": 14,
+          "lineId": "line-8",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "思索著各種藉口",
+          "options": [
+            "alibis",
+            "allies",
+            "lullabies"
+          ],
+          "answer": "alibis"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "{{blank}} or is it me 〔第 16 題〕?",
+          "promptZh": "我責怪的究竟是你，還是自己？",
+          "options": [
+            "Is it really true",
+            "Is it really you",
+            "Is it only you"
+          ],
+          "answer": "Is it really you"
+        },
+        {
+          "number": 16,
+          "lineId": "line-9",
+          "prompt": "〔第 15 題〕 or is it me {{blank}}?",
+          "promptZh": "我責怪的究竟是你，還是自己？",
+          "options": [
+            "I'm blaming",
+            "I'm claiming",
+            "I'm breaking"
+          ],
+          "answer": "I'm blaming"
+        },
+        {
+          "number": 17,
+          "lineId": "line-10",
+          "prompt": "A {{blank}}",
+          "promptZh": "一段遙遠的記憶",
+          "options": [
+            "distant melody",
+            "different memory",
+            "distant memory"
+          ],
+          "answer": "distant memory"
+        },
+        {
+          "number": 18,
+          "lineId": "line-11",
+          "prompt": "{{blank}} over me",
+          "promptZh": "瞬間閃過我腦海",
+          "options": [
+            "Flashes",
+            "Crashes",
+            "Passes"
+          ],
+          "answer": "Flashes"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "Even though {{blank}} I feel you 〔第 20 題〕",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "you're wrong",
+            "you're gone",
+            "you've grown"
+          ],
+          "answer": "you're gone"
+        },
+        {
+          "number": 20,
+          "lineId": "line-12",
+          "prompt": "Even though 〔第 19 題〕 I feel you {{blank}}",
+          "promptZh": "即使你已離去，我仍能在內心深處感受到你",
+          "options": [
+            "deep outside",
+            "deep in time",
+            "deep inside"
+          ],
+          "answer": "deep inside"
+        },
+        {
+          "number": 21,
+          "lineId": "line-13",
+          "prompt": "{{blank}} 〔第 22 題〕 with that look 〔第 23 題〕",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "Glance",
+            "Dance",
+            "Stand"
+          ],
+          "answer": "Dance"
+        },
+        {
+          "number": 22,
+          "lineId": "line-13",
+          "prompt": "〔第 21 題〕 {{blank}} with that look 〔第 23 題〕",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "beneath the light",
+            "beneath the night",
+            "beyond the light"
+          ],
+          "answer": "beneath the light"
+        },
+        {
+          "number": 23,
+          "lineId": "line-13",
+          "prompt": "〔第 21 題〕 〔第 22 題〕 with that look {{blank}}",
+          "promptZh": "在燈光下起舞，帶著你眼中的那抹神采",
+          "options": [
+            "in your smile",
+            "in your mind",
+            "in your eyes"
+          ],
+          "answer": "in your eyes"
+        },
+        {
+          "number": 24,
+          "lineId": "line-14",
+          "prompt": "I {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "can't start loving you",
+            "won't stop leaving you",
+            "can't stop loving you"
+          ],
+          "answer": "can't stop loving you"
+        },
+        {
+          "number": 25,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 26 題〕 and 〔第 27 題〕",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "Time pauses",
+            "Time passes",
+            "Life passes"
+          ],
+          "answer": "Time passes"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "〔第 25 題〕 {{blank}} and 〔第 27 題〕",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "quickly",
+            "quietly",
+            "closely"
+          ],
+          "answer": "quickly"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "〔第 25 題〕 〔第 26 題〕 and {{blank}}",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "chances are few",
+            "changes are few",
+            "chances are new"
+          ],
+          "answer": "chances are few"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "I won't stop {{blank}} 〔第 29 題〕",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "'til you're through",
+            "'til I'm true",
+            "'til I'm through"
+          ],
+          "answer": "'til I'm through"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "I won't stop 〔第 28 題〕 {{blank}}",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "leaving you girl",
+            "loving you girl",
+            "loving your world"
+          ],
+          "answer": "loving you girl"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "{{blank}} 〔第 31 題〕 in the heart",
+          "promptZh": "每個人的心裡都有一扇窗",
+          "options": [
+            "There was a",
+            "There's a",
+            "There is the"
+          ],
+          "answer": "There's a"
+        },
+        {
+          "number": 31,
+          "lineId": "line-17",
+          "prompt": "〔第 30 題〕 {{blank}} in the heart",
+          "promptZh": "每個人的心裡都有一扇窗",
+          "options": [
+            "whisper",
+            "winter",
+            "window"
+          ],
+          "answer": "window"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "{{blank}} to look through 〔第 33 題〕",
+          "promptZh": "從一開始我就試圖看透",
+          "options": [
+            "I've tried",
+            "I've cried",
+            "I've turned"
+          ],
+          "answer": "I've tried"
+        },
+        {
+          "number": 33,
+          "lineId": "line-18",
+          "prompt": "〔第 32 題〕 to look through {{blank}}",
+          "promptZh": "從一開始我就試圖看透",
+          "options": [
+            "from the stars",
+            "from the start",
+            "from the heart"
+          ],
+          "answer": "from the start"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "You're never {{blank}} 〔第 35 題〕",
+          "promptZh": "你永遠無法確定別人心裡在想什麼",
+          "options": [
+            "nearly sure",
+            "really clear",
+            "really sure"
+          ],
+          "answer": "really sure"
+        },
+        {
+          "number": 35,
+          "lineId": "line-19",
+          "prompt": "You're never 〔第 34 題〕 {{blank}}",
+          "promptZh": "你永遠無法確定別人心裡在想什麼",
+          "options": [
+            "what someone else is thinking",
+            "what somebody else is saying",
+            "what someone else is feeling"
+          ],
+          "answer": "what someone else is thinking"
+        },
+        {
+          "number": 36,
+          "lineId": "line-20",
+          "prompt": "{{blank}} something new",
+          "promptZh": "有人打破了某件新的事物",
+          "options": [
+            "Someone's broken",
+            "Someone's spoken",
+            "Someone's hoping"
+          ],
+          "answer": "Someone's broken"
+        },
+        {
+          "number": 37,
+          "lineId": "line-21",
+          "prompt": "Another altered {{blank}}",
+          "promptZh": "另一個被改變的觀點",
+          "options": [
+            "part of you",
+            "point of truth",
+            "point of view"
+          ],
+          "answer": "point of view"
+        },
+        {
+          "number": 38,
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's {{blank}} playing",
+          "promptZh": "只是某個人的良知在作祟",
+          "options": [
+            "conscious",
+            "conscience",
+            "confidence"
+          ],
+          "answer": "conscience"
+        },
+        {
+          "number": 39,
+          "lineId": "line-23",
+          "prompt": "I had it {{blank}}",
+          "promptZh": "我曾經將它握在手中",
+          "options": [
+            "in my hand",
+            "in my head",
+            "in my heart"
+          ],
+          "answer": "in my hand"
+        },
+        {
+          "number": 40,
+          "lineId": "line-24",
+          "prompt": "I did not {{blank}}",
+          "promptZh": "卻不明白",
+          "options": [
+            "undermine",
+            "undertake",
+            "understand"
+          ],
+          "answer": "understand"
+        },
+        {
+          "number": 41,
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that {{blank}}",
+          "promptZh": "那呼喊著她名字的風中，究竟住著什麼",
+          "options": [
+            "calls my name",
+            "cries her name",
+            "cries in vain"
+          ],
+          "answer": "cries her name"
+        },
+        {
+          "number": 42,
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{blank}}",
+          "promptZh": "試圖抓住劃過的流星",
+          "options": [
+            "shining star",
+            "shooting spark",
+            "shooting star"
+          ],
+          "answer": "shooting star"
+        },
+        {
+          "number": 43,
+          "lineId": "line-27",
+          "prompt": "What seems {{blank}} can't be that far",
+          "promptZh": "看似如此接近的事物，不可能那麼遙遠",
+          "options": [
+            "so close",
+            "so cold",
+            "so clear"
+          ],
+          "answer": "so close"
+        },
+        {
+          "number": 44,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that's 〔第 45 題〕",
+          "promptZh": "活在一個永無止境的夢裡",
+          "options": [
+            "Leaving in a dream",
+            "Living in a dream",
+            "Living in the dark"
+          ],
+          "answer": "Living in a dream"
+        },
+        {
+          "number": 45,
+          "lineId": "line-28",
+          "prompt": "〔第 44 題〕 that's {{blank}}",
+          "promptZh": "活在一個永無止境的夢裡",
+          "options": [
+            "ever changing",
+            "never bending",
+            "never ending"
+          ],
+          "answer": "never ending"
+        },
+        {
+          "number": 46,
+          "lineId": "line-30",
+          "prompt": "I can't {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "stop loving you",
+            "stop leaving you",
+            "start loving you"
+          ],
+          "answer": "stop loving you"
+        },
+        {
+          "number": 47,
+          "lineId": "line-31",
+          "prompt": "Time passes quickly and {{blank}}",
+          "promptZh": "時光飛逝，機會寥寥無幾",
+          "options": [
+            "chances are blue",
+            "chances are few",
+            "changes are new"
+          ],
+          "answer": "chances are few"
+        },
+        {
+          "number": 48,
+          "lineId": "line-32",
+          "prompt": "I won't stop 'til {{blank}} girl",
+          "promptZh": "女孩，在愛你愛到盡頭之前，我不會停下",
+          "options": [
+            "I'm through loving you",
+            "I'm true loving you",
+            "I'm through leaving you"
+          ],
+          "answer": "I'm through loving you"
+        },
+        {
+          "number": 49,
+          "lineId": "line-33",
+          "prompt": "{{blank}} with that look that's in your eyes",
+          "promptZh": "帶著你眼中的那抹神采起舞",
+          "options": [
+            "Glancing",
+            "Dancing",
+            "Chancing"
+          ],
+          "answer": "Dancing"
+        },
+        {
+          "number": 50,
+          "lineId": "line-34",
+          "prompt": "I can't stop {{blank}}",
+          "promptZh": "我無法停止愛你",
+          "options": [
+            "Losing you",
+            "Leaving you",
+            "loving you"
+          ],
+          "answer": "loving you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} I {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "My {{q:5}} and {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I can almost {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} your {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Funny how a look can {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:12}} lies"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:15}} or is it me {{q:16}}?"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "A {{q:17}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:18}} over me"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Even though {{q:19}} I feel you {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:21}} {{q:22}} with that look {{q:23}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I {{q:24}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:25}} {{q:26}} and {{q:27}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I won't stop {{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:30}} {{q:31}} in the heart"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:32}} to look through {{q:33}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You're never {{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:36}} something new"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Another altered {{q:37}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Just a certain someone's {{q:38}} playing"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I had it {{q:39}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I did not {{q:40}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "What lives inside the wind that {{q:41}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Tried to catch a {{q:42}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "What seems {{q:43}} can't be that far"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:44}} that's {{q:45}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Dance beneath the light with that look in your eyes"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I can't {{q:46}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Time passes quickly and {{q:47}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "I won't stop 'til {{q:48}} girl"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:49}} with that look that's in your eyes"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I can't stop {{q:50}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I won't stop 'til I'm through loving you girl"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "I can't stop loving you"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Time passes quickly and chances are few"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I won't stop 'til I'm through loving you"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Loving you"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "faf4109eb1b17fc682c605cece9392bfc354fe71f4e6d2e221a810527abc4b23",
+    "duration": 269.2266875
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "76685e28c2de161e6743d63bc5e1415210a03d51f30e6462526b8b2b8cf55898"
+    },
+    {
+      "section": "structure",
+      "filename": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "27d5dad85860b3b2538b0d5e6ad49aa525e0835e04fdae5e33defa723de21a83"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "reflections",
+          "meaning": "回想、反思；也可指倒影",
+          "usage": "回顧過去經驗或看見鏡中影像；歌詞是內心的回想。",
+          "prompt": "哪一句正確使用「reflections」？",
+          "options": [
+            "She reflections on the trip every Sunday.",
+            "The train reflections at eight each night.",
+            "Her reflections on the trip helped her learn.",
+            "I cooked reflections for the school party."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：reflections 是名詞，不能直接當動詞；應說 reflects on。",
+            "錯誤：名詞不能代替列車行駛的動詞。",
+            "正確：reflections on the trip 指對旅行的反思。",
+            "錯誤：reflection 不是可烹煮的餐點。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：reflections on the trip 指對旅行的反思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "define",
+          "meaning": "定義；清楚說明",
+          "usage": "解釋詞義、界定概念或描述難以言說的情緒。",
+          "prompt": "哪一句正確使用「define」？",
+          "options": [
+            "The word define means a beautiful picture.",
+            "She defined to sing at the school show.",
+            "Can you define me to this new word?",
+            "It is hard to define how I feel today."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：define 是動詞，不是圖片類型。",
+            "錯誤：define 不表示決定去唱歌。",
+            "錯誤：應說 define this word for me，不是 define me to this word。",
+            "正確：難以清楚描述自己的感受。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：難以清楚描述自己的感受。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "well-intended",
+          "meaning": "出於好意的；用意良善的",
+          "usage": "形容建議或行為本意是好的，但結果未必好。",
+          "prompt": "哪一句正確使用「well-intended」？",
+          "options": [
+            "She well-intended the bus to be early today.",
+            "Her well-intended joke still hurt his feelings.",
+            "His well-intended advice was a new bicycle.",
+            "The cake well-intended because it tasted good."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：well-intended 是形容詞，不能當動詞。",
+            "正確：玩笑本意良善，仍可能傷害別人。",
+            "錯誤：建議不是腳踏車；句意沒有呈現善意的言行。",
+            "錯誤：應說 the cake was good；不能如此使用形容詞。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：玩笑本意良善，仍可能傷害別人。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "contemplating",
+          "meaning": "深思、仔細考慮（現在分詞）",
+          "usage": "需要時間權衡重大選擇時可用 contemplate。",
+          "prompt": "哪一句正確使用「contemplating」？",
+          "options": [
+            "He is contemplating a move to another city.",
+            "He is contemplating to buying a new bike.",
+            "I am contemplating my food with a fork.",
+            "She contemplating a change in her job."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：正在慎重考慮搬去另一個城市。",
+            "錯誤：contemplate 後接名詞或 -ing，不接 to buying。",
+            "錯誤：這裡指吃飯，並非深思或考慮抉擇。",
+            "錯誤：缺少 is；應說 She is contemplating。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：正在慎重考慮搬去另一個城市。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "alibis",
+          "meaning": "不在場證明；辯解藉口（複數）",
+          "usage": "常用於描述有人說明事發時自己在哪裡；泛指藉口時有時帶負面意味。",
+          "prompt": "哪一句正確使用「alibis」？",
+          "options": [
+            "My alibis were blue because of the rain.",
+            "She alibis to school before eight each day.",
+            "The police checked his alibis for that night.",
+            "The chef cooked three alibis for breakfast."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：不在場證明不能用 blue 描述顏色。",
+            "錯誤：alibis 是名詞，不能表示去上學。",
+            "正確：警方核對他對當晚行蹤的說法；更常見單數是 alibi。",
+            "錯誤：alibis 不是早餐食物。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：警方核對他對當晚行蹤的說法；更常見單數是 alibi。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "distant",
+          "meaning": "遙遠的；疏遠的",
+          "usage": "可描述地理距離、久遠回憶或人際關係的冷淡。",
+          "prompt": "哪一句正確使用「distant」？",
+          "options": [
+            "We made the water distant by drinking it.",
+            "The village is distant from the nearest town.",
+            "Her distant was parked near our house.",
+            "My brother distant his homework last night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：喝水不會使水「遙遠」。",
+            "正確：村莊離最近的城鎮很遠。",
+            "錯誤：distant 不是可停車的名詞。",
+            "錯誤：distant 是形容詞，不是做作業的動詞。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：村莊離最近的城鎮很遠。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "flashes over me",
+          "meaning": "（記憶或感覺）突然湧現、閃過（歌詞式寫法）",
+          "usage": "歌曲以畫面閃過比喻回憶突然浮現；日常更常說 a memory flashes through my mind。",
+          "prompt": "哪一句正確使用「flashes over me」？",
+          "options": [
+            "The teacher flashes over me the answers now.",
+            "I flash over me when the bus arrives.",
+            "He flashes over me his new shoes each week.",
+            "A memory flashes over me when I hear that song."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：不表示老師傳授答案；語序也不自然。",
+            "錯誤：主詞 I 與 over me 及動詞語意不合。",
+            "錯誤：不能表示展示新鞋；應用 shows me。",
+            "正確：套用歌詞式說法，表示聽歌時記憶突然湧現；日常表達可換 flashes through my mind。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：套用歌詞式說法，表示聽歌時記憶突然湧現；日常表達可換 flashes through my mind。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "chances are few",
+          "meaning": "機會不多、機會有限",
+          "usage": "描述可以嘗試的次數或成功機會很少；可更常用 there are few chances。",
+          "prompt": "哪一句正確使用「chances are few」？",
+          "options": [
+            "We chances are few the park after lunch.",
+            "The chances are few because the cake is sweet.",
+            "We should try now because chances are few.",
+            "Our chances are few to a new pair of shoes."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：這個句型不能當作去公園的動詞。",
+            "錯誤：蛋糕甜與機會稀少沒有自然關聯。",
+            "正確：因為機會少，所以應該現在嘗試。",
+            "錯誤：結構不完整；應說 We have few chances to buy...。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：因為機會少，所以應該現在嘗試。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "altered",
+          "meaning": "改變過的、修改過的",
+          "usage": "描述原本的計畫、照片、文件或看法被改動。",
+          "prompt": "哪一句正確使用「altered」？",
+          "options": [
+            "The new plan was altered with a sandwich.",
+            "The altered photo looked different from the first.",
+            "They altered to the office before lunch.",
+            "She is altered because she goes by train."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：用三明治修改計畫不是正常搭配。",
+            "正確：修改過的照片與原圖不同。",
+            "錯誤：alter 不表示前往某地。",
+            "錯誤：搭車方式並不說明一個人被修改。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：修改過的照片與原圖不同。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "certain",
+          "meaning": "某個特定的；確定的",
+          "usage": "指不明說身分的某個人，或表示對事情有把握。",
+          "prompt": "哪一句正確使用「certain」？",
+          "options": [
+            "A certain friend told me about the party.",
+            "We certain our dinner every Friday night.",
+            "A certain is waiting by the school gate.",
+            "I certain about the answer to this question."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不點名、只說某個特定朋友。",
+            "錯誤：不能當作吃晚餐的動詞。",
+            "錯誤：certain 是形容詞，後面須有名詞或適當省略結構。",
+            "錯誤：應說 I am certain about the answer。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：不點名、只說某個特定朋友。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "conscience",
+          "meaning": "良心；判斷對錯的內在道德感",
+          "usage": "談到因做錯事而感到內疚，或想依良心做決定。",
+          "prompt": "哪一句正確使用「conscience」？",
+          "options": [
+            "His conscience troubled him after he lied.",
+            "She rode her conscience to school today.",
+            "A conscience is a type of music class.",
+            "I washed my conscience in warm water."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：說謊後良心不安、感到愧疚。",
+            "錯誤：良心不是交通工具。",
+            "錯誤：conscience 不表示音樂課；勿與 conscious 混淆。",
+            "錯誤：良心不是可用水清洗的物品。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：說謊後良心不安、感到愧疚。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "never ending",
+          "meaning": "永無止境的、一直持續的",
+          "usage": "描述彷彿不會結束的等待、工作或故事；一般常寫 never-ending（放在名詞前）。",
+          "prompt": "哪一句正確使用「never ending」？",
+          "options": [
+            "The never ending was waiting near the bus stop.",
+            "We never ending to the beach every July.",
+            "She never ending her work before dinner.",
+            "It felt like a never-ending wait for the bus."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：缺少核心名詞，不能把 never ending 當人。",
+            "錯誤：不能取代 go 或 travel。",
+            "錯誤：動詞結構錯誤，應說 never finishes。",
+            "正確：never-ending 作複合形容詞修飾 wait；歌詞寫法沒有連字號。"
+          ],
+          "sourceFile": "Stop_Loving_You_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：never-ending 作複合形容詞修飾 wait；歌詞寫法沒有連字號。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "名詞＋省略受詞的關係子句",
+          "meaning": "我無法清楚描述的想法；名詞後面接子句補充是哪一些。",
+          "usage": "當後面的動詞以先前名詞為受詞時，關係代名詞可省略。",
+          "prompt": "你想推薦一本看過的書，哪句最自然？",
+          "options": [
+            "This is the book I read last winter.",
+            "This is the book I read last winter it.",
+            "This is the book I read it last winter.",
+            "This is the book I reading last winter."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：book 是 read 的受詞，關係代名詞省略，沒有重複 it。",
+            "錯：句尾重複 it，關係子句受詞位置不該再放代名詞。",
+            "錯：read 已經以 book 為受詞，不應再補 it。",
+            "錯：缺少適當動詞形式，去年冬天要用 read 的過去式。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Thoughts I can't define",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞 + can't",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：book 是 read 的受詞，關係代名詞省略，沒有重複 it。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "現在進行式描述正在變化的狀態",
+          "meaning": "我的心正在快速跳動；強調此刻進行的狀態。",
+          "usage": "描述當下正在發生或暫時持續的事情。",
+          "prompt": "舞台燈剛亮，鼓聲此刻很大，哪句對？",
+          "options": [
+            "The drums is beating now.",
+            "The drums beat yesterday now.",
+            "The drums beating now.",
+            "The drums are beating now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：複數主詞不可搭 is。",
+            "錯：yesterday 與 now 時間衝突，且不表示此刻動作。",
+            "錯：現在進行式缺少 are。",
+            "正確：複數 drums 配 are + beating。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "My heart is racing",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：複數 drums 配 are + beating。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "go on：持續進行",
+          "meaning": "夜晚持續下去；go on 可表示事情繼續發生。",
+          "usage": "描述表演、故事或活動沒有停下。",
+          "prompt": "演員換好衣服之後，戲繼續演，哪句對？",
+          "options": [
+            "The play goes to after the break.",
+            "The play goes in after the break.",
+            "The play goes at after the break.",
+            "The play goes on after the break."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：goes to 後面缺目的地，無法表達持續。",
+            "錯：go in 不表演出繼續。",
+            "錯：goes at 不是表示繼續的片語。",
+            "正確：goes on 表示演出繼續。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "the night goes on",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "go/goes on",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：goes on 表示演出繼續。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "can + almost + 原形動詞",
+          "meaning": "我幾乎能聽見笑聲；almost 放在情態助動詞後、主要動詞前。",
+          "usage": "很接近做到某件事，卻不完全確定或尚未真正做到。",
+          "prompt": "遠處有人說話，但聲音很小，你幾乎聽得到，哪句對？",
+          "options": [
+            "I can hear almost to them.",
+            "I can hearing almost them.",
+            "I can almost hear them.",
+            "I almost can to hear them."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：hear them 是直接受詞，不需要 to。",
+            "錯：can 後應接 hear 原形。",
+            "正確：can almost hear 清楚表達幾乎聽到。",
+            "錯：can 後不能接 to hear，almost 的位置也不自然。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I can almost hear a laugh",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can almost",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can almost hear 清楚表達幾乎聽到。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "分詞片語補充來源",
+          "meaning": "從你的照片傳來；句子片段以現在分詞描寫前面的聲音。",
+          "usage": "寫作中可用分詞片語補充名詞的來源，但要注意它修飾的對象清楚。",
+          "prompt": "你發現奇怪聲音從空房間傳出，哪句最完整自然？",
+          "options": [
+            "I heard a sound coming the empty room.",
+            "I heard a sound from coming the room.",
+            "I heard a sound come from was the room.",
+            "I heard a sound coming from the empty room."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：coming 後要有 from 才能表示來源。",
+            "錯：from coming 的語序不適合這個意思。",
+            "錯：come from was 動詞結構不完整。",
+            "正確：coming from 修飾 sound，交代聲音來源。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Coming from your photograph",
+          "pattern": [
+            {
+              "text": "動詞-ing + from",
+              "fixed": true
+            },
+            {
+              "text": "來源",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：coming from 修飾 sound，交代聲音來源。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "how 引導感嘆內容",
+          "meaning": "有趣的是，一個眼神能傳達好多意思；前面省略 It is。",
+          "usage": "對某件出乎意料的現象發出感嘆；原歌詞是口語省略。",
+          "prompt": "朋友的小狗一聽到音樂便跳舞，你感到不可思議，哪句自然？",
+          "options": [
+            "Funny how does your dog dance to music.",
+            "Funny how dances your dog to music.",
+            "Funny how your dog dances to music.",
+            "Funny how your dog to dance to music."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：how 後面不是直接問句倒裝語序。",
+            "錯：把主詞與動詞倒裝了。",
+            "正確：how 後接主詞＋動詞，表達驚訝。",
+            "錯：沒有謂語動詞。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Funny how a look can share a thousand meanings",
+          "pattern": [
+            {
+              "text": "Funny how",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：how 後接主詞＋動詞，表達驚訝。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "複合形容詞 well-intended",
+          "meaning": "出於好意的謊言；well-intended 是複合形容詞。",
+          "usage": "說明行為出發點友善，卻不保證結果是好的。",
+          "prompt": "朋友想安慰人，但他的話反而使人傷心，哪句正確？",
+          "options": [
+            "His words were well-intended, but they hurt her.",
+            "His words were well-intending to her.",
+            "His words were well-intend and kind.",
+            "His words well-intended yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：出於好意但傷到人，符合詞義及句型。",
+            "錯：此處用 well-intended，而非 well-intending。",
+            "錯：這個形容詞應寫 well-intended。",
+            "錯：缺少 be 動詞，不能直接把形容詞當謂語。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Well-intended lies",
+          "pattern": [
+            {
+              "text": "well-intended",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：出於好意但傷到人，符合詞義及句型。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "選擇疑問句：Is it A or B?",
+          "meaning": "究竟是你，還是我？用兩個疑問分句列出選項。",
+          "usage": "不確定兩種可能時，直接把它們並列問清楚。",
+          "prompt": "廚房裡有人在唱歌，你不知是爸爸或哥哥，哪句對？",
+          "options": [
+            "Is Dad singing or my brother sings?",
+            "Dad is singing or my brother?",
+            "Is it Dad singing, or is it my brother?",
+            "Is singing Dad or my brother?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：兩個選項的動詞形式不平行，應改成一致的疑問結構。",
+            "錯：不是完整問句，缺少倒裝助動詞。",
+            "正確：兩個選項都明確是在辨認同一聲音的來源。",
+            "錯：語序不自然，問唱歌的人應用 Is it ...?。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Is it really you or is it me",
+          "pattern": [
+            {
+              "text": "Is it",
+              "fixed": true
+            },
+            {
+              "text": "選項 A + or is it",
+              "fixed": false
+            },
+            {
+              "text": "選項 B?",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個選項都明確是在辨認同一聲音的來源。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "強調句中的省略關係子句",
+          "meaning": "我正在責怪的那個人；原歌詞把 me 提前，後面省略 that / whom。",
+          "usage": "在名詞或代名詞後加關係子句說明具體對象；在歌詞裡與選擇問句相連。",
+          "prompt": "你指著相片中一直幫助你的人，哪句對？",
+          "options": [
+            "She is the friend I am thanking today.",
+            "She is the friend I am thanking her today.",
+            "She is the friend am thanking today.",
+            "She is the friend I thanking today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：friend 是 thanking 的受詞，關係代名詞可省。",
+            "錯：不必再加 her，否則受詞重複。",
+            "錯：關係子句缺少主詞 I。",
+            "錯：現在進行式缺 am。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "me I'm blaming",
+          "pattern": [
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞 + am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：friend 是 thanking 的受詞，關係代名詞可省。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "even though 讓步子句",
+          "meaning": "即使你已離去；even though 引出和主句形成反差的事實。",
+          "usage": "情況不理想，另一件事依然成立。",
+          "prompt": "雨很大，但夜市仍開門，哪句正確？",
+          "options": [
+            "Even though it raining, the market opens is.",
+            "Even though it is raining, the market is open.",
+            "Even though is raining, the market is open.",
+            "Even though raining, the market open."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：it 後缺 is，opens is 也不對。",
+            "正確：讓步子句和主句都完整。",
+            "錯：even though 後須有主詞 it。",
+            "錯：缺主詞與完整動詞。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Even though you're gone",
+          "pattern": [
+            {
+              "text": "Even though",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：讓步子句和主句都完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "feel + 受詞 + 地點副詞片語",
+          "meaning": "我仍在內心深處感受到你；deep inside 指內心深處。",
+          "usage": "表達內心深層的感受，而不只是身體觸覺。",
+          "prompt": "你已離家很久，仍然懷念舊家，哪句符合情境？",
+          "options": [
+            "I feel my old home to deep inside.",
+            "I feel deep inside to my old home.",
+            "I still feel its warmth deep inside.",
+            "I deep inside miss my old home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：feel 後不接 to deep inside。",
+            "錯：feel 後接 to my old home 不符合這個意思。",
+            "正確：感受到溫暖，deep inside 表示內心深處。",
+            "錯：deep inside 放置不自然，雖非完全不能理解，不能明確呈現目標 feel 結構。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I feel you deep inside",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "受詞 + deep inside",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：感受到溫暖，deep inside 表示內心深處。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "cannot stop + 動名詞",
+          "meaning": "無法停止愛你；stop 後接 -ing 表示停止某個行為。",
+          "usage": "強調自己無法停止某個習慣或動作。",
+          "prompt": "喜劇太好笑，你控制不住笑，哪句正確？",
+          "options": [
+            "I can't stop to laughing at the show.",
+            "I can't stop laugh at the show.",
+            "I can't stop of laughing at the show.",
+            "I can't stop laughing at the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：不可使用 to laughing。",
+            "錯：stop 後應接 laughing，非原形。",
+            "錯：stop 與動名詞之間不加 of。",
+            "正確：can't stop laughing 表示忍不住一直笑。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I can't stop loving you",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can't stop",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can't stop laughing 表示忍不住一直笑。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "形容詞 few 修飾可數複數",
+          "meaning": "機會很少；few 強調數量少，接可數複數名詞。",
+          "usage": "提醒機會、座位或票券有限。",
+          "prompt": "表演快開始了，剩下的票很少，哪句正確？",
+          "options": [
+            "Tickets are few now, so we should buy them today.",
+            "Ticket are few now, so we should buy them today.",
+            "Tickets is few now, so we should buy them today.",
+            "Tickets are little now, so we should buy them today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：tickets 可數複數，使用 are few。",
+            "錯：單數 ticket 不搭 are。",
+            "錯：tickets 是複數，不能接 is。",
+            "錯：表示可數票數少應用 few，而非 little。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "chances are few",
+          "pattern": [
+            {
+              "text": "複數名詞",
+              "fixed": false
+            },
+            {
+              "text": "are few",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：tickets 可數複數，使用 are few。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "will not + 原形動詞",
+          "meaning": "我不會停止；won't 是 will not 的縮寫。",
+          "usage": "承諾、預測或明確表示未來不做某事。",
+          "prompt": "救援隊答應不放棄尋找小狗，哪句正確？",
+          "options": [
+            "We won't stop looking for the dog.",
+            "We won't stopped looking for the dog.",
+            "We won't stopping looking for the dog.",
+            "We won't to stop looking for the dog."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：won't stop + looking，表示不會停止尋找。",
+            "錯：won't 後只能接動詞原形。",
+            "錯：won't 後不能接 stopping。",
+            "錯：won't 後不加 to。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I won't stop",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "won't",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：won't stop + looking，表示不會停止尋找。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "'til：until 的口語縮寫",
+          "meaning": "直到我不再愛你為止；'til 是 until 的非正式寫法。",
+          "usage": "用來指出動作或狀態維持到某個時間點。",
+          "prompt": "小女孩想在父親回家之前一直等，哪句對？",
+          "options": [
+            "I will wait until Dad coming home.",
+            "I will wait until Dad to come home.",
+            "I will wait until Dad comes home.",
+            "I will wait until Dad come home."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：Dad coming home 缺完整謂語。",
+            "錯：until 引出完整子句時不能接 Dad to come。",
+            "正確：until 後接現在式，表示未來那個時間點。",
+            "錯：第三人稱 Dad 應用 comes。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "'til I'm through loving you",
+          "pattern": [
+            {
+              "text": "'til",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：until 後接現在式，表示未來那個時間點。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "be through + -ing：做完／結束",
+          "meaning": "我已結束愛你這件事；此處是「不再持續」的假定終點。",
+          "usage": "口語中表示某件事情做完或決定結束。",
+          "prompt": "畫家終於完成畫畫，哪句正確？",
+          "options": [
+            "I am through painting the wall.",
+            "I am through to paint the wall.",
+            "I am through paint the wall.",
+            "I am through painted the wall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：am through painting 表示已經畫完。",
+            "錯：be through 後此用法接 -ing，不接 to 原形。",
+            "錯：缺少 -ing。",
+            "錯：不能直接接過去式 painted。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "I'm through loving you",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be through",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：am through painting 表示已經畫完。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "There is + 單數名詞",
+          "meaning": "心裡有一扇窗；there is 用來介紹某物存在。",
+          "usage": "描述在某地有一個人或物。",
+          "prompt": "畫廊角落有一張椅子，哪句正確？",
+          "options": [
+            "There have a chair in the corner of the gallery.",
+            "There is a chair in the corner of the gallery.",
+            "There is chairs in the corner of the gallery.",
+            "There are a chair in the corner of the gallery."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：存在句型使用 be，不是 have。",
+            "正確：a chair 是單數，使用 there is。",
+            "錯：chairs 是複數，要用 there are。",
+            "錯：are 應搭配複數。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "There's a window in the heart",
+          "pattern": [
+            {
+              "text": "There is",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞 + 地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：a chair 是單數，使用 there is。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "現在完成式＋try to",
+          "meaning": "我已試過設法看透；強調至今的嘗試。",
+          "usage": "回顧一段期間到現在為止曾做過的努力。",
+          "prompt": "你試過三次打電話給旅行社，哪句對？",
+          "options": [
+            "I have tried calling to the travel office it.",
+            "I have tried to call the travel office.",
+            "I have tried call the travel office.",
+            "I have try to call the travel office."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：call 後的 to 與 it 多餘，結構失當。",
+            "正確：have tried to call 是現在完成式加不定詞。",
+            "錯：tried 後的目的動詞缺 to。",
+            "錯：have 後面要用過去分詞 tried。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "I've tried to look through",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has tried to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：have tried to call 是現在完成式加不定詞。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "間接問句：what + 主詞 + is + -ing",
+          "meaning": "別人在想甚麼；what 引導名詞子句，使用陳述語序。",
+          "usage": "作為 know、wonder、ask 等動詞的內容。",
+          "prompt": "你猜不出朋友為何微笑，哪句正確？",
+          "options": [
+            "I wonder what thinking she is.",
+            "I wonder what does she think now.",
+            "I wonder what is she thinking.",
+            "I wonder what she is thinking."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：thinking 與助動詞順序不自然。",
+            "錯：間接問句不加入 does；此處也要表達正在想的內容。",
+            "錯：間接問句不倒裝 is she。",
+            "正確：what she is thinking 使用陳述語序。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "what someone else is thinking",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + be + 動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what she is thinking 使用陳述語序。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "現在完成式：someone's + 過去分詞",
+          "meaning": "有人打破了某個新事物；someone’s 在這句是 someone has。",
+          "usage": "談剛發生或與現在有關的動作結果；注意 ’s 也可能代表 is，須看後面的詞。",
+          "prompt": "走進廚房，看見地上的碎玻璃，哪句對？",
+          "options": [
+            "Someone has breaking a glass.",
+            "Someone has broken a glass.",
+            "Someone is broken a glass.",
+            "Someone has broke a glass."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：has 後不能直接接 breaking 表示完成式。",
+            "正確：has broken 表示有人已打破玻璃。",
+            "錯：is broken a glass 不可表主動完成動作。",
+            "錯：has 後要用 broken，不是 broke。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Someone's broken something new",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞 + 受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：has broken 表示有人已打破玻璃。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "名詞片語：形容詞＋point of view",
+          "meaning": "另一個改變了的觀點；point of view 是看法。",
+          "usage": "比較不同的理解方式或立場；本句是名詞片語而非完整句。",
+          "prompt": "兩位朋友對同一幅畫有不同看法，哪句對？",
+          "options": [
+            "We have different points of view about the painting.",
+            "We have different point of views about the painting.",
+            "We have different points of viewing about the painting.",
+            "We have different points to view about the painting."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：複數 points of view 表示多個觀點。",
+            "錯：複數要加在 point，不是 views。",
+            "錯：固定片語結尾應為 view，不是 viewing。",
+            "錯：固定片語是 point of view，不是 points to view。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Another altered point of view",
+          "pattern": [
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "point of view",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：複數 points of view 表示多個觀點。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "過去否定句 did not + 原形",
+          "meaning": "我當時不理解；did not 後使用動詞原形。",
+          "usage": "描述過去某次沒做或沒懂的事情。",
+          "prompt": "昨天的訊息太短，你看不懂，哪句正確？",
+          "options": [
+            "I did not understood the message yesterday.",
+            "I did not to understand the message yesterday.",
+            "I did not understand the message yesterday.",
+            "I did not understanding the message yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：did 已表過去，understand 不改成 understood。",
+            "錯：did not 後不加 to。",
+            "正確：did not + understand 原形。",
+            "錯：did not 後不能直接用 -ing。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I did not understand",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "did not",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：did not + understand 原形。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "what 作主詞的名詞子句",
+          "meaning": "甚麼東西存在於風中；what 在此充當主詞。",
+          "usage": "詢問未知的人事物時，若 what 本身是主詞，後面直接接動詞。",
+          "prompt": "你在後院聽見聲響，想問「裡面有甚麼東西在動」，哪句對？",
+          "options": [
+            "What does moves behind the wall?",
+            "What moves behind the wall?",
+            "What is move behind the wall?",
+            "What moving behind the wall?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：what 當主詞時不需 does，動詞也不能 moves。",
+            "正確：what 作主詞，直接接 moves。",
+            "錯：is move 不是正確現在式結構。",
+            "錯：缺少完整的謂語動詞。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "What lives inside the wind",
+          "pattern": [
+            {
+              "text": "What",
+              "fixed": true
+            },
+            {
+              "text": "動詞 + 地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what 作主詞，直接接 moves。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "主格關係子句 that + 動詞",
+          "meaning": "呼喊她名字的風；that 是關係子句的主詞。",
+          "usage": "描述哪個人或事物做出特定動作。",
+          "prompt": "你要指出那隻晚上會唱歌的小鳥，哪句對？",
+          "options": [
+            "That is the bird that sing at night.",
+            "That is the bird sings that at night.",
+            "That is the bird that sings it at night it.",
+            "That is the bird that sings at night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：bird 單數，關係子句動詞應用 sings。",
+            "錯：that 的位置不對，沒有正確的關係子句。",
+            "錯：句末 it 多餘。",
+            "正確：that 作主詞，接 sings。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "the wind that cries her name",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "動詞 + 受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that 作主詞，接 sings。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "seem + 形容詞",
+          "meaning": "看起來很近的事物；seem 後接形容詞。",
+          "usage": "表達個人觀察或印象，未必是確定事實。",
+          "prompt": "遠處那座山從照片看起來很小，哪句正確？",
+          "options": [
+            "The mountain seems slowly in this photo.",
+            "The mountain seem small in this photo.",
+            "The mountain seems small in this photo.",
+            "The mountain seems to small in this photo."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：slowly 是副詞，不能表示看起來小。",
+            "錯：mountain 單數，要用 seems。",
+            "正確：seems 後接形容詞 small。",
+            "錯：seems 後不能直接接 to small。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "What seems so close",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "seem/seems",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：seems 後接形容詞 small。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "can't be：否定可能性",
+          "meaning": "不可能那麼遠；can’t be 表示說話者認為某事不可能。",
+          "usage": "由線索推斷某個說法不合理。",
+          "prompt": "你看到朋友的燈還亮著，所以猜他不可能已經睡著，哪句對？",
+          "options": [
+            "He can't to be asleep yet.",
+            "He can't be asleep yet.",
+            "He can't being asleep yet.",
+            "He can't is asleep yet."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：can't 後不加 to。",
+            "正確：can't be + asleep，表示推斷不可能已睡。",
+            "錯：can't 後不能直接接 being。",
+            "錯：can't 後接 be，不能接 is。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "can't be that far",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can't be",
+              "fixed": true
+            },
+            {
+              "text": "形容詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can't be + asleep，表示推斷不可能已睡。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "現在進行式：never ending（非被動）",
+          "meaning": "永遠不結束的；此句 that’s = that is，ending 是現在分詞，不是被動。",
+          "usage": "描述似乎一直持續的故事、工作等。",
+          "prompt": "你覺得這場長雨似乎永遠不會停，哪句正確？",
+          "options": [
+            "It is never ended raining.",
+            "It feels like the rain is never ending.",
+            "The rain never ending is.",
+            "The rain is never end."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：is never ended 的語意和此句持續進行不同，且 raining 搭配不自然。",
+            "正確：is never ending 表示持續進行，看似沒有終點。",
+            "錯：字序不正確。",
+            "錯：is 後不能接 end 原形。"
+          ],
+          "sourceFile": "Stop_Loving_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "that's never ending",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that is never",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is never ending 表示持續進行，看似沒有終點。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

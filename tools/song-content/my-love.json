@@ -1,0 +1,4612 @@
+{
+  "slug": "my-love",
+  "title": "My Love",
+  "singer": "Westlife",
+  "exercise_name": "My Love · Listening & Vocabulary",
+  "description": "《My Love》描寫與心愛的人分離後，內心充滿孤獨、思念與渴望重逢的深刻感受。歌中的主角獨自面對空蕩的街道與房間，回憶兩人曾經共同度過的美好時光，以及一起唱過的歌曲。即使他努力工作、與朋友歡笑，仍然無法停止思念對方。他不斷祈禱，希望有一天能跨越遙遠的距離，再次見到心愛的人，將她緊緊擁入懷中，親口表達自己的愛意。最終，《My Love》傳達的是愛情中的忠誠、思念與希望：即使相隔千里，真正深厚的感情也不會輕易消失，而對重逢的期待，更成為支持自己繼續前進的力量。",
+  "tags": [
+    "westlife",
+    "my love",
+    "love",
+    "longing"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "An empty street, an empty house",
+      "chinese": "空蕩的街道，空蕩的房子",
+      "startSeconds": 7.68,
+      "endSeconds": 12.02
+    },
+    {
+      "lineId": "line-2",
+      "english": "A hole inside my heart",
+      "chinese": "我心中有一個空洞",
+      "startSeconds": 12.46,
+      "endSeconds": 14.76
+    },
+    {
+      "lineId": "line-3",
+      "english": "I'm all alone, the rooms are getting smaller",
+      "chinese": "我孤身一人，房間似乎越來越小",
+      "startSeconds": 14.76,
+      "endSeconds": 19.58
+    },
+    {
+      "lineId": "line-4",
+      "english": "I wonder how, I wonder why",
+      "chinese": "我想知道怎麼會這樣，我想知道為什麼",
+      "startSeconds": 19.58,
+      "endSeconds": 25.32
+    },
+    {
+      "lineId": "line-5",
+      "english": "I wonder where they are",
+      "chinese": "我想知道它們去了哪裡",
+      "startSeconds": 25.46,
+      "endSeconds": 29.06
+    },
+    {
+      "lineId": "line-6",
+      "english": "The days we had, the songs we sang together",
+      "chinese": "我們擁有的那些日子，我們一起唱過的歌",
+      "startSeconds": 29.06,
+      "endSeconds": 33.06
+    },
+    {
+      "lineId": "line-7",
+      "english": "Oh yeah",
+      "chinese": "噢耶",
+      "startSeconds": 33.06,
+      "endSeconds": 34.82
+    },
+    {
+      "lineId": "line-8",
+      "english": "And oh, my love",
+      "chinese": "而噢，我的愛",
+      "startSeconds": 34.82,
+      "endSeconds": 38.26
+    },
+    {
+      "lineId": "line-9",
+      "english": "I'm holding on forever",
+      "chinese": "我會永遠堅持下去",
+      "startSeconds": 38.98,
+      "endSeconds": 41.48
+    },
+    {
+      "lineId": "line-10",
+      "english": "Reaching for the love that seems so far",
+      "chinese": "追尋著那看似遙不可及的愛",
+      "startSeconds": 41.48,
+      "endSeconds": 47.2
+    },
+    {
+      "lineId": "line-11",
+      "english": "So I say a little prayer",
+      "chinese": "於是我做了一個小小的祈禱",
+      "startSeconds": 47.76,
+      "endSeconds": 51.04
+    },
+    {
+      "lineId": "line-12",
+      "english": "And hope my dreams will take me there",
+      "chinese": "希望我的夢能帶我前往那裡",
+      "startSeconds": 51.32,
+      "endSeconds": 54.44
+    },
+    {
+      "lineId": "line-13",
+      "english": "Where the skies are blue",
+      "chinese": "那裡天空湛藍",
+      "startSeconds": 54.44,
+      "endSeconds": 56.84
+    },
+    {
+      "lineId": "line-14",
+      "english": "To see you once again, my love",
+      "chinese": "再次見到你，我的愛",
+      "startSeconds": 56.84,
+      "endSeconds": 61.04
+    },
+    {
+      "lineId": "line-15",
+      "english": "Overseas from coast to coast",
+      "chinese": "跨越海洋，從一個海岸到另一個海岸",
+      "startSeconds": 61.04,
+      "endSeconds": 64.5
+    },
+    {
+      "lineId": "line-16",
+      "english": "To find a place I love the most",
+      "chinese": "去尋找我最愛的地方",
+      "startSeconds": 64.5,
+      "endSeconds": 67.84
+    },
+    {
+      "lineId": "line-17",
+      "english": "Where the fields are green",
+      "chinese": "那裡田野翠綠",
+      "startSeconds": 67.84,
+      "endSeconds": 70.14
+    },
+    {
+      "lineId": "line-18",
+      "english": "To see you once again, my love",
+      "chinese": "再次見到你，我的愛",
+      "startSeconds": 70.14,
+      "endSeconds": 77.26
+    },
+    {
+      "lineId": "line-19",
+      "english": "I try to read, I go to work",
+      "chinese": "我試著閱讀，我去上班",
+      "startSeconds": 78.44,
+      "endSeconds": 81.9
+    },
+    {
+      "lineId": "line-20",
+      "english": "I'm laughing with my friends",
+      "chinese": "我和朋友們歡笑",
+      "startSeconds": 81.9,
+      "endSeconds": 84.86
+    },
+    {
+      "lineId": "line-21",
+      "english": "But I can't stop, to keep myself from thinking, oh no",
+      "chinese": "但我無法停止，無法讓自己不去想，噢不",
+      "startSeconds": 84.86,
+      "endSeconds": 91.0
+    },
+    {
+      "lineId": "line-22",
+      "english": "I wonder how, I wonder why",
+      "chinese": "我想知道怎麼會這樣，我想知道為什麼",
+      "startSeconds": 91.9,
+      "endSeconds": 95.26
+    },
+    {
+      "lineId": "line-23",
+      "english": "I wonder where they are",
+      "chinese": "我想知道它們去了哪裡",
+      "startSeconds": 95.44,
+      "endSeconds": 98.22
+    },
+    {
+      "lineId": "line-24",
+      "english": "The days we had the songs, we sang together",
+      "chinese": "我們擁有的那些日子，我們一起唱過的歌",
+      "startSeconds": 98.22,
+      "endSeconds": 103.0
+    },
+    {
+      "lineId": "line-25",
+      "english": "Oh yeah",
+      "chinese": "噢耶",
+      "startSeconds": 103.0,
+      "endSeconds": 104.64
+    },
+    {
+      "lineId": "line-26",
+      "english": "And oh, my love",
+      "chinese": "而噢，我的愛",
+      "startSeconds": 104.64,
+      "endSeconds": 108.22
+    },
+    {
+      "lineId": "line-27",
+      "english": "I'm holding on forever",
+      "chinese": "我會永遠堅持下去",
+      "startSeconds": 109.02,
+      "endSeconds": 111.4
+    },
+    {
+      "lineId": "line-28",
+      "english": "Reaching for the love that seems so far",
+      "chinese": "追尋著那看似遙不可及的愛",
+      "startSeconds": 112.32,
+      "endSeconds": 117.58
+    },
+    {
+      "lineId": "line-29",
+      "english": "So I say a little prayer",
+      "chinese": "於是我做了一個小小的祈禱",
+      "startSeconds": 117.58,
+      "endSeconds": 121.02
+    },
+    {
+      "lineId": "line-30",
+      "english": "And hope my dreams will take me there",
+      "chinese": "希望我的夢能帶我前往那裡",
+      "startSeconds": 121.38,
+      "endSeconds": 124.36
+    },
+    {
+      "lineId": "line-31",
+      "english": "Where the skies are blue",
+      "chinese": "那裡天空湛藍",
+      "startSeconds": 124.36,
+      "endSeconds": 126.8
+    },
+    {
+      "lineId": "line-32",
+      "english": "To see you once again, my love",
+      "chinese": "再次見到你，我的愛",
+      "startSeconds": 127.2,
+      "endSeconds": 131.12
+    },
+    {
+      "lineId": "line-33",
+      "english": "Overseas from coast to coast",
+      "chinese": "跨越海洋，從一個海岸到另一個海岸",
+      "startSeconds": 131.12,
+      "endSeconds": 134.42
+    },
+    {
+      "lineId": "line-34",
+      "english": "To find a place I love the most",
+      "chinese": "去尋找我最愛的地方",
+      "startSeconds": 134.42,
+      "endSeconds": 137.82
+    },
+    {
+      "lineId": "line-35",
+      "english": "Where the fields are green",
+      "chinese": "那裡田野翠綠",
+      "startSeconds": 138.07,
+      "endSeconds": 140.06
+    },
+    {
+      "lineId": "line-36",
+      "english": "To see you once again",
+      "chinese": "再次見到你",
+      "startSeconds": 140.06,
+      "endSeconds": 143.24
+    },
+    {
+      "lineId": "line-37",
+      "english": "To hold you in my arms",
+      "chinese": "將你擁入懷中",
+      "startSeconds": 143.24,
+      "endSeconds": 146.56
+    },
+    {
+      "lineId": "line-38",
+      "english": "To promise you my love",
+      "chinese": "向你承諾我的愛",
+      "startSeconds": 146.56,
+      "endSeconds": 149.7
+    },
+    {
+      "lineId": "line-39",
+      "english": "To tell you from the heart",
+      "chinese": "發自內心地告訴你",
+      "startSeconds": 150.15,
+      "endSeconds": 153.14
+    },
+    {
+      "lineId": "line-40",
+      "english": "You're all I'm thinking of",
+      "chinese": "你是我所思所想的一切",
+      "startSeconds": 153.14,
+      "endSeconds": 159.22
+    },
+    {
+      "lineId": "line-41",
+      "english": "I'm reaching for the love that seem so far",
+      "chinese": "我正追尋著那看似遙不可及的愛",
+      "startSeconds": 159.22,
+      "endSeconds": 169.82
+    },
+    {
+      "lineId": "line-42",
+      "english": "(So) So I say a little prayer",
+      "chinese": "（所以）於是我做了一個小小的祈禱",
+      "startSeconds": 170.0,
+      "endSeconds": 174.42
+    },
+    {
+      "lineId": "line-43",
+      "english": "And hope my dreams will take me there",
+      "chinese": "希望我的夢能帶我前往那裡",
+      "startSeconds": 174.42,
+      "endSeconds": 177.68
+    },
+    {
+      "lineId": "line-44",
+      "english": "Where the skies are blue",
+      "chinese": "那裡天空湛藍",
+      "startSeconds": 177.68,
+      "endSeconds": 180.12
+    },
+    {
+      "lineId": "line-45",
+      "english": "To see you once again, my love",
+      "chinese": "再次見到你，我的愛",
+      "startSeconds": 180.12,
+      "endSeconds": 184.7
+    },
+    {
+      "lineId": "line-46",
+      "english": "Overseas from coast to coast",
+      "chinese": "跨越海洋，從一個海岸到另一個海岸",
+      "startSeconds": 184.7,
+      "endSeconds": 187.68
+    },
+    {
+      "lineId": "line-47",
+      "english": "To find a place I love the most",
+      "chinese": "去尋找我最愛的地方",
+      "startSeconds": 187.68,
+      "endSeconds": 191.0
+    },
+    {
+      "lineId": "line-48",
+      "english": "Where the fields are green",
+      "chinese": "那裡田野翠綠",
+      "startSeconds": 191.0,
+      "endSeconds": 193.34
+    },
+    {
+      "lineId": "line-49",
+      "english": "To see you once again (My love)",
+      "chinese": "再次見到你（我的愛）",
+      "startSeconds": 193.34,
+      "endSeconds": 197.92
+    },
+    {
+      "lineId": "line-50",
+      "english": "So I say a little prayer",
+      "chinese": "於是我做了一個小小的祈禱",
+      "startSeconds": 198.0,
+      "endSeconds": 201.04
+    },
+    {
+      "lineId": "line-51",
+      "english": "And hope my dreams will take me there",
+      "chinese": "希望我的夢能帶我前往那裡",
+      "startSeconds": 201.04,
+      "endSeconds": 204.52
+    },
+    {
+      "lineId": "line-52",
+      "english": "Where the skies are blue",
+      "chinese": "那裡天空湛藍",
+      "startSeconds": 204.52,
+      "endSeconds": 206.64
+    },
+    {
+      "lineId": "line-53",
+      "english": "To see you once again (Oh, my love)",
+      "chinese": "再次見到你（噢，我的愛）",
+      "startSeconds": 206.64,
+      "endSeconds": 212.0
+    },
+    {
+      "lineId": "line-54",
+      "english": "Overseas from coast to coast",
+      "chinese": "跨越海洋，從一個海岸到另一個海岸",
+      "startSeconds": 212.0,
+      "endSeconds": 214.36
+    },
+    {
+      "lineId": "line-55",
+      "english": "To find a place I love the most",
+      "chinese": "去尋找我最愛的地方",
+      "startSeconds": 214.36,
+      "endSeconds": 217.74
+    },
+    {
+      "lineId": "line-56",
+      "english": "Where the fields are green",
+      "chinese": "那裡田野翠綠",
+      "startSeconds": 217.74,
+      "endSeconds": 220.06
+    },
+    {
+      "lineId": "line-57",
+      "english": "To see you once again, my love",
+      "chinese": "再次見到你，我的愛",
+      "startSeconds": 220.06,
+      "endSeconds": 226.04
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "All alone",
+      "meaning": "獨自一人、孤單一人",
+      "usage": "當身邊沒有其他人，或覺得自己孤單時可以用。",
+      "prompt": "哪一句正確使用「All alone」？",
+      "options": [
+        "I all alone at the art show last night.",
+        "I was all alone until Grandma called, again.",
+        "My cousin is all alone to waited outside.",
+        "Please all alone the window before you leave."
+      ],
+      "answer": 1,
+      "explanation": "all alone 表示獨自一人。",
+      "optionExplanations": [
+        "all alone 描述獨自一人，句子需要 was 等動詞。",
+        "all alone 表示獨自一人。",
+        "to waited 的形式錯誤；可說 is all alone outside。",
+        "錯誤。all alone 不是動詞，不能表示關窗；應說 Please close the window."
+      ]
+    },
+    {
+      "number": 2,
+      "word": "I wonder why",
+      "meaning": "我想知道為什麼",
+      "usage": "想問原因，但不一定要別人立刻回答時使用。",
+      "prompt": "哪一句正確使用「I wonder why」？",
+      "options": [
+        "I wonder why the bus is late today.",
+        "I wonder why my manager so quiet today.",
+        "I wonder why to my school every morning.",
+        "She wonder why is the door open."
+      ],
+      "answer": 0,
+      "explanation": "正確。對公車遲到的原因感到好奇，可以說 I wonder why。",
+      "optionExplanations": [
+        "正確。對公車遲到的原因感到好奇，可以說 I wonder why。",
+        "why 後的子句缺少 is；應為 why my manager is so quiet。",
+        "錯誤。why 後面不能直接接 to my school；需要完整的子句。",
+        "錯誤。主詞 she 要用 wonders，間接問句語序應為 why the door is open。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Hold on",
+      "meaning": "等一下；抓緊；堅持",
+      "usage": "叫人稍等、抓住某物，或鼓勵別人不要放棄時使用。",
+      "prompt": "哪一句正確使用「Hold on」？",
+      "options": [
+        "I hold on my report into the printer.",
+        "She hold on yesterday while I found the address.",
+        "He holds on to arrived at the station.",
+        "Hold on a minute. I need to find my keys."
+      ],
+      "answer": 3,
+      "explanation": "正確。Hold on a minute 表示「等我一下」。",
+      "optionExplanations": [
+        "hold on 不能表示列印報告；也不能這樣接 report。",
+        "過去事件應用 held on。",
+        "to arrived 的形式錯誤，句子沒有清楚表達等候或抓緊。",
+        "正確。Hold on a minute 表示「等我一下」。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Reach for",
+      "meaning": "伸手去拿、伸手去碰",
+      "usage": "想拿到靠近或稍遠的東西，伸出手去拿時使用。",
+      "prompt": "哪一句正確使用「Reach for」？",
+      "options": [
+        "I reach for to my camera during the parade.",
+        "She reached for her phone on the table.",
+        "We reach for to school by bus.",
+        "He reached for very excited about the concert."
+      ],
+      "answer": 1,
+      "explanation": "正確。reached for 表示伸手去拿桌上的手機。",
+      "optionExplanations": [
+        "reach for 後直接接 camera，不加 to。",
+        "正確。reached for 表示伸手去拿桌上的手機。",
+        "錯誤。reach for 不能表示搭車去學校；應說 We go to school by bus.",
+        "reach for 後接伸手拿的物品，不能接 very excited。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Seem so far",
+      "meaning": "看起來很遙遠；感覺難以到達",
+      "usage": "談某個地方、目標或心願似乎離自己很遠時使用。",
+      "prompt": "哪一句正確使用「Seem so far」？",
+      "options": [
+        "The station seems so far when your suitcase has no wheels.",
+        "I seem so far my new office every day.",
+        "The hotel seem so far yesterday.",
+        "Please seem so far the door when you leave."
+      ],
+      "answer": 0,
+      "explanation": "seem so far 表示感覺距離很遠。",
+      "optionExplanations": [
+        "seem so far 表示感覺距離很遠。",
+        "seem so far 不能直接接 my new office 作受詞。",
+        "過去情況應用 seemed；此處 seem 與時間及主詞不配合。",
+        "錯誤。seem so far 不是關門的動作；應說 Please close the door."
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Say a prayer",
+      "meaning": "做一個祈禱、說出祈禱的話",
+      "usage": "希望某人平安、希望事情順利，或在宗教情境中祈禱時使用。",
+      "prompt": "哪一句正確使用「Say a prayer」？",
+      "options": [
+        "I say a prayer to passed my driving test.",
+        "He said a prayer to his sick friend recovered.",
+        "She said a prayer for her sick friend.",
+        "We say a prayer at five kilometers."
+      ],
+      "answer": 2,
+      "explanation": "正確。為生病的朋友祈禱，是自然的用法。",
+      "optionExplanations": [
+        "to passed 的形式錯誤；可說 say a prayer before my driving test。",
+        "後半需要完整連接，例如 that his sick friend would recover。",
+        "正確。為生病的朋友祈禱，是自然的用法。",
+        "錯誤。at five kilometers 不能自然說明祈禱時間或情境。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Once again",
+      "meaning": "再一次",
+      "usage": "事情已經發生過，現在又發生或想重新做時使用。",
+      "prompt": "哪一句正確使用「Once again」？",
+      "options": [
+        "Can you say that once again? I did not hear you.",
+        "My aunt once again the same story at the party.",
+        "I once again my new bag to the shop.",
+        "My brother is six once again years old."
+      ],
+      "answer": 0,
+      "explanation": "正確。請對方再說一次時，可以用 once again。",
+      "optionExplanations": [
+        "正確。請對方再說一次時，可以用 once again。",
+        "once again 是副詞片語，句子仍需要 told 等動詞。",
+        "錯誤。once again 是副詞片語，不能直接當動詞。",
+        "錯誤。once again 不能放在數字和 years old 中間。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "From coast to coast",
+      "meaning": "從一個海岸到另一個海岸；橫跨全國",
+      "usage": "描述跨越很大的地區、從國家一端到另一端時使用。",
+      "prompt": "哪一句正確使用「From coast to coast」？",
+      "options": [
+        "I from coast to coast the country last year.",
+        "I walked from coast to coast of my bedroom.",
+        "They travelled from coast to coast, collecting terrible postcards.",
+        "She travelled from coast to coast to visited every town."
+      ],
+      "answer": 2,
+      "explanation": "from coast to coast 指從一邊海岸到另一邊海岸。",
+      "optionExplanations": [
+        "from coast to coast 是地點片語，不能當作主要動詞。",
+        "錯誤。臥室沒有「海岸到海岸」，不適合使用這個片語。",
+        "from coast to coast 指從一邊海岸到另一邊海岸。",
+        "to 後須用 visit，不能接 visited。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Keep myself from",
+      "meaning": "阻止自己做某事",
+      "usage": "想控制自己的行為，例如不笑、不吃零食，或不去想某件事時使用；後接動詞 -ing。",
+      "prompt": "哪一句正確使用「Keep myself from」？",
+      "options": [
+        "I keep myself from to laugh during the speech.",
+        "I tried to keep myself from laughing in class.",
+        "He keeps myself from laughing at the meeting.",
+        "She keeps myself from crying."
+      ],
+      "answer": 1,
+      "explanation": "正確。keep myself from laughing 表示忍住不笑。",
+      "optionExplanations": [
+        "from 後接 laughing，不能接 to laugh。",
+        "正確。keep myself from laughing 表示忍住不笑。",
+        "主詞是 he，反身代名詞須用 himself。",
+        "錯誤。主詞是 she，反身代名詞要用 herself。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "From the heart",
+      "meaning": "發自內心、真誠地",
+      "usage": "說出真心話，或表達真誠的感謝與感情時使用。",
+      "prompt": "哪一句正確使用「From the heart」？",
+      "options": [
+        "I from the heart my apology yesterday.",
+        "The bus goes from the heart at nine o’clock.",
+        "He spoke from the heart to thanked his parents.",
+        "Her thank-you message came from the heart."
+      ],
+      "answer": 3,
+      "explanation": "正確。表示她的感謝是真心的。",
+      "optionExplanations": [
+        "from the heart 表示真誠，不能單獨作道歉的動詞。",
+        "錯誤。from the heart 不表示公車站或出發地。",
+        "to 後用 thank，不能用 thanked。",
+        "正確。表示她的感謝是真心的。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/my-love/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/my-love/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "An {{blank}}, an empty house",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "open street",
+            "empty street",
+            "empty road"
+          ],
+          "answer": "empty street"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "A {{blank}} inside my heart",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "hole",
+            "void",
+            "space"
+          ],
+          "answer": "hole"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "I'm {{blank}}, the rooms are 〔第 4 題〕",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "by myself",
+            "all alone",
+            "on my own"
+          ],
+          "answer": "all alone"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "I'm 〔第 3 題〕, the rooms are {{blank}}",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "growing smaller",
+            "feeling smaller",
+            "getting smaller"
+          ],
+          "answer": "getting smaller"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "I {{blank}}, I 〔第 6 題〕",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "wonder how",
+            "wonder why",
+            "ask how"
+          ],
+          "answer": "wonder how"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "I 〔第 5 題〕, I {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "wonder why",
+            "ask why",
+            "wonder how"
+          ],
+          "answer": "wonder why"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道它們去了哪裡",
+          "options": [
+            "where they've gone",
+            "where they went",
+            "where they are"
+          ],
+          "answer": "where they are"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "{{blank}}, the 〔第 9 題〕 together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "The times we had",
+            "The days we had",
+            "The days we spent"
+          ],
+          "answer": "The days we had"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "〔第 8 題〕, the {{blank}} together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "songs we sang",
+            "songs we played",
+            "words we sang"
+          ],
+          "answer": "songs we sang"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "And oh, {{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "my heart",
+            "my dear",
+            "my love"
+          ],
+          "answer": "my love"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "I'm {{blank}} 〔第 12 題〕",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding out",
+            "holding on",
+            "holding back"
+          ],
+          "answer": "holding on"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "I'm 〔第 11 題〕 {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "together",
+            "whenever",
+            "forever"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "{{blank}} the love that 〔第 14 題〕",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Reaching for",
+            "Searching for",
+            "Looking for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "〔第 13 題〕 the love that {{blank}}",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "feels so far",
+            "seems so far",
+            "is so far"
+          ],
+          "answer": "seems so far"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "So I {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "say a small prayer",
+            "make a little prayer",
+            "say a little prayer"
+          ],
+          "answer": "say a little prayer"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "And {{blank}} will take me there",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "hope my dreams",
+            "pray my dreams",
+            "wish my dreams"
+          ],
+          "answer": "hope my dreams"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "Where the {{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "sky is blue",
+            "skies are blue",
+            "skies are clear"
+          ],
+          "answer": "skies are blue"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "To see you {{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "once again",
+            "one more time",
+            "once more"
+          ],
+          "answer": "once again"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Overseas from {{blank}}",
+          "promptZh": "跨越海洋，從一個海岸到另一個海岸",
+          "options": [
+            "sea to sea",
+            "shore to shore",
+            "coast to coast"
+          ],
+          "answer": "coast to coast"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "To find a place I {{blank}}",
+          "promptZh": "去尋找我最愛的地方",
+          "options": [
+            "need the most",
+            "love the most",
+            "like the most"
+          ],
+          "answer": "love the most"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "An {{q:1}}, an empty house"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "A {{q:2}} inside my heart"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:3}}, the rooms are {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I {{q:5}}, I {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I wonder {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:8}}, the {{q:9}} together"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And oh, {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm {{q:11}} {{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}} the love that {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So I {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:16}} will take me there"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Where the {{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "To see you {{q:18}}, my love"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Overseas from {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "To find a place I {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I try to read, I go to work"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm laughing with my friends"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But I can't stop, to keep myself from thinking, oh no"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I wonder how, I wonder why"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I wonder where they are"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "The days we had the songs, we sang together"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And oh, my love"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm holding on forever"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Reaching for the love that seems so far"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So I say a little prayer"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "To see you once again"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "To hold you in my arms"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "To promise you my love"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "To tell you from the heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're all I'm thinking of"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I'm reaching for the love that seem so far"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(So) So I say a little prayer"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "To see you once again (My love)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So I say a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "To see you once again (Oh, my love)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "To see you once again, my love"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "An {{blank}}, an 〔第 2 題〕",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "open street",
+            "empty street",
+            "empty road"
+          ],
+          "answer": "empty street"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "An 〔第 1 題〕, an {{blank}}",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "empty house",
+            "empty home",
+            "empty room"
+          ],
+          "answer": "empty house"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "A {{blank}} 〔第 4 題〕",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "space",
+            "void",
+            "hole"
+          ],
+          "answer": "hole"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "A 〔第 3 題〕 {{blank}}",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "inside my heart",
+            "within my heart",
+            "in my heart"
+          ],
+          "answer": "inside my heart"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "I'm {{blank}}, the rooms are 〔第 6 題〕",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "on my own",
+            "all alone",
+            "by myself"
+          ],
+          "answer": "all alone"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "I'm 〔第 5 題〕, the rooms are {{blank}}",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "getting smaller",
+            "feeling smaller",
+            "growing smaller"
+          ],
+          "answer": "getting smaller"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "I {{blank}}, I 〔第 8 題〕",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "ask how",
+            "wonder why",
+            "wonder how"
+          ],
+          "answer": "wonder how"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "I 〔第 7 題〕, I {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "ask why",
+            "wonder why",
+            "wonder how"
+          ],
+          "answer": "wonder why"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道它們去了哪裡",
+          "options": [
+            "where they went",
+            "where they've gone",
+            "where they are"
+          ],
+          "answer": "where they are"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "{{blank}}, the 〔第 11 題〕 together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "The times we had",
+            "The days we had",
+            "The days we spent"
+          ],
+          "answer": "The days we had"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "〔第 10 題〕, the {{blank}} together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "songs we sang",
+            "songs we played",
+            "words we sang"
+          ],
+          "answer": "songs we sang"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "And oh, {{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "my dear",
+            "my love",
+            "my heart"
+          ],
+          "answer": "my love"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I'm {{blank}} 〔第 14 題〕",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding on",
+            "holding out",
+            "holding back"
+          ],
+          "answer": "holding on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "I'm 〔第 13 題〕 {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "together",
+            "whenever",
+            "forever"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "{{blank}} the love that 〔第 16 題〕",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Reaching for",
+            "Searching for",
+            "Looking for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "〔第 15 題〕 the love that {{blank}}",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "is so far",
+            "feels so far",
+            "seems so far"
+          ],
+          "answer": "seems so far"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "So I {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "say a small prayer",
+            "say a little prayer",
+            "make a little prayer"
+          ],
+          "answer": "say a little prayer"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "And {{blank}} 〔第 19 題〕",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "wish my dreams",
+            "pray my dreams",
+            "hope my dreams"
+          ],
+          "answer": "hope my dreams"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "And 〔第 18 題〕 {{blank}}",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "will bring me there",
+            "will take me there",
+            "will lead me there"
+          ],
+          "answer": "will take me there"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Where the {{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "skies are blue",
+            "sky is blue",
+            "skies are clear"
+          ],
+          "answer": "skies are blue"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "To see you {{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "once again",
+            "one more time",
+            "once more"
+          ],
+          "answer": "once again"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "Overseas from {{blank}}",
+          "promptZh": "跨越海洋，從一個海岸到另一個海岸",
+          "options": [
+            "sea to sea",
+            "shore to shore",
+            "coast to coast"
+          ],
+          "answer": "coast to coast"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "To find a place I {{blank}}",
+          "promptZh": "去尋找我最愛的地方",
+          "options": [
+            "need the most",
+            "love the most",
+            "like the most"
+          ],
+          "answer": "love the most"
+        },
+        {
+          "number": 24,
+          "lineId": "line-17",
+          "prompt": "{{blank}}",
+          "promptZh": "那裡田野翠綠",
+          "options": [
+            "Where the fields are wide",
+            "Where the grass is green",
+            "Where the fields are green"
+          ],
+          "answer": "Where the fields are green"
+        },
+        {
+          "number": 25,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "To see you once again",
+            "Just to see you again",
+            "To see you once more"
+          ],
+          "answer": "To see you once again"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "I wonder how, {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "I ask why",
+            "I wonder why",
+            "I wonder how"
+          ],
+          "answer": "I wonder why"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "The days we had the songs, we {{blank}}",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "sang along",
+            "sang aloud",
+            "sang together"
+          ],
+          "answer": "sang together"
+        },
+        {
+          "number": 28,
+          "lineId": "line-26",
+          "prompt": "{{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "And oh, my love",
+            "And oh, my dear",
+            "And oh, my heart"
+          ],
+          "answer": "And oh, my love"
+        },
+        {
+          "number": 29,
+          "lineId": "line-27",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding on for good",
+            "holding on forever",
+            "holding on for now"
+          ],
+          "answer": "holding on forever"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that seems so far",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Reaching for the love",
+            "Searching for the love",
+            "Looking for the love"
+          ],
+          "answer": "Reaching for the love"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "So I say a {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "quick prayer",
+            "small prayer",
+            "little prayer"
+          ],
+          "answer": "little prayer"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "Where the sky is blue",
+            "Where the skies are blue",
+            "Where the skies are clear"
+          ],
+          "answer": "Where the skies are blue"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "An {{q:1}}, an {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "A {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:5}}, the rooms are {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I {{q:7}}, I {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I wonder {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:10}}, the {{q:11}} together"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And oh, {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} the love that {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So I {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Where the {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "To see you {{q:21}}, my love"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Overseas from {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "To find a place I {{q:23}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:25}}, my love"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I try to read, I go to work"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm laughing with my friends"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But I can't stop, to keep myself from thinking, oh no"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I wonder how, {{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I wonder where they are"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "The days we had the songs, we {{q:27}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:30}} that seems so far"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So I say a {{q:31}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "To see you once again"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "To hold you in my arms"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "To promise you my love"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "To tell you from the heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're all I'm thinking of"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I'm reaching for the love that seem so far"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(So) So I say a little prayer"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "To see you once again (My love)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So I say a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "To see you once again (Oh, my love)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "To see you once again, my love"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "An {{blank}}, an 〔第 2 題〕",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "empty street",
+            "open street",
+            "empty road"
+          ],
+          "answer": "empty street"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "An 〔第 1 題〕, an {{blank}}",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "empty home",
+            "empty house",
+            "empty room"
+          ],
+          "answer": "empty house"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "A {{blank}} 〔第 4 題〕",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "hole",
+            "void",
+            "space"
+          ],
+          "answer": "hole"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "A 〔第 3 題〕 {{blank}}",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "in my heart",
+            "within my heart",
+            "inside my heart"
+          ],
+          "answer": "inside my heart"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "I'm {{blank}}, the rooms are 〔第 6 題〕",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "on my own",
+            "all alone",
+            "by myself"
+          ],
+          "answer": "all alone"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "I'm 〔第 5 題〕, the rooms are {{blank}}",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "growing smaller",
+            "feeling smaller",
+            "getting smaller"
+          ],
+          "answer": "getting smaller"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "I {{blank}}, I 〔第 8 題〕",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "wonder how",
+            "wonder why",
+            "ask how"
+          ],
+          "answer": "wonder how"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "I 〔第 7 題〕, I {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "wonder how",
+            "ask why",
+            "wonder why"
+          ],
+          "answer": "wonder why"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道它們去了哪裡",
+          "options": [
+            "where they've gone",
+            "where they are",
+            "where they went"
+          ],
+          "answer": "where they are"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "{{blank}}, the 〔第 11 題〕 together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "The days we had",
+            "The times we had",
+            "The days we spent"
+          ],
+          "answer": "The days we had"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "〔第 10 題〕, the {{blank}} together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "songs we played",
+            "songs we sang",
+            "words we sang"
+          ],
+          "answer": "songs we sang"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "And oh, {{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "my love",
+            "my dear",
+            "my heart"
+          ],
+          "answer": "my love"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I'm {{blank}} 〔第 14 題〕",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding back",
+            "holding out",
+            "holding on"
+          ],
+          "answer": "holding on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "I'm 〔第 13 題〕 {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "forever",
+            "whenever",
+            "together"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "{{blank}} the love that 〔第 16 題〕",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Searching for",
+            "Looking for",
+            "Reaching for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "〔第 15 題〕 the love that {{blank}}",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "feels so far",
+            "seems so far",
+            "is so far"
+          ],
+          "answer": "seems so far"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "So I {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "say a little prayer",
+            "say a small prayer",
+            "make a little prayer"
+          ],
+          "answer": "say a little prayer"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "And {{blank}} 〔第 19 題〕",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "pray my dreams",
+            "hope my dreams",
+            "wish my dreams"
+          ],
+          "answer": "hope my dreams"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "And 〔第 18 題〕 {{blank}}",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "will lead me there",
+            "will bring me there",
+            "will take me there"
+          ],
+          "answer": "will take me there"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Where the {{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "skies are clear",
+            "sky is blue",
+            "skies are blue"
+          ],
+          "answer": "skies are blue"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "To see you {{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "once again",
+            "one more time",
+            "once more"
+          ],
+          "answer": "once again"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "Overseas from {{blank}}",
+          "promptZh": "跨越海洋，從一個海岸到另一個海岸",
+          "options": [
+            "shore to shore",
+            "coast to coast",
+            "sea to sea"
+          ],
+          "answer": "coast to coast"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} I 〔第 24 題〕",
+          "promptZh": "去尋找我最愛的地方",
+          "options": [
+            "To find the place",
+            "To see a place",
+            "To find a place"
+          ],
+          "answer": "To find a place"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "〔第 23 題〕 I {{blank}}",
+          "promptZh": "去尋找我最愛的地方",
+          "options": [
+            "love the most",
+            "need the most",
+            "like the most"
+          ],
+          "answer": "love the most"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}}",
+          "promptZh": "那裡田野翠綠",
+          "options": [
+            "Where the grass is green",
+            "Where the fields are green",
+            "Where the fields are wide"
+          ],
+          "answer": "Where the fields are green"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "To see you once again",
+            "Just to see you again",
+            "To see you once more"
+          ],
+          "answer": "To see you once again"
+        },
+        {
+          "number": 27,
+          "lineId": "line-22",
+          "prompt": "{{blank}}, 〔第 28 題〕",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "I ask myself how",
+            "I wonder how",
+            "I wonder just how"
+          ],
+          "answer": "I wonder how"
+        },
+        {
+          "number": 28,
+          "lineId": "line-22",
+          "prompt": "〔第 27 題〕, {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "I wonder how",
+            "I ask why",
+            "I wonder why"
+          ],
+          "answer": "I wonder why"
+        },
+        {
+          "number": 29,
+          "lineId": "line-23",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道它們去了哪裡",
+          "options": [
+            "where they might be",
+            "where they could be",
+            "where they are"
+          ],
+          "answer": "where they are"
+        },
+        {
+          "number": 30,
+          "lineId": "line-24",
+          "prompt": "{{blank}} the songs, we 〔第 31 題〕",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "The days we spent",
+            "The days we had",
+            "The times we shared"
+          ],
+          "answer": "The days we had"
+        },
+        {
+          "number": 31,
+          "lineId": "line-24",
+          "prompt": "〔第 30 題〕 the songs, we {{blank}}",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "sang together",
+            "sang along",
+            "sang aloud"
+          ],
+          "answer": "sang together"
+        },
+        {
+          "number": 32,
+          "lineId": "line-26",
+          "prompt": "{{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "And oh, my love",
+            "And oh, my dear",
+            "And oh, my heart"
+          ],
+          "answer": "And oh, my love"
+        },
+        {
+          "number": 33,
+          "lineId": "line-27",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding on for good",
+            "holding on forever",
+            "holding on for now"
+          ],
+          "answer": "holding on forever"
+        },
+        {
+          "number": 34,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that seems so far",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Looking for the love",
+            "Searching for the love",
+            "Reaching for the love"
+          ],
+          "answer": "Reaching for the love"
+        },
+        {
+          "number": 35,
+          "lineId": "line-29",
+          "prompt": "So I say a {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "quick prayer",
+            "small prayer",
+            "little prayer"
+          ],
+          "answer": "little prayer"
+        },
+        {
+          "number": 36,
+          "lineId": "line-30",
+          "prompt": "And hope {{blank}}",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "my dreams will bring me home",
+            "my dreams will take me there",
+            "my dreams would take me there"
+          ],
+          "answer": "my dreams will take me there"
+        },
+        {
+          "number": 37,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "Where the skies are blue",
+            "Where the sky is blue",
+            "Where the skies are clear"
+          ],
+          "answer": "Where the skies are blue"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "{{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "To see you once again",
+            "To hold you once again",
+            "To see you now and then"
+          ],
+          "answer": "To see you once again"
+        },
+        {
+          "number": 39,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "promptZh": "跨越海洋，從一個海岸到另一個海岸",
+          "options": [
+            "Overseas from east to west",
+            "Overseas from shore to shore",
+            "Overseas from coast to coast"
+          ],
+          "answer": "Overseas from coast to coast"
+        },
+        {
+          "number": 40,
+          "lineId": "line-41",
+          "prompt": "I'm {{blank}} that seem so far",
+          "promptZh": "我正追尋著那看似遙不可及的愛",
+          "options": [
+            "Searching for the love",
+            "reaching for the love",
+            "Looking for the love"
+          ],
+          "answer": "reaching for the love"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "An {{q:1}}, an {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "A {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:5}}, the rooms are {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I {{q:7}}, I {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I wonder {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:10}}, the {{q:11}} together"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And oh, {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} the love that {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So I {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Where the {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "To see you {{q:21}}, my love"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Overseas from {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} I {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}}, my love"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I try to read, I go to work"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I'm laughing with my friends"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But I can't stop, to keep myself from thinking, oh no"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:27}}, {{q:28}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I wonder {{q:29}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:30}} the songs, we {{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm {{q:33}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:34}} that seems so far"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So I say a {{q:35}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And hope {{q:36}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:38}}, my love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "To see you once again"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "To hold you in my arms"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "To promise you my love"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "To tell you from the heart"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "You're all I'm thinking of"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I'm {{q:40}} that seem so far"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(So) So I say a little prayer"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "To see you once again (My love)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So I say a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "To see you once again (Oh, my love)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "To see you once again, my love"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "An {{blank}}, an 〔第 2 題〕",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "open street",
+            "empty street",
+            "empty road"
+          ],
+          "answer": "empty street"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "An 〔第 1 題〕, an {{blank}}",
+          "promptZh": "空蕩的街道，空蕩的房子",
+          "options": [
+            "empty house",
+            "empty home",
+            "empty room"
+          ],
+          "answer": "empty house"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "A {{blank}} 〔第 4 題〕",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "void",
+            "hole",
+            "space"
+          ],
+          "answer": "hole"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "A 〔第 3 題〕 {{blank}}",
+          "promptZh": "我心中有一個空洞",
+          "options": [
+            "in my heart",
+            "within my heart",
+            "inside my heart"
+          ],
+          "answer": "inside my heart"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "I'm {{blank}}, the rooms are 〔第 6 題〕",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "all alone",
+            "on my own",
+            "by myself"
+          ],
+          "answer": "all alone"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "I'm 〔第 5 題〕, the rooms are {{blank}}",
+          "promptZh": "我孤身一人，房間似乎越來越小",
+          "options": [
+            "feeling smaller",
+            "growing smaller",
+            "getting smaller"
+          ],
+          "answer": "getting smaller"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "I {{blank}}, I 〔第 8 題〕",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "wonder how",
+            "wonder why",
+            "ask how"
+          ],
+          "answer": "wonder how"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "I 〔第 7 題〕, I {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "ask why",
+            "wonder why",
+            "wonder how"
+          ],
+          "answer": "wonder why"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道它們去了哪裡",
+          "options": [
+            "where they went",
+            "where they are",
+            "where they've gone"
+          ],
+          "answer": "where they are"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "{{blank}}, the 〔第 11 題〕 together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "The days we spent",
+            "The times we had",
+            "The days we had"
+          ],
+          "answer": "The days we had"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "〔第 10 題〕, the {{blank}} together",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "songs we sang",
+            "songs we played",
+            "words we sang"
+          ],
+          "answer": "songs we sang"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "And oh, {{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "my heart",
+            "my love",
+            "my dear"
+          ],
+          "answer": "my love"
+        },
+        {
+          "number": 13,
+          "lineId": "line-9",
+          "prompt": "I'm {{blank}} 〔第 14 題〕",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding back",
+            "holding out",
+            "holding on"
+          ],
+          "answer": "holding on"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "I'm 〔第 13 題〕 {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "forever",
+            "whenever",
+            "together"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "{{blank}} the love that 〔第 16 題〕",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Looking for",
+            "Searching for",
+            "Reaching for"
+          ],
+          "answer": "Reaching for"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "〔第 15 題〕 the love that {{blank}}",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "seems so far",
+            "feels so far",
+            "is so far"
+          ],
+          "answer": "seems so far"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "So I {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "say a small prayer",
+            "say a little prayer",
+            "make a little prayer"
+          ],
+          "answer": "say a little prayer"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "And {{blank}} 〔第 19 題〕",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "pray my dreams",
+            "wish my dreams",
+            "hope my dreams"
+          ],
+          "answer": "hope my dreams"
+        },
+        {
+          "number": 19,
+          "lineId": "line-12",
+          "prompt": "And 〔第 18 題〕 {{blank}}",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "will take me there",
+            "will bring me there",
+            "will lead me there"
+          ],
+          "answer": "will take me there"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "Where the {{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "sky is blue",
+            "skies are blue",
+            "skies are clear"
+          ],
+          "answer": "skies are blue"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "To see you {{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "one more time",
+            "once more",
+            "once again"
+          ],
+          "answer": "once again"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "Overseas from {{blank}}",
+          "promptZh": "跨越海洋，從一個海岸到另一個海岸",
+          "options": [
+            "shore to shore",
+            "coast to coast",
+            "sea to sea"
+          ],
+          "answer": "coast to coast"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}} I 〔第 24 題〕",
+          "promptZh": "去尋找我最愛的地方",
+          "options": [
+            "To find a place",
+            "To see a place",
+            "To find the place"
+          ],
+          "answer": "To find a place"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "〔第 23 題〕 I {{blank}}",
+          "promptZh": "去尋找我最愛的地方",
+          "options": [
+            "need the most",
+            "love the most",
+            "like the most"
+          ],
+          "answer": "love the most"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}}",
+          "promptZh": "那裡田野翠綠",
+          "options": [
+            "Where the fields are green",
+            "Where the grass is green",
+            "Where the fields are wide"
+          ],
+          "answer": "Where the fields are green"
+        },
+        {
+          "number": 26,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "To see you once more",
+            "Just to see you again",
+            "To see you once again"
+          ],
+          "answer": "To see you once again"
+        },
+        {
+          "number": 27,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, I go to work",
+          "promptZh": "我試著閱讀，我去上班",
+          "options": [
+            "I try to read",
+            "I try to work",
+            "I try to rest"
+          ],
+          "answer": "I try to read"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "{{blank}}",
+          "promptZh": "我和朋友們歡笑",
+          "options": [
+            "I'm smiling with my friends",
+            "I'm laughing with my friends",
+            "I'm joking with my friends"
+          ],
+          "answer": "I'm laughing with my friends"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "But I can't stop, to keep myself from {{blank}}",
+          "promptZh": "但我無法停止，無法讓自己不去想，噢不",
+          "options": [
+            "thinking, oh why",
+            "thinking, oh yeah",
+            "thinking, oh no"
+          ],
+          "answer": "thinking, oh no"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "{{blank}}, 〔第 31 題〕",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "I ask myself how",
+            "I wonder just how",
+            "I wonder how"
+          ],
+          "answer": "I wonder how"
+        },
+        {
+          "number": 31,
+          "lineId": "line-22",
+          "prompt": "〔第 30 題〕, {{blank}}",
+          "promptZh": "我想知道怎麼會這樣，我想知道為什麼",
+          "options": [
+            "I ask why",
+            "I wonder why",
+            "I wonder how"
+          ],
+          "answer": "I wonder why"
+        },
+        {
+          "number": 32,
+          "lineId": "line-23",
+          "prompt": "I wonder {{blank}}",
+          "promptZh": "我想知道它們去了哪裡",
+          "options": [
+            "where they are",
+            "where they could be",
+            "where they might be"
+          ],
+          "answer": "where they are"
+        },
+        {
+          "number": 33,
+          "lineId": "line-24",
+          "prompt": "{{blank}} 〔第 34 題〕, we 〔第 35 題〕",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "The times we shared",
+            "The days we had",
+            "The days we spent"
+          ],
+          "answer": "The days we had"
+        },
+        {
+          "number": 34,
+          "lineId": "line-24",
+          "prompt": "〔第 33 題〕 {{blank}}, we 〔第 35 題〕",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "the songs",
+            "the words",
+            "the tunes"
+          ],
+          "answer": "the songs"
+        },
+        {
+          "number": 35,
+          "lineId": "line-24",
+          "prompt": "〔第 33 題〕 〔第 34 題〕, we {{blank}}",
+          "promptZh": "我們擁有的那些日子，我們一起唱過的歌",
+          "options": [
+            "sang aloud",
+            "sang along",
+            "sang together"
+          ],
+          "answer": "sang together"
+        },
+        {
+          "number": 36,
+          "lineId": "line-26",
+          "prompt": "{{blank}}",
+          "promptZh": "而噢，我的愛",
+          "options": [
+            "And oh, my heart",
+            "And oh, my dear",
+            "And oh, my love"
+          ],
+          "answer": "And oh, my love"
+        },
+        {
+          "number": 37,
+          "lineId": "line-27",
+          "prompt": "I'm {{blank}}",
+          "promptZh": "我會永遠堅持下去",
+          "options": [
+            "holding on for good",
+            "holding on forever",
+            "holding on for now"
+          ],
+          "answer": "holding on forever"
+        },
+        {
+          "number": 38,
+          "lineId": "line-28",
+          "prompt": "{{blank}} that seems so far",
+          "promptZh": "追尋著那看似遙不可及的愛",
+          "options": [
+            "Reaching for the love",
+            "Searching for the love",
+            "Looking for the love"
+          ],
+          "answer": "Reaching for the love"
+        },
+        {
+          "number": 39,
+          "lineId": "line-29",
+          "prompt": "So I say a {{blank}}",
+          "promptZh": "於是我做了一個小小的祈禱",
+          "options": [
+            "quick prayer",
+            "small prayer",
+            "little prayer"
+          ],
+          "answer": "little prayer"
+        },
+        {
+          "number": 40,
+          "lineId": "line-30",
+          "prompt": "And {{blank}} will take me there",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "pray my dreams",
+            "hope my dreams",
+            "wish my dreams"
+          ],
+          "answer": "hope my dreams"
+        },
+        {
+          "number": 41,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "promptZh": "那裡天空湛藍",
+          "options": [
+            "Where the skies are blue",
+            "Where the sky is blue",
+            "Where the skies are clear"
+          ],
+          "answer": "Where the skies are blue"
+        },
+        {
+          "number": 42,
+          "lineId": "line-32",
+          "prompt": "{{blank}}, my love",
+          "promptZh": "再次見到你，我的愛",
+          "options": [
+            "To see you once again",
+            "To hold you once again",
+            "To see you now and then"
+          ],
+          "answer": "To see you once again"
+        },
+        {
+          "number": 43,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "promptZh": "跨越海洋，從一個海岸到另一個海岸",
+          "options": [
+            "Overseas from shore to shore",
+            "Overseas from coast to coast",
+            "Overseas from east to west"
+          ],
+          "answer": "Overseas from coast to coast"
+        },
+        {
+          "number": 44,
+          "lineId": "line-37",
+          "prompt": "{{blank}}",
+          "promptZh": "將你擁入懷中",
+          "options": [
+            "To hold you in my hands",
+            "To have you in my arms",
+            "To hold you in my arms"
+          ],
+          "answer": "To hold you in my arms"
+        },
+        {
+          "number": 45,
+          "lineId": "line-38",
+          "prompt": "{{blank}}",
+          "promptZh": "向你承諾我的愛",
+          "options": [
+            "To promise you the world",
+            "To give you all my love",
+            "To promise you my love"
+          ],
+          "answer": "To promise you my love"
+        },
+        {
+          "number": 46,
+          "lineId": "line-39",
+          "prompt": "To tell you {{blank}}",
+          "promptZh": "發自內心地告訴你",
+          "options": [
+            "from my heart",
+            "from the heart",
+            "with all my heart"
+          ],
+          "answer": "from the heart"
+        },
+        {
+          "number": 47,
+          "lineId": "line-40",
+          "prompt": "{{blank}}",
+          "promptZh": "你是我所思所想的一切",
+          "options": [
+            "You're all I'm thinking of",
+            "You're all I dream of",
+            "You're all I'm dreaming of"
+          ],
+          "answer": "You're all I'm thinking of"
+        },
+        {
+          "number": 48,
+          "lineId": "line-41",
+          "prompt": "I'm {{blank}} that seem so far",
+          "promptZh": "我正追尋著那看似遙不可及的愛",
+          "options": [
+            "Looking for the love",
+            "Searching for the love",
+            "reaching for the love"
+          ],
+          "answer": "reaching for the love"
+        },
+        {
+          "number": 49,
+          "lineId": "line-43",
+          "prompt": "{{blank}} 〔第 50 題〕",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "And pray",
+            "And hope",
+            "But hope"
+          ],
+          "answer": "And hope"
+        },
+        {
+          "number": 50,
+          "lineId": "line-43",
+          "prompt": "〔第 49 題〕 {{blank}}",
+          "promptZh": "希望我的夢能帶我前往那裡",
+          "options": [
+            "my dreams will take me there",
+            "my dreams would take me there",
+            "my dreams will bring me home"
+          ],
+          "answer": "my dreams will take me there"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "An {{q:1}}, an {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "A {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'm {{q:5}}, the rooms are {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I {{q:7}}, I {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I wonder {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:10}}, the {{q:11}} together"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "And oh, {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I'm {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}} the love that {{q:16}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "So I {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Where the {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "To see you {{q:21}}, my love"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Overseas from {{q:22}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}} I {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:26}}, my love"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:27}}, I go to work"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "But I can't stop, to keep myself from {{q:29}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}}, {{q:31}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I wonder {{q:32}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:33}} {{q:34}}, we {{q:35}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Oh yeah"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm {{q:37}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:38}} that seems so far"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So I say a {{q:39}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And {{q:40}} will take me there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:41}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:42}}, my love"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:43}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "To see you once again"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:44}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "To tell you {{q:46}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I'm {{q:48}} that seem so far"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "(So) So I say a little prayer"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:49}} {{q:50}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "To see you once again, my love"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "To see you once again (My love)"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "So I say a little prayer"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And hope my dreams will take me there"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Where the skies are blue"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "To see you once again (Oh, my love)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Overseas from coast to coast"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "To find a place I love the most"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Where the fields are green"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "To see you once again, my love"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "7c0a659303501458e5f73ad25b48b33867550721e8e9806aa8ced1efc9ce16ce",
+    "duration": 231.76
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "1f88cf6128fe23d101a586ac1d170ddd393522df806b04d4dff27f1db440cab3"
+    },
+    {
+      "section": "structure",
+      "filename": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "4bc4377dbe9a3e0ed5f4710bd91578b8e8324f2ea44ac39cf4b3279ccc76ba1e"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "a hole inside my heart",
+          "meaning": "心中像有個空洞；形容失落與思念",
+          "usage": "感情或重要的人離開後，以「空洞」比喻內心失落；詩意表達，不是醫學上的心臟破洞。",
+          "prompt": "哪一句最自然且正確使用「a hole inside my heart」的本題意思？",
+          "options": [
+            "The doctor found a hole inside her heart during the hospital test.",
+            "After losing his favorite photo, Ben found a hole in his pocket.",
+            "The painter made a hole inside my heart with a small knife.",
+            "After her best friend moved away, she felt a hole inside her heart."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不符合本題用法。這是可能的字面醫療描述，不是本題的感情比喻。",
+            "不符合本題用法。這是口袋真的破洞；不是心裡因失落留下的空缺。",
+            "不符合本題用法。刀子不能自然地在抽象的心情裡挖洞；若指畫作應說 cut a hole in the picture。",
+            "正確。朋友搬走後感覺心中空了一塊，恰當呈現比喻。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。朋友搬走後感覺心中空了一塊，恰當呈現比喻。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "getting smaller",
+          "meaning": "越來越小；也可象徵空間或選擇變得狹窄",
+          "usage": "get + 比較級表示持續變化；歌詞把房間變小用作壓迫感的詩意畫面，日常更常指實際尺寸。",
+          "prompt": "哪一句最自然且正確使用「getting smaller」的本題意思？",
+          "options": [
+            "The coach was getting smaller because the team won the match.",
+            "My new shoes were getting smaller because I changed their color.",
+            "As we climbed the hill, the houses below were getting smaller.",
+            "Our train was getting smaller at six, so it arrived very late."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不符合本題用法。贏比賽不會自然造成教練的大小變化。",
+            "不符合本題用法。改顏色不等於鞋子尺寸變小；缺乏合理因果。",
+            "正確。房屋看起來愈來愈小，符合逐漸變小的意思。",
+            "不符合本題用法。getting smaller 不表示火車延誤或速度降低。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。房屋看起來愈來愈小，符合逐漸變小的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "overseas",
+          "meaning": "海外的；在海外、到海外",
+          "usage": "描述跨海到另一個國家，或在海外生活／工作；可作副詞或形容詞。",
+          "prompt": "哪一句最自然且正確使用「overseas」的本題意思？",
+          "options": [
+            "My sister studies overseas, so we talk to her by video call.",
+            "My aunt works overseas, but she drives home every evening from next door.",
+            "We put the overseas on the shelf next to the travel books.",
+            "The train went overseas from one city to the next on the same land."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。姊姊在海外讀書，家人用視訊聯絡，搭配自然。",
+            "不符合本題用法。overseas 是跨海的海外，不能又說住隔壁、每天開車回家。",
+            "不符合本題用法。overseas 不是可以放在架上的物品名稱。",
+            "不符合本題用法。同一片陸地上搭火車到隔壁城市，不是跨海。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。姊姊在海外讀書，家人用視訊聯絡，搭配自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "fields",
+          "meaning": "田野、田地；大片開闊的農地",
+          "usage": "fields 在歌詞指綠色田野；另有「領域」等較抽象的意思，但本題練自然的土地用法。",
+          "prompt": "哪一句最自然且正確使用「fields」的本題意思？",
+          "options": [
+            "The children planted a field of homework beside the school bus.",
+            "After the rain, the green fields looked beautiful in the sun.",
+            "Our music teacher kept three fields inside her pencil case.",
+            "The bus fields at nine because it has a new driver."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不符合本題用法。homework 不是能種植成田地的作物。",
+            "正確。下雨後綠色田野十分美麗，符合實際景物用法。",
+            "不符合本題用法。田野不是可放入筆袋的物品。",
+            "不符合本題用法。fields 不是表示公車發車時間的動詞。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。下雨後綠色田野十分美麗，符合實際景物用法。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "promise",
+          "meaning": "鄭重承諾；保證會做某事",
+          "usage": "可用 promise someone something 或 promise to + 動詞；歌詞中的「承諾愛」屬浪漫語氣。",
+          "prompt": "哪一句最自然且正確使用「promise」的本題意思？",
+          "options": [
+            "I promised my sister that I would call her after the trip.",
+            "He promised to my friend a new bicycle last Sunday.",
+            "The shop promised the rain to stop before we left town.",
+            "The guide promised the mountain into a picture for us."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。promise someone that ... 表示向某人承諾會打電話，意思自然。",
+            "不符合本題用法。若使用 promise someone something，應說 promised my friend a bicycle。",
+            "不符合本題用法。店家無法合理保證雨會停，承諾內容超出可控制範圍。",
+            "不符合本題用法。promise 不是把山變成圖片的動詞。"
+          ],
+          "sourceFile": "My_Love_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。promise someone that ... 表示向某人承諾會打電話，意思自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "形容詞 + 名詞",
+          "meaning": "一條空蕩的街道",
+          "usage": "描寫物件特徵時，形容詞放在名詞之前。",
+          "prompt": "· 情境： 劇院要描述一個安靜的房間，哪句合適？",
+          "options": [
+            "The room is a place quiet.",
+            "The room is a quiet place.",
+            "The room is quiet a place.",
+            "The room quiet is a place."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "一般敘述不把 quiet 放在名詞後。",
+            "a quiet place 的形容詞在名詞前。",
+            "a 與形容詞順序錯誤。",
+            "缺少正確的 be 動詞位置。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "An empty street  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "a/an",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": false
+            },
+            {
+              "text": "singular noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "a quiet place 的形容詞在名詞前。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "inside + 名詞",
+          "meaning": "在我的心裡",
+          "usage": "表示某事物位於空間內；歌中屬詩意意象。",
+          "prompt": "· 情境： 貓咪躲到紙箱內，哪句適合？",
+          "options": [
+            "The cat inside the box is.",
+            "The cat is inside to the box.",
+            "The cat is inside the box.",
+            "The cat is inside at the box."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "主要動詞的位置不對。",
+            "inside 後不加 to。",
+            "inside the box 表示在箱子裡。",
+            "inside 不需要再加 at。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "inside my heart  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "inside",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "inside the box 表示在箱子裡。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "be + all alone",
+          "meaning": "獨自一人",
+          "usage": "強調身邊沒有其他人。",
+          "prompt": "· 情境： 夜間燈塔只有一位工作人員，哪句正確？",
+          "options": [
+            "She is all lonely alone at night.",
+            "She all alone at night.",
+            "She is alone all at night.",
+            "She is all alone at night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "all lonely alone 不自然且重複。",
+            "缺少 is。",
+            "alone all 語序不對。",
+            "is all alone 正確。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I'm all alone  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "be + all alone",
+              "fixed": true
+            }
+          ],
+          "explanation": "is all alone 正確。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "get + 比較級",
+          "meaning": "正在變得更小",
+          "usage": "描述程度持續改變。",
+          "prompt": "· 情境： 天氣越來越冷，哪句表達變化？",
+          "options": [
+            "The air is get colder.",
+            "The air getting coldest.",
+            "The air is getting colder.",
+            "The air is getting coldly."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "進行式需要 getting。",
+            "缺少 is，coldest 亦是最高級。",
+            "getting colder 表示逐漸變冷。",
+            "coldly 是副詞，不是此處需要的比較級。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "are getting smaller  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "be + getting",
+              "fixed": true
+            },
+            {
+              "text": "comparative adjective",
+              "fixed": false
+            }
+          ],
+          "explanation": "getting colder 表示逐漸變冷。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wonder + 疑問詞",
+          "meaning": "我想知道為甚麼",
+          "usage": "可作為簡短的獨立疑問心聲；歌中 how、why 單獨出現。",
+          "prompt": "· 情境： 一場表演突然停了，你好奇原因，怎樣說？",
+          "options": [
+            "I wonder to why.",
+            "I wonder what why.",
+            "I wonder because.",
+            "I wonder why."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "why 前不加 to。",
+            "what why 並列不自然。",
+            "because 不能直接代替疑問詞。",
+            "wonder why 自然表示好奇原因。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "I wonder why  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "wonder",
+              "fixed": true
+            },
+            {
+              "text": "question word",
+              "fixed": false
+            }
+          ],
+          "explanation": "wonder why 自然表示好奇原因。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "wonder + 間接問句",
+          "meaning": "我想知道它們在哪裡",
+          "usage": "不直接詢問對方，而是表達心中的疑問。",
+          "prompt": "· 情境： 找不到畫室的鑰匙，哪句最自然？",
+          "options": [
+            "I wonder where are the keys.",
+            "I wonder where the keys are.",
+            "I wonder where do the keys are.",
+            "I wonder where the keys."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "間接問句不倒裝 are。",
+            "where the keys are 是陳述語序。",
+            "不需要 do，也混用助動詞。",
+            "缺少動詞 are。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I wonder where they are  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "wonder + where",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "where the keys are 是陳述語序。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "名詞後省略受詞關係代名詞",
+          "meaning": "我們曾經擁有的日子",
+          "usage": "關係代名詞在子句中充當受詞時，有時可省略；歌中 days 和 songs 都有此型。",
+          "prompt": "· 情境： 介紹自己參觀過的博物館，哪句自然？",
+          "options": [
+            "This is the museum I visited yesterday.",
+            "This is the museum I visited it yesterday.",
+            "This is the museum yesterday I visited it.",
+            "This is the museum who I visited yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "museum 後省略作受詞的 that/which。",
+            "再加 it 造成受詞重複。",
+            "受詞重複且順序不自然。",
+            "who 通常指人。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "The days we had  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "noun + (",
+              "fixed": false
+            },
+            {
+              "text": "omitted that/which)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "museum 後省略作受詞的 that/which。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "現在進行式 be + -ing",
+          "meaning": "我正持續堅持",
+          "usage": "描述此刻正在做、正在持續的行動。",
+          "prompt": "· 情境： 陶藝師此刻在捏陶土，哪句正確？",
+          "options": [
+            "She is shaping the clay now.",
+            "She shaping the clay now.",
+            "She is shape the clay now.",
+            "She is shaped the clay now."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "is shaping 是現在進行式。",
+            "缺少 is。",
+            "is 後需 shaping。",
+            "shaped 不表示正在做。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "I'm holding on forever  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "is shaping 是現在進行式。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "hold on（不及物片語）",
+          "meaning": "一直堅持下去",
+          "usage": "遇到困難仍繼續努力；歌詞未出現 hold on to + 受詞。",
+          "prompt": "· 情境： 登山者快到終點，哪句表示堅持？",
+          "options": [
+            "Please hold on the mountain.",
+            "Please hold on at happy.",
+            "Please hold on a little longer.",
+            "Please hold on to finish."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "hold on the mountain 不能表示堅持。",
+            "at happy 不合語法。",
+            "hold on a little longer 表示再堅持一會。",
+            "to finish 不屬於此句的自然連接方式。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "holding on forever  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "hold on",
+              "fixed": true
+            },
+            {
+              "text": "time expression",
+              "fixed": false
+            }
+          ],
+          "explanation": "hold on a little longer 表示再堅持一會。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "reach for + 名詞",
+          "meaning": "伸手追尋那份愛",
+          "usage": "可描述伸手去拿實物，或象徵追求願望。",
+          "prompt": "· 情境： 小孩想拿高架上的星星模型，哪句自然？",
+          "options": [
+            "The child reached for the model.",
+            "The child reached to the model.",
+            "The child reached of the model.",
+            "The child reached at for the model."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "reached for 表示伸手想拿。",
+            "此處需要 reach for。",
+            "reach of 不是此片語。",
+            "at for 不能連用。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Reaching for the love  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "reach for",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "reached for 表示伸手想拿。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "that + 關係子句（主詞）",
+          "meaning": "那份看似遙遠的愛",
+          "usage": "補充描述前面的事物；歌中 that 不能直接省略。",
+          "prompt": "· 情境： 描述正在閃光的燈，哪句正確？",
+          "options": [
+            "The lamp that shines is new.",
+            "The lamp that it shines is new.",
+            "The lamp which shine are new.",
+            "The lamp that shining is new."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "that 作 shines 的主詞。",
+            "that 後不再加 it。",
+            "主詞與動詞不一致。",
+            "缺少適當的限定動詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "the love that seems so far  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "noun",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "verb phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "that 作 shines 的主詞。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "seem + 形容詞",
+          "meaning": "似乎很遙遠",
+          "usage": "表達感覺或印象，未必是客觀事實。",
+          "prompt": "· 情境： 遠方的小島看起來很安靜，哪句正確？",
+          "options": [
+            "The island seems to quiet.",
+            "The island seems quiet.",
+            "The island seems quietly.",
+            "The island seem quiet."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "形容詞前不需 to。",
+            "seems quiet 正確。",
+            "quietly 是副詞，不是形容詞。",
+            "單數主詞需 seems。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "seems so far  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "seem(s)",
+              "fixed": true
+            },
+            {
+              "text": "adjective phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "seems quiet 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "so + 結果",
+          "meaning": "所以我祈禱",
+          "usage": "承接前面的情況，說明接下來的行動。",
+          "prompt": "· 情境： 雨下大了，所以園丁進屋，哪句正確？",
+          "options": [
+            "It rained, so went the gardener inside.",
+            "It rained, so the gardener inside.",
+            "It rained, so did the gardener inside.",
+            "It rained, so the gardener went inside."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "結果子句主詞與動詞語序錯。",
+            "缺少動詞。",
+            "did 不能直接搭配 inside 表示走進去。",
+            "so 接正常的完整子句。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "So I say a little prayer  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "So",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "so 接正常的完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "hope + 內容子句",
+          "meaning": "希望我的夢帶我到那裡",
+          "usage": "hope 後面可接完整內容子句；歌中省略 that。",
+          "prompt": "· 情境： 藝術家希望展覽會成功，哪句正確？",
+          "options": [
+            "I hope the show to be good.",
+            "I hope will the show go well.",
+            "I hope the show will go well.",
+            "I hope the show good."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "此處 hope 後應使用內容子句。",
+            "內容子句不倒裝。",
+            "hope + the show will go well 自然。",
+            "缺少謂語動詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "hope my dreams will take me there  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "hope",
+              "fixed": true
+            },
+            {
+              "text": "subject + will + base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "hope + the show will go well 自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "will + 原形動詞",
+          "meaning": "將帶我去那裡",
+          "usage": "對未來作推測或承諾。",
+          "prompt": "· 情境： 志工預告明天會送食物來，哪句正確？",
+          "options": [
+            "They will to bring food tomorrow.",
+            "They will bring food tomorrow.",
+            "They will brought food tomorrow.",
+            "They will bringing food tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "will 後不加 to。",
+            "will bring 是正確未來式。",
+            "will 後使用原形 bring。",
+            "will 後不接 bringing。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "will take me there  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "will bring 是正確未來式。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "where + 地點描述子句",
+          "meaning": "在天空湛藍的地方",
+          "usage": "描述想去的地方；歌中是依附前後文的片段，不是獨立完整句。",
+          "prompt": "· 情境： 選旅行地點時，哪句能自然接在 a place 後？",
+          "options": [
+            "I want to visit a place where the sea clear.",
+            "I want to visit a place where is the sea clear.",
+            "I want to visit a place where the sea is clear.",
+            "I want to visit a place where does the sea clear."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 is。",
+            "where 子句不倒裝。",
+            "where the sea is clear 的語序正確。",
+            "不使用 does，且缺少正確動詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Where the skies are blue  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "where the sea is clear 的語序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "to + 原形動詞：目的",
+          "meaning": "為了再次見到你",
+          "usage": "解釋行動的目的；歌中常以片段方式銜接前句。",
+          "prompt": "· 情境： 攝影師早起為了拍日出，哪句正確？",
+          "options": [
+            "She woke up early taking to photos.",
+            "She woke up early to take photos.",
+            "She woke up early to taking photos.",
+            "She woke up early for take photos."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "taking to photos 語序錯。",
+            "to take 表示目的。",
+            "to 後應用 take 原形。",
+            "for take 不是此目的句型。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "To see you once again  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "to take 表示目的。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "once again",
+          "meaning": "再一次",
+          "usage": "某個行動發生或重複時使用。",
+          "prompt": "· 情境： 導覽員想再解釋一次路線，哪句合適？",
+          "options": [
+            "Please explain once the again route.",
+            "Please once again the map.",
+            "Please explain the route once again.",
+            "Please say again once the route."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "once the again 不構成片語。",
+            "once again 不是動詞。",
+            "once again 放在句尾自然表示再一次。",
+            "語序不自然。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "once again  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "once again",
+              "fixed": true
+            }
+          ],
+          "explanation": "once again 放在句尾自然表示再一次。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "from + 名詞 + to + 名詞",
+          "meaning": "從海岸到海岸",
+          "usage": "描述旅程、範圍或移動的起點和終點。",
+          "prompt": "· 情境： 火車從山城到海邊，哪句自然？",
+          "options": [
+            "The train goes from the hills at the sea.",
+            "The train goes between the hills to the sea.",
+            "The train goes from the hills for the sea.",
+            "The train goes from the hills to the sea."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "from ... at 不對應終點。",
+            "between ... to 不合搭配。",
+            "for 不是此結構終點標記。",
+            "from ... to ... 清楚表示起迄。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "from coast to coast  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "place",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "place",
+              "fixed": false
+            }
+          ],
+          "explanation": "from ... to ... 清楚表示起迄。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "最高級 the most",
+          "meaning": "我最喜歡的地方",
+          "usage": "the most 修飾 love，強調在多個對象中最喜歡的一個。",
+          "prompt": "· 情境： 三座花園中，哪句表示最喜歡這一座？",
+          "options": [
+            "This is the garden I love the most.",
+            "This is the garden I most the love.",
+            "This is the garden I love the more.",
+            "This is the garden I love most than."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "love the most 表示最喜歡。",
+            "most 的位置錯誤。",
+            "the more 不是最高程度。",
+            "最高級不接 than。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "a place I love the most  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "noun",
+              "fixed": false
+            },
+            {
+              "text": "I love the most",
+              "fixed": true
+            }
+          ],
+          "explanation": "love the most 表示最喜歡。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "try to + 原形動詞",
+          "meaning": "我試著閱讀",
+          "usage": "強調試著完成某個行動。",
+          "prompt": "· 情境： 手工匠想修好舊鐘，哪句正確？",
+          "options": [
+            "I try fixing to the clock.",
+            "I try the clock to fix.",
+            "I try to fixing the clock.",
+            "I try to fix the clock."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不是歌中 try to 的結構。",
+            "受詞與動詞語序不對。",
+            "to 後不用 fixing。",
+            "try to fix 合乎歌中的句型。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I try to read  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "try to",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "try to fix 合乎歌中的句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "go to + 工作或地點",
+          "meaning": "我去上班",
+          "usage": "go to work 中 work 是活動名詞，不需 the。",
+          "prompt": "· 情境： 救生員每天早上去上班，哪句自然？",
+          "options": [
+            "She goes work every morning.",
+            "She goes at work every morning.",
+            "She goes to work every morning.",
+            "She goes to the work every morning."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 to。",
+            "go at work 不是「去上班」。",
+            "goes to work 是自然用法。",
+            "一般表達上班不加 the。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I go to work  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "go to",
+              "fixed": true
+            },
+            {
+              "text": "place/activity noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "goes to work 是自然用法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "can't + 動詞原形",
+          "meaning": "我無法停止",
+          "usage": "表達能力或情況上的不可能。",
+          "prompt": "· 情境： 機器故障後，技師無法啟動它，哪句正確？",
+          "options": [
+            "He can't start the machine.",
+            "He can't started the machine.",
+            "He can't to start the machine.",
+            "He can't starting the machine."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "can't start 正確。",
+            "can't 後不接過去式。",
+            "can't 後不加 to。",
+            "can't 後用原形。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "I can't stop  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "subject",
+              "fixed": false
+            },
+            {
+              "text": "cannot/can't",
+              "fixed": true
+            },
+            {
+              "text": "base verb",
+              "fixed": false
+            }
+          ],
+          "explanation": "can't start 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "keep + 反身代名詞 + from + -ing",
+          "meaning": "讓自己不去想",
+          "usage": "指抑制自己某個衝動或想法；需配合主詞換反身代名詞。",
+          "prompt": "· 情境： 觀眾忍住不笑，哪句自然？",
+          "options": [
+            "She kept myself from laughing.",
+            "She kept herself from laugh.",
+            "She kept herself to laughing.",
+            "She kept herself from laughing."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "she 不能搭配 myself。",
+            "from 後需 -ing。",
+            "此句型使用 from，不是 to。",
+            "herself 與 she 對應，from 後接 laughing。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "keep myself from thinking  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "reflexive pronoun",
+              "fixed": false
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "verb-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "herself 與 she 對應，from 後接 laughing。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "think of + 名詞",
+          "meaning": "我正在想著",
+          "usage": "表達持續掛念或思考；原句的受詞由前方 all 補足。",
+          "prompt": "· 情境： 正在想念遠方的朋友，哪句自然？",
+          "options": [
+            "I am thinking of my friend.",
+            "I am thinking for my friend.",
+            "I am thinking at my friend.",
+            "I am thinking to my friend."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "thinking of 可表示想念某人。",
+            "thinking for 不能表達此意思。",
+            "thinking at 不是此搭配。",
+            "此處應用 of。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "I'm thinking of  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "be + thinking of",
+              "fixed": true
+            },
+            {
+              "text": "noun phrase",
+              "fixed": false
+            }
+          ],
+          "explanation": "thinking of 可表示想念某人。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "promise + 人 + 事物",
+          "meaning": "向你承諾我的愛",
+          "usage": "雙受詞結構；不同於 promise to + 動詞（歌中未出現該形式）。",
+          "prompt": "· 情境： 志工答應孩子們一個驚喜，哪句正確？",
+          "options": [
+            "She promised children about surprise.",
+            "She promised the children a surprise.",
+            "She promised to the children a surprise.",
+            "She promised the children to a surprise."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "about surprise 不構成此結構。",
+            "promise + 人 + 事物 符合來源結構。",
+            "雙受詞結構不加 to 在人前。",
+            "to a surprise 不是名詞受詞。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "To promise you my love  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "promise",
+              "fixed": true
+            },
+            {
+              "text": "person",
+              "fixed": false
+            },
+            {
+              "text": "noun",
+              "fixed": false
+            }
+          ],
+          "explanation": "promise + 人 + 事物 符合來源結構。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "from the heart",
+          "meaning": "發自內心",
+          "usage": "強調話語或感謝真誠。",
+          "prompt": "· 情境： 演員向幕後人員表達真誠感謝，哪句合適？",
+          "options": [
+            "His thanks came from the stage clock.",
+            "His thanks came from the heart.",
+            "His thanks came from the lights.",
+            "His thanks came from the chairs."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "stage clock 不表示真誠。",
+            "from the heart 表示真心的。",
+            "lights 不表達真心。",
+            "chairs 不是「真誠」來源。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "from the heart  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "from the heart",
+              "fixed": true
+            }
+          ],
+          "explanation": "from the heart 表示真心的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "all + 省略關係代名詞的子句",
+          "meaning": "你就是我全部的牽掛",
+          "usage": "all 後由子句限定範圍，介系詞 of 留在句末；結構與前面的名詞受詞關係子句相似，但 all 是代名詞核心。",
+          "prompt": "· 情境： 歌迷說這是他現在唯一在想的事情，哪句正確？",
+          "options": [
+            "This show is all what I am thinking about.",
+            "This show is all I am thinking to.",
+            "This show is all I think about it.",
+            "This show is all I am thinking about."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "all what 在此屬不自然重疊。",
+            "think to 不表示這種掛念。",
+            "it 重複作受詞。",
+            "all I am thinking about 的 about 留在句末。"
+          ],
+          "sourceFile": "My_Love_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "You're all I'm thinking of  （來源：PDF 英文歌詞，第 1–2 頁）",
+          "pattern": [
+            {
+              "text": "all + (omitted that)",
+              "fixed": true
+            },
+            {
+              "text": "subject + verb + preposition",
+              "fixed": false
+            }
+          ],
+          "explanation": "all I am thinking about 的 about 留在句末。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

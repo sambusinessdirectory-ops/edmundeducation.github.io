@@ -1,0 +1,3704 @@
+{
+  "title": "Alejandro",
+  "slug": "alejandro",
+  "translations": [
+    {
+      "english": "I know that we are young, and I know that you may love me",
+      "chinese": "我知道我們都還年輕，也知道你或許愛著我",
+      "lineId": "line-1",
+      "startSeconds": 13.24,
+      "endSeconds": 16.64
+    },
+    {
+      "english": "But I just can't be with you like this anymore",
+      "chinese": "但我真的無法再這樣與你繼續下去了",
+      "lineId": "line-2",
+      "startSeconds": 16.7,
+      "endSeconds": 19.86
+    },
+    {
+      "english": "Alejandro",
+      "chinese": "Alejandro",
+      "lineId": "line-3",
+      "startSeconds": 21.8,
+      "endSeconds": 22.24
+    },
+    {
+      "english": "She's got both hands in her pocket",
+      "chinese": "她將雙手插在口袋裡",
+      "lineId": "line-4",
+      "startSeconds": 42.04,
+      "endSeconds": 46.7
+    },
+    {
+      "english": "And she won't look at you, won't look at you",
+      "chinese": "她不願看你一眼，連一眼也不願",
+      "lineId": "line-5",
+      "startSeconds": 47.52,
+      "endSeconds": 51.3
+    },
+    {
+      "english": "She hides true love, en su bolsillo",
+      "chinese": "她把真愛藏了起來，藏在自己的口袋裡",
+      "lineId": "line-6"
+    },
+    {
+      "english": "She's got a halo around her finger, around you",
+      "chinese": "她的手指彷彿環繞著一道聖潔的光環，而那光環也圍繞著你",
+      "lineId": "line-7",
+      "startSeconds": 57.12,
+      "endSeconds": 61.0
+    },
+    {
+      "english": "You know that I love you, boy",
+      "chinese": "你知道，我是愛你的，親愛的",
+      "lineId": "line-8",
+      "startSeconds": 62.4,
+      "endSeconds": 65.26
+    },
+    {
+      "english": "Hot, like Mexico, rejoice",
+      "chinese": "熱情如墨西哥的烈日，盡情歡騰吧",
+      "lineId": "line-9",
+      "startSeconds": 65.26,
+      "endSeconds": 67.48
+    },
+    {
+      "english": "At this point, I've gotta choose",
+      "chinese": "事到如今，我必須作出抉擇",
+      "lineId": "line-10",
+      "startSeconds": 67.48,
+      "endSeconds": 69.8
+    },
+    {
+      "english": "Nothing to lose",
+      "chinese": "反正已經沒什麼可失去的了",
+      "lineId": "line-11",
+      "startSeconds": 69.8,
+      "endSeconds": 71.24
+    },
+    {
+      "english": "Don't call my name, don't call my name, Alejandro",
+      "chinese": "別再呼喚我的名字，別再叫我了，Alejandro",
+      "lineId": "line-12",
+      "startSeconds": 71.24,
+      "endSeconds": 75.78
+    },
+    {
+      "english": "I'm not your babe, I'm not your babe, Fernando",
+      "chinese": "我不是你的寶貝，不再是你的愛人，Fernando",
+      "lineId": "line-13",
+      "startSeconds": 76.88,
+      "endSeconds": 80.42
+    },
+    {
+      "english": "Don't wanna kiss, don't wanna touch",
+      "chinese": "我不想親吻，也不想有任何觸碰",
+      "lineId": "line-14",
+      "startSeconds": 81.3,
+      "endSeconds": 83.8
+    },
+    {
+      "english": "Just smoke my cigarette and hush",
+      "chinese": "只想靜靜抽著我的菸，別再說話",
+      "lineId": "line-15"
+    },
+    {
+      "english": "Don't call my name, don't call my name, Roberto",
+      "chinese": "別再呼喚我的名字，別再叫我了，Roberto",
+      "lineId": "line-16",
+      "startSeconds": 86.18,
+      "endSeconds": 90.12
+    },
+    {
+      "english": "Alejandro, Alejandro",
+      "chinese": "Alejandro，Alejandro",
+      "lineId": "line-17",
+      "startSeconds": 91.94,
+      "endSeconds": 94.14
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro",
+      "chinese": "Ale-Alejandro，Ale-Alejandro",
+      "lineId": "line-18",
+      "startSeconds": 97.68,
+      "endSeconds": 99.2
+    },
+    {
+      "english": "Alejandro, Alejandro",
+      "chinese": "Alejandro，Alejandro",
+      "lineId": "line-19",
+      "startSeconds": 101.38,
+      "endSeconds": 103.7
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro",
+      "chinese": "Ale-Alejandro，Ale-Alejandro",
+      "lineId": "line-20",
+      "startSeconds": 106.74,
+      "endSeconds": 109.06
+    },
+    {
+      "english": "Stop, please, just let me go",
+      "chinese": "停下來吧，求你了，就放我走吧",
+      "lineId": "line-21",
+      "startSeconds": 111.08,
+      "endSeconds": 115.18
+    },
+    {
+      "english": "Alejandro, just let me go",
+      "chinese": "Alejandro，請放我走吧",
+      "lineId": "line-22",
+      "startSeconds": 115.18,
+      "endSeconds": 119.4
+    },
+    {
+      "english": "She's not broken",
+      "chinese": "她並沒有被傷得支離破碎",
+      "lineId": "line-23",
+      "startSeconds": 119.4,
+      "endSeconds": 122.06
+    },
+    {
+      "english": "She's just a baby",
+      "chinese": "她只是個尚且稚嫩的女孩",
+      "lineId": "line-24",
+      "startSeconds": 122.72,
+      "endSeconds": 124.22
+    },
+    {
+      "english": "But her boyfriend's like her dad, just like her dad",
+      "chinese": "可她的男友卻像她的父親一樣，簡直一模一樣",
+      "lineId": "line-25",
+      "startSeconds": 125.2,
+      "endSeconds": 129.18
+    },
+    {
+      "english": "And all those flames that burned before him",
+      "chinese": "而那些在他出現之前便已燃起的烈焰",
+      "lineId": "line-26",
+      "startSeconds": 129.18,
+      "endSeconds": 134.4
+    },
+    {
+      "english": "Now he's gotta firefight, gotta cool the bad",
+      "chinese": "如今都得由他來撲滅，設法平息那些糟糕的事",
+      "lineId": "line-27",
+      "startSeconds": 134.4,
+      "endSeconds": 138.8
+    },
+    {
+      "english": "You know that I love you, boy",
+      "chinese": "你知道，我是愛你的，親愛的",
+      "lineId": "line-28",
+      "startSeconds": 140.12,
+      "endSeconds": 142.82
+    },
+    {
+      "english": "Hot, like Mexico, rejoice",
+      "chinese": "熱情如墨西哥的烈日，盡情歡騰吧",
+      "lineId": "line-29",
+      "startSeconds": 142.82,
+      "endSeconds": 145.12
+    },
+    {
+      "english": "At this point, I've gotta choose",
+      "chinese": "事到如今，我必須作出抉擇",
+      "lineId": "line-30",
+      "startSeconds": 145.12,
+      "endSeconds": 147.38
+    },
+    {
+      "english": "Nothing to lose",
+      "chinese": "反正已經沒什麼可失去的了",
+      "lineId": "line-31",
+      "startSeconds": 147.38,
+      "endSeconds": 148.8
+    },
+    {
+      "english": "Don't call my name, don't call my name, Alejandro",
+      "chinese": "別再呼喚我的名字，別再叫我了，Alejandro",
+      "lineId": "line-32",
+      "startSeconds": 148.8,
+      "endSeconds": 153.38
+    },
+    {
+      "english": "I'm not your babe, I'm not your babe, Fernando",
+      "chinese": "我不是你的寶貝，不再是你的愛人，Fernando",
+      "lineId": "line-33"
+    },
+    {
+      "english": "Don't wanna kiss, don't wanna touch",
+      "chinese": "我不想親吻，也不想有任何觸碰",
+      "lineId": "line-34",
+      "startSeconds": 158.9,
+      "endSeconds": 161.36
+    },
+    {
+      "english": "Just smoke my cigarette and hush",
+      "chinese": "只想靜靜抽著我的菸，別再說話",
+      "lineId": "line-35"
+    },
+    {
+      "english": "Don't call my name, don't call my name, Roberto",
+      "chinese": "別再呼喚我的名字，別再叫我了，Roberto",
+      "lineId": "line-36",
+      "startSeconds": 163.32,
+      "endSeconds": 169.78
+    },
+    {
+      "english": "Alejandro, Alejandro",
+      "chinese": "Alejandro，Alejandro",
+      "lineId": "line-37",
+      "startSeconds": 169.78,
+      "endSeconds": 171.58
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro",
+      "chinese": "Ale-Alejandro，Ale-Alejandro",
+      "lineId": "line-38",
+      "startSeconds": 175.5,
+      "endSeconds": 176.86
+    },
+    {
+      "english": "Alejandro, Alejandro",
+      "chinese": "Alejandro，Alejandro",
+      "lineId": "line-39"
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro",
+      "chinese": "Ale-Alejandro，Ale-Alejandro",
+      "lineId": "line-40"
+    },
+    {
+      "english": "Don't bother me, don't bother me",
+      "chinese": "別再打擾我，別再糾纏我",
+      "lineId": "line-41",
+      "startSeconds": 188.0,
+      "endSeconds": 191.26
+    },
+    {
+      "english": "Alejandro",
+      "chinese": "Alejandro",
+      "lineId": "line-42"
+    },
+    {
+      "english": "Don't call my name, don't call my name",
+      "chinese": "別再呼喚我的名字，別再叫我了",
+      "lineId": "line-43",
+      "startSeconds": 192.8,
+      "endSeconds": 196.18
+    },
+    {
+      "english": "Bye, Fernando",
+      "chinese": "再見了，Fernando",
+      "lineId": "line-44"
+    },
+    {
+      "english": "I'm not your babe, I'm not your babe",
+      "chinese": "我不是你的寶貝，不再是你的愛人",
+      "lineId": "line-45",
+      "startSeconds": 197.64,
+      "endSeconds": 200.9
+    },
+    {
+      "english": "Alejandro",
+      "chinese": "Alejandro",
+      "lineId": "line-46",
+      "startSeconds": 202.06,
+      "endSeconds": 202.78
+    },
+    {
+      "english": "Don't wanna kiss",
+      "chinese": "我不想親吻",
+      "lineId": "line-47",
+      "startSeconds": 202.86,
+      "endSeconds": 203.76
+    },
+    {
+      "english": "Don't wanna touch",
+      "chinese": "也不想觸碰",
+      "lineId": "line-48",
+      "startSeconds": 204.3,
+      "endSeconds": 205.5
+    },
+    {
+      "english": "Fernando",
+      "chinese": "Fernando",
+      "lineId": "line-49",
+      "startSeconds": 205.5,
+      "endSeconds": 206.36
+    },
+    {
+      "english": "Don't call my name, don't call my name",
+      "chinese": "別再呼喚我的名字，別再叫我了",
+      "lineId": "line-50",
+      "startSeconds": 207.2,
+      "endSeconds": 210.34
+    },
+    {
+      "english": "Alejandro",
+      "chinese": "Alejandro",
+      "lineId": "line-51",
+      "startSeconds": 210.34,
+      "endSeconds": 211.48
+    },
+    {
+      "english": "I'm not your babe, I'm not your babe",
+      "chinese": "我不是你的寶貝，不再是你的愛人",
+      "lineId": "line-52"
+    },
+    {
+      "english": "Fernando",
+      "chinese": "Fernando",
+      "lineId": "line-53",
+      "startSeconds": 214.98,
+      "endSeconds": 216.3
+    },
+    {
+      "english": "Don't wanna kiss, don't wanna touch",
+      "chinese": "我不想親吻，也不想有任何觸碰",
+      "lineId": "line-54",
+      "startSeconds": 216.9,
+      "endSeconds": 219.64
+    },
+    {
+      "english": "Just smoke my cigarette and hush",
+      "chinese": "只想靜靜抽著我的菸，別再說話",
+      "lineId": "line-55"
+    },
+    {
+      "english": "Don't call my name, don't call my name",
+      "chinese": "別再呼喚我的名字，別再叫我了",
+      "lineId": "line-56",
+      "startSeconds": 221.9,
+      "endSeconds": 224.9
+    },
+    {
+      "english": "Roberto",
+      "chinese": "Roberto",
+      "lineId": "line-57",
+      "startSeconds": 224.9,
+      "endSeconds": 225.86
+    },
+    {
+      "english": "Alejandro, Alejandro",
+      "chinese": "Alejandro，Alejandro",
+      "lineId": "line-58"
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro",
+      "chinese": "Ale-Alejandro，Ale-Alejandro",
+      "lineId": "line-59"
+    },
+    {
+      "english": "Alejandro, Alejandro",
+      "chinese": "Alejandro，Alejandro",
+      "lineId": "line-60"
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro",
+      "chinese": "Ale-Alejandro，Ale-Alejandro",
+      "lineId": "line-61"
+    },
+    {
+      "english": "(Don't call my name, don't call my name) Alejandro, Alejandro",
+      "chinese": "（別再呼喚我的名字，別再叫我了）Alejandro，Alejandro",
+      "lineId": "line-62"
+    },
+    {
+      "english": "(I'm not your babe, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando)",
+      "chinese": "（我不是你的寶貝，不再是你的愛人）Ale-Alejandro，Ale-Alejandro（Fernando）",
+      "lineId": "line-63"
+    },
+    {
+      "english": "(Don't wanna kiss, don't wanna touch) Alejandro, Alejandro",
+      "chinese": "（不想親吻，也不想觸碰）Alejandro，Alejandro",
+      "lineId": "line-64"
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro (Just smoke my cigarette and hush)",
+      "chinese": "Ale-Alejandro，Ale-Alejandro（只想靜靜抽著我的菸，別再說話）",
+      "lineId": "line-65"
+    },
+    {
+      "english": "(Don't call my name, don't call my name) Alejandro, Alejandro",
+      "chinese": "（別再呼喚我的名字，別再叫我了）Alejandro，Alejandro",
+      "lineId": "line-66"
+    },
+    {
+      "english": "Ale-Alejandro, Ale-Alejandro (Roberto)",
+      "chinese": "Ale-Alejandro，Ale-Alejandro（Roberto）",
+      "lineId": "line-67"
+    },
+    {
+      "english": "Alejandro",
+      "chinese": "Alejandro",
+      "lineId": "line-68"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-16",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't speak my name",
+            "Don't know my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-21",
+          "answer": "just let me go",
+          "options": [
+            "just leave me here",
+            "just let me go",
+            "just take me home"
+          ],
+          "prompt": "Stop, please, {{blank}} ",
+          "promptZh": "停下來吧，求你了，就放我走吧"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-22",
+          "answer": "let me go",
+          "options": [
+            "let me go",
+            "hold me close",
+            "take me back"
+          ],
+          "prompt": "Alejandro, just {{blank}}",
+          "promptZh": "Alejandro，請放我走吧"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-23",
+          "answer": "not broken",
+          "options": [
+            "not ready",
+            "not broken",
+            "not sorry"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她並沒有被傷得支離破碎"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-24",
+          "answer": "just a baby",
+          "options": [
+            "just a stranger",
+            "just a lady",
+            "just a baby"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她只是個尚且稚嫩的女孩"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-25",
+          "answer": "like her dad",
+          "options": [
+            "like her dad",
+            "like her friend",
+            "like her brother"
+          ],
+          "prompt": "But her boyfriend's {{blank}}, just like her dad ",
+          "promptZh": "可她的男友卻像她的父親一樣，簡直一模一樣"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-26",
+          "answer": "flames that burned",
+          "options": [
+            "flames that burned",
+            "fires that started",
+            "dreams that faded"
+          ],
+          "prompt": "And all those {{blank}} before him ",
+          "promptZh": "而那些在他出現之前便已燃起的烈焰"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-27",
+          "answer": "gotta firefight",
+          "options": [
+            "gotta make it right",
+            "gotta firefight",
+            "gotta run away"
+          ],
+          "prompt": "Now he's {{blank}}, gotta cool the bad ",
+          "promptZh": "如今都得由他來撲滅，設法平息那些糟糕的事"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-28",
+          "answer": "I love you",
+          "options": [
+            "I know you",
+            "I love you",
+            "I trust you"
+          ],
+          "prompt": "You know that {{blank}}, boy ",
+          "promptZh": "你知道，我是愛你的，親愛的"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-29",
+          "answer": "like Mexico",
+          "options": [
+            "like a sunrise",
+            "like the summer",
+            "like Mexico"
+          ],
+          "prompt": "Hot, {{blank}}, rejoice ",
+          "promptZh": "熱情如墨西哥的烈日，盡情歡騰吧"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-30",
+          "answer": "I've gotta choose",
+          "options": [
+            "I've gotta wait",
+            "I've gotta go",
+            "I've gotta choose"
+          ],
+          "prompt": "At this point, {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-31",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to lose",
+            "Nothing to say",
+            "Something to hide"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-32",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't take my hand",
+            "Don't break my heart"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-33",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your friend",
+            "I'm not your babe",
+            "I'm still your babe"
+          ],
+          "prompt": "{{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-34",
+          "answer": "don't wanna touch",
+          "options": [
+            "don't wanna dance",
+            "don't wanna touch",
+            "don't wanna talk"
+          ],
+          "prompt": "Don't wanna kiss, {{blank}} ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-35",
+          "answer": "smoke my cigarette",
+          "options": [
+            "hold my telephone",
+            "drink my coffee",
+            "smoke my cigarette"
+          ],
+          "prompt": "Just {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-36",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call me back",
+            "Don't call my name",
+            "Don't change my mind"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-41",
+          "answer": "Don't bother me",
+          "options": [
+            "Don't follow me",
+            "Don't remember me",
+            "Don't bother me"
+          ],
+          "prompt": "{{blank}}, don't bother me",
+          "promptZh": "別再打擾我，別再糾纏我"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-43",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't say goodbye",
+            "Don't follow me",
+            "Don't call my name"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-44",
+          "answer": "Bye",
+          "options": [
+            "Bye",
+            "Hello",
+            "Please"
+          ],
+          "prompt": "{{blank}}, Fernando",
+          "promptZh": "再見了，Fernando"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I know that we are young, and I know that you may love me "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But I just can't be with you like this anymore "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "She's got both hands in her pocket"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And she won't look at you, won't look at you "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "She hides true love, en su bolsillo "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "She's got a halo around her finger, around you  "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You know that I love you, boy "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Hot, like Mexico, rejoice "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "At this point, I've gotta choose"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Nothing to lose "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Don't call my name, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'm not your babe, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Don't wanna kiss, don't wanna touch "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just smoke my cigarette and hush "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:1}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Stop, please, {{q:2}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Alejandro, just {{q:3}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "She's {{q:4}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "She's {{q:5}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But her boyfriend's {{q:6}}, just like her dad "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And all those {{q:7}} before him "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now he's {{q:8}}, gotta cool the bad "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You know that {{q:9}}, boy "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hot, {{q:10}}, rejoice "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "At this point, {{q:11}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:12}} "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:13}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:14}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Don't wanna kiss, {{q:15}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just {{q:16}} and hush "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:17}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:18}}, don't bother me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:19}}, don't call my name "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:20}}, Fernando"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I'm not your babe, I'm not your babe "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Don't wanna kiss"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Don't wanna touch"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Don't call my name, don't call my name "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "I'm not your babe, I'm not your babe "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Don't wanna kiss, don't wanna touch "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just smoke my cigarette and hush "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Don't call my name, don't call my name "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Roberto"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "(Don't call my name, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "(I'm not your babe, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando) "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(Don't wanna kiss, don't wanna touch) Alejandro, Alejandro "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Just smoke my cigarette and hush) "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Don't call my name, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Roberto) "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Alejandro"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-10",
+          "answer": "gotta choose",
+          "options": [
+            "gotta choose",
+            "gotta move",
+            "gotta leave"
+          ],
+          "prompt": "At this point, I've {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-11",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to prove",
+            "Something to lose",
+            "Nothing to lose"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-12",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't shout my name",
+            "Don't call my name",
+            "Don't say my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-13",
+          "answer": "not your babe",
+          "options": [
+            "not your girl",
+            "not your friend",
+            "not your babe"
+          ],
+          "prompt": "I'm {{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-14",
+          "answer": "wanna kiss",
+          "options": [
+            "wanna kiss",
+            "wanna stay",
+            "wanna dance"
+          ],
+          "prompt": "Don't {{blank}}, don't wanna touch ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-15",
+          "answer": "my cigarette",
+          "options": [
+            "my telephone",
+            "my cigarette",
+            "my photograph"
+          ],
+          "prompt": "Just smoke {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-16",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't speak my name",
+            "Don't know my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-21",
+          "answer": "just let me go",
+          "options": [
+            "just leave me here",
+            "just let me go",
+            "just take me home"
+          ],
+          "prompt": "Stop, please, {{blank}} ",
+          "promptZh": "停下來吧，求你了，就放我走吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-22",
+          "answer": "let me go",
+          "options": [
+            "take me back",
+            "hold me close",
+            "let me go"
+          ],
+          "prompt": "Alejandro, just {{blank}}",
+          "promptZh": "Alejandro，請放我走吧"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-23",
+          "answer": "not broken",
+          "options": [
+            "not broken",
+            "not ready",
+            "not sorry"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她並沒有被傷得支離破碎"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-24",
+          "answer": "just a baby",
+          "options": [
+            "just a lady",
+            "just a stranger",
+            "just a baby"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她只是個尚且稚嫩的女孩"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-25",
+          "answer": "like her dad",
+          "options": [
+            "like her friend",
+            "like her brother",
+            "like her dad"
+          ],
+          "prompt": "But her boyfriend's {{blank}}, just like her dad ",
+          "promptZh": "可她的男友卻像她的父親一樣，簡直一模一樣"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-26",
+          "answer": "flames that burned",
+          "options": [
+            "flames that burned",
+            "dreams that faded",
+            "fires that started"
+          ],
+          "prompt": "And all those {{blank}} before him ",
+          "promptZh": "而那些在他出現之前便已燃起的烈焰"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-27",
+          "answer": "gotta firefight",
+          "options": [
+            "gotta firefight",
+            "gotta run away",
+            "gotta make it right"
+          ],
+          "prompt": "Now he's {{blank}}, gotta cool the bad ",
+          "promptZh": "如今都得由他來撲滅，設法平息那些糟糕的事"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-28",
+          "answer": "I love you",
+          "options": [
+            "I trust you",
+            "I know you",
+            "I love you"
+          ],
+          "prompt": "You know that {{blank}}, boy ",
+          "promptZh": "你知道，我是愛你的，親愛的"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-29",
+          "answer": "like Mexico",
+          "options": [
+            "like a sunrise",
+            "like the summer",
+            "like Mexico"
+          ],
+          "prompt": "Hot, {{blank}}, rejoice ",
+          "promptZh": "熱情如墨西哥的烈日，盡情歡騰吧"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-30",
+          "answer": "I've gotta choose",
+          "options": [
+            "I've gotta wait",
+            "I've gotta choose",
+            "I've gotta go"
+          ],
+          "prompt": "At this point, {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-31",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to say",
+            "Nothing to lose",
+            "Something to hide"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-32",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't break my heart",
+            "Don't take my hand"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-33",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm still your babe",
+            "I'm not your babe",
+            "I'm not your friend"
+          ],
+          "prompt": "{{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-34",
+          "answer": "don't wanna touch",
+          "options": [
+            "don't wanna touch",
+            "don't wanna dance",
+            "don't wanna talk"
+          ],
+          "prompt": "Don't wanna kiss, {{blank}} ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-35",
+          "answer": "smoke my cigarette",
+          "options": [
+            "drink my coffee",
+            "smoke my cigarette",
+            "hold my telephone"
+          ],
+          "prompt": "Just {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-36",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call me back",
+            "Don't call my name",
+            "Don't change my mind"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-41",
+          "answer": "Don't bother me",
+          "options": [
+            "Don't remember me",
+            "Don't follow me",
+            "Don't bother me"
+          ],
+          "prompt": "{{blank}}, don't bother me",
+          "promptZh": "別再打擾我，別再糾纏我"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-43",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't say goodbye",
+            "Don't follow me",
+            "Don't call my name"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-44",
+          "answer": "Bye",
+          "options": [
+            "Please",
+            "Bye",
+            "Hello"
+          ],
+          "prompt": "{{blank}}, Fernando",
+          "promptZh": "再見了，Fernando"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-45",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your babe",
+            "I'm still your babe",
+            "I'm not your girl"
+          ],
+          "prompt": "{{blank}}, I'm not your babe ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-47",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna leave",
+            "Don't wanna kiss",
+            "Don't wanna fight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不想親吻"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-48",
+          "answer": "Don't wanna touch",
+          "options": [
+            "Don't wanna touch",
+            "Don't wanna talk",
+            "Don't wanna cry"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "也不想觸碰"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-50",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't say a word",
+            "Don't call my name",
+            "Don't hold my hand"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-52",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your babe",
+            "I'm not your love",
+            "I'm still your babe"
+          ],
+          "prompt": "{{blank}}, I'm not your babe ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-54",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna stay",
+            "Don't wanna smile",
+            "Don't wanna kiss"
+          ],
+          "prompt": "{{blank}}, don't wanna touch ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I know that we are young, and I know that you may love me "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But I just can't be with you like this anymore "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "She's got both hands in her pocket"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And she won't look at you, won't look at you "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "She hides true love, en su bolsillo "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "She's got a halo around her finger, around you  "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You know that I love you, boy "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Hot, like Mexico, rejoice "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "At this point, I've {{q:1}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:2}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:3}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'm {{q:4}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Don't {{q:5}}, don't wanna touch "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just smoke {{q:6}} and hush "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:7}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Stop, please, {{q:8}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Alejandro, just {{q:9}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "She's {{q:10}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "She's {{q:11}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But her boyfriend's {{q:12}}, just like her dad "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And all those {{q:13}} before him "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now he's {{q:14}}, gotta cool the bad "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You know that {{q:15}}, boy "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hot, {{q:16}}, rejoice "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "At this point, {{q:17}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:18}} "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:19}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:20}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Don't wanna kiss, {{q:21}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just {{q:22}} and hush "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:23}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:24}}, don't bother me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:25}}, don't call my name "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:26}}, Fernando"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:27}}, I'm not your babe "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "{{q:30}}, don't call my name "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:31}}, I'm not your babe "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:32}}, don't wanna touch "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just smoke my cigarette and hush "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Don't call my name, don't call my name "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Roberto"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "(Don't call my name, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "(I'm not your babe, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando) "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(Don't wanna kiss, don't wanna touch) Alejandro, Alejandro "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Just smoke my cigarette and hush) "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Don't call my name, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Roberto) "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Alejandro"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-6",
+          "answer": "true love",
+          "options": [
+            "true love",
+            "new love",
+            "first love"
+          ],
+          "prompt": "She hides {{blank}}, en su bolsillo ",
+          "promptZh": "她把真愛藏了起來，藏在自己的口袋裡"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-7",
+          "answer": "a halo",
+          "options": [
+            "a shadow",
+            "a halo",
+            "a ribbon"
+          ],
+          "prompt": "She's got {{blank}} around her finger, around you  ",
+          "promptZh": "她的手指彷彿環繞著一道聖潔的光環，而那光環也圍繞著你"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-8",
+          "answer": "I love you",
+          "options": [
+            "I miss you",
+            "I love you",
+            "I need you"
+          ],
+          "prompt": "You know that {{blank}}, boy ",
+          "promptZh": "你知道，我是愛你的，親愛的"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-9",
+          "answer": "rejoice",
+          "options": [
+            "relax",
+            "remember",
+            "rejoice"
+          ],
+          "prompt": "Hot, like Mexico, {{blank}} ",
+          "promptZh": "熱情如墨西哥的烈日，盡情歡騰吧"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-10",
+          "answer": "gotta choose",
+          "options": [
+            "gotta move",
+            "gotta choose",
+            "gotta leave"
+          ],
+          "prompt": "At this point, I've {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-11",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to lose",
+            "Something to lose",
+            "Nothing to prove"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-12",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't shout my name",
+            "Don't call my name",
+            "Don't say my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-13",
+          "answer": "not your babe",
+          "options": [
+            "not your girl",
+            "not your babe",
+            "not your friend"
+          ],
+          "prompt": "I'm {{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-14",
+          "answer": "wanna kiss",
+          "options": [
+            "wanna kiss",
+            "wanna stay",
+            "wanna dance"
+          ],
+          "prompt": "Don't {{blank}}, don't wanna touch ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "my cigarette",
+          "options": [
+            "my cigarette",
+            "my telephone",
+            "my photograph"
+          ],
+          "prompt": "Just smoke {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-16",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't know my name",
+            "Don't speak my name",
+            "Don't call my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-21",
+          "answer": "just let me go",
+          "options": [
+            "just leave me here",
+            "just let me go",
+            "just take me home"
+          ],
+          "prompt": "Stop, please, {{blank}} ",
+          "promptZh": "停下來吧，求你了，就放我走吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-22",
+          "answer": "let me go",
+          "options": [
+            "let me go",
+            "hold me close",
+            "take me back"
+          ],
+          "prompt": "Alejandro, just {{blank}}",
+          "promptZh": "Alejandro，請放我走吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-23",
+          "answer": "not broken",
+          "options": [
+            "not ready",
+            "not sorry",
+            "not broken"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她並沒有被傷得支離破碎"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-24",
+          "answer": "just a baby",
+          "options": [
+            "just a baby",
+            "just a lady",
+            "just a stranger"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她只是個尚且稚嫩的女孩"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-25",
+          "answer": "like her dad",
+          "options": [
+            "like her dad",
+            "like her friend",
+            "like her brother"
+          ],
+          "prompt": "But her boyfriend's {{blank}}, just like her dad ",
+          "promptZh": "可她的男友卻像她的父親一樣，簡直一模一樣"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-26",
+          "answer": "flames that burned",
+          "options": [
+            "dreams that faded",
+            "fires that started",
+            "flames that burned"
+          ],
+          "prompt": "And all those {{blank}} before him ",
+          "promptZh": "而那些在他出現之前便已燃起的烈焰"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-27",
+          "answer": "gotta firefight",
+          "options": [
+            "gotta make it right",
+            "gotta firefight",
+            "gotta run away"
+          ],
+          "prompt": "Now he's {{blank}}, gotta cool the bad ",
+          "promptZh": "如今都得由他來撲滅，設法平息那些糟糕的事"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-28",
+          "answer": "I love you",
+          "options": [
+            "I love you",
+            "I trust you",
+            "I know you"
+          ],
+          "prompt": "You know that {{blank}}, boy ",
+          "promptZh": "你知道，我是愛你的，親愛的"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-29",
+          "answer": "like Mexico",
+          "options": [
+            "like the summer",
+            "like a sunrise",
+            "like Mexico"
+          ],
+          "prompt": "Hot, {{blank}}, rejoice ",
+          "promptZh": "熱情如墨西哥的烈日，盡情歡騰吧"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-30",
+          "answer": "I've gotta choose",
+          "options": [
+            "I've gotta wait",
+            "I've gotta choose",
+            "I've gotta go"
+          ],
+          "prompt": "At this point, {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-31",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to say",
+            "Something to hide",
+            "Nothing to lose"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-32",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't take my hand",
+            "Don't break my heart",
+            "Don't call my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-33",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm still your babe",
+            "I'm not your babe",
+            "I'm not your friend"
+          ],
+          "prompt": "{{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-34",
+          "answer": "don't wanna touch",
+          "options": [
+            "don't wanna dance",
+            "don't wanna talk",
+            "don't wanna touch"
+          ],
+          "prompt": "Don't wanna kiss, {{blank}} ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-35",
+          "answer": "smoke my cigarette",
+          "options": [
+            "smoke my cigarette",
+            "drink my coffee",
+            "hold my telephone"
+          ],
+          "prompt": "Just {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-36",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't call me back",
+            "Don't change my mind"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-41",
+          "answer": "Don't bother me",
+          "options": [
+            "Don't follow me",
+            "Don't remember me",
+            "Don't bother me"
+          ],
+          "prompt": "{{blank}}, don't bother me",
+          "promptZh": "別再打擾我，別再糾纏我"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-43",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't say goodbye",
+            "Don't follow me",
+            "Don't call my name"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-44",
+          "answer": "Bye",
+          "options": [
+            "Hello",
+            "Bye",
+            "Please"
+          ],
+          "prompt": "{{blank}}, Fernando",
+          "promptZh": "再見了，Fernando"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-45",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your girl",
+            "I'm not your babe",
+            "I'm still your babe"
+          ],
+          "prompt": "{{blank}}, I'm not your babe ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-47",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna leave",
+            "Don't wanna fight",
+            "Don't wanna kiss"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不想親吻"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-48",
+          "answer": "Don't wanna touch",
+          "options": [
+            "Don't wanna touch",
+            "Don't wanna talk",
+            "Don't wanna cry"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "也不想觸碰"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-50",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't hold my hand",
+            "Don't say a word"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-52",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your love",
+            "I'm still your babe",
+            "I'm not your babe"
+          ],
+          "prompt": "{{blank}}, I'm not your babe ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-54",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna smile",
+            "Don't wanna stay",
+            "Don't wanna kiss"
+          ],
+          "prompt": "{{blank}}, don't wanna touch ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-55",
+          "answer": "cigarette and hush",
+          "options": [
+            "coffee and talk",
+            "cigarette and hush",
+            "telephone and wait"
+          ],
+          "prompt": "Just smoke my {{blank}} ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-56",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't take my place",
+            "Don't call my name",
+            "Don't break my heart"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-62",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't know my name",
+            "Don't take my hand"
+          ],
+          "prompt": "({{blank}}, don't call my name) Alejandro, Alejandro  ",
+          "promptZh": "（別再呼喚我的名字，別再叫我了）Alejandro，Alejandro"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-63",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your babe",
+            "I'm not your friend",
+            "I'm still your girl"
+          ],
+          "prompt": "({{blank}}, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando) ",
+          "promptZh": "（我不是你的寶貝，不再是你的愛人）Ale-Alejandro，Ale-Alejandro（Fernando）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I know that we are young, and I know that you may love me "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But I just can't be with you like this anymore "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "She's got both hands in her pocket"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And she won't look at you, won't look at you "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "She hides {{q:1}}, en su bolsillo "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "She's got {{q:2}} around her finger, around you  "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You know that {{q:3}}, boy "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Hot, like Mexico, {{q:4}} "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "At this point, I've {{q:5}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:6}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:7}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'm {{q:8}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Don't {{q:9}}, don't wanna touch "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just smoke {{q:10}} and hush "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:11}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Stop, please, {{q:12}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Alejandro, just {{q:13}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "She's {{q:14}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "She's {{q:15}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But her boyfriend's {{q:16}}, just like her dad "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And all those {{q:17}} before him "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now he's {{q:18}}, gotta cool the bad "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You know that {{q:19}}, boy "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hot, {{q:20}}, rejoice "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "At this point, {{q:21}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:22}} "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:23}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:24}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Don't wanna kiss, {{q:25}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just {{q:26}} and hush "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:27}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:28}}, don't bother me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:29}}, don't call my name "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:30}}, Fernando"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:31}}, I'm not your babe "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "{{q:34}}, don't call my name "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:35}}, I'm not your babe "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:36}}, don't wanna touch "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just smoke my {{q:37}} "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:38}}, don't call my name "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Roberto"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "({{q:39}}, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "({{q:40}}, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando) "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "(Don't wanna kiss, don't wanna touch) Alejandro, Alejandro "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Just smoke my cigarette and hush) "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "(Don't call my name, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Roberto) "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Alejandro"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "we are young",
+          "options": [
+            "we are young",
+            "we are strong",
+            "we were young"
+          ],
+          "prompt": "I know that {{blank}}, and I know that you may love me ",
+          "promptZh": "我知道我們都還年輕，也知道你或許愛著我"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "can't be with you",
+          "options": [
+            "can't stay with you",
+            "can't dance with you",
+            "can't be with you"
+          ],
+          "prompt": "But I just {{blank}} like this anymore ",
+          "promptZh": "但我真的無法再這樣與你繼續下去了"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "both hands",
+          "options": [
+            "two feet",
+            "both hands",
+            "one hand"
+          ],
+          "prompt": "She's got {{blank}} in her pocket",
+          "promptZh": "她將雙手插在口袋裡"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "won't look at you",
+          "options": [
+            "won't smile at you",
+            "won't talk to you",
+            "won't look at you"
+          ],
+          "prompt": "And she {{blank}}, won't look at you ",
+          "promptZh": "她不願看你一眼，連一眼也不願"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "true love",
+          "options": [
+            "true love",
+            "first love",
+            "new love"
+          ],
+          "prompt": "She hides {{blank}}, en su bolsillo ",
+          "promptZh": "她把真愛藏了起來，藏在自己的口袋裡"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "a halo",
+          "options": [
+            "a shadow",
+            "a halo",
+            "a ribbon"
+          ],
+          "prompt": "She's got {{blank}} around her finger, around you  ",
+          "promptZh": "她的手指彷彿環繞著一道聖潔的光環，而那光環也圍繞著你"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "I love you",
+          "options": [
+            "I need you",
+            "I miss you",
+            "I love you"
+          ],
+          "prompt": "You know that {{blank}}, boy ",
+          "promptZh": "你知道，我是愛你的，親愛的"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "rejoice",
+          "options": [
+            "relax",
+            "rejoice",
+            "remember"
+          ],
+          "prompt": "Hot, like Mexico, {{blank}} ",
+          "promptZh": "熱情如墨西哥的烈日，盡情歡騰吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "gotta choose",
+          "options": [
+            "gotta move",
+            "gotta leave",
+            "gotta choose"
+          ],
+          "prompt": "At this point, I've {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to prove",
+            "Something to lose",
+            "Nothing to lose"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't say my name",
+            "Don't call my name",
+            "Don't shout my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "not your babe",
+          "options": [
+            "not your friend",
+            "not your girl",
+            "not your babe"
+          ],
+          "prompt": "I'm {{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-14",
+          "answer": "wanna kiss",
+          "options": [
+            "wanna dance",
+            "wanna stay",
+            "wanna kiss"
+          ],
+          "prompt": "Don't {{blank}}, don't wanna touch ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-15",
+          "answer": "my cigarette",
+          "options": [
+            "my cigarette",
+            "my telephone",
+            "my photograph"
+          ],
+          "prompt": "Just smoke {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-16",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't speak my name",
+            "Don't call my name",
+            "Don't know my name"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-21",
+          "answer": "just let me go",
+          "options": [
+            "just take me home",
+            "just leave me here",
+            "just let me go"
+          ],
+          "prompt": "Stop, please, {{blank}} ",
+          "promptZh": "停下來吧，求你了，就放我走吧"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-22",
+          "answer": "let me go",
+          "options": [
+            "hold me close",
+            "let me go",
+            "take me back"
+          ],
+          "prompt": "Alejandro, just {{blank}}",
+          "promptZh": "Alejandro，請放我走吧"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-23",
+          "answer": "not broken",
+          "options": [
+            "not broken",
+            "not ready",
+            "not sorry"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她並沒有被傷得支離破碎"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-24",
+          "answer": "just a baby",
+          "options": [
+            "just a stranger",
+            "just a lady",
+            "just a baby"
+          ],
+          "prompt": "She's {{blank}}",
+          "promptZh": "她只是個尚且稚嫩的女孩"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-25",
+          "answer": "like her dad",
+          "options": [
+            "like her dad",
+            "like her brother",
+            "like her friend"
+          ],
+          "prompt": "But her boyfriend's {{blank}}, just like her dad ",
+          "promptZh": "可她的男友卻像她的父親一樣，簡直一模一樣"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-26",
+          "answer": "flames that burned",
+          "options": [
+            "dreams that faded",
+            "fires that started",
+            "flames that burned"
+          ],
+          "prompt": "And all those {{blank}} before him ",
+          "promptZh": "而那些在他出現之前便已燃起的烈焰"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-27",
+          "answer": "gotta firefight",
+          "options": [
+            "gotta run away",
+            "gotta firefight",
+            "gotta make it right"
+          ],
+          "prompt": "Now he's {{blank}}, gotta cool the bad ",
+          "promptZh": "如今都得由他來撲滅，設法平息那些糟糕的事"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-28",
+          "answer": "I love you",
+          "options": [
+            "I trust you",
+            "I know you",
+            "I love you"
+          ],
+          "prompt": "You know that {{blank}}, boy ",
+          "promptZh": "你知道，我是愛你的，親愛的"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-29",
+          "answer": "like Mexico",
+          "options": [
+            "like the summer",
+            "like Mexico",
+            "like a sunrise"
+          ],
+          "prompt": "Hot, {{blank}}, rejoice ",
+          "promptZh": "熱情如墨西哥的烈日，盡情歡騰吧"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-30",
+          "answer": "I've gotta choose",
+          "options": [
+            "I've gotta choose",
+            "I've gotta wait",
+            "I've gotta go"
+          ],
+          "prompt": "At this point, {{blank}}",
+          "promptZh": "事到如今，我必須作出抉擇"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-31",
+          "answer": "Nothing to lose",
+          "options": [
+            "Nothing to lose",
+            "Something to hide",
+            "Nothing to say"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "反正已經沒什麼可失去的了"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-32",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't take my hand",
+            "Don't call my name",
+            "Don't break my heart"
+          ],
+          "prompt": "{{blank}}, don't call my name, Alejandro ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Alejandro"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-33",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your babe",
+            "I'm still your babe",
+            "I'm not your friend"
+          ],
+          "prompt": "{{blank}}, I'm not your babe, Fernando ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人，Fernando"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-34",
+          "answer": "don't wanna touch",
+          "options": [
+            "don't wanna dance",
+            "don't wanna touch",
+            "don't wanna talk"
+          ],
+          "prompt": "Don't wanna kiss, {{blank}} ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-35",
+          "answer": "smoke my cigarette",
+          "options": [
+            "smoke my cigarette",
+            "drink my coffee",
+            "hold my telephone"
+          ],
+          "prompt": "Just {{blank}} and hush ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-36",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't change my mind",
+            "Don't call me back"
+          ],
+          "prompt": "{{blank}}, don't call my name, Roberto ",
+          "promptZh": "別再呼喚我的名字，別再叫我了，Roberto"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-41",
+          "answer": "Don't bother me",
+          "options": [
+            "Don't remember me",
+            "Don't bother me",
+            "Don't follow me"
+          ],
+          "prompt": "{{blank}}, don't bother me",
+          "promptZh": "別再打擾我，別再糾纏我"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-43",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't call my name",
+            "Don't say goodbye",
+            "Don't follow me"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-44",
+          "answer": "Bye",
+          "options": [
+            "Bye",
+            "Hello",
+            "Please"
+          ],
+          "prompt": "{{blank}}, Fernando",
+          "promptZh": "再見了，Fernando"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-45",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm still your babe",
+            "I'm not your girl",
+            "I'm not your babe"
+          ],
+          "prompt": "{{blank}}, I'm not your babe ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-47",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna kiss",
+            "Don't wanna leave",
+            "Don't wanna fight"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我不想親吻"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-48",
+          "answer": "Don't wanna touch",
+          "options": [
+            "Don't wanna cry",
+            "Don't wanna touch",
+            "Don't wanna talk"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "也不想觸碰"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-50",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't hold my hand",
+            "Don't say a word",
+            "Don't call my name"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-52",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm not your babe",
+            "I'm not your love",
+            "I'm still your babe"
+          ],
+          "prompt": "{{blank}}, I'm not your babe ",
+          "promptZh": "我不是你的寶貝，不再是你的愛人"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-54",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna stay",
+            "Don't wanna kiss",
+            "Don't wanna smile"
+          ],
+          "prompt": "{{blank}}, don't wanna touch ",
+          "promptZh": "我不想親吻，也不想有任何觸碰"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-55",
+          "answer": "cigarette and hush",
+          "options": [
+            "cigarette and hush",
+            "coffee and talk",
+            "telephone and wait"
+          ],
+          "prompt": "Just smoke my {{blank}} ",
+          "promptZh": "只想靜靜抽著我的菸，別再說話"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-56",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't break my heart",
+            "Don't call my name",
+            "Don't take my place"
+          ],
+          "prompt": "{{blank}}, don't call my name ",
+          "promptZh": "別再呼喚我的名字，別再叫我了"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-62",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't take my hand",
+            "Don't call my name",
+            "Don't know my name"
+          ],
+          "prompt": "({{blank}}, don't call my name) Alejandro, Alejandro  ",
+          "promptZh": "（別再呼喚我的名字，別再叫我了）Alejandro，Alejandro"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-63",
+          "answer": "I'm not your babe",
+          "options": [
+            "I'm still your girl",
+            "I'm not your friend",
+            "I'm not your babe"
+          ],
+          "prompt": "({{blank}}, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando) ",
+          "promptZh": "（我不是你的寶貝，不再是你的愛人）Ale-Alejandro，Ale-Alejandro（Fernando）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-64",
+          "answer": "Don't wanna kiss",
+          "options": [
+            "Don't wanna kiss",
+            "Don't wanna dance",
+            "Don't wanna leave"
+          ],
+          "prompt": "({{blank}}, don't wanna touch) Alejandro, Alejandro ",
+          "promptZh": "（不想親吻，也不想觸碰）Alejandro，Alejandro"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-65",
+          "answer": "Just smoke my cigarette",
+          "options": [
+            "Just drink my coffee",
+            "Just smoke my cigarette",
+            "Just hold my telephone"
+          ],
+          "prompt": "Ale-Alejandro, Ale-Alejandro ({{blank}} and hush) ",
+          "promptZh": "Ale-Alejandro，Ale-Alejandro（只想靜靜抽著我的菸，別再說話）"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-66",
+          "answer": "Don't call my name",
+          "options": [
+            "Don't say my name",
+            "Don't change my mind",
+            "Don't call my name"
+          ],
+          "prompt": "({{blank}}, don't call my name) Alejandro, Alejandro  ",
+          "promptZh": "（別再呼喚我的名字，別再叫我了）Alejandro，Alejandro"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I know that {{q:1}}, and I know that you may love me "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "But I just {{q:2}} like this anymore "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "She's got {{q:3}} in her pocket"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "And she {{q:4}}, won't look at you "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "She hides {{q:5}}, en su bolsillo "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "She's got {{q:6}} around her finger, around you  "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "You know that {{q:7}}, boy "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Hot, like Mexico, {{q:8}} "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "At this point, I've {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:10}} "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:11}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'm {{q:12}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Don't {{q:13}}, don't wanna touch "
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Just smoke {{q:14}} and hush "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:15}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Stop, please, {{q:16}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Alejandro, just {{q:17}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "She's {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "She's {{q:19}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "But her boyfriend's {{q:20}}, just like her dad "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "And all those {{q:21}} before him "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Now he's {{q:22}}, gotta cool the bad "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "You know that {{q:23}}, boy "
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Hot, {{q:24}}, rejoice "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "At this point, {{q:25}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:26}} "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:27}}, don't call my name, Alejandro "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:28}}, I'm not your babe, Fernando "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Don't wanna kiss, {{q:29}} "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Just {{q:30}} and hush "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:31}}, don't call my name, Roberto "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:32}}, don't bother me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:33}}, don't call my name "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:34}}, Fernando"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:35}}, I'm not your babe "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "{{q:38}}, don't call my name "
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Alejandro"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:39}}, I'm not your babe "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Fernando"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:40}}, don't wanna touch "
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Just smoke my {{q:41}} "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:42}}, don't call my name "
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Roberto"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Alejandro, Alejandro"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Ale-Alejandro, Ale-Alejandro "
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "({{q:43}}, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "({{q:44}}, I'm not your babe) Ale-Alejandro, Ale-Alejandro (Fernando) "
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "({{q:45}}, don't wanna touch) Alejandro, Alejandro "
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Ale-Alejandro, Ale-Alejandro ({{q:46}} and hush) "
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "({{q:47}}, don't call my name) Alejandro, Alejandro  "
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Ale-Alejandro, Ale-Alejandro (Roberto) "
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Alejandro"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 47
+    }
+  ],
+  "exercise_name": "Alejandro · Listening & Vocabulary",
+  "description": "《Alejandro》描寫一段充滿愛慕、矛盾與掙扎的感情，以及渴望擺脫束縛、重新找回自由的心情。歌中的主角承認自己仍然對對方懷有愛意，卻逐漸明白這段關係已經無法繼續。面對過去的激情與難以割捨的情感，她選擇保持距離，拒絕親吻與親密接觸，希望對方能尊重自己的決定。歌曲反覆呼喚不同的名字，營造出充滿糾葛與不捨的氛圍，也突顯她內心的矛盾。最終，《Alejandro》傳達的是愛情中的掙扎、放手與自我自主：即使心中仍然存在感情，也有權選擇離開一段令自己不安的關係，勇敢劃清界線，重新掌握屬於自己的幸福與人生。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "In her pocket",
+      "meaning": "在她的口袋裡。",
+      "usage": "想說某件小東西放在某人的口袋裡，可以用 in + 所有格 + pocket，例如 in her pocket。",
+      "prompt": "哪一句正確使用「in her pocket」表示東西在她的口袋裡？",
+      "options": [
+        "Mia keeps her house key in her pocket.",
+        "Her pocket is in her because the coat forgot where to live.",
+        "The bank put the whole street in her pocket to save space.",
+        "The airport said the airplane was in her pocket, so the flight was late."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "鑰匙是能放入口袋的小物品；in her pocket 清楚表示位置。",
+        "in her pocket 表示物品位於口袋裡，不是口袋住在某人身體裡；可說 Her coat has a pocket.",
+        "街道不可能整條放進她的口袋；把口袋當成城市的收納空間。可說 The bank is on that street.",
+        "飛機不能因為「在她的口袋裡」而延誤；可說 The airplane is at the airport, but the flight is late."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "鑰匙是能放入口袋的小物品；in her pocket 清楚表示位置。",
+      "sourceOptionOrder": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Hide",
+      "meaning": "藏起來、躲藏。",
+      "usage": "不想讓別人看到某件東西，或不想被發現時，可以用 hide；過去式是 hid。",
+      "prompt": "哪一句正確使用「hide」？",
+      "options": [
+        "The clock hides seven o'clock because it is not ready for work.",
+        "Please hide the soup until it becomes a famous singer.",
+        "I hide my lunch at twelve, so now I am full.",
+        "Leo hid the birthday gift under his bed."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "時鐘顯示時間，不是把七點藏起來等它上班；可說 The clock shows seven o'clock.",
+        "把湯藏起來不會使它成為歌手；可說 Please put the soup in the fridge.",
+        "hide 是藏起來，不是吃東西；可說 I ate my lunch at twelve.",
+        "為了不讓別人看到生日禮物，把它藏在床下；過去式 hid 也正確。"
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "為了不讓別人看到生日禮物，把它藏在床下；過去式 hid 也正確。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Halo",
+      "meaning": "光環，常畫在天使或聖人頭部周圍。",
+      "usage": "描述畫作或故事中人物頭部周圍的光圈時，可以用 halo。歌詞把光環放在手指周圍，是較特別的意象。",
+      "prompt": "哪一句正確使用「halo」表示光環？",
+      "options": [
+        "The hotel gave every guest a halo because the towels were late.",
+        "The doctor said my headache was a halo and gave it a chair.",
+        "In the painting, the angel has a gold halo above her head.",
+        "I halo to the station every morning at eight."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "halo 不是旅館遲交毛巾時發給客人的補償品；可說 The hotel gave every guest a clean towel.",
+        "頭痛不是光環，也不需要椅子；可說 The doctor gave me medicine for my headache.",
+        "畫中的天使頭部有金色光環，符合 halo 的常見意思。",
+        "halo 是名詞，不能當「去車站」的動詞；可說 I go to the station every morning at eight."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "畫中的天使頭部有金色光環，符合 halo 的常見意思。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "At this point",
+      "meaning": "到了這個時候、事到如今。",
+      "usage": "事情進行到某個階段，需要說明目前情況或作出決定時，可以用 at this point。",
+      "prompt": "哪一句正確使用「at this point」表示「事到如今」？",
+      "options": [
+        "We have waited for two hours. At this point, let's go home.",
+        "At this point is sleeping under the table. Please do not wake it.",
+        "Please at this point the door before you leave.",
+        "The shop sells three points, but at this point costs more on Sundays."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "已經等了兩小時，因此「到這個時候」決定回家，很自然。",
+        "把表示「目前階段」的片語當成會睡覺的東西；可說 The cat is sleeping under the table.",
+        "at this point 不是「關門」的動詞；可說 Please close the door before you leave.",
+        "把 point 誤認為商店可以單獨販售的商品；at this point 在本題不是商品名稱。若要說週日商品比較貴，可說 Things cost more here on Sundays."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "已經等了兩小時，因此「到這個時候」決定回家，很自然。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Nothing to lose",
+      "meaning": "沒什麼可失去的；反正試試也不會有損失。",
+      "usage": "覺得嘗試某件事沒有太大風險，或已經沒有什麼可失去時，可以說 have nothing to lose。",
+      "prompt": "哪一句正確使用「nothing to lose」？",
+      "options": [
+        "My suitcase has nothing to lose because it has never been to school.",
+        "The sign says “Nothing to lose.” Please put your lost items in this box of nothing.",
+        "The race is free, and I want to try. I have nothing to lose.",
+        "The museum lost nothing to lose, so it called the lost-and-found office."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "行李箱沒上過學與「沒有損失或風險」無關；可說 My suitcase is empty.",
+        "把片語當成失物招領箱裡的一種物品；可說 Please put lost items in this box.",
+        "比賽不用報名費，想試試看，說自己「沒什麼可失去的」符合語境。",
+        "nothing to lose 不是遺失物品的名稱，也不能像一件東西那樣弄丟；可說 The museum lost an old map."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "比賽不用報名費，想試試看，說自己「沒什麼可失去的」符合語境。",
+      "sourceOptionOrder": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Call my name",
+      "meaning": "叫我的名字、呼喚我的名字。",
+      "usage": "想請對方用名字叫你，或描述某人喊出你的名字時，可以用 call my name。",
+      "prompt": "哪一句正確使用「call my name」表示呼喚名字？",
+      "options": [
+        "My name called the fire station because the letters were too hot.",
+        "When it's my turn, please call my name so I can come in.",
+        "Please call my name with a fork; the spoon is busy today.",
+        "The computer called my name a potato and sent it to the kitchen."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "名字本身不能打電話給消防隊；字母也不會因為太熱而報警。可說 I called the fire station.",
+        "輪到自己時請對方叫出名字，正確。",
+        "call my name 是出聲呼喚名字，不是用叉子進行的動作；可說 Please say my name.",
+        "把人的名字叫作馬鈴薯，再送進廚房，混淆「命名」與「呼喚」的意思；可說 The computer showed my name on the screen."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "輪到自己時請對方叫出名字，正確。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Babe",
+      "meaning": "寶貝、親愛的（對親近的人使用的稱呼）。",
+      "usage": "伴侶之間有時會用 babe 親暱地稱呼對方。這不是適合對每個人使用的稱呼。",
+      "prompt": "哪一句正確使用「babe」作為親暱稱呼？",
+      "options": [
+        "The weather report says tomorrow will be very babe.",
+        "He smiled at his girlfriend and said, “Good morning, babe.”",
+        "The train is a babe, so it must ask its parents before leaving.",
+        "The post office sent me a babe because my letter was too heavy."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "babe 不是形容天氣的形容詞；可說 Tomorrow will be very hot.",
+        "對女朋友使用 babe 作為親暱稱呼，符合常見的口語用法；是否喜歡這個稱呼仍看個人。",
+        "把火車當成需要父母批准才能出發的孩子；可說 The train leaves at six.",
+        "babe 不是郵局因信件太重而寄出的物品；可說 The post office sent my letter back."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "對女朋友使用 babe 作為親暱稱呼，符合常見的口語用法；是否喜歡這個稱呼仍看個人。",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Let me go",
+      "meaning": "讓我走、放開我。",
+      "usage": "想請某人允許自己離開，或停止抓住自己時，可以說 let me go。語氣可能相當直接。",
+      "prompt": "哪一句正確使用「let me go」表示「放我走」？",
+      "options": [
+        "The fridge let me go cold because it wanted to save money.",
+        "The school let me go inside a pencil because the classroom was full.",
+        "My umbrella said, “Let me go,” and applied for a new job.",
+        "Please let me go. I need to catch the last train."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "冰箱不會「讓我走得很冷」；可說 The fridge keeps food cold.",
+        "人不能走進鉛筆裡上課；可說 The school let me go into the classroom.",
+        "雨傘不會自行提出離職要求；把 let me go 當成雨傘對主人的正式請求。可說 I left my umbrella at home.",
+        "想離開去搭末班車，請對方讓自己走，符合用法。"
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "想離開去搭末班車，請對方讓自己走，符合用法。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Bother",
+      "meaning": "打擾、煩擾、使某人困擾。",
+      "usage": "不想打擾正在忙的人，可以說 I don't want to bother you；請別人不要再打擾自己，可以說 Don't bother me。",
+      "prompt": "哪一句正確使用「bother」表示打擾別人？",
+      "options": [
+        "Please bother the window open before the rain starts.",
+        "I don't want to bother you while you're working.",
+        "The supermarket gave me a bother with my change, but I wanted coins.",
+        "The calendar bothers thirty days into one hour because it is late."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "bother 不能當「打開窗戶」使用；可說 Please open the window before the rain starts.",
+        "不想在對方工作時打擾他，正確。",
+        "bother 在這裡不是超市找零時交給你的物品；可說 The supermarket gave me coins as change.",
+        "bother 不是把三十天壓縮成一小時的動詞；可說 The calendar shows the days of the month."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "不想在對方工作時打擾他，正確。",
+      "sourceOptionOrder": [
+        "B",
+        "C",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Hush",
+      "meaning": "安靜、別出聲；可以用來請人降低音量。",
+      "usage": "想要某人安靜時，可說 Hush!。它很直接，對成人說可能顯得不禮貌；較客氣可說 Please be quiet.",
+      "prompt": "哪一句正確使用「hush」表示「安靜」？",
+      "options": [
+        "“Hush, please. The baby is asleep,” she said softly.",
+        "My ticket needs a hush because it lost its voice on the train.",
+        "The newspaper announced that all the chairs must hush before midnight.",
+        "I hush a picture on the wall because it is too heavy."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "嬰兒睡著了，輕聲請人安靜，語意正確；也可使用更客氣的 Please be quiet.",
+        "車票不會因為失聲而需要「安靜」；可說 I lost my ticket on the train.",
+        "椅子不會說話，報紙也不需要命令它們在午夜前安靜；可說 The newspaper asks people to be quiet at night.",
+        "hush 不是「把畫掛上牆」；可說 I hang a picture on the wall."
+      ],
+      "sourceFile": "Alejandro_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "context": "教學提醒：：可以先讓學生獨立作答，再請他們解釋錯誤選項「究竟把這個詞誤認成什麼」。荒謬句子的作用是讓用法更容易被記住，不需要學生模仿造句。最後可請學生以一個自然、正確的英文句子使用目標詞彙。\n歌曲語境提醒：：Alejandro 描寫情感與拒絕，但歌詞沒有交代所有關係細節。本練習只教授用法，不將可能的歌詞詮釋說成確定事實。題目例句為教學原創句，並非歌詞引述。",
+      "explanation": "嬰兒睡著了，輕聲請人安靜，語意正確；也可使用更客氣的 Please be quiet.",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    }
+  ],
+  "tags": [
+    "lady gaga",
+    "alejandro"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/alejandro/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/alejandro/user-cover-20261101.png",
+  "singer": "Lady Gaga",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 274.2133125,
+    "audioSha256": "b532bee0ebb6bff063050bac550e3bfc9e4daaa8cd2b8c383b6d22e82a1b1610",
+    "timedLines": 47,
+    "untimedLines": 21,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Alejandro\".pdf",
+      "sha256": "e27a409e7826bb40518f5592a356aa0d1951a59ca6fe3cdf0623a41365bf92ea"
+    },
+    "mp3": {
+      "filename": "Alejandro [e6NIlIMSVdg].mp3",
+      "sha256": "b532bee0ebb6bff063050bac550e3bfc9e4daaa8cd2b8c383b6d22e82a1b1610"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-3639a24f-6011-40ad-8af7-62931639e537.png",
+    "sha256": "2ecc0a28cbc7b77d0c114d5d89796381e1c7d62b2917cb712be440f7645b3e46",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

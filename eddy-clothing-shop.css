@@ -26,3 +26,23 @@
 .expression-closet-shop h4,.expression-closet-shop .closet-save-status,.expression-closet-shop [data-shop-status]{color:#fff1ce;text-shadow:0 1px 3px #000}
 .expression-closet-shop button:focus-visible,.expression-closet-shop input:focus-visible{outline:3px solid #f2d47f;outline-offset:3px}
 @media(max-width:900px){.expression-closet:has(.expression-closet-shop){width:calc(100vw - 12px);height:calc(100dvh - 12px);overflow:auto}.expression-closet:has(.expression-closet-shop) .expression-closet-workspace{display:flex;flex-direction:column;height:auto}.expression-closet-room{flex:none;height:min(62dvh,540px);min-height:380px}.expression-closet:has(.expression-closet-shop) .expression-closet-stage{min-height:0}.expression-closet-shop{flex:none;height:auto;overflow:visible}.expression-closet-shop .clothing-shop-catalog{padding:18px 5% 36px}}
+
+/* Clothing selection is a free try-on; the separate button is the only checkout. */
+.closet-try-on-help{padding:12px 14px;border:1px solid #bba36b;border-radius:10px;background:#f8efd9;color:#344538;font-size:12px;line-height:1.6}
+.closet-shop-card{display:flex;flex-direction:column;gap:7px;min-width:0}
+.closet-shop-card .expression-closet-item{flex:1}
+.closet-shop-card .closet-buy-button{width:100%;min-height:40px;padding:9px 8px;border:1px solid #c5a76a;border-radius:9px;background:#28513d;color:#fff7e6;font:600 12px/1.4 system-ui,sans-serif;cursor:pointer}
+.closet-shop-card .closet-buy-button:hover:not(:disabled){background:#386d52}
+.closet-shop-card .closet-buy-button:disabled{background:#e3dccb;color:#736d60;cursor:not-allowed;box-shadow:none}
+.closet-shop-card .closet-buy-button[hidden]{display:none}
+.closet-shop-card .closet-buy-button:focus-visible{outline:3px solid #e8b77c;outline-offset:2px}
+
+/* Purchase celebration stays inside the open native closet dialog (the top layer). */
+.eddy-closet-purchase-overlay{position:fixed;inset:0;z-index:100;display:flex;align-items:flex-end;justify-content:center;background:#0a0f1b99}
+.eddy-closet-purchase-dismiss{display:flex;align-items:flex-end;justify-content:center;width:100%;height:100%;padding:16px 16px max(16px,env(safe-area-inset-bottom));border:0;background:transparent!important;cursor:pointer}
+.eddy-closet-purchase-dismiss:focus-visible{outline:3px solid #f8ca57;outline-offset:-6px}
+.eddy-closet-purchase-art{position:relative;display:block;width:min(100%,940px,calc((100dvh - 32px)*1.7768));aspect-ratio:1672/941;flex:none}
+.eddy-closet-purchase-art img{display:block;width:100%;height:100%;object-fit:contain}
+.eddy-closet-purchase-message{position:absolute;left:5.2%;right:13%;top:73.7%;bottom:7.5%;display:flex;flex-direction:column;align-items:flex-start;justify-content:center;gap:.12em;padding:0 1.4%;border-radius:1.2em;background:linear-gradient(180deg,#fff0c9,#fff1d0 55%,#ffedc2);color:#30120c;font:700 clamp(12px,2.9vw,28px)/1.28 'Noto Sans TC','PingFang TC','Microsoft JhengHei',sans-serif;text-align:left}
+.eddy-closet-purchase-message strong{font-size:1.15em;font-weight:800}
+@media(max-width:560px){.eddy-closet-purchase-dismiss{align-items:center}.eddy-closet-purchase-art{width:100%}.eddy-closet-purchase-message{top:72%;right:3%;bottom:auto;left:3%;min-height:82px;padding:8px 28px 8px 11px;border:3px solid #a85729;border-radius:14px;box-shadow:0 4px 0 #61301c;font-size:clamp(12px,3.3vw,16px)}}

@@ -1,0 +1,3262 @@
+{
+  "title": "Paparazzi",
+  "slug": "paparazzi",
+  "translations": [
+    {
+      "english": "We are the crowd, we're c-comin' out",
+      "chinese": "我們就是那群人，正紛紛、紛紛現身",
+      "lineId": "line-1",
+      "startSeconds": 7.86,
+      "endSeconds": 11.74
+    },
+    {
+      "english": "Got my flash on, it's true",
+      "chinese": "我已打開相機閃光燈，千真萬確",
+      "lineId": "line-2",
+      "startSeconds": 11.74,
+      "endSeconds": 13.74
+    },
+    {
+      "english": "Need that picture of you, it's so magical",
+      "chinese": "我一定要拍下你的身影，那畫面如此令人著迷",
+      "lineId": "line-3",
+      "startSeconds": 14.44,
+      "endSeconds": 17.82
+    },
+    {
+      "english": "We'd be so fantastical",
+      "chinese": "我們在一起，將會如夢似幻",
+      "lineId": "line-4",
+      "startSeconds": 17.82,
+      "endSeconds": 21.98
+    },
+    {
+      "english": "Leather and jeans, garage glamorous",
+      "chinese": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力",
+      "lineId": "line-5"
+    },
+    {
+      "english": "Not sure what it means",
+      "chinese": "我也說不清這究竟意味著什麼",
+      "lineId": "line-6",
+      "startSeconds": 28.14,
+      "endSeconds": 30.5
+    },
+    {
+      "english": "But this photo of us, it don't have a price",
+      "chinese": "但這張你我的合照，卻是無價之寶",
+      "lineId": "line-7",
+      "startSeconds": 30.94,
+      "endSeconds": 34.96
+    },
+    {
+      "english": "Ready for those flashing lights",
+      "chinese": "我已準備好迎接那些閃爍的鎂光燈",
+      "lineId": "line-8",
+      "startSeconds": 34.96,
+      "endSeconds": 39.06
+    },
+    {
+      "english": "'Cause you know that, baby, I",
+      "chinese": "因為你知道，寶貝，我……",
+      "lineId": "line-9",
+      "startSeconds": 39.06,
+      "endSeconds": 41.26
+    },
+    {
+      "english": "I'm your biggest fan, I'll follow you until you love me",
+      "chinese": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我",
+      "lineId": "line-10",
+      "startSeconds": 41.68,
+      "endSeconds": 47.8
+    },
+    {
+      "english": "Papa-paparazzi",
+      "chinese": "狗、狗仔隊",
+      "lineId": "line-11"
+    },
+    {
+      "english": "Baby, there's no other superstar, you know that I'll be",
+      "chinese": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為",
+      "lineId": "line-12",
+      "startSeconds": 49.52,
+      "endSeconds": 54.52
+    },
+    {
+      "english": "Your papa-paparazzi",
+      "chinese": "專屬於你的狗、狗仔隊",
+      "lineId": "line-13"
+    },
+    {
+      "english": "Promise I'll be kind",
+      "chinese": "我保證會溫柔待你",
+      "lineId": "line-14"
+    },
+    {
+      "english": "But I won't stop until that boy is mine",
+      "chinese": "但在那個男孩真正屬於我之前，我絕不罷休",
+      "lineId": "line-15",
+      "startSeconds": 60.76,
+      "endSeconds": 65.16
+    },
+    {
+      "english": "Baby, you'll be famous, chase you down until you love me",
+      "chinese": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我",
+      "lineId": "line-16",
+      "startSeconds": 66.76,
+      "endSeconds": 71.86
+    },
+    {
+      "english": "Papa-paparazzi",
+      "chinese": "狗、狗仔隊",
+      "lineId": "line-17"
+    },
+    {
+      "english": "I'll be your girl backstage at your show",
+      "chinese": "在你的演出後臺，我會是陪伴你的女孩",
+      "lineId": "line-18",
+      "startSeconds": 82.98,
+      "endSeconds": 86.86
+    },
+    {
+      "english": "Velvet ropes and guitars",
+      "chinese": "絲絨圍繩與吉他環繞四周",
+      "lineId": "line-19",
+      "startSeconds": 87.4,
+      "endSeconds": 88.86
+    },
+    {
+      "english": "Yeah, 'cause you're my rock star in between the sets",
+      "chinese": "是啊，即使在演出場次之間，你仍是我心中的搖滾巨星",
+      "lineId": "line-20",
+      "startSeconds": 89.4,
+      "endSeconds": 93.36
+    },
+    {
+      "english": "Eyeliner and cigarettes",
+      "chinese": "眼線與香菸，交織出後臺的迷離氣息",
+      "lineId": "line-21"
+    },
+    {
+      "english": "Shadow is burnt, yellow, dance and we turn",
+      "chinese": "影子彷彿被灼成金黃，我們隨著舞步旋轉",
+      "lineId": "line-22"
+    },
+    {
+      "english": "My lashes are dry",
+      "chinese": "我的睫毛已經乾了",
+      "lineId": "line-23",
+      "startSeconds": 103.48,
+      "endSeconds": 105.7
+    },
+    {
+      "english": "Purple teardrops I cry, it don't have a price",
+      "chinese": "我流下紫色的淚珠，而這一切無法用金錢衡量",
+      "lineId": "line-24",
+      "startSeconds": 106.0,
+      "endSeconds": 110.2
+    },
+    {
+      "english": "Loving you is cherry pie",
+      "chinese": "愛著你，就像品嚐櫻桃派般甜美",
+      "lineId": "line-25"
+    },
+    {
+      "english": "'Cause you know that, baby, I",
+      "chinese": "因為你知道，寶貝，我……",
+      "lineId": "line-26",
+      "startSeconds": 114.28,
+      "endSeconds": 116.34
+    },
+    {
+      "english": "I'm your biggest fan, I'll follow you until you love me",
+      "chinese": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我",
+      "lineId": "line-27",
+      "startSeconds": 116.72,
+      "endSeconds": 122.2
+    },
+    {
+      "english": "Papa-paparazzi",
+      "chinese": "狗、狗仔隊",
+      "lineId": "line-28",
+      "startSeconds": 122.2,
+      "endSeconds": 124.84
+    },
+    {
+      "english": "Baby, there's no other superstar, you know that I'll be",
+      "chinese": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為",
+      "lineId": "line-29",
+      "startSeconds": 124.84,
+      "endSeconds": 130.1
+    },
+    {
+      "english": "Your papa-paparazzi",
+      "chinese": "專屬於你的狗、狗仔隊",
+      "lineId": "line-30",
+      "startSeconds": 130.1,
+      "endSeconds": 133.32
+    },
+    {
+      "english": "Promise I'll be kind",
+      "chinese": "我保證會溫柔待你",
+      "lineId": "line-31",
+      "startSeconds": 133.32,
+      "endSeconds": 135.92
+    },
+    {
+      "english": "But I won't stop until that boy is mine",
+      "chinese": "但在那個男孩真正屬於我之前，我絕不罷休",
+      "lineId": "line-32",
+      "startSeconds": 135.92,
+      "endSeconds": 140.2
+    },
+    {
+      "english": "Baby, you'll be famous, chase you down until you love me",
+      "chinese": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我",
+      "lineId": "line-33",
+      "startSeconds": 141.82,
+      "endSeconds": 147.0
+    },
+    {
+      "english": "Papa-paparazzi",
+      "chinese": "狗、狗仔隊",
+      "lineId": "line-34",
+      "startSeconds": 147.0,
+      "endSeconds": 150.04
+    },
+    {
+      "english": "Real good, we dance in the studio",
+      "chinese": "真是痛快，我們在錄音室裡盡情起舞",
+      "lineId": "line-35",
+      "startSeconds": 150.04,
+      "endSeconds": 154.2
+    },
+    {
+      "english": "Snap, snap to that shit on the radio",
+      "chinese": "隨著收音機裡那首帶勁的歌，喀嚓、喀嚓地打著拍子",
+      "lineId": "line-36",
+      "startSeconds": 154.2,
+      "endSeconds": 158.4
+    },
+    {
+      "english": "Don't stop for anyone",
+      "chinese": "不為任何人停下腳步",
+      "lineId": "line-37",
+      "startSeconds": 158.4,
+      "endSeconds": 161.88
+    },
+    {
+      "english": "We're plastic, but we still have fun!",
+      "chinese": "我們雖然虛假做作，卻依然玩得盡興！",
+      "lineId": "line-38",
+      "startSeconds": 161.88,
+      "endSeconds": 166.46
+    },
+    {
+      "english": "I'm your biggest fan, I'll follow you until you love me",
+      "chinese": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我",
+      "lineId": "line-39",
+      "startSeconds": 166.46,
+      "endSeconds": 172.12
+    },
+    {
+      "english": "Papa-paparazzi",
+      "chinese": "狗、狗仔隊",
+      "lineId": "line-40",
+      "startSeconds": 172.12,
+      "endSeconds": 174.92
+    },
+    {
+      "english": "Baby, there's no other superstar, you know that I'll be",
+      "chinese": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為",
+      "lineId": "line-41",
+      "startSeconds": 174.92,
+      "endSeconds": 180.16
+    },
+    {
+      "english": "Your papa-paparazzi",
+      "chinese": "專屬於你的狗、狗仔隊",
+      "lineId": "line-42",
+      "startSeconds": 180.16,
+      "endSeconds": 183.32
+    },
+    {
+      "english": "Promise I'll be kind",
+      "chinese": "我保證會溫柔待你",
+      "lineId": "line-43",
+      "startSeconds": 183.68,
+      "endSeconds": 186.04
+    },
+    {
+      "english": "But I won't stop until that boy is mine",
+      "chinese": "但在那個男孩真正屬於我之前，我絕不罷休",
+      "lineId": "line-44",
+      "startSeconds": 186.32,
+      "endSeconds": 190.38
+    },
+    {
+      "english": "Baby, you'll be famous, chase you down until you love me",
+      "chinese": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我",
+      "lineId": "line-45",
+      "startSeconds": 191.5,
+      "endSeconds": 197.08
+    },
+    {
+      "english": "Papa-paparazzi",
+      "chinese": "狗、狗仔隊",
+      "lineId": "line-46",
+      "startSeconds": 197.08,
+      "endSeconds": 200.1
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the crowd",
+          "options": [
+            "the band",
+            "the stars",
+            "the crowd"
+          ],
+          "prompt": "We are {{blank}}, we're c-comin' out ",
+          "promptZh": "我們就是那群人，正紛紛、紛紛現身"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "my flash on",
+          "options": [
+            "the lights down",
+            "my flash on",
+            "my camera off"
+          ],
+          "prompt": "Got {{blank}}, it's true",
+          "promptZh": "我已打開相機閃光燈，千真萬確"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "picture of you",
+          "options": [
+            "memory of us",
+            "picture of you",
+            "message from you"
+          ],
+          "prompt": "Need that {{blank}}, it's so magical ",
+          "promptZh": "我一定要拍下你的身影，那畫面如此令人著迷"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "so fantastical",
+          "options": [
+            "so fantastical",
+            "so incredible",
+            "really beautiful"
+          ],
+          "prompt": "We'd be {{blank}}",
+          "promptZh": "我們在一起，將會如夢似幻"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Leather and jeans",
+          "options": [
+            "Velvet and silk",
+            "Jackets and boots",
+            "Leather and jeans"
+          ],
+          "prompt": "{{blank}}, garage glamorous ",
+          "promptZh": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "what it means",
+          "options": [
+            "where it goes",
+            "what it means",
+            "how it feels"
+          ],
+          "prompt": "Not sure {{blank}}",
+          "promptZh": "我也說不清這究竟意味著什麼"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "this photo of us",
+          "options": [
+            "this photo of us",
+            "that story of mine",
+            "the picture of him"
+          ],
+          "prompt": "But {{blank}}, it don't have a price ",
+          "promptZh": "但這張你我的合照，卻是無價之寶"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing lights",
+          "options": [
+            "dancing crowds",
+            "flashing lights",
+            "shining stars"
+          ],
+          "prompt": "Ready for those {{blank}} ",
+          "promptZh": "我已準備好迎接那些閃爍的鎂光燈"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "baby, I",
+          "options": [
+            "darling, we",
+            "honey, you",
+            "baby, I"
+          ],
+          "prompt": "'Cause you know that, {{blank}}",
+          "promptZh": "因為你知道，寶貝，我……"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "biggest fan",
+          "options": [
+            "biggest fan",
+            "closest friend",
+            "secret love"
+          ],
+          "prompt": "I'm your {{blank}}, I'll follow you until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "no other superstar",
+          "options": [
+            "another famous singer",
+            "no other superstar",
+            "one more shining star"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-14",
+          "answer": "I'll be kind",
+          "options": [
+            "I'll be there",
+            "I'll be fine",
+            "I'll be kind"
+          ],
+          "prompt": "Promise {{blank}}",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "that boy is mine",
+          "options": [
+            "your heart is free",
+            "this love is real",
+            "that boy is mine"
+          ],
+          "prompt": "But I won't stop until {{blank}} ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "you'll be famous",
+          "options": [
+            "you'll be famous",
+            "you'll be lonely",
+            "we'll be dancing"
+          ],
+          "prompt": "Baby, {{blank}}, chase you down until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "backstage at your show",
+          "options": [
+            "waiting at your door",
+            "backstage at your show",
+            "dancing in your room"
+          ],
+          "prompt": "I'll be your girl {{blank}} ",
+          "promptZh": "在你的演出後臺，我會是陪伴你的女孩"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "Velvet ropes and guitars",
+          "options": [
+            "Silver lights and drums",
+            "Velvet ropes and guitars",
+            "Leather coats and cameras"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "絲絨圍繩與吉他環繞四周"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "my rock star",
+          "options": [
+            "my rock star",
+            "my best friend",
+            "a movie star"
+          ],
+          "prompt": "Yeah, 'cause you're {{blank}} in between the sets ",
+          "promptZh": "是啊，即使在演出場次之間，你仍是我心中的搖滾巨星"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-21",
+          "answer": "Eyeliner and cigarettes",
+          "options": [
+            "Lipstick and magazines",
+            "Headphones and photographs",
+            "Eyeliner and cigarettes"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "眼線與香菸，交織出後臺的迷離氣息"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-22",
+          "answer": "Shadow is burnt",
+          "options": [
+            "Shadow is burnt",
+            "Sunlight is bright",
+            "The evening is cold"
+          ],
+          "prompt": "{{blank}}, yellow, dance and we turn ",
+          "promptZh": "影子彷彿被灼成金黃，我們隨著舞步旋轉"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-23",
+          "answer": "My lashes are dry",
+          "options": [
+            "My lashes are dry",
+            "My eyes are closed",
+            "The lights are so bright"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我的睫毛已經乾了"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "We are {{q:1}}, we're c-comin' out "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Got {{q:2}}, it's true"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Need that {{q:3}}, it's so magical "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "We'd be {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}, garage glamorous "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not sure {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But {{q:7}}, it don't have a price "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Ready for those {{q:8}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause you know that, {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm your {{q:10}}, I'll follow you until you love me "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby, there's {{q:11}}, you know that I'll be "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Promise {{q:12}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But I won't stop until {{q:13}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, {{q:14}}, chase you down until you love me "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'll be your girl {{q:15}} "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Yeah, 'cause you're {{q:17}} in between the sets "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:18}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:19}}, yellow, dance and we turn "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Purple teardrops I cry, it don't have a price "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Loving you is cherry pie"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "'Cause you know that, baby, I"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm your biggest fan, I'll follow you until you love me "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, there's no other superstar, you know that I'll be "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Promise I'll be kind"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "But I won't stop until that boy is mine "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Baby, you'll be famous, chase you down until you love me "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Real good, we dance in the studio "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Snap, snap to that shit on the radio "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Don't stop for anyone"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We're plastic, but we still have fun! "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm your biggest fan, I'll follow you until you love me "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, there's no other superstar, you know that I'll be "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Promise I'll be kind"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "But I won't stop until that boy is mine "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Baby, you'll be famous, chase you down until you love me "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Papa-paparazzi"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the crowd",
+          "options": [
+            "the band",
+            "the stars",
+            "the crowd"
+          ],
+          "prompt": "We are {{blank}}, we're c-comin' out ",
+          "promptZh": "我們就是那群人，正紛紛、紛紛現身"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "my flash on",
+          "options": [
+            "my flash on",
+            "the lights down",
+            "my camera off"
+          ],
+          "prompt": "Got {{blank}}, it's true",
+          "promptZh": "我已打開相機閃光燈，千真萬確"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "picture of you",
+          "options": [
+            "memory of us",
+            "message from you",
+            "picture of you"
+          ],
+          "prompt": "Need that {{blank}}, it's so magical ",
+          "promptZh": "我一定要拍下你的身影，那畫面如此令人著迷"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "so fantastical",
+          "options": [
+            "so fantastical",
+            "so incredible",
+            "really beautiful"
+          ],
+          "prompt": "We'd be {{blank}}",
+          "promptZh": "我們在一起，將會如夢似幻"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Leather and jeans",
+          "options": [
+            "Leather and jeans",
+            "Velvet and silk",
+            "Jackets and boots"
+          ],
+          "prompt": "{{blank}}, garage glamorous ",
+          "promptZh": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "what it means",
+          "options": [
+            "where it goes",
+            "what it means",
+            "how it feels"
+          ],
+          "prompt": "Not sure {{blank}}",
+          "promptZh": "我也說不清這究竟意味著什麼"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "this photo of us",
+          "options": [
+            "this photo of us",
+            "that story of mine",
+            "the picture of him"
+          ],
+          "prompt": "But {{blank}}, it don't have a price ",
+          "promptZh": "但這張你我的合照，卻是無價之寶"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing lights",
+          "options": [
+            "dancing crowds",
+            "shining stars",
+            "flashing lights"
+          ],
+          "prompt": "Ready for those {{blank}} ",
+          "promptZh": "我已準備好迎接那些閃爍的鎂光燈"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "baby, I",
+          "options": [
+            "darling, we",
+            "honey, you",
+            "baby, I"
+          ],
+          "prompt": "'Cause you know that, {{blank}}",
+          "promptZh": "因為你知道，寶貝，我……"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "biggest fan",
+          "options": [
+            "closest friend",
+            "biggest fan",
+            "secret love"
+          ],
+          "prompt": "I'm your {{blank}}, I'll follow you until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "no other superstar",
+          "options": [
+            "another famous singer",
+            "one more shining star",
+            "no other superstar"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-14",
+          "answer": "I'll be kind",
+          "options": [
+            "I'll be kind",
+            "I'll be there",
+            "I'll be fine"
+          ],
+          "prompt": "Promise {{blank}}",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "that boy is mine",
+          "options": [
+            "your heart is free",
+            "that boy is mine",
+            "this love is real"
+          ],
+          "prompt": "But I won't stop until {{blank}} ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "you'll be famous",
+          "options": [
+            "you'll be famous",
+            "you'll be lonely",
+            "we'll be dancing"
+          ],
+          "prompt": "Baby, {{blank}}, chase you down until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "backstage at your show",
+          "options": [
+            "waiting at your door",
+            "dancing in your room",
+            "backstage at your show"
+          ],
+          "prompt": "I'll be your girl {{blank}} ",
+          "promptZh": "在你的演出後臺，我會是陪伴你的女孩"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "Velvet ropes and guitars",
+          "options": [
+            "Silver lights and drums",
+            "Velvet ropes and guitars",
+            "Leather coats and cameras"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "絲絨圍繩與吉他環繞四周"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "my rock star",
+          "options": [
+            "my rock star",
+            "my best friend",
+            "a movie star"
+          ],
+          "prompt": "Yeah, 'cause you're {{blank}} in between the sets ",
+          "promptZh": "是啊，即使在演出場次之間，你仍是我心中的搖滾巨星"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-21",
+          "answer": "Eyeliner and cigarettes",
+          "options": [
+            "Lipstick and magazines",
+            "Eyeliner and cigarettes",
+            "Headphones and photographs"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "眼線與香菸，交織出後臺的迷離氣息"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-22",
+          "answer": "Shadow is burnt",
+          "options": [
+            "Sunlight is bright",
+            "Shadow is burnt",
+            "The evening is cold"
+          ],
+          "prompt": "{{blank}}, yellow, dance and we turn ",
+          "promptZh": "影子彷彿被灼成金黃，我們隨著舞步旋轉"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-23",
+          "answer": "My lashes are dry",
+          "options": [
+            "My lashes are dry",
+            "My eyes are closed",
+            "The lights are so bright"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我的睫毛已經乾了"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-24",
+          "answer": "Purple teardrops",
+          "options": [
+            "Silver raindrops",
+            "Purple teardrops",
+            "Golden sunbeams"
+          ],
+          "prompt": "{{blank}} I cry, it don't have a price ",
+          "promptZh": "我流下紫色的淚珠，而這一切無法用金錢衡量"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-25",
+          "answer": "cherry pie",
+          "options": [
+            "cherry pie",
+            "apple juice",
+            "summer rain"
+          ],
+          "prompt": "Loving you is {{blank}}",
+          "promptZh": "愛著你，就像品嚐櫻桃派般甜美"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "I'll follow you",
+          "options": [
+            "I'll call for you",
+            "I'll wait for you",
+            "I'll follow you"
+          ],
+          "prompt": "I'm your biggest fan, {{blank}} until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-29",
+          "answer": "no other superstar",
+          "options": [
+            "no other superstar",
+            "another superstar",
+            "no famous movie star"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-30",
+          "answer": "papa-paparazzi",
+          "options": [
+            "super-superstar",
+            "camera-camera girl",
+            "papa-paparazzi"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "專屬於你的狗、狗仔隊"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-31",
+          "answer": "Promise",
+          "options": [
+            "Remember",
+            "Promise",
+            "Forget"
+          ],
+          "prompt": "{{blank}} I'll be kind",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-32",
+          "answer": "won't stop",
+          "options": [
+            "can't dance",
+            "won't stop",
+            "will wait"
+          ],
+          "prompt": "But I {{blank}} until that boy is mine ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-33",
+          "answer": "chase you down",
+          "options": [
+            "call you back",
+            "hold you close",
+            "chase you down"
+          ],
+          "prompt": "Baby, you'll be famous, {{blank}} until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-35",
+          "answer": "dance in the studio",
+          "options": [
+            "dance in the studio",
+            "sing in the hallway",
+            "sleep in the bedroom"
+          ],
+          "prompt": "Real good, we {{blank}} ",
+          "promptZh": "真是痛快，我們在錄音室裡盡情起舞"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-36",
+          "answer": "on the radio",
+          "options": [
+            "in the cinema",
+            "at the concert",
+            "on the radio"
+          ],
+          "prompt": "Snap, snap to that shit {{blank}} ",
+          "promptZh": "隨著收音機裡那首帶勁的歌，喀嚓、喀嚓地打著拍子"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-37",
+          "answer": "for anyone",
+          "options": [
+            "for the weekend",
+            "for anyone",
+            "for a moment"
+          ],
+          "prompt": "Don't stop {{blank}}",
+          "promptZh": "不為任何人停下腳步"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "We're plastic",
+          "options": [
+            "We're fearless",
+            "We're plastic",
+            "We're famous"
+          ],
+          "prompt": "{{blank}}, but we still have fun! ",
+          "promptZh": "我們雖然虛假做作，卻依然玩得盡興！"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "We are {{q:1}}, we're c-comin' out "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Got {{q:2}}, it's true"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Need that {{q:3}}, it's so magical "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "We'd be {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}}, garage glamorous "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not sure {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But {{q:7}}, it don't have a price "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Ready for those {{q:8}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause you know that, {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm your {{q:10}}, I'll follow you until you love me "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby, there's {{q:11}}, you know that I'll be "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Promise {{q:12}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But I won't stop until {{q:13}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, {{q:14}}, chase you down until you love me "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'll be your girl {{q:15}} "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Yeah, 'cause you're {{q:17}} in between the sets "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:18}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:19}}, yellow, dance and we turn "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:21}} I cry, it don't have a price "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Loving you is {{q:22}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "'Cause you know that, baby, I"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm your biggest fan, {{q:23}} until you love me "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, there's {{q:24}}, you know that I'll be "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Your {{q:25}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:26}} I'll be kind"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "But I {{q:27}} until that boy is mine "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Baby, you'll be famous, {{q:28}} until you love me "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Real good, we {{q:29}} "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Snap, snap to that shit {{q:30}} "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Don't stop {{q:31}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:32}}, but we still have fun! "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm your biggest fan, I'll follow you until you love me "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, there's no other superstar, you know that I'll be "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Promise I'll be kind"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "But I won't stop until that boy is mine "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Baby, you'll be famous, chase you down until you love me "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Papa-paparazzi"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the crowd",
+          "options": [
+            "the band",
+            "the crowd",
+            "the stars"
+          ],
+          "prompt": "We are {{blank}}, we're c-comin' out ",
+          "promptZh": "我們就是那群人，正紛紛、紛紛現身"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 33,
+          "lineId": "line-1",
+          "answer": "c-comin' out",
+          "options": [
+            "c-comin' out",
+            "running away",
+            "falling down"
+          ],
+          "prompt": "We are the crowd, we're {{blank}} ",
+          "promptZh": "我們就是那群人，正紛紛、紛紛現身"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "my flash on",
+          "options": [
+            "the lights down",
+            "my flash on",
+            "my camera off"
+          ],
+          "prompt": "Got {{blank}}, it's true",
+          "promptZh": "我已打開相機閃光燈，千真萬確"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "picture of you",
+          "options": [
+            "memory of us",
+            "message from you",
+            "picture of you"
+          ],
+          "prompt": "Need that {{blank}}, it's so magical ",
+          "promptZh": "我一定要拍下你的身影，那畫面如此令人著迷"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 34,
+          "lineId": "line-3",
+          "answer": "so magical",
+          "options": [
+            "so magical",
+            "so dangerous",
+            "so wonderful"
+          ],
+          "prompt": "Need that picture of you, it's {{blank}} ",
+          "promptZh": "我一定要拍下你的身影，那畫面如此令人著迷"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "so fantastical",
+          "options": [
+            "so incredible",
+            "really beautiful",
+            "so fantastical"
+          ],
+          "prompt": "We'd be {{blank}}",
+          "promptZh": "我們在一起，將會如夢似幻"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Leather and jeans",
+          "options": [
+            "Leather and jeans",
+            "Velvet and silk",
+            "Jackets and boots"
+          ],
+          "prompt": "{{blank}}, garage glamorous ",
+          "promptZh": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 35,
+          "lineId": "line-5",
+          "answer": "garage glamorous",
+          "options": [
+            "silver and golden",
+            "fashion and famous",
+            "garage glamorous"
+          ],
+          "prompt": "Leather and jeans, {{blank}} ",
+          "promptZh": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "what it means",
+          "options": [
+            "where it goes",
+            "what it means",
+            "how it feels"
+          ],
+          "prompt": "Not sure {{blank}}",
+          "promptZh": "我也說不清這究竟意味著什麼"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "this photo of us",
+          "options": [
+            "that story of mine",
+            "this photo of us",
+            "the picture of him"
+          ],
+          "prompt": "But {{blank}}, it don't have a price ",
+          "promptZh": "但這張你我的合照，卻是無價之寶"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 36,
+          "lineId": "line-7",
+          "answer": "don't have a price",
+          "options": [
+            "don't have a price",
+            "won't make a sound",
+            "can't find a place"
+          ],
+          "prompt": "But this photo of us, it {{blank}} ",
+          "promptZh": "但這張你我的合照，卻是無價之寶"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing lights",
+          "options": [
+            "dancing crowds",
+            "flashing lights",
+            "shining stars"
+          ],
+          "prompt": "Ready for those {{blank}} ",
+          "promptZh": "我已準備好迎接那些閃爍的鎂光燈"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "baby, I",
+          "options": [
+            "baby, I",
+            "darling, we",
+            "honey, you"
+          ],
+          "prompt": "'Cause you know that, {{blank}}",
+          "promptZh": "因為你知道，寶貝，我……"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "biggest fan",
+          "options": [
+            "closest friend",
+            "biggest fan",
+            "secret love"
+          ],
+          "prompt": "I'm your {{blank}}, I'll follow you until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 37,
+          "lineId": "line-10",
+          "answer": "until you love me",
+          "options": [
+            "until you find me",
+            "until you leave me",
+            "until you love me"
+          ],
+          "prompt": "I'm your biggest fan, I'll follow you {{blank}} ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "no other superstar",
+          "options": [
+            "another famous singer",
+            "one more shining star",
+            "no other superstar"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 38,
+          "lineId": "line-12",
+          "answer": "you know that I'll be",
+          "options": [
+            "you hope that I'll stay",
+            "you know that I'll be",
+            "you say that I'm free"
+          ],
+          "prompt": "Baby, there's no other superstar, {{blank}} ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 12,
+          "lineId": "line-14",
+          "answer": "I'll be kind",
+          "options": [
+            "I'll be there",
+            "I'll be fine",
+            "I'll be kind"
+          ],
+          "prompt": "Promise {{blank}}",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 39,
+          "lineId": "line-15",
+          "answer": "I won't stop",
+          "options": [
+            "I can't sleep",
+            "I will dance",
+            "I won't stop"
+          ],
+          "prompt": "But {{blank}} until that boy is mine ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "that boy is mine",
+          "options": [
+            "that boy is mine",
+            "your heart is free",
+            "this love is real"
+          ],
+          "prompt": "But I won't stop until {{blank}} ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "you'll be famous",
+          "options": [
+            "you'll be lonely",
+            "you'll be famous",
+            "we'll be dancing"
+          ],
+          "prompt": "Baby, {{blank}}, chase you down until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 40,
+          "lineId": "line-16",
+          "answer": "until you love me",
+          "options": [
+            "until you need me",
+            "until you call me",
+            "until you love me"
+          ],
+          "prompt": "Baby, you'll be famous, chase you down {{blank}} ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "backstage at your show",
+          "options": [
+            "backstage at your show",
+            "waiting at your door",
+            "dancing in your room"
+          ],
+          "prompt": "I'll be your girl {{blank}} ",
+          "promptZh": "在你的演出後臺，我會是陪伴你的女孩"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "Velvet ropes and guitars",
+          "options": [
+            "Silver lights and drums",
+            "Leather coats and cameras",
+            "Velvet ropes and guitars"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "絲絨圍繩與吉他環繞四周"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "my rock star",
+          "options": [
+            "my rock star",
+            "my best friend",
+            "a movie star"
+          ],
+          "prompt": "Yeah, 'cause you're {{blank}} in between the sets ",
+          "promptZh": "是啊，即使在演出場次之間，你仍是我心中的搖滾巨星"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 18,
+          "lineId": "line-21",
+          "answer": "Eyeliner and cigarettes",
+          "options": [
+            "Lipstick and magazines",
+            "Eyeliner and cigarettes",
+            "Headphones and photographs"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "眼線與香菸，交織出後臺的迷離氣息"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 19,
+          "lineId": "line-22",
+          "answer": "Shadow is burnt",
+          "options": [
+            "Sunlight is bright",
+            "Shadow is burnt",
+            "The evening is cold"
+          ],
+          "prompt": "{{blank}}, yellow, dance and we turn ",
+          "promptZh": "影子彷彿被灼成金黃，我們隨著舞步旋轉"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 20,
+          "lineId": "line-23",
+          "answer": "My lashes are dry",
+          "options": [
+            "My eyes are closed",
+            "The lights are so bright",
+            "My lashes are dry"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我的睫毛已經乾了"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 21,
+          "lineId": "line-24",
+          "answer": "Purple teardrops",
+          "options": [
+            "Silver raindrops",
+            "Purple teardrops",
+            "Golden sunbeams"
+          ],
+          "prompt": "{{blank}} I cry, it don't have a price ",
+          "promptZh": "我流下紫色的淚珠，而這一切無法用金錢衡量"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 22,
+          "lineId": "line-25",
+          "answer": "cherry pie",
+          "options": [
+            "apple juice",
+            "summer rain",
+            "cherry pie"
+          ],
+          "prompt": "Loving you is {{blank}}",
+          "promptZh": "愛著你，就像品嚐櫻桃派般甜美"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "I'll follow you",
+          "options": [
+            "I'll call for you",
+            "I'll follow you",
+            "I'll wait for you"
+          ],
+          "prompt": "I'm your biggest fan, {{blank}} until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 24,
+          "lineId": "line-29",
+          "answer": "no other superstar",
+          "options": [
+            "no other superstar",
+            "another superstar",
+            "no famous movie star"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 25,
+          "lineId": "line-30",
+          "answer": "papa-paparazzi",
+          "options": [
+            "super-superstar",
+            "papa-paparazzi",
+            "camera-camera girl"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "專屬於你的狗、狗仔隊"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 26,
+          "lineId": "line-31",
+          "answer": "Promise",
+          "options": [
+            "Promise",
+            "Remember",
+            "Forget"
+          ],
+          "prompt": "{{blank}} I'll be kind",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 27,
+          "lineId": "line-32",
+          "answer": "won't stop",
+          "options": [
+            "can't dance",
+            "will wait",
+            "won't stop"
+          ],
+          "prompt": "But I {{blank}} until that boy is mine ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 28,
+          "lineId": "line-33",
+          "answer": "chase you down",
+          "options": [
+            "chase you down",
+            "call you back",
+            "hold you close"
+          ],
+          "prompt": "Baby, you'll be famous, {{blank}} until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 29,
+          "lineId": "line-35",
+          "answer": "dance in the studio",
+          "options": [
+            "dance in the studio",
+            "sing in the hallway",
+            "sleep in the bedroom"
+          ],
+          "prompt": "Real good, we {{blank}} ",
+          "promptZh": "真是痛快，我們在錄音室裡盡情起舞"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 30,
+          "lineId": "line-36",
+          "answer": "on the radio",
+          "options": [
+            "in the cinema",
+            "at the concert",
+            "on the radio"
+          ],
+          "prompt": "Snap, snap to that shit {{blank}} ",
+          "promptZh": "隨著收音機裡那首帶勁的歌，喀嚓、喀嚓地打著拍子"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 31,
+          "lineId": "line-37",
+          "answer": "for anyone",
+          "options": [
+            "for anyone",
+            "for the weekend",
+            "for a moment"
+          ],
+          "prompt": "Don't stop {{blank}}",
+          "promptZh": "不為任何人停下腳步"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "We're plastic",
+          "options": [
+            "We're plastic",
+            "We're fearless",
+            "We're famous"
+          ],
+          "prompt": "{{blank}}, but we still have fun! ",
+          "promptZh": "我們雖然虛假做作，卻依然玩得盡興！"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "We are {{q:1}}, we're {{q:2}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Got {{q:3}}, it's true"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Need that {{q:4}}, it's {{q:5}} "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "We'd be {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}, {{q:8}} "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not sure {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But {{q:10}}, it {{q:11}} "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Ready for those {{q:12}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause you know that, {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm your {{q:14}}, I'll follow you {{q:15}} "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby, there's {{q:16}}, {{q:17}} "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Promise {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But {{q:19}} until {{q:20}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, {{q:21}}, chase you down {{q:22}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "I'll be your girl {{q:23}} "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Yeah, 'cause you're {{q:25}} in between the sets "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:26}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:27}}, yellow, dance and we turn "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:29}} I cry, it don't have a price "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Loving you is {{q:30}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "'Cause you know that, baby, I"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm your biggest fan, {{q:31}} until you love me "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, there's {{q:32}}, you know that I'll be "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Your {{q:33}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:34}} I'll be kind"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "But I {{q:35}} until that boy is mine "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Baby, you'll be famous, {{q:36}} until you love me "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Real good, we {{q:37}} "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Snap, snap to that shit {{q:38}} "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Don't stop {{q:39}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:40}}, but we still have fun! "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm your biggest fan, I'll follow you until you love me "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, there's no other superstar, you know that I'll be "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Promise I'll be kind"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "But I won't stop until that boy is mine "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Baby, you'll be famous, chase you down until you love me "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Papa-paparazzi"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "the crowd",
+          "options": [
+            "the band",
+            "the crowd",
+            "the stars"
+          ],
+          "prompt": "We are {{blank}}, we're c-comin' out ",
+          "promptZh": "我們就是那群人，正紛紛、紛紛現身"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 33,
+          "lineId": "line-1",
+          "answer": "c-comin' out",
+          "options": [
+            "running away",
+            "c-comin' out",
+            "falling down"
+          ],
+          "prompt": "We are the crowd, we're {{blank}} ",
+          "promptZh": "我們就是那群人，正紛紛、紛紛現身"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "my flash on",
+          "options": [
+            "the lights down",
+            "my camera off",
+            "my flash on"
+          ],
+          "prompt": "Got {{blank}}, it's true",
+          "promptZh": "我已打開相機閃光燈，千真萬確"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "picture of you",
+          "options": [
+            "memory of us",
+            "picture of you",
+            "message from you"
+          ],
+          "prompt": "Need that {{blank}}, it's so magical ",
+          "promptZh": "我一定要拍下你的身影，那畫面如此令人著迷"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 34,
+          "lineId": "line-3",
+          "answer": "so magical",
+          "options": [
+            "so magical",
+            "so dangerous",
+            "so wonderful"
+          ],
+          "prompt": "Need that picture of you, it's {{blank}} ",
+          "promptZh": "我一定要拍下你的身影，那畫面如此令人著迷"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "so fantastical",
+          "options": [
+            "so incredible",
+            "really beautiful",
+            "so fantastical"
+          ],
+          "prompt": "We'd be {{blank}}",
+          "promptZh": "我們在一起，將會如夢似幻"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "Leather and jeans",
+          "options": [
+            "Leather and jeans",
+            "Velvet and silk",
+            "Jackets and boots"
+          ],
+          "prompt": "{{blank}}, garage glamorous ",
+          "promptZh": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 35,
+          "lineId": "line-5",
+          "answer": "garage glamorous",
+          "options": [
+            "garage glamorous",
+            "silver and golden",
+            "fashion and famous"
+          ],
+          "prompt": "Leather and jeans, {{blank}} ",
+          "promptZh": "皮革與牛仔褲，帶著車庫搖滾般的華麗魅力"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "what it means",
+          "options": [
+            "where it goes",
+            "how it feels",
+            "what it means"
+          ],
+          "prompt": "Not sure {{blank}}",
+          "promptZh": "我也說不清這究竟意味著什麼"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "this photo of us",
+          "options": [
+            "this photo of us",
+            "that story of mine",
+            "the picture of him"
+          ],
+          "prompt": "But {{blank}}, it don't have a price ",
+          "promptZh": "但這張你我的合照，卻是無價之寶"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 36,
+          "lineId": "line-7",
+          "answer": "don't have a price",
+          "options": [
+            "don't have a price",
+            "won't make a sound",
+            "can't find a place"
+          ],
+          "prompt": "But this photo of us, it {{blank}} ",
+          "promptZh": "但這張你我的合照，卻是無價之寶"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "flashing lights",
+          "options": [
+            "dancing crowds",
+            "shining stars",
+            "flashing lights"
+          ],
+          "prompt": "Ready for those {{blank}} ",
+          "promptZh": "我已準備好迎接那些閃爍的鎂光燈"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "baby, I",
+          "options": [
+            "baby, I",
+            "darling, we",
+            "honey, you"
+          ],
+          "prompt": "'Cause you know that, {{blank}}",
+          "promptZh": "因為你知道，寶貝，我……"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "biggest fan",
+          "options": [
+            "closest friend",
+            "secret love",
+            "biggest fan"
+          ],
+          "prompt": "I'm your {{blank}}, I'll follow you until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 37,
+          "lineId": "line-10",
+          "answer": "until you love me",
+          "options": [
+            "until you love me",
+            "until you find me",
+            "until you leave me"
+          ],
+          "prompt": "I'm your biggest fan, I'll follow you {{blank}} ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "no other superstar",
+          "options": [
+            "no other superstar",
+            "another famous singer",
+            "one more shining star"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 38,
+          "lineId": "line-12",
+          "answer": "you know that I'll be",
+          "options": [
+            "you hope that I'll stay",
+            "you say that I'm free",
+            "you know that I'll be"
+          ],
+          "prompt": "Baby, there's no other superstar, {{blank}} ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 12,
+          "lineId": "line-14",
+          "answer": "I'll be kind",
+          "options": [
+            "I'll be there",
+            "I'll be kind",
+            "I'll be fine"
+          ],
+          "prompt": "Promise {{blank}}",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 39,
+          "lineId": "line-15",
+          "answer": "I won't stop",
+          "options": [
+            "I can't sleep",
+            "I will dance",
+            "I won't stop"
+          ],
+          "prompt": "But {{blank}} until that boy is mine ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "that boy is mine",
+          "options": [
+            "your heart is free",
+            "that boy is mine",
+            "this love is real"
+          ],
+          "prompt": "But I won't stop until {{blank}} ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "you'll be famous",
+          "options": [
+            "you'll be lonely",
+            "you'll be famous",
+            "we'll be dancing"
+          ],
+          "prompt": "Baby, {{blank}}, chase you down until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 40,
+          "lineId": "line-16",
+          "answer": "until you love me",
+          "options": [
+            "until you need me",
+            "until you call me",
+            "until you love me"
+          ],
+          "prompt": "Baby, you'll be famous, chase you down {{blank}} ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 41,
+          "lineId": "line-18",
+          "answer": "I'll be your girl",
+          "options": [
+            "I'll be your friend",
+            "I'll be your girl",
+            "I'll be your star"
+          ],
+          "prompt": "{{blank}} backstage at your show ",
+          "promptZh": "在你的演出後臺，我會是陪伴你的女孩"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "backstage at your show",
+          "options": [
+            "backstage at your show",
+            "waiting at your door",
+            "dancing in your room"
+          ],
+          "prompt": "I'll be your girl {{blank}} ",
+          "promptZh": "在你的演出後臺，我會是陪伴你的女孩"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "Velvet ropes and guitars",
+          "options": [
+            "Silver lights and drums",
+            "Leather coats and cameras",
+            "Velvet ropes and guitars"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "絲絨圍繩與吉他環繞四周"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "my rock star",
+          "options": [
+            "my best friend",
+            "a movie star",
+            "my rock star"
+          ],
+          "prompt": "Yeah, 'cause you're {{blank}} in between the sets ",
+          "promptZh": "是啊，即使在演出場次之間，你仍是我心中的搖滾巨星"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 42,
+          "lineId": "line-20",
+          "answer": "in between the sets",
+          "options": [
+            "in between the sets",
+            "in the middle of town",
+            "at the end of the night"
+          ],
+          "prompt": "Yeah, 'cause you're my rock star {{blank}} ",
+          "promptZh": "是啊，即使在演出場次之間，你仍是我心中的搖滾巨星"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 18,
+          "lineId": "line-21",
+          "answer": "Eyeliner and cigarettes",
+          "options": [
+            "Lipstick and magazines",
+            "Eyeliner and cigarettes",
+            "Headphones and photographs"
+          ],
+          "prompt": "{{blank}} ",
+          "promptZh": "眼線與香菸，交織出後臺的迷離氣息"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 19,
+          "lineId": "line-22",
+          "answer": "Shadow is burnt",
+          "options": [
+            "Sunlight is bright",
+            "The evening is cold",
+            "Shadow is burnt"
+          ],
+          "prompt": "{{blank}}, yellow, dance and we turn ",
+          "promptZh": "影子彷彿被灼成金黃，我們隨著舞步旋轉"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 43,
+          "lineId": "line-22",
+          "answer": "dance and we turn",
+          "options": [
+            "run and we fall",
+            "dance and we turn",
+            "sing and we laugh"
+          ],
+          "prompt": "Shadow is burnt, yellow, {{blank}} ",
+          "promptZh": "影子彷彿被灼成金黃，我們隨著舞步旋轉"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 20,
+          "lineId": "line-23",
+          "answer": "My lashes are dry",
+          "options": [
+            "My lashes are dry",
+            "My eyes are closed",
+            "The lights are so bright"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "我的睫毛已經乾了"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 21,
+          "lineId": "line-24",
+          "answer": "Purple teardrops",
+          "options": [
+            "Silver raindrops",
+            "Purple teardrops",
+            "Golden sunbeams"
+          ],
+          "prompt": "{{blank}} I cry, it don't have a price ",
+          "promptZh": "我流下紫色的淚珠，而這一切無法用金錢衡量"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 44,
+          "lineId": "line-24",
+          "answer": "it don't have a price",
+          "options": [
+            "it don't have a price",
+            "it won't last forever",
+            "it never feels right"
+          ],
+          "prompt": "Purple teardrops I cry, {{blank}} ",
+          "promptZh": "我流下紫色的淚珠，而這一切無法用金錢衡量"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 22,
+          "lineId": "line-25",
+          "answer": "cherry pie",
+          "options": [
+            "apple juice",
+            "cherry pie",
+            "summer rain"
+          ],
+          "prompt": "Loving you is {{blank}}",
+          "promptZh": "愛著你，就像品嚐櫻桃派般甜美"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 45,
+          "lineId": "line-27",
+          "answer": "biggest fan",
+          "options": [
+            "secret friend",
+            "biggest fan",
+            "only love"
+          ],
+          "prompt": "I'm your {{blank}}, I'll follow you until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 23,
+          "lineId": "line-27",
+          "answer": "I'll follow you",
+          "options": [
+            "I'll follow you",
+            "I'll call for you",
+            "I'll wait for you"
+          ],
+          "prompt": "I'm your biggest fan, {{blank}} until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 24,
+          "lineId": "line-29",
+          "answer": "no other superstar",
+          "options": [
+            "no other superstar",
+            "another superstar",
+            "no famous movie star"
+          ],
+          "prompt": "Baby, there's {{blank}}, you know that I'll be ",
+          "promptZh": "寶貝，再沒有哪位巨星能與你相比，你知道我一定會成為"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 25,
+          "lineId": "line-30",
+          "answer": "papa-paparazzi",
+          "options": [
+            "super-superstar",
+            "camera-camera girl",
+            "papa-paparazzi"
+          ],
+          "prompt": "Your {{blank}}",
+          "promptZh": "專屬於你的狗、狗仔隊"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 26,
+          "lineId": "line-31",
+          "answer": "Promise",
+          "options": [
+            "Remember",
+            "Promise",
+            "Forget"
+          ],
+          "prompt": "{{blank}} I'll be kind",
+          "promptZh": "我保證會溫柔待你"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 27,
+          "lineId": "line-32",
+          "answer": "won't stop",
+          "options": [
+            "can't dance",
+            "won't stop",
+            "will wait"
+          ],
+          "prompt": "But I {{blank}} until that boy is mine ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 46,
+          "lineId": "line-32",
+          "answer": "that boy is mine",
+          "options": [
+            "the night is young",
+            "the world is ours",
+            "that boy is mine"
+          ],
+          "prompt": "But I won't stop until {{blank}} ",
+          "promptZh": "但在那個男孩真正屬於我之前，我絕不罷休"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 28,
+          "lineId": "line-33",
+          "answer": "chase you down",
+          "options": [
+            "call you back",
+            "chase you down",
+            "hold you close"
+          ],
+          "prompt": "Baby, you'll be famous, {{blank}} until you love me ",
+          "promptZh": "寶貝，你終將聲名大噪，而我會緊追不捨，直到你愛上我"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 29,
+          "lineId": "line-35",
+          "answer": "dance in the studio",
+          "options": [
+            "sing in the hallway",
+            "sleep in the bedroom",
+            "dance in the studio"
+          ],
+          "prompt": "Real good, we {{blank}} ",
+          "promptZh": "真是痛快，我們在錄音室裡盡情起舞"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 47,
+          "lineId": "line-36",
+          "answer": "Snap, snap",
+          "options": [
+            "Snap, snap",
+            "Dance, dance",
+            "Clap, clap"
+          ],
+          "prompt": "{{blank}} to that shit on the radio ",
+          "promptZh": "隨著收音機裡那首帶勁的歌，喀嚓、喀嚓地打著拍子"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 30,
+          "lineId": "line-36",
+          "answer": "on the radio",
+          "options": [
+            "in the cinema",
+            "on the radio",
+            "at the concert"
+          ],
+          "prompt": "Snap, snap to that shit {{blank}} ",
+          "promptZh": "隨著收音機裡那首帶勁的歌，喀嚓、喀嚓地打著拍子"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 31,
+          "lineId": "line-37",
+          "answer": "for anyone",
+          "options": [
+            "for anyone",
+            "for the weekend",
+            "for a moment"
+          ],
+          "prompt": "Don't stop {{blank}}",
+          "promptZh": "不為任何人停下腳步"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 32,
+          "lineId": "line-38",
+          "answer": "We're plastic",
+          "options": [
+            "We're fearless",
+            "We're plastic",
+            "We're famous"
+          ],
+          "prompt": "{{blank}}, but we still have fun! ",
+          "promptZh": "我們雖然虛假做作，卻依然玩得盡興！"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-38",
+          "answer": "still have fun",
+          "options": [
+            "never give up",
+            "always fall down",
+            "still have fun"
+          ],
+          "prompt": "We're plastic, but we {{blank}}! ",
+          "promptZh": "我們雖然虛假做作，卻依然玩得盡興！"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-39",
+          "answer": "follow you",
+          "options": [
+            "call on you",
+            "run from you",
+            "follow you"
+          ],
+          "prompt": "I'm your biggest fan, I'll {{blank}} until you love me ",
+          "promptZh": "我是你最狂熱的粉絲，我會一路追隨你，直到你愛上我"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-42",
+          "answer": "Your papa-paparazzi",
+          "options": [
+            "Your papa-paparazzi",
+            "Your super-superstar",
+            "Your secret admirer"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "專屬於你的狗、狗仔隊"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "We are {{q:1}}, we're {{q:2}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Got {{q:3}}, it's true"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Need that {{q:4}}, it's {{q:5}} "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "We'd be {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:7}}, {{q:8}} "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Not sure {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But {{q:10}}, it {{q:11}} "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Ready for those {{q:12}} "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause you know that, {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "I'm your {{q:14}}, I'll follow you {{q:15}} "
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Baby, there's {{q:16}}, {{q:17}} "
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Your papa-paparazzi"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Promise {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "But {{q:19}} until {{q:20}} "
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, {{q:21}}, chase you down {{q:22}} "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:23}} {{q:24}} "
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Yeah, 'cause you're {{q:26}} {{q:27}} "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:28}} "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:29}}, yellow, {{q:30}} "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}} I cry, {{q:33}} "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Loving you is {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "'Cause you know that, baby, I"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'm your {{q:35}}, {{q:36}} until you love me "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Baby, there's {{q:37}}, you know that I'll be "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Your {{q:38}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:39}} I'll be kind"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "But I {{q:40}} until {{q:41}} "
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Baby, you'll be famous, {{q:42}} until you love me "
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Real good, we {{q:43}} "
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:44}} to that shit {{q:45}} "
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Don't stop {{q:46}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:47}}, but we {{q:48}}! "
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "I'm your biggest fan, I'll {{q:49}} until you love me "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Papa-paparazzi"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, there's no other superstar, you know that I'll be "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:50}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Promise I'll be kind"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "But I won't stop until that boy is mine "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Baby, you'll be famous, chase you down until you love me "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Papa-paparazzi"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Paparazzi · Listening & Vocabulary",
+  "description": "《Paparazzi》描寫一段充滿迷戀、佔有慾與名利誘惑的感情。歌中的主角將自己比喻為追逐明星的狗仔隊，深深迷戀著心中的偶像，渴望得到他的關注與愛。她願意不斷追隨對方，甚至希望進入他的私人世界，成為生命中最親密的人。然而，這份愛慕逐漸演變成強烈的執著，令追求愛情與控制對方之間的界線變得模糊。歌曲以閃光燈、照片與舞台等意象，呈現明星文化中的虛榮與誘惑。最終，《Paparazzi》傳達的是愛情、名聲與佔有慾之間的複雜關係：當一個人過度迷戀對方的光芒，便可能逐漸失去理智，將愛情變成一場永無止境的追逐，也令人反思真正的愛是否應該建立在尊重與自由之上。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "crowd",
+      "meaning": "人群；一大群人",
+      "usage": "常見搭配：a crowd of people、a large crowd。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "The guide crowded a crowd of one lonely tourist.",
+        "A crowd gathered to see the new robot, but it only knew how to say goodbye.",
+        "The crowd were a single empty chair in the hall.",
+        "My crowd is the number seven on this ticket."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "a crowd 通常不指單獨一位遊客；此句搭配也不自然。",
+        "crowd 指聚集在一起觀看活動的人群。",
+        "crowd 指一群人，不能指一張空椅子。",
+        "crowd 是人群，不是票上的數字。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 1,
+      "explanation": "crowd 指聚集在一起觀看活動的人群。",
+      "sourceOptionOrder": [
+        "C",
+        "A",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "flash",
+      "meaning": "閃光；相機閃光燈",
+      "usage": "可說 camera flash、a flash of light。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "The photographer put three flashes of water into his coffee.",
+        "The camera flash went off just as the actor fell off his chair.",
+        "The weather report says there will be ten kilos of flash tomorrow.",
+        "Please flash the heavy sofa into the next room."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "flash 不用來計算加進咖啡的水量。",
+        "camera flash 指相機閃光燈，went off 表示閃光燈亮起。",
+        "flash 不是可用公斤計算的天氣物質。",
+        "flash 不表示搬動大型家具。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 2,
+      "explanation": "camera flash 指相機閃光燈，went off 表示閃光燈亮起。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "B",
+        "D"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "magical",
+      "meaning": "神奇迷人的；彷彿有魔法的",
+      "usage": "形容帶來驚喜或美好感受的景象、經驗。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "The bus driver magical us to the castle before noon.",
+        "I bought two magicals at the station for my trip.",
+        "The northern lights looked magical, even though our guide lost his hat in the wind.",
+        "The director magical the door before the actors arrived."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "magical 是形容詞，不能當動詞使用。",
+        "magical 是形容詞，不能直接當可數物品名詞。",
+        "magical 形容景象美得像魔法一般。",
+        "magical 不能直接當動詞使用。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 3,
+      "explanation": "magical 形容景象美得像魔法一般。",
+      "sourceOptionOrder": [
+        "B",
+        "C",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "glamorous",
+      "meaning": "華麗迷人的；有明星般的魅力",
+      "usage": "常形容服裝、外表、生活方式或活動。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "The glamorous of the train was late again.",
+        "The engineer glamorous the broken bridge before lunch.",
+        "The singer wore a glamorous silver suit to the awards show, then thanked her pet cactus.",
+        "Our teacher gave us three glamorouses to finish tonight."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "glamorous 不能當作表示列車的名詞。",
+        "glamorous 是形容詞，不能直接當動詞。",
+        "glamorous 修飾華麗迷人的服裝，搭配自然。",
+        "glamorous 不是可數作業名稱，也沒有這種複數用法。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 4,
+      "explanation": "glamorous 修飾華麗迷人的服裝，搭配自然。",
+      "sourceOptionOrder": [
+        "C",
+        "B",
+        "A",
+        "D"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "biggest fan",
+      "meaning": "最忠實、最熱情的粉絲",
+      "usage": "常說 be someone’s biggest fan；此處 fan 指支持者。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "My uncle is the museum’s biggest fan; he visits every month, even when the only new thing is a chair.",
+        "The chef cooked a biggest fan in the oven for thirty minutes.",
+        "We biggest fan the football match every Saturday.",
+        "I am the biggest fan at the airport because my suitcase is very heavy."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "biggest fan 表示非常熱情、忠實的支持者。",
+        "此處 biggest fan 指支持者，不能當料理食材。",
+        "biggest fan 是名詞片語，不能當動詞。",
+        "biggest fan 在此指支持者，不是行李重量。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 5,
+      "explanation": "biggest fan 表示非常熱情、忠實的支持者。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "A",
+        "B"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "chase down",
+      "meaning": "追上；努力追查並找到",
+      "usage": "可接人、物或資訊；常指經過一番努力找到。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "The reporter chased down the missing interview notes and found them inside a toy spaceship.",
+        "The journalist chase downed the missing report yesterday.",
+        "Please chase down the temperature to twenty degrees with this ruler.",
+        "My brother chased down asleep after the long flight."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "chased down 表示努力尋找後終於找到。",
+        "chase 的過去式是 chased，不是 chase downed。",
+        "chase down 不表示用尺測量或調整溫度。",
+        "chase down 不能直接接 asleep 這種形容詞。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 6,
+      "explanation": "chased down 表示努力尋找後終於找到。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "backstage",
+      "meaning": "在後臺；後臺的",
+      "usage": "表示舞臺幕後區域，常用 go backstage、wait backstage。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "Please pour the backstage into this glass.",
+        "The football team won three backstage in one game.",
+        "We flew backstage from London to Rome on Tuesday.",
+        "The magician waited backstage while his rabbit sat in the front row wearing sunglasses."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "backstage 不是可倒入杯子的液體。",
+        "backstage 不是可計分的球賽單位。",
+        "backstage 不表示搭飛機的方式或艙等。",
+        "backstage 指表演舞臺後方的工作區域。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 7,
+      "explanation": "backstage 指表演舞臺後方的工作區域。",
+      "sourceOptionOrder": [
+        "A",
+        "C",
+        "D",
+        "B"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "in between",
+      "meaning": "在兩者之間；在空檔中",
+      "usage": "常與兩個事件、時間或物件連用。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "The captain in betweened the islands on the map.",
+        "In between two meetings, the manager practiced her speech to a cardboard astronaut.",
+        "The pilot in between the plane safely yesterday.",
+        "The dentist arrived in betweenly at eight o’clock."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "in between 不是動詞，不能加 -ed 當過去式。",
+        "in between two meetings 表示兩場會議之間的空檔。",
+        "in between 不是動詞，不能代替駕駛飛機。",
+        "in between 不能變成 in betweenly 這種副詞。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 8,
+      "explanation": "in between two meetings 表示兩場會議之間的空檔。",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "snap",
+      "meaning": "快速拍照；打響指；突然折斷",
+      "usage": "本題使用「快速拍照」的意思，常說 snap a photo。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "I snapped a photo of the street artist just as a pigeon landed on his hat.",
+        "The tourist snapped three kilometers before breakfast.",
+        "The nurse snapped a headache onto the waiting room wall.",
+        "We snapped the meeting at nine and then sat down to discuss the plan."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "snapped a photo 表示快速拍下一張照片。",
+        "snap a photo 不可用 kilometers 當拍攝的受詞。",
+        "snap a photo 的用法不能用 headache 當拍攝結果。",
+        "snap 不表示正式召開會議；應說 started the meeting。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 9,
+      "explanation": "snapped a photo 表示快速拍下一張照片。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "plastic",
+      "meaning": "虛假做作的；不真誠的",
+      "usage": "本題使用比喻義，形容態度或人物形象不真誠。",
+      "prompt": "Which sentence uses the expression correctly?",
+      "options": [
+        "I bought five plastics of kindness at the bookshop.",
+        "The storm was plastic because it rained for six hours.",
+        "The teacher plastic her history lesson every Monday.",
+        "His smile looked plastic when he praised a film he had slept through."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "plastic 不能作為計算善意的單位。",
+        "plastic 的比喻義不表示下雨時間很長。",
+        "plastic 不是這裡可用的動詞。",
+        "plastic 可比喻笑容虛假、不真誠。"
+      ],
+      "sourceFile": "Paparazzi_Vocabulary_Quiz_Redo.md",
+      "sourceItem": 10,
+      "explanation": "plastic 可比喻笑容虛假、不真誠。",
+      "sourceOptionOrder": [
+        "B",
+        "D",
+        "C",
+        "A"
+      ]
+    }
+  ],
+  "tags": [
+    "lady gaga",
+    "paparazzi"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/paparazzi/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/paparazzi/user-cover-20261101.png",
+  "singer": "Lady Gaga",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 208.36425,
+    "audioSha256": "9039e246ac2d0133a4e3f09dc7685fbbd5c86a06fab36d7efba898d67bb1d059",
+    "timedLines": 38,
+    "untimedLines": 8,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Paparazzi\".pdf",
+      "sha256": "a80efd7c5c90c579ac02ead822053be36191677d5dda661e754cc3729f27678c"
+    },
+    "mp3": {
+      "filename": "Lady Gaga - Paparazzi (Audio) [rSZ50vs9OXs].mp3",
+      "sha256": "9039e246ac2d0133a4e3f09dc7685fbbd5c86a06fab36d7efba898d67bb1d059"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-dc3e3b16-aafb-49f4-8ea6-82c969f0495b.png",
+    "sha256": "ad02deddc0445e08a6595542a70ff24769e454c83e638f347bd8deeeca759589",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

@@ -1,0 +1,166 @@
+{
+  "id": "proverb-11",
+  "order": 11,
+  "slug": "ask-a-silly-question-and-you-get-a-silly-answer",
+  "version": "1",
+  "title": "問得無聊，答得滑稽",
+  "titleEn": "Ask a Silly Question and You Get a Silly Answer",
+  "titleZh": "問得無聊，答得滑稽",
+  "image": "assets/proverb-system/ask-a-silly-question-and-you-get-a-silly-answer.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for Ask a Silly Question and You Get a Silly Answer.",
+  "imageAltZh": "「問得無聊，答得滑稽」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "An obvious, absurd, or poorly thought-out question may invite an equally flippant reply.",
+    "zh": "問題太顯而易見、荒謬或沒有想清楚時，對方可能用玩笑式答案回應。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "ask a silly question and you get a silly answer",
+      "highlight": "ask a silly question and you get a silly answer"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "Ken had paint on both hands. Asked whether he had painted the wall, he joked that he had shaken hands with a paint tin: ask a silly question and you get a silly answer.",
+      "zh": "阿謙滿手油漆，朋友卻問他是否剛畫過牆；他笑說自己剛和油漆桶握手。",
+      "highlight": "ask a silly question and you get a silly answer"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “ask a silly question and you get a silly answer” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「ask a silly question and you get a silly answer」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-11-q01",
+      "number": 1,
+      "prompt": "Lok comes in from the rain, soaked; a friend asks whether it is raining, and Lok jokes that the clouds are taking a bath.",
+      "promptZh": "阿樂剛從雨中走入屋，全身濕透，朋友仍問外面有沒有下雨；阿樂笑說「雲在洗澡」。",
+      "starter": "The",
+      "answer": "The obvious question drew a playful answer about bathing clouds—ask a silly question and you get a silly answer.",
+      "answerZh": "阿樂剛從雨中走入屋，全身濕透，朋友仍問外面有沒有下雨；阿樂笑說「雲在洗澡」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q02",
+      "number": 2,
+      "prompt": "Ki carries a large bouquet; asked if she is holding flowers, she jokes, “No, the flowers are holding me.”",
+      "promptZh": "阿琪拿着一大束花，朋友問「你拿着花嗎」；她答「不，是花拿着我」。",
+      "starter": "Ki",
+      "answer": "Ki turns an obvious question into a playful reversal—ask a silly question and you get a silly answer.",
+      "answerZh": "阿琪拿着一大束花，朋友問「你拿着花嗎」；她答「不，是花拿着我」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q03",
+      "number": 3,
+      "prompt": "A friend watches Jun cycle in, then asks whether he cycled there, he jokes, “I came by spaceship.”",
+      "promptZh": "朋友看着阿俊騎單車到達，仍問他是否騎單車來；他笑說「我是坐飛船來的」。",
+      "starter": "Jun",
+      "answer": "Jun answers the obvious question with an absurd joke—ask a silly question and you get a silly answer.",
+      "answerZh": "朋友看着阿俊騎單車到達，仍問他是否騎單車來；他笑說「我是坐飛船來的」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q04",
+      "number": 4,
+      "prompt": "A friend watches Ting take a cake from the oven, then asks if she baked it, she jokes that the oven did all the work.",
+      "promptZh": "朋友看着阿婷把蛋糕從焗爐取出，仍問她有沒有焗蛋糕；她說「是焗爐自己做的」。",
+      "starter": "Ting",
+      "answer": "Ting gives a joking answer to a question with an obvious clue—ask a silly question and you get a silly answer.",
+      "answerZh": "朋友看着阿婷把蛋糕從焗爐取出，仍問她有沒有焗蛋糕；她說「是焗爐自己做的」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q05",
+      "number": 5,
+      "prompt": "A friend watches Man practise in his football kit on the pitch, then asks if he came to play, he jokes that he is there to count blades of grass.",
+      "promptZh": "朋友看着穿球衣的阿文在球場練習，仍問他是不是來踢球；他答「不是，我來替草地數葉子」。",
+      "starter": "Man",
+      "answer": "Man responds to an obvious question with a silly alternative—ask a silly question and you get a silly answer.",
+      "answerZh": "朋友看着穿球衣的阿文在球場練習，仍問他是不是來踢球；他答「不是，我來替草地數葉子」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q06",
+      "number": 6,
+      "prompt": "Shan carries a tall stack of books; asked if she is carrying books, she jokes that the books are taking her for a walk.",
+      "promptZh": "阿珊抱着厚厚一疊書，朋友問「你拿着書嗎」；她笑說「不，是書帶我散步」。",
+      "starter": "Shan",
+      "answer": "Shan answers an obvious question with a playful image—ask a silly question and you get a silly answer.",
+      "answerZh": "阿珊抱着厚厚一疊書，朋友問「你拿着書嗎」；她笑說「不，是書帶我散步」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q07",
+      "number": 7,
+      "prompt": "A friend watches Bin finish his meal, then asks if he has finished eating, he jokes that the bowl ate the food itself.",
+      "promptZh": "朋友看着阿彬把飯吃完，仍問「你吃完了嗎」；他答「是碗自己吃光的」。",
+      "starter": "An",
+      "answer": "An obvious question receives a deliberately silly answer—ask a silly question and you get a silly answer.",
+      "answerZh": "朋友看着阿彬把飯吃完，仍問「你吃完了嗎」；他答「是碗自己吃光的」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q08",
+      "number": 8,
+      "prompt": "Ning enters holding an umbrella; asked if she brought one, she jokes that it is a folding tree.",
+      "promptZh": "阿寧拿着雨傘走入屋，朋友問她有沒有帶傘；她答「沒有，這是會摺的樹」。",
+      "starter": "Ning",
+      "answer": "Ning gives a playful answer to an obvious question—ask a silly question and you get a silly answer.",
+      "answerZh": "阿寧拿着雨傘走入屋，朋友問她有沒有帶傘；她答「沒有，這是會摺的樹」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q09",
+      "number": 9,
+      "prompt": "A friend watches Hong put on his hard hat and take out his tools at the building site, then asks if he is starting work, he jokes that he came to photograph the hat.",
+      "promptZh": "朋友看着阿康戴上安全帽、拿出工具準備開工，仍問他是不是要開工；他答「我來給帽子拍照」。",
+      "starter": "Hong",
+      "answer": "Hong replies to an obvious work question with a joke—ask a silly question and you get a silly answer.",
+      "answerZh": "朋友看着阿康戴上安全帽、拿出工具準備開工，仍問他是不是要開工；他答「我來給帽子拍照」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q10",
+      "number": 10,
+      "prompt": "A friend watches Li take a bite of ice cream, then asks if she is eating it, she jokes that it is eating her.",
+      "promptZh": "阿莉正咬一口冰淇淋，朋友仍問她是否正在吃；她笑說「不，是冰淇淋在吃我」。",
+      "starter": "Li",
+      "answer": "Li answers a too-obvious question with a comic reversal—ask a silly question and you get a silly answer.",
+      "answerZh": "阿莉正咬一口冰淇淋，朋友仍問她是否正在吃；她笑說「不，是冰淇淋在吃我」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q11",
+      "number": 11,
+      "prompt": "May carries a box labelled “donation”; asked if she is donating the books, she jokes that they are going on holiday.",
+      "promptZh": "阿美抱着一箱標了「捐贈」的書，朋友問她是否要捐書；她說「不，書要去旅行」。",
+      "starter": "May",
+      "answer": "May answers an obvious question with a playful image—ask a silly question and you get a silly answer.",
+      "answerZh": "阿美抱着一箱標了「捐贈」的書，朋友問她是否要捐書；她說「不，書要去旅行」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    },
+    {
+      "id": "proverb-11-q12",
+      "number": 12,
+      "prompt": "Sam is kneading dough in the kitchen with flour all over his face; a friend asks if he is baking, he jokes that the flour found him first.",
+      "promptZh": "阿森在廚房揉麵團，滿臉麵粉，朋友仍問他是否在焗餅；他答「是麵粉先來找我的」。",
+      "starter": "Sam’s",
+      "answer": "Sam’s floury face prompts an obvious question and a playful reply—ask a silly question and you get a silly answer.",
+      "answerZh": "阿森在廚房揉麵團，滿臉麵粉，朋友仍問他是否在焗餅；他答「是麵粉先來找我的」。",
+      "highlight": "ask a silly question and you get a silly answer"
+    }
+  ]
+}

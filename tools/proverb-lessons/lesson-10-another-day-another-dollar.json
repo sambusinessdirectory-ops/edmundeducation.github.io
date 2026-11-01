@@ -1,0 +1,166 @@
+{
+  "id": "proverb-10",
+  "order": 10,
+  "slug": "another-day-another-dollar",
+  "version": "1",
+  "title": "又過一天，又賺一份工錢",
+  "titleEn": "Another Day, Another Dollar",
+  "titleZh": "又過一天，又賺一份工錢",
+  "image": "assets/proverb-system/another-day-another-dollar.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for Another Day, Another Dollar.",
+  "imageAltZh": "「又過一天，又賺一份工錢」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "A wry or weary comment on another ordinary day of work undertaken to earn a living.",
+    "zh": "又完成了一天例行工作，賺取生活所需；語氣常帶疲倦或無奈。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "another day, another dollar",
+      "highlight": "another day, another dollar"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "After another nearly identical shift, Long packed up his tools and said, “Another day, another dollar.”",
+      "zh": "阿朗又做完一班幾乎一模一樣的工作，收好工具後苦笑了一下。",
+      "highlight": "another day, another dollar"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “another day, another dollar” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「another day, another dollar」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-10-q01",
+      "number": 1,
+      "prompt": "Long finishes another nearly identical shift stocking shelves and gives a wry smile.",
+      "promptZh": "阿朗做完又一班幾乎相同的貨架整理工作，收工時苦笑。",
+      "starter": "Long",
+      "answer": "Long finishes another familiar shift with a weary smile—another day, another dollar.",
+      "answerZh": "阿朗做完又一班幾乎相同的貨架整理工作，收工時苦笑。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q02",
+      "number": 2,
+      "prompt": "Min completes the daily cleaning again, puts away her tools, and sighs softly.",
+      "promptZh": "阿敏再次完成每日的清潔工作，把工具收好後輕輕嘆氣。",
+      "starter": "Min",
+      "answer": "Min reaches the end of another routine working day—another day, another dollar.",
+      "answerZh": "阿敏再次完成每日的清潔工作，把工具收好後輕輕嘆氣。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q03",
+      "number": 3,
+      "prompt": "Jun checks orders by the same process for a third day and jokes, “Here we go again.”",
+      "promptZh": "阿俊連續第三天按同一流程核對訂單，笑說「又來了」。",
+      "starter": "Jun",
+      "answer": "Jun is facing another similar day of paid work—another day, another dollar.",
+      "answerZh": "阿俊連續第三天按同一流程核對訂單，笑說「又來了」。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q04",
+      "number": 4,
+      "prompt": "Sze locks the shop and remarks that she will open it at the same hour tomorrow.",
+      "promptZh": "阿詩關掉店裏的燈，說明天又要按一樣的時間開門。",
+      "starter": "Sze",
+      "answer": "Sze expects another familiar working day tomorrow—another day, another dollar.",
+      "answerZh": "阿詩關掉店裏的燈，說明天又要按一樣的時間開門。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q05",
+      "number": 5,
+      "prompt": "Bin puts down today’s delivery sheet, sees another pile for tomorrow, and shakes his head wryly.",
+      "promptZh": "阿彬把今天的派送單放下，望着明天一疊相同表格，半開玩笑地搖頭。",
+      "starter": "Bin",
+      "answer": "Bin sees another ordinary shift waiting for him—another day, another dollar.",
+      "answerZh": "阿彬把今天的派送單放下，望着明天一疊相同表格，半開玩笑地搖頭。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q06",
+      "number": 6,
+      "prompt": "Wai finishes another day answering similar enquiries and says the days blur together.",
+      "promptZh": "阿慧完成又一天接聽同類查詢的工作，下班時說日子真相似。",
+      "starter": "Wai",
+      "answer": "Wai comments on the sameness of her working days—another day, another dollar.",
+      "answerZh": "阿慧完成又一天接聽同類查詢的工作，下班時說日子真相似。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q07",
+      "number": 7,
+      "prompt": "Ki follows the same mail route each day and smiles tiredly when he returns to the post office.",
+      "promptZh": "阿其每天按相同路線收信，今天回到郵局後疲倦地笑。",
+      "starter": "Ki",
+      "answer": "Ki completes another routine mail round—another day, another dollar.",
+      "answerZh": "阿其每天按相同路線收信，今天回到郵局後疲倦地笑。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q08",
+      "number": 8,
+      "prompt": "Lin finishes another evening shift and says on the way home, “Same again tomorrow.”",
+      "promptZh": "阿蓮又按時完成一班晚更，回家路上只說「明天照樣」。",
+      "starter": "Lin",
+      "answer": "Lin expects another similar shift after this one—another day, another dollar.",
+      "answerZh": "阿蓮又按時完成一班晚更，回家路上只說「明天照樣」。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q09",
+      "number": 9,
+      "prompt": "Lam arranges the bakery stock each day and finishes the same task today before saying, “Done.”",
+      "promptZh": "阿霖每天排好麵包店的貨，今天也照常做完，拍拍手套說「收工」。",
+      "starter": "Lam",
+      "answer": "Lam has completed another ordinary paid day—another day, another dollar.",
+      "answerZh": "阿霖每天排好麵包店的貨，今天也照常做完，拍拍手套說「收工」。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q10",
+      "number": 10,
+      "prompt": "Jay enters another batch of data, sees tomorrow’s similar list, and smiles wryly.",
+      "promptZh": "阿傑把又一批資料輸入系統，望着明天的同類清單苦笑。",
+      "starter": "Jay",
+      "answer": "Jay faces the familiar cycle of another workday—another day, another dollar.",
+      "answerZh": "阿傑把又一批資料輸入系統，望着明天的同類清單苦笑。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q11",
+      "number": 11,
+      "prompt": "Ana finishes the regular Monday stocktake and says the same task will return next week.",
+      "promptZh": "阿娜完成固定的週一盤點，說下星期又會重來。",
+      "starter": "Ana",
+      "answer": "Ana wryly notes another cycle of routine work—another day, another dollar.",
+      "answerZh": "阿娜完成固定的週一盤點，說下星期又會重來。",
+      "highlight": "another day, another dollar"
+    },
+    {
+      "id": "proverb-10-q12",
+      "number": 12,
+      "prompt": "Ming packs away his repair tools after another day of similar repairs and sighs calmly.",
+      "promptZh": "阿明收好修理工具，結束又一天相似的維修工作，平靜地嘆口氣。",
+      "starter": "Ming",
+      "answer": "Ming reflects on another workday much like the last—another day, another dollar.",
+      "answerZh": "阿明收好修理工具，結束又一天相似的維修工作，平靜地嘆口氣。",
+      "highlight": "another day, another dollar"
+    }
+  ]
+}

@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, maximum-scale=5.0, viewport-fit=cover">
   <meta name="description" content="EdmundEducation 英文學習平台：DSE、IELTS、CRE 英文課程、學習卡、寫作、交文及文法檢查、說話、句子結構、教材下載及功課溫習安排。">
   <meta name="theme-color" content="#20283d">
+  <script>document.documentElement.dataset.homepageLoadingVariant = Math.random() < 0.5 ? 'eddy' : 'phoebe';</script>
   <meta name="mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-title" content="港大 Edmund Sir 英文補習">
@@ -20,7 +21,7 @@
   <link rel="preload" as="image" href="assets/homepage-optimized/company-logo.webp" fetchpriority="high">
   <link rel="preload" as="image" href="assets/homepage-optimized/game-cover.webp" fetchpriority="auto">
   <link rel="stylesheet" href="/pwa-ui.css">
-  <link rel="stylesheet" href="/site-announcements.css?v=20261021-3">
+  <link rel="stylesheet" href="/site-announcements.css?v=20261101-eddy-attached2">
   <link rel="stylesheet" href="/homepage-system-directory.css?v=20260813-1">
   <link rel="stylesheet" href="/homepage-system-deck.css?v=20261023-academy-nexus7">
   <script defer src="/pwa-register.js"></script>
@@ -435,10 +436,24 @@
       object-fit: contain;
     }
 
-    .instagram-followers {position:absolute;bottom:calc(100% + 10px);left:50%;transform:translateX(-50%);display:grid;justify-items:center;gap:1px;white-space:nowrap;line-height:1.2;color:#65366e;text-shadow:0 1px 8px #fff;}
-    .instagram-followers strong {font-size:27px;font-weight:800;font-variant-numeric:tabular-nums;}
-    .instagram-followers span {font-size:11px;font-weight:700;}
-    .instagram-followers time {font-size:10px;color:#596978;}
+    .instagram-followers {
+      position:absolute;bottom:calc(100% + 12px);left:50%;transform:translateX(-50%);
+      display:grid;justify-items:center;gap:3px;min-width:112px;padding:9px 13px 10px;
+      border:1px solid transparent;border-radius:18px;white-space:nowrap;line-height:1;
+      background:linear-gradient(135deg,#fffdfb,#fff5fa) padding-box,
+        linear-gradient(125deg,#f4b565,#e7578a,#9862c4) border-box;
+      box-shadow:0 5px 16px rgba(103,39,100,.13),inset 0 1px 0 #fff;
+      color:#682d68;text-shadow:none;
+    }
+    .instagram-followers::after {
+      content:"";position:absolute;bottom:-4px;width:7px;height:7px;
+      background:#fff6fa;border-right:1px solid #c881ac;border-bottom:1px solid #c881ac;
+      transform:rotate(45deg);
+    }
+    .instagram-followers .follower-total {display:flex;align-items:center;gap:7px;}
+    .instagram-followers svg {width:15px;height:15px;fill:#d9467b;flex:none;}
+    .instagram-followers strong {font-family:Arial,sans-serif;font-size:29px;font-weight:800;letter-spacing:-1px;font-variant-numeric:tabular-nums;}
+    .instagram-followers .follower-label {font-family:Arial,"Noto Sans TC",sans-serif;font-size:10px;font-weight:700;letter-spacing:.04em;color:#79556f;}
     .social-link.carousell {
       width: auto;
       border-radius: 0;
@@ -1977,24 +1992,25 @@
       text-shadow: none;
     }
 
-    .parent-communication-card::after {
-      content: "↔";
-      display: grid;
-      place-items: center;
+    .parent-communication-card::after { display: none; }
+    .parent-communication-icon {
+      position: absolute;
+      z-index: 2;
       right: 50%;
       bottom: clamp(19px, 1.4vw, 25px);
       width: clamp(38px, 2.7vw, 48px);
       height: clamp(38px, 2.7vw, 48px);
+      display: grid;
+      place-items: center;
       border: 2px solid rgba(64,44,80,.22);
       border-radius: 50%;
       color: #67487a;
       background: rgba(255,255,255,.72);
       box-shadow: 0 8px 18px rgba(76,48,94,.16);
-      font-size: clamp(20px, 1.4vw, 26px);
-      font-weight: 900;
       transform: translateX(50%);
-      opacity: 1;
+      pointer-events: none;
     }
+    .parent-communication-icon svg { display: block; width: 55%; height: 55%; }
 
     .parent-communication-card:hover,
     .parent-communication-card:focus-visible {
@@ -3126,12 +3142,20 @@
   </style>
   <link rel="stylesheet" href="homepage-review-preview.css?v=20261028-1">
   <link rel="stylesheet" href="page-loader.css?v=20260501-f4f0e9-plain">
+  <link rel="stylesheet" href="homepage-loading.css?v=20261101-phoebe1">
   <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
 <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
-<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261025-1">
+<link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261101-morning-strength1">
 </head>
 
-<body>
+<body class="is-homepage-loading">
+  <div class="homepage-loader" data-homepage-loader role="status" aria-busy="true" aria-live="polite">
+    <div class="homepage-loader__art">
+      <div class="homepage-loader__scene" data-homepage-loading-scene aria-hidden="true"></div>
+    </div>
+    <span class="homepage-loader__label">Loading Edmund Education</span>
+  </div>
+  <noscript><style>.homepage-loader { display: none; }</style></noscript>
   <div class="page-loader" data-page-loader aria-hidden="true">
     <img src="assets/homepage-optimized/running-horse-loader.webp" alt="" aria-hidden="true" width="320" height="320" decoding="async">
   </div>
@@ -3170,7 +3194,7 @@
             <section class="company-review-preview" data-company-review-preview aria-label="學生及家長評價預覽" aria-hidden="true" inert>
               <header class="company-review-preview__header">
                 <div><span>STUDENT REVIEWS</span><h2>用家實證！</h2></div>
-                <a href="#student-reviews">查看全部評價 ↗</a>
+                <a href="#student-reviews">查看全部評價 <svg aria-hidden="true" width="18" height="18" viewBox="0 0 24 24" style="vertical-align:middle"><use href="/song-icons.svg#arrow-up-right"></use></svg></a>
               </header>
               <div class="company-review-preview__feed" data-company-review-feed tabindex="0" aria-label="上下捲動瀏覽學生及家長評價"></div>
             </section>
@@ -3188,8 +3212,8 @@
           <a class="social-link carousell" href="https://carousell.app.link/g2jaZvmwM2b" target="_blank" rel="noopener" aria-label="Carousell">
             <img src="assets/homepage-optimized/carousell-logo.webp" alt="Carousell" width="220" height="47" decoding="async">
           </a>
-          <a class="social-link" href="https://www.instagram.com/edmundeducationedu?igsh=MXhlc3FqbjBxYzIw&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram · 269 位粉絲" style="position:relative">
-            <span class="instagram-followers" data-instagram-followers title="Instagram 粉絲 · 最後成功更新：2026-10-28"><strong>269</strong><span>粉絲 Followers</span><time datetime="2026-10-28T05:16:34Z">更新 28/10</time></span>
+          <a class="social-link" href="https://www.instagram.com/edmundeducationedu?igsh=MXhlc3FqbjBxYzIw&utm_source=qr" target="_blank" rel="noopener" aria-label="Instagram · 270 位粉絲" style="position:relative">
+            <span class="instagram-followers" data-instagram-followers><span class="follower-total"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-9-5.5-9-12a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6.5-9 12-9 12Z"/></svg><strong>270</strong></span><span class="follower-label">粉絲 · Followers</span></span>
             <img src="assets/homepage-optimized/instagram-logo.webp" alt="Instagram" width="160" height="156" decoding="async">
           </a>
           <a class="social-link" href="https://www.youtube.com/@learnenglishforfreehongkong" target="_blank" rel="noopener" aria-label="YouTube">
@@ -3271,9 +3295,9 @@
           <div class="system-card-deck__controls">
             <button type="button" data-system-card-deck-first aria-label="前往第一張卡">01</button>
             <button type="button" data-system-card-deck-previous aria-label="上一個學習系統">↑</button>
-            <strong data-system-card-deck-position>01 / 69</strong>
+            <strong data-system-card-deck-position>01 / 78</strong>
             <button type="button" data-system-card-deck-next aria-label="下一個學習系統">↓</button>
-            <button type="button" data-system-card-deck-last aria-label="前往最後一張卡">66</button>
+            <button type="button" data-system-card-deck-last aria-label="前往最後一張卡">78</button>
           </div>
         </section>
 
@@ -3295,6 +3319,7 @@
 
         <a class="category parent-communication-card" href="parent-communication.html" aria-label="(家長使用) 家長溝通系統">
           <span class="category-name">(家長使用)<br>家長溝通系統</span>
+          <span class="parent-communication-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M4 8h16m0 0-4-4m4 4-4 4M20 16H4m0 0 4-4m-4 0 4 4"/></svg></span>
         </a>
 
         <a class="category writing-submission-card" href="writing-submission.html" aria-label="(學生使用) Edmund Sir Writing 交文系統">
@@ -3519,10 +3544,13 @@
         <a class="category portal-illustrated-card learning-portal-card" href="chip-course.html" aria-label="Chip Design Course 晶片設計課程" style="--portal-card-image:radial-gradient(circle at 78% 22%,rgba(142,225,243,.78),transparent 24%),radial-gradient(circle at 20% 76%,rgba(142,158,250,.55),transparent 31%),linear-gradient(145deg,#0b2540,#225277 56%,#63b1be);--portal-card-hue:194"><span class="category-name">Chip Design Course<br>晶片設計課程</span></a>
         <a class="category portal-illustrated-card learning-portal-card" href="junior-exam-prep.html" aria-label="初中考試溫習系統" style="--portal-card-image:radial-gradient(circle at 78% 19%,rgba(252,218,150,.78),transparent 24%),radial-gradient(circle at 22% 80%,rgba(129,180,205,.55),transparent 30%),linear-gradient(145deg,#16354b,#315979 55%,#a47553);--portal-card-hue:204"><span class="category-name">初中考試<br>溫習系統</span></a>
         <a class="category portal-illustrated-card learning-portal-card" href="junior-quiz-review.html" aria-label="初中測驗溫習系統" style="--portal-card-image:radial-gradient(circle at 25% 20%,rgba(248,217,149,.68),transparent 28%),radial-gradient(circle at 82% 72%,rgba(161,183,178,.5),transparent 33%),linear-gradient(145deg,#173d46,#42645e 55%,#9d724f);--portal-card-hue:25"><span class="category-name">初中測驗<br>溫習系統</span></a>
-        <a class="category portal-illustrated-card learning-portal-card" href="essay-memorization.html" aria-label="範文背書系統 · Model Essay 80" style="--portal-card-image:radial-gradient(circle at 73% 22%,rgba(251,223,156,.9),transparent 24%),radial-gradient(circle at 18% 78%,rgba(128,203,177,.6),transparent 31%),linear-gradient(145deg,#113a3e,#347569 54%,#d1a465);--portal-card-hue:154"><span class="category-name">範文背書系統<br><small>Model Essay 80 · 試驗版</small></span></a>
+        <a class="category portal-illustrated-card learning-portal-card" href="essay-memorization.html" aria-label="範文背書系統 · IELTS Model Essays" style="--portal-card-image:radial-gradient(circle at 73% 22%,rgba(251,223,156,.9),transparent 24%),radial-gradient(circle at 18% 78%,rgba(128,203,177,.6),transparent 31%),linear-gradient(145deg,#113a3e,#347569 54%,#d1a465);--portal-card-hue:154"><span class="category-name">範文背書系統<br><small>IELTS Model Essays · 逐步背書</small></span></a>
         <a id="advanced-native-card" class="category portal-illustrated-card learning-portal-card advanced-native-card" href="advanced-native.html" aria-label="Advanced Native 進階學生使用 高級自然英文 學習系統"><span class="category-name">Advanced Native<br>進階學生使用<br>高級自然英文<br>學習系統</span></a>
         <a class="category portal-illustrated-card learning-portal-card" href="news-discussion.html" aria-label="News Discussion 熱議新聞討論" style="--portal-card-image:radial-gradient(circle at 71% 19%,rgba(239,210,141,.77),transparent 23%),radial-gradient(circle at 16% 80%,rgba(148,199,166,.48),transparent 30%),linear-gradient(142deg,#17382f,#34604b 55%,#a06e47);--portal-card-hue:149"><span class="category-name">News Discussion<br>熱議新聞討論</span></a>
         <a class="category portal-illustrated-card learning-portal-card" href="dse-argument-bank.html" aria-label="DSE 論點大全" style="--portal-card-image:radial-gradient(circle at 80% 18%,rgba(238,212,155,.81),transparent 24%),radial-gradient(circle at 13% 77%,rgba(110,165,145,.58),transparent 31%),linear-gradient(139deg,#102f31,#2b6654 54%,#a98450);--portal-card-hue:151"><span class="category-name">DSE 論點大全<br><small>Discussion · Response · Synonym</small></span></a>
+        <a class="category portal-illustrated-card learning-portal-card" href="ielts-writing-question-preview.html" aria-label="IELTS 寫作問題預覽系統" style="--portal-card-image:radial-gradient(circle at 77% 20%,rgba(250,224,160,.85),transparent 24%),radial-gradient(circle at 20% 79%,rgba(121,196,187,.66),transparent 31%),linear-gradient(140deg,#153843,#25747a 56%,#bf955b);--portal-card-hue:177"><span class="category-name">IELTS 寫作問題<br>預覽系統<br><small>Task 1 · Task 2</small></span></a>
+        <a class="category portal-illustrated-card learning-portal-card" href="policy-discussion.html" aria-label="Policy Discussion 政策討論" style="--portal-card-image:radial-gradient(circle at 71% 19%,rgba(239,210,141,.77),transparent 23%),radial-gradient(circle at 16% 80%,rgba(148,199,166,.48),transparent 30%),linear-gradient(142deg,#17382f,#34604b 55%,#a06e47);--portal-card-hue:149"><span class="category-name">Policy Discussion<br>政策討論</span></a>
+        <a class="category portal-illustrated-card learning-portal-card" href="ielts-chart-teaching.html" aria-label="IELTS 圖表教學系統" style="--portal-card-image:repeating-linear-gradient(0deg,transparent 0 28px,rgba(255,255,255,.08) 28px 29px),linear-gradient(115deg,#173d36,#47836b 62%,#d7be80);--portal-card-hue:153"><span class="category-name">IELTS 圖表<br>教學系統<br><small>Highlight · Group · Calculate</small></span></a>
 
       </div>
     </section>
@@ -4301,13 +4329,14 @@
   </dialog>
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
   <script src="supabase-config.js"></script>
-  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261026-daily-visit1"></script>
+  <script src="eddy-global-dialogues.js?v=20261101-cotton-candy1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
   <script src="homepage-system-directory.js?v=20260813-1"></script>
   <script src="homepage-system-deck.js?v=20260927-ipad6"></script>
   <script src="homepage-language-cards.js?v=20260914-six-languages-1"></script>
+  <script src="homepage-loading.js?v=20261101-phoebe2"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="announcement-rich-text.js?v=20261021-announcements4"></script>
-  <script src="site-announcements.js?v=20261021-announcements3"></script>
-<script src="homepage-instagram-followers.js?v=20261028-1" defer></script>
+  <script src="site-announcements.js?v=20261101-eddy-attached2"></script>
+<script src="homepage-instagram-followers.js?v=20261028-badge2" defer></script>
 </body>
 </html>

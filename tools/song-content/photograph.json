@@ -1,0 +1,4876 @@
+{
+  "slug": "photograph-ed-sheeran",
+  "title": "Photograph",
+  "singer": "Ed Sheeran",
+  "exercise_name": "Photograph · Listening & Vocabulary",
+  "description": "《Photograph》描寫愛情中的思念、距離與珍貴回憶。歌中的主角明白，愛有時會帶來痛苦，但同時也能治癒心靈，讓生命變得更有意義。他希望透過照片保存兩人最美好的時光，讓幸福的瞬間永遠停留，即使彼此分隔兩地，也能感受到對方的陪伴。照片象徵著不會因距離而消失的愛，而反覆出現的「等我回家」則表達了對重逢的期待與承諾。最終，《Photograph》傳達的是愛與回憶的力量：即使時間流逝、距離遙遠，真正珍貴的感情依然能留在心中，成為支持彼此前進的溫暖力量。",
+  "tags": [
+    "ed sheeran",
+    "photograph",
+    "love",
+    "memories"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Loving can hurt",
+      "chinese": "愛會傷人",
+      "startSeconds": 16.18,
+      "endSeconds": 18.8
+    },
+    {
+      "lineId": "line-2",
+      "english": "Loving can hurt sometimes",
+      "chinese": "愛有時會傷人",
+      "startSeconds": 18.82,
+      "endSeconds": 23.54
+    },
+    {
+      "lineId": "line-3",
+      "english": "But it's the only thing that I know",
+      "chinese": "但這是我唯一知道的事",
+      "startSeconds": 23.54,
+      "endSeconds": 30.92
+    },
+    {
+      "lineId": "line-4",
+      "english": "When it gets hard",
+      "chinese": "當一切變得艱難",
+      "startSeconds": 30.92,
+      "endSeconds": 36.76
+    },
+    {
+      "lineId": "line-5",
+      "english": "You know it can get hard sometimes",
+      "chinese": "你知道有時會變得艱難",
+      "startSeconds": 38.02,
+      "endSeconds": 41.26
+    },
+    {
+      "lineId": "line-6",
+      "english": "It is the only thing that makes us feel alive",
+      "chinese": "這是唯一讓我們感覺活著的事",
+      "startSeconds": 42.64,
+      "endSeconds": 48.54
+    },
+    {
+      "lineId": "line-7",
+      "english": "We keep this love in a photograph",
+      "chinese": "我們將這份愛留存在相片裡",
+      "startSeconds": 49.48,
+      "endSeconds": 56.08
+    },
+    {
+      "lineId": "line-8",
+      "english": "We made these memories for ourselves",
+      "chinese": "我們為自己創造了這些回憶",
+      "startSeconds": 57.48,
+      "endSeconds": 61.22
+    },
+    {
+      "lineId": "line-9",
+      "english": "Where our eyes are never closing",
+      "chinese": "在那裡，我們的雙眼永不閉上",
+      "startSeconds": 61.86,
+      "endSeconds": 63.86
+    },
+    {
+      "lineId": "line-10",
+      "english": "Hearts are never broken",
+      "chinese": "心永不破碎",
+      "startSeconds": 64.86,
+      "endSeconds": 65.98
+    },
+    {
+      "lineId": "line-11",
+      "english": "Times forever frozen still",
+      "chinese": "時光永遠凝結靜止",
+      "startSeconds": 66.68,
+      "endSeconds": 69.06
+    },
+    {
+      "lineId": "line-12",
+      "english": "So you can keep me",
+      "chinese": "所以你可以將我",
+      "startSeconds": 70.12,
+      "endSeconds": 72.74
+    },
+    {
+      "lineId": "line-13",
+      "english": "Inside the pocket",
+      "chinese": "放在口袋裡",
+      "startSeconds": 73.36,
+      "endSeconds": 74.96
+    },
+    {
+      "lineId": "line-14",
+      "english": "Of your ripped jeans",
+      "chinese": "你那破洞牛仔褲的口袋裡",
+      "startSeconds": 74.96,
+      "endSeconds": 77.2
+    },
+    {
+      "lineId": "line-15",
+      "english": "Holding me closer",
+      "chinese": "將我抱得更緊",
+      "startSeconds": 77.2,
+      "endSeconds": 79.38
+    },
+    {
+      "lineId": "line-16",
+      "english": "'Til our eyes meet",
+      "chinese": "直到我們目光相遇",
+      "startSeconds": 79.38,
+      "endSeconds": 81.52
+    },
+    {
+      "lineId": "line-17",
+      "english": "You won't ever be alone",
+      "chinese": "你永遠不會孤單",
+      "startSeconds": 82.46,
+      "endSeconds": 85.52
+    },
+    {
+      "lineId": "line-18",
+      "english": "Wait for me to come home",
+      "chinese": "等我回家",
+      "startSeconds": 86.39,
+      "endSeconds": 89.98
+    },
+    {
+      "lineId": "line-19",
+      "english": "Loving can heal",
+      "chinese": "愛能治癒",
+      "startSeconds": 91.46,
+      "endSeconds": 94.32
+    },
+    {
+      "lineId": "line-20",
+      "english": "Loving can mend your soul",
+      "chinese": "愛能修補你的靈魂",
+      "startSeconds": 96.59,
+      "endSeconds": 99.32
+    },
+    {
+      "lineId": "line-21",
+      "english": "And it's the only thing that I know (know)",
+      "chinese": "而這是我唯一知道的事（知道）",
+      "startSeconds": 100.72,
+      "endSeconds": 105.84
+    },
+    {
+      "lineId": "line-22",
+      "english": "I swear it will get easier",
+      "chinese": "我發誓它會變得更容易",
+      "startSeconds": 108.72,
+      "endSeconds": 112.3
+    },
+    {
+      "lineId": "line-23",
+      "english": "Remember that with every piece of ya",
+      "chinese": "記住，用你的每一片碎片",
+      "startSeconds": 112.3,
+      "endSeconds": 116.72
+    },
+    {
+      "lineId": "line-24",
+      "english": "And it's the only thing we take with us when we die",
+      "chinese": "這是我們死去時唯一能帶走的東西",
+      "startSeconds": 118.46,
+      "endSeconds": 124.72
+    },
+    {
+      "lineId": "line-25",
+      "english": "We keep this love in a photograph",
+      "chinese": "我們將這份愛留存在相片裡",
+      "startSeconds": 128.38,
+      "endSeconds": 131.34
+    },
+    {
+      "lineId": "line-26",
+      "english": "We made these memories for ourselves",
+      "chinese": "我們為自己創造了這些回憶",
+      "startSeconds": 133.04,
+      "endSeconds": 136.82
+    },
+    {
+      "lineId": "line-27",
+      "english": "Where our eyes are never closing",
+      "chinese": "在那裡，我們的雙眼永不閉上",
+      "startSeconds": 136.82,
+      "endSeconds": 139.34
+    },
+    {
+      "lineId": "line-28",
+      "english": "Hearts were never broken",
+      "chinese": "心從未破碎",
+      "startSeconds": 139.34,
+      "endSeconds": 141.52
+    },
+    {
+      "lineId": "line-29",
+      "english": "Times forever frozen still",
+      "chinese": "時光永遠凝結靜止",
+      "startSeconds": 141.52,
+      "endSeconds": 144.66
+    },
+    {
+      "lineId": "line-30",
+      "english": "So you can keep me",
+      "chinese": "所以你可以將我",
+      "startSeconds": 145.65,
+      "endSeconds": 148.38
+    },
+    {
+      "lineId": "line-31",
+      "english": "Inside the pocket",
+      "chinese": "放在口袋裡",
+      "startSeconds": 148.38,
+      "endSeconds": 150.44
+    },
+    {
+      "lineId": "line-32",
+      "english": "Of your ripped jeans",
+      "chinese": "你那破洞牛仔褲的口袋裡",
+      "startSeconds": 150.44,
+      "endSeconds": 152.78
+    },
+    {
+      "lineId": "line-33",
+      "english": "Holding me closer",
+      "chinese": "將我抱得更緊",
+      "startSeconds": 152.78,
+      "endSeconds": 154.84
+    },
+    {
+      "lineId": "line-34",
+      "english": "'Til our eyes meet",
+      "chinese": "直到我們目光相遇",
+      "startSeconds": 154.84,
+      "endSeconds": 157.0
+    },
+    {
+      "lineId": "line-35",
+      "english": "You won't ever be alone",
+      "chinese": "你永遠不會孤單",
+      "startSeconds": 157.57,
+      "endSeconds": 161.46
+    },
+    {
+      "lineId": "line-36",
+      "english": "And if you hurt me",
+      "chinese": "而如果你傷害我",
+      "startSeconds": 162.8,
+      "endSeconds": 166.08
+    },
+    {
+      "lineId": "line-37",
+      "english": "That's OK, baby, only words bleed",
+      "chinese": "沒關係，寶貝，只有言語會淌血",
+      "startSeconds": 166.08,
+      "endSeconds": 170.62
+    },
+    {
+      "lineId": "line-38",
+      "english": "Inside these pages you just hold me",
+      "chinese": "在這些書頁裡，你只需擁抱我",
+      "startSeconds": 170.62,
+      "endSeconds": 175.14
+    },
+    {
+      "lineId": "line-39",
+      "english": "And I won't ever let you go",
+      "chinese": "而我永遠不會讓你走",
+      "startSeconds": 175.14,
+      "endSeconds": 179.16
+    },
+    {
+      "lineId": "line-40",
+      "english": "Wait for me to come home",
+      "chinese": "等我回家",
+      "startSeconds": 179.16,
+      "endSeconds": 182.64
+    },
+    {
+      "lineId": "line-41",
+      "english": "Wait for me to come home",
+      "chinese": "等我回家",
+      "startSeconds": 183.74,
+      "endSeconds": 187.6
+    },
+    {
+      "lineId": "line-42",
+      "english": "Wait for me to come home",
+      "chinese": "等我回家",
+      "startSeconds": 187.6,
+      "endSeconds": 192.62
+    },
+    {
+      "lineId": "line-43",
+      "english": "Wait for me to come home",
+      "chinese": "等我回家",
+      "startSeconds": 192.62,
+      "endSeconds": 197.6
+    },
+    {
+      "lineId": "line-44",
+      "english": "Oh you can fit me",
+      "chinese": "噢，你可以將我",
+      "startSeconds": 199.54,
+      "endSeconds": 201.54
+    },
+    {
+      "lineId": "line-45",
+      "english": "Inside the necklace you got when you were sixteen",
+      "chinese": "放進你十六歲時得到的項鍊裡",
+      "startSeconds": 201.54,
+      "endSeconds": 205.7
+    },
+    {
+      "lineId": "line-46",
+      "english": "Next to your heartbeat",
+      "chinese": "緊貼你的心跳",
+      "startSeconds": 205.7,
+      "endSeconds": 208.26
+    },
+    {
+      "lineId": "line-47",
+      "english": "Where I should be",
+      "chinese": "那是我該在的地方",
+      "startSeconds": 208.26,
+      "endSeconds": 210.54
+    },
+    {
+      "lineId": "line-48",
+      "english": "Keep it deep within your soul",
+      "chinese": "將它深藏在你的靈魂裡",
+      "startSeconds": 210.78,
+      "endSeconds": 213.96
+    },
+    {
+      "lineId": "line-49",
+      "english": "And if you hurt me",
+      "chinese": "而如果你傷害我",
+      "startSeconds": 216.22,
+      "endSeconds": 219.44
+    },
+    {
+      "lineId": "line-50",
+      "english": "Well, that's OK, baby, only words bleed",
+      "chinese": "嗯，沒關係，寶貝，只有言語會淌血",
+      "startSeconds": 219.44,
+      "endSeconds": 223.88
+    },
+    {
+      "lineId": "line-51",
+      "english": "Inside these pages you just hold me",
+      "chinese": "在這些書頁裡，你只需擁抱我",
+      "startSeconds": 223.88,
+      "endSeconds": 228.34
+    },
+    {
+      "lineId": "line-52",
+      "english": "And I won't ever let you go",
+      "chinese": "而我永遠不會讓你走",
+      "startSeconds": 228.34,
+      "endSeconds": 233.94
+    },
+    {
+      "lineId": "line-53",
+      "english": "When I'm away",
+      "chinese": "當我離開時",
+      "startSeconds": 233.7,
+      "endSeconds": 235.84
+    },
+    {
+      "lineId": "line-54",
+      "english": "I will remember how you kissed me",
+      "chinese": "我會記得你如何吻我",
+      "startSeconds": 237.62,
+      "endSeconds": 241.5
+    },
+    {
+      "lineId": "line-55",
+      "english": "Under the lamppost",
+      "chinese": "在路燈下",
+      "startSeconds": 241.7,
+      "endSeconds": 243.98
+    },
+    {
+      "lineId": "line-56",
+      "english": "Back on 6th street",
+      "chinese": "回到第六街",
+      "startSeconds": 243.98,
+      "endSeconds": 246.04
+    },
+    {
+      "lineId": "line-57",
+      "english": "Hearing you whisper through the phone",
+      "chinese": "聽見你透過電話輕聲說",
+      "startSeconds": 246.04,
+      "endSeconds": 249.5
+    },
+    {
+      "lineId": "line-58",
+      "english": "\"Wait for me to come home\"",
+      "chinese": "「等我回家」",
+      "startSeconds": 249.5,
+      "endSeconds": 253.66
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 2,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛會傷人",
+          "options": [
+            "hurt",
+            "heal",
+            "hold"
+          ],
+          "answer": "hurt"
+        },
+        {
+          "number": 2,
+          "lineId": "line-3",
+          "prompt": "But it's the {{blank}} that I know",
+          "promptZh": "但這是我唯一知道的事",
+          "options": [
+            "only way",
+            "only thing",
+            "one thing"
+          ],
+          "answer": "only thing"
+        },
+        {
+          "number": 3,
+          "lineId": "line-4",
+          "prompt": "When it {{blank}}",
+          "promptZh": "當一切變得艱難",
+          "options": [
+            "gets hard",
+            "gets cold",
+            "feels hard"
+          ],
+          "answer": "gets hard"
+        },
+        {
+          "number": 4,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that makes us {{blank}}",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "feel okay",
+            "be alive",
+            "feel alive"
+          ],
+          "answer": "feel alive"
+        },
+        {
+          "number": 5,
+          "lineId": "line-7",
+          "prompt": "We keep this love in a {{blank}}",
+          "promptZh": "我們將這份愛留存在相片裡",
+          "options": [
+            "picture",
+            "photograph",
+            "memory"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "We made these {{blank}} for ourselves",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "memories",
+            "moments",
+            "stories"
+          ],
+          "answer": "memories"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{blank}}",
+          "promptZh": "在那裡，我們的雙眼永不閉上",
+          "options": [
+            "always closing",
+            "never open",
+            "never closing"
+          ],
+          "answer": "never closing"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "Hearts are {{blank}}",
+          "promptZh": "心永不破碎",
+          "options": [
+            "never open",
+            "never broken",
+            "always broken"
+          ],
+          "answer": "never broken"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "Times forever {{blank}}",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "frozen time",
+            "frozen still",
+            "standing still"
+          ],
+          "answer": "frozen still"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "Inside the {{blank}}",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "pocket",
+            "wallet",
+            "jacket"
+          ],
+          "answer": "pocket"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "Of your {{blank}}",
+          "promptZh": "你那破洞牛仔褲的口袋裡",
+          "options": [
+            "ripped seams",
+            "tight jeans",
+            "ripped jeans"
+          ],
+          "answer": "ripped jeans"
+        },
+        {
+          "number": 12,
+          "lineId": "line-15",
+          "prompt": "Holding me {{blank}}",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "close",
+            "longer",
+            "closer"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 13,
+          "lineId": "line-16",
+          "prompt": "'Til our {{blank}}",
+          "promptZh": "直到我們目光相遇",
+          "options": [
+            "eyes meet",
+            "eyes close",
+            "hearts meet"
+          ],
+          "answer": "eyes meet"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "You won't ever be {{blank}}",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "lonely",
+            "alone",
+            "away"
+          ],
+          "answer": "alone"
+        },
+        {
+          "number": 15,
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{blank}}",
+          "promptZh": "等我回家",
+          "options": [
+            "come back",
+            "go home",
+            "come home"
+          ],
+          "answer": "come home"
+        },
+        {
+          "number": 16,
+          "lineId": "line-20",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能修補你的靈魂",
+          "options": [
+            "mend your soul",
+            "mend your heart",
+            "heal your soul"
+          ],
+          "answer": "mend your soul"
+        },
+        {
+          "number": 17,
+          "lineId": "line-23",
+          "prompt": "Remember that with every {{blank}}",
+          "promptZh": "記住，用你的每一片碎片",
+          "options": [
+            "part of you",
+            "piece of ya",
+            "peace of mind"
+          ],
+          "answer": "piece of ya"
+        },
+        {
+          "number": 18,
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{blank}}",
+          "promptZh": "沒關係，寶貝，只有言語會淌血",
+          "options": [
+            "words hurt",
+            "words bleed",
+            "hearts bleed"
+          ],
+          "answer": "words bleed"
+        },
+        {
+          "number": 19,
+          "lineId": "line-46",
+          "prompt": "Next to your {{blank}}",
+          "promptZh": "緊貼你的心跳",
+          "options": [
+            "heartbreak",
+            "heartache",
+            "heartbeat"
+          ],
+          "answer": "heartbeat"
+        },
+        {
+          "number": 20,
+          "lineId": "line-55",
+          "prompt": "Under the {{blank}}",
+          "promptZh": "在路燈下",
+          "options": [
+            "lamppost",
+            "lamplight",
+            "streetlight"
+          ],
+          "answer": "lamppost"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Loving can {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Loving can hurt sometimes"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But it's the {{q:2}} that I know"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "When it {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "You know it can get hard sometimes"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It is the only thing that makes us {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "We keep this love in a {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "We made these {{q:6}} for ourselves"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Hearts are {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Times forever {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "So you can keep me"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Inside the {{q:10}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Of your {{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Holding me {{q:12}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til our {{q:13}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You won't ever be {{q:14}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{q:15}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Loving can heal"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Loving can {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And it's the only thing that I know (know)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I swear it will get easier"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Remember that with every {{q:17}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we take with us when we die"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We keep this love in a photograph"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We made these memories for ourselves"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Where our eyes are never closing"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hearts were never broken"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Times forever frozen still"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "So you can keep me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Inside the pocket"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Of your ripped jeans"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Holding me closer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Til our eyes meet"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You won't ever be alone"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And if you hurt me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{q:18}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Inside these pages you just hold me"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "And I won't ever let you go"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Oh you can fit me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Inside the necklace you got when you were sixteen"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Next to your {{q:19}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Where I should be"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Keep it deep within your soul"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And if you hurt me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Well, that's OK, baby, only words bleed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Inside these pages you just hold me"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I won't ever let you go"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "When I'm away"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I will remember how you kissed me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Under the {{q:20}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Back on 6th street"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Hearing you whisper through the phone"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "\"Wait for me to come home\""
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 2,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛會傷人",
+          "options": [
+            "heal",
+            "hurt",
+            "hold"
+          ],
+          "answer": "hurt"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Loving can hurt {{blank}}",
+          "promptZh": "愛有時會傷人",
+          "options": [
+            "sometimes",
+            "someday",
+            "at times"
+          ],
+          "answer": "sometimes"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "But it's the {{blank}} that I know",
+          "promptZh": "但這是我唯一知道的事",
+          "options": [
+            "only way",
+            "one thing",
+            "only thing"
+          ],
+          "answer": "only thing"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "When it {{blank}}",
+          "promptZh": "當一切變得艱難",
+          "options": [
+            "gets hard",
+            "gets cold",
+            "feels hard"
+          ],
+          "answer": "gets hard"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that {{blank}} 〔第 6 題〕",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "lets us",
+            "makes us",
+            "helps us"
+          ],
+          "answer": "makes us"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that 〔第 5 題〕 {{blank}}",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "feel okay",
+            "feel alive",
+            "be alive"
+          ],
+          "answer": "feel alive"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "We keep this love in a {{blank}}",
+          "promptZh": "我們將這份愛留存在相片裡",
+          "options": [
+            "photograph",
+            "picture",
+            "memory"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "We made these {{blank}} 〔第 9 題〕",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "stories",
+            "moments",
+            "memories"
+          ],
+          "answer": "memories"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "We made these 〔第 8 題〕 {{blank}}",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "by ourselves",
+            "to ourselves",
+            "for ourselves"
+          ],
+          "answer": "for ourselves"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{blank}}",
+          "promptZh": "在那裡，我們的雙眼永不閉上",
+          "options": [
+            "never closing",
+            "never open",
+            "always closing"
+          ],
+          "answer": "never closing"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Hearts are {{blank}}",
+          "promptZh": "心永不破碎",
+          "options": [
+            "never open",
+            "never broken",
+            "always broken"
+          ],
+          "answer": "never broken"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "Times {{blank}} 〔第 13 題〕",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "for now",
+            "together",
+            "forever"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "Times 〔第 12 題〕 {{blank}}",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "frozen still",
+            "standing still",
+            "frozen time"
+          ],
+          "answer": "frozen still"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "{{blank}} the 〔第 15 題〕",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "Within",
+            "Inside",
+            "Beside"
+          ],
+          "answer": "Inside"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "〔第 14 題〕 the {{blank}}",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "wallet",
+            "pocket",
+            "jacket"
+          ],
+          "answer": "pocket"
+        },
+        {
+          "number": 16,
+          "lineId": "line-14",
+          "prompt": "Of your {{blank}}",
+          "promptZh": "你那破洞牛仔褲的口袋裡",
+          "options": [
+            "ripped seams",
+            "tight jeans",
+            "ripped jeans"
+          ],
+          "answer": "ripped jeans"
+        },
+        {
+          "number": 17,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 18 題〕",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "Holding me",
+            "Holding you",
+            "Holding on"
+          ],
+          "answer": "Holding me"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "〔第 17 題〕 {{blank}}",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "close",
+            "longer",
+            "closer"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "'Til our {{blank}}",
+          "promptZh": "直到我們目光相遇",
+          "options": [
+            "eyes close",
+            "eyes meet",
+            "hearts meet"
+          ],
+          "answer": "eyes meet"
+        },
+        {
+          "number": 20,
+          "lineId": "line-17",
+          "prompt": "{{blank}} be 〔第 21 題〕",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "You won't ever",
+            "You will never",
+            "You don't ever"
+          ],
+          "answer": "You won't ever"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "〔第 20 題〕 be {{blank}}",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "lonely",
+            "away",
+            "alone"
+          ],
+          "answer": "alone"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{blank}}",
+          "promptZh": "等我回家",
+          "options": [
+            "come home",
+            "go home",
+            "come back"
+          ],
+          "answer": "come home"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能治癒",
+          "options": [
+            "mend",
+            "heal",
+            "feel"
+          ],
+          "answer": "heal"
+        },
+        {
+          "number": 24,
+          "lineId": "line-20",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能修補你的靈魂",
+          "options": [
+            "heal your soul",
+            "mend your soul",
+            "mend your heart"
+          ],
+          "answer": "mend your soul"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "I swear it will {{blank}}",
+          "promptZh": "我發誓它會變得更容易",
+          "options": [
+            "get easier",
+            "get better",
+            "feel easier"
+          ],
+          "answer": "get easier"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "Remember that with every {{blank}}",
+          "promptZh": "記住，用你的每一片碎片",
+          "options": [
+            "peace of mind",
+            "part of you",
+            "piece of ya"
+          ],
+          "answer": "piece of ya"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we {{blank}} when we die",
+          "promptZh": "這是我們死去時唯一能帶走的東西",
+          "options": [
+            "take with us",
+            "bring with us",
+            "take from us"
+          ],
+          "answer": "take with us"
+        },
+        {
+          "number": 28,
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{blank}}",
+          "promptZh": "沒關係，寶貝，只有言語會淌血",
+          "options": [
+            "words hurt",
+            "hearts bleed",
+            "words bleed"
+          ],
+          "answer": "words bleed"
+        },
+        {
+          "number": 29,
+          "lineId": "line-38",
+          "prompt": "Inside these {{blank}} you just hold me",
+          "promptZh": "在這些書頁裡，你只需擁抱我",
+          "options": [
+            "photos",
+            "pages",
+            "lines"
+          ],
+          "answer": "pages"
+        },
+        {
+          "number": 30,
+          "lineId": "line-39",
+          "prompt": "And I won't ever {{blank}}",
+          "promptZh": "而我永遠不會讓你走",
+          "options": [
+            "let you down",
+            "let it go",
+            "let you go"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 31,
+          "lineId": "line-46",
+          "prompt": "Next to your {{blank}}",
+          "promptZh": "緊貼你的心跳",
+          "options": [
+            "heartbeat",
+            "heartache",
+            "heartbreak"
+          ],
+          "answer": "heartbeat"
+        },
+        {
+          "number": 32,
+          "lineId": "line-55",
+          "prompt": "Under the {{blank}}",
+          "promptZh": "在路燈下",
+          "options": [
+            "lamplight",
+            "lamppost",
+            "streetlight"
+          ],
+          "answer": "lamppost"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Loving can {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Loving can hurt {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But it's the {{q:3}} that I know"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "When it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "You know it can get hard sometimes"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It is the only thing that {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "We keep this love in a {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "We made these {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Hearts are {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Times {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "So you can keep me"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:14}} the {{q:15}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Of your {{q:16}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til our {{q:19}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:20}} be {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Loving can {{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Loving can {{q:24}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And it's the only thing that I know (know)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I swear it will {{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Remember that with every {{q:26}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we {{q:27}} when we die"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We keep this love in a photograph"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We made these memories for ourselves"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Where our eyes are never closing"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hearts were never broken"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Times forever frozen still"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "So you can keep me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Inside the pocket"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Of your ripped jeans"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Holding me closer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Til our eyes meet"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You won't ever be alone"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And if you hurt me"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{q:28}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Inside these {{q:29}} you just hold me"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "And I won't ever {{q:30}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Oh you can fit me"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Inside the necklace you got when you were sixteen"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Next to your {{q:31}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Where I should be"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Keep it deep within your soul"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And if you hurt me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Well, that's OK, baby, only words bleed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Inside these pages you just hold me"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I won't ever let you go"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "When I'm away"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I will remember how you kissed me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Under the {{q:32}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Back on 6th street"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Hearing you whisper through the phone"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "\"Wait for me to come home\""
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 2,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛會傷人",
+          "options": [
+            "hurt",
+            "hold",
+            "heal"
+          ],
+          "answer": "hurt"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Loving can hurt {{blank}}",
+          "promptZh": "愛有時會傷人",
+          "options": [
+            "sometimes",
+            "someday",
+            "at times"
+          ],
+          "answer": "sometimes"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "But it's the {{blank}} that I know",
+          "promptZh": "但這是我唯一知道的事",
+          "options": [
+            "only way",
+            "one thing",
+            "only thing"
+          ],
+          "answer": "only thing"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "When it {{blank}}",
+          "promptZh": "當一切變得艱難",
+          "options": [
+            "gets cold",
+            "gets hard",
+            "feels hard"
+          ],
+          "answer": "gets hard"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "{{blank}} get hard sometimes",
+          "promptZh": "你知道有時會變得艱難",
+          "options": [
+            "You know it can",
+            "You know it could",
+            "You know it will"
+          ],
+          "answer": "You know it can"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that {{blank}} 〔第 7 題〕",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "lets us",
+            "makes us",
+            "helps us"
+          ],
+          "answer": "makes us"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that 〔第 6 題〕 {{blank}}",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "feel okay",
+            "be alive",
+            "feel alive"
+          ],
+          "answer": "feel alive"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "We keep this love in a {{blank}}",
+          "promptZh": "我們將這份愛留存在相片裡",
+          "options": [
+            "picture",
+            "memory",
+            "photograph"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "We made these {{blank}} 〔第 10 題〕",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "moments",
+            "memories",
+            "stories"
+          ],
+          "answer": "memories"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "We made these 〔第 9 題〕 {{blank}}",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "for ourselves",
+            "by ourselves",
+            "to ourselves"
+          ],
+          "answer": "for ourselves"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{blank}}",
+          "promptZh": "在那裡，我們的雙眼永不閉上",
+          "options": [
+            "never open",
+            "never closing",
+            "always closing"
+          ],
+          "answer": "never closing"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Hearts are {{blank}}",
+          "promptZh": "心永不破碎",
+          "options": [
+            "always broken",
+            "never open",
+            "never broken"
+          ],
+          "answer": "never broken"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "Times {{blank}} 〔第 14 題〕",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "forever",
+            "for now",
+            "together"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "Times 〔第 13 題〕 {{blank}}",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "frozen still",
+            "frozen time",
+            "standing still"
+          ],
+          "answer": "frozen still"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "promptZh": "所以你可以將我",
+          "options": [
+            "So you can hold me",
+            "So I can keep you",
+            "So you can keep me"
+          ],
+          "answer": "So you can keep me"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "{{blank}} the 〔第 17 題〕",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "Within",
+            "Inside",
+            "Beside"
+          ],
+          "answer": "Inside"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "〔第 16 題〕 the {{blank}}",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "wallet",
+            "pocket",
+            "jacket"
+          ],
+          "answer": "pocket"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "Of your {{blank}}",
+          "promptZh": "你那破洞牛仔褲的口袋裡",
+          "options": [
+            "ripped seams",
+            "tight jeans",
+            "ripped jeans"
+          ],
+          "answer": "ripped jeans"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 20 題〕",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "Holding me",
+            "Holding you",
+            "Holding on"
+          ],
+          "answer": "Holding me"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "〔第 19 題〕 {{blank}}",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "close",
+            "longer",
+            "closer"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "'Til our {{blank}}",
+          "promptZh": "直到我們目光相遇",
+          "options": [
+            "eyes close",
+            "eyes meet",
+            "hearts meet"
+          ],
+          "answer": "eyes meet"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "{{blank}} be 〔第 23 題〕",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "You won't ever",
+            "You will never",
+            "You don't ever"
+          ],
+          "answer": "You won't ever"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "〔第 22 題〕 be {{blank}}",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "lonely",
+            "alone",
+            "away"
+          ],
+          "answer": "alone"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{blank}}",
+          "promptZh": "等我回家",
+          "options": [
+            "come home",
+            "go home",
+            "come back"
+          ],
+          "answer": "come home"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能治癒",
+          "options": [
+            "mend",
+            "feel",
+            "heal"
+          ],
+          "answer": "heal"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能修補你的靈魂",
+          "options": [
+            "mend your heart",
+            "heal your soul",
+            "mend your soul"
+          ],
+          "answer": "mend your soul"
+        },
+        {
+          "number": 27,
+          "lineId": "line-22",
+          "prompt": "{{blank}} it will 〔第 28 題〕",
+          "promptZh": "我發誓它會變得更容易",
+          "options": [
+            "I promise",
+            "I swear",
+            "I know"
+          ],
+          "answer": "I swear"
+        },
+        {
+          "number": 28,
+          "lineId": "line-22",
+          "prompt": "〔第 27 題〕 it will {{blank}}",
+          "promptZh": "我發誓它會變得更容易",
+          "options": [
+            "get easier",
+            "feel easier",
+            "get better"
+          ],
+          "answer": "get easier"
+        },
+        {
+          "number": 29,
+          "lineId": "line-23",
+          "prompt": "Remember that with every {{blank}}",
+          "promptZh": "記住，用你的每一片碎片",
+          "options": [
+            "part of you",
+            "peace of mind",
+            "piece of ya"
+          ],
+          "answer": "piece of ya"
+        },
+        {
+          "number": 30,
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we {{blank}} when we die",
+          "promptZh": "這是我們死去時唯一能帶走的東西",
+          "options": [
+            "take with us",
+            "take from us",
+            "bring with us"
+          ],
+          "answer": "take with us"
+        },
+        {
+          "number": 31,
+          "lineId": "line-36",
+          "prompt": "{{blank}}",
+          "promptZh": "而如果你傷害我",
+          "options": [
+            "And if you heal me",
+            "And if you hurt me",
+            "And if you hold me"
+          ],
+          "answer": "And if you hurt me"
+        },
+        {
+          "number": 32,
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{blank}}",
+          "promptZh": "沒關係，寶貝，只有言語會淌血",
+          "options": [
+            "words hurt",
+            "words bleed",
+            "hearts bleed"
+          ],
+          "answer": "words bleed"
+        },
+        {
+          "number": 33,
+          "lineId": "line-38",
+          "prompt": "Inside these {{blank}} you just hold me",
+          "promptZh": "在這些書頁裡，你只需擁抱我",
+          "options": [
+            "lines",
+            "photos",
+            "pages"
+          ],
+          "answer": "pages"
+        },
+        {
+          "number": 34,
+          "lineId": "line-39",
+          "prompt": "And I won't ever {{blank}}",
+          "promptZh": "而我永遠不會讓你走",
+          "options": [
+            "let you go",
+            "let it go",
+            "let you down"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 35,
+          "lineId": "line-44",
+          "prompt": "{{blank}}",
+          "promptZh": "噢，你可以將我",
+          "options": [
+            "Oh you can hold me",
+            "Oh you can fit me",
+            "Oh you can keep me"
+          ],
+          "answer": "Oh you can fit me"
+        },
+        {
+          "number": 36,
+          "lineId": "line-45",
+          "prompt": "Inside the necklace you got {{blank}}",
+          "promptZh": "放進你十六歲時得到的項鍊裡",
+          "options": [
+            "when you were six",
+            "when you turned sixteen",
+            "when you were sixteen"
+          ],
+          "answer": "when you were sixteen"
+        },
+        {
+          "number": 37,
+          "lineId": "line-46",
+          "prompt": "Next to your {{blank}}",
+          "promptZh": "緊貼你的心跳",
+          "options": [
+            "heartbeat",
+            "heartbreak",
+            "heartache"
+          ],
+          "answer": "heartbeat"
+        },
+        {
+          "number": 38,
+          "lineId": "line-48",
+          "prompt": "Keep it {{blank}} your soul",
+          "promptZh": "將它深藏在你的靈魂裡",
+          "options": [
+            "deep inside",
+            "far within",
+            "deep within"
+          ],
+          "answer": "deep within"
+        },
+        {
+          "number": 39,
+          "lineId": "line-54",
+          "prompt": "{{blank}} how you kissed me",
+          "promptZh": "我會記得你如何吻我",
+          "options": [
+            "I still remember",
+            "I will remember",
+            "I won't remember"
+          ],
+          "answer": "I will remember"
+        },
+        {
+          "number": 40,
+          "lineId": "line-55",
+          "prompt": "Under the {{blank}}",
+          "promptZh": "在路燈下",
+          "options": [
+            "lamppost",
+            "lamplight",
+            "streetlight"
+          ],
+          "answer": "lamppost"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Loving can {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Loving can hurt {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But it's the {{q:3}} that I know"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "When it {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} get hard sometimes"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It is the only thing that {{q:6}} {{q:7}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "We keep this love in a {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "We made these {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Hearts are {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Times {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:16}} the {{q:17}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Of your {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til our {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:22}} be {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{q:24}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Loving can {{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Loving can {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And it's the only thing that I know (know)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:27}} it will {{q:28}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Remember that with every {{q:29}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we {{q:30}} when we die"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We keep this love in a photograph"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We made these memories for ourselves"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Where our eyes are never closing"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Hearts were never broken"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Times forever frozen still"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "So you can keep me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Inside the pocket"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Of your ripped jeans"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Holding me closer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Til our eyes meet"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You won't ever be alone"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:31}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{q:32}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Inside these {{q:33}} you just hold me"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "And I won't ever {{q:34}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Inside the necklace you got {{q:36}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Next to your {{q:37}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Where I should be"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Keep it {{q:38}} your soul"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And if you hurt me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Well, that's OK, baby, only words bleed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Inside these pages you just hold me"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I won't ever let you go"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "When I'm away"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:39}} how you kissed me"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Under the {{q:40}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Back on 6th street"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Hearing you whisper through the phone"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "\"Wait for me to come home\""
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 2,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛會傷人",
+          "options": [
+            "heal",
+            "hurt",
+            "hold"
+          ],
+          "answer": "hurt"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Loving can hurt {{blank}}",
+          "promptZh": "愛有時會傷人",
+          "options": [
+            "sometimes",
+            "someday",
+            "at times"
+          ],
+          "answer": "sometimes"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "But it's the {{blank}} 〔第 4 題〕",
+          "promptZh": "但這是我唯一知道的事",
+          "options": [
+            "only way",
+            "only thing",
+            "one thing"
+          ],
+          "answer": "only thing"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "But it's the 〔第 3 題〕 {{blank}}",
+          "promptZh": "但這是我唯一知道的事",
+          "options": [
+            "that I knew",
+            "what I know",
+            "that I know"
+          ],
+          "answer": "that I know"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "When it {{blank}}",
+          "promptZh": "當一切變得艱難",
+          "options": [
+            "gets hard",
+            "feels hard",
+            "gets cold"
+          ],
+          "answer": "gets hard"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 7 題〕 sometimes",
+          "promptZh": "你知道有時會變得艱難",
+          "options": [
+            "You know it will",
+            "You know it can",
+            "You know it could"
+          ],
+          "answer": "You know it can"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "〔第 6 題〕 {{blank}} sometimes",
+          "promptZh": "你知道有時會變得艱難",
+          "options": [
+            "feel hard",
+            "get cold",
+            "get hard"
+          ],
+          "answer": "get hard"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that {{blank}} 〔第 9 題〕",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "makes us",
+            "helps us",
+            "lets us"
+          ],
+          "answer": "makes us"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "It is the only thing that 〔第 8 題〕 {{blank}}",
+          "promptZh": "這是唯一讓我們感覺活著的事",
+          "options": [
+            "feel okay",
+            "be alive",
+            "feel alive"
+          ],
+          "answer": "feel alive"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "{{blank}} in a 〔第 11 題〕",
+          "promptZh": "我們將這份愛留存在相片裡",
+          "options": [
+            "We hold this love",
+            "We keep this love",
+            "We make this love"
+          ],
+          "answer": "We keep this love"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "〔第 10 題〕 in a {{blank}}",
+          "promptZh": "我們將這份愛留存在相片裡",
+          "options": [
+            "photograph",
+            "memory",
+            "picture"
+          ],
+          "answer": "photograph"
+        },
+        {
+          "number": 12,
+          "lineId": "line-8",
+          "prompt": "We made these {{blank}} 〔第 13 題〕",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "moments",
+            "stories",
+            "memories"
+          ],
+          "answer": "memories"
+        },
+        {
+          "number": 13,
+          "lineId": "line-8",
+          "prompt": "We made these 〔第 12 題〕 {{blank}}",
+          "promptZh": "我們為自己創造了這些回憶",
+          "options": [
+            "by ourselves",
+            "for ourselves",
+            "to ourselves"
+          ],
+          "answer": "for ourselves"
+        },
+        {
+          "number": 14,
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{blank}}",
+          "promptZh": "在那裡，我們的雙眼永不閉上",
+          "options": [
+            "never closing",
+            "never open",
+            "always closing"
+          ],
+          "answer": "never closing"
+        },
+        {
+          "number": 15,
+          "lineId": "line-10",
+          "prompt": "Hearts are {{blank}}",
+          "promptZh": "心永不破碎",
+          "options": [
+            "never open",
+            "never broken",
+            "always broken"
+          ],
+          "answer": "never broken"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "Times {{blank}} 〔第 17 題〕",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "forever",
+            "for now",
+            "together"
+          ],
+          "answer": "forever"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "Times 〔第 16 題〕 {{blank}}",
+          "promptZh": "時光永遠凝結靜止",
+          "options": [
+            "frozen time",
+            "standing still",
+            "frozen still"
+          ],
+          "answer": "frozen still"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "{{blank}}",
+          "promptZh": "所以你可以將我",
+          "options": [
+            "So you can keep me",
+            "So you can hold me",
+            "So I can keep you"
+          ],
+          "answer": "So you can keep me"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "{{blank}} the 〔第 20 題〕",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "Within",
+            "Inside",
+            "Beside"
+          ],
+          "answer": "Inside"
+        },
+        {
+          "number": 20,
+          "lineId": "line-13",
+          "prompt": "〔第 19 題〕 the {{blank}}",
+          "promptZh": "放在口袋裡",
+          "options": [
+            "wallet",
+            "jacket",
+            "pocket"
+          ],
+          "answer": "pocket"
+        },
+        {
+          "number": 21,
+          "lineId": "line-14",
+          "prompt": "Of your {{blank}}",
+          "promptZh": "你那破洞牛仔褲的口袋裡",
+          "options": [
+            "ripped seams",
+            "ripped jeans",
+            "tight jeans"
+          ],
+          "answer": "ripped jeans"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "{{blank}} 〔第 23 題〕",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "Holding me",
+            "Holding you",
+            "Holding on"
+          ],
+          "answer": "Holding me"
+        },
+        {
+          "number": 23,
+          "lineId": "line-15",
+          "prompt": "〔第 22 題〕 {{blank}}",
+          "promptZh": "將我抱得更緊",
+          "options": [
+            "close",
+            "longer",
+            "closer"
+          ],
+          "answer": "closer"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "'Til our {{blank}}",
+          "promptZh": "直到我們目光相遇",
+          "options": [
+            "eyes close",
+            "hearts meet",
+            "eyes meet"
+          ],
+          "answer": "eyes meet"
+        },
+        {
+          "number": 25,
+          "lineId": "line-17",
+          "prompt": "{{blank}} be 〔第 26 題〕",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "You will never",
+            "You won't ever",
+            "You don't ever"
+          ],
+          "answer": "You won't ever"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "〔第 25 題〕 be {{blank}}",
+          "promptZh": "你永遠不會孤單",
+          "options": [
+            "alone",
+            "away",
+            "lonely"
+          ],
+          "answer": "alone"
+        },
+        {
+          "number": 27,
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{blank}}",
+          "promptZh": "等我回家",
+          "options": [
+            "come home",
+            "go home",
+            "come back"
+          ],
+          "answer": "come home"
+        },
+        {
+          "number": 28,
+          "lineId": "line-19",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能治癒",
+          "options": [
+            "mend",
+            "heal",
+            "feel"
+          ],
+          "answer": "heal"
+        },
+        {
+          "number": 29,
+          "lineId": "line-20",
+          "prompt": "Loving can {{blank}}",
+          "promptZh": "愛能修補你的靈魂",
+          "options": [
+            "heal your soul",
+            "mend your heart",
+            "mend your soul"
+          ],
+          "answer": "mend your soul"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "{{blank}} it will 〔第 31 題〕",
+          "promptZh": "我發誓它會變得更容易",
+          "options": [
+            "I swear",
+            "I promise",
+            "I know"
+          ],
+          "answer": "I swear"
+        },
+        {
+          "number": 31,
+          "lineId": "line-22",
+          "prompt": "〔第 30 題〕 it will {{blank}}",
+          "promptZh": "我發誓它會變得更容易",
+          "options": [
+            "feel easier",
+            "get better",
+            "get easier"
+          ],
+          "answer": "get easier"
+        },
+        {
+          "number": 32,
+          "lineId": "line-23",
+          "prompt": "{{blank}} with every 〔第 33 題〕",
+          "promptZh": "記住，用你的每一片碎片",
+          "options": [
+            "Remember this",
+            "Remember that",
+            "Forget that"
+          ],
+          "answer": "Remember that"
+        },
+        {
+          "number": 33,
+          "lineId": "line-23",
+          "prompt": "〔第 32 題〕 with every {{blank}}",
+          "promptZh": "記住，用你的每一片碎片",
+          "options": [
+            "piece of ya",
+            "part of you",
+            "peace of mind"
+          ],
+          "answer": "piece of ya"
+        },
+        {
+          "number": 34,
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we {{blank}} 〔第 35 題〕",
+          "promptZh": "這是我們死去時唯一能帶走的東西",
+          "options": [
+            "bring with us",
+            "take from us",
+            "take with us"
+          ],
+          "answer": "take with us"
+        },
+        {
+          "number": 35,
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we 〔第 34 題〕 {{blank}}",
+          "promptZh": "這是我們死去時唯一能帶走的東西",
+          "options": [
+            "when we leave",
+            "when we die",
+            "when we go"
+          ],
+          "answer": "when we die"
+        },
+        {
+          "number": 36,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "promptZh": "心從未破碎",
+          "options": [
+            "Hearts are never broken",
+            "Hearts were never open",
+            "Hearts were never broken"
+          ],
+          "answer": "Hearts were never broken"
+        },
+        {
+          "number": 37,
+          "lineId": "line-36",
+          "prompt": "{{blank}}",
+          "promptZh": "而如果你傷害我",
+          "options": [
+            "And if you heal me",
+            "And if you hurt me",
+            "And if you hold me"
+          ],
+          "answer": "And if you hurt me"
+        },
+        {
+          "number": 38,
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{blank}}",
+          "promptZh": "沒關係，寶貝，只有言語會淌血",
+          "options": [
+            "words bleed",
+            "hearts bleed",
+            "words hurt"
+          ],
+          "answer": "words bleed"
+        },
+        {
+          "number": 39,
+          "lineId": "line-38",
+          "prompt": "Inside these {{blank}} you just hold me",
+          "promptZh": "在這些書頁裡，你只需擁抱我",
+          "options": [
+            "photos",
+            "lines",
+            "pages"
+          ],
+          "answer": "pages"
+        },
+        {
+          "number": 40,
+          "lineId": "line-39",
+          "prompt": "And {{blank}} 〔第 41 題〕",
+          "promptZh": "而我永遠不會讓你走",
+          "options": [
+            "I won't ever",
+            "I still won't",
+            "I don't ever"
+          ],
+          "answer": "I won't ever"
+        },
+        {
+          "number": 41,
+          "lineId": "line-39",
+          "prompt": "And 〔第 40 題〕 {{blank}}",
+          "promptZh": "而我永遠不會讓你走",
+          "options": [
+            "let you down",
+            "let you go",
+            "let it go"
+          ],
+          "answer": "let you go"
+        },
+        {
+          "number": 42,
+          "lineId": "line-44",
+          "prompt": "{{blank}}",
+          "promptZh": "噢，你可以將我",
+          "options": [
+            "Oh you can fit me",
+            "Oh you can hold me",
+            "Oh you can keep me"
+          ],
+          "answer": "Oh you can fit me"
+        },
+        {
+          "number": 43,
+          "lineId": "line-45",
+          "prompt": "Inside the necklace you got {{blank}}",
+          "promptZh": "放進你十六歲時得到的項鍊裡",
+          "options": [
+            "when you were six",
+            "when you were sixteen",
+            "when you turned sixteen"
+          ],
+          "answer": "when you were sixteen"
+        },
+        {
+          "number": 44,
+          "lineId": "line-46",
+          "prompt": "Next to your {{blank}}",
+          "promptZh": "緊貼你的心跳",
+          "options": [
+            "heartbreak",
+            "heartache",
+            "heartbeat"
+          ],
+          "answer": "heartbeat"
+        },
+        {
+          "number": 45,
+          "lineId": "line-47",
+          "prompt": "{{blank}}",
+          "promptZh": "那是我該在的地方",
+          "options": [
+            "Where I could be",
+            "Where I should be",
+            "Where I want to be"
+          ],
+          "answer": "Where I should be"
+        },
+        {
+          "number": 46,
+          "lineId": "line-48",
+          "prompt": "Keep it {{blank}} your soul",
+          "promptZh": "將它深藏在你的靈魂裡",
+          "options": [
+            "far within",
+            "deep inside",
+            "deep within"
+          ],
+          "answer": "deep within"
+        },
+        {
+          "number": 47,
+          "lineId": "line-54",
+          "prompt": "{{blank}} 〔第 48 題〕",
+          "promptZh": "我會記得你如何吻我",
+          "options": [
+            "I will remember",
+            "I won't remember",
+            "I still remember"
+          ],
+          "answer": "I will remember"
+        },
+        {
+          "number": 48,
+          "lineId": "line-54",
+          "prompt": "〔第 47 題〕 {{blank}}",
+          "promptZh": "我會記得你如何吻我",
+          "options": [
+            "how you held me",
+            "how you kissed me",
+            "how you missed me"
+          ],
+          "answer": "how you kissed me"
+        },
+        {
+          "number": 49,
+          "lineId": "line-55",
+          "prompt": "Under the {{blank}}",
+          "promptZh": "在路燈下",
+          "options": [
+            "lamppost",
+            "lamplight",
+            "streetlight"
+          ],
+          "answer": "lamppost"
+        },
+        {
+          "number": 50,
+          "lineId": "line-57",
+          "prompt": "{{blank}}",
+          "promptZh": "聽見你透過電話輕聲說",
+          "options": [
+            "Hearing you whisper on the phone",
+            "Hearing your whisper through the phone",
+            "Hearing you whisper through the phone"
+          ],
+          "answer": "Hearing you whisper through the phone"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Loving can {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Loving can hurt {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "But it's the {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "When it {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:6}} {{q:7}} sometimes"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It is the only thing that {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}} in a {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "We made these {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Where our eyes are {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Hearts are {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Times {{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:19}} the {{q:20}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Of your {{q:21}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Til our {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:25}} be {{q:26}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Wait for me to {{q:27}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Loving can {{q:28}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Loving can {{q:29}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And it's the only thing that I know (know)"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:30}} it will {{q:31}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:32}} with every {{q:33}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And it's the only thing we {{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We keep this love in a photograph"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We made these memories for ourselves"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Where our eyes are never closing"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Times forever frozen still"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "So you can keep me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Inside the pocket"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Of your ripped jeans"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Holding me closer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "'Til our eyes meet"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You won't ever be alone"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "That's OK, baby, only {{q:38}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Inside these {{q:39}} you just hold me"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "And {{q:40}} {{q:41}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Wait for me to come home"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Inside the necklace you got {{q:43}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Next to your {{q:44}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Keep it {{q:46}} your soul"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And if you hurt me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Well, that's OK, baby, only words bleed"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Inside these pages you just hold me"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And I won't ever let you go"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "When I'm away"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:47}} {{q:48}}"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Under the {{q:49}}"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Back on 6th street"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "{{q:50}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "\"Wait for me to come home\""
+        }
+      ]
+    }
+  ],
+  "cover_url": "https://edmundeducation.com/song-media/photograph/cover.webp",
+  "audio_url": "https://edmundeducation.com/song-media/photograph/album.mp3",
+  "vocabulary": [
+    {
+      "word": "Get hard",
+      "usage": "當一件事情原本還好，但後來變得比較難時，可以用 get hard。例如生活、工作或考試。",
+      "answer": 0,
+      "number": 1,
+      "prompt": "哪一句正確使用了「get hard」？",
+      "meaning": "變得困難、變得不容易。",
+      "options": [
+        "The test gets hard when the questions are not easy.",
+        "The interview get hard yesterday.",
+        "I get hard my new painting for the show.",
+        "The game gets hard to finished the last level."
+      ],
+      "explanation": "get hard 表示變得困難，這裡是在說考題變難了。",
+      "optionExplanations": [
+        "考題從簡單變困難，符合 get hard 的意思。",
+        "過去事件須用 got hard。",
+        "get hard 表示變難或變硬，不能直接接 painting 作受詞。",
+        "to finished 的形式錯誤，句子沒有完整表達難度。"
+      ]
+    },
+    {
+      "word": "Feel alive",
+      "usage": "當你做喜歡的事情，覺得特別開心、有精神時，可以用這個片語。",
+      "answer": 1,
+      "number": 2,
+      "prompt": "哪一句正確使用了「feel alive」？",
+      "meaning": "感覺充滿活力、感受到生活的快樂。",
+      "options": [
+        "I feel alive to danced on stage.",
+        "I feel alive when I dance to my favorite music.",
+        "I feel alive my bag on the bus.",
+        "I feel alive the door before I go out."
+      ],
+      "explanation": "feel alive 可以形容做喜歡的事時，感到很有活力、很開心。",
+      "optionExplanations": [
+        "to danced 的形式不成立；可說 when I dance on stage。",
+        "跳喜歡的舞時感到有活力，符合 feel alive 的用法。",
+        "feel alive 後面不能直接接 my bag 來表示拿包包。",
+        "feel alive 不是「開門」；應該說 open the door。"
+      ]
+    },
+    {
+      "word": "Make memories",
+      "usage": "跟家人、朋友一起旅行、玩樂或做特別的事情時，可以使用。",
+      "answer": 2,
+      "number": 3,
+      "prompt": "哪一句正確使用了「make memories」？",
+      "meaning": "創造回憶、留下美好回憶。",
+      "options": [
+        "She makes memories to visited her cousins.",
+        "I make memories yesterday at the festival.",
+        "We made good memories on our family trip.",
+        "He made memories to very happy on holiday."
+      ],
+      "explanation": "make memories 是指一起經歷事情，留下值得記住的回憶。",
+      "optionExplanations": [
+        "to visited 形式錯誤；可用 by visiting her cousins。",
+        "過去事件須用 made memories。",
+        "旅行時一起留下美好的回憶，使用正確。",
+        "to very happy 不能連接在此，句子缺少合理結構。"
+      ]
+    },
+    {
+      "word": "Frozen in time",
+      "usage": "通常用來形容照片、回憶或某個特別的時刻，好像時間沒有改變。",
+      "answer": 1,
+      "number": 4,
+      "prompt": "哪一句正確使用了「frozen in time」？",
+      "meaning": "時間彷彿停止、永遠停留在某一刻。",
+      "options": [
+        "I frozen in time my old family photos.",
+        "In that old photo, we're frozen in time.",
+        "She is frozen in time to remembering the concert.",
+        "The village look frozen in time yesterday."
+      ],
+      "explanation": "frozen in time 指樣子像停留在過去，照片符合情境。",
+      "optionExplanations": [
+        "frozen in time 是形容詞片語，不能當作主要動詞。",
+        "frozen in time 指樣子像停留在過去，照片符合情境。",
+        "to remembering 的連接不成立。",
+        "過去事件須用 looked。"
+      ]
+    },
+    {
+      "word": "Hold someone close",
+      "usage": "當你想安慰、保護或表達對一個人的愛時，可以使用。",
+      "answer": 3,
+      "number": 5,
+      "prompt": "哪一句正確使用了「hold someone close」？",
+      "meaning": "緊緊抱住某人、把某人抱在身邊。",
+      "options": [
+        "I held to my brother close after the race.",
+        "He held the weather close because it was cold.",
+        "We hold the bus close at the next stop.",
+        "She held her baby close when he cried."
+      ],
+      "explanation": "hold someone close 是把一個人抱在身邊，通常表示關心或愛。",
+      "optionExplanations": [
+        "hold someone close 直接接人，不加 to。",
+        "天氣不是可以抱在身邊的人。",
+        "公車不能像人一樣被抱住；可以說 wait for the bus。",
+        "媽媽把哭泣的寶寶抱近，符合片語意思。"
+      ]
+    },
+    {
+      "word": "Mend",
+      "usage": "可以用在修補衣服等物品，也可以用在修復受傷的感情。",
+      "answer": 0,
+      "number": 6,
+      "prompt": "哪一句正確使用了「mend」？",
+      "meaning": "修補、修復。",
+      "options": [
+        "My dad mended my old shirt, so I can wear it again.",
+        "She mends to school at eight.",
+        "I mend to my old suitcase before the trip.",
+        "We mended to fixed the broken gate."
+      ],
+      "explanation": "mend 是修補壞掉的東西，例如衣服，也可以用來說修復感情。",
+      "optionExplanations": [
+        "修補舊襯衫是 mend 的正確用法。",
+        "mend 不表示「去上學」；應該說 goes to school。",
+        "mend 直接接需要修補的東西，不加 to。",
+        "to fixed 的形式錯誤；mend 也需要清楚的受詞。"
+      ]
+    },
+    {
+      "word": "I swear",
+      "usage": "當你想強調自己說的是真話，或認真答應別人一件事時，可以使用。",
+      "answer": 3,
+      "number": 7,
+      "prompt": "哪一句正確使用了「I swear」？",
+      "meaning": "我發誓、我保證。",
+      "options": [
+        "I swear the door with my key.",
+        "I swear my bike to school.",
+        "I swear a red shirt today.",
+        "I swear I will tell you the truth."
+      ],
+      "explanation": "I swear 用來強調自己說的是真的，或表示很認真地承諾。",
+      "optionExplanations": [
+        "用鑰匙開門應說 I open the door with my key。",
+        "騎腳踏車上學應說 I ride my bike to school。",
+        "穿紅色上衣應說 I wear a red shirt。",
+        "I swear 後面接一個承諾，表示「我保證會說實話」。"
+      ]
+    },
+    {
+      "word": "Let someone go",
+      "usage": "當你不再阻止一個人離開，或決定放下一段感情時，可以使用。",
+      "answer": 2,
+      "number": 8,
+      "prompt": "哪一句正確使用了「let someone go」？",
+      "meaning": "讓某人離開、放手。",
+      "options": [
+        "I let my cousin goes home after the party.",
+        "I let to my brother go home.",
+        "She asked to leave the team, so we let her go.",
+        "She let him goes after the meeting."
+      ],
+      "explanation": "let someone go 表示允許某人離開。",
+      "optionExplanations": [
+        "let someone 後接原形 go，不能用 goes。",
+        "let 後直接接人，不加 to。",
+        "let someone go 表示允許某人離開。",
+        "let someone 後用原形 go，不能用 goes。"
+      ]
+    },
+    {
+      "word": "Deep within",
+      "usage": "當你想表達藏在心裡的感覺、想法或信念時，可以使用。",
+      "answer": 1,
+      "number": 9,
+      "prompt": "哪一句正確使用了「deep within」？",
+      "meaning": "在內心深處、在很深的地方。",
+      "options": [
+        "I deep within my feelings about the race.",
+        "Deep within my heart, I know she is a good friend.",
+        "I go deep within to the bus stop every day.",
+        "She bought a deep within bag yesterday."
+      ],
+      "explanation": "deep within 表示在內心深處，常用來談真正的想法或感受。",
+      "optionExplanations": [
+        "deep within 是介詞或副詞片語，不能單獨作動詞。",
+        "deep within my heart 表示在內心深處，使用正確。",
+        "去公車站應說 I go to the bus stop；deep within 不表示走路或搭車。",
+        "deep within 不能直接放在 bag 前面當成這種形容詞。"
+      ]
+    },
+    {
+      "word": "Whisper",
+      "usage": "當你不想吵到別人，或只想讓一個人聽見時，可以使用。",
+      "answer": 0,
+      "number": 10,
+      "prompt": "哪一句正確使用了「whisper」？",
+      "meaning": "低聲說、悄悄說話。",
+      "options": [
+        "She whispered to me because the baby was sleeping.",
+        "I whispered to asked about the missing ring.",
+        "He whispered his bike to school.",
+        "They whispered to told me the secret."
+      ],
+      "explanation": "whisper 是小聲說話，通常是不想吵到別人，或不想讓其他人聽見。",
+      "optionExplanations": [
+        "怕吵醒寶寶而小聲說話，符合 whisper 的意思。",
+        "to 後用 ask，不能接 asked。",
+        "whisper 是低聲說話，不能表示騎腳踏車。",
+        "to 後用 tell，不能接 told。"
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-small.en word alignment with focused segment refinements",
+    "audioSha256": "0fc95b875befb0962e7922b7e8d51b23bb294586ee72f2f7070c9241e2d291bc"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "9404ffd8f4943a7542a243091d30c40dcb183263d1722e95d017a9da6f65a32a"
+    },
+    {
+      "section": "structure",
+      "filename": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "14f2f817905d8b0b5d1a9ff7bd755a8df1a69d541e815bca69d51a6f4dbbdbf2"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "photograph",
+          "meaning": "照片；攝影作品（較正式）",
+          "usage": "談照片、攝影作品；日常也常說 photo。",
+          "prompt": "哪一句正確使用「photograph」？",
+          "options": [
+            "The photograph sang a song at the school concert.",
+            "Mina photographed the homework into her blue backpack.",
+            "The photograph shows our family beside the old house.",
+            "We took a photograph of the bus by listening."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：照片本身不會唱歌；可說 The singer performed a song.",
+            "錯誤：photographed 是拍照，不是把作業放進背包。",
+            "正確：photograph 是可呈現影像的照片。",
+            "錯誤：拍攝照片要用相機等工具，不是靠聆聽。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：photograph 是可呈現影像的照片。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "ripped",
+          "meaning": "撕破的；有破洞的",
+          "usage": "形容牛仔褲、紙張或衣物已經破損。",
+          "prompt": "哪一句正確使用「ripped」？",
+          "options": [
+            "She wore ripped music during the school performance.",
+            "His ripped jeans had a large hole near the knee.",
+            "The ripped cake tasted sweet after the long bus ride.",
+            "I ripped the weather because the afternoon was too hot."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：music 不是可被穿著、撕破的衣物。",
+            "正確：ripped jeans 是破洞或撕裂的牛仔褲。",
+            "錯誤：蛋糕若碎裂可說 broken，不因車程而稱 ripped。",
+            "錯誤：天氣不能像紙張一樣被撕裂。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：ripped jeans 是破洞或撕裂的牛仔褲。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "eyes meet",
+          "meaning": "目光交會；四目相接",
+          "usage": "兩個人剛好彼此看向對方時使用。",
+          "prompt": "哪一句正確使用「eyes meet」？",
+          "options": [
+            "My eyes met the soup because I wanted more bread.",
+            "The two eyes met the door and opened it slowly.",
+            "Our eyes met the station when the train was late.",
+            "Our eyes met across the room, and we both smiled."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：看著湯不等於彼此四目相接。",
+            "錯誤：眼睛不會打開門；此處不是目光交會。",
+            "錯誤：目光交會通常涉及兩個人，而非車站。",
+            "正確：兩人在房間另一端對上眼並微笑。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：兩人在房間另一端對上眼並微笑。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "heal",
+          "meaning": "治癒；康復；撫平傷痛",
+          "usage": "談身體傷口癒合，也可形容情緒逐漸恢復。",
+          "prompt": "哪一句正確使用「heal」？",
+          "options": [
+            "We healed the train by taking it to the museum.",
+            "The cut took several days to heal completely.",
+            "Her new shoes healed the concert tickets last night.",
+            "He healed the window by singing to the glass."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：火車需要維修時用 repair，不用 heal。",
+            "正確：傷口經過幾天逐漸癒合。",
+            "錯誤：鞋子不能治癒演唱會門票。",
+            "錯誤：修理窗戶不用 heal。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：傷口經過幾天逐漸癒合。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "bleed",
+          "meaning": "流血；滲出（可作比喻）",
+          "usage": "形容傷口出血；歌詞把言語造成的痛苦形容為流血。",
+          "prompt": "哪一句正確使用「bleed」？",
+          "options": [
+            "The blue bus bled because it arrived at noon.",
+            "She bled the homework into her bag after class.",
+            "The clock bled an hour before the school bell.",
+            "His finger started to bleed after he cut it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：公車中午抵達與流血無關。",
+            "錯誤：bleed 不表示收拾作業。",
+            "錯誤：時鐘不會流血，也不能表示早一小時。",
+            "正確：手指割傷後流血，bleed 用法自然。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：手指割傷後流血，bleed 用法自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "necklace",
+          "meaning": "項鍊",
+          "usage": "談佩戴於脖子上的首飾；注意與 bracelet（手環）不同。",
+          "prompt": "哪一句正確使用「necklace」？",
+          "options": [
+            "She wore a silver necklace around her neck.",
+            "I necklace my homework at the table every evening.",
+            "The necklace drove the children to the science museum.",
+            "He carried his necklace to school on his two feet."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：necklace 是戴在脖子上的首飾。",
+            "錯誤：necklace 是名詞，不是做作業的動詞。",
+            "錯誤：項鍊不能開車載人。",
+            "錯誤：項鍊不是用腳步行走的物品。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：necklace 是戴在脖子上的首飾。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "fit",
+          "meaning": "裝得下；尺寸合適",
+          "usage": "談物品能放入某空間，或衣物尺寸適合。",
+          "prompt": "哪一句正確使用「fit」？",
+          "options": [
+            "The suitcase fit the weather inside the busy airport.",
+            "The coat fits my lunch because the sandwich tastes good.",
+            "All my books fit inside this small backpack.",
+            "I fit the rain to the bus before eight o’clock."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：天氣不是能裝進行李箱的物品。",
+            "錯誤：衣服尺寸通常適合人，而非午餐口味。",
+            "正確：所有書本都裝得進這個小背包。",
+            "錯誤：fit 不表示安排下雨或搭公車。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：所有書本都裝得進這個小背包。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "lamppost",
+          "meaning": "路燈柱",
+          "usage": "說明街道邊支撐路燈的柱子；與 lamp（燈具）不同。",
+          "prompt": "哪一句正確使用「lamppost」？",
+          "options": [
+            "We waited beside the lamppost near the corner.",
+            "He ate a lamppost before crossing the street.",
+            "The lamppost mailed us tickets for the concert.",
+            "She put the lamppost into her small schoolbag."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：在街角路燈柱旁等待，符合實際場景。",
+            "錯誤：路燈柱不是食物。",
+            "錯誤：路燈柱不會寄送演唱會票券。",
+            "錯誤：路燈柱通常無法放進小書包。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：在街角路燈柱旁等待，符合實際場景。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "through the phone",
+          "meaning": "透過電話（傳來／聽見）",
+          "usage": "描述聲音透過電話傳送；與 on the phone 的一般通話說法不同。",
+          "prompt": "哪一句正確使用「through the phone」？",
+          "options": [
+            "I could hear her quiet voice through the phone.",
+            "We cooked our dinner through the phone with onions.",
+            "The train went through the phone on its daily route.",
+            "He walked through the phone to reach his classroom."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：聲音透過電話傳來，符合 through 的媒介概念。",
+            "錯誤：煮晚餐不是透過電話完成的動作。",
+            "錯誤：列車不會通過電話行駛。",
+            "錯誤：人無法穿越電話到教室。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：聲音透過電話傳來，符合 through 的媒介概念。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "piece",
+          "meaning": "一片；一塊；一部分",
+          "usage": "談整體的一個部分；歌詞 piece of ya 是帶詩意的口語說法。",
+          "prompt": "哪一句正確使用「piece」？",
+          "options": [
+            "He pieced his breakfast with the library window.",
+            "She gave me a piece of cake after dinner.",
+            "Please piece the bus before it leaves the station.",
+            "The piece arrived happy when the train was early."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：這裡 piece 無法代替 eat 或 prepare。",
+            "正確：a piece of cake 是一塊蛋糕。",
+            "錯誤：piece 在此不是趕公車的動詞。",
+            "錯誤：piece 作名詞不能單獨當人來感到快樂。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：a piece of cake 是一塊蛋糕。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "pages",
+          "meaning": "書頁；頁面（複數）",
+          "usage": "談書、筆記本或文件內的頁面。",
+          "prompt": "哪一句正確使用「pages」？",
+          "options": [
+            "The pages drank tea in the kitchen after school.",
+            "She paged the rain because her shoes were wet.",
+            "I wrote my notes on the last two pages.",
+            "We put the pages to sleep before the movie started."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：書頁不能喝茶。",
+            "錯誤：page 作動詞有其他意義，但不能表示下雨。",
+            "正確：將筆記寫在最後兩頁，搭配自然。",
+            "錯誤：書頁不是人，不會睡覺。"
+          ],
+          "sourceFile": "Photograph_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：將筆記寫在最後兩頁，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "動名詞作主詞",
+          "meaning": "把一件活動或經驗當作句子的主詞。",
+          "usage": "談一般行為可能帶來的結果。",
+          "prompt": "談到養植物既有趣又需要耐心，哪句最自然？",
+          "options": [
+            "Grow plants can take time.",
+            "Growing plants can takes time.",
+            "To growing plants can take time.",
+            "Growing plants can take time."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：原形 Grow 不能直接充當這裡的主詞。",
+            "錯：can 後要用 take，不加 -s。",
+            "錯：to 後不接 growing 這種組合。",
+            "正確：Growing 作主詞，後接 can + 原形。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Loving can hurt",
+          "pattern": [
+            {
+              "text": "V-ing",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Growing 作主詞，後接 can + 原形。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "情態動詞 can 表示可能性",
+          "meaning": "表示某件事「有可能」發生，不保證每次如此。",
+          "usage": "描述一般可能性，例如天氣、機會與感受。",
+          "prompt": "天氣預報說山上有時會下雪，哪一句準確？",
+          "options": [
+            "It snowed there every morning next year.",
+            "It must snow on the hill every day.",
+            "It cannot snow there in winter.",
+            "It can snow on the hill in winter."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：過去式加 next year 時間衝突。",
+            "錯：must/every day 把可能性說成必然。",
+            "錯：cannot 排除下雪可能，與預報相反。",
+            "正確：can snow 說明可能下雪。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Loving can hurt sometimes",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "can",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can snow 說明可能下雪。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "限定詞 the only + 名詞",
+          "meaning": "指出只有一件符合條件的事物。",
+          "usage": "希望特別強調「唯一」時。",
+          "prompt": "四人都看不懂地圖，只有 Mina 知道路線。哪句合適？",
+          "options": [
+            "Mina knows every route in the city.",
+            "Nobody knows the way, including Mina.",
+            "Mina is the only person who knows the way.",
+            "Mina is one of many who know the route."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：知道整座城市的路，不是情境資訊。",
+            "錯：否認 Mina 知道。",
+            "正確：the only person 強調唯一知道的人。",
+            "錯：one of many 表示不只她知道。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "the only thing that I know",
+          "pattern": [
+            {
+              "text": "the only",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the only person 強調唯一知道的人。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "主詞關係子句 that",
+          "meaning": "that 在子句中代替前面的事物，並充當主詞。",
+          "usage": "指出某人某物「會做甚麼」的特點。",
+          "prompt": "你要指出那一台每晚會自動亮燈的機器。",
+          "options": [
+            "The machine that light up each night is new.",
+            "The machine that it lights up each night is new.",
+            "The machine that lights up each night is new.",
+            "The machine who lights up each night is new."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：單數 machine 的動詞要加 -s。",
+            "錯：that 已是主詞，不可重加 it。",
+            "正確：that lights up 作為修飾 machine 的子句。",
+            "錯：機器一般不用 who。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "the only thing that makes us feel alive",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：that lights up 作為修飾 machine 的子句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "get + 形容詞表示變化",
+          "meaning": "表示情況逐漸變得如何。",
+          "usage": "談難度、氣溫、心情等狀態的變化。",
+          "prompt": "傍晚開始降溫，你會怎麼說？",
+          "options": [
+            "It gets coldly after sunset.",
+            "It gets colder after sunset.",
+            "It getting colder after sunset.",
+            "It gets coldness after sunset."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：coldly 是副詞。",
+            "正確：gets + colder 表示變冷。",
+            "錯：缺少 is 才能說 is getting。",
+            "錯：coldness 是名詞。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "it gets hard",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "get(s)",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：gets + colder 表示變冷。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "使役 make + 人 + 原形動詞",
+          "meaning": "使某人產生感受或做某事。",
+          "usage": "說明某個活動造成的情緒或反應。",
+          "prompt": "一首好笑的歌令觀眾忍不住笑。",
+          "options": [
+            "The song makes the crowd laugh.",
+            "The song makes the crowd laughing.",
+            "The song makes the crowd laughed.",
+            "The song makes the crowd to laugh."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：makes + people + laugh。",
+            "錯：此處用原形，不用 laughing。",
+            "錯：不用過去式 laughed。",
+            "錯：使役 make 之後不加 to。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "makes us feel alive",
+          "pattern": [
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "make(s)",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：makes + people + laugh。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "keep + 受詞 + 地點",
+          "meaning": "表示把某物保存或放在特定位置。",
+          "usage": "保管重要照片、票券或物品時。",
+          "prompt": "你要把舊戲票收藏在盒子裡。",
+          "options": [
+            "I keep the tickets from a box.",
+            "I keep the tickets to a box.",
+            "I keep the tickets with a box.",
+            "I keep the tickets in a box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：from 表示來源。",
+            "錯：to 表方向。",
+            "錯：with 著重伴隨，不是放在盒中。",
+            "正確：keep … in a box 表示存放。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "We keep this love in a photograph",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：keep … in a box 表示存放。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "for + 反身代名詞",
+          "meaning": "強調是「為自己／我們自己」做某事。",
+          "usage": "說明一個行動的受益對象就是做事者。",
+          "prompt": "旅行時一家人做一本紀念冊，留給自己保存。",
+          "options": [
+            "We made a book by ourselves for the shop.",
+            "We made a book for itself.",
+            "We made a book for ourselves.",
+            "We made a book for they."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：by ourselves 強調獨立完成，且 for the shop 改變受益者。",
+            "錯：itself 指物，不指我們。",
+            "正確：for ourselves 表示為自己製作。",
+            "錯：they 不能直接接在 for 後指「我們」。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "We made these memories for ourselves",
+          "pattern": [
+            {
+              "text": "動詞＋受詞",
+              "fixed": false
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "ourselves / himself / herself",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：for ourselves 表示為自己製作。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "where 引導關係／場景子句",
+          "meaning": "用 where 連接一個場景，說明「在那裡」發生甚麼。",
+          "usage": "描述前文提到的地方或畫面；本歌是詩意片段。",
+          "prompt": "你介紹一個可以看到海的房間。哪句最自然？",
+          "options": [
+            "This is the room which you can see the sea.",
+            "This is the room where you see to the sea.",
+            "This is the room where can you see the sea.",
+            "This is the room where you can see the sea."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：which 不能直接取代這裡表示地點的 where。",
+            "錯：see the sea 不加 to。",
+            "錯：關係子句不用疑問句倒裝。",
+            "正確：where + 主詞 you + can see。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Where our eyes are never closing",
+          "pattern": [
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：where + 主詞 you + can see。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "被動語態 be + 過去分詞",
+          "meaning": "強調主詞受到某動作影響。",
+          "usage": "談物品是否被損壞、門是否被關上等。",
+          "prompt": "博物館規定珍貴畫作不可觸碰。",
+          "options": [
+            "The paintings never touch by visitors.",
+            "The paintings is never touched by visitors.",
+            "The paintings are never touched by visitors.",
+            "The paintings are never touching by visitors."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：缺少 be + 過去分詞。",
+            "錯：複數 paintings 不配 is。",
+            "正確：are never touched 是被動語態。",
+            "錯：touching 不是被動語態的過去分詞。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Hearts are never broken",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be + never",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：are never touched 是被動語態。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "省略 be 的詩意描述",
+          "meaning": "以簡短畫面描繪時光停住；原句省略動詞。",
+          "usage": "辨認詩歌、歌詞的片段；平常書寫需補齊謂語。",
+          "prompt": "攝影展標語寫「Memories forever bright」，老師應如何解釋？",
+          "options": [
+            "這是省略 are 的詩意描述。",
+            "這是一般完整的標準敘述句。",
+            "bright 是動詞過去式。",
+            "forever 意思是昨天。"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：詩意簡省；完整描述可用 Memories are forever bright。",
+            "錯：原句缺少明示的 be 動詞。",
+            "錯：bright 是形容詞。",
+            "錯：forever 是「永遠」。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Times forever frozen still",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "[省略 be]",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞／形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：詩意簡省；完整描述可用 Memories are forever bright。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "so + 子句表示目的",
+          "meaning": "表達「因此／好讓……」的結果或目的，需依上下文判斷。",
+          "usage": "說明前面行動所帶來的目的。",
+          "prompt": "你把座位往旁邊移，讓每個人都看得見舞台。",
+          "options": [
+            "I moved my chair for everyone can see the stage.",
+            "I moved my chair so everyone can see the stage.",
+            "I moved my chair but everyone can see the stage.",
+            "I moved my chair because everyone saw the stage yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：for 不直接接這樣的完整子句。",
+            "正確：so + 主詞 + can 表目的。",
+            "錯：but 表轉折，非目的。",
+            "錯：過去原因不表示現在這項目的。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "So you can keep me",
+          "pattern": [
+            {
+              "text": "so",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋can＋原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：so + 主詞 + can 表目的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "現在分詞的伴隨動作",
+          "meaning": "以 -ing 片語補充描述某一動作或畫面。",
+          "usage": "描述另一行為同時發生的方式；歌中獨立成片段。",
+          "prompt": "她站在門口，手上拿著一盞燈。",
+          "options": [
+            "She stood at the door, to holding a lamp.",
+            "She stood at the door, holding a lamp.",
+            "She stood at the door, hold a lamp.",
+            "She stood at the door, held a lamp."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：to holding 不符合結構。",
+            "正確：holding 補充站著時的動作。",
+            "錯：逗號後接原形缺乏連接。",
+            "錯：held 另起限定動詞，需連接詞。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Holding me closer",
+          "pattern": [
+            {
+              "text": "V-ing＋受詞／補語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：holding 補充站著時的動作。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "比較級 closer",
+          "meaning": "表示比先前更接近。",
+          "usage": "談距離或程度變化。",
+          "prompt": "拍團體照時攝影師請大家靠近一點。",
+          "options": [
+            "Please stand closest than before for the photo.",
+            "Please stand closingly for the photo.",
+            "Please stand more close for the photo.",
+            "Please stand closer for the photo."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：closest 是最高級，不搭 than before。",
+            "錯：closingly 不是自然用法。",
+            "錯：close 的常見比較級是 closer。",
+            "正確：closer 表更靠近。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "Holding me closer",
+          "pattern": [
+            {
+              "text": "動詞＋受詞",
+              "fixed": false
+            },
+            {
+              "text": "比較級形容詞／副詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：closer 表更靠近。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "'Til + 時間子句",
+          "meaning": "表示某件事持續「直到」另一件事發生。",
+          "usage": "說等待、工作或保持狀態的期限。",
+          "prompt": "你會一直等到圖書館開門才進去。",
+          "options": [
+            "I will wait until the library opens.",
+            "I wait until the library will open.",
+            "I wait until opening the library.",
+            "I will wait until the library opened tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：will wait + until + opens。",
+            "錯：時間子句談未來一般用現在式，不用 will。",
+            "錯：此句需要完整子句且意思變成「打開圖書館」。",
+            "錯：明天的時間子句不宜用過去式 opened。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "'Til our eyes meet",
+          "pattern": [
+            {
+              "text": "until / ‘til",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋現在式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will wait + until + opens。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "won’t ever + 原形動詞",
+          "meaning": "強調未來永遠不會出現某情況。",
+          "usage": "向他人作保證或表明堅定決定。",
+          "prompt": "朋友保證以後不會再忘記你的生日。",
+          "options": [
+            "I did not forget your birthday last year.",
+            "I won’t ever forget your birthday again.",
+            "I may forget it next year.",
+            "I always forget your birthday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：只談去年，沒有未來承諾。",
+            "正確：won’t ever forget 表強烈未來承諾。",
+            "錯：may forget 表仍有可能忘記。",
+            "錯：always forget 意思相反。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "You won't ever be alone",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "won’t ever",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：won’t ever forget 表強烈未來承諾。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "wait for + 人 + to-infinitive",
+          "meaning": "等待某人做完某事或到來。",
+          "usage": "要求對方等人回來、到達、完成。",
+          "prompt": "一群朋友要等導遊回來才出發。",
+          "options": [
+            "We will wait the guide return.",
+            "We will wait to the guide return.",
+            "We will wait for the guide to return.",
+            "We will wait for the guide returning to."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：wait 通常需 for 引出等待對象。",
+            "錯：wait to + 人 不能表此意。",
+            "正確：wait for + 人 + to + 動詞。",
+            "錯：returning to 結構不完整。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Wait for me to come home",
+          "pattern": [
+            {
+              "text": "wait for",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wait for + 人 + to + 動詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "比較級 get + easier",
+          "meaning": "預期事情將逐漸變得比較容易。",
+          "usage": "鼓勵正在學新技能的人。",
+          "prompt": "剛學陶藝的朋友覺得難，你想鼓勵她。",
+          "options": [
+            "It will get easier with practice.",
+            "It will get easiest than before.",
+            "It will got easier after practice.",
+            "It will be get easier with practice."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：will get easier 表未來會變容易。",
+            "錯：easiest 是最高級。",
+            "錯：will 後接原形 get。",
+            "錯：will be get 多餘。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "it will get easier",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will get",
+              "fixed": true
+            },
+            {
+              "text": "比較級形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will get easier 表未來會變容易。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "I swear + 完整子句",
+          "meaning": "強調自己的承諾或確信。",
+          "usage": "鄭重保證某件事會發生。",
+          "prompt": "朋友擔心你會忘記帶票，你鄭重保證。",
+          "options": [
+            "I swear the tickets tomorrow bringing.",
+            "I swear I will bring the tickets.",
+            "I swear to the tickets are here.",
+            "I swear bringing tickets yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：缺少完整動詞結構。",
+            "正確：I swear + 主詞 + will bring。",
+            "錯：to the tickets are... 句法不通。",
+            "錯：沒有明確完整承諾子句。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I swear it will get easier",
+          "pattern": [
+            {
+              "text": "I swear (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：I swear + 主詞 + will bring。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "省略 that 的關係子句",
+          "meaning": "名詞是後面子句的受詞時，可以省略關係代名詞。",
+          "usage": "簡潔指出人或物的特性。",
+          "prompt": "你指著昨天買的帽子，哪句自然？",
+          "options": [
+            "This is the hat I bought yesterday.",
+            "This is the hat bought I yesterday.",
+            "This is the hat I was bought yesterday.",
+            "This is the hat I bought it yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：the hat (that) I bought 省略受詞關係代名詞。",
+            "錯：主詞和動詞順序錯。",
+            "錯：被動句式改變動作關係。",
+            "錯：關係子句已帶出 hat，不能重放 it。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "the only thing we take with us",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "[省略 that]",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：the hat (that) I bought 省略受詞關係代名詞。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "if + 現在式的條件子句",
+          "meaning": "提出「如果……」的可能條件。",
+          "usage": "談某種情況發生時會怎麼做。",
+          "prompt": "如果明天下雨，市集會改在室內。",
+          "options": [
+            "If it will rain, the market moves inside.",
+            "If it rains, the market will move inside.",
+            "If it rain, the market will move inside.",
+            "If it raining, the market will move inside."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：未來條件子句一般不用 will rain。",
+            "正確：if + 現在式，主句 will。",
+            "錯：單數 it 需 rains。",
+            "錯：缺少 is 才能用 raining。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "And if you hurt me",
+          "pattern": [
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋現在式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：if + 現在式，主句 will。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "允許或不阻止某人做某事。",
+          "usage": "說允許某人離開、參加或嘗試。",
+          "prompt": "老師允許大家在展覽結束後提問。",
+          "options": [
+            "The guide let us to ask questions.",
+            "The guide let us ask questions.",
+            "The guide let us asked questions.",
+            "The guide let us asking questions."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：let 後的動詞不加 to。",
+            "正確：let us ask。",
+            "錯：不能用 asked。",
+            "錯：不能直接用 asking。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "I won't ever let you go",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：let us ask。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "當作補語的 should be",
+          "meaning": "表示自己認為應處於哪個地方或位置。",
+          "usage": "談合理的位置與責任；歌中是接續前文的片段。",
+          "prompt": "病人問醫院志工自己應該在哪裡等待。",
+          "options": [
+            "Where should I waiting?",
+            "Where I should wait?",
+            "Where I am should wait?",
+            "Where should I be?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：should 後用原形 wait。",
+            "錯：直接問句應倒裝為 Where should I…?",
+            "錯：am should 不能連用。",
+            "正確：Where should I be? 是完整直接問句，與歌中嵌入式片語語序不同。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "Where I should be",
+          "pattern": [
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "should be",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：Where should I be? 是完整直接問句，與歌中嵌入式片語語序不同。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "反身代詞／地點 deep within",
+          "meaning": "表示將某物保留在深處（可抽象或具體）。",
+          "usage": "描述珍藏一段回憶或信念；原歌為比喻。",
+          "prompt": "祖父留給你的話，你一直珍藏在心中。",
+          "options": [
+            "I keep his words deeply of my heart.",
+            "I keep his words deep my heart.",
+            "I keep his words deep within my heart.",
+            "I keep his words deep to my heart."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：deeply of 不能構成地點片語。",
+            "錯：缺少 within 之類介系詞。",
+            "正確：deep within + my heart 表珍藏內心。",
+            "錯：deep to 不能表內在位置。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "Keep it deep within your soul",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "deep within",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：deep within + my heart 表珍藏內心。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "記得 how + 主詞 + 動詞",
+          "meaning": "記得某件事發生的方式或過程。",
+          "usage": "回想過去一次溫暖或特別的經驗。",
+          "prompt": "你要說自己記得廚師如何做那個麵包。",
+          "options": [
+            "I remember how the cook made the bread.",
+            "I remember how made the cook the bread.",
+            "I remember how the cook to make the bread.",
+            "I remember how did the cook make the bread."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：how + the cook + made。",
+            "錯：主詞動詞順序錯。",
+            "錯：缺少限定動詞。",
+            "錯：間接問句不用 did 倒裝。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "I will remember how you kissed me",
+          "pattern": [
+            {
+              "text": "remember how",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：how + the cook + made。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "感官動詞 hear + 受詞 + 原形",
+          "meaning": "聽見某人做某件事；強調聽見該動作。",
+          "usage": "描述聽見有人說話、唱歌或敲門；原歌以 Hearing 作片段開頭。",
+          "prompt": "你在後台聽見歌手唱歌。",
+          "options": [
+            "I heard the singer sang backstage.",
+            "I heard the singer to sing backstage.",
+            "I heard the singer singing to sing backstage.",
+            "I heard the singer sing backstage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：此處用原形 sing，不用 sang。",
+            "錯：hear + 人後不加 to。",
+            "錯：singing to sing 在此語境冗贅不自然。",
+            "正確：heard + 人 + sing。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "Hearing you whisper through the phone",
+          "pattern": [
+            {
+              "text": "hear",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：heard + 人 + sing。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "現在與過去被動式的對照",
+          "meaning": "強調過去某時段並未遭受某動作。",
+          "usage": "與歌中現在式 are never broken 比較時間視角。",
+          "prompt": "說這些老照片在搬家時沒有被損壞。",
+          "options": [
+            "The old photos were never damaged in the move.",
+            "The old photos were never damage in the move.",
+            "The old photos are never damaged in last year’s move.",
+            "The old photos never was damaged in the move."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：were never damaged 談過去的被動狀態。",
+            "錯：被動需要 damaged 過去分詞。",
+            "錯：last year’s move 是過去特定事件，不宜用現在式 are。",
+            "錯：複數 photos 不搭 was。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "Hearts were never broken",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "were never",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：were never damaged 談過去的被動狀態。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "past simple + when + 過去式",
+          "meaning": "用 when 說明過去某個時間／年紀的事件。",
+          "usage": "回憶過去收到的禮物、見過的人等。",
+          "prompt": "要描述「我十歲時買的那本書」。",
+          "options": [
+            "The book I buy when I was ten.",
+            "The book I bought when I am ten.",
+            "The book I bought when I was ten.",
+            "The book I bought when was I ten."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：過去購買事件應用 bought。",
+            "錯：年齡是當年的過去狀態，應用 was。",
+            "正確：bought 與 was 都指過去。",
+            "錯：when 子句採敘述語序 I was。"
+          ],
+          "sourceFile": "Photograph_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "the necklace you got when you were sixteen",
+          "pattern": [
+            {
+              "text": "名詞＋省略 that 的子句",
+              "fixed": false
+            },
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：bought 與 was 都指過去。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    }
+  }
+}

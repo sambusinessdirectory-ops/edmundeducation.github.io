@@ -1,0 +1,4620 @@
+{
+  "slug": "i-will-remember",
+  "title": "I Will Remember",
+  "singer": "Toto",
+  "exercise_name": "I Will Remember · Listening & Vocabulary",
+  "description": "《I Will Remember》描寫一段感情結束後，仍然珍惜過去美好回憶與信任的深刻心情。歌中的主角曾經相信愛情與承諾，卻在經歷欺騙、失望與分離後，逐漸看清現實的殘酷。他獨自駕車穿過寂靜的峽谷，讓往日的傷痛陪伴自己，回想兩人為何走到今天的結局。雖然曾經的誓言已經破碎，他仍記得彼此真心相待、互相信任的時光。隨著歲月流逝，他開始接受感情的消逝，努力走出過去的陰影。最終，《I Will Remember》傳達的是愛情中的失落、釋懷與珍惜：即使兩人已經各自走向不同的人生，曾經擁有的真心與美好依然值得銘記，而學會放下傷痛，也無須抹去那些珍貴的回憶。",
+  "tags": [
+    "toto",
+    "i will remember"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I was born in the land of the sun",
+      "chinese": "我出生在一片陽光普照的土地上"
+    },
+    {
+      "lineId": "line-2",
+      "english": "And the tall green grass",
+      "chinese": "那裡有著高高生長的翠綠青草"
+    },
+    {
+      "lineId": "line-3",
+      "english": "And I don't understand",
+      "chinese": "而我始終無法理解",
+      "startSeconds": 38.88,
+      "endSeconds": 41.62
+    },
+    {
+      "lineId": "line-4",
+      "english": "How all this has come to pass",
+      "chinese": "這一切究竟怎會演變成如今的模樣"
+    },
+    {
+      "lineId": "line-5",
+      "english": "How we've come to surround ourselves",
+      "chinese": "我們究竟為何讓自己深陷其中",
+      "startSeconds": 48.24,
+      "endSeconds": 52.56
+    },
+    {
+      "lineId": "line-6",
+      "english": "In a sea of thieves",
+      "chinese": "被一片充斥著欺騙與背叛的人海所包圍",
+      "startSeconds": 52.56,
+      "endSeconds": 54.96
+    },
+    {
+      "lineId": "line-7",
+      "english": "In a land without learning",
+      "chinese": "在這片不再懂得汲取教訓的土地上"
+    },
+    {
+      "lineId": "line-8",
+      "english": "Only the fools believe",
+      "chinese": "似乎只有愚者還願意相信"
+    },
+    {
+      "lineId": "line-9",
+      "english": "I went driving last night",
+      "chinese": "昨夜，我獨自駕車出行"
+    },
+    {
+      "lineId": "line-10",
+      "english": "On a dark canyon road",
+      "chinese": "行駛在幽暗的峽谷道路上",
+      "startSeconds": 76.0,
+      "endSeconds": 80.28
+    },
+    {
+      "lineId": "line-11",
+      "english": "Had the sky to myself",
+      "chinese": "彷彿整片夜空都只屬於我一人",
+      "startSeconds": 82.62,
+      "endSeconds": 85.96
+    },
+    {
+      "lineId": "line-12",
+      "english": "But I wasn't alone",
+      "chinese": "可我卻並非真正孤身一人",
+      "startSeconds": 85.96,
+      "endSeconds": 90.98
+    },
+    {
+      "lineId": "line-13",
+      "english": "Had the pain of my lifetime",
+      "chinese": "因為這一生刻骨銘心的傷痛",
+      "startSeconds": 92.54,
+      "endSeconds": 95.56
+    },
+    {
+      "lineId": "line-14",
+      "english": "For my company",
+      "chinese": "始終陪伴在我身旁",
+      "startSeconds": 95.56,
+      "endSeconds": 99.02
+    },
+    {
+      "lineId": "line-15",
+      "english": "How did it end up like this",
+      "chinese": "事情究竟怎會走到這般田地",
+      "startSeconds": 102.8,
+      "endSeconds": 106.58
+    },
+    {
+      "lineId": "line-16",
+      "english": "For you and me",
+      "chinese": "對你我而言，竟成了如此結局",
+      "startSeconds": 106.58,
+      "endSeconds": 108.74
+    },
+    {
+      "lineId": "line-17",
+      "english": "When love breaks the promise",
+      "chinese": "當愛情背棄了那份承諾",
+      "startSeconds": 112.12,
+      "endSeconds": 115.1
+    },
+    {
+      "lineId": "line-18",
+      "english": "The heart has to keep",
+      "chinese": "那份心中本應堅守的承諾",
+      "startSeconds": 115.1,
+      "endSeconds": 117.24
+    },
+    {
+      "lineId": "line-19",
+      "english": "It leaves only truth here to find",
+      "chinese": "留下的，便只有等待我們面對的真相",
+      "startSeconds": 117.74,
+      "endSeconds": 121.44
+    },
+    {
+      "lineId": "line-20",
+      "english": "When the spirit is crushed",
+      "chinese": "當心靈已被徹底擊垮",
+      "startSeconds": 121.44,
+      "endSeconds": 124.54
+    },
+    {
+      "lineId": "line-21",
+      "english": "And the hurt is so deep",
+      "chinese": "而傷痛又是如此深重",
+      "startSeconds": 124.54,
+      "endSeconds": 127.18
+    },
+    {
+      "lineId": "line-22",
+      "english": "Between you and I",
+      "chinese": "深深橫亙在你我之間",
+      "startSeconds": 127.18,
+      "endSeconds": 131.04
+    },
+    {
+      "lineId": "line-23",
+      "english": "Even when love has come and gone",
+      "chinese": "即使愛情曾經來過，如今又已離去",
+      "startSeconds": 133.46,
+      "endSeconds": 137.78
+    },
+    {
+      "lineId": "line-24",
+      "english": "And our hearts have moved along",
+      "chinese": "即使我們的心都已各自向前"
+    },
+    {
+      "lineId": "line-25",
+      "english": "I will remember",
+      "chinese": "我依然會銘記在心",
+      "startSeconds": 142.58,
+      "endSeconds": 146.38
+    },
+    {
+      "lineId": "line-26",
+      "english": "There was a time we had the trust",
+      "chinese": "我們曾有過一段彼此信任的時光",
+      "startSeconds": 147.78,
+      "endSeconds": 152.66
+    },
+    {
+      "lineId": "line-27",
+      "english": "And that always was enough",
+      "chinese": "而那份信任，曾經就已足夠",
+      "startSeconds": 152.66,
+      "endSeconds": 157.24
+    },
+    {
+      "lineId": "line-28",
+      "english": "I will remember",
+      "chinese": "我依然會銘記在心",
+      "startSeconds": 157.78,
+      "endSeconds": 161.14
+    },
+    {
+      "lineId": "line-29",
+      "english": "I will remember you",
+      "chinese": "我會永遠記得你"
+    },
+    {
+      "lineId": "line-30",
+      "english": "As I open my eyes to one more day",
+      "chinese": "當我再次睜開雙眼，迎接新的一天",
+      "startSeconds": 184.14,
+      "endSeconds": 192.42
+    },
+    {
+      "lineId": "line-31",
+      "english": "The wind burns my face",
+      "chinese": "迎面而來的風，刺痛了我的臉龐",
+      "startSeconds": 195.16,
+      "endSeconds": 198.36
+    },
+    {
+      "lineId": "line-32",
+      "english": "As it whispers your name",
+      "chinese": "它彷彿正輕聲呢喃著你的名字",
+      "startSeconds": 198.36,
+      "endSeconds": 203.54
+    },
+    {
+      "lineId": "line-33",
+      "english": "As it's pulling me forward",
+      "chinese": "當它推著我繼續向前",
+      "startSeconds": 204.42,
+      "endSeconds": 208.06
+    },
+    {
+      "lineId": "line-34",
+      "english": "It tears me free",
+      "chinese": "也將我從過往的羈絆中掙脫出來",
+      "startSeconds": 208.06,
+      "endSeconds": 211.66
+    },
+    {
+      "lineId": "line-35",
+      "english": "And the only thing left",
+      "chinese": "而最終留下的",
+      "startSeconds": 214.4,
+      "endSeconds": 217.26
+    },
+    {
+      "lineId": "line-36",
+      "english": "Is the tears for you and me",
+      "chinese": "只有為你我而流的淚水",
+      "startSeconds": 217.26,
+      "endSeconds": 220.66
+    },
+    {
+      "lineId": "line-37",
+      "english": "'Cause when love breaks the promise",
+      "chinese": "因為當愛情背棄了那份承諾",
+      "startSeconds": 224.2,
+      "endSeconds": 227.32
+    },
+    {
+      "lineId": "line-38",
+      "english": "The heart has to keep",
+      "chinese": "那份心中本應堅守的承諾",
+      "startSeconds": 227.32,
+      "endSeconds": 229.54
+    },
+    {
+      "lineId": "line-39",
+      "english": "It leaves only truth here to find",
+      "chinese": "留下的，便只有等待我們面對的真相",
+      "startSeconds": 229.54,
+      "endSeconds": 233.64
+    },
+    {
+      "lineId": "line-40",
+      "english": "When the spirit is crushed",
+      "chinese": "當心靈已被徹底擊垮",
+      "startSeconds": 233.64,
+      "endSeconds": 236.76
+    },
+    {
+      "lineId": "line-41",
+      "english": "And the hurt is so deep",
+      "chinese": "而傷痛又是如此深重",
+      "startSeconds": 236.76,
+      "endSeconds": 239.38
+    },
+    {
+      "lineId": "line-42",
+      "english": "Between you and I",
+      "chinese": "深深橫亙在你我之間"
+    },
+    {
+      "lineId": "line-43",
+      "english": "Even when love has come and gone",
+      "chinese": "即使愛情曾經來過，如今又已離去",
+      "startSeconds": 242.12,
+      "endSeconds": 250.24
+    },
+    {
+      "lineId": "line-44",
+      "english": "And our hearts have moved along",
+      "chinese": "即使我們的心都已各自向前",
+      "startSeconds": 251.0,
+      "endSeconds": 255.04
+    },
+    {
+      "lineId": "line-45",
+      "english": "I will remember",
+      "chinese": "我依然會銘記在心",
+      "startSeconds": 255.04,
+      "endSeconds": 258.64
+    },
+    {
+      "lineId": "line-46",
+      "english": "There was a time we had the trust",
+      "chinese": "我們曾有過一段彼此信任的時光",
+      "startSeconds": 260.38,
+      "endSeconds": 264.92
+    },
+    {
+      "lineId": "line-47",
+      "english": "And that always was enough",
+      "chinese": "而那份信任，曾經就已足夠",
+      "startSeconds": 264.92,
+      "endSeconds": 269.66
+    },
+    {
+      "lineId": "line-48",
+      "english": "I will remember",
+      "chinese": "我依然會銘記在心",
+      "startSeconds": 269.66,
+      "endSeconds": 273.32
+    },
+    {
+      "lineId": "line-49",
+      "english": "Even when love has come and gone",
+      "chinese": "即使愛情曾經來過，如今又已離去",
+      "startSeconds": 274.92,
+      "endSeconds": 279.66
+    },
+    {
+      "lineId": "line-50",
+      "english": "And our hearts have moved along",
+      "chinese": "即使我們的心都已各自向前",
+      "startSeconds": 279.66,
+      "endSeconds": 284.14
+    },
+    {
+      "lineId": "line-51",
+      "english": "I will remember",
+      "chinese": "我依然會銘記在心",
+      "startSeconds": 284.92,
+      "endSeconds": 288.08
+    },
+    {
+      "lineId": "line-52",
+      "english": "There was a time we had the trust",
+      "chinese": "我們曾有過一段彼此信任的時光",
+      "startSeconds": 288.08,
+      "endSeconds": 294.26
+    },
+    {
+      "lineId": "line-53",
+      "english": "And that always was enough",
+      "chinese": "而那份信任，曾經就已足夠"
+    },
+    {
+      "lineId": "line-54",
+      "english": "I will remember",
+      "chinese": "我依然會銘記在心",
+      "startSeconds": 298.66,
+      "endSeconds": 302.26
+    },
+    {
+      "lineId": "line-55",
+      "english": "I will remember you",
+      "chinese": "我會永遠記得你",
+      "startSeconds": 303.7,
+      "endSeconds": 309.32
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I was born in the {{blank}}",
+          "options": [
+            "land of the sun",
+            "land of the sand",
+            "light of the sun"
+          ],
+          "answer": "land of the sun",
+          "promptZh": "我出生在一片陽光普照的土地上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "tall green grass",
+            "tall clean glass",
+            "dark green grass"
+          ],
+          "answer": "tall green grass",
+          "promptZh": "那裡有著高高生長的翠綠青草"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "And I {{blank}}",
+          "options": [
+            "can't understand",
+            "don't remember",
+            "don't understand"
+          ],
+          "answer": "don't understand",
+          "promptZh": "而我始終無法理解"
+        },
+        {
+          "number": 4,
+          "lineId": "line-6",
+          "prompt": "In a {{blank}}",
+          "options": [
+            "sea of thieves",
+            "sea of trees",
+            "see the thieves"
+          ],
+          "answer": "sea of thieves",
+          "promptZh": "被一片充斥著欺騙與背叛的人海所包圍"
+        },
+        {
+          "number": 5,
+          "lineId": "line-9",
+          "prompt": "I went {{blank}}",
+          "options": [
+            "dreaming last night",
+            "driving past lights",
+            "driving last night"
+          ],
+          "answer": "driving last night",
+          "promptZh": "昨夜，我獨自駕車出行"
+        },
+        {
+          "number": 6,
+          "lineId": "line-11",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "sky for myself",
+            "sky to myself",
+            "night to myself"
+          ],
+          "answer": "sky to myself",
+          "promptZh": "彷彿整片夜空都只屬於我一人"
+        },
+        {
+          "number": 7,
+          "lineId": "line-13",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "pain of my life",
+            "rain of my lifetime",
+            "pain of my lifetime"
+          ],
+          "answer": "pain of my lifetime",
+          "promptZh": "因為這一生刻骨銘心的傷痛"
+        },
+        {
+          "number": 8,
+          "lineId": "line-17",
+          "prompt": "When love {{blank}}",
+          "options": [
+            "makes the promise",
+            "breaks the promise",
+            "breaks the silence"
+          ],
+          "answer": "breaks the promise",
+          "promptZh": "當愛情背棄了那份承諾"
+        },
+        {
+          "number": 9,
+          "lineId": "line-19",
+          "prompt": "It leaves {{blank}}",
+          "options": [
+            "only truth here to find",
+            "only proof here to find",
+            "only truth left behind"
+          ],
+          "answer": "only truth here to find",
+          "promptZh": "留下的，便只有等待我們面對的真相"
+        },
+        {
+          "number": 10,
+          "lineId": "line-21",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "heart is so deep",
+            "hurt is too deep",
+            "hurt is so deep"
+          ],
+          "answer": "hurt is so deep",
+          "promptZh": "而傷痛又是如此深重"
+        },
+        {
+          "number": 11,
+          "lineId": "line-23",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come along",
+            "love has come and gone",
+            "love is dead and gone"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 12,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember",
+            "I will surrender",
+            "I will remember"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 13,
+          "lineId": "line-26",
+          "prompt": "There was a {{blank}}",
+          "options": [
+            "time we had the truth",
+            "time we had the trust",
+            "time we held the trust"
+          ],
+          "answer": "time we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 14,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "options": [
+            "I will remember",
+            "I can remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 15,
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{blank}}",
+          "options": [
+            "one more day",
+            "one long day",
+            "one more way"
+          ],
+          "answer": "one more day",
+          "promptZh": "當我再次睜開雙眼，迎接新的一天"
+        },
+        {
+          "number": 16,
+          "lineId": "line-32",
+          "prompt": "As it {{blank}}",
+          "options": [
+            "whispers my name",
+            "whistles your name",
+            "whispers your name"
+          ],
+          "answer": "whispers your name",
+          "promptZh": "它彷彿正輕聲呢喃著你的名字"
+        },
+        {
+          "number": 17,
+          "lineId": "line-34",
+          "prompt": "It {{blank}}",
+          "options": [
+            "sets me free",
+            "tears me free",
+            "tears me apart"
+          ],
+          "answer": "tears me free",
+          "promptZh": "也將我從過往的羈絆中掙脫出來"
+        },
+        {
+          "number": 18,
+          "lineId": "line-36",
+          "prompt": "Is the {{blank}}",
+          "options": [
+            "years for you and me",
+            "tears for you and me",
+            "tears from you and me"
+          ],
+          "answer": "tears for you and me",
+          "promptZh": "只有為你我而流的淚水"
+        },
+        {
+          "number": 19,
+          "lineId": "line-43",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come and gone",
+            "love has gone along",
+            "love has come back home"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 20,
+          "lineId": "line-55",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember you",
+            "I will remember you",
+            "I will remember us"
+          ],
+          "answer": "I will remember you",
+          "promptZh": "我會永遠記得你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I was born in the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "How all this has come to pass"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "How we've come to surround ourselves"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In a {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In a land without learning"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Only the fools believe"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I went {{q:5}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "On a dark canyon road"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Had the {{q:6}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But I wasn't alone"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Had the {{q:7}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "For my company"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "How did it end up like this"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "For you and me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When love {{q:8}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "The heart has to keep"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "It leaves {{q:9}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "When the spirit is crushed"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And the {{q:10}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Between you and I"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Even when {{q:11}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "There was a {{q:13}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I will remember you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{q:15}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The wind burns my face"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "As it {{q:16}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "As it's pulling me forward"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "It {{q:17}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the only thing left"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Is the {{q:18}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "'Cause when love breaks the promise"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The heart has to keep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It leaves only truth here to find"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When the spirit is crushed"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And the hurt is so deep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Between you and I"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Even when {{q:19}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "There was a time we had the trust"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Even when love has come and gone"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "There was a time we had the trust"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:20}}"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I was born in the {{blank}}",
+          "options": [
+            "land of the sand",
+            "land of the sun",
+            "light of the sun"
+          ],
+          "answer": "land of the sun",
+          "promptZh": "我出生在一片陽光普照的土地上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "tall clean glass",
+            "tall green grass",
+            "dark green grass"
+          ],
+          "answer": "tall green grass",
+          "promptZh": "那裡有著高高生長的翠綠青草"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "And I {{blank}}",
+          "options": [
+            "can't understand",
+            "don't remember",
+            "don't understand"
+          ],
+          "answer": "don't understand",
+          "promptZh": "而我始終無法理解"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "How all this has {{blank}}",
+          "options": [
+            "come to last",
+            "come so fast",
+            "come to pass"
+          ],
+          "answer": "come to pass",
+          "promptZh": "這一切究竟怎會演變成如今的模樣"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "How we've come to {{blank}}",
+          "options": [
+            "surround ourselves",
+            "surround our friends",
+            "remind ourselves"
+          ],
+          "answer": "surround ourselves",
+          "promptZh": "我們究竟為何讓自己深陷其中"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "In a {{blank}}",
+          "options": [
+            "sea of thieves",
+            "sea of trees",
+            "see the thieves"
+          ],
+          "answer": "sea of thieves",
+          "promptZh": "被一片充斥著欺騙與背叛的人海所包圍"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "In a land {{blank}}",
+          "options": [
+            "without warning",
+            "without meaning",
+            "without learning"
+          ],
+          "answer": "without learning",
+          "promptZh": "在這片不再懂得汲取教訓的土地上"
+        },
+        {
+          "number": 8,
+          "lineId": "line-9",
+          "prompt": "I went {{blank}}",
+          "options": [
+            "dreaming last night",
+            "driving past lights",
+            "driving last night"
+          ],
+          "answer": "driving last night",
+          "promptZh": "昨夜，我獨自駕車出行"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "On a {{blank}}",
+          "options": [
+            "dark canyon road",
+            "dark country road",
+            "long canyon road"
+          ],
+          "answer": "dark canyon road",
+          "promptZh": "行駛在幽暗的峽谷道路上"
+        },
+        {
+          "number": 10,
+          "lineId": "line-11",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "sky for myself",
+            "sky to myself",
+            "night to myself"
+          ],
+          "answer": "sky to myself",
+          "promptZh": "彷彿整片夜空都只屬於我一人"
+        },
+        {
+          "number": 11,
+          "lineId": "line-13",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "pain of my life",
+            "pain of my lifetime",
+            "rain of my lifetime"
+          ],
+          "answer": "pain of my lifetime",
+          "promptZh": "因為這一生刻骨銘心的傷痛"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "For my company",
+            "For my memory",
+            "In my company"
+          ],
+          "answer": "For my company",
+          "promptZh": "始終陪伴在我身旁"
+        },
+        {
+          "number": 13,
+          "lineId": "line-17",
+          "prompt": "When love {{blank}}",
+          "options": [
+            "makes the promise",
+            "breaks the silence",
+            "breaks the promise"
+          ],
+          "answer": "breaks the promise",
+          "promptZh": "當愛情背棄了那份承諾"
+        },
+        {
+          "number": 14,
+          "lineId": "line-18",
+          "prompt": "The {{blank}}",
+          "options": [
+            "heart wants to keep",
+            "heart has to feel",
+            "heart has to keep"
+          ],
+          "answer": "heart has to keep",
+          "promptZh": "那份心中本應堅守的承諾"
+        },
+        {
+          "number": 15,
+          "lineId": "line-19",
+          "prompt": "It leaves {{blank}}",
+          "options": [
+            "only truth here to find",
+            "only proof here to find",
+            "only truth left behind"
+          ],
+          "answer": "only truth here to find",
+          "promptZh": "留下的，便只有等待我們面對的真相"
+        },
+        {
+          "number": 16,
+          "lineId": "line-20",
+          "prompt": "When the {{blank}}",
+          "options": [
+            "spirit is crushed",
+            "spirit is rushed",
+            "spirit is strong"
+          ],
+          "answer": "spirit is crushed",
+          "promptZh": "當心靈已被徹底擊垮"
+        },
+        {
+          "number": 17,
+          "lineId": "line-21",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "heart is so deep",
+            "hurt is too deep",
+            "hurt is so deep"
+          ],
+          "answer": "hurt is so deep",
+          "promptZh": "而傷痛又是如此深重"
+        },
+        {
+          "number": 18,
+          "lineId": "line-23",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come along",
+            "love has come and gone",
+            "love is dead and gone"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 19,
+          "lineId": "line-24",
+          "prompt": "And our {{blank}}",
+          "options": [
+            "hearts have moved along",
+            "hearts have moved apart",
+            "hearts have carried on"
+          ],
+          "answer": "hearts have moved along",
+          "promptZh": "即使我們的心都已各自向前"
+        },
+        {
+          "number": 20,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember",
+            "I will remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 21,
+          "lineId": "line-26",
+          "prompt": "There was a {{blank}}",
+          "options": [
+            "time we had the truth",
+            "time we had the trust",
+            "time we held the trust"
+          ],
+          "answer": "time we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 22,
+          "lineId": "line-27",
+          "prompt": "And that {{blank}}",
+          "options": [
+            "always is enough",
+            "almost was enough",
+            "always was enough"
+          ],
+          "answer": "always was enough",
+          "promptZh": "而那份信任，曾經就已足夠"
+        },
+        {
+          "number": 23,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "options": [
+            "I can remember",
+            "I will surrender",
+            "I will remember"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 24,
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{blank}}",
+          "options": [
+            "one more day",
+            "one long day",
+            "one more way"
+          ],
+          "answer": "one more day",
+          "promptZh": "當我再次睜開雙眼，迎接新的一天"
+        },
+        {
+          "number": 25,
+          "lineId": "line-31",
+          "prompt": "The {{blank}}",
+          "options": [
+            "wind turns my face",
+            "wind burns my face",
+            "rain burns my face"
+          ],
+          "answer": "wind burns my face",
+          "promptZh": "迎面而來的風，刺痛了我的臉龐"
+        },
+        {
+          "number": 26,
+          "lineId": "line-32",
+          "prompt": "As it {{blank}}",
+          "options": [
+            "whispers my name",
+            "whispers your name",
+            "whistles your name"
+          ],
+          "answer": "whispers your name",
+          "promptZh": "它彷彿正輕聲呢喃著你的名字"
+        },
+        {
+          "number": 27,
+          "lineId": "line-34",
+          "prompt": "It {{blank}}",
+          "options": [
+            "tears me free",
+            "sets me free",
+            "tears me apart"
+          ],
+          "answer": "tears me free",
+          "promptZh": "也將我從過往的羈絆中掙脫出來"
+        },
+        {
+          "number": 28,
+          "lineId": "line-36",
+          "prompt": "Is the {{blank}}",
+          "options": [
+            "tears for you and me",
+            "years for you and me",
+            "tears from you and me"
+          ],
+          "answer": "tears for you and me",
+          "promptZh": "只有為你我而流的淚水"
+        },
+        {
+          "number": 29,
+          "lineId": "line-37",
+          "prompt": "'Cause when {{blank}}",
+          "options": [
+            "love makes the promise",
+            "love breaks the promise",
+            "love breaks the silence"
+          ],
+          "answer": "love breaks the promise",
+          "promptZh": "因為當愛情背棄了那份承諾"
+        },
+        {
+          "number": 30,
+          "lineId": "line-43",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has gone along",
+            "love has come and gone",
+            "love has come back home"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 31,
+          "lineId": "line-46",
+          "prompt": "There was a time {{blank}}",
+          "options": [
+            "we had the truth",
+            "we held the trust",
+            "we had the trust"
+          ],
+          "answer": "we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 32,
+          "lineId": "line-55",
+          "prompt": "{{blank}}",
+          "options": [
+            "I will remember you",
+            "I still remember you",
+            "I will remember us"
+          ],
+          "answer": "I will remember you",
+          "promptZh": "我會永遠記得你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I was born in the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "How all this has {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "How we've come to {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In a land {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Only the fools believe"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I went {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "On a {{q:9}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Had the {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But I wasn't alone"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Had the {{q:11}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "How did it end up like this"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "For you and me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When love {{q:13}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "The {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "It leaves {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "When the {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And the {{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Between you and I"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Even when {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And our {{q:19}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:20}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "There was a {{q:21}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And that {{q:22}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I will remember you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{q:24}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The {{q:25}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "As it {{q:26}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "As it's pulling me forward"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "It {{q:27}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the only thing left"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Is the {{q:28}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "'Cause when {{q:29}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The heart has to keep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It leaves only truth here to find"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When the spirit is crushed"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And the hurt is so deep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Between you and I"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Even when {{q:30}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "There was a time {{q:31}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Even when love has come and gone"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "There was a time we had the trust"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I was born in the {{blank}}",
+          "options": [
+            "land of the sand",
+            "light of the sun",
+            "land of the sun"
+          ],
+          "answer": "land of the sun",
+          "promptZh": "我出生在一片陽光普照的土地上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "tall green grass",
+            "tall clean glass",
+            "dark green grass"
+          ],
+          "answer": "tall green grass",
+          "promptZh": "那裡有著高高生長的翠綠青草"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "And I {{blank}}",
+          "options": [
+            "can't understand",
+            "don't understand",
+            "don't remember"
+          ],
+          "answer": "don't understand",
+          "promptZh": "而我始終無法理解"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "How all this has {{blank}}",
+          "options": [
+            "come to last",
+            "come so fast",
+            "come to pass"
+          ],
+          "answer": "come to pass",
+          "promptZh": "這一切究竟怎會演變成如今的模樣"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "How we've come to {{blank}}",
+          "options": [
+            "surround ourselves",
+            "surround our friends",
+            "remind ourselves"
+          ],
+          "answer": "surround ourselves",
+          "promptZh": "我們究竟為何讓自己深陷其中"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "In a {{blank}}",
+          "options": [
+            "sea of trees",
+            "see the thieves",
+            "sea of thieves"
+          ],
+          "answer": "sea of thieves",
+          "promptZh": "被一片充斥著欺騙與背叛的人海所包圍"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "In a land {{blank}}",
+          "options": [
+            "without warning",
+            "without meaning",
+            "without learning"
+          ],
+          "answer": "without learning",
+          "promptZh": "在這片不再懂得汲取教訓的土地上"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Only the {{blank}}",
+          "options": [
+            "fools believe",
+            "fools will leave",
+            "few believe"
+          ],
+          "answer": "fools believe",
+          "promptZh": "似乎只有愚者還願意相信"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "I went {{blank}}",
+          "options": [
+            "driving last night",
+            "dreaming last night",
+            "driving past lights"
+          ],
+          "answer": "driving last night",
+          "promptZh": "昨夜，我獨自駕車出行"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "On a {{blank}}",
+          "options": [
+            "dark country road",
+            "dark canyon road",
+            "long canyon road"
+          ],
+          "answer": "dark canyon road",
+          "promptZh": "行駛在幽暗的峽谷道路上"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "sky to myself",
+            "sky for myself",
+            "night to myself"
+          ],
+          "answer": "sky to myself",
+          "promptZh": "彷彿整片夜空都只屬於我一人"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "But I {{blank}}",
+          "options": [
+            "was all alone",
+            "wasn't at home",
+            "wasn't alone"
+          ],
+          "answer": "wasn't alone",
+          "promptZh": "可我卻並非真正孤身一人"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "pain of my life",
+            "pain of my lifetime",
+            "rain of my lifetime"
+          ],
+          "answer": "pain of my lifetime",
+          "promptZh": "因為這一生刻骨銘心的傷痛"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "For my memory",
+            "For my company",
+            "In my company"
+          ],
+          "answer": "For my company",
+          "promptZh": "始終陪伴在我身旁"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "How did it {{blank}}",
+          "options": [
+            "end up with this",
+            "end up like that",
+            "end up like this"
+          ],
+          "answer": "end up like this",
+          "promptZh": "事情究竟怎會走到這般田地"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "When love {{blank}}",
+          "options": [
+            "makes the promise",
+            "breaks the promise",
+            "breaks the silence"
+          ],
+          "answer": "breaks the promise",
+          "promptZh": "當愛情背棄了那份承諾"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "The {{blank}}",
+          "options": [
+            "heart has to keep",
+            "heart wants to keep",
+            "heart has to feel"
+          ],
+          "answer": "heart has to keep",
+          "promptZh": "那份心中本應堅守的承諾"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "It leaves {{blank}}",
+          "options": [
+            "only proof here to find",
+            "only truth here to find",
+            "only truth left behind"
+          ],
+          "answer": "only truth here to find",
+          "promptZh": "留下的，便只有等待我們面對的真相"
+        },
+        {
+          "number": 19,
+          "lineId": "line-20",
+          "prompt": "When the {{blank}}",
+          "options": [
+            "spirit is rushed",
+            "spirit is crushed",
+            "spirit is strong"
+          ],
+          "answer": "spirit is crushed",
+          "promptZh": "當心靈已被徹底擊垮"
+        },
+        {
+          "number": 20,
+          "lineId": "line-21",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "hurt is so deep",
+            "heart is so deep",
+            "hurt is too deep"
+          ],
+          "answer": "hurt is so deep",
+          "promptZh": "而傷痛又是如此深重"
+        },
+        {
+          "number": 21,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "Between you and me",
+            "Between you and I",
+            "Behind you and I"
+          ],
+          "answer": "Between you and I",
+          "promptZh": "深深橫亙在你我之間"
+        },
+        {
+          "number": 22,
+          "lineId": "line-23",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come and gone",
+            "love has come along",
+            "love is dead and gone"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 23,
+          "lineId": "line-24",
+          "prompt": "And our {{blank}}",
+          "options": [
+            "hearts have moved apart",
+            "hearts have carried on",
+            "hearts have moved along"
+          ],
+          "answer": "hearts have moved along",
+          "promptZh": "即使我們的心都已各自向前"
+        },
+        {
+          "number": 24,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "I will remember",
+            "I still remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 25,
+          "lineId": "line-26",
+          "prompt": "There was a {{blank}}",
+          "options": [
+            "time we had the truth",
+            "time we held the trust",
+            "time we had the trust"
+          ],
+          "answer": "time we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 26,
+          "lineId": "line-27",
+          "prompt": "And that {{blank}}",
+          "options": [
+            "always was enough",
+            "always is enough",
+            "almost was enough"
+          ],
+          "answer": "always was enough",
+          "promptZh": "而那份信任，曾經就已足夠"
+        },
+        {
+          "number": 27,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "options": [
+            "I can remember",
+            "I will remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 28,
+          "lineId": "line-29",
+          "prompt": "I will {{blank}}",
+          "options": [
+            "remember us",
+            "remember too",
+            "remember you"
+          ],
+          "answer": "remember you",
+          "promptZh": "我會永遠記得你"
+        },
+        {
+          "number": 29,
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{blank}}",
+          "options": [
+            "one more day",
+            "one long day",
+            "one more way"
+          ],
+          "answer": "one more day",
+          "promptZh": "當我再次睜開雙眼，迎接新的一天"
+        },
+        {
+          "number": 30,
+          "lineId": "line-31",
+          "prompt": "The {{blank}}",
+          "options": [
+            "wind turns my face",
+            "wind burns my face",
+            "rain burns my face"
+          ],
+          "answer": "wind burns my face",
+          "promptZh": "迎面而來的風，刺痛了我的臉龐"
+        },
+        {
+          "number": 31,
+          "lineId": "line-32",
+          "prompt": "As it {{blank}}",
+          "options": [
+            "whispers my name",
+            "whispers your name",
+            "whistles your name"
+          ],
+          "answer": "whispers your name",
+          "promptZh": "它彷彿正輕聲呢喃著你的名字"
+        },
+        {
+          "number": 32,
+          "lineId": "line-33",
+          "prompt": "As it's {{blank}}",
+          "options": [
+            "pulling me forward",
+            "pushing me forward",
+            "pulling me backward"
+          ],
+          "answer": "pulling me forward",
+          "promptZh": "當它推著我繼續向前"
+        },
+        {
+          "number": 33,
+          "lineId": "line-34",
+          "prompt": "It {{blank}}",
+          "options": [
+            "sets me free",
+            "tears me apart",
+            "tears me free"
+          ],
+          "answer": "tears me free",
+          "promptZh": "也將我從過往的羈絆中掙脫出來"
+        },
+        {
+          "number": 34,
+          "lineId": "line-36",
+          "prompt": "Is the {{blank}}",
+          "options": [
+            "tears for you and me",
+            "years for you and me",
+            "tears from you and me"
+          ],
+          "answer": "tears for you and me",
+          "promptZh": "只有為你我而流的淚水"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "'Cause when {{blank}}",
+          "options": [
+            "love breaks the promise",
+            "love makes the promise",
+            "love breaks the silence"
+          ],
+          "answer": "love breaks the promise",
+          "promptZh": "因為當愛情背棄了那份承諾"
+        },
+        {
+          "number": 36,
+          "lineId": "line-39",
+          "prompt": "It leaves only {{blank}}",
+          "options": [
+            "truth left behind",
+            "truth here to find",
+            "proof here to find"
+          ],
+          "answer": "truth here to find",
+          "promptZh": "留下的，便只有等待我們面對的真相"
+        },
+        {
+          "number": 37,
+          "lineId": "line-43",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has gone along",
+            "love has come back home",
+            "love has come and gone"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 38,
+          "lineId": "line-46",
+          "prompt": "There was a time {{blank}}",
+          "options": [
+            "we had the truth",
+            "we held the trust",
+            "we had the trust"
+          ],
+          "answer": "we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 39,
+          "lineId": "line-47",
+          "prompt": "And {{blank}}",
+          "options": [
+            "that almost was enough",
+            "that always was enough",
+            "that always is enough"
+          ],
+          "answer": "that always was enough",
+          "promptZh": "而那份信任，曾經就已足夠"
+        },
+        {
+          "number": 40,
+          "lineId": "line-55",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember you",
+            "I will remember us",
+            "I will remember you"
+          ],
+          "answer": "I will remember you",
+          "promptZh": "我會永遠記得你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I was born in the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "How all this has {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "How we've come to {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In a land {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Only the {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I went {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "On a {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Had the {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But I {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Had the {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "How did it {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "For you and me"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When love {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "The {{q:17}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "It leaves {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "When the {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And the {{q:20}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Even when {{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And our {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "There was a {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And that {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I will {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The {{q:30}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "As it {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "As it's {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "It {{q:33}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the only thing left"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Is the {{q:34}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "'Cause when {{q:35}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The heart has to keep"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It leaves only {{q:36}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When the spirit is crushed"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And the hurt is so deep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Between you and I"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Even when {{q:37}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "There was a time {{q:38}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And {{q:39}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Even when love has come and gone"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "There was a time we had the trust"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I was born in the {{blank}}",
+          "options": [
+            "land of the sun",
+            "land of the sand",
+            "light of the sun"
+          ],
+          "answer": "land of the sun",
+          "promptZh": "我出生在一片陽光普照的土地上"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "tall clean glass",
+            "dark green grass",
+            "tall green grass"
+          ],
+          "answer": "tall green grass",
+          "promptZh": "那裡有著高高生長的翠綠青草"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "And I {{blank}}",
+          "options": [
+            "can't understand",
+            "don't remember",
+            "don't understand"
+          ],
+          "answer": "don't understand",
+          "promptZh": "而我始終無法理解"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "How all this has {{blank}}",
+          "options": [
+            "come to last",
+            "come to pass",
+            "come so fast"
+          ],
+          "answer": "come to pass",
+          "promptZh": "這一切究竟怎會演變成如今的模樣"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "How we've come to {{blank}}",
+          "options": [
+            "surround our friends",
+            "surround ourselves",
+            "remind ourselves"
+          ],
+          "answer": "surround ourselves",
+          "promptZh": "我們究竟為何讓自己深陷其中"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "In a {{blank}}",
+          "options": [
+            "sea of thieves",
+            "sea of trees",
+            "see the thieves"
+          ],
+          "answer": "sea of thieves",
+          "promptZh": "被一片充斥著欺騙與背叛的人海所包圍"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "In a land {{blank}}",
+          "options": [
+            "without learning",
+            "without warning",
+            "without meaning"
+          ],
+          "answer": "without learning",
+          "promptZh": "在這片不再懂得汲取教訓的土地上"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "Only the {{blank}}",
+          "options": [
+            "fools will leave",
+            "fools believe",
+            "few believe"
+          ],
+          "answer": "fools believe",
+          "promptZh": "似乎只有愚者還願意相信"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "I went {{blank}}",
+          "options": [
+            "dreaming last night",
+            "driving past lights",
+            "driving last night"
+          ],
+          "answer": "driving last night",
+          "promptZh": "昨夜，我獨自駕車出行"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "On a {{blank}}",
+          "options": [
+            "dark canyon road",
+            "dark country road",
+            "long canyon road"
+          ],
+          "answer": "dark canyon road",
+          "promptZh": "行駛在幽暗的峽谷道路上"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "sky to myself",
+            "sky for myself",
+            "night to myself"
+          ],
+          "answer": "sky to myself",
+          "promptZh": "彷彿整片夜空都只屬於我一人"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "But I {{blank}}",
+          "options": [
+            "was all alone",
+            "wasn't alone",
+            "wasn't at home"
+          ],
+          "answer": "wasn't alone",
+          "promptZh": "可我卻並非真正孤身一人"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "Had the {{blank}}",
+          "options": [
+            "pain of my life",
+            "rain of my lifetime",
+            "pain of my lifetime"
+          ],
+          "answer": "pain of my lifetime",
+          "promptZh": "因為這一生刻骨銘心的傷痛"
+        },
+        {
+          "number": 14,
+          "lineId": "line-14",
+          "prompt": "{{blank}}",
+          "options": [
+            "For my company",
+            "For my memory",
+            "In my company"
+          ],
+          "answer": "For my company",
+          "promptZh": "始終陪伴在我身旁"
+        },
+        {
+          "number": 15,
+          "lineId": "line-15",
+          "prompt": "How did it {{blank}}",
+          "options": [
+            "end up with this",
+            "end up like that",
+            "end up like this"
+          ],
+          "answer": "end up like this",
+          "promptZh": "事情究竟怎會走到這般田地"
+        },
+        {
+          "number": 16,
+          "lineId": "line-16",
+          "prompt": "{{blank}}",
+          "options": [
+            "For you and I",
+            "For me and you",
+            "For you and me"
+          ],
+          "answer": "For you and me",
+          "promptZh": "對你我而言，竟成了如此結局"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "When love {{blank}}",
+          "options": [
+            "breaks the promise",
+            "makes the promise",
+            "breaks the silence"
+          ],
+          "answer": "breaks the promise",
+          "promptZh": "當愛情背棄了那份承諾"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "The {{blank}}",
+          "options": [
+            "heart has to keep",
+            "heart wants to keep",
+            "heart has to feel"
+          ],
+          "answer": "heart has to keep",
+          "promptZh": "那份心中本應堅守的承諾"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "It leaves {{blank}}",
+          "options": [
+            "only proof here to find",
+            "only truth left behind",
+            "only truth here to find"
+          ],
+          "answer": "only truth here to find",
+          "promptZh": "留下的，便只有等待我們面對的真相"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "When the {{blank}}",
+          "options": [
+            "spirit is rushed",
+            "spirit is strong",
+            "spirit is crushed"
+          ],
+          "answer": "spirit is crushed",
+          "promptZh": "當心靈已被徹底擊垮"
+        },
+        {
+          "number": 21,
+          "lineId": "line-21",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "heart is so deep",
+            "hurt is so deep",
+            "hurt is too deep"
+          ],
+          "answer": "hurt is so deep",
+          "promptZh": "而傷痛又是如此深重"
+        },
+        {
+          "number": 22,
+          "lineId": "line-22",
+          "prompt": "{{blank}}",
+          "options": [
+            "Between you and I",
+            "Between you and me",
+            "Behind you and I"
+          ],
+          "answer": "Between you and I",
+          "promptZh": "深深橫亙在你我之間"
+        },
+        {
+          "number": 23,
+          "lineId": "line-23",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come along",
+            "love is dead and gone",
+            "love has come and gone"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 24,
+          "lineId": "line-24",
+          "prompt": "And our {{blank}}",
+          "options": [
+            "hearts have moved apart",
+            "hearts have carried on",
+            "hearts have moved along"
+          ],
+          "answer": "hearts have moved along",
+          "promptZh": "即使我們的心都已各自向前"
+        },
+        {
+          "number": 25,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember",
+            "I will remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 26,
+          "lineId": "line-26",
+          "prompt": "There was a {{blank}}",
+          "options": [
+            "time we had the truth",
+            "time we held the trust",
+            "time we had the trust"
+          ],
+          "answer": "time we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 27,
+          "lineId": "line-27",
+          "prompt": "And that {{blank}}",
+          "options": [
+            "always was enough",
+            "always is enough",
+            "almost was enough"
+          ],
+          "answer": "always was enough",
+          "promptZh": "而那份信任，曾經就已足夠"
+        },
+        {
+          "number": 28,
+          "lineId": "line-28",
+          "prompt": "{{blank}}",
+          "options": [
+            "I can remember",
+            "I will remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 29,
+          "lineId": "line-29",
+          "prompt": "I will {{blank}}",
+          "options": [
+            "remember us",
+            "remember too",
+            "remember you"
+          ],
+          "answer": "remember you",
+          "promptZh": "我會永遠記得你"
+        },
+        {
+          "number": 30,
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{blank}}",
+          "options": [
+            "one more day",
+            "one long day",
+            "one more way"
+          ],
+          "answer": "one more day",
+          "promptZh": "當我再次睜開雙眼，迎接新的一天"
+        },
+        {
+          "number": 31,
+          "lineId": "line-31",
+          "prompt": "The {{blank}}",
+          "options": [
+            "wind turns my face",
+            "wind burns my face",
+            "rain burns my face"
+          ],
+          "answer": "wind burns my face",
+          "promptZh": "迎面而來的風，刺痛了我的臉龐"
+        },
+        {
+          "number": 32,
+          "lineId": "line-32",
+          "prompt": "As it {{blank}}",
+          "options": [
+            "whispers my name",
+            "whispers your name",
+            "whistles your name"
+          ],
+          "answer": "whispers your name",
+          "promptZh": "它彷彿正輕聲呢喃著你的名字"
+        },
+        {
+          "number": 33,
+          "lineId": "line-33",
+          "prompt": "As it's {{blank}}",
+          "options": [
+            "pushing me forward",
+            "pulling me backward",
+            "pulling me forward"
+          ],
+          "answer": "pulling me forward",
+          "promptZh": "當它推著我繼續向前"
+        },
+        {
+          "number": 34,
+          "lineId": "line-34",
+          "prompt": "It {{blank}}",
+          "options": [
+            "sets me free",
+            "tears me apart",
+            "tears me free"
+          ],
+          "answer": "tears me free",
+          "promptZh": "也將我從過往的羈絆中掙脫出來"
+        },
+        {
+          "number": 35,
+          "lineId": "line-35",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "only one left",
+            "only thing left",
+            "only thing lost"
+          ],
+          "answer": "only thing left",
+          "promptZh": "而最終留下的"
+        },
+        {
+          "number": 36,
+          "lineId": "line-36",
+          "prompt": "Is the {{blank}}",
+          "options": [
+            "years for you and me",
+            "tears from you and me",
+            "tears for you and me"
+          ],
+          "answer": "tears for you and me",
+          "promptZh": "只有為你我而流的淚水"
+        },
+        {
+          "number": 37,
+          "lineId": "line-37",
+          "prompt": "'Cause when {{blank}}",
+          "options": [
+            "love makes the promise",
+            "love breaks the promise",
+            "love breaks the silence"
+          ],
+          "answer": "love breaks the promise",
+          "promptZh": "因為當愛情背棄了那份承諾"
+        },
+        {
+          "number": 38,
+          "lineId": "line-38",
+          "prompt": "The {{blank}}",
+          "options": [
+            "heart has to keep",
+            "heart had to keep",
+            "heart wants to keep"
+          ],
+          "answer": "heart has to keep",
+          "promptZh": "那份心中本應堅守的承諾"
+        },
+        {
+          "number": 39,
+          "lineId": "line-39",
+          "prompt": "It leaves only {{blank}}",
+          "options": [
+            "truth here to find",
+            "truth left behind",
+            "proof here to find"
+          ],
+          "answer": "truth here to find",
+          "promptZh": "留下的，便只有等待我們面對的真相"
+        },
+        {
+          "number": 40,
+          "lineId": "line-40",
+          "prompt": "When the {{blank}}",
+          "options": [
+            "spirit is touched",
+            "spirit is crushed",
+            "spirit is rushed"
+          ],
+          "answer": "spirit is crushed",
+          "promptZh": "當心靈已被徹底擊垮"
+        },
+        {
+          "number": 41,
+          "lineId": "line-41",
+          "prompt": "And the {{blank}}",
+          "options": [
+            "hurt is too deep",
+            "heart is so deep",
+            "hurt is so deep"
+          ],
+          "answer": "hurt is so deep",
+          "promptZh": "而傷痛又是如此深重"
+        },
+        {
+          "number": 42,
+          "lineId": "line-42",
+          "prompt": "{{blank}}",
+          "options": [
+            "Between you and me",
+            "Between you and I",
+            "Between me and I"
+          ],
+          "answer": "Between you and I",
+          "promptZh": "深深橫亙在你我之間"
+        },
+        {
+          "number": 43,
+          "lineId": "line-43",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come and gone",
+            "love has gone along",
+            "love has come back home"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 44,
+          "lineId": "line-44",
+          "prompt": "And our {{blank}}",
+          "options": [
+            "hearts have moved along",
+            "hearts have moved apart",
+            "hearts are moving on"
+          ],
+          "answer": "hearts have moved along",
+          "promptZh": "即使我們的心都已各自向前"
+        },
+        {
+          "number": 45,
+          "lineId": "line-45",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember",
+            "I will remember",
+            "I will surrender"
+          ],
+          "answer": "I will remember",
+          "promptZh": "我依然會銘記在心"
+        },
+        {
+          "number": 46,
+          "lineId": "line-46",
+          "prompt": "There was a time {{blank}}",
+          "options": [
+            "we had the truth",
+            "we had the trust",
+            "we held the trust"
+          ],
+          "answer": "we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 47,
+          "lineId": "line-47",
+          "prompt": "And {{blank}}",
+          "options": [
+            "that always was enough",
+            "that almost was enough",
+            "that always is enough"
+          ],
+          "answer": "that always was enough",
+          "promptZh": "而那份信任，曾經就已足夠"
+        },
+        {
+          "number": 48,
+          "lineId": "line-49",
+          "prompt": "Even when {{blank}}",
+          "options": [
+            "love has come and gone",
+            "love has come along",
+            "love is dead and gone"
+          ],
+          "answer": "love has come and gone",
+          "promptZh": "即使愛情曾經來過，如今又已離去"
+        },
+        {
+          "number": 49,
+          "lineId": "line-52",
+          "prompt": "There was a {{blank}}",
+          "options": [
+            "time we had the truth",
+            "time we had the trust",
+            "time we held the trust"
+          ],
+          "answer": "time we had the trust",
+          "promptZh": "我們曾有過一段彼此信任的時光"
+        },
+        {
+          "number": 50,
+          "lineId": "line-55",
+          "prompt": "{{blank}}",
+          "options": [
+            "I still remember you",
+            "I will remember you",
+            "I will remember us"
+          ],
+          "answer": "I will remember you",
+          "promptZh": "我會永遠記得你"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I was born in the {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "And the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "And I {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "How all this has {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "How we've come to {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "In a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "In a land {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Only the {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I went {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "On a {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Had the {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "But I {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Had the {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "How did it {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "When love {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "The {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "It leaves {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "When the {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And the {{q:21}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Even when {{q:23}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And our {{q:24}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "There was a {{q:26}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And that {{q:27}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I will {{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "As I open my eyes to {{q:30}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "The {{q:31}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "As it {{q:32}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "As it's {{q:33}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "It {{q:34}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And the {{q:35}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Is the {{q:36}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "'Cause when {{q:37}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The {{q:38}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It leaves only {{q:39}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "When the {{q:40}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And the {{q:41}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Even when {{q:43}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "And our {{q:44}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "There was a time {{q:46}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And {{q:47}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Even when {{q:48}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "And our hearts have moved along"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "There was a {{q:49}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "And that always was enough"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "I will remember"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:50}}"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Come to pass",
+      "meaning": "發生、成為現實",
+      "usage": "較常用在故事或比較正式的英文，表示某件事真的發生了。",
+      "prompt": "哪一句正確使用了「Come to pass」？",
+      "options": [
+        "I come to pass my school every morning.",
+        "She came to pass to the cinema by taxi.",
+        "We came to pass at seven o’clock for dinner.",
+        "How did this strange mix-up come to pass?"
+      ],
+      "answer": 3,
+      "explanation": "come to pass 表示發生，這裡問這場誤會如何發生。",
+      "optionExplanations": [
+        "錯誤：這裡是「經過學校」，應說 I pass my school。",
+        "come to pass 指事情發生，不能表示乘的士前往戲院。",
+        "錯誤：說約好吃飯要用 met，不能用 come to pass。",
+        "come to pass 表示發生，這裡問這場誤會如何發生。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Surround yourself with",
+      "meaning": "讓自己身邊充滿……、與……為伍",
+      "usage": "談身邊的人或事物，例如朋友、書、音樂。",
+      "prompt": "哪一句正確使用了「Surround yourself with」？",
+      "options": [
+        "I surround myself with to meet new people.",
+        "He surrounds himself to friendly neighbours.",
+        "She surrounds herself with friends who enjoy terrible jokes.",
+        "We surround ourselves from the bus stop."
+      ],
+      "answer": 2,
+      "explanation": "surround yourself with 指讓某些人常在自己身邊。",
+      "optionExplanations": [
+        "with 後要接名詞或動名詞，不能接 to meet。",
+        "surround yourself with 的介詞是 with，不能換成 to。",
+        "surround yourself with 指讓某些人常在自己身邊。",
+        "錯誤：應使用 with，而不是 from。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "All to myself",
+      "meaning": "自己獨享、只有我一個人使用",
+      "usage": "想說某個地方、物品或時間不用和其他人分享時。",
+      "prompt": "哪一句正確使用了「All to myself」？",
+      "options": [
+        "I had the whole beach all to myself.",
+        "I all to myself the swimming pool today.",
+        "She has all to myself a new book.",
+        "They are all to myself at school."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示整片海灘只有我一個人享受。",
+      "optionExplanations": [
+        "正確：表示整片海灘只有我一個人享受。",
+        "all to myself 不能單獨作動詞；可說 have the swimming pool all to myself。",
+        "錯誤：主詞是 she，應用 all to herself，且位置不自然。",
+        "錯誤：they 與 myself 不搭配，這句也沒有清楚表示獨享什麼。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "End up",
+      "meaning": "最後變成……、結果到了……",
+      "usage": "事情發展後出現了某個結果，常用 end up + -ing 或 end up + 地點。",
+      "prompt": "哪一句正確使用了「End up」？",
+      "options": [
+        "I end up my interview into the lift.",
+        "We missed the bus and ended up walking home.",
+        "She ended up to sing at the party.",
+        "We end up missed the last train yesterday."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示最後只好走路回家。",
+      "optionExplanations": [
+        "end up 表示最後到達某處或處於某狀態，不能這樣接 my interview。",
+        "正確：表示最後只好走路回家。",
+        "錯誤：要說 ended up singing，不用 to sing。",
+        "過去事件須用 ended up；後接動作要用 missing。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Break a promise",
+      "meaning": "違背承諾、沒有做到答應的事",
+      "usage": "答應別人一件事卻沒有做到時。",
+      "prompt": "哪一句正確使用了「Break a promise」？",
+      "options": [
+        "I break a promise my cousin very tall.",
+        "He broke his promise and missed our anniversary again.",
+        "She broke a promise to meeting us at six.",
+        "We break a promise yesterday about the money."
+      ],
+      "answer": 1,
+      "explanation": "break a promise 指沒有履行承諾。",
+      "optionExplanations": [
+        "break a promise 指違背承諾，不能接 my cousin very tall 描述身高。",
+        "break a promise 指沒有履行承諾。",
+        "promise 後接 to meet；to meeting 的形式不正確。",
+        "yesterday 是過去時間，這裡須用 broke。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Move along",
+      "meaning": "繼續往前走、向前生活",
+      "usage": "可以叫人繼續走，也可表示從過去的事走出來。",
+      "prompt": "哪一句正確使用了「Move along」？",
+      "options": [
+        "After the show, people moved along to the next room.",
+        "I moved along to waited outside the theatre.",
+        "She moved along very three years old.",
+        "He moved along to sleeping at nine."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示人們繼續往下一個房間走。",
+      "optionExplanations": [
+        "正確：表示人們繼續往下一個房間走。",
+        "to 後用原形 wait，不能接 waited。",
+        "move along 不能接年齡片語 very three years old。",
+        "錯誤：這裡應說 went to sleep，不是 moved along to sleeping。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "There was a time when",
+      "meaning": "曾經有一段時間……",
+      "usage": "回憶過去曾經發生或存在的情況。",
+      "prompt": "哪一句正確使用了「There was a time when」？",
+      "options": [
+        "There was a time when we played together every day.",
+        "There was a time when my bag is under the chair tomorrow.",
+        "There was a time when to visit that old cinema.",
+        "There was a time when my uncle are a dancer."
+      ],
+      "answer": 0,
+      "explanation": "正確：描述以前曾有一段天天一起玩的日子。",
+      "optionExplanations": [
+        "正確：描述以前曾有一段天天一起玩的日子。",
+        "錯誤：was 與 tomorrow 的未來時間不一致。",
+        "when 後缺少主詞與完整動詞，例如 we visited。",
+        "過去時間的單數主詞 my uncle 應配 was。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Whisper",
+      "meaning": "低聲說、輕聲耳語",
+      "usage": "在圖書館、有人睡覺時，或想悄悄說話時。",
+      "prompt": "哪一句正確使用了「Whisper」？",
+      "options": [
+        "I whispered my bicycle home.",
+        "She whispers very loudly so the whole street hears.",
+        "He whispered to me because the baby was asleep.",
+        "We whispered the door with a key."
+      ],
+      "answer": 2,
+      "explanation": "正確：因為嬰兒睡著，所以他低聲和我說話。",
+      "optionExplanations": [
+        "錯誤：whisper 是低聲說話，不是騎腳踏車。",
+        "錯誤：whisper 的意思是小聲說，與 very loudly 矛盾。",
+        "正確：因為嬰兒睡著，所以他低聲和我說話。",
+        "錯誤：開門用 opened the door，不能用 whispered。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Pull someone forward",
+      "meaning": "把某人向前拉、推動某人前進",
+      "usage": "可以指真的往前拉，也可以比喻幫助人向前走。",
+      "prompt": "哪一句正確使用了「Pull someone forward」？",
+      "options": [
+        "I pulled forward to my brother the crowded room.",
+        "My friend pulled me forward through the crowd.",
+        "She pulled me forward yesterday’s weather.",
+        "We pulled forward at my pencil on the desk."
+      ],
+      "answer": 1,
+      "explanation": "pull someone forward 表示把某人往前拉。",
+      "optionExplanations": [
+        "此句的受詞及介詞位置不成立；可說 pulled my brother forward。",
+        "pull someone forward 表示把某人往前拉。",
+        "錯誤：句子把天氣接在後面，沒有自然或清楚的意思。",
+        "錯誤：這裡的介系詞和受詞位置不正確。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Remember someone",
+      "meaning": "記得某人、想起某人",
+      "usage": "回想以前認識的人，或說自己不會忘記某人。",
+      "prompt": "哪一句正確使用了「Remember someone」？",
+      "options": [
+        "I remember to my first boss very well.",
+        "She remembers to her friend from school.",
+        "We remembered the music to blue yesterday.",
+        "I still remember my first teacher."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示我還記得第一位老師。",
+      "optionExplanations": [
+        "remember someone 直接接人，不加 to。",
+        "錯誤：直接說 remembers her friend，不加 to。",
+        "錯誤：後面的 to blue 不自然，也無法表達記得誰。",
+        "正確：表示我還記得第一位老師。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/i-will-remember/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/i-will-remember/user-cover-20261029.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 366.3733125,
+    "audioSha256": "c852f87a07f6dd582c53789b88c320e9d9bce020b523b3276b2a31a7ece79e9e",
+    "timedLines": 45,
+    "untimedLines": 10,
+    "reviewStatus": "Conservative automatic line alignment; unmatched lines remain bilingual without a guessed cue."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_I Will Remember_.pdf",
+      "sha256": "33b055d837a58d84c1dad5eacef9a30dcd3d1bf8ab24e4cad24bbe94f8570d96"
+    },
+    "docx": {
+      "filename": "I_Will_Remember_Four_Level_Listening_Exercise.docx",
+      "sha256": "6239a5e2534efed1ddfb3d688e975ad9059a8b9145dfbf5116651800a885e21e"
+    },
+    "md": {
+      "filename": "I_Will_Remember_Vocabulary_Quiz.md",
+      "sha256": "4123169e68ffe15ec235652268fece53c907c08883ab6011c399638bf5a87160"
+    },
+    "mp3": {
+      "filename": "I Will Remember [unmvkAhWzyo].mp3",
+      "sha256": "c852f87a07f6dd582c53789b88c320e9d9bce020b523b3276b2a31a7ece79e9e"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-296c208c-910e-4540-a013-7fffd0a0fd27.png",
+    "sha256": "71686a483fe5c7f755b7a8aac7c2ec8758910e1da9b197598a8dd0296090be31",
+    "transformations": "none",
+    "selectedOn": "2026-10-29"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "197802fbb1d3556b757054260baefebfab263ee6afbc81c7f72964bb81488373"
+    },
+    {
+      "section": "structure",
+      "filename": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "ad7229da7c60ee051aedfa4c12a29a228ecd2bfee261b928b4a6a0eae057bdfd"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "a sea of ...",
+          "meaning": "一大群／大量的……（比喻）",
+          "usage": "描述人、物或資訊多得像海一樣；偏生動、形象的說法。",
+          "prompt": "哪一句正確使用「a sea of ...」？",
+          "options": [
+            "The teacher wore a sea of shoes on one foot.",
+            "I saw a sea of faces at the school concert.",
+            "Dad cooked a sea of soup inside a tiny cup.",
+            "The shop sold a sea of one small apple today."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "a sea of 可表示大量事物，但一隻腳穿大量鞋子不符合合理情境。",
+            "正確：音樂會滿場人臉，a sea of faces 是自然比喻。",
+            "湯在小杯子裡不宜用 a sea of；這裡搭配很不自然。",
+            "只有一顆蘋果，不符合 a sea of 表示大量的意思。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：音樂會滿場人臉，a sea of faces 是自然比喻。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "thief / thieves",
+          "meaning": "小偷、竊賊（單數 thief；複數 thieves）",
+          "usage": "談偷走財物的人，或故事中比喻奪走某些重要事物的人。",
+          "prompt": "哪一句正確使用「thief / thieves」？",
+          "options": [
+            "Our teacher called the rain thieves after the storm.",
+            "My sister wore thieves to keep her feet warm.",
+            "The chef made three thieves with cheese for lunch.",
+            "The police caught two thieves near the old shop."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "雨不是偷財物的人；沒有建立明確比喻時搭配不自然。",
+            "thieves 不是襪子或鞋子，不能穿在腳上。",
+            "thieves 是人，不是用乳酪製作的餐點。",
+            "正確：thieves 是偷竊者，且 two 搭配不規則複數。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：thieves 是偷竊者，且 two 搭配不規則複數。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "canyon",
+          "meaning": "峽谷；兩側通常有陡峭岩壁的深谷",
+          "usage": "描述地理景觀、旅行或自然公園，和普通 valley（山谷）不同。",
+          "prompt": "哪一句正確使用「canyon」？",
+          "options": [
+            "We stood above the canyon and saw the river below.",
+            "The singer wore a canyon on stage with red shoes.",
+            "We used a canyon to cut our pizza into eight pieces.",
+            "Our dog ate a canyon and then asked for more food."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：從峽谷上方俯瞰下方河流，地形與詞義吻合。",
+            "峽谷不是衣物，不能穿在身上。",
+            "峽谷不是刀具，不能拿來切披薩。",
+            "峽谷不是食物；這裡是刻意荒謬的語意錯誤。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：從峽谷上方俯瞰下方河流，地形與詞義吻合。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "company",
+          "meaning": "陪伴；有人作伴（不只表示「公司」）",
+          "usage": "用於 enjoy someone’s company、keep someone company 等，表示有人陪伴。",
+          "prompt": "哪一句正確使用「company」？",
+          "options": [
+            "The bus was company because it arrived very early.",
+            "She company her lunch with a blue school notebook.",
+            "Grandpa enjoys my company when we play cards together.",
+            "My phone bought some company at the market yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "company 不是用來描述公車準時與否的形容詞。",
+            "company 在此不能直接當動詞表示吃飯。",
+            "正確：爺爺喜歡我陪他打牌，company 在此是陪伴。",
+            "陪伴不能像普通商品一樣買回來。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：爺爺喜歡我陪他打牌，company 在此是陪伴。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "lifetime",
+          "meaning": "一生；某人活著的整段時間",
+          "usage": "談一生中難忘的經驗，常見 in my lifetime、the chance of a lifetime。",
+          "prompt": "哪一句正確使用「lifetime」？",
+          "options": [
+            "This was the best meal I had eaten in my lifetime.",
+            "We painted the lifetime yellow before the guests arrived.",
+            "The bus took a lifetime to the park at nine today.",
+            "My brother put a lifetime in his backpack for school."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：強調在自己一生中吃過的所有餐點裡最好。",
+            "一生不是牆壁，不能把它漆成黃色。",
+            "把 lifetime 當乘客，與表達時間的用法不同。",
+            "lifetime 是一段人生時間，不是能放進背包的物品。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：強調在自己一生中吃過的所有餐點裡最好。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "spirit",
+          "meaning": "精神、意志；也可指靈魂",
+          "usage": "談人的精神狀態、團隊士氣或宗教觀念；需依上下文判斷。",
+          "prompt": "哪一句正確使用「spirit」？",
+          "options": [
+            "The team showed great spirit even after losing the game.",
+            "The spirit arrived at school on the number ten bus.",
+            "Our teacher boiled some spirit with carrots for dinner.",
+            "I used my spirit to open the door with a metal key."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：球隊輸球後仍展現良好精神與鬥志，spirit 用法自然。",
+            "若沒有鬼魂故事背景，把 spirit 當一般學生不自然。",
+            "精神不是一般可烹煮的食材。",
+            "開鎖通常用鑰匙，spirit 不能代替實際工具。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：球隊輸球後仍展現良好精神與鬥志，spirit 用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "crush / crushed",
+          "meaning": "壓碎；（比喻）使精神受到沉重打擊",
+          "usage": "用於壓碎物品，或形容挫敗使人的信心和希望大受打擊。",
+          "prompt": "哪一句正確使用「crush / crushed」？",
+          "options": [
+            "My aunt crushed to the station on a late bus.",
+            "The bad news crushed his hopes of joining the team.",
+            "We crushed our coats to stay dry in the heavy rain.",
+            "The chef crushed a song to make the soup taste sweet."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "crush 不表示乘車前往車站。",
+            "正確：壞消息讓他入隊的希望破滅，是自然比喻。",
+            "把外套壓扁不能保證防雨；語意不合情境。",
+            "歌曲不是食材；crush 不表示播放或調味。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：壞消息讓他入隊的希望破滅，是自然比喻。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "come and gone",
+          "meaning": "曾經出現，現在已經過去／結束",
+          "usage": "描述季節、機會、風潮或一段經歷已走入過去。",
+          "prompt": "哪一句正確使用「come and gone」？",
+          "options": [
+            "Our cat is come and gone because its fur is black.",
+            "The train has come and gone my lunch at noon.",
+            "Summer has come and gone, and school has started.",
+            "I put come and gone into my bag before the trip."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "毛色與 come and gone 所表示的時間流逝無關。",
+            "不能直接接 my lunch 作為「吃午餐」的動作。",
+            "正確：夏天已過，學期開始，強調一段時間已結束。",
+            "片語不是可以裝入背包的物品。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：夏天已過，學期開始，強調一段時間已結束。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "tear someone free",
+          "meaning": "用力把某人／某物從束縛中拉開（偏文學性）",
+          "usage": "較詩意的說法；日常談脫困多用 pull free 或 break free。",
+          "prompt": "哪一句正確使用「tear someone free」？",
+          "options": [
+            "The class tore the homework free before the bell rang.",
+            "We tore free the cake with a spoon at dinner.",
+            "The painter tore me free with a purple pencil.",
+            "The strong wind tore the flag free from its rope."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "作業不是被束縛的人；此處語意與搭配都不自然。",
+            "用湯匙切蛋糕應說 cut the cake；這裡不是掙脫。",
+            "沒有提及任何束縛，鉛筆也無法自然地使人脫困。",
+            "正確：強風吹得旗子掙脫繩索，符合用力拉開的意思。"
+          ],
+          "sourceFile": "I_Will_Remember_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：強風吹得旗子掙脫繩索，符合用力拉開的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "被動語態：was born",
+          "meaning": "表示出生地；born 在此與 was 連用。",
+          "usage": "談自己或別人的出生地，而不是一般的「出生」主動動作。",
+          "prompt": "某位太空館導覽員介紹自己的出生地，哪句最自然？",
+          "options": [
+            "I was bore in a small town near the sea.",
+            "I am born yesterday near the sea.",
+            "I was born in a small town near the sea.",
+            "I born in a small town near the sea."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。bore 不是此處要用的過去分詞。",
+            "錯誤。過去出生事件不能用 am 搭配 yesterday。",
+            "正確。表示出生地；born 在此與 was 連用。在這個情境中，句型與時態都自然。",
+            "錯誤。缺少 was；出生通常用 be born。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「I was born in the land of the sun」",
+          "pattern": [
+            {
+              "text": "was born",
+              "fixed": true
+            },
+            {
+              "text": "in + 地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示出生地；born 在此與 was 連用。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "現在簡單式否定：don’t + 動詞",
+          "meaning": "表達現在不明白或不做某事。",
+          "usage": "主詞是 I、you、we、they 時，用 do not 否定一般動詞。",
+          "prompt": "博物館說明牌很難懂，參觀者會怎麼說？",
+          "options": [
+            "I am not understand this sign.",
+            "I does not understand this sign.",
+            "I do not understand this sign.",
+            "I do not understands this sign."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。understand 是一般動詞，這裡不用 am not 直接連接。",
+            "錯誤。I 要用 do，不用 does。",
+            "正確。表達現在不明白或不做某事。在這個情境中，句型與時態都自然。",
+            "錯誤。do not 後面使用動詞原形。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「I don't understand」",
+          "pattern": [
+            {
+              "text": "do not / don’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表達現在不明白或不做某事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "間接問句：how + 陳述語序",
+          "meaning": "間接問句中陳述「事情如何發生」。",
+          "usage": "放在 understand 等動詞後面時，how 子句不用直接問句的倒裝語序。",
+          "prompt": "修復古鐘的師傅不了解故障怎樣發生，哪句對？",
+          "options": [
+            "I do not understand how this happened.",
+            "I do not understand how did this happen.",
+            "I do not understand how this happen yesterday.",
+            "I do not understand how happened this."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。間接問句中陳述「事情如何發生」。在這個情境中，句型與時態都自然。",
+            "錯誤。這是間接問句，不用 did this happen 的倒裝。",
+            "錯誤。yesterday 指過去，應用 happened。",
+            "錯誤。how 後要有正常主詞和動詞語序。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「How all this has come to pass」",
+          "pattern": [
+            {
+              "text": "how",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 助動詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。間接問句中陳述「事情如何發生」。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在完成式：have + 過去分詞",
+          "meaning": "表示事情已發生，與現在有關。",
+          "usage": "回顧至今發生的變化，而不只列出單一過去時間。",
+          "prompt": "小村莊如今有了圖書館，要強調「已經有改變」，哪句對？",
+          "options": [
+            "A big change have happened in our town.",
+            "A big change has happen in our town.",
+            "A big change has happening in our town.",
+            "A big change has happened in our town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。單數主詞 change 要用 has。",
+            "錯誤。has 後面必須接過去分詞 happened。",
+            "錯誤。has 後面不是直接接 happening。",
+            "正確。表示事情已發生，與現在有關。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「has come to pass」",
+          "pattern": [
+            {
+              "text": "has / have",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示事情已發生，與現在有關。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "片語動詞：come to pass",
+          "meaning": "表示「發生、成真」，偏文學或正式。",
+          "usage": "描述不尋常事件、故事或重大改變的發生。",
+          "prompt": "小鎮突然出現一座神祕雕像，哪句正確表達不知事情如何發生？",
+          "options": [
+            "Nobody knows how it came to pass.",
+            "Nobody knows how it came to pass the key.",
+            "Nobody knows how it came pass to the town.",
+            "Nobody knows how it came to walk the street."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示「發生、成真」，偏文學或正式。在這個情境中，句型與時態都自然。",
+            "錯誤。come to pass 是固定片語，不是「遞鑰匙」。",
+            "錯誤。固定詞序是 come to pass。",
+            "錯誤。come to walk 指走路，不是「發生」。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「come to pass」",
+          "pattern": [
+            {
+              "text": "come to pass",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。表示「發生、成真」，偏文學或正式。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "come to + 原形：逐漸發展到",
+          "meaning": "逐漸變成會做某件事，或最終到了某個階段。",
+          "usage": "強調經過一段時間，想法或行為有所轉變。",
+          "prompt": "長時間練習後，樂團逐漸喜歡早起練習，哪句合適？",
+          "options": [
+            "We have come enjoy early practice.",
+            "We have came to enjoy early practice.",
+            "We have come to enjoy early practice.",
+            "We have come to enjoying early practice."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。come 後接 to + 原形。",
+            "錯誤。現在完成式要用 come，不是 came。",
+            "正確。逐漸變成會做某件事，或最終到了某個階段。在這個情境中，句型與時態都自然。",
+            "錯誤。to 後用原形 enjoy，不用 enjoying。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「we've come to surround ourselves」",
+          "pattern": [
+            {
+              "text": "have / has come to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。逐漸變成會做某件事，或最終到了某個階段。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "反身代名詞：surround ourselves",
+          "meaning": "讓自己被某些人或事物包圍。",
+          "usage": "強調自己選擇身旁的環境與人。",
+          "prompt": "陶藝師想和友善的藝術家一起工作，哪句正確？",
+          "options": [
+            "We surround us with kind artists.",
+            "We surround ourselves with kind artists.",
+            "We surround ourselves by kind artists.",
+            "We surround ourself with kind artists."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。主詞和受詞是同一群人時要用 ourselves。",
+            "正確。讓自己被某些人或事物包圍。在這個情境中，句型與時態都自然。",
+            "錯誤。這裡的固定搭配是 surround oneself with。",
+            "錯誤。we 的反身代名詞是 ourselves。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「surround ourselves」",
+          "pattern": [
+            {
+              "text": "surround",
+              "fixed": true
+            },
+            {
+              "text": "反身代名詞 + with + 名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。讓自己被某些人或事物包圍。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "without + 名詞 / -ing",
+          "meaning": "表示缺少某事，或沒有做某事。",
+          "usage": "說明某種事物或行動不存在。",
+          "prompt": "有位畫家不看說明便開始畫畫，哪句自然？",
+          "options": [
+            "She started painting without to read the guide.",
+            "She started painting without read the guide.",
+            "She started painting without reads the guide.",
+            "She started painting without reading the guide."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。without 後不用 to-infinitive。",
+            "錯誤。介系詞 without 後的動詞用 -ing。",
+            "錯誤。without 後不能直接用第三人稱單數動詞。",
+            "正確。表示缺少某事，或沒有做某事。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「without learning」",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "名詞或 V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示缺少某事，或沒有做某事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "only + 名詞短語：限制焦點",
+          "meaning": "表示「只有」某些人或東西符合情況。",
+          "usage": "當要強調一群人之中只有特定的人能做某事時。",
+          "prompt": "劇院正在排練，只有演員可上舞台，哪句自然？",
+          "options": [
+            "Only the actors can go on the stage.",
+            "The actors only can on the stage.",
+            "Only the actors can going on the stage.",
+            "Only actors the go on the stage."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示「只有」某些人或東西符合情況。在這個情境中，句型與時態都自然。",
+            "錯誤。can 後缺少原形動詞 go。",
+            "錯誤。can 後要用 go，不用 going。",
+            "錯誤。only 後的主詞語序混亂。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「Only the fools believe」",
+          "pattern": [
+            {
+              "text": "only",
+              "fixed": true
+            },
+            {
+              "text": "名詞短語 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示「只有」某些人或東西符合情況。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "go + V-ing：活動",
+          "meaning": "表示去做某項活動。",
+          "usage": "用於 driving、swimming、shopping 等活動；原歌是 went driving。",
+          "prompt": "朋友昨天去划船，哪句符合此結構？",
+          "options": [
+            "We went boated on the lake yesterday.",
+            "We went boating on the lake yesterday.",
+            "We went boat on the lake yesterday.",
+            "We went to boating on the lake yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。boated 不是此片語所需的 V-ing。",
+            "正確。表示去做某項活動。在這個情境中，句型與時態都自然。",
+            "錯誤。go + 活動用 V-ing。",
+            "錯誤。這裡不加 to。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「I went driving last night」",
+          "pattern": [
+            {
+              "text": "go / went",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示去做某項活動。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "have + 受詞 + to oneself",
+          "meaning": "某個地方或東西可以獨自享用。",
+          "usage": "描述某人不必與別人共用地方、時間或物品。",
+          "prompt": "清晨泳池沒有其他人，哪句自然？",
+          "options": [
+            "I had the pool to me this morning.",
+            "I had myself to the pool this morning.",
+            "I had the pool to myself this morning.",
+            "I had the pool to himself this morning."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。這個搭配用反身代名詞 myself。",
+            "錯誤。物品須放在 to myself 前面。",
+            "正確。某個地方或東西可以獨自享用。在這個情境中，句型與時態都自然。",
+            "錯誤。I 對應 myself，不是 himself。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「Had the sky to myself」",
+          "pattern": [
+            {
+              "text": "have / had",
+              "fixed": true
+            },
+            {
+              "text": "事物 + to + 反身代名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。某個地方或東西可以獨自享用。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be not + 形容詞",
+          "meaning": "描述過去某時不是某種狀態。",
+          "usage": "談過去的感受或處境。",
+          "prompt": "夜間在天文台值班，有同事陪伴，哪句對？",
+          "options": [
+            "I was not alone at the observatory.",
+            "I were not alone at the observatory.",
+            "I did not alone at the observatory.",
+            "I was not aloning at the observatory."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。描述過去某時不是某種狀態。在這個情境中，句型與時態都自然。",
+            "錯誤。I 過去式搭配 was。",
+            "錯誤。alone 是形容詞，需要 be 動詞。",
+            "錯誤。alone 不是此處能加 -ing 的動詞。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「I wasn't alone」",
+          "pattern": [
+            {
+              "text": "was / were not",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。描述過去某時不是某種狀態。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "end up + like + 名詞／代名詞",
+          "meaning": "事情最後竟變成這樣。",
+          "usage": "詢問或感慨意想不到的最終結果。",
+          "prompt": "原本簡單的野餐竟變成大型派對，哪句最適合？",
+          "options": [
+            "How did our picnic end up like this?",
+            "How did our picnic ending up like this?",
+            "How did our picnic end up to this?",
+            "How our picnic did end up like this?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。事情最後竟變成這樣。在這個情境中，句型與時態都自然。",
+            "錯誤。did 後面用原形 end。",
+            "錯誤。歌詞的此用法是 end up like，不是 end up to。",
+            "錯誤。直接問句是 How did + 主詞 + 原形。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「end up like this」",
+          "pattern": [
+            {
+              "text": "end up like",
+              "fixed": true
+            },
+            {
+              "text": "名詞／代名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。事情最後竟變成這樣。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "when + 現在式：一般情況",
+          "meaning": "描述某事一發生時，常接續另一個情況。",
+          "usage": "談規律、一般情況或常發生的事。",
+          "prompt": "木工師傅講解木頭受潮的變化，哪句合理？",
+          "options": [
+            "When wood gets wet it can changes shape.",
+            "When wood gets wet, it can change shape.",
+            "When wood get wet, it can change shape.",
+            "When wood wet, it can change shape."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。can 後應用原形 change。",
+            "正確。描述某事一發生時，常接續另一個情況。在這個情境中，句型與時態都自然。",
+            "錯誤。wood 在此視為單數，動詞用 gets。",
+            "錯誤。when 子句缺少動詞 gets / is。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「When love breaks the promise」",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 現在式動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。描述某事一發生時，常接續另一個情況。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "have to + 原形",
+          "meaning": "表示必要或有責任做某事。",
+          "usage": "規定、責任或環境造成的需要。",
+          "prompt": "植物園員工必須每天給幼苗澆水，哪句對？",
+          "options": [
+            "The gardener have to water the new plants daily.",
+            "The gardener has water the new plants daily.",
+            "The gardener has to water the new plants daily.",
+            "The gardener has to watering the new plants daily."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。單數 gardener 用 has to。",
+            "錯誤。這裡說義務，要用 has to，不是 has + 原形。",
+            "正確。表示必要或有責任做某事。在這個情境中，句型與時態都自然。",
+            "錯誤。to 後接原形 water。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「The heart has to keep」",
+          "pattern": [
+            {
+              "text": "have / has to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示必要或有責任做某事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "名詞 + to-infinitive：待做的事",
+          "meaning": "表示某個需要發現或完成的事。",
+          "usage": "說明仍有待處理、探索或發現的東西。",
+          "prompt": "探險隊還有許多地方要探索，哪句自然？",
+          "options": [
+            "There are new places exploring to.",
+            "There are new places to explored.",
+            "There are new places to explore.",
+            "There are new places for explore."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。exploring to 的詞序不對。",
+            "錯誤。to 後用 explore，不用 explored。",
+            "正確。表示某個需要發現或完成的事。在這個情境中，句型與時態都自然。",
+            "錯誤。名詞後表待做的事用 to + 原形。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「truth here to find」",
+          "pattern": [
+            {
+              "text": "名詞 + to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示某個需要發現或完成的事。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "被動語態：be + 過去分詞",
+          "meaning": "主詞受到某個動作影響。",
+          "usage": "著重受影響的事物，不一定指出動作者。",
+          "prompt": "修復展覽裡的古畫，哪句正確表達畫作受損？",
+          "options": [
+            "The old painting damaged is.",
+            "The old painting has damaging.",
+            "The old painting is damage.",
+            "The old painting is damaged."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。be 動詞要在過去分詞之前。",
+            "錯誤。has damaging 不是合適的被動結構。",
+            "錯誤。被動用 is + 過去分詞 damaged。",
+            "正確。主詞受到某個動作影響。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「When the spirit is crushed」",
+          "pattern": [
+            {
+              "text": "am / is / are",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。主詞受到某個動作影響。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "so + 形容詞：程度",
+          "meaning": "強調程度非常高。",
+          "usage": "表達感受、尺寸、音量等特徵很強烈。",
+          "prompt": "攀登者發現山谷非常深，哪句對？",
+          "options": [
+            "The valley so is deep.",
+            "The valley is so deeply.",
+            "The valley is deep so much.",
+            "The valley is so deep."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。so 要放在形容詞前。",
+            "錯誤。be 後這裡需要形容詞 deep，不是副詞 deeply。",
+            "錯誤。so much 不能這樣直接放在 deep 後面。",
+            "正確。強調程度非常高。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「the hurt is so deep」",
+          "pattern": [
+            {
+              "text": "be + so",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。強調程度非常高。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "even when + 子句",
+          "meaning": "即使在某種情況發生時，主句仍成立。",
+          "usage": "強調不管某種情況如何，某個承諾或結果不變。",
+          "prompt": "天氣轉冷，花店仍然營業，哪句自然？",
+          "options": [
+            "Even when it cold, the flower shop stays open.",
+            "Even when it is cold, the flower shop stays open.",
+            "Even when is cold, the flower shop stays open.",
+            "Even when it is cold, the flower shop stay open."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。it 後缺少 is。",
+            "正確。即使在某種情況發生時，主句仍成立。在這個情境中，句型與時態都自然。",
+            "錯誤。when 後要有主詞 it。",
+            "錯誤。單數 shop 用 stays。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「Even when love has come and gone」",
+          "pattern": [
+            {
+              "text": "even when",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。即使在某種情況發生時，主句仍成立。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "move along：逐漸向前生活",
+          "meaning": "向前走、逐漸走出過往。",
+          "usage": "描寫人生或情緒逐步前進；注意歌詞本身同時使用現在完成式。",
+          "prompt": "兩位老朋友過去爭吵，如今都已放下，哪句符合？",
+          "options": [
+            "After the show, the crowd moved along to the next room.",
+            "After the show, the crowd moved along to singing.",
+            "After the show, the crowd moved along the next room.",
+            "After the show, the crowd moved along to happy."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。向前走、逐漸走出過往。在這個情境中，句型與時態都自然。",
+            "錯誤。這裡指走向下一個房間，不是接 to singing。",
+            "錯誤。前往下一個房間需要 to the next room。",
+            "錯誤。happy 是形容詞，不能充當移動目的地。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「our hearts have moved along」",
+          "pattern": [
+            {
+              "text": "move along（歌中使用 have moved along）",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。向前走、逐漸走出過往。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "will + 原形：將來承諾",
+          "meaning": "表達未來的決定、承諾或預測。",
+          "usage": "向某人保證未來會記得或做某事。",
+          "prompt": "一位舞者向教練承諾會記得建議，哪句對？",
+          "options": [
+            "I will remembering your advice.",
+            "I will remembered your advice.",
+            "I will remembers your advice.",
+            "I will remember your advice."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。will 後不用 -ing。",
+            "錯誤。will 後面用原形 remember。",
+            "錯誤。will 後不加第三人稱 -s。",
+            "正確。表達未來的決定、承諾或預測。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「I will remember you」",
+          "pattern": [
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表達未來的決定、承諾或預測。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "there was + 名詞：過去存在",
+          "meaning": "表示過去曾存在某個人、時段或事物。",
+          "usage": "回憶昔日存在、如今可能不同的事物。",
+          "prompt": "老戲院以前有個小舞台，哪句自然？",
+          "options": [
+            "There were a small stage in the old cinema.",
+            "There was a small stage in the old cinema.",
+            "There was small stage in the old cinema.",
+            "There was a small stage at yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。單數 a stage 搭配 was。",
+            "正確。表示過去曾存在某個人、時段或事物。在這個情境中，句型與時態都自然。",
+            "錯誤。可數單數名詞 stage 前要有 a。",
+            "錯誤。yesterday 前通常不用 at；此處句意也不自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「There was a time」",
+          "pattern": [
+            {
+              "text": "there was",
+              "fixed": true
+            },
+            {
+              "text": "單數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。表示過去曾存在某個人、時段或事物。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "省略關係代名詞的名詞修飾",
+          "meaning": "用後方子句補充說明是哪段時間。",
+          "usage": "口語、歌詞中可省略關係連接詞；要留意其實際功能。",
+          "prompt": "敘述曾經每週一起畫畫的一段日子，哪句自然？",
+          "options": [
+            "There was a time painted we together every week.",
+            "There was a time we paint together yesterday.",
+            "There was a time we painted together every week.",
+            "There was a time we painting together every week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。關係子句維持主詞 we + 動詞的語序。",
+            "錯誤。過去的持續習慣通常用 painted；yesterday 亦不合每週習慣。",
+            "正確。用後方子句補充說明是哪段時間。在這個情境中，句型與時態都自然。",
+            "錯誤。we 後缺少完整動詞 were painting 或 painted。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「a time we had the trust」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "[省略 that / when 的關係結構]",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。用後方子句補充說明是哪段時間。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "as + 子句：同時",
+          "meaning": "當……的時候；兩件事同時發生。",
+          "usage": "描述兩個動作幾乎同時發生。",
+          "prompt": "畫廊準備開門時，燈也亮了，哪句自然？",
+          "options": [
+            "As the doors opened, the lights coming on.",
+            "As the doors opened, the lights came on.",
+            "As opened the doors, the lights came on.",
+            "As the doors opening, the lights came on."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。主句需要限定動詞 came，不是單獨 coming。",
+            "正確。當……的時候；兩件事同時發生。在這個情境中，句型與時態都自然。",
+            "錯誤。as 後的子句語序是主詞 + 動詞。",
+            "錯誤。as 子句需要完整謂語 opened。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「As I open my eyes」",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。當……的時候；兩件事同時發生。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "現在進行式：be + V-ing",
+          "meaning": "說明動作正在發生。",
+          "usage": "描述眼前正在進行的動作。",
+          "prompt": "舞台上的機器人正向前拉小車，哪句對？",
+          "options": [
+            "The robot is pull the cart forward.",
+            "The robot is pulling the cart forward.",
+            "The robot are pulling the cart forward.",
+            "The robot pulling the cart forward."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。is 後需用 pulling。",
+            "正確。說明動作正在發生。在這個情境中，句型與時態都自然。",
+            "錯誤。單數 robot 要用 is。",
+            "錯誤。進行式需要 be 動詞 is。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「it's pulling me forward」",
+          "pattern": [
+            {
+              "text": "am / is / are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確。說明動作正在發生。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "動詞 + 受詞 + 形容詞結果",
+          "meaning": "使某人擺脫束縛；形容詞表示動作造成的狀態。",
+          "usage": "描寫將人從束縛中拉開，歌中是強烈的比喻。",
+          "prompt": "風箏線被樹枝卡住，風終於把它扯開，哪句符合歌中的結果結構？",
+          "options": [
+            "The strong wind tore free the kite.",
+            "The strong wind tear the kite free yesterday.",
+            "The strong wind tore the kite freely.",
+            "The strong wind tore the kite free."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。本結構中受詞 kite 在 free 前面。",
+            "錯誤。yesterday 指過去，應使用 tore。",
+            "錯誤。freely 是副詞，不能表達「扯脫束縛」的結果狀態。",
+            "正確。使某人擺脫束縛；形容詞表示動作造成的狀態。在這個情境中，句型與時態都自然。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「It tears me free」",
+          "pattern": [
+            {
+              "text": "tear",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "free",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。使某人擺脫束縛；形容詞表示動作造成的狀態。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "only thing left：過去分詞後置",
+          "meaning": "表示唯一剩下的事物。",
+          "usage": "從幾件物品中強調所剩的一件。",
+          "prompt": "展覽結束後只剩一張海報，哪句自然？",
+          "options": [
+            "The only poster left is on the wall.",
+            "The only poster leaving is on the wall.",
+            "The only poster leave is on the wall.",
+            "The only left poster is on the wall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。表示唯一剩下的事物。在這個情境中，句型與時態都自然。",
+            "錯誤。leaving 指正在離開，不是「剩下」。",
+            "錯誤。表剩餘狀態要用 left，不是 leave。",
+            "錯誤。這裡歌中的結構是名詞 + left 的後置修飾。"
+          ],
+          "sourceFile": "I_Will_Remember_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「the only thing left」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "left（後置過去分詞）",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確。表示唯一剩下的事物。在這個情境中，句型與時態都自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        }
+      ]
+    }
+  }
+}

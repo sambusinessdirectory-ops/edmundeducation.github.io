@@ -1,0 +1,166 @@
+{
+  "id": "proverb-09",
+  "order": 9,
+  "slug": "after-the-feast-comes-the-reckoning",
+  "version": "1",
+  "title": "享樂之後，還得算帳",
+  "titleEn": "After the Feast Comes the Reckoning",
+  "titleZh": "享樂之後，還得算帳",
+  "image": "assets/proverb-system/after-the-feast-comes-the-reckoning.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for After the Feast Comes the Reckoning.",
+  "imageAltZh": "「享樂之後，還得算帳」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "A period of pleasure or indulgence may be followed by a cost or consequence.",
+    "zh": "享樂或放縱過後，仍可能要面對開支、責任或其他後果。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "after the feast comes the reckoning",
+      "highlight": "after the feast comes the reckoning"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "The party was wonderful, but the next day the group faced the overspent budget—after the feast comes the reckoning.",
+      "zh": "派對辦得盡興，第二天大家才整理超支的帳目。",
+      "highlight": "after the feast comes the reckoning"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “after the feast comes the reckoning” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「after the feast comes the reckoning」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-09-q01",
+      "number": 1,
+      "prompt": "The class spent its whole budget on a party, then had to collect money for next week’s exhibition bus.",
+      "promptZh": "班會把全部經費花在派對，下一週的展覽車費要大家補交。",
+      "starter": "The",
+      "answer": "The party was fun, but the class later had to cover the bus fare—after the feast comes the reckoning.",
+      "answerZh": "班會把全部經費花在派對，下一週的展覽車費要大家補交。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q02",
+      "number": 2,
+      "prompt": "Jun bought an expensive concert ticket and lacked money for his bicycle repair at month’s end.",
+      "promptZh": "阿俊買了昂貴演唱會票，月底才發現無錢維修單車。",
+      "starter": "The",
+      "answer": "The concert expense was followed by a budget shortfall—after the feast comes the reckoning.",
+      "answerZh": "阿俊買了昂貴演唱會票，月底才發現無錢維修單車。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q03",
+      "number": 3,
+      "prompt": "The team spent its travel fund on a luxury hotel and had to buy its own tickets home.",
+      "promptZh": "球隊把旅費用於豪華住宿，回程時只能自己付車票。",
+      "starter": "The",
+      "answer": "The hotel upgrade left the team to pay its return fare—after the feast comes the reckoning.",
+      "answerZh": "球隊把旅費用於豪華住宿，回程時只能自己付車票。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q04",
+      "number": 4,
+      "prompt": "A club spent the weekend on outings and found on Monday that the performance props were not ready.",
+      "promptZh": "社團把週末都用來遊玩，星期一才發現未準備演出道具。",
+      "starter": "The",
+      "answer": "The weekend fun left the club facing unfinished work—after the feast comes the reckoning.",
+      "answerZh": "社團把週末都用來遊玩，星期一才發現未準備演出道具。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q05",
+      "number": 5,
+      "prompt": "Shan bought many new clothes for a celebration and cut other spending when the card bill arrived.",
+      "promptZh": "阿珊為慶祝買了很多新衣，信用卡帳單到來才開始削減其他開支。",
+      "starter": "The",
+      "answer": "The celebration purchases were followed by a bill she had to manage—after the feast comes the reckoning.",
+      "answerZh": "阿珊為慶祝買了很多新衣，信用卡帳單到來才開始削減其他開支。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q06",
+      "number": 6,
+      "prompt": "Friends enjoyed an expensive meal, then realised at checkout that no one had counted the service charge.",
+      "promptZh": "朋友們先吃了一頓昂貴晚餐，結帳時才發現沒人計算服務費。",
+      "starter": "The",
+      "answer": "The enjoyable meal ended with a larger bill than expected—after the feast comes the reckoning.",
+      "answerZh": "朋友們先吃了一頓昂貴晚餐，結帳時才發現沒人計算服務費。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q07",
+      "number": 7,
+      "prompt": "May spent the holiday watching films and rushed her reading report just before school resumed.",
+      "promptZh": "阿美把所有假期用來看電影，開學前才匆忙補做閱讀報告。",
+      "starter": "Her",
+      "answer": "Her carefree holiday was followed by the work she had postponed—after the feast comes the reckoning.",
+      "answerZh": "阿美把所有假期用來看電影，開學前才匆忙補做閱讀報告。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q08",
+      "number": 8,
+      "prompt": "A family enjoyed their upgraded hotel rooms and split the extra cost after returning home.",
+      "promptZh": "家人很享受旅行時升級的房間，回家後才要分攤超出的費用。",
+      "starter": "The",
+      "answer": "The upgrade was pleasant, but the extra charge came later—after the feast comes the reckoning.",
+      "answerZh": "家人很享受旅行時升級的房間，回家後才要分攤超出的費用。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q09",
+      "number": 9,
+      "prompt": "A group enjoyed spending the day decorating a stall and discovered at opening that no change was ready.",
+      "promptZh": "小組樂於花整天裝飾攤位，開幕時才發現找零錢未準備。",
+      "starter": "The",
+      "answer": "The decorating was enjoyable, but the practical task still awaited them—after the feast comes the reckoning.",
+      "answerZh": "小組樂於花整天裝飾攤位，開幕時才發現找零錢未準備。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q10",
+      "number": 10,
+      "prompt": "Ling stayed up late gaming each holiday night and struggled to wake early on the first school day.",
+      "promptZh": "阿玲在假期每天玩遊戲至深夜，復課第一天才感到難以早起。",
+      "starter": "The",
+      "answer": "The late-night gaming was followed by a difficult early start—after the feast comes the reckoning.",
+      "answerZh": "阿玲在假期每天玩遊戲至深夜，復課第一天才感到難以早起。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q11",
+      "number": 11,
+      "prompt": "A drama group rented elaborate costumes and later found too little money remained for props.",
+      "promptZh": "戲劇組先租了華麗服裝，結算時發現道具預算不足。",
+      "starter": "The",
+      "answer": "The costume splurge left a shortfall for props—after the feast comes the reckoning.",
+      "answerZh": "戲劇組先租了華麗服裝，結算時發現道具預算不足。",
+      "highlight": "after the feast comes the reckoning"
+    },
+    {
+      "id": "proverb-09-q12",
+      "number": 12,
+      "prompt": "Long spent Saturday gaming and rushed homework on Sunday before Monday’s deadline.",
+      "promptZh": "阿朗把整個星期六用來打機，星期日才要趕做星期一交的功課。",
+      "starter": "The",
+      "answer": "The carefree Saturday left Sunday’s homework pressure—after the feast comes the reckoning.",
+      "answerZh": "阿朗把整個星期六用來打機，星期日才要趕做星期一交的功課。",
+      "highlight": "after the feast comes the reckoning"
+    }
+  ]
+}

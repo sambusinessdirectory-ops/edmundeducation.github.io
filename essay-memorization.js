@@ -1,14 +1,27 @@
 (() => {
   'use strict';
-  const essay = window.ESSAY_80_MEMORY_DATA;
+  const requestedKey = new URLSearchParams(location.search).get('essay');
+  const selectedLesson = window.ESSAY_MEMORY_LESSONS?.[requestedKey];
+  const isPilot = !selectedLesson;
+  const essay = selectedLesson || window.ESSAY_80_MEMORY_DATA;
   if (!essay?.sentences?.length) return;
+  const essayLabel = essay.title.replace(' - IELTS - ', ' · ');
+  const writingUrl = `writing-practice.html?exercise=${encodeURIComponent(essay.id)}`;
 
   const $ = selector => document.querySelector(selector);
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
   const sentences = essay.sentences;
-  const support = window.ESSAY_80_LEARNING_SUPPORT;
+  const support = isPilot ? window.ESSAY_80_LEARNING_SUPPORT : essay.support;
   if (!support || support.sentences.length !== sentences.length) return;
   const byParagraph = paragraph => sentences.map((sentence, index) => ({ ...sentence, globalIndex: index })).filter(sentence => sentence.paragraph === paragraph);
+  const groupedSentences = {
+    'opinion:3': [[2,3],[4,5],[7,8],[16,17,18]],
+    'discuss-both-views:4': [[1,2]],
+  };
+  const requestedGroups = groupedSentences[requestedKey] || [];
+  const groupedStarts = new Map(requestedGroups.map(group => [group[0], group]));
+  const groupedMembers = new Set(requestedGroups.flat());
+  const vocabularyGroups = sentences.flatMap((_, index) => groupedStarts.has(index) ? [groupedStarts.get(index)] : groupedMembers.has(index) ? [] : [[index]]);
   const stageDefinitions = [
     {
       icon: '◎', title: '鎖定立場', en: 'THE COMPASS', description: '先記住作者站在哪一邊，以及全文的兩條主線。', rounds: [
@@ -55,21 +68,22 @@
       ],
     },
     {
-      icon: '▤', title: '還原句序', en: 'SENTENCE MAP', description: '逐句用短小的意思卡串起每一段。', rounds: sentences.map((sentence, sentenceIndex) => ({
-        type: 'sequence', sentenceIndex, prompt: `${['開場：背景如何帶出立場？','第一主體段','第二主體段','總結'][sentence.paragraph]} · 第 ${sentenceIndex+1} 句`,
-        detail: '逐一點選短小的意思卡，接成這一句。', items: support.sentences[sentenceIndex].chunks.map(title=>({title})), why: '已接回完整原句。'
+      icon: '▤', title: '還原句序', en: 'SENTENCE MAP', description: '先看每句意思，再按範文順序排好整段的句子。英文全部用小寫，請靠內容判斷。', rounds: [0,1,2,3].map(paragraph => ({
+        type: 'sequence', sentenceMap: true, paragraph, prompt: `${['開場','第一主體段','第二主體段','總結'][paragraph]} · 排好整段句序`,
+        detail: '按意思排列整句；這一步練段落次序，下一關才拼回每句的原文字詞。',
+        items: byParagraph(paragraph).map(sentence => ({title:sentence.english.toLowerCase(),body:sentence.chinese})), why: '已接回整段句序。'
       })),
     },
     {
-      icon: 'Aa', title: '簡單字詞', en: 'SIMPLE WORDS', description: '每句先看字詞在這個語境中的簡單說法，再用自己的話說一次。',
-      rounds: sentences.flatMap((sentence, sentenceIndex) => [false,true].map(reverse=>({ type: 'vocabulary', sentenceIndex, reverse, prompt: `第 ${sentenceIndex + 1} 句 · ${reverse?'從簡單說法拼回原文':'用簡單字詞重建整句'}` }))),
+      icon: 'Aa', title: '簡單字詞', en: 'SIMPLE WORDS', description: '先用白話讀懂原句；較短的句子與下一句合併，再從簡單說法還原原文。',
+      rounds: vocabularyGroups.flatMap(sentenceIndices => [false,true].map(reverse=>({ type: 'vocabulary', sentenceIndex: sentenceIndices[0], sentenceIndices, reverse, prompt: `第 ${sentenceIndices[0] + 1}${sentenceIndices.length>1?'–'+(sentenceIndices.at(-1)+1):''} 句 · ${reverse?'從簡單說法拼回原文':'用簡單字詞重建整句'}` }))),
     },
     {
-      icon: '▤', title: '拆解與運用句型', en: 'SENTENCE STRUCTURES', description: '看懂每一部分的意思和作用，再用另一個生活情境練習。每題四選一。',
+      icon: '▤', title: '拆解與運用句型', en: 'SENTENCE STRUCTURES', description: '逐句查看原文、中文和實際句型；辨認每句的語意連接方式。',
       rounds: support.structures.map(frame => ({ ...frame, type: 'structure', prompt: frame.context, why: frame.explanations[0] })),
     },
     {
-      icon: '✦', title: '原文重組', en: 'EXACT WORDING', description: '按意思小節逐句拼回原文。',
+      icon: '✦', title: '原文重組', en: 'EXACT WORDING', description: '依照上一關的整段句序，逐句把英文小節拼回精確原文。',
       rounds: sentences.map((sentence, sentenceIndex) => ({ type: 'precision', sentenceIndex, prompt: `第 ${sentenceIndex + 1} / ${sentences.length} 句 · ${sentence.role}`,  why: '已還原此句。' })),
     },
     {
@@ -81,12 +95,24 @@
     {icon:'↗',title:'跨主題論證應用',en:'TRANSFER THE LOGIC',description:'把兩段的主張、限制、做法、例子及結論運用到其他主題。',rounds:support.transfer.map(item=>({...item,type:'quiz'}))},
   ];
 
+  if (!isPilot) {
+    stageDefinitions[0].rounds = support.intro;
+    if (requestedKey === 'cause-solution:2') stageDefinitions[0].title = '鎖定文章路線';
+    stageDefinitions[1].rounds = support.route;
+    stageDefinitions[2].rounds = support.evidence;
+    stageDefinitions[3].rounds = support.logic;
+    stageDefinitions[0].description = '先記住作者的立場或文章路線，以及全文兩條主線。';
+    stageDefinitions[2].description = '辨認這篇範文兩段主體的支持細節與例子。';
+    stageDefinitions[3].description = '把本篇的理由、細節、例子與結論接成兩條論證鏈。';
+    if (requestedKey === 'cause-solution:2') stageDefinitions[4].rounds.forEach(item => { if (item.prompt.startsWith('開場：')) item.prompt = item.prompt.replace('背景如何帶出立場？', '背景如何帶出問題與方案？'); });
+  }
+
   // Old indices remain the migration reference for existing local and downloaded progress.
   const stageOrder = [0,1,2,3,10,5,6,8,9,4,7];
   const oldStages = [...stageDefinitions];
   stageDefinitions.splice(0, stageDefinitions.length, ...stageOrder.map(index => oldStages[index]));
   function migrateStageOrder(value) {
-    if (!value || value.stageOrder === '20261028') return value;
+    if (!isPilot || !value || value.stageOrder === '20261028') return value;
     const solved = {};
     for (const [key, result] of Object.entries(value.solved || {})) {
       const [stage, step] = key.split(':').map(Number);
@@ -106,12 +132,30 @@
     return rounds;
   }
 
+  function migrateVocabularyProgress(value) {
+    if (isPilot || !value || value.vocabularyFormat === 'paired-v1') return value;
+    const oldSolved = value.solved || {};
+    const solved = {...oldSolved};
+    for (const key of Object.keys(solved)) if (/^5:\d+$/.test(key)) delete solved[key];
+    vocabularyGroups.forEach((indices, groupIndex) => {
+      for (const direction of [0,1]) {
+        const scores = indices.map(index => oldSolved[`5:${index*2+direction}`]);
+        if (scores.every(score => score === 1 || score === 2)) solved[`5:${groupIndex*2+direction}`] = Math.min(...scores);
+      }
+    });
+    const sentenceIndex = Math.floor((value.round || 0)/2);
+    const groupIndex = vocabularyGroups.findIndex(indices => indices.includes(sentenceIndex));
+    return {...value, solved, round:value.stage===5 ? Math.max(0,groupIndex)*2 + ((value.round || 0)%2) : value.round, selection:value.stage===5?[]:value.selection, vocabularyFormat:'paired-v1'};
+  }
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
-  const storageKey = 'edmund-essay80-memory-active-v4';
-  const saved = migrateStageOrder((() => {
+  const storageKey = isPilot ? 'edmund-essay80-memory-active-v4' : `edmund-essay-memory-${essay.id}-v1`;
+  const backupFormat = isPilot ? 'edmund-essay80-progress' : 'edmund-essay-memory-progress';
+  const backupVersion = isPilot ? 4 : 1;
+  const saved = migrateVocabularyProgress(migrateStageOrder((() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
+      if (!isPilot) return {};
       const previous=JSON.parse(localStorage.getItem('edmund-essay80-memory-active-v3') || 'null');
       if(previous){
         const solved={};
@@ -129,7 +173,7 @@
       Object.entries(old.solved||{}).forEach(([key,value])=>{const [stage,step]=key.split(':').map(Number);if([0,1,2,3,8].includes(stage))solved[`${stage===8?7:stage}:${step}`]=value;});
       return {stage:0,round:0,solved};
     } catch { return {}; }
-  })());
+  })()));
   const state = {
     stage: Number.isInteger(saved.stage) && saved.stage >= 0 && saved.stage < stageDefinitions.length ? saved.stage : 0,
     round: Number.isInteger(saved.round) ? saved.round : 0,
@@ -137,15 +181,39 @@
     solved: saved.solved && typeof saved.solved === 'object' ? saved.solved : {},
     selection: Array.isArray(saved.selection)?saved.selection:[], hadMistake: !!saved.hadMistake, revealTranslation: false, transitioning: false, checks: [], completed: !!saved.completed,
   };
+  if (saved.mapFormat !== 'paragraph-v1') {
+    for (const key of Object.keys(state.solved)) if (/^9:\d+$/.test(key)) delete state.solved[key];
+    if (state.stage === 9) state.round = 0;
+  }
   state.round = Math.min(Math.max(state.round, 0), stageDefinitions[state.stage].rounds.length - 1);
   state.selection = validatedSelection(state.stage,state.round,state.selection);
 
 
+  if (!isPilot) {
+    document.title = `範文背書系統 · ${essay.title} | Edmund Education`;
+    document.querySelector('meta[name=description]').content = `範文背書系統：逐步理解和記住 ${essay.title}。`;
+    const originalLinks = document.querySelectorAll('.memory-header .utility-button:first-child, .setup-card > a');
+    originalLinks.forEach(link => { link.href = writingUrl; });
+    document.querySelector('.hero-copy .eyebrow').innerHTML = `<span class="sparkle">✦</span> ${escapeHtml(essay.title.toUpperCase())}`;
+    document.querySelector('.setup-card strong').textContent = essayLabel + ' · ' + essay.meta.topic;
+    document.querySelector('.setup-card p').textContent = `題目：${essay.question.join(' ')} ${essay.meta.summary}${requestedKey === 'discuss-both-views:4' ? ' 此範文雖列於 Discuss Both Views 分類，正文主要論證反對家族經營是最佳模式。' : ''}`;
+    document.querySelector('.pilot-note').textContent = `${essayLabel} · 選擇題及重組由系統核對；朗讀錄音只儲存在此瀏覽器的範文背書收藏，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。`;
+  }
+  document.querySelectorAll('[data-memory-essay]').forEach(link => { if (link.dataset.memoryEssay === (isPilot ? 'opinion:80' : requestedKey)) link.setAttribute('aria-current', 'page'); });
   const audio = new Audio(essay.audio);
   audio.preload = 'metadata';
+  const speedSelect = $('#playback-speed');
+  speedSelect.value = localStorage.getItem('edmund-memory-playback-speed') || '1';
+  audio.playbackRate = Number(speedSelect.value);
+  speedSelect.addEventListener('change', () => { audio.playbackRate = Number(speedSelect.value); localStorage.setItem('edmund-memory-playback-speed', speedSelect.value); });
+  const fontSizes = [{label:'標準',scale:1},{label:'大',scale:1.15},{label:'特大',scale:1.3}];
+  let fontIndex = Math.max(0, fontSizes.findIndex(option => option.scale === Number(localStorage.getItem('edmund-memory-font-scale') || '1')));
+  function applyFontSize() { document.documentElement.style.setProperty('--reader-scale', fontSizes[fontIndex].scale); $('#font-size-button').textContent = '字體大小：' + fontSizes[fontIndex].label + (fontIndex===fontSizes.length-1?'（按此還原）':'（按此放大）'); }
+  $('#font-size-button').addEventListener('click', () => {fontIndex=(fontIndex+1)%fontSizes.length;localStorage.setItem('edmund-memory-font-scale',String(fontSizes[fontIndex].scale));applyFontSize();});
+  applyFontSize();
   let segmentEnd = null;
   let audioButton = null;
-  function progressSnapshot() { return {stageOrder:"20261028",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,savedAt:new Date().toISOString()}; }
+  function progressSnapshot() { return {stageOrder:"20261028",mapFormat:"paragraph-v1",vocabularyFormat:"paired-v1",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,hintRetry:Object.fromEntries([...freshRecordingRequired].map(key=>[key,true])),savedAt:new Date().toISOString()}; }
   function save() {
     try { localStorage.setItem(storageKey,JSON.stringify(progressSnapshot()));$('#save-status').textContent='已儲存在此瀏覽器 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});return true; }
     catch {$('#save-status').textContent='瀏覽器未能儲存，請下載備份以保留進度。';return false;}
@@ -157,10 +225,10 @@
     return selection.length<count && selection.every((n,i)=>n===i)?selection:[];
   }
   function validateProgress(data) {
-    if(data?.format!=='edmund-essay80-progress' || data.version!==4 || !data.progress || typeof data.progress!=='object')throw Error('這不是本版本的 Essay 80 進度檔。');
-    const p=migrateStageOrder(data.progress);if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
-    const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
-    return {stage:p.stage,round:p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,completed:false};
+    if(data?.format!==backupFormat || data.version!==backupVersion || (data.essayId!==essay.id && !(isPilot && data.essayId == null)) || !data.progress || typeof data.progress!=='object')throw Error(`這不是本版本的 ${essayLabel} 進度檔。`);
+    const p=migrateVocabularyProgress(migrateStageOrder(data.progress));if(p.mapFormat!=='paragraph-v1' && p.stage===9)p.round=0;if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
+    const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(p.mapFormat!=='paragraph-v1' && stage===9)continue;if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
+    return {stage:p.stage,round:p.mapFormat!=='paragraph-v1' && p.stage===9 ? 0 : p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,hintRetry:p.hintRetry&&typeof p.hintRetry==='object'?p.hintRetry:{},completed:false};
   }
 
   const roundKey = () => `${state.stage}:${state.round}`;
@@ -248,59 +316,116 @@
   }
   function renderSequence(item, precision = false) {
     const items = precision ? phraseTiles(sentences[item.sentenceIndex].english).map(title => ({ title })) : item.items;
-    const indices = orderedSeed(items.length, state.stage * 101 + state.round * 19);
+    const indices = orderedSeed(items.length, state.stage * 101 + state.round * 19).filter(index => !item.sentenceMap || !state.selection.includes(index));
     const sentence = item.sentenceIndex == null ? null : sentences[item.sentenceIndex];
     const paragraph = Number.isInteger(item.paragraph) ? byParagraph(item.paragraph) : null;
     const extra = sentence ? `<div class="memory-tools"><span class="role-badge">${escapeHtml(sentence.role)}</span><button class="mini-button" type="button" data-play-sentence="${item.sentenceIndex}">♫ 聽這一句</button><button class="mini-button" type="button" data-translation>繁體中文提示</button></div>${state.revealTranslation ? `<p class="translation-line">${escapeHtml(sentence.chinese)}</p>` : ''}` : paragraph ? `<div class="memory-tools"><span class="role-badge">${['開場', '第一主體段', '第二主體段', '總結'][item.paragraph]}</span><button class="mini-button" type="button" data-translation>${state.revealTranslation ? '隱藏' : '顯示'}繁體中文</button></div>${state.revealTranslation ? `<div class="translation-list">${paragraph.map((line, index) => `<p><b>${index + 1}.</b> ${escapeHtml(line.chinese)}</p>`).join('')}</div>` : ''}` : '';
-    return `<div class="question-intro"><span class="question-mark">${precision ? '✦' : '↝'}</span><div><p class="question-label">${precision ? 'REBUILD THE EXACT SENTENCE' : 'TAP IN THE CORRECT ORDER'}</p><h3>${escapeHtml(item.prompt)}</h3>${precision?'':`<p>${escapeHtml(item.detail || '逐一點選正確次序。')}</p>`}</div></div>${extra}<div class="sequence-track" aria-label="已選次序">${items.map((_, index) => `<div class="sequence-slot ${state.selection[index] == null ? '' : 'filled'}"><small>${String(index + 1).padStart(2, '0')}</small><span>${state.selection[index] == null ? '下一步' : escapeHtml(items[state.selection[index]].body || items[state.selection[index]].title)}</span></div>`).join('')}</div><div class="option-heading"><span>${precision ? '片語卡' : '待排序卡'}</span><span>${state.selection.length} / ${items.length}</span></div><div class="sequence-options ${precision ? 'phrase-options' : ''}">${indices.map(index => `<button class="sequence-card ${state.selection.includes(index) ? 'used' : ''}" type="button" data-sequence="${index}" ${state.selection.includes(index) ? 'disabled' : ''}><span class="option-glyph" aria-hidden="true">${precision ? '✧' : '◆'}</span><span><strong>${escapeHtml(items[index].body || items[index].title)}</strong>${items[index].body ? `<small>${escapeHtml(items[index].title)}</small>` : ''}</span></button>`).join('')}</div><div class="action-bar"><span>按原有邏輯依次點選</span><button class="text-button" type="button" data-undo ${state.selection.length ? '' : 'disabled'}>撤銷上一步 ↶</button></div>`;
+    return `<div class="question-intro"><span class="question-mark">${precision ? '✦' : '↝'}</span><div><p class="question-label">${precision ? 'REBUILD THE EXACT SENTENCE' : 'TAP IN THE CORRECT ORDER'}</p><h3>${escapeHtml(item.prompt)}</h3>${precision?'':`<p>${escapeHtml(item.detail || '逐一點選正確次序。')}</p>`}</div></div>${extra}<div class="sequence-track" aria-label="已選次序">${items.map((_, index) => `<div class="sequence-slot ${state.selection[index] == null ? '' : 'filled'}"><small>${String(index + 1).padStart(2, '0')}</small><span>${state.selection[index] == null ? '下一步' : escapeHtml(item.sentenceMap?items[state.selection[index]].title:items[state.selection[index]].body || items[state.selection[index]].title)}</span></div>`).join('')}</div><div class="option-heading"><span>${precision ? '片語卡' : '待排序卡'}</span><span>${state.selection.length} / ${items.length}</span></div><div class="sequence-options ${precision ? 'phrase-options' : ''}">${indices.map(index => `<button class="sequence-card ${state.selection.includes(index) ? 'used' : ''}" type="button" data-sequence="${index}" ${state.selection.includes(index) ? 'disabled' : ''}><span class="option-glyph" aria-hidden="true">${precision ? '✧' : '◆'}</span><span><strong>${escapeHtml(item.sentenceMap?items[index].title:items[index].body || items[index].title)}</strong>${items[index].body ? `<small>${escapeHtml(item.sentenceMap?items[index].body:items[index].title)}</small>` : ''}</span></button>`).join('')}</div><div class="action-bar"><span>${item.sentenceMap?'按段落原有句序依次點選':'按原有邏輯依次點選'}</span><button class="text-button" type="button" data-undo ${state.selection.length ? '' : 'disabled'}>撤銷上一步 ↶</button></div>`;
   }
   function lineHtml(text) { return String(text).split('\n').map(line => `<p>${escapeHtml(line)}</p>`).join(''); }
   function wordTable(content) {
+    if (!content.synonyms.length) return `<p class="support-notes">這句很短，毋須硬加字詞替代；直接按原意重組。</p>`;
     return `<div class="table-scroll"><table class="support-table"><thead><tr><th>原文字詞</th><th>簡單說法</th><th>意思</th></tr></thead><tbody>${content.synonyms.map(p=>`<tr><td>${escapeHtml(p.original)}</td><td>${escapeHtml(p.simple)}</td><td>${escapeHtml(p.meaning)}</td></tr>`).join('')}</tbody></table></div>`;
   }
   function buildParts(item) {
     const ids=item.sentenceIndices || [item.sentenceIndex];
     return ids.flatMap(i=>(item.reverse?support.sentences[i].chunks:support.sentences[i].simpleChunks).map(text=>({text,sentenceIndex:i})));
   }
+  function highlightedOriginal(index) {
+    const sentenceText = sentences[index].english;
+    const terms = support.sentences[index].synonyms.map(item => item.original).sort((a,b)=>b.length-a.length);
+    if (!terms.length) return escapeHtml(sentenceText);
+    const specials = '.+*?^$()[]{}|\\';
+    const escapePattern = value => [...value].map(char => specials.includes(char) ? '\\' + char : char).join('');
+    const pattern = new RegExp('(?<![\\p{L}])(?:' + terms.map(escapePattern).join('|') + ')(?![\\p{L}])','giu');
+    let result='', cursor=0;
+    for (const match of sentenceText.matchAll(pattern)) {
+      result += escapeHtml(sentenceText.slice(cursor,match.index));
+      result += `<mark class="vocabulary-highlight">${escapeHtml(match[0])}</mark>`;
+      cursor = match.index + match[0].length;
+    }
+    return result + escapeHtml(sentenceText.slice(cursor));
+  }
   function renderVocabulary(item) { return renderBuild(item); }
   function renderBuild(item) {
-    if(item.reverse && !state.solved[`5:${state.round-1}`]) return `<h3>${escapeHtml(item.prompt)}</h3><p>先完成這一句的簡單英文重組，再拼回原文。</p><button class="primary-button" data-build-prerequisite>前往簡單英文重組 →</button>`;
-    const parts=buildParts(item), position=state.selection.length, current=parts[Math.min(position,parts.length-1)].sentenceIndex;
-    const content=support.sentences[current];
-    const bank=parts.filter(p=>p.sentenceIndex===current).map(p=>p.text);
-    const pool=[...new Set(parts.map(p=>p.text).filter(t=>t!==parts[position]?.text))];
-    const distractors=orderedSeed(pool.length,`distractors-${position}`).slice(0,3).map(i=>pool[i]);
-    const choices=[parts[position]?.text,...distractors].filter(Boolean);
+    if(item.reverse && !state.solved[`5:${state.round-1}`]) return `<h3>${escapeHtml(item.prompt)}</h3><p>先完成這組句子的簡單英文重組，再拼回原文。</p><button class="primary-button" data-build-prerequisite>前往簡單英文重組 →</button>`;
+    const ids=item.sentenceIndices || [item.sentenceIndex];
+    const parts=buildParts(item), position=state.selection.length;
+    const synonyms=ids.flatMap(index=>support.sentences[index].synonyms);
+    const lexicon={synonyms:synonyms.filter((entry,index)=>synonyms.findIndex(other=>other.original.toLowerCase()===entry.original.toLowerCase())===index)};
+    const original=ids.map(index=>sentences[index].english).join(' ');
+    const simple=ids.map(index=>support.sentences[index].simple).join(' ');
+    const source=item.reverse
+      ? `<div class="build-source"><span class="build-source-label">原文 · 標示可簡化字詞</span><p class="support-source">${ids.map(highlightedOriginal).join(' ')}</p><span class="build-source-label">簡單說法</span><p class="simple-source">${escapeHtml(simple)}</p></div>`
+      : `<p class="support-source">${escapeHtml(original)}</p>`;
+    const bank=parts.map(part=>part.text);
+    const choices=[...new Set(parts.slice(position).map(part=>part.text))].slice(0,4);
     const indices=orderedSeed(choices.length,`build-${position}`);
-    return `<h3>${escapeHtml(item.prompt)}</h3><p>第 ${current+1} 句 · 選出下一小節，完成整句。${item.reverse?'現在把簡單說法換回原文。':'保留原意，用較容易的字詞表達。'}</p><p class="support-source">${escapeHtml(item.reverse?content.simple:item.type==='vocabulary'?sentences[current].english:sentences[current].chinese)}</p>${item.type==='vocabulary'?wordTable(content):''}<div class="table-scroll"><table class="support-table word-bank"><caption>本句所需全部字詞／小節（次序已打亂）</caption><tbody>${orderedSeed(bank.length,`bank-${current}`).map(i=>`<tr><td>${escapeHtml(bank[i])}</td></tr>`).join('')}</tbody></table></div><div class="sequence-track build-track">${state.selection.map(i=>`<div class="sequence-slot filled"><span>${escapeHtml(parts[i].text)}</span></div>`).join('')}<div class="sequence-slot">下一小節</div></div><div class="choice-grid">${indices.map(i=>`<button class="choice-card" data-build="${i}">${escapeHtml(choices[i])}</button>`).join('')}</div><p>${position} / ${parts.length} 小節已完成</p>`;
+    return `<p class="build-mode">${item.reverse?'第二步 · 還原原文':'第一步 · 用簡單字說出意思'}</p><h3>${escapeHtml(item.prompt)}</h3><p>${ids.length>1?'把相鄰句子連起來，':'選出下一小節，'}按正確次序完成。${item.reverse?'現在把簡單說法換回原文。':'保留原意，用較容易的字詞表達。'}</p>${source}${wordTable(lexicon)}<div class="table-scroll"><table class="support-table word-bank"><caption>這組句子的小節（次序已打亂）</caption><tbody>${orderedSeed(bank.length,'bank').map(i=>`<tr><td>${escapeHtml(bank[i])}</td></tr>`).join('')}</tbody></table></div><div class="sequence-track build-track">${state.selection.map(i=>`<div class="sequence-slot filled"><span>${escapeHtml(parts[i].text)}</span></div>`).join('')}<div class="sequence-slot">下一小節</div></div><div class="choice-grid">${indices.map(i=>`<button class="choice-card" data-build="${i}">${escapeHtml(choices[i])}</button>`).join('')}</div><p>${position} / ${parts.length} 小節已完成</p>`;
   }
   function renderStructure(item) {
     const source = sentences.find(s=>s.paragraph===item.source.paragraph-1 && s.index===item.source.sentence-1);
-    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${p.kind==='slot'?'換入符合這個意思的內容':'連接／句型固定部分'}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">四句來自不同情境；選出句型所表達的關係與內容一致的一句。</p>`;
+    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><p class="structure-translation" lang="zh-Hant">${escapeHtml(source.chinese)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${escapeHtml(p.label || (p.kind==='slot'?'原句內容':'連接詞'))}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">比較四句的語意關係；選出符合這個句型的一句。</p>`;
   }
   const savedRecordings=new Set();
+  const freshRecordingRequired = new Set(Object.keys(saved.hintRetry || {}).filter(key=>saved.hintRetry[key]===true));
+  const attemptRecordingReady = new Set();
+  const hintShown = new Set();
+  const hintUsed = new Set();
+  let recorder = null, microphone = null, recordedChunks = [], recordStartedAt = 0, recordingCancelled = false;
+  EssayMemoryRecordings.list().then(records => {records.forEach(record=>savedRecordings.add(record.id));if(round().type==='speaking')$('#game-card').innerHTML=renderSpeaking(round());}).catch(()=>{});
   // Keep saved recording identifiers stable when the repeated stage is removed.
-  const recordingId=()=>`essay80-${state.stage>=7?state.stage+1:state.stage}-${state.round}`;
-  const recordingReceipt=()=>`${window.EdmundSystemNav?.getStudentSession?.()?.token || 'guest'}:${recordingId()}`;
+  const recordingId=()=>`${isPilot?'essay80':essay.id+'-memory'}-${state.stage>=7?state.stage+1:state.stage}-${state.round}`;
+  const recordingReceipt=()=>recordingId();
   function mediumMask(text) {
-    const phrases=[...essay.mediumAnswers].sort((a,b)=>b.length-a.length);
+    const phrases=[...essay.mediumAnswers,...(support.mediumExtras||[])].sort((a,b)=>b.length-a.length);
     const escapeRegex=x=>x.replace(/[.*+?^${}()|[\]\\]/g,'\\$&');
     return text.replace(new RegExp('\\b('+phrases.map(escapeRegex).join('|')+')\\b','gi'),match=>'＿'.repeat(Math.min(12,Math.max(3,match.length))));
   }
   function renderSpeaking(item) {
-    const recorded=savedRecordings.has(recordingReceipt());
-    return `<h3>${escapeHtml(item.prompt)}</h3><p>${item.guided?'聽這一小步，再錄下自己的朗讀。':'補回空格，錄下完整一句並儲存到帳戶。儲存不代表系統已判定發音或內容正確。'}</p><div class="speaking-text">${lineHtml(item.guided?item.text:mediumMask(item.text))}</div>${item.guided?'<button class="mini-button" data-play-chunk>♫ 聽這一小步</button>':''}<section class="question-card recording-practice" data-edmund-record-id="${recordingId()}" data-edmund-record-title="Essay 80 · ${escapeHtml(item.prompt)}" data-edmund-min-recording-ms="${item.guided?0:Math.max(2000,item.text.split(/\s+/).length*120)}"><button class="primary-button" data-edmund-record-toggle>● 錄音練習</button><a class="mini-button" href="speaking-system.html?library=1" target="_blank" rel="noopener">我的錄音 · 儲存及重聽 ↗</a></section>${recorded?`<p class="recording-status">已儲存本步錄音，可到「我的錄音」重聽。</p>${!item.guided?`<details><summary>對照完整原句</summary>${lineHtml(item.text)}</details>`:''}`:''}<button class="primary-button support-next" data-speaking-done ${!recorded?'disabled':''}>錄音已儲存 · 下一小步 →</button>`;
+    const receipt=recordingReceipt();
+    const recorded=savedRecordings.has(receipt) && (!freshRecordingRequired.has(roundKey()) || attemptRecordingReady.has(roundKey()));
+    const revealed=!item.guided && hintShown.has(roundKey());
+    return `<h3>${escapeHtml(item.prompt)}</h3><p>${item.guided?'聽這一小步，再錄下自己的朗讀。':'補回空格並錄下完整一句。需要時可看原句；用了提示，下一次須不看提示再錄。'}</p><div class="speaking-text">${lineHtml(revealed||item.guided?item.text:mediumMask(item.text))}</div><div class="reading-controls">${item.guided?'<button class="mini-button" data-play-chunk>♫ 聽這一小步</button>':''}${!item.guided?`<button class="mini-button" data-reveal-full>${revealed?'隱藏原句':'顯示完整原句'}</button>`:''}<span>播放速度可在上方調整。</span></div><section class="question-card recording-practice"><button class="primary-button" type="button" data-record-toggle>${recorder?.state==='recording'?'■ 停止並儲存':'● 錄音練習'}</button><a class="mini-button" href="essay-memory-recordings.html" target="_blank" rel="noopener">我的範文背書錄音 ↗</a></section>${recorded?'<p class="recording-status">已儲存在此瀏覽器的範文背書錄音收藏。</p>':''}<button class="primary-button support-next" data-speaking-done ${!recorded?'disabled':''}>${revealed?'下一小步 · 不看提示再錄一次 →':'錄音已儲存 · 下一小步 →'}</button>`;
   }
-  document.addEventListener('edmund:recording-saved',event=>{
-    if(event.detail?.recordId!==recordingId() || round().type!=='speaking')return;
-    savedRecordings.add(recordingReceipt());$('#game-card').innerHTML=renderSpeaking(round());
-  });
+  async function toggleRecording() {
+    if (recorder?.state==='recording') { recorder.stop(); return; }
+    try {
+      microphone = await navigator.mediaDevices.getUserMedia({audio:true});
+      const mimeType = ['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(type=>MediaRecorder.isTypeSupported(type));
+      recorder = new MediaRecorder(microphone, mimeType?{mimeType}:{});
+      recordedChunks=[];
+      const id=recordingReceipt(), title=`${essayLabel} · ${round().prompt}`;
+      recorder.ondataavailable=event=>{if(event.data.size)recordedChunks.push(event.data);};
+      const keyAtStart=roundKey();
+      recorder.onstop=async()=>{
+        microphone.getTracks().forEach(track=>track.stop());
+        if(recordingCancelled) return;
+        try {
+          const blob=new Blob(recordedChunks,{type:recorder.mimeType||'audio/webm'});
+          if(blob.size<1000 || Date.now()-recordStartedAt<700) throw Error('錄音太短，請重試。');
+          await EssayMemoryRecordings.save({id,essayId:essay.id,title,savedAt:new Date().toISOString(),blob});
+          savedRecordings.add(id);
+          attemptRecordingReady.add(keyAtStart);
+          if(!hintUsed.has(keyAtStart)) freshRecordingRequired.delete(keyAtStart);
+          if(roundKey()===keyAtStart) $('#game-card').innerHTML=renderSpeaking(round());
+          feedback('錄音已儲存到範文背書收藏。請自行重聽核對。','success');
+        } catch(error) { feedback('未能儲存錄音：'+error.message,'error');$('#game-card').innerHTML=renderSpeaking(round()); }
+      };
+      recordingCancelled=false;recordStartedAt=Date.now(); recorder.start();
+      $('#game-card').innerHTML=renderSpeaking(round());
+    } catch(error) {feedback('無法使用咪高峰：'+error.message,'error');}
+  }
   function render() {
+    if(recorder?.state==='recording') {recordingCancelled=true;recorder.stop();}
     orderCache.clear();
     renderRail(); renderHeader(); feedback('');
     const item = round();
     const card = $('#game-card');
-    card.classList.remove('card-enter','is-correct'); void card.offsetWidth; card.classList.add('card-enter');
+    card.classList.remove('card-enter','is-correct','sentence-map','simple-build','exact-build','structure-card');
+    if (item.sentenceMap) card.classList.add('sentence-map');
+    if (item.type === 'structure') card.classList.add('structure-card');
+    if (item.type === 'vocabulary') card.classList.add(item.reverse ? 'exact-build' : 'simple-build'); void card.offsetWidth; card.classList.add('card-enter');
     card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : item.type==='speaking' ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
     save();
   }
@@ -315,7 +440,7 @@
     if(!selfCheck && !sounded)answerSound(true);
     if (!state.solved[roundKey()]) state.solved[roundKey()] = state.hadMistake ? 1 : 2;
     save(); renderHeader(); renderRail();
-    feedback(selfCheck ? '錄音已儲存。請在「我的錄音」重聽；口說內容不會由系統自動評分。' : `答對了！${round().why || '你已接上這一段記憶。'}`, 'success');
+    feedback(selfCheck ? '錄音已儲存。請在範文背書錄音收藏重聽；口說內容不會由系統自動評分。' : `答對了！${round().why || '你已接上這一段記憶。'}`, 'success');
     $('#game-card').classList.add('is-correct');
     $('#game-card').querySelectorAll('button').forEach(button => { button.disabled = true; });
     if(round().modelLink){
@@ -349,10 +474,10 @@
   function renderEnd() {
     renderRail(); renderHeader();
     $('#stage-kicker').textContent = 'JOURNEY COMPLETE';
-    $('#play-title').textContent = '你已走完 Essay 80 的記憶路線';
+    $('#play-title').textContent = `你已走完 ${essayLabel} 的記憶路線`;
     $('#stage-description').textContent = '你已完成字詞、句型、雙向句子重組，以及分小步的有提示與中階填空朗讀。';
     $('#round-number').textContent = '十一個關卡完成';
-    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與跨主題論證練習。</h3><p>現在可嘗試一次過背出整篇：先說出立場及兩條理由，再依次講出兩段細節、例子與結論，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="writing-practice.html?exercise=model-essay-80-ielts-opinion">對照原範文 ↗</a></div></div>`;
+    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與跨主題論證練習。</h3><p>現在可嘗試一次過背出整篇：${isPilot ? '先說出立場及兩條理由' : requestedKey === 'cause-solution:2' ? '先說出問題與解決路線' : '先說出立場與兩條主線'}，再依次講出兩段細節、例子與結論，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="${escapeHtml(writingUrl)}">對照原範文 ↗</a></div></div>`;
     feedback('完成！朗讀及重述為自行核對，系統不會自動判定口說準確度。', 'success');
   }
 
@@ -368,7 +493,14 @@
       const old=button.cloneNode(true), rect=button.getBoundingClientRect();old.getBoundingClientRect=()=>rect;
       state.selection.push(state.selection.length);answerSound(true);
       const parts=buildParts(item);
-      if(state.selection.length===parts.length){$('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><p class="speaking-text">${escapeHtml(parts.map(p=>p.text).join(' '))}</p>`;succeed(false,true);}
+      if(state.selection.length===parts.length){
+        if(item.reverse){
+          const ids=item.sentenceIndices || [item.sentenceIndex];
+          const simple=ids.map(index=>support.sentences[index].simple).join(' ');
+          $('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><div class="build-source"><span class="build-source-label">原文 · 標示可簡化字詞</span><p class="support-source">${ids.map(highlightedOriginal).join(' ')}</p><span class="build-source-label">簡單說法</span><p class="simple-source">${escapeHtml(simple)}</p></div>`;
+        } else $('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><p class="speaking-text">${escapeHtml(parts.map(p=>p.text).join(' '))}</p>`;
+        succeed(false,true);
+      }
       else {$('#game-card').innerHTML=renderBuild(item);flyCard(old,state.selection.length-1);}
     } else if(button.hasAttribute('data-play-chunk')) {
       let first=sentences[item.sentenceIndices[0]],last=sentences[item.sentenceIndices.at(-1)],start=first.start,end=last.end;
@@ -388,7 +520,7 @@
       $('#game-card').innerHTML = renderMulti(item);
     } else if (button.hasAttribute('data-confirm')) {
       const correct = [...item.correct].sort().join(',') === [...state.selection].sort().join(',');
-      if (correct) succeed(); else mistake(button, '兩條理由要分別對應「更廣泛取得知識」與「實用數碼技能」。');
+      if (correct) succeed(); else mistake(button, isPilot ? '兩條理由要分別對應「更廣泛取得知識」與「實用數碼技能」。' : '請對照這篇範文的兩條主線，再選一次。');
     } else if (button.hasAttribute('data-sequence')) {
       const index = Number(button.dataset.sequence);
       const expected = state.selection.length;
@@ -407,12 +539,20 @@
     } else if (button.hasAttribute('data-play-sentence')) {
       const sentence = sentences[Number(button.dataset.playSentence)];
       playAudio(sentence.start, sentence.end, button);
+    } else if (button.hasAttribute('data-record-toggle')) {
+      toggleRecording();
+    } else if (button.hasAttribute('data-reveal-full')) {
+      if(hintShown.has(roundKey())) hintShown.delete(roundKey()); else hintShown.add(roundKey());
+      hintUsed.add(roundKey());freshRecordingRequired.add(roundKey());attemptRecordingReady.delete(roundKey());
+      $('#game-card').innerHTML=renderSpeaking(item);
     } else if (button.hasAttribute('data-speaking-done')) {
-      if(savedRecordings.has(recordingReceipt())) succeed(true);
+      if(!savedRecordings.has(recordingReceipt()) || (freshRecordingRequired.has(roundKey()) && !attemptRecordingReady.has(roundKey()))) return;
+      if(hintUsed.has(roundKey())) { hintShown.delete(roundKey()); hintUsed.delete(roundKey()); attemptRecordingReady.delete(roundKey()); freshRecordingRequired.add(roundKey()); $('#game-card').innerHTML=renderSpeaking(item); feedback('現在不看原句，再錄一次這句才會前往下一句。','hint'); }
+      else {succeed(true);advance();}
     } else if (button.hasAttribute('data-guided-help')) {
-      state.stage=8;state.checks=[];state.revealTranslation=false;render();
+      state.stage=7;state.checks=[];state.revealTranslation=false;render();
     } else if (button.hasAttribute('data-replay')) {
-      state.stage = 7; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
+      state.stage = 10; state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
     }
   });
   $('#stage-rail').addEventListener('click', event => {
@@ -437,21 +577,21 @@
   $('#step-options').addEventListener('keydown',event=>{if(!['ArrowDown','ArrowUp','Home','End'].includes(event.key))return;const buttons=[...$('#step-options').querySelectorAll('button')];if(!buttons.length)return;event.preventDefault();const i=buttons.indexOf(document.activeElement);buttons[event.key==='Home'?0:event.key==='End'?buttons.length-1:(i+(event.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length].focus();});
   $('#save-progress').addEventListener('click',()=>{save();});
   $('#export-progress').addEventListener('click',()=>{
-    const blob=new Blob([JSON.stringify({format:'edmund-essay80-progress',version:4,progress:progressSnapshot()},null,2)],{type:'application/json'});
-    const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download='Essay-80-progress-'+new Date().toISOString().slice(0,10)+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#save-status').textContent='進度備份已交給瀏覽器下載；可在其他裝置載入。';
+    const blob=new Blob([JSON.stringify({format:backupFormat,version:backupVersion,essayId:essay.id,progress:progressSnapshot()},null,2)],{type:'application/json'});
+    const url=URL.createObjectURL(blob),link=document.createElement('a');link.href=url;link.download=essay.id+'-memory-progress-'+new Date().toISOString().slice(0,10)+'.json';link.click();setTimeout(()=>URL.revokeObjectURL(url),10000);$('#save-status').textContent='進度備份已交給瀏覽器下載；可在其他裝置載入。';
   });
   $('#import-progress').addEventListener('click',()=>$('#progress-file').click());
   $('#progress-file').addEventListener('change',async event=>{
     const file=event.target.files[0];if(!file)return;
-    try{if(file.size>1000000)throw Error('進度檔過大。');const progress=validateProgress(JSON.parse(await file.text()));if(!confirm('載入備份會取代此瀏覽器目前的 Essay 80 進度。繼續？'))return;audio.pause();Object.assign(state,progress,{transitioning:false,revealTranslation:false,checks:[]});render();$('#save-status').textContent='已載入備份。'+$('#save-status').textContent;}
+    try{if(file.size>1000000)throw Error('進度檔過大。');const progress=validateProgress(JSON.parse(await file.text()));if(!confirm(`載入備份會取代此瀏覽器目前的 ${essayLabel} 進度。繼續？`))return;audio.pause();Object.assign(state,progress,{transitioning:false,revealTranslation:false,checks:[]});freshRecordingRequired.clear();Object.keys(progress.hintRetry).forEach(key=>{if(progress.hintRetry[key]===true)freshRecordingRequired.add(key);});hintShown.clear();hintUsed.clear();attemptRecordingReady.clear();render();$('#save-status').textContent='已載入備份。'+$('#save-status').textContent;}
     catch(error){$('#save-status').textContent='未能載入：'+error.message;}finally{event.target.value='';}
   });
 
   $('#audio-full').addEventListener('click', event => playAudio(0, null, event.currentTarget));
   $('#restart-round').addEventListener('click', () => { audio.pause(); state.transitioning=false; state.checks=[]; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render(); });
   $('#restart-all').addEventListener('click', () => {
-    if (!confirm('重新開始會清除 Essay 80 試驗版的本機進度。確定嗎？')) return;
-    audio.pause(); state.transitioning=false;state.checks=[];state.completed=false;state.stage = 0; state.round = 0; state.unlocked = 0; state.solved = {}; state.selection = []; state.hadMistake = false; state.revealTranslation = false; render();
+    if (!confirm(`重新開始會清除 ${essayLabel} 的本機進度。確定嗎？`)) return;
+    audio.pause(); state.transitioning=false;state.checks=[];state.completed=false;state.stage = 0; state.round = 0; state.unlocked = 0; state.solved = {}; state.selection = []; state.hadMistake = false; state.revealTranslation = false; freshRecordingRequired.clear();hintShown.clear();hintUsed.clear();attemptRecordingReady.clear();render();
   });
 
   // Format displayed Chinese prose only; source data, attributes and answer keys stay intact.

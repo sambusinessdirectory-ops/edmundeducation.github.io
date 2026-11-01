@@ -1,0 +1,4593 @@
+{
+  "slug": "livin-on-a-prayer",
+  "title": "Livin' On A Prayer",
+  "singer": "Bon Jovi",
+  "description": "《Livin' On A Prayer》描寫一對平凡情侶在經濟困境中，依靠愛情與信念努力生活的故事。Tommy 因工會罷工而失去收入，Gina 則在餐館辛勤工作，努力維持兩人的生活。面對貧困、壓力與不確定的未來，他們也曾感到疲倦、害怕，甚至想要逃避，但始終沒有放棄彼此。即使生活充滿挑戰，他們仍然相信只要互相扶持，就有希望度過難關。歌曲中的「Livin' On A Prayer」象徵在困境中依靠希望與信念堅持下去。最終，《Livin' On A Prayer》傳達的是愛情、勇氣與永不放棄的精神：即使沒有財富與好運，只要珍惜彼此、勇敢面對困難，便有力量繼續追尋更美好的明天。",
+  "exercise_name": "Livin' On A Prayer · Listening & Vocabulary",
+  "tags": [
+    "bon jovi",
+    "livin' on a prayer",
+    "hope",
+    "resilience"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Once upon a time, not so long ago",
+      "chinese": "從前從前，就在不久之前"
+    },
+    {
+      "lineId": "line-2",
+      "english": "Tommy used to work on the docks",
+      "chinese": "Tommy 曾在碼頭工作",
+      "startSeconds": 45.7,
+      "endSeconds": 48.42
+    },
+    {
+      "lineId": "line-3",
+      "english": "Union's been on strike, he's down on his luck",
+      "chinese": "工會正在罷工，他時運不濟",
+      "startSeconds": 49.68,
+      "endSeconds": 53.24
+    },
+    {
+      "lineId": "line-4",
+      "english": "It's tough",
+      "chinese": "日子很難熬",
+      "startSeconds": 53.54,
+      "endSeconds": 54.24
+    },
+    {
+      "lineId": "line-5",
+      "english": "So tough",
+      "chinese": "如此艱難",
+      "startSeconds": 55.02,
+      "endSeconds": 58.24
+    },
+    {
+      "lineId": "line-6",
+      "english": "Gina works the diner all day",
+      "chinese": "Gina 在小餐館工作一整天"
+    },
+    {
+      "lineId": "line-7",
+      "english": "Working for her man, she brings home her pay",
+      "chinese": "為了她的男人，她帶著薪水回家"
+    },
+    {
+      "lineId": "line-8",
+      "english": "For love",
+      "chinese": "為了愛"
+    },
+    {
+      "lineId": "line-9",
+      "english": "Mm, for love",
+      "chinese": "嗯，為了愛"
+    },
+    {
+      "lineId": "line-10",
+      "english": "She says, \"We've gotta hold on to what we've got",
+      "chinese": "她說：「我們必須緊握所擁有的一切",
+      "startSeconds": 74.88,
+      "endSeconds": 80.88
+    },
+    {
+      "lineId": "line-11",
+      "english": "It doesn't make a difference if we make it or not",
+      "chinese": "我們成功與否都無所謂",
+      "startSeconds": 80.88,
+      "endSeconds": 84.74
+    },
+    {
+      "lineId": "line-12",
+      "english": "We've got each other and that's a lot for love",
+      "chinese": "我們擁有彼此，對愛來說這已經足夠",
+      "startSeconds": 84.74,
+      "endSeconds": 89.92
+    },
+    {
+      "lineId": "line-13",
+      "english": "We'll give it a shot\"",
+      "chinese": "我們就試一試吧」",
+      "startSeconds": 90.72,
+      "endSeconds": 92.66
+    },
+    {
+      "lineId": "line-14",
+      "english": "Whoa, we're halfway there",
+      "chinese": "噢，我們已經走了一半",
+      "startSeconds": 92.66,
+      "endSeconds": 96.86
+    },
+    {
+      "lineId": "line-15",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-16",
+      "english": "Take my hand, we'll make it, I swear",
+      "chinese": "牽著我的手，我們會撐過去的，我發誓",
+      "startSeconds": 100.52,
+      "endSeconds": 104.3
+    },
+    {
+      "lineId": "line-17",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-18",
+      "english": "Tommy's got his six-string in hock",
+      "chinese": "Tommy 把他的吉他拿去典當了"
+    },
+    {
+      "lineId": "line-19",
+      "english": "Now he's holding in, when he used to make it talk",
+      "chinese": "現在他只能隱忍，過去他總能讓吉他說話",
+      "startSeconds": 115.06,
+      "endSeconds": 119.78
+    },
+    {
+      "lineId": "line-20",
+      "english": "So tough",
+      "chinese": "如此艱難",
+      "startSeconds": 119.78,
+      "endSeconds": 121.12
+    },
+    {
+      "lineId": "line-21",
+      "english": "Ooh, it's tough",
+      "chinese": "噢，日子很難熬"
+    },
+    {
+      "lineId": "line-22",
+      "english": "Gina dreams of running away",
+      "chinese": "Gina 夢想著逃跑",
+      "startSeconds": 127.98,
+      "endSeconds": 131.0
+    },
+    {
+      "lineId": "line-23",
+      "english": "When she cries in the night, Tommy whispers",
+      "chinese": "當她在夜裡哭泣，Tommy 輕聲說"
+    },
+    {
+      "lineId": "line-24",
+      "english": "\"Baby, it's okay",
+      "chinese": "「寶貝，沒事的"
+    },
+    {
+      "lineId": "line-25",
+      "english": "Someday\"",
+      "chinese": "總有一天」"
+    },
+    {
+      "lineId": "line-26",
+      "english": "We've gotta hold on to what we've got",
+      "chinese": "我們必須緊握所擁有的一切"
+    },
+    {
+      "lineId": "line-27",
+      "english": "It doesn't make a difference if we make it or not",
+      "chinese": "我們成功與否都無所謂",
+      "startSeconds": 147.24,
+      "endSeconds": 151.1
+    },
+    {
+      "lineId": "line-28",
+      "english": "We've got each other and that's a lot for love",
+      "chinese": "我們擁有彼此，對愛來說這已經足夠"
+    },
+    {
+      "lineId": "line-29",
+      "english": "We'll give it a shot",
+      "chinese": "我們就試一試吧",
+      "startSeconds": 156.9,
+      "endSeconds": 159.02
+    },
+    {
+      "lineId": "line-30",
+      "english": "Whoa, we're halfway there",
+      "chinese": "噢，我們已經走了一半"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-32",
+      "english": "Take my hand, we'll make it I swear",
+      "chinese": "牽著我的手，我們會撐過去的，我發誓",
+      "startSeconds": 166.84,
+      "endSeconds": 170.66
+    },
+    {
+      "lineId": "line-33",
+      "english": "Whoa-oh, living on a prayer, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-34",
+      "english": "Ooh, we gotta hold on, ready or not",
+      "chinese": "噢，我們必須堅持住，無論準備好與否",
+      "startSeconds": 194.08,
+      "endSeconds": 199.82
+    },
+    {
+      "lineId": "line-35",
+      "english": "You live for the fight when that's all that you've got",
+      "chinese": "當你一無所有時，你只能為戰鬥而活"
+    },
+    {
+      "lineId": "line-36",
+      "english": "Whoa, we're halfway there",
+      "chinese": "噢，我們已經走了一半"
+    },
+    {
+      "lineId": "line-37",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-38",
+      "english": "Take my hand and we'll make it, I swear",
+      "chinese": "牽著我的手，我們會撐過去的，我發誓",
+      "startSeconds": 211.16,
+      "endSeconds": 214.76
+    },
+    {
+      "lineId": "line-39",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-40",
+      "english": "Whoa, we're halfway there",
+      "chinese": "噢，我們已經走了一半"
+    },
+    {
+      "lineId": "line-41",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-42",
+      "english": "Take my hand and we'll make it, I swear",
+      "chinese": "牽著我的手，我們會撐過去的，我發誓",
+      "startSeconds": 226.46,
+      "endSeconds": 230.3
+    },
+    {
+      "lineId": "line-43",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-44",
+      "english": "Whoa, we're halfway there",
+      "chinese": "噢，我們已經走了一半"
+    },
+    {
+      "lineId": "line-45",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    },
+    {
+      "lineId": "line-46",
+      "english": "Take my hand and we'll make it, I swear",
+      "chinese": "牽著我的手，我們會撐過去的，我發誓"
+    },
+    {
+      "lineId": "line-47",
+      "english": "Whoa-oh, living on a prayer",
+      "chinese": "噢——噢，靠著祈禱過活"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Once upon a time",
+      "meaning": "從前、很久以前",
+      "usage": "說故事的開頭，常用來介紹過去發生的事。",
+      "prompt": "哪一句正確使用「Once upon a time」？",
+      "options": [
+        "I once upon a time the lift to work.",
+        "Once upon a time, a king feared his own shadow.",
+        "Please open the once upon a time.",
+        "My holiday is once upon a time tomorrow."
+      ],
+      "answer": 1,
+      "explanation": "once upon a time 用來開始一個發生在從前的故事。",
+      "optionExplanations": [
+        "once upon a time 是故事開場語，不能當作乘電梯的動詞。",
+        "once upon a time 用來開始一個發生在從前的故事。",
+        "錯誤：它不是門或物品，不能打開。",
+        "once upon a time 指從前，與 tomorrow 的未來時間衝突。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Used to",
+      "meaning": "以前常常（現在通常不同）",
+      "usage": "描述以前的習慣或狀態；後面接動詞原形。",
+      "prompt": "哪一句正確使用「Used to」？",
+      "options": [
+        "We used to play here after school.",
+        "She used to a big blue bag.",
+        "I used to swimming every day.",
+        "He used to is very tall."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示以前常在這裡玩。",
+      "optionExplanations": [
+        "正確：表示以前常在這裡玩。",
+        "錯誤：少了動詞，例如 have。",
+        "錯誤：used to 後面要接原形 swim。",
+        "錯誤：used to 後不能接 is，應用 be。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "On strike",
+      "meaning": "正在罷工",
+      "usage": "員工停止工作，通常是為了爭取更好的待遇。",
+      "prompt": "哪一句正確使用「On strike」？",
+      "options": [
+        "The drivers are on strike to demanded better pay.",
+        "I put on strike before bed.",
+        "The workers are on strike today.",
+        "The workers on strike the manager yesterday."
+      ],
+      "answer": 2,
+      "explanation": "正確：表示工人今天正在罷工。",
+      "optionExplanations": [
+        "to 後用原形 demand，不能接 demanded。",
+        "錯誤：on strike 不是可穿上的衣服。",
+        "正確：表示工人今天正在罷工。",
+        "on strike 不是動詞，不能直接接 the manager 作受詞。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Down on your luck",
+      "meaning": "運氣不好、最近不順利",
+      "usage": "接連遇到不好的事或困難時使用。",
+      "prompt": "哪一句正確使用「Down on your luck」？",
+      "options": [
+        "I put my luck down on the chair.",
+        "She down on her luck to the station.",
+        "He is down on his luck to losing his job.",
+        "Ben lost his job and wallet. He's down on his luck."
+      ],
+      "answer": 3,
+      "explanation": "down on your luck 指正在遭遇不順。",
+      "optionExplanations": [
+        "錯誤：這不是把運氣放到椅子上的意思。",
+        "down on her luck 是狀態片語，不能單獨作動詞。",
+        "to losing 的連接不成立；可說 after losing his job。",
+        "down on your luck 指正在遭遇不順。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Hold on to",
+      "meaning": "抓緊；保留、不放棄",
+      "usage": "可以說抓住實物，也可以說保留希望或重要事物。",
+      "prompt": "哪一句正確使用「Hold on to」？",
+      "options": [
+        "Hold on to my hand when we cross the street.",
+        "I hold on to to climbing the ladder.",
+        "She holds on to quickly to school.",
+        "We hold on to happy in the park."
+      ],
+      "answer": 0,
+      "explanation": "正確：表示過馬路時抓住我的手。",
+      "optionExplanations": [
+        "正確：表示過馬路時抓住我的手。",
+        "hold on to 後不能接 to climbing；可接 the ladder。",
+        "錯誤：後面需要名詞或代名詞，這裡句型不完整。",
+        "錯誤：happy 是形容詞，不能直接接在這個片語後。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Make a difference",
+      "meaning": "產生影響、有幫助",
+      "usage": "某件事讓情況變得不一樣時使用。",
+      "prompt": "哪一句正確使用「Make a difference」？",
+      "options": [
+        "I make a difference to helped my neighbour.",
+        "A kind word can make a difference to someone.",
+        "We made a difference to saved the old theatre.",
+        "She makes a difference to seven o’clock."
+      ],
+      "answer": 1,
+      "explanation": "正確：一句好話可能對別人帶來正面影響。",
+      "optionExplanations": [
+        "to 後不能接 helped；可說 make a difference by helping。",
+        "正確：一句好話可能對別人帶來正面影響。",
+        "to saved 的形式錯誤；可說 helped save the old theatre。",
+        "錯誤：不能用這片語表示時間。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Give it a shot",
+      "meaning": "試試看",
+      "usage": "鼓勵自己或別人嘗試某件事時使用。",
+      "prompt": "哪一句正確使用「Give it a shot」？",
+      "options": [
+        "I give it a shot to learned the drums.",
+        "We gave it a shot tomorrow at the dance class.",
+        "She give it a shot yesterday at the art class.",
+        "I've never acted, but I'll give it a shot."
+      ],
+      "answer": 3,
+      "explanation": "give it a shot 表示試一試。",
+      "optionExplanations": [
+        "to 後用 learn，不能接 learned。",
+        "gave 是過去式，與 tomorrow 不配合。",
+        "過去事件須用 gave it a shot。",
+        "give it a shot 表示試一試。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Halfway there",
+      "meaning": "已完成一半、快到一半的進度",
+      "usage": "做事或走路已經到達中間階段時使用。",
+      "prompt": "哪一句正確使用「Halfway there」？",
+      "options": [
+        "My cousin halfway there the trip yesterday.",
+        "We have walked for one hour. We are halfway there.",
+        "I halfway there my first interview.",
+        "He is halfway there to finished the painting."
+      ],
+      "answer": 1,
+      "explanation": "正確：表示路程已經走了一半。",
+      "optionExplanations": [
+        "halfway there 不能單獨作動詞；需要 was 等動詞。",
+        "正確：表示路程已經走了一半。",
+        "halfway there 不能直接作動詞接 my first interview。",
+        "to finished 形式錯誤；可說 halfway through the painting。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Run away",
+      "meaning": "逃跑、離開",
+      "usage": "想逃離某地或某種不喜歡的情況時使用。",
+      "prompt": "哪一句正確使用「Run away」？",
+      "options": [
+        "She ran away the music louder.",
+        "I run away my suitcase before the flight.",
+        "The thief ran away, but left his name on the bag.",
+        "He runs away a new phone every year."
+      ],
+      "answer": 2,
+      "explanation": "run away 表示逃跑；小偷逃走卻留下姓名，情節清楚。",
+      "optionExplanations": [
+        "錯誤：要說把音樂調大，應使用 turn up。",
+        "run away 不及物，不能接 suitcase 表示整理行李。",
+        "run away 表示逃跑；小偷逃走卻留下姓名，情節清楚。",
+        "錯誤：購買手機應使用 buy，不是 run away。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Make it",
+      "meaning": "成功做到；及時趕到",
+      "usage": "遇到困難仍成功，或趕上約定的時間時使用。",
+      "prompt": "哪一句正確使用「Make it」？",
+      "options": [
+        "The test was hard, but I made it!",
+        "She makes it blue to the bus every day.",
+        "I make it to caught the last train.",
+        "We made it tomorrow before the show."
+      ],
+      "answer": 0,
+      "explanation": "正確：考試很難，但我成功了。",
+      "optionExplanations": [
+        "正確：考試很難，但我成功了。",
+        "錯誤：句型混亂，不能用 blue 表達成功搭車。",
+        "to caught 的形式錯誤；可說 made it onto the last train。",
+        "made 是過去式，與 tomorrow 不配合。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-2",
+          "prompt": "Tommy used to work on the {{blank}}",
+          "promptZh": "Tommy 曾在碼頭工作",
+          "options": [
+            "ships",
+            "docks",
+            "boats"
+          ],
+          "answer": "docks"
+        },
+        {
+          "number": 2,
+          "lineId": "line-3",
+          "prompt": "Union's been on strike, he's {{blank}}",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "down on his luck",
+            "out of his luck",
+            "down on his time"
+          ],
+          "answer": "down on his luck"
+        },
+        {
+          "number": 3,
+          "lineId": "line-4",
+          "prompt": "It's {{blank}}",
+          "promptZh": "日子很難熬",
+          "options": [
+            "hard",
+            "rough",
+            "tough"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 4,
+          "lineId": "line-6",
+          "prompt": "Gina works the {{blank}} all day",
+          "promptZh": "Gina 在小餐館工作一整天",
+          "options": [
+            "dinner",
+            "diner",
+            "drive-in"
+          ],
+          "answer": "diner"
+        },
+        {
+          "number": 5,
+          "lineId": "line-7",
+          "prompt": "Working for her man, she {{blank}}",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "brings home her pay",
+            "brings back her pay",
+            "takes home her pay"
+          ],
+          "answer": "brings home her pay"
+        },
+        {
+          "number": 6,
+          "lineId": "line-10",
+          "prompt": "She says, \"We've gotta {{blank}} to what we've got",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "hold out",
+            "hold on",
+            "hold in"
+          ],
+          "answer": "hold on"
+        },
+        {
+          "number": 7,
+          "lineId": "line-11",
+          "prompt": "It doesn't {{blank}} if we make it or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "make a difference",
+            "make a change",
+            "make a living"
+          ],
+          "answer": "make a difference"
+        },
+        {
+          "number": 8,
+          "lineId": "line-12",
+          "prompt": "We've got each other and {{blank}} for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "that's a lot for us",
+            "that's enough",
+            "that's a lot"
+          ],
+          "answer": "that's a lot"
+        },
+        {
+          "number": 9,
+          "lineId": "line-13",
+          "prompt": "We'll {{blank}}\"",
+          "promptZh": "我們就試一試吧」",
+          "options": [
+            "give it a shot",
+            "give it a try",
+            "give it a chance"
+          ],
+          "answer": "give it a shot"
+        },
+        {
+          "number": 10,
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "never halfway there",
+            "halfway home",
+            "halfway there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 11,
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a dream",
+            "living on a prayer",
+            "living on a hope"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, we'll make it, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my time",
+            "Hold my hand",
+            "Take my hand"
+          ],
+          "answer": "Take my hand"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "Tommy's got his {{blank}}",
+          "promptZh": "Tommy 把他的吉他拿去典當了",
+          "options": [
+            "six-string in hock",
+            "six-string in lock",
+            "six-string in pawn"
+          ],
+          "answer": "six-string in hock"
+        },
+        {
+          "number": 14,
+          "lineId": "line-19",
+          "prompt": "Now he's holding in, when he used to {{blank}}",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "make it sing",
+            "make it talk",
+            "make it walk"
+          ],
+          "answer": "make it talk"
+        },
+        {
+          "number": 15,
+          "lineId": "line-22",
+          "prompt": "Gina dreams of {{blank}}",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "running apart",
+            "running along",
+            "running away"
+          ],
+          "answer": "running away"
+        },
+        {
+          "number": 16,
+          "lineId": "line-23",
+          "prompt": "When she cries in the night, Tommy {{blank}}",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "whispers",
+            "mutters",
+            "speaks"
+          ],
+          "answer": "whispers"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "\"Baby, {{blank}}",
+          "promptZh": "「寶貝，沒事的",
+          "options": [
+            "it's alright",
+            "it's okay",
+            "it's fine"
+          ],
+          "answer": "it's okay"
+        },
+        {
+          "number": 18,
+          "lineId": "line-34",
+          "prompt": "Ooh, we gotta hold on, {{blank}}",
+          "promptZh": "噢，我們必須堅持住，無論準備好與否",
+          "options": [
+            "ready or never",
+            "ready or not now",
+            "ready or not"
+          ],
+          "answer": "ready or not"
+        },
+        {
+          "number": 19,
+          "lineId": "line-35",
+          "prompt": "You {{blank}} when that's all that you've got",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "live for the fight",
+            "live for the game",
+            "live for the night"
+          ],
+          "answer": "live for the fight"
+        },
+        {
+          "number": 20,
+          "lineId": "line-38",
+          "prompt": "Take my hand and {{blank}}, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "we will make it",
+            "we'll make it",
+            "we'll take it"
+          ],
+          "answer": "we'll make it"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Once upon a time, not so long ago"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Tommy used to work on the {{q:1}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Union's been on strike, he's {{q:2}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So tough"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gina works the {{q:4}} all day"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Working for her man, she {{q:5}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "For love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Mm, for love"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "She says, \"We've gotta {{q:6}} to what we've got"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "It doesn't {{q:7}} if we make it or not"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We've got each other and {{q:8}} for love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "We'll {{q:9}}\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{q:10}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{q:11}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:12}}, we'll make it, I swear"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tommy's got his {{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Now he's holding in, when he used to {{q:14}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So tough"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ooh, it's tough"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gina dreams of {{q:15}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When she cries in the night, Tommy {{q:16}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "\"Baby, {{q:17}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Someday\""
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We've gotta hold on to what we've got"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "It doesn't make a difference if we make it or not"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We've got each other and that's a lot for love"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We'll give it a shot"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Take my hand, we'll make it I swear"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Whoa-oh, living on a prayer, living on a prayer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ooh, we gotta hold on, {{q:18}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You {{q:19}} when that's all that you've got"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Take my hand and {{q:20}}, I swear"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Whoa-oh, living on a prayer"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Once upon a time, {{blank}}",
+          "promptZh": "從前從前，就在不久之前",
+          "options": [
+            "not so long ago",
+            "not that long ago",
+            "not very long ago"
+          ],
+          "answer": "not so long ago"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Tommy used to work on the {{blank}}",
+          "promptZh": "Tommy 曾在碼頭工作",
+          "options": [
+            "ships",
+            "docks",
+            "boats"
+          ],
+          "answer": "docks"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}, he's 〔第 4 題〕",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "Union's gone on strike",
+            "Union has been on strike",
+            "Union's been on strike"
+          ],
+          "answer": "Union's been on strike"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕, he's {{blank}}",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "down on his luck",
+            "out of his luck",
+            "down on his time"
+          ],
+          "answer": "down on his luck"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "It's {{blank}}",
+          "promptZh": "日子很難熬",
+          "options": [
+            "rough",
+            "tough",
+            "hard"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Gina {{blank}} all day",
+          "promptZh": "Gina 在小餐館工作一整天",
+          "options": [
+            "works the dinner",
+            "works the diner",
+            "works at the diner"
+          ],
+          "answer": "works the diner"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "{{blank}}, she 〔第 8 題〕",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "Working for herself",
+            "Working for her love",
+            "Working for her man"
+          ],
+          "answer": "Working for her man"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "〔第 7 題〕, she {{blank}}",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "brings home her pay",
+            "brings back her pay",
+            "takes home her pay"
+          ],
+          "answer": "brings home her pay"
+        },
+        {
+          "number": 9,
+          "lineId": "line-10",
+          "prompt": "{{blank}}, \"We've gotta 〔第 10 題〕 to 〔第 11 題〕",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "She tells",
+            "She said",
+            "She says"
+          ],
+          "answer": "She says"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "〔第 9 題〕, \"We've gotta {{blank}} to 〔第 11 題〕",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "hold out",
+            "hold on",
+            "hold in"
+          ],
+          "answer": "hold on"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "〔第 9 題〕, \"We've gotta 〔第 10 題〕 to {{blank}}",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "what we've got",
+            "what we have got",
+            "what we have"
+          ],
+          "answer": "what we've got"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "It doesn't {{blank}} 〔第 13 題〕 or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "make a difference",
+            "make a change",
+            "make a living"
+          ],
+          "answer": "make a difference"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "It doesn't 〔第 12 題〕 {{blank}} or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "if we fake it",
+            "if we take it",
+            "if we make it"
+          ],
+          "answer": "if we make it"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "We've got {{blank}} and 〔第 15 題〕 for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "one another",
+            "each other",
+            "each another"
+          ],
+          "answer": "each other"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "We've got 〔第 14 題〕 and {{blank}} for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "that's enough",
+            "that's a lot",
+            "that's a lot for us"
+          ],
+          "answer": "that's a lot"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "We'll {{blank}}\"",
+          "promptZh": "我們就試一試吧」",
+          "options": [
+            "give it a chance",
+            "give it a try",
+            "give it a shot"
+          ],
+          "answer": "give it a shot"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "halfway there",
+            "halfway home",
+            "never halfway there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a hope",
+            "living on a dream",
+            "living on a prayer"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, we'll make it, 〔第 20 題〕",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my hand",
+            "Hold my hand",
+            "Take my time"
+          ],
+          "answer": "Take my hand"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "〔第 19 題〕, we'll make it, {{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "I promise",
+            "I swear",
+            "I vow"
+          ],
+          "answer": "I swear"
+        },
+        {
+          "number": 21,
+          "lineId": "line-18",
+          "prompt": "Tommy's got his six-string {{blank}}",
+          "promptZh": "Tommy 把他的吉他拿去典當了",
+          "options": [
+            "in hock",
+            "in debt",
+            "in pawn"
+          ],
+          "answer": "in hock"
+        },
+        {
+          "number": 22,
+          "lineId": "line-19",
+          "prompt": "Now he's {{blank}}, when he used to 〔第 23 題〕",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "holding out",
+            "holding back",
+            "holding in"
+          ],
+          "answer": "holding in"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Now he's 〔第 22 題〕, when he used to {{blank}}",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "make it sing",
+            "make it talk",
+            "make it walk"
+          ],
+          "answer": "make it talk"
+        },
+        {
+          "number": 24,
+          "lineId": "line-22",
+          "prompt": "Gina {{blank}} 〔第 25 題〕",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "dreams of",
+            "thinks of",
+            "dreams about"
+          ],
+          "answer": "dreams of"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "Gina 〔第 24 題〕 {{blank}}",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "running along",
+            "running away",
+            "running apart"
+          ],
+          "answer": "running away"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "When she {{blank}}, Tommy 〔第 27 題〕",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "cries at night",
+            "cries in the dark",
+            "cries in the night"
+          ],
+          "answer": "cries in the night"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "When she 〔第 26 題〕, Tommy {{blank}}",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "mutters",
+            "whispers",
+            "speaks"
+          ],
+          "answer": "whispers"
+        },
+        {
+          "number": 28,
+          "lineId": "line-24",
+          "prompt": "\"Baby, {{blank}}",
+          "promptZh": "「寶貝，沒事的",
+          "options": [
+            "it's okay",
+            "it's alright",
+            "it's fine"
+          ],
+          "answer": "it's okay"
+        },
+        {
+          "number": 29,
+          "lineId": "line-34",
+          "prompt": "Ooh, we gotta hold on, {{blank}}",
+          "promptZh": "噢，我們必須堅持住，無論準備好與否",
+          "options": [
+            "ready or never",
+            "ready or not now",
+            "ready or not"
+          ],
+          "answer": "ready or not"
+        },
+        {
+          "number": 30,
+          "lineId": "line-35",
+          "prompt": "You {{blank}} when that's 〔第 31 題〕",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "live for the game",
+            "live for the fight",
+            "live for the night"
+          ],
+          "answer": "live for the fight"
+        },
+        {
+          "number": 31,
+          "lineId": "line-35",
+          "prompt": "You 〔第 30 題〕 when that's {{blank}}",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "all that you own",
+            "all that you have",
+            "all that you've got"
+          ],
+          "answer": "all that you've got"
+        },
+        {
+          "number": 32,
+          "lineId": "line-38",
+          "prompt": "Take my hand and {{blank}}, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "we'll make it",
+            "we will make it",
+            "we'll take it"
+          ],
+          "answer": "we'll make it"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Once upon a time, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Tommy used to work on the {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}, he's {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So tough"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gina {{q:6}} all day"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:7}}, she {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "For love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Mm, for love"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:9}}, \"We've gotta {{q:10}} to {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "It doesn't {{q:12}} {{q:13}} or not"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We've got {{q:14}} and {{q:15}} for love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "We'll {{q:16}}\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{q:18}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:19}}, we'll make it, {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tommy's got his six-string {{q:21}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Now he's {{q:22}}, when he used to {{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So tough"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ooh, it's tough"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gina {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When she {{q:26}}, Tommy {{q:27}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "\"Baby, {{q:28}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Someday\""
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We've gotta hold on to what we've got"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "It doesn't make a difference if we make it or not"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We've got each other and that's a lot for love"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We'll give it a shot"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Take my hand, we'll make it I swear"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Whoa-oh, living on a prayer, living on a prayer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ooh, we gotta hold on, {{q:29}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You {{q:30}} when that's {{q:31}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Take my hand and {{q:32}}, I swear"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Whoa-oh, living on a prayer"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Once upon a time, {{blank}}",
+          "promptZh": "從前從前，就在不久之前",
+          "options": [
+            "not so long ago",
+            "not that long ago",
+            "not very long ago"
+          ],
+          "answer": "not so long ago"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Tommy used to {{blank}}",
+          "promptZh": "Tommy 曾在碼頭工作",
+          "options": [
+            "work at the docks",
+            "work on the docks",
+            "work in the docks"
+          ],
+          "answer": "work on the docks"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}, he's 〔第 4 題〕",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "Union's gone on strike",
+            "Union has been on strike",
+            "Union's been on strike"
+          ],
+          "answer": "Union's been on strike"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕, he's {{blank}}",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "down on his luck",
+            "out of his luck",
+            "down on his time"
+          ],
+          "answer": "down on his luck"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "It's {{blank}}",
+          "promptZh": "日子很難熬",
+          "options": [
+            "hard",
+            "rough",
+            "tough"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "So {{blank}}",
+          "promptZh": "如此艱難",
+          "options": [
+            "rough",
+            "tough",
+            "hard"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "Gina works the {{blank}} all day",
+          "promptZh": "Gina 在小餐館工作一整天",
+          "options": [
+            "diner",
+            "dinner",
+            "drive-in"
+          ],
+          "answer": "diner"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "{{blank}}, she 〔第 9 題〕",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "Working for herself",
+            "Working for her love",
+            "Working for her man"
+          ],
+          "answer": "Working for her man"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "〔第 8 題〕, she {{blank}}",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "brings back her pay",
+            "brings home her pay",
+            "takes home her pay"
+          ],
+          "answer": "brings home her pay"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}}, \"We've gotta 〔第 11 題〕 to 〔第 12 題〕",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "She says",
+            "She said",
+            "She tells"
+          ],
+          "answer": "She says"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "〔第 10 題〕, \"We've gotta {{blank}} to 〔第 12 題〕",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "hold in",
+            "hold out",
+            "hold on"
+          ],
+          "answer": "hold on"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "〔第 10 題〕, \"We've gotta 〔第 11 題〕 to {{blank}}",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "what we've got",
+            "what we have got",
+            "what we have"
+          ],
+          "answer": "what we've got"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "It {{blank}} 〔第 14 題〕 or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "don't make a difference",
+            "doesn't make a difference",
+            "doesn't make any difference"
+          ],
+          "answer": "doesn't make a difference"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "It 〔第 13 題〕 {{blank}} or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "if we fake it",
+            "if we take it",
+            "if we make it"
+          ],
+          "answer": "if we make it"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "We've got {{blank}} and 〔第 16 題〕 for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "each other",
+            "one another",
+            "each another"
+          ],
+          "answer": "each other"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "We've got 〔第 15 題〕 and {{blank}} for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "that's enough",
+            "that's a lot",
+            "that's a lot for us"
+          ],
+          "answer": "that's a lot"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}} it a shot\"",
+          "promptZh": "我們就試一試吧」",
+          "options": [
+            "We'll take",
+            "We will give",
+            "We'll give"
+          ],
+          "answer": "We'll give"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "halfway home",
+            "halfway there",
+            "never halfway there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a prayer",
+            "living on a dream",
+            "living on a hope"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, we'll make it, 〔第 21 題〕",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my hand",
+            "Hold my hand",
+            "Take my time"
+          ],
+          "answer": "Take my hand"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "〔第 20 題〕, we'll make it, {{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "I promise",
+            "I swear",
+            "I vow"
+          ],
+          "answer": "I swear"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "Tommy's got his {{blank}}",
+          "promptZh": "Tommy 把他的吉他拿去典當了",
+          "options": [
+            "six-string in pawn",
+            "six-string in lock",
+            "six-string in hock"
+          ],
+          "answer": "six-string in hock"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Now he's {{blank}}, when he 〔第 24 題〕",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "holding back",
+            "holding in",
+            "holding out"
+          ],
+          "answer": "holding in"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "Now he's 〔第 23 題〕, when he {{blank}}",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "used to make it sing",
+            "used to make it walk",
+            "used to make it talk"
+          ],
+          "answer": "used to make it talk"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "Gina {{blank}} 〔第 26 題〕",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "dreams of",
+            "thinks of",
+            "dreams about"
+          ],
+          "answer": "dreams of"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "Gina 〔第 25 題〕 {{blank}}",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "running apart",
+            "running along",
+            "running away"
+          ],
+          "answer": "running away"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "When she {{blank}}, Tommy 〔第 28 題〕",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "cries in the night",
+            "cries in the dark",
+            "cries at night"
+          ],
+          "answer": "cries in the night"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "When she 〔第 27 題〕, Tommy {{blank}}",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "mutters",
+            "whispers",
+            "speaks"
+          ],
+          "answer": "whispers"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "「寶貝，沒事的",
+          "options": [
+            "\"Baby, it's alright",
+            "\"Baby, it's okay",
+            "\"Baby, it is okay"
+          ],
+          "answer": "\"Baby, it's okay"
+        },
+        {
+          "number": 30,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take your hand, we'll make it I swear",
+            "Take my hand, we will make it I swear",
+            "Take my hand, we'll make it I swear"
+          ],
+          "answer": "Take my hand, we'll make it I swear"
+        },
+        {
+          "number": 31,
+          "lineId": "line-33",
+          "prompt": "Whoa-oh, {{blank}}, living on a prayer",
+          "promptZh": "噢——噢，靠著祈禱過活，靠著祈禱過活",
+          "options": [
+            "living on a prayer",
+            "living on a hope",
+            "living on a dream"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 32,
+          "lineId": "line-34",
+          "prompt": "Ooh, {{blank}}, 〔第 33 題〕",
+          "promptZh": "噢，我們必須堅持住，無論準備好與否",
+          "options": [
+            "we've gotta hold on",
+            "we gotta hold on",
+            "we got to hold on"
+          ],
+          "answer": "we gotta hold on"
+        },
+        {
+          "number": 33,
+          "lineId": "line-34",
+          "prompt": "Ooh, 〔第 32 題〕, {{blank}}",
+          "promptZh": "噢，我們必須堅持住，無論準備好與否",
+          "options": [
+            "ready or never",
+            "ready or not now",
+            "ready or not"
+          ],
+          "answer": "ready or not"
+        },
+        {
+          "number": 34,
+          "lineId": "line-35",
+          "prompt": "You {{blank}} when that's 〔第 35 題〕",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "live for the fight",
+            "live for the game",
+            "live for the night"
+          ],
+          "answer": "live for the fight"
+        },
+        {
+          "number": 35,
+          "lineId": "line-35",
+          "prompt": "You 〔第 34 題〕 when that's {{blank}}",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "all that you own",
+            "all that you have",
+            "all that you've got"
+          ],
+          "answer": "all that you've got"
+        },
+        {
+          "number": 36,
+          "lineId": "line-36",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "halfway there",
+            "we are halfway there",
+            "we're half way there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 37,
+          "lineId": "line-37",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a dream",
+            "living on a prayer",
+            "living on a hope"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 38,
+          "lineId": "line-38",
+          "prompt": "{{blank}} 〔第 39 題〕, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Hold my hand and",
+            "Take my hand and",
+            "Take my hand"
+          ],
+          "answer": "Take my hand and"
+        },
+        {
+          "number": 39,
+          "lineId": "line-38",
+          "prompt": "〔第 38 題〕 {{blank}}, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "we'll take it",
+            "we will make it",
+            "we'll make it"
+          ],
+          "answer": "we'll make it"
+        },
+        {
+          "number": 40,
+          "lineId": "line-42",
+          "prompt": "{{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my hand and we'll make it, I swear",
+            "Take my hand, we'll make it, I swear",
+            "Take your hand and we'll make it, I swear"
+          ],
+          "answer": "Take my hand and we'll make it, I swear"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Once upon a time, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Tommy used to {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}, he's {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gina works the {{q:7}} all day"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:8}}, she {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "For love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Mm, for love"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}}, \"We've gotta {{q:11}} to {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "It {{q:13}} {{q:14}} or not"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We've got {{q:15}} and {{q:16}} for love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}} it a shot\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:20}}, we'll make it, {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tommy's got his {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Now he's {{q:23}}, when he {{q:24}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So tough"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ooh, it's tough"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gina {{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When she {{q:27}}, Tommy {{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Someday\""
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We've gotta hold on to what we've got"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "It doesn't make a difference if we make it or not"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We've got each other and that's a lot for love"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We'll give it a shot"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Whoa-oh, {{q:31}}, living on a prayer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ooh, {{q:32}}, {{q:33}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You {{q:34}} when that's {{q:35}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Whoa, we're {{q:36}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoa-oh, {{q:37}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:38}} {{q:39}}, I swear"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Whoa, we're halfway there"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Whoa-oh, living on a prayer"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "Once upon a time, {{blank}}",
+          "promptZh": "從前從前，就在不久之前",
+          "options": [
+            "not that long ago",
+            "not so long ago",
+            "not very long ago"
+          ],
+          "answer": "not so long ago"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Tommy used to {{blank}}",
+          "promptZh": "Tommy 曾在碼頭工作",
+          "options": [
+            "work on the docks",
+            "work at the docks",
+            "work in the docks"
+          ],
+          "answer": "work on the docks"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "{{blank}}, he's 〔第 4 題〕",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "Union has been on strike",
+            "Union's been on strike",
+            "Union's gone on strike"
+          ],
+          "answer": "Union's been on strike"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "〔第 3 題〕, he's {{blank}}",
+          "promptZh": "工會正在罷工，他時運不濟",
+          "options": [
+            "down on his time",
+            "out of his luck",
+            "down on his luck"
+          ],
+          "answer": "down on his luck"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "It's {{blank}}",
+          "promptZh": "日子很難熬",
+          "options": [
+            "tough",
+            "rough",
+            "hard"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "So {{blank}}",
+          "promptZh": "如此艱難",
+          "options": [
+            "tough",
+            "rough",
+            "hard"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "Gina works the {{blank}} all day",
+          "promptZh": "Gina 在小餐館工作一整天",
+          "options": [
+            "drive-in",
+            "dinner",
+            "diner"
+          ],
+          "answer": "diner"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "{{blank}}, she 〔第 9 題〕",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "Working for her love",
+            "Working for her man",
+            "Working for herself"
+          ],
+          "answer": "Working for her man"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "〔第 8 題〕, she {{blank}}",
+          "promptZh": "為了她的男人，她帶著薪水回家",
+          "options": [
+            "brings back her pay",
+            "brings home her pay",
+            "takes home her pay"
+          ],
+          "answer": "brings home her pay"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "{{blank}}, \"We've gotta 〔第 11 題〕 to 〔第 12 題〕",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "She says",
+            "She said",
+            "She tells"
+          ],
+          "answer": "She says"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "〔第 10 題〕, \"We've gotta {{blank}} to 〔第 12 題〕",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "hold in",
+            "hold out",
+            "hold on"
+          ],
+          "answer": "hold on"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "〔第 10 題〕, \"We've gotta 〔第 11 題〕 to {{blank}}",
+          "promptZh": "她說：「我們必須緊握所擁有的一切",
+          "options": [
+            "what we have got",
+            "what we've got",
+            "what we have"
+          ],
+          "answer": "what we've got"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "It {{blank}} 〔第 14 題〕 or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "doesn't make a difference",
+            "don't make a difference",
+            "doesn't make any difference"
+          ],
+          "answer": "doesn't make a difference"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "It 〔第 13 題〕 {{blank}} or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "if we fake it",
+            "if we take it",
+            "if we make it"
+          ],
+          "answer": "if we make it"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "We've got {{blank}} and 〔第 16 題〕 for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "each other",
+            "one another",
+            "each another"
+          ],
+          "answer": "each other"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "We've got 〔第 15 題〕 and {{blank}} for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "that's a lot for us",
+            "that's enough",
+            "that's a lot"
+          ],
+          "answer": "that's a lot"
+        },
+        {
+          "number": 17,
+          "lineId": "line-13",
+          "prompt": "{{blank}} it a shot\"",
+          "promptZh": "我們就試一試吧」",
+          "options": [
+            "We will give",
+            "We'll give",
+            "We'll take"
+          ],
+          "answer": "We'll give"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "never halfway there",
+            "halfway home",
+            "halfway there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a dream",
+            "living on a prayer",
+            "living on a hope"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, we'll make it, 〔第 21 題〕",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my hand",
+            "Hold my hand",
+            "Take my time"
+          ],
+          "answer": "Take my hand"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "〔第 20 題〕, we'll make it, {{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "I vow",
+            "I promise",
+            "I swear"
+          ],
+          "answer": "I swear"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a dream",
+            "living on a prayer",
+            "living on a hope"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "Tommy's got his six-string {{blank}}",
+          "promptZh": "Tommy 把他的吉他拿去典當了",
+          "options": [
+            "in hock",
+            "in debt",
+            "in pawn"
+          ],
+          "answer": "in hock"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "Now he's {{blank}}, when he 〔第 25 題〕",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "holding back",
+            "holding in",
+            "holding out"
+          ],
+          "answer": "holding in"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "Now he's 〔第 24 題〕, when he {{blank}}",
+          "promptZh": "現在他只能隱忍，過去他總能讓吉他說話",
+          "options": [
+            "used to make it talk",
+            "used to make it walk",
+            "used to make it sing"
+          ],
+          "answer": "used to make it talk"
+        },
+        {
+          "number": 26,
+          "lineId": "line-20",
+          "prompt": "So {{blank}}",
+          "promptZh": "如此艱難",
+          "options": [
+            "hard",
+            "rough",
+            "tough"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "Ooh, it's {{blank}}",
+          "promptZh": "噢，日子很難熬",
+          "options": [
+            "rough",
+            "tough",
+            "hard"
+          ],
+          "answer": "tough"
+        },
+        {
+          "number": 28,
+          "lineId": "line-22",
+          "prompt": "Gina {{blank}} 〔第 29 題〕",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "dreams about",
+            "thinks of",
+            "dreams of"
+          ],
+          "answer": "dreams of"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "Gina 〔第 28 題〕 {{blank}}",
+          "promptZh": "Gina 夢想著逃跑",
+          "options": [
+            "running away",
+            "running along",
+            "running apart"
+          ],
+          "answer": "running away"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "When she {{blank}}, Tommy 〔第 31 題〕",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "cries at night",
+            "cries in the dark",
+            "cries in the night"
+          ],
+          "answer": "cries in the night"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "When she 〔第 30 題〕, Tommy {{blank}}",
+          "promptZh": "當她在夜裡哭泣，Tommy 輕聲說",
+          "options": [
+            "mutters",
+            "whispers",
+            "speaks"
+          ],
+          "answer": "whispers"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "{{blank}}",
+          "promptZh": "「寶貝，沒事的",
+          "options": [
+            "\"Baby, it's okay",
+            "\"Baby, it's alright",
+            "\"Baby, it is okay"
+          ],
+          "answer": "\"Baby, it's okay"
+        },
+        {
+          "number": 33,
+          "lineId": "line-26",
+          "prompt": "We've gotta {{blank}} to what we've got",
+          "promptZh": "我們必須緊握所擁有的一切",
+          "options": [
+            "hold on",
+            "hold out",
+            "hold in"
+          ],
+          "answer": "hold on"
+        },
+        {
+          "number": 34,
+          "lineId": "line-27",
+          "prompt": "It doesn't {{blank}} if we make it or not",
+          "promptZh": "我們成功與否都無所謂",
+          "options": [
+            "make a living",
+            "make a change",
+            "make a difference"
+          ],
+          "answer": "make a difference"
+        },
+        {
+          "number": 35,
+          "lineId": "line-28",
+          "prompt": "We've got each other and {{blank}} for love",
+          "promptZh": "我們擁有彼此，對愛來說這已經足夠",
+          "options": [
+            "that's enough",
+            "that's a lot",
+            "that's a lot for us"
+          ],
+          "answer": "that's a lot"
+        },
+        {
+          "number": 36,
+          "lineId": "line-29",
+          "prompt": "We'll {{blank}}",
+          "promptZh": "我們就試一試吧",
+          "options": [
+            "give it a try",
+            "give it a shot",
+            "give it a chance"
+          ],
+          "answer": "give it a shot"
+        },
+        {
+          "number": 37,
+          "lineId": "line-30",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "never halfway there",
+            "halfway home",
+            "halfway there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my hand, we'll make it I swear",
+            "Take my hand, we will make it I swear",
+            "Take your hand, we'll make it I swear"
+          ],
+          "answer": "Take my hand, we'll make it I swear"
+        },
+        {
+          "number": 39,
+          "lineId": "line-33",
+          "prompt": "Whoa-oh, {{blank}}, living on a prayer",
+          "promptZh": "噢——噢，靠著祈禱過活，靠著祈禱過活",
+          "options": [
+            "living on a dream",
+            "living on a hope",
+            "living on a prayer"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 40,
+          "lineId": "line-34",
+          "prompt": "Ooh, {{blank}}, 〔第 41 題〕",
+          "promptZh": "噢，我們必須堅持住，無論準備好與否",
+          "options": [
+            "we gotta hold on",
+            "we've gotta hold on",
+            "we got to hold on"
+          ],
+          "answer": "we gotta hold on"
+        },
+        {
+          "number": 41,
+          "lineId": "line-34",
+          "prompt": "Ooh, 〔第 40 題〕, {{blank}}",
+          "promptZh": "噢，我們必須堅持住，無論準備好與否",
+          "options": [
+            "ready or not now",
+            "ready or not",
+            "ready or never"
+          ],
+          "answer": "ready or not"
+        },
+        {
+          "number": 42,
+          "lineId": "line-35",
+          "prompt": "You {{blank}} when that's 〔第 43 題〕",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "live for the game",
+            "live for the fight",
+            "live for the night"
+          ],
+          "answer": "live for the fight"
+        },
+        {
+          "number": 43,
+          "lineId": "line-35",
+          "prompt": "You 〔第 42 題〕 when that's {{blank}}",
+          "promptZh": "當你一無所有時，你只能為戰鬥而活",
+          "options": [
+            "all that you own",
+            "all that you have",
+            "all that you've got"
+          ],
+          "answer": "all that you've got"
+        },
+        {
+          "number": 44,
+          "lineId": "line-36",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "halfway there",
+            "we are halfway there",
+            "we're half way there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 45,
+          "lineId": "line-37",
+          "prompt": "Whoa-oh, {{blank}}",
+          "promptZh": "噢——噢，靠著祈禱過活",
+          "options": [
+            "living on a prayer",
+            "living on a dream",
+            "living on a hope"
+          ],
+          "answer": "living on a prayer"
+        },
+        {
+          "number": 46,
+          "lineId": "line-38",
+          "prompt": "{{blank}} 〔第 47 題〕, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take my hand",
+            "Hold my hand and",
+            "Take my hand and"
+          ],
+          "answer": "Take my hand and"
+        },
+        {
+          "number": 47,
+          "lineId": "line-38",
+          "prompt": "〔第 46 題〕 {{blank}}, I swear",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "we will make it",
+            "we'll make it",
+            "we'll take it"
+          ],
+          "answer": "we'll make it"
+        },
+        {
+          "number": 48,
+          "lineId": "line-40",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "halfway there",
+            "halfway home",
+            "never halfway there"
+          ],
+          "answer": "halfway there"
+        },
+        {
+          "number": 49,
+          "lineId": "line-42",
+          "prompt": "{{blank}}",
+          "promptZh": "牽著我的手，我們會撐過去的，我發誓",
+          "options": [
+            "Take your hand and we'll make it, I swear",
+            "Take my hand, we'll make it, I swear",
+            "Take my hand and we'll make it, I swear"
+          ],
+          "answer": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "number": 50,
+          "lineId": "line-44",
+          "prompt": "Whoa, we're {{blank}}",
+          "promptZh": "噢，我們已經走了一半",
+          "options": [
+            "halfway home",
+            "halfway there",
+            "never halfway there"
+          ],
+          "answer": "halfway there"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Once upon a time, {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Tommy used to {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:3}}, he's {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "It's {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "So {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gina works the {{q:7}} all day"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:8}}, she {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "For love"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Mm, for love"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:10}}, \"We've gotta {{q:11}} to {{q:12}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "It {{q:13}} {{q:14}} or not"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We've got {{q:15}} and {{q:16}} for love"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:17}} it a shot\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Whoa, we're {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Whoa-oh, {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:20}}, we'll make it, {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Whoa-oh, {{q:22}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Tommy's got his six-string {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Now he's {{q:24}}, when he {{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "So {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Ooh, it's {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Gina {{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "When she {{q:30}}, Tommy {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Someday\""
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We've gotta {{q:33}} to what we've got"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "It doesn't {{q:34}} if we make it or not"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We've got each other and {{q:35}} for love"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "We'll {{q:36}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Whoa, we're {{q:37}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Whoa-oh, {{q:39}}, living on a prayer"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Ooh, {{q:40}}, {{q:41}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "You {{q:42}} when that's {{q:43}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Whoa, we're {{q:44}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Whoa-oh, {{q:45}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:46}} {{q:47}}, I swear"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Whoa, we're {{q:48}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Whoa, we're {{q:50}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Whoa-oh, living on a prayer"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Take my hand and we'll make it, I swear"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Whoa-oh, living on a prayer"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/livin-on-a-prayer/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/livin-on-a-prayer/user-cover-20261029.png",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Livin' On A Prayer_.pdf",
+      "sha256": "2e0154f088964c5a2405713064dac06741307326a97418d3417b5c17523e7ca5"
+    },
+    "md": {
+      "filename": "Livin_On_A_Prayer_Vocabulary_Quiz.md",
+      "sha256": "d758889f75bca05703013b20f5876c9376f3c111a242231bad359de34e0af61a"
+    },
+    "mp3": {
+      "filename": "Livin' On A Prayer [YBdyc1WDlBQ].mp3",
+      "sha256": "4d2dd5adeea2f91084ce0b675b96247a80446a42f6d885ecd8e33a7a0da8ca23"
+    }
+  },
+  "audioAlignment": {
+    "duration": 249.2933125,
+    "audioSha256": "4d2dd5adeea2f91084ce0b675b96247a80446a42f6d885ecd8e33a7a0da8ca23",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.705989110707804,
+    "timedLines": 19,
+    "untimedLines": [
+      1,
+      6,
+      7,
+      8,
+      9,
+      15,
+      17,
+      18,
+      21,
+      23,
+      24,
+      25,
+      26,
+      28,
+      30,
+      31,
+      33,
+      35,
+      36,
+      37,
+      39,
+      40,
+      41,
+      43,
+      44,
+      45,
+      46,
+      47
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-24334f32-edaa-46bc-8dd1-03d419ea4ec9.png",
+    "sha256": "d1f4142dd5886ff5edb5bf7833a42ccaa6048ab1c59f676d8222c461cfedfbb3",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "0a12482c62e4a03a18e32896754839e43dcfa077dea0be536da007966a7e4148"
+    },
+    {
+      "section": "structure",
+      "filename": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "58d080a49f4a49186a9777969a3dc8565340f44a8a65dc446dbaf867f6172aa6"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "docks",
+          "meaning": "碼頭；船隻停靠及裝卸貨物的區域（B2）",
+          "usage": "談港口工作、船隻停靠或貨物運輸。",
+          "prompt": "哪一句正確使用「docks」？",
+          "options": [
+            "The students sailed the docks across the deep blue sea.",
+            "The workers carried boxes from the ship onto the docks.",
+            "The farmers planted the docks in the field last week.",
+            "The pilots left the docks after landing at the airport."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：docks 是碼頭設施，不是可以駕駛的船。",
+            "正確：docks 指港口供船停靠與搬運貨物的設施。",
+            "錯誤：docks 不是能種在農田裡的作物。",
+            "錯誤：飛機停靠的是 airport gate，不是港口碼頭。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：docks 指港口供船停靠與搬運貨物的設施。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "union",
+          "meaning": "工會；代表勞工利益的組織（B2）",
+          "usage": "談員工集體協商、工作權益或工會代表。",
+          "prompt": "哪一句正確使用「union」？",
+          "options": [
+            "The union spoke to the company about safer working hours.",
+            "The union drove the boat across the lake by itself.",
+            "The union is a new kind of bus for city workers.",
+            "Our union was served with rice at the hotel restaurant."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：工會代表員工向公司反映工作條件。",
+            "錯誤：工會不能像個人一樣自行駕駛船隻。",
+            "錯誤：union 在此是工會，不是給員工乘坐的公車。",
+            "錯誤：工會是組織，並非一道可以配飯的料理。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：工會代表員工向公司反映工作條件。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "diner",
+          "meaning": "（美式）簡便餐館、小餐廳（B1）",
+          "usage": "談供應早餐、漢堡等簡單餐點的小餐館。",
+          "prompt": "哪一句正確使用「diner」？",
+          "options": [
+            "We stopped at a small diner for breakfast on our trip.",
+            "The driver filled the diner with fuel at the gas station.",
+            "She put the diner in her bag before leaving home.",
+            "We watched the diner swim beside the fishing boat."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：diner 指供應簡單餐點的小型餐館。",
+            "錯誤：車子要加油，餐館不能當油箱來加油。",
+            "錯誤：餐館不是能放進包包的小物品。",
+            "錯誤：diner 是餐館，不是會游泳的生物。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：diner 指供應簡單餐點的小型餐館。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "brings home her pay",
+          "meaning": "把賺得的薪水帶回家（B1–B2）",
+          "usage": "談工作收入用於家庭生活；一般說 bring home one’s pay。",
+          "prompt": "哪一句正確使用「brings home her pay」？",
+          "options": [
+            "The nurse brings home her pay by putting the hospital in a box.",
+            "After her shift, Gina brings home her pay to help with the bills.",
+            "The student brings home her pay when she forgets her library book.",
+            "The singer brings home her pay by singing the same song loudly."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：bring home pay 指帶回收入，不是把整間醫院裝箱。",
+            "正確：下班把工作所得帶回家，用於支付帳單。",
+            "錯誤：忘記圖書館書籍與賺薪水沒有關聯。",
+            "錯誤：唱歌可以是工作，但本句沒有清楚交代所得薪資，重複唱歌也不是這片語的涵義。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：下班把工作所得帶回家，用於支付帳單。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "swear",
+          "meaning": "鄭重保證、發誓；也可表示說髒話（B2）",
+          "usage": "向人認真保證某事真實，常用 I swear / swear to do。",
+          "prompt": "哪一句正確使用「swear」？",
+          "options": [
+            "He swore his dinner with a spoon after school.",
+            "I swear the chairs into the room before the show.",
+            "I swear I will return your camera after the trip.",
+            "They swear the mountain at nine every morning."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：swear 不是吃飯或使用湯匙的動詞。",
+            "錯誤：搬椅子要用 carry / move，不是 swear。",
+            "正確：I swear 表示鄭重承諾會歸還相機。",
+            "錯誤：swear 不表示爬山、經過山或到達山頂。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：I swear 表示鄭重承諾會歸還相機。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "six-string",
+          "meaning": "六弦吉他（口語／音樂用語，B2）",
+          "usage": "音樂人非正式地以 six-string 指一般六弦吉他。",
+          "prompt": "哪一句正確使用「six-string」？",
+          "options": [
+            "The cook mixed flour and milk with a six-string.",
+            "The six-string was a ticket that let us enter the museum.",
+            "He played his six-string on stage during the concert.",
+            "She used a six-string to check the temperature of the water."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：攪拌食材需用適當廚具，六弦吉他不是攪拌器。",
+            "錯誤：這裡的 six-string 指吉他，不是入場票券。",
+            "正確：舞台上彈奏六弦吉他，語意自然。",
+            "錯誤：測量水溫要用 thermometer，不用吉他。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：舞台上彈奏六弦吉他，語意自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "in hock",
+          "meaning": "被典當；作為抵押品（非正式，C1）",
+          "usage": "談為換取現金而把貴重物品暫時典當。",
+          "prompt": "哪一句正確使用「in hock」？",
+          "options": [
+            "The school was in hock because it won a football game.",
+            "The wedding cake was in hock because it tasted sweet.",
+            "The old car was in hock because its windows were too dirty.",
+            "His guitar was in hock, so he needed money to get it back."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：比賽獲勝並不能說明學校有抵押物。",
+            "錯誤：甜味與抵押或典當並沒有關係。",
+            "錯誤：窗戶髒不表示物品已被典當。",
+            "正確：吉他被典當，必須付錢才能贖回。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：吉他被典當，必須付錢才能贖回。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "holding in",
+          "meaning": "忍住、壓抑情緒（B2）",
+          "usage": "談強忍眼淚、笑聲、怒氣等；常說 hold in tears。",
+          "prompt": "哪一句正確使用「holding in」？",
+          "options": [
+            "She was holding in her tears during the sad film.",
+            "The team was holding in the ball across the football field.",
+            "My aunt was holding in her shoes before going to bed.",
+            "He was holding in the train to reach the next station."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：強忍眼淚、不讓它流出，符合 hold in 用法。",
+            "錯誤：把球帶過球場通常說 carrying / passing the ball。",
+            "錯誤：鞋子要穿上或拿著，不能用 holding in 表示這些動作。",
+            "錯誤：搭火車用 take the train；此片語不是交通動作。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：強忍眼淚、不讓它流出，符合 hold in 用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "whispers",
+          "meaning": "低聲說、耳語（B1）",
+          "usage": "怕打擾別人或想保密時小聲說話。",
+          "prompt": "哪一句正確使用「whispers」？",
+          "options": [
+            "My friend whispers the race to the finish line at noon.",
+            "The guide whispers so the sleeping baby will not wake up.",
+            "The doctor whispers the train into the station every day.",
+            "The mechanic whispers a new tire onto the broken car."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：whisper 是說話方式，不是進行賽跑。",
+            "正確：為了不吵醒嬰兒而小聲說話。",
+            "錯誤：低語不能表示使火車駛進車站。",
+            "錯誤：換輪胎要用 puts / fits，whisper 並不表示安裝。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：為了不吵醒嬰兒而小聲說話。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "live for the fight",
+          "meaning": "為奮鬥而活；以迎接挑戰為生活動力（比喻，B2）",
+          "usage": "形容積極面對困難；歌詞中的強烈比喻，非日常固定慣用語。",
+          "prompt": "哪一句正確使用「live for the fight」？",
+          "options": [
+            "I live for the fight because my new notebook is blue.",
+            "Our coach lives for the fight, so he makes lunch with a whistle.",
+            "The museum lives for the fight by closing at five every day.",
+            "She lives for the fight and keeps trying after every loss."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：筆記本顏色不能合理解釋把挑戰當成人生動力。",
+            "錯誤：教練可熱衷挑戰，但用哨子做午餐不符合片語的涵義。",
+            "錯誤：準時關門與奮鬥的意涵沒有關聯。",
+            "正確：屢次失敗仍持續努力，符合為奮鬥而活的比喻。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：屢次失敗仍持續努力，符合為奮鬥而活的比喻。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "故事開場：Once upon a time",
+          "meaning": "用「從前」引出故事；這個故事開頭也接著「不久以前」，形成略帶幽默的對比。",
+          "usage": "講故事、朗讀童話或故意以故事口吻分享經歷。",
+          "prompt": "· 情境判斷 — 爺爺開始講一個關於會說話的樹的故事，哪一句適合開頭？",
+          "options": [
+            "The tree is once upon a time tall.",
+            "Once upon a time is on the kitchen shelf.",
+            "Once upon a time, a tree could sing.",
+            "I once upon a time my camera."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：片語不能當成形容詞修飾 tall。",
+            "錯誤：把時間開場語當作架上的物品。",
+            "正確：片語放在故事開頭，後面接過去情節。",
+            "錯誤：片語不能當作動詞。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：Once upon a time",
+          "pattern": [
+            {
+              "text": "Once upon a time,",
+              "fixed": true
+            },
+            {
+              "text": "過去發生的事",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：片語放在故事開頭，後面接過去情節。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "過去習慣：used to + 原形",
+          "meaning": "表示以前經常做某事，通常暗示現在情況已改變。",
+          "usage": "對比以前和現在的工作、生活習慣。",
+          "prompt": "· 情境判斷 — 陶藝家現在畫畫，以前常做陶杯。如何表達？",
+          "options": [
+            "She used to make cups.",
+            "She used to making cups.",
+            "She is used to make cups.",
+            "She used make cups."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：used to make 表示過去習慣。",
+            "錯誤：used to 後要用 make 原形。",
+            "錯誤：is used to 結構不同，不能用此句表達過去習慣。",
+            "錯誤：少了 to。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：used to work",
+          "pattern": [
+            {
+              "text": "used to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：used to make 表示過去習慣。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在完成式：has been + 狀態",
+          "meaning": "從過去開始的狀態與現在仍有關聯；此處 union’s 是 union has。",
+          "usage": "說明某個從之前延續至今的情況。",
+          "prompt": "· 情境判斷 — 一間修車廠從星期一開始一直關門，現在仍沒營業。",
+          "options": [
+            "The shop has be closed since Monday.",
+            "The shop has been closed since Monday.",
+            "The shop have been closed since Monday.",
+            "The shop was closed tomorrow since Monday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：been 不能改成 be。",
+            "正確：has been closed 表示延續至今的狀態。",
+            "錯誤：單數 shop 要配 has。",
+            "錯誤：tomorrow 與這個過去起算的時間不合。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：Union's been on strike",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "has/have been",
+              "fixed": true
+            },
+            {
+              "text": "狀態",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：has been closed 表示延續至今的狀態。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "狀態片語：be on strike",
+          "meaning": "表示員工因爭取權益而集體停止工作。",
+          "usage": "報導勞資爭議；與歌中人物經濟困難有關。",
+          "prompt": "· 情境判斷 — 工人為了更安全的工地停止上班。",
+          "options": [
+            "The workers are on strike.",
+            "The workers are on a strike of music.",
+            "The workers strike on their lunch boxes.",
+            "The building is on strike because it is tall."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：are on strike 指員工正在罷工。",
+            "錯誤：不自然地加入 a strike of music。",
+            "錯誤：句子沒有自然表達集體停工。",
+            "錯誤：建築物本身不是罷工的員工。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：been on strike",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be on strike",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：are on strike 指員工正在罷工。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "處境：be down on one’s luck",
+          "meaning": "表示一段時間接連不順，尤其遇上經濟或生活困難。",
+          "usage": "描述朋友最近遭遇失業、失物等挫折。",
+          "prompt": "· 情境判斷 — 修車師傅失去工作，車又壞了。",
+          "options": [
+            "His bike is down on its luck because it is red.",
+            "He down on his luck yesterday.",
+            "He is down on his luck.",
+            "He is down on his chair of luck."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：車子的顏色不能說明一個人時運不濟。",
+            "錯誤：少了 be 動詞。",
+            "正確：表達最近處境不順。",
+            "錯誤：把慣用語誤解成椅子上的位置。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：down on his luck",
+          "pattern": [
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "be down on",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": false
+            },
+            {
+              "text": "luck",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：表達最近處境不順。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "現在簡單式描述日常",
+          "meaning": "用現在簡單式描述經常發生的事；歌中的 works the diner 是口語化的工作表達。",
+          "usage": "談工作或每天的習慣。",
+          "prompt": "· 情境判斷 — 描述劇院售票員每週六都在工作。",
+          "options": [
+            "The clerk work on Saturdays.",
+            "The clerk worked tomorrow on Saturdays.",
+            "The clerk works on Saturdays.",
+            "The clerk working on Saturdays."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：單數 clerk 需用 works。",
+            "錯誤：worked 是過去式，與未來 tomorrow 衝突。",
+            "正確：現在簡單式搭配固定的週六習慣。",
+            "錯誤：缺少 be，不能單用 working 當謂語。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：Gina works the diner all day",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "現在簡單式動詞",
+              "fixed": true
+            },
+            {
+              "text": "工作或習慣",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：現在簡單式搭配固定的週六習慣。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "現在分詞開頭補充情境",
+          "meaning": "以分詞片語補充主句中同一個主詞的背景或同時動作。",
+          "usage": "簡潔說明一個人做事時的背景。",
+          "prompt": "· 情境判斷 — 義工在公園撿垃圾，同時幫助社區。",
+          "options": [
+            "Helping her town, Mia cleans the park.",
+            "Helping her town Mia cleaning the park.",
+            "Help her town, Mia cleans the park.",
+            "Helping her town, the park cleans Mia."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：Helping 的行動者和主句 Mia 一致。",
+            "錯誤：主句沒有完整限定動詞。",
+            "錯誤：這裡要用 Helping 分詞而非 Help。",
+            "錯誤：分詞行動者變成 park，語意錯位。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：Working for her man",
+          "pattern": [
+            {
+              "text": "V-ing + 介系詞片語,",
+              "fixed": true
+            },
+            {
+              "text": "完整主句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Helping 的行動者和主句 Mia 一致。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "片語：bring home + 名詞",
+          "meaning": "表示把薪水或其他物品帶回家；bring home the pay 也可說賺錢養家。",
+          "usage": "描述工作收入與家庭生活。",
+          "prompt": "· 情境判斷 — 小鎮的麵包師下班把工資帶回家。",
+          "options": [
+            "The baker brings his pay home to blue.",
+            "The baker bring home his pay every day.",
+            "The baker brings home to his pay.",
+            "The baker brings home his pay."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to blue 沒有自然意義。",
+            "錯誤：單數 baker 搭現在式要 brings。",
+            "錯誤：home 後面不需要 to。",
+            "正確：bring home + pay，單數 baker 用 brings。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：brings home her pay",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "bring(s) home",
+              "fixed": true
+            },
+            {
+              "text": "帶回的事物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：bring home + pay，單數 baker 用 brings。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "直接引述：say + 引號內容",
+          "meaning": "用 says 引出人物直接說出的話，保留說話者原本的語氣。",
+          "usage": "敘述有人當下常說的一句鼓勵。",
+          "prompt": "· 情境判斷 — 你要在故事中直接引用小提琴老師的話。",
+          "options": [
+            "Mina says to “Keep trying.”",
+            "Mina says, “Keep trying.”",
+            "Mina says, kept trying.",
+            "Mina say, “Keep trying.”"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：這裡不是 says to 後接直接引述的結構。",
+            "正確：says 後直接用引號表示原話。",
+            "錯誤：缺引號，且改變了原本命令語氣。",
+            "錯誤：Mina 是單數，需 says。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：She says,",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "says, “",
+              "fixed": true
+            },
+            {
+              "text": "直接說的話",
+              "fixed": false
+            },
+            {
+              "text": "”",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：says 後直接用引號表示原話。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "必須：have got to（歌中 gotta）",
+          "meaning": "歌中的 gotta 是口語縮略，表示「必須」；不要把 gotta 當正式寫作標準形式。",
+          "usage": "強調時間緊迫、需要採取行動。",
+          "prompt": "· 情境判斷 — 博物館五分鐘後關門，兩人必須立即出發。",
+          "options": [
+            "We gotta left now.",
+            "We gotta to leave now.",
+            "We gotta leaving now.",
+            "We gotta leave now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：gotta 後不用過去式 left。",
+            "錯誤：gotta 已包含 to 的意思，不再加 to。",
+            "錯誤：gotta 後不是 leaving。",
+            "正確：歌中的口語 gotta 後接原形 leave；正式文體可用 have got to leave。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：We've gotta hold on",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has gotta",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：歌中的口語 gotta 後接原形 leave；正式文體可用 have got to leave。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "片語：hold on to + 受詞",
+          "meaning": "表示抓緊、保留珍貴的東西；可以是實物或希望。",
+          "usage": "提醒某人不要放棄重要事物。",
+          "prompt": "· 情境判斷 — 山路刮大風，登山者需要抓牢繩子。",
+          "options": [
+            "Hold to on the rope.",
+            "Hold on to quickly.",
+            "Hold on to the rope.",
+            "Hold on the rope to."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：片語詞序不正確。",
+            "錯誤：quickly 是副詞，不能當要抓住的對象。",
+            "正確：hold on to 後接 the rope。",
+            "錯誤：to 的位置錯誤。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：hold on to what we've got",
+          "pattern": [
+            {
+              "text": "hold on to",
+              "fixed": true
+            },
+            {
+              "text": "名詞／名詞子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：hold on to 後接 the rope。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "名詞子句：what + 主詞 + 動詞",
+          "meaning": "what 引出「……的東西」；整段充當 hold on to 的受詞。",
+          "usage": "不具體列出每個物品，總稱一個人所擁有的東西。",
+          "prompt": "· 情境判斷 — 整理搬家物品時，你想說「我們應保留我們需要的東西」。",
+          "options": [
+            "We should keep what we need.",
+            "We should keep what do we need.",
+            "We should keep what to we need.",
+            "We should keep what need we."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：what we need 是名詞子句，語序如陳述句。",
+            "錯誤：名詞子句不採直接問句的 do 倒裝。",
+            "錯誤：多加 to 破壞子句。",
+            "錯誤：主詞、動詞語序顛倒。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：what we've got",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what we need 是名詞子句，語序如陳述句。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "否定現在式：doesn’t + 原形",
+          "meaning": "第三人稱單數的現在簡單式否定，後面的動詞用原形。",
+          "usage": "說某事不會改變結果。",
+          "prompt": "· 情境判斷 — 比賽可以穿紅帽或藍帽；顏色不影響規則。",
+          "options": [
+            "The color doesn’t matters.",
+            "The color doesn’t matter.",
+            "The color don’t matter.",
+            "The color didn’t matters."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：doesn’t 後不能再加 -s。",
+            "正確：doesn’t 後用 matter 原形。",
+            "錯誤：單數 color 配 doesn’t。",
+            "錯誤：didn’t 後也不能加 -s。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：It doesn't make a difference",
+          "pattern": [
+            {
+              "text": "單數主詞",
+              "fixed": false
+            },
+            {
+              "text": "doesn’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：doesn’t 後用 matter 原形。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "make a difference + if 子句",
+          "meaning": "談「某件事是否發生」會不會造成影響；or not 明示兩種可能。",
+          "usage": "比較是否成功、是否參加會不會改變安排。",
+          "prompt": "· 情境判斷 — 屋頂派對無論下不下雨都會移到室內，如何表達？",
+          "options": [
+            "It makes no difference if rain or not it.",
+            "It makes no difference if raining or not.",
+            "It makes no difference if it rains or not.",
+            "It makes no difference if does it rain or not."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：子句缺乏正確主動詞結構。",
+            "錯誤：少了 if 子句的主詞。",
+            "正確：if it rains or not 是正常子句。",
+            "錯誤：if 子句不採問句倒裝。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：make a difference if we make it or not",
+          "pattern": [
+            {
+              "text": "make a difference if",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            },
+            {
+              "text": "or not",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：if it rains or not 是正常子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "相互關係：each other",
+          "meaning": "彼此、互相，表示關係是雙向的；歌中指互相支持。",
+          "usage": "兩個隊友互相幫助。",
+          "prompt": "· 情境判斷 — 兩位園丁在溫室互相幫忙。",
+          "options": [
+            "The two gardeners help each other.",
+            "The two gardeners help each another.",
+            "The two gardeners help each others.",
+            "The two gardeners help to each other."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：each other 表示互相，無須加 s。",
+            "錯誤：應說 each other 或 one another。",
+            "錯誤：each other 不加複數 s。",
+            "錯誤：help each other 不用 to。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：We've got each other",
+          "pattern": [
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            },
+            {
+              "text": "each other",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：each other 表示互相，無須加 s。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "未來承諾：will + 原形",
+          "meaning": "用 will 表示當下的決定、承諾或對未來的預期。",
+          "usage": "答應朋友會試新活動。",
+          "prompt": "· 情境判斷 — 朋友邀請你下次參加天文觀察。",
+          "options": [
+            "I will joined you next week.",
+            "I will join you next week.",
+            "I will to join you next week.",
+            "I will joining you next week."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：will 後不用過去式。",
+            "正確：will + join 原形。",
+            "錯誤：will 後不加 to。",
+            "錯誤：will 後不能直接用 -ing。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：We'll give it a shot",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will + join 原形。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "慣用語：give it a shot",
+          "meaning": "口語「試試看」，不是真正射擊；可用於不熟悉但願意嘗試的活動。",
+          "usage": "鼓勵自己學陶藝、唱歌或做新菜。",
+          "prompt": "· 情境判斷 — 有人邀請你試吹陶笛，你從未玩過但願意嘗試。",
+          "options": [
+            "I have never played, but I’ll give it a shot.",
+            "I will give the flute a gun shot.",
+            "I gave it a shot because it is a chair.",
+            "I give it a shot to my pocket."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：給新活動一次機會，慣用語自然。",
+            "錯誤：把 shot 誤解為槍擊。",
+            "錯誤：椅子與嘗試活動沒有關係。",
+            "錯誤：片語不表示放東西進口袋。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：give it a shot",
+          "pattern": [
+            {
+              "text": "give it a shot",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：給新活動一次機會，慣用語自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "進度：be halfway there",
+          "meaning": "表示路程或工作已經到達中間階段。",
+          "usage": "描述爬山、修屋、做藝術品的進度。",
+          "prompt": "· 情境判斷 — 你已完成八幅壁畫中的四幅。",
+          "options": [
+            "We are halfway to there.",
+            "We are halfway there.",
+            "We halfway there are.",
+            "We have halfway there."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：halfway there 不需加 to。",
+            "正確：完成一半，be halfway there 自然。",
+            "錯誤：語序錯。",
+            "錯誤：缺少 be 來描述狀態。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：we're halfway there",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be halfway there",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：完成一半，be halfway there 自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "隱喻片語：live on + 支持來源",
+          "meaning": "一般表示靠某物維生；歌中是詩意地靠希望與信念支撐。",
+          "usage": "描述靠有限的資源度日，或比喻精神寄託。",
+          "prompt": "· 情境判斷 — 一位年輕畫家只靠賣畫的收入維生。",
+          "options": [
+            "She lives her money on from art.",
+            "She lives on to her money from art.",
+            "She is living on a new chair by Friday.",
+            "She lives on the money from her art."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：片語語序不正確。",
+            "錯誤：live on 不是 live on to。",
+            "錯誤：椅子不是收入或可靠的生活來源。",
+            "正確：live on + 收入來源，表示靠它生活。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：living on a prayer",
+          "pattern": [
+            {
+              "text": "live on",
+              "fixed": true
+            },
+            {
+              "text": "生活所依靠的來源",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：live on + 收入來源，表示靠它生活。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "祈使句：原形動詞開頭",
+          "meaning": "祈使句直接提出請求、指示或邀請，主詞 you 通常不說。",
+          "usage": "帶領別人過橋、一起跳舞或提供協助。",
+          "prompt": "· 情境判斷 — 船長請乘客拿好救生衣。",
+          "options": [
+            "Holding your life jacket.",
+            "Hold your life jacket.",
+            "To hold your life jacket.",
+            "You holding your life jacket."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：只有 holding 分詞，非一般祈使句。",
+            "正確：Hold 是原形，構成完整祈使句。",
+            "錯誤：to hold 是不定詞，不是直接命令。",
+            "錯誤：You holding 缺少限定動詞。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：Take my hand",
+          "pattern": [
+            {
+              "text": "原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Hold 是原形，構成完整祈使句。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "make it：成功度過困難",
+          "meaning": "這裡表示成功挺過困境，不是「製造它」。",
+          "usage": "對艱難專案或挑戰表達信心。",
+          "prompt": "· 情境判斷 — 劇團遇到停電，但相信仍能完成演出。",
+          "options": [
+            "The show is hard, but we will make a it.",
+            "The show is hard, but we will make it a sandwich.",
+            "The show is hard, but we will making it.",
+            "The show is hard, but we will make it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：make it 中不加 a。",
+            "錯誤：這裡不指製作三明治。",
+            "錯誤：will 後應接 make 原形。",
+            "正確：make it 表示成功撐過困難。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：we'll make it",
+          "pattern": [
+            {
+              "text": "主詞＋情態動詞",
+              "fixed": false
+            },
+            {
+              "text": "make it",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：make it 表示成功撐過困難。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "現在完成式表擁有：have got",
+          "meaning": "表示擁有；歌中 Tommy’s got 是 Tommy has got。",
+          "usage": "描述某人擁有的物品。",
+          "prompt": "· 情境判斷 — 木匠有一把舊鋸子。",
+          "options": [
+            "The carpenter has got to an old saw.",
+            "The carpenter have got an old saw.",
+            "The carpenter has got an old saw.",
+            "The carpenter is got an old saw."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：has got to 表必須做事，不是擁有工具。",
+            "錯誤：單數 carpenter 要用 has。",
+            "正確：has got + 名詞表示擁有。",
+            "錯誤：is got 在此不能表示擁有。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：Tommy's got his six-string",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "have/has got",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：has got + 名詞表示擁有。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "make + 受詞 + 原形",
+          "meaning": "使某人或某物做某事；歌中讓吉他「說話」是擬人化。",
+          "usage": "描述有趣的機關使物件發聲。",
+          "prompt": "· 情境判斷 — 科學家做了一個按鈕，能讓機器人跳舞。",
+          "options": [
+            "The button makes the robot to dance.",
+            "The button makes the robot dancing.",
+            "The button makes dance the robot.",
+            "The button makes the robot dance."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：使役 make 後不加 to。",
+            "錯誤：這裡不直接用 dancing。",
+            "錯誤：受詞應置於 dance 前。",
+            "正確：make + robot + dance 原形。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：make it talk",
+          "pattern": [
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：make + robot + dance 原形。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "dream of + V-ing",
+          "meaning": "夢想或期盼某個動作；後接動名詞。",
+          "usage": "講述希望學新技能或到新地方。",
+          "prompt": "· 情境判斷 — 小女孩夢想有一天去看大海。",
+          "options": [
+            "She dreams of seeing the sea.",
+            "She dreams of see the sea.",
+            "She dreams of to see the sea.",
+            "She dream of seeing the sea."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：dreams of seeing 結構自然。",
+            "錯誤：of 後應用動名詞 seeing。",
+            "錯誤：of 後不可直接接 to see。",
+            "錯誤：單數 she 搭 dreams。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：dreams of running away",
+          "pattern": [
+            {
+              "text": "dream(s) of",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：dreams of seeing 結構自然。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "時間從句：when + 現在式",
+          "meaning": "when 指某事發生之時；這裡描述兩人平常的反應。",
+          "usage": "描述某人難過或遇到問題時另一個人如何幫忙。",
+          "prompt": "· 情境判斷 — 圖書館的燈熄掉時，館員會拿手電筒。",
+          "options": [
+            "When the lights goes out, the clerk gets a lamp.",
+            "When the lights go out, the clerk gets a lamp.",
+            "When the lights go out the clerk getting a lamp.",
+            "When do the lights go out, the clerk gets a lamp."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：複數 lights 要用 go。",
+            "正確：when 子句用直述語序，主句完整。",
+            "錯誤：主句缺少限定動詞 gets。",
+            "錯誤：when 時間子句不是直接問句，不使用 do 倒裝。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：When she cries in the night",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋現在式,",
+              "fixed": false
+            },
+            {
+              "text": "主句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：when 子句用直述語序，主句完整。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "時間對照：when + used to",
+          "meaning": "用 when 指出某個過去習慣所屬的時期；不要與現在情況混淆。",
+          "usage": "比較以前常做某事、如今不再如此。",
+          "prompt": "· 情境判斷 — 談某個人在以前當舞者時，每天排練。",
+          "options": [
+            "When she used dance, she practiced every day.",
+            "When she use to dance, she practiced every day.",
+            "When she used to dancing, she practiced every day.",
+            "When she used to dance, she practiced every day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：少了 to。",
+            "錯誤：used to 結構不寫 use to（肯定句）。",
+            "錯誤：used to 後要用原形。",
+            "正確：when 子句帶 used to + dance。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：when he used to make it talk",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋used to＋原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：when 子句帶 used to + dance。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "all that + 關係子句",
+          "meaning": "表示「……擁有／能做到的全部」，that 引導修飾 all 的關係子句。",
+          "usage": "說明把所有資源或精力都投入某事。",
+          "prompt": "· 情境判斷 — 登山隊只有兩瓶水，這就是他們所有的水。",
+          "options": [
+            "These two bottles are all that we having.",
+            "These two bottles are all what we have.",
+            "These two bottles are all that we have.",
+            "These two bottles are all that have we."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：having 不能獨立當限定動詞。",
+            "錯誤：這裡不使用 all what。",
+            "正確：all that we have 的關係子句語序正確。",
+            "錯誤：關係子句不倒裝。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：all that you've got",
+          "pattern": [
+            {
+              "text": "all that",
+              "fixed": true
+            },
+            {
+              "text": "主詞＋動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：all that we have 的關係子句語序正確。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "ready or not：無論是否準備好",
+          "meaning": "不管準備好了沒有，事情都會開始或必須行動。",
+          "usage": "活動要正式開始時提醒大家。",
+          "prompt": "· 情境判斷 — 天文館表演要開始了，觀眾可能還沒準備好。",
+          "options": [
+            "Ready or no, the show starts now.",
+            "Ready and not, the show starts now.",
+            "Ready or not, the show starting now.",
+            "Ready or not, the show starts now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：要用 not 而非 no。",
+            "錯誤：and not 不構成這個慣用語。",
+            "錯誤：主句缺少 is 或 starts 這類限定動詞。",
+            "正確：ready or not 表示不管準備好沒有。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：ready or not",
+          "pattern": [
+            {
+              "text": "ready or not,",
+              "fixed": true
+            },
+            {
+              "text": "主句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：ready or not 表示不管準備好沒有。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 29,
+          "word": "live for + 名詞",
+          "meaning": "表示把某事視為生活的重要目標或動力；歌曲中的 fight 是面對困難的比喻。",
+          "usage": "談一個人熱愛的事或生活動力。",
+          "prompt": "· 情境判斷 — 動物攝影師熱愛大自然，每天期待拍照。",
+          "options": [
+            "She lives for nature photography.",
+            "She live for nature photography.",
+            "She lives for photographing to nature.",
+            "She lives to for nature photography."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：lives for + 名詞，表示熱愛並以此為動力。",
+            "錯誤：主詞 she 需 lives。",
+            "錯誤：to nature 在此不自然。",
+            "錯誤：live for 前不多加 to。"
+          ],
+          "sourceFile": "Livin_On_A_Prayer_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 29,
+          "cue": "PDF 英文歌詞第 2–3 頁；短引文：You live for the fight",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "live for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：lives for + 名詞，表示熱愛並以此為動力。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

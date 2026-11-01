@@ -197,7 +197,7 @@ for (const exercise of Object.values(exercises)) {
 }
 
 const html = read("writing-practice.html");
-assert.match(html, /writing-practice-ielts-task1-data\.js\?v=20260730-1/);
+assert.match(html, /writing-practice-ielts-task1-data\.js\?v=20261028-chinese-style-1/);
 assert.match(html, /writing-audio-manifest\.js\?v=writing-audio-v5-20260818-1/);
 assert.match(html, /window\.EDMUND_IELTS_WRITING_TASK1_EXERCISES/);
 assert.match(html, /questionImages/);

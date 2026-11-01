@@ -13,6 +13,7 @@ import {
   hongKongDayKey,
   isDateInScheduleRange,
   lastWeekStart,
+  mondayFor,
   parseISODate,
   toISODate,
   weekDates
@@ -53,8 +54,8 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20261028-materials1";
-import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261028-materials1";
+} from "./schedule-homework-links.mjs?v=20261031-ielts-types1";
+import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261031-ielts-types1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -105,7 +106,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20261028-materials1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20261031-ielts-types1";
 const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
 const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
@@ -5222,6 +5223,50 @@ function activeStudent() {
   return state.selectedStudent;
 }
 
+const checkedIncompleteHomeworkDays = new Set();
+
+async function checkTwoDayIncompleteHomework(student, token, loadedWeek, loadedEntries) {
+  if (state.currentUser?.role !== "student") return;
+  const today = hongKongDayKey();
+  const checkKey = `${student.id}:${today}`;
+  if (checkedIncompleteHomeworkDays.has(checkKey)) return;
+  checkedIncompleteHomeworkDays.add(checkKey);
+  try {
+    const dates = [-1, -2, -3].map((offset) => toISODate(addDays(parseISODate(today), offset)));
+    if (dates.slice(0, 2).some((date) => !isDateInScheduleRange(date))) return;
+    const availableDates = dates.filter(isDateInScheduleRange);
+    const weekStarts = [...new Set(availableDates.map((date) => toISODate(mondayFor(parseISODate(date)))))];
+    const weeks = await Promise.all(weekStarts.map(async (weekStart) => {
+      if (weekStart === loadedWeek) return loadedEntries;
+      const payload = await callRpc("schedule_student_get_week", {
+        p_token: token,
+        p_week_start: weekStart
+      });
+      if (!payload || !Array.isArray(payload.entries)) throw new Error("Previous homework could not be loaded");
+      return payload.entries;
+    }));
+    if (state.currentUser?.role !== "student" || state.currentUser.id !== student.id
+      || state.currentUser.studentToken !== token || hongKongDayKey() !== today) return;
+    const recentHomework = weeks.flat().filter((entry) => {
+      if (!availableDates.includes(entry.scheduleDate)) return false;
+      const homework = parseScheduleMessage(entry.message);
+      return Boolean(homework.text.trim() || homework.resources.length);
+    });
+    const recentTwoDays = recentHomework.filter((entry) => dates.slice(0, 2).includes(entry.scheduleDate));
+    const twoDaysIncomplete = recentTwoDays.length > 0
+      && !recentTwoDays.some((entry) => entry.isCompleted === true);
+    const threeDaysIncomplete = availableDates.length === 3 && recentHomework.length > 0
+      && !recentHomework.some((entry) => entry.isCompleted === true);
+    if (!twoDaysIncomplete && !threeDaysIncomplete) return;
+    document.dispatchEvent(new CustomEvent("edmund:schedule-two-day-incomplete-homework", {
+      detail: { studentId: String(student.id), date: today, days: threeDaysIncomplete ? 3 : 2 }
+    }));
+  } catch (error) {
+    checkedIncompleteHomeworkDays.delete(checkKey);
+    console.warn("Previous two days of homework could not be checked", error);
+  }
+}
+
 async function loadWeek(focusTarget = null) {
   await flushPendingMotivationSaves();
   const student = activeStudent();
@@ -5365,6 +5410,9 @@ async function loadWeek(focusTarget = null) {
     renderLearningPurpose();
     renderLanguageOpportunities();
     loadLearningDayCounters();
+    if (state.currentUser.role === "student") {
+      void checkTwoDayIncompleteHomework(student, state.currentUser.studentToken, requestedWeek, state.weekPayload.entries);
+    }
     renderMetrics();
     renderCountdowns();
     restoreCalendarFocus(focusTarget);
@@ -6020,6 +6068,11 @@ function stageDailyWellbeingRating(rawMetric, scheduleDate, rawRating) {
   state.ratingPulse = null;
   restoreSelfRatingFocus(metric, scheduleDate, rating);
   updateWellbeingPanelSelection(metric, scheduleDate, "將於 2 秒後自動儲存…");
+  if (state.currentUser.role === "student") {
+    document.dispatchEvent(new CustomEvent("edmund:schedule-self-rating-selected", {
+      detail: { studentId: String(student.id), date: scheduleDate, metric, rating }
+    }));
+  }
 
   const key = `${student.id}:${scheduleDate}:${metric}`;
   window.clearTimeout(state.wellbeingSaveTimers.get(key));

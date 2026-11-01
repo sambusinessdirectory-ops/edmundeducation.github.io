@@ -1,0 +1,166 @@
+{
+  "id": "proverb-05",
+  "order": 5,
+  "slug": "he-who-is-absent-is-always-in-the-wrong",
+  "version": "1",
+  "title": "人不在場，容易被怪責",
+  "titleEn": "He Who Is Absent Is Always in the Wrong",
+  "titleZh": "人不在場，容易被怪責",
+  "image": "assets/proverb-system/he-who-is-absent-is-always-in-the-wrong.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for He Who Is Absent Is Always in the Wrong.",
+  "imageAltZh": "「人不在場，容易被怪責」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "People who are not present may be blamed because they cannot explain or defend their side.",
+    "zh": "某人不在場、不能說明自己的立場時，其他人容易把錯推到他身上。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "he who is absent is always in the wrong",
+      "highlight": "he who is absent is always in the wrong"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "Jay missed the meeting, and the group blamed him for the delay without checking the record—he who is absent is always in the wrong.",
+      "zh": "開會時阿傑不在，大家便把延誤歸咎於他，卻沒有人核對紀錄。",
+      "highlight": "he who is absent is always in the wrong"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “he who is absent is always in the wrong” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「he who is absent is always in the wrong」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-05-q01",
+      "number": 1,
+      "prompt": "While Ka was on leave, the team blamed her for a late report without checking the record.",
+      "promptZh": "會議時嘉嘉請假，組員未查紀錄便把遲交報告歸咎於她。",
+      "starter": "The",
+      "answer": "The team blamed Ka before hearing her account—he who is absent is always in the wrong.",
+      "answerZh": "會議時嘉嘉請假，組員未查紀錄便把遲交報告歸咎於她。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q02",
+      "number": 2,
+      "prompt": "A gym key went missing, and the only employee absent from the meeting was immediately suspected.",
+      "promptZh": "健身室鑰匙失蹤，唯一不在場的職員立即被懷疑。",
+      "starter": "The",
+      "answer": "The absent employee was suspected before being heard—he who is absent is always in the wrong.",
+      "answerZh": "健身室鑰匙失蹤，唯一不在場的職員立即被懷疑。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q03",
+      "number": 3,
+      "prompt": "After the team lost, the captain missed the review meeting and others said it was all his fault.",
+      "promptZh": "校隊敗了，隊長不在檢討會上，眾人便說全是他的錯。",
+      "starter": "The",
+      "answer": "The team assigned blame to the absent captain without his response—he who is absent is always in the wrong.",
+      "answerZh": "校隊敗了，隊長不在檢討會上，眾人便說全是他的錯。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q04",
+      "number": 4,
+      "prompt": "An audio file was damaged; the absent technician was blamed before anyone inspected it.",
+      "promptZh": "錄音檔損壞後，不在場的技術員被怪責，雖然檔案尚未檢查。",
+      "starter": "The",
+      "answer": "The technician was blamed before the file was inspected or he could reply—he who is absent is always in the wrong.",
+      "answerZh": "錄音檔損壞後，不在場的技術員被怪責，雖然檔案尚未檢查。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q05",
+      "number": 5,
+      "prompt": "When supplies ran out, staff blamed the buyer who was on holiday without checking the orders.",
+      "promptZh": "餐廳缺貨時，休假的採購員被指責，其他人卻未查看訂單。",
+      "starter": "Staff",
+      "answer": "Staff blamed the buyer before checking the orders or hearing from her—he who is absent is always in the wrong.",
+      "answerZh": "餐廳缺貨時，休假的採購員被指責，其他人卻未查看訂單。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q06",
+      "number": 6,
+      "prompt": "After a display fell, the absent designer was blamed; nobody asked who moved it.",
+      "promptZh": "展板跌倒後，缺席的設計師被怪責；沒人問當時是誰把展板移位。",
+      "starter": "The",
+      "answer": "The absent designer was blamed before anyone checked who moved the display—he who is absent is always in the wrong.",
+      "answerZh": "展板跌倒後，缺席的設計師被怪責；沒人問當時是誰把展板移位。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q07",
+      "number": 7,
+      "prompt": "A wrong notice was sent; an offline moderator was blamed before the other moderators checked the log.",
+      "promptZh": "群組誤發通知，沒有上線的管理員被責怪，其他管理員尚未查記錄。",
+      "starter": "The",
+      "answer": "The offline moderator took the blame before anyone checked the log—he who is absent is always in the wrong.",
+      "answerZh": "群組誤發通知，沒有上線的管理員被責怪，其他管理員尚未查記錄。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q08",
+      "number": 8,
+      "prompt": "Bin missed a family discussion, and relatives said he caused all the moving trouble.",
+      "promptZh": "阿彬缺席家庭討論，親戚便說搬家的麻煩都是他造成。",
+      "starter": "Relatives",
+      "answer": "Relatives blamed Bin while he was not there to tell his side—he who is absent is always in the wrong.",
+      "answerZh": "阿彬缺席家庭討論，親戚便說搬家的麻煩都是他造成。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q09",
+      "number": 9,
+      "prompt": "A box of books was missing; a volunteer absent from stocktake was blamed before loan records were checked.",
+      "promptZh": "圖書館遺失一箱書，缺席點算的義工先被責怪，借還記錄仍未查。",
+      "starter": "The",
+      "answer": "The volunteer was blamed without being heard or checking the loans—he who is absent is always in the wrong.",
+      "answerZh": "圖書館遺失一箱書，缺席點算的義工先被責怪，借還記錄仍未查。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q10",
+      "number": 10,
+      "prompt": "Trip photos vanished, and a friend who missed the discussion was accused of deleting them.",
+      "promptZh": "旅行照片不見了，沒有參加討論的朋友被指刪除檔案。",
+      "starter": "The",
+      "answer": "The friend was accused while unable to answer the group—he who is absent is always in the wrong.",
+      "answerZh": "旅行照片不見了，沒有參加討論的朋友被指刪除檔案。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q11",
+      "number": 11,
+      "prompt": "A decision drew complaints, and the former chair absent from a new meeting was treated as solely responsible.",
+      "promptZh": "一項決定引起投訴，沒有出席新會議的舊主席被當作唯一責任人。",
+      "starter": "The",
+      "answer": "The absent former chair was blamed before the group examined who made the decision—he who is absent is always in the wrong.",
+      "answerZh": "一項決定引起投訴，沒有出席新會議的舊主席被當作唯一責任人。",
+      "highlight": "he who is absent is always in the wrong"
+    },
+    {
+      "id": "proverb-05-q12",
+      "number": 12,
+      "prompt": "A rehearsal time changed; the ill choreographer was blamed without anyone calling to check with her.",
+      "promptZh": "排演時間被改，正在生病的編舞者被怪責，但沒有人打電話向她核實。",
+      "starter": "The",
+      "answer": "The choreographer was blamed while unable to offer her account—he who is absent is always in the wrong.",
+      "answerZh": "排演時間被改，正在生病的編舞者被怪責，但沒有人打電話向她核實。",
+      "highlight": "he who is absent is always in the wrong"
+    }
+  ]
+}

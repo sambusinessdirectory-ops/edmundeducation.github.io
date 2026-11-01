@@ -1,9 +1,9 @@
-import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20261011-girls-autumn-trio1';
+import {beginCosmeticsPreview,supportsCosmetics,confirmDiscardCosmetics,restoreCosmetics} from './eddy-cosmetics.mjs?v=20261028-free-try-on1';
 import {closetRoute} from './closet-walking.mjs';
-import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20261011-girls-autumn-trio1';
+import { mountClosetInventory } from './eddy-closet-inventory.mjs?v=20261028-free-try-on1';
 import {batchClosetSurfaces} from './closet-static-batches.mjs';
 import * as THREE from './vendor/three/three.module.js';
-import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20261011-girls-autumn-trio1';
+import { MascotCharacters } from './speaking-mascot-characters.mjs?v=20261028-free-try-on1';
 import { buildPhoebeCloset, PHOEBE_CLOSET_PROFILE } from './phoebe-closet-3d.mjs?v=20260915-phoebe2';
 
 let activeClose = null;
@@ -1482,7 +1482,7 @@ export function openCompanionCloset({ character = 'eddy' } = {}) {
 
   const controller = new AbortController();
   if(supportsCosmetics(character)){
-    if(!document.querySelector('link[data-clothing-shop-style]')){const style=document.createElement('link');style.rel='stylesheet';style.dataset.clothingShopStyle='';style.href=new URL('./eddy-clothing-shop.css?v=20260928-detached-shop1',import.meta.url).href;document.head.append(style);}
+    if(!document.querySelector('link[data-clothing-shop-style]')){const style=document.createElement('link');style.rel='stylesheet';style.dataset.clothingShopStyle='';style.href=new URL('./eddy-clothing-shop.css?v=20261028-free-try-on1',import.meta.url).href;document.head.append(style);}
     mountClosetInventory(dialog.querySelector('.clothing-shop-catalog'),controller.signal,{character});
     dialog.querySelector('.clothing-shop-catalog h3').id='clothing-shop-inventory-title';
   }

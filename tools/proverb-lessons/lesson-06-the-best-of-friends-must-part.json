@@ -1,0 +1,166 @@
+{
+  "id": "proverb-06",
+  "order": 6,
+  "slug": "the-best-of-friends-must-part",
+  "version": "1",
+  "title": "再好的朋友也有分別時",
+  "titleEn": "The Best of Friends Must Part",
+  "titleZh": "再好的朋友也有分別時",
+  "image": "assets/proverb-system/the-best-of-friends-must-part.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for The Best of Friends Must Part.",
+  "imageAltZh": "「再好的朋友也有分別時」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "Even very close friends sometimes have to say goodbye or live apart.",
+    "zh": "再親近的朋友，也會有暫時或長久分別的時候。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "the best of friends must part",
+      "highlight": "the best of friends must part"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "After graduation, the two old friends were heading to different cities—the best of friends must part.",
+      "zh": "畢業禮後，兩位多年的好友要到不同城市升學。",
+      "highlight": "the best of friends must part"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “the best of friends must part” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「the best of friends must part」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-06-q01",
+      "number": 1,
+      "prompt": "Two close friends will study in different cities after graduation and plan to meet during holidays.",
+      "promptZh": "兩位好友畢業後要到不同城市讀書，約好假期再見。",
+      "starter": "The",
+      "answer": "The friends will say goodbye without ending their friendship—the best of friends must part.",
+      "answerZh": "兩位好友畢業後要到不同城市讀書，約好假期再見。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q02",
+      "number": 2,
+      "prompt": "A childhood friend sees Ching off at the train and they promise to keep calling.",
+      "promptZh": "童年朋友送阿晴上火車，兩人答應繼續通話。",
+      "starter": "They",
+      "answer": "They must part at the station although they intend to stay close—the best of friends must part.",
+      "answerZh": "童年朋友送阿晴上火車，兩人答應繼續通話。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q03",
+      "number": 3,
+      "prompt": "Camp ends and two new friends return to their own schools.",
+      "promptZh": "露營結束，兩名新好友返回各自的學校。",
+      "starter": "The",
+      "answer": "The friends must say goodbye as camp ends—the best of friends must part.",
+      "answerZh": "露營結束，兩名新好友返回各自的學校。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q04",
+      "number": 4,
+      "prompt": "Zheng’s close friend is emigrating; they hug at the airport and agree to video-call monthly.",
+      "promptZh": "阿正的好友要移民，他們在機場擁抱，約定每月視像通話。",
+      "starter": "They",
+      "answer": "They part at the airport while planning to keep in touch—the best of friends must part.",
+      "answerZh": "阿正的好友要移民，他們在機場擁抱，約定每月視像通話。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q05",
+      "number": 5,
+      "prompt": "Two longtime colleagues retire and move to separate places; they leave the office together one last time.",
+      "promptZh": "兩位老同事退休後各自搬家，最後一次一起走出辦公室。",
+      "starter": "Their",
+      "answer": "Their shared work chapter ends as they part—the best of friends must part.",
+      "answerZh": "兩位老同事退休後各自搬家，最後一次一起走出辦公室。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q06",
+      "number": 6,
+      "prompt": "On the last night of holiday, two friends exchange addresses before returning to their countries.",
+      "promptZh": "假期最後一晚，兩個好友交換地址，第二天各自回國。",
+      "starter": "They",
+      "answer": "They part tomorrow while leaving a way to stay connected—the best of friends must part.",
+      "answerZh": "假期最後一晚，兩個好友交換地址，第二天各自回國。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q07",
+      "number": 7,
+      "prompt": "Two friends who learned piano together since childhood will join different orchestras next year.",
+      "promptZh": "兩個從小一起學琴的朋友，明年會進入不同的樂團。",
+      "starter": "Their",
+      "answer": "Their paths separate although their friendship may continue—the best of friends must part.",
+      "answerZh": "兩個從小一起學琴的朋友，明年會進入不同的樂團。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q08",
+      "number": 8,
+      "prompt": "Shan brings lunch to a close friend who is moving away; both say they will stay in touch.",
+      "promptZh": "阿珊最後一次為搬走的好友送午餐，兩人說會保持聯絡。",
+      "starter": "Their",
+      "answer": "Their farewell marks a parting, not necessarily a broken friendship—the best of friends must part.",
+      "answerZh": "阿珊最後一次為搬走的好友送午餐，兩人說會保持聯絡。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q09",
+      "number": 9,
+      "prompt": "Camp volunteers have worked together all summer and hug goodbye when the programme ends.",
+      "promptZh": "營地義工一起工作了整個暑假，活動結束時互相擁抱道別。",
+      "starter": "The",
+      "answer": "The volunteers part after a close summer together—the best of friends must part.",
+      "answerZh": "營地義工一起工作了整個暑假，活動結束時互相擁抱道別。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q10",
+      "number": 10,
+      "prompt": "Two friends as close as sisters live apart after one marries and moves away; they still write regularly.",
+      "promptZh": "姊妹般親近的兩位朋友，一人結婚後搬到外地，兩人仍定期寫信。",
+      "starter": "The",
+      "answer": "The friends live apart while keeping their bond alive—the best of friends must part.",
+      "answerZh": "姊妹般親近的兩位朋友，一人結婚後搬到外地，兩人仍定期寫信。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q11",
+      "number": 11,
+      "prompt": "After their team’s last game, two friends will join different clubs.",
+      "promptZh": "球隊最後一場比賽後，兩位好友將加入不同球會。",
+      "starter": "Their",
+      "answer": "Their time as teammates ends even if their friendship does not—the best of friends must part.",
+      "answerZh": "球隊最後一場比賽後，兩位好友將加入不同球會。",
+      "highlight": "the best of friends must part"
+    },
+    {
+      "id": "proverb-06-q12",
+      "number": 12,
+      "prompt": "After a week-long visit, two good friends wave goodbye at the pier and plan to reunite in winter.",
+      "promptZh": "探訪一週後，兩位好朋友在碼頭揮手告別，約定冬天再見。",
+      "starter": "They",
+      "answer": "They part now despite hoping to meet again in winter—the best of friends must part.",
+      "answerZh": "探訪一週後，兩位好朋友在碼頭揮手告別，約定冬天再見。",
+      "highlight": "the best of friends must part"
+    }
+  ]
+}

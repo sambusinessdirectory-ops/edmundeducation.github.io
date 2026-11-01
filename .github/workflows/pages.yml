@@ -29,6 +29,12 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
 
+      - name: Check song exercise quality
+        run: |
+          node tools/check-song-quality.mjs
+          node tools/test-song-route.mjs
+          node tools/test-song-editorial.mjs
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
@@ -42,7 +48,7 @@ jobs:
           node --check shared-companion.mjs
 
       - name: Validate closet fast release
-        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[classroom-release]') && !contains(github.event.head_commit.message, '[flashcard-release]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') && !contains(github.event.head_commit.message, '[homepage-rollback]') && !contains(github.event.head_commit.message, '[homepage-release]') }}
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && !contains(github.event.head_commit.message, '[classroom-release]') && !contains(github.event.head_commit.message, '[flashcard-release]') && !contains(github.event.head_commit.message, '[sentence-release]') && !contains(github.event.head_commit.message, '[phrasal-release]') && !contains(github.event.head_commit.message, '[proverb-release]') && !contains(github.event.head_commit.message, '[idiom-release]') && !contains(github.event.head_commit.message, '[speaking-release]') && !contains(github.event.head_commit.message, '[writing-release]') && !contains(github.event.head_commit.message, '[polysemy-release]') && !contains(github.event.head_commit.message, '[synonyms-release]') && !contains(github.event.head_commit.message, '[grammar-release]') && !contains(github.event.head_commit.message, '[native-release]') && !contains(github.event.head_commit.message, '[italian-release]') && !contains(github.event.head_commit.message, '[homework-release]') && !contains(github.event.head_commit.message, '[reading-release]') && !contains(github.event.head_commit.message, '[listening-release]') && !contains(github.event.head_commit.message, '[professional-release]') && !contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[junior-release]') && !contains(github.event.head_commit.message, '[irregular-release]') && !contains(github.event.head_commit.message, '[news-release]') && !contains(github.event.head_commit.message, '[dse-arguments-release]') && !contains(github.event.head_commit.message, '[error-id-release]') && !contains(github.event.head_commit.message, '[coin-release]') && !contains(github.event.head_commit.message, '[song-release]') && !contains(github.event.head_commit.message, '[writing-preview-release]') && !contains(github.event.head_commit.message, '[chart-release]') && !contains(github.event.head_commit.message, '[homepage-rollback]') && !contains(github.event.head_commit.message, '[homepage-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -61,6 +67,7 @@ jobs:
           node --check idiom-system.js
           node --check proverb-system.js
           node --check phrasal-verb-system.js
+          node tools/test-flashcard-attempt-sync-isolation.mjs
           node tools/test-classroom-live-sync.mjs
           node tools/test-classroom-live-sync-sql.mjs
           node tools/test-sentence-structure-system.mjs
@@ -76,6 +83,7 @@ jobs:
       - name: Validate focused flashcard release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[flashcard-release]') }}
         run: |
+          node tools/test-flashcard-attempt-sync-isolation.mjs
           node --check flashcards-core-data.js
           node --check flashcards-audio-manifest.js
           node tools/build-flashcard-lazy-startup.mjs --check
@@ -125,7 +133,12 @@ jobs:
           grep -Fq 'proverb-purple-spellbook-login-frame-v1.webp' proverb-system.css
           grep -Fq '20261022-purple-spellbook1' proverb-system.html
           node --check proverb-system.js
-          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs
+          node --test tools/test-proverb-system.mjs tools/test-proverb-black-sand.mjs tools/test-proverb-curation.mjs tools/test-proverb-compass-progress.mjs
+          node tools/build-proverb-compass.mjs --check
+          node --check proverb-compass-view.mjs
+          node --test workers/proverb-system/test/*.test.mjs
+          node --check proverb-curation-review.mjs
+          node --check proverb-curation-core.mjs
 
       - name: Validate focused Polysemy release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[polysemy-release]') }}
@@ -264,6 +277,10 @@ jobs:
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[news-release]') }}
         run: |
           node --check news-discussion/app.mjs
+          node --check policy-discussion/app.mjs
+          node --check policy-discussion/resources.mjs
+          node --check policy-discussion/departments.mjs
+          python3 tools/build-policy-discussion.py
           node --check shared-system-nav.js
           node -e "const fs=require('fs'); const h=fs.readFileSync('index.html','utf8'); const p=fs.readFileSync('news-discussion.html','utf8'); if(!h.includes('href=\"news-discussion.html\"')||!p.includes('news-discussion/app.mjs')) throw Error('Card 75 is not linked')"
 
@@ -365,6 +382,32 @@ jobs:
           node --test workers/writing-submission/test/*.test.mjs
           node --test tools/test-writing-proofread-proxy.mjs
           node --test --test-name-pattern='article notifications use strict owner-scoped deep links|writing question images survive the public R2 asset migration|article and feedback navigation invalidates stale requests|admin feedback queue and fullscreen|structured feedback supports' tools/test-writing-submission-portal.mjs
+
+      - name: Validate IELTS Chart Teaching release
+        if: ${{ contains(github.event.head_commit.message, '[chart-release]') }}
+        run: |
+          node --check ielts-chart-teaching/app.mjs
+          node --check ielts-chart-teaching/data.mjs
+          node --check ielts-chart-teaching/reconstruction-renderer.mjs
+          node --check ielts-chart-teaching/reconstructions.mjs
+          node --check ielts-chart-teaching/interactive-diagrams.mjs
+          node --check ielts-chart-teaching/interactive-diagram-renderer.mjs
+          node --check ielts-chart-teaching/diagram-text-zones.mjs
+          node tools/test-ielts-chart-teaching.mjs
+          python3 tools/build-ielts-chart-vocabulary.py
+          node --check ielts-chart-teaching/vocabulary.mjs
+          node tools/test-ielts-vocabulary.mjs
+          node --check shared-system-nav.js
+
+      - name: Validate focused IELTS Writing Preview release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[writing-preview-release]') }}
+        run: |
+          node tools/test-ielts-writing-preview.mjs
+          node --check ielts-writing-preview/app.js
+          node --test tools/test-eddie-farm.mjs tools/test-eddie-farm-i18n.mjs
+          node tools/test-schedule-homework-links.mjs
+          node tools/test-dse-writing-part-b.mjs
+          node tools/test-ielts-writing-task1-practice.mjs
 
       - name: Install image validation dependency
         if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}
@@ -777,6 +820,24 @@ jobs:
         run: |
           node tools/test-video-class.mjs
           node tools/test-homepage-video-opacity.mjs
+
+      - name: Validate album audio and vocabulary release
+        if: ${{ contains(github.event.head_commit.message, '[song-release]') }}
+        run: |
+          node --check song-appreciation.js
+          node --check song-appreciation-live.mjs
+          node tools/test-song-difficulty.cjs
+          node --check song-preview.js
+          node tools/test-song-preview.cjs
+          node tools/test-song-appreciation.mjs
+          node tools/test-song-live-sync.mjs
+          npm ci --prefix tools/email-qa --ignore-scripts
+          node tools/test-song-live-sql.mjs
+          node tools/test-song-room-sql.mjs
+          node tools/test-song-learning-sections-db.mjs
+          node tools/test-song-recovery-eight.mjs
+          test -s song-media/photograph/album.mp3
+          test -s song-media/photograph/cover.webp
 
       - name: Validate Song Appreciation portal, data protection, and secure workflows
         if: ${{ !contains(github.event.head_commit.message, '[fast-deploy]') }}

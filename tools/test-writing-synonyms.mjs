@@ -23,3 +23,10 @@ test('search index reflects every published lesson and question count',async()=>
     const row=entries.find(item=>item.id===lesson.id);assert.ok(row,lesson.id);assert.equal(row.questions,lesson.questionCount);
   }
 });
+
+test('browse order matches the synonym curriculum including legacy positions',async()=>{
+ const {catalog,legacyCatalog}=await import('../synonyms/lesson-catalog.mjs');
+ const expected=['important',...[...catalog,...legacyCatalog].sort((a,b)=>a.rank-b.rank||Number(a.legacy||false)-Number(b.legacy||false)).map(row=>row.id),'social-media'];
+ assert.deepEqual(entries.map(row=>row.id),expected);
+ assert.equal(entries[1].headword,'a lot of');
+});

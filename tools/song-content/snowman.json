@@ -1,0 +1,3105 @@
+{
+  "slug": "snowman",
+  "title": "Snowman",
+  "singer": "Sia",
+  "translations": [
+    {
+      "english": "Don't cry, snowman, not in front of me",
+      "chinese": "別哭啊，雪人，別在我面前落淚",
+      "lineId": "line-1",
+      "startSeconds": 6.12,
+      "endSeconds": 10.24
+    },
+    {
+      "english": "Who'll catch your tears if you can't catch me, darling?",
+      "chinese": "親愛的，若你連我都無法擁住，又有誰能接住你的眼淚呢？",
+      "lineId": "line-2",
+      "startSeconds": 10.24,
+      "endSeconds": 14.3
+    },
+    {
+      "english": "If you can't catch me, darling",
+      "chinese": "若你無法將我擁入懷中，親愛的",
+      "lineId": "line-3",
+      "startSeconds": 14.3,
+      "endSeconds": 18.18
+    },
+    {
+      "english": "Don't cry, snowman, don't leave me this way",
+      "chinese": "別哭啊，雪人，別就這樣離我而去",
+      "lineId": "line-4",
+      "startSeconds": 19.64,
+      "endSeconds": 23.82
+    },
+    {
+      "english": "A puddle of water can't hold me close, baby",
+      "chinese": "寶貝，融成一灘水的你，再也無法將我緊緊擁抱",
+      "lineId": "line-5"
+    },
+    {
+      "english": "Can't hold me close, baby",
+      "chinese": "再也無法將我擁入懷中，寶貝",
+      "lineId": "line-6",
+      "startSeconds": 28.06,
+      "endSeconds": 31.54
+    },
+    {
+      "english": "I want you to know that I'm never leaving",
+      "chinese": "我想讓你知道，我永遠不會離開",
+      "lineId": "line-7",
+      "startSeconds": 33.84,
+      "endSeconds": 37.52
+    },
+    {
+      "english": "'Cause I'm Mrs. Snow. 'Til death we'll be freezing",
+      "chinese": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中",
+      "lineId": "line-8",
+      "startSeconds": 37.52,
+      "endSeconds": 41.04
+    },
+    {
+      "english": "Yeah, you are my home, my home for all seasons",
+      "chinese": "是啊，你就是我的家，是我四季不變的歸宿",
+      "lineId": "line-9",
+      "startSeconds": 41.04,
+      "endSeconds": 44.88
+    },
+    {
+      "english": "So, come on, let's go",
+      "chinese": "所以，來吧，我們一起走",
+      "lineId": "line-10"
+    },
+    {
+      "english": "Let's go below zero",
+      "chinese": "一起前往零度以下的冰雪世界",
+      "lineId": "line-11",
+      "startSeconds": 47.98,
+      "endSeconds": 49.54
+    },
+    {
+      "english": "And hide from the sun",
+      "chinese": "躲開那會讓你融化的陽光",
+      "lineId": "line-12",
+      "startSeconds": 49.54,
+      "endSeconds": 51.26
+    },
+    {
+      "english": "I'll love you forever",
+      "chinese": "我會永遠愛著你",
+      "lineId": "line-13",
+      "startSeconds": 51.26,
+      "endSeconds": 52.98
+    },
+    {
+      "english": "Where we'll have some fun",
+      "chinese": "在那裡，我們將共享歡樂的時光",
+      "lineId": "line-14",
+      "startSeconds": 52.98,
+      "endSeconds": 54.66
+    },
+    {
+      "english": "Yes, let's hit the North Pole",
+      "chinese": "是啊，讓我們一起前往北極",
+      "lineId": "line-15",
+      "startSeconds": 54.66,
+      "endSeconds": 56.62
+    },
+    {
+      "english": "And live happily",
+      "chinese": "從此幸福快樂地生活",
+      "lineId": "line-16"
+    },
+    {
+      "english": "Please, don't cry no tears now",
+      "chinese": "所以，求你現在別再流淚了",
+      "lineId": "line-17",
+      "startSeconds": 57.74,
+      "endSeconds": 60.08
+    },
+    {
+      "english": "It's Christmas, baby",
+      "chinese": "寶貝，現在可是聖誕節啊",
+      "lineId": "line-18",
+      "startSeconds": 60.08,
+      "endSeconds": 61.44
+    },
+    {
+      "english": "My snowman and me, yeah",
+      "chinese": "我的雪人與我，耶",
+      "lineId": "line-19",
+      "startSeconds": 61.44,
+      "endSeconds": 64.5
+    },
+    {
+      "english": "My snowman and me",
+      "chinese": "我的雪人與我",
+      "lineId": "line-20",
+      "startSeconds": 68.54,
+      "endSeconds": 72.96
+    },
+    {
+      "english": "Baby",
+      "chinese": "親愛的",
+      "lineId": "line-21",
+      "startSeconds": 74.6,
+      "endSeconds": 75.26
+    },
+    {
+      "english": "Don't cry, snowman, don't you fear the sun",
+      "chinese": "別哭啊，雪人，別害怕那天上的太陽",
+      "lineId": "line-22"
+    },
+    {
+      "english": "Who'll carry me without legs to run, honey?",
+      "chinese": "親愛的，若你沒有雙腿可以奔跑，又有誰能帶著我前行呢？",
+      "lineId": "line-23",
+      "startSeconds": 85.52,
+      "endSeconds": 89.86
+    },
+    {
+      "english": "Without legs to run, honey",
+      "chinese": "若你沒有雙腿可以奔跑，親愛的",
+      "lineId": "line-24",
+      "startSeconds": 89.86,
+      "endSeconds": 94.12
+    },
+    {
+      "english": "Don't cry, snowman, don't you shed a tear",
+      "chinese": "別哭啊，雪人，別再落下一滴眼淚",
+      "lineId": "line-25",
+      "startSeconds": 94.12,
+      "endSeconds": 98.7
+    },
+    {
+      "english": "Who'll hear my secrets if you don't have ears, baby?",
+      "chinese": "寶貝，若你連耳朵都沒有，又有誰能傾聽我的祕密呢？",
+      "lineId": "line-26",
+      "startSeconds": 100.1,
+      "endSeconds": 103.56
+    },
+    {
+      "english": "If you don't have ears, baby",
+      "chinese": "若你沒有耳朵可以傾聽，寶貝",
+      "lineId": "line-27",
+      "startSeconds": 103.56,
+      "endSeconds": 106.66
+    },
+    {
+      "english": "I want you to know that I'm never leaving",
+      "chinese": "我想讓你知道，我永遠不會離開",
+      "lineId": "line-28",
+      "startSeconds": 109.28,
+      "endSeconds": 112.96
+    },
+    {
+      "english": "'Cause I'm Mrs. Snow. 'Til death we'll be freezing",
+      "chinese": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中",
+      "lineId": "line-29",
+      "startSeconds": 112.96,
+      "endSeconds": 116.46
+    },
+    {
+      "english": "Yeah, you are my home, my home for all seasons",
+      "chinese": "是啊，你就是我的家，是我四季不變的歸宿",
+      "lineId": "line-30",
+      "startSeconds": 116.46,
+      "endSeconds": 120.32
+    },
+    {
+      "english": "So, come on, let's go",
+      "chinese": "所以，來吧，我們一起走",
+      "lineId": "line-31"
+    },
+    {
+      "english": "Let's go below zero",
+      "chinese": "一起前往零度以下的冰雪世界",
+      "lineId": "line-32",
+      "startSeconds": 123.46,
+      "endSeconds": 125.14
+    },
+    {
+      "english": "And hide from the sun",
+      "chinese": "躲開那會讓你融化的陽光",
+      "lineId": "line-33",
+      "startSeconds": 125.14,
+      "endSeconds": 126.64
+    },
+    {
+      "english": "I'll love you forever",
+      "chinese": "我會永遠愛著你",
+      "lineId": "line-34",
+      "startSeconds": 126.64,
+      "endSeconds": 128.38
+    },
+    {
+      "english": "Where we'll have some fun",
+      "chinese": "在那裡，我們將共享歡樂的時光",
+      "lineId": "line-35",
+      "startSeconds": 128.38,
+      "endSeconds": 130.1
+    },
+    {
+      "english": "Yes, let's hit the North Pole",
+      "chinese": "是啊，讓我們一起前往北極",
+      "lineId": "line-36",
+      "startSeconds": 130.1,
+      "endSeconds": 132.04
+    },
+    {
+      "english": "And live happily",
+      "chinese": "從此幸福快樂地生活",
+      "lineId": "line-37"
+    },
+    {
+      "english": "Please, don't cry no tears now",
+      "chinese": "所以，求你現在別再流淚了",
+      "lineId": "line-38",
+      "startSeconds": 133.18,
+      "endSeconds": 135.54
+    },
+    {
+      "english": "It's Christmas, baby",
+      "chinese": "寶貝，現在可是聖誕節啊",
+      "lineId": "line-39",
+      "startSeconds": 135.56,
+      "endSeconds": 136.88
+    },
+    {
+      "english": "My snowman and me, yeah",
+      "chinese": "我的雪人與我，耶",
+      "lineId": "line-40",
+      "startSeconds": 136.88,
+      "endSeconds": 139.92
+    },
+    {
+      "english": "My snowman and me",
+      "chinese": "我的雪人與我",
+      "lineId": "line-41",
+      "startSeconds": 144.0,
+      "endSeconds": 148.1
+    },
+    {
+      "english": "Baby",
+      "chinese": "親愛的",
+      "lineId": "line-42",
+      "startSeconds": 150.14,
+      "endSeconds": 150.78
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Don't cry",
+          "options": [
+            "Don't cry",
+            "Don't run",
+            "Don't wait"
+          ],
+          "prompt": "{{blank}}, snowman, not in front of me",
+          "promptZh": "別哭啊，雪人，別在我面前落淚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "catch your tears",
+          "options": [
+            "hide your fears",
+            "hold your hands",
+            "catch your tears"
+          ],
+          "prompt": "Who'll {{blank}} if you can't catch me, darling?",
+          "promptZh": "親愛的，若你連我都無法擁住，又有誰能接住你的眼淚呢？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "can't catch me",
+          "options": [
+            "can't catch me",
+            "can't find me",
+            "won't follow me"
+          ],
+          "prompt": "If you {{blank}}, darling",
+          "promptZh": "若你無法將我擁入懷中，親愛的"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "leave me this way",
+          "options": [
+            "leave me this way",
+            "leave me alone",
+            "take me away"
+          ],
+          "prompt": "Don't cry, snowman, don't {{blank}}",
+          "promptZh": "別哭啊，雪人，別就這樣離我而去"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "A puddle of water",
+          "options": [
+            "A river of ice",
+            "A puddle of water",
+            "A blanket of snow"
+          ],
+          "prompt": "{{blank}} can't hold me close, baby",
+          "promptZh": "寶貝，融成一灘水的你，再也無法將我緊緊擁抱"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hold me close",
+          "options": [
+            "hold me close",
+            "keep me warm",
+            "let me go"
+          ],
+          "prompt": "Can't {{blank}}, baby",
+          "promptZh": "再也無法將我擁入懷中，寶貝"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "never leaving",
+          "options": [
+            "always waiting",
+            "never leaving",
+            "still believing"
+          ],
+          "prompt": "I want you to know that I'm {{blank}}",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "Mrs. Snow",
+          "options": [
+            "Mrs. Snow",
+            "Miss Sunshine",
+            "Lady Winter"
+          ],
+          "prompt": "'Cause I'm {{blank}}. 'Til death we'll be freezing",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "my home",
+          "options": [
+            "my home",
+            "my hope",
+            "my heart"
+          ],
+          "prompt": "Yeah, you are {{blank}}, my home for all seasons",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "let's go",
+          "options": [
+            "stay here",
+            "let's go",
+            "come back"
+          ],
+          "prompt": "So, come on, {{blank}}",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "below zero",
+          "options": [
+            "above freezing",
+            "below zero",
+            "beyond winter"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "hide from the sun",
+          "options": [
+            "run through the rain",
+            "dance in the snow",
+            "hide from the sun"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "love you forever",
+          "options": [
+            "miss you tomorrow",
+            "hold you tonight",
+            "love you forever"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "some fun",
+          "options": [
+            "more time",
+            "some fun",
+            "new friends"
+          ],
+          "prompt": "Where we'll have {{blank}}",
+          "promptZh": "在那裡，我們將共享歡樂的時光"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "North Pole",
+          "options": [
+            "South Coast",
+            "Green Valley",
+            "North Pole"
+          ],
+          "prompt": "Yes, let's hit the {{blank}}",
+          "promptZh": "是啊，讓我們一起前往北極"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "live happily",
+          "options": [
+            "sleep quietly",
+            "sing together",
+            "live happily"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "從此幸福快樂地生活"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "don't cry no tears",
+          "options": [
+            "don't make a sound",
+            "don't cry no tears",
+            "don't close your eyes"
+          ],
+          "prompt": "Please, {{blank}} now",
+          "promptZh": "所以，求你現在別再流淚了"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "Christmas",
+          "options": [
+            "Christmas",
+            "summer",
+            "midnight"
+          ],
+          "prompt": "It's {{blank}}, baby",
+          "promptZh": "寶貝，現在可是聖誕節啊"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "snowman and me",
+          "options": [
+            "family and friends",
+            "snowflakes and stars",
+            "snowman and me"
+          ],
+          "prompt": "My {{blank}}, yeah",
+          "promptZh": "我的雪人與我，耶"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "My snowman",
+          "options": [
+            "My darling",
+            "My snowman",
+            "My sunshine"
+          ],
+          "prompt": "{{blank}} and me",
+          "promptZh": "我的雪人與我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}, snowman, not in front of me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Who'll {{q:2}} if you can't catch me, darling?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If you {{q:3}}, darling"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Don't cry, snowman, don't {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} can't hold me close, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:6}}, baby"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I want you to know that I'm {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "'Cause I'm {{q:8}}. 'Til death we'll be freezing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Yeah, you are {{q:9}}, my home for all seasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So, come on, {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Let's go {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Where we'll have {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, let's hit the {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Please, {{q:17}} now"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's {{q:18}}, baby"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "My {{q:19}}, yeah"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:20}} and me"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Baby"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Don't cry, snowman, don't you fear the sun"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Who'll carry me without legs to run, honey?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Without legs to run, honey"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Don't cry, snowman, don't you shed a tear"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Who'll hear my secrets if you don't have ears, baby?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "If you don't have ears, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I want you to know that I'm never leaving"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death we'll be freezing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, you are my home, my home for all seasons"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So, come on, let's go"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Let's go below zero"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And hide from the sun"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'll love you forever"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where we'll have some fun"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Yes, let's hit the North Pole"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And live happily"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Please, don't cry no tears now"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's Christmas, baby"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "My snowman and me, yeah"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My snowman and me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Baby"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Don't cry",
+          "options": [
+            "Don't run",
+            "Don't cry",
+            "Don't wait"
+          ],
+          "prompt": "{{blank}}, snowman, not in front of me",
+          "promptZh": "別哭啊，雪人，別在我面前落淚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "catch your tears",
+          "options": [
+            "hide your fears",
+            "catch your tears",
+            "hold your hands"
+          ],
+          "prompt": "Who'll {{blank}} if you can't catch me, darling?",
+          "promptZh": "親愛的，若你連我都無法擁住，又有誰能接住你的眼淚呢？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "can't catch me",
+          "options": [
+            "can't find me",
+            "won't follow me",
+            "can't catch me"
+          ],
+          "prompt": "If you {{blank}}, darling",
+          "promptZh": "若你無法將我擁入懷中，親愛的"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "leave me this way",
+          "options": [
+            "leave me alone",
+            "leave me this way",
+            "take me away"
+          ],
+          "prompt": "Don't cry, snowman, don't {{blank}}",
+          "promptZh": "別哭啊，雪人，別就這樣離我而去"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "A puddle of water",
+          "options": [
+            "A puddle of water",
+            "A river of ice",
+            "A blanket of snow"
+          ],
+          "prompt": "{{blank}} can't hold me close, baby",
+          "promptZh": "寶貝，融成一灘水的你，再也無法將我緊緊擁抱"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hold me close",
+          "options": [
+            "keep me warm",
+            "let me go",
+            "hold me close"
+          ],
+          "prompt": "Can't {{blank}}, baby",
+          "promptZh": "再也無法將我擁入懷中，寶貝"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "never leaving",
+          "options": [
+            "never leaving",
+            "always waiting",
+            "still believing"
+          ],
+          "prompt": "I want you to know that I'm {{blank}}",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "Mrs. Snow",
+          "options": [
+            "Mrs. Snow",
+            "Miss Sunshine",
+            "Lady Winter"
+          ],
+          "prompt": "'Cause I'm {{blank}}. 'Til death we'll be freezing",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "my home",
+          "options": [
+            "my hope",
+            "my home",
+            "my heart"
+          ],
+          "prompt": "Yeah, you are {{blank}}, my home for all seasons",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "let's go",
+          "options": [
+            "stay here",
+            "let's go",
+            "come back"
+          ],
+          "prompt": "So, come on, {{blank}}",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "below zero",
+          "options": [
+            "above freezing",
+            "beyond winter",
+            "below zero"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "hide from the sun",
+          "options": [
+            "run through the rain",
+            "dance in the snow",
+            "hide from the sun"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "love you forever",
+          "options": [
+            "love you forever",
+            "miss you tomorrow",
+            "hold you tonight"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "some fun",
+          "options": [
+            "more time",
+            "some fun",
+            "new friends"
+          ],
+          "prompt": "Where we'll have {{blank}}",
+          "promptZh": "在那裡，我們將共享歡樂的時光"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "North Pole",
+          "options": [
+            "North Pole",
+            "South Coast",
+            "Green Valley"
+          ],
+          "prompt": "Yes, let's hit the {{blank}}",
+          "promptZh": "是啊，讓我們一起前往北極"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "live happily",
+          "options": [
+            "sleep quietly",
+            "live happily",
+            "sing together"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "從此幸福快樂地生活"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "don't cry no tears",
+          "options": [
+            "don't make a sound",
+            "don't close your eyes",
+            "don't cry no tears"
+          ],
+          "prompt": "Please, {{blank}} now",
+          "promptZh": "所以，求你現在別再流淚了"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "Christmas",
+          "options": [
+            "Christmas",
+            "summer",
+            "midnight"
+          ],
+          "prompt": "It's {{blank}}, baby",
+          "promptZh": "寶貝，現在可是聖誕節啊"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "snowman and me",
+          "options": [
+            "snowman and me",
+            "family and friends",
+            "snowflakes and stars"
+          ],
+          "prompt": "My {{blank}}, yeah",
+          "promptZh": "我的雪人與我，耶"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "My snowman",
+          "options": [
+            "My darling",
+            "My snowman",
+            "My sunshine"
+          ],
+          "prompt": "{{blank}} and me",
+          "promptZh": "我的雪人與我"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "fear the sun",
+          "options": [
+            "fear the sun",
+            "face the storm",
+            "feel the cold"
+          ],
+          "prompt": "Don't cry, snowman, don't you {{blank}}",
+          "promptZh": "別哭啊，雪人，別害怕那天上的太陽"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "carry me",
+          "options": [
+            "carry me",
+            "follow me",
+            "remember me"
+          ],
+          "prompt": "Who'll {{blank}} without legs to run, honey?",
+          "promptZh": "親愛的，若你沒有雙腿可以奔跑，又有誰能帶著我前行呢？"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "legs to run",
+          "options": [
+            "wings to fly",
+            "feet to dance",
+            "legs to run"
+          ],
+          "prompt": "Without {{blank}}, honey",
+          "promptZh": "若你沒有雙腿可以奔跑，親愛的"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "shed a tear",
+          "options": [
+            "say a word",
+            "shed a tear",
+            "make a wish"
+          ],
+          "prompt": "Don't cry, snowman, don't you {{blank}}",
+          "promptZh": "別哭啊，雪人，別再落下一滴眼淚"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "hear my secrets",
+          "options": [
+            "keep my promises",
+            "share my stories",
+            "hear my secrets"
+          ],
+          "prompt": "Who'll {{blank}} if you don't have ears, baby?",
+          "promptZh": "寶貝，若你連耳朵都沒有，又有誰能傾聽我的祕密呢？"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "have ears",
+          "options": [
+            "have hands",
+            "have ears",
+            "have eyes"
+          ],
+          "prompt": "If you don't {{blank}}, baby",
+          "promptZh": "若你沒有耳朵可以傾聽，寶貝"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "I want you to know",
+          "options": [
+            "I want you to know",
+            "I need you to stay",
+            "I wish you could see"
+          ],
+          "prompt": "{{blank}} that I'm never leaving",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "we'll be freezing",
+          "options": [
+            "we'll be dreaming",
+            "we'll be dancing",
+            "we'll be freezing"
+          ],
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death {{blank}}",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "all seasons",
+          "options": [
+            "long winters",
+            "all seasons",
+            "cold mornings"
+          ],
+          "prompt": "Yeah, you are my home, my home for {{blank}}",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "come on",
+          "options": [
+            "hold on",
+            "move back",
+            "come on"
+          ],
+          "prompt": "So, {{blank}}, let's go",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-32",
+          "answer": "below zero",
+          "options": [
+            "below zero",
+            "above the clouds",
+            "inside the house"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "from the sun",
+          "options": [
+            "from the rain",
+            "from the wind",
+            "from the sun"
+          ],
+          "prompt": "And hide {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}, snowman, not in front of me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Who'll {{q:2}} if you can't catch me, darling?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If you {{q:3}}, darling"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Don't cry, snowman, don't {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} can't hold me close, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:6}}, baby"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I want you to know that I'm {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "'Cause I'm {{q:8}}. 'Til death we'll be freezing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Yeah, you are {{q:9}}, my home for all seasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So, come on, {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Let's go {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Where we'll have {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, let's hit the {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Please, {{q:17}} now"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's {{q:18}}, baby"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "My {{q:19}}, yeah"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:20}} and me"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Baby"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Don't cry, snowman, don't you {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Who'll {{q:22}} without legs to run, honey?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Without {{q:23}}, honey"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Don't cry, snowman, don't you {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Who'll {{q:25}} if you don't have ears, baby?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "If you don't {{q:26}}, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:27}} that I'm never leaving"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, you are my home, my home for {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So, {{q:30}}, let's go"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Let's go {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And hide {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I'll love you forever"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where we'll have some fun"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Yes, let's hit the North Pole"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And live happily"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Please, don't cry no tears now"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's Christmas, baby"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "My snowman and me, yeah"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My snowman and me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Baby"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Don't cry",
+          "options": [
+            "Don't run",
+            "Don't cry",
+            "Don't wait"
+          ],
+          "prompt": "{{blank}}, snowman, not in front of me",
+          "promptZh": "別哭啊，雪人，別在我面前落淚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "catch your tears",
+          "options": [
+            "hide your fears",
+            "hold your hands",
+            "catch your tears"
+          ],
+          "prompt": "Who'll {{blank}} if you can't catch me, darling?",
+          "promptZh": "親愛的，若你連我都無法擁住，又有誰能接住你的眼淚呢？"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "can't catch me",
+          "options": [
+            "can't catch me",
+            "can't find me",
+            "won't follow me"
+          ],
+          "prompt": "If you {{blank}}, darling",
+          "promptZh": "若你無法將我擁入懷中，親愛的"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "leave me this way",
+          "options": [
+            "leave me alone",
+            "leave me this way",
+            "take me away"
+          ],
+          "prompt": "Don't cry, snowman, don't {{blank}}",
+          "promptZh": "別哭啊，雪人，別就這樣離我而去"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "A puddle of water",
+          "options": [
+            "A puddle of water",
+            "A river of ice",
+            "A blanket of snow"
+          ],
+          "prompt": "{{blank}} can't hold me close, baby",
+          "promptZh": "寶貝，融成一灘水的你，再也無法將我緊緊擁抱"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "hold me close",
+          "options": [
+            "keep me warm",
+            "hold me close",
+            "let me go"
+          ],
+          "prompt": "Can't {{blank}}, baby",
+          "promptZh": "再也無法將我擁入懷中，寶貝"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "never leaving",
+          "options": [
+            "always waiting",
+            "never leaving",
+            "still believing"
+          ],
+          "prompt": "I want you to know that I'm {{blank}}",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "Mrs. Snow",
+          "options": [
+            "Miss Sunshine",
+            "Lady Winter",
+            "Mrs. Snow"
+          ],
+          "prompt": "'Cause I'm {{blank}}. 'Til death we'll be freezing",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "my home",
+          "options": [
+            "my home",
+            "my hope",
+            "my heart"
+          ],
+          "prompt": "Yeah, you are {{blank}}, my home for all seasons",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "let's go",
+          "options": [
+            "stay here",
+            "let's go",
+            "come back"
+          ],
+          "prompt": "So, come on, {{blank}}",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "below zero",
+          "options": [
+            "above freezing",
+            "below zero",
+            "beyond winter"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "hide from the sun",
+          "options": [
+            "run through the rain",
+            "dance in the snow",
+            "hide from the sun"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "love you forever",
+          "options": [
+            "miss you tomorrow",
+            "love you forever",
+            "hold you tonight"
+          ],
+          "prompt": "I'll {{blank}}",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "some fun",
+          "options": [
+            "more time",
+            "new friends",
+            "some fun"
+          ],
+          "prompt": "Where we'll have {{blank}}",
+          "promptZh": "在那裡，我們將共享歡樂的時光"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "North Pole",
+          "options": [
+            "South Coast",
+            "Green Valley",
+            "North Pole"
+          ],
+          "prompt": "Yes, let's hit the {{blank}}",
+          "promptZh": "是啊，讓我們一起前往北極"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "live happily",
+          "options": [
+            "live happily",
+            "sleep quietly",
+            "sing together"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "從此幸福快樂地生活"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "don't cry no tears",
+          "options": [
+            "don't make a sound",
+            "don't close your eyes",
+            "don't cry no tears"
+          ],
+          "prompt": "Please, {{blank}} now",
+          "promptZh": "所以，求你現在別再流淚了"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "Christmas",
+          "options": [
+            "Christmas",
+            "summer",
+            "midnight"
+          ],
+          "prompt": "It's {{blank}}, baby",
+          "promptZh": "寶貝，現在可是聖誕節啊"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-19",
+          "answer": "snowman and me",
+          "options": [
+            "family and friends",
+            "snowman and me",
+            "snowflakes and stars"
+          ],
+          "prompt": "My {{blank}}, yeah",
+          "promptZh": "我的雪人與我，耶"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-20",
+          "answer": "My snowman",
+          "options": [
+            "My darling",
+            "My snowman",
+            "My sunshine"
+          ],
+          "prompt": "{{blank}} and me",
+          "promptZh": "我的雪人與我"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-22",
+          "answer": "fear the sun",
+          "options": [
+            "face the storm",
+            "feel the cold",
+            "fear the sun"
+          ],
+          "prompt": "Don't cry, snowman, don't you {{blank}}",
+          "promptZh": "別哭啊，雪人，別害怕那天上的太陽"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-23",
+          "answer": "carry me",
+          "options": [
+            "follow me",
+            "carry me",
+            "remember me"
+          ],
+          "prompt": "Who'll {{blank}} without legs to run, honey?",
+          "promptZh": "親愛的，若你沒有雙腿可以奔跑，又有誰能帶著我前行呢？"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-24",
+          "answer": "legs to run",
+          "options": [
+            "legs to run",
+            "wings to fly",
+            "feet to dance"
+          ],
+          "prompt": "Without {{blank}}, honey",
+          "promptZh": "若你沒有雙腿可以奔跑，親愛的"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-25",
+          "answer": "shed a tear",
+          "options": [
+            "say a word",
+            "shed a tear",
+            "make a wish"
+          ],
+          "prompt": "Don't cry, snowman, don't you {{blank}}",
+          "promptZh": "別哭啊，雪人，別再落下一滴眼淚"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-26",
+          "answer": "hear my secrets",
+          "options": [
+            "hear my secrets",
+            "keep my promises",
+            "share my stories"
+          ],
+          "prompt": "Who'll {{blank}} if you don't have ears, baby?",
+          "promptZh": "寶貝，若你連耳朵都沒有，又有誰能傾聽我的祕密呢？"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-27",
+          "answer": "have ears",
+          "options": [
+            "have hands",
+            "have ears",
+            "have eyes"
+          ],
+          "prompt": "If you don't {{blank}}, baby",
+          "promptZh": "若你沒有耳朵可以傾聽，寶貝"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-28",
+          "answer": "I want you to know",
+          "options": [
+            "I want you to know",
+            "I need you to stay",
+            "I wish you could see"
+          ],
+          "prompt": "{{blank}} that I'm never leaving",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-29",
+          "answer": "we'll be freezing",
+          "options": [
+            "we'll be dreaming",
+            "we'll be dancing",
+            "we'll be freezing"
+          ],
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death {{blank}}",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-30",
+          "answer": "all seasons",
+          "options": [
+            "long winters",
+            "cold mornings",
+            "all seasons"
+          ],
+          "prompt": "Yeah, you are my home, my home for {{blank}}",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-31",
+          "answer": "come on",
+          "options": [
+            "come on",
+            "hold on",
+            "move back"
+          ],
+          "prompt": "So, {{blank}}, let's go",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-32",
+          "answer": "below zero",
+          "options": [
+            "above the clouds",
+            "below zero",
+            "inside the house"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-33",
+          "answer": "from the sun",
+          "options": [
+            "from the rain",
+            "from the wind",
+            "from the sun"
+          ],
+          "prompt": "And hide {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-34",
+          "answer": "I'll love you",
+          "options": [
+            "I'll miss you",
+            "I'll call you",
+            "I'll love you"
+          ],
+          "prompt": "{{blank}} forever",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-35",
+          "answer": "have some fun",
+          "options": [
+            "have some fun",
+            "find a home",
+            "take a walk"
+          ],
+          "prompt": "Where we'll {{blank}}",
+          "promptZh": "在那裡，我們將共享歡樂的時光"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-36",
+          "answer": "let's hit",
+          "options": [
+            "let's leave",
+            "let's miss",
+            "let's hit"
+          ],
+          "prompt": "Yes, {{blank}} the North Pole",
+          "promptZh": "是啊，讓我們一起前往北極"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-37",
+          "answer": "happily",
+          "options": [
+            "happily",
+            "quietly",
+            "slowly"
+          ],
+          "prompt": "And live {{blank}}",
+          "promptZh": "從此幸福快樂地生活"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-38",
+          "answer": "Please",
+          "options": [
+            "Please",
+            "Maybe",
+            "Never"
+          ],
+          "prompt": "{{blank}}, don't cry no tears now",
+          "promptZh": "所以，求你現在別再流淚了"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-39",
+          "answer": "baby",
+          "options": [
+            "honey",
+            "darling",
+            "baby"
+          ],
+          "prompt": "It's Christmas, {{blank}}",
+          "promptZh": "寶貝，現在可是聖誕節啊"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-40",
+          "answer": "My snowman and me",
+          "options": [
+            "My snowman and me",
+            "My family and you",
+            "My darling and I"
+          ],
+          "prompt": "{{blank}}, yeah",
+          "promptZh": "我的雪人與我，耶"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-41",
+          "answer": "snowman",
+          "options": [
+            "snowman",
+            "snowflake",
+            "sunshine"
+          ],
+          "prompt": "My {{blank}} and me",
+          "promptZh": "我的雪人與我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}, snowman, not in front of me"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Who'll {{q:2}} if you can't catch me, darling?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If you {{q:3}}, darling"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Don't cry, snowman, don't {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:5}} can't hold me close, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:6}}, baby"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I want you to know that I'm {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "'Cause I'm {{q:8}}. 'Til death we'll be freezing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Yeah, you are {{q:9}}, my home for all seasons"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So, come on, {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Let's go {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'll {{q:13}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Where we'll have {{q:14}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, let's hit the {{q:15}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:16}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Please, {{q:17}} now"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's {{q:18}}, baby"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "My {{q:19}}, yeah"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:20}} and me"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Baby"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Don't cry, snowman, don't you {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Who'll {{q:22}} without legs to run, honey?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Without {{q:23}}, honey"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Don't cry, snowman, don't you {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Who'll {{q:25}} if you don't have ears, baby?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "If you don't {{q:26}}, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:27}} that I'm never leaving"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death {{q:28}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, you are my home, my home for {{q:29}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So, {{q:30}}, let's go"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Let's go {{q:31}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And hide {{q:32}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:33}} forever"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where we'll {{q:34}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Yes, {{q:35}} the North Pole"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And live {{q:36}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:37}}, don't cry no tears now"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's Christmas, {{q:38}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:39}}, yeah"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My {{q:40}} and me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Baby"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Don't cry",
+          "options": [
+            "Don't run",
+            "Don't cry",
+            "Don't wait"
+          ],
+          "prompt": "{{blank}}, snowman, not in front of me",
+          "promptZh": "別哭啊，雪人，別在我面前落淚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "in front of me",
+          "options": [
+            "behind the tree",
+            "in front of me",
+            "beside the sea"
+          ],
+          "prompt": "Don't cry, snowman, not {{blank}}",
+          "promptZh": "別哭啊，雪人，別在我面前落淚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "catch your tears",
+          "options": [
+            "catch your tears",
+            "hide your fears",
+            "hold your hands"
+          ],
+          "prompt": "Who'll {{blank}} if you can't catch me, darling?",
+          "promptZh": "親愛的，若你連我都無法擁住，又有誰能接住你的眼淚呢？"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "if you can't catch me",
+          "options": [
+            "if you won't believe me",
+            "if you can't catch me",
+            "when you come to find me"
+          ],
+          "prompt": "Who'll catch your tears {{blank}}, darling?",
+          "promptZh": "親愛的，若你連我都無法擁住，又有誰能接住你的眼淚呢？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "can't catch me",
+          "options": [
+            "can't find me",
+            "can't catch me",
+            "won't follow me"
+          ],
+          "prompt": "If you {{blank}}, darling",
+          "promptZh": "若你無法將我擁入懷中，親愛的"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "Don't cry, snowman",
+          "options": [
+            "Don't run, darling",
+            "Don't hide, baby",
+            "Don't cry, snowman"
+          ],
+          "prompt": "{{blank}}, don't leave me this way",
+          "promptZh": "別哭啊，雪人，別就這樣離我而去"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "leave me this way",
+          "options": [
+            "leave me alone",
+            "take me away",
+            "leave me this way"
+          ],
+          "prompt": "Don't cry, snowman, don't {{blank}}",
+          "promptZh": "別哭啊，雪人，別就這樣離我而去"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "A puddle of water",
+          "options": [
+            "A puddle of water",
+            "A river of ice",
+            "A blanket of snow"
+          ],
+          "prompt": "{{blank}} can't hold me close, baby",
+          "promptZh": "寶貝，融成一灘水的你，再也無法將我緊緊擁抱"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-5",
+          "answer": "can't hold me close",
+          "options": [
+            "can't hold me close",
+            "can't keep me safe",
+            "won't make me smile"
+          ],
+          "prompt": "A puddle of water {{blank}}, baby",
+          "promptZh": "寶貝，融成一灘水的你，再也無法將我緊緊擁抱"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "hold me close",
+          "options": [
+            "keep me warm",
+            "let me go",
+            "hold me close"
+          ],
+          "prompt": "Can't {{blank}}, baby",
+          "promptZh": "再也無法將我擁入懷中，寶貝"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "I want you to know",
+          "options": [
+            "I need you to stay",
+            "I want you to see",
+            "I want you to know"
+          ],
+          "prompt": "{{blank}} that I'm never leaving",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "never leaving",
+          "options": [
+            "always waiting",
+            "never leaving",
+            "still believing"
+          ],
+          "prompt": "I want you to know that I'm {{blank}}",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-8",
+          "answer": "Mrs. Snow",
+          "options": [
+            "Mrs. Snow",
+            "Miss Sunshine",
+            "Lady Winter"
+          ],
+          "prompt": "'Cause I'm {{blank}}. 'Til death we'll be freezing",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-8",
+          "answer": "'Til death",
+          "options": [
+            "'Til death",
+            "Till dawn",
+            "By morning"
+          ],
+          "prompt": "'Cause I'm Mrs. Snow. {{blank}} we'll be freezing",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-9",
+          "answer": "my home",
+          "options": [
+            "my hope",
+            "my home",
+            "my heart"
+          ],
+          "prompt": "Yeah, you are {{blank}}, my home for all seasons",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-9",
+          "answer": "for all seasons",
+          "options": [
+            "through cold winters",
+            "in the summertime",
+            "for all seasons"
+          ],
+          "prompt": "Yeah, you are my home, my home {{blank}}",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-10",
+          "answer": "let's go",
+          "options": [
+            "let's go",
+            "stay here",
+            "come back"
+          ],
+          "prompt": "So, come on, {{blank}}",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-11",
+          "answer": "below zero",
+          "options": [
+            "above freezing",
+            "below zero",
+            "beyond winter"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-12",
+          "answer": "hide from the sun",
+          "options": [
+            "run through the rain",
+            "hide from the sun",
+            "dance in the snow"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-13",
+          "answer": "I'll love you",
+          "options": [
+            "I'll hold you",
+            "I'll miss you",
+            "I'll love you"
+          ],
+          "prompt": "{{blank}} forever",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "forever",
+          "options": [
+            "tomorrow",
+            "tonight",
+            "forever"
+          ],
+          "prompt": "I'll love you {{blank}}",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-14",
+          "answer": "some fun",
+          "options": [
+            "some fun",
+            "more time",
+            "new friends"
+          ],
+          "prompt": "Where we'll have {{blank}}",
+          "promptZh": "在那裡，我們將共享歡樂的時光"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-15",
+          "answer": "North Pole",
+          "options": [
+            "South Coast",
+            "Green Valley",
+            "North Pole"
+          ],
+          "prompt": "Yes, let's hit the {{blank}}",
+          "promptZh": "是啊，讓我們一起前往北極"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-16",
+          "answer": "live happily",
+          "options": [
+            "sleep quietly",
+            "live happily",
+            "sing together"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "從此幸福快樂地生活"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-17",
+          "answer": "don't cry no tears",
+          "options": [
+            "don't cry no tears",
+            "don't make a sound",
+            "don't close your eyes"
+          ],
+          "prompt": "Please, {{blank}} now",
+          "promptZh": "所以，求你現在別再流淚了"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-18",
+          "answer": "Christmas",
+          "options": [
+            "summer",
+            "midnight",
+            "Christmas"
+          ],
+          "prompt": "It's {{blank}}, baby",
+          "promptZh": "寶貝，現在可是聖誕節啊"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-19",
+          "answer": "snowman and me",
+          "options": [
+            "snowman and me",
+            "family and friends",
+            "snowflakes and stars"
+          ],
+          "prompt": "My {{blank}}, yeah",
+          "promptZh": "我的雪人與我，耶"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-20",
+          "answer": "My snowman",
+          "options": [
+            "My darling",
+            "My snowman",
+            "My sunshine"
+          ],
+          "prompt": "{{blank}} and me",
+          "promptZh": "我的雪人與我"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "fear the sun",
+          "options": [
+            "face the storm",
+            "feel the cold",
+            "fear the sun"
+          ],
+          "prompt": "Don't cry, snowman, don't you {{blank}}",
+          "promptZh": "別哭啊，雪人，別害怕那天上的太陽"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "carry me",
+          "options": [
+            "carry me",
+            "follow me",
+            "remember me"
+          ],
+          "prompt": "Who'll {{blank}} without legs to run, honey?",
+          "promptZh": "親愛的，若你沒有雙腿可以奔跑，又有誰能帶著我前行呢？"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "without legs to run",
+          "options": [
+            "without legs to run",
+            "without wings to fly",
+            "without eyes to see"
+          ],
+          "prompt": "Who'll carry me {{blank}}, honey?",
+          "promptZh": "親愛的，若你沒有雙腿可以奔跑，又有誰能帶著我前行呢？"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "legs to run",
+          "options": [
+            "wings to fly",
+            "legs to run",
+            "feet to dance"
+          ],
+          "prompt": "Without {{blank}}, honey",
+          "promptZh": "若你沒有雙腿可以奔跑，親愛的"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "shed a tear",
+          "options": [
+            "say a word",
+            "make a wish",
+            "shed a tear"
+          ],
+          "prompt": "Don't cry, snowman, don't you {{blank}}",
+          "promptZh": "別哭啊，雪人，別再落下一滴眼淚"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-26",
+          "answer": "hear my secrets",
+          "options": [
+            "keep my promises",
+            "share my stories",
+            "hear my secrets"
+          ],
+          "prompt": "Who'll {{blank}} if you don't have ears, baby?",
+          "promptZh": "寶貝，若你連耳朵都沒有，又有誰能傾聽我的祕密呢？"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "if you don't have ears",
+          "options": [
+            "if you don't have hands",
+            "if you don't have ears",
+            "when you can't see stars"
+          ],
+          "prompt": "Who'll hear my secrets {{blank}}, baby?",
+          "promptZh": "寶貝，若你連耳朵都沒有，又有誰能傾聽我的祕密呢？"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-27",
+          "answer": "have ears",
+          "options": [
+            "have hands",
+            "have ears",
+            "have eyes"
+          ],
+          "prompt": "If you don't {{blank}}, baby",
+          "promptZh": "若你沒有耳朵可以傾聽，寶貝"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-28",
+          "answer": "I want you to know",
+          "options": [
+            "I want you to know",
+            "I need you to stay",
+            "I wish you could see"
+          ],
+          "prompt": "{{blank}} that I'm never leaving",
+          "promptZh": "我想讓你知道，我永遠不會離開"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-29",
+          "answer": "we'll be freezing",
+          "options": [
+            "we'll be dreaming",
+            "we'll be dancing",
+            "we'll be freezing"
+          ],
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death {{blank}}",
+          "promptZh": "因為我是雪夫人，直到生命盡頭，我們都將相守於冰雪之中"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-30",
+          "answer": "all seasons",
+          "options": [
+            "all seasons",
+            "long winters",
+            "cold mornings"
+          ],
+          "prompt": "Yeah, you are my home, my home for {{blank}}",
+          "promptZh": "是啊，你就是我的家，是我四季不變的歸宿"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-31",
+          "answer": "come on",
+          "options": [
+            "come on",
+            "hold on",
+            "move back"
+          ],
+          "prompt": "So, {{blank}}, let's go",
+          "promptZh": "所以，來吧，我們一起走"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-32",
+          "answer": "below zero",
+          "options": [
+            "above the clouds",
+            "below zero",
+            "inside the house"
+          ],
+          "prompt": "Let's go {{blank}}",
+          "promptZh": "一起前往零度以下的冰雪世界"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-33",
+          "answer": "from the sun",
+          "options": [
+            "from the sun",
+            "from the rain",
+            "from the wind"
+          ],
+          "prompt": "And hide {{blank}}",
+          "promptZh": "躲開那會讓你融化的陽光"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-34",
+          "answer": "I'll love you",
+          "options": [
+            "I'll miss you",
+            "I'll love you",
+            "I'll call you"
+          ],
+          "prompt": "{{blank}} forever",
+          "promptZh": "我會永遠愛著你"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-35",
+          "answer": "have some fun",
+          "options": [
+            "find a home",
+            "take a walk",
+            "have some fun"
+          ],
+          "prompt": "Where we'll {{blank}}",
+          "promptZh": "在那裡，我們將共享歡樂的時光"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-36",
+          "answer": "let's hit",
+          "options": [
+            "let's hit",
+            "let's leave",
+            "let's miss"
+          ],
+          "prompt": "Yes, {{blank}} the North Pole",
+          "promptZh": "是啊，讓我們一起前往北極"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-37",
+          "answer": "happily",
+          "options": [
+            "quietly",
+            "happily",
+            "slowly"
+          ],
+          "prompt": "And live {{blank}}",
+          "promptZh": "從此幸福快樂地生活"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-38",
+          "answer": "Please",
+          "options": [
+            "Maybe",
+            "Never",
+            "Please"
+          ],
+          "prompt": "{{blank}}, don't cry no tears now",
+          "promptZh": "所以，求你現在別再流淚了"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-39",
+          "answer": "baby",
+          "options": [
+            "honey",
+            "baby",
+            "darling"
+          ],
+          "prompt": "It's Christmas, {{blank}}",
+          "promptZh": "寶貝，現在可是聖誕節啊"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-40",
+          "answer": "My snowman and me",
+          "options": [
+            "My snowman and me",
+            "My family and you",
+            "My darling and I"
+          ],
+          "prompt": "{{blank}}, yeah",
+          "promptZh": "我的雪人與我，耶"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-41",
+          "answer": "snowman",
+          "options": [
+            "snowflake",
+            "sunshine",
+            "snowman"
+          ],
+          "prompt": "My {{blank}} and me",
+          "promptZh": "我的雪人與我"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}}, snowman, not {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Who'll {{q:3}} {{q:4}}, darling?"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If you {{q:5}}, darling"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}, don't {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} {{q:9}}, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Can't {{q:10}}, baby"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}} that I'm {{q:12}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "'Cause I'm {{q:13}}. {{q:14}} we'll be freezing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Yeah, you are {{q:15}}, my home {{q:16}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "So, come on, {{q:17}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Let's go {{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And {{q:19}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Where we'll have {{q:22}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Yes, let's hit the {{q:23}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And {{q:24}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Please, {{q:25}} now"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "It's {{q:26}}, baby"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "My {{q:27}}, yeah"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:28}} and me"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Baby"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Don't cry, snowman, don't you {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Who'll {{q:30}} {{q:31}}, honey?"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Without {{q:32}}, honey"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Don't cry, snowman, don't you {{q:33}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Who'll {{q:34}} {{q:35}}, baby?"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "If you don't {{q:36}}, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:37}} that I'm never leaving"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "'Cause I'm Mrs. Snow. 'Til death {{q:38}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, you are my home, my home for {{q:39}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "So, {{q:40}}, let's go"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Let's go {{q:41}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "And hide {{q:42}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:43}} forever"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Where we'll {{q:44}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Yes, {{q:45}} the North Pole"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And live {{q:46}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:47}}, don't cry no tears now"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "It's Christmas, {{q:48}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:49}}, yeah"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My {{q:50}} and me"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Baby"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Snowman · Listening & Vocabulary",
+  "description": "《Snowman》描寫一段充滿童話色彩、溫柔而堅定的愛情。歌中的主角將心愛的人比喻為雪人，因為雪人害怕陽光融化，象徵愛情中的脆弱，以及對失去對方的恐懼。她不斷安慰雪人，承諾永遠不會離開，甚至願意一起前往寒冷的北極，尋找能夠長久相守的地方。歌曲以冰雪、陽光與聖誕節等意象，營造出浪漫而溫馨的氛圍，也表達了對永恆愛情的嚮往。最終，《Snowman》傳達的是愛情中的忠誠、守護與無條件的陪伴：即使幸福看似脆弱，只要彼此珍惜、願意共同面對困難，便能在變化無常的世界中，找到屬於兩人的溫暖與歸宿。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Catch your tears",
+      "meaning": "接住你的眼淚；在歌中是溫柔的比喻",
+      "usage": "用來描述接住落下的東西；在情感表達中，也可象徵安慰別人。",
+      "prompt": "哪一句正確使用了「Catch your tears」？",
+      "options": [
+        "The airport caught my tears for a new passport.",
+        "I catch my tears to the museum every Monday.",
+        "She caught her tears blue after painting the wall.",
+        "The actor tried to catch her tears in a little glass."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：機場不會「接住眼淚」來辦護照；應說 applied for a new passport。",
+        "錯誤：catch 不能這樣表示前往博物館；應說 go to the museum。",
+        "錯誤：catch tears 不能表示把眼淚漆成藍色；應說 painted the wall blue。",
+        "正確：catch 是接住，這句用誇張幽默的方式描述接住眼淚。"
+      ],
+      "explanation": "正確：catch 是接住，這句用誇張幽默的方式描述接住眼淚。"
+    },
+    {
+      "number": 2,
+      "word": "A puddle of water",
+      "meaning": "一灘水",
+      "usage": "雨後地上或路面積起的一小灘水；也可以用在好玩的想像情境。",
+      "prompt": "哪一句正確使用了「A puddle of water」？",
+      "options": [
+        "After the storm, a puddle of water covered the bus stop floor.",
+        "The violin teacher played a puddle of water on stage.",
+        "We booked a puddle of water for two nights at the hotel.",
+        "The student emailed a puddle of water to the principal."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：puddle of water 指地面積起的一小灘水。",
+        "錯誤：水灘不是樂器；應說 played the violin。",
+        "錯誤：不能把水灘當旅館房間訂；應說 booked a room。",
+        "錯誤：一般不能用 email 寄送實體水灘；應說 emailed a photo。"
+      ],
+      "explanation": "正確：puddle of water 指地面積起的一小灘水。"
+    },
+    {
+      "number": 3,
+      "word": "Hold someone close",
+      "meaning": "把某人緊緊抱在身旁",
+      "usage": "想安慰、保護或親近某個人時可以用；hold 是抱住，close 表示靠近。",
+      "prompt": "哪一句正確使用了「Hold someone close」？",
+      "options": [
+        "The captain held the timetable close to win the football match.",
+        "We held the weather close before the outdoor concert.",
+        "The father held his daughter close when the fireworks got loud.",
+        "The scientist held the number close and it became sixteen."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：抱著時刻表不表示贏球，也沒有表達抱住某人。",
+        "錯誤：weather 不是能抱住的人；可以說 checked the weather。",
+        "正確：爸爸在煙火聲很大時緊抱女兒，符合安慰與保護的情境。",
+        "錯誤：這裡 hold close 不能讓數字改變；可以說 added two numbers。"
+      ],
+      "explanation": "正確：爸爸在煙火聲很大時緊抱女兒，符合安慰與保護的情境。"
+    },
+    {
+      "number": 4,
+      "word": "For all seasons",
+      "meaning": "適合所有季節；一年四季都可以",
+      "usage": "形容一種衣物、活動或地方，在春夏秋冬都適合。",
+      "prompt": "哪一句正確使用了「For all seasons」？",
+      "options": [
+        "The painter drew for all seasons on one pencil.",
+        "This indoor swimming pool is open for all seasons.",
+        "The train arrived for all seasons at 8:30.",
+        "She sent for all seasons to the office by email."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：for all seasons 不表示用一支筆畫畫；可以說 drew with one pencil。",
+        "正確：游泳池一年四季都開放，符合 for all seasons 的意思。",
+        "錯誤：火車到站時間不能用 for all seasons 取代每天；可說 arrived every day at 8:30。",
+        "錯誤：這個片語不能當作一封電郵的內容或收件人。"
+      ],
+      "explanation": "正確：游泳池一年四季都開放，符合 for all seasons 的意思。"
+    },
+    {
+      "number": 5,
+      "word": "Below zero",
+      "meaning": "零度以下",
+      "usage": "談氣溫或其他數值低於零時使用；天氣很冷時尤其常見。",
+      "prompt": "哪一句正確使用了「Below zero」？",
+      "options": [
+        "I put the meeting below zero because the boss was late.",
+        "The library is below zero books on the second floor.",
+        "The weather station said the temperature was five degrees below zero.",
+        "He sang below zero to the audience after the show."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：不能用 below zero 表示會議延遲；應說 delayed the meeting。",
+        "錯誤：below zero 不是「在二樓」；可說 the books are on the second floor。",
+        "正確：五度零下就是 below zero 的自然用法。",
+        "錯誤：below zero 不能表示向觀眾唱歌；可說 sang to the audience。"
+      ],
+      "explanation": "正確：五度零下就是 below zero 的自然用法。"
+    },
+    {
+      "number": 6,
+      "word": "Hide from",
+      "meaning": "躲避……；不讓……找到",
+      "usage": "躲避某個人、陽光或其他不想面對的事物時可用，後面接名詞。",
+      "prompt": "哪一句正確使用了「Hide from」？",
+      "options": [
+        "The reporter hid from a question into the newspaper.",
+        "The children hid from the rain under a large tent.",
+        "The manager hid from the deadline by writing it in red.",
+        "We hid from the music louder during the festival."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這裡不能用 into the newspaper 表示避開問題；可說 avoided the question。",
+        "正確：孩子們躲到帳篷下避雨，使用 hide from 很自然。",
+        "錯誤：寫成紅字不等於躲避期限；可說 marked the deadline in red。",
+        "錯誤：louder 放在這個位置不通順，也不表示躲避音樂。"
+      ],
+      "explanation": "正確：孩子們躲到帳篷下避雨，使用 hide from 很自然。"
+    },
+    {
+      "number": 7,
+      "word": "Shed a tear",
+      "meaning": "流下一滴眼淚；哭泣",
+      "usage": "談到因感動、難過或喜悅而落淚時使用；常見於故事和歌曲。",
+      "prompt": "哪一句正確使用了「Shed a tear」？",
+      "options": [
+        "The singer shed a tear when the audience sang along.",
+        "The tourist shed a tear to pay for the train ticket.",
+        "My phone shed a tear and sent a message to the hotel.",
+        "She shed a tear the recipe until it was ready."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：觀眾跟著唱時，歌手感動落淚，符合 shed a tear。",
+        "錯誤：眼淚不能作為車票付款方式；可說 paid for the ticket。",
+        "錯誤：手機不會真的流眼淚；這裡沒有合理的擬人語境。",
+        "錯誤：shed a tear 不能表示閱讀或完成食譜；可說 read the recipe。"
+      ],
+      "explanation": "正確：觀眾跟著唱時，歌手感動落淚，符合 shed a tear。"
+    },
+    {
+      "number": 8,
+      "word": "Catch someone",
+      "meaning": "接住某人；追上或抓到某人",
+      "usage": "例如接住快跌倒的人，或追上正在離開的人；需要看上下文。",
+      "prompt": "哪一句正確使用了「Catch someone」？",
+      "options": [
+        "The dancer slipped, but her partner caught her before she fell.",
+        "The photographer caught the museum to an email.",
+        "The coach caught the victory on the swimming pool.",
+        "The astronaut caught the moon with a suitcase."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：舞伴在她跌倒前接住她，符合 catch someone。",
+        "錯誤：catch 不能表示把博物館寄到信箱；可說 emailed the museum。",
+        "錯誤：不能自然地說 catch the victory，應說 won the race。",
+        "錯誤：一般無法用行李箱接住月亮，是不合理的字面用法。"
+      ],
+      "explanation": "正確：舞伴在她跌倒前接住她，符合 catch someone。"
+    },
+    {
+      "number": 9,
+      "word": "Carry someone",
+      "meaning": "抱著或背著某人；帶某人移動",
+      "usage": "當某人不能自己走路，或需要幫忙移動時，可以用 carry。",
+      "prompt": "哪一句正確使用了「Carry someone」？",
+      "options": [
+        "The chef carried the interview until it was spicy.",
+        "The firefighter carried the child out of the building.",
+        "The museum carried the history into a blue sweater.",
+        "We carried the holiday on Tuesday because it was sunny."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：不能把面試「搬到變辣」；spicy 通常描述食物。",
+        "正確：消防員抱著孩子離開建築物，符合 carry someone 的用法。",
+        "錯誤：這句沒有合理的移動對象或方向，搭配不自然。",
+        "錯誤：carry the holiday 不能表示安排假期；可說 planned a holiday。"
+      ],
+      "explanation": "正確：消防員抱著孩子離開建築物，符合 carry someone 的用法。"
+    },
+    {
+      "number": 10,
+      "word": "Live happily",
+      "meaning": "快樂地生活",
+      "usage": "形容人過得開心、滿足；常用於故事結尾或祝福。",
+      "prompt": "哪一句正確使用了「Live happily」？",
+      "options": [
+        "The audience lived happily the tickets at the concert.",
+        "I lived happily my laptop before the meeting started.",
+        "She lived happily to the museum at ten o’clock.",
+        "After moving to a new town, they lived happily near the sea."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：live happily 不能直接接 tickets 當受詞。",
+        "錯誤：live happily 不表示使用筆電；應說 used my laptop。",
+        "錯誤：live happily 不表示出發時間；可說 went to the museum。",
+        "正確：描述搬家後愉快的生活，live happily 用法自然。"
+      ],
+      "explanation": "正確：描述搬家後愉快的生活，live happily 用法自然。"
+    }
+  ],
+  "tags": [
+    "sia",
+    "snowman",
+    "love",
+    "christmas"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/snowman/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/snowman/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 165.900375,
+    "audioSha256": "a998ed91746325e71da919d0de2a60d7d1307c4122f1e264058b0cf8c460b66b",
+    "timedLines": 36,
+    "untimedLines": 6,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Snowman_.pdf",
+      "sha256": "6f0c54f63be04dac4f3f32aa936c4d96fa5b9c9d3a2f7660635c08ef03748912"
+    },
+    "chosenListening": {
+      "filename": "Snowman_Four_Level_Listening_Exercise.docx",
+      "sha256": "f858fc4e3a099eaa883861c05b0e463769fa45a2905c6160e5ed2217d18c49d0"
+    },
+    "chosenVocabulary": {
+      "filename": "Snowman_Vocabulary_Quiz.md",
+      "sha256": "aa3ad80335c5cca917990238f10f40e4d903f33d17e5f7dd79913fd1966cc6ec"
+    },
+    "mp3": {
+      "filename": "Snowman [ZSRzCbpIxZo].mp3",
+      "sha256": "a998ed91746325e71da919d0de2a60d7d1307c4122f1e264058b0cf8c460b66b"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-292c9ee6-af63-4dba-b966-92aa75241034.png",
+    "sha256": "66919f04cbc254cf132784f50f22f758f9ed3c24b41453ea67d16dfc5247c320",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

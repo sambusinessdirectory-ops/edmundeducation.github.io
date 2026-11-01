@@ -371,7 +371,7 @@ window.EDMUND_DSE_WRITING_PART_A_EXERCISES = {
           {
             "label": "The best part of my job",
             "english": "Yet the greatest privilege is not interviewing celebrities; it is earning ordinary people’s trust.",
-            "chinese": "然而，最大的榮幸並不是訪問名人，而是贏得普通人的信任。"
+            "chinese": "然而，贏得普通人的信任，才是最大的榮幸；訪問名人還在其次。"
           },
           {
             "label": "The best part of my job",
@@ -3166,7 +3166,7 @@ window.EDMUND_DSE_WRITING_PART_A_EXERCISES = {
           {
             "label": "Body Paragraph 1",
             "english": "Many students are exhausted not because they are lazy, but because their day does not end when school ends.",
-            "chinese": "許多學生感到疲憊，並不是因為他們懶惰，而是因為他們的一天並不會在放學時結束。"
+            "chinese": "許多學生感到疲憊，原因在於放學後仍有忙不完的事情，與懶惰無關。"
           },
           {
             "label": "Body Paragraph 1",
@@ -3235,7 +3235,7 @@ window.EDMUND_DSE_WRITING_PART_A_EXERCISES = {
           {
             "label": "Conclusion",
             "english": "Sleep is not a luxury, but the foundation of learning.",
-            "chinese": "睡眠不是奢侈品，而是學習的基礎。"
+            "chinese": "睡眠是學習的基礎，絕非奢侈品。"
           }
         ]
       },

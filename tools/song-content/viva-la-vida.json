@@ -1,0 +1,4623 @@
+{
+  "slug": "viva-la-vida",
+  "title": "Viva La Vida",
+  "singer": "Coldplay",
+  "description": "《Viva la Vida》描寫一位失去權力的君王，回望昔日榮耀與今日落寞的巨大反差。歌中的主角曾經君臨天下、掌控一切，卻在權力崩塌後變得孤獨無助，甚至開始懷疑自己過去的選擇。他回想群眾的歡呼、戰爭與革命，也逐漸明白權力其實並不穩固，如同建立在沙土上的城堡，隨時可能倒塌。宗教與歷史意象則加深了他對罪責、命運與救贖的思考。最終，《Viva la Vida》傳達的是對權力、失敗與人生無常的反思：再強大的地位也可能瞬間失去，真正值得思考的，是人在失去一切後如何重新理解自己的人生。",
+  "exercise_name": "Viva La Vida · Listening & Vocabulary",
+  "tags": [
+    "coldplay",
+    "viva la vida",
+    "power",
+    "change"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I used to rule the world",
+      "chinese": "我曾君臨天下",
+      "startSeconds": 12.82,
+      "endSeconds": 16.78
+    },
+    {
+      "lineId": "line-2",
+      "english": "Seas would rise when I gave the word",
+      "chinese": "只要我一聲令下，連大海都會為之翻騰"
+    },
+    {
+      "lineId": "line-3",
+      "english": "Now in the morning I sleep alone",
+      "chinese": "如今，每逢清晨，我卻只能孤身而眠",
+      "startSeconds": 19.74,
+      "endSeconds": 23.64
+    },
+    {
+      "lineId": "line-4",
+      "english": "Sweep the streets I used to own",
+      "chinese": "清掃著那些曾經屬於我的街道",
+      "startSeconds": 23.64,
+      "endSeconds": 27.38
+    },
+    {
+      "lineId": "line-5",
+      "english": "I used to roll the dice",
+      "chinese": "我曾擲下骰子，左右命運",
+      "startSeconds": 40.36,
+      "endSeconds": 44.6
+    },
+    {
+      "lineId": "line-6",
+      "english": "Feel the fear in my enemy's eyes",
+      "chinese": "感受敵人眼中流露的恐懼",
+      "startSeconds": 44.6,
+      "endSeconds": 48.18
+    },
+    {
+      "lineId": "line-7",
+      "english": "Listened as the crowd would sing,",
+      "chinese": "聆聽群眾高聲歡呼",
+      "startSeconds": 48.18,
+      "endSeconds": 51.4
+    },
+    {
+      "lineId": "line-8",
+      "english": "\"Now the old king is dead! Long live the king!\"",
+      "chinese": "「舊王已逝！新王萬歲！」",
+      "startSeconds": 51.96,
+      "endSeconds": 54.88
+    },
+    {
+      "lineId": "line-9",
+      "english": "One minute I held the key",
+      "chinese": "前一刻，權柄還掌握在我手中",
+      "startSeconds": 54.88,
+      "endSeconds": 58.26
+    },
+    {
+      "lineId": "line-10",
+      "english": "Next the walls were closed on me",
+      "chinese": "下一刻，四面高牆卻已將我困住",
+      "startSeconds": 58.26,
+      "endSeconds": 61.58
+    },
+    {
+      "lineId": "line-11",
+      "english": "And I discovered that my castles stand",
+      "chinese": "我這才發現，原來我的城堡",
+      "startSeconds": 61.58,
+      "endSeconds": 65.32
+    },
+    {
+      "lineId": "line-12",
+      "english": "Upon pillars of salt and pillars of sand",
+      "chinese": "竟建立在鹽柱與沙柱之上",
+      "startSeconds": 65.32,
+      "endSeconds": 69.32
+    },
+    {
+      "lineId": "line-13",
+      "english": "I hear Jerusalem bells a-ringing",
+      "chinese": "我聽見耶路撒冷的鐘聲迴盪",
+      "startSeconds": 69.32,
+      "endSeconds": 73.1
+    },
+    {
+      "lineId": "line-14",
+      "english": "Roman cavalry choirs are singing",
+      "chinese": "羅馬騎兵的歌聲正齊聲響起",
+      "startSeconds": 73.1,
+      "endSeconds": 76.48
+    },
+    {
+      "lineId": "line-15",
+      "english": "Be my mirror, my sword and shield",
+      "chinese": "成為我的明鏡、利劍與盾牌",
+      "startSeconds": 76.48,
+      "endSeconds": 79.98
+    },
+    {
+      "lineId": "line-16",
+      "english": "My missionaries in a foreign field",
+      "chinese": "成為我遠赴異邦的傳教使者",
+      "startSeconds": 79.98,
+      "endSeconds": 83.5
+    },
+    {
+      "lineId": "line-17",
+      "english": "For some reason I can't explain",
+      "chinese": "不知為何，我始終無法解釋",
+      "startSeconds": 83.5,
+      "endSeconds": 86.76
+    },
+    {
+      "lineId": "line-18",
+      "english": "Once you'd gone there was never",
+      "chinese": "自從你離去之後，便再也不曾有過",
+      "startSeconds": 86.76,
+      "endSeconds": 89.62
+    },
+    {
+      "lineId": "line-19",
+      "english": "Never an honest word",
+      "chinese": "再也不曾有過一句真誠的話語",
+      "startSeconds": 89.84,
+      "endSeconds": 93.32
+    },
+    {
+      "lineId": "line-20",
+      "english": "And that was when I ruled the world",
+      "chinese": "而那正是我曾君臨天下的時候",
+      "startSeconds": 93.32,
+      "endSeconds": 97.0
+    },
+    {
+      "lineId": "line-21",
+      "english": "It was a wicked and wild wind",
+      "chinese": "那是一陣狂暴而邪惡的風",
+      "startSeconds": 109.58,
+      "endSeconds": 114.04
+    },
+    {
+      "lineId": "line-22",
+      "english": "Blew down the doors to let me in",
+      "chinese": "吹倒重重門扉，為我開闢道路",
+      "startSeconds": 114.42,
+      "endSeconds": 117.2
+    },
+    {
+      "lineId": "line-23",
+      "english": "Shattered windows and the sound of drums",
+      "chinese": "窗戶碎裂，戰鼓聲聲迴盪",
+      "startSeconds": 117.2,
+      "endSeconds": 120.86
+    },
+    {
+      "lineId": "line-24",
+      "english": "People couldn't believe what I'd become",
+      "chinese": "人們無法相信，我竟變成了如今這般模樣",
+      "startSeconds": 120.86,
+      "endSeconds": 124.62
+    },
+    {
+      "lineId": "line-25",
+      "english": "Revolutionaries wait",
+      "chinese": "革命者們正伺機而動",
+      "startSeconds": 124.84,
+      "endSeconds": 127.9
+    },
+    {
+      "lineId": "line-26",
+      "english": "For my head on a silver plate",
+      "chinese": "等著將我的首級盛上銀盤",
+      "startSeconds": 127.9,
+      "endSeconds": 131.1
+    },
+    {
+      "lineId": "line-27",
+      "english": "Just a puppet on a lonely string",
+      "chinese": "我不過是個懸於孤線上的傀儡"
+    },
+    {
+      "lineId": "line-28",
+      "english": "Oh who would ever want to be king?",
+      "chinese": "啊，究竟還有誰會想成為國王？"
+    },
+    {
+      "lineId": "line-29",
+      "english": "I hear Jerusalem bells a-ringing",
+      "chinese": "我聽見耶路撒冷的鐘聲迴盪",
+      "startSeconds": 138.96,
+      "endSeconds": 142.56
+    },
+    {
+      "lineId": "line-30",
+      "english": "Roman cavalry choirs are singing",
+      "chinese": "羅馬騎兵的歌聲正齊聲響起",
+      "startSeconds": 142.56,
+      "endSeconds": 145.94
+    },
+    {
+      "lineId": "line-31",
+      "english": "Be my mirror, my sword and shield",
+      "chinese": "成為我的明鏡、利劍與盾牌"
+    },
+    {
+      "lineId": "line-32",
+      "english": "My missionaries in a foreign field",
+      "chinese": "成為我遠赴異邦的傳教使者",
+      "startSeconds": 149.6,
+      "endSeconds": 152.96
+    },
+    {
+      "lineId": "line-33",
+      "english": "For some reason I can't explain",
+      "chinese": "不知為何，我始終無法解釋",
+      "startSeconds": 152.96,
+      "endSeconds": 156.26
+    },
+    {
+      "lineId": "line-34",
+      "english": "I know St. Peter won't call my name",
+      "chinese": "我知道，聖彼得不會呼喚我的名字",
+      "startSeconds": 156.26,
+      "endSeconds": 159.76
+    },
+    {
+      "lineId": "line-35",
+      "english": "Never an honest word",
+      "chinese": "從來不曾有過一句真誠的話語",
+      "startSeconds": 159.76,
+      "endSeconds": 162.8
+    },
+    {
+      "lineId": "line-36",
+      "english": "But that was when I ruled the world",
+      "chinese": "可那正是我曾君臨天下的時候",
+      "startSeconds": 162.8,
+      "endSeconds": 166.66
+    },
+    {
+      "lineId": "line-37",
+      "english": "Oh, oh, oh, oh, oh, oh [5x]",
+      "chinese": "噢，噢，噢，噢，噢，噢（重複五次）"
+    },
+    {
+      "lineId": "line-38",
+      "english": "Hear Jerusalem bells a-ringing",
+      "chinese": "聽啊，耶路撒冷的鐘聲正迴盪著"
+    },
+    {
+      "lineId": "line-39",
+      "english": "Roman cavalry choirs are singing",
+      "chinese": "羅馬騎兵的歌聲正齊聲響起"
+    },
+    {
+      "lineId": "line-40",
+      "english": "Be my mirror, my sword and shield",
+      "chinese": "成為我的明鏡、利劍與盾牌"
+    },
+    {
+      "lineId": "line-41",
+      "english": "My missionaries in a foreign field",
+      "chinese": "成為我遠赴異邦的傳教使者"
+    },
+    {
+      "lineId": "line-42",
+      "english": "For some reason I can't explain",
+      "chinese": "不知為何，我始終無法解釋",
+      "startSeconds": 208.68,
+      "endSeconds": 211.82
+    },
+    {
+      "lineId": "line-43",
+      "english": "I know St. Peter won't call my name",
+      "chinese": "我知道，聖彼得不會呼喚我的名字"
+    },
+    {
+      "lineId": "line-44",
+      "english": "Never an honest word",
+      "chinese": "從來不曾有過一句真誠的話語",
+      "startSeconds": 215.46,
+      "endSeconds": 218.38
+    },
+    {
+      "lineId": "line-45",
+      "english": "But that was when I ruled the world",
+      "chinese": "可那正是我曾君臨天下的時候",
+      "startSeconds": 218.38,
+      "endSeconds": 222.34
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Used to",
+      "meaning": "以前常常；過去曾經",
+      "usage": "談以前常做、但現在不再做的事情。",
+      "prompt": "哪一句正確使用了「Used to」？",
+      "options": [
+        "I used to visiting art shows every Friday.",
+        "I used to ride my bike to school, but now I take the bus.",
+        "I used to go to school tomorrow.",
+        "She used to is my teacher."
+      ],
+      "answer": 1,
+      "explanation": "正確：以前騎車上學，現在改搭公車。",
+      "optionExplanations": [
+        "used to 後用原形 visit，不能接 visiting。",
+        "正確：以前騎車上學，現在改搭公車。",
+        "錯誤：used to 談過去，不能搭配 tomorrow 說未來的安排。",
+        "錯誤：used to 後面要接 be，不能接 is。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Rule",
+      "meaning": "統治；管理",
+      "usage": "談國王統治國家，或某人管理一個地方時。",
+      "prompt": "哪一句正確使用了「Rule」？",
+      "options": [
+        "The queen rules the country.",
+        "I rule to the small country.",
+        "He rules the island yesterday.",
+        "We rule at the bus every morning."
+      ],
+      "answer": 0,
+      "explanation": "正確：女王統治這個國家。",
+      "optionExplanations": [
+        "正確：女王統治這個國家。",
+        "rule 表示統治時直接接國家，不加 to。",
+        "過去事件須用 ruled。",
+        "錯誤：rule 不能表示等公車，應說 wait for the bus。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Give the word",
+      "meaning": "下令；發出開始行動的指示",
+      "usage": "當負責的人說可以開始、出發或採取行動時。",
+      "prompt": "哪一句正確使用了「Give the word」？",
+      "options": [
+        "When the coach gives the word, we start running.",
+        "The coach give the word yesterday.",
+        "I give the word my book to Anna.",
+        "She gives the word in her bag with her keys."
+      ],
+      "answer": 0,
+      "explanation": "正確：教練一下令，大家就開始跑。",
+      "optionExplanations": [
+        "正確：教練一下令，大家就開始跑。",
+        "過去事件須用 gave the word。",
+        "錯誤：若是把書交給 Anna，應說 give my book to Anna。",
+        "錯誤：give the word 不是把「字」放進包包。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Roll the dice",
+      "meaning": "擲骰子；也可以比喻冒險一試",
+      "usage": "玩桌遊時，或在不知道結果的情況下決定試一試。",
+      "prompt": "哪一句正確使用了「Roll the dice」？",
+      "options": [
+        "I rolled the dice to chose who starts.",
+        "My cousin roll the dice yesterday.",
+        "We rolled to the dice before the game.",
+        "Let’s roll the dice and see who goes first."
+      ],
+      "answer": 3,
+      "explanation": "正確：用擲骰子決定誰先開始。",
+      "optionExplanations": [
+        "to 後用 choose，不能接 chose。",
+        "過去事件須用 rolled。",
+        "roll the dice 直接接 dice，不加 to。",
+        "正確：用擲骰子決定誰先開始。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Crowd",
+      "meaning": "人群；一大群人",
+      "usage": "音樂會、街道、球賽等有很多人聚在一起的地方。",
+      "prompt": "哪一句正確使用了「Crowd」？",
+      "options": [
+        "I drank a crowd of water after running.",
+        "A big crowd waited outside the shop.",
+        "She crowd to the concert yesterday.",
+        "A crowd are one person waiting alone."
+      ],
+      "answer": 1,
+      "explanation": "正確：很多人在商店外面等。",
+      "optionExplanations": [
+        "錯誤：crowd 是人群，不是水的量。",
+        "正確：很多人在商店外面等。",
+        "此處需要描述人群的完整結構，不能用 crowd to 表示前往演唱會。",
+        "crowd 指一群人，與 one person waiting alone 的意思衝突。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Hold the key",
+      "meaning": "掌握關鍵；擁有解決問題的辦法",
+      "usage": "表示某人或某件事對成功或解決問題非常重要；也可指真的拿著鑰匙。",
+      "prompt": "哪一句正確使用了「Hold the key」？",
+      "options": [
+        "Practice holds the key to passed the test.",
+        "Good sleep hold the key to feeling better.",
+        "Practice holds the key to winning this game.",
+        "She hold the key to be very tall yesterday."
+      ],
+      "answer": 2,
+      "explanation": "hold the key to 指掌握達成某事的關鍵。",
+      "optionExplanations": [
+        "to 在此是介詞，後接 passing，不能用 passed。",
+        "單數主詞 good sleep 配 holds。",
+        "hold the key to 指掌握達成某事的關鍵。",
+        "錯誤：主詞和動詞不一致，句子意思也不自然。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Discover",
+      "meaning": "發現；找到原本不知道的事",
+      "usage": "找到新地方，或知道以前不知道的事情時。",
+      "prompt": "哪一句正確使用了「Discover」？",
+      "options": [
+        "I discover to a quiet beach on our trip.",
+        "We discovered a small café near our school.",
+        "He discovered to dinner at seven.",
+        "She discovers the door closed with a pencil."
+      ],
+      "answer": 1,
+      "explanation": "正確：我們發現學校附近有一間小咖啡館。",
+      "optionExplanations": [
+        "discover 直接接發現的事物，不加 to。",
+        "正確：我們發現學校附近有一間小咖啡館。",
+        "錯誤：discover 不能表示去吃晚餐。",
+        "錯誤：discover 不是把門關起來的動作。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "For some reason",
+      "meaning": "不知道為什麼；因為某個不明的原因",
+      "usage": "不知道事情發生的原因，但想描述它時。",
+      "prompt": "哪一句正確使用了「For some reason」？",
+      "options": [
+        "For some reason, my phone stopped working.",
+        "For some reason, my uncle forget his name yesterday.",
+        "She bought for some reason in the market.",
+        "For some reason is my new pencil."
+      ],
+      "answer": 0,
+      "explanation": "正確：手機不知為什麼突然不能用了。",
+      "optionExplanations": [
+        "正確：手機不知為什麼突然不能用了。",
+        "過去事件須用 forgot。",
+        "錯誤：bought 後面缺少買的東西；片語不能代替受詞。",
+        "錯誤：這個片語不能直接當成「我的新鉛筆」的主詞。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Blow down",
+      "meaning": "（被風）吹倒",
+      "usage": "強風吹倒樹木、圍欄或其他東西時。",
+      "prompt": "哪一句正確使用了「Blow down」？",
+      "options": [
+        "We blow down to the library by bus.",
+        "I blew down to the airport yesterday.",
+        "She blows down the song on the radio.",
+        "The strong wind blew down an old tree."
+      ],
+      "answer": 3,
+      "explanation": "正確：強風吹倒了一棵老樹。",
+      "optionExplanations": [
+        "錯誤：搭公車去圖書館要說 go to，不是 blow down。",
+        "blow down 指風吹倒某物，不能表示前往機場。",
+        "錯誤：不能用 blow down 表示播放或聽歌曲。",
+        "正確：強風吹倒了一棵老樹。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Honest",
+      "meaning": "誠實的；說真話的",
+      "usage": "描述一個人會說實話，或希望對方坦白時。",
+      "prompt": "哪一句正確使用了「Honest」？",
+      "options": [
+        "I put an honest on my head when it rains.",
+        "My cousin honest about the broken camera.",
+        "Please be honest with me about what happened.",
+        "He honest the window before leaving."
+      ],
+      "answer": 2,
+      "explanation": "正確：請誠實告訴我發生了什麼事。",
+      "optionExplanations": [
+        "錯誤：honest 是形容詞，不是可以戴在頭上的東西。",
+        "honest 是形容詞，前面需要 was 等動詞。",
+        "正確：請誠實告訴我發生了什麼事。",
+        "錯誤：honest 不是動詞，不能表示關窗。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾君臨天下",
+          "options": [
+            "rule the land",
+            "rule the world",
+            "see the world"
+          ],
+          "answer": "rule the world"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Seas would {{blank}} when I gave the word",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "rise",
+            "shine",
+            "fall"
+          ],
+          "answer": "rise"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{blank}}",
+          "promptZh": "如今，每逢清晨，我卻只能孤身而眠",
+          "options": [
+            "sleep alone",
+            "sleep at home",
+            "walk alone"
+          ],
+          "answer": "sleep alone"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Sweep the streets I {{blank}}",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "once called home",
+            "used to own",
+            "used to know"
+          ],
+          "answer": "used to own"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾擲下骰子，左右命運",
+          "options": [
+            "hold the line",
+            "roll the eyes",
+            "roll the dice"
+          ],
+          "answer": "roll the dice"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{blank}}",
+          "promptZh": "感受敵人眼中流露的恐懼",
+          "options": [
+            "enemy's eyes",
+            "friend's eyes",
+            "enemy's lies"
+          ],
+          "answer": "enemy's eyes"
+        },
+        {
+          "number": 7,
+          "lineId": "line-8",
+          "prompt": "\"Now the {{blank}}! Long live the king!\"",
+          "promptZh": "「舊王已逝！新王萬歲！」",
+          "options": [
+            "old king has fled",
+            "new king is here",
+            "old king is dead"
+          ],
+          "answer": "old king is dead"
+        },
+        {
+          "number": 8,
+          "lineId": "line-9",
+          "prompt": "One minute I {{blank}}",
+          "promptZh": "前一刻，權柄還掌握在我手中",
+          "options": [
+            "found the key",
+            "held the key",
+            "held the crown"
+          ],
+          "answer": "held the key"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{blank}}",
+          "promptZh": "我這才發現，原來我的城堡",
+          "options": [
+            "castles stand",
+            "kingdoms stand",
+            "castles fall"
+          ],
+          "answer": "castles stand"
+        },
+        {
+          "number": 10,
+          "lineId": "line-12",
+          "prompt": "Upon {{blank}} and 〔第 11 題〕",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "pillars of stone",
+            "pieces of gold",
+            "pillars of salt"
+          ],
+          "answer": "pillars of salt"
+        },
+        {
+          "number": 11,
+          "lineId": "line-12",
+          "prompt": "Upon 〔第 10 題〕 and {{blank}}",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "pillars of stone",
+            "pillars of sand",
+            "towers of sand"
+          ],
+          "answer": "pillars of sand"
+        },
+        {
+          "number": 12,
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{blank}}",
+          "promptZh": "我聽見耶路撒冷的鐘聲迴盪",
+          "options": [
+            "bells a-ringing",
+            "bells are ringing",
+            "bells are chiming"
+          ],
+          "answer": "bells a-ringing"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "Be my mirror, my {{blank}}",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "sword and crown",
+            "sword and shield",
+            "shield and sword"
+          ],
+          "answer": "sword and shield"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "For some reason I {{blank}}",
+          "promptZh": "不知為何，我始終無法解釋",
+          "options": [
+            "can't escape",
+            "can't complain",
+            "can't explain"
+          ],
+          "answer": "can't explain"
+        },
+        {
+          "number": 15,
+          "lineId": "line-19",
+          "prompt": "Never an {{blank}}",
+          "promptZh": "再也不曾有過一句真誠的話語",
+          "options": [
+            "honest word",
+            "honest world",
+            "final word"
+          ],
+          "answer": "honest word"
+        },
+        {
+          "number": 16,
+          "lineId": "line-21",
+          "prompt": "It was a {{blank}} wind",
+          "promptZh": "那是一陣狂暴而邪惡的風",
+          "options": [
+            "restless and wild",
+            "wicked and cold",
+            "wicked and wild"
+          ],
+          "answer": "wicked and wild"
+        },
+        {
+          "number": 17,
+          "lineId": "line-24",
+          "prompt": "People {{blank}} what I'd become",
+          "promptZh": "人們無法相信，我竟變成了如今這般模樣",
+          "options": [
+            "couldn't remember",
+            "couldn't believe",
+            "wouldn't believe"
+          ],
+          "answer": "couldn't believe"
+        },
+        {
+          "number": 18,
+          "lineId": "line-26",
+          "prompt": "For {{blank}} on a silver plate",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "my head",
+            "my crown",
+            "my name"
+          ],
+          "answer": "my head"
+        },
+        {
+          "number": 19,
+          "lineId": "line-27",
+          "prompt": "Just a {{blank}} on a lonely string",
+          "promptZh": "我不過是個懸於孤線上的傀儡",
+          "options": [
+            "prophet",
+            "puppet",
+            "prisoner"
+          ],
+          "answer": "puppet"
+        },
+        {
+          "number": 20,
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{blank}}",
+          "promptZh": "我知道，聖彼得不會呼喚我的名字",
+          "options": [
+            "won't know my name",
+            "can't say my name",
+            "won't call my name"
+          ],
+          "answer": "won't call my name"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I used to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Seas would {{q:2}} when I gave the word"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sweep the streets I {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I used to {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Listened as the crowd would sing,"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"Now the {{q:7}}! Long live the king!\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "One minute I {{q:8}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Next the walls were closed on me"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Upon {{q:10}} and {{q:11}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{q:12}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Be my mirror, my {{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For some reason I {{q:14}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Once you'd gone there was never"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Never an {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And that was when I ruled the world"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It was a {{q:16}} wind"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Blew down the doors to let me in"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Shattered windows and the sound of drums"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "People {{q:17}} what I'd become"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Revolutionaries wait"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For {{q:18}} on a silver plate"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Just a {{q:19}} on a lonely string"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Oh who would ever want to be king?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I hear Jerusalem bells a-ringing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{q:20}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But that was when I ruled the world"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, oh, oh, oh, oh, oh [5x]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Hear Jerusalem bells a-ringing"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I know St. Peter won't call my name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But that was when I ruled the world"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾君臨天下",
+          "options": [
+            "see the world",
+            "rule the world",
+            "rule the land"
+          ],
+          "answer": "rule the world"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Seas would {{blank}} when I 〔第 3 題〕",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "rise",
+            "shine",
+            "fall"
+          ],
+          "answer": "rise"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Seas would 〔第 2 題〕 when I {{blank}}",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "said a word",
+            "gave the word",
+            "made the call"
+          ],
+          "answer": "gave the word"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{blank}}",
+          "promptZh": "如今，每逢清晨，我卻只能孤身而眠",
+          "options": [
+            "sleep at home",
+            "walk alone",
+            "sleep alone"
+          ],
+          "answer": "sleep alone"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}} I 〔第 6 題〕",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "Sweep the streets",
+            "Clean the roads",
+            "Walk the streets"
+          ],
+          "answer": "Sweep the streets"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "〔第 5 題〕 I {{blank}}",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "used to know",
+            "used to own",
+            "once called home"
+          ],
+          "answer": "used to own"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾擲下骰子，左右命運",
+          "options": [
+            "hold the line",
+            "roll the eyes",
+            "roll the dice"
+          ],
+          "answer": "roll the dice"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{blank}}",
+          "promptZh": "感受敵人眼中流露的恐懼",
+          "options": [
+            "enemy's eyes",
+            "friend's eyes",
+            "enemy's lies"
+          ],
+          "answer": "enemy's eyes"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "Listened as the {{blank}},",
+          "promptZh": "聆聽群眾高聲歡呼",
+          "options": [
+            "crowd would sing",
+            "people would sing",
+            "crowd would scream"
+          ],
+          "answer": "crowd would sing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "\"Now the {{blank}}! Long live the king!\"",
+          "promptZh": "「舊王已逝！新王萬歲！」",
+          "options": [
+            "old king has fled",
+            "old king is dead",
+            "new king is here"
+          ],
+          "answer": "old king is dead"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "One minute I {{blank}}",
+          "promptZh": "前一刻，權柄還掌握在我手中",
+          "options": [
+            "held the crown",
+            "found the key",
+            "held the key"
+          ],
+          "answer": "held the key"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Next the {{blank}} on me",
+          "promptZh": "下一刻，四面高牆卻已將我困住",
+          "options": [
+            "doors were closed",
+            "walls were broken",
+            "walls were closed"
+          ],
+          "answer": "walls were closed"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{blank}}",
+          "promptZh": "我這才發現，原來我的城堡",
+          "options": [
+            "castles fall",
+            "castles stand",
+            "kingdoms stand"
+          ],
+          "answer": "castles stand"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "Upon {{blank}} and 〔第 15 題〕",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "pillars of salt",
+            "pieces of gold",
+            "pillars of stone"
+          ],
+          "answer": "pillars of salt"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Upon 〔第 14 題〕 and {{blank}}",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "pillars of sand",
+            "pillars of stone",
+            "towers of sand"
+          ],
+          "answer": "pillars of sand"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{blank}}",
+          "promptZh": "我聽見耶路撒冷的鐘聲迴盪",
+          "options": [
+            "bells are chiming",
+            "bells a-ringing",
+            "bells are ringing"
+          ],
+          "answer": "bells a-ringing"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "Roman cavalry {{blank}}",
+          "promptZh": "羅馬騎兵的歌聲正齊聲響起",
+          "options": [
+            "choirs are ringing",
+            "soldiers are singing",
+            "choirs are singing"
+          ],
+          "answer": "choirs are singing"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "Be my {{blank}}, my 〔第 19 題〕",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "window",
+            "mirror",
+            "shadow"
+          ],
+          "answer": "mirror"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Be my 〔第 18 題〕, my {{blank}}",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "sword and crown",
+            "shield and sword",
+            "sword and shield"
+          ],
+          "answer": "sword and shield"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "My missionaries in a {{blank}}",
+          "promptZh": "成為我遠赴異邦的傳教使者",
+          "options": [
+            "foreign field",
+            "distant land",
+            "foreign shore"
+          ],
+          "answer": "foreign field"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "For some reason I {{blank}}",
+          "promptZh": "不知為何，我始終無法解釋",
+          "options": [
+            "can't explain",
+            "can't escape",
+            "can't complain"
+          ],
+          "answer": "can't explain"
+        },
+        {
+          "number": 22,
+          "lineId": "line-19",
+          "prompt": "Never an {{blank}}",
+          "promptZh": "再也不曾有過一句真誠的話語",
+          "options": [
+            "final word",
+            "honest world",
+            "honest word"
+          ],
+          "answer": "honest word"
+        },
+        {
+          "number": 23,
+          "lineId": "line-21",
+          "prompt": "It was a {{blank}} wind",
+          "promptZh": "那是一陣狂暴而邪惡的風",
+          "options": [
+            "wicked and cold",
+            "wicked and wild",
+            "restless and wild"
+          ],
+          "answer": "wicked and wild"
+        },
+        {
+          "number": 24,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to let me in",
+          "promptZh": "吹倒重重門扉，為我開闢道路",
+          "options": [
+            "Broke through the walls",
+            "Blew down the doors",
+            "Blew past the doors"
+          ],
+          "answer": "Blew down the doors"
+        },
+        {
+          "number": 25,
+          "lineId": "line-23",
+          "prompt": "{{blank}} and the sound of drums",
+          "promptZh": "窗戶碎裂，戰鼓聲聲迴盪",
+          "options": [
+            "Shattered windows",
+            "Shattered dreams",
+            "Broken mirrors"
+          ],
+          "answer": "Shattered windows"
+        },
+        {
+          "number": 26,
+          "lineId": "line-24",
+          "prompt": "People {{blank}} what I'd become",
+          "promptZh": "人們無法相信，我竟變成了如今這般模樣",
+          "options": [
+            "couldn't remember",
+            "wouldn't believe",
+            "couldn't believe"
+          ],
+          "answer": "couldn't believe"
+        },
+        {
+          "number": 27,
+          "lineId": "line-25",
+          "prompt": "{{blank}} wait",
+          "promptZh": "革命者們正伺機而動",
+          "options": [
+            "Royal soldiers",
+            "Revolutionists",
+            "Revolutionaries"
+          ],
+          "answer": "Revolutionaries"
+        },
+        {
+          "number": 28,
+          "lineId": "line-26",
+          "prompt": "For {{blank}} on a 〔第 29 題〕",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "my head",
+            "my name",
+            "my crown"
+          ],
+          "answer": "my head"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "For 〔第 28 題〕 on a {{blank}}",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "golden plate",
+            "silver plate",
+            "silver tray"
+          ],
+          "answer": "silver plate"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "Just a {{blank}} on a lonely string",
+          "promptZh": "我不過是個懸於孤線上的傀儡",
+          "options": [
+            "prophet",
+            "puppet",
+            "prisoner"
+          ],
+          "answer": "puppet"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "Oh who would ever {{blank}}?",
+          "promptZh": "啊，究竟還有誰會想成為國王？",
+          "options": [
+            "want to be loved",
+            "wish to be free",
+            "want to be king"
+          ],
+          "answer": "want to be king"
+        },
+        {
+          "number": 32,
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{blank}}",
+          "promptZh": "我知道，聖彼得不會呼喚我的名字",
+          "options": [
+            "won't call my name",
+            "can't say my name",
+            "won't know my name"
+          ],
+          "answer": "won't call my name"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I used to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Seas would {{q:2}} when I {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}} I {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I used to {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Listened as the {{q:9}},"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"Now the {{q:10}}! Long live the king!\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "One minute I {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Next the {{q:12}} on me"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Upon {{q:14}} and {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Roman cavalry {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Be my {{q:18}}, my {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "My missionaries in a {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For some reason I {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Once you'd gone there was never"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Never an {{q:22}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And that was when I ruled the world"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It was a {{q:23}} wind"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:24}} to let me in"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:25}} and the sound of drums"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "People {{q:26}} what I'd become"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:27}} wait"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For {{q:28}} on a {{q:29}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Just a {{q:30}} on a lonely string"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Oh who would ever {{q:31}}?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I hear Jerusalem bells a-ringing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{q:32}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But that was when I ruled the world"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, oh, oh, oh, oh, oh [5x]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Hear Jerusalem bells a-ringing"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I know St. Peter won't call my name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But that was when I ruled the world"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾君臨天下",
+          "options": [
+            "rule the world",
+            "see the world",
+            "rule the land"
+          ],
+          "answer": "rule the world"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Seas would {{blank}} when I 〔第 3 題〕",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "rise",
+            "shine",
+            "fall"
+          ],
+          "answer": "rise"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Seas would 〔第 2 題〕 when I {{blank}}",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "said a word",
+            "made the call",
+            "gave the word"
+          ],
+          "answer": "gave the word"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{blank}}",
+          "promptZh": "如今，每逢清晨，我卻只能孤身而眠",
+          "options": [
+            "sleep at home",
+            "sleep alone",
+            "walk alone"
+          ],
+          "answer": "sleep alone"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}} I 〔第 6 題〕",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "Sweep the streets",
+            "Clean the roads",
+            "Walk the streets"
+          ],
+          "answer": "Sweep the streets"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "〔第 5 題〕 I {{blank}}",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "used to know",
+            "once called home",
+            "used to own"
+          ],
+          "answer": "used to own"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾擲下骰子，左右命運",
+          "options": [
+            "roll the eyes",
+            "roll the dice",
+            "hold the line"
+          ],
+          "answer": "roll the dice"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{blank}}",
+          "promptZh": "感受敵人眼中流露的恐懼",
+          "options": [
+            "enemy's lies",
+            "friend's eyes",
+            "enemy's eyes"
+          ],
+          "answer": "enemy's eyes"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "Listened as the {{blank}},",
+          "promptZh": "聆聽群眾高聲歡呼",
+          "options": [
+            "crowd would scream",
+            "crowd would sing",
+            "people would sing"
+          ],
+          "answer": "crowd would sing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "\"Now the {{blank}}! Long live the king!\"",
+          "promptZh": "「舊王已逝！新王萬歲！」",
+          "options": [
+            "old king is dead",
+            "old king has fled",
+            "new king is here"
+          ],
+          "answer": "old king is dead"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "One minute I {{blank}}",
+          "promptZh": "前一刻，權柄還掌握在我手中",
+          "options": [
+            "found the key",
+            "held the crown",
+            "held the key"
+          ],
+          "answer": "held the key"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Next the {{blank}} on me",
+          "promptZh": "下一刻，四面高牆卻已將我困住",
+          "options": [
+            "walls were closed",
+            "walls were broken",
+            "doors were closed"
+          ],
+          "answer": "walls were closed"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{blank}}",
+          "promptZh": "我這才發現，原來我的城堡",
+          "options": [
+            "kingdoms stand",
+            "castles stand",
+            "castles fall"
+          ],
+          "answer": "castles stand"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "Upon {{blank}} and 〔第 15 題〕",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "pillars of stone",
+            "pillars of salt",
+            "pieces of gold"
+          ],
+          "answer": "pillars of salt"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Upon 〔第 14 題〕 and {{blank}}",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "towers of sand",
+            "pillars of stone",
+            "pillars of sand"
+          ],
+          "answer": "pillars of sand"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{blank}}",
+          "promptZh": "我聽見耶路撒冷的鐘聲迴盪",
+          "options": [
+            "bells a-ringing",
+            "bells are ringing",
+            "bells are chiming"
+          ],
+          "answer": "bells a-ringing"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "Roman cavalry {{blank}}",
+          "promptZh": "羅馬騎兵的歌聲正齊聲響起",
+          "options": [
+            "soldiers are singing",
+            "choirs are singing",
+            "choirs are ringing"
+          ],
+          "answer": "choirs are singing"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "Be my {{blank}}, my 〔第 19 題〕",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "shadow",
+            "window",
+            "mirror"
+          ],
+          "answer": "mirror"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Be my 〔第 18 題〕, my {{blank}}",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "sword and shield",
+            "sword and crown",
+            "shield and sword"
+          ],
+          "answer": "sword and shield"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "My missionaries in a {{blank}}",
+          "promptZh": "成為我遠赴異邦的傳教使者",
+          "options": [
+            "distant land",
+            "foreign field",
+            "foreign shore"
+          ],
+          "answer": "foreign field"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "For some reason I {{blank}}",
+          "promptZh": "不知為何，我始終無法解釋",
+          "options": [
+            "can't escape",
+            "can't complain",
+            "can't explain"
+          ],
+          "answer": "can't explain"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "Once {{blank}} there was never",
+          "promptZh": "自從你離去之後，便再也不曾有過",
+          "options": [
+            "you'd gone",
+            "you'd known",
+            "you'd come"
+          ],
+          "answer": "you'd gone"
+        },
+        {
+          "number": 23,
+          "lineId": "line-19",
+          "prompt": "Never an {{blank}}",
+          "promptZh": "再也不曾有過一句真誠的話語",
+          "options": [
+            "final word",
+            "honest world",
+            "honest word"
+          ],
+          "answer": "honest word"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "It was a {{blank}} wind",
+          "promptZh": "那是一陣狂暴而邪惡的風",
+          "options": [
+            "wicked and cold",
+            "wicked and wild",
+            "restless and wild"
+          ],
+          "answer": "wicked and wild"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to let me in",
+          "promptZh": "吹倒重重門扉，為我開闢道路",
+          "options": [
+            "Blew down the doors",
+            "Blew past the doors",
+            "Broke through the walls"
+          ],
+          "answer": "Blew down the doors"
+        },
+        {
+          "number": 26,
+          "lineId": "line-23",
+          "prompt": "{{blank}} and the 〔第 27 題〕",
+          "promptZh": "窗戶碎裂，戰鼓聲聲迴盪",
+          "options": [
+            "Shattered dreams",
+            "Broken mirrors",
+            "Shattered windows"
+          ],
+          "answer": "Shattered windows"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "〔第 26 題〕 and the {{blank}}",
+          "promptZh": "窗戶碎裂，戰鼓聲聲迴盪",
+          "options": [
+            "sound of drums",
+            "sound of guns",
+            "beat of drums"
+          ],
+          "answer": "sound of drums"
+        },
+        {
+          "number": 28,
+          "lineId": "line-24",
+          "prompt": "People {{blank}} 〔第 29 題〕",
+          "promptZh": "人們無法相信，我竟變成了如今這般模樣",
+          "options": [
+            "couldn't remember",
+            "couldn't believe",
+            "wouldn't believe"
+          ],
+          "answer": "couldn't believe"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "People 〔第 28 題〕 {{blank}}",
+          "promptZh": "人們無法相信，我竟變成了如今這般模樣",
+          "options": [
+            "what I had done",
+            "who I had been",
+            "what I'd become"
+          ],
+          "answer": "what I'd become"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "{{blank}} wait",
+          "promptZh": "革命者們正伺機而動",
+          "options": [
+            "Revolutionists",
+            "Revolutionaries",
+            "Royal soldiers"
+          ],
+          "answer": "Revolutionaries"
+        },
+        {
+          "number": 31,
+          "lineId": "line-26",
+          "prompt": "For {{blank}} on a 〔第 32 題〕",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "my head",
+            "my name",
+            "my crown"
+          ],
+          "answer": "my head"
+        },
+        {
+          "number": 32,
+          "lineId": "line-26",
+          "prompt": "For 〔第 31 題〕 on a {{blank}}",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "golden plate",
+            "silver plate",
+            "silver tray"
+          ],
+          "answer": "silver plate"
+        },
+        {
+          "number": 33,
+          "lineId": "line-27",
+          "prompt": "Just a {{blank}} on a 〔第 34 題〕",
+          "promptZh": "我不過是個懸於孤線上的傀儡",
+          "options": [
+            "prisoner",
+            "prophet",
+            "puppet"
+          ],
+          "answer": "puppet"
+        },
+        {
+          "number": 34,
+          "lineId": "line-27",
+          "prompt": "Just a 〔第 33 題〕 on a {{blank}}",
+          "promptZh": "我不過是個懸於孤線上的傀儡",
+          "options": [
+            "lonely string",
+            "lonely throne",
+            "broken string"
+          ],
+          "answer": "lonely string"
+        },
+        {
+          "number": 35,
+          "lineId": "line-28",
+          "prompt": "Oh who would ever {{blank}}?",
+          "promptZh": "啊，究竟還有誰會想成為國王？",
+          "options": [
+            "want to be king",
+            "wish to be free",
+            "want to be loved"
+          ],
+          "answer": "want to be king"
+        },
+        {
+          "number": 36,
+          "lineId": "line-29",
+          "prompt": "I hear {{blank}} a-ringing",
+          "promptZh": "我聽見耶路撒冷的鐘聲迴盪",
+          "options": [
+            "Jerusalem songs",
+            "Jerusalem bells",
+            "Jerusalem walls"
+          ],
+          "answer": "Jerusalem bells"
+        },
+        {
+          "number": 37,
+          "lineId": "line-30",
+          "prompt": "{{blank}} choirs are singing",
+          "promptZh": "羅馬騎兵的歌聲正齊聲響起",
+          "options": [
+            "Royal cavalry",
+            "Roman soldiers",
+            "Roman cavalry"
+          ],
+          "answer": "Roman cavalry"
+        },
+        {
+          "number": 38,
+          "lineId": "line-32",
+          "prompt": "My {{blank}} in a foreign field",
+          "promptZh": "成為我遠赴異邦的傳教使者",
+          "options": [
+            "missionaries",
+            "messengers",
+            "mercenaries"
+          ],
+          "answer": "missionaries"
+        },
+        {
+          "number": 39,
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{blank}}",
+          "promptZh": "我知道，聖彼得不會呼喚我的名字",
+          "options": [
+            "won't know my name",
+            "won't call my name",
+            "can't say my name"
+          ],
+          "answer": "won't call my name"
+        },
+        {
+          "number": 40,
+          "lineId": "line-36",
+          "prompt": "But {{blank}} I ruled the world",
+          "promptZh": "可那正是我曾君臨天下的時候",
+          "options": [
+            "this was how",
+            "that is why",
+            "that was when"
+          ],
+          "answer": "that was when"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I used to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Seas would {{q:2}} when I {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}} I {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I used to {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Listened as the {{q:9}},"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"Now the {{q:10}}! Long live the king!\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "One minute I {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Next the {{q:12}} on me"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Upon {{q:14}} and {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Roman cavalry {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Be my {{q:18}}, my {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "My missionaries in a {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For some reason I {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Once {{q:22}} there was never"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Never an {{q:23}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And that was when I ruled the world"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It was a {{q:24}} wind"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:25}} to let me in"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}} and the {{q:27}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "People {{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:30}} wait"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For {{q:31}} on a {{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Just a {{q:33}} on a {{q:34}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Oh who would ever {{q:35}}?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I hear {{q:36}} a-ringing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:37}} choirs are singing"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "My {{q:38}} in a foreign field"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{q:39}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But {{q:40}} I ruled the world"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, oh, oh, oh, oh, oh [5x]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Hear Jerusalem bells a-ringing"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I know St. Peter won't call my name"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But that was when I ruled the world"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾君臨天下",
+          "options": [
+            "see the world",
+            "rule the world",
+            "rule the land"
+          ],
+          "answer": "rule the world"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Seas would {{blank}} when I 〔第 3 題〕",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "rise",
+            "fall",
+            "shine"
+          ],
+          "answer": "rise"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Seas would 〔第 2 題〕 when I {{blank}}",
+          "promptZh": "只要我一聲令下，連大海都會為之翻騰",
+          "options": [
+            "said a word",
+            "gave the word",
+            "made the call"
+          ],
+          "answer": "gave the word"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{blank}}",
+          "promptZh": "如今，每逢清晨，我卻只能孤身而眠",
+          "options": [
+            "sleep alone",
+            "walk alone",
+            "sleep at home"
+          ],
+          "answer": "sleep alone"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "{{blank}} I 〔第 6 題〕",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "Clean the roads",
+            "Walk the streets",
+            "Sweep the streets"
+          ],
+          "answer": "Sweep the streets"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "〔第 5 題〕 I {{blank}}",
+          "promptZh": "清掃著那些曾經屬於我的街道",
+          "options": [
+            "used to own",
+            "used to know",
+            "once called home"
+          ],
+          "answer": "used to own"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "I used to {{blank}}",
+          "promptZh": "我曾擲下骰子，左右命運",
+          "options": [
+            "hold the line",
+            "roll the eyes",
+            "roll the dice"
+          ],
+          "answer": "roll the dice"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{blank}}",
+          "promptZh": "感受敵人眼中流露的恐懼",
+          "options": [
+            "enemy's lies",
+            "enemy's eyes",
+            "friend's eyes"
+          ],
+          "answer": "enemy's eyes"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "Listened as the {{blank}},",
+          "promptZh": "聆聽群眾高聲歡呼",
+          "options": [
+            "crowd would scream",
+            "people would sing",
+            "crowd would sing"
+          ],
+          "answer": "crowd would sing"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "\"Now the {{blank}}! Long live the king!\"",
+          "promptZh": "「舊王已逝！新王萬歲！」",
+          "options": [
+            "old king is dead",
+            "old king has fled",
+            "new king is here"
+          ],
+          "answer": "old king is dead"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "One minute I {{blank}}",
+          "promptZh": "前一刻，權柄還掌握在我手中",
+          "options": [
+            "found the key",
+            "held the key",
+            "held the crown"
+          ],
+          "answer": "held the key"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "Next the {{blank}} on me",
+          "promptZh": "下一刻，四面高牆卻已將我困住",
+          "options": [
+            "doors were closed",
+            "walls were broken",
+            "walls were closed"
+          ],
+          "answer": "walls were closed"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{blank}}",
+          "promptZh": "我這才發現，原來我的城堡",
+          "options": [
+            "castles fall",
+            "castles stand",
+            "kingdoms stand"
+          ],
+          "answer": "castles stand"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "Upon {{blank}} and 〔第 15 題〕",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "pillars of salt",
+            "pillars of stone",
+            "pieces of gold"
+          ],
+          "answer": "pillars of salt"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Upon 〔第 14 題〕 and {{blank}}",
+          "promptZh": "竟建立在鹽柱與沙柱之上",
+          "options": [
+            "towers of sand",
+            "pillars of sand",
+            "pillars of stone"
+          ],
+          "answer": "pillars of sand"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{blank}}",
+          "promptZh": "我聽見耶路撒冷的鐘聲迴盪",
+          "options": [
+            "bells are ringing",
+            "bells are chiming",
+            "bells a-ringing"
+          ],
+          "answer": "bells a-ringing"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "Roman cavalry {{blank}}",
+          "promptZh": "羅馬騎兵的歌聲正齊聲響起",
+          "options": [
+            "choirs are singing",
+            "choirs are ringing",
+            "soldiers are singing"
+          ],
+          "answer": "choirs are singing"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "Be my {{blank}}, my 〔第 19 題〕",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "window",
+            "shadow",
+            "mirror"
+          ],
+          "answer": "mirror"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "Be my 〔第 18 題〕, my {{blank}}",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "sword and shield",
+            "sword and crown",
+            "shield and sword"
+          ],
+          "answer": "sword and shield"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "My missionaries in a {{blank}}",
+          "promptZh": "成為我遠赴異邦的傳教使者",
+          "options": [
+            "distant land",
+            "foreign field",
+            "foreign shore"
+          ],
+          "answer": "foreign field"
+        },
+        {
+          "number": 21,
+          "lineId": "line-17",
+          "prompt": "For some reason I {{blank}}",
+          "promptZh": "不知為何，我始終無法解釋",
+          "options": [
+            "can't complain",
+            "can't escape",
+            "can't explain"
+          ],
+          "answer": "can't explain"
+        },
+        {
+          "number": 22,
+          "lineId": "line-18",
+          "prompt": "Once {{blank}} 〔第 23 題〕",
+          "promptZh": "自從你離去之後，便再也不曾有過",
+          "options": [
+            "you'd known",
+            "you'd gone",
+            "you'd come"
+          ],
+          "answer": "you'd gone"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "Once 〔第 22 題〕 {{blank}}",
+          "promptZh": "自從你離去之後，便再也不曾有過",
+          "options": [
+            "there was never",
+            "there was always",
+            "there would never"
+          ],
+          "answer": "there was never"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "Never an {{blank}}",
+          "promptZh": "再也不曾有過一句真誠的話語",
+          "options": [
+            "honest world",
+            "honest word",
+            "final word"
+          ],
+          "answer": "honest word"
+        },
+        {
+          "number": 25,
+          "lineId": "line-20",
+          "prompt": "And that was when I {{blank}}",
+          "promptZh": "而那正是我曾君臨天下的時候",
+          "options": [
+            "changed the world",
+            "owned the world",
+            "ruled the world"
+          ],
+          "answer": "ruled the world"
+        },
+        {
+          "number": 26,
+          "lineId": "line-21",
+          "prompt": "It was a {{blank}} 〔第 27 題〕",
+          "promptZh": "那是一陣狂暴而邪惡的風",
+          "options": [
+            "wicked and wild",
+            "restless and wild",
+            "wicked and cold"
+          ],
+          "answer": "wicked and wild"
+        },
+        {
+          "number": 27,
+          "lineId": "line-21",
+          "prompt": "It was a 〔第 26 題〕 {{blank}}",
+          "promptZh": "那是一陣狂暴而邪惡的風",
+          "options": [
+            "storm",
+            "wind",
+            "rain"
+          ],
+          "answer": "wind"
+        },
+        {
+          "number": 28,
+          "lineId": "line-22",
+          "prompt": "{{blank}} to 〔第 29 題〕",
+          "promptZh": "吹倒重重門扉，為我開闢道路",
+          "options": [
+            "Blew down the doors",
+            "Blew past the doors",
+            "Broke through the walls"
+          ],
+          "answer": "Blew down the doors"
+        },
+        {
+          "number": 29,
+          "lineId": "line-22",
+          "prompt": "〔第 28 題〕 to {{blank}}",
+          "promptZh": "吹倒重重門扉，為我開闢道路",
+          "options": [
+            "keep me in",
+            "set me free",
+            "let me in"
+          ],
+          "answer": "let me in"
+        },
+        {
+          "number": 30,
+          "lineId": "line-23",
+          "prompt": "{{blank}} and the 〔第 31 題〕",
+          "promptZh": "窗戶碎裂，戰鼓聲聲迴盪",
+          "options": [
+            "Broken mirrors",
+            "Shattered dreams",
+            "Shattered windows"
+          ],
+          "answer": "Shattered windows"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "〔第 30 題〕 and the {{blank}}",
+          "promptZh": "窗戶碎裂，戰鼓聲聲迴盪",
+          "options": [
+            "sound of guns",
+            "sound of drums",
+            "beat of drums"
+          ],
+          "answer": "sound of drums"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "People {{blank}} 〔第 33 題〕",
+          "promptZh": "人們無法相信，我竟變成了如今這般模樣",
+          "options": [
+            "couldn't believe",
+            "couldn't remember",
+            "wouldn't believe"
+          ],
+          "answer": "couldn't believe"
+        },
+        {
+          "number": 33,
+          "lineId": "line-24",
+          "prompt": "People 〔第 32 題〕 {{blank}}",
+          "promptZh": "人們無法相信，我竟變成了如今這般模樣",
+          "options": [
+            "what I'd become",
+            "who I had been",
+            "what I had done"
+          ],
+          "answer": "what I'd become"
+        },
+        {
+          "number": 34,
+          "lineId": "line-25",
+          "prompt": "{{blank}} 〔第 35 題〕",
+          "promptZh": "革命者們正伺機而動",
+          "options": [
+            "Royal soldiers",
+            "Revolutionaries",
+            "Revolutionists"
+          ],
+          "answer": "Revolutionaries"
+        },
+        {
+          "number": 35,
+          "lineId": "line-25",
+          "prompt": "〔第 34 題〕 {{blank}}",
+          "promptZh": "革命者們正伺機而動",
+          "options": [
+            "rise",
+            "fight",
+            "wait"
+          ],
+          "answer": "wait"
+        },
+        {
+          "number": 36,
+          "lineId": "line-26",
+          "prompt": "For {{blank}} on a 〔第 37 題〕",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "my name",
+            "my crown",
+            "my head"
+          ],
+          "answer": "my head"
+        },
+        {
+          "number": 37,
+          "lineId": "line-26",
+          "prompt": "For 〔第 36 題〕 on a {{blank}}",
+          "promptZh": "等著將我的首級盛上銀盤",
+          "options": [
+            "silver plate",
+            "golden plate",
+            "silver tray"
+          ],
+          "answer": "silver plate"
+        },
+        {
+          "number": 38,
+          "lineId": "line-27",
+          "prompt": "Just a {{blank}} on a 〔第 39 題〕",
+          "promptZh": "我不過是個懸於孤線上的傀儡",
+          "options": [
+            "prophet",
+            "puppet",
+            "prisoner"
+          ],
+          "answer": "puppet"
+        },
+        {
+          "number": 39,
+          "lineId": "line-27",
+          "prompt": "Just a 〔第 38 題〕 on a {{blank}}",
+          "promptZh": "我不過是個懸於孤線上的傀儡",
+          "options": [
+            "lonely throne",
+            "broken string",
+            "lonely string"
+          ],
+          "answer": "lonely string"
+        },
+        {
+          "number": 40,
+          "lineId": "line-28",
+          "prompt": "Oh who would ever {{blank}}?",
+          "promptZh": "啊，究竟還有誰會想成為國王？",
+          "options": [
+            "want to be king",
+            "wish to be free",
+            "want to be loved"
+          ],
+          "answer": "want to be king"
+        },
+        {
+          "number": 41,
+          "lineId": "line-29",
+          "prompt": "I hear {{blank}} a-ringing",
+          "promptZh": "我聽見耶路撒冷的鐘聲迴盪",
+          "options": [
+            "Jerusalem songs",
+            "Jerusalem bells",
+            "Jerusalem walls"
+          ],
+          "answer": "Jerusalem bells"
+        },
+        {
+          "number": 42,
+          "lineId": "line-30",
+          "prompt": "{{blank}} choirs are singing",
+          "promptZh": "羅馬騎兵的歌聲正齊聲響起",
+          "options": [
+            "Royal cavalry",
+            "Roman soldiers",
+            "Roman cavalry"
+          ],
+          "answer": "Roman cavalry"
+        },
+        {
+          "number": 43,
+          "lineId": "line-31",
+          "prompt": "{{blank}}, my sword and shield",
+          "promptZh": "成為我的明鏡、利劍與盾牌",
+          "options": [
+            "Be my mirror",
+            "See my mirror",
+            "Be my armour"
+          ],
+          "answer": "Be my mirror"
+        },
+        {
+          "number": 44,
+          "lineId": "line-32",
+          "prompt": "My {{blank}} in a foreign field",
+          "promptZh": "成為我遠赴異邦的傳教使者",
+          "options": [
+            "messengers",
+            "missionaries",
+            "mercenaries"
+          ],
+          "answer": "missionaries"
+        },
+        {
+          "number": 45,
+          "lineId": "line-33",
+          "prompt": "For {{blank}} I can't explain",
+          "promptZh": "不知為何，我始終無法解釋",
+          "options": [
+            "no reason",
+            "one reason",
+            "some reason"
+          ],
+          "answer": "some reason"
+        },
+        {
+          "number": 46,
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{blank}}",
+          "promptZh": "我知道，聖彼得不會呼喚我的名字",
+          "options": [
+            "won't know my name",
+            "won't call my name",
+            "can't say my name"
+          ],
+          "answer": "won't call my name"
+        },
+        {
+          "number": 47,
+          "lineId": "line-35",
+          "prompt": "{{blank}}",
+          "promptZh": "從來不曾有過一句真誠的話語",
+          "options": [
+            "Never an honest word",
+            "Not one honest word",
+            "Never a single word"
+          ],
+          "answer": "Never an honest word"
+        },
+        {
+          "number": 48,
+          "lineId": "line-36",
+          "prompt": "But {{blank}} I ruled the world",
+          "promptZh": "可那正是我曾君臨天下的時候",
+          "options": [
+            "this was how",
+            "that was when",
+            "that is why"
+          ],
+          "answer": "that was when"
+        },
+        {
+          "number": 49,
+          "lineId": "line-38",
+          "prompt": "Hear Jerusalem {{blank}}",
+          "promptZh": "聽啊，耶路撒冷的鐘聲正迴盪著",
+          "options": [
+            "bells a-ringing",
+            "bells are ringing",
+            "bells are chiming"
+          ],
+          "answer": "bells a-ringing"
+        },
+        {
+          "number": 50,
+          "lineId": "line-43",
+          "prompt": "I know St. Peter {{blank}}",
+          "promptZh": "我知道，聖彼得不會呼喚我的名字",
+          "options": [
+            "won't hear my name",
+            "can't call my name",
+            "won't call my name"
+          ],
+          "answer": "won't call my name"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I used to {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Seas would {{q:2}} when I {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Now in the morning I {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:5}} I {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I used to {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Feel the fear in my {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Listened as the {{q:9}},"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "\"Now the {{q:10}}! Long live the king!\""
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "One minute I {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Next the {{q:12}} on me"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I discovered that my {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Upon {{q:14}} and {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I hear Jerusalem {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Roman cavalry {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Be my {{q:18}}, my {{q:19}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "My missionaries in a {{q:20}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "For some reason I {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Once {{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Never an {{q:24}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And that was when I {{q:25}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It was a {{q:26}} {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:28}} to {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:30}} and the {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "People {{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "For {{q:36}} on a {{q:37}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Just a {{q:38}} on a {{q:39}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Oh who would ever {{q:40}}?"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I hear {{q:41}} a-ringing"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:42}} choirs are singing"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:43}}, my sword and shield"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "My {{q:44}} in a foreign field"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "For {{q:45}} I can't explain"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I know St. Peter {{q:46}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:47}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "But {{q:48}} I ruled the world"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Oh, oh, oh, oh, oh, oh [5x]"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Hear Jerusalem {{q:49}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Roman cavalry choirs are singing"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Be my mirror, my sword and shield"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "My missionaries in a foreign field"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "For some reason I can't explain"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "I know St. Peter {{q:50}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "Never an honest word"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "But that was when I ruled the world"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/viva-la-vida/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/viva-la-vida/user-cover-20261029.png",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "Viva La Vida.pdf",
+      "sha256": "6642e18017d4396042ad2f14360358da55f431227bd13af9afc7b6a33436a835"
+    },
+    "docx": {
+      "filename": "Viva_la_Vida_Four_Level_Listening_Exercise.docx",
+      "sha256": "63e5faea49c4af3293182721fb6991020e397130cb5b8ae80ea85f8ac84c1646"
+    },
+    "md": {
+      "filename": "Viva_La_Vida_Vocabulary_Quiz.md",
+      "sha256": "981554957ec302c284a451982ab4f32205eadf17b9e946dcb1901e0f67cb1919"
+    },
+    "mp3": {
+      "filename": "Viva La Vida [ALsvdSA9tOU].mp3",
+      "sha256": "e0491bab0de41601738c8f9ca632316ec4a071dcbbabf0c10348989eb0677358"
+    }
+  },
+  "audioAlignment": {
+    "duration": 242.3733125,
+    "audioSha256": "e0491bab0de41601738c8f9ca632316ec4a071dcbbabf0c10348989eb0677358",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.8940972222222222,
+    "timedLines": 35,
+    "untimedLines": [
+      2,
+      27,
+      28,
+      31,
+      37,
+      38,
+      39,
+      40,
+      41,
+      43
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-e4ce8a1a-55cc-4e32-bb33-9034eb621038.png",
+    "sha256": "e5d93a4aa28dcfe0b613dd54c0d47087ef639c99c01b35138de7b018b25b214f",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "67011529639ac75f10167afe57cb376ba5f0295564b1c36c7c32d32f69efca2e"
+    },
+    {
+      "section": "advanced",
+      "filename": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "82a54c54f2e2526e50b153e531f6cd63d7c21ab5f494644897bfd35b61f5346a"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "used to＋原形動詞",
+          "meaning": "以前曾經做某事，通常與現在形成對比。",
+          "usage": "比較以前與現在的習慣或情況。",
+          "prompt": "以前住在山邊，現在住在城裡。哪句正確？",
+          "options": [
+            "I use to lived near the hills.",
+            "I will used to live near the hills.",
+            "I used to live near the hills, but now I live downtown.",
+            "I used to living near the hills."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：應用 used to live，不是 use to lived。",
+            "錯：will used to 不能表示未來。",
+            "正確：used to 後接 live，並和現在的住處形成對比。",
+            "錯：used to 後不是 living。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "“I used to rule the world”",
+          "pattern": [
+            {
+              "text": "used to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "rule the world",
+          "explanation": "正確：used to 後接 live，並和現在的住處形成對比。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "would＋原形動詞：過去反覆發生",
+          "meaning": "在往事敘述中，可表示過去經常發生的動作；歌詞還有誇張比喻。",
+          "usage": "回憶以前反覆發生的事情，需有過去語境。",
+          "prompt": "說小時候祖父常說故事，哪句正確？",
+          "options": [
+            "Grandpa would told us stories every night.",
+            "When I was little, Grandpa would tell us stories.",
+            "Grandpa would to tell us stories.",
+            "My grandpa would telling stories when I was small."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：would 後不能接 told。",
+            "正確：過去時間加 would tell 表示反覆習慣。",
+            "錯：would 後不加 to。",
+            "錯：would 後應接 tell。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "“Seas would rise when I gave the word”",
+          "pattern": [
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "rise",
+          "explanation": "正確：過去時間加 would tell 表示反覆習慣。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "when＋過去式：過去時間子句",
+          "meaning": "交代過去某件事發生的時刻。",
+          "usage": "敘述另一件事發生時的背景。",
+          "prompt": "燈熄了時，大家安靜下來。哪句正確？",
+          "options": [
+            "When the lights turned off, everyone quiet.",
+            "When the lights went out, everyone became quiet.",
+            "When the lights went out, everyone becoming quiet.",
+            "When the lights off, everyone was quiet."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：everyone 後缺少 was 或其他動詞。",
+            "正確：when 引導過去事件，主句也採過去式。",
+            "錯：主句需要 became，不是單獨 becoming。",
+            "錯：子句缺少動詞。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "“when I gave the word”",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "過去式子句",
+              "fixed": true
+            }
+          ],
+          "example": "I gave the word",
+          "explanation": "正確：when 引導過去事件，主句也採過去式。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "現在式與過去習慣對比",
+          "meaning": "now 標示現在，現在簡單式描述現況或習慣。",
+          "usage": "對照從前與現在生活的不同。",
+          "prompt": "以前有人接送，現在自己走路。哪句正確？",
+          "options": [
+            "Now I walked home every day yesterday.",
+            "Now I walking home every day.",
+            "Now I am walk home every day.",
+            "Now I walk home every day."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：now 和 yesterday 在此形成時間衝突。",
+            "錯：現在進行式缺少 am，且本題強調習慣。",
+            "錯：am 後不能接原形 walk。",
+            "正確：現在簡單式 walk 描述每天的習慣。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "“Now in the morning I sleep alone”",
+          "pattern": [
+            {
+              "text": "Now",
+              "fixed": true
+            },
+            {
+              "text": "時間語",
+              "fixed": true
+            },
+            {
+              "text": "現在式",
+              "fixed": true
+            }
+          ],
+          "example": "in the morning I sleep alone",
+          "explanation": "正確：現在簡單式 walk 描述每天的習慣。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "省略關係代名詞的受詞關係子句",
+          "meaning": "修飾名詞時，若關係詞是受詞，可以省略。",
+          "usage": "描述以前認識、看過、使用過的人或物。",
+          "prompt": "那本我昨天借的書很好看。哪句正確？",
+          "options": [
+            "The book I was borrow yesterday is great.",
+            "The book I borrowed yesterday is great.",
+            "The book I borrowed it yesterday is great.",
+            "The book I borrowing yesterday is great."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：was borrow 的動詞形式不對。",
+            "正確：book 是 borrowed 的受詞，省略關係詞仍通順。",
+            "錯：book 和 it 重複充當受詞。",
+            "錯：需用 borrowed 表達昨天借書。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "“the streets I used to own”",
+          "pattern": [
+            {
+              "text": "名詞 +（省略 that／which）+ 主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "the streets / I used to own",
+          "explanation": "正確：book 是 borrowed 的受詞，省略關係詞仍通順。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "hear＋受詞＋現在分詞：聽見動作進行",
+          "meaning": "聽見某個聲音或動作正在發生。a-ringing 是古風、節奏化的歌唱形式。",
+          "usage": "聽到別人正在唱歌、敲門等。",
+          "prompt": "我聽到隔壁有人正在唱歌。哪句正確？",
+          "options": [
+            "I can hear my neighbor singing next door.",
+            "I hear my neighbor to sing next door.",
+            "I hear my neighbor is singing next door directly after hear.",
+            "I hear my neighbor sings next door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：hear + 人 + singing 表示聽見正在唱。",
+            "錯：此感官結構不用 to sing。",
+            "錯：直接接在 hear + 受詞後時，不用 is singing；可另說 I hear that...。",
+            "錯：作受詞補語時不能用 sings。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "“I hear Jerusalem bells a-ringing”",
+          "pattern": [
+            {
+              "text": "hear",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": true
+            },
+            {
+              "text": "-ing",
+              "fixed": true
+            }
+          ],
+          "example": "Jerusalem bells a-ringing",
+          "explanation": "正確：hear + 人 + singing 表示聽見正在唱。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "be＋-ing：現在進行式",
+          "meaning": "描述此刻正在進行的動作。",
+          "usage": "談眼前正在發生的活動。",
+          "prompt": "現在演員正在舞台上跳舞。哪句正確？",
+          "options": [
+            "The actors are dance on stage now.",
+            "The actors are dancing on stage now.",
+            "The actors dancing on stage now.",
+            "The actors is dancing on stage now."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：are 後須接 dancing。",
+            "正確：複數主詞搭配 are dancing。",
+            "錯：缺少 are。",
+            "錯：複數 actors 不搭配 is。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "“Roman cavalry choirs are singing”",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "-ing",
+              "fixed": true
+            }
+          ],
+          "example": "choirs are singing",
+          "explanation": "正確：複數主詞搭配 are dancing。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "對聽話者發出請求、指示或鼓勵；歌詞使用象徵意象。",
+          "usage": "邀請別人參與某件事。",
+          "prompt": "要請朋友加入小組，哪句正確？",
+          "options": [
+            "Join our team, please.",
+            "You be joining our team, please.",
+            "Joining our team, please.",
+            "To join our team, please."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：動詞原形 Join 開頭。",
+            "錯：這不是自然的祈使句形式。",
+            "錯：祈使句應以 join 開頭。",
+            "錯：不定詞片語不是完整祈使句。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "“Be my mirror, my sword and shield”",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "內容",
+              "fixed": true
+            }
+          ],
+          "example": "Be my mirror",
+          "explanation": "正確：動詞原形 Join 開頭。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "for some reason：原因不明的狀語",
+          "meaning": "表示出於某個原因，但原因尚不清楚；後面的 I can’t explain 修飾 reason。",
+          "usage": "說明沒有查明理由的意外事件。",
+          "prompt": "手機突然停止充電，原因不明。哪句正確？",
+          "options": [
+            "For some reason, my phone stopped charging.",
+            "For some reason is my phone broken yesterday.",
+            "For some reason my phone to charge.",
+            "My phone for some reason charging stopped it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：片語置句首，後接完整子句。",
+            "錯：整句結構與時態錯亂。",
+            "錯：缺少完整動詞結構。",
+            "錯：語序不自然，stopped it 多了受詞。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "“For some reason I can't explain”",
+          "pattern": [
+            {
+              "text": "For some reason",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "I can't explain",
+          "explanation": "正確：片語置句首，後接完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "can’t＋原形動詞：不能／無法",
+          "meaning": "表示能力不足或目前無法做到。",
+          "usage": "表達難以回答、看見或解釋的事情。",
+          "prompt": "這題太難，我無法回答。哪句正確？",
+          "options": [
+            "I can’t to answer this question.",
+            "I can’t answering this question.",
+            "I can’t answered this question.",
+            "I can’t answer this question."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：can’t 後不加 to。",
+            "錯：不能接 answering。",
+            "錯：不能接 answered。",
+            "正確：情態動詞後接原形 answer。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "“I can't explain”",
+          "pattern": [
+            {
+              "text": "can’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "explain",
+          "explanation": "正確：情態動詞後接原形 answer。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "once＋過去完成式：在某事已發生後",
+          "meaning": "once 表示一旦／當……之後；you’d 在此是 you had。",
+          "usage": "回顧過去兩件有先後次序的事情。",
+          "prompt": "大家離開後，房間變安靜。哪句正確？",
+          "options": [
+            "Once they had leave, the room was quiet.",
+            "Once they had leaving, the room was quiet.",
+            "Once they had left, the room was quiet.",
+            "Once they were left, the room was quiet."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：had 後需過去分詞 left。",
+            "錯：had 後不能接 leaving。",
+            "正確：had left 表示先離開；was quiet 是其後狀態。",
+            "錯：were left 表示被留下，語意改變。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "“Once you'd gone there was never”",
+          "pattern": [
+            {
+              "text": "Once",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "you’d gone",
+          "explanation": "正確：had left 表示先離開；was quiet 是其後狀態。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "there was＋名詞：過去存在句",
+          "meaning": "表示過去某個地方或情況曾有／沒有某事。歌詞跨行形成一句。",
+          "usage": "回憶活動現場沒有空椅子。",
+          "prompt": "昨天戲院沒有空位。哪句正確？",
+          "options": [
+            "There were no empty seats yesterday.",
+            "There was no empty seats yesterday.",
+            "There no empty seats yesterday.",
+            "There were no empty seat yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：there were + 複數名詞 seats。",
+            "錯：複數 seats 應搭配 were。",
+            "錯：缺少 be 動詞。",
+            "錯：複數 seats 才能搭配 were。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "“there was never”",
+          "pattern": [
+            {
+              "text": "there was",
+              "fixed": true
+            },
+            {
+              "text": "量詞／名詞",
+              "fixed": true
+            }
+          ],
+          "example": "never an honest word（下一行）",
+          "explanation": "正確：there were + 複數名詞 seats。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "that was when＋子句：指出往事時間",
+          "meaning": "回指某段過去時間，說明當時發生的事。",
+          "usage": "回憶一個特別的夏天。",
+          "prompt": "那就是我學會游泳的時候。哪句正確？",
+          "options": [
+            "That was when I learn swim yesterday.",
+            "That was when I learning to swim.",
+            "That was when did I learn to swim.",
+            "That was when I learned to swim."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：learn 後通常需 to swim，且過去需 learned。",
+            "錯：缺少 be 動詞且時態不對。",
+            "錯：間接時間子句不用 did I 倒裝。",
+            "正確：when 後用直述句語序與過去式。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "“that was when I ruled the world”",
+          "pattern": [
+            {
+              "text": "that was when",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": true
+            }
+          ],
+          "example": "I ruled the world",
+          "explanation": "正確：when 後用直述句語序與過去式。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "過去式被動語態",
+          "meaning": "強調主詞受到動作影響，而非誰執行；此處有被困住的詩意畫面。",
+          "usage": "報告門窗被關閉的情況。",
+          "prompt": "暴風雨來前，所有窗戶都被關上。哪句正確？",
+          "options": [
+            "All the windows were close before the storm.",
+            "All the windows were closed before the storm.",
+            "All the windows was closed before the storm.",
+            "All the windows were closing by someone before storm."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：被動式需 closed。",
+            "正確：複數 windows + were closed。",
+            "錯：複數主詞不搭配 was。",
+            "錯：were closing 表示進行，非本題完成的被動。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "“the walls were closed on me”",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "was／were",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "walls were closed",
+          "explanation": "正確：複數 windows + were closed。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "discover that＋子句",
+          "meaning": "說明發現一項事實；that 可以在一般口語中省略。",
+          "usage": "說出經過檢查才知道的事。",
+          "prompt": "我發現門沒有鎖。哪句正確？",
+          "options": [
+            "I discovered that the door unlocked.",
+            "I discovered that was the door unlocked.",
+            "I discovered that the door was unlocked.",
+            "I discovered that the door to unlock."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：需要 was 連接主詞與形容詞。",
+            "錯：多放 was 且語序錯誤。",
+            "正確：that 後是 the door was unlocked 完整子句。",
+            "錯：不定詞不能取代陳述句。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "“I discovered that my castles stand”",
+          "pattern": [
+            {
+              "text": "discover",
+              "fixed": true
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": true
+            }
+          ],
+          "example": "my castles stand",
+          "explanation": "正確：that 後是 the door was unlocked 完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "to＋原形動詞：目的",
+          "meaning": "用不定詞表示行動目的；前句主詞因歌詞省略，並非完整標準句。",
+          "usage": "表達開門是為了讓人進來。",
+          "prompt": "她打開大門讓客人進來。哪句正確？",
+          "options": [
+            "She opened the gate to letting the guests in.",
+            "She opened the gate for let the guests in.",
+            "She opened the gate to let the guests in.",
+            "She opened the gate for to let the guests in."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：目的用 to let，不是 to letting。",
+            "錯：for let 不正確。",
+            "正確：to let 說明開門的目的。",
+            "錯：for to let 不符合一般現代英語。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "“Blew down the doors to let me in”",
+          "pattern": [
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "let me in",
+          "explanation": "正確：to let 說明開門的目的。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "let＋受詞＋原形動詞",
+          "meaning": "let 表示允許或讓某人做某事；let me in 中 in 作方向副詞。",
+          "usage": "邀請客人進入。",
+          "prompt": "保全讓我們進大廳。哪句正確？",
+          "options": [
+            "The guard let we enter the hall.",
+            "The guard let us enter the hall.",
+            "The guard let us entering the hall.",
+            "The guard let us to enter the hall."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：受詞應是 us，不是 we。",
+            "正確：let us enter，受詞後接原形。",
+            "錯：此結構不能接 entering。",
+            "錯：let 後不接 to enter。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "“to let me in”",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "me / in",
+          "explanation": "正確：let us enter，受詞後接原形。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "couldn’t＋原形動詞：過去無法",
+          "meaning": "表示過去無法相信／不能做到。",
+          "usage": "形容聽到消息後難以相信。",
+          "prompt": "我聽見好消息時簡直不敢相信。哪句正確？",
+          "options": [
+            "I couldn’t believe the news.",
+            "I couldn’t believed the news.",
+            "I couldn’t believing the news.",
+            "I couldn’t to believe the news."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：couldn’t + 原形 believe。",
+            "錯：couldn’t 後用 believe。",
+            "錯：不能接 believing。",
+            "錯：不能加 to。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "“People couldn't believe”",
+          "pattern": [
+            {
+              "text": "couldn’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "believe",
+          "explanation": "正確：couldn’t + 原形 believe。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "what＋子句：名詞性間接問句",
+          "meaning": "what 引導名詞性子句，採陳述句語序；I’d 在此是 I had。",
+          "usage": "描述別人驚訝於你的變化。",
+          "prompt": "朋友看到我做的畫，驚訝我進步多少。哪句正確？",
+          "options": [
+            "My friends were surprised what I had make.",
+            "My friends were surprised what had I made.",
+            "My friends were surprised by what I had made.",
+            "My friends surprised by what I had made."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：had 後需 made。",
+            "錯：名詞子句不倒裝 had I。",
+            "正確：what I had made 是完整間接子句。",
+            "錯：主句需要 were。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "“what I'd become”",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "had",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "I’d become",
+          "explanation": "正確：what I had made 是完整間接子句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "who＋would＋原形動詞：反問語氣",
+          "meaning": "would 可呈現假設、反問或不可思議的語氣；ever 加強疑問。",
+          "usage": "委婉反問誰會願意在雨中等候。",
+          "prompt": "這麼冷，誰會想站在外面？哪句正確？",
+          "options": [
+            "Who would to stand outside?",
+            "Who would want to stand outside?",
+            "Who would wants to stand outside?",
+            "Who would wanting to stand outside?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯：would 後不能直接接 to stand；需主動詞 want。",
+            "正確：would want to + 原形 stand。",
+            "錯：would 後不能用 wants。",
+            "錯：would 後不能用 wanting。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "“who would ever want to be king?”",
+          "pattern": [
+            {
+              "text": "who",
+              "fixed": true
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "ever want to be king",
+          "explanation": "正確：would want to + 原形 stand。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "want to＋原形動詞",
+          "meaning": "表達願望、目標或意圖。",
+          "usage": "說自己想參加明天的活動。",
+          "prompt": "我想參加明天的工作坊。哪句正確？",
+          "options": [
+            "I want to join the workshop tomorrow.",
+            "I want joining the workshop tomorrow.",
+            "I want to joining the workshop tomorrow.",
+            "I want join the workshop tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：want to join。",
+            "錯：此句型不接 joining。",
+            "錯：to 後需原形 join。",
+            "錯：want 後少了 to。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "“want to be king”",
+          "pattern": [
+            {
+              "text": "want to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "be king",
+          "explanation": "正確：want to join。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "won’t＋原形動詞：將來否定",
+          "meaning": "否定將來預期；歌詞引用宗教人物，不應擅自推定具體神學意義。",
+          "usage": "預測朋友明天不會來。",
+          "prompt": "她明天不會來參加會議。哪句正確？",
+          "options": [
+            "She won’t coming to the meeting tomorrow.",
+            "She won’t comes to the meeting tomorrow.",
+            "She won’t come to the meeting tomorrow.",
+            "She won’t to come to the meeting tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：不接 coming。",
+            "錯：won’t 後須原形 come。",
+            "正確：won’t + come。",
+            "錯：不能加 to。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "“St. Peter won't call my name”",
+          "pattern": [
+            {
+              "text": "won’t",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "call my name",
+          "explanation": "正確：won’t + come。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "形容詞並列＋名詞",
+          "meaning": "兩個形容詞並列修飾同一名詞；歌詞以擬人語氣形容風。",
+          "usage": "描寫一個溫暖又安靜的房間。",
+          "prompt": "我們找到一間明亮又安靜的房間。哪句正確？",
+          "options": [
+            "We found a brightly and quiet room.",
+            "We found a bright and quiet rooms.",
+            "We found a bright and quietly room.",
+            "We found a bright and quiet room."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：brightly 是副詞。",
+            "錯：a 後不接複數 rooms。",
+            "錯：quietly 是副詞，不能如此修飾 room。",
+            "正確：bright、quiet 都是修飾 room 的形容詞。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "“a wicked and wild wind”",
+          "pattern": [
+            {
+              "text": "a",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": true
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "wicked / wild / wind",
+          "explanation": "正確：bright、quiet 都是修飾 room 的形容詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "過去完成式縮寫 I’d＝I had",
+          "meaning": "I’d 可是 I had 或 I would，要由後接動詞判定；本句是 had become。",
+          "usage": "回想客人抵達前已完成的工作。",
+          "prompt": "在客人到之前我已經收拾完桌子。哪句正確？",
+          "options": [
+            "I had cleaning the table before the guests came.",
+            "I had clean the table before the guests came.",
+            "I had cleaned the table before the guests came.",
+            "I have cleaned the table before the guests came yesterday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯：had 後不能接 cleaning。",
+            "錯：had 後需 cleaned。",
+            "正確：had cleaned 是過去完成式，先於 came。",
+            "錯：有明確過去先後時此題需 had cleaned。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "“what I'd become”",
+          "pattern": [
+            {
+              "text": "I’d (= I had)",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "become",
+          "explanation": "正確：had cleaned 是過去完成式，先於 came。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "現在簡單式動詞第三人稱單數",
+          "meaning": "複數主詞使用 stand，不加 -s；與單數主詞 stands 對照。",
+          "usage": "說明固定的位置或事實時使用。",
+          "prompt": "描述兩座塔位在河邊。哪句正確？",
+          "options": [
+            "The two towers stands by the river.",
+            "The two towers is standing by the river every year.",
+            "The two towers standing by the river.",
+            "The two towers stand by the river."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：複數主詞不加 stands。",
+            "錯：複數不搭配 is，且此句描述固定位置。",
+            "錯：缺少完整謂語動詞。",
+            "正確：two towers 是複數，現在式 stand。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "“my castles stand”",
+          "pattern": [
+            {
+              "text": "複數主詞",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "castles stand",
+          "explanation": "正確：two towers 是複數，現在式 stand。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "時間副詞 one minute…next…",
+          "meaning": "one minute 搭配下一句 next，對比局面迅速改變；不是逐字表示只有六十秒。",
+          "usage": "形容天氣突然改變。",
+          "prompt": "剛才天氣晴朗，轉眼就下雨。哪句正確？",
+          "options": [
+            "One minute it was sunny; the next, it was raining.",
+            "One minute it sunny; next raining.",
+            "One minute sunny; next the rain.",
+            "One minute was sunny; next it raining."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：one minute... the next... 呈現快速變化。",
+            "錯：兩個子句均不完整。",
+            "錯：缺少完整主詞與動詞。",
+            "錯：缺少 it，且進行式缺 be。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "“One minute I held the key”",
+          "pattern": [
+            {
+              "text": "One minute",
+              "fixed": true
+            },
+            {
+              "text": "過去式",
+              "fixed": true
+            }
+          ],
+          "example": "I held the key",
+          "explanation": "正確：one minute... the next... 呈現快速變化。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "過去敘事中的 as：當……時",
+          "meaning": "as 可以表示兩件事同時發生；原歌詞 Listened 省略主詞。",
+          "usage": "描述在朋友做飯時聽音樂。",
+          "prompt": "我在朋友煮飯時聽音樂。哪句正確？",
+          "options": [
+            "I listened to music as my friend cook dinner.",
+            "I listened to music as my friend cooking dinner.",
+            "I listened music as my friend cooked dinner.",
+            "I listened to music as my friend cooked dinner."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：過去敘事中 cook 應為 cooked。",
+            "錯：as 子句缺少 was。",
+            "錯：listen to music 才是正確搭配。",
+            "正確：as my friend cooked 表示同時發生。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "“Listened as the crowd would sing,”",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "the crowd would sing",
+          "explanation": "正確：as my friend cooked 表示同時發生。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "Never an＋名詞：詩意省略",
+          "meaning": "歌詞只用片語強調「一句真話也沒有」；一般完整句要有主詞和動詞。",
+          "usage": "辨認歌詞片語和完整的日常英文句子。",
+          "prompt": "表達會議中沒人回答問題。哪句是完整標準句？",
+          "options": [
+            "No answer meeting.",
+            "There never answer at the meeting.",
+            "Never an answer at the meeting.",
+            "There was never an answer at the meeting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯：缺少動詞與介系詞。",
+            "錯：there 後須 be 動詞。",
+            "錯：這是歌詞式片語，不是完整句。",
+            "正確：there was never + 名詞是完整句。"
+          ],
+          "sourceFile": "Viva_La_Vida_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "“Never an honest word”",
+          "pattern": [
+            {
+              "text": "Never",
+              "fixed": true
+            },
+            {
+              "text": "名詞片語（歌詞省略）",
+              "fixed": true
+            }
+          ],
+          "example": "an honest word",
+          "explanation": "正確：there was never + 名詞是完整句。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "enemy",
+          "meaning": "敵人；對手",
+          "usage": "描述互相對立或競爭的人；enemy 比 opponent 更強烈。",
+          "prompt": "哪一句正確使用「enemy」？",
+          "options": [
+            "The enemy was a good friend who helped us win.",
+            "The two countries saw each other as an enemy.",
+            "I wore an enemy to keep warm in winter.",
+            "The enemy is a place where we eat lunch."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "把敵人說成協助自己獲勝的好朋友，沒有交代敵對轉變，與此題語境不符。",
+            "正確：兩國互相視為敵人，符合敵對關係。",
+            "enemy 是人或群體，不是能穿在身上的衣服。",
+            "enemy 不是吃午餐的地方。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：兩國互相視為敵人，符合敵對關係。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "pillars",
+          "meaning": "柱子；支柱",
+          "usage": "談建築支撐結構，也可比喻一個計畫的重要支持。",
+          "prompt": "哪一句正確使用「pillars」？",
+          "options": [
+            "She poured two pillars into her tea.",
+            "These stone pillars hold up the old roof.",
+            "The pillars ran to school before eight.",
+            "This pillar is a sound we hear at night."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "pillars 是柱子，不能像液體或粉末倒進茶裡。",
+            "正確：石柱支撐舊屋頂，符合建築用法。",
+            "柱子無法自己跑去上學。",
+            "pillar 不是聲音。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：石柱支撐舊屋頂，符合建築用法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "cavalry",
+          "meaning": "騎兵部隊",
+          "usage": "用於歷史、軍事描述；與一般 infantry（步兵）不同。",
+          "prompt": "哪一句正確使用「cavalry」？",
+          "options": [
+            "We drank cavalry after the long walk.",
+            "The cavalry is a room where we keep books.",
+            "The cavalry cooked the road for dinner.",
+            "The cavalry rode horses across the field."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "cavalry 不是飲料。",
+            "騎兵是部隊，不是圖書室。",
+            "cavalry 是士兵部隊，不能用來表示煮馬路。",
+            "正確：騎兵騎馬穿越田野。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：騎兵騎馬穿越田野。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "choirs",
+          "meaning": "合唱團（複數）",
+          "usage": "談多個一起唱歌的團體；單數是 choir。",
+          "prompt": "哪一句正確使用「choirs」？",
+          "options": [
+            "I put three choirs in my coat pocket.",
+            "The two choirs sang together at the school show.",
+            "Two choirs repaired the broken buses with music.",
+            "The choirs were silent because they sang loudly."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "合唱團不是能放進口袋的小物品。",
+            "正確：兩個合唱團在學校表演中一起唱歌。",
+            "合唱團可以唱歌，不是靠音樂來修理公車。",
+            "同時聲稱完全安靜又大聲唱歌，自相矛盾。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：兩個合唱團在學校表演中一起唱歌。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "shield",
+          "meaning": "盾牌；保護物",
+          "usage": "可指實際的防護盾，亦可比喻保護。",
+          "prompt": "哪一句正確使用「shield」？",
+          "options": [
+            "He used a shield to hear the song better.",
+            "I ate a shield because I missed lunch.",
+            "The soldier held a shield to protect himself.",
+            "She shielded at the bus for three tickets."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "盾牌不能用來增強聽力。",
+            "盾牌不是食物。",
+            "正確：士兵持盾牌保護自己。",
+            "shield 作動詞需要合理受詞，這裡不能表示買車票。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：士兵持盾牌保護自己。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "missionaries",
+          "meaning": "傳教士（複數）",
+          "usage": "描述因宗教信仰而前往其他地方傳教的人；屬宗教語境。",
+          "prompt": "哪一句正確使用「missionaries」？",
+          "options": [
+            "We wore missionaries when the weather was cold.",
+            "The missionaries were five chairs in the hall.",
+            "The missionaries went abroad to teach their faith.",
+            "A missionary is a kind of mountain bike."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "傳教士不是衣物。",
+            "傳教士是人，不是椅子。",
+            "正確：傳教士到海外傳播其信仰。",
+            "missionary 不表示腳踏車種類。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：傳教士到海外傳播其信仰。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "foreign",
+          "meaning": "外國的；外來的",
+          "usage": "描述來自另一個國家的人、語言或事物。",
+          "prompt": "哪一句正確使用「foreign」？",
+          "options": [
+            "She is learning a foreign language at school.",
+            "He foreigned his shoes before the match.",
+            "The soup is foreign because it is very hot.",
+            "This foreign is running late for the train."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：foreign language 表示外語。",
+            "foreign 不是動詞，不能表示穿鞋。",
+            "湯熱並不能說明它是否來自外國。",
+            "foreign 是形容詞，不能單獨代替遲到的人。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：foreign language 表示外語。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "wicked",
+          "meaning": "邪惡的；惡毒的；（非正式）很棒的",
+          "usage": "描述惡意行為；口語也有完全不同的讚美用法，本題考負面義。",
+          "prompt": "哪一句正確使用「wicked」？",
+          "options": [
+            "The bus was wicked because it had four wheels.",
+            "She put wicked in her bag before class.",
+            "The wicked king hurt people for no reason.",
+            "The wicked child was kind to everyone all day."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "公車有四個輪子與邪惡無關。",
+            "wicked 是形容詞，不能當作東西裝入書包。",
+            "正確：國王無故傷害別人，符合負面義。",
+            "整天對大家好，缺少此處「惡毒」的證據。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：國王無故傷害別人，符合負面義。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "shattered",
+          "meaning": "碎裂的；粉碎的",
+          "usage": "形容玻璃等破成碎片；也能比喻希望破滅。",
+          "prompt": "哪一句正確使用「shattered」？",
+          "options": [
+            "She shattered to school before eight o’clock.",
+            "Our shattered tea tasted very sweet today.",
+            "The shattered window was new and not damaged.",
+            "The ball hit the glass and left it shattered."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "shatter 不能直接代替 go to school。",
+            "shattered 不自然地形容茶的甜度。",
+            "說窗戶已碎裂又沒有受損，語意衝突。",
+            "正確：球撞到玻璃使其碎裂。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：球撞到玻璃使其碎裂。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "revolutionaries",
+          "meaning": "革命者；主張革命的人（複數）",
+          "usage": "談試圖徹底改變政治或社會制度的人。",
+          "prompt": "哪一句正確使用「revolutionaries」？",
+          "options": [
+            "The revolutionaries wanted to change the government.",
+            "The revolutionaries are books with empty pages.",
+            "I ate revolutionaries with bread for breakfast.",
+            "The revolutionaries were a kind of winter coat."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：革命者希望改變政府。",
+            "革命者不是書籍。",
+            "革命者不是早餐食物。",
+            "革命者是人，不是外套。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：革命者希望改變政府。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "puppet",
+          "meaning": "木偶；傀儡",
+          "usage": "可以是真正被操控的玩偶，也可比喻受別人控制的人。",
+          "prompt": "哪一句正確使用「puppet」？",
+          "options": [
+            "She moved the puppet by pulling its strings.",
+            "The puppet was a drink with no sugar.",
+            "We used a puppet to make the room warmer.",
+            "I put the puppet on my feet like shoes."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：拉動線來操縱木偶，符合字面義。",
+            "木偶不是飲料。",
+            "木偶通常不能用於取暖。",
+            "木偶不是鞋子。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：拉動線來操縱木偶，符合字面義。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "silver plate",
+          "meaning": "銀盤；銀製盤子",
+          "usage": "表示用銀製成的盤子；歌中用作象徵性的歷史畫面。",
+          "prompt": "哪一句正確使用「silver plate」？",
+          "options": [
+            "The waiter silver plated us to our table.",
+            "My silver plate is a place to catch the train.",
+            "She read a silver plate to finish her book.",
+            "The cakes were served on a silver plate."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "silver plate 不能直接這樣當作「帶位」的動詞。",
+            "銀盤不是搭火車的地點。",
+            "銀盤不能替代書本閱讀內容。",
+            "正確：蛋糕放在銀盤上端出。"
+          ],
+          "sourceFile": "Viva_La_Vida_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：蛋糕放在銀盤上端出。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
+  }
+}

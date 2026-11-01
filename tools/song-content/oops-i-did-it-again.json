@@ -1,0 +1,4767 @@
+{
+  "slug": "oops-i-did-it-again",
+  "title": "Oops!...I Did It Again",
+  "singer": "Britney Spears",
+  "description": "《Oops! ...I Did It Again》描寫一段充滿曖昧、誤解與感情遊戲的戀愛關係。歌中的主角發現自己再次讓對方誤以為兩人正在相愛，但她其實並沒有打算認真投入這段感情。她享受被追求與喜歡的感覺，卻也承認自己經常不自覺地玩弄別人的感情。雖然她幻想童話般的浪漫愛情，渴望真正的英雄出現，但現實中的她並不像外表那麼天真無邪。歌曲以輕鬆幽默的方式展現愛情中的矛盾與不成熟。最終，《Oops! ...I Did It Again》傳達的是戀愛中的誘惑、幻想與自我認識：曖昧有時令人興奮，但若沒有清楚表達真實感受，也可能在無意間傷害別人的心。",
+  "exercise_name": "Oops!...I Did It Again · Listening & Vocabulary",
+  "tags": [
+    "britney spears",
+    "oops!...i did it again",
+    "love",
+    "misunderstanding"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "Yeah, yeah",
+      "chinese": "耶，耶"
+    },
+    {
+      "lineId": "line-2",
+      "english": "Yeah, yeah, yeah, yeah, yeah, yeah",
+      "chinese": "耶，耶，耶，耶，耶，耶"
+    },
+    {
+      "lineId": "line-3",
+      "english": "Yeah, yeah, yeah, yeah, yeah, yeah",
+      "chinese": "耶，耶，耶，耶，耶，耶"
+    },
+    {
+      "lineId": "line-4",
+      "english": "I think I did it again",
+      "chinese": "我想我又犯了同樣的錯",
+      "startSeconds": 20.22,
+      "endSeconds": 23.24
+    },
+    {
+      "lineId": "line-5",
+      "english": "I made you believe we're more than just friends, oh, baby",
+      "chinese": "我讓你相信我們不只是朋友，噢，寶 貝",
+      "startSeconds": 23.76,
+      "endSeconds": 30.46
+    },
+    {
+      "lineId": "line-6",
+      "english": "It might seem like a crush",
+      "chinese": "這可能看起來像一時迷戀",
+      "startSeconds": 30.46,
+      "endSeconds": 33.43
+    },
+    {
+      "lineId": "line-7",
+      "english": "But it doesn't mean that I'm serious",
+      "chinese": "但那不代表我是認真的",
+      "startSeconds": 33.88,
+      "endSeconds": 38.3
+    },
+    {
+      "lineId": "line-8",
+      "english": "'Cause to lose all my senses",
+      "chinese": "因為失去所有理智",
+      "startSeconds": 39.28,
+      "endSeconds": 44.06
+    },
+    {
+      "lineId": "line-9",
+      "english": "That is just so typically me, ooh, baby, baby",
+      "chinese": "那正是典型的我，噢，寶貝，寶貝"
+    },
+    {
+      "lineId": "line-10",
+      "english": "Oops!... I did it again",
+      "chinese": "哎呀！……我又犯了"
+    },
+    {
+      "lineId": "line-11",
+      "english": "I played with your heart",
+      "chinese": "我玩弄了你的心",
+      "startSeconds": 53.48,
+      "endSeconds": 56.34
+    },
+    {
+      "lineId": "line-12",
+      "english": "Got lost in the game",
+      "chinese": "迷失在這場遊戲中",
+      "startSeconds": 56.34,
+      "endSeconds": 58.84
+    },
+    {
+      "lineId": "line-13",
+      "english": "Oh, baby, baby",
+      "chinese": "噢，寶貝，寶貝",
+      "startSeconds": 58.84,
+      "endSeconds": 60.84
+    },
+    {
+      "lineId": "line-14",
+      "english": "Oops, you think I'm in love",
+      "chinese": "哎呀，你以為我戀愛了",
+      "startSeconds": 60.84,
+      "endSeconds": 63.88
+    },
+    {
+      "lineId": "line-15",
+      "english": "That I'm sent from above",
+      "chinese": "以為我是從天而降的",
+      "startSeconds": 64.64,
+      "endSeconds": 66.08
+    },
+    {
+      "lineId": "line-16",
+      "english": "I'm not that innocent",
+      "chinese": "我沒有那麼單純",
+      "startSeconds": 68.08,
+      "endSeconds": 70.7
+    },
+    {
+      "lineId": "line-17",
+      "english": "You see, my problem is this, I'm dreaming away",
+      "chinese": "你看，我的問題是這樣，我總愛作白日夢",
+      "startSeconds": 70.7,
+      "endSeconds": 76.36
+    },
+    {
+      "lineId": "line-18",
+      "english": "Wishing that heroes, they truly exist",
+      "chinese": "希望英雄真的存在",
+      "startSeconds": 77.14,
+      "endSeconds": 81.08
+    },
+    {
+      "lineId": "line-19",
+      "english": "I cry watching the days",
+      "chinese": "我看著這些日子哭泣",
+      "startSeconds": 81.08,
+      "endSeconds": 84.06
+    },
+    {
+      "lineId": "line-20",
+      "english": "Can't you see I'm a fool in so many ways?",
+      "chinese": "你看不出我在很多方面都是個傻瓜嗎？",
+      "startSeconds": 84.06,
+      "endSeconds": 89.74
+    },
+    {
+      "lineId": "line-21",
+      "english": "But to lose all my senses",
+      "chinese": "但失去所有理智",
+      "startSeconds": 89.74,
+      "endSeconds": 94.62
+    },
+    {
+      "lineId": "line-22",
+      "english": "That is just so typically me, oh, baby, oh",
+      "chinese": "那正是典型的我，噢，寶貝，噢"
+    },
+    {
+      "lineId": "line-23",
+      "english": "Oops!... I did it again",
+      "chinese": "哎呀！……我又犯了"
+    },
+    {
+      "lineId": "line-24",
+      "english": "I played with your heart",
+      "chinese": "我玩弄了你的心",
+      "startSeconds": 104.0,
+      "endSeconds": 106.84
+    },
+    {
+      "lineId": "line-25",
+      "english": "Got lost in the game",
+      "chinese": "迷失在這場遊戲中",
+      "startSeconds": 106.84,
+      "endSeconds": 109.34
+    },
+    {
+      "lineId": "line-26",
+      "english": "Oh, baby, baby",
+      "chinese": "噢，寶貝，寶貝",
+      "startSeconds": 109.34,
+      "endSeconds": 111.3
+    },
+    {
+      "lineId": "line-27",
+      "english": "Oops, you think I'm in love",
+      "chinese": "哎呀，你以為我戀愛了"
+    },
+    {
+      "lineId": "line-28",
+      "english": "That I'm sent from above",
+      "chinese": "以為我是從天而降的"
+    },
+    {
+      "lineId": "line-29",
+      "english": "I'm not that innocent",
+      "chinese": "我沒有那麼單純",
+      "startSeconds": 118.58,
+      "endSeconds": 121.34
+    },
+    {
+      "lineId": "line-30",
+      "english": "Yeah, yeah, yeah, yeah, yeah, yeah",
+      "chinese": "耶，耶，耶，耶，耶，耶"
+    },
+    {
+      "lineId": "line-31",
+      "english": "Yeah, yeah, yeah, yeah, yeah, yeah",
+      "chinese": "耶，耶，耶，耶，耶，耶"
+    },
+    {
+      "lineId": "line-32",
+      "english": "\"All aboard!\"",
+      "chinese": "「全體上車！」"
+    },
+    {
+      "lineId": "line-33",
+      "english": "\"Britney, before you go, there's something I want you to have\"",
+      "chinese": "「布蘭妮，在你離開之前，有樣 東西我想交給你」",
+      "startSeconds": 132.9,
+      "endSeconds": 136.9
+    },
+    {
+      "lineId": "line-34",
+      "english": "\"Oh, it's beautiful! But wait a minute, isn't this?\"",
+      "chinese": "「噢，這太美了！但等一下，這不是？」",
+      "startSeconds": 136.9,
+      "endSeconds": 140.46
+    },
+    {
+      "lineId": "line-35",
+      "english": "\"Yeah, yes, it is.\"",
+      "chinese": "「是的，沒錯，就是它。」",
+      "startSeconds": 140.46,
+      "endSeconds": 142.02
+    },
+    {
+      "lineId": "line-36",
+      "english": "\"But I thought the old lady dropped it into the ocean in the end\"",
+      "chinese": "「但我以為那位老太太最後把 它丟進海裡了」",
+      "startSeconds": 142.44,
+      "endSeconds": 145.02
+    },
+    {
+      "lineId": "line-37",
+      "english": "\"Well, baby, I went down and got it for ya\"",
+      "chinese": "「嗯，寶貝，我潛下去為你撿回來了」",
+      "startSeconds": 145.38,
+      "endSeconds": 147.68
+    },
+    {
+      "lineId": "line-38",
+      "english": "\"Aw, you shouldn't have\"",
+      "chinese": "「噢，你真是太破費了（你不該這麼做的）」",
+      "startSeconds": 148.04,
+      "endSeconds": 149.36
+    },
+    {
+      "lineId": "line-39",
+      "english": "Oops!... I did it again to your heart",
+      "chinese": "哎呀！……我又對你的心犯了同樣的錯"
+    },
+    {
+      "lineId": "line-40",
+      "english": "Got lost in this game, oh, baby",
+      "chinese": "迷失在這場遊戲中，噢，寶貝"
+    },
+    {
+      "lineId": "line-41",
+      "english": "Oops, you (oops, you) think that I'm sent from above",
+      "chinese": "哎呀，你（哎呀，你）以為我是從天而降的"
+    },
+    {
+      "lineId": "line-42",
+      "english": "I'm not that innocent",
+      "chinese": "我沒有那麼單純"
+    },
+    {
+      "lineId": "line-43",
+      "english": "Oops!... I did it again",
+      "chinese": "哎呀！……我又犯了"
+    },
+    {
+      "lineId": "line-44",
+      "english": "I played with your heart",
+      "chinese": "我玩弄了你的心",
+      "startSeconds": 173.68,
+      "endSeconds": 175.46
+    },
+    {
+      "lineId": "line-45",
+      "english": "Got lost in the game",
+      "chinese": "迷失在這場遊戲中",
+      "startSeconds": 175.46,
+      "endSeconds": 178.0
+    },
+    {
+      "lineId": "line-46",
+      "english": "Oh, baby, baby",
+      "chinese": "噢，寶貝，寶貝"
+    },
+    {
+      "lineId": "line-47",
+      "english": "Oops, you think I'm in love",
+      "chinese": "哎呀，你以為我戀愛了"
+    },
+    {
+      "lineId": "line-48",
+      "english": "That I'm sent from above",
+      "chinese": "以為我是從天而降的"
+    },
+    {
+      "lineId": "line-49",
+      "english": "I'm not that innocent",
+      "chinese": "我沒有那麼單純",
+      "startSeconds": 186.46,
+      "endSeconds": 189.86
+    },
+    {
+      "lineId": "line-50",
+      "english": "Oops!... I did it again",
+      "chinese": "哎呀！……我又犯了"
+    },
+    {
+      "lineId": "line-51",
+      "english": "I played with your heart",
+      "chinese": "我玩弄了你的心",
+      "startSeconds": 193.58,
+      "endSeconds": 195.82
+    },
+    {
+      "lineId": "line-52",
+      "english": "Got lost in the game",
+      "chinese": "迷失在這場遊戲中",
+      "startSeconds": 195.82,
+      "endSeconds": 198.18
+    },
+    {
+      "lineId": "line-53",
+      "english": "Oh, baby, baby",
+      "chinese": "噢，寶貝，寶貝",
+      "startSeconds": 198.18,
+      "endSeconds": 200.1
+    },
+    {
+      "lineId": "line-54",
+      "english": "Oops, you think I'm in love",
+      "chinese": "哎呀，你以為我戀愛了"
+    },
+    {
+      "lineId": "line-55",
+      "english": "That I'm sent from above",
+      "chinese": "以為我是從天而降的"
+    },
+    {
+      "lineId": "line-56",
+      "english": "I'm not that innocent",
+      "chinese": "我沒有那麼單純",
+      "startSeconds": 207.42,
+      "endSeconds": 209.88
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Do it again",
+      "meaning": "再做一次；又做了同樣的事",
+      "usage": "當某件事情已經做過，現在又重複做時，可以使用。",
+      "prompt": "哪一句正確使用了「Do it again」？",
+      "options": [
+        "I called my boss “Mum” again. Yes, I did it again.",
+        "I did it again to called the wrong number.",
+        "She do it again yesterday at the dance class.",
+        "We did it again very ten years old."
+      ],
+      "answer": 0,
+      "explanation": "do it again 表示再次做了同一件事。",
+      "optionExplanations": [
+        "do it again 表示再次做了同一件事。",
+        "to 後用 call，不能接 called。",
+        "過去事件須用 did it again。",
+        "did it again 不能接 very ten years old 描述年齡。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "More than just friends",
+      "meaning": "不只是朋友；關係比普通朋友更親近",
+      "usage": "當兩人的關係可能是戀愛關係，而不只是朋友時，可以使用。",
+      "prompt": "哪一句正確使用了「More than just friends」？",
+      "options": [
+        "They more than just friends after the trip.",
+        "Tom and Mia are more than just friends. They are dating.",
+        "I more than just friends my neighbour.",
+        "We are more than just friends to dated for a year."
+      ],
+      "answer": 1,
+      "explanation": "正確。兩人正在約會，關係不只是普通朋友。",
+      "optionExplanations": [
+        "more than just friends 是名詞片語，句子缺少 are 等動詞。",
+        "正確。兩人正在約會，關係不只是普通朋友。",
+        "more than just friends 不能單獨作動詞。",
+        "to dated 的連接不成立；可另說 We have dated for a year。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Have a crush on",
+      "meaning": "暗戀；對某人有好感",
+      "usage": "當你喜歡某人，但還不是正式交往時，可以使用 have a crush on + 人。",
+      "prompt": "哪一句正確使用了「Have a crush on」？",
+      "options": [
+        "I have a crush to the new singer.",
+        "She has a crush on to her neighbour.",
+        "We has a crush on the same actor.",
+        "I have a crush on Sam, but I am too shy to tell him."
+      ],
+      "answer": 3,
+      "explanation": "正確。對 Sam 有好感，但害羞不敢說，符合「暗戀」。",
+      "optionExplanations": [
+        "have a crush 後接對象用 on，不能用 to。",
+        "on 後直接接 her neighbour，不加 to。",
+        "主詞 we 配 have，不能用 has。",
+        "正確。對 Sam 有好感，但害羞不敢說，符合「暗戀」。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Seem like",
+      "meaning": "看起來像；似乎是",
+      "usage": "根據外表或目前看到的情況做猜測時，可以使用 seem like + 名詞／句子。",
+      "prompt": "哪一句正確使用了「Seem like」？",
+      "options": [
+        "That seems like a good idea. Let’s try it!",
+        "She seems like to go home at six.",
+        "The plan seems like to a good idea.",
+        "I seem like to danced on stage."
+      ],
+      "answer": 0,
+      "explanation": "正確。用 seem like 表示「聽起來／看起來是個好主意」。",
+      "optionExplanations": [
+        "正確。用 seem like 表示「聽起來／看起來是個好主意」。",
+        "錯誤。seem like 後面不能直接接 to + 動詞；可以說 She seems to want to go home.",
+        "seems like 後直接接名詞片語，不加 to。",
+        "seem like 後不能接 to danced。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Be serious",
+      "meaning": "認真的；不是開玩笑",
+      "usage": "當你想表明你是真的這樣想，不是在開玩笑時，可以使用。",
+      "prompt": "哪一句正確使用了「Be serious」？",
+      "options": [
+        "I am serious to my first interview yesterday.",
+        "Are you serious? You invited the whole street?",
+        "He is serious the window because it is cold.",
+        "Please serious the music before bed."
+      ],
+      "answer": 1,
+      "explanation": "Are you serious? 用來確認令人驚訝的消息。",
+      "optionExplanations": [
+        "serious 後可用 about；現在式 am 也不配 yesterday。",
+        "Are you serious? 用來確認令人驚訝的消息。",
+        "錯誤。serious 不是「關窗戶」；應說 He closes the window.",
+        "錯誤。serious 不是動詞，不能這樣使用；可說 Please turn off the music."
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Get lost",
+      "meaning": "迷路；迷失方向",
+      "usage": "當人不知道自己在哪裡，或不知道該往哪裡走時，可以使用。",
+      "prompt": "哪一句正確使用了「Get lost」？",
+      "options": [
+        "I got lost to the hotel yesterday.",
+        "We get lost yesterday near the museum.",
+        "We got lost in the city, so we asked a man for help.",
+        "She got lost the TV because it was funny."
+      ],
+      "answer": 2,
+      "explanation": "正確。在城市中找不到方向，所以向人求助。",
+      "optionExplanations": [
+        "迷路於某地用 got lost in；got lost to 不表示前往某地。",
+        "過去事件應用 got lost。",
+        "正確。在城市中找不到方向，所以向人求助。",
+        "錯誤。get lost 不能這樣接電視；可說 She watched the funny show."
+      ]
+    },
+    {
+      "number": 7,
+      "word": "In love",
+      "meaning": "戀愛中；愛上某人",
+      "usage": "當一個人對另一個人有深厚的愛情時，可以使用 be in love (with someone)。",
+      "prompt": "哪一句正確使用了「In love」？",
+      "options": [
+        "I am in love to the new actor.",
+        "Nina is in love with Alex. She smiles whenever she sees him.",
+        "They are in love the bus at eight.",
+        "They in love after their first date."
+      ],
+      "answer": 1,
+      "explanation": "正確。in love with + 人，表示 Nina 愛上 Alex。",
+      "optionExplanations": [
+        "in love 後接對象用 with，不能用 to。",
+        "正確。in love with + 人，表示 Nina 愛上 Alex。",
+        "錯誤。搭公車不會用 in love；應說 They are on the bus at eight.",
+        "in love 描述狀態，前面需要 are 等動詞。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Innocent",
+      "meaning": "無辜的；沒有做壞事的",
+      "usage": "當一個人沒有做錯事，或沒有犯某個被懷疑的錯誤時，可以使用。",
+      "prompt": "哪一句正確使用了「Innocent」？",
+      "options": [
+        "Leo did not take the money. He is innocent.",
+        "I innocent my bike to the park after lunch.",
+        "She has an innocent on her desk for writing.",
+        "My cousin innocent to the missing money."
+      ],
+      "answer": 0,
+      "explanation": "正確。Leo 沒有拿走錢，所以是無辜的。",
+      "optionExplanations": [
+        "正確。Leo 沒有拿走錢，所以是無辜的。",
+        "錯誤。innocent 是形容詞，不是騎車的動詞；應說 I rode my bike to the park.",
+        "錯誤。innocent 不是文具名稱；可說 She has a pencil on her desk.",
+        "innocent 是形容詞，不能單獨作動詞；此句的介詞也不合適。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Wait a minute",
+      "meaning": "等一下；稍等",
+      "usage": "當你想請對方暫停，或突然想到一件事時，可以使用。",
+      "prompt": "哪一句正確使用了「Wait a minute」？",
+      "options": [
+        "Wait a minute to checked the address.",
+        "I wait a minute my manager yesterday.",
+        "Wait a minute! I left my phone at home.",
+        "We wait a minute the door so it stays open."
+      ],
+      "answer": 2,
+      "explanation": "正確。突然想起手機忘在家裡，用這句請人稍等。",
+      "optionExplanations": [
+        "to 後用 check，不能接 checked。",
+        "wait a minute 不能直接接 my manager；過去事件也須用 waited。",
+        "正確。突然想起手機忘在家裡，用這句請人稍等。",
+        "錯誤。要說「扶住門」應用 hold the door，而不是 wait a minute."
+      ]
+    },
+    {
+      "number": 10,
+      "word": "You shouldn’t have",
+      "meaning": "你真貼心／你不必這麼破費（收到禮物時的客氣話）",
+      "usage": "別人送你禮物或特別幫你做了好事時，可以用來表示驚喜與感謝。",
+      "prompt": "哪一句正確使用了「You shouldn’t have」？",
+      "options": [
+        "You shouldn't have to bought me a gift.",
+        "I you shouldn't have my birthday present.",
+        "You shouldn't have buy me flowers!",
+        "You bought me flowers? You shouldn't have! Thank you!"
+      ],
+      "answer": 3,
+      "explanation": "You shouldn't have! 可用來客氣地感謝別人的禮物。",
+      "optionExplanations": [
+        "shouldn't have 後接過去分詞 bought，不加 to。",
+        "You shouldn't have 是完整說法，不能插在 I 與受詞之間當動詞。",
+        "shouldn't have 後要用過去分詞 bought，不能用 buy。",
+        "You shouldn't have! 可用來客氣地感謝別人的禮物。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-4",
+          "prompt": "I think I did it {{blank}}",
+          "promptZh": "我想我又犯了同樣的錯",
+          "options": [
+            "again",
+            "today",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 2,
+          "lineId": "line-5",
+          "prompt": "I made you believe we're {{blank}}, oh, baby",
+          "promptZh": "我讓你相信我們不只是朋友，噢，寶 貝",
+          "options": [
+            "more than friends",
+            "more than just friends",
+            "just good friends"
+          ],
+          "answer": "more than just friends"
+        },
+        {
+          "number": 3,
+          "lineId": "line-6",
+          "prompt": "It might seem like a {{blank}}",
+          "promptZh": "這可能看起來像一時迷戀",
+          "options": [
+            "game",
+            "crush",
+            "dream"
+          ],
+          "answer": "crush"
+        },
+        {
+          "number": 4,
+          "lineId": "line-7",
+          "prompt": "But it doesn't mean that I'm {{blank}}",
+          "promptZh": "但那不代表我是認真的",
+          "options": [
+            "furious",
+            "curious",
+            "serious"
+          ],
+          "answer": "serious"
+        },
+        {
+          "number": 5,
+          "lineId": "line-8",
+          "prompt": "'Cause to {{blank}}",
+          "promptZh": "因為失去所有理智",
+          "options": [
+            "lose all my senses",
+            "lose all my mind",
+            "lose all control"
+          ],
+          "answer": "lose all my senses"
+        },
+        {
+          "number": 6,
+          "lineId": "line-10",
+          "prompt": "Oops!... I did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "today",
+            "again",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 7,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "played with your heart",
+            "broke your heart",
+            "played with your mind"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 8,
+          "lineId": "line-12",
+          "prompt": "Got lost in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "world",
+            "dark",
+            "game"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 9,
+          "lineId": "line-14",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in love",
+            "in lust",
+            "in pain"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 10,
+          "lineId": "line-15",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "the stars",
+            "afar",
+            "above"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 11,
+          "lineId": "line-16",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "ignorant",
+            "innocent",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 12,
+          "lineId": "line-17",
+          "prompt": "You see, my problem is this, I'm {{blank}}",
+          "promptZh": "你看，我的問題是這樣，我總愛作白日夢",
+          "options": [
+            "drifting away",
+            "dreaming again",
+            "dreaming away"
+          ],
+          "answer": "dreaming away"
+        },
+        {
+          "number": 13,
+          "lineId": "line-18",
+          "prompt": "Wishing that heroes, they {{blank}}",
+          "promptZh": "希望英雄真的存在",
+          "options": [
+            "truly exist",
+            "really exist",
+            "truly persist"
+          ],
+          "answer": "truly exist"
+        },
+        {
+          "number": 14,
+          "lineId": "line-19",
+          "prompt": "I {{blank}}",
+          "promptZh": "我看著這些日子哭泣",
+          "options": [
+            "cry watching the time",
+            "cry watching the days",
+            "cry watching the world"
+          ],
+          "answer": "cry watching the days"
+        },
+        {
+          "number": 15,
+          "lineId": "line-20",
+          "prompt": "Can't you see I'm a {{blank}}?",
+          "promptZh": "你看不出我在很多方面都是個傻瓜嗎？",
+          "options": [
+            "fool in so many things",
+            "fool in many ways",
+            "fool in so many ways"
+          ],
+          "answer": "fool in so many ways"
+        },
+        {
+          "number": 16,
+          "lineId": "line-21",
+          "prompt": "{{blank}} all my senses",
+          "promptZh": "但失去所有理智",
+          "options": [
+            "'Cause to lose",
+            "But to lose",
+            "Just to lose"
+          ],
+          "answer": "But to lose"
+        },
+        {
+          "number": 17,
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{blank}}",
+          "promptZh": "哎呀！……我又對你的心犯了同樣的錯",
+          "options": [
+            "your heart",
+            "your soul",
+            "your mind"
+          ],
+          "answer": "your heart"
+        },
+        {
+          "number": 18,
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in love",
+            "in lust",
+            "in pain"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 19,
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "the stars",
+            "afar",
+            "above"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 20,
+          "lineId": "line-49",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "ignorant",
+            "innocent",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Yeah, yeah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I think I did it {{q:1}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I made you believe we're {{q:2}}, oh, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It might seem like a {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But it doesn't mean that I'm {{q:4}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "'Cause to {{q:5}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "That is just so typically me, ooh, baby, baby"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oops!... I did it {{q:6}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:7}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Got lost in the {{q:8}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oops, you think I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That I'm sent from {{q:10}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not that {{q:11}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You see, my problem is this, I'm {{q:12}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Wishing that heroes, they {{q:13}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:14}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Can't you see I'm a {{q:15}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:16}} all my senses"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "That is just so typically me, oh, baby, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm in love"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "That I'm sent from above"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I'm not that innocent"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "\"All aboard!\""
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "\"Britney, before you go, there's something I want you to have\""
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's beautiful! But wait a minute, isn't this?\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "\"Yeah, yes, it is.\""
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady dropped it into the ocean in the end\""
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I went down and got it for ya\""
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "\"Aw, you shouldn't have\""
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{q:17}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Got lost in this game, oh, baby"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oops, you (oops, you) think that I'm sent from above"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm not that innocent"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{q:18}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{q:19}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'm not that {{q:20}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oops, you think I'm in love"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "That I'm sent from above"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "I'm not that innocent"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-4",
+          "prompt": "I think I did it {{blank}}",
+          "promptZh": "我想我又犯了同樣的錯",
+          "options": [
+            "today",
+            "again",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 2,
+          "lineId": "line-5",
+          "prompt": "I made you believe we're {{blank}}, oh, baby",
+          "promptZh": "我讓你相信我們不只是朋友，噢，寶 貝",
+          "options": [
+            "more than just friends",
+            "more than friends",
+            "just good friends"
+          ],
+          "answer": "more than just friends"
+        },
+        {
+          "number": 3,
+          "lineId": "line-6",
+          "prompt": "It might seem like a {{blank}}",
+          "promptZh": "這可能看起來像一時迷戀",
+          "options": [
+            "crush",
+            "game",
+            "dream"
+          ],
+          "answer": "crush"
+        },
+        {
+          "number": 4,
+          "lineId": "line-7",
+          "prompt": "But it doesn't mean that I'm {{blank}}",
+          "promptZh": "但那不代表我是認真的",
+          "options": [
+            "curious",
+            "serious",
+            "furious"
+          ],
+          "answer": "serious"
+        },
+        {
+          "number": 5,
+          "lineId": "line-8",
+          "prompt": "'Cause to {{blank}}",
+          "promptZh": "因為失去所有理智",
+          "options": [
+            "lose all control",
+            "lose all my mind",
+            "lose all my senses"
+          ],
+          "answer": "lose all my senses"
+        },
+        {
+          "number": 6,
+          "lineId": "line-9",
+          "prompt": "That is just so {{blank}}, ooh, baby, baby",
+          "promptZh": "那正是典型的我，噢，寶貝，寶貝",
+          "options": [
+            "typical for me",
+            "typical of me",
+            "typically me"
+          ],
+          "answer": "typically me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "Oops!... I did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "today",
+            "again",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 8,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "played with your heart",
+            "broke your heart",
+            "played with your mind"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 9,
+          "lineId": "line-12",
+          "prompt": "Got lost in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "world",
+            "dark",
+            "game"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 10,
+          "lineId": "line-14",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in lust",
+            "in love",
+            "in pain"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 11,
+          "lineId": "line-15",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "above",
+            "afar",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 12,
+          "lineId": "line-16",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "ignorant",
+            "innocent",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 13,
+          "lineId": "line-17",
+          "prompt": "You see, my problem is this, I'm {{blank}}",
+          "promptZh": "你看，我的問題是這樣，我總愛作白日夢",
+          "options": [
+            "dreaming away",
+            "dreaming again",
+            "drifting away"
+          ],
+          "answer": "dreaming away"
+        },
+        {
+          "number": 14,
+          "lineId": "line-18",
+          "prompt": "Wishing that heroes, they {{blank}}",
+          "promptZh": "希望英雄真的存在",
+          "options": [
+            "truly persist",
+            "really exist",
+            "truly exist"
+          ],
+          "answer": "truly exist"
+        },
+        {
+          "number": 15,
+          "lineId": "line-19",
+          "prompt": "I {{blank}}",
+          "promptZh": "我看著這些日子哭泣",
+          "options": [
+            "cry watching the days",
+            "cry watching the time",
+            "cry watching the world"
+          ],
+          "answer": "cry watching the days"
+        },
+        {
+          "number": 16,
+          "lineId": "line-20",
+          "prompt": "Can't you see I'm a {{blank}}?",
+          "promptZh": "你看不出我在很多方面都是個傻瓜嗎？",
+          "options": [
+            "fool in many ways",
+            "fool in so many ways",
+            "fool in so many things"
+          ],
+          "answer": "fool in so many ways"
+        },
+        {
+          "number": 17,
+          "lineId": "line-21",
+          "prompt": "{{blank}} all my senses",
+          "promptZh": "但失去所有理智",
+          "options": [
+            "Just to lose",
+            "'Cause to lose",
+            "But to lose"
+          ],
+          "answer": "But to lose"
+        },
+        {
+          "number": 18,
+          "lineId": "line-22",
+          "prompt": "That is just so {{blank}}, oh, baby, oh",
+          "promptZh": "那正是典型的我，噢，寶貝，噢",
+          "options": [
+            "typical for me",
+            "typical of me",
+            "typically me"
+          ],
+          "answer": "typically me"
+        },
+        {
+          "number": 19,
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "again",
+            "today",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 20,
+          "lineId": "line-24",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "broke your heart",
+            "played with your heart",
+            "played with your mind"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 21,
+          "lineId": "line-25",
+          "prompt": "Got lost in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "dark",
+            "game",
+            "world"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 22,
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in pain",
+            "in lust",
+            "in love"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 23,
+          "lineId": "line-28",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "above",
+            "afar",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 24,
+          "lineId": "line-29",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "innocent now",
+            "ignorant",
+            "innocent"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 25,
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's {{blank}}! But wait a minute, isn't this?\"",
+          "promptZh": "「噢，這太美了！但等一下，這不是？」",
+          "options": [
+            "beautiful",
+            "wonderful",
+            "lovely"
+          ],
+          "answer": "beautiful"
+        },
+        {
+          "number": 26,
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady {{blank}} into the ocean in the end\"",
+          "promptZh": "「但我以為那位老太太最後把 它丟進海裡了」",
+          "options": [
+            "threw it",
+            "dropped it",
+            "tossed it"
+          ],
+          "answer": "dropped it"
+        },
+        {
+          "number": 27,
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I {{blank}} and got it for ya\"",
+          "promptZh": "「嗯，寶貝，我潛下去為你撿回來了」",
+          "options": [
+            "went down",
+            "went out",
+            "went back"
+          ],
+          "answer": "went down"
+        },
+        {
+          "number": 28,
+          "lineId": "line-38",
+          "prompt": "\"Aw, you {{blank}}\"",
+          "promptZh": "「噢，你真是太破費了（你不該這麼做的）」",
+          "options": [
+            "shouldn't have to",
+            "didn't have to",
+            "shouldn't have"
+          ],
+          "answer": "shouldn't have"
+        },
+        {
+          "number": 29,
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{blank}}",
+          "promptZh": "哎呀！……我又對你的心犯了同樣的錯",
+          "options": [
+            "your soul",
+            "your heart",
+            "your mind"
+          ],
+          "answer": "your heart"
+        },
+        {
+          "number": 30,
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in love",
+            "in lust",
+            "in pain"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 31,
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "the stars",
+            "afar",
+            "above"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 32,
+          "lineId": "line-49",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "ignorant",
+            "innocent",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Yeah, yeah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I think I did it {{q:1}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I made you believe we're {{q:2}}, oh, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It might seem like a {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But it doesn't mean that I'm {{q:4}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "'Cause to {{q:5}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "That is just so {{q:6}}, ooh, baby, baby"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oops!... I did it {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:8}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Got lost in the {{q:9}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oops, you think I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That I'm sent from {{q:11}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not that {{q:12}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You see, my problem is this, I'm {{q:13}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Wishing that heroes, they {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Can't you see I'm a {{q:16}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:17}} all my senses"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "That is just so {{q:18}}, oh, baby, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Got lost in the {{q:21}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm {{q:22}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "That I'm sent from {{q:23}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I'm not that {{q:24}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "\"All aboard!\""
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "\"Britney, before you go, there's something I want you to have\""
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's {{q:25}}! But wait a minute, isn't this?\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "\"Yeah, yes, it is.\""
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady {{q:26}} into the ocean in the end\""
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I {{q:27}} and got it for ya\""
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "\"Aw, you {{q:28}}\""
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{q:29}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Got lost in this game, oh, baby"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oops, you (oops, you) think that I'm sent from above"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm not that innocent"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{q:30}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{q:31}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'm not that {{q:32}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oops, you think I'm in love"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "That I'm sent from above"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "I'm not that innocent"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-4",
+          "prompt": "I think I did it {{blank}}",
+          "promptZh": "我想我又犯了同樣的錯",
+          "options": [
+            "again",
+            "today",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 2,
+          "lineId": "line-5",
+          "prompt": "{{blank}} we're 〔第 3 題〕, oh, baby",
+          "promptZh": "我讓你相信我們不只是朋友，噢，寶 貝",
+          "options": [
+            "I made you feel",
+            "I made you think",
+            "I made you believe"
+          ],
+          "answer": "I made you believe"
+        },
+        {
+          "number": 3,
+          "lineId": "line-5",
+          "prompt": "〔第 2 題〕 we're {{blank}}, oh, baby",
+          "promptZh": "我讓你相信我們不只是朋友，噢，寶 貝",
+          "options": [
+            "more than friends",
+            "more than just friends",
+            "just good friends"
+          ],
+          "answer": "more than just friends"
+        },
+        {
+          "number": 4,
+          "lineId": "line-6",
+          "prompt": "It might seem like a {{blank}}",
+          "promptZh": "這可能看起來像一時迷戀",
+          "options": [
+            "crush",
+            "game",
+            "dream"
+          ],
+          "answer": "crush"
+        },
+        {
+          "number": 5,
+          "lineId": "line-7",
+          "prompt": "But it {{blank}} that I'm 〔第 6 題〕",
+          "promptZh": "但那不代表我是認真的",
+          "options": [
+            "didn't mean",
+            "don't mean",
+            "doesn't mean"
+          ],
+          "answer": "doesn't mean"
+        },
+        {
+          "number": 6,
+          "lineId": "line-7",
+          "prompt": "But it 〔第 5 題〕 that I'm {{blank}}",
+          "promptZh": "但那不代表我是認真的",
+          "options": [
+            "curious",
+            "serious",
+            "furious"
+          ],
+          "answer": "serious"
+        },
+        {
+          "number": 7,
+          "lineId": "line-8",
+          "prompt": "{{blank}} to 〔第 8 題〕",
+          "promptZh": "因為失去所有理智",
+          "options": [
+            "'Cause",
+            "Because",
+            "Just"
+          ],
+          "answer": "'Cause"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "〔第 7 題〕 to {{blank}}",
+          "promptZh": "因為失去所有理智",
+          "options": [
+            "lose all control",
+            "lose all my mind",
+            "lose all my senses"
+          ],
+          "answer": "lose all my senses"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "That is just so {{blank}}, ooh, baby, baby",
+          "promptZh": "那正是典型的我，噢，寶貝，寶貝",
+          "options": [
+            "typically me",
+            "typical of me",
+            "typical for me"
+          ],
+          "answer": "typically me"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "Oops!... I did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "today",
+            "again",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "played with your heart",
+            "broke your heart",
+            "played with your mind"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "Got lost in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "dark",
+            "game",
+            "world"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 13,
+          "lineId": "line-14",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in pain",
+            "in lust",
+            "in love"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "afar",
+            "above",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "innocent now",
+            "ignorant",
+            "innocent"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "You see, {{blank}}, I'm 〔第 17 題〕",
+          "promptZh": "你看，我的問題是這樣，我總愛作白日夢",
+          "options": [
+            "my problem is this",
+            "the problem is this",
+            "my problem is that"
+          ],
+          "answer": "my problem is this"
+        },
+        {
+          "number": 17,
+          "lineId": "line-17",
+          "prompt": "You see, 〔第 16 題〕, I'm {{blank}}",
+          "promptZh": "你看，我的問題是這樣，我總愛作白日夢",
+          "options": [
+            "drifting away",
+            "dreaming again",
+            "dreaming away"
+          ],
+          "answer": "dreaming away"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, they 〔第 19 題〕",
+          "promptZh": "希望英雄真的存在",
+          "options": [
+            "Hoping that heroes",
+            "Wishing that heroes",
+            "Wishing that hero"
+          ],
+          "answer": "Wishing that heroes"
+        },
+        {
+          "number": 19,
+          "lineId": "line-18",
+          "prompt": "〔第 18 題〕, they {{blank}}",
+          "promptZh": "希望英雄真的存在",
+          "options": [
+            "truly exist",
+            "really exist",
+            "truly persist"
+          ],
+          "answer": "truly exist"
+        },
+        {
+          "number": 20,
+          "lineId": "line-19",
+          "prompt": "I {{blank}}",
+          "promptZh": "我看著這些日子哭泣",
+          "options": [
+            "cry watching the world",
+            "cry watching the time",
+            "cry watching the days"
+          ],
+          "answer": "cry watching the days"
+        },
+        {
+          "number": 21,
+          "lineId": "line-20",
+          "prompt": "Can't you see I'm a {{blank}}?",
+          "promptZh": "你看不出我在很多方面都是個傻瓜嗎？",
+          "options": [
+            "fool in so many ways",
+            "fool in many ways",
+            "fool in so many things"
+          ],
+          "answer": "fool in so many ways"
+        },
+        {
+          "number": 22,
+          "lineId": "line-21",
+          "prompt": "{{blank}} all my senses",
+          "promptZh": "但失去所有理智",
+          "options": [
+            "'Cause to lose",
+            "But to lose",
+            "Just to lose"
+          ],
+          "answer": "But to lose"
+        },
+        {
+          "number": 23,
+          "lineId": "line-22",
+          "prompt": "That is just so {{blank}}, oh, baby, oh",
+          "promptZh": "那正是典型的我，噢，寶貝，噢",
+          "options": [
+            "typical of me",
+            "typically me",
+            "typical for me"
+          ],
+          "answer": "typically me"
+        },
+        {
+          "number": 24,
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "before",
+            "today",
+            "again"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 25,
+          "lineId": "line-24",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "played with your heart",
+            "broke your heart",
+            "played with your mind"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 26,
+          "lineId": "line-25",
+          "prompt": "Got lost in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "world",
+            "dark",
+            "game"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 27,
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in lust",
+            "in love",
+            "in pain"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 28,
+          "lineId": "line-28",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "above",
+            "afar",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 29,
+          "lineId": "line-29",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "innocent now",
+            "ignorant",
+            "innocent"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 30,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "「全體上車！」",
+          "options": [
+            "\"All on board!\"",
+            "\"All aboard!\"",
+            "\"All aboard now!\""
+          ],
+          "answer": "\"All aboard!\""
+        },
+        {
+          "number": 31,
+          "lineId": "line-33",
+          "prompt": "\"Britney, before you go, there's {{blank}}\"",
+          "promptZh": "「布蘭妮，在你離開之前，有樣 東西我想交給你」",
+          "options": [
+            "something I want you to have",
+            "something I have for you",
+            "something I want to give you"
+          ],
+          "answer": "something I want you to have"
+        },
+        {
+          "number": 32,
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's {{blank}}! But wait a minute, isn't this?\"",
+          "promptZh": "「噢，這太美了！但等一下，這不是？」",
+          "options": [
+            "beautiful",
+            "wonderful",
+            "lovely"
+          ],
+          "answer": "beautiful"
+        },
+        {
+          "number": 33,
+          "lineId": "line-35",
+          "prompt": "\"Yeah, {{blank}}\"",
+          "promptZh": "「是的，沒錯，就是它。」",
+          "options": [
+            "yeah, it is.",
+            "yes, it is now.",
+            "yes, it is."
+          ],
+          "answer": "yes, it is."
+        },
+        {
+          "number": 34,
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady {{blank}} into the ocean in the end\"",
+          "promptZh": "「但我以為那位老太太最後把 它丟進海裡了」",
+          "options": [
+            "threw it",
+            "dropped it",
+            "tossed it"
+          ],
+          "answer": "dropped it"
+        },
+        {
+          "number": 35,
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I {{blank}} and got it for ya\"",
+          "promptZh": "「嗯，寶貝，我潛下去為你撿回來了」",
+          "options": [
+            "went down",
+            "went out",
+            "went back"
+          ],
+          "answer": "went down"
+        },
+        {
+          "number": 36,
+          "lineId": "line-38",
+          "prompt": "\"Aw, you {{blank}}\"",
+          "promptZh": "「噢，你真是太破費了（你不該這麼做的）」",
+          "options": [
+            "didn't have to",
+            "shouldn't have",
+            "shouldn't have to"
+          ],
+          "answer": "shouldn't have"
+        },
+        {
+          "number": 37,
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{blank}}",
+          "promptZh": "哎呀！……我又對你的心犯了同樣的錯",
+          "options": [
+            "your mind",
+            "your soul",
+            "your heart"
+          ],
+          "answer": "your heart"
+        },
+        {
+          "number": 38,
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in pain",
+            "in lust",
+            "in love"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 39,
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "afar",
+            "above",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 40,
+          "lineId": "line-49",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "innocent",
+            "ignorant",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Yeah, yeah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I think I did it {{q:1}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:2}} we're {{q:3}}, oh, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "It might seem like a {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But it {{q:5}} that I'm {{q:6}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:7}} to {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "That is just so {{q:9}}, ooh, baby, baby"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Oops!... I did it {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Got lost in the {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Oops, you think I'm {{q:13}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "That I'm sent from {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not that {{q:15}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You see, {{q:16}}, I'm {{q:17}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:18}}, they {{q:19}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:20}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Can't you see I'm a {{q:21}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:22}} all my senses"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "That is just so {{q:23}}, oh, baby, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it {{q:24}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I {{q:25}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Got lost in the {{q:26}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm {{q:27}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "That I'm sent from {{q:28}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I'm not that {{q:29}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "\"Britney, before you go, there's {{q:31}}\""
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's {{q:32}}! But wait a minute, isn't this?\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "\"Yeah, {{q:33}}\""
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady {{q:34}} into the ocean in the end\""
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I {{q:35}} and got it for ya\""
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "\"Aw, you {{q:36}}\""
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{q:37}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Got lost in this game, oh, baby"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oops, you (oops, you) think that I'm sent from above"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm not that innocent"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{q:38}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{q:39}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'm not that {{q:40}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oops, you think I'm in love"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "That I'm sent from above"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "I'm not that innocent"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-4",
+          "prompt": "{{blank}} I did it 〔第 2 題〕",
+          "promptZh": "我想我又犯了同樣的錯",
+          "options": [
+            "I think",
+            "I thought",
+            "I know"
+          ],
+          "answer": "I think"
+        },
+        {
+          "number": 2,
+          "lineId": "line-4",
+          "prompt": "〔第 1 題〕 I did it {{blank}}",
+          "promptZh": "我想我又犯了同樣的錯",
+          "options": [
+            "today",
+            "again",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 3,
+          "lineId": "line-5",
+          "prompt": "{{blank}} we're 〔第 4 題〕, oh, baby",
+          "promptZh": "我讓你相信我們不只是朋友，噢，寶 貝",
+          "options": [
+            "I made you think",
+            "I made you believe",
+            "I made you feel"
+          ],
+          "answer": "I made you believe"
+        },
+        {
+          "number": 4,
+          "lineId": "line-5",
+          "prompt": "〔第 3 題〕 we're {{blank}}, oh, baby",
+          "promptZh": "我讓你相信我們不只是朋友，噢，寶 貝",
+          "options": [
+            "more than just friends",
+            "more than friends",
+            "just good friends"
+          ],
+          "answer": "more than just friends"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "{{blank}} a 〔第 6 題〕",
+          "promptZh": "這可能看起來像一時迷戀",
+          "options": [
+            "It might look like",
+            "It may seem like",
+            "It might seem like"
+          ],
+          "answer": "It might seem like"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "〔第 5 題〕 a {{blank}}",
+          "promptZh": "這可能看起來像一時迷戀",
+          "options": [
+            "dream",
+            "game",
+            "crush"
+          ],
+          "answer": "crush"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "But it {{blank}} that I'm 〔第 8 題〕",
+          "promptZh": "但那不代表我是認真的",
+          "options": [
+            "don't mean",
+            "doesn't mean",
+            "didn't mean"
+          ],
+          "answer": "doesn't mean"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "But it 〔第 7 題〕 that I'm {{blank}}",
+          "promptZh": "但那不代表我是認真的",
+          "options": [
+            "serious",
+            "curious",
+            "furious"
+          ],
+          "answer": "serious"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "{{blank}} to 〔第 10 題〕",
+          "promptZh": "因為失去所有理智",
+          "options": [
+            "Because",
+            "'Cause",
+            "Just"
+          ],
+          "answer": "'Cause"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "〔第 9 題〕 to {{blank}}",
+          "promptZh": "因為失去所有理智",
+          "options": [
+            "lose all my senses",
+            "lose all my mind",
+            "lose all control"
+          ],
+          "answer": "lose all my senses"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "That is just so {{blank}}, ooh, baby, baby",
+          "promptZh": "那正是典型的我，噢，寶貝，寶貝",
+          "options": [
+            "typical for me",
+            "typical of me",
+            "typically me"
+          ],
+          "answer": "typically me"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "{{blank}} did it 〔第 13 題〕",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "never Oops!... I",
+            "Oops!... I",
+            "always Oops!... I"
+          ],
+          "answer": "Oops!... I"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "〔第 12 題〕 did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "again",
+            "today",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "played with your mind",
+            "broke your heart",
+            "played with your heart"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "{{blank}} in the 〔第 16 題〕",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "Got lost",
+            "I got lost",
+            "Got lost now"
+          ],
+          "answer": "Got lost"
+        },
+        {
+          "number": 16,
+          "lineId": "line-12",
+          "prompt": "〔第 15 題〕 in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "world",
+            "dark",
+            "game"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "{{blank}} I'm 〔第 18 題〕",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "Oops, you thought",
+            "Oops, you think",
+            "Oops, you know"
+          ],
+          "answer": "Oops, you think"
+        },
+        {
+          "number": 18,
+          "lineId": "line-14",
+          "prompt": "〔第 17 題〕 I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in pain",
+            "in lust",
+            "in love"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 19,
+          "lineId": "line-15",
+          "prompt": "{{blank}} from 〔第 20 題〕",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "That I'm sent",
+            "That I was sent",
+            "That I am sent"
+          ],
+          "answer": "That I'm sent"
+        },
+        {
+          "number": 20,
+          "lineId": "line-15",
+          "prompt": "〔第 19 題〕 from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "afar",
+            "above",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "ignorant",
+            "innocent",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "You see, {{blank}}, I'm 〔第 23 題〕",
+          "promptZh": "你看，我的問題是這樣，我總愛作白日夢",
+          "options": [
+            "my problem is this",
+            "the problem is this",
+            "my problem is that"
+          ],
+          "answer": "my problem is this"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "You see, 〔第 22 題〕, I'm {{blank}}",
+          "promptZh": "你看，我的問題是這樣，我總愛作白日夢",
+          "options": [
+            "drifting away",
+            "dreaming again",
+            "dreaming away"
+          ],
+          "answer": "dreaming away"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "{{blank}}, they 〔第 25 題〕",
+          "promptZh": "希望英雄真的存在",
+          "options": [
+            "Wishing that heroes",
+            "Hoping that heroes",
+            "Wishing that hero"
+          ],
+          "answer": "Wishing that heroes"
+        },
+        {
+          "number": 25,
+          "lineId": "line-18",
+          "prompt": "〔第 24 題〕, they {{blank}}",
+          "promptZh": "希望英雄真的存在",
+          "options": [
+            "really exist",
+            "truly exist",
+            "truly persist"
+          ],
+          "answer": "truly exist"
+        },
+        {
+          "number": 26,
+          "lineId": "line-19",
+          "prompt": "I {{blank}}",
+          "promptZh": "我看著這些日子哭泣",
+          "options": [
+            "cry watching the world",
+            "cry watching the time",
+            "cry watching the days"
+          ],
+          "answer": "cry watching the days"
+        },
+        {
+          "number": 27,
+          "lineId": "line-20",
+          "prompt": "{{blank}} I'm a 〔第 28 題〕?",
+          "promptZh": "你看不出我在很多方面都是個傻瓜嗎？",
+          "options": [
+            "Can't you see",
+            "Don't you see",
+            "Can't you tell"
+          ],
+          "answer": "Can't you see"
+        },
+        {
+          "number": 28,
+          "lineId": "line-20",
+          "prompt": "〔第 27 題〕 I'm a {{blank}}?",
+          "promptZh": "你看不出我在很多方面都是個傻瓜嗎？",
+          "options": [
+            "fool in so many things",
+            "fool in many ways",
+            "fool in so many ways"
+          ],
+          "answer": "fool in so many ways"
+        },
+        {
+          "number": 29,
+          "lineId": "line-21",
+          "prompt": "{{blank}} all my senses",
+          "promptZh": "但失去所有理智",
+          "options": [
+            "'Cause to lose",
+            "But to lose",
+            "Just to lose"
+          ],
+          "answer": "But to lose"
+        },
+        {
+          "number": 30,
+          "lineId": "line-22",
+          "prompt": "That is just so {{blank}}, oh, baby, oh",
+          "promptZh": "那正是典型的我，噢，寶貝，噢",
+          "options": [
+            "typical for me",
+            "typical of me",
+            "typically me"
+          ],
+          "answer": "typically me"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it {{blank}}",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "today",
+            "again",
+            "before"
+          ],
+          "answer": "again"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "I {{blank}}",
+          "promptZh": "我玩弄了你的心",
+          "options": [
+            "played with your heart",
+            "broke your heart",
+            "played with your mind"
+          ],
+          "answer": "played with your heart"
+        },
+        {
+          "number": 33,
+          "lineId": "line-25",
+          "prompt": "Got lost in the {{blank}}",
+          "promptZh": "迷失在這場遊戲中",
+          "options": [
+            "game",
+            "dark",
+            "world"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 34,
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in lust",
+            "in love",
+            "in pain"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 35,
+          "lineId": "line-28",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "the stars",
+            "afar",
+            "above"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 36,
+          "lineId": "line-29",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "innocent now",
+            "ignorant",
+            "innocent"
+          ],
+          "answer": "innocent"
+        },
+        {
+          "number": 37,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "「全體上車！」",
+          "options": [
+            "\"All aboard!\"",
+            "\"All on board!\"",
+            "\"All aboard now!\""
+          ],
+          "answer": "\"All aboard!\""
+        },
+        {
+          "number": 38,
+          "lineId": "line-33",
+          "prompt": "\"Britney, before you go, there's {{blank}}\"",
+          "promptZh": "「布蘭妮，在你離開之前，有樣 東西我想交給你」",
+          "options": [
+            "something I have for you",
+            "something I want you to have",
+            "something I want to give you"
+          ],
+          "answer": "something I want you to have"
+        },
+        {
+          "number": 39,
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's {{blank}}! But wait a minute, isn't this?\"",
+          "promptZh": "「噢，這太美了！但等一下，這不是？」",
+          "options": [
+            "lovely",
+            "wonderful",
+            "beautiful"
+          ],
+          "answer": "beautiful"
+        },
+        {
+          "number": 40,
+          "lineId": "line-35",
+          "prompt": "\"Yeah, {{blank}}\"",
+          "promptZh": "「是的，沒錯，就是它。」",
+          "options": [
+            "yes, it is now.",
+            "yes, it is.",
+            "yeah, it is."
+          ],
+          "answer": "yes, it is."
+        },
+        {
+          "number": 41,
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady {{blank}} into the ocean in the end\"",
+          "promptZh": "「但我以為那位老太太最後把 它丟進海裡了」",
+          "options": [
+            "dropped it",
+            "threw it",
+            "tossed it"
+          ],
+          "answer": "dropped it"
+        },
+        {
+          "number": 42,
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I {{blank}} and got it for ya\"",
+          "promptZh": "「嗯，寶貝，我潛下去為你撿回來了」",
+          "options": [
+            "went down",
+            "went out",
+            "went back"
+          ],
+          "answer": "went down"
+        },
+        {
+          "number": 43,
+          "lineId": "line-38",
+          "prompt": "\"Aw, you {{blank}}\"",
+          "promptZh": "「噢，你真是太破費了（你不該這麼做的）」",
+          "options": [
+            "didn't have to",
+            "shouldn't have",
+            "shouldn't have to"
+          ],
+          "answer": "shouldn't have"
+        },
+        {
+          "number": 44,
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{blank}}",
+          "promptZh": "哎呀！……我又對你的心犯了同樣的錯",
+          "options": [
+            "your mind",
+            "your soul",
+            "your heart"
+          ],
+          "answer": "your heart"
+        },
+        {
+          "number": 45,
+          "lineId": "line-40",
+          "prompt": "Got lost in this {{blank}}, oh, baby",
+          "promptZh": "迷失在這場遊戲中，噢，寶貝",
+          "options": [
+            "dark",
+            "world",
+            "game"
+          ],
+          "answer": "game"
+        },
+        {
+          "number": 46,
+          "lineId": "line-41",
+          "prompt": "Oops, you (oops, you) {{blank}} sent from above",
+          "promptZh": "哎呀，你（哎呀，你）以為我是從天而降的",
+          "options": [
+            "thought that I'm",
+            "think that I'm",
+            "think I am"
+          ],
+          "answer": "think that I'm"
+        },
+        {
+          "number": 47,
+          "lineId": "line-43",
+          "prompt": "{{blank}} again",
+          "promptZh": "哎呀！……我又犯了",
+          "options": [
+            "Oops!... I did it",
+            "Oops!... I do it",
+            "Oops!... I done it"
+          ],
+          "answer": "Oops!... I did it"
+        },
+        {
+          "number": 48,
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{blank}}",
+          "promptZh": "哎呀，你以為我戀愛了",
+          "options": [
+            "in pain",
+            "in lust",
+            "in love"
+          ],
+          "answer": "in love"
+        },
+        {
+          "number": 49,
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{blank}}",
+          "promptZh": "以為我是從天而降的",
+          "options": [
+            "afar",
+            "above",
+            "the stars"
+          ],
+          "answer": "above"
+        },
+        {
+          "number": 50,
+          "lineId": "line-49",
+          "prompt": "I'm not that {{blank}}",
+          "promptZh": "我沒有那麼單純",
+          "options": [
+            "innocent",
+            "ignorant",
+            "innocent now"
+          ],
+          "answer": "innocent"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Yeah, yeah"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:1}} I did it {{q:2}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:3}} we're {{q:4}}, oh, baby"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:5}} a {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "But it {{q:7}} that I'm {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:9}} to {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "That is just so {{q:11}}, ooh, baby, baby"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:12}} did it {{q:13}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:15}} in the {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:17}} I'm {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}} from {{q:20}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "I'm not that {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "You see, {{q:22}}, I'm {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:24}}, they {{q:25}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I {{q:26}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:27}} I'm a {{q:28}}?"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}} all my senses"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "That is just so {{q:30}}, oh, baby, oh"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Oops!... I did it {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I {{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Got lost in the {{q:33}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oops, you think I'm {{q:34}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "That I'm sent from {{q:35}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I'm not that {{q:36}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Yeah, yeah, yeah, yeah, yeah, yeah"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "\"Britney, before you go, there's {{q:38}}\""
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "\"Oh, it's {{q:39}}! But wait a minute, isn't this?\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "\"Yeah, {{q:40}}\""
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "\"But I thought the old lady {{q:41}} into the ocean in the end\""
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "\"Well, baby, I {{q:42}} and got it for ya\""
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "\"Aw, you {{q:43}}\""
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Oops!... I did it again to {{q:44}}"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Got lost in this {{q:45}}, oh, baby"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Oops, you (oops, you) {{q:46}} sent from above"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I'm not that innocent"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:47}} again"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Oops, you think I'm {{q:48}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "That I'm sent from {{q:49}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I'm not that {{q:50}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Oops!... I did it again"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "I played with your heart"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Got lost in the game"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Oh, baby, baby"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Oops, you think I'm in love"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "That I'm sent from above"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "I'm not that innocent"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/oops-i-did-it-again/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/oops-i-did-it-again/user-cover-20261029.png",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Oops! ...I Did It Again_.pdf",
+      "sha256": "dec0fb41b7c221bdbb589488120c0204d564affbc2faea87b440729a774aa96d"
+    },
+    "md": {
+      "filename": "Oops_I_Did_It_Again_Vocabulary_Quiz.md",
+      "sha256": "5622dd30268180f0e7bdd38583c4fc5925931ee409e6a6fdc6c7b893a5836e0b"
+    },
+    "mp3": {
+      "filename": "Oops!...I Did It Again [OO0aTOIU_3w].mp3",
+      "sha256": "184db18c4e9df7fc31d41f59dc14e85886458868546f06223d6f80c37f30dc55"
+    }
+  },
+  "audioAlignment": {
+    "duration": 211.0933125,
+    "audioSha256": "184db18c4e9df7fc31d41f59dc14e85886458868546f06223d6f80c37f30dc55",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.7365368682684341,
+    "timedLines": 33,
+    "untimedLines": [
+      1,
+      2,
+      3,
+      9,
+      10,
+      22,
+      23,
+      27,
+      28,
+      30,
+      31,
+      32,
+      39,
+      40,
+      41,
+      42,
+      43,
+      46,
+      47,
+      48,
+      50,
+      54,
+      55
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-de5f7169-788d-4e83-9dc1-8f95223b2c27.png",
+    "sha256": "3577a6dddba2c1d8bab3095c755982a2eed765a73c0360dfc3445cf3556790d0",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "986aac145964e5a3b51fc093c3bb47a8b2a33cc9d975813e13566441f068983f"
+    },
+    {
+      "section": "advanced",
+      "filename": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "ae233ce24a194b256aeb28447edffb376883826b3ff5cb226a3841ec3686a48a"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "think + 省略 that 的陳述子句",
+          "meaning": "我認為／我想某事是真的。",
+          "usage": "表達尚未完全確定的看法；歌詞省略 that。",
+          "prompt": "修理師看了舊鐘，認為它還能運作。他怎樣說？",
+          "options": [
+            "I think this clock can work again.",
+            "I think working this clock again.",
+            "I think can this clock work again.",
+            "I think this clock to work again."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：我認為／我想某事是真的。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：working 不能代替完整的陳述子句。",
+            "錯誤：間接陳述應用主詞在前的語序。",
+            "錯誤：think 後不能直接用受詞加 to work 表示此想法。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I think I did it again",
+          "pattern": [
+            {
+              "text": "I think (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整想法",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：我認為／我想某事是真的。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "一般過去式 + again",
+          "meaning": "過去又做了一次同樣的事。",
+          "usage": "描述已完成的重複行動。",
+          "prompt": "陶藝家昨天做過一個杯子，今天又做了一個同樣的杯子。",
+          "options": [
+            "I make the same cup again yesterday.",
+            "I made the same cup again today.",
+            "I making the same cup again today.",
+            "I made again the same cup yesterday tomorrow."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：昨天需用過去式 made，不用現在式 make。",
+            "正確：過去又做了一次同樣的事。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：主句缺少 be 動詞，且未表達完整時態。",
+            "錯誤：yesterday 與 tomorrow 互相衝突，語序也不自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "I did it again",
+          "pattern": [
+            {
+              "text": "did + 事情 + again",
+              "fixed": true
+            },
+            {
+              "text": "did、事情",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：過去又做了一次同樣的事。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "make + 人 + 原形動詞",
+          "meaning": "使某人產生某個想法或做某事。",
+          "usage": "形容某人的言語或行為引起別人的反應。",
+          "prompt": "魔術師用小把戲令觀眾相信硬幣消失了。",
+          "options": [
+            "The trick made us believing the coin was gone.",
+            "The trick made us to believe the coin was gone.",
+            "The trick made believe us the coin was gone.",
+            "The trick made us believe the coin was gone."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處應接原形 believe，而非 believing。",
+            "錯誤：主動式 make 後的補語動詞不加 to。",
+            "錯誤：make 後應先放人，再接原形動詞。",
+            "正確：使某人產生某個想法或做某事。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I made you believe",
+          "pattern": [
+            {
+              "text": "made + 人 + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "人、動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：使某人產生某個想法或做某事。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "比較：more than just + 名詞",
+          "meaning": "不只是某個身分或事物，強調超出一般程度。",
+          "usage": "想指出一個人或事物具有更多角色或價值。",
+          "prompt": "社區花園除了種菜，還是鄰居相聚的地方。",
+          "options": [
+            "The garden is more than just a place for plants.",
+            "The garden is just only a place for plants.",
+            "The garden is less than just a place for plants.",
+            "The garden is more as just a place for plants."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：不只是某個身分或事物，強調超出一般程度。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：just only 表示「僅僅」，沒有「不只是」的意思。",
+            "錯誤：less than 表示較少，與題意相反。",
+            "錯誤：比較結構應用 than，不用 as。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "more than just friends",
+          "pattern": [
+            {
+              "text": "more than just",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：不只是某個身分或事物，強調超出一般程度。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "might + 原形動詞",
+          "meaning": "可能發生或可能是真的，語氣保留。",
+          "usage": "猜測尚未確定的情況。",
+          "prompt": "天上有烏雲，但還不確定會不會下雨。",
+          "options": [
+            "It might rains this afternoon.",
+            "It might raining this afternoon.",
+            "It might to rain this afternoon.",
+            "It might rain this afternoon."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：情態動詞後用原形 rain，不加 s。",
+            "錯誤：might 後不可直接接 raining。",
+            "錯誤：might 後不用 to-infinitive。",
+            "正確：可能發生或可能是真的，語氣保留。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "It might seem like a crush",
+          "pattern": [
+            {
+              "text": "might + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：可能發生或可能是真的，語氣保留。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "seem like + 名詞",
+          "meaning": "看起來像某一種事物或情況。",
+          "usage": "根據表象作初步判斷。",
+          "prompt": "博物館導覽員指著一塊形狀像心的石頭。",
+          "options": [
+            "This stone seems like a heart.",
+            "This stone seems a heart like.",
+            "This stone seem like a heart.",
+            "This stone seems like to a heart."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：看起來像某一種事物或情況。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：seem like 順序不可顛倒。",
+            "錯誤：單數主詞 this stone 應接 seems。",
+            "錯誤：like 後面接名詞，不加 to。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "seem like a crush",
+          "pattern": [
+            {
+              "text": "seem like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：看起來像某一種事物或情況。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "doesn’t mean + that 子句",
+          "meaning": "不代表某件事情就一定是真的。",
+          "usage": "糾正別人由表象作出的推論。",
+          "prompt": "畫家笑了，但她並不表示已經同意這個計畫。",
+          "options": [
+            "Her smile not means that she agrees.",
+            "Her smile does not mean that she agrees.",
+            "Her smile does not means that she agrees.",
+            "Her smile does not mean she agreeing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：一般現在式否定需 does not mean。",
+            "正確：不代表某件事情就一定是真的。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：does not 後用原形 mean。",
+            "錯誤：agreeing 缺少助動詞，無法構成完整子句。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "it doesn't mean that I'm serious",
+          "pattern": [
+            {
+              "text": "doesn't mean (that)",
+              "fixed": true
+            },
+            {
+              "text": "完整句子",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：不代表某件事情就一定是真的。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "to + 原形動詞作名詞性片語",
+          "meaning": "把一個動作當作正在討論的事情。",
+          "usage": "抽象地談論某個行為；原句是詩意片段，不能當作完整獨立句。",
+          "prompt": "作為故事標題，哪個片語正確表示「幫助別人」？",
+          "options": [
+            "To help other people",
+            "To helped other people",
+            "To helps other people",
+            "To helping other people"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：把一個動作當作正在討論的事情。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：to 後不可接過去式 helped。",
+            "錯誤：to 後不可接第三人稱單數 helps。",
+            "錯誤：不定詞 to 後接原形，不接 helping。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "to lose all my senses",
+          "pattern": [
+            {
+              "text": "to + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：把一個動作當作正在討論的事情。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "so + 副詞 + 形容詞性描述",
+          "meaning": "強調某個行為「非常符合平日的自己」。",
+          "usage": "描述一個人習慣性的風格；歌詞 typically me 是口語／不規則搭配，不是一般形容詞句型。",
+          "prompt": "一個朋友又忘了帶帽子，大家都知道他常這樣；哪句最自然？",
+          "options": [
+            "That is too typical to him.",
+            "That is so typically of him.",
+            "That is so typical of him.",
+            "That is so typical him is."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：典型屬性通常用 typical of，不用 typical to。",
+            "錯誤：標準典型表達用 typical of，不用 typically of。",
+            "正確：強調某個行為「非常符合平日的自己」。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：句尾多餘 is，語序錯。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "just so typically me",
+          "pattern": [
+            {
+              "text": "so + 副詞",
+              "fixed": true
+            },
+            {
+              "text": "描述方式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：強調某個行為「非常符合平日的自己」。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "play with + 名詞",
+          "meaning": "與某物玩耍；對感情可表示玩弄。",
+          "usage": "描述遊戲或別人的感受；歌詞是情感上的比喻。",
+          "prompt": "小孩在草地上玩紙飛機。",
+          "options": [
+            "The child played from a paper plane.",
+            "The child played with a paper plane.",
+            "The child played at a paper plane.",
+            "The child played to a paper plane."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：from 不能表達和某物玩耍。",
+            "正確：與某物玩耍；對感情可表示玩弄。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：此義需用 play with，非 play at。",
+            "錯誤：此義需用 with，不是 to。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I played with your heart",
+          "pattern": [
+            {
+              "text": "play with",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：與某物玩耍；對感情可表示玩弄。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "get lost in + 名詞",
+          "meaning": "在某處迷路或太投入某活動而迷失。",
+          "usage": "迷路、迷失方向，或比喻沉浸其中。",
+          "prompt": "遊客在舊城的小巷中找不到出口。",
+          "options": [
+            "The visitors got lose in the old town.",
+            "The visitors got lost to the old town.",
+            "The visitors got lost on the old town.",
+            "The visitors got lost in the old town."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：get 後用過去分詞／形容詞 lost，不是 lose。",
+            "錯誤：此情境應用 in 表示在某範圍內迷路。",
+            "錯誤：on 不適合表示在城區內迷路。",
+            "正確：在某處迷路或太投入某活動而迷失。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Got lost in the game",
+          "pattern": [
+            {
+              "text": "get lost in",
+              "fixed": true
+            },
+            {
+              "text": "地點或活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在某處迷路或太投入某活動而迷失。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "be in love",
+          "meaning": "正處於愛戀的狀態。",
+          "usage": "描述對某人的愛慕；若說明對象常加 with。",
+          "prompt": "兩位同事已經交往多年，互相深愛。",
+          "options": [
+            "They in love with each other.",
+            "They are in loving with each other.",
+            "They are on love with each other.",
+            "They are in love with each other."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：句子必須有 be 動詞 are。",
+            "錯誤：in love 是狀態，不是 in loving。",
+            "錯誤：固定搭配是 in love。",
+            "正確：正處於愛戀的狀態。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I'm in love",
+          "pattern": [
+            {
+              "text": "be in love",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：正處於愛戀的狀態。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "被動式 be + 過去分詞",
+          "meaning": "表示主詞接受某項動作。",
+          "usage": "焦點放在接受動作的事物，而非做動作的人。",
+          "prompt": "美術館的新畫作是從另一個城市運來的。",
+          "options": [
+            "The painting was sent from another city.",
+            "The painting sent from another city yesterday.",
+            "The painting was send from another city.",
+            "The painting was sending from another city."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示主詞接受某項動作。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：缺少 be 動詞，不能構成一般被動式。",
+            "錯誤：被動式用過去分詞 sent，不是原形 send。",
+            "錯誤：was sending 是主動進行式，不是被送來。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'm sent from above",
+          "pattern": [
+            {
+              "text": "be + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示主詞接受某項動作。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "not that + 形容詞",
+          "meaning": "沒有別人以為的那麼……。",
+          "usage": "溫和否定某個程度，或澄清印象。",
+          "prompt": "小鎮的山坡看起來很高，走上去卻不算太難。",
+          "options": [
+            "The hill is not those hard to climb.",
+            "The hill not that hard to climb.",
+            "The hill is not that hard to climb.",
+            "The hill is not that hardly to climb."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：程度修飾用 that，不用 those。",
+            "錯誤：be 動詞 is 不可省略。",
+            "正確：沒有別人以為的那麼……。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：hardly 是副詞，不等於形容詞 hard。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I'm not that innocent",
+          "pattern": [
+            {
+              "text": "not that",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：沒有別人以為的那麼……。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "be + -ing：現在進行式",
+          "meaning": "正在發生的動作。",
+          "usage": "描述說話當下持續的行為。",
+          "prompt": "在車站，孩子正畫一張地圖。",
+          "options": [
+            "The child drawing a map now.",
+            "The child is draw a map now.",
+            "The child is drawing a map now.",
+            "The child draws a map yesterday now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：現在進行式必須有 be 動詞。",
+            "錯誤：be 後需 drawing，不接 draw。",
+            "正確：正在發生的動作。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：yesterday 與 now 互相衝突。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "I'm dreaming away",
+          "pattern": [
+            {
+              "text": "be + 動詞 -ing",
+              "fixed": true
+            },
+            {
+              "text": "活動",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：正在發生的動作。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "wish + that 陳述子句（歌詞分詞片段）",
+          "meaning": "表示心中的希望，但原詞是沒有明確主句的分詞片段。",
+          "usage": "談願望；此處「heroes, they」是重複主詞的口語特色，不建議模仿成正式語法。",
+          "prompt": "旅行者希望今天能看到彩虹。",
+          "options": [
+            "I wish that I could see a rainbow today.",
+            "I wishing that I could see a rainbow today.",
+            "I wish that could I see a rainbow today.",
+            "I wish to that see a rainbow today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示心中的希望，但原詞是沒有明確主句的分詞片段。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：缺少 be，且此處應用 I wish。",
+            "錯誤：wish 子句應用陳述語序，不倒裝。",
+            "錯誤：wish that 後應接子句，而非 to see。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "Wishing that heroes, they truly exist",
+          "pattern": [
+            {
+              "text": "wishing that",
+              "fixed": true
+            },
+            {
+              "text": "完整主詞動詞句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示心中的希望，但原詞是沒有明確主句的分詞片段。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "動詞 + -ing 分詞表同時動作",
+          "meaning": "說明主要動作發生時，另一件事也正在進行。",
+          "usage": "描述兩個同時發生的活動；歌詞帶詩意。",
+          "prompt": "小女孩一邊笑一邊看小狗玩。",
+          "options": [
+            "She smiled watching the dogs play.",
+            "She smiled watches the dogs play.",
+            "She smiled to watching the dogs play.",
+            "She smiled watch the dogs play."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：說明主要動作發生時，另一件事也正在進行。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：兩個限定動詞不能直接連寫。",
+            "錯誤：to watching 的形式不適合此處。",
+            "錯誤：這裡需要 watching 表伴隨動作。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "I cry watching the days",
+          "pattern": [
+            {
+              "text": "動詞 + V-ing",
+              "fixed": true
+            },
+            {
+              "text": "同時的動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：說明主要動作發生時，另一件事也正在進行。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "Can’t you + 原形動詞？",
+          "meaning": "帶情緒地問「難道你不能……嗎？」。",
+          "usage": "確認對方是否能注意某件明顯事情；有時可能帶責備。",
+          "prompt": "大家都在看海上的鯨魚，朋友卻沒看見。",
+          "options": [
+            "Can’t you sees the whale near the boat?",
+            "Can’t you see the whale near the boat?",
+            "Can’t you to see the whale near the boat?",
+            "Can’t you seeing the whale near the boat?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：can 後需原形 see，不加 s。",
+            "正確：帶情緒地問「難道你不能……嗎？」。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：can 後不能加 to。",
+            "錯誤：can 後不能直接用 seeing。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "Can't you see I'm a fool",
+          "pattern": [
+            {
+              "text": "Can't you + 原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：帶情緒地問「難道你不能……嗎？」。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "before + 主詞 + 動詞",
+          "meaning": "在某件事發生之前。",
+          "usage": "安排先後順序。",
+          "prompt": "登山前，導遊提醒大家帶水。",
+          "options": [
+            "Check your water before you leaving.",
+            "Check your water before leave you.",
+            "Check your water before to you leave.",
+            "Check your water before you leave."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：before 後接完整子句時需 you leave。",
+            "錯誤：不能用 leave you 代替主詞在前的子句。",
+            "錯誤：before 後不能直接接 to you leave。",
+            "正確：在某件事發生之前。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "before you go",
+          "pattern": [
+            {
+              "text": "before + 子句",
+              "fixed": true
+            },
+            {
+              "text": "事件",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在某件事發生之前。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "there is + 不定代名詞",
+          "meaning": "表示存在某件事情或物品。",
+          "usage": "介紹一件尚未確切說明的事。",
+          "prompt": "盒子裡有一張特別的卡片。",
+          "options": [
+            "There something special is in the box.",
+            "There is something special in the box.",
+            "There are something special in the box.",
+            "There is special something in the box."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：存在句正確順序是 There is something。",
+            "正確：表示存在某件事情或物品。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：something 視為單數，需 is。",
+            "錯誤：不定代名詞後接修飾形容詞 special。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "there's something",
+          "pattern": [
+            {
+              "text": "there is",
+              "fixed": true
+            },
+            {
+              "text": "某事／某物",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示存在某件事情或物品。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "want + 人 + to + 原形動詞",
+          "meaning": "希望某人做某事。",
+          "usage": "提出希望或意願。",
+          "prompt": "導覽員希望訪客仔細看這幅畫。",
+          "options": [
+            "I want to you look at this painting.",
+            "I want you to looking at this painting.",
+            "I want you look at this painting.",
+            "I want you to look at this painting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：人應放在 want 後、to 前。",
+            "錯誤：to 後用原形 look，不用 looking。",
+            "錯誤：want + 人後需加 to。",
+            "正確：希望某人做某事。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "I want you to have",
+          "pattern": [
+            {
+              "text": "want + 人 + to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：希望某人做某事。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "省略關係代名詞的修飾子句",
+          "meaning": "用後面的子句描述前面的東西。",
+          "usage": "受詞關係代名詞可省略，原文確有此結構。",
+          "prompt": "攝影師找到一張她想送給媽媽的照片。",
+          "options": [
+            "I found a photo want my mother to have.",
+            "I found a photo I want to my mother have.",
+            "I found a photo I want my mother to have.",
+            "I found a photo I want my mother have."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：後置子句缺少主詞 I。",
+            "錯誤：人和 to 的位置顛倒。",
+            "正確：用後面的子句描述前面的東西。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：want + 人 + to + 動詞，不能漏掉 to。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "something I want you to have",
+          "pattern": [
+            {
+              "text": "名詞 +（省略 that）",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 動詞子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用後面的子句描述前面的東西。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "否定疑問句 isn’t + 主詞？",
+          "meaning": "用否定問句確認自己已想到的事情。",
+          "usage": "驚訝地辨認某物；此歌詞省略問句後半，屬口語不完整句。",
+          "prompt": "博物館裡一位訪客指著照片問：「這不是你的朋友嗎？」",
+          "options": [
+            "Doesn’t this your friend in the photo?",
+            "Isn’t this is your friend in the photo?",
+            "Isn’t your friend this in the photo?",
+            "Isn’t this your friend in the photo?"
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此為 be 動詞問句，不用 doesn’t。",
+            "錯誤：isn’t 已包含 is，不再加第二個 is。",
+            "錯誤：主詞 this 應直接接在 isn’t 後。",
+            "正確：用否定問句確認自己已想到的事情。 這句在題目情境中語意自然，且結構完整。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "isn't this?",
+          "pattern": [
+            {
+              "text": "isn't + 主詞",
+              "fixed": true
+            },
+            {
+              "text": "名詞／補足內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用否定問句確認自己已想到的事情。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "thought + 過去式陳述子句",
+          "meaning": "我原先認為某件事發生了。",
+          "usage": "報告先前所相信的資訊；原句沒有明說想法現已改變。",
+          "prompt": "觀眾原以為畫作已被送往另一座城市。",
+          "options": [
+            "I thought they moving the painting yesterday.",
+            "I thought they moved the painting yesterday.",
+            "I thought they moves the painting yesterday.",
+            "I thought did they move the painting yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少完整限定動詞。",
+            "正確：我原先認為某件事發生了。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：yesterday 搭配 moved 比較合適。",
+            "錯誤：thought 後為陳述句語序，不能倒裝 did。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I thought the old lady dropped it",
+          "pattern": [
+            {
+              "text": "I thought (that)",
+              "fixed": true
+            },
+            {
+              "text": "過去式子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：我原先認為某件事發生了。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "drop + 受詞 + into + 地點",
+          "meaning": "把某物丟進或掉進某個空間。",
+          "usage": "描述物品從外面進入容器或水中。",
+          "prompt": "攝影師不小心把筆掉進箱子裡。",
+          "options": [
+            "She dropped into her pen the box.",
+            "She dropped her pen onto the box inside.",
+            "She dropped her pen into the box.",
+            "She dropped her pen through the box."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：應先放受詞 her pen，再放 into 地點。",
+            "錯誤：onto 是落在表面，不是進到裡面。",
+            "正確：把某物丟進或掉進某個空間。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：through 表示穿過，不是掉進盒子。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "dropped it into the ocean",
+          "pattern": [
+            {
+              "text": "dropped + 東西 + into",
+              "fixed": true
+            },
+            {
+              "text": "容器／空間",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：把某物丟進或掉進某個空間。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "for + 人：受益者",
+          "meaning": "為某人取得某物。",
+          "usage": "描述為別人購買、尋找、拿取東西；ya 是 you 的口語拼寫。",
+          "prompt": "朋友幫莉亞拿了一張節目表。",
+          "options": [
+            "He got for a program Lia.",
+            "He got a program to Lia for.",
+            "He got a program for Lia.",
+            "He got a program by Lia."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：for 後應直接接人，名詞受詞在前。",
+            "錯誤：這個語序不適合表示受益者。",
+            "正確：為某人取得某物。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：by 指動作方式或執行者，不表示「替某人」。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "got it for ya",
+          "pattern": [
+            {
+              "text": "got + 東西 + for",
+              "fixed": true
+            },
+            {
+              "text": "受益者",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：為某人取得某物。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "shouldn’t have + 過去分詞",
+          "meaning": "原意是「過去不應該做」，在收禮時也可作感謝的客套話。",
+          "usage": "說過去行為不妥，或收到貼心禮物時客氣回應；原歌省略已知動作。",
+          "prompt": "朋友送了一件貼心小禮物，你驚喜地回應。",
+          "options": [
+            "You shouldn’t having! Thank you so much!",
+            "You shouldn’t have! Thank you so much!",
+            "You shouldn’t had! Thank you so much!",
+            "You shouldn’t has! Thank you so much!"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：shouldn’t 後不能直接使用 having。",
+            "正確：原意是「過去不應該做」，在收禮時也可作感謝的客套話。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：shouldn’t 後不用 had。",
+            "錯誤：情態動詞後需原形 have。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "you shouldn't have",
+          "pattern": [
+            {
+              "text": "shouldn't have + 過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "過去動作",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：原意是「過去不應該做」，在收禮時也可作感謝的客套話。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "in the end：最後",
+          "meaning": "最後／結果如何。",
+          "usage": "談事情結束時發生的結果。",
+          "prompt": "雖然比賽一開始很難，球隊最後贏了。",
+          "options": [
+            "In end, our team won the game.",
+            "In the ending, our team won the game.",
+            "In the end, our team won the game.",
+            "At the end, our team won the game of finally."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：固定短語需要 the。",
+            "錯誤：表示「結果／最後」常用 in the end，不用 in the ending。",
+            "正確：最後／結果如何。 這句在題目情境中語意自然，且結構完整。",
+            "錯誤：at the end 常需說明某事的末端，這句結構不自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "in the end",
+          "pattern": [
+            {
+              "text": "in the end",
+              "fixed": true
+            },
+            {
+              "text": "最後的結果",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：最後／結果如何。 這句在題目情境中語意自然，且結構完整。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "make someone believe",
+          "meaning": "使某人相信某事",
+          "usage": "談論言語、證據或行為如何讓人形成某種信念。",
+          "prompt": "哪一句正確使用「make someone believe」？",
+          "options": [
+            "The picture made us believe into a blue bicycle.",
+            "The picture made us believe for three hours of rain.",
+            "The picture made us believe the story was real.",
+            "The picture made us believe at the train station."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：believe into 不適用此意，句意也不完整。",
+            "錯誤：believe for three hours of rain 不能表達相信的內容。",
+            "正確：照片讓我們相信故事是真的，搭配 make + 人 + believe + 子句。",
+            "錯誤：believe 後的地點片語不能自然表示「相信某件事」。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：照片讓我們相信故事是真的，搭配 make + 人 + believe + 子句。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "senses",
+          "meaning": "感官；理智（依語境）",
+          "usage": "常見 come to one’s senses 表示恢復理智；lose one’s senses 可作強烈、較不尋常的說法。",
+          "prompt": "哪一句正確使用「senses」？",
+          "options": [
+            "After the shock, he slowly came to his senses.",
+            "Her senses were a ticket she bought for the show.",
+            "The loud music senses our ears during the concert.",
+            "After sleeping, Mia could senses the cold wind clearly."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：come to his senses 指逐漸恢復清醒或理智。",
+            "錯誤：senses 不是可購買的票券。",
+            "錯誤：senses 作複數名詞，不能這樣當動詞。",
+            "錯誤：sense 作動詞應為 sense，不是 could senses。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：come to his senses 指逐漸恢復清醒或理智。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "typically",
+          "meaning": "通常地；典型地",
+          "usage": "常用 typically + 動詞，或 typically + 形容詞；表示常見特徵。",
+          "prompt": "哪一句正確使用「typically」？",
+          "options": [
+            "The photo is typically because it has two people.",
+            "We typically the lunch near the river each day.",
+            "Our teacher typically arrives early on Mondays.",
+            "The train typically at seven and leaves at eight."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：typically 不能單獨作表語形容詞；可用 typical。",
+            "錯誤：typically 是副詞，不能單獨作主要動詞。",
+            "正確：typically 修飾 arrives，表示老師通常提早到。",
+            "錯誤：typically 不能取代 arrives 等動詞。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：typically 修飾 arrives，表示老師通常提早到。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "play with someone’s heart",
+          "meaning": "玩弄某人的感情（比喻）",
+          "usage": "指不真誠地對待對方的感情；帶有負面評價。",
+          "prompt": "哪一句正確使用「play with someone’s heart」？",
+          "options": [
+            "He played with her heart to check her blood pressure.",
+            "He played with her heart by making promises he never kept.",
+            "He played with her heart by showing her a card trick.",
+            "He played with her heart because she had a red coat."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：檢查血壓不叫 play with someone’s heart。",
+            "正確：不斷給出不打算履行的承諾，符合玩弄感情的意思。",
+            "錯誤：紙牌魔術不代表玩弄感情，較自然為 played a card trick。",
+            "錯誤：紅色外套與玩弄感情沒有關聯。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：不斷給出不打算履行的承諾，符合玩弄感情的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "sent from above",
+          "meaning": "彷彿上天送來的；來自天上的（文學語氣）",
+          "usage": "常用於讚美某人或某件事像天賜的禮物；不是普通寄件說法。",
+          "prompt": "哪一句正確使用「sent from above」？",
+          "options": [
+            "The bus ticket was sent from above the station roof.",
+            "The office email was sent from above the desk yesterday.",
+            "The parcel was sent from above the blue mailbox today.",
+            "Her kind help felt like a gift sent from above."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：車票的寄件來源不會用這個比喻。",
+            "錯誤：一般郵件來源應說 sent from the office，而非 above the desk。",
+            "錯誤：包裹的寄送地點不能如此描述。",
+            "正確：把幫助比作上天賜予的禮物，符合詩意用法。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：把幫助比作上天賜予的禮物，符合詩意用法。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "dreaming away",
+          "meaning": "沉浸在幻想中（詩意、非固定常用片語）",
+          "usage": "歌詞中描述沉浸於幻想；日常較常說 daydream 或 dream the day away。",
+          "prompt": "哪一句正確使用「dreaming away」？",
+          "options": [
+            "She sat by the window, dreaming away the afternoon.",
+            "She is dreaming away her bike to the library tomorrow.",
+            "He was dreaming away his dinner into the cold oven.",
+            "They were dreaming away to open the classroom door."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：dream away the afternoon 表示把午後時光消磨在幻想中。",
+            "錯誤：dream away 不能用來表示騎車去圖書館。",
+            "錯誤：dream away 不表示把餐點放入烤箱。",
+            "錯誤：此處不能接 to open 表示開門的動作。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：dream away the afternoon 表示把午後時光消磨在幻想中。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "truly",
+          "meaning": "真正地；確實地",
+          "usage": "用來加強真誠或程度；常修飾形容詞或動詞。",
+          "prompt": "哪一句正確使用「truly」？",
+          "options": [
+            "The driver truly his car beside the shopping mall.",
+            "I truly appreciate the time you spent helping me.",
+            "The music truly to the park on Sunday afternoon.",
+            "The students were truly the classroom after lunch."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：truly 不能取代 parked 等動詞。",
+            "正確：truly appreciate 表示真心感激。",
+            "錯誤：truly 不是表示移動的動詞。",
+            "錯誤：truly 不能代替 in 等介系詞。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：truly appreciate 表示真心感激。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "exist",
+          "meaning": "存在",
+          "usage": "描述某個人、事物或現象確實存在，為不及物動詞。",
+          "prompt": "哪一句正確使用「exist」？",
+          "options": [
+            "Some rare birds still exist on this small island.",
+            "Many old stories exist a book in our library.",
+            "The scientist exists a new planet every summer.",
+            "Animals exist the large cage near the museum."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：稀有鳥類仍在小島上存在，符合 exist 的用法。",
+            "錯誤：描述故事收錄在書中，可說 appear in a book。",
+            "錯誤：發現行星用 discovers，不用 exists。",
+            "錯誤：exist 不能直接接 cage 當受詞；可說 live in。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：稀有鳥類仍在小島上存在，符合 exist 的用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "fool",
+          "meaning": "傻瓜；做出愚蠢事情的人",
+          "usage": "可自嘲，也可責備他人；對人直接使用可能不禮貌。",
+          "prompt": "哪一句正確使用「fool」？",
+          "options": [
+            "The coach fooled the door to arrive before nine.",
+            "I bought a fool of milk to make the pancakes.",
+            "My brother is fool because his backpack is heavy.",
+            "I felt like a fool after forgetting my own phone number."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：fooled the door 在這種語境毫無合理意思。",
+            "錯誤：fool 不是牛奶的計量單位。",
+            "錯誤：單數可數名詞 fool 前須有 a，且背包重並不代表愚笨。",
+            "正確：忘記自己的電話號碼後自嘲像傻瓜，語意自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：忘記自己的電話號碼後自嘲像傻瓜，語意自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "all aboard",
+          "meaning": "請全體上車／登船！",
+          "usage": "車長或工作人員通知乘客準備搭乘的呼喊。",
+          "prompt": "哪一句正確使用「all aboard」？",
+          "options": [
+            "All aboard! The soup is ready in the kitchen.",
+            "All aboard! The movie is funny and very short.",
+            "All aboard! The train is leaving in two minutes.",
+            "All aboard! Please put your homework on the desk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：用餐通知不是乘車或登船的呼喊。",
+            "錯誤：電影有趣與否不適合用這句提醒。",
+            "正確：火車即將發車，呼喊 All aboard! 很自然。",
+            "錯誤：收作業不需要通知乘客上車。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：火車即將發車，呼喊 All aboard! 很自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "drop something into",
+          "meaning": "將某物掉入／丟進某處",
+          "usage": "drop + 物品 + into + 地點；可指不小心掉落或刻意投入。",
+          "prompt": "哪一句正確使用「drop something into」？",
+          "options": [
+            "They dropped the river into a phone during the trip.",
+            "He dropped his phone into the river by mistake.",
+            "She dropped into her keys the bag before the trip.",
+            "I dropped into the bus my ticket as I walked home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：物品與地點位置顛倒，並且語意不通。",
+            "正確：手機不小心掉進河裡，搭配自然。",
+            "錯誤：語序應是 dropped her keys into the bag。",
+            "錯誤：drop something into 的物品通常放在 drop 後面。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：手機不小心掉進河裡，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "in so many ways",
+          "meaning": "在許多方面；以許多方式",
+          "usage": "描述某個想法、感受或事物體現在多個不同方面。",
+          "prompt": "哪一句正確使用「in so many ways」？",
+          "options": [
+            "The blue bag is in so many ways under the desk.",
+            "The cake weighs in so many ways before we eat it.",
+            "We drove in so many ways at exactly six o’clock.",
+            "Our new school is better in so many ways."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處只說書包位置，不是多個方面。",
+            "錯誤：weigh 是測量重量，不以 in so many ways 代替重量。",
+            "錯誤：要描述多條路線可說 by many different routes。",
+            "正確：學校在許多方面更好，搭配自然。"
+          ],
+          "sourceFile": "Oops_I_Did_It_Again_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：學校在許多方面更好，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
+  }
+}

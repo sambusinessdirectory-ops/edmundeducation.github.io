@@ -1,0 +1,5206 @@
+{
+  "slug": "shake-it-off-taylor-swift",
+  "title": "Shake It Off",
+  "singer": "Taylor Swift",
+  "exercise_name": "Shake It Off · Listening & Vocabulary",
+  "description": "《Shake It Off》描寫面對批評、流言與負面評價時，如何保持自信與樂觀的態度。歌中的主角經常被別人嘲笑、議論私生活，甚至被誤解，但她沒有讓這些聲音影響自己的心情。相反，她選擇繼續跳舞、享受生活，用輕鬆幽默的方式將煩惱拋諸腦後。歌曲中的「Shake It Off」象徵擺脫負面情緒，不讓別人的眼光限制自己。她明白無論做甚麼，總有人會批評，因此沒有必要討好所有人。最終，《Shake It Off》傳達的是自信、自由與積極的人生態度：與其在意別人的閒言閒語，不如勇敢做自己，以快樂和樂觀面對生活中的挑戰。",
+  "tags": [
+    "taylor swift",
+    "shake it off",
+    "confidence",
+    "positivity"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I stay out too late",
+      "chinese": "我總是在外逗留到太晚",
+      "startSeconds": 4.76,
+      "endSeconds": 6.78
+    },
+    {
+      "lineId": "line-2",
+      "english": "Got nothing in my brain",
+      "chinese": "腦子裡空空如也",
+      "startSeconds": 6.78,
+      "endSeconds": 9.8
+    },
+    {
+      "lineId": "line-3",
+      "english": "That's what people say, mmm-mmm",
+      "chinese": "人們就是這麼說，嗯哼",
+      "startSeconds": 9.8,
+      "endSeconds": 13.94
+    },
+    {
+      "lineId": "line-4",
+      "english": "That's what people say, mmm-mmm",
+      "chinese": "人們就是這麼說，嗯哼",
+      "startSeconds": 13.94,
+      "endSeconds": 16.82
+    },
+    {
+      "lineId": "line-5",
+      "english": "I go on too many dates",
+      "chinese": "我約會次數太多",
+      "startSeconds": 16.82,
+      "endSeconds": 18.78
+    },
+    {
+      "lineId": "line-6",
+      "english": "But I can't make them stay",
+      "chinese": "卻無法讓他們留下",
+      "startSeconds": 19.58,
+      "endSeconds": 21.52
+    },
+    {
+      "lineId": "line-7",
+      "english": "At least that's what people say, mmm-mmm",
+      "chinese": "至少人們是這麼說，嗯哼",
+      "startSeconds": 22,
+      "endSeconds": 25.9
+    },
+    {
+      "lineId": "line-8",
+      "english": "That's what people say, mmm-mmm",
+      "chinese": "人們就是這麼說，嗯哼",
+      "startSeconds": 25.94,
+      "endSeconds": 28.42
+    },
+    {
+      "lineId": "line-9",
+      "english": "But I keep cruising",
+      "chinese": "但我繼續愜意前行",
+      "startSeconds": 28.8,
+      "endSeconds": 31.6
+    },
+    {
+      "lineId": "line-10",
+      "english": "Can't stop, won't stop moving",
+      "chinese": "停不下來，絕不停下腳步",
+      "startSeconds": 31.6,
+      "endSeconds": 34.12
+    },
+    {
+      "lineId": "line-11",
+      "english": "It's like I got this music",
+      "chinese": "就像我腦中有這段旋律",
+      "startSeconds": 34.14,
+      "endSeconds": 36.66
+    },
+    {
+      "lineId": "line-12",
+      "english": "In my mind",
+      "chinese": "在我的腦海裡",
+      "startSeconds": 36.66,
+      "endSeconds": 38.64
+    },
+    {
+      "lineId": "line-13",
+      "english": "Saying, \"It's gonna be alright.\"",
+      "chinese": "說著：「一切都會好起來的。」",
+      "startSeconds": 38.64,
+      "endSeconds": 40.82
+    },
+    {
+      "lineId": "line-14",
+      "english": "'Cause the players gonna play, play, play, play, play",
+      "chinese": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+      "startSeconds": 40.82,
+      "endSeconds": 44.56
+    },
+    {
+      "lineId": "line-15",
+      "english": "And the haters gonna hate, hate, hate, hate, hate",
+      "chinese": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+      "startSeconds": 44.56,
+      "endSeconds": 47.74
+    },
+    {
+      "lineId": "line-16",
+      "english": "Baby, I'm just gonna shake, shake, shake, shake, shake",
+      "chinese": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+      "startSeconds": 47.94,
+      "endSeconds": 50.42
+    },
+    {
+      "lineId": "line-17",
+      "english": "I shake it off, I shake it off",
+      "chinese": "我會甩掉它，我會甩掉它",
+      "startSeconds": 50.9,
+      "endSeconds": 52.92
+    },
+    {
+      "lineId": "line-18",
+      "english": "Heart-breakers gonna break, break, break, break, break",
+      "chinese": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
+      "startSeconds": 53.7,
+      "endSeconds": 56.5
+    },
+    {
+      "lineId": "line-19",
+      "english": "And the fakers gonna fake, fake, fake, fake, fake",
+      "chinese": "而偽君子會繼續偽裝，假、假、假、假、假",
+      "startSeconds": 56.5,
+      "endSeconds": 59.84
+    },
+    {
+      "lineId": "line-20",
+      "english": "Baby, I'm just gonna shake, shake, shake, shake, shake",
+      "chinese": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+      "startSeconds": 60.0,
+      "endSeconds": 62.76
+    },
+    {
+      "lineId": "line-21",
+      "english": "I shake it off, I shake it off",
+      "chinese": "我會甩掉它，我會甩掉它",
+      "startSeconds": 62.76,
+      "endSeconds": 64.88
+    },
+    {
+      "lineId": "line-22",
+      "english": "I never miss a beat",
+      "chinese": "我從不亂了節拍",
+      "startSeconds": 64.88,
+      "endSeconds": 66.52
+    },
+    {
+      "lineId": "line-23",
+      "english": "I'm lightning on my feet",
+      "chinese": "我的腳步快如閃電",
+      "startSeconds": 67.88,
+      "endSeconds": 69.64
+    },
+    {
+      "lineId": "line-24",
+      "english": "And that's what they don't see, mmm-mmm",
+      "chinese": "而這是他們看不見的，嗯哼",
+      "startSeconds": 70.82,
+      "endSeconds": 72.46
+    },
+    {
+      "lineId": "line-25",
+      "english": "That's what they don't see, mmm-mmm",
+      "chinese": "這是他們看不見的，嗯哼",
+      "startSeconds": 74.06,
+      "endSeconds": 75.84
+    },
+    {
+      "lineId": "line-26",
+      "english": "I'm dancing on my own (dancing on my own)",
+      "chinese": "我獨自起舞（獨自起舞）",
+      "startSeconds": 76.92,
+      "endSeconds": 79.74
+    },
+    {
+      "lineId": "line-27",
+      "english": "I make the moves up as I go (moves up as I go)",
+      "chinese": "我一邊跳一邊自編舞步（自編舞步）",
+      "startSeconds": 79.74,
+      "endSeconds": 81.58
+    },
+    {
+      "lineId": "line-28",
+      "english": "And that's what they don't know, mmm-mmm",
+      "chinese": "而這是他們不知道的，嗯哼",
+      "startSeconds": 82.62,
+      "endSeconds": 84.5
+    },
+    {
+      "lineId": "line-29",
+      "english": "That's what they don't know, mmm-mmm",
+      "chinese": "這是他們不知道的，嗯哼",
+      "startSeconds": 85.9,
+      "endSeconds": 87.48
+    },
+    {
+      "lineId": "line-30",
+      "english": "But I keep cruising",
+      "chinese": "但我繼續愜意前行",
+      "startSeconds": 87.48,
+      "endSeconds": 90.9
+    },
+    {
+      "lineId": "line-31",
+      "english": "Can't stop, won't stop grooving",
+      "chinese": "停不下來，絕不停下舞動",
+      "startSeconds": 91.64,
+      "endSeconds": 94.16
+    },
+    {
+      "lineId": "line-32",
+      "english": "It's like I got this music",
+      "chinese": "就像我腦中有這段旋律",
+      "startSeconds": 94.34,
+      "endSeconds": 97.0
+    },
+    {
+      "lineId": "line-33",
+      "english": "In my mind",
+      "chinese": "在我的腦海裡",
+      "startSeconds": 97.78,
+      "endSeconds": 98.54
+    },
+    {
+      "lineId": "line-34",
+      "english": "Saying, \"It's gonna be alright.\"",
+      "chinese": "說著：「一切都會好起來的。」",
+      "startSeconds": 98.54,
+      "endSeconds": 100.82
+    },
+    {
+      "lineId": "line-35",
+      "english": "'Cause the players gonna play, play, play, play, play",
+      "chinese": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+      "startSeconds": 100.82,
+      "endSeconds": 104.56
+    },
+    {
+      "lineId": "line-36",
+      "english": "And the haters gonna hate, hate, hate, hate, hate",
+      "chinese": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+      "startSeconds": 104.56,
+      "endSeconds": 107.74
+    },
+    {
+      "lineId": "line-37",
+      "english": "Baby, I'm just gonna shake, shake, shake, shake, shake",
+      "chinese": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+      "startSeconds": 107.94,
+      "endSeconds": 110.42
+    },
+    {
+      "lineId": "line-38",
+      "english": "I shake it off, I shake it off",
+      "chinese": "我會甩掉它，我會甩掉它",
+      "startSeconds": 110.9,
+      "endSeconds": 112.92
+    },
+    {
+      "lineId": "line-39",
+      "english": "Heart-breakers gonna break, break, break, break, break",
+      "chinese": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
+      "startSeconds": 113.7,
+      "endSeconds": 116.5
+    },
+    {
+      "lineId": "line-40",
+      "english": "And the fakers gonna fake, fake, fake, fake, fake",
+      "chinese": "而偽君子會繼續偽裝，假、假、假、假、假",
+      "startSeconds": 116.5,
+      "endSeconds": 119.84
+    },
+    {
+      "lineId": "line-41",
+      "english": "Baby, I'm just gonna shake, shake, shake, shake, shake",
+      "chinese": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+      "startSeconds": 120.0,
+      "endSeconds": 122.76
+    },
+    {
+      "lineId": "line-42",
+      "english": "I shake it off, I shake it off",
+      "chinese": "我會甩掉它，我會甩掉它",
+      "startSeconds": 122.76,
+      "endSeconds": 124.88
+    },
+    {
+      "lineId": "line-43",
+      "english": "Shake it off, I shake it off,",
+      "chinese": "甩掉它，我會甩掉它，",
+      "startSeconds": 124.92,
+      "endSeconds": 127.87
+    },
+    {
+      "lineId": "line-44",
+      "english": "I, I, I shake it off, I shake it off,",
+      "chinese": "我、我、我甩掉它，我會甩掉它，",
+      "startSeconds": 127.92,
+      "endSeconds": 130.87
+    },
+    {
+      "lineId": "line-45",
+      "english": "I, I, I shake it off, I shake it off,",
+      "chinese": "我、我、我甩掉它，我會甩掉它，",
+      "startSeconds": 130.92,
+      "endSeconds": 133.87
+    },
+    {
+      "lineId": "line-46",
+      "english": "I, I, I shake it off, I shake it off",
+      "chinese": "我、我、我甩掉它，我會甩掉它",
+      "startSeconds": 133.92,
+      "endSeconds": 136.87
+    },
+    {
+      "lineId": "line-47",
+      "english": "Hey, hey, hey",
+      "chinese": "嘿，嘿，嘿",
+      "startSeconds": 137,
+      "endSeconds": 139.7
+    },
+    {
+      "lineId": "line-48",
+      "english": "Just think while you've been getting down and out about the liars and the dirty, dirty cheats of the world,",
+      "chinese": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+      "startSeconds": 139.8,
+      "endSeconds": 145.14
+    },
+    {
+      "lineId": "line-49",
+      "english": "You could've been getting down to this sick beat.",
+      "chinese": "你本可以跟著這超讚的節奏盡情搖擺。",
+      "startSeconds": 145.14,
+      "endSeconds": 148.88
+    },
+    {
+      "lineId": "line-50",
+      "english": "My ex-man brought his new girlfriend",
+      "chinese": "我的前任帶來了他的新女友",
+      "startSeconds": 149.66,
+      "endSeconds": 152.44
+    },
+    {
+      "lineId": "line-51",
+      "english": "She's like \"Oh, my God!\" but I'm just gonna shake.",
+      "chinese": "她一副「我的天哪！」的樣子，但我只會搖 擺。",
+      "startSeconds": 152.46,
+      "endSeconds": 155.48
+    },
+    {
+      "lineId": "line-52",
+      "english": "And to the fella over there with the hella good hair",
+      "chinese": "還有那邊那個頭髮超讚的傢伙",
+      "startSeconds": 155.48,
+      "endSeconds": 158.6
+    },
+    {
+      "lineId": "line-53",
+      "english": "Won't you come on over, baby? We can shake, shake, shake",
+      "chinese": "寶貝，你不過來嗎？我們可以一 起搖擺，搖、搖、搖",
+      "startSeconds": 158.6,
+      "endSeconds": 162.28
+    },
+    {
+      "lineId": "line-54",
+      "english": "Yeah ohhh",
+      "chinese": "耶，噢——",
+      "startSeconds": 163.22,
+      "endSeconds": 163.84
+    },
+    {
+      "lineId": "line-55",
+      "english": "'Cause the players gonna play, play, play, play, play",
+      "chinese": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+      "startSeconds": 164.82,
+      "endSeconds": 168.56
+    },
+    {
+      "lineId": "line-56",
+      "english": "And the haters gonna hate, hate, hate, hate, hate (haters gonna hate)",
+      "chinese": "而酸民們會繼續討厭， 恨、恨、恨、恨、恨（酸民會繼續恨）",
+      "startSeconds": 168.56,
+      "endSeconds": 171.74
+    },
+    {
+      "lineId": "line-57",
+      "english": "I'm just gonna shake, shake, shake, shake, shake",
+      "chinese": "我只會繼續搖擺，搖、搖、搖、搖、搖",
+      "startSeconds": 171.94,
+      "endSeconds": 174.42
+    },
+    {
+      "lineId": "line-58",
+      "english": "I shake it off, I shake it off",
+      "chinese": "我會甩掉它，我會甩掉它",
+      "startSeconds": 174.9,
+      "endSeconds": 176.92
+    },
+    {
+      "lineId": "line-59",
+      "english": "Heart-breakers gonna break, break, break, break, break (mmmm)",
+      "chinese": "碎心者會繼續傷人，碎、 碎、碎、碎、碎（嗯嗯）",
+      "startSeconds": 177.7,
+      "endSeconds": 180.5
+    },
+    {
+      "lineId": "line-60",
+      "english": "And the fakers gonna fake, fake, fake, fake, fake (and fake, and fake, and fake)",
+      "chinese": "而偽君子會繼 續偽裝，假、假、假、假、假（一直假，一直假，一直假）",
+      "startSeconds": 180.5,
+      "endSeconds": 183.84
+    },
+    {
+      "lineId": "line-61",
+      "english": "Baby, I'm just gonna shake, shake, shake, shake, shake",
+      "chinese": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+      "startSeconds": 184.0,
+      "endSeconds": 186.76
+    },
+    {
+      "lineId": "line-62",
+      "english": "I shake it off, I shake it off",
+      "chinese": "我會甩掉它，我會甩掉它",
+      "startSeconds": 186.76,
+      "endSeconds": 188.88
+    },
+    {
+      "lineId": "line-63",
+      "english": "Shake it off, I shake it off,",
+      "chinese": "甩掉它，我會甩掉它，",
+      "startSeconds": 188.94,
+      "endSeconds": 191.89
+    },
+    {
+      "lineId": "line-64",
+      "english": "I, I, I shake it off, I shake it off,",
+      "chinese": "我、我、我甩掉它，我會甩掉它，",
+      "startSeconds": 191.94,
+      "endSeconds": 194.89
+    },
+    {
+      "lineId": "line-65",
+      "english": "I, I, I shake it off, I shake it off",
+      "chinese": "我、我、我甩掉它，我會甩掉它",
+      "startSeconds": 194.94,
+      "endSeconds": 197.89
+    },
+    {
+      "lineId": "line-66",
+      "english": "I, I, I shake it off, I shake it off",
+      "chinese": "我、我、我甩掉它，我會甩掉它",
+      "startSeconds": 197.94,
+      "endSeconds": 200.89
+    },
+    {
+      "lineId": "line-67",
+      "english": "Shake it off, I shake it off,",
+      "chinese": "甩掉它，我會甩掉它，",
+      "startSeconds": 200.94,
+      "endSeconds": 203.89
+    },
+    {
+      "lineId": "line-68",
+      "english": "I, I, I shake it off, I shake it off,",
+      "chinese": "我、我、我甩掉它，我會甩掉它，",
+      "startSeconds": 203.94,
+      "endSeconds": 206.89
+    },
+    {
+      "lineId": "line-69",
+      "english": "I, I, I shake it off, I shake it off,",
+      "chinese": "我、我、我甩掉它，我會甩掉它，",
+      "startSeconds": 206.94,
+      "endSeconds": 209.89
+    },
+    {
+      "lineId": "line-70",
+      "english": "I, I, I shake it off, I shake it off",
+      "chinese": "我、我、我甩掉它，我會甩掉它",
+      "startSeconds": 209.94,
+      "endSeconds": 212.89
+    },
+    {
+      "lineId": "line-71",
+      "english": "Shake it off, I shake it off,",
+      "chinese": "甩掉它，我會甩掉它，",
+      "startSeconds": 212.94,
+      "endSeconds": 215.89
+    },
+    {
+      "lineId": "line-72",
+      "english": "I, I, I shake it off, I shake it off (you've got to),",
+      "chinese": "我、我、我甩掉它，我會甩掉它（你必須這麼做），",
+      "startSeconds": 215.94,
+      "endSeconds": 218.89
+    },
+    {
+      "lineId": "line-73",
+      "english": "I, I, I shake it off, I shake it off,",
+      "chinese": "我、我、我甩掉它，我會甩掉它，",
+      "startSeconds": 218.94,
+      "endSeconds": 221.89
+    },
+    {
+      "lineId": "line-74",
+      "english": "I, I, I shake it off, I shake it off",
+      "chinese": "我、我、我甩掉它，我會甩掉它",
+      "startSeconds": 221.94,
+      "endSeconds": 224.89
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I {{blank}} out too 〔第 2 題〕",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "stay",
+            "go",
+            "wait"
+          ],
+          "answer": "stay"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I 〔第 1 題〕 out too {{blank}}",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "long",
+            "late",
+            "far"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Got {{blank}} in my brain",
+          "promptZh": "腦子裡空空如也",
+          "options": [
+            "something",
+            "anything",
+            "nothing"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 4,
+          "lineId": "line-5",
+          "prompt": "I {{blank}} on too many 〔第 5 題〕",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "dance",
+            "go",
+            "move"
+          ],
+          "answer": "go"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I 〔第 4 題〕 on too many {{blank}}",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "dates",
+            "nights",
+            "trips"
+          ],
+          "answer": "dates"
+        },
+        {
+          "number": 6,
+          "lineId": "line-9",
+          "prompt": "But I keep {{blank}}",
+          "promptZh": "但我繼續愜意前行",
+          "options": [
+            "cruising",
+            "moving",
+            "driving"
+          ],
+          "answer": "cruising"
+        },
+        {
+          "number": 7,
+          "lineId": "line-10",
+          "prompt": "Can't stop, won't stop {{blank}}",
+          "promptZh": "停不下來，絕不停下腳步",
+          "options": [
+            "grooving",
+            "moving",
+            "shaking"
+          ],
+          "answer": "moving"
+        },
+        {
+          "number": 8,
+          "lineId": "line-11",
+          "prompt": "It's like I got this {{blank}}",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "rhythm",
+            "feeling",
+            "music"
+          ],
+          "answer": "music"
+        },
+        {
+          "number": 9,
+          "lineId": "line-12",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我的腦海裡",
+          "options": [
+            "head",
+            "mind",
+            "heart"
+          ],
+          "answer": "mind"
+        },
+        {
+          "number": 10,
+          "lineId": "line-13",
+          "prompt": "Saying, \"It's gonna be {{blank}}.\"",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "alright",
+            "fine",
+            "okay"
+          ],
+          "answer": "alright"
+        },
+        {
+          "number": 11,
+          "lineId": "line-14",
+          "prompt": "'Cause the players gonna {{blank}}, play, play, play, play",
+          "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+          "options": [
+            "win",
+            "stay",
+            "play"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 12,
+          "lineId": "line-15",
+          "prompt": "And the haters gonna {{blank}}, hate, hate, hate, hate",
+          "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+          "options": [
+            "wait",
+            "break",
+            "hate"
+          ],
+          "answer": "hate"
+        },
+        {
+          "number": 13,
+          "lineId": "line-16",
+          "prompt": "Baby, I'm just gonna {{blank}}, shake, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "shake",
+            "fake",
+            "break"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "I {{blank}}, I shake it off",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "shake it out",
+            "shake it off",
+            "throw it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 15,
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{blank}}, break, break, break, break",
+          "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
+          "options": [
+            "break",
+            "fake",
+            "hate"
+          ],
+          "answer": "break"
+        },
+        {
+          "number": 16,
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{blank}}, fake, fake, fake, fake",
+          "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
+          "options": [
+            "shake",
+            "fake",
+            "break"
+          ],
+          "answer": "fake"
+        },
+        {
+          "number": 17,
+          "lineId": "line-22",
+          "prompt": "I never miss a {{blank}}",
+          "promptZh": "我從不亂了節拍",
+          "options": [
+            "step",
+            "chance",
+            "beat"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 18,
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{blank}}",
+          "promptZh": "我的腳步快如閃電",
+          "options": [
+            "toes",
+            "feet",
+            "heels"
+          ],
+          "answer": "feet"
+        },
+        {
+          "number": 19,
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們看不見的，嗯哼",
+          "options": [
+            "know",
+            "hear",
+            "see"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 20,
+          "lineId": "line-48",
+          "prompt": "Just think while you've been getting {{blank}} and out about the liars and the dirty, dirty cheats of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "down",
+            "out",
+            "up"
+          ],
+          "answer": "down"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}} out too {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Got {{q:3}} in my brain"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I {{q:4}} on too many {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But I can't make them stay"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "At least that's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But I keep {{q:6}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Can't stop, won't stop {{q:7}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "It's like I got this {{q:8}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "In my {{q:9}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Saying, \"It's gonna be {{q:10}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "'Cause the players gonna {{q:11}}, play, play, play, play"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the haters gonna {{q:12}}, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, I'm just gonna {{q:13}}, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:14}}, I shake it off"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{q:15}}, break, break, break, break"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{q:16}}, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I never miss a {{q:17}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{q:18}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{q:19}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's what they don't see, mmm-mmm"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my own (dancing on my own)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I make the moves up as I go (moves up as I go)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And that's what they don't know, mmm-mmm"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "That's what they don't know, mmm-mmm"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "But I keep cruising"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop grooving"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It's like I got this music"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In my mind"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Saying, \"It's gonna be alright.\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Heart-breakers gonna break, break, break, break, break"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Hey, hey, hey"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Just think while you've been getting {{q:20}} and out about the liars and the dirty, dirty cheats of the world,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick beat."
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new girlfriend"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "She's like \"Oh, my God!\" but I'm just gonna shake."
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And to the fella over there with the hella good hair"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Won't you come on over, baby? We can shake, shake, shake"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Yeah ohhh"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate (haters gonna hate)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heart-breakers gonna break, break, break, break, break (mmmm)"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake (and fake, and fake, and fake)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "I, I, I shake it off, I shake it off (you've got to),"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "I, I, I shake it off, I shake it off"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I {{blank}} out too 〔第 2 題〕",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "wait",
+            "stay",
+            "go"
+          ],
+          "answer": "stay"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I 〔第 1 題〕 out too {{blank}}",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "late",
+            "long",
+            "far"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Got {{blank}} in my brain",
+          "promptZh": "腦子裡空空如也",
+          "options": [
+            "nothing",
+            "something",
+            "anything"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "That's what people {{blank}}, mmm-mmm",
+          "promptZh": "人們就是這麼說，嗯哼",
+          "options": [
+            "think",
+            "say",
+            "know"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I {{blank}} on too many 〔第 6 題〕",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "move",
+            "dance",
+            "go"
+          ],
+          "answer": "go"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "I 〔第 5 題〕 on too many {{blank}}",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "trips",
+            "dates",
+            "nights"
+          ],
+          "answer": "dates"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "But I keep {{blank}}",
+          "promptZh": "但我繼續愜意前行",
+          "options": [
+            "cruising",
+            "moving",
+            "driving"
+          ],
+          "answer": "cruising"
+        },
+        {
+          "number": 8,
+          "lineId": "line-10",
+          "prompt": "Can't stop, won't stop {{blank}}",
+          "promptZh": "停不下來，絕不停下腳步",
+          "options": [
+            "grooving",
+            "shaking",
+            "moving"
+          ],
+          "answer": "moving"
+        },
+        {
+          "number": 9,
+          "lineId": "line-11",
+          "prompt": "It's like I got this {{blank}}",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "rhythm",
+            "music",
+            "feeling"
+          ],
+          "answer": "music"
+        },
+        {
+          "number": 10,
+          "lineId": "line-12",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我的腦海裡",
+          "options": [
+            "head",
+            "heart",
+            "mind"
+          ],
+          "answer": "mind"
+        },
+        {
+          "number": 11,
+          "lineId": "line-13",
+          "prompt": "Saying, \"It's gonna be {{blank}}.\"",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "alright",
+            "fine",
+            "okay"
+          ],
+          "answer": "alright"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "'Cause the players gonna {{blank}}, play, play, play, play",
+          "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+          "options": [
+            "win",
+            "play",
+            "stay"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "And the haters gonna {{blank}}, hate, hate, hate, hate",
+          "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+          "options": [
+            "wait",
+            "break",
+            "hate"
+          ],
+          "answer": "hate"
+        },
+        {
+          "number": 14,
+          "lineId": "line-16",
+          "prompt": "Baby, I'm just gonna {{blank}}, 〔第 15 題〕, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "shake",
+            "fake",
+            "break"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "Baby, I'm just gonna 〔第 14 題〕, {{blank}}, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "dance",
+            "shake",
+            "move"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "I {{blank}}, I shake it off",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "shake it off",
+            "shake it out",
+            "throw it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{blank}}, break, break, break, break",
+          "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
+          "options": [
+            "fake",
+            "hate",
+            "break"
+          ],
+          "answer": "break"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{blank}}, fake, fake, fake, fake",
+          "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
+          "options": [
+            "fake",
+            "break",
+            "shake"
+          ],
+          "answer": "fake"
+        },
+        {
+          "number": 19,
+          "lineId": "line-22",
+          "prompt": "I never miss a {{blank}}",
+          "promptZh": "我從不亂了節拍",
+          "options": [
+            "step",
+            "beat",
+            "chance"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 20,
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{blank}}",
+          "promptZh": "我的腳步快如閃電",
+          "options": [
+            "toes",
+            "heels",
+            "feet"
+          ],
+          "answer": "feet"
+        },
+        {
+          "number": 21,
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們看不見的，嗯哼",
+          "options": [
+            "know",
+            "see",
+            "hear"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 22,
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my {{blank}} (dancing on my own)",
+          "promptZh": "我獨自起舞（獨自起舞）",
+          "options": [
+            "own",
+            "side",
+            "way"
+          ],
+          "answer": "own"
+        },
+        {
+          "number": 23,
+          "lineId": "line-27",
+          "prompt": "I make the {{blank}} up as I go (moves up as I go)",
+          "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
+          "options": [
+            "steps",
+            "rules",
+            "moves"
+          ],
+          "answer": "moves"
+        },
+        {
+          "number": 24,
+          "lineId": "line-28",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們不知道的，嗯哼",
+          "options": [
+            "care",
+            "see",
+            "know"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 25,
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop {{blank}}",
+          "promptZh": "停不下來，絕不停下舞動",
+          "options": [
+            "moving",
+            "grooving",
+            "dancing"
+          ],
+          "answer": "grooving"
+        },
+        {
+          "number": 26,
+          "lineId": "line-48",
+          "prompt": "Just {{blank}} while you've been getting 〔第 27 題〕 and out about the liars and the dirty, dirty 〔第 28 題〕 of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "think",
+            "know",
+            "say"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 27,
+          "lineId": "line-48",
+          "prompt": "Just 〔第 26 題〕 while you've been getting {{blank}} and out about the liars and the dirty, dirty 〔第 28 題〕 of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "up",
+            "out",
+            "down"
+          ],
+          "answer": "down"
+        },
+        {
+          "number": 28,
+          "lineId": "line-48",
+          "prompt": "Just 〔第 26 題〕 while you've been getting 〔第 27 題〕 and out about the liars and the dirty, dirty {{blank}} of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "cheats",
+            "liars",
+            "fakes"
+          ],
+          "answer": "cheats"
+        },
+        {
+          "number": 29,
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick {{blank}}.",
+          "promptZh": "你本可以跟著這超讚的節奏盡情搖擺。",
+          "options": [
+            "song",
+            "beat",
+            "track"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 30,
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new {{blank}}",
+          "promptZh": "我的前任帶來了他的新女友",
+          "options": [
+            "girlfriend",
+            "lady",
+            "woman"
+          ],
+          "answer": "girlfriend"
+        },
+        {
+          "number": 31,
+          "lineId": "line-52",
+          "prompt": "And to the fella {{blank}} there with the hella good 〔第 32 題〕",
+          "promptZh": "還有那邊那個頭髮超讚的傢伙",
+          "options": [
+            "in",
+            "here",
+            "over"
+          ],
+          "answer": "over"
+        },
+        {
+          "number": 32,
+          "lineId": "line-52",
+          "prompt": "And to the fella 〔第 31 題〕 there with the hella good {{blank}}",
+          "promptZh": "還有那邊那個頭髮超讚的傢伙",
+          "options": [
+            "style",
+            "hair",
+            "looks"
+          ],
+          "answer": "hair"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}} out too {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Got {{q:3}} in my brain"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "That's what people {{q:4}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I {{q:5}} on too many {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But I can't make them stay"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "At least that's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "But I keep {{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Can't stop, won't stop {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "It's like I got this {{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "In my {{q:10}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Saying, \"It's gonna be {{q:11}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "'Cause the players gonna {{q:12}}, play, play, play, play"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the haters gonna {{q:13}}, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, I'm just gonna {{q:14}}, {{q:15}}, shake, shake, shake"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:16}}, I shake it off"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{q:17}}, break, break, break, break"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{q:18}}, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I never miss a {{q:19}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{q:20}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{q:21}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's what they don't see, mmm-mmm"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my {{q:22}} (dancing on my own)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I make the {{q:23}} up as I go (moves up as I go)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And that's what they don't {{q:24}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "That's what they don't know, mmm-mmm"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "But I keep cruising"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop {{q:25}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It's like I got this music"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In my mind"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Saying, \"It's gonna be alright.\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Heart-breakers gonna break, break, break, break, break"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Hey, hey, hey"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Just {{q:26}} while you've been getting {{q:27}} and out about the liars and the dirty, dirty {{q:28}} of the world,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick {{q:29}}."
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new {{q:30}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "She's like \"Oh, my God!\" but I'm just gonna shake."
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And to the fella {{q:31}} there with the hella good {{q:32}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Won't you come on over, baby? We can shake, shake, shake"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Yeah ohhh"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate (haters gonna hate)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heart-breakers gonna break, break, break, break, break (mmmm)"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake (and fake, and fake, and fake)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "I, I, I shake it off, I shake it off (you've got to),"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "I, I, I shake it off, I shake it off"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I {{blank}} 〔第 2 題〕 〔第 3 題〕",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "stay",
+            "go",
+            "wait"
+          ],
+          "answer": "stay"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I 〔第 1 題〕 {{blank}} 〔第 3 題〕",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "out so",
+            "out very",
+            "out too"
+          ],
+          "answer": "out too"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "I 〔第 1 題〕 〔第 2 題〕 {{blank}}",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "late",
+            "long",
+            "far"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 5 題〕 in my brain",
+          "promptZh": "腦子裡空空如也",
+          "options": [
+            "Keep",
+            "Got",
+            "Have"
+          ],
+          "answer": "Got"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 {{blank}} in my brain",
+          "promptZh": "腦子裡空空如也",
+          "options": [
+            "something",
+            "nothing",
+            "anything"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "That's what people {{blank}}, mmm-mmm",
+          "promptZh": "人們就是這麼說，嗯哼",
+          "options": [
+            "know",
+            "think",
+            "say"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "I {{blank}} on too many 〔第 8 題〕",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "go",
+            "dance",
+            "move"
+          ],
+          "answer": "go"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "I 〔第 7 題〕 on too many {{blank}}",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "trips",
+            "dates",
+            "nights"
+          ],
+          "answer": "dates"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "{{blank}} what people say, mmm-mmm",
+          "promptZh": "至少人們是這麼說，嗯哼",
+          "options": [
+            "Or so that's",
+            "At least it's",
+            "At least that's"
+          ],
+          "answer": "At least that's"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "但我繼續愜意前行",
+          "options": [
+            "But I keep cruising",
+            "But I keep moving",
+            "But I am cruising"
+          ],
+          "answer": "But I keep cruising"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Can't stop, won't stop {{blank}}",
+          "promptZh": "停不下來，絕不停下腳步",
+          "options": [
+            "grooving",
+            "shaking",
+            "moving"
+          ],
+          "answer": "moving"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 13 題〕",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "It's like I got the",
+            "It's like I got this",
+            "It feels like I got this"
+          ],
+          "answer": "It's like I got this"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "〔第 12 題〕 {{blank}}",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "music",
+            "feeling",
+            "rhythm"
+          ],
+          "answer": "music"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我的腦海裡",
+          "options": [
+            "head",
+            "mind",
+            "heart"
+          ],
+          "answer": "mind"
+        },
+        {
+          "number": 15,
+          "lineId": "line-13",
+          "prompt": "{{blank}}, \"It's gonna be 〔第 16 題〕.\"",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "Saying",
+            "Thinking",
+            "Knowing"
+          ],
+          "answer": "Saying"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "〔第 15 題〕, \"It's gonna be {{blank}}.\"",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "okay",
+            "fine",
+            "alright"
+          ],
+          "answer": "alright"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "'Cause the players gonna {{blank}}, play, play, play, play",
+          "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+          "options": [
+            "play",
+            "win",
+            "stay"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "And the haters gonna {{blank}}, hate, hate, hate, hate",
+          "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+          "options": [
+            "wait",
+            "break",
+            "hate"
+          ],
+          "answer": "hate"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "Baby, I'm {{blank}} 〔第 20 題〕, 〔第 21 題〕, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "still wanna",
+            "just gonna",
+            "only gotta"
+          ],
+          "answer": "just gonna"
+        },
+        {
+          "number": 20,
+          "lineId": "line-16",
+          "prompt": "Baby, I'm 〔第 19 題〕 {{blank}}, 〔第 21 題〕, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "shake",
+            "fake",
+            "break"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 21,
+          "lineId": "line-16",
+          "prompt": "Baby, I'm 〔第 19 題〕 〔第 20 題〕, {{blank}}, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "dance",
+            "shake",
+            "move"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 22,
+          "lineId": "line-17",
+          "prompt": "I {{blank}}, I 〔第 23 題〕",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "throw it off",
+            "shake it out",
+            "shake it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 23,
+          "lineId": "line-17",
+          "prompt": "I 〔第 22 題〕, I {{blank}}",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "shake it off",
+            "shake it out",
+            "throw it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 24,
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{blank}}, break, break, break, break",
+          "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
+          "options": [
+            "fake",
+            "hate",
+            "break"
+          ],
+          "answer": "break"
+        },
+        {
+          "number": 25,
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{blank}}, fake, fake, fake, fake",
+          "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
+          "options": [
+            "shake",
+            "fake",
+            "break"
+          ],
+          "answer": "fake"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "I never miss a {{blank}}",
+          "promptZh": "我從不亂了節拍",
+          "options": [
+            "step",
+            "beat",
+            "chance"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 27,
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{blank}}",
+          "promptZh": "我的腳步快如閃電",
+          "options": [
+            "toes",
+            "heels",
+            "feet"
+          ],
+          "answer": "feet"
+        },
+        {
+          "number": 28,
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們看不見的，嗯哼",
+          "options": [
+            "see",
+            "hear",
+            "know"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my {{blank}} (dancing on my own)",
+          "promptZh": "我獨自起舞（獨自起舞）",
+          "options": [
+            "side",
+            "own",
+            "way"
+          ],
+          "answer": "own"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "I make the {{blank}} up as I go (moves up as I go)",
+          "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
+          "options": [
+            "moves",
+            "rules",
+            "steps"
+          ],
+          "answer": "moves"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們不知道的，嗯哼",
+          "options": [
+            "care",
+            "see",
+            "know"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 32,
+          "lineId": "line-30",
+          "prompt": "But I keep {{blank}}",
+          "promptZh": "但我繼續愜意前行",
+          "options": [
+            "moving",
+            "cruising",
+            "driving"
+          ],
+          "answer": "cruising"
+        },
+        {
+          "number": 33,
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop {{blank}}",
+          "promptZh": "停不下來，絕不停下舞動",
+          "options": [
+            "moving",
+            "dancing",
+            "grooving"
+          ],
+          "answer": "grooving"
+        },
+        {
+          "number": 34,
+          "lineId": "line-48",
+          "prompt": "Just {{blank}} while you've been getting 〔第 35 題〕 and out about the liars and the dirty, dirty 〔第 36 題〕 of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "think",
+            "know",
+            "say"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 35,
+          "lineId": "line-48",
+          "prompt": "Just 〔第 34 題〕 while you've been getting {{blank}} and out about the liars and the dirty, dirty 〔第 36 題〕 of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "up",
+            "out",
+            "down"
+          ],
+          "answer": "down"
+        },
+        {
+          "number": 36,
+          "lineId": "line-48",
+          "prompt": "Just 〔第 34 題〕 while you've been getting 〔第 35 題〕 and out about the liars and the dirty, dirty {{blank}} of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "cheats",
+            "liars",
+            "fakes"
+          ],
+          "answer": "cheats"
+        },
+        {
+          "number": 37,
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick {{blank}}.",
+          "promptZh": "你本可以跟著這超讚的節奏盡情搖擺。",
+          "options": [
+            "song",
+            "beat",
+            "track"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 38,
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new {{blank}}",
+          "promptZh": "我的前任帶來了他的新女友",
+          "options": [
+            "lady",
+            "girlfriend",
+            "woman"
+          ],
+          "answer": "girlfriend"
+        },
+        {
+          "number": 39,
+          "lineId": "line-52",
+          "prompt": "And to the fella {{blank}} there with the hella good 〔第 40 題〕",
+          "promptZh": "還有那邊那個頭髮超讚的傢伙",
+          "options": [
+            "over",
+            "here",
+            "in"
+          ],
+          "answer": "over"
+        },
+        {
+          "number": 40,
+          "lineId": "line-52",
+          "prompt": "And to the fella 〔第 39 題〕 there with the hella good {{blank}}",
+          "promptZh": "還有那邊那個頭髮超讚的傢伙",
+          "options": [
+            "style",
+            "looks",
+            "hair"
+          ],
+          "answer": "hair"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}} {{q:2}} {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} in my brain"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "That's what people {{q:6}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I {{q:7}} on too many {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "But I can't make them stay"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:9}} what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Can't stop, won't stop {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "In my {{q:14}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:15}}, \"It's gonna be {{q:16}}.\""
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "'Cause the players gonna {{q:17}}, play, play, play, play"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And the haters gonna {{q:18}}, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Baby, I'm {{q:19}} {{q:20}}, {{q:21}}, shake, shake, shake"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:22}}, I {{q:23}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{q:24}}, break, break, break, break"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{q:25}}, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I never miss a {{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{q:27}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{q:28}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's what they don't see, mmm-mmm"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my {{q:29}} (dancing on my own)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I make the {{q:30}} up as I go (moves up as I go)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And that's what they don't {{q:31}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "That's what they don't know, mmm-mmm"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "But I keep {{q:32}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop {{q:33}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "It's like I got this music"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In my mind"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Saying, \"It's gonna be alright.\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Heart-breakers gonna break, break, break, break, break"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Hey, hey, hey"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Just {{q:34}} while you've been getting {{q:35}} and out about the liars and the dirty, dirty {{q:36}} of the world,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick {{q:37}}."
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new {{q:38}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "She's like \"Oh, my God!\" but I'm just gonna shake."
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And to the fella {{q:39}} there with the hella good {{q:40}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Won't you come on over, baby? We can shake, shake, shake"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Yeah ohhh"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate (haters gonna hate)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heart-breakers gonna break, break, break, break, break (mmmm)"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake (and fake, and fake, and fake)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "I, I, I shake it off, I shake it off (you've got to),"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "I, I, I shake it off, I shake it off"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I {{blank}} 〔第 2 題〕 〔第 3 題〕",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "wait",
+            "stay",
+            "go"
+          ],
+          "answer": "stay"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I 〔第 1 題〕 {{blank}} 〔第 3 題〕",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "out too",
+            "out very",
+            "out so"
+          ],
+          "answer": "out too"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "I 〔第 1 題〕 〔第 2 題〕 {{blank}}",
+          "promptZh": "我總是在外逗留到太晚",
+          "options": [
+            "late",
+            "long",
+            "far"
+          ],
+          "answer": "late"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 5 題〕 in my brain",
+          "promptZh": "腦子裡空空如也",
+          "options": [
+            "Keep",
+            "Have",
+            "Got"
+          ],
+          "answer": "Got"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 {{blank}} in my brain",
+          "promptZh": "腦子裡空空如也",
+          "options": [
+            "something",
+            "nothing",
+            "anything"
+          ],
+          "answer": "nothing"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "That's {{blank}}, mmm-mmm",
+          "promptZh": "人們就是這麼說，嗯哼",
+          "options": [
+            "what people say",
+            "what people think",
+            "what people know"
+          ],
+          "answer": "what people say"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "That's what people {{blank}}, mmm-mmm",
+          "promptZh": "人們就是這麼說，嗯哼",
+          "options": [
+            "think",
+            "say",
+            "know"
+          ],
+          "answer": "say"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "{{blank}} too many 〔第 9 題〕",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "I went on",
+            "I'm going on",
+            "I go on"
+          ],
+          "answer": "I go on"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "〔第 8 題〕 too many {{blank}}",
+          "promptZh": "我約會次數太多",
+          "options": [
+            "dates",
+            "nights",
+            "trips"
+          ],
+          "answer": "dates"
+        },
+        {
+          "number": 10,
+          "lineId": "line-6",
+          "prompt": "{{blank}} make them stay",
+          "promptZh": "卻無法讓他們留下",
+          "options": [
+            "But I won't",
+            "But I don't",
+            "But I can't"
+          ],
+          "answer": "But I can't"
+        },
+        {
+          "number": 11,
+          "lineId": "line-7",
+          "prompt": "{{blank}} what people say, mmm-mmm",
+          "promptZh": "至少人們是這麼說，嗯哼",
+          "options": [
+            "Or so that's",
+            "At least that's",
+            "At least it's"
+          ],
+          "answer": "At least that's"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "{{blank}}",
+          "promptZh": "但我繼續愜意前行",
+          "options": [
+            "But I am cruising",
+            "But I keep moving",
+            "But I keep cruising"
+          ],
+          "answer": "But I keep cruising"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "停不下來，絕不停下腳步",
+          "options": [
+            "Can't stop, don't stop",
+            "Can't stop, won't stop",
+            "Can't stop, can't stop"
+          ],
+          "answer": "Can't stop, won't stop"
+        },
+        {
+          "number": 14,
+          "lineId": "line-10",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "停不下來，絕不停下腳步",
+          "options": [
+            "moving",
+            "shaking",
+            "grooving"
+          ],
+          "answer": "moving"
+        },
+        {
+          "number": 15,
+          "lineId": "line-11",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "It feels like I got this",
+            "It's like I got the",
+            "It's like I got this"
+          ],
+          "answer": "It's like I got this"
+        },
+        {
+          "number": 16,
+          "lineId": "line-11",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "rhythm",
+            "music",
+            "feeling"
+          ],
+          "answer": "music"
+        },
+        {
+          "number": 17,
+          "lineId": "line-12",
+          "prompt": "In my {{blank}}",
+          "promptZh": "在我的腦海裡",
+          "options": [
+            "mind",
+            "head",
+            "heart"
+          ],
+          "answer": "mind"
+        },
+        {
+          "number": 18,
+          "lineId": "line-13",
+          "prompt": "{{blank}}",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "Saying, \"It's gonna be alright.\"",
+            "Saying, \"It's going to be alright.\"",
+            "Saying, \"It will be alright.\""
+          ],
+          "answer": "Saying, \"It's gonna be alright.\""
+        },
+        {
+          "number": 19,
+          "lineId": "line-14",
+          "prompt": "{{blank}}, 〔第 20 題〕, play, play, play",
+          "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+          "options": [
+            "'Cause the players are gonna play",
+            "'Cause the players gonna play",
+            "'Cause the players will play"
+          ],
+          "answer": "'Cause the players gonna play"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "〔第 19 題〕, {{blank}}, play, play, play",
+          "promptZh": "因為情場浪子會繼續玩樂，玩、玩、玩、 玩、玩",
+          "options": [
+            "win",
+            "stay",
+            "play"
+          ],
+          "answer": "play"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "{{blank}}, 〔第 22 題〕, hate, hate, hate",
+          "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+          "options": [
+            "And the haters are gonna hate",
+            "And the haters gonna hate",
+            "And the haters will hate"
+          ],
+          "answer": "And the haters gonna hate"
+        },
+        {
+          "number": 22,
+          "lineId": "line-15",
+          "prompt": "〔第 21 題〕, {{blank}}, hate, hate, hate",
+          "promptZh": "而酸民們會繼續討厭，恨、恨、恨、恨、恨",
+          "options": [
+            "wait",
+            "break",
+            "hate"
+          ],
+          "answer": "hate"
+        },
+        {
+          "number": 23,
+          "lineId": "line-16",
+          "prompt": "{{blank}}, 〔第 24 題〕, 〔第 25 題〕, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "Baby, I'm just gonna shake",
+            "Baby, I'm gonna just shake",
+            "Baby, I will just shake"
+          ],
+          "answer": "Baby, I'm just gonna shake"
+        },
+        {
+          "number": 24,
+          "lineId": "line-16",
+          "prompt": "〔第 23 題〕, {{blank}}, 〔第 25 題〕, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "break",
+            "shake",
+            "fake"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 25,
+          "lineId": "line-16",
+          "prompt": "〔第 23 題〕, 〔第 24 題〕, {{blank}}, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "dance",
+            "move",
+            "shake"
+          ],
+          "answer": "shake"
+        },
+        {
+          "number": 26,
+          "lineId": "line-17",
+          "prompt": "I {{blank}}, I 〔第 27 題〕",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "shake it off",
+            "shake it out",
+            "throw it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "I 〔第 26 題〕, I {{blank}}",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "shake it out",
+            "shake it off",
+            "throw it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{blank}}, break, break, break, break",
+          "promptZh": "碎心者會繼續傷人，碎、碎、碎、碎、 碎",
+          "options": [
+            "break",
+            "fake",
+            "hate"
+          ],
+          "answer": "break"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{blank}}, fake, fake, fake, fake",
+          "promptZh": "而偽君子會繼續偽裝，假、假、假、假、假",
+          "options": [
+            "shake",
+            "break",
+            "fake"
+          ],
+          "answer": "fake"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "Baby, I'm {{blank}} shake, shake, shake, shake, shake",
+          "promptZh": "寶貝，我只會繼續搖擺，搖、搖、搖、 搖、搖",
+          "options": [
+            "just gonna",
+            "still wanna",
+            "only gotta"
+          ],
+          "answer": "just gonna"
+        },
+        {
+          "number": 31,
+          "lineId": "line-21",
+          "prompt": "I {{blank}}, I shake it off",
+          "promptZh": "我會甩掉它，我會甩掉它",
+          "options": [
+            "shake it all off",
+            "shake it off",
+            "throw it off"
+          ],
+          "answer": "shake it off"
+        },
+        {
+          "number": 32,
+          "lineId": "line-22",
+          "prompt": "I never miss a {{blank}}",
+          "promptZh": "我從不亂了節拍",
+          "options": [
+            "step",
+            "chance",
+            "beat"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 33,
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{blank}}",
+          "promptZh": "我的腳步快如閃電",
+          "options": [
+            "toes",
+            "heels",
+            "feet"
+          ],
+          "answer": "feet"
+        },
+        {
+          "number": 34,
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們看不見的，嗯哼",
+          "options": [
+            "see",
+            "hear",
+            "know"
+          ],
+          "answer": "see"
+        },
+        {
+          "number": 35,
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my {{blank}} (dancing on my own)",
+          "promptZh": "我獨自起舞（獨自起舞）",
+          "options": [
+            "side",
+            "own",
+            "way"
+          ],
+          "answer": "own"
+        },
+        {
+          "number": 36,
+          "lineId": "line-27",
+          "prompt": "I make the {{blank}} up as I 〔第 37 題〕 (moves up as I go)",
+          "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
+          "options": [
+            "moves",
+            "rules",
+            "steps"
+          ],
+          "answer": "moves"
+        },
+        {
+          "number": 37,
+          "lineId": "line-27",
+          "prompt": "I make the 〔第 36 題〕 up as I {{blank}} (moves up as I go)",
+          "promptZh": "我一邊跳一邊自編舞步（自編舞步）",
+          "options": [
+            "move",
+            "dance",
+            "go"
+          ],
+          "answer": "go"
+        },
+        {
+          "number": 38,
+          "lineId": "line-28",
+          "prompt": "And that's what they don't {{blank}}, mmm-mmm",
+          "promptZh": "而這是他們不知道的，嗯哼",
+          "options": [
+            "care",
+            "know",
+            "see"
+          ],
+          "answer": "know"
+        },
+        {
+          "number": 39,
+          "lineId": "line-30",
+          "prompt": "But I keep {{blank}}",
+          "promptZh": "但我繼續愜意前行",
+          "options": [
+            "moving",
+            "driving",
+            "cruising"
+          ],
+          "answer": "cruising"
+        },
+        {
+          "number": 40,
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop {{blank}}",
+          "promptZh": "停不下來，絕不停下舞動",
+          "options": [
+            "grooving",
+            "moving",
+            "dancing"
+          ],
+          "answer": "grooving"
+        },
+        {
+          "number": 41,
+          "lineId": "line-32",
+          "prompt": "{{blank}} this music",
+          "promptZh": "就像我腦中有這段旋律",
+          "options": [
+            "It's like I've got",
+            "It's like I got",
+            "It's like I have"
+          ],
+          "answer": "It's like I got"
+        },
+        {
+          "number": 42,
+          "lineId": "line-34",
+          "prompt": "{{blank}}, \"It's gonna be 〔第 43 題〕.\"",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "Saying",
+            "Thinking",
+            "Knowing"
+          ],
+          "answer": "Saying"
+        },
+        {
+          "number": 43,
+          "lineId": "line-34",
+          "prompt": "〔第 42 題〕, \"It's gonna be {{blank}}.\"",
+          "promptZh": "說著：「一切都會好起來的。」",
+          "options": [
+            "okay",
+            "alright",
+            "fine"
+          ],
+          "answer": "alright"
+        },
+        {
+          "number": 44,
+          "lineId": "line-48",
+          "prompt": "Just {{blank}} while you've been getting 〔第 45 題〕 and out about the liars and the dirty, dirty 〔第 46 題〕 of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "say",
+            "know",
+            "think"
+          ],
+          "answer": "think"
+        },
+        {
+          "number": 45,
+          "lineId": "line-48",
+          "prompt": "Just 〔第 44 題〕 while you've been getting {{blank}} and out about the liars and the dirty, dirty 〔第 46 題〕 of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "down",
+            "out",
+            "up"
+          ],
+          "answer": "down"
+        },
+        {
+          "number": 46,
+          "lineId": "line-48",
+          "prompt": "Just 〔第 44 題〕 while you've been getting 〔第 45 題〕 and out about the liars and the dirty, dirty {{blank}} of the world,",
+          "promptZh": "想想看，當你一直為這世上那些騙子和骯髒透頂的騙子感到沮喪失落時，",
+          "options": [
+            "liars",
+            "cheats",
+            "fakes"
+          ],
+          "answer": "cheats"
+        },
+        {
+          "number": 47,
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick {{blank}}.",
+          "promptZh": "你本可以跟著這超讚的節奏盡情搖擺。",
+          "options": [
+            "song",
+            "track",
+            "beat"
+          ],
+          "answer": "beat"
+        },
+        {
+          "number": 48,
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new {{blank}}",
+          "promptZh": "我的前任帶來了他的新女友",
+          "options": [
+            "woman",
+            "lady",
+            "girlfriend"
+          ],
+          "answer": "girlfriend"
+        },
+        {
+          "number": 49,
+          "lineId": "line-52",
+          "prompt": "And to the fella {{blank}} there with the hella good 〔第 50 題〕",
+          "promptZh": "還有那邊那個頭髮超讚的傢伙",
+          "options": [
+            "here",
+            "over",
+            "in"
+          ],
+          "answer": "over"
+        },
+        {
+          "number": 50,
+          "lineId": "line-52",
+          "prompt": "And to the fella 〔第 49 題〕 there with the hella good {{blank}}",
+          "promptZh": "還有那邊那個頭髮超讚的傢伙",
+          "options": [
+            "hair",
+            "style",
+            "looks"
+          ],
+          "answer": "hair"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I {{q:1}} {{q:2}} {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} in my brain"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "That's {{q:6}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "That's what people {{q:7}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:8}} too many {{q:9}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:10}} make them stay"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}} what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "That's what people say, mmm-mmm"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "In my {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:19}}, {{q:20}}, play, play, play"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:21}}, {{q:22}}, hate, hate, hate"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:23}}, {{q:24}}, {{q:25}}, shake, shake"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I {{q:26}}, I {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Heart-breakers gonna {{q:28}}, break, break, break, break"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And the fakers gonna {{q:29}}, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Baby, I'm {{q:30}} shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I {{q:31}}, I shake it off"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I never miss a {{q:32}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "I'm lightning on my {{q:33}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And that's what they don't {{q:34}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "That's what they don't see, mmm-mmm"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "I'm dancing on my {{q:35}} (dancing on my own)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I make the {{q:36}} up as I {{q:37}} (moves up as I go)"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And that's what they don't {{q:38}}, mmm-mmm"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "That's what they don't know, mmm-mmm"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "But I keep {{q:39}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Can't stop, won't stop {{q:40}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:41}} this music"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "In my mind"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:42}}, \"It's gonna be {{q:43}}.\""
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Heart-breakers gonna break, break, break, break, break"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Hey, hey, hey"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Just {{q:44}} while you've been getting {{q:45}} and out about the liars and the dirty, dirty {{q:46}} of the world,"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "You could've been getting down to this sick {{q:47}}."
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "My ex-man brought his new {{q:48}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "She's like \"Oh, my God!\" but I'm just gonna shake."
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And to the fella {{q:49}} there with the hella good {{q:50}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Won't you come on over, baby? We can shake, shake, shake"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Yeah ohhh"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "'Cause the players gonna play, play, play, play, play"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "And the haters gonna hate, hate, hate, hate, hate (haters gonna hate)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Heart-breakers gonna break, break, break, break, break (mmmm)"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "And the fakers gonna fake, fake, fake, fake, fake (and fake, and fake, and fake)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Baby, I'm just gonna shake, shake, shake, shake, shake"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "I, I, I shake it off, I shake it off"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "I, I, I shake it off, I shake it off (you've got to),"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "I, I, I shake it off, I shake it off,"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "I, I, I shake it off, I shake it off"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "stay out too late",
+      "usage": "當你晚上很晚才回家，或在外面待得比預期久時可以使用。",
+      "answer": 0,
+      "number": 1,
+      "prompt": "哪一句正確使用「stay out too late」？",
+      "meaning": "在外面待到太晚",
+      "options": [
+        "I stayed out too late last night, so I am tired today.",
+        "I stayed out too late in my bed, so I slept well.",
+        "She stayed out too late her blue pencil.",
+        "We stayed out too late to watched the last band."
+      ],
+      "explanation": "正確：昨晚在外面待太晚，所以今天很累。",
+      "optionExplanations": [
+        "正確：昨晚在外面待太晚，所以今天很累。",
+        "錯誤：待在床上睡覺不是「在外面待太晚」。",
+        "錯誤：這個片語不能直接接「她的藍色鉛筆」。",
+        "to 後用 watch，不能接 watched。"
+      ]
+    },
+    {
+      "word": "at least",
+      "usage": "當你說最低數量、最低要求，或想指出一件還算好的事時使用。",
+      "answer": 1,
+      "number": 2,
+      "prompt": "哪一句正確使用「at least」？",
+      "meaning": "至少；起碼",
+      "options": [
+        "I at least my savings before the trip.",
+        "We need at least three chairs for the game.",
+        "We need at least to three players.",
+        "She has at least very excited about the trip."
+      ],
+      "explanation": "正確：表示遊戲至少需要三張椅子。",
+      "optionExplanations": [
+        "at least 是副詞片語，不能當作主要動詞。",
+        "正確：表示遊戲至少需要三張椅子。",
+        "at least 後直接接數量，不加 to。",
+        "at least 不能在此連接 has 與 very excited。"
+      ]
+    },
+    {
+      "word": "keep moving",
+      "usage": "走路、跳舞、運動，或鼓勵別人繼續前進時使用。",
+      "answer": 3,
+      "number": 3,
+      "prompt": "哪一句正確使用「keep moving」？",
+      "meaning": "繼續移動；不要停下來",
+      "options": [
+        "My cousin keeps moving to danced all night.",
+        "The dancers keeps moving during the show.",
+        "I kept moving tomorrow during the race.",
+        "Keep moving your feet when you dance!"
+      ],
+      "explanation": "正確：跳舞時持續動腳。",
+      "optionExplanations": [
+        "keep moving 後不能接 to danced。",
+        "複數主詞 dancers 配 keep，不能加 s。",
+        "kept 是過去式，與 tomorrow 不配合。",
+        "正確：跳舞時持續動腳。"
+      ]
+    },
+    {
+      "word": "gonna",
+      "usage": "朋友聊天或歌詞中常見，表示接下來要做的事；正式寫作建議用 going to。",
+      "answer": 0,
+      "number": 4,
+      "prompt": "哪一句正確使用「gonna」？",
+      "meaning": "（口語）將要；打算（going to）",
+      "options": [
+        "I'm gonna call my friend after dinner.",
+        "She gonna is call me tonight.",
+        "My cousin gonna visited us tomorrow.",
+        "I gonna to swim tomorrow."
+      ],
+      "explanation": "正確：I am gonna + 動詞原形，表示打算晚餐後打電話。",
+      "optionExplanations": [
+        "正確：I am gonna + 動詞原形，表示打算晚餐後打電話。",
+        "錯誤：字序錯誤；應說 She is gonna call me。",
+        "gonna 前需要 is，後面用原形 visit。",
+        "錯誤：gonna 前面通常需要 am/is/are，而且後面不再加 to。"
+      ]
+    },
+    {
+      "word": "shake it off",
+      "usage": "遇到批評、小失誤或不開心的事，想繼續過自己的生活時使用。",
+      "answer": 2,
+      "number": 5,
+      "prompt": "哪一句正確使用「shake it off」？",
+      "meaning": "把不開心的事拋開；別放在心上",
+      "options": [
+        "She shook it off to forgot the rude comment.",
+        "I shake it off yesterday after the interview.",
+        "He shook it off after losing the game and smiled again.",
+        "We shake it off our classroom at eight."
+      ],
+      "explanation": "正確：輸了比賽後，他不再一直難過。",
+      "optionExplanations": [
+        "to 後用 forget，不能接 forgot。",
+        "過去事件須用 shook it off。",
+        "正確：輸了比賽後，他不再一直難過。",
+        "錯誤：不能用 shake it off 表示離開教室。"
+      ]
+    },
+    {
+      "word": "on my own",
+      "usage": "當你一個人做某件事，沒有別人幫忙或陪伴時使用。",
+      "answer": 1,
+      "number": 6,
+      "prompt": "哪一句正確使用「on my own」？",
+      "meaning": "獨自；靠自己",
+      "options": [
+        "I fixed the radio on my own to repaired it.",
+        "I made this birthday card on my own.",
+        "He finished the painting on my own.",
+        "We built it on my own without any help."
+      ],
+      "explanation": "正確：表示這張卡片是自己獨立完成的。",
+      "optionExplanations": [
+        "to repaired 的形式錯誤。",
+        "正確：表示這張卡片是自己獨立完成的。",
+        "主詞 he 對應 on his own，不能用 my own。",
+        "主詞 we 對應 on our own，不能用 my own。"
+      ]
+    },
+    {
+      "word": "make it up as I go",
+      "usage": "做事情時沒有固定計畫，而是想到下一步就繼續做時使用。",
+      "answer": 1,
+      "number": 7,
+      "prompt": "哪一句正確使用「make it up as I go」？",
+      "meaning": "邊做邊想；沒有先計畫好",
+      "options": [
+        "I make it up as I go to followed an exact plan.",
+        "I have no script; I make it up as I go.",
+        "She makes it up as I go through her speech.",
+        "We make it up as I go during our dance."
+      ],
+      "explanation": "make it up as I go 表示一邊進行一邊即興編排。",
+      "optionExplanations": [
+        "to followed 形式錯誤；臨場編排也與完全照計劃的意思不同。",
+        "make it up as I go 表示一邊進行一邊即興編排。",
+        "主詞 she 應對應 as she goes，不能轉成 I go。",
+        "主詞 we 應配 as we go。"
+      ]
+    },
+    {
+      "word": "miss a beat",
+      "usage": "談音樂節奏時可以指漏拍；not miss a beat 也能表示很快接話或繼續做事。",
+      "answer": 2,
+      "number": 8,
+      "prompt": "哪一句正確使用「miss a beat」？",
+      "meaning": "漏掉節拍；（常用否定）反應很快、沒有停頓",
+      "options": [
+        "I missed a beat to played the drums.",
+        "She miss a beat yesterday during the song.",
+        "The song was fast, but he did not miss a beat.",
+        "We missed a beat the window to open it."
+      ],
+      "explanation": "正確：歌曲很快，但他沒有漏掉任何節拍。",
+      "optionExplanations": [
+        "to played 的形式錯誤。",
+        "過去事件須用 missed a beat。",
+        "正確：歌曲很快，但他沒有漏掉任何節拍。",
+        "錯誤：miss a beat 不能表示打開窗戶。"
+      ]
+    },
+    {
+      "word": "ex",
+      "usage": "非正式談話中，用來指以前交往過的人；常說 my ex。",
+      "answer": 3,
+      "number": 9,
+      "prompt": "哪一句正確使用「ex」？",
+      "meaning": "前任男友或前任女友",
+      "options": [
+        "My ex is my new English teacher; I have never met her.",
+        "The bus is my ex because it is late.",
+        "I ex my old messages after the breakup.",
+        "My ex and I dated last year. We're friends now."
+      ],
+      "explanation": "ex 指已結束戀愛關係的前任。",
+      "optionExplanations": [
+        "錯誤：ex 代表過去交往的人，不是沒見過的新老師。",
+        "錯誤：公車不是以前交往的對象。",
+        "ex 是指前任的名詞，不能當作刪除訊息的動詞。",
+        "ex 指已結束戀愛關係的前任。"
+      ]
+    },
+    {
+      "word": "come on over",
+      "usage": "用輕鬆、親切的語氣邀請朋友走過來，或來自己所在的地方。",
+      "answer": 0,
+      "number": 10,
+      "prompt": "哪一句正確使用「come on over」？",
+      "meaning": "過來吧；來我這邊吧",
+      "options": [
+        "Come on over and watch Dad try his new dance!",
+        "I come on over to watched the final.",
+        "She come on over yesterday for the party.",
+        "We come on over very three people."
+      ],
+      "explanation": "come on over 是邀請對方過來；這裡邀人來看爸爸跳舞。",
+      "optionExplanations": [
+        "come on over 是邀請對方過來；這裡邀人來看爸爸跳舞。",
+        "to 後用 watch，不能用 watched。",
+        "過去事件須用 came on over。",
+        "come on over 後不能直接接 very three people。"
+      ]
+    }
+  ],
+  "cover_url": "https://edmundeducation.com/song-media/shake-it-off/cover.webp",
+  "audio_url": "https://edmundeducation.com/song-media/shake-it-off/album.mp3",
+  "timingSource": {
+    "method": "word-alignment-with-repeated-musical-phrase-anchors",
+    "audioSha256": "553f72e23ab182eeb4510e6a27542fc0b679f417af47de67a2895bb7e6e76d76",
+    "duration": 241.592
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "377a70b4751e17a80b4e68ae8b0003705390e94e9fe02c87aa5166da0110bea4"
+    },
+    {
+      "section": "structure",
+      "filename": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "80632b58ad9398b0e677b6f73ca8cb74cb8c3d3ab7e0477ed11ff80b192c4796"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "cruising",
+          "meaning": "輕鬆前行；保持順暢的步調（依語境）",
+          "usage": "旅程、工作或活動進展順利；歌中暗示不理會批評繼續生活。",
+          "prompt": "哪一句正確使用「cruising」？",
+          "options": [
+            "Our car was cruising because it had a flat tire.",
+            "We were cruising at home without moving anywhere.",
+            "I was cruising the homework into my school bag.",
+            "Our car was cruising along the quiet road after lunch."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：輪胎沒氣通常不能正常平順行駛，與理由衝突。",
+            "錯誤：此處強調完全沒有移動，不符合本題的前行意思。",
+            "錯誤：cruise 不能表示把作業放進書包。",
+            "正確：cruising along 表示車子平順地行進。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：cruising along 表示車子平順地行進。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "player",
+          "meaning": "情場玩家；不認真投入感情的人（口語）",
+          "usage": "在約會語境表示同時追求多人、對承諾不認真；也可指運動員，須看語境。",
+          "prompt": "哪一句正確使用「player」？",
+          "options": [
+            "I called her a player because she plays the piano well.",
+            "Maya called him a player because he dated several people secretly.",
+            "Leo is a player because he practices tennis every weekend.",
+            "He is a player because he always arrives before school."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不符合指定的情場意思：這裡只是在談音樂演奏者。",
+            "正確：隱瞞多段約會關係符合情場玩家的用法。",
+            "不符合指定的情場意思：這是運動員的合理用法，但不是本題考的戀愛俚語。",
+            "錯誤：早到學校不能推論對感情不認真。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：隱瞞多段約會關係符合情場玩家的用法。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "hater",
+          "meaning": "酸民；總愛批評或貶低他人的人（非正式）",
+          "usage": "社群媒體或日常對話中指習慣惡意批評的人；不等於所有不同意見者。",
+          "prompt": "哪一句正確使用「hater」？",
+          "options": [
+            "Online haters kept insulting her for no good reason.",
+            "My teacher is a hater because she checked our spelling.",
+            "He is a hater because he dislikes spicy food.",
+            "She is a hater because she politely asked one question."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：無故在網路辱罵別人符合 hater 的口語意義。",
+            "錯誤：正常批改作業並不是酸民行為。",
+            "錯誤：不喜歡辣食不是對人惡意攻擊。",
+            "錯誤：有禮提問不等於惡意批評。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：無故在網路辱罵別人符合 hater 的口語意義。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "heart-breaker",
+          "meaning": "讓人心碎的人；容易傷害他人感情者",
+          "usage": "描述在感情上使人痛苦的人；不是醫學上的心臟疾病。",
+          "prompt": "哪一句正確使用「heart-breaker」？",
+          "options": [
+            "This watch is a heart-breaker because it stopped working.",
+            "The movie was a heart-breaker because the seats were broken.",
+            "He was a heart-breaker who often made false promises in love.",
+            "The doctor was a heart-breaker because she checked his pulse."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：手錶故障與感情傷害無關。",
+            "錯誤：座位壞了不等於電影使人心碎。",
+            "正確：感情中常作虛假承諾的人可稱 heart-breaker。",
+            "錯誤：量脈搏是醫療行為，並非傷害戀人感情。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：感情中常作虛假承諾的人可稱 heart-breaker。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "faker",
+          "meaning": "冒充者；假裝某種身分或感受的人（非正式）",
+          "usage": "有人裝出不真實的能力、態度或身分時使用。",
+          "prompt": "哪一句正確使用「faker」？",
+          "options": [
+            "I called him a faker because his shoes were old.",
+            "They were fakers because they studied for the test.",
+            "He was a faker who pretended to be a famous doctor.",
+            "She was a faker because she forgot her umbrella today."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：鞋子老舊無法判斷是否在假裝。",
+            "錯誤：讀書準備考試不涉及欺騙。",
+            "正確：假扮名醫符合 faker 的意思。",
+            "錯誤：忘記帶傘不代表假裝身分。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：假扮名醫符合 faker 的意思。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "lightning",
+          "meaning": "閃電；比喻極快的動作或速度",
+          "usage": "可形容大自然的閃電；歌中用它比喻腳步敏捷。",
+          "prompt": "哪一句正確使用「lightning」？",
+          "options": [
+            "Her feet moved like lightning during the dance contest.",
+            "The lightning was very slow because the rain was blue.",
+            "The runners heard lightning singing inside the stadium.",
+            "He bought three lightnings to wear under his coat."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：用 like lightning 比喻動作極快，呼應歌詞意象。",
+            "錯誤：顏色不能自然解釋閃電很慢。",
+            "錯誤：這裡把閃電當成會在場館唱歌的東西。",
+            "錯誤：lightning 不是可以買來穿的衣物。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：用 like lightning 比喻動作極快，呼應歌詞意象。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "grooving",
+          "meaning": "隨著音樂有節奏地舞動（口語）",
+          "usage": "聽到有節奏的音樂、放鬆跳舞時使用；歌中為 grooving。",
+          "prompt": "哪一句正確使用「grooving」？",
+          "options": [
+            "She was grooving when she quietly finished her math test.",
+            "We were grooving to the music at our school party.",
+            "He was grooving the door closed before leaving the room.",
+            "They were grooving because the school bus had a flat tire."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：安靜寫完考卷沒有音樂舞動的情境。",
+            "正確：groove to the music 表示跟著音樂律動。",
+            "錯誤：grooving 不能代替 closing。",
+            "錯誤：車子爆胎本身不表示隨音樂律動。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：groove to the music 表示跟著音樂律動。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "down and out",
+          "meaning": "窮困潦倒；處境低落、失意（慣用語）",
+          "usage": "描寫處於人生低潮、缺乏資源或希望；歌中也帶有情緒低落的意思。",
+          "prompt": "哪一句正確使用「down and out」？",
+          "options": [
+            "I was down and out because the sky looked very blue.",
+            "He was down and out because he won a new house.",
+            "After losing his job and home, he felt down and out.",
+            "The team was down and out because it bought new shoes."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：天空是藍色沒有失意的因果關係。",
+            "錯誤：贏得新房子本身不支持窮困失意的意思。",
+            "正確：失去工作與住處符合窮困失意的語境。",
+            "錯誤：買新鞋不能合理表示走投無路。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：失去工作與住處符合窮困失意的語境。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "liar",
+          "meaning": "說謊者",
+          "usage": "描述經常或刻意說出不實話語的人；不是單純犯錯。",
+          "prompt": "哪一句正確使用「liar」？",
+          "options": [
+            "The liar told us the truth about the missing bag.",
+            "He was a liar because he changed his lunch order.",
+            "She was a liar because she made a spelling mistake.",
+            "The liar said he had finished the work, but he had not started."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：坦白真相不能當作說謊的證據。",
+            "錯誤：改午餐訂單沒有說謊的情境。",
+            "錯誤：拼字錯誤不等於有意欺騙。",
+            "正確：明明沒開始卻謊稱做完，是故意說謊。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：明明沒開始卻謊稱做完，是故意說謊。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "cheat",
+          "meaning": "騙子；作弊者；不誠實的人",
+          "usage": "歌中的 cheats 是指欺騙別人的人；也可作動詞表示作弊。",
+          "prompt": "哪一句正確使用「cheat」？",
+          "options": [
+            "Our teacher called us cheats because we helped clean the room.",
+            "She was a cheat because she arrived five minutes early.",
+            "He became a cheat because he lost his school notebook.",
+            "The cheats copied answers during the exam and denied it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：協助打掃不屬於欺騙。",
+            "錯誤：提早到達不表示作弊。",
+            "錯誤：遺失筆記本沒有不誠實的行為。",
+            "正確：考試抄答案又否認，符合 cheats 的意思。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：考試抄答案又否認，符合 cheats 的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "sick beat",
+          "meaning": "超讚的節奏（俚語；sick 表示很酷）",
+          "usage": "非正式稱讚音樂節奏很棒，不能按 sick 的生病義理解。",
+          "prompt": "哪一句正確使用「sick beat」？",
+          "options": [
+            "I used a sick beat to take my temperature at home.",
+            "What a sick beat! Everyone started dancing to the song.",
+            "The sick beat stayed home because it caught a cold.",
+            "This sick beat needs a doctor because it has a fever."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：sick beat 不是體溫計。",
+            "正確：讚美節奏很帶勁，大家開始跳舞。",
+            "錯誤：節奏不能真的感冒並請假。",
+            "錯誤：這裡 sick 是俚語稱讚，不是節奏得了病。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：讚美節奏很帶勁，大家開始跳舞。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "fella",
+          "meaning": "傢伙；男子（口語，非正式）",
+          "usage": "非正式稱呼男性；語氣取決於場合，正式寫作宜用 man/person。",
+          "prompt": "哪一句正確使用「fella」？",
+          "options": [
+            "That friendly fella helped me carry my bags upstairs.",
+            "The fella means a kind of train ticket at the station.",
+            "We fella to the city by bus every Sunday.",
+            "My fella was a new blue jacket that I bought."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：以口語稱呼友善幫忙的男子。",
+            "錯誤：fella 指人，不是車票種類。",
+            "錯誤：fella 是名詞，不能當作搭車動詞。",
+            "錯誤：外套不是男子。"
+          ],
+          "sourceFile": "Shake_It_Off_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：以口語稱呼友善幫忙的男子。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "stay out + 時間副詞",
+          "meaning": "stay out 表示留在外面；too late 表示晚得過頭。",
+          "usage": "說自己在外活動，回家時間比預期晚。",
+          "prompt": "夜市玩得太晚，第二天很累。哪句最貼切？",
+          "options": [
+            "I stayed out too early, so I got home at midnight.",
+            "I stayed out too late in my bed all night.",
+            "I stayed in too late at the night market.",
+            "I stayed out too late, so I am tired today."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "too early 是太早，和半夜才回家的情況相反。",
+            "在床上睡覺不是 stay out（在外面）。",
+            "stayed in 指留在家裡，不是留在夜市。",
+            "正確：在外待到太晚，符合夜市情境。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I stay out too late",
+          "pattern": [
+            {
+              "text": "stay out",
+              "fixed": true
+            },
+            {
+              "text": "too late",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在外待到太晚，符合夜市情境。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "too many + 複數可數名詞",
+          "meaning": "表示可數的事物數量過多。",
+          "usage": "抱怨邀請、活動或工作次數多到難以負擔。",
+          "prompt": "朋友一週約了八次會面，忙不過來。",
+          "options": [
+            "She has too many meetings this week.",
+            "She has many too meetings this week.",
+            "She has too many time this week.",
+            "She has too much meetings this week."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：too many 後接複數可數名詞。",
+            "語序不對，應是 too many meetings。",
+            "time 不可數，應說 too much time。",
+            "meetings 可數，應使用 too many 而非 too much。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "too many dates",
+          "pattern": [
+            {
+              "text": "too many",
+              "fixed": true
+            },
+            {
+              "text": "dates",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：too many 後接複數可數名詞。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "make + 人 + 原形動詞",
+          "meaning": "使某人做某事，make 後接受詞及不帶 to 的原形動詞。",
+          "usage": "描述讓別人留在某地或做出反應。",
+          "prompt": "導演想讓演員多留十分鐘。哪句文法正確？",
+          "options": [
+            "The director made the actors staying ten more minutes.",
+            "The director made the actors stayed ten more minutes.",
+            "The director made the actors stay ten more minutes.",
+            "The director made the actors to stay ten more minutes."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "make 後不能直接用 staying 代替原形。",
+            "made 後須用原形 stay，不是過去式 stayed。",
+            "正確：made + 人 + stay。",
+            "使役 make 後不接 to stay。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "make them stay",
+          "pattern": [
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "them",
+              "fixed": false
+            },
+            {
+              "text": "stay",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：made + 人 + stay。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "That’s what + 主詞 + 動詞",
+          "meaning": "what 引導名詞性子句，表示「那就是人們說的事」。",
+          "usage": "指出某個說法或傳言來自誰。",
+          "prompt": "有人說這座小鎮夜晚很安靜。你轉述傳言。",
+          "options": [
+            "That is what people say.",
+            "That what people say is.",
+            "That is what do people say.",
+            "That is what people says."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：That is what + 主詞 + 動詞。",
+            "缺少主句正確的 be 動詞位置。",
+            "間接問句／名詞子句不用 do 倒裝。",
+            "people 是複數，動詞不能用 says。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "That's what people say",
+          "pattern": [
+            {
+              "text": "That's what",
+              "fixed": true
+            },
+            {
+              "text": "people say",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：That is what + 主詞 + 動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "at least + 補充或保留",
+          "meaning": "at least 可表示「至少／起碼」，用來降低斷言的確定性。",
+          "usage": "傳聞未必屬實，保留說法來源。",
+          "prompt": "朋友說新餐廳很好，但你還沒去過。",
+          "options": [
+            "The food is good, at least my friends eating.",
+            "At least the food is good yesterday tomorrow.",
+            "The food is good, at least that is what my friends say.",
+            "The food at least to my friends is good say."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少完整的謂語，不能用 my friends eating 收尾。",
+            "時間 yesterday 和 tomorrow 互相矛盾。",
+            "正確：用 at least 保留「只是朋友這麼說」的語氣。",
+            "子句語序混亂，無法表達消息來源。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "At least that's what people say",
+          "pattern": [
+            {
+              "text": "At least",
+              "fixed": true
+            },
+            {
+              "text": "that's what people say",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用 at least 保留「只是朋友這麼說」的語氣。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "keep + -ing",
+          "meaning": "keep 後接 -ing，表示持續進行動作。",
+          "usage": "說即使遇到小問題仍繼續做某事。",
+          "prompt": "畫家畫到很累，仍繼續畫。",
+          "options": [
+            "The artist kept painted after she got tired.",
+            "The artist kept painting after she got tired.",
+            "The artist kept paint after she got tired.",
+            "The artist kept to paint after she got tired."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "kept painted 不是這裡的持續動作結構。",
+            "正確：kept + V-ing。",
+            "keep 後不接單純原形 paint。",
+            "此處 keep 後要接 painting。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I keep cruising",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "cruising",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：kept + V-ing。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "can’t / won’t + 原形動詞",
+          "meaning": "can’t 表示無法；won’t 表示不願或將不；兩者後面都接原形 stop。",
+          "usage": "區分做不到與決心不停止。",
+          "prompt": "音樂太好聽，舞者說自己停不下來，也不打算停。",
+          "options": [
+            "I cannot stop, and I will not stop.",
+            "I cannot to stop, and I will not to stop.",
+            "I do not can stop, and I do not will stop.",
+            "I cannot stopping, and I will not stopping."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：cannot / will not + 原形 stop。",
+            "情態動詞後不加 to。",
+            "can 與 will 不與 do not 這樣搭配。",
+            "情態動詞後用 stop，不用 stopping。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Can't stop, won't stop moving",
+          "pattern": [
+            {
+              "text": "can't / won't stop",
+              "fixed": true
+            },
+            {
+              "text": "moving",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：cannot / will not + 原形 stop。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "It’s like + 子句",
+          "meaning": "It’s like 可口語地引出比喻或主觀感受。",
+          "usage": "描述難以解釋的感覺，如「就像……」。",
+          "prompt": "第一次走進大海，覺得自己在夢裡。",
+          "options": [
+            "It is like to be in a dream.",
+            "It is like I dreaming.",
+            "It is like I am in a dream.",
+            "It is like am I in a dream."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "like 後這裡需要完整子句，不能直接 to be。",
+            "缺少 be 動詞 am。",
+            "正確：It is like + 完整子句。",
+            "陳述子句不使用 am I 倒裝。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "It's like I got this music",
+          "pattern": [
+            {
+              "text": "It's like",
+              "fixed": true
+            },
+            {
+              "text": "I got this music",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：It is like + 完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "in + 所有格 + mind",
+          "meaning": "in my mind 可指腦中想法或想像畫面。",
+          "usage": "談一段旋律、畫面或想法一直出現在腦中。",
+          "prompt": "旅行結束後，海邊的畫面仍留在腦中。",
+          "options": [
+            "The picture of the sea is still on my mind inside.",
+            "The picture of the sea is still in my mind.",
+            "The picture of the sea is still at my mind.",
+            "The picture of the sea is still by my mind."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "on my mind 可指掛念，但後面再加 inside 不自然，且非本題位置形式。",
+            "正確：in my mind 表示心中的畫面。",
+            "此處不用 at my mind。",
+            "此處不用 by my mind。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "In my mind",
+          "pattern": [
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "my",
+              "fixed": false
+            },
+            {
+              "text": "mind",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：in my mind 表示心中的畫面。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "be gonna + 原形（口語）",
+          "meaning": "gonna 是 going to 的口語拼寫；此句 It’s = It is。",
+          "usage": "朋友間說某事將會好轉；正式寫作用 going to。",
+          "prompt": "朋友擔心比賽，想用口語鼓勵他。",
+          "options": [
+            "It gonna be fine.",
+            "It is gonna to be fine.",
+            "It is gonna be fine.",
+            "It is gonna being fine."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少 is；在這類主詞後不能省略 be。",
+            "gonna 已包含 to，不再加 to。",
+            "正確：is gonna + 原形 be，屬口語。",
+            "gonna 後接原形 be，不接 being。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "It's gonna be alright.",
+          "pattern": [
+            {
+              "text": "It's gonna",
+              "fixed": true
+            },
+            {
+              "text": "be alright",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：is gonna + 原形 be，屬口語。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "shake + 受詞 + off（可分片語）",
+          "meaning": "shake something off 原可指甩掉附著物，延伸為甩掉壞心情；代名詞置中。",
+          "usage": "忘掉尷尬、批評或小失誤，重新開始。",
+          "prompt": "歌手唱錯一個音後笑笑繼續唱。",
+          "options": [
+            "She shook it out from and kept singing.",
+            "She shook off it and kept singing.",
+            "She shook it off and kept singing.",
+            "She shook it of and kept singing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "shook it out from 不是此片語的形式。",
+            "代名詞 it 應放在 shook 和 off 之間。",
+            "正確：shook it off 表示不再糾結小失誤。",
+            "介系詞拼字應為 off。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "I shake it off",
+          "pattern": [
+            {
+              "text": "shake",
+              "fixed": true
+            },
+            {
+              "text": "it",
+              "fixed": false
+            },
+            {
+              "text": "off",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：shook it off 表示不再糾結小失誤。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "never + 一般現在式",
+          "meaning": "never 表示從不；用於描述習慣時，通常放在一般動詞前。",
+          "usage": "描述自己一向不會忘記某件事。",
+          "prompt": "朋友每週都準時到場，從不遲到。",
+          "options": [
+            "She is never arrive late.",
+            "She never arrives late.",
+            "She never arriving late.",
+            "She does never arrives late."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "be 不能直接接動詞原形 arrive。",
+            "正確：never 位於一般現在式動詞 arrives 前。",
+            "缺少限定動詞，不能用 arriving 作唯一謂語。",
+            "否定副詞 never 已表否定，不需 does，且動詞形式不對。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I never miss a beat",
+          "pattern": [
+            {
+              "text": "I never",
+              "fixed": true
+            },
+            {
+              "text": "miss a beat",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：never 位於一般現在式動詞 arrives 前。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "be + 名詞作比喻",
+          "meaning": "be + 名詞可作強烈比喻；lightning 在這裡不是字面變成閃電。",
+          "usage": "形容人跑得或動得極快（偏文學、誇飾）。",
+          "prompt": "朋友跳舞動作像閃電般快，哪句自然？",
+          "options": [
+            "On the dance floor, he is lightning to the chair.",
+            "On the dance floor, he lightning fast is.",
+            "On the dance floor, he is a lightning very quick.",
+            "On the dance floor, he is like lightning."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "to the chair 無法表達速度比喻。",
+            "缺少正確的 be 動詞位置。",
+            "lightning 一般不可數，a lightning 不自然。",
+            "正確：用 like lightning 比喻動作極快；這是新造的自然用法，不是假稱歌詞。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'm lightning on my feet",
+          "pattern": [
+            {
+              "text": "I'm",
+              "fixed": true
+            },
+            {
+              "text": "lightning",
+              "fixed": false
+            },
+            {
+              "text": "on my feet",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：用 like lightning 比喻動作極快；這是新造的自然用法，不是假稱歌詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "現在進行式 be + -ing",
+          "meaning": "am/is/are + -ing 表示正在進行中的動作。",
+          "usage": "描述此刻正在發生的活動。",
+          "prompt": "看台上的表演者此刻正在跳舞。",
+          "options": [
+            "The dancer is dance right now.",
+            "The dancer dances right now yesterday.",
+            "The dancer dancing right now.",
+            "The dancer is dancing right now."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "進行式應用 dancing，不是 dance。",
+            "right now 和 yesterday 衝突。",
+            "缺少 is。",
+            "正確：is dancing 表示此刻正在跳舞。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I'm dancing on my own",
+          "pattern": [
+            {
+              "text": "I'm",
+              "fixed": true
+            },
+            {
+              "text": "dancing",
+              "fixed": false
+            },
+            {
+              "text": "on my own",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：is dancing 表示此刻正在跳舞。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "on + 所有格 + own",
+          "meaning": "表示自己一個人或不靠別人幫忙；所有格要隨主詞改變。",
+          "usage": "強調某件事由自己完成。",
+          "prompt": "妹妹不需要人幫忙，自己修好腳踏車。",
+          "options": [
+            "She fixed her bike on my own.",
+            "She fixed her bike on her own.",
+            "She fixed her bike on herself own.",
+            "She fixed her bike by her own self."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "主詞 She 對應 her own，不是 my own。",
+            "正確：on her own 表示靠自己完成。",
+            "on herself own 並非正確搭配。",
+            "by her own self 不如標準的 on her own，且非本題結構。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "on my own",
+          "pattern": [
+            {
+              "text": "on",
+              "fixed": true
+            },
+            {
+              "text": "my",
+              "fixed": false
+            },
+            {
+              "text": "own",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：on her own 表示靠自己完成。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "make + 受詞 + up（編造）",
+          "meaning": "make something up 可表示臨時編出內容或動作；代名詞則須置中。",
+          "usage": "沒有預先排練，現場想出故事或舞步。",
+          "prompt": "小丑沒有寫好笑話，在舞台上即興編。",
+          "options": [
+            "He made up them on stage.",
+            "He made them up on stage.",
+            "He made them up stage on.",
+            "He made them on up stage."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "them 是代名詞，須置於 made 和 up 之間。",
+            "正確：made them up，表示現場編出笑話。",
+            "up stage on 的位置表達不自然。",
+            "make ... up 的語序不正確。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "I make the moves up",
+          "pattern": [
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "the moves",
+              "fixed": false
+            },
+            {
+              "text": "up",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：made them up，表示現場編出笑話。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "as + 主詞 + 動詞（同步進行）",
+          "meaning": "as 引導時間子句，表示「當……時／一邊……一邊……」。",
+          "usage": "邊做邊調整，沒有等到事情結束才改。",
+          "prompt": "廚師做菜時一路品嘗調整味道。",
+          "options": [
+            "The cook tastes the soup as she cook.",
+            "The cook tastes the soup as cooks she.",
+            "The cook tastes the soup as cooking she.",
+            "The cook tastes the soup as she cooks."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "she 是第三人稱單數，動詞應為 cooks。",
+            "時間子句用一般主詞＋動詞語序。",
+            "缺少正確的限定動詞結構。",
+            "正確：as she cooks 表示做菜同時品嘗。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "as I go",
+          "pattern": [
+            {
+              "text": "as",
+              "fixed": true
+            },
+            {
+              "text": "I go",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：as she cooks 表示做菜同時品嘗。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "while + 現在完成進行式",
+          "meaning": "while 引導時間子句；have been + -ing 強調一直持續的情況。",
+          "usage": "對比一段時間內一直發生的事與另一件事。",
+          "prompt": "朋友一直在等，你已經在準備晚餐。",
+          "options": [
+            "While I have been wait, you have been cooking.",
+            "While I have been waiting, you have been cooking.",
+            "While I have waiting, you have been cook.",
+            "While I been waiting, you have cooking."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "完成進行式需 have been + waiting。",
+            "正確：兩個 have been + -ing 表示一段時間持續的行為。",
+            "have waiting 與 been cook 都不是完成進行式。",
+            "缺少 have / been 等必要助動詞。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "while you've been getting down and out",
+          "pattern": [
+            {
+              "text": "while",
+              "fixed": true
+            },
+            {
+              "text": "you've been getting down and out",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個 have been + -ing 表示一段時間持續的行為。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "could’ve been + -ing（過去未實現的替代）",
+          "meaning": "could’ve been + -ing 在此對比「當時本可以一直在做的事」，暗示並未如此。",
+          "usage": "提醒朋友過去把時間花在別處，本可以享受另一活動。",
+          "prompt": "朋友整個下午擔心天氣，卻錯過了好電影。",
+          "options": [
+            "You could have been watch the film instead.",
+            "You could been watching the film instead.",
+            "You could have been watching the film instead.",
+            "You could have watching the film instead."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "been 後要用 watching。",
+            "could 後要有 have，不能直接 been。",
+            "正確：could have been + -ing 表示本可在看電影。",
+            "could have 後不能直接接 watching；需 been。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "You could've been getting down to this sick beat.",
+          "pattern": [
+            {
+              "text": "You could've been",
+              "fixed": true
+            },
+            {
+              "text": "getting down to this sick beat",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could have been + -ing 表示本可在看電影。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "get down to + 音樂／節奏",
+          "meaning": "此處 get down to a beat 是隨音樂舞動；sick 在俚語中指很棒。",
+          "usage": "在非正式場合稱讚節奏，邀人一起跳舞。",
+          "prompt": "DJ 放出節奏很棒的音樂，大家開始跳。",
+          "options": [
+            "Everyone got down to the music and started dancing.",
+            "Everyone got down to this cold rain song of a bus.",
+            "Everyone got down to finish the tickets as a beat.",
+            "Everyone got down to the broken chair."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：got down to the music 表示隨節奏跳舞。",
+            "混雜不自然名詞，無法表示跟著音樂跳舞。",
+            "get down to + V-ing 可有「著手做」的不同意義，但這句既沒有 V-ing，也非隨音樂起舞。",
+            "椅子不是可搭配的音樂節奏，語意不合。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "getting down to this sick beat",
+          "pattern": [
+            {
+              "text": "getting down to",
+              "fixed": true
+            },
+            {
+              "text": "this sick beat",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：got down to the music 表示隨節奏跳舞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "like + 引述（口語反應）",
+          "meaning": "口語 be like + 引述，可模仿某人的話、表情或反應，不是字面「像」。",
+          "usage": "向朋友生動轉述看到驚喜時的反應。",
+          "prompt": "朋友看到巨大的生日蛋糕，驚訝地說「哇！」。",
+          "options": [
+            "She was like, \"Wow!\" when she saw the big cake.",
+            "She was likes, \"Wow!\" when she saw the big cake.",
+            "She was like to \"Wow!\" when she saw the big cake.",
+            "She like, \"Wow!\" when she saw the big cake."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：was like + 直接引述表示當時的反應，屬口語。",
+            "was likes 不能這樣合用。",
+            "引述前不加 to。",
+            "缺少 be 動詞 was。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "She's like \"Oh, my God!\"",
+          "pattern": [
+            {
+              "text": "She's like",
+              "fixed": true
+            },
+            {
+              "text": "\"Oh, my God!\"",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：was like + 直接引述表示當時的反應，屬口語。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "Won’t you + 原形（邀請）",
+          "meaning": "Won’t you + 原形可作親切邀請，而非單純詢問未來否定。",
+          "usage": "邀朋友到你的桌子一起玩遊戲。",
+          "prompt": "朋友在旁邊，你想邀請他加入桌遊。",
+          "options": [
+            "Won’t you to join us for the game?",
+            "Won’t you joined us for the game?",
+            "Won’t you join us for the game?",
+            "Won’t you joining us for the game?"
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "won’t 後不加 to。",
+            "情態動詞後不接過去式 joined。",
+            "正確：Won’t you + join，友善邀請。",
+            "情態動詞後不接 joining。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Won't you come on over, baby?",
+          "pattern": [
+            {
+              "text": "Won't you",
+              "fixed": true
+            },
+            {
+              "text": "come on over",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：Won’t you + join，友善邀請。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "can + 原形動詞（能力／提議）",
+          "meaning": "can + 原形動詞可表示做得到，也能提出一起做的建議。",
+          "usage": "邀朋友一起唱歌，強調大家都可以參與。",
+          "prompt": "聚會上朋友邀請你們一起唱。",
+          "options": [
+            "We can singing together.",
+            "We can sang together.",
+            "We can to sing together.",
+            "We can sing together."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "can 後不使用 singing。",
+            "can 後不能用 sang。",
+            "can 後不加 to。",
+            "正確：can + sing 原形。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "We can shake, shake, shake",
+          "pattern": [
+            {
+              "text": "We can",
+              "fixed": true
+            },
+            {
+              "text": "shake",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：can + sing 原形。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "can’t + 原形（否定能力）",
+          "meaning": "can’t + 動詞原形表示做不到；與上面使役 make 不同，這一焦點只練否定能力。",
+          "usage": "表達自己沒有能力解決某事。",
+          "prompt": "你不會游泳，友人問你能否游過湖。",
+          "options": [
+            "I cannot swam across the lake.",
+            "I cannot swim across the lake.",
+            "I cannot to swim across the lake.",
+            "I cannot swimming across the lake."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "cannot 後不使用過去式 swam。",
+            "正確：cannot + 原形 swim。",
+            "cannot 後不接 to swim。",
+            "cannot 後需要原形 swim。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "I can't make them stay",
+          "pattern": [
+            {
+              "text": "I can't",
+              "fixed": true
+            },
+            {
+              "text": "make them stay",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：cannot + 原形 swim。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "I’ve got to + 原形（必要）",
+          "meaning": "have got to 表示必須；歌詞只唱出片語，動詞從語境補足。",
+          "usage": "有人提醒你必須在天黑前回家。",
+          "prompt": "朋友說你一定要在晚上八點前回家。",
+          "options": [
+            "You have got to get home before eight.",
+            "You have got get home before eight.",
+            "You got to to get home before eight.",
+            "You have got to getting home before eight."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：have got to + get。注意歌詞實際只出現 you’ve got to，沒有唱出 get home。",
+            "缺少 to。",
+            "多加一個 to，且缺少標準書面語 have。",
+            "to 後用原形 get，不用 getting。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "you've got to",
+          "pattern": [
+            {
+              "text": "you've got to",
+              "fixed": true
+            },
+            {
+              "text": "[動詞原形]",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：have got to + get。注意歌詞實際只出現 you’ve got to，沒有唱出 get home。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "too + 形容詞／副詞（過量）",
+          "meaning": "too 表示超出理想或適當程度，往往造成不便。",
+          "usage": "說某件事太早、太晚、太難等。",
+          "prompt": "博物館六點關門，你六點半才到。",
+          "options": [
+            "I arrived too many late for the museum.",
+            "I arrived too much late for the museum.",
+            "I arrived very early, so the museum was closed.",
+            "I arrived too late to enter the museum."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "too many 修飾可數複數名詞，不修飾 late。",
+            "此處不說 too much late。",
+            "very early 與六點半才到的情境不符。",
+            "正確：too late，晚到無法入場。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "too late",
+          "pattern": [
+            {
+              "text": "too",
+              "fixed": true
+            },
+            {
+              "text": "late",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：too late，晚到無法入場。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "後置 -ing 作補充說明",
+          "meaning": "-ing 片語補充前文中的聲音在「說」甚麼；此行不是獨立的完整句。",
+          "usage": "描述一個人走進來時同時說話；新造例句補足主句。",
+          "prompt": "一位護士走進病房，說「你會沒事的」。",
+          "options": [
+            "The nurse coming in and saying, \"You will be fine.\"",
+            "The nurse came in, to saying, \"You will be fine.\"",
+            "The nurse came in said, \"You will be fine.\"",
+            "The nurse came in, saying, \"You will be fine.\""
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "只有分詞串列，缺少完整主句謂語。",
+            "to saying 並非這裡的自然形式。",
+            "came in said 需要連接詞或改用分詞。",
+            "正確：完整主句 + saying 分詞補充同時說的話。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "Saying, \"It's gonna be alright.\"",
+          "pattern": [
+            {
+              "text": "Saying,",
+              "fixed": true
+            },
+            {
+              "text": "\"It's gonna be alright.\"",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：完整主句 + saying 分詞補充同時說的話。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "what + 主詞 + don’t + 動詞",
+          "meaning": "what 引導名詞性子句，表達「他們不知道的事」；不用問句倒裝。",
+          "usage": "談別人不知道的秘密或事實。",
+          "prompt": "你有一份驚喜，但朋友還不知道。",
+          "options": [
+            "This is what my friends don’t know.",
+            "This is what don’t my friends know.",
+            "This is what do my friends not know.",
+            "This is what my friends not know."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：what + 主詞 + don’t + 原形動詞。",
+            "名詞子句不使用疑問句倒裝。",
+            "名詞子句不用 do 提到主詞前。",
+            "一般現在式否定需 don’t。"
+          ],
+          "sourceFile": "Shake_It_Off_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "what they don't know",
+          "pattern": [
+            {
+              "text": "what",
+              "fixed": true
+            },
+            {
+              "text": "they don't know",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what + 主詞 + don’t + 原形動詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}

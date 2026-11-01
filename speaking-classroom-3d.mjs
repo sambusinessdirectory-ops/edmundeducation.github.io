@@ -1,6 +1,6 @@
 import * as THREE from './vendor/three/three.module.js';
 import {GLTFLoader} from './vendor/three/loaders/GLTFLoader.js';
-import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20261011-girls-autumn-trio1';
+import {MascotCharacters} from './speaking-mascot-characters.mjs?v=20261028-free-try-on1';
 import {updateAttention,listenerNod} from './speaking-mascot-behaviour.mjs?v=20260915-phoebe2';
 import {createClassroomEnvironment} from './speaking-classroom-environment.mjs?v=20260923-bugfix3';
 import {CAMERA_START,constrainCamera,constrainTarget,interiorOrbit} from './speaking-classroom-camera.mjs?v=20260923-night-classroom1';

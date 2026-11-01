@@ -1,0 +1,3917 @@
+{
+  "slug": "with-or-without-you",
+  "title": "With Or Without You",
+  "singer": "U2",
+  "description": "《With Or Without You》描寫一段充滿矛盾、痛苦與依戀的愛情。歌中的主角深愛著對方，卻在這段關係中感到無助與疲憊。即使兩人曾經共同度過困難，彼此的付出仍然無法滿足內心的渴望，令感情逐漸變成一種折磨。他想要離開，卻又無法真正放下，陷入在一起會痛苦、分開也會難過的兩難處境。歌曲中的「With Or Without You」正象徵這種無法擺脫的情感掙扎。最終，《With Or Without You》傳達的是愛情中的依賴、無奈與內心衝突：有時即使深愛一個人，也不代表彼此能夠幸福，而真正困難的，往往是學會面對愛與放手之間的抉擇。",
+  "exercise_name": "With Or Without You · Listening & Vocabulary",
+  "tags": [
+    "u2",
+    "with or without you",
+    "love",
+    "conflict"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "See the stone set in your eyes",
+      "chinese": "看見你眼中凝結的石頭",
+      "startSeconds": 26.56,
+      "endSeconds": 31.54
+    },
+    {
+      "lineId": "line-2",
+      "english": "See the thorn twist in your side",
+      "chinese": "看見你側身扎入的荊棘",
+      "startSeconds": 31.54,
+      "endSeconds": 35.7
+    },
+    {
+      "lineId": "line-3",
+      "english": "I'll wait for you",
+      "chinese": "我會等你",
+      "startSeconds": 36.26,
+      "endSeconds": 40.26
+    },
+    {
+      "lineId": "line-4",
+      "english": "Sleight of hand and twist of fate",
+      "chinese": "詭譎的手法與命運的扭轉",
+      "startSeconds": 44.94,
+      "endSeconds": 48.58
+    },
+    {
+      "lineId": "line-5",
+      "english": "On a bed of nails she makes me wait",
+      "chinese": "她令我於釘床上苦苦等候",
+      "startSeconds": 48.58,
+      "endSeconds": 52.92
+    },
+    {
+      "lineId": "line-6",
+      "english": "And I wait without you",
+      "chinese": "而我在沒有你的情況下等待",
+      "startSeconds": 52.92,
+      "endSeconds": 59.92
+    },
+    {
+      "lineId": "line-7",
+      "english": "With or without you",
+      "chinese": "無論有沒有你"
+    },
+    {
+      "lineId": "line-8",
+      "english": "With or without you",
+      "chinese": "無論有沒有你"
+    },
+    {
+      "lineId": "line-9",
+      "english": "Through the storm, we reach the shore",
+      "chinese": "穿越風暴，我們抵達彼岸",
+      "startSeconds": 67.8,
+      "endSeconds": 74.72
+    },
+    {
+      "lineId": "line-10",
+      "english": "You give it all but I want more",
+      "chinese": "你付出了一切但我還想要更多",
+      "startSeconds": 74.72,
+      "endSeconds": 79.08
+    },
+    {
+      "lineId": "line-11",
+      "english": "And I'm waiting for you",
+      "chinese": "而我在等你",
+      "startSeconds": 79.08,
+      "endSeconds": 84.08
+    },
+    {
+      "lineId": "line-12",
+      "english": "With or without you",
+      "chinese": "無論有沒有你",
+      "startSeconds": 85.32,
+      "endSeconds": 88.68
+    },
+    {
+      "lineId": "line-13",
+      "english": "With or without you, ah-ah",
+      "chinese": "無論有沒有你，啊啊",
+      "startSeconds": 90.08,
+      "endSeconds": 92.98
+    },
+    {
+      "lineId": "line-14",
+      "english": "I can't live with or without you",
+      "chinese": "有你或沒有你我都活不下去"
+    },
+    {
+      "lineId": "line-15",
+      "english": "And you give yourself away",
+      "chinese": "而你將自己交了出去",
+      "startSeconds": 111.62,
+      "endSeconds": 116.32
+    },
+    {
+      "lineId": "line-16",
+      "english": "And you give yourself away",
+      "chinese": "而你將自己交了出去",
+      "startSeconds": 116.32,
+      "endSeconds": 120.86
+    },
+    {
+      "lineId": "line-17",
+      "english": "And you give, and you give",
+      "chinese": "你不斷付出，不斷付出",
+      "startSeconds": 120.86,
+      "endSeconds": 125.02
+    },
+    {
+      "lineId": "line-18",
+      "english": "And you give yourself away",
+      "chinese": "而你將自己交了出去",
+      "startSeconds": 125.02,
+      "endSeconds": 130.04
+    },
+    {
+      "lineId": "line-19",
+      "english": "My hands are tied, my body bruised",
+      "chinese": "我的雙手被縛，身體滿是瘀傷",
+      "startSeconds": 131.08,
+      "endSeconds": 137.84
+    },
+    {
+      "lineId": "line-20",
+      "english": "She got me with nothing to win",
+      "chinese": "她將我俘虜，我已無物可贏",
+      "startSeconds": 137.84,
+      "endSeconds": 142.3
+    },
+    {
+      "lineId": "line-21",
+      "english": "And nothing left to lose",
+      "chinese": "也再沒有什麼可失去",
+      "startSeconds": 142.3,
+      "endSeconds": 146.72
+    },
+    {
+      "lineId": "line-22",
+      "english": "And you give yourself away",
+      "chinese": "而你將自己交了出去",
+      "startSeconds": 147.24,
+      "endSeconds": 150.98
+    },
+    {
+      "lineId": "line-23",
+      "english": "And you give yourself away",
+      "chinese": "而你將自己交了出去",
+      "startSeconds": 151.5,
+      "endSeconds": 155.72
+    },
+    {
+      "lineId": "line-24",
+      "english": "And you give, and you give",
+      "chinese": "你不斷付出，不斷付出",
+      "startSeconds": 155.72,
+      "endSeconds": 159.56
+    },
+    {
+      "lineId": "line-25",
+      "english": "And you give yourself away",
+      "chinese": "而你將自己交了出去",
+      "startSeconds": 159.56,
+      "endSeconds": 164.42
+    },
+    {
+      "lineId": "line-26",
+      "english": "With or without you",
+      "chinese": "無論有沒有你",
+      "startSeconds": 164.42,
+      "endSeconds": 167.88
+    },
+    {
+      "lineId": "line-27",
+      "english": "With or without you, ohh",
+      "chinese": "無論有沒有你，噢",
+      "startSeconds": 168.56,
+      "endSeconds": 171.6
+    },
+    {
+      "lineId": "line-28",
+      "english": "I can't live with or without you",
+      "chinese": "有你或沒有你我都活不下去"
+    },
+    {
+      "lineId": "line-29",
+      "english": "With or without you",
+      "chinese": "無論有沒有你"
+    },
+    {
+      "lineId": "line-30",
+      "english": "With or without you, ohh",
+      "chinese": "無論有沒有你，噢"
+    },
+    {
+      "lineId": "line-31",
+      "english": "I can't live with or without you",
+      "chinese": "有你或沒有你我都活不下去"
+    },
+    {
+      "lineId": "line-32",
+      "english": "With or without you",
+      "chinese": "無論有沒有你"
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "With or without",
+      "meaning": "無論有沒有……",
+      "usage": "當兩種情況都不影響結果時使用。常見句型：with or without + 人／東西。",
+      "prompt": "哪一句正確使用了「With or without」？",
+      "options": [
+        "I will go to the park with or without my brother.",
+        "I with or without my cousin to the concert.",
+        "She is with or without very hungry today.",
+        "We ate with or without yesterday at six."
+      ],
+      "answer": 0,
+      "explanation": "不管哥哥來不來，我都會去公園，兩種情況都可以。",
+      "optionExplanations": [
+        "不管哥哥來不來，我都會去公園，兩種情況都可以。",
+        "with or without 是介詞片語，句子缺少主要動詞。",
+        "不能接在 very hungry 前面表示「非常」；可以說 She is very hungry.",
+        "yesterday 是時間，這裡不能用 with or without 表達吃飯時間。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Wait for",
+      "meaning": "等待……",
+      "usage": "等人、車或事情時使用；wait for 後面接等待的對象。",
+      "prompt": "哪一句正確使用了「Wait for」？",
+      "options": [
+        "I wait for to my neighbour outside.",
+        "Please wait for me outside the school.",
+        "I wait for happy every Tuesday.",
+        "She waits for to the door."
+      ],
+      "answer": 1,
+      "explanation": "wait for me 表示等我，是自然的日常說法。",
+      "optionExplanations": [
+        "wait for 後直接接人，不加 to。",
+        "wait for me 表示等我，是自然的日常說法。",
+        "happy 是形容詞，不能直接當 wait for 的對象；可說 I wait for good news.",
+        "wait for 後不能直接接 to the door；可說 She waits by the door."
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Twist of fate",
+      "meaning": "命運的意外轉折",
+      "usage": "說明意想不到的事情改變了人生或計畫。屬於比喻片語。",
+      "prompt": "哪一句正確使用了「Twist of fate」？",
+      "options": [
+        "I twist of fate my old friend at the airport.",
+        "By a twist of fate, we met again in another city.",
+        "She wears a twist of fate on her head.",
+        "I bought two twists of fate at the shop."
+      ],
+      "answer": 1,
+      "explanation": "在另一個城市意外重逢，很適合用 twist of fate。",
+      "optionExplanations": [
+        "a twist of fate 是名詞片語，不能單獨作動詞。",
+        "在另一個城市意外重逢，很適合用 twist of fate。",
+        "這不是帽子或衣服，不能用 wear。",
+        "它不是商店裡能買到、能數量化的商品。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Make someone wait",
+      "meaning": "讓某人等待",
+      "usage": "當某人或某事造成別人等待時使用。句型：make + 人 + wait。",
+      "prompt": "哪一句正確使用了「Make someone wait」？",
+      "options": [
+        "We make to our cousin wait outside.",
+        "I made my colleague to wait for me.",
+        "She made wait her friend after class.",
+        "The bus made me wait for an hour."
+      ],
+      "answer": 3,
+      "explanation": "公車遲遲沒來，讓我等了一小時，語意正確。",
+      "optionExplanations": [
+        "make someone wait 直接接人，不加 to。",
+        "make someone 後接原形 wait，不加 to。",
+        "語序錯誤，應說 She made her friend wait after class.",
+        "公車遲遲沒來，讓我等了一小時，語意正確。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Through",
+      "meaning": "穿過、經過",
+      "usage": "從某個空間或困難的情況中穿越、經歷時使用。",
+      "prompt": "哪一句正確使用了「Through」？",
+      "options": [
+        "I through the museum yesterday.",
+        "We walked through to the park to get home.",
+        "We walked through the park to get home.",
+        "She through her old messages last night."
+      ],
+      "answer": 2,
+      "explanation": "表示從公園裡面穿過去，使用正確。",
+      "optionExplanations": [
+        "through 是介詞，句子缺少 walked 等動詞。",
+        "表示穿過公園用 through the park，不加 to。",
+        "表示從公園裡面穿過去，使用正確。",
+        "through 不能單獨作翻看訊息的動詞。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Reach",
+      "meaning": "到達、抵達",
+      "usage": "說到達某個地方或伸手碰到某物時使用；reach 後通常直接接地點或物品。",
+      "prompt": "哪一句正確使用了「Reach」？",
+      "options": [
+        "We reached the beach before lunch.",
+        "I reached to the school at eight.",
+        "She reached to the hotel before midnight.",
+        "He is very reach after dinner."
+      ],
+      "answer": 0,
+      "explanation": "reach the beach 表示到達海灘，不需要加 to。",
+      "optionExplanations": [
+        "reach the beach 表示到達海灘，不需要加 to。",
+        "表示抵達學校時，通常說 I reached the school 或 I got to the school。",
+        "reach 表示到達時直接接地點，不加 to。",
+        "reach 不是形容詞，不能放在 very 後形容人。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Give it all",
+      "meaning": "付出全部努力、全力以赴",
+      "usage": "為比賽、工作或重要的事情盡全力時使用。",
+      "prompt": "哪一句正確使用了「Give it all」？",
+      "options": [
+        "I gave it all to win the school race.",
+        "She gave it all to won the final.",
+        "We gives it all at every rehearsal.",
+        "He is give it all very tall."
+      ],
+      "answer": 0,
+      "explanation": "表示為了校內比賽全力以赴。",
+      "optionExplanations": [
+        "表示為了校內比賽全力以赴。",
+        "to 後用 win，不能接 won。",
+        "主詞 we 配 give，不能加 s。",
+        "句型不通；形容身高應說 He is very tall。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Want more",
+      "meaning": "想要更多",
+      "usage": "已經有一些東西或經驗，但還希望再多一點時使用。",
+      "prompt": "哪一句正確使用了「Want more」？",
+      "options": [
+        "She wants more very tired.",
+        "My brother wants more to yesterday.",
+        "I want more time on stage. My family wants less.",
+        "We want more the bus is red."
+      ],
+      "answer": 2,
+      "explanation": "want more 表示想要更多，這裡與家人的反應形成對比。",
+      "optionExplanations": [
+        "want more 不能取代 be 的結構；應說 She is very tired。",
+        "yesterday 不能當作這裡想多要的東西。",
+        "want more 表示想要更多，這裡與家人的反應形成對比。",
+        "句子把兩個不相連的想法接在一起，語法不通。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "My hands are tied",
+      "meaning": "我無能為力、我沒辦法自行決定",
+      "usage": "有規定或其他限制，讓自己沒辦法做想做的事情時使用。這是比喻。",
+      "prompt": "哪一句正確使用了「My hands are tied」？",
+      "options": [
+        "I bought my hands are tied at the market.",
+        "My hands are tied to changed the rule.",
+        "My hands is tied by the new rules.",
+        "I cannot change the rule. My hands are tied."
+      ],
+      "answer": 3,
+      "explanation": "因為規定而無法改變事情，符合這個比喻的意思。",
+      "optionExplanations": [
+        "它不是可以買到的物品。",
+        "to changed 形式錯誤；my hands are tied 表示無法自由行動。",
+        "複數主詞 hands 配 are，不能用 is。",
+        "因為規定而無法改變事情，符合這個比喻的意思。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Nothing left to lose",
+      "meaning": "沒有什麼可再失去的",
+      "usage": "已經失去很多或沒有風險可顧慮，因此決定勇敢嘗試時使用。",
+      "prompt": "哪一句正確使用了「Nothing left to lose」？",
+      "options": [
+        "I nothing left to lose after the failed business.",
+        "I have nothing left to lose, so I will try again.",
+        "My cousin has nothing left to lose to tried again.",
+        "We has nothing left to lose now."
+      ],
+      "answer": 1,
+      "explanation": "表示自己已經沒有什麼可失去，所以決定再試一次。",
+      "optionExplanations": [
+        "nothing left to lose 前需要 have，不能單獨作動詞。",
+        "表示自己已經沒有什麼可失去，所以決定再試一次。",
+        "to tried 形式錯誤；可用 so he will try again。",
+        "主詞 we 配 have，不能用 has。"
+      ]
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} set in your 〔第 2 題〕",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "See the stone",
+            "See the rock",
+            "Look at the stone"
+          ],
+          "answer": "See the stone"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 set in your {{blank}}",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "mind",
+            "eyes",
+            "face"
+          ],
+          "answer": "eyes"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "See the thorn {{blank}} in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "bend",
+            "turn",
+            "twist"
+          ],
+          "answer": "twist"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "I'll {{blank}} for you",
+          "promptZh": "我會等你",
+          "options": [
+            "wait",
+            "stay",
+            "look"
+          ],
+          "answer": "wait"
+        },
+        {
+          "number": 5,
+          "lineId": "line-4",
+          "prompt": "Sleight of hand and {{blank}}",
+          "promptZh": "詭譎的手法與命運的扭轉",
+          "options": [
+            "twist of faith",
+            "twist of fate",
+            "turn of fate"
+          ],
+          "answer": "twist of fate"
+        },
+        {
+          "number": 6,
+          "lineId": "line-5",
+          "prompt": "On a bed of nails she {{blank}}",
+          "promptZh": "她令我於釘床上苦苦等候",
+          "options": [
+            "makes me stay",
+            "makes me wait",
+            "makes me break"
+          ],
+          "answer": "makes me wait"
+        },
+        {
+          "number": 7,
+          "lineId": "line-6",
+          "prompt": "And I {{blank}}",
+          "promptZh": "而我在沒有你的情況下等待",
+          "options": [
+            "wait without me",
+            "stand without you",
+            "wait without you"
+          ],
+          "answer": "wait without you"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "With or {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without you",
+            "with you",
+            "without me"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "Through the {{blank}}, we reach the shore",
+          "promptZh": "穿越風暴，我們抵達彼岸",
+          "options": [
+            "storm",
+            "rain",
+            "dark"
+          ],
+          "answer": "storm"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "You {{blank}} but I want more",
+          "promptZh": "你付出了一切但我還想要更多",
+          "options": [
+            "give it up",
+            "give it all",
+            "give it away"
+          ],
+          "answer": "give it all"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "And I'm {{blank}} for you",
+          "promptZh": "而我在等你",
+          "options": [
+            "calling",
+            "looking",
+            "waiting"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 12,
+          "lineId": "line-14",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "live",
+            "breathe",
+            "be"
+          ],
+          "answer": "live"
+        },
+        {
+          "number": 13,
+          "lineId": "line-15",
+          "prompt": "And you {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give it all away",
+            "give yourself away",
+            "give yourself to me"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 14,
+          "lineId": "line-17",
+          "prompt": "And you {{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "live",
+            "take",
+            "give"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 15,
+          "lineId": "line-19",
+          "prompt": "My hands are tied, my body {{blank}}",
+          "promptZh": "我的雙手被縛，身體滿是瘀傷",
+          "options": [
+            "bruised",
+            "broken",
+            "bleeding"
+          ],
+          "answer": "bruised"
+        },
+        {
+          "number": 16,
+          "lineId": "line-20",
+          "prompt": "She got me with {{blank}}",
+          "promptZh": "她將我俘虜，我已無物可贏",
+          "options": [
+            "nothing to lose",
+            "nothing to win",
+            "nothing to gain"
+          ],
+          "answer": "nothing to win"
+        },
+        {
+          "number": 17,
+          "lineId": "line-21",
+          "prompt": "And {{blank}}",
+          "promptZh": "也再沒有什麼可失去",
+          "options": [
+            "nothing left to give",
+            "nothing left to win",
+            "nothing left to lose"
+          ],
+          "answer": "nothing left to lose"
+        },
+        {
+          "number": 18,
+          "lineId": "line-28",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "be",
+            "breathe",
+            "live"
+          ],
+          "answer": "live"
+        },
+        {
+          "number": 19,
+          "lineId": "line-31",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "live",
+            "breathe",
+            "be"
+          ],
+          "answer": "live"
+        },
+        {
+          "number": 20,
+          "lineId": "line-32",
+          "prompt": "With or without {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "me",
+            "you",
+            "us"
+          ],
+          "answer": "you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} set in your {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "See the thorn {{q:3}} in your side"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I'll {{q:4}} for you"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sleight of hand and {{q:5}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "On a bed of nails she {{q:6}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "And I {{q:7}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "With or {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "With or without you"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Through the {{q:9}}, we reach the shore"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You {{q:10}} but I want more"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I'm {{q:11}} for you"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "With or without you"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "With or without you, ah-ah"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I can't {{q:12}} with or without you"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And you {{q:13}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And you {{q:14}}, and you give"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "My hands are tied, my body {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "She got me with {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And you give, and you give"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "With or without you"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "With or without you, ohh"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can't {{q:18}} with or without you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "With or without you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With or without you, ohh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't {{q:19}} with or without you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "With or without {{q:20}}"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} set in your 〔第 2 題〕",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "See the rock",
+            "See the stone",
+            "Look at the stone"
+          ],
+          "answer": "See the stone"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 set in your {{blank}}",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "eyes",
+            "mind",
+            "face"
+          ],
+          "answer": "eyes"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 4 題〕 in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "See the thorns",
+            "See the thorn",
+            "Look at the thorn"
+          ],
+          "answer": "See the thorn"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕 {{blank}} in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "bend",
+            "turn",
+            "twist"
+          ],
+          "answer": "twist"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "{{blank}} for you",
+          "promptZh": "我會等你",
+          "options": [
+            "I'll wait",
+            "I will wait",
+            "I'm gonna wait"
+          ],
+          "answer": "I'll wait"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "Sleight of hand and {{blank}}",
+          "promptZh": "詭譎的手法與命運的扭轉",
+          "options": [
+            "turn of fate",
+            "twist of faith",
+            "twist of fate"
+          ],
+          "answer": "twist of fate"
+        },
+        {
+          "number": 7,
+          "lineId": "line-5",
+          "prompt": "On a bed of nails she {{blank}}",
+          "promptZh": "她令我於釘床上苦苦等候",
+          "options": [
+            "makes me wait",
+            "makes me stay",
+            "makes me break"
+          ],
+          "answer": "makes me wait"
+        },
+        {
+          "number": 8,
+          "lineId": "line-6",
+          "prompt": "And I {{blank}}",
+          "promptZh": "而我在沒有你的情況下等待",
+          "options": [
+            "stand without you",
+            "wait without you",
+            "wait without me"
+          ],
+          "answer": "wait without you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-7",
+          "prompt": "With or {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "with you",
+            "without you",
+            "without me"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or without you",
+            "With or without ya",
+            "With or without me"
+          ],
+          "answer": "With or without you"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "Through the {{blank}}, we reach the shore",
+          "promptZh": "穿越風暴，我們抵達彼岸",
+          "options": [
+            "dark",
+            "rain",
+            "storm"
+          ],
+          "answer": "storm"
+        },
+        {
+          "number": 12,
+          "lineId": "line-10",
+          "prompt": "You {{blank}} but I want more",
+          "promptZh": "你付出了一切但我還想要更多",
+          "options": [
+            "give it away",
+            "give it up",
+            "give it all"
+          ],
+          "answer": "give it all"
+        },
+        {
+          "number": 13,
+          "lineId": "line-11",
+          "prompt": "And I'm {{blank}} for you",
+          "promptZh": "而我在等你",
+          "options": [
+            "looking",
+            "waiting",
+            "calling"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 14,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 15 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or",
+            "With or without",
+            "without or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "〔第 14 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "with you",
+            "without you",
+            "without me"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，啊啊",
+          "options": [
+            "ah-ah",
+            "ohh",
+            "yeah"
+          ],
+          "answer": "ah-ah"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "be",
+            "breathe",
+            "live"
+          ],
+          "answer": "live"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "And you {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give it all away",
+            "give yourself away",
+            "give yourself to me"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "{{blank}} yourself away",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you keep",
+            "And you just give",
+            "And you give"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 20,
+          "lineId": "line-17",
+          "prompt": "And you {{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "give",
+            "take",
+            "live"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 21,
+          "lineId": "line-18",
+          "prompt": "{{blank}} yourself away",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you give",
+            "And you just give",
+            "And you keep"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 22,
+          "lineId": "line-19",
+          "prompt": "My hands are tied, my body {{blank}}",
+          "promptZh": "我的雙手被縛，身體滿是瘀傷",
+          "options": [
+            "bleeding",
+            "broken",
+            "bruised"
+          ],
+          "answer": "bruised"
+        },
+        {
+          "number": 23,
+          "lineId": "line-20",
+          "prompt": "She got me with {{blank}}",
+          "promptZh": "她將我俘虜，我已無物可贏",
+          "options": [
+            "nothing to lose",
+            "nothing to win",
+            "nothing to gain"
+          ],
+          "answer": "nothing to win"
+        },
+        {
+          "number": 24,
+          "lineId": "line-21",
+          "prompt": "And {{blank}}",
+          "promptZh": "也再沒有什麼可失去",
+          "options": [
+            "nothing left to win",
+            "nothing left to lose",
+            "nothing left to give"
+          ],
+          "answer": "nothing left to lose"
+        },
+        {
+          "number": 25,
+          "lineId": "line-22",
+          "prompt": "{{blank}} 〔第 26 題〕",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you",
+            "And you just",
+            "but you"
+          ],
+          "answer": "And you"
+        },
+        {
+          "number": 26,
+          "lineId": "line-22",
+          "prompt": "〔第 25 題〕 {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give yourself to me",
+            "give it all away",
+            "give yourself away"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 27,
+          "lineId": "line-24",
+          "prompt": "And you {{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "give",
+            "take",
+            "live"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 28,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 29 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or without",
+            "With or",
+            "without or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 29,
+          "lineId": "line-26",
+          "prompt": "〔第 28 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without me",
+            "with you",
+            "without you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 30,
+          "lineId": "line-27",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，噢",
+          "options": [
+            "ah-ah",
+            "ohh",
+            "yeah"
+          ],
+          "answer": "ohh"
+        },
+        {
+          "number": 31,
+          "lineId": "line-28",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "live",
+            "breathe",
+            "be"
+          ],
+          "answer": "live"
+        },
+        {
+          "number": 32,
+          "lineId": "line-31",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "be",
+            "breathe",
+            "live"
+          ],
+          "answer": "live"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} set in your {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}} in your side"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} for you"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Sleight of hand and {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "On a bed of nails she {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "And I {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "With or {{q:9}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Through the {{q:11}}, we reach the shore"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You {{q:12}} but I want more"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I'm {{q:13}} for you"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "With or without you, {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I can't {{q:17}} with or without you"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And you {{q:18}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:19}} yourself away"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And you {{q:20}}, and you give"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:21}} yourself away"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "My hands are tied, my body {{q:22}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "She got me with {{q:23}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:24}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And you {{q:27}}, and you give"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:28}} {{q:29}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "With or without you, {{q:30}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can't {{q:31}} with or without you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "With or without you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With or without you, ohh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't {{q:32}} with or without you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "With or without you"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 in your 〔第 3 題〕",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "See the stone",
+            "See the rock",
+            "See a stone"
+          ],
+          "answer": "See the stone"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} in your 〔第 3 題〕",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "stuck",
+            "set",
+            "placed"
+          ],
+          "answer": "set"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 in your {{blank}}",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "eyes",
+            "mind",
+            "face"
+          ],
+          "answer": "eyes"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 5 題〕 in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "See a thorn",
+            "See the thorns",
+            "See the thorn"
+          ],
+          "answer": "See the thorn"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 {{blank}} in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "wind",
+            "turn",
+            "twist"
+          ],
+          "answer": "twist"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 7 題〕 〔第 8 題〕",
+          "promptZh": "我會等你",
+          "options": [
+            "I will",
+            "I'll",
+            "never I'll"
+          ],
+          "answer": "I'll"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 {{blank}} 〔第 8 題〕",
+          "promptZh": "我會等你",
+          "options": [
+            "wait",
+            "stay",
+            "look"
+          ],
+          "answer": "wait"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 〔第 7 題〕 {{blank}}",
+          "promptZh": "我會等你",
+          "options": [
+            "on you",
+            "for you",
+            "to you"
+          ],
+          "answer": "for you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and 〔第 10 題〕",
+          "promptZh": "詭譎的手法與命運的扭轉",
+          "options": [
+            "Sleight of hand",
+            "Slight of hand",
+            "Sleight with hand"
+          ],
+          "answer": "Sleight of hand"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "〔第 9 題〕 and {{blank}}",
+          "promptZh": "詭譎的手法與命運的扭轉",
+          "options": [
+            "twist of faith",
+            "turn of fate",
+            "twist of fate"
+          ],
+          "answer": "twist of fate"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "{{blank}} she 〔第 12 題〕",
+          "promptZh": "她令我於釘床上苦苦等候",
+          "options": [
+            "On a bed of stone",
+            "On a bed of nails",
+            "at a bed of nails"
+          ],
+          "answer": "On a bed of nails"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕 she {{blank}}",
+          "promptZh": "她令我於釘床上苦苦等候",
+          "options": [
+            "makes me break",
+            "makes me stay",
+            "makes me wait"
+          ],
+          "answer": "makes me wait"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "而我在沒有你的情況下等待",
+          "options": [
+            "And I",
+            "And I'll",
+            "but I"
+          ],
+          "answer": "And I"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "而我在沒有你的情況下等待",
+          "options": [
+            "wait without you",
+            "stand without you",
+            "wait without me"
+          ],
+          "answer": "wait without you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "With or {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without me",
+            "with you",
+            "without you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "{{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or without ya",
+            "With or without you",
+            "With or without me"
+          ],
+          "answer": "With or without you"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, 〔第 18 題〕",
+          "promptZh": "穿越風暴，我們抵達彼岸",
+          "options": [
+            "Through a storm",
+            "In the storm",
+            "Through the storm"
+          ],
+          "answer": "Through the storm"
+        },
+        {
+          "number": 18,
+          "lineId": "line-9",
+          "prompt": "〔第 17 題〕, {{blank}}",
+          "promptZh": "穿越風暴，我們抵達彼岸",
+          "options": [
+            "we reach the shore",
+            "we hit the shore",
+            "we find the shore"
+          ],
+          "answer": "we reach the shore"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 20 題〕",
+          "promptZh": "你付出了一切但我還想要更多",
+          "options": [
+            "You give it up",
+            "You give it all",
+            "we give it all"
+          ],
+          "answer": "You give it all"
+        },
+        {
+          "number": 20,
+          "lineId": "line-10",
+          "prompt": "〔第 19 題〕 {{blank}}",
+          "promptZh": "你付出了一切但我還想要更多",
+          "options": [
+            "but I need more",
+            "but I want more",
+            "but I want it all"
+          ],
+          "answer": "but I want more"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "And I'm {{blank}} for you",
+          "promptZh": "而我在等你",
+          "options": [
+            "waiting",
+            "looking",
+            "calling"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 23 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without or",
+            "With or without",
+            "With or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "〔第 22 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without me",
+            "with you",
+            "without you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，啊啊",
+          "options": [
+            "ah-ah",
+            "ohh",
+            "yeah"
+          ],
+          "answer": "ah-ah"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "I can't {{blank}} with or without you",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "breathe",
+            "live",
+            "be"
+          ],
+          "answer": "live"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "And you {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give yourself to me",
+            "give it all away",
+            "give yourself away"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 27,
+          "lineId": "line-16",
+          "prompt": "{{blank}} yourself away",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you just give",
+            "And you give",
+            "And you keep"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 28,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "And you give",
+            "And you keep",
+            "but you give"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 29,
+          "lineId": "line-18",
+          "prompt": "{{blank}} yourself away",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you give",
+            "And you just give",
+            "And you keep"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 30,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, 〔第 31 題〕",
+          "promptZh": "我的雙手被縛，身體滿是瘀傷",
+          "options": [
+            "My hands are bound",
+            "My hands are tied",
+            "your hands are tied"
+          ],
+          "answer": "My hands are tied"
+        },
+        {
+          "number": 31,
+          "lineId": "line-19",
+          "prompt": "〔第 30 題〕, {{blank}}",
+          "promptZh": "我的雙手被縛，身體滿是瘀傷",
+          "options": [
+            "my body bleeding",
+            "my body broken",
+            "my body bruised"
+          ],
+          "answer": "my body bruised"
+        },
+        {
+          "number": 32,
+          "lineId": "line-20",
+          "prompt": "{{blank}} with 〔第 33 題〕",
+          "promptZh": "她將我俘虜，我已無物可贏",
+          "options": [
+            "She got him",
+            "She's got me",
+            "She got me"
+          ],
+          "answer": "She got me"
+        },
+        {
+          "number": 33,
+          "lineId": "line-20",
+          "prompt": "〔第 32 題〕 with {{blank}}",
+          "promptZh": "她將我俘虜，我已無物可贏",
+          "options": [
+            "nothing to win",
+            "nothing to lose",
+            "nothing to gain"
+          ],
+          "answer": "nothing to win"
+        },
+        {
+          "number": 34,
+          "lineId": "line-21",
+          "prompt": "{{blank}} left to lose",
+          "promptZh": "也再沒有什麼可失去",
+          "options": [
+            "And there's nothing",
+            "And nothing",
+            "but nothing"
+          ],
+          "answer": "And nothing"
+        },
+        {
+          "number": 35,
+          "lineId": "line-22",
+          "prompt": "{{blank}} 〔第 36 題〕",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "but you",
+            "And you just",
+            "And you"
+          ],
+          "answer": "And you"
+        },
+        {
+          "number": 36,
+          "lineId": "line-22",
+          "prompt": "〔第 35 題〕 {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give yourself away",
+            "give it all away",
+            "give yourself to me"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 37,
+          "lineId": "line-24",
+          "prompt": "And you {{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "take",
+            "give",
+            "live"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 38,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 39 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or without",
+            "With or",
+            "without or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 39,
+          "lineId": "line-26",
+          "prompt": "〔第 38 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without me",
+            "with you",
+            "without you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 40,
+          "lineId": "line-27",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，噢",
+          "options": [
+            "ohh",
+            "ah-ah",
+            "yeah"
+          ],
+          "answer": "ohh"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} in your {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} in your side"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}} {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:9}} and {{q:10}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:11}} she {{q:12}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "With or {{q:15}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:16}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:17}}, {{q:18}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I'm {{q:21}} for you"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:22}} {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "With or without you, {{q:24}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I can't {{q:25}} with or without you"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And you {{q:26}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:27}} yourself away"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:28}}, and you give"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:29}} yourself away"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:30}}, {{q:31}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:32}} with {{q:33}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:34}} left to lose"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:35}} {{q:36}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And you {{q:37}}, and you give"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:38}} {{q:39}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "With or without you, {{q:40}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I can't live with or without you"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "With or without you"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With or without you, ohh"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I can't live with or without you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "With or without you"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 in your 〔第 3 題〕",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "See the rock",
+            "See the stone",
+            "See a stone"
+          ],
+          "answer": "See the stone"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} in your 〔第 3 題〕",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "set",
+            "stuck",
+            "placed"
+          ],
+          "answer": "set"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 in your {{blank}}",
+          "promptZh": "看見你眼中凝結的石頭",
+          "options": [
+            "mind",
+            "eyes",
+            "face"
+          ],
+          "answer": "eyes"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 5 題〕 in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "See a thorn",
+            "See the thorns",
+            "See the thorn"
+          ],
+          "answer": "See the thorn"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 {{blank}} in your side",
+          "promptZh": "看見你側身扎入的荊棘",
+          "options": [
+            "twist",
+            "turn",
+            "wind"
+          ],
+          "answer": "twist"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "{{blank}} 〔第 7 題〕 〔第 8 題〕",
+          "promptZh": "我會等你",
+          "options": [
+            "I'll",
+            "I will",
+            "never I'll"
+          ],
+          "answer": "I'll"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 {{blank}} 〔第 8 題〕",
+          "promptZh": "我會等你",
+          "options": [
+            "stay",
+            "wait",
+            "look"
+          ],
+          "answer": "wait"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕 〔第 7 題〕 {{blank}}",
+          "promptZh": "我會等你",
+          "options": [
+            "to you",
+            "on you",
+            "for you"
+          ],
+          "answer": "for you"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "{{blank}} and 〔第 10 題〕",
+          "promptZh": "詭譎的手法與命運的扭轉",
+          "options": [
+            "Sleight of hand",
+            "Slight of hand",
+            "Sleight with hand"
+          ],
+          "answer": "Sleight of hand"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "〔第 9 題〕 and {{blank}}",
+          "promptZh": "詭譎的手法與命運的扭轉",
+          "options": [
+            "twist of faith",
+            "turn of fate",
+            "twist of fate"
+          ],
+          "answer": "twist of fate"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "{{blank}} she 〔第 12 題〕",
+          "promptZh": "她令我於釘床上苦苦等候",
+          "options": [
+            "On a bed of stone",
+            "On a bed of nails",
+            "at a bed of nails"
+          ],
+          "answer": "On a bed of nails"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "〔第 11 題〕 she {{blank}}",
+          "promptZh": "她令我於釘床上苦苦等候",
+          "options": [
+            "makes me stay",
+            "makes me wait",
+            "makes me break"
+          ],
+          "answer": "makes me wait"
+        },
+        {
+          "number": 13,
+          "lineId": "line-6",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "而我在沒有你的情況下等待",
+          "options": [
+            "And I",
+            "And I'll",
+            "but I"
+          ],
+          "answer": "And I"
+        },
+        {
+          "number": 14,
+          "lineId": "line-6",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "而我在沒有你的情況下等待",
+          "options": [
+            "wait without me",
+            "stand without you",
+            "wait without you"
+          ],
+          "answer": "wait without you"
+        },
+        {
+          "number": 15,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without or",
+            "With or without",
+            "With or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 16,
+          "lineId": "line-7",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "you",
+            "without you",
+            "me"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 17,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 18 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or",
+            "With or without",
+            "without or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 18,
+          "lineId": "line-8",
+          "prompt": "〔第 17 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "with or without you",
+            "without you",
+            "you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-9",
+          "prompt": "{{blank}}, 〔第 20 題〕",
+          "promptZh": "穿越風暴，我們抵達彼岸",
+          "options": [
+            "Through a storm",
+            "In the storm",
+            "Through the storm"
+          ],
+          "answer": "Through the storm"
+        },
+        {
+          "number": 20,
+          "lineId": "line-9",
+          "prompt": "〔第 19 題〕, {{blank}}",
+          "promptZh": "穿越風暴，我們抵達彼岸",
+          "options": [
+            "we reach the shore",
+            "we hit the shore",
+            "we find the shore"
+          ],
+          "answer": "we reach the shore"
+        },
+        {
+          "number": 21,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 22 題〕",
+          "promptZh": "你付出了一切但我還想要更多",
+          "options": [
+            "You give it all",
+            "You give it up",
+            "we give it all"
+          ],
+          "answer": "You give it all"
+        },
+        {
+          "number": 22,
+          "lineId": "line-10",
+          "prompt": "〔第 21 題〕 {{blank}}",
+          "promptZh": "你付出了一切但我還想要更多",
+          "options": [
+            "but I want it all",
+            "but I need more",
+            "but I want more"
+          ],
+          "answer": "but I want more"
+        },
+        {
+          "number": 23,
+          "lineId": "line-11",
+          "prompt": "And I'm {{blank}} for you",
+          "promptZh": "而我在等你",
+          "options": [
+            "looking",
+            "waiting",
+            "calling"
+          ],
+          "answer": "waiting"
+        },
+        {
+          "number": 24,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 25 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or",
+            "With or without",
+            "without or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 25,
+          "lineId": "line-12",
+          "prompt": "〔第 24 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "me",
+            "you",
+            "without you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 26,
+          "lineId": "line-13",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，啊啊",
+          "options": [
+            "ohh",
+            "ah-ah",
+            "yeah"
+          ],
+          "answer": "ah-ah"
+        },
+        {
+          "number": 27,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 28 題〕",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "never I can't live",
+            "I cannot live",
+            "I can't live"
+          ],
+          "answer": "I can't live"
+        },
+        {
+          "number": 28,
+          "lineId": "line-14",
+          "prompt": "〔第 27 題〕 {{blank}}",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "with or without you now",
+            "with or without you",
+            "with or without you again"
+          ],
+          "answer": "with or without you"
+        },
+        {
+          "number": 29,
+          "lineId": "line-15",
+          "prompt": "And you {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give yourself away",
+            "give it all away",
+            "give yourself to me"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 30,
+          "lineId": "line-16",
+          "prompt": "{{blank}} yourself away",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you keep",
+            "And you just give",
+            "And you give"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 31,
+          "lineId": "line-17",
+          "prompt": "{{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "And you keep",
+            "And you give",
+            "but you give"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "{{blank}} yourself away",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you give",
+            "And you just give",
+            "And you keep"
+          ],
+          "answer": "And you give"
+        },
+        {
+          "number": 33,
+          "lineId": "line-19",
+          "prompt": "{{blank}}, 〔第 34 題〕",
+          "promptZh": "我的雙手被縛，身體滿是瘀傷",
+          "options": [
+            "My hands are bound",
+            "My hands are tied",
+            "your hands are tied"
+          ],
+          "answer": "My hands are tied"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "〔第 33 題〕, {{blank}}",
+          "promptZh": "我的雙手被縛，身體滿是瘀傷",
+          "options": [
+            "my body bruised",
+            "my body broken",
+            "my body bleeding"
+          ],
+          "answer": "my body bruised"
+        },
+        {
+          "number": 35,
+          "lineId": "line-20",
+          "prompt": "{{blank}} with 〔第 36 題〕",
+          "promptZh": "她將我俘虜，我已無物可贏",
+          "options": [
+            "She got him",
+            "She's got me",
+            "She got me"
+          ],
+          "answer": "She got me"
+        },
+        {
+          "number": 36,
+          "lineId": "line-20",
+          "prompt": "〔第 35 題〕 with {{blank}}",
+          "promptZh": "她將我俘虜，我已無物可贏",
+          "options": [
+            "nothing to gain",
+            "nothing to lose",
+            "nothing to win"
+          ],
+          "answer": "nothing to win"
+        },
+        {
+          "number": 37,
+          "lineId": "line-21",
+          "prompt": "{{blank}} left to lose",
+          "promptZh": "也再沒有什麼可失去",
+          "options": [
+            "And there's nothing",
+            "And nothing",
+            "but nothing"
+          ],
+          "answer": "And nothing"
+        },
+        {
+          "number": 38,
+          "lineId": "line-22",
+          "prompt": "{{blank}} 〔第 39 題〕",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "And you",
+            "And you just",
+            "but you"
+          ],
+          "answer": "And you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-22",
+          "prompt": "〔第 38 題〕 {{blank}}",
+          "promptZh": "而你將自己交了出去",
+          "options": [
+            "give it all away",
+            "give yourself away",
+            "give yourself to me"
+          ],
+          "answer": "give yourself away"
+        },
+        {
+          "number": 40,
+          "lineId": "line-24",
+          "prompt": "And you {{blank}}, and you give",
+          "promptZh": "你不斷付出，不斷付出",
+          "options": [
+            "live",
+            "take",
+            "give"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 41,
+          "lineId": "line-26",
+          "prompt": "{{blank}} 〔第 42 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "With or",
+            "With or without",
+            "without or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 42,
+          "lineId": "line-26",
+          "prompt": "〔第 41 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without you",
+            "you",
+            "me"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 43,
+          "lineId": "line-27",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，噢",
+          "options": [
+            "ah-ah",
+            "ohh",
+            "yeah"
+          ],
+          "answer": "ohh"
+        },
+        {
+          "number": 44,
+          "lineId": "line-28",
+          "prompt": "{{blank}} 〔第 45 題〕",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "never I can't live",
+            "I cannot live",
+            "I can't live"
+          ],
+          "answer": "I can't live"
+        },
+        {
+          "number": 45,
+          "lineId": "line-28",
+          "prompt": "〔第 44 題〕 {{blank}}",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "with or without you",
+            "with or without you now",
+            "with or without you again"
+          ],
+          "answer": "with or without you"
+        },
+        {
+          "number": 46,
+          "lineId": "line-29",
+          "prompt": "{{blank}} 〔第 47 題〕",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "without or",
+            "With or without",
+            "With or"
+          ],
+          "answer": "With or"
+        },
+        {
+          "number": 47,
+          "lineId": "line-29",
+          "prompt": "〔第 46 題〕 {{blank}}",
+          "promptZh": "無論有沒有你",
+          "options": [
+            "with or without you",
+            "without you",
+            "you"
+          ],
+          "answer": "without you"
+        },
+        {
+          "number": 48,
+          "lineId": "line-30",
+          "prompt": "With or without you, {{blank}}",
+          "promptZh": "無論有沒有你，噢",
+          "options": [
+            "ah-ah",
+            "ohh",
+            "yeah"
+          ],
+          "answer": "ohh"
+        },
+        {
+          "number": 49,
+          "lineId": "line-31",
+          "prompt": "{{blank}} 〔第 50 題〕",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "never I can't live",
+            "I cannot live",
+            "I can't live"
+          ],
+          "answer": "I can't live"
+        },
+        {
+          "number": 50,
+          "lineId": "line-31",
+          "prompt": "〔第 49 題〕 {{blank}}",
+          "promptZh": "有你或沒有你我都活不下去",
+          "options": [
+            "with or without you",
+            "with or without you now",
+            "with or without you again"
+          ],
+          "answer": "with or without you"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} in your {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} in your side"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}} {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:9}} and {{q:10}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:11}} she {{q:12}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:17}} {{q:18}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "{{q:19}}, {{q:20}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "And I'm {{q:23}} for you"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "With or without you, {{q:26}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:27}} {{q:28}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And you {{q:29}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:30}} yourself away"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:31}}, and you give"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:32}} yourself away"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:33}}, {{q:34}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:35}} with {{q:36}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:37}} left to lose"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:38}} {{q:39}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And you {{q:40}}, and you give"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "And you give yourself away"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:41}} {{q:42}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "With or without you, {{q:43}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:44}} {{q:45}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:46}} {{q:47}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "With or without you, {{q:48}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:49}} {{q:50}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "With or without you"
+        }
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/with-or-without-you/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/with-or-without-you/user-cover-20261029.png",
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_With Or Without You_.pdf",
+      "sha256": "bb37ee442cb6a4b5023bb6410ceccab94c244fbed4a61edad93fa1551dc044d6"
+    },
+    "md": {
+      "filename": "With_Or_Without_You_Vocabulary_Quiz.md",
+      "sha256": "3c105ab6fb4de5f5b5027516d8ab180eff81de0774cd538f5cdf5a9d7d03c771"
+    },
+    "mp3": {
+      "filename": "With Or Without You [oNvWDP_GkiY].mp3",
+      "sha256": "865dd570e955f82fada04eeb834341b430adc31e9981b387bd8292f17171ba10"
+    }
+  },
+  "audioAlignment": {
+    "duration": 295.5158125,
+    "audioSha256": "865dd570e955f82fada04eeb834341b430adc31e9981b387bd8292f17171ba10",
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "coverage": 0.8895434462444771,
+    "timedLines": 24,
+    "untimedLines": [
+      7,
+      8,
+      14,
+      28,
+      29,
+      30,
+      31,
+      32
+    ],
+    "reviewStatus": "partial-word-boundary-alignment; ambiguous backing vocals and unmatched lines remain untimed"
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-bf619d97-7638-4966-a0c4-36687c8d4b08.png",
+    "sha256": "9d652b286f33340f38c2ef4b9b2b72c9dcd84cc13d01fce20b5187a0bc23b5df",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "e47c975b55bb8495b206c3a0aa0e94201b80102f92adeed53868922135e23dc1"
+    },
+    {
+      "section": "structure",
+      "filename": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "1047cc54a17bf8bd294bbd306202e69f65d73ba672dc84f72f389060bf22957d"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "stone（B1）",
+          "meaning": "石頭；石塊",
+          "usage": "描述自然界的石塊，或比喻堅硬、冷漠的感覺。",
+          "prompt": "哪一句正確使用「stone」？",
+          "options": [
+            "A stone can quickly answer every math question.",
+            "She picked up a small stone beside the river.",
+            "We stoned the homework before going to bed.",
+            "The stone was very hungry after the long walk."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "石頭不能回答數學題，語意不符合這裡的名詞意思。",
+            "正確：stone 是石頭，能在河邊撿起。",
+            "stone 作動詞有投石等不同意思，並非「做功課」。",
+            "石頭不會肚子餓；不能像人一樣描述它。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：stone 是石頭，能在河邊撿起。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "thorn（B2）",
+          "meaning": "刺；（植物的）尖刺",
+          "usage": "形容玫瑰等植物上的刺；也可比喻惱人的問題。",
+          "prompt": "哪一句正確使用「thorn」？",
+          "options": [
+            "A thorn from the rose hurt my finger yesterday.",
+            "Her new thorn helped her sleep well all night.",
+            "He used a thorn to read his book quietly.",
+            "The teacher thorned the door before the lesson."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：玫瑰的刺扎傷手指，是常見字面用法。",
+            "刺不會自然地幫人睡得更好。",
+            "刺不是閱讀工具，句意不合理。",
+            "thorn 不是「關門」的普通動詞。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：玫瑰的刺扎傷手指，是常見字面用法。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "sleight of hand（C1）",
+          "meaning": "手法靈巧；巧妙的手部戲法",
+          "usage": "常用於魔術表演，指靠熟練手法製造驚奇效果；不等於手部力量。",
+          "prompt": "哪一句正確使用「sleight of hand」？",
+          "options": [
+            "The magician used sleight of hand to hide the coin.",
+            "We bought some sleight of hands at the bakery.",
+            "She was sleight of hand because she felt tired.",
+            "I washed my sleight of hand before eating dinner."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：魔術師利用巧妙手法藏起硬幣。",
+            "它通常不可當成麵包店販售的可數商品。",
+            "sleight of hand 是名詞片語，不是表示疲倦的形容詞。",
+            "此片語不是身體部位，不能用來表示洗手。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：魔術師利用巧妙手法藏起硬幣。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "bed of nails（C1）",
+          "meaning": "釘床；比喻極不舒服或痛苦的處境",
+          "usage": "字面指表演用的釘床；歌詞借用這個畫面表現煎熬。",
+          "prompt": "哪一句正確使用「bed of nails」？",
+          "options": [
+            "A bed of nails is a kind of sweet fruit cake.",
+            "I drank a bed of nails after my morning run.",
+            "We use a bed of nails to write our homework.",
+            "The performer lay on a bed of nails during the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "釘床不是蛋糕，字義錯誤。",
+            "釘床不是飲料，不能用 drink。",
+            "釘床不是寫作業的工具，句意不自然。",
+            "正確：表演者躺在釘床上，符合實際情境。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：表演者躺在釘床上，符合實際情境。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "storm（B1）",
+          "meaning": "暴風雨；風暴",
+          "usage": "表示強烈風雨，也能比喻困難時期。",
+          "prompt": "哪一句正確使用「storm」？",
+          "options": [
+            "The storm brought heavy rain and strong winds.",
+            "She wore a storm on her feet to school.",
+            "Our teacher bought two storms at the market.",
+            "He stormed his sandwich at the lunch table."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：storm 帶來大雨和強風。",
+            "暴風雨不是鞋子，不能穿在腳上。",
+            "風暴不是市場裡能買的普通商品。",
+            "storm 當動詞另有「氣沖沖地走」等意思，不能表示吃三明治。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：storm 帶來大雨和強風。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "shore（B2）",
+          "meaning": "岸邊；海岸",
+          "usage": "指海、湖等水域與陸地接壤的地方。",
+          "prompt": "哪一句正確使用「shore」？",
+          "options": [
+            "The shore was very happy about its new shoes.",
+            "They shored the song with their English teacher.",
+            "I put three shores in my cup of hot tea.",
+            "After the boat trip, we walked along the shore."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "岸邊不會因新鞋感到高興。",
+            "shore 作動詞有支撐之意，不能表示唱歌。",
+            "shore 不是茶裡可放入的食物。",
+            "正確：搭船後沿著岸邊散步，符合 shore 的意思。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：搭船後沿著岸邊散步，符合 shore 的意思。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "give oneself away（B2–C1）",
+          "meaning": "露出破綻；不小心洩露真實感受",
+          "usage": "一般英文可指無意中暴露自己的身分、想法；歌詞可能另有奉獻自我的詩意。",
+          "prompt": "哪一句正確使用「give oneself away」？",
+          "options": [
+            "We gave ourselves away to finish our lunch on time.",
+            "The table gave itself away and walked to school.",
+            "She tried to hide the gift, but her smile gave her away.",
+            "He gave himself away because he bought a new hat."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "這個片語不能代替「趕快吃完午餐」。",
+            "桌子沒有可揭露的個人心思，也不會自己走路。",
+            "正確：微笑讓她藏不住禮物的秘密。",
+            "單純買帽子不足以表示洩露秘密或心思。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：微笑讓她藏不住禮物的秘密。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "bruised（B2）",
+          "meaning": "瘀青的；受挫的",
+          "usage": "描述碰撞留下的瘀傷，也可比喻感情受傷。",
+          "prompt": "哪一句正確使用「bruised」？",
+          "options": [
+            "The bus was bruised because it arrived early.",
+            "The soup tasted bruised after we added some salt.",
+            "His knee was bruised after he fell off his bike.",
+            "I bruised a letter to my friend last Sunday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "公車提早到不表示瘀青。",
+            "湯的味道不能用 bruised 描述，應用 salty 等。",
+            "正確：跌下腳踏車後膝蓋瘀青，搭配自然。",
+            "bruised 不能表示「寫信」。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：跌下腳踏車後膝蓋瘀青，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "set in（B2）",
+          "meaning": "嵌入；固定在……之中",
+          "usage": "在本歌詞的影像中有「嵌於眼中」之意；本題教授 set in + 材質／位置的具體用法。",
+          "prompt": "哪一句正確使用「set in」？",
+          "options": [
+            "The teacher set in loudly to open the door.",
+            "The small blue stone was set in a silver ring.",
+            "We set in our lunch when we felt hungry.",
+            "He set in his homework at the bus stop."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "set in 不表示大聲開門，句型不自然。",
+            "正確：寶石鑲嵌在銀戒指中，符合 set in 的意思。",
+            "set in 不是吃午餐的片語。",
+            "set in 不能直接表示做作業。"
+          ],
+          "sourceFile": "With_Or_Without_You_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：寶石鑲嵌在銀戒指中，符合 set in 的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞原形開頭",
+          "meaning": "請對方做某事；祈使句通常省略主詞 you。",
+          "usage": "給朋友簡單指示、邀請對方看一件事。",
+          "prompt": "導覽員請大家看牆上的照片，哪句正確？",
+          "options": [
+            "Looks at the photo on the wall.",
+            "To look at the photo on the wall.",
+            "Looking at the photo on the wall.",
+            "Look at the photo on the wall."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不正確。第三人稱動詞形式不適合作祈使句。",
+            "不正確。不定詞片語不是完整祈使句。",
+            "不正確。只有 -ing 片語，不能獨立充當這裡的指示。",
+            "正確。以 Look 原形開頭，直接給出指示。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "See the stone set in your eyes",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "example": "See / the picture",
+          "explanation": "正確。以 Look 原形開頭，直接給出指示。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "感官動詞 see + 受詞 + 原形動詞",
+          "meaning": "看見某個動作發生；原形動詞呈現整個動作。",
+          "usage": "描述親眼看到別人或動物做事。",
+          "prompt": "你目睹一隻鳥飛進屋內，哪句符合句型？",
+          "options": [
+            "I saw a bird to fly into the room.",
+            "I saw a bird flying to into the room.",
+            "I saw a bird fly into the room.",
+            "I saw a bird flew into the room."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不正確。see 後的動作不能直接用 to fly。",
+            "不正確。to into 兩個介系詞衝突；且題目要用原形結構。",
+            "正確。saw + bird + fly，符合感官動詞結構。",
+            "不正確。受詞補語不用過去式 flew。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "See the thorn twist in your side",
+          "pattern": [
+            {
+              "text": "see",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "the bird / fly",
+          "explanation": "正確。saw + bird + fly，符合感官動詞結構。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "過去分詞作後置修飾",
+          "meaning": "以過去分詞補充名詞的狀態或來源。",
+          "usage": "簡短描述被寫好、放好或製作好的物品。",
+          "prompt": "想指「由 Mia 寫的信」，哪句結構正確？",
+          "options": [
+            "The letter written by Mia is on the desk.",
+            "The letter writing by Mia is on the desk.",
+            "The letter wrote by Mia is on the desk.",
+            "The letter is written by Mia on desk yesterday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。written by Mia 後置修飾 letter。",
+            "不正確。writing 表示主動進行，不能表達信被寫。",
+            "不正確。wrote 是過去式，這裡需要 written。",
+            "不正確。缺少 the，且現在式與 yesterday 不相配。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "the stone set in your eyes",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "過去分詞片語",
+              "fixed": true
+            }
+          ],
+          "example": "the letter / written by Mia",
+          "explanation": "正確。written by Mia 後置修飾 letter。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "will + 動詞原形",
+          "meaning": "表達將要做的事、承諾或決定。",
+          "usage": "承諾稍後聯絡別人。",
+          "prompt": "你承諾明天會打電話給朋友，哪句正確？",
+          "options": [
+            "I will to call you tomorrow.",
+            "I will called you tomorrow.",
+            "I will calling you tomorrow.",
+            "I will call you tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不正確。will 後不加 to。",
+            "不正確。will 後不能接過去式 called。",
+            "不正確。will 後不用 -ing。",
+            "正確。will 後接 call 原形。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "I'll wait for you",
+          "pattern": [
+            {
+              "text": "主詞 + will + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I / call",
+          "explanation": "正確。will 後接 call 原形。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wait for + 人／事物",
+          "meaning": "等待某人或某事；for 引出等待對象。",
+          "usage": "在約定地點等人。",
+          "prompt": "你要在圖書館外等朋友，哪句正確？",
+          "options": [
+            "I will wait for outside the library my friend.",
+            "I will wait to my friend outside the library.",
+            "I will wait my friend outside the library.",
+            "I will wait for my friend outside the library."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不正確。for 後應緊接受詞，語序不自然。",
+            "不正確。介系詞應使用 for，而非 to。",
+            "不正確。wait 接等待對象時一般需要 for。",
+            "正確。wait for my friend 結構正確。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "I'll wait for you",
+          "pattern": [
+            {
+              "text": "wait for",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": false
+            }
+          ],
+          "example": "my friend",
+          "explanation": "正確。wait for my friend 結構正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "介系詞片語 without + 名詞",
+          "meaning": "表示「沒有……」，without 是介系詞。",
+          "usage": "描述出門時未帶某個物品。",
+          "prompt": "你沒帶手機仍然去散步，哪句自然？",
+          "options": [
+            "I went for a walk without of my phone.",
+            "I went for a walk without my phone was.",
+            "I went for a walk without my phone.",
+            "I went for a walk without to my phone."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不正確。without 不需要 of。",
+            "不正確。後面不能直接接這樣不完整的子句。",
+            "正確。without my phone 是正確介系詞片語。",
+            "不正確。without 後面不接 to + 名詞。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "And I wait without you",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "名詞／代名詞",
+              "fixed": false
+            }
+          ],
+          "example": "my phone",
+          "explanation": "正確。without my phone 是正確介系詞片語。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "with or without + 名詞",
+          "meaning": "把「有」與「沒有」兩種情況並列。",
+          "usage": "說明無論條件是否具備，計畫都照常。",
+          "prompt": "不論是否下雨衣你都會出門，哪句正確？",
+          "options": [
+            "I will go out with or without a raincoat.",
+            "I will go out with or without rainy.",
+            "I will go out with or without wear a raincoat.",
+            "I will go out with or without to a raincoat."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。a raincoat 是 with / without 的共同受詞。",
+            "不正確。rainy 是形容詞，不能直接作介系詞受詞。",
+            "不正確。此處應接名詞，而不是原形動詞 wear。",
+            "不正確。with/without 後不接 to + 名詞。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "With or without you",
+          "pattern": [
+            {
+              "text": "with or without",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "example": "a map",
+          "explanation": "正確。a raincoat 是 with / without 的共同受詞。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "make + 受詞 + 原形動詞",
+          "meaning": "使某人做某事；主動使役 make 後不加 to。",
+          "usage": "談一個故事讓大家笑。",
+          "prompt": "新同事說的故事讓大家笑了，哪句正確？",
+          "options": [
+            "His story made us laugh.",
+            "His story made us laughed.",
+            "His story made laugh us.",
+            "His story made us to laugh."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。made + us + laugh 正確。",
+            "不正確。此處要原形 laugh，不是過去式。",
+            "不正確。人應放在 make 後、動詞前。",
+            "不正確。使役 made us 後面不用 to。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "she makes me wait",
+          "pattern": [
+            {
+              "text": "make",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "us / laugh",
+          "explanation": "正確。made + us + laugh 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "through + 名詞",
+          "meaning": "表示穿越某個空間或經歷。",
+          "usage": "描述穿過隧道後到達車站。",
+          "prompt": "哪一句正確表示穿過一條隧道？",
+          "options": [
+            "We through the tunnel walked.",
+            "We walked throughing the tunnel.",
+            "We walked through the tunnel.",
+            "We walked through to the tunnel."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不正確。一般敘述句中不採這種語序。",
+            "不正確。through 是介系詞，沒有 throughing 這種動詞形式。",
+            "正確。through the tunnel 表示穿越隧道。",
+            "不正確。through 已經能引出穿越的空間，不需 to。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Through the storm, we reach the shore",
+          "pattern": [
+            {
+              "text": "through",
+              "fixed": true
+            },
+            {
+              "text": "名詞片語",
+              "fixed": false
+            }
+          ],
+          "example": "the tunnel",
+          "explanation": "正確。through the tunnel 表示穿越隧道。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "現在簡單式：一般事實／習慣",
+          "meaning": "描述現在成立的情況、習慣或普遍事實。",
+          "usage": "說明你們每週固定見面。",
+          "prompt": "你與讀書會每週三見面，哪句正確？",
+          "options": [
+            "We meet every Wednesday.",
+            "We meeting every Wednesday.",
+            "We met every Wednesday tomorrow.",
+            "We meets every Wednesday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。we 搭配原形 meet，表示固定習慣。",
+            "不正確。少了 be 動詞，不能只用 meeting。",
+            "不正確。過去式 met 與 tomorrow 不相配。",
+            "不正確。we 不使用第三人稱單數 meets。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "we reach the shore",
+          "pattern": [
+            {
+              "text": "主詞 + 現在式動詞",
+              "fixed": true
+            }
+          ],
+          "example": "we / meet",
+          "explanation": "正確。we 搭配原形 meet，表示固定習慣。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "but 連接對比",
+          "meaning": "連接兩個有反差的想法。",
+          "usage": "說明雖然累仍願意幫忙。",
+          "prompt": "哪句正確表達兩件事的反差？",
+          "options": [
+            "I am tired, but will I help you.",
+            "I am tired, but I will help you.",
+            "I am tired, but I will helping you.",
+            "I am tired, but I to help you."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不正確。後半是陳述句，主詞和 will 順序不應顛倒。",
+            "正確。but 連接兩個完整且形成反差的子句。",
+            "不正確。will 後用原形 help。",
+            "不正確。缺少合適的主要動詞。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "You give it all but I want more",
+          "pattern": [
+            {
+              "text": "子句一",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "子句二",
+              "fixed": false
+            }
+          ],
+          "example": "I am tired / I will help",
+          "explanation": "正確。but 連接兩個完整且形成反差的子句。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "want + 比較概念 more",
+          "meaning": "more 可作代名詞表示「更多」，也可修飾名詞。",
+          "usage": "請求更多時間完成一件事。",
+          "prompt": "你希望有更多時間看展覽，哪句正確？",
+          "options": [
+            "I want much hours at the museum.",
+            "I want more time at the museum.",
+            "I want more times at the museum today.",
+            "I want many time at the museum."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不正確。hours 是可數複數，much 不適合。",
+            "正確。more time 表「更多時間」。",
+            "不正確。這裡表時間長短，用 more time 而非 times。",
+            "不正確。time 表時間量通常不可數，不用 many。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "but I want more",
+          "pattern": [
+            {
+              "text": "want + more",
+              "fixed": true
+            }
+          ],
+          "example": "more time",
+          "explanation": "正確。more time 表「更多時間」。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "現在進行式：be + -ing",
+          "meaning": "表示此刻正在進行的動作。",
+          "usage": "你正於入口等朋友。",
+          "prompt": "哪句表示「我現在正在等朋友」？",
+          "options": [
+            "I waiting for my friend now.",
+            "I am wait for my friend now.",
+            "I am waiting for my friend now.",
+            "I am waited for my friend now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不正確。現在進行式缺少 am。",
+            "不正確。am 後應為 waiting。",
+            "正確。am + waiting 表示現在進行。",
+            "不正確。waited 不適合組成現在進行式。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'm waiting for you",
+          "pattern": [
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "-ing",
+              "fixed": false
+            }
+          ],
+          "example": "waiting",
+          "explanation": "正確。am + waiting 表示現在進行。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "can’t + 動詞原形",
+          "meaning": "表示無法做某事。",
+          "usage": "你今天無法在六點前完成工作。",
+          "prompt": "哪句正確表達「我不能今天完成」？",
+          "options": [
+            "I cannot finish it today.",
+            "I cannot to finish it today.",
+            "I cannot finishing it today.",
+            "I cannot finished it today."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。cannot + finish 正確。",
+            "不正確。cannot 後不加 to。",
+            "不正確。cannot 後接原形 finish。",
+            "不正確。cannot 後不用過去式 finished。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I can't live with or without you",
+          "pattern": [
+            {
+              "text": "cannot/can’t + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "finish",
+          "explanation": "正確。cannot + finish 正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "反身代名詞：yourself",
+          "meaning": "動作涉及主詞自己時使用 myself / yourself / herself 等。",
+          "usage": "說明一個人對自己提出問題。",
+          "prompt": "哪句的反身代名詞與主詞一致？",
+          "options": [
+            "She asked himself a question.",
+            "She asked myself a question.",
+            "She asked herself a question.",
+            "She asked yourself a question."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "不正確。she 應用 herself，而不是 himself。",
+            "不正確。myself 對應 I。",
+            "正確。she 對應 herself。",
+            "不正確。yourself 對應 you。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "you give yourself away",
+          "pattern": [
+            {
+              "text": "主詞 + 動詞 + 相符的反身代名詞",
+              "fixed": true
+            }
+          ],
+          "example": "she / herself",
+          "explanation": "正確。she 對應 herself。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "give away：動詞＋副詞的可分結構",
+          "meaning": "某些片語動詞可將代名詞受詞放在動詞與副詞中間。",
+          "usage": "談不小心洩露驚喜的秘密。",
+          "prompt": "你不小心把驚喜說出來，哪句正確？",
+          "options": [
+            "I gave away to the secret.",
+            "I gave the secret away.",
+            "I gave the secret to away.",
+            "I gave away it."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不正確。這裡不需要 to，受詞位置也不對。",
+            "正確。gave + the secret + away 是正確可分片語動詞。",
+            "不正確。片語動詞 give away 之間不加 to。",
+            "不正確。代名詞受詞 it 應放中間：gave it away。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "you give yourself away",
+          "pattern": [
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "受詞 + away",
+              "fixed": false
+            }
+          ],
+          "example": "the secret",
+          "explanation": "正確。gave + the secret + away 是正確可分片語動詞。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "被動語態：be + 過去分詞",
+          "meaning": "表達某人或某物處於被處理後的狀態。",
+          "usage": "說明門目前是關上的。",
+          "prompt": "哪句正確使用 be + 過去分詞？",
+          "options": [
+            "The door is close.",
+            "The door is closed.",
+            "The door be closed now.",
+            "The door is closing by yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不正確。close 在這裡不是表示關閉狀態的過去分詞。",
+            "正確。is + closed 是正確形式。",
+            "不正確。主詞 the door 需搭配 is。",
+            "不正確。現在進行式和 by yesterday 不相配，也不是題目要的過去分詞結構。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "My hands are tied",
+          "pattern": [
+            {
+              "text": "be + 過去分詞",
+              "fixed": true
+            }
+          ],
+          "example": "is / closed",
+          "explanation": "正確。is + closed 是正確形式。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "形容詞／過去分詞的省略平行結構",
+          "meaning": "歌曲與文學常省略重複的 be，以保持節奏。",
+          "usage": "辨認標準完整英文應如何表達。",
+          "prompt": "歌詞省略 be；以下哪句是自然的完整日常敘述？",
+          "options": [
+            "My jacket wet.",
+            "My jacket be wet.",
+            "My jacket are wet.",
+            "My jacket is wet."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不正確。一般完整陳述句應有 is。",
+            "不正確。一般現在式不能直接用 be。",
+            "不正確。單數 jacket 要用 is。",
+            "正確。主詞單數 jacket 搭配 is wet。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "my body bruised",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "（省略 be）+ 形容詞／分詞",
+              "fixed": true
+            }
+          ],
+          "example": "my feet / wet",
+          "explanation": "正確。主詞單數 jacket 搭配 is wet。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "nothing + to-infinitive 後置修飾",
+          "meaning": "to 不定詞說明有甚麼事可做。",
+          "usage": "想說旅行時有東西可讀。",
+          "prompt": "哪句正確表示「我有東西可以讀」？",
+          "options": [
+            "I have something to reading.",
+            "I have something to read.",
+            "I have something reading.",
+            "I have something read to."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不正確。to 後要原形 read。",
+            "正確。something + to read 是自然的後置修飾。",
+            "不正確。要表「可以讀的東西」，較自然用 to read。",
+            "不正確。語序不適合此後置修飾句型。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "nothing to win",
+          "pattern": [
+            {
+              "text": "不定代名詞",
+              "fixed": false
+            },
+            {
+              "text": "to + 動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "something / read",
+          "explanation": "正確。something + to read 是自然的後置修飾。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "left + to-infinitive：剩下可做的",
+          "meaning": "left 表「剩下」，後面不定詞表示尚可進行的動作。",
+          "usage": "你還剩兩頁需要閱讀。",
+          "prompt": "哪句正確表達「我還有兩頁要讀」？",
+          "options": [
+            "I have two pages left to reading.",
+            "I have two pages left to read.",
+            "I have two pages left reading to.",
+            "I have two pages leave to read."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "不正確。to 後需原形 read。",
+            "正確。two pages left to read 結構正確。",
+            "不正確。to 的位置不對。",
+            "不正確。需要表示剩餘的 left。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "nothing left to lose",
+          "pattern": [
+            {
+              "text": "名詞／不定代名詞",
+              "fixed": false
+            },
+            {
+              "text": "left to + 原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "two pages / read",
+          "explanation": "正確。two pages left to read 結構正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "got + 受詞：口語擁有／取得",
+          "meaning": "got 可作 get 過去式；在不同語境可表示收到、得到、使人落入某情況。",
+          "usage": "描述昨天收到朋友寄來的訊息。",
+          "prompt": "哪句自然使用 get 的過去式？",
+          "options": [
+            "I got a message from my friend tomorrow.",
+            "I got to a message from my friend yesterday.",
+            "I getted a message from my friend yesterday.",
+            "I got a message from my friend yesterday."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "不正確。got 表過去，tomorrow 不符合這裡的時間。",
+            "不正確。收到訊息時 got 直接接受詞。",
+            "不正確。get 的過去式是不規則變化 got。",
+            "正確。got + a message 表示收到了訊息。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "She got me with nothing to win",
+          "pattern": [
+            {
+              "text": "got",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "example": "got / a message",
+          "explanation": "正確。got + a message 表示收到了訊息。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "名詞片語與詩意碎片",
+          "meaning": "and 可並列同類語法單位，不一定形成完整句。",
+          "usage": "連接兩項活動作清單標題。",
+          "prompt": "哪個是自然的並列名詞片語？",
+          "options": [
+            "Music and dance",
+            "Music but dancing and",
+            "Music and to dance",
+            "Music and dancing is."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。music 和 dance 都是名詞，可用 and 並列。",
+            "不正確。連接詞與詞序不構成自然名詞片語。",
+            "不正確。名詞 music 與不定詞 to dance 形式不平行。",
+            "不正確。is 放在句尾使句子不完整。"
+          ],
+          "sourceFile": "With_Or_Without_You_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "Sleight of hand and twist of fate",
+          "pattern": [
+            {
+              "text": "名詞片語",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "名詞片語",
+              "fixed": false
+            }
+          ],
+          "example": "music / dance",
+          "explanation": "正確。music 和 dance 都是名詞，可用 and 並列。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    }
+  }
+}

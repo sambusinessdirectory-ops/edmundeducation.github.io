@@ -1,0 +1,3350 @@
+{
+  "title": "Applause",
+  "slug": "applause",
+  "translations": [
+    {
+      "english": "I stand here waiting for you to bang the gong",
+      "chinese": "我站在這裡，等待你敲響那面銅鑼",
+      "lineId": "line-1",
+      "startSeconds": 13.62,
+      "endSeconds": 19.36
+    },
+    {
+      "english": "To crash the critic saying, \"Is it right or is it wrong?\"",
+      "chinese": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」",
+      "lineId": "line-2",
+      "startSeconds": 19.36,
+      "endSeconds": 26.0
+    },
+    {
+      "english": "If only fame had an IV, baby, could I bear",
+      "chinese": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受",
+      "lineId": "line-3",
+      "startSeconds": 27.64,
+      "endSeconds": 33.0
+    },
+    {
+      "english": "Being away from you? I found the vein, put it in here",
+      "chinese": "與你分離的日子？我已找到了血管，就從這裡注入吧",
+      "lineId": "line-4",
+      "startSeconds": 34.88,
+      "endSeconds": 39.96
+    },
+    {
+      "english": "I live for the applause, applause, applause",
+      "chinese": "我為掌聲而活，為掌聲、掌聲而活",
+      "lineId": "line-5",
+      "startSeconds": 39.96,
+      "endSeconds": 43.38
+    },
+    {
+      "english": "I live for the applause-plause, live for the applause-plause",
+      "chinese": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活",
+      "lineId": "line-6",
+      "startSeconds": 43.38,
+      "endSeconds": 47.38
+    },
+    {
+      "english": "Live for the way that you cheer and scream for me",
+      "chinese": "為你替我歡呼、為我尖叫的熱情而活",
+      "lineId": "line-7",
+      "startSeconds": 47.38,
+      "endSeconds": 50.94
+    },
+    {
+      "english": "The applause, applause, applause",
+      "chinese": "那掌聲，那掌聲，那如雷的掌聲",
+      "lineId": "line-8",
+      "startSeconds": 50.94,
+      "endSeconds": 53.84
+    },
+    {
+      "english": "Give me that thing that I love (I'll turn the lights out)",
+      "chinese": "給我那令我深愛不已的東西（我會熄滅燈光）",
+      "lineId": "line-9"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch (Make it real loud)",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）",
+      "lineId": "line-10"
+    },
+    {
+      "english": "Give me that thing that I love (I'll turn the lights out)",
+      "chinese": "給我那令我深愛不已的東西（我會熄滅燈光）",
+      "lineId": "line-11"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch (Make it real loud)",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）",
+      "lineId": "line-12"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E (Make it real loud)",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）",
+      "lineId": "line-13"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！",
+      "lineId": "line-14"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響",
+      "lineId": "line-15"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E (Make it real loud)",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）",
+      "lineId": "line-16"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！",
+      "lineId": "line-17"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響",
+      "lineId": "line-18"
+    },
+    {
+      "english": "I've overheard your theory, \"Nostalgia's for geeks\"",
+      "chinese": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」",
+      "lineId": "line-19"
+    },
+    {
+      "english": "I guess sir, if you say so, some of us just like to read",
+      "chinese": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀",
+      "lineId": "line-20",
+      "startSeconds": 89.34,
+      "endSeconds": 94.66
+    },
+    {
+      "english": "One second I'm a Koons, then suddenly the Koons is me",
+      "chinese": "前一刻，我彷彿是Koons的一件藝術作品；轉眼之間，Koons卻彷彿成了我",
+      "lineId": "line-21",
+      "startSeconds": 96.59,
+      "endSeconds": 101.52
+    },
+    {
+      "english": "Pop culture was in art, now art's in pop culture, in me",
+      "chinese": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命",
+      "lineId": "line-22",
+      "startSeconds": 103.12,
+      "endSeconds": 108.66
+    },
+    {
+      "english": "I live for the applause, applause, applause",
+      "chinese": "我為掌聲而活，為掌聲、掌聲而活",
+      "lineId": "line-23",
+      "startSeconds": 108.66,
+      "endSeconds": 111.98
+    },
+    {
+      "english": "I live for the applause-plause, live for the applause-plause",
+      "chinese": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活",
+      "lineId": "line-24",
+      "startSeconds": 111.98,
+      "endSeconds": 115.98
+    },
+    {
+      "english": "Live for the way that you cheer and scream for me",
+      "chinese": "為你替我歡呼、為我尖叫的熱情而活",
+      "lineId": "line-25",
+      "startSeconds": 115.98,
+      "endSeconds": 119.48
+    },
+    {
+      "english": "The applause, applause, applause",
+      "chinese": "那掌聲，那掌聲，那如雷的掌聲",
+      "lineId": "line-26",
+      "startSeconds": 120.48,
+      "endSeconds": 122.72
+    },
+    {
+      "english": "Give me that thing that I love (I'll turn the lights out)",
+      "chinese": "給我那令我深愛不已的東西（我會熄滅燈光）",
+      "lineId": "line-27",
+      "startSeconds": 123.54,
+      "endSeconds": 127.14
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch (Make it real loud)",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）",
+      "lineId": "line-28"
+    },
+    {
+      "english": "Give me that thing that I love (I'll turn the lights out)",
+      "chinese": "給我那令我深愛不已的東西（我會熄滅燈光）",
+      "lineId": "line-29",
+      "startSeconds": 130.46,
+      "endSeconds": 134.08
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch (Make it real loud)",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）",
+      "lineId": "line-30"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E (Make it real loud)",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）",
+      "lineId": "line-31"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！",
+      "lineId": "line-32"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響",
+      "lineId": "line-33"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E (Make it real loud)",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）",
+      "lineId": "line-34"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！",
+      "lineId": "line-35"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響",
+      "lineId": "line-36"
+    },
+    {
+      "english": "Woo... touch, touch",
+      "chinese": "嗚……拍響、拍響",
+      "lineId": "line-37",
+      "startSeconds": 149.84,
+      "endSeconds": 153.34
+    },
+    {
+      "english": "Woo... touch, touch",
+      "chinese": "嗚……拍響、拍響",
+      "lineId": "line-38",
+      "startSeconds": 153.34,
+      "endSeconds": 156.82
+    },
+    {
+      "english": "Now... woo-oh-oh-oh",
+      "chinese": "現在……嗚——噢——噢——噢",
+      "lineId": "line-39"
+    },
+    {
+      "english": "Woo-oh-oh-oh",
+      "chinese": "嗚——噢——噢——噢",
+      "lineId": "line-40"
+    },
+    {
+      "english": "I live for the applause, applause, applause",
+      "chinese": "我為掌聲而活，為掌聲、掌聲而活",
+      "lineId": "line-41"
+    },
+    {
+      "english": "I live for the applause-plause, live for the applause-plause",
+      "chinese": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活",
+      "lineId": "line-42"
+    },
+    {
+      "english": "Live for the way that you cheer and scream for me",
+      "chinese": "為你替我歡呼、為我尖叫的熱情而活",
+      "lineId": "line-43"
+    },
+    {
+      "english": "The applause, applause, applause",
+      "chinese": "那掌聲，那掌聲，那如雷的掌聲",
+      "lineId": "line-44"
+    },
+    {
+      "english": "Give me that thing that I love (I'll turn the lights out)",
+      "chinese": "給我那令我深愛不已的東西（我會熄滅燈光）",
+      "lineId": "line-45"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch (Make it real loud)",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）",
+      "lineId": "line-46"
+    },
+    {
+      "english": "Give me that thing that I love (I'll turn the lights out)",
+      "chinese": "給我那令我深愛不已的東西（我會熄滅燈光）",
+      "lineId": "line-47"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch (Make it real loud)",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）",
+      "lineId": "line-48",
+      "startSeconds": 188.72,
+      "endSeconds": 193.1
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E (Make it real loud)",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）",
+      "lineId": "line-49"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！",
+      "lineId": "line-50"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響",
+      "lineId": "line-51"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E (Make it real loud)",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）",
+      "lineId": "line-52"
+    },
+    {
+      "english": "A-P-P-L-A-U-S-E",
+      "chinese": "A-P-P-L-A-U-S-E，掌聲！",
+      "lineId": "line-53"
+    },
+    {
+      "english": "Put your hands up, make 'em touch, touch",
+      "chinese": "高舉雙手，讓雙掌拍響、拍響",
+      "lineId": "line-54"
+    },
+    {
+      "english": "A-R-T-P-O-P",
+      "chinese": "A-R-T-P-O-P（藝術流行）",
+      "lineId": "line-55"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "waiting for you",
+          "options": [
+            "looking for fame",
+            "calling for help",
+            "waiting for you"
+          ],
+          "prompt": "I stand here {{blank}} to bang the gong ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "the critic",
+          "options": [
+            "the singer",
+            "the critic",
+            "the audience"
+          ],
+          "prompt": "To crash {{blank}} saying, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "fame",
+          "options": [
+            "music",
+            "fame",
+            "fortune"
+          ],
+          "prompt": "If only {{blank}} had an IV, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "the vein",
+          "options": [
+            "the stage",
+            "the light",
+            "the vein"
+          ],
+          "prompt": "Being away from you? I found {{blank}}, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "the applause",
+          "options": [
+            "the silence",
+            "the applause",
+            "the music"
+          ],
+          "prompt": "I live for {{blank}}, applause, applause ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "live for the applause-plause",
+          "options": [
+            "dance for the audience",
+            "live for the applause-plause",
+            "wait for the spotlight"
+          ],
+          "prompt": "I {{blank}}, live for the applause-plause ",
+          "promptZh": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "cheer and scream",
+          "options": [
+            "cheer and scream",
+            "dance and sing",
+            "laugh and smile"
+          ],
+          "prompt": "Live for the way that you {{blank}} for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "that thing that I love",
+          "options": [
+            "that thing that I love",
+            "the sound of the crowd",
+            "the rhythm of the song"
+          ],
+          "prompt": "Give me {{blank}} (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "Put your hands up",
+          "options": [
+            "Keep your eyes closed",
+            "Put your phones down",
+            "Put your hands up"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "I'll turn the lights out",
+          "options": [
+            "I'll turn the lights out",
+            "I'll bring the curtain down",
+            "I'll turn the music up"
+          ],
+          "prompt": "Give me that thing that I love ({{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "Make it real loud",
+          "options": [
+            "Keep it very quiet",
+            "Make it real loud",
+            "Make it sound sweet"
+          ],
+          "prompt": "Put your hands up, make 'em touch, touch ({{blank}})",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-15",
+          "answer": "make 'em touch",
+          "options": [
+            "make 'em touch",
+            "let 'em fall",
+            "make 'em wave"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-19",
+          "answer": "overheard your theory",
+          "options": [
+            "overheard your theory",
+            "remembered your promise",
+            "forgotten your story"
+          ],
+          "prompt": "I've {{blank}}, \"Nostalgia's for geeks\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-20",
+          "answer": "just like to read",
+          "options": [
+            "love to perform",
+            "want to go home",
+            "just like to read"
+          ],
+          "prompt": "I guess sir, if you say so, some of us {{blank}}  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-22",
+          "answer": "Pop culture was in art",
+          "options": [
+            "Old music was in fashion",
+            "New stories were on stage",
+            "Pop culture was in art"
+          ],
+          "prompt": "{{blank}}, now art's in pop culture, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-23",
+          "answer": "I live for the applause",
+          "options": [
+            "I sing for the audience",
+            "I live for the applause",
+            "I wait for the spotlight"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-25",
+          "answer": "scream for me",
+          "options": [
+            "dance beside me",
+            "sing with me",
+            "scream for me"
+          ],
+          "prompt": "Live for the way that you cheer and {{blank}} ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-27",
+          "answer": "Give me that thing",
+          "options": [
+            "Tell me your name",
+            "Give me that thing",
+            "Show me your face"
+          ],
+          "prompt": "{{blank}} that I love (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-28",
+          "answer": "Put your hands up",
+          "options": [
+            "Put your hands up",
+            "Keep your voices down",
+            "Turn your head around"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-45",
+          "answer": "the lights out",
+          "options": [
+            "the lights out",
+            "the music on",
+            "the curtains up"
+          ],
+          "prompt": "Give me that thing that I love (I'll turn {{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I stand here {{q:1}} to bang the gong "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "To crash {{q:2}} saying, \"Is it right or is it wrong?\" "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If only {{q:3}} had an IV, baby, could I bear "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Being away from you? I found {{q:4}}, put it in here "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I live for {{q:5}}, applause, applause "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:6}}, live for the applause-plause "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Live for the way that you {{q:7}} for me "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Give me {{q:8}} (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:9}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Give me that thing that I love ({{q:10}}) "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Put your hands up, make 'em touch, touch ({{q:11}})"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Put your hands up, {{q:12}}, touch"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I've {{q:13}}, \"Nostalgia's for geeks\" "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I guess sir, if you say so, some of us {{q:14}}  "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "One second I'm a Koons, then suddenly the Koons is me  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:15}}, now art's in pop culture, in me  "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:16}}, applause, applause "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Live for the way that you cheer and {{q:17}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:18}} that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:19}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Now... woo-oh-oh-oh "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Woo-oh-oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I live for the applause, applause, applause "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Live for the way that you cheer and scream for me "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Give me that thing that I love (I'll turn {{q:20}}) "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "A-R-T-P-O-P"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "waiting for you",
+          "options": [
+            "waiting for you",
+            "looking for fame",
+            "calling for help"
+          ],
+          "prompt": "I stand here {{blank}} to bang the gong ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "bang the gong",
+          "options": [
+            "play the drums",
+            "ring the bell",
+            "bang the gong"
+          ],
+          "prompt": "I stand here waiting for you to {{blank}} ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "the critic",
+          "options": [
+            "the critic",
+            "the singer",
+            "the audience"
+          ],
+          "prompt": "To crash {{blank}} saying, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "right or is it wrong",
+          "options": [
+            "good or is it bad",
+            "right or is it wrong",
+            "true or is it false"
+          ],
+          "prompt": "To crash the critic saying, \"Is it {{blank}}?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "fame",
+          "options": [
+            "fortune",
+            "music",
+            "fame"
+          ],
+          "prompt": "If only {{blank}} had an IV, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "had an IV",
+          "options": [
+            "had an IV",
+            "was a river",
+            "had a price"
+          ],
+          "prompt": "If only fame {{blank}}, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "Being away from you",
+          "options": [
+            "Running back to you",
+            "Standing close to you",
+            "Being away from you"
+          ],
+          "prompt": "{{blank}}? I found the vein, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-4",
+          "answer": "the vein",
+          "options": [
+            "the stage",
+            "the light",
+            "the vein"
+          ],
+          "prompt": "Being away from you? I found {{blank}}, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 10,
+          "lineId": "line-5",
+          "answer": "applause, applause, applause",
+          "options": [
+            "applause, applause, applause",
+            "music, music, music",
+            "silence, silence, silence"
+          ],
+          "prompt": "I live for the {{blank}} ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 11,
+          "lineId": "line-6",
+          "answer": "live for the applause-plause",
+          "options": [
+            "dance for the audience",
+            "live for the applause-plause",
+            "wait for the spotlight"
+          ],
+          "prompt": "I {{blank}}, live for the applause-plause ",
+          "promptZh": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "Live for the way",
+          "options": [
+            "Wait for the day",
+            "Live for the way",
+            "Sing for the crowd"
+          ],
+          "prompt": "{{blank}} that you cheer and scream for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 13,
+          "lineId": "line-7",
+          "answer": "cheer and scream",
+          "options": [
+            "cheer and scream",
+            "dance and sing",
+            "laugh and smile"
+          ],
+          "prompt": "Live for the way that you {{blank}} for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 14,
+          "lineId": "line-8",
+          "answer": "The applause",
+          "options": [
+            "The spotlight",
+            "The applause",
+            "The music"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "那掌聲，那掌聲，那如雷的掌聲"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 15,
+          "lineId": "line-9",
+          "answer": "that thing that I love",
+          "options": [
+            "that thing that I love",
+            "the rhythm of the song",
+            "the sound of the crowd"
+          ],
+          "prompt": "Give me {{blank}} (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 16,
+          "lineId": "line-10",
+          "answer": "Put your hands up",
+          "options": [
+            "Put your hands up",
+            "Keep your eyes closed",
+            "Put your phones down"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-11",
+          "answer": "I'll turn the lights out",
+          "options": [
+            "I'll bring the curtain down",
+            "I'll turn the lights out",
+            "I'll turn the music up"
+          ],
+          "prompt": "Give me that thing that I love ({{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-12",
+          "answer": "Make it real loud",
+          "options": [
+            "Make it sound sweet",
+            "Keep it very quiet",
+            "Make it real loud"
+          ],
+          "prompt": "Put your hands up, make 'em touch, touch ({{blank}})",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 19,
+          "lineId": "line-15",
+          "answer": "make 'em touch",
+          "options": [
+            "let 'em fall",
+            "make 'em touch",
+            "make 'em wave"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 20,
+          "lineId": "line-19",
+          "answer": "overheard your theory",
+          "options": [
+            "forgotten your story",
+            "remembered your promise",
+            "overheard your theory"
+          ],
+          "prompt": "I've {{blank}}, \"Nostalgia's for geeks\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 21,
+          "lineId": "line-19",
+          "answer": "Nostalgia's for geeks",
+          "options": [
+            "The future's for dreamers",
+            "The stage is for stars",
+            "Nostalgia's for geeks"
+          ],
+          "prompt": "I've overheard your theory, \"{{blank}}\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 22,
+          "lineId": "line-20",
+          "answer": "if you say so",
+          "options": [
+            "if you ask me",
+            "if you say so",
+            "when you come back"
+          ],
+          "prompt": "I guess sir, {{blank}}, some of us just like to read  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 23,
+          "lineId": "line-20",
+          "answer": "just like to read",
+          "options": [
+            "just like to read",
+            "want to go home",
+            "love to perform"
+          ],
+          "prompt": "I guess sir, if you say so, some of us {{blank}}  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 24,
+          "lineId": "line-21",
+          "answer": "One second",
+          "options": [
+            "One second",
+            "Every morning",
+            "One evening"
+          ],
+          "prompt": "{{blank}} I'm a Koons, then suddenly the Koons is me  ",
+          "promptZh": "前一刻，我彷彿是Koons的一件藝術作品；轉眼之間，Koons卻彷彿成了我"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 25,
+          "lineId": "line-22",
+          "answer": "Pop culture was in art",
+          "options": [
+            "Old music was in fashion",
+            "New stories were on stage",
+            "Pop culture was in art"
+          ],
+          "prompt": "{{blank}}, now art's in pop culture, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 26,
+          "lineId": "line-22",
+          "answer": "art's in pop culture",
+          "options": [
+            "love's in every picture",
+            "art's in pop culture",
+            "music's in the theatre"
+          ],
+          "prompt": "Pop culture was in art, now {{blank}}, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 27,
+          "lineId": "line-23",
+          "answer": "I live for the applause",
+          "options": [
+            "I live for the applause",
+            "I sing for the audience",
+            "I wait for the spotlight"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 28,
+          "lineId": "line-25",
+          "answer": "scream for me",
+          "options": [
+            "scream for me",
+            "dance beside me",
+            "sing with me"
+          ],
+          "prompt": "Live for the way that you cheer and {{blank}} ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 29,
+          "lineId": "line-27",
+          "answer": "Give me that thing",
+          "options": [
+            "Tell me your name",
+            "Give me that thing",
+            "Show me your face"
+          ],
+          "prompt": "{{blank}} that I love (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 30,
+          "lineId": "line-28",
+          "answer": "Put your hands up",
+          "options": [
+            "Keep your voices down",
+            "Put your hands up",
+            "Turn your head around"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 31,
+          "lineId": "line-30",
+          "answer": "make 'em touch",
+          "options": [
+            "make 'em dance",
+            "let 'em rest",
+            "make 'em touch"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 32,
+          "lineId": "line-45",
+          "answer": "the lights out",
+          "options": [
+            "the curtains up",
+            "the music on",
+            "the lights out"
+          ],
+          "prompt": "Give me that thing that I love (I'll turn {{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I stand here {{q:1}} to {{q:2}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "To crash {{q:3}} saying, \"Is it {{q:4}}?\" "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If only {{q:5}} {{q:6}}, baby, could I bear "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}}? I found {{q:8}}, put it in here "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I live for the {{q:9}} "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:10}}, live for the applause-plause "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:11}} that you {{q:12}} for me "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:13}}, applause, applause "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Give me {{q:14}} (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:15}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Give me that thing that I love ({{q:16}}) "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Put your hands up, make 'em touch, touch ({{q:17}})"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Put your hands up, {{q:18}}, touch"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I've {{q:19}}, \"{{q:20}}\" "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I guess sir, {{q:21}}, some of us {{q:22}}  "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:23}} I'm a Koons, then suddenly the Koons is me  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:24}}, now {{q:25}}, in me  "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:26}}, applause, applause "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Live for the way that you cheer and {{q:27}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:28}} that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:29}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Put your hands up, {{q:30}}, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Now... woo-oh-oh-oh "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Woo-oh-oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I live for the applause, applause, applause "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Live for the way that you cheer and scream for me "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Give me that thing that I love (I'll turn {{q:31}}) "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "A-R-T-P-O-P"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 31
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "I stand here",
+          "options": [
+            "We wait outside",
+            "I stand here",
+            "I sit alone"
+          ],
+          "prompt": "{{blank}} waiting for you to bang the gong ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "waiting for you",
+          "options": [
+            "waiting for you",
+            "looking for fame",
+            "calling for help"
+          ],
+          "prompt": "I stand here {{blank}} to bang the gong ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-1",
+          "answer": "bang the gong",
+          "options": [
+            "play the drums",
+            "bang the gong",
+            "ring the bell"
+          ],
+          "prompt": "I stand here waiting for you to {{blank}} ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "To crash",
+          "options": [
+            "To crash",
+            "To follow",
+            "To praise"
+          ],
+          "prompt": "{{blank}} the critic saying, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-2",
+          "answer": "the critic",
+          "options": [
+            "the singer",
+            "the critic",
+            "the audience"
+          ],
+          "prompt": "To crash {{blank}} saying, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-2",
+          "answer": "right or is it wrong",
+          "options": [
+            "true or is it false",
+            "good or is it bad",
+            "right or is it wrong"
+          ],
+          "prompt": "To crash the critic saying, \"Is it {{blank}}?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-3",
+          "answer": "fame",
+          "options": [
+            "music",
+            "fame",
+            "fortune"
+          ],
+          "prompt": "If only {{blank}} had an IV, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-3",
+          "answer": "had an IV",
+          "options": [
+            "had an IV",
+            "was a river",
+            "had a price"
+          ],
+          "prompt": "If only fame {{blank}}, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-3",
+          "answer": "could I bear",
+          "options": [
+            "would I know",
+            "should I stay",
+            "could I bear"
+          ],
+          "prompt": "If only fame had an IV, baby, {{blank}} ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-4",
+          "answer": "Being away from you",
+          "options": [
+            "Running back to you",
+            "Being away from you",
+            "Standing close to you"
+          ],
+          "prompt": "{{blank}}? I found the vein, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-4",
+          "answer": "the vein",
+          "options": [
+            "the light",
+            "the stage",
+            "the vein"
+          ],
+          "prompt": "Being away from you? I found {{blank}}, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-4",
+          "answer": "put it in here",
+          "options": [
+            "put it in here",
+            "take it away",
+            "leave it outside"
+          ],
+          "prompt": "Being away from you? I found the vein, {{blank}} ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 14,
+          "lineId": "line-5",
+          "answer": "applause, applause, applause",
+          "options": [
+            "music, music, music",
+            "applause, applause, applause",
+            "silence, silence, silence"
+          ],
+          "prompt": "I live for the {{blank}} ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 15,
+          "lineId": "line-6",
+          "answer": "live for the applause-plause",
+          "options": [
+            "live for the applause-plause",
+            "wait for the spotlight",
+            "dance for the audience"
+          ],
+          "prompt": "I {{blank}}, live for the applause-plause ",
+          "promptZh": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 16,
+          "lineId": "line-7",
+          "answer": "Live for the way",
+          "options": [
+            "Live for the way",
+            "Wait for the day",
+            "Sing for the crowd"
+          ],
+          "prompt": "{{blank}} that you cheer and scream for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-7",
+          "answer": "cheer and scream",
+          "options": [
+            "dance and sing",
+            "laugh and smile",
+            "cheer and scream"
+          ],
+          "prompt": "Live for the way that you {{blank}} for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 18,
+          "lineId": "line-8",
+          "answer": "The applause",
+          "options": [
+            "The music",
+            "The applause",
+            "The spotlight"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "那掌聲，那掌聲，那如雷的掌聲"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 19,
+          "lineId": "line-9",
+          "answer": "that thing that I love",
+          "options": [
+            "that thing that I love",
+            "the rhythm of the song",
+            "the sound of the crowd"
+          ],
+          "prompt": "Give me {{blank}} (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 20,
+          "lineId": "line-9",
+          "answer": "I'll turn the lights out",
+          "options": [
+            "I'll turn the music on",
+            "I'll bring the crowd in",
+            "I'll turn the lights out"
+          ],
+          "prompt": "Give me that thing that I love ({{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 21,
+          "lineId": "line-10",
+          "answer": "Put your hands up",
+          "options": [
+            "Keep your eyes closed",
+            "Put your hands up",
+            "Put your phones down"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 22,
+          "lineId": "line-11",
+          "answer": "I'll turn the lights out",
+          "options": [
+            "I'll turn the lights out",
+            "I'll turn the music up",
+            "I'll bring the curtain down"
+          ],
+          "prompt": "Give me that thing that I love ({{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 23,
+          "lineId": "line-12",
+          "answer": "Make it real loud",
+          "options": [
+            "Make it sound sweet",
+            "Keep it very quiet",
+            "Make it real loud"
+          ],
+          "prompt": "Put your hands up, make 'em touch, touch ({{blank}})",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 24,
+          "lineId": "line-15",
+          "answer": "make 'em touch",
+          "options": [
+            "make 'em wave",
+            "let 'em fall",
+            "make 'em touch"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "overheard your theory",
+          "options": [
+            "overheard your theory",
+            "remembered your promise",
+            "forgotten your story"
+          ],
+          "prompt": "I've {{blank}}, \"Nostalgia's for geeks\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 26,
+          "lineId": "line-19",
+          "answer": "Nostalgia's for geeks",
+          "options": [
+            "The stage is for stars",
+            "The future's for dreamers",
+            "Nostalgia's for geeks"
+          ],
+          "prompt": "I've overheard your theory, \"{{blank}}\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 27,
+          "lineId": "line-20",
+          "answer": "if you say so",
+          "options": [
+            "if you ask me",
+            "if you say so",
+            "when you come back"
+          ],
+          "prompt": "I guess sir, {{blank}}, some of us just like to read  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 28,
+          "lineId": "line-20",
+          "answer": "some of us",
+          "options": [
+            "none of you",
+            "some of us",
+            "all of them"
+          ],
+          "prompt": "I guess sir, if you say so, {{blank}} just like to read  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 29,
+          "lineId": "line-20",
+          "answer": "just like to read",
+          "options": [
+            "just like to read",
+            "love to perform",
+            "want to go home"
+          ],
+          "prompt": "I guess sir, if you say so, some of us {{blank}}  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 30,
+          "lineId": "line-21",
+          "answer": "One second",
+          "options": [
+            "One evening",
+            "Every morning",
+            "One second"
+          ],
+          "prompt": "{{blank}} I'm a Koons, then suddenly the Koons is me  ",
+          "promptZh": "前一刻，我彷彿是Koons的一件藝術作品；轉眼之間，Koons卻彷彿成了我"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 31,
+          "lineId": "line-21",
+          "answer": "then suddenly",
+          "options": [
+            "then suddenly",
+            "and quietly",
+            "but eventually"
+          ],
+          "prompt": "One second I'm a Koons, {{blank}} the Koons is me  ",
+          "promptZh": "前一刻，我彷彿是Koons的一件藝術作品；轉眼之間，Koons卻彷彿成了我"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 32,
+          "lineId": "line-22",
+          "answer": "Pop culture was in art",
+          "options": [
+            "Pop culture was in art",
+            "New stories were on stage",
+            "Old music was in fashion"
+          ],
+          "prompt": "{{blank}}, now art's in pop culture, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 33,
+          "lineId": "line-22",
+          "answer": "art's in pop culture",
+          "options": [
+            "love's in every picture",
+            "music's in the theatre",
+            "art's in pop culture"
+          ],
+          "prompt": "Pop culture was in art, now {{blank}}, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 34,
+          "lineId": "line-23",
+          "answer": "I live for the applause",
+          "options": [
+            "I sing for the audience",
+            "I wait for the spotlight",
+            "I live for the applause"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 35,
+          "lineId": "line-25",
+          "answer": "scream for me",
+          "options": [
+            "sing with me",
+            "scream for me",
+            "dance beside me"
+          ],
+          "prompt": "Live for the way that you cheer and {{blank}} ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 36,
+          "lineId": "line-26",
+          "answer": "applause, applause, applause",
+          "options": [
+            "rhythm, rhythm, rhythm",
+            "applause, applause, applause",
+            "music, music, music"
+          ],
+          "prompt": "The {{blank}} ",
+          "promptZh": "那掌聲，那掌聲，那如雷的掌聲"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 37,
+          "lineId": "line-27",
+          "answer": "Give me that thing",
+          "options": [
+            "Give me that thing",
+            "Show me your face",
+            "Tell me your name"
+          ],
+          "prompt": "{{blank}} that I love (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 38,
+          "lineId": "line-28",
+          "answer": "Put your hands up",
+          "options": [
+            "Turn your head around",
+            "Keep your voices down",
+            "Put your hands up"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 39,
+          "lineId": "line-30",
+          "answer": "make 'em touch",
+          "options": [
+            "let 'em rest",
+            "make 'em touch",
+            "make 'em dance"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 40,
+          "lineId": "line-45",
+          "answer": "the lights out",
+          "options": [
+            "the curtains up",
+            "the music on",
+            "the lights out"
+          ],
+          "prompt": "Give me that thing that I love (I'll turn {{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} to {{q:3}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} saying, \"Is it {{q:6}}?\" "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "If only {{q:7}} {{q:8}}, baby, {{q:9}} "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:10}}? I found {{q:11}}, {{q:12}} "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I live for the {{q:13}} "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:14}}, live for the applause-plause "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:15}} that you {{q:16}} for me "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:17}}, applause, applause "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Give me {{q:18}} ({{q:19}}) "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:20}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Give me that thing that I love ({{q:21}}) "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Put your hands up, make 'em touch, touch ({{q:22}})"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Put your hands up, {{q:23}}, touch"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I've {{q:24}}, \"{{q:25}}\" "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I guess sir, {{q:26}}, {{q:27}} {{q:28}}  "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:29}} I'm a Koons, {{q:30}} the Koons is me  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:31}}, now {{q:32}}, in me  "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:33}}, applause, applause "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Live for the way that you cheer and {{q:34}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The {{q:35}} "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:36}} that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:37}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Put your hands up, {{q:38}}, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Now... woo-oh-oh-oh "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Woo-oh-oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I live for the applause, applause, applause "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Live for the way that you cheer and scream for me "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Give me that thing that I love (I'll turn {{q:39}}) "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "A-R-T-P-O-P"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 39
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "I stand here",
+          "options": [
+            "I stand here",
+            "We wait outside",
+            "I sit alone"
+          ],
+          "prompt": "{{blank}} waiting for you to bang the gong ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "waiting for you",
+          "options": [
+            "looking for fame",
+            "calling for help",
+            "waiting for you"
+          ],
+          "prompt": "I stand here {{blank}} to bang the gong ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-1",
+          "answer": "bang the gong",
+          "options": [
+            "bang the gong",
+            "ring the bell",
+            "play the drums"
+          ],
+          "prompt": "I stand here waiting for you to {{blank}} ",
+          "promptZh": "我站在這裡，等待你敲響那面銅鑼"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "To crash",
+          "options": [
+            "To follow",
+            "To praise",
+            "To crash"
+          ],
+          "prompt": "{{blank}} the critic saying, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-2",
+          "answer": "the critic",
+          "options": [
+            "the critic",
+            "the singer",
+            "the audience"
+          ],
+          "prompt": "To crash {{blank}} saying, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-2",
+          "answer": "saying",
+          "options": [
+            "saying",
+            "shouting",
+            "whispering"
+          ],
+          "prompt": "To crash the critic {{blank}}, \"Is it right or is it wrong?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-2",
+          "answer": "right or is it wrong",
+          "options": [
+            "true or is it false",
+            "right or is it wrong",
+            "good or is it bad"
+          ],
+          "prompt": "To crash the critic saying, \"Is it {{blank}}?\" ",
+          "promptZh": "以震耳的聲響擊碎評論家那句：「這究竟是對，還是錯？」"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-3",
+          "answer": "If only",
+          "options": [
+            "As soon as",
+            "Even though",
+            "If only"
+          ],
+          "prompt": "{{blank}} fame had an IV, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-3",
+          "answer": "fame",
+          "options": [
+            "fame",
+            "fortune",
+            "music"
+          ],
+          "prompt": "If only {{blank}} had an IV, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-3",
+          "answer": "had an IV",
+          "options": [
+            "had an IV",
+            "was a river",
+            "had a price"
+          ],
+          "prompt": "If only fame {{blank}}, baby, could I bear ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-3",
+          "answer": "could I bear",
+          "options": [
+            "would I know",
+            "should I stay",
+            "could I bear"
+          ],
+          "prompt": "If only fame had an IV, baby, {{blank}} ",
+          "promptZh": "寶貝，倘若名聲能像點滴一樣注入血液，我是否還能忍受"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-4",
+          "answer": "Being away from you",
+          "options": [
+            "Being away from you",
+            "Standing close to you",
+            "Running back to you"
+          ],
+          "prompt": "{{blank}}? I found the vein, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-4",
+          "answer": "I found",
+          "options": [
+            "I lost",
+            "I found",
+            "I heard"
+          ],
+          "prompt": "Being away from you? {{blank}} the vein, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-4",
+          "answer": "the vein",
+          "options": [
+            "the stage",
+            "the vein",
+            "the light"
+          ],
+          "prompt": "Being away from you? I found {{blank}}, put it in here ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-4",
+          "answer": "put it in here",
+          "options": [
+            "leave it outside",
+            "take it away",
+            "put it in here"
+          ],
+          "prompt": "Being away from you? I found the vein, {{blank}} ",
+          "promptZh": "與你分離的日子？我已找到了血管，就從這裡注入吧"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 17,
+          "lineId": "line-5",
+          "answer": "applause, applause, applause",
+          "options": [
+            "music, music, music",
+            "applause, applause, applause",
+            "silence, silence, silence"
+          ],
+          "prompt": "I live for the {{blank}} ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 19,
+          "lineId": "line-6",
+          "answer": "live for the applause-plause",
+          "options": [
+            "wait for the spotlight",
+            "live for the applause-plause",
+            "dance for the audience"
+          ],
+          "prompt": "I {{blank}}, live for the applause-plause ",
+          "promptZh": "我為那陣陣掌聲而活，為那不絕於耳的喝采而活"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 20,
+          "lineId": "line-7",
+          "answer": "Live for the way",
+          "options": [
+            "Wait for the day",
+            "Sing for the crowd",
+            "Live for the way"
+          ],
+          "prompt": "{{blank}} that you cheer and scream for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 21,
+          "lineId": "line-7",
+          "answer": "cheer and scream",
+          "options": [
+            "dance and sing",
+            "cheer and scream",
+            "laugh and smile"
+          ],
+          "prompt": "Live for the way that you {{blank}} for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 22,
+          "lineId": "line-8",
+          "answer": "The applause",
+          "options": [
+            "The spotlight",
+            "The applause",
+            "The music"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "那掌聲，那掌聲，那如雷的掌聲"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 23,
+          "lineId": "line-9",
+          "answer": "that thing that I love",
+          "options": [
+            "the sound of the crowd",
+            "the rhythm of the song",
+            "that thing that I love"
+          ],
+          "prompt": "Give me {{blank}} (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 24,
+          "lineId": "line-9",
+          "answer": "I'll turn the lights out",
+          "options": [
+            "I'll turn the lights out",
+            "I'll turn the music on",
+            "I'll bring the crowd in"
+          ],
+          "prompt": "Give me that thing that I love ({{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 25,
+          "lineId": "line-10",
+          "answer": "Put your hands up",
+          "options": [
+            "Put your phones down",
+            "Put your hands up",
+            "Keep your eyes closed"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 26,
+          "lineId": "line-10",
+          "answer": "touch, touch",
+          "options": [
+            "clap, clap",
+            "wave, wave",
+            "touch, touch"
+          ],
+          "prompt": "Put your hands up, make 'em {{blank}} (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 27,
+          "lineId": "line-11",
+          "answer": "I'll turn the lights out",
+          "options": [
+            "I'll bring the curtain down",
+            "I'll turn the lights out",
+            "I'll turn the music up"
+          ],
+          "prompt": "Give me that thing that I love ({{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 28,
+          "lineId": "line-12",
+          "answer": "Make it real loud",
+          "options": [
+            "Keep it very quiet",
+            "Make it sound sweet",
+            "Make it real loud"
+          ],
+          "prompt": "Put your hands up, make 'em touch, touch ({{blank}})",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 29,
+          "lineId": "line-13",
+          "answer": "Make it real loud",
+          "options": [
+            "to raise the curtain",
+            "Make it real loud",
+            "to sing the chorus"
+          ],
+          "prompt": "A-P-P-L-A-U-S-E ({{blank}}) ",
+          "promptZh": "A-P-P-L-A-U-S-E，掌聲！（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 30,
+          "lineId": "line-15",
+          "answer": "make 'em touch",
+          "options": [
+            "make 'em touch",
+            "make 'em wave",
+            "let 'em fall"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 32,
+          "lineId": "line-19",
+          "answer": "overheard your theory",
+          "options": [
+            "overheard your theory",
+            "remembered your promise",
+            "forgotten your story"
+          ],
+          "prompt": "I've {{blank}}, \"Nostalgia's for geeks\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 33,
+          "lineId": "line-19",
+          "answer": "Nostalgia's for geeks",
+          "options": [
+            "The future's for dreamers",
+            "The stage is for stars",
+            "Nostalgia's for geeks"
+          ],
+          "prompt": "I've overheard your theory, \"{{blank}}\" ",
+          "promptZh": "我無意間聽見你的論調：「懷舊是那些書呆子的事。」"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 34,
+          "lineId": "line-20",
+          "answer": "I guess sir",
+          "options": [
+            "You said so",
+            "I guess sir",
+            "I know now"
+          ],
+          "prompt": "{{blank}}, if you say so, some of us just like to read  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 35,
+          "lineId": "line-20",
+          "answer": "if you say so",
+          "options": [
+            "when you come back",
+            "if you ask me",
+            "if you say so"
+          ],
+          "prompt": "I guess sir, {{blank}}, some of us just like to read  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 36,
+          "lineId": "line-20",
+          "answer": "some of us",
+          "options": [
+            "none of you",
+            "all of them",
+            "some of us"
+          ],
+          "prompt": "I guess sir, if you say so, {{blank}} just like to read  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 37,
+          "lineId": "line-20",
+          "answer": "just like to read",
+          "options": [
+            "want to go home",
+            "just like to read",
+            "love to perform"
+          ],
+          "prompt": "I guess sir, if you say so, some of us {{blank}}  ",
+          "promptZh": "我想，先生，既然你這麼說，那就隨你吧；畢竟我們有些人就是喜歡閱讀"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 38,
+          "lineId": "line-21",
+          "answer": "One second",
+          "options": [
+            "Every morning",
+            "One second",
+            "One evening"
+          ],
+          "prompt": "{{blank}} I'm a Koons, then suddenly the Koons is me  ",
+          "promptZh": "前一刻，我彷彿是Koons的一件藝術作品；轉眼之間，Koons卻彷彿成了我"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 39,
+          "lineId": "line-21",
+          "answer": "then suddenly",
+          "options": [
+            "and quietly",
+            "but eventually",
+            "then suddenly"
+          ],
+          "prompt": "One second I'm a Koons, {{blank}} the Koons is me  ",
+          "promptZh": "前一刻，我彷彿是Koons的一件藝術作品；轉眼之間，Koons卻彷彿成了我"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 40,
+          "lineId": "line-22",
+          "answer": "Pop culture was in art",
+          "options": [
+            "Pop culture was in art",
+            "New stories were on stage",
+            "Old music was in fashion"
+          ],
+          "prompt": "{{blank}}, now art's in pop culture, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 41,
+          "lineId": "line-22",
+          "answer": "art's in pop culture",
+          "options": [
+            "art's in pop culture",
+            "love's in every picture",
+            "music's in the theatre"
+          ],
+          "prompt": "Pop culture was in art, now {{blank}}, in me  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 42,
+          "lineId": "line-22",
+          "answer": "in me",
+          "options": [
+            "for you",
+            "on stage",
+            "in me"
+          ],
+          "prompt": "Pop culture was in art, now art's in pop culture, {{blank}}  ",
+          "promptZh": "從前，流行文化融入藝術；如今，藝術融入流行文化，也融入了我的生命"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 43,
+          "lineId": "line-23",
+          "answer": "I live for the applause",
+          "options": [
+            "I wait for the spotlight",
+            "I live for the applause",
+            "I sing for the audience"
+          ],
+          "prompt": "{{blank}}, applause, applause ",
+          "promptZh": "我為掌聲而活，為掌聲、掌聲而活"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 44,
+          "lineId": "line-25",
+          "answer": "scream for me",
+          "options": [
+            "scream for me",
+            "sing with me",
+            "dance beside me"
+          ],
+          "prompt": "Live for the way that you cheer and {{blank}} ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 45,
+          "lineId": "line-26",
+          "answer": "applause, applause, applause",
+          "options": [
+            "music, music, music",
+            "rhythm, rhythm, rhythm",
+            "applause, applause, applause"
+          ],
+          "prompt": "The {{blank}} ",
+          "promptZh": "那掌聲，那掌聲，那如雷的掌聲"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 46,
+          "lineId": "line-27",
+          "answer": "Give me that thing",
+          "options": [
+            "Give me that thing",
+            "Tell me your name",
+            "Show me your face"
+          ],
+          "prompt": "{{blank}} that I love (I'll turn the lights out) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 47,
+          "lineId": "line-28",
+          "answer": "Put your hands up",
+          "options": [
+            "Put your hands up",
+            "Keep your voices down",
+            "Turn your head around"
+          ],
+          "prompt": "{{blank}}, make 'em touch, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 48,
+          "lineId": "line-30",
+          "answer": "make 'em touch",
+          "options": [
+            "let 'em rest",
+            "make 'em touch",
+            "make 'em dance"
+          ],
+          "prompt": "Put your hands up, {{blank}}, touch (Make it real loud)",
+          "promptZh": "高舉雙手，讓雙掌拍響、拍響（讓掌聲震耳欲聾）"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 49,
+          "lineId": "line-43",
+          "answer": "Live for the way",
+          "options": [
+            "Live for the way",
+            "Wait for the day",
+            "Dance with the crowd"
+          ],
+          "prompt": "{{blank}} that you cheer and scream for me ",
+          "promptZh": "為你替我歡呼、為我尖叫的熱情而活"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 50,
+          "lineId": "line-45",
+          "answer": "the lights out",
+          "options": [
+            "the curtains up",
+            "the lights out",
+            "the music on"
+          ],
+          "prompt": "Give me that thing that I love (I'll turn {{blank}}) ",
+          "promptZh": "給我那令我深愛不已的東西（我會熄滅燈光）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} to {{q:3}} "
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}} {{q:6}}, \"Is it {{q:7}}?\" "
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:8}} {{q:9}} {{q:10}}, baby, {{q:11}} "
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:12}}? {{q:13}} {{q:14}}, {{q:15}} "
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I live for the {{q:16}} "
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "I {{q:17}}, live for the applause-plause "
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:18}} that you {{q:19}} for me "
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:20}}, applause, applause "
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Give me {{q:21}} ({{q:22}}) "
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:23}}, make 'em {{q:24}} (Make it real loud)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "Give me that thing that I love ({{q:25}}) "
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Put your hands up, make 'em touch, touch ({{q:26}})"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "A-P-P-L-A-U-S-E ({{q:27}}) "
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Put your hands up, {{q:28}}, touch"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "I've {{q:29}}, \"{{q:30}}\" "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:31}}, {{q:32}}, {{q:33}} {{q:34}}  "
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:35}} I'm a Koons, {{q:36}} the Koons is me  "
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:37}}, now {{q:38}}, {{q:39}}  "
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:40}}, applause, applause "
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Live for the way that you cheer and {{q:41}} "
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The {{q:42}} "
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:43}} that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "{{q:44}}, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Put your hands up, {{q:45}}, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Woo... touch, touch"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Now... woo-oh-oh-oh "
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Woo-oh-oh-oh"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "I live for the applause, applause, applause "
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "I live for the applause-plause, live for the applause-plause "
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:46}} that you cheer and scream for me "
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "The applause, applause, applause "
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Give me that thing that I love (I'll turn {{q:47}}) "
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Give me that thing that I love (I'll turn the lights out) "
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Put your hands up, make 'em touch, touch (Make it real loud)"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "A-P-P-L-A-U-S-E (Make it real loud) "
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "A-P-P-L-A-U-S-E"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Put your hands up, make 'em touch, touch"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "A-R-T-P-O-P"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 47
+    }
+  ],
+  "exercise_name": "Applause · Listening & Vocabulary",
+  "description": "《Applause》描寫一位表演者對舞台、掌聲與觀眾認同的強烈渴望。歌中的主角將觀眾的歡呼視為創作與表演的重要動力，渴望透過藝術展現自我，並從熱烈的掌聲中感受到存在的價值。面對外界的批評與質疑，她依然堅持自己的藝術理念，勇敢突破傳統與流行文化之間的界線。歌曲以閃耀的舞台、歡呼聲與藝術意象，呈現名聲帶來的興奮，以及對認可的深刻依賴。最終，《Applause》傳達的是藝術熱情、自我表達與追求肯定的複雜心情：掌聲能帶來鼓勵與力量，也可能令人逐漸依賴外界的評價，在創作自由與渴望被愛之間不斷尋找平衡。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Bang the gong",
+      "meaning": "敲響銅鑼。",
+      "usage": "要描述用力敲打銅鑼，讓它發出很大的聲音時，可以說 bang the gong。",
+      "prompt": "哪一句正確使用了「bang the gong」？",
+      "options": [
+        "I bang the gong into my tea because it needs more sugar.",
+        "Please bang the gong quietly so nobody can hear it.",
+        "My ticket banged the gong and became a famous singer.",
+        "At the start of the show, a man will bang the gong."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "bang the gong 是敲銅鑼，不是把銅鑼加進茶裡；想讓茶更甜，可以說 I put more sugar in my tea.",
+        "bang 在這裡強調用力敲出響亮的聲音，與要求完全不被聽見的情境矛盾；可說 Please do not bang the gong.",
+        "票券不能自己敲銅鑼，更不會因此成為歌手；可說 My ticket lets me see the show.",
+        "表演開始時有人敲響銅鑼，動作與情境都正確。"
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 1,
+      "explanation": "表演開始時有人敲響銅鑼，動作與情境都正確。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "C",
+        "B"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Critic",
+      "meaning": "評論家、批評者。",
+      "usage": "指經常評價電影、音樂、藝術或表演的人時，可以用 critic。",
+      "prompt": "哪一句正確使用了「critic」？",
+      "options": [
+        "The music critic wrote about the singer's new song.",
+        "The critic opened at nine, but the door was still asleep.",
+        "I put two critics in the oven to make the cake taste better.",
+        "The critic is a new kind of chair, so please sit on it."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "音樂評論家撰寫對新歌的評論，符合單字用法。",
+        "句子把評論家當作會開門營業的場所，還把門描述成睡著；可說 The shop opened at nine.",
+        "critic 是評論者，不是烘焙材料；可說 I put two eggs in the cake.",
+        "critic 指人，不是一種椅子；可說 Please sit on the chair."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 2,
+      "explanation": "音樂評論家撰寫對新歌的評論，符合單字用法。",
+      "sourceOptionOrder": [
+        "D",
+        "A",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Fame",
+      "meaning": "名聲、知名度。",
+      "usage": "說一個人因作品或表現而受到許多人認識時，可以使用 fame。它是名詞。",
+      "prompt": "哪一句正確使用了「fame」？",
+      "options": [
+        "I fame to the library after lunch.",
+        "The actor found fame after his first big movie.",
+        "The museum sells fame in small bottles for five dollars.",
+        "Her fame was late because it missed the train."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "fame 是名詞，不能當成「去」的動詞；可說 I go to the library after lunch.",
+        "演員在電影上映後獲得知名度，find fame 搭配自然。",
+        "名聲不是能裝瓶販售的商品；可說 The museum sells drinks in small bottles.",
+        "名聲不會自己搭火車，因此也不會因錯過火車而遲到；可說 She was late because she missed the train."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 3,
+      "explanation": "演員在電影上映後獲得知名度，find fame 搭配自然。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "C",
+        "D"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Bear",
+      "meaning": "忍受、承受（此處為動詞）；另外也可指「熊」（名詞）。",
+      "usage": "想表達某件令人難受的事很難承受時，可以說 bear + 事情 或 can't bear + 事情。",
+      "prompt": "哪一句正確使用了「bear」作為「忍受」？",
+      "options": [
+        "I can't bear this loud noise. Please close the door.",
+        "The bear at the zoo is eating fish.",
+        "The new building bears three blue windows.",
+        "I bear my name on the table before dinner."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "噪音令人無法忍受，所以用 can't bear 很自然。",
+        "這句的 bear 是「熊」，句子本身沒錯，但沒有使用題目指定的「忍受」意思。",
+        "這句不是 A2 常見的 bear＝「忍受」用法；想表達窗戶數量，可說 The new building has three blue windows.",
+        "bear 不能在這裡代替寫名字的動作；可說 I write my name on the paper."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 4,
+      "explanation": "噪音令人無法忍受，所以用 can't bear 很自然。",
+      "sourceOptionOrder": [
+        "A",
+        "B",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Live for",
+      "meaning": "為……而活；非常熱愛、重視某件事。",
+      "usage": "想強調一個人非常喜愛某項活動，或把它視為生活的重要動力時，可以說 live for + 名詞／活動。",
+      "prompt": "哪一句正確使用了「live for」？",
+      "options": [
+        "The clock lives for seven o'clock and refuses to show eight.",
+        "She lives for music and plays the piano every day.",
+        "I live for this box because it has my old books inside.",
+        "Our hotel lives for six floors, but one floor is on holiday."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "時鐘不會因為偏愛七點而拒絕顯示八點；可說 The clock shows eight o'clock.",
+        "每天彈琴的人非常熱愛音樂，lives for music 表達強烈喜好。",
+        "這裡只是說盒子裝著舊書，沒有自然表達「人生的重要動力」；可說 I keep my old books in this box.",
+        "樓層數量應用 has，不是 lives for；可說 Our hotel has six floors."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 5,
+      "explanation": "每天彈琴的人非常熱愛音樂，lives for music 表達強烈喜好。",
+      "sourceOptionOrder": [
+        "D",
+        "C",
+        "B",
+        "A"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Cheer",
+      "meaning": "歡呼、喝采、為……加油。",
+      "usage": "觀眾為表演者或隊伍發出歡呼聲時，可以用 cheer。",
+      "prompt": "哪一句正確使用了「cheer」？",
+      "options": [
+        "I cheered my name on the wall with a blue pen.",
+        "The sign says, “No cheering,” so the crowd cheered in silence.",
+        "The fans cheer when their team scores a goal.",
+        "Please cheer the painting into the kitchen; it is hungry."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "寫名字用 write，不是 cheer；可說 I wrote my name on the wall with a blue pen.",
+        "句子把需要出聲的歡呼與完全無聲混在一起；可說 The crowd stayed quiet.",
+        "球迷在隊伍進球時歡呼，完全符合用法。",
+        "cheer 表示歡呼，不是搬動畫作的動作；可說 Please carry the painting into the kitchen."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 6,
+      "explanation": "球迷在隊伍進球時歡呼，完全符合用法。",
+      "sourceOptionOrder": [
+        "C",
+        "B",
+        "D",
+        "A"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Turn the lights out",
+      "meaning": "把燈關掉、熄燈。",
+      "usage": "要關閉室內燈光時，可以說 turn the lights out 或 turn off the lights。",
+      "prompt": "哪一句正確使用了「turn the lights out」？",
+      "options": [
+        "I turn the lights out of my bag and put them on a plate.",
+        "The workers turn the lights out when the show ends.",
+        "She turned the lights out by painting the ceiling green.",
+        "The street turns the lights out because it wants to sleep early."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "這個片語不是從袋子裡把燈「倒出來」；可說 I take a lamp out of my bag.",
+        "表演結束後工作人員熄燈，正確描述關燈動作。",
+        "把天花板漆成綠色不等於關掉燈；可說 She painted the ceiling green.",
+        "街道不是會自己決定早睡的人；可說 The street lights turn off at midnight."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 7,
+      "explanation": "表演結束後工作人員熄燈，正確描述關燈動作。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Overhear",
+      "meaning": "無意間聽見、偶然聽到別人說話。",
+      "usage": "沒有刻意偷聽，卻剛好聽到附近的談話時，可以用 overhear。過去式是 overheard。",
+      "prompt": "哪一句正確使用了「overhear」？",
+      "options": [
+        "I overheard the soup and learned that it needed more salt.",
+        "The newspaper overheard a photo and became very worried.",
+        "I will overhear the meeting by putting it on the calendar.",
+        "I overheard two people talking about the concert on the train."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "湯不會說話，無法讓人無意間聽見它的談話；可說 I tasted the soup and added more salt.",
+        "報紙不會聽見照片，overhear 通常與聽見人說話有關；可說 I saw a photo in the newspaper.",
+        "把會議加入行事曆是安排，不代表碰巧聽見談話；可說 I will put the meeting on my calendar.",
+        "在火車上無意間聽見別人談論演唱會，使用自然且符合語境。"
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 8,
+      "explanation": "在火車上無意間聽見別人談論演唱會，使用自然且符合語境。",
+      "sourceOptionOrder": [
+        "A",
+        "D",
+        "B",
+        "C"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Nostalgia",
+      "meaning": "懷舊、對過去時光的想念。",
+      "usage": "看見舊照片、聽見以前的歌曲，而開始懷念過去時，可以使用 nostalgia。這個字是名詞。",
+      "prompt": "哪一句正確使用了「nostalgia」？",
+      "options": [
+        "Hearing that old song filled her with nostalgia.",
+        "My camera is full of nostalgia, so I need a bigger memory card.",
+        "The ticket office is closed because nostalgia has gone home.",
+        "The chef added three cups of nostalgia to the soup."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "一首老歌勾起對過去的懷念，filled her with nostalgia 表達自然。",
+        "nostalgia 是懷舊感，不是佔用相機容量的數位檔案；可說 My camera is full of photos.",
+        "懷舊是感受，不是售票處的員工；可說 The ticket office is closed because the worker has gone home.",
+        "懷舊感不是可用量杯加入湯裡的食材；可說 The chef added three cups of water to the soup."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 9,
+      "explanation": "一首老歌勾起對過去的懷念，filled her with nostalgia 表達自然。",
+      "sourceOptionOrder": [
+        "B",
+        "A",
+        "D",
+        "C"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Suddenly",
+      "meaning": "突然、忽然。",
+      "usage": "事情沒有預警就發生，或情況很快改變時，可以用 suddenly。",
+      "prompt": "哪一句正確使用了「suddenly」？",
+      "options": [
+        "We waited suddenly for six years, one minute at a time.",
+        "The guide says suddenly is the name of the oldest painting.",
+        "The music suddenly stopped, and everyone looked at the stage.",
+        "I bought three suddenly at the market for dinner."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "suddenly 不適合形容持續六年的漫長等待；可說 We waited for six years.",
+        "suddenly 一般用來描述動作發生得突然，不是畫作的種類；可說 The guide showed us the oldest painting.",
+        "音樂突然停止，大家因此看向舞台，符合副詞的用法。",
+        "suddenly 是副詞，不是市場裡可以買三個的物品；可說 I bought three oranges at the market."
+      ],
+      "sourceFile": "Applause_A2_English_Vocabulary_Quiz.md",
+      "sourceItem": 10,
+      "explanation": "音樂突然停止，大家因此看向舞台，符合副詞的用法。",
+      "sourceOptionOrder": [
+        "C",
+        "D",
+        "B",
+        "A"
+      ]
+    }
+  ],
+  "tags": [
+    "lady gaga",
+    "applause"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/applause/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/applause/user-cover-20261101.png",
+  "singer": "Lady Gaga",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 212.4933125,
+    "audioSha256": "2d08bfc41d6a7436aa8a1dbc3192e6a02fb8e8bd4d29d3932c5d464f11b24bb7",
+    "timedLines": 20,
+    "untimedLines": 35,
+    "reviewStatus": "Conservative automatic alignment; not manually certified. Unmatched lines remain bilingual without guessed timestamps."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "\"Applause\".pdf",
+      "sha256": "920e7212a0447eca6c60c1d690eb3a3b933299373a58f0fd4a6b57f6579e04ac"
+    },
+    "mp3": {
+      "filename": "Applause [wYx18ngL_Ss].mp3",
+      "sha256": "2d08bfc41d6a7436aa8a1dbc3192e6a02fb8e8bd4d29d3932c5d464f11b24bb7"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-bfa367ce-1eba-4c0c-a227-261b832f063f.png",
+    "sha256": "59afe28e23bbf32d4b546cf75548c831ed5e61a90e4d7761f06efac79c86fed0",
+    "transformations": "none",
+    "selectedOn": "2026-11-01"
+  }
+}

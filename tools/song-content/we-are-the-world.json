@@ -1,0 +1,3170 @@
+{
+  "slug": "we-are-the-world",
+  "title": "We Are The World",
+  "singer": "USA for Africa",
+  "translations": [
+    {
+      "english": "There comes a time when we heed a certain call",
+      "chinese": "終有那麼一刻，我們必須回應心中的召喚",
+      "lineId": "line-1",
+      "startSeconds": 24.32,
+      "endSeconds": 31.78
+    },
+    {
+      "english": "When the world must come together as one",
+      "chinese": "那是全世界必須團結一心的時刻",
+      "lineId": "line-2",
+      "startSeconds": 31.78,
+      "endSeconds": 37.4
+    },
+    {
+      "english": "There are people dying",
+      "chinese": "此刻，正有人在苦難中失去生命",
+      "lineId": "line-3",
+      "startSeconds": 38.84,
+      "endSeconds": 41.44
+    },
+    {
+      "english": "Oh, when it's time to lend a hand to life",
+      "chinese": "噢，是時候伸出援手，拯救生命了",
+      "lineId": "line-4",
+      "startSeconds": 41.44,
+      "endSeconds": 46.92
+    },
+    {
+      "english": "The greatest gift of all",
+      "chinese": "因為生命，是世上最珍貴的禮物",
+      "lineId": "line-5",
+      "startSeconds": 47.36,
+      "endSeconds": 52.5
+    },
+    {
+      "english": "We can't go on pretending day by day",
+      "chinese": "我們不能再日復一日地假裝若無其事",
+      "lineId": "line-6",
+      "startSeconds": 52.5,
+      "endSeconds": 58.74
+    },
+    {
+      "english": "That someone somewhere will soon make a change",
+      "chinese": "以為總會有某個人，在某個地方帶來改變",
+      "lineId": "line-7",
+      "startSeconds": 58.74,
+      "endSeconds": 64.2
+    },
+    {
+      "english": "We're all a part of God's great big family",
+      "chinese": "我們都是上帝這個大家庭的一分子",
+      "lineId": "line-8",
+      "startSeconds": 65.54,
+      "endSeconds": 71.38
+    },
+    {
+      "english": "And the truth, you know",
+      "chinese": "而你也知道，真正的道理是",
+      "lineId": "line-9",
+      "startSeconds": 71.38,
+      "endSeconds": 74.52
+    },
+    {
+      "english": "Love is all we need",
+      "chinese": "愛，才是我們最需要的一切",
+      "lineId": "line-10",
+      "startSeconds": 74.52,
+      "endSeconds": 78.18
+    },
+    {
+      "english": "We are the world",
+      "chinese": "我們同屬一個世界",
+      "lineId": "line-11"
+    },
+    {
+      "english": "We are the children",
+      "chinese": "我們都是這世界的孩子",
+      "lineId": "line-12"
+    },
+    {
+      "english": "We are the ones who make a brighter day",
+      "chinese": "我們正是能夠創造更光明明天的人",
+      "lineId": "line-13",
+      "startSeconds": 80.22,
+      "endSeconds": 87.86
+    },
+    {
+      "english": "So, let's start giving",
+      "chinese": "所以，就從現在開始付出吧",
+      "lineId": "line-14",
+      "startSeconds": 87.86,
+      "endSeconds": 90.08
+    },
+    {
+      "english": "There's a choice we're making",
+      "chinese": "我們正在作出一個抉擇",
+      "lineId": "line-15",
+      "startSeconds": 91.74,
+      "endSeconds": 94.64
+    },
+    {
+      "english": "We're saving our own lives",
+      "chinese": "我們正在拯救的，也是自己的生命",
+      "lineId": "line-16",
+      "startSeconds": 95.56,
+      "endSeconds": 98.44
+    },
+    {
+      "english": "It's true we'll make a better day",
+      "chinese": "我深信，我們定能創造更美好的明天",
+      "lineId": "line-17",
+      "startSeconds": 98.44,
+      "endSeconds": 101.16
+    },
+    {
+      "english": "Just you and me",
+      "chinese": "只要有你，也有我",
+      "lineId": "line-18",
+      "startSeconds": 101.56,
+      "endSeconds": 103.52
+    },
+    {
+      "english": "Well, send them your heart so they'll know that someone cares",
+      "chinese": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們",
+      "lineId": "line-19",
+      "startSeconds": 108.18,
+      "endSeconds": 115.0
+    },
+    {
+      "english": "And their lives will be stronger and free",
+      "chinese": "讓他們的生命更加堅韌，也更加自由",
+      "lineId": "line-20",
+      "startSeconds": 115.0,
+      "endSeconds": 120.04
+    },
+    {
+      "english": "As God has shown us by turning stone to bread",
+      "chinese": "正如上帝藉著化石為餅，向我們昭示的那樣",
+      "lineId": "line-21",
+      "startSeconds": 121.74,
+      "endSeconds": 127.9
+    },
+    {
+      "english": "And so we all must lend a helping hand",
+      "chinese": "因此，我們每個人都應伸出援助之手",
+      "lineId": "line-22",
+      "startSeconds": 127.9,
+      "endSeconds": 133.86
+    },
+    {
+      "english": "We are the world",
+      "chinese": "我們同屬一個世界",
+      "lineId": "line-23",
+      "startSeconds": 133.86,
+      "endSeconds": 136.5
+    },
+    {
+      "english": "We are the children",
+      "chinese": "我們都是這世界的孩子",
+      "lineId": "line-24",
+      "startSeconds": 137.38,
+      "endSeconds": 139.84
+    },
+    {
+      "english": "We are the ones who make a brighter day",
+      "chinese": "我們正是能夠創造更光明明天的人",
+      "lineId": "line-25",
+      "startSeconds": 139.84,
+      "endSeconds": 144.08
+    },
+    {
+      "english": "So, let's start giving",
+      "chinese": "所以，就從現在開始付出吧",
+      "lineId": "line-26",
+      "startSeconds": 144.08,
+      "endSeconds": 146.7
+    },
+    {
+      "english": "Oh, there's a choice we're making",
+      "chinese": "噢，我們正在作出一個抉擇",
+      "lineId": "line-27",
+      "startSeconds": 147.6,
+      "endSeconds": 150.4
+    },
+    {
+      "english": "We're saving our own lives",
+      "chinese": "我們正在拯救的，也是自己的生命",
+      "lineId": "line-28",
+      "startSeconds": 151.58,
+      "endSeconds": 154.9
+    },
+    {
+      "english": "It's true we'll make a better day",
+      "chinese": "我深信，我們定能創造更美好的明天",
+      "lineId": "line-29",
+      "startSeconds": 154.9,
+      "endSeconds": 157.68
+    },
+    {
+      "english": "Just you and me",
+      "chinese": "只要有你，也有我",
+      "lineId": "line-30",
+      "startSeconds": 157.68,
+      "endSeconds": 160.5
+    },
+    {
+      "english": "When you're down and out",
+      "chinese": "當你身陷困境，一無所有",
+      "lineId": "line-31",
+      "startSeconds": 161.32,
+      "endSeconds": 163.1
+    },
+    {
+      "english": "And there seems no hope at all",
+      "chinese": "當眼前的一切，似乎再也看不見希望",
+      "lineId": "line-32",
+      "startSeconds": 163.6,
+      "endSeconds": 166.78
+    },
+    {
+      "english": "But if you just believe",
+      "chinese": "但只要你願意相信",
+      "lineId": "line-33",
+      "startSeconds": 167.88,
+      "endSeconds": 169.94
+    },
+    {
+      "english": "There's no way we can fall",
+      "chinese": "我們就絕不會倒下",
+      "lineId": "line-34",
+      "startSeconds": 170.52,
+      "endSeconds": 172.84
+    },
+    {
+      "english": "Well, well, well",
+      "chinese": "是啊，是啊，是啊",
+      "lineId": "line-35",
+      "startSeconds": 172.84,
+      "endSeconds": 174.36
+    },
+    {
+      "english": "Let's realize, oh, that a change can only come",
+      "chinese": "讓我們明白，噢，真正的改變唯有在那一刻才會到來",
+      "lineId": "line-36"
+    },
+    {
+      "english": "When we stand together as one",
+      "chinese": "當我們團結一心，並肩而立",
+      "lineId": "line-37"
+    },
+    {
+      "english": "We are the world",
+      "chinese": "我們同屬一個世界",
+      "lineId": "line-38",
+      "startSeconds": 288.32,
+      "endSeconds": 295.14
+    },
+    {
+      "english": "We are the children",
+      "chinese": "我們都是這世界的孩子",
+      "lineId": "line-39",
+      "startSeconds": 295.14,
+      "endSeconds": 298.18
+    },
+    {
+      "english": "We are the ones who make a brighter day",
+      "chinese": "我們正是能夠創造更光明明天的人",
+      "lineId": "line-40",
+      "startSeconds": 298.18,
+      "endSeconds": 303.12
+    },
+    {
+      "english": "So, let's start giving",
+      "chinese": "所以，就從現在開始付出吧",
+      "lineId": "line-41",
+      "startSeconds": 303.12,
+      "endSeconds": 304.78
+    },
+    {
+      "english": "There's a choice we're making",
+      "chinese": "我們正在作出一個抉擇",
+      "lineId": "line-42",
+      "startSeconds": 305.22,
+      "endSeconds": 309.62
+    },
+    {
+      "english": "We're saving our own lives",
+      "chinese": "我們正在拯救的，也是自己的生命",
+      "lineId": "line-43"
+    },
+    {
+      "english": "It's true we'll make a better day",
+      "chinese": "我深信，我們定能創造更美好的明天",
+      "lineId": "line-44"
+    },
+    {
+      "english": "Just you and me",
+      "chinese": "只要有你，也有我",
+      "lineId": "line-45"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "heed a certain call",
+          "options": [
+            "hear a distant call",
+            "heed a certain call",
+            "need a helping hand"
+          ],
+          "prompt": "There comes a time when we {{blank}}",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "come together as one",
+          "options": [
+            "stand together at once",
+            "come together as one",
+            "work together for good"
+          ],
+          "prompt": "When the world must {{blank}}",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "people dying",
+          "options": [
+            "people dying",
+            "people crying",
+            "children waiting"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在苦難中失去生命"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "lend a hand",
+          "options": [
+            "give a hand",
+            "take a stand",
+            "lend a hand"
+          ],
+          "prompt": "Oh, when it's time to {{blank}} to life",
+          "promptZh": "噢，是時候伸出援手，拯救生命了"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "greatest gift",
+          "options": [
+            "greatest wish",
+            "greatest gift",
+            "precious gift"
+          ],
+          "prompt": "The {{blank}} of all",
+          "promptZh": "因為生命，是世上最珍貴的禮物"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "pretending",
+          "options": [
+            "pretending",
+            "depending",
+            "waiting"
+          ],
+          "prompt": "We can't go on {{blank}} day by day",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "make a change",
+          "options": [
+            "make a change",
+            "make a choice",
+            "take a chance"
+          ],
+          "prompt": "That someone somewhere will soon {{blank}}",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "great big family",
+          "options": [
+            "great new family",
+            "one big country",
+            "great big family"
+          ],
+          "prompt": "We're all a part of God's {{blank}}",
+          "promptZh": "我們都是上帝這個大家庭的一分子"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-10",
+          "answer": "Love",
+          "options": [
+            "Love",
+            "Hope",
+            "Peace"
+          ],
+          "prompt": "{{blank}} is all we need",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-11",
+          "answer": "the world",
+          "options": [
+            "the word",
+            "the children",
+            "the world"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們同屬一個世界"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-13",
+          "answer": "brighter day",
+          "options": [
+            "brighter day",
+            "better way",
+            "brighter light"
+          ],
+          "prompt": "We are the ones who make a {{blank}}",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-14",
+          "answer": "start giving",
+          "options": [
+            "keep living",
+            "start giving",
+            "start singing"
+          ],
+          "prompt": "So, let's {{blank}}",
+          "promptZh": "所以，就從現在開始付出吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-15",
+          "answer": "a choice",
+          "options": [
+            "a choice",
+            "a chance",
+            "a voice"
+          ],
+          "prompt": "There's {{blank}} we're making",
+          "promptZh": "我們正在作出一個抉擇"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-16",
+          "answer": "saving our own lives",
+          "options": [
+            "saving our own lives",
+            "changing our own minds",
+            "sharing all our lives"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們正在拯救的，也是自己的生命"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-17",
+          "answer": "better day",
+          "options": [
+            "brighter way",
+            "better life",
+            "better day"
+          ],
+          "prompt": "It's true we'll make a {{blank}}",
+          "promptZh": "我深信，我們定能創造更美好的明天"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "someone cares",
+          "options": [
+            "someone shares",
+            "someone cares",
+            "everyone knows"
+          ],
+          "prompt": "Well, send them your heart so they'll know that {{blank}}",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "stronger and free",
+          "options": [
+            "stronger than me",
+            "stronger and free",
+            "safer and happy"
+          ],
+          "prompt": "And their lives will be {{blank}}",
+          "promptZh": "讓他們的生命更加堅韌，也更加自由"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-22",
+          "answer": "helping hand",
+          "options": [
+            "helpful friend",
+            "healing heart",
+            "helping hand"
+          ],
+          "prompt": "And so we all must lend a {{blank}}",
+          "promptZh": "因此，我們每個人都應伸出援助之手"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-31",
+          "answer": "down and out",
+          "options": [
+            "down the road",
+            "lost and alone",
+            "down and out"
+          ],
+          "prompt": "When you're {{blank}}",
+          "promptZh": "當你身陷困境，一無所有"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-37",
+          "answer": "stand together as one",
+          "options": [
+            "stay together for good",
+            "stand together as one",
+            "stand beside everyone"
+          ],
+          "prompt": "When we {{blank}}",
+          "promptZh": "當我們團結一心，並肩而立"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "There comes a time when we {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "When the world must {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "There are {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, when it's time to {{q:4}} to life"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "The {{q:5}} of all"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We can't go on {{q:6}} day by day"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That someone somewhere will soon {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "We're all a part of God's {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And the truth, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:9}} is all we need"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "We are {{q:10}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "We are the ones who make a {{q:11}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "So, let's {{q:12}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "There's {{q:13}} we're making"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're {{q:14}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's true we'll make a {{q:15}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, send them your heart so they'll know that {{q:16}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And their lives will be {{q:17}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "As God has shown us by turning stone to bread"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And so we all must lend a {{q:18}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, there's a choice we're making"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We're saving our own lives"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "When you're {{q:19}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And there seems no hope at all"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "But if you just believe"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "There's no way we can fall"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Well, well, well"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Let's realize, oh, that a change can only come"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When we {{q:20}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "There's a choice we're making"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "We're saving our own lives"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Just you and me"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "There comes a time",
+          "options": [
+            "There was a time",
+            "There comes a day",
+            "There comes a time"
+          ],
+          "prompt": "{{blank}} when we heed a certain call",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "heed a certain call",
+          "options": [
+            "hear a distant call",
+            "heed a certain call",
+            "need a helping hand"
+          ],
+          "prompt": "There comes a time when we {{blank}}",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "the world must",
+          "options": [
+            "the world might",
+            "the world will",
+            "the world must"
+          ],
+          "prompt": "When {{blank}} come together as one",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "come together as one",
+          "options": [
+            "come together as one",
+            "stand together at once",
+            "work together for good"
+          ],
+          "prompt": "When the world must {{blank}}",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "children waiting",
+            "people dying"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在苦難中失去生命"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "lend a hand",
+          "options": [
+            "give a hand",
+            "lend a hand",
+            "take a stand"
+          ],
+          "prompt": "Oh, when it's time to {{blank}} to life",
+          "promptZh": "噢，是時候伸出援手，拯救生命了"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "greatest gift",
+          "options": [
+            "greatest wish",
+            "precious gift",
+            "greatest gift"
+          ],
+          "prompt": "The {{blank}} of all",
+          "promptZh": "因為生命，是世上最珍貴的禮物"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "pretending",
+          "options": [
+            "pretending",
+            "depending",
+            "waiting"
+          ],
+          "prompt": "We can't go on {{blank}} day by day",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "day by day",
+          "options": [
+            "side by side",
+            "day by day",
+            "night by night"
+          ],
+          "prompt": "We can't go on pretending {{blank}}",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "someone somewhere",
+          "options": [
+            "someone somewhere",
+            "someone out there",
+            "somebody near me"
+          ],
+          "prompt": "That {{blank}} will soon make a change",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "make a change",
+          "options": [
+            "make a choice",
+            "take a chance",
+            "make a change"
+          ],
+          "prompt": "That someone somewhere will soon {{blank}}",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "great big family",
+          "options": [
+            "great new family",
+            "great big family",
+            "one big country"
+          ],
+          "prompt": "We're all a part of God's {{blank}}",
+          "promptZh": "我們都是上帝這個大家庭的一分子"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "the truth",
+          "options": [
+            "the truth",
+            "the proof",
+            "the dream"
+          ],
+          "prompt": "And {{blank}}, you know",
+          "promptZh": "而你也知道，真正的道理是"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "Love",
+          "options": [
+            "Love",
+            "Hope",
+            "Peace"
+          ],
+          "prompt": "{{blank}} is all we need",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "all we need",
+          "options": [
+            "all we see",
+            "what we want",
+            "all we need"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "the world",
+          "options": [
+            "the word",
+            "the world",
+            "the children"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們同屬一個世界"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "the children",
+          "options": [
+            "the future",
+            "the children",
+            "the people"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們都是這世界的孩子"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "brighter day",
+          "options": [
+            "brighter day",
+            "better way",
+            "brighter light"
+          ],
+          "prompt": "We are the ones who make a {{blank}}",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "start giving",
+          "options": [
+            "keep living",
+            "start giving",
+            "start singing"
+          ],
+          "prompt": "So, let's {{blank}}",
+          "promptZh": "所以，就從現在開始付出吧"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-15",
+          "answer": "a choice",
+          "options": [
+            "a choice",
+            "a chance",
+            "a voice"
+          ],
+          "prompt": "There's {{blank}} we're making",
+          "promptZh": "我們正在作出一個抉擇"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-16",
+          "answer": "saving our own lives",
+          "options": [
+            "saving our own lives",
+            "changing our own minds",
+            "sharing all our lives"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們正在拯救的，也是自己的生命"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-17",
+          "answer": "better day",
+          "options": [
+            "brighter way",
+            "better day",
+            "better life"
+          ],
+          "prompt": "It's true we'll make a {{blank}}",
+          "promptZh": "我深信，我們定能創造更美好的明天"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-18",
+          "answer": "Just you and me",
+          "options": [
+            "Only you and me",
+            "Just you and I",
+            "Just you and me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只要有你，也有我"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-19",
+          "answer": "send them your heart",
+          "options": [
+            "give them your hand",
+            "show them your love",
+            "send them your heart"
+          ],
+          "prompt": "Well, {{blank}} so they'll know that someone cares",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "someone cares",
+          "options": [
+            "someone shares",
+            "someone cares",
+            "everyone knows"
+          ],
+          "prompt": "Well, send them your heart so they'll know that {{blank}}",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-20",
+          "answer": "stronger and free",
+          "options": [
+            "stronger than me",
+            "safer and happy",
+            "stronger and free"
+          ],
+          "prompt": "And their lives will be {{blank}}",
+          "promptZh": "讓他們的生命更加堅韌，也更加自由"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-21",
+          "answer": "turning stone to bread",
+          "options": [
+            "turning stone to bread",
+            "turning dreams to gold",
+            "bringing hope to life"
+          ],
+          "prompt": "As God has shown us by {{blank}}",
+          "promptZh": "正如上帝藉著化石為餅，向我們昭示的那樣"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-22",
+          "answer": "helping hand",
+          "options": [
+            "helpful friend",
+            "helping hand",
+            "healing heart"
+          ],
+          "prompt": "And so we all must lend a {{blank}}",
+          "promptZh": "因此，我們每個人都應伸出援助之手"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-31",
+          "answer": "down and out",
+          "options": [
+            "down the road",
+            "lost and alone",
+            "down and out"
+          ],
+          "prompt": "When you're {{blank}}",
+          "promptZh": "當你身陷困境，一無所有"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-32",
+          "answer": "no hope at all",
+          "options": [
+            "no hope at all",
+            "no help at all",
+            "no end in sight"
+          ],
+          "prompt": "And there seems {{blank}}",
+          "promptZh": "當眼前的一切，似乎再也看不見希望"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-33",
+          "answer": "just believe",
+          "options": [
+            "just believe",
+            "still believe",
+            "only dream"
+          ],
+          "prompt": "But if you {{blank}}",
+          "promptZh": "但只要你願意相信"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-37",
+          "answer": "stand together as one",
+          "options": [
+            "stay together for good",
+            "stand together as one",
+            "stand beside everyone"
+          ],
+          "prompt": "When we {{blank}}",
+          "promptZh": "當我們團結一心，並肩而立"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} when we {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "When {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "There are {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, when it's time to {{q:6}} to life"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "The {{q:7}} of all"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We can't go on {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:10}} will soon {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "We're all a part of God's {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And {{q:13}}, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:14}} is {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "We are {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We are {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "We are the ones who make a {{q:18}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "So, let's {{q:19}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "There's {{q:20}} we're making"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're {{q:21}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's true we'll make a {{q:22}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, {{q:24}} so they'll know that {{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And their lives will be {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "As God has shown us by {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And so we all must lend a {{q:28}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, there's a choice we're making"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We're saving our own lives"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "When you're {{q:29}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And there seems {{q:30}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "But if you {{q:31}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "There's no way we can fall"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Well, well, well"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Let's realize, oh, that a change can only come"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When we {{q:32}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "There's a choice we're making"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "We're saving our own lives"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Just you and me"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "There comes a time",
+          "options": [
+            "There comes a time",
+            "There was a time",
+            "There comes a day"
+          ],
+          "prompt": "{{blank}} when we heed a certain call",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "heed a certain call",
+          "options": [
+            "heed a certain call",
+            "hear a distant call",
+            "need a helping hand"
+          ],
+          "prompt": "There comes a time when we {{blank}}",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "the world must",
+          "options": [
+            "the world might",
+            "the world must",
+            "the world will"
+          ],
+          "prompt": "When {{blank}} come together as one",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "come together as one",
+          "options": [
+            "come together as one",
+            "stand together at once",
+            "work together for good"
+          ],
+          "prompt": "When the world must {{blank}}",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "people dying",
+            "children waiting"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在苦難中失去生命"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "it's time",
+          "options": [
+            "it's right",
+            "it's time",
+            "it's hard"
+          ],
+          "prompt": "Oh, when {{blank}} to lend a hand to life",
+          "promptZh": "噢，是時候伸出援手，拯救生命了"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "lend a hand",
+          "options": [
+            "give a hand",
+            "take a stand",
+            "lend a hand"
+          ],
+          "prompt": "Oh, when it's time to {{blank}} to life",
+          "promptZh": "噢，是時候伸出援手，拯救生命了"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "greatest gift",
+          "options": [
+            "greatest wish",
+            "greatest gift",
+            "precious gift"
+          ],
+          "prompt": "The {{blank}} of all",
+          "promptZh": "因為生命，是世上最珍貴的禮物"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "can't go on",
+          "options": [
+            "won't go on",
+            "can't go on",
+            "can't keep on"
+          ],
+          "prompt": "We {{blank}} pretending day by day",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "pretending",
+          "options": [
+            "pretending",
+            "depending",
+            "waiting"
+          ],
+          "prompt": "We can't go on {{blank}} day by day",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-6",
+          "answer": "day by day",
+          "options": [
+            "side by side",
+            "night by night",
+            "day by day"
+          ],
+          "prompt": "We can't go on pretending {{blank}}",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "someone somewhere",
+          "options": [
+            "someone out there",
+            "somebody near me",
+            "someone somewhere"
+          ],
+          "prompt": "That {{blank}} will soon make a change",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-7",
+          "answer": "make a change",
+          "options": [
+            "make a choice",
+            "make a change",
+            "take a chance"
+          ],
+          "prompt": "That someone somewhere will soon {{blank}}",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-8",
+          "answer": "We're all a part",
+          "options": [
+            "We all belong",
+            "We're just a part",
+            "We're all a part"
+          ],
+          "prompt": "{{blank}} of God's great big family",
+          "promptZh": "我們都是上帝這個大家庭的一分子"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-8",
+          "answer": "great big family",
+          "options": [
+            "great big family",
+            "great new family",
+            "one big country"
+          ],
+          "prompt": "We're all a part of God's {{blank}}",
+          "promptZh": "我們都是上帝這個大家庭的一分子"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-9",
+          "answer": "the truth",
+          "options": [
+            "the proof",
+            "the dream",
+            "the truth"
+          ],
+          "prompt": "And {{blank}}, you know",
+          "promptZh": "而你也知道，真正的道理是"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-10",
+          "answer": "Love",
+          "options": [
+            "Hope",
+            "Love",
+            "Peace"
+          ],
+          "prompt": "{{blank}} is all we need",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-10",
+          "answer": "all we need",
+          "options": [
+            "all we need",
+            "all we see",
+            "what we want"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-11",
+          "answer": "the world",
+          "options": [
+            "the word",
+            "the children",
+            "the world"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們同屬一個世界"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-12",
+          "answer": "the children",
+          "options": [
+            "the children",
+            "the future",
+            "the people"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們都是這世界的孩子"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "the ones who make",
+          "options": [
+            "the ones who give",
+            "the people who bring",
+            "the ones who make"
+          ],
+          "prompt": "We are {{blank}} a brighter day",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-13",
+          "answer": "brighter day",
+          "options": [
+            "better way",
+            "brighter day",
+            "brighter light"
+          ],
+          "prompt": "We are the ones who make a {{blank}}",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-14",
+          "answer": "start giving",
+          "options": [
+            "start giving",
+            "keep living",
+            "start singing"
+          ],
+          "prompt": "So, let's {{blank}}",
+          "promptZh": "所以，就從現在開始付出吧"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-15",
+          "answer": "a choice",
+          "options": [
+            "a choice",
+            "a chance",
+            "a voice"
+          ],
+          "prompt": "There's {{blank}} we're making",
+          "promptZh": "我們正在作出一個抉擇"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-15",
+          "answer": "we're making",
+          "options": [
+            "we've taken",
+            "we're facing",
+            "we're making"
+          ],
+          "prompt": "There's a choice {{blank}}",
+          "promptZh": "我們正在作出一個抉擇"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-16",
+          "answer": "saving our own lives",
+          "options": [
+            "changing our own minds",
+            "saving our own lives",
+            "sharing all our lives"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們正在拯救的，也是自己的生命"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-17",
+          "answer": "better day",
+          "options": [
+            "better day",
+            "brighter way",
+            "better life"
+          ],
+          "prompt": "It's true we'll make a {{blank}}",
+          "promptZh": "我深信，我們定能創造更美好的明天"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-18",
+          "answer": "Just you and me",
+          "options": [
+            "Only you and me",
+            "Just you and I",
+            "Just you and me"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只要有你，也有我"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-19",
+          "answer": "send them your heart",
+          "options": [
+            "give them your hand",
+            "send them your heart",
+            "show them your love"
+          ],
+          "prompt": "Well, {{blank}} so they'll know that someone cares",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-19",
+          "answer": "they'll know",
+          "options": [
+            "we'll know",
+            "they'll know",
+            "they'll see"
+          ],
+          "prompt": "Well, send them your heart so {{blank}} that someone cares",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-19",
+          "answer": "someone cares",
+          "options": [
+            "someone cares",
+            "someone shares",
+            "everyone knows"
+          ],
+          "prompt": "Well, send them your heart so they'll know that {{blank}}",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-20",
+          "answer": "their lives will be",
+          "options": [
+            "our lives could be",
+            "their lives will be",
+            "their hearts will be"
+          ],
+          "prompt": "And {{blank}} stronger and free",
+          "promptZh": "讓他們的生命更加堅韌，也更加自由"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-20",
+          "answer": "stronger and free",
+          "options": [
+            "stronger than me",
+            "safer and happy",
+            "stronger and free"
+          ],
+          "prompt": "And their lives will be {{blank}}",
+          "promptZh": "讓他們的生命更加堅韌，也更加自由"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-21",
+          "answer": "turning stone to bread",
+          "options": [
+            "turning stone to bread",
+            "turning dreams to gold",
+            "bringing hope to life"
+          ],
+          "prompt": "As God has shown us by {{blank}}",
+          "promptZh": "正如上帝藉著化石為餅，向我們昭示的那樣"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-22",
+          "answer": "helping hand",
+          "options": [
+            "helping hand",
+            "helpful friend",
+            "healing heart"
+          ],
+          "prompt": "And so we all must lend a {{blank}}",
+          "promptZh": "因此，我們每個人都應伸出援助之手"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-31",
+          "answer": "down and out",
+          "options": [
+            "down the road",
+            "lost and alone",
+            "down and out"
+          ],
+          "prompt": "When you're {{blank}}",
+          "promptZh": "當你身陷困境，一無所有"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-32",
+          "answer": "no hope at all",
+          "options": [
+            "no help at all",
+            "no hope at all",
+            "no end in sight"
+          ],
+          "prompt": "And there seems {{blank}}",
+          "promptZh": "當眼前的一切，似乎再也看不見希望"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-33",
+          "answer": "just believe",
+          "options": [
+            "still believe",
+            "only dream",
+            "just believe"
+          ],
+          "prompt": "But if you {{blank}}",
+          "promptZh": "但只要你願意相信"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-34",
+          "answer": "we can fall",
+          "options": [
+            "we can fall",
+            "we will fail",
+            "we might fall"
+          ],
+          "prompt": "There's no way {{blank}}",
+          "promptZh": "我們就絕不會倒下"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-37",
+          "answer": "stand together as one",
+          "options": [
+            "stay together for good",
+            "stand beside everyone",
+            "stand together as one"
+          ],
+          "prompt": "When we {{blank}}",
+          "promptZh": "當我們團結一心，並肩而立"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} when we {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "When {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "There are {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, when {{q:6}} to {{q:7}} to life"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "The {{q:8}} of all"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We {{q:9}} {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:12}} will soon {{q:13}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:14}} of God's {{q:15}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And {{q:16}}, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:17}} is {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "We are {{q:19}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We are {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "We are {{q:21}} a {{q:22}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "So, let's {{q:23}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "There's {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "It's true we'll make a {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, {{q:29}} so {{q:30}} that {{q:31}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And {{q:32}} {{q:33}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "As God has shown us by {{q:34}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And so we all must lend a {{q:35}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, there's a choice we're making"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We're saving our own lives"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "When you're {{q:36}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And there seems {{q:37}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "But if you {{q:38}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "There's no way {{q:39}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Well, well, well"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Let's realize, oh, that a change can only come"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When we {{q:40}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "There's a choice we're making"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "We're saving our own lives"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Just you and me"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "There comes a time",
+          "options": [
+            "There was a time",
+            "There comes a day",
+            "There comes a time"
+          ],
+          "prompt": "{{blank}} when we heed a certain call",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "heed a certain call",
+          "options": [
+            "hear a distant call",
+            "need a helping hand",
+            "heed a certain call"
+          ],
+          "prompt": "There comes a time when we {{blank}}",
+          "promptZh": "終有那麼一刻，我們必須回應心中的召喚"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "the world must",
+          "options": [
+            "the world must",
+            "the world might",
+            "the world will"
+          ],
+          "prompt": "When {{blank}} come together as one",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "come together as one",
+          "options": [
+            "stand together at once",
+            "work together for good",
+            "come together as one"
+          ],
+          "prompt": "When the world must {{blank}}",
+          "promptZh": "那是全世界必須團結一心的時刻"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "people dying",
+          "options": [
+            "people crying",
+            "people dying",
+            "children waiting"
+          ],
+          "prompt": "There are {{blank}}",
+          "promptZh": "此刻，正有人在苦難中失去生命"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "it's time",
+          "options": [
+            "it's time",
+            "it's right",
+            "it's hard"
+          ],
+          "prompt": "Oh, when {{blank}} to lend a hand to life",
+          "promptZh": "噢，是時候伸出援手，拯救生命了"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "lend a hand",
+          "options": [
+            "give a hand",
+            "lend a hand",
+            "take a stand"
+          ],
+          "prompt": "Oh, when it's time to {{blank}} to life",
+          "promptZh": "噢，是時候伸出援手，拯救生命了"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "greatest gift",
+          "options": [
+            "greatest wish",
+            "precious gift",
+            "greatest gift"
+          ],
+          "prompt": "The {{blank}} of all",
+          "promptZh": "因為生命，是世上最珍貴的禮物"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "can't go on",
+          "options": [
+            "can't go on",
+            "won't go on",
+            "can't keep on"
+          ],
+          "prompt": "We {{blank}} pretending day by day",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-6",
+          "answer": "pretending",
+          "options": [
+            "depending",
+            "pretending",
+            "waiting"
+          ],
+          "prompt": "We can't go on {{blank}} day by day",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-6",
+          "answer": "day by day",
+          "options": [
+            "side by side",
+            "night by night",
+            "day by day"
+          ],
+          "prompt": "We can't go on pretending {{blank}}",
+          "promptZh": "我們不能再日復一日地假裝若無其事"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-7",
+          "answer": "someone somewhere",
+          "options": [
+            "someone out there",
+            "someone somewhere",
+            "somebody near me"
+          ],
+          "prompt": "That {{blank}} will soon make a change",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-7",
+          "answer": "make a change",
+          "options": [
+            "make a change",
+            "make a choice",
+            "take a chance"
+          ],
+          "prompt": "That someone somewhere will soon {{blank}}",
+          "promptZh": "以為總會有某個人，在某個地方帶來改變"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-8",
+          "answer": "We're all a part",
+          "options": [
+            "We all belong",
+            "We're all a part",
+            "We're just a part"
+          ],
+          "prompt": "{{blank}} of God's great big family",
+          "promptZh": "我們都是上帝這個大家庭的一分子"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-8",
+          "answer": "great big family",
+          "options": [
+            "great big family",
+            "great new family",
+            "one big country"
+          ],
+          "prompt": "We're all a part of God's {{blank}}",
+          "promptZh": "我們都是上帝這個大家庭的一分子"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-9",
+          "answer": "the truth",
+          "options": [
+            "the proof",
+            "the dream",
+            "the truth"
+          ],
+          "prompt": "And {{blank}}, you know",
+          "promptZh": "而你也知道，真正的道理是"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-10",
+          "answer": "Love",
+          "options": [
+            "Hope",
+            "Peace",
+            "Love"
+          ],
+          "prompt": "{{blank}} is all we need",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-10",
+          "answer": "all we need",
+          "options": [
+            "all we need",
+            "all we see",
+            "what we want"
+          ],
+          "prompt": "Love is {{blank}}",
+          "promptZh": "愛，才是我們最需要的一切"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-11",
+          "answer": "the world",
+          "options": [
+            "the word",
+            "the world",
+            "the children"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們同屬一個世界"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-12",
+          "answer": "the children",
+          "options": [
+            "the children",
+            "the future",
+            "the people"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們都是這世界的孩子"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "the ones who make",
+          "options": [
+            "the ones who give",
+            "the people who bring",
+            "the ones who make"
+          ],
+          "prompt": "We are {{blank}} a brighter day",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-13",
+          "answer": "brighter day",
+          "options": [
+            "brighter day",
+            "better way",
+            "brighter light"
+          ],
+          "prompt": "We are the ones who make a {{blank}}",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-14",
+          "answer": "start giving",
+          "options": [
+            "keep living",
+            "start giving",
+            "start singing"
+          ],
+          "prompt": "So, let's {{blank}}",
+          "promptZh": "所以，就從現在開始付出吧"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-15",
+          "answer": "a choice",
+          "options": [
+            "a chance",
+            "a voice",
+            "a choice"
+          ],
+          "prompt": "There's {{blank}} we're making",
+          "promptZh": "我們正在作出一個抉擇"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-15",
+          "answer": "we're making",
+          "options": [
+            "we've taken",
+            "we're making",
+            "we're facing"
+          ],
+          "prompt": "There's a choice {{blank}}",
+          "promptZh": "我們正在作出一個抉擇"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-16",
+          "answer": "saving our own lives",
+          "options": [
+            "changing our own minds",
+            "saving our own lives",
+            "sharing all our lives"
+          ],
+          "prompt": "We're {{blank}}",
+          "promptZh": "我們正在拯救的，也是自己的生命"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-17",
+          "answer": "It's true",
+          "options": [
+            "It's true",
+            "We know",
+            "It's time"
+          ],
+          "prompt": "{{blank}} we'll make a better day",
+          "promptZh": "我深信，我們定能創造更美好的明天"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-17",
+          "answer": "better day",
+          "options": [
+            "brighter way",
+            "better life",
+            "better day"
+          ],
+          "prompt": "It's true we'll make a {{blank}}",
+          "promptZh": "我深信，我們定能創造更美好的明天"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-18",
+          "answer": "Just you and me",
+          "options": [
+            "Only you and me",
+            "Just you and me",
+            "Just you and I"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只要有你，也有我"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-19",
+          "answer": "send them your heart",
+          "options": [
+            "send them your heart",
+            "give them your hand",
+            "show them your love"
+          ],
+          "prompt": "Well, {{blank}} so they'll know that someone cares",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-19",
+          "answer": "they'll know",
+          "options": [
+            "we'll know",
+            "they'll know",
+            "they'll see"
+          ],
+          "prompt": "Well, send them your heart so {{blank}} that someone cares",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-19",
+          "answer": "someone cares",
+          "options": [
+            "someone shares",
+            "someone cares",
+            "everyone knows"
+          ],
+          "prompt": "Well, send them your heart so they'll know that {{blank}}",
+          "promptZh": "那麼，就向他們獻出真心，讓他們知道，世上有人關懷著他們"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-20",
+          "answer": "their lives will be",
+          "options": [
+            "their lives will be",
+            "our lives could be",
+            "their hearts will be"
+          ],
+          "prompt": "And {{blank}} stronger and free",
+          "promptZh": "讓他們的生命更加堅韌，也更加自由"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-20",
+          "answer": "stronger and free",
+          "options": [
+            "stronger and free",
+            "stronger than me",
+            "safer and happy"
+          ],
+          "prompt": "And their lives will be {{blank}}",
+          "promptZh": "讓他們的生命更加堅韌，也更加自由"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-21",
+          "answer": "God has shown us",
+          "options": [
+            "God will guide us",
+            "love has taught us",
+            "God has shown us"
+          ],
+          "prompt": "As {{blank}} by turning stone to bread",
+          "promptZh": "正如上帝藉著化石為餅，向我們昭示的那樣"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-21",
+          "answer": "turning stone to bread",
+          "options": [
+            "turning dreams to gold",
+            "bringing hope to life",
+            "turning stone to bread"
+          ],
+          "prompt": "As God has shown us by {{blank}}",
+          "promptZh": "正如上帝藉著化石為餅，向我們昭示的那樣"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-22",
+          "answer": "helping hand",
+          "options": [
+            "helpful friend",
+            "helping hand",
+            "healing heart"
+          ],
+          "prompt": "And so we all must lend a {{blank}}",
+          "promptZh": "因此，我們每個人都應伸出援助之手"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-23",
+          "answer": "the world",
+          "options": [
+            "the word",
+            "the children",
+            "the world"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們同屬一個世界"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-24",
+          "answer": "the children",
+          "options": [
+            "the people",
+            "the children",
+            "the future"
+          ],
+          "prompt": "We are {{blank}}",
+          "promptZh": "我們都是這世界的孩子"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-25",
+          "answer": "make a brighter day",
+          "options": [
+            "build a better world",
+            "find a brighter way",
+            "make a brighter day"
+          ],
+          "prompt": "We are the ones who {{blank}}",
+          "promptZh": "我們正是能夠創造更光明明天的人"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-28",
+          "answer": "our own lives",
+          "options": [
+            "our own minds",
+            "our own lives",
+            "each other's lives"
+          ],
+          "prompt": "We're saving {{blank}}",
+          "promptZh": "我們正在拯救的，也是自己的生命"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-29",
+          "answer": "It's true",
+          "options": [
+            "It's true",
+            "We know",
+            "It's time"
+          ],
+          "prompt": "{{blank}} we'll make a better day",
+          "promptZh": "我深信，我們定能創造更美好的明天"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-31",
+          "answer": "When you're",
+          "options": [
+            "When you're",
+            "If you're",
+            "Now you're"
+          ],
+          "prompt": "{{blank}} down and out",
+          "promptZh": "當你身陷困境，一無所有"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-31",
+          "answer": "down and out",
+          "options": [
+            "down the road",
+            "lost and alone",
+            "down and out"
+          ],
+          "prompt": "When you're {{blank}}",
+          "promptZh": "當你身陷困境，一無所有"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-32",
+          "answer": "no hope at all",
+          "options": [
+            "no hope at all",
+            "no help at all",
+            "no end in sight"
+          ],
+          "prompt": "And there seems {{blank}}",
+          "promptZh": "當眼前的一切，似乎再也看不見希望"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-33",
+          "answer": "just believe",
+          "options": [
+            "just believe",
+            "still believe",
+            "only dream"
+          ],
+          "prompt": "But if you {{blank}}",
+          "promptZh": "但只要你願意相信"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-34",
+          "answer": "we can fall",
+          "options": [
+            "we will fail",
+            "we can fall",
+            "we might fall"
+          ],
+          "prompt": "There's no way {{blank}}",
+          "promptZh": "我們就絕不會倒下"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-36",
+          "answer": "a change can only come",
+          "options": [
+            "a change can only come",
+            "a change is coming soon",
+            "a chance can always come"
+          ],
+          "prompt": "Let's realize, oh, that {{blank}}",
+          "promptZh": "讓我們明白，噢，真正的改變唯有在那一刻才會到來"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-37",
+          "answer": "stand together as one",
+          "options": [
+            "stay together for good",
+            "stand together as one",
+            "stand beside everyone"
+          ],
+          "prompt": "When we {{blank}}",
+          "promptZh": "當我們團結一心，並肩而立"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-43",
+          "answer": "We're saving",
+          "options": [
+            "We're sharing",
+            "We're changing",
+            "We're saving"
+          ],
+          "prompt": "{{blank}} our own lives",
+          "promptZh": "我們正在拯救的，也是自己的生命"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} when we {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "When {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "There are {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh, when {{q:6}} to {{q:7}} to life"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "The {{q:8}} of all"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We {{q:9}} {{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "That {{q:12}} will soon {{q:13}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:14}} of God's {{q:15}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "And {{q:16}}, you know"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:17}} is {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "We are {{q:19}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "We are {{q:20}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "We are {{q:21}} a {{q:22}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "So, let's {{q:23}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "There's {{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:27}} we'll make a {{q:28}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Well, {{q:30}} so {{q:31}} that {{q:32}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "And {{q:33}} {{q:34}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "As {{q:35}} by {{q:36}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "And so we all must lend a {{q:37}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "We are {{q:38}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "We are {{q:39}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "We are the ones who {{q:40}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Oh, there's a choice we're making"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "We're saving {{q:41}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:42}} we'll make a better day"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "Just you and me"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:43}} {{q:44}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And there seems {{q:45}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "But if you {{q:46}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "There's no way {{q:47}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Well, well, well"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Let's realize, oh, that {{q:48}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "When we {{q:49}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We are the world"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "We are the children"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "We are the ones who make a brighter day"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "So, let's start giving"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "There's a choice we're making"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:50}} our own lives"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's true we'll make a better day"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Just you and me"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "We Are The World · Listening & Vocabulary",
+  "description": "《We Are the World》描寫人類面對苦難時，應該團結一致、互相扶持，共同創造更美好的世界。歌曲提醒我們，世界上仍有許多人正遭受貧困、飢餓與生命威脅，因此不能只是等待別人伸出援手，而應主動付出愛心與關懷。它強調所有人都是同一個大家庭的成員，無論來自哪個國家或背景，都有責任幫助有需要的人。即使面對困難，只要彼此相信、攜手合作，便能帶來希望與改變。最終，《We Are the World》傳達的是愛、和平、團結與無私奉獻的精神：每個人的力量或許有限，但當全世界的人願意共同努力，便有機會改變生命，創造一個更加溫暖、公平與充滿希望的未來。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Come together",
+      "meaning": "團結、聚在一起",
+      "usage": "當大家為了同一件事一起努力，或聚在同一個地方時使用。",
+      "prompt": "哪一句正確使用了「Come together」？",
+      "options": [
+        "I came together my shoes before school.",
+        "Our class came together to help a friend.",
+        "The soup came together at seven o’clock.",
+        "Please come together the window."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤。穿鞋子要說 put on my shoes，不能用 come together。",
+        "正確。全班一起幫助朋友，表示大家團結合作。",
+        "錯誤。湯不會像人一樣團結；可以說 The soup was ready at seven.。",
+        "錯誤。關窗戶要說 close the window，不能說 come together the window。"
+      ],
+      "explanation": "正確。全班一起幫助朋友，表示大家團結合作。"
+    },
+    {
+      "number": 2,
+      "word": "Lend a hand",
+      "meaning": "幫個忙、伸出援手",
+      "usage": "別人忙不過來，或需要你的幫助時使用。",
+      "prompt": "哪一句正確使用了「Lend a hand」？",
+      "options": [
+        "Can you lend a hand my breakfast?",
+        "My pencil lent a hand and wrote a song.",
+        "Can you lend me a hand with these boxes?",
+        "I lent a hand to the blue sky."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤。這裡不能直接接 breakfast；可以說 Can you help me make breakfast?。",
+        "錯誤。鉛筆不會主動幫忙寫歌。",
+        "正確。請人幫忙搬箱子，是很自然的用法。",
+        "錯誤。天空不是正在做事、需要協助的人。"
+      ],
+      "explanation": "正確。請人幫忙搬箱子，是很自然的用法。"
+    },
+    {
+      "number": 3,
+      "word": "Go on",
+      "meaning": "繼續",
+      "usage": "想說某個動作或情況持續下去時使用。",
+      "prompt": "哪一句正確使用了「Go on」？",
+      "options": [
+        "The teacher told us to go on reading.",
+        "I go on my jacket when it is cold.",
+        "She goes on the milk in her cup.",
+        "We go on the door at night."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確。go on reading 表示繼續閱讀。",
+        "錯誤。穿外套應說 put on my jacket。",
+        "錯誤。倒牛奶應說 pours the milk into her cup。",
+        "錯誤。關門應說 close the door。"
+      ],
+      "explanation": "正確。go on reading 表示繼續閱讀。"
+    },
+    {
+      "number": 4,
+      "word": "Pretend",
+      "meaning": "假裝",
+      "usage": "明明不是那樣，卻故意表現得像真的一樣時使用。",
+      "prompt": "哪一句正確使用了「Pretend」？",
+      "options": [
+        "He pretends his homework with a ruler.",
+        "My little brother pretends to be a king.",
+        "The chair pretended into the kitchen.",
+        "I pretend a sandwich for lunch."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤。pretend 不表示做作業；應說 He does his homework.。",
+        "正確。pretend to be 表示假裝自己是某種身分。",
+        "錯誤。pretend 不能表示移動到某處。",
+        "錯誤。做三明治要用 make，而不是 pretend。"
+      ],
+      "explanation": "正確。pretend to be 表示假裝自己是某種身分。"
+    },
+    {
+      "number": 5,
+      "word": "Make a change",
+      "meaning": "做出改變、帶來改變",
+      "usage": "想改善事情、改掉習慣或讓情況不同時使用。",
+      "prompt": "哪一句正確使用了「Make a change」？",
+      "options": [
+        "I make a change my sandwich with a spoon.",
+        "The banana made a change to my homework pencil.",
+        "Please make a change the lights before bed.",
+        "I want to make a change and walk to school."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤。這裡不能把 make a change 當作製作食物的動詞。",
+        "錯誤。香蕉不能這樣改變鉛筆；整句意思不清楚。",
+        "錯誤。關燈要說 turn off the lights。",
+        "正確。改成走路上學，是生活習慣的改變。"
+      ],
+      "explanation": "正確。改成走路上學，是生活習慣的改變。"
+    },
+    {
+      "number": 6,
+      "word": "A part of",
+      "meaning": "……的一部分",
+      "usage": "表示某個人或東西屬於一個團體或整體時使用。",
+      "prompt": "哪一句正確使用了「A part of」？",
+      "options": [
+        "The cat is a part of hungry today.",
+        "She is a part of quickly in the park.",
+        "I am a part of the school music club.",
+        "We are a part of eat some pizza."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤。hungry 是形容詞，不能直接接在 a part of 後面。",
+        "錯誤。quickly 是副詞，不是團體或整體。",
+        "正確。表示我是學校音樂社的一員。",
+        "錯誤。a part of 後面不能直接接 eat 這種動詞。"
+      ],
+      "explanation": "正確。表示我是學校音樂社的一員。"
+    },
+    {
+      "number": 7,
+      "word": "Care about",
+      "meaning": "關心、在乎",
+      "usage": "當某個人或某件事對你很重要時使用。",
+      "prompt": "哪一句正確使用了「Care about」？",
+      "options": [
+        "I care about my bike to school.",
+        "I care about my friends and ask if they are okay.",
+        "She cares about to the shop at five.",
+        "They care about the door with a key."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤。這句把 care about 誤用成騎車；應說 I ride my bike to school.。",
+        "正確。關心朋友、詢問他們好不好，很符合 care about 的用法。",
+        "錯誤。care about 不能直接接 to the shop 來表達去商店。",
+        "錯誤。用鑰匙開門要說 open the door with a key。"
+      ],
+      "explanation": "正確。關心朋友、詢問他們好不好，很符合 care about 的用法。"
+    },
+    {
+      "number": 8,
+      "word": "Make a choice",
+      "meaning": "做出選擇",
+      "usage": "有兩個或更多選項，需要決定時使用。",
+      "prompt": "哪一句正確使用了「Make a choice」？",
+      "options": [
+        "Please make a choice your shoes on the floor.",
+        "The clock makes a choice at nine every night.",
+        "I made a choice my lunch with some rice.",
+        "You can make a choice: tea or orange juice."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤。放鞋子要說 put your shoes on the floor。",
+        "錯誤。時鐘不會自己做決定。",
+        "錯誤。煮午餐應說 made my lunch，不是 made a choice my lunch。",
+        "正確。兩種飲料中選一種，就是做出選擇。"
+      ],
+      "explanation": "正確。兩種飲料中選一種，就是做出選擇。"
+    },
+    {
+      "number": 9,
+      "word": "Down and out",
+      "meaning": "窮困潦倒、處境很困難",
+      "usage": "形容一個人沒有錢、失去依靠或生活很難時使用；語氣較強。",
+      "prompt": "哪一句正確使用了「Down and out」？",
+      "options": [
+        "After losing his job, he was down and out.",
+        "The lift goes down and out of the sky.",
+        "My dog is down and out because it wants a biscuit.",
+        "Put the cups down and out the table."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確。失去工作後生活陷入困境，符合這個片語的意思。",
+        "錯誤。down and out 不是電梯移動方向的說法。",
+        "錯誤。想吃餅乾不等於生活陷入嚴重困境。",
+        "錯誤。放杯子應說 put the cups on the table。"
+      ],
+      "explanation": "正確。失去工作後生活陷入困境，符合這個片語的意思。"
+    },
+    {
+      "number": 10,
+      "word": "Stand together",
+      "meaning": "團結一致、站在一起",
+      "usage": "大家互相支持，特別是一起面對困難時使用。",
+      "prompt": "哪一句正確使用了「Stand together」？",
+      "options": [
+        "Our team stands together when things get hard.",
+        "We stand together the cake in the oven.",
+        "I stand together my teeth every morning.",
+        "The milk stands together inside my phone."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確。團隊遇到困難時仍互相支持，正是這個片語的意思。",
+        "錯誤。烤蛋糕應說 bake the cake in the oven。",
+        "錯誤。刷牙應說 brush my teeth，不能用 stand together。",
+        "錯誤。這句不符合 stand together 表示團結的意思。"
+      ],
+      "explanation": "正確。團隊遇到困難時仍互相支持，正是這個片語的意思。"
+    }
+  ],
+  "tags": [
+    "usa for africa",
+    "we are the world",
+    "solidarity",
+    "hope"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/we-are-the-world/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/we-are-the-world/user-cover-20261030.png",
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 427.3333125,
+    "audioSha256": "365d7a29a77faa009999e09a66805d748408bf71c1ebb6d3e7378a717904683a",
+    "timedLines": 38,
+    "untimedLines": 7,
+    "reviewStatus": "Conservative automatic cues; uncertain background or unmatched lines remain visible without guessed timing."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_We Are The World_.pdf",
+      "sha256": "1e4fa15226de753c28a02ee8d96ad635038542841f4ecba4b78a97097b1699f1"
+    },
+    "chosenListening": {
+      "filename": "We_Are_The_World_Four_Level_Listening_Exercise.docx",
+      "sha256": "d586cf5e72b45b52f93dcd147404e7dd662f785252f21a24cc667386e38f2ba7"
+    },
+    "chosenVocabulary": {
+      "filename": "We_Are_The_World_Vocabulary_Quiz.md",
+      "sha256": "c9f11b94a7db92a16c963d0cd7df996e40c6ad3933e6e31f964f917e36b46dfa"
+    },
+    "audio": {
+      "filename": "We Are The World [mIqhl0rH0Wc].mp3",
+      "sha256": "365d7a29a77faa009999e09a66805d748408bf71c1ebb6d3e7378a717904683a"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-219710b4-0052-4a8b-835b-3b64c3f0f6b6.png",
+    "sha256": "e04d3d73b930b1e32baea1cf4a20737ea2c62a39f22fccb1fc9be1e862cbd694",
+    "transformations": "none"
+  }
+}

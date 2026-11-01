@@ -1,0 +1,20 @@
+const assert=require('node:assert/strict');
+const {chromium}=require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+(async()=>{const browser=await chromium.launch();try{
+const page=await browser.newPage({viewport:{width:1512,height:1100}}),errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:8799/ielts-chart-teaching.html');await page.locator('[data-vocabulary-open]').click();
+await page.locator('.vocab-entry').first().waitFor();assert.equal(await page.locator('.vocab-entry').count(),40);
+await page.locator('[data-vocab-search]').fill('account for');assert(await page.locator('.vocab-entry').count()>0);
+await page.locator('[data-insert-vocab][data-target=observation]').first().click();await page.locator('[data-insert-vocab][data-target=overview]').first().click();
+assert((await page.locator('[data-note-type=observation]').first().inputValue()).includes('account for'));
+await page.locator('[data-vocab-search]').fill('');await page.locator('[data-vocab-category]').selectOption('maps');assert(await page.locator('.vocab-entry').count()>0);
+await page.screenshot({path:'/tmp/ielts-vocabulary-desktop.png'});
+await page.locator('[data-vocab-category]').selectOption('');await page.locator('[data-vocab-kind]').selectOption('warning');assert.equal(await page.locator('[data-insert-vocab]').count(),0);
+await page.locator('[data-vocab-tab=source]').click();await page.locator('[data-book-page]').fill('77');await page.locator('[data-book-page]').press('Tab');assert((await page.locator('.vocab-source-text').innerText()).includes('limestone'));
+await page.locator('[data-book-page]').fill('110');await page.locator('[data-book-page]').press('Tab');assert(await page.locator('[data-page-step="1"]').isDisabled());
+await page.locator('[data-vocab-tab=entries]').click();await page.locator('[data-vocab-kind]').selectOption('');await page.locator('[data-vocab-search]').fill('xyznotaword');assert(await page.locator('.vocab-empty').isVisible());
+await page.locator('[data-vocab-search]').fill('');await page.setViewportSize({width:390,height:844});assert(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth+1));await page.screenshot({path:'/tmp/ielts-vocabulary-mobile.png'});
+await page.locator('[data-vocab-search]').focus();await page.keyboard.press('Escape');assert.equal(await page.locator('.vocabulary-panel').count(),0);
+await page.reload();assert((await page.locator('[data-note-type=overview]').first().inputValue()).includes('account for'));assert.deepEqual(errors,[]);
+console.log('PASS: vocabulary search, scenarios, warning protection, source pages, note insertion/persistence, mobile, Escape');
+}finally{await browser.close();}})().catch(e=>{console.error(e);process.exitCode=1});

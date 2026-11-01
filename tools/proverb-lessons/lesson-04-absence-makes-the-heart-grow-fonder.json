@@ -1,0 +1,166 @@
+{
+  "id": "proverb-04",
+  "order": 4,
+  "slug": "absence-makes-the-heart-grow-fonder",
+  "version": "1",
+  "title": "小別勝新婚",
+  "titleEn": "Absence Makes the Heart Grow Fonder",
+  "titleZh": "小別勝新婚",
+  "image": "assets/proverb-system/absence-makes-the-heart-grow-fonder.svg",
+  "imageWidth": 1200,
+  "imageHeight": 900,
+  "imageAlt": "Illustrated learning card for Absence Makes the Heart Grow Fonder.",
+  "imageAltZh": "「小別勝新婚」學習插圖。",
+  "source": {
+    "kind": "newly-authored",
+    "reference": "Oxford proverb index; original teaching scenes and questions",
+    "date": "2026-10-28"
+  },
+  "meaning": {
+    "en": "People may feel more affection for someone while they are apart and miss that person.",
+    "zh": "與在乎的人分開一段時間後，可能因為掛念而更珍惜對方。"
+  },
+  "formulas": [
+    {
+      "labelEn": "Target Proverb",
+      "labelZh": "目標諺語",
+      "formula": "absence makes the heart grow fonder",
+      "highlight": "absence makes the heart grow fonder"
+    }
+  ],
+  "examples": [
+    {
+      "labelEn": "Model",
+      "labelZh": "示例",
+      "en": "While Cheng was away on placement, she looked forward to her weekly calls with her grandmother even more—absence makes the heart grow fonder.",
+      "zh": "阿澄去外地實習後，反而更期待每週與祖母通話。",
+      "highlight": "absence makes the heart grow fonder"
+    }
+  ],
+  "instructions": {
+    "en": "Choose the one sentence that keeps the situation’s facts and uses “absence makes the heart grow fonder” accurately.",
+    "zh": "選出唯一保留情境事實、又正確使用「absence makes the heart grow fonder」的英文句子。"
+  },
+  "questions": [
+    {
+      "id": "proverb-04-q01",
+      "number": 1,
+      "prompt": "After a month studying away, May looked forward to calls with her mother more than before.",
+      "promptZh": "阿美到外地讀書一個月後，比以前更期待與母親通話。",
+      "starter": "May",
+      "answer": "May missed her mother more while they were apart—absence makes the heart grow fonder.",
+      "answerZh": "阿美到外地讀書一個月後，比以前更期待與母親通話。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q02",
+      "number": 2,
+      "prompt": "While her father was away for two weeks, Lok realised she valued cooking with him more.",
+      "promptZh": "父親出差兩週後，樂樂發覺自己比平日更珍惜與他一起煮飯。",
+      "starter": "Lok",
+      "answer": "Lok valued time with her father more during his trip—absence makes the heart grow fonder.",
+      "answerZh": "父親出差兩週後，樂樂發覺自己比平日更珍惜與他一起煮飯。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q03",
+      "number": 3,
+      "prompt": "After spending the summer apart from his friend, Fung was more excited than before to meet again.",
+      "promptZh": "阿峰與好友分開過暑假後，見面時比以前更興奮。",
+      "starter": "Fung",
+      "answer": "Fung welcomed the reunion more eagerly after time apart—absence makes the heart grow fonder.",
+      "answerZh": "阿峰與好友分開過暑假後，見面時比以前更興奮。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q04",
+      "number": 4,
+      "prompt": "While her grandmother stayed in hospital, a girl remembered her stories daily and valued their time together more.",
+      "promptZh": "祖母住院期間，孫女每天想起她以前講的故事，越發珍惜相處的日子。",
+      "starter": "The",
+      "answer": "The girl valued her grandmother even more while they were apart—absence makes the heart grow fonder.",
+      "answerZh": "祖母住院期間，孫女每天想起她以前講的故事，越發珍惜相處的日子。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q05",
+      "number": 5,
+      "prompt": "Two sisters work in different cities and treasure their holiday visits more than they used to.",
+      "promptZh": "兩位姊妹在不同城市工作，假日見面時更加珍惜彼此。",
+      "starter": "The",
+      "answer": "The sisters treasure their visits more because they live apart—absence makes the heart grow fonder.",
+      "answerZh": "兩位姊妹在不同城市工作，假日見面時更加珍惜彼此。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q06",
+      "number": 6,
+      "prompt": "After half a term in a school hostel, Jun was more willing than before to listen to his younger brother at home.",
+      "promptZh": "阿俊在校外宿舍住了半學期，回家時比以前更願意聽弟弟說話。",
+      "starter": "Time",
+      "answer": "Time away helped Jun appreciate conversations with his younger brother—absence makes the heart grow fonder.",
+      "answerZh": "阿俊在校外宿舍住了半學期，回家時比以前更願意聽弟弟說話。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q07",
+      "number": 7,
+      "prompt": "During a tournament abroad, Ying began to miss training with her coach more than she expected.",
+      "promptZh": "阿瑩到外國參賽後，開始更想念與教練一起練習的時間。",
+      "starter": "Ying",
+      "answer": "Ying missed training with her coach while she was away—absence makes the heart grow fonder.",
+      "answerZh": "阿瑩到外國參賽後，開始更想念與教練一起練習的時間。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q08",
+      "number": 8,
+      "prompt": "A couple live apart temporarily; both say their reunion dinners feel more precious than before.",
+      "promptZh": "夫妻暫時分住兩地，兩人都說重聚的晚餐比以前珍貴。",
+      "starter": "Both",
+      "answer": "Both partners value their dinners more during the separation—absence makes the heart grow fonder.",
+      "answerZh": "夫妻暫時分住兩地，兩人都說重聚的晚餐比以前珍貴。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q09",
+      "number": 9,
+      "prompt": "After moving to another district, Di looked forward to weekend visits with his childhood friend more.",
+      "promptZh": "阿迪搬到另一區後，更期待週末見兒時好友。",
+      "starter": "Di",
+      "answer": "Di looked forward to seeing his old friend more after moving—absence makes the heart grow fonder.",
+      "answerZh": "阿迪搬到另一區後，更期待週末見兒時好友。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q10",
+      "number": 10,
+      "prompt": "After a year away from her hometown, Sze valued her parents’ messages more than she had before.",
+      "promptZh": "阿詩離開家鄉一年後，比以往更珍惜父母寄來的短訊。",
+      "starter": "Sze",
+      "answer": "Sze came to value her parents’ messages more during her year away—absence makes the heart grow fonder.",
+      "answerZh": "阿詩離開家鄉一年後，比以往更珍惜父母寄來的短訊。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q11",
+      "number": 11,
+      "prompt": "After five days at camp, a boy said he wanted to play chess with his grandfather more often.",
+      "promptZh": "男孩在露營五天後說，自己現在更想陪外公下棋。",
+      "starter": "The",
+      "answer": "The boy missed chess with his grandfather while away at camp—absence makes the heart grow fonder.",
+      "answerZh": "男孩在露營五天後說，自己現在更想陪外公下棋。",
+      "highlight": "absence makes the heart grow fonder"
+    },
+    {
+      "id": "proverb-04-q12",
+      "number": 12,
+      "prompt": "Working away from home made Lok realise she valued her friend’s regular letters more than before.",
+      "promptZh": "阿樂在外地工作後，才發現自己比以前更珍惜朋友定期來信。",
+      "starter": "Lok",
+      "answer": "Lok valued her friend’s letters more after moving away—absence makes the heart grow fonder.",
+      "answerZh": "阿樂在外地工作後，才發現自己比以前更珍惜朋友定期來信。",
+      "highlight": "absence makes the heart grow fonder"
+    }
+  ]
+}

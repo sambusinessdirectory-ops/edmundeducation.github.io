@@ -1,0 +1,13 @@
+import fs from 'node:fs';
+import vm from 'node:vm';
+import assert from 'node:assert/strict';
+const js=fs.readFileSync('song-appreciation.js','utf8');
+const source=js.slice(js.indexOf('  function lyricTimeline('),js.indexOf('  function renderExerciseQuestions('));
+const context=vm.createContext({asArray:x=>Array.isArray(x)?x:[],SYNC_PRESETS:{},youtubeVideoId:()=>'',Number,questionMatchesLine:()=>true});
+vm.runInContext(source,context);
+const song={translations:[{lineId:'a',startSeconds:12,endSeconds:15},{lineId:'b',startSeconds:null,endSeconds:null},{lineId:'c',startSeconds:20,endSeconds:24}]};
+const timeline=context.lyricTimeline(song,100);
+assert.deepEqual(Array.from(timeline,x=>[x.row.lineId,x.start,x.end]),[['a',12,15],['c',20,24]]);
+assert.equal(context.questionTimeline([{lineId:'b'}],timeline)[0],null);
+assert.equal(context.questionTimeline([{lineId:'c'}],timeline)[0].start,20);
+console.log('Verified timings survive partial coverage; untimed repeated lyrics do not jump to a different chorus.');

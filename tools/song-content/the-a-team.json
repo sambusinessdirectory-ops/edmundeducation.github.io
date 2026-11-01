@@ -1,0 +1,5158 @@
+{
+  "slug": "the-a-team",
+  "title": "The A Team",
+  "singer": "Ed Sheeran",
+  "exercise_name": "The A Team · Listening & Vocabulary",
+  "description": "《The A Team》描寫一名年輕女子因貧困、毒癮與孤獨而逐漸失去希望的悲傷故事。歌中的主角生活艱難，為了支付房租和維持生計，不得不出賣身體，並依賴毒品逃避現實。她曾經渴望美好的未來，卻被殘酷的生活困住，身心逐漸受到摧殘。歌曲將她比喻為無法飛翔的天使，象徵純真與希望在冷漠的世界中慢慢消逝。最終，《The A Team》傳達的是對弱勢群體的同情、關懷與反思：每個陷入困境的人背後，都可能有一段不為人知的故事。與其批判他們的選擇，我們更應理解他們的痛苦，給予尊重、支持與溫暖。",
+  "tags": [
+    "ed sheeran",
+    "the a team",
+    "compassion",
+    "hardship"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "White lips, pale face",
+      "chinese": "慘白的雙唇，蒼白的臉龐",
+      "startSeconds": 11.0,
+      "endSeconds": 14.38
+    },
+    {
+      "lineId": "line-2",
+      "english": "Breathing in snowflakes",
+      "chinese": "呼吸著冰冷的雪花",
+      "startSeconds": 14.38,
+      "endSeconds": 17.14
+    },
+    {
+      "lineId": "line-3",
+      "english": "Burnt lungs, sour taste",
+      "chinese": "灼傷的肺部，酸澀的滋味",
+      "startSeconds": 17.88,
+      "endSeconds": 20.24
+    },
+    {
+      "lineId": "line-4",
+      "english": "Light's gone, day's end",
+      "chinese": "燈光熄滅，白晝將盡",
+      "startSeconds": 22.58,
+      "endSeconds": 25.46
+    },
+    {
+      "lineId": "line-5",
+      "english": "Struggling to pay rent",
+      "chinese": "為了繳納房租而苦苦掙扎",
+      "startSeconds": 25.46,
+      "endSeconds": 28.04
+    },
+    {
+      "lineId": "line-6",
+      "english": "Long nights, strange men",
+      "chinese": "漫長的夜晚，陌生的男人",
+      "startSeconds": 28.04,
+      "endSeconds": 31.08
+    },
+    {
+      "lineId": "line-7",
+      "english": "And they say",
+      "chinese": "而他們說",
+      "startSeconds": 31.08,
+      "endSeconds": 34.58
+    },
+    {
+      "lineId": "line-8",
+      "english": "She's in the Class A Team",
+      "chinese": "她身處「A級團隊」（暗指頂級毒品俱樂部）",
+      "startSeconds": 34.58,
+      "endSeconds": 37.38
+    },
+    {
+      "lineId": "line-9",
+      "english": "Stuck in her daydream",
+      "chinese": "困在自己的白日夢裡",
+      "startSeconds": 37.38,
+      "endSeconds": 40.32
+    },
+    {
+      "lineId": "line-10",
+      "english": "Been this way since eighteen",
+      "chinese": "從十八歲起就是這副模樣",
+      "startSeconds": 40.62,
+      "endSeconds": 43.18
+    },
+    {
+      "lineId": "line-11",
+      "english": "But lately her face seems",
+      "chinese": "但最近她的臉龐似乎",
+      "startSeconds": 43.18,
+      "endSeconds": 46.24
+    },
+    {
+      "lineId": "line-12",
+      "english": "Slowly sinking, wasting",
+      "chinese": "慢慢凹陷、日漸消瘦",
+      "startSeconds": 46.24,
+      "endSeconds": 48.6
+    },
+    {
+      "lineId": "line-13",
+      "english": "Crumbling like pastries",
+      "chinese": "像糕點一樣碎裂崩塌",
+      "startSeconds": 48.6,
+      "endSeconds": 51.56
+    },
+    {
+      "lineId": "line-14",
+      "english": "And they scream",
+      "chinese": "而他們尖叫著",
+      "startSeconds": 51.56,
+      "endSeconds": 52.94
+    },
+    {
+      "lineId": "line-15",
+      "english": "The worst things in life come free to us",
+      "chinese": "生命中最糟糕的事物總是免費降臨在我們身上",
+      "startSeconds": 52.94,
+      "endSeconds": 55.88
+    },
+    {
+      "lineId": "line-16",
+      "english": "'Cause we're just under the upper hand",
+      "chinese": "因為我們只是被壓在底層的弱勢者",
+      "startSeconds": 55.88,
+      "endSeconds": 58.76
+    },
+    {
+      "lineId": "line-17",
+      "english": "And go mad for a couple grams",
+      "chinese": "為了幾克粉末而發狂",
+      "startSeconds": 59.64,
+      "endSeconds": 61.42
+    },
+    {
+      "lineId": "line-18",
+      "english": "And she don't want to go outside tonight",
+      "chinese": "而她今晚不想出門",
+      "startSeconds": 61.42,
+      "endSeconds": 66.3
+    },
+    {
+      "lineId": "line-19",
+      "english": "And in a pipe she flies to the Motherland",
+      "chinese": "在煙管中她飛向祖國",
+      "startSeconds": 66.3,
+      "endSeconds": 70.12
+    },
+    {
+      "lineId": "line-20",
+      "english": "Or sells love to another man",
+      "chinese": "或者將愛出賣給另一個男人",
+      "startSeconds": 70.12,
+      "endSeconds": 72.68
+    },
+    {
+      "lineId": "line-21",
+      "english": "It's too cold outside",
+      "chinese": "外面太冷了",
+      "startSeconds": 72.68,
+      "endSeconds": 76.2
+    },
+    {
+      "lineId": "line-22",
+      "english": "For angels to fly",
+      "chinese": "天使無法飛翔",
+      "startSeconds": 76.2,
+      "endSeconds": 82.4
+    },
+    {
+      "lineId": "line-23",
+      "english": "Angels to fly",
+      "chinese": "天使無法飛翔",
+      "startSeconds": 83.06,
+      "endSeconds": 86.42
+    },
+    {
+      "lineId": "line-24",
+      "english": "Ripped gloves, raincoat",
+      "chinese": "破爛的手套，雨衣",
+      "startSeconds": 90.0,
+      "endSeconds": 93.38
+    },
+    {
+      "lineId": "line-25",
+      "english": "Tried to swim and stay afloat",
+      "chinese": "試圖游動以保持漂浮求生",
+      "startSeconds": 93.38,
+      "endSeconds": 95.98
+    },
+    {
+      "lineId": "line-26",
+      "english": "Dry house, wet clothes",
+      "chinese": "乾燥的房子，濕透的衣服",
+      "startSeconds": 95.98,
+      "endSeconds": 99.32
+    },
+    {
+      "lineId": "line-27",
+      "english": "Loose change, bank notes",
+      "chinese": "零錢，紙鈔",
+      "startSeconds": 101.42,
+      "endSeconds": 104.78
+    },
+    {
+      "lineId": "line-28",
+      "english": "Weary-eyed, dry throat",
+      "chinese": "疲倦的雙眼，乾渴的喉嚨",
+      "startSeconds": 104.8,
+      "endSeconds": 107.3
+    },
+    {
+      "lineId": "line-29",
+      "english": "Call girl, no phone",
+      "chinese": "應召女郎，沒有電話",
+      "startSeconds": 107.68,
+      "endSeconds": 110.24
+    },
+    {
+      "lineId": "line-30",
+      "english": "And they say",
+      "chinese": "而他們說",
+      "startSeconds": 111.9,
+      "endSeconds": 113.64
+    },
+    {
+      "lineId": "line-31",
+      "english": "She's in the Class A Team",
+      "chinese": "她身處「A級團隊」",
+      "startSeconds": 113.64,
+      "endSeconds": 116.42
+    },
+    {
+      "lineId": "line-32",
+      "english": "Stuck in her daydream",
+      "chinese": "困在自己的白日夢裡",
+      "startSeconds": 116.42,
+      "endSeconds": 119.34
+    },
+    {
+      "lineId": "line-33",
+      "english": "Been this way since eighteen",
+      "chinese": "從十八歲起就是這副模樣",
+      "startSeconds": 119.34,
+      "endSeconds": 122.22
+    },
+    {
+      "lineId": "line-34",
+      "english": "But lately her face seems",
+      "chinese": "但最近她的臉龐似乎",
+      "startSeconds": 122.22,
+      "endSeconds": 125.1
+    },
+    {
+      "lineId": "line-35",
+      "english": "Slowly sinking, wasting",
+      "chinese": "慢慢凹陷、日漸消瘦",
+      "startSeconds": 125.1,
+      "endSeconds": 127.58
+    },
+    {
+      "lineId": "line-36",
+      "english": "Crumbling like pastries",
+      "chinese": "像糕點一樣碎裂崩塌",
+      "startSeconds": 128.36,
+      "endSeconds": 130.64
+    },
+    {
+      "lineId": "line-37",
+      "english": "And they scream",
+      "chinese": "而他們尖叫著",
+      "startSeconds": 130.64,
+      "endSeconds": 131.92
+    },
+    {
+      "lineId": "line-38",
+      "english": "The worst things in life come free to us",
+      "chinese": "生命中最糟糕的事物總是免費降臨在我們身上",
+      "startSeconds": 132.08,
+      "endSeconds": 134.96
+    },
+    {
+      "lineId": "line-39",
+      "english": "'Cause we're just under the upper hand",
+      "chinese": "因為我們只是被壓在底層的弱勢者",
+      "startSeconds": 134.96,
+      "endSeconds": 137.74
+    },
+    {
+      "lineId": "line-40",
+      "english": "And go mad for a couple grams",
+      "chinese": "為了幾克粉末而發狂",
+      "startSeconds": 138.72,
+      "endSeconds": 140.48
+    },
+    {
+      "lineId": "line-41",
+      "english": "And she don't want to go outside tonight",
+      "chinese": "而她今晚不想出門",
+      "startSeconds": 141.68,
+      "endSeconds": 145.42
+    },
+    {
+      "lineId": "line-42",
+      "english": "And in a pipe she flies to the Motherland",
+      "chinese": "在煙管中她飛向祖國",
+      "startSeconds": 145.42,
+      "endSeconds": 149.1
+    },
+    {
+      "lineId": "line-43",
+      "english": "Or sells love to another man",
+      "chinese": "或者將愛出賣給另一個男人",
+      "startSeconds": 149.92,
+      "endSeconds": 151.74
+    },
+    {
+      "lineId": "line-44",
+      "english": "It's too cold outside",
+      "chinese": "外面太冷了",
+      "startSeconds": 151.74,
+      "endSeconds": 154.92
+    },
+    {
+      "lineId": "line-45",
+      "english": "For angels to fly",
+      "chinese": "天使無法飛翔",
+      "startSeconds": 154.92,
+      "endSeconds": 158.46
+    },
+    {
+      "lineId": "line-46",
+      "english": "An angel will die",
+      "chinese": "一位天使將要死去",
+      "startSeconds": 159.38,
+      "endSeconds": 161.4
+    },
+    {
+      "lineId": "line-47",
+      "english": "Covered in white",
+      "chinese": "覆蓋在白雪之中",
+      "startSeconds": 161.4,
+      "endSeconds": 163.84
+    },
+    {
+      "lineId": "line-48",
+      "english": "Closed eye",
+      "chinese": "緊閉的雙眼",
+      "startSeconds": 163.84,
+      "endSeconds": 166.16
+    },
+    {
+      "lineId": "line-49",
+      "english": "And hoping for a better life",
+      "chinese": "並期盼著更美好的生活",
+      "startSeconds": 166.16,
+      "endSeconds": 168.2
+    },
+    {
+      "lineId": "line-50",
+      "english": "This time, we'll fade out tonight",
+      "chinese": "這一次，我們將在今晚消逝",
+      "startSeconds": 168.2,
+      "endSeconds": 172.94
+    },
+    {
+      "lineId": "line-51",
+      "english": "Straight down the line",
+      "chinese": "筆直地走向盡頭",
+      "startSeconds": 172.94,
+      "endSeconds": 175.04
+    },
+    {
+      "lineId": "line-52",
+      "english": "And they say",
+      "chinese": "而他們說",
+      "startSeconds": 185.46,
+      "endSeconds": 186.98
+    },
+    {
+      "lineId": "line-53",
+      "english": "She's in the Class A Team",
+      "chinese": "她身處「A級團隊」",
+      "startSeconds": 186.98,
+      "endSeconds": 189.96
+    },
+    {
+      "lineId": "line-54",
+      "english": "Stuck in her daydream",
+      "chinese": "困在自己的白日夢裡",
+      "startSeconds": 189.96,
+      "endSeconds": 192.74
+    },
+    {
+      "lineId": "line-55",
+      "english": "Been this way since eighteen",
+      "chinese": "從十八歲起就是這副模樣",
+      "startSeconds": 192.74,
+      "endSeconds": 195.54
+    },
+    {
+      "lineId": "line-56",
+      "english": "But lately her face seems",
+      "chinese": "但最近她的臉龐似乎",
+      "startSeconds": 195.54,
+      "endSeconds": 198.5
+    },
+    {
+      "lineId": "line-57",
+      "english": "Slowly sinking, wasting",
+      "chinese": "慢慢凹陷、日漸消瘦",
+      "startSeconds": 198.5,
+      "endSeconds": 201.1
+    },
+    {
+      "lineId": "line-58",
+      "english": "Crumbling like pastries",
+      "chinese": "像糕點一樣碎裂崩塌",
+      "startSeconds": 201.1,
+      "endSeconds": 204.02
+    },
+    {
+      "lineId": "line-59",
+      "english": "They scream",
+      "chinese": "他們尖叫著",
+      "startSeconds": 204.02,
+      "endSeconds": 205.36
+    },
+    {
+      "lineId": "line-60",
+      "english": "The worst things in life come free to us",
+      "chinese": "生命中最糟糕的事物總是免費降臨在我們身上",
+      "startSeconds": 205.36,
+      "endSeconds": 208.38
+    },
+    {
+      "lineId": "line-61",
+      "english": "And we're all under the upper hand",
+      "chinese": "而我們都被壓在底層",
+      "startSeconds": 208.38,
+      "endSeconds": 211.26
+    },
+    {
+      "lineId": "line-62",
+      "english": "Go mad for a couple grams",
+      "chinese": "為了幾克粉末而發狂",
+      "startSeconds": 211.26,
+      "endSeconds": 213.84
+    },
+    {
+      "lineId": "line-63",
+      "english": "And we don't want to go outside tonight",
+      "chinese": "而我們今晚不想出門",
+      "startSeconds": 213.84,
+      "endSeconds": 218.66
+    },
+    {
+      "lineId": "line-64",
+      "english": "And in a pipe we fly to the Motherland",
+      "chinese": "在煙管中我們飛向祖國",
+      "startSeconds": 218.66,
+      "endSeconds": 222.36
+    },
+    {
+      "lineId": "line-65",
+      "english": "Or sell love to another man",
+      "chinese": "或者將愛出賣給另一個男人",
+      "startSeconds": 222.36,
+      "endSeconds": 225.12
+    },
+    {
+      "lineId": "line-66",
+      "english": "It's too cold outside",
+      "chinese": "外面太冷了",
+      "startSeconds": 225.8,
+      "endSeconds": 228.68
+    },
+    {
+      "lineId": "line-67",
+      "english": "For angels to fly",
+      "chinese": "天使無法飛翔",
+      "startSeconds": 228.68,
+      "endSeconds": 231.94
+    },
+    {
+      "lineId": "line-68",
+      "english": "Angels to fly",
+      "chinese": "天使無法飛翔",
+      "startSeconds": 234.98,
+      "endSeconds": 238.44
+    },
+    {
+      "lineId": "line-69",
+      "english": "To fly, fly",
+      "chinese": "飛翔，飛翔",
+      "startSeconds": 239.96,
+      "endSeconds": 246.14
+    },
+    {
+      "lineId": "line-70",
+      "english": "For angels to fly, to fly, to fly",
+      "chinese": "讓天使飛翔，飛翔，飛翔",
+      "startSeconds": 246.14,
+      "endSeconds": 251.8
+    },
+    {
+      "lineId": "line-71",
+      "english": "For angels to die",
+      "chinese": "讓天使死去",
+      "startSeconds": 251.94,
+      "endSeconds": 254.46
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Pale",
+      "meaning": "蒼白的；顏色很淡的",
+      "usage": "可以形容一個人的臉色，也可以形容很淡的顏色。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "I pale my portrait before the art show.",
+        "After he was sick, his face looked pale.",
+        "The bus arrived pale at six.",
+        "She looked pale to heard the bad news."
+      ],
+      "answer": 1,
+      "explanation": "正確。pale 可以形容生病後臉色蒼白。",
+      "optionExplanations": [
+        "pale 是形容詞或表示變蒼白的動詞，不能在此表示畫肖像。",
+        "正確。pale 可以形容生病後臉色蒼白。",
+        "錯誤。pale 不能表示準時，應說 at six 或 on time。",
+        "to heard 形式錯誤；可用 after hearing the bad news。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Struggle to",
+      "meaning": "努力做某事；做某事很吃力",
+      "usage": "做一件事很困難，但還是努力去做時，可以用 struggle to + 原形動詞。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "She struggles to understand this long book.",
+        "I struggle to my first interview.",
+        "We struggle to understood the map.",
+        "My brother struggles to very happy today."
+      ],
+      "answer": 0,
+      "explanation": "正確。struggle to understand 表示很努力卻不容易看懂。",
+      "optionExplanations": [
+        "正確。struggle to understand 表示很努力卻不容易看懂。",
+        "struggle to 後需要動詞，例如 answer；不能直接接 interview。",
+        "to 後用 understand，不能接 understood。",
+        "錯誤。to 後面要有動詞，例如 to feel happy。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Pay rent",
+      "meaning": "付房租",
+      "usage": "住在租來的房子或房間時，通常需要定期 pay rent。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "She pays rent to lived in the flat.",
+        "I pay rent yesterday for the small studio.",
+        "We pay rent for our small apartment every month.",
+        "He paid rent to very expensive."
+      ],
+      "answer": 2,
+      "explanation": "正確。pay rent 指支付租住房子的費用。",
+      "optionExplanations": [
+        "to 後用 live，不能接 lived。",
+        "過去事件須用 paid rent。",
+        "正確。pay rent 指支付租住房子的費用。",
+        "to very expensive 不能作完整子句或受詞。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Be stuck in",
+      "meaning": "被困在……；卡在某處或情況中",
+      "usage": "無法離開某個地方，或難以擺脫某種情況時使用。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "We're stuck in the lift. Dad has started singing.",
+        "I am stuck in to the lift.",
+        "She is stuck in to go shopping today.",
+        "We stuck in the song very loudly."
+      ],
+      "answer": 0,
+      "explanation": "be stuck in 表示困在某處。",
+      "optionExplanations": [
+        "be stuck in 表示困在某處。",
+        "be stuck in 後直接接 the lift，不加 to。",
+        "錯誤。stuck in 後不能直接接 to go 這種結構。",
+        "錯誤。stuck in 不能用來表示唱歌很大聲。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Lately",
+      "meaning": "最近；近來",
+      "usage": "想說最近一段時間的事情或變化時使用。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "I will lately visit my grandma next year.",
+        "I have been very busy lately.",
+        "Please put the lately on the table.",
+        "Lately is my new blue bicycle."
+      ],
+      "answer": 1,
+      "explanation": "正確。lately 表示最近一段時間。",
+      "optionExplanations": [
+        "錯誤。lately 指最近已發生的時間，不是明年。",
+        "正確。lately 表示最近一段時間。",
+        "錯誤。lately 不是可以放在桌上的物品。",
+        "錯誤。lately 是副詞，不能當作腳踏車的名字或主詞。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "A couple of",
+      "meaning": "兩個；幾個",
+      "usage": "日常聊天想說數量不多，常用 a couple of + 複數名詞。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "I booked a couple of room for the trip.",
+        "She runs a couple of quickly every day.",
+        "My teacher is a couple of happy.",
+        "I bought a couple of tickets. Grandma invited five friends."
+      ],
+      "answer": 3,
+      "explanation": "a couple of 指兩個或少數幾個；票數與邀請人數形成反差。",
+      "optionExplanations": [
+        "a couple of 後接複數 rooms。",
+        "錯誤。quickly 是副詞，不能直接接在 a couple of 後面。",
+        "錯誤。a couple of 後面通常接複數名詞，不能接 happy。",
+        "a couple of 指兩個或少數幾個；票數與邀請人數形成反差。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Go outside",
+      "meaning": "到外面去",
+      "usage": "想說離開室內到戶外，可以用 go outside。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "The weather goes outside with a red hat.",
+        "I go outside to watched the parade.",
+        "She goes outside the English very well.",
+        "It is sunny, so let’s go outside and play."
+      ],
+      "answer": 3,
+      "explanation": "正確。天氣好時出去玩，正是 go outside 的用法。",
+      "optionExplanations": [
+        "錯誤。天氣不能像人一樣戴帽子走出去。",
+        "to 後用 watch，不能接 watched。",
+        "錯誤。go outside 不能表示英文說得很好。",
+        "正確。天氣好時出去玩，正是 go outside 的用法。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Stay afloat",
+      "meaning": "保持漂浮；不沉下去",
+      "usage": "游泳、坐船時保持在水面上；也能比喻艱難時維持下去。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "He moved his arms to stay afloat in the water.",
+        "I stayed afloat the door with my key.",
+        "The boat stay afloat yesterday during the storm.",
+        "She stayed afloat to swam towards the boat."
+      ],
+      "answer": 0,
+      "explanation": "正確。用手臂活動，讓身體保持在水面上。",
+      "optionExplanations": [
+        "正確。用手臂活動，讓身體保持在水面上。",
+        "錯誤。開門不用 stay afloat，應說 opened the door。",
+        "過去事件須用 stayed afloat。",
+        "to 後用 swim，不能用 swam。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Loose change",
+      "meaning": "零錢；散錢",
+      "usage": "指口袋、包包裡的硬幣等小額零錢。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "I loose change my savings account.",
+        "He found a loose change in his coat.",
+        "I found some loose change in my old bag.",
+        "My cousin loose changes the bus fare."
+      ],
+      "answer": 2,
+      "explanation": "正確。包包裡找到一些硬幣，就是 loose change。",
+      "optionExplanations": [
+        "loose change 是名詞，不能當作存款的動詞。",
+        "loose change 是不可數名詞，不能加 a。",
+        "正確。包包裡找到一些硬幣，就是 loose change。",
+        "loose change 不是付款的動詞，不能加 s 作此用法。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Hope for",
+      "meaning": "希望得到；期待某件事",
+      "usage": "表達期待某個結果或事物時，可用 hope for + 名詞。",
+      "prompt": "哪一句正確使用了這個單字／片語？",
+      "options": [
+        "I hope for to see my friend tomorrow.",
+        "They hope for good weather on Saturday.",
+        "She hopes for to pass the driving test.",
+        "We hope for very quickly to school."
+      ],
+      "answer": 1,
+      "explanation": "正確。hope for good weather 表示希望星期六有好天氣。",
+      "optionExplanations": [
+        "錯誤。hope for 後面不直接接 to see；應說 hope to see。",
+        "正確。hope for good weather 表示希望星期六有好天氣。",
+        "可說 hopes to pass；hope for 後不能接 to pass。",
+        "錯誤。hope for 後需要適當名詞，而不是這種副詞片語。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/the-a-team/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/the-a-team/user-cover-20261029.png",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} lips, 〔第 2 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "White",
+            "snow",
+            "ice"
+          ],
+          "answer": "White"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 lips, {{blank}}",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "pale skin",
+            "pale face",
+            "white face"
+          ],
+          "answer": "pale face"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Breathing in {{blank}}",
+          "promptZh": "呼吸著冰冷的雪花",
+          "options": [
+            "cold air",
+            "snowflakes",
+            "snow"
+          ],
+          "answer": "snowflakes"
+        },
+        {
+          "number": 4,
+          "lineId": "line-3",
+          "prompt": "Burnt lungs, {{blank}}",
+          "promptZh": "灼傷的肺部，酸澀的滋味",
+          "options": [
+            "sour taste",
+            "bad taste",
+            "sweet taste"
+          ],
+          "answer": "sour taste"
+        },
+        {
+          "number": 5,
+          "lineId": "line-6",
+          "prompt": "Long nights, {{blank}}",
+          "promptZh": "漫長的夜晚，陌生的男人",
+          "options": [
+            "bad men",
+            "strange faces",
+            "strange men"
+          ],
+          "answer": "strange men"
+        },
+        {
+          "number": 6,
+          "lineId": "line-8",
+          "prompt": "She's in the {{blank}}",
+          "promptZh": "她身處「A級團隊」（暗指頂級毒品俱樂部）",
+          "options": [
+            "Class A squad",
+            "Class A Team",
+            "Class A group"
+          ],
+          "answer": "Class A Team"
+        },
+        {
+          "number": 7,
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{blank}}",
+          "promptZh": "困在自己的白日夢裡",
+          "options": [
+            "fantasy",
+            "daydreaming",
+            "daydream"
+          ],
+          "answer": "daydream"
+        },
+        {
+          "number": 8,
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{blank}}",
+          "promptZh": "像糕點一樣碎裂崩塌",
+          "options": [
+            "pastries",
+            "cookies",
+            "bread"
+          ],
+          "answer": "pastries"
+        },
+        {
+          "number": 9,
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{blank}}",
+          "promptZh": "生命中最糟糕的事物總是免費降臨在我們身上",
+          "options": [
+            "come free to us",
+            "are free for us",
+            "come free for us"
+          ],
+          "answer": "come free to us"
+        },
+        {
+          "number": 10,
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{blank}}",
+          "promptZh": "因為我們只是被壓在底層的弱勢者",
+          "options": [
+            "upper class",
+            "upper hand",
+            "upper ground"
+          ],
+          "answer": "upper hand"
+        },
+        {
+          "number": 11,
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "holy land",
+            "fatherland",
+            "Motherland"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 12,
+          "lineId": "line-22",
+          "prompt": "For {{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "angels to cry",
+            "angels to die",
+            "angels to fly"
+          ],
+          "answer": "angels to fly"
+        },
+        {
+          "number": 13,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "Angels to fly",
+            "angels to cry",
+            "angels to die"
+          ],
+          "answer": "Angels to fly"
+        },
+        {
+          "number": 14,
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{blank}}",
+          "promptZh": "破爛的手套，雨衣",
+          "options": [
+            "coat",
+            "raincoat",
+            "jacket"
+          ],
+          "answer": "raincoat"
+        },
+        {
+          "number": 15,
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{blank}}",
+          "promptZh": "試圖游動以保持漂浮求生",
+          "options": [
+            "stay alive",
+            "keep afloat",
+            "stay afloat"
+          ],
+          "answer": "stay afloat"
+        },
+        {
+          "number": 16,
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{blank}}",
+          "promptZh": "疲倦的雙眼，乾渴的喉嚨",
+          "options": [
+            "sore throat",
+            "dry throat",
+            "tight throat"
+          ],
+          "answer": "dry throat"
+        },
+        {
+          "number": 17,
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "Motherland",
+            "fatherland",
+            "holy land"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 18,
+          "lineId": "line-46",
+          "prompt": "An angel will {{blank}}",
+          "promptZh": "一位天使將要死去",
+          "options": [
+            "fade",
+            "die",
+            "fly"
+          ],
+          "answer": "die"
+        },
+        {
+          "number": 19,
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{blank}}",
+          "promptZh": "這一次，我們將在今晚消逝",
+          "options": [
+            "fade out tonight",
+            "fade out today",
+            "fade away tonight"
+          ],
+          "answer": "fade out tonight"
+        },
+        {
+          "number": 20,
+          "lineId": "line-71",
+          "prompt": "For angels to {{blank}}",
+          "promptZh": "讓天使死去",
+          "options": [
+            "fade",
+            "fly",
+            "die"
+          ],
+          "answer": "die"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} lips, {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Breathing in {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Burnt lungs, {{q:4}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Light's gone, day's end"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Struggling to pay rent"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Long nights, {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "She's in the {{q:6}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{q:7}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{q:8}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And they scream"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{q:9}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{q:10}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And she don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{q:11}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Or sells love to another man"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:12}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{q:14}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{q:15}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Dry house, wet clothes"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Loose change, bank notes"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{q:16}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Call girl, no phone"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And they scream"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause we're just under the upper hand"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And she don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{q:17}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Or sells love to another man"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "An angel will {{q:18}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Covered in white"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Closed eye"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And hoping for a better life"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{q:19}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Straight down the line"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "They scream"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we're all under the upper hand"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Go mad for a couple grams"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "And we don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And in a pipe we fly to the Motherland"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Or sell love to another man"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Angels to fly"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "To fly, fly"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "For angels to fly, to fly, to fly"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "For angels to {{q:20}}"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕, 〔第 3 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "White",
+            "snow",
+            "ice"
+          ],
+          "answer": "White"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}, 〔第 3 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "limbs",
+            "lips",
+            "hips"
+          ],
+          "answer": "lips"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕, {{blank}}",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "pale face",
+            "pale skin",
+            "white face"
+          ],
+          "answer": "pale face"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Breathing in {{blank}}",
+          "promptZh": "呼吸著冰冷的雪花",
+          "options": [
+            "snow",
+            "snowflakes",
+            "cold air"
+          ],
+          "answer": "snowflakes"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "Burnt lungs, {{blank}}",
+          "promptZh": "灼傷的肺部，酸澀的滋味",
+          "options": [
+            "sweet taste",
+            "bad taste",
+            "sour taste"
+          ],
+          "answer": "sour taste"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, 〔第 7 題〕",
+          "promptZh": "燈光熄滅，白晝將盡",
+          "options": [
+            "Lights are gone",
+            "Light's gone",
+            "Light is gone"
+          ],
+          "answer": "Light's gone"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "〔第 6 題〕, {{blank}}",
+          "promptZh": "燈光熄滅，白晝將盡",
+          "options": [
+            "night's end",
+            "day is done",
+            "day's end"
+          ],
+          "answer": "day's end"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "Struggling to {{blank}}",
+          "promptZh": "為了繳納房租而苦苦掙扎",
+          "options": [
+            "pay rent",
+            "make rent",
+            "pay bills"
+          ],
+          "answer": "pay rent"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "Long nights, {{blank}}",
+          "promptZh": "漫長的夜晚，陌生的男人",
+          "options": [
+            "bad men",
+            "strange men",
+            "strange faces"
+          ],
+          "answer": "strange men"
+        },
+        {
+          "number": 10,
+          "lineId": "line-8",
+          "prompt": "She's in the {{blank}}",
+          "promptZh": "她身處「A級團隊」（暗指頂級毒品俱樂部）",
+          "options": [
+            "Class A group",
+            "Class A squad",
+            "Class A Team"
+          ],
+          "answer": "Class A Team"
+        },
+        {
+          "number": 11,
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{blank}}",
+          "promptZh": "困在自己的白日夢裡",
+          "options": [
+            "daydream",
+            "daydreaming",
+            "fantasy"
+          ],
+          "answer": "daydream"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "But lately her face {{blank}}",
+          "promptZh": "但最近她的臉龐似乎",
+          "options": [
+            "feels",
+            "seems",
+            "looks"
+          ],
+          "answer": "seems"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, {{blank}}",
+          "promptZh": "慢慢凹陷、日漸消瘦",
+          "options": [
+            "breaking",
+            "fading",
+            "wasting"
+          ],
+          "answer": "wasting"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{blank}}",
+          "promptZh": "像糕點一樣碎裂崩塌",
+          "options": [
+            "pastries",
+            "cookies",
+            "bread"
+          ],
+          "answer": "pastries"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "And they {{blank}}",
+          "promptZh": "而他們尖叫著",
+          "options": [
+            "yell",
+            "shout",
+            "scream"
+          ],
+          "answer": "scream"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{blank}}",
+          "promptZh": "生命中最糟糕的事物總是免費降臨在我們身上",
+          "options": [
+            "come free to us",
+            "are free for us",
+            "come free for us"
+          ],
+          "answer": "come free to us"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{blank}}",
+          "promptZh": "因為我們只是被壓在底層的弱勢者",
+          "options": [
+            "upper class",
+            "upper hand",
+            "upper ground"
+          ],
+          "answer": "upper hand"
+        },
+        {
+          "number": 18,
+          "lineId": "line-18",
+          "prompt": "And she don't want to {{blank}}",
+          "promptZh": "而她今晚不想出門",
+          "options": [
+            "go outside tonight",
+            "go outside today",
+            "leave the house tonight"
+          ],
+          "answer": "go outside tonight"
+        },
+        {
+          "number": 19,
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "holy land",
+            "fatherland",
+            "Motherland"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 20,
+          "lineId": "line-20",
+          "prompt": "Or sells love to {{blank}}",
+          "promptZh": "或者將愛出賣給另一個男人",
+          "options": [
+            "any man",
+            "another man",
+            "other men"
+          ],
+          "answer": "another man"
+        },
+        {
+          "number": 21,
+          "lineId": "line-22",
+          "prompt": "For {{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "angels to cry",
+            "angels to die",
+            "angels to fly"
+          ],
+          "answer": "angels to fly"
+        },
+        {
+          "number": 22,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "Angels to fly",
+            "angels to cry",
+            "angels to die"
+          ],
+          "answer": "Angels to fly"
+        },
+        {
+          "number": 23,
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{blank}}",
+          "promptZh": "破爛的手套，雨衣",
+          "options": [
+            "coat",
+            "raincoat",
+            "jacket"
+          ],
+          "answer": "raincoat"
+        },
+        {
+          "number": 24,
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{blank}}",
+          "promptZh": "試圖游動以保持漂浮求生",
+          "options": [
+            "keep afloat",
+            "stay alive",
+            "stay afloat"
+          ],
+          "answer": "stay afloat"
+        },
+        {
+          "number": 25,
+          "lineId": "line-26",
+          "prompt": "Dry house, {{blank}}",
+          "promptZh": "乾燥的房子，濕透的衣服",
+          "options": [
+            "wet clothes",
+            "wet coat",
+            "wet shoes"
+          ],
+          "answer": "wet clothes"
+        },
+        {
+          "number": 26,
+          "lineId": "line-27",
+          "prompt": "Loose change, {{blank}}",
+          "promptZh": "零錢，紙鈔",
+          "options": [
+            "paper bills",
+            "bank notes",
+            "cash notes"
+          ],
+          "answer": "bank notes"
+        },
+        {
+          "number": 27,
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{blank}}",
+          "promptZh": "疲倦的雙眼，乾渴的喉嚨",
+          "options": [
+            "sore throat",
+            "dry throat",
+            "tight throat"
+          ],
+          "answer": "dry throat"
+        },
+        {
+          "number": 28,
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "Motherland",
+            "fatherland",
+            "holy land"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 29,
+          "lineId": "line-46",
+          "prompt": "An angel will {{blank}}",
+          "promptZh": "一位天使將要死去",
+          "options": [
+            "fade",
+            "fly",
+            "die"
+          ],
+          "answer": "die"
+        },
+        {
+          "number": 30,
+          "lineId": "line-49",
+          "prompt": "And hoping for a {{blank}}",
+          "promptZh": "並期盼著更美好的生活",
+          "options": [
+            "good life",
+            "better life",
+            "new life"
+          ],
+          "answer": "better life"
+        },
+        {
+          "number": 31,
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{blank}}",
+          "promptZh": "這一次，我們將在今晚消逝",
+          "options": [
+            "fade away tonight",
+            "fade out today",
+            "fade out tonight"
+          ],
+          "answer": "fade out tonight"
+        },
+        {
+          "number": 32,
+          "lineId": "line-71",
+          "prompt": "For angels to {{blank}}",
+          "promptZh": "讓天使死去",
+          "options": [
+            "die",
+            "fly",
+            "fade"
+          ],
+          "answer": "die"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}, {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Breathing in {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Burnt lungs, {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}, {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Struggling to {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Long nights, {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "She's in the {{q:10}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{q:11}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But lately her face {{q:12}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, {{q:13}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And they {{q:15}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And she don't want to {{q:18}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{q:19}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Or sells love to {{q:20}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:21}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:22}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{q:23}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{q:24}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Dry house, {{q:25}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Loose change, {{q:26}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{q:27}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Call girl, no phone"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And they scream"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause we're just under the upper hand"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And she don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{q:28}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Or sells love to another man"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "An angel will {{q:29}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Covered in white"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "Closed eye"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And hoping for a {{q:30}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{q:31}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Straight down the line"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "They scream"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we're all under the upper hand"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Go mad for a couple grams"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "And we don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And in a pipe we fly to the Motherland"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Or sell love to another man"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Angels to fly"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "To fly, fly"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "For angels to fly, to fly, to fly"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "For angels to {{q:32}}"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕, 〔第 3 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "White",
+            "snow",
+            "ice"
+          ],
+          "answer": "White"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}, 〔第 3 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "lips",
+            "limbs",
+            "hips"
+          ],
+          "answer": "lips"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕, {{blank}}",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "white face",
+            "pale skin",
+            "pale face"
+          ],
+          "answer": "pale face"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Breathing in {{blank}}",
+          "promptZh": "呼吸著冰冷的雪花",
+          "options": [
+            "snow",
+            "snowflakes",
+            "cold air"
+          ],
+          "answer": "snowflakes"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "Burnt lungs, {{blank}}",
+          "promptZh": "灼傷的肺部，酸澀的滋味",
+          "options": [
+            "sweet taste",
+            "bad taste",
+            "sour taste"
+          ],
+          "answer": "sour taste"
+        },
+        {
+          "number": 6,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, 〔第 7 題〕",
+          "promptZh": "燈光熄滅，白晝將盡",
+          "options": [
+            "Lights are gone",
+            "Light's gone",
+            "Light is gone"
+          ],
+          "answer": "Light's gone"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "〔第 6 題〕, {{blank}}",
+          "promptZh": "燈光熄滅，白晝將盡",
+          "options": [
+            "day's end",
+            "day is done",
+            "night's end"
+          ],
+          "answer": "day's end"
+        },
+        {
+          "number": 8,
+          "lineId": "line-5",
+          "prompt": "Struggling to {{blank}}",
+          "promptZh": "為了繳納房租而苦苦掙扎",
+          "options": [
+            "make rent",
+            "pay rent",
+            "pay bills"
+          ],
+          "answer": "pay rent"
+        },
+        {
+          "number": 9,
+          "lineId": "line-6",
+          "prompt": "Long nights, {{blank}}",
+          "promptZh": "漫長的夜晚，陌生的男人",
+          "options": [
+            "strange men",
+            "strange faces",
+            "bad men"
+          ],
+          "answer": "strange men"
+        },
+        {
+          "number": 10,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "promptZh": "而他們說",
+          "options": [
+            "And they speak",
+            "And they tell",
+            "And they say"
+          ],
+          "answer": "And they say"
+        },
+        {
+          "number": 11,
+          "lineId": "line-8",
+          "prompt": "She's in the {{blank}}",
+          "promptZh": "她身處「A級團隊」（暗指頂級毒品俱樂部）",
+          "options": [
+            "Class A group",
+            "Class A squad",
+            "Class A Team"
+          ],
+          "answer": "Class A Team"
+        },
+        {
+          "number": 12,
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{blank}}",
+          "promptZh": "困在自己的白日夢裡",
+          "options": [
+            "daydream",
+            "daydreaming",
+            "fantasy"
+          ],
+          "answer": "daydream"
+        },
+        {
+          "number": 13,
+          "lineId": "line-10",
+          "prompt": "{{blank}} since eighteen",
+          "promptZh": "從十八歲起就是這副模樣",
+          "options": [
+            "Been that way",
+            "Been this way",
+            "Been the same way"
+          ],
+          "answer": "Been this way"
+        },
+        {
+          "number": 14,
+          "lineId": "line-11",
+          "prompt": "But lately her face {{blank}}",
+          "promptZh": "但最近她的臉龐似乎",
+          "options": [
+            "seems",
+            "looks",
+            "feels"
+          ],
+          "answer": "seems"
+        },
+        {
+          "number": 15,
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, {{blank}}",
+          "promptZh": "慢慢凹陷、日漸消瘦",
+          "options": [
+            "breaking",
+            "fading",
+            "wasting"
+          ],
+          "answer": "wasting"
+        },
+        {
+          "number": 16,
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{blank}}",
+          "promptZh": "像糕點一樣碎裂崩塌",
+          "options": [
+            "cookies",
+            "pastries",
+            "bread"
+          ],
+          "answer": "pastries"
+        },
+        {
+          "number": 17,
+          "lineId": "line-14",
+          "prompt": "And they {{blank}}",
+          "promptZh": "而他們尖叫著",
+          "options": [
+            "scream",
+            "shout",
+            "yell"
+          ],
+          "answer": "scream"
+        },
+        {
+          "number": 18,
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{blank}}",
+          "promptZh": "生命中最糟糕的事物總是免費降臨在我們身上",
+          "options": [
+            "come free for us",
+            "come free to us",
+            "are free for us"
+          ],
+          "answer": "come free to us"
+        },
+        {
+          "number": 19,
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{blank}}",
+          "promptZh": "因為我們只是被壓在底層的弱勢者",
+          "options": [
+            "upper ground",
+            "upper class",
+            "upper hand"
+          ],
+          "answer": "upper hand"
+        },
+        {
+          "number": 20,
+          "lineId": "line-18",
+          "prompt": "And she don't want to {{blank}}",
+          "promptZh": "而她今晚不想出門",
+          "options": [
+            "go outside today",
+            "go outside tonight",
+            "leave the house tonight"
+          ],
+          "answer": "go outside tonight"
+        },
+        {
+          "number": 21,
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "fatherland",
+            "holy land",
+            "Motherland"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 22,
+          "lineId": "line-20",
+          "prompt": "Or sells love to {{blank}}",
+          "promptZh": "或者將愛出賣給另一個男人",
+          "options": [
+            "another man",
+            "any man",
+            "other men"
+          ],
+          "answer": "another man"
+        },
+        {
+          "number": 23,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "promptZh": "外面太冷了",
+          "options": [
+            "It's very cold outside",
+            "It's so cold outside",
+            "It's too cold outside"
+          ],
+          "answer": "It's too cold outside"
+        },
+        {
+          "number": 24,
+          "lineId": "line-22",
+          "prompt": "For {{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "angels to cry",
+            "angels to fly",
+            "angels to die"
+          ],
+          "answer": "angels to fly"
+        },
+        {
+          "number": 25,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "Angels to fly",
+            "angels to cry",
+            "angels to die"
+          ],
+          "answer": "Angels to fly"
+        },
+        {
+          "number": 26,
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{blank}}",
+          "promptZh": "破爛的手套，雨衣",
+          "options": [
+            "jacket",
+            "coat",
+            "raincoat"
+          ],
+          "answer": "raincoat"
+        },
+        {
+          "number": 27,
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{blank}}",
+          "promptZh": "試圖游動以保持漂浮求生",
+          "options": [
+            "stay alive",
+            "stay afloat",
+            "keep afloat"
+          ],
+          "answer": "stay afloat"
+        },
+        {
+          "number": 28,
+          "lineId": "line-26",
+          "prompt": "Dry house, {{blank}}",
+          "promptZh": "乾燥的房子，濕透的衣服",
+          "options": [
+            "wet clothes",
+            "wet coat",
+            "wet shoes"
+          ],
+          "answer": "wet clothes"
+        },
+        {
+          "number": 29,
+          "lineId": "line-27",
+          "prompt": "Loose change, {{blank}}",
+          "promptZh": "零錢，紙鈔",
+          "options": [
+            "cash notes",
+            "paper bills",
+            "bank notes"
+          ],
+          "answer": "bank notes"
+        },
+        {
+          "number": 30,
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{blank}}",
+          "promptZh": "疲倦的雙眼，乾渴的喉嚨",
+          "options": [
+            "sore throat",
+            "dry throat",
+            "tight throat"
+          ],
+          "answer": "dry throat"
+        },
+        {
+          "number": 31,
+          "lineId": "line-29",
+          "prompt": "{{blank}}, no phone",
+          "promptZh": "應召女郎，沒有電話",
+          "options": [
+            "Call girl",
+            "Call girls",
+            "Call lady"
+          ],
+          "answer": "Call girl"
+        },
+        {
+          "number": 32,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "而他們說",
+          "options": [
+            "And they say",
+            "And they tell",
+            "And they speak"
+          ],
+          "answer": "And they say"
+        },
+        {
+          "number": 33,
+          "lineId": "line-37",
+          "prompt": "And {{blank}}",
+          "promptZh": "而他們尖叫著",
+          "options": [
+            "They yell",
+            "they scream",
+            "They shout"
+          ],
+          "answer": "they scream"
+        },
+        {
+          "number": 34,
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "holy land",
+            "fatherland",
+            "Motherland"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 35,
+          "lineId": "line-46",
+          "prompt": "An angel will {{blank}}",
+          "promptZh": "一位天使將要死去",
+          "options": [
+            "fly",
+            "die",
+            "fade"
+          ],
+          "answer": "die"
+        },
+        {
+          "number": 36,
+          "lineId": "line-48",
+          "prompt": "{{blank}}",
+          "promptZh": "緊閉的雙眼",
+          "options": [
+            "Closing eye",
+            "Close eye",
+            "Closed eye"
+          ],
+          "answer": "Closed eye"
+        },
+        {
+          "number": 37,
+          "lineId": "line-49",
+          "prompt": "And hoping for a {{blank}}",
+          "promptZh": "並期盼著更美好的生活",
+          "options": [
+            "better life",
+            "good life",
+            "new life"
+          ],
+          "answer": "better life"
+        },
+        {
+          "number": 38,
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{blank}}",
+          "promptZh": "這一次，我們將在今晚消逝",
+          "options": [
+            "fade out tonight",
+            "fade out today",
+            "fade away tonight"
+          ],
+          "answer": "fade out tonight"
+        },
+        {
+          "number": 39,
+          "lineId": "line-69",
+          "prompt": "{{blank}}",
+          "promptZh": "飛翔，飛翔",
+          "options": [
+            "To fly, to fly",
+            "To fly, fly",
+            "To fly away"
+          ],
+          "answer": "To fly, fly"
+        },
+        {
+          "number": 40,
+          "lineId": "line-71",
+          "prompt": "For angels to {{blank}}",
+          "promptZh": "讓天使死去",
+          "options": [
+            "fade",
+            "fly",
+            "die"
+          ],
+          "answer": "die"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}, {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Breathing in {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Burnt lungs, {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:6}}, {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Struggling to {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Long nights, {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "She's in the {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{q:12}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:13}} since eighteen"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But lately her face {{q:14}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, {{q:15}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{q:16}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And they {{q:17}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{q:18}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{q:19}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And she don't want to {{q:20}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{q:21}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Or sells love to {{q:22}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:23}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:24}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:25}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{q:26}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{q:27}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Dry house, {{q:28}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Loose change, {{q:29}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{q:30}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:31}}, no phone"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:32}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And {{q:33}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause we're just under the upper hand"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "And she don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{q:34}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Or sells love to another man"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "An angel will {{q:35}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Covered in white"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And hoping for a {{q:37}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{q:38}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Straight down the line"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "They scream"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we're all under the upper hand"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Go mad for a couple grams"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "And we don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And in a pipe we fly to the Motherland"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Or sell love to another man"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Angels to fly"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "{{q:39}}"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "For angels to fly, to fly, to fly"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "For angels to {{q:40}}"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕, 〔第 3 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "White",
+            "snow",
+            "ice"
+          ],
+          "answer": "White"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}}, 〔第 3 題〕",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "limbs",
+            "lips",
+            "hips"
+          ],
+          "answer": "lips"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕, {{blank}}",
+          "promptZh": "慘白的雙唇，蒼白的臉龐",
+          "options": [
+            "white face",
+            "pale face",
+            "pale skin"
+          ],
+          "answer": "pale face"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "{{blank}} 〔第 5 題〕",
+          "promptZh": "呼吸著冰冷的雪花",
+          "options": [
+            "Breathing in",
+            "Breathing out",
+            "Breaking in"
+          ],
+          "answer": "Breathing in"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "〔第 4 題〕 {{blank}}",
+          "promptZh": "呼吸著冰冷的雪花",
+          "options": [
+            "cold air",
+            "snow",
+            "snowflakes"
+          ],
+          "answer": "snowflakes"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "{{blank}}, 〔第 7 題〕",
+          "promptZh": "灼傷的肺部，酸澀的滋味",
+          "options": [
+            "Burnt lungs",
+            "Burnt hands",
+            "Burnt tongue"
+          ],
+          "answer": "Burnt lungs"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "〔第 6 題〕, {{blank}}",
+          "promptZh": "灼傷的肺部，酸澀的滋味",
+          "options": [
+            "bad taste",
+            "sour taste",
+            "sweet taste"
+          ],
+          "answer": "sour taste"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "{{blank}}, 〔第 9 題〕",
+          "promptZh": "燈光熄滅，白晝將盡",
+          "options": [
+            "Lights are gone",
+            "Light is gone",
+            "Light's gone"
+          ],
+          "answer": "Light's gone"
+        },
+        {
+          "number": 9,
+          "lineId": "line-4",
+          "prompt": "〔第 8 題〕, {{blank}}",
+          "promptZh": "燈光熄滅，白晝將盡",
+          "options": [
+            "night's end",
+            "day's end",
+            "day is done"
+          ],
+          "answer": "day's end"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 11 題〕",
+          "promptZh": "為了繳納房租而苦苦掙扎",
+          "options": [
+            "Struggling to",
+            "Starting to",
+            "Stumbling to"
+          ],
+          "answer": "Struggling to"
+        },
+        {
+          "number": 11,
+          "lineId": "line-5",
+          "prompt": "〔第 10 題〕 {{blank}}",
+          "promptZh": "為了繳納房租而苦苦掙扎",
+          "options": [
+            "pay bills",
+            "make rent",
+            "pay rent"
+          ],
+          "answer": "pay rent"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Long nights, {{blank}}",
+          "promptZh": "漫長的夜晚，陌生的男人",
+          "options": [
+            "strange men",
+            "strange faces",
+            "bad men"
+          ],
+          "answer": "strange men"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "{{blank}}",
+          "promptZh": "而他們說",
+          "options": [
+            "And they tell",
+            "And they say",
+            "And they speak"
+          ],
+          "answer": "And they say"
+        },
+        {
+          "number": 14,
+          "lineId": "line-8",
+          "prompt": "She's in the {{blank}}",
+          "promptZh": "她身處「A級團隊」（暗指頂級毒品俱樂部）",
+          "options": [
+            "Class A group",
+            "Class A squad",
+            "Class A Team"
+          ],
+          "answer": "Class A Team"
+        },
+        {
+          "number": 15,
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{blank}}",
+          "promptZh": "困在自己的白日夢裡",
+          "options": [
+            "fantasy",
+            "daydreaming",
+            "daydream"
+          ],
+          "answer": "daydream"
+        },
+        {
+          "number": 16,
+          "lineId": "line-10",
+          "prompt": "{{blank}} since eighteen",
+          "promptZh": "從十八歲起就是這副模樣",
+          "options": [
+            "Been that way",
+            "Been this way",
+            "Been the same way"
+          ],
+          "answer": "Been this way"
+        },
+        {
+          "number": 17,
+          "lineId": "line-11",
+          "prompt": "But lately her face {{blank}}",
+          "promptZh": "但最近她的臉龐似乎",
+          "options": [
+            "seems",
+            "looks",
+            "feels"
+          ],
+          "answer": "seems"
+        },
+        {
+          "number": 18,
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, {{blank}}",
+          "promptZh": "慢慢凹陷、日漸消瘦",
+          "options": [
+            "breaking",
+            "fading",
+            "wasting"
+          ],
+          "answer": "wasting"
+        },
+        {
+          "number": 19,
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{blank}}",
+          "promptZh": "像糕點一樣碎裂崩塌",
+          "options": [
+            "pastries",
+            "cookies",
+            "bread"
+          ],
+          "answer": "pastries"
+        },
+        {
+          "number": 20,
+          "lineId": "line-14",
+          "prompt": "And they {{blank}}",
+          "promptZh": "而他們尖叫著",
+          "options": [
+            "shout",
+            "scream",
+            "yell"
+          ],
+          "answer": "scream"
+        },
+        {
+          "number": 21,
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{blank}}",
+          "promptZh": "生命中最糟糕的事物總是免費降臨在我們身上",
+          "options": [
+            "come free to us",
+            "are free for us",
+            "come free for us"
+          ],
+          "answer": "come free to us"
+        },
+        {
+          "number": 22,
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{blank}}",
+          "promptZh": "因為我們只是被壓在底層的弱勢者",
+          "options": [
+            "upper ground",
+            "upper class",
+            "upper hand"
+          ],
+          "answer": "upper hand"
+        },
+        {
+          "number": 23,
+          "lineId": "line-18",
+          "prompt": "And she don't want to {{blank}}",
+          "promptZh": "而她今晚不想出門",
+          "options": [
+            "go outside today",
+            "go outside tonight",
+            "leave the house tonight"
+          ],
+          "answer": "go outside tonight"
+        },
+        {
+          "number": 24,
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "fatherland",
+            "Motherland",
+            "holy land"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 25,
+          "lineId": "line-20",
+          "prompt": "Or sells love to {{blank}}",
+          "promptZh": "或者將愛出賣給另一個男人",
+          "options": [
+            "another man",
+            "any man",
+            "other men"
+          ],
+          "answer": "another man"
+        },
+        {
+          "number": 26,
+          "lineId": "line-21",
+          "prompt": "{{blank}}",
+          "promptZh": "外面太冷了",
+          "options": [
+            "It's very cold outside",
+            "It's so cold outside",
+            "It's too cold outside"
+          ],
+          "answer": "It's too cold outside"
+        },
+        {
+          "number": 27,
+          "lineId": "line-22",
+          "prompt": "For {{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "angels to fly",
+            "angels to cry",
+            "angels to die"
+          ],
+          "answer": "angels to fly"
+        },
+        {
+          "number": 28,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "天使無法飛翔",
+          "options": [
+            "angels to die",
+            "angels to cry",
+            "Angels to fly"
+          ],
+          "answer": "Angels to fly"
+        },
+        {
+          "number": 29,
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{blank}}",
+          "promptZh": "破爛的手套，雨衣",
+          "options": [
+            "coat",
+            "raincoat",
+            "jacket"
+          ],
+          "answer": "raincoat"
+        },
+        {
+          "number": 30,
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{blank}}",
+          "promptZh": "試圖游動以保持漂浮求生",
+          "options": [
+            "stay afloat",
+            "keep afloat",
+            "stay alive"
+          ],
+          "answer": "stay afloat"
+        },
+        {
+          "number": 31,
+          "lineId": "line-26",
+          "prompt": "Dry house, {{blank}}",
+          "promptZh": "乾燥的房子，濕透的衣服",
+          "options": [
+            "wet coat",
+            "wet clothes",
+            "wet shoes"
+          ],
+          "answer": "wet clothes"
+        },
+        {
+          "number": 32,
+          "lineId": "line-27",
+          "prompt": "Loose change, {{blank}}",
+          "promptZh": "零錢，紙鈔",
+          "options": [
+            "cash notes",
+            "paper bills",
+            "bank notes"
+          ],
+          "answer": "bank notes"
+        },
+        {
+          "number": 33,
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{blank}}",
+          "promptZh": "疲倦的雙眼，乾渴的喉嚨",
+          "options": [
+            "dry throat",
+            "sore throat",
+            "tight throat"
+          ],
+          "answer": "dry throat"
+        },
+        {
+          "number": 34,
+          "lineId": "line-29",
+          "prompt": "{{blank}}, no phone",
+          "promptZh": "應召女郎，沒有電話",
+          "options": [
+            "Call lady",
+            "Call girls",
+            "Call girl"
+          ],
+          "answer": "Call girl"
+        },
+        {
+          "number": 35,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "而他們說",
+          "options": [
+            "And they tell",
+            "And they say",
+            "And they speak"
+          ],
+          "answer": "And they say"
+        },
+        {
+          "number": 36,
+          "lineId": "line-31",
+          "prompt": "{{blank}}",
+          "promptZh": "她身處「A級團隊」",
+          "options": [
+            "She is in the Class A Team",
+            "She's in the Class A group",
+            "She's in the Class A Team"
+          ],
+          "answer": "She's in the Class A Team"
+        },
+        {
+          "number": 37,
+          "lineId": "line-32",
+          "prompt": "{{blank}}",
+          "promptZh": "困在自己的白日夢裡",
+          "options": [
+            "Stuck in her daydream",
+            "Stuck in a daydream",
+            "Stuck in the daydream"
+          ],
+          "answer": "Stuck in her daydream"
+        },
+        {
+          "number": 38,
+          "lineId": "line-34",
+          "prompt": "{{blank}}",
+          "promptZh": "但最近她的臉龐似乎",
+          "options": [
+            "But lately her face looks",
+            "But lately her face seems",
+            "But lately her face feels"
+          ],
+          "answer": "But lately her face seems"
+        },
+        {
+          "number": 39,
+          "lineId": "line-37",
+          "prompt": "And {{blank}}",
+          "promptZh": "而他們尖叫著",
+          "options": [
+            "they scream",
+            "They shout",
+            "They yell"
+          ],
+          "answer": "they scream"
+        },
+        {
+          "number": 40,
+          "lineId": "line-41",
+          "prompt": "{{blank}}",
+          "promptZh": "而她今晚不想出門",
+          "options": [
+            "And she doesn't want to go outside tonight",
+            "And she don't want to go outside tonight",
+            "And she don't want to go outside today"
+          ],
+          "answer": "And she don't want to go outside tonight"
+        },
+        {
+          "number": 41,
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{blank}}",
+          "promptZh": "在煙管中她飛向祖國",
+          "options": [
+            "holy land",
+            "fatherland",
+            "Motherland"
+          ],
+          "answer": "Motherland"
+        },
+        {
+          "number": 42,
+          "lineId": "line-46",
+          "prompt": "{{blank}} 〔第 43 題〕",
+          "promptZh": "一位天使將要死去",
+          "options": [
+            "An angel can",
+            "An angel might",
+            "An angel will"
+          ],
+          "answer": "An angel will"
+        },
+        {
+          "number": 43,
+          "lineId": "line-46",
+          "prompt": "〔第 42 題〕 {{blank}}",
+          "promptZh": "一位天使將要死去",
+          "options": [
+            "die",
+            "fly",
+            "fade"
+          ],
+          "answer": "die"
+        },
+        {
+          "number": 44,
+          "lineId": "line-48",
+          "prompt": "{{blank}}",
+          "promptZh": "緊閉的雙眼",
+          "options": [
+            "Close eye",
+            "Closed eye",
+            "Closing eye"
+          ],
+          "answer": "Closed eye"
+        },
+        {
+          "number": 45,
+          "lineId": "line-49",
+          "prompt": "And hoping for a {{blank}}",
+          "promptZh": "並期盼著更美好的生活",
+          "options": [
+            "good life",
+            "better life",
+            "new life"
+          ],
+          "answer": "better life"
+        },
+        {
+          "number": 46,
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{blank}}",
+          "promptZh": "這一次，我們將在今晚消逝",
+          "options": [
+            "fade away tonight",
+            "fade out today",
+            "fade out tonight"
+          ],
+          "answer": "fade out tonight"
+        },
+        {
+          "number": 47,
+          "lineId": "line-64",
+          "prompt": "And {{blank}}",
+          "promptZh": "在煙管中我們飛向祖國",
+          "options": [
+            "in a pipe we fly to the Motherland",
+            "in a pipe we fly to the fatherland",
+            "in a pipe we fly to the holy land"
+          ],
+          "answer": "in a pipe we fly to the Motherland"
+        },
+        {
+          "number": 48,
+          "lineId": "line-69",
+          "prompt": "{{blank}}",
+          "promptZh": "飛翔，飛翔",
+          "options": [
+            "To fly, to fly",
+            "To fly away",
+            "To fly, fly"
+          ],
+          "answer": "To fly, fly"
+        },
+        {
+          "number": 49,
+          "lineId": "line-70",
+          "prompt": "{{blank}}",
+          "promptZh": "讓天使飛翔，飛翔，飛翔",
+          "options": [
+            "For angels to fly, to fly, to fly",
+            "For angels to fly, fly, fly",
+            "For angels to fly, to fly"
+          ],
+          "answer": "For angels to fly, to fly, to fly"
+        },
+        {
+          "number": 50,
+          "lineId": "line-71",
+          "prompt": "For angels to {{blank}}",
+          "promptZh": "讓天使死去",
+          "options": [
+            "fly",
+            "die",
+            "fade"
+          ],
+          "answer": "die"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}, {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} {{q:5}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}}, {{q:7}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:8}}, {{q:9}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:10}} {{q:11}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Long nights, {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:13}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "She's in the {{q:14}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "Stuck in her {{q:15}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:16}} since eighteen"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "But lately her face {{q:17}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Slowly sinking, {{q:18}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "Crumbling like {{q:19}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And they {{q:20}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "The worst things in life {{q:21}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "'Cause we're just under the {{q:22}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And she don't want to {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And in a pipe she flies to the {{q:24}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Or sells love to {{q:25}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "For {{q:27}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:28}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Ripped gloves, {{q:29}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Tried to swim and {{q:30}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Dry house, {{q:31}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Loose change, {{q:32}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Weary-eyed, {{q:33}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:34}}, no phone"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:36}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:37}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:38}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "And {{q:39}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "'Cause we're just under the upper hand"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "And go mad for a couple grams"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "And in a pipe she flies to the {{q:41}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Or sells love to another man"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "{{q:42}} {{q:43}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Covered in white"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "{{q:44}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And hoping for a {{q:45}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "This time, we'll {{q:46}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Straight down the line"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "And they say"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "She's in the Class A Team"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Stuck in her daydream"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Been this way since eighteen"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "But lately her face seems"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Slowly sinking, wasting"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Crumbling like pastries"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "They scream"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "The worst things in life come free to us"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "And we're all under the upper hand"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Go mad for a couple grams"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "And we don't want to go outside tonight"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "And {{q:47}}"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Or sell love to another man"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "It's too cold outside"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "For angels to fly"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Angels to fly"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "{{q:48}}"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "For angels to {{q:50}}"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "4299226245cc26fbf35524ef7aaa487b5c2e5357e6963b5a1c654173be4e3aba",
+    "duration": 258.7399375
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-94fca833-06c9-401f-bfc5-a8146aeeda1d.png",
+    "sha256": "8261c11568faaebf990346a1400d6a702dae13d37b547f2d659824ad89fabb8a",
+    "selectedOn": "2026-10-29",
+    "transformations": "none"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "88b4c5fffefd98718f7f8a5b6cd28b085d28075aeb764be9f3484897b771c484"
+    },
+    {
+      "section": "structure",
+      "filename": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "8970dcc26de21f679377cfa3eef19b0fcbd70c17e42dbb83b1996c28abb933e2"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "burnt",
+          "meaning": "燒焦的；被燒傷的（burn 的過去分詞形容詞）",
+          "usage": "描述食物燒焦，或物品因熱而受損；英式英文常用 burnt。",
+          "prompt": "哪一句正確使用「burnt」？",
+          "options": [
+            "The toast was burnt, so it tasted fresh.",
+            "The toast was burnt, so I made some more.",
+            "I burnt to school after my breakfast.",
+            "Her burnt was waiting on the kitchen table."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：燒焦通常不會因此變得新鮮；burnt 與 fresh 的描述矛盾。",
+            "正確：烤吐司烤焦了，所以重新做一份。",
+            "錯誤：burnt 不能替代 went 表示去學校。",
+            "錯誤：burnt 在此不能單獨當作某個人的物品名稱。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：烤吐司烤焦了，所以重新做一份。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "sour",
+          "meaning": "酸的；（心情或關係）不愉快的",
+          "usage": "形容檸檬、壞掉的牛奶等酸味，也能形容關係變差。",
+          "prompt": "哪一句正確使用「sour」？",
+          "options": [
+            "She was sour the train at six in the morning.",
+            "The lemon was sour, so it tasted very sweet.",
+            "He put a sour on the desk before the lesson.",
+            "The milk smelled sour, so I did not drink it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：sour 不是搭車或出發的動詞。",
+            "錯誤：sour 與 very sweet 在此是相反味道，無法作為同一個結果。",
+            "錯誤：sour 是形容詞，不能這樣當作一件物品。",
+            "正確：牛奶聞起來酸酸的，可能變質，因此不喝。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：牛奶聞起來酸酸的，可能變質，因此不喝。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "daydream",
+          "meaning": "白日夢；出神時的幻想",
+          "usage": "形容人在清醒時想像美好或不切實際的事情。",
+          "prompt": "哪一句正確使用「daydream」？",
+          "options": [
+            "She had a daydream about living by the sea.",
+            "He daydreamed the door open with his key.",
+            "I went daydream to buy bread after school.",
+            "My daydream was the school bus at seven."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：她幻想自己住在海邊，符合白日夢的意思。",
+            "錯誤：daydream 不表示用鑰匙開門。",
+            "錯誤：daydream 不能當作表示「去商店」的方向副詞。",
+            "錯誤：白日夢是想像內容，不能直接等同一班公車。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：她幻想自己住在海邊，符合白日夢的意思。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "sinking",
+          "meaning": "下沉的；逐漸沉下去的",
+          "usage": "形容船、物品下沉，也可比喻情緒或處境逐漸低落。",
+          "prompt": "哪一句正確使用「sinking」？",
+          "options": [
+            "I was sinking to eat some rice after school.",
+            "The small boat was sinking after water got in.",
+            "The rain was sinking loudly on the window.",
+            "The boat was sinking because it had no holes."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：sinking 不是「想吃飯」的意思。",
+            "正確：船進水後下沉，動詞 sinking 使用自然。",
+            "錯誤：雨打窗戶一般用 falling 或 hitting，不用 sinking loudly。",
+            "錯誤：沒有破洞不能合理解釋船正在進水下沉。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：船進水後下沉，動詞 sinking 使用自然。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wasting",
+          "meaning": "逐漸消瘦、衰弱（歌詞中的用法）",
+          "usage": "此處是身體逐漸衰弱；日常也常說 wasting away，與 waste time 不同。",
+          "prompt": "哪一句正確使用「wasting」？",
+          "options": [
+            "Our teacher was wasting away to the library yesterday.",
+            "He was wasting the door to take the bus home.",
+            "After weeks without enough food, he was wasting away.",
+            "She was wasting away because her new shoes looked nice."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：wasting away 不能代替 going to 表示前往圖書館。",
+            "錯誤：waste 不能代替 open the door 或 take the bus。",
+            "正確：長期營養不足使人逐漸消瘦；wasting away 是自然搭配。",
+            "錯誤：新鞋好看不能合理造成身體衰弱。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：長期營養不足使人逐漸消瘦；wasting away 是自然搭配。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "crumbling",
+          "meaning": "碎裂；逐漸崩塌、瓦解",
+          "usage": "說餅乾或牆壁碎裂，也可比喻計畫與信心逐漸瓦解。",
+          "prompt": "哪一句正確使用「crumbling」？",
+          "options": [
+            "The cookie was crumbling, so it stayed in one piece.",
+            "She was crumbling her ticket onto the train.",
+            "The old wall was crumbling, and small stones fell off.",
+            "I bought two crumblings for dinner at the cafe."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：正在碎裂卻完全保持完整，兩者在此互相衝突。",
+            "錯誤：crumble 不能表示拿票上車。",
+            "正確：舊牆逐漸剝落、掉下碎石，是 crumbling 的典型用法。",
+            "錯誤：crumbling 在此不是自然的可數餐點名稱。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：舊牆逐漸剝落、掉下碎石，是 crumbling 的典型用法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "pastries",
+          "meaning": "酥皮點心；糕點（複數）",
+          "usage": "在麵包店談可頌、派等烘焙點心時使用。",
+          "prompt": "哪一句正確使用「pastries」？",
+          "options": [
+            "She pastries to her class every Monday morning.",
+            "We bought fresh pastries at the bakery this morning.",
+            "Our pastries were late because the train stopped.",
+            "I put my pastries on my feet before going out."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：pastries 是名詞複數，不是表示去上課的動詞。",
+            "正確：在烘焙店買新鮮糕點，用法自然。",
+            "錯誤：糕點本身不會像乘客一樣搭火車遲到。",
+            "錯誤：糕點不是鞋子，不能穿在腳上。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：在烘焙店買新鮮糕點，用法自然。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "upper hand",
+          "meaning": "優勢；掌控局面的有利地位",
+          "usage": "比賽、談判或爭論中，一方較占優勢時用 have/get the upper hand。",
+          "prompt": "哪一句正確使用「upper hand」？",
+          "options": [
+            "The upper hand was broken, so he went to the doctor.",
+            "After scoring twice, our team had the upper hand.",
+            "We upper hand the classroom when school ended.",
+            "I ate the upper hand before my football game."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：此處 upper hand 指優勢，不是受傷的手。",
+            "正確：連得兩分後球隊取得優勢。",
+            "錯誤：upper hand 不能直接當「離開教室」的動詞。",
+            "錯誤：upper hand 是抽象優勢，不能拿來吃。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：連得兩分後球隊取得優勢。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "ripped",
+          "meaning": "撕裂的；破掉的",
+          "usage": "形容衣服、紙張被撕破；常見 ripped jeans、ripped shirt。",
+          "prompt": "哪一句正確使用「ripped」？",
+          "options": [
+            "She bought a ripped of milk on the way home.",
+            "My jacket was ripped, so it was brand new and perfect.",
+            "My jacket was ripped, so I asked Mum to fix it.",
+            "We ripped to the supermarket before it closed."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：ripped 不是可數容器，不能說 a ripped of milk。",
+            "錯誤：破損的外套不能據此說是完好無缺。",
+            "正確：外套破了，請媽媽幫忙修補。",
+            "錯誤：ripped 不能取代 went 表示移動。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：外套破了，請媽媽幫忙修補。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "bank notes",
+          "meaning": "紙鈔；鈔票（英式用語）",
+          "usage": "提到現金紙幣時使用；美式英文更常說 bills。",
+          "prompt": "哪一句正確使用「bank notes」？",
+          "options": [
+            "She paid with bank notes instead of a card.",
+            "The bank notes were coins made of metal.",
+            "I wore two bank notes as my winter gloves.",
+            "We bank notes to the library after lunch."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：她用紙鈔而不是卡片付款。",
+            "錯誤：bank notes 是紙鈔，不是金屬硬幣。",
+            "錯誤：紙鈔不是冬季手套；此句不符合正常用法。",
+            "錯誤：bank notes 是名詞，不能當作前往圖書館的動詞。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：她用紙鈔而不是卡片付款。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "weary-eyed",
+          "meaning": "眼神疲憊的；滿眼倦意的",
+          "usage": "形容因為睡眠不足或疲勞而顯得疲倦的人；帶有文學色彩。",
+          "prompt": "哪一句正確使用「weary-eyed」？",
+          "options": [
+            "I put my weary-eyed into my bag for tomorrow.",
+            "He was weary-eyed because he had bought a red hat.",
+            "The weary-eyed girl felt fresh after ten hours of sleep.",
+            "The weary-eyed nurse went home after a long night."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：weary-eyed 是形容人的形容詞，不能當作物品放進書包。",
+            "錯誤：買紅帽子不能合理解釋疲憊眼神。",
+            "錯誤：睡足十小時又精神很好，不支持疲憊眼神的描述。",
+            "正確：護理師值完長夜班後顯得眼神疲憊。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：護理師值完長夜班後顯得眼神疲憊。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "fade out",
+          "meaning": "逐漸消失；（聲音、影像）逐漸淡出",
+          "usage": "音樂結束時音量逐漸變小，或畫面慢慢變暗；也可比喻消逝。",
+          "prompt": "哪一句正確使用「fade out」？",
+          "options": [
+            "I faded out the bread with butter at lunch.",
+            "The music faded out by getting louder every second.",
+            "The TV faded out because its screen became brighter.",
+            "At the end, the music began to fade out slowly."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：fade out 不表示抹奶油或做三明治。",
+            "錯誤：音量越來越大是 fade in 或 grow louder，不是 fade out。",
+            "錯誤：畫面越來越亮與淡出的方向相反。",
+            "正確：歌曲結尾音量慢慢降低，符合 fade out。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確：歌曲結尾音量慢慢降低，符合 fade out。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "straight down the line",
+          "meaning": "直接往前；沿著直線（歌詞中的詩意表達）",
+          "usage": "描述沿著直線向下或往前；不宜當成固定的「人生完結」慣用語。",
+          "prompt": "哪一句正確使用「straight down the line」？",
+          "options": [
+            "Draw the road straight down the line on this map.",
+            "I straight down the line my homework before dinner.",
+            "The bus was straight down the line because it was hungry.",
+            "She bought a straight down the line in the bakery."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：依照地圖上的線直接往下畫，能理解空間方向；較自然也可說 draw a straight line down the map。",
+            "錯誤：這個方向片語不是做功課的動詞。",
+            "錯誤：公車不會餓，而且片語不能描述其原因。",
+            "錯誤：它不是麵包店販售的物品。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確：依照地圖上的線直接往下畫，能理解空間方向；較自然也可說 draw a straight line down the map。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "scream",
+          "meaning": "尖叫；大聲喊叫",
+          "usage": "受到驚嚇、疼痛或強烈情緒影響時發出很大的叫聲。",
+          "prompt": "哪一句正確使用「scream」？",
+          "options": [
+            "The child screamed when he saw a big spider.",
+            "They screamed very quietly so nobody could hear.",
+            "He screamed his new shoes before going outside.",
+            "She screamed the bus to school this morning."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：孩子看到大蜘蛛時尖叫。",
+            "錯誤：scream 本身表示很大聲地喊叫，very quietly 在這裡與目標義相反。",
+            "錯誤：scream 不表示穿鞋。",
+            "錯誤：scream 不能取代 took the bus。"
+          ],
+          "sourceFile": "The_A_Team_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 14,
+          "explanation": "正確：孩子看到大蜘蛛時尖叫。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "形容詞＋名詞的畫面",
+          "meaning": "用簡短的形容詞和名詞建立畫面；這裡不是完整句。",
+          "usage": "描述人物、景物的外觀；完整敘事通常再加動詞。",
+          "prompt": "哪一句適合寫在故事開頭，描寫一個冷天的人？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "Her hands were cold, and her face was pale.",
+            "Her hands cold, and her face pale was.",
+            "Her hands were cold, and her face was palely.",
+            "Her cold were hands, and pale her face."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：用簡短的形容詞和名詞建立畫面；這裡不是完整句；這一句符合題目情境與句型。",
+            "錯誤：缺少正確的主語與動詞排列。",
+            "錯誤：pale 是形容詞，不應在 was 後用副詞 palely。",
+            "錯誤：形容詞和名詞的排列不合英文語序。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "White lips, pale face（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "名詞（並列描寫）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用簡短的形容詞和名詞建立畫面；這裡不是完整句；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "現在分詞描寫動作",
+          "meaning": "用 -ing 短語描寫正在發生的動作；歌詞省略主語與 be。",
+          "usage": "用在描寫場景；一般獨立句要補上主詞與 be 動詞。",
+          "prompt": "哪一句是完整的現在進行式，描述雪中的人物？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The child is breathing to cold air.",
+            "The child is breathing in cold air.",
+            "The child breathing in cold air.",
+            "The child is breathe in cold air."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：breathe in 表示吸入，不用 breathe to 表示此意。",
+            "正確：用 -ing 短語描寫正在發生的動作；歌詞省略主語與 be；這一句符合題目情境與句型。",
+            "錯誤：單獨成句缺少 is；原歌詞的省略是詩性用法。",
+            "錯誤：is 後應用 breathing。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Breathing in snowflakes（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "動詞-ing",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用 -ing 短語描寫正在發生的動作；歌詞省略主語與 be；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在完成式縮寫",
+          "meaning": "Light’s 在這裡可讀作 light has，表示燈光已經消失；歌詞用縮寫和省略。",
+          "usage": "談現在仍有結果的已完成變化。",
+          "prompt": "哪一句表示燈已經熄滅、現在是暗的？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The light have gone out, so the room is dark.",
+            "The light is gone out, so the room is dark.",
+            "The light has go out, so the room is dark.",
+            "The light has gone out, so the room is dark."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：單數 light 要搭配 has。",
+            "錯誤：此處標準的現在完成式是 has gone out。",
+            "錯誤：has 後需過去分詞 gone。",
+            "正確：Light’s 在這裡可讀作 light has，表示燈光已經消失；歌詞用縮寫和省略；這一句符合題目情境與句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "Light's gone（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "has + 過去分詞",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：Light’s 在這裡可讀作 light has，表示燈光已經消失；歌詞用縮寫和省略；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "努力做某事",
+          "meaning": "表示努力做某事，但並不容易；原句是分詞片語。",
+          "usage": "遇到困難仍嘗試完成工作時。",
+          "prompt": "舞者花很久才學會新動作，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "She struggled to learned the new dance.",
+            "She struggled that learn the new dance.",
+            "She struggled learning to the new dance.",
+            "She struggled to learn the new dance."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to 後應接原形 learn。",
+            "錯誤：struggle 後不能直接接 that learn。",
+            "錯誤：這裡要用 struggle to learn 的結構。",
+            "正確：表示努力做某事，但並不容易；原句是分詞片語；這一句符合題目情境與句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Struggling to pay rent（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "struggle to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示努力做某事，但並不容易；原句是分詞片語；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "被困在某種狀態",
+          "meaning": "被困在某個地方或狀態；歌詞省略 be，屬片語。",
+          "usage": "形容無法離開某個情況，或一直沉浸在想法中。",
+          "prompt": "遊客因大雨暫時無法離開小屋，哪句正確？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The visitors stuck in the house during the rain.",
+            "The visitors were sticking in the house during the rain.",
+            "The visitors were stuck in the house during the rain.",
+            "The visitors were stuck to the house during the rain."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：獨立完整句需要 were。",
+            "錯誤：sticking 不是此處的受困狀態。",
+            "正確：被困在某個地方或狀態；歌詞省略 be，屬片語；這一句符合題目情境與句型。",
+            "錯誤：這裡用 stuck in 表示困在裡面。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Stuck in her daydream（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be stuck in",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：被困在某個地方或狀態；歌詞省略 be，屬片語；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "since＋起點",
+          "meaning": "從過去某時起一直維持到現在；歌詞省略主詞與 have。",
+          "usage": "談長期持續的狀態。",
+          "prompt": "哪句表示一個人從十二歲起就住在這個城鎮？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "She has live in this town since she was twelve.",
+            "She has lived in this town since three years.",
+            "She lived in this town since she was twelve and still lives here.",
+            "She has lived in this town since she was twelve."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：has 後應接過去分詞 lived。",
+            "錯誤：三年是時間長度，應用 for three years。",
+            "錯誤：想強調一直持續到現在，用現在完成式較合適。",
+            "正確：從過去某時起一直維持到現在；歌詞省略主詞與 have；這一句符合題目情境與句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Been this way since eighteen（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "have/has been",
+              "fixed": true
+            },
+            {
+              "text": "狀態",
+              "fixed": false
+            },
+            {
+              "text": "since",
+              "fixed": true
+            },
+            {
+              "text": "過去起點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：從過去某時起一直維持到現在；歌詞省略主詞與 have；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "lately：近來",
+          "meaning": "lately 表示最近這段時間；歌詞的 seems 在下一行才得到後續描寫。",
+          "usage": "談近來身體、心情或生活的變化。",
+          "prompt": "哪句適合表達最近常常下雨？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "It rained tomorrow lately.",
+            "Lately is raining a lot.",
+            "It has rained a lot lately.",
+            "It will rain a lot lately next year."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：tomorrow 與過去式 rained 衝突。",
+            "錯誤：缺少形式主詞 it；應說 It has been raining lately 等。",
+            "正確：lately 表示最近這段時間；歌詞的 seems 在下一行才得到後續描寫；這一句符合題目情境與句型。",
+            "錯誤：lately 一般不配明年的未來時間。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "But lately her face seems（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "lately",
+              "fixed": true
+            },
+            {
+              "text": "最近的狀態／變化",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：lately 表示最近這段時間；歌詞的 seems 在下一行才得到後續描寫；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "seem＋形容詞",
+          "meaning": "表示看起來似乎處於某種狀態；歌詞以分詞接續描述。",
+          "usage": "根據觀察推測狀態，不把猜測當成確定。",
+          "prompt": "看見朋友笑得很開心，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "Your friend seems to happy today.",
+            "Your friend seems happy today.",
+            "Your friend seem happy today.",
+            "Your friend seems happily today."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：to 後不能直接接形容詞；可說 seems to be happy。",
+            "正確：表示看起來似乎處於某種狀態；歌詞以分詞接續描述；這一句符合題目情境與句型。",
+            "錯誤：單數 friend 要用 seems。",
+            "錯誤：seem 後可直接用形容詞 happy，非副詞 happily。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "her face seems（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "seem(s)",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示看起來似乎處於某種狀態；歌詞以分詞接續描述；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "副詞修飾動作",
+          "meaning": "slowly 說明動作進行的速度；這一行仍是承接前句的詩性片語。",
+          "usage": "描述事情如何緩慢發生。",
+          "prompt": "哪句說明船正在慢慢下沉？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The small boat is slow sinking.",
+            "The small boat is slowly sink.",
+            "The small boat is slowly sinking.",
+            "The small boat slowly sinking."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：修飾 sinking 要用副詞 slowly。",
+            "錯誤：is 後需要 sinking。",
+            "正確：slowly 說明動作進行的速度；這一行仍是承接前句的詩性片語；這一句符合題目情境與句型。",
+            "錯誤：完整句缺少 is。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Slowly sinking, wasting（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "副詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：slowly 說明動作進行的速度；這一行仍是承接前句的詩性片語；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "like 表示比喻",
+          "meaning": "like 在這裡是「像……一樣」，非表示喜歡；片語具有比喻。",
+          "usage": "比較兩個事物外觀或動作的相似之處。",
+          "prompt": "哪句描述雲的樣子像棉花？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The clouds look like softly white cotton.",
+            "The clouds look like soft white cotton.",
+            "The clouds look liking soft white cotton.",
+            "The clouds look as soft white cotton."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：soft 是修飾 cotton 的形容詞，非 softly。",
+            "正確：like 在這裡是「像……一樣」，非表示喜歡；片語具有比喻；這一句符合題目情境與句型。",
+            "錯誤：look liking 並非此處的比較句型。",
+            "錯誤：look like + 名詞，不能在這裡單用 as。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "Crumbling like pastries（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "動作",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：like 在這裡是「像……一樣」，非表示喜歡；片語具有比喻；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "最高級 the worst",
+          "meaning": "worst 是 bad 的最高級；用來指出某範圍內最糟的一組事物。",
+          "usage": "比較多個選項並指出極端程度。",
+          "prompt": "大家試了四條路，哪句指出最危險的一條？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "That is worst road of the four.",
+            "That is the most bad road of the four.",
+            "That is the worst road of the four.",
+            "That is the worse road of the four."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：最高級前需 the。",
+            "錯誤：bad 的最高級是不規則 worst。",
+            "正確：worst 是 bad 的最高級；用來指出某範圍內最糟的一組事物；這一句符合題目情境與句型。",
+            "錯誤：四條路比較最高級用 worst；worse 為比較級。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "The worst things in life（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "the + 形容詞最高級",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：worst 是 bad 的最高級；用來指出某範圍內最糟的一組事物；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "不花錢的 free",
+          "meaning": "這是歌詞中較特殊的搭配，意為不需付費便來到身邊；不要當作所有場合的固定模板。",
+          "usage": "談免費獲得物品時，日常更常說 be free 或 get something for free。",
+          "prompt": "市集提供免費飲用水，哪句最自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "Water is free for everyone at the market.",
+            "Water free everyone at the market.",
+            "Water is free to drinking at the market.",
+            "Water is freely for everyone at the market."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：這是歌詞中較特殊的搭配，意為不需付費便來到身邊；不要當作所有場合的固定模板；這一句符合題目情境與句型。",
+            "錯誤：獨立句需要 is。",
+            "錯誤：free for everyone 是自然的搭配，to drinking 不對。",
+            "錯誤：此處用形容詞 free，不用副詞 freely。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "come free to us（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "東西",
+              "fixed": false
+            },
+            {
+              "text": "come free",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：這是歌詞中較特殊的搭配，意為不需付費便來到身邊；不要當作所有場合的固定模板；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "a couple＋複數名詞",
+          "meaning": "歌詞省去 of；較標準的教學形式是 a couple of + 複數名詞。",
+          "usage": "表示兩個或少數幾個東西。",
+          "prompt": "旅行前想買兩三張明信片，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "I want to buy a couple of postcards.",
+            "I want to buy a couple postcards of.",
+            "I want to buy a couple of postcard.",
+            "I want to buy a couple of a postcard."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：歌詞省去 of；較標準的教學形式是 a couple of + 複數名詞；這一句符合題目情境與句型。",
+            "錯誤：of 的位置不對；標準寫法是 couple of postcards。",
+            "錯誤：a couple of 後面用複數 postcards。",
+            "錯誤：a postcard 與 a couple of 的數量結構衝突。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "a couple grams（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "a couple (of)",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：歌詞省去 of；較標準的教學形式是 a couple of + 複數名詞；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "第三人稱否定：方言句",
+          "meaning": "歌詞真的唱 she don’t；這是非標準主謂一致，不可宣稱歌詞使用 doesn’t。",
+          "usage": "一般書面英文第三人稱單數要用 doesn’t。",
+          "prompt": "哪一句適合寫在正式英文日記？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "She doesn’t wants to go outside today.",
+            "She doesn’t want to go outside today.",
+            "She don’t want to go outside today.",
+            "She not want to go outside today."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：doesn’t 後面須用 want。",
+            "正確：歌詞真的唱 she don’t；這是非標準主謂一致，不可宣稱歌詞使用 doesn’t；這一句符合題目情境與句型。",
+            "錯誤：don’t 是歌詞原句，但一般書面標準使用 doesn’t。",
+            "錯誤：一般現在式否定需助動詞 doesn’t。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "she don't want to go outside（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "she",
+              "fixed": false
+            },
+            {
+              "text": "doesn’t want to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞（標準延伸）",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：歌詞真的唱 she don’t；這是非標準主謂一致，不可宣稱歌詞使用 doesn’t；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "want to＋動詞",
+          "meaning": "表達想做某事；可和上一題的主謂一致分開學習。",
+          "usage": "描述願望、打算或選擇。",
+          "prompt": "朋友想去看今晚的星星，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "We want looking at the stars tonight.",
+            "We want to looking at the stars tonight.",
+            "We want to look at the stars tonight.",
+            "We want that look at the stars tonight."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：want 後要接 to + 原形。",
+            "錯誤：to 後面不接 looking。",
+            "正確：表達想做某事；可和上一題的主謂一致分開學習；這一句符合題目情境與句型。",
+            "錯誤：want that look 不是這個願望句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "want to go outside tonight（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "want to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表達想做某事；可和上一題的主謂一致分開學習；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "too＋形容詞＋for＋人＋to",
+          "meaning": "表示條件過於某種程度，使某人不能完成動作；歌詞跨兩行。",
+          "usage": "說明任務或環境對某個人太難、太冷或太重。",
+          "prompt": "孩子搬不動沉重的桌子，哪句正確？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The table is too heavy for the child to move.",
+            "The table is too heavy to the child move.",
+            "The table is too heavily for the child to move.",
+            "The table is so heavy for the child to move it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示條件過於某種程度，使某人不能完成動作；歌詞跨兩行；這一句符合題目情境與句型。",
+            "錯誤：正確結構是 too + 形容詞 + for someone + to V。",
+            "錯誤：heavy 是形容詞，不能改為副詞 heavily。",
+            "錯誤：題目要考 too...to；so heavy for... 並非對應結構。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "too cold outside / For angels to fly（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "too",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示條件過於某種程度，使某人不能完成動作；歌詞跨兩行；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "過去式 tried to",
+          "meaning": "表示過去努力嘗試兩個動作；歌詞省略主語。",
+          "usage": "談過去努力完成的事情。",
+          "prompt": "哪句描述昨晚努力保持清醒並讀完書？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "I tried to stay awake and finished the book.",
+            "I tried to stay awake and finish the book.",
+            "I tried to stayed awake and finish the book.",
+            "I tried staying awake and to finish the book."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：and 連接兩個原形 stay、finish。",
+            "正確：表示過去努力嘗試兩個動作；歌詞省略主語；這一句符合題目情境與句型。",
+            "錯誤：to 後面用原形 stay。",
+            "錯誤：並列形式不平行；應保持 stay / finish。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Tried to swim and stay afloat（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "tried to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示過去努力嘗試兩個動作；歌詞省略主語；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "不定詞並列",
+          "meaning": "兩個動詞共用前面的 to；動作形式平行。",
+          "usage": "同時說出一個目標的兩個步驟。",
+          "prompt": "哪句表示想坐下來休息？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "I want to sit down and rest.",
+            "I want to sit down and resting.",
+            "I want to sitting down and rest.",
+            "I want to sit down and to resting."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：兩個動詞共用前面的 to；動作形式平行；這一句符合題目情境與句型。",
+            "錯誤：and 後要和 sit 平行，用 rest。",
+            "錯誤：want to 後應是 sit。",
+            "錯誤：to resting 錯，to 後需原形。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "swim and stay afloat（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：兩個動詞共用前面的 to；動作形式平行；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "形容詞＋過去分詞的複合詞",
+          "meaning": "weary-eyed 是形容詞，指眼神疲倦；歌詞是名詞性畫面，不是整句。",
+          "usage": "描寫眼神或外觀時，可用 tired-looking 等簡單替代語。",
+          "prompt": "哪句是完整且自然的人物描寫？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "After the long walk, Leo look tired.",
+            "After the long walk, Leo looked tiredly.",
+            "After the long walk, Leo was look tired.",
+            "After the long walk, Leo looked tired."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：過去式主詞 Leo 用 looked。",
+            "錯誤：look 作連綴動詞後用形容詞 tired。",
+            "錯誤：was look 不是正確的動詞組合。",
+            "正確：weary-eyed 是形容詞，指眼神疲倦；歌詞是名詞性畫面，不是整句；這一句符合題目情境與句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "Weary-eyed, dry throat（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "形容詞 + -",
+              "fixed": false
+            },
+            {
+              "text": "身體部位-ed",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：weary-eyed 是形容詞，指眼神疲倦；歌詞是名詞性畫面，不是整句；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "被動意義的 covered in",
+          "meaning": "表示表面覆蓋著某物；歌詞省略 be，且 white 指白色覆蓋物，具詩意。",
+          "usage": "描述物品表面被雪、顏料等覆蓋。",
+          "prompt": "山頂滿是雪，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The mountain is cover in snow.",
+            "The mountain is covering in snow.",
+            "The mountain is covered in snow.",
+            "The mountain covered in snow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：被動形式要用 covered。",
+            "錯誤：covering 在這裡不是被覆蓋的意思。",
+            "正確：表示表面覆蓋著某物；歌詞省略 be，且 white 指白色覆蓋物，具詩意；這一句符合題目情境與句型。",
+            "錯誤：獨立完整句應加 is。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Covered in white（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "be covered in",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示表面覆蓋著某物；歌詞省略 be，且 white 指白色覆蓋物，具詩意；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "hope for＋名詞",
+          "meaning": "表示盼望獲得某事；歌詞是 -ing 片語。",
+          "usage": "希望有好消息、好天氣或更好的結果時。",
+          "prompt": "一家人希望週末天氣好，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "We are hoping for good weather this weekend.",
+            "We are hoping for be good weather this weekend.",
+            "We are hoping to good weather this weekend.",
+            "We are hoping for weather good this weekend."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示盼望獲得某事；歌詞是 -ing 片語；這一句符合題目情境與句型。",
+            "錯誤：hope for 後不能直接接 be。",
+            "錯誤：hope for 後面直接接名詞 good weather。",
+            "錯誤：形容詞 good 應在名詞 weather 前。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "hoping for a better life（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "hope for",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示盼望獲得某事；歌詞是 -ing 片語；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "will＋動詞原形",
+          "meaning": "表示說話者對將來的預測；歌詞中的情節沉重。",
+          "usage": "日常中可用於預測自然的未來變化。",
+          "prompt": "天氣預報說明天會下雨，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "It will rain tomorrow.",
+            "It will to rain tomorrow.",
+            "It will rains tomorrow.",
+            "It will raining tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：表示說話者對將來的預測；歌詞中的情節沉重；這一句符合題目情境與句型。",
+            "錯誤：will 後不用 to。",
+            "錯誤：will 後需原形 rain，非 rains。",
+            "錯誤：will 後不直接接 raining。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "An angel will die（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示說話者對將來的預測；歌詞中的情節沉重；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "fade out：逐漸消失",
+          "meaning": "fade out 表示聲音、影像或光線逐漸消失；歌詞帶有沉重隱喻。",
+          "usage": "描述舞台燈光、影片畫面漸漸變暗。",
+          "prompt": "電影結束時畫面逐漸變暗，哪句自然？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The picture will faded out at the end of the film.",
+            "The picture will fade at out the end of the film.",
+            "The picture fade out will at the end of the film.",
+            "The picture will fade out at the end of the film."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：will 後接原形 fade。",
+            "錯誤：fade out 不可拆成 fade at out。",
+            "錯誤：will 的位置應在 fade 前。",
+            "正確：fade out 表示聲音、影像或光線逐漸消失；歌詞帶有沉重隱喻；這一句符合題目情境與句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "we'll fade out tonight（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will fade out",
+              "fixed": true
+            },
+            {
+              "text": "時間",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：fade out 表示聲音、影像或光線逐漸消失；歌詞帶有沉重隱喻；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "比較級 better",
+          "meaning": "better 是 good 的比較級，意指比現在更好的生活。",
+          "usage": "比較現在與期待中的狀態。",
+          "prompt": "哪句說明搬家後希望有更好的生活？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "They hope to have better a life in the new town.",
+            "They hope to have a better life in the new town.",
+            "They hope to have a more good life in the new town.",
+            "They hope to have a best life in the new town."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：形容詞 better 應放在 a 後、life 前。",
+            "正確：better 是 good 的比較級，意指比現在更好的生活；這一句符合題目情境與句型。",
+            "錯誤：good 的比較級是 better。",
+            "錯誤：best 是最高級，語意及冠詞結構不適合。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "a better life（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "a + 形容詞比較級",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：better 是 good 的比較級，意指比現在更好的生活；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "just＋介系詞片語",
+          "meaning": "just 此處用於加強或限定位置／狀態；under the upper hand 是歌曲的象徵性說法，非一般標準搭配。",
+          "usage": "日常可用 just under、just behind 表示「正好在……下／後」。",
+          "prompt": "哪句表示小球就在椅子正下方？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "The ball just under the chair.",
+            "The ball is justly under the chair.",
+            "The ball is under just the chair.",
+            "The ball is just under the chair."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：完整句缺少 is。",
+            "錯誤：justly 意為公正地，不是位置上的 just。",
+            "錯誤：just under 是此處自然的位置搭配。",
+            "正確：just 此處用於加強或限定位置／狀態；under the upper hand 是歌曲的象徵性說法，非一般標準搭配；這一句符合題目情境與句型。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "just under the upper hand（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "just",
+              "fixed": true
+            },
+            {
+              "text": "介系詞片語",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：just 此處用於加強或限定位置／狀態；under the upper hand 是歌曲的象徵性說法，非一般標準搭配；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "or 連接替代選項",
+          "meaning": "or 表示替代選項；這一行承接前句的主詞 she，且帶有成人議題。",
+          "usage": "介紹兩種可能方式或行程，不代表兩者同時發生。",
+          "prompt": "週末只能選一個活動，哪句清楚？（請選唯一最自然且符合目標句型的完整英文句。）",
+          "options": [
+            "We can visit the zoo or going to the beach.",
+            "We can visit the zoo or go to the beach.",
+            "We can visit the zoo or to go to the beach.",
+            "We can visit the zoo or goes to the beach."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：應讓 visit 和 go 形式平行。",
+            "正確：or 表示替代選項；這一行承接前句的主詞 she，且帶有成人議題；這一句符合題目情境與句型。",
+            "錯誤：or 後並列 go，不能突然改為 to go。",
+            "錯誤：goes 不符合 we can 後的動詞原形。"
+          ],
+          "sourceFile": "The_A_Team_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "Or sells love to another man（英文歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "or",
+              "fixed": true
+            },
+            {
+              "text": "另一個動作／選項",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：or 表示替代選項；這一行承接前句的主詞 she，且帶有成人議題；這一句符合題目情境與句型。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        }
+      ]
+    }
+  }
+}

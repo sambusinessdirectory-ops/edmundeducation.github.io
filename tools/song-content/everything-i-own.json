@@ -1,0 +1,3933 @@
+{
+  "slug": "everything-i-own",
+  "title": "Everything I Own",
+  "singer": "Bread",
+  "exercise_name": "Everything I Own · Listening & Vocabulary",
+  "description": "《Everything I Own》描寫失去摯愛之後，內心充滿思念、感激與遺憾的深刻情感。歌中的主角回憶對方曾經給予自己的保護、溫暖與無私的愛，並教會他如何去愛與珍惜生命。失去對方後，他才真正明白那些共同度過的歲月有多麼珍貴，甚至願意付出自己擁有的一切，只求能再次相見。歌曲亦提醒我們，不應將身邊人的關懷與付出視為理所當然，因為失去後可能再也沒有機會表達愛意。最終，《Everything I Own》傳達的是感恩、思念與珍惜：生命中那些無可取代、深愛著我們的人，遠比物質財富更加珍貴。",
+  "tags": [
+    "bread",
+    "everything i own",
+    "gratitude",
+    "memories"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "You sheltered me from harm",
+      "chinese": "你庇護我免受傷害",
+      "startSeconds": 7.48,
+      "endSeconds": 11.5
+    },
+    {
+      "lineId": "line-2",
+      "english": "Kept me warm, kept me warm",
+      "chinese": "讓我感到溫暖，讓我感到溫暖",
+      "startSeconds": 12.94,
+      "endSeconds": 19.24
+    },
+    {
+      "lineId": "line-3",
+      "english": "You gave my life to me",
+      "chinese": "你將生命賦予了我",
+      "startSeconds": 21.42,
+      "endSeconds": 24.62
+    },
+    {
+      "lineId": "line-4",
+      "english": "Set me free, set me free",
+      "chinese": "讓我自由，讓我自由",
+      "startSeconds": 25.48,
+      "endSeconds": 32.1
+    },
+    {
+      "lineId": "line-5",
+      "english": "The finest years I ever knew",
+      "chinese": "我這生所知最美好的歲月",
+      "startSeconds": 32.96,
+      "endSeconds": 36.66
+    },
+    {
+      "lineId": "line-6",
+      "english": "Were all the years I had with you",
+      "chinese": "就是與你共度的所有年華",
+      "startSeconds": 38.56,
+      "endSeconds": 42.58
+    },
+    {
+      "lineId": "line-7",
+      "english": "And I would give anything I own",
+      "chinese": "我願付出我所擁有的一切",
+      "startSeconds": 42.58,
+      "endSeconds": 47.92
+    },
+    {
+      "lineId": "line-8",
+      "english": "Give up my life, my heart, my home",
+      "chinese": "放棄我的生命、我的心、我的家",
+      "startSeconds": 49.0,
+      "endSeconds": 53.58
+    },
+    {
+      "lineId": "line-9",
+      "english": "I would give everything I own",
+      "chinese": "我願付出我所擁有的一切",
+      "startSeconds": 53.58,
+      "endSeconds": 59.42
+    },
+    {
+      "lineId": "line-10",
+      "english": "Just to have you back again",
+      "chinese": "只為了能再次擁有你",
+      "startSeconds": 59.42,
+      "endSeconds": 65.68
+    },
+    {
+      "lineId": "line-11",
+      "english": "You taught me how to love",
+      "chinese": "你教會了我如何去愛",
+      "startSeconds": 68.14,
+      "endSeconds": 72.16
+    },
+    {
+      "lineId": "line-12",
+      "english": "What it's of, what it's of",
+      "chinese": "愛的真諦，愛的真諦",
+      "startSeconds": 74.18,
+      "endSeconds": 79.84
+    },
+    {
+      "lineId": "line-13",
+      "english": "You never said too much",
+      "chinese": "你從未多說什麼",
+      "startSeconds": 79.84,
+      "endSeconds": 83.34
+    },
+    {
+      "lineId": "line-14",
+      "english": "But still you showed the way",
+      "chinese": "但你依然指引了道路",
+      "startSeconds": 83.34,
+      "endSeconds": 85.3
+    },
+    {
+      "lineId": "line-15",
+      "english": "And I knew from watching you",
+      "chinese": "我從注視你的過程中領悟了",
+      "startSeconds": 85.8,
+      "endSeconds": 91.04
+    },
+    {
+      "lineId": "line-16",
+      "english": "Nobody else could ever know",
+      "chinese": "再也沒有人能夠知道",
+      "startSeconds": 93.38,
+      "endSeconds": 97.18
+    },
+    {
+      "lineId": "line-17",
+      "english": "The part of me that can't let go",
+      "chinese": "我心中那無法割捨的部分",
+      "startSeconds": 98.82,
+      "endSeconds": 102.64
+    },
+    {
+      "lineId": "line-18",
+      "english": "And I would give anything I own",
+      "chinese": "我願付出我所擁有的一切",
+      "startSeconds": 102.64,
+      "endSeconds": 108.28
+    },
+    {
+      "lineId": "line-19",
+      "english": "Give up my life, my heart, my home",
+      "chinese": "放棄我的生命、我的心、我的家",
+      "startSeconds": 109.84,
+      "endSeconds": 114.24
+    },
+    {
+      "lineId": "line-20",
+      "english": "I would give everything I own",
+      "chinese": "我願付出我所擁有的一切",
+      "startSeconds": 115.02,
+      "endSeconds": 119.2
+    },
+    {
+      "lineId": "line-21",
+      "english": "Just to have you back again",
+      "chinese": "只為了能再次擁有你",
+      "startSeconds": 121.28,
+      "endSeconds": 126.56
+    },
+    {
+      "lineId": "line-22",
+      "english": "Is there someone you know",
+      "chinese": "有沒有一個你認識的人",
+      "startSeconds": 127.28,
+      "endSeconds": 130.66
+    },
+    {
+      "lineId": "line-23",
+      "english": "You're loving them so",
+      "chinese": "你如此深愛著",
+      "startSeconds": 131.28,
+      "endSeconds": 134.02
+    },
+    {
+      "lineId": "line-24",
+      "english": "But taking them all for granted",
+      "chinese": "卻把他們的存在視為理所當然",
+      "startSeconds": 134.02,
+      "endSeconds": 139.16
+    },
+    {
+      "lineId": "line-25",
+      "english": "You may lose them one day",
+      "chinese": "有一天你可能會失去他們",
+      "startSeconds": 140.02,
+      "endSeconds": 143.26
+    },
+    {
+      "lineId": "line-26",
+      "english": "Someone takes them away",
+      "chinese": "有人會把他們帶走",
+      "startSeconds": 143.98,
+      "endSeconds": 146.36
+    },
+    {
+      "lineId": "line-27",
+      "english": "And they don't hear the words you long to say",
+      "chinese": "而他們聽不到你渴望說出的話",
+      "startSeconds": 147.0,
+      "endSeconds": 151.6
+    },
+    {
+      "lineId": "line-28",
+      "english": "I would give anything I own",
+      "chinese": "我願付出我所擁有的一切",
+      "startSeconds": 151.6,
+      "endSeconds": 157.24
+    },
+    {
+      "lineId": "line-29",
+      "english": "Give up my life, my heart, my home",
+      "chinese": "放棄我的生命、我的心、我的家",
+      "startSeconds": 157.24,
+      "endSeconds": 163.02
+    },
+    {
+      "lineId": "line-30",
+      "english": "I would give everything I own",
+      "chinese": "我願付出我所擁有的一切",
+      "startSeconds": 163.02,
+      "endSeconds": 168.98
+    },
+    {
+      "lineId": "line-31",
+      "english": "Just to have you back again",
+      "chinese": "只為了能再次擁有你",
+      "startSeconds": 168.98,
+      "endSeconds": 174.88
+    },
+    {
+      "lineId": "line-32",
+      "english": "Just to touch you once again",
+      "chinese": "只為了能再次觸碰你",
+      "startSeconds": 174.88,
+      "endSeconds": 181.38
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Shelter someone from",
+      "meaning": "保護某人免受……傷害",
+      "usage": "當你想說某人保護另一個人，不讓他受到風雨、危險或其他傷害時使用。",
+      "prompt": "哪一句正確使用「Shelter someone from」？",
+      "options": [
+        "The big tree sheltered us from the rain.",
+        "My brother sheltered to me from the storm.",
+        "I sheltered my guitar from seven o'clock.",
+        "She sheltered the music from happy."
+      ],
+      "answer": 0,
+      "explanation": "正確。shelter someone from something 表示保護某人免受某事影響。",
+      "optionExplanations": [
+        "正確。shelter someone from something 表示保護某人免受某事影響。",
+        "shelter someone from 直接接人，不加 to。",
+        "from 後面要指出要避開的影響，如 rain；這裡只寫時間，意思不完整。",
+        "錯誤。happy 是形容詞，不是這裡要防止的危險或傷害。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Keep someone warm",
+      "meaning": "讓某人保持溫暖",
+      "usage": "在天氣冷、有人送外套或毛毯給別人時使用。",
+      "prompt": "哪一句正確使用「Keep someone warm」？",
+      "options": [
+        "I kept the door warm by closing my book.",
+        "This jacket keeps me warm during Dad's outdoor speeches.",
+        "He keeps warm his speech with a blue song.",
+        "We kept the lift warm with our exam marks."
+      ],
+      "answer": 1,
+      "explanation": "keep someone warm 表示使人保持溫暖。",
+      "optionExplanations": [
+        "錯誤。關書不能讓門保暖，句意不合理。",
+        "keep someone warm 表示使人保持溫暖。",
+        "演說沒有需要保暖的身體，這句無法表達 keep someone warm。",
+        "分數無法用來提供熱量，句意不合理。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Set someone free",
+      "meaning": "讓某人自由；放某人走",
+      "usage": "當一個人或動物不再被關住、限制時使用；也可形容不再受束縛。",
+      "prompt": "哪一句正確使用「Set someone free」？",
+      "options": [
+        "I set my haircut free by making it shorter.",
+        "They opened the cage and set the bird free.",
+        "She set free her phone call by speaking louder.",
+        "My cousins set me free a new invitation."
+      ],
+      "answer": 1,
+      "explanation": "正確。打開籠子讓鳥飛走，就是讓牠自由。",
+      "optionExplanations": [
+        "剪短頭髮與釋放某人或動物無關。",
+        "正確。打開籠子讓鳥飛走，就是讓牠自由。",
+        "提高聲量不等於釋放，set free 無法表示這個動作。",
+        "set someone free 後面不能直接再接一份請帖。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Give up",
+      "meaning": "放棄；停止做某件事",
+      "usage": "當你決定不再繼續某件事、習慣或嘗試時使用。",
+      "prompt": "哪一句正確使用「Give up」？",
+      "options": [
+        "I won't give up. One day, this radio will work.",
+        "She gives up her brother a birthday card.",
+        "We give up to school every day.",
+        "I gave up the window to make it sunny."
+      ],
+      "answer": 0,
+      "explanation": "give up 表示放棄；這裡堅持修好收音機。",
+      "optionExplanations": [
+        "give up 表示放棄；這裡堅持修好收音機。",
+        "送卡片應說 gives her brother a card；加上 up 會改變意思與結構。",
+        "錯誤。give up 不表示去某個地方，應該用 go to school。",
+        "錯誤。give up 不表示打開窗戶讓天氣變好。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Have someone back",
+      "meaning": "讓某人回來；重新與某人在一起",
+      "usage": "想念一位已離開的人，希望他再次回到身邊時可以使用。",
+      "prompt": "哪一句正確使用「Have someone back」？",
+      "options": [
+        "We have back the bus because it is yellow.",
+        "I have my neighbour back to the price of ten dollars.",
+        "He had the moon back inside his small wallet.",
+        "I'd love to have my old manager back. She understood jokes."
+      ],
+      "answer": 3,
+      "explanation": "have someone back 表示讓某人回來，這裡希望舊經理回來工作。",
+      "optionExplanations": [
+        "錯誤。這裡沒有「想讓某人回來」的意思，語序也不自然。",
+        "have someone back 表示讓人回來，不能這樣接價格。",
+        "這句把月亮當作錢包內的物件，無法表達想讓某人回來。",
+        "have someone back 表示讓某人回來，這裡希望舊經理回來工作。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Show the way",
+      "meaning": "指路；示範該怎麼做",
+      "usage": "當你幫人找到地方，或教人如何做某件事時使用。",
+      "prompt": "哪一句正確使用「Show the way」？",
+      "options": [
+        "The teacher showed the way of a timetable to sleep.",
+        "I showed the way my cousins are tomorrow.",
+        "Can you show me the way to the station?",
+        "She shows the way a glass of water every morning."
+      ],
+      "answer": 2,
+      "explanation": "正確。請別人指引到車站的路。",
+      "optionExplanations": [
+        "show the way 表示指路，不能讓時間表睡覺。",
+        "這句缺少合理的地點或做事方法，結構不完整。",
+        "正確。請別人指引到車站的路。",
+        "錯誤。show the way 不是「給一杯水」；這裡應用 gives。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Let go",
+      "meaning": "放手；不再抓住",
+      "usage": "真的鬆開手裡的東西，或不再抓住過去的事，都可以使用。",
+      "prompt": "哪一句正確使用「Let go」？",
+      "options": [
+        "Please let go the concert to my birthday.",
+        "I let go my bank account with a microphone.",
+        "He let go to the shop at five.",
+        "Let go of my arm; I'm only going to the dentist."
+      ],
+      "answer": 3,
+      "explanation": "let go of 表示鬆開抓住的東西。",
+      "optionExplanations": [
+        "let go 後面通常用 of 連接受詞；這裡的搭配不成立。",
+        "這個搭配無法表達放手，麥克風也與銀行帳戶無關。",
+        "錯誤。let go 不表示「去商店」，應使用 went to the shop。",
+        "let go of 表示鬆開抓住的東西。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Take someone for granted",
+      "meaning": "把某人的付出視為理所當然",
+      "usage": "當別人一直幫你，但你不再感謝或珍惜他時使用。",
+      "prompt": "哪一句正確使用「Take someone for granted」？",
+      "options": [
+        "I shouldn't take Mum for granted. She does so much.",
+        "She took the invitation for granted into the postbox.",
+        "We take our teacher for granted by thanking her for every lesson.",
+        "I took my brother for granted to the bus stop."
+      ],
+      "answer": 0,
+      "explanation": "take someone for granted 指把別人的付出視為理所當然。",
+      "optionExplanations": [
+        "take someone for granted 指把別人的付出視為理所當然。",
+        "把請帖投進郵筒應用 put；take for granted 無法表達這個動作。",
+        "每課都感謝老師，表達的是重視；與視為理所當然的意思相反。",
+        "錯誤。這不是「帶哥哥去車站」的說法；take for granted 是固定片語。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Long to",
+      "meaning": "渴望；非常想要",
+      "usage": "當你非常希望做一件事，通常是很想念或期待的事情時使用；後面接動詞原形。",
+      "prompt": "哪一句正確使用「Long to」？",
+      "options": [
+        "They long to happy at home.",
+        "She longs to a blue pencil.",
+        "I long to see my old friends again.",
+        "He long to goes to bed now."
+      ],
+      "answer": 2,
+      "explanation": "正確。long to + 動詞原形，表示非常想再見到老朋友。",
+      "optionExplanations": [
+        "錯誤。happy 是形容詞，應說 long to be happy。",
+        "錯誤。long to 後面需要動詞，不能直接接 a blue pencil。",
+        "正確。long to + 動詞原形，表示非常想再見到老朋友。",
+        "錯誤。主詞 he 要用 longs，to 後也要用 go 原形。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "Once again",
+      "meaning": "再一次；又一次",
+      "usage": "當某件事情已經發生過，現在再次發生或希望再做一次時使用。",
+      "prompt": "哪一句正確使用「Once again」？",
+      "options": [
+        "I once again my new haircut before the party.",
+        "Can you say that once again, please?",
+        "She once again is a station on the map.",
+        "He bought a once again at the shop."
+      ],
+      "answer": 1,
+      "explanation": "正確。請對方再說一次，使用自然。",
+      "optionExplanations": [
+        "once again 表示再次，不能代替整理髮型的動詞。",
+        "正確。請對方再說一次，使用自然。",
+        "人不會因 once again 而成為地圖上的車站，句意不成立。",
+        "錯誤。once again 是副詞片語，不是可以購買的物品。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/everything-i-own/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/everything-i-own/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "You {{blank}} me from harm",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "sheltered",
+            "protected",
+            "kept"
+          ],
+          "answer": "sheltered"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, kept me warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Held me close",
+            "Kept me warm",
+            "Kept me safe"
+          ],
+          "answer": "Kept me warm"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "You gave my {{blank}} to me",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "heart",
+            "soul",
+            "life"
+          ],
+          "answer": "life"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "Set me {{blank}}, set me free",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "loose",
+            "free",
+            "clear"
+          ],
+          "answer": "free"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "The finest {{blank}} I ever knew",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "years",
+            "days",
+            "times"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Were all the years I {{blank}} with you",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "spent",
+            "shared",
+            "had"
+          ],
+          "answer": "had"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "And I would {{blank}} 〔第 8 題〕",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "give",
+            "trade",
+            "lose"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 8,
+          "lineId": "line-7",
+          "prompt": "And I would 〔第 7 題〕 {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "everything I have",
+            "anything I own",
+            "all that I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 9,
+          "lineId": "line-8",
+          "prompt": "Give up my {{blank}}",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "life, my heart, my home",
+            "life, my soul, my home",
+            "life, my mind, my home"
+          ],
+          "answer": "life, my heart, my home"
+        },
+        {
+          "number": 10,
+          "lineId": "line-9",
+          "prompt": "I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "all that I own",
+            "anything I have",
+            "everything I own"
+          ],
+          "answer": "everything I own"
+        },
+        {
+          "number": 11,
+          "lineId": "line-10",
+          "prompt": "Just to have you {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "home again",
+            "back again",
+            "near again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 12,
+          "lineId": "line-11",
+          "prompt": "You {{blank}} me how to love",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "told",
+            "taught",
+            "showed"
+          ],
+          "answer": "taught"
+        },
+        {
+          "number": 13,
+          "lineId": "line-12",
+          "prompt": "What it's {{blank}}, what it's of",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "of",
+            "for",
+            "about"
+          ],
+          "answer": "of"
+        },
+        {
+          "number": 14,
+          "lineId": "line-13",
+          "prompt": "You never said {{blank}}",
+          "promptZh": "你從未多說什麼",
+          "options": [
+            "enough",
+            "too little",
+            "too much"
+          ],
+          "answer": "too much"
+        },
+        {
+          "number": 15,
+          "lineId": "line-14",
+          "prompt": "But still you {{blank}} the way",
+          "promptZh": "但你依然指引了道路",
+          "options": [
+            "found",
+            "showed",
+            "led"
+          ],
+          "answer": "showed"
+        },
+        {
+          "number": 16,
+          "lineId": "line-15",
+          "prompt": "And I knew from {{blank}}",
+          "promptZh": "我從注視你的過程中領悟了",
+          "options": [
+            "watching you",
+            "looking at you",
+            "hearing you"
+          ],
+          "answer": "watching you"
+        },
+        {
+          "number": 17,
+          "lineId": "line-16",
+          "prompt": "Nobody else could {{blank}}",
+          "promptZh": "再也沒有人能夠知道",
+          "options": [
+            "ever tell",
+            "ever see",
+            "ever know"
+          ],
+          "answer": "ever know"
+        },
+        {
+          "number": 18,
+          "lineId": "line-17",
+          "prompt": "The part of me that can't {{blank}}",
+          "promptZh": "我心中那無法割捨的部分",
+          "options": [
+            "move on",
+            "hold on",
+            "let go"
+          ],
+          "answer": "let go"
+        },
+        {
+          "number": 19,
+          "lineId": "line-22",
+          "prompt": "{{blank}} you know",
+          "promptZh": "有沒有一個你認識的人",
+          "options": [
+            "Is there someone",
+            "Is there somebody",
+            "Do you have someone"
+          ],
+          "answer": "Is there someone"
+        },
+        {
+          "number": 20,
+          "lineId": "line-24",
+          "prompt": "But taking them all for {{blank}}",
+          "promptZh": "卻把他們的存在視為理所當然",
+          "options": [
+            "given",
+            "granted",
+            "sure"
+          ],
+          "answer": "granted"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "You {{q:1}} me from harm"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}}, kept me warm"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You gave my {{q:3}} to me"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Set me {{q:4}}, set me free"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "The finest {{q:5}} I ever knew"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Were all the years I {{q:6}} with you"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I would {{q:7}} {{q:8}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Give up my {{q:9}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I would give {{q:10}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Just to have you {{q:11}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You {{q:12}} me how to love"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "What it's {{q:13}}, what it's of"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You never said {{q:14}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But still you {{q:15}} the way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I knew from {{q:16}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Nobody else could {{q:17}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "The part of me that can't {{q:18}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And I would give anything I own"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I would give everything I own"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Just to have you back again"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:19}} you know"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're loving them so"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But taking them all for {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You may lose them one day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Someone takes them away"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And they don't hear the words you long to say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I would give anything I own"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I would give everything I own"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Just to have you back again"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just to touch you once again"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 me from harm",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "You",
+            "I",
+            "We"
+          ],
+          "answer": "You"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} me from harm",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "protected",
+            "sheltered",
+            "kept"
+          ],
+          "answer": "sheltered"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, 〔第 4 題〕 warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Held me close",
+            "Kept me safe",
+            "Kept me warm"
+          ],
+          "answer": "Kept me warm"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "〔第 3 題〕, {{blank}} warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Held me",
+            "kept me",
+            "Made me"
+          ],
+          "answer": "kept me"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "You gave my {{blank}} 〔第 6 題〕",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "life",
+            "heart",
+            "soul"
+          ],
+          "answer": "life"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "You gave my 〔第 5 題〕 {{blank}}",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "to you",
+            "for me",
+            "to me"
+          ],
+          "answer": "to me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "Set me {{blank}}, 〔第 8 題〕",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "loose",
+            "free",
+            "clear"
+          ],
+          "answer": "free"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "Set me 〔第 7 題〕, {{blank}}",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "set me free",
+            "Let me go",
+            "Set me loose"
+          ],
+          "answer": "set me free"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "The finest {{blank}} I 〔第 10 題〕",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "times",
+            "days",
+            "years"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "The finest 〔第 9 題〕 I {{blank}}",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "ever had",
+            "ever knew",
+            "ever spent"
+          ],
+          "answer": "ever knew"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "Were all the years I {{blank}} 〔第 12 題〕",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "had",
+            "spent",
+            "shared"
+          ],
+          "answer": "had"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Were all the years I 〔第 11 題〕 {{blank}}",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "for you",
+            "by you",
+            "with you"
+          ],
+          "answer": "with you"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "And I would {{blank}} 〔第 14 題〕",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "trade",
+            "give",
+            "lose"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "And I would 〔第 13 題〕 {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "anything I own",
+            "everything I have",
+            "all that I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "Give up my",
+            "Give away my",
+            "Give to you my"
+          ],
+          "answer": "Give up my"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "life, my mind, my home",
+            "life, my soul, my home",
+            "life, my heart, my home"
+          ],
+          "answer": "life, my heart, my home"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "anything I have",
+            "everything I own",
+            "all that I own"
+          ],
+          "answer": "everything I own"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "Just to have you {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "near again",
+            "home again",
+            "back again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 19,
+          "lineId": "line-11",
+          "prompt": "You {{blank}} me 〔第 20 題〕",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "taught",
+            "showed",
+            "told"
+          ],
+          "answer": "taught"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "You 〔第 19 題〕 me {{blank}}",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "how to live",
+            "how to love",
+            "how to feel"
+          ],
+          "answer": "how to love"
+        },
+        {
+          "number": 21,
+          "lineId": "line-12",
+          "prompt": "What it's {{blank}}, 〔第 22 題〕",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "of",
+            "for",
+            "about"
+          ],
+          "answer": "of"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "What it's 〔第 21 題〕, {{blank}}",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "What it is of",
+            "what it's of",
+            "What's it of"
+          ],
+          "answer": "what it's of"
+        },
+        {
+          "number": 23,
+          "lineId": "line-13",
+          "prompt": "You never said {{blank}}",
+          "promptZh": "你從未多說什麼",
+          "options": [
+            "enough",
+            "too little",
+            "too much"
+          ],
+          "answer": "too much"
+        },
+        {
+          "number": 24,
+          "lineId": "line-14",
+          "prompt": "But still you {{blank}} the way",
+          "promptZh": "但你依然指引了道路",
+          "options": [
+            "found",
+            "led",
+            "showed"
+          ],
+          "answer": "showed"
+        },
+        {
+          "number": 25,
+          "lineId": "line-15",
+          "prompt": "And I knew from {{blank}}",
+          "promptZh": "我從注視你的過程中領悟了",
+          "options": [
+            "looking at you",
+            "watching you",
+            "hearing you"
+          ],
+          "answer": "watching you"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "Nobody else could {{blank}}",
+          "promptZh": "再也沒有人能夠知道",
+          "options": [
+            "ever know",
+            "ever see",
+            "ever tell"
+          ],
+          "answer": "ever know"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "The part of me that can't {{blank}}",
+          "promptZh": "我心中那無法割捨的部分",
+          "options": [
+            "let go",
+            "move on",
+            "hold on"
+          ],
+          "answer": "let go"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "And I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "everything I have",
+            "anything I own",
+            "all that I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 29,
+          "lineId": "line-20",
+          "prompt": "I would give everything {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "I hold",
+            "I have",
+            "I own"
+          ],
+          "answer": "I own"
+        },
+        {
+          "number": 30,
+          "lineId": "line-21",
+          "prompt": "Just to have you {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "here again",
+            "home again",
+            "back again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 31,
+          "lineId": "line-22",
+          "prompt": "{{blank}} you know",
+          "promptZh": "有沒有一個你認識的人",
+          "options": [
+            "Is there someone",
+            "Is there somebody",
+            "Do you have someone"
+          ],
+          "answer": "Is there someone"
+        },
+        {
+          "number": 32,
+          "lineId": "line-24",
+          "prompt": "But taking them all for {{blank}}",
+          "promptZh": "卻把他們的存在視為理所當然",
+          "options": [
+            "given",
+            "granted",
+            "sure"
+          ],
+          "answer": "granted"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} me from harm"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}}, {{q:4}} warm"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "You gave my {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Set me {{q:7}}, {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "The finest {{q:9}} I {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Were all the years I {{q:11}} {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "And I would {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I would give {{q:17}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Just to have you {{q:18}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You {{q:19}} me {{q:20}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "What it's {{q:21}}, {{q:22}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You never said {{q:23}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But still you {{q:24}} the way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I knew from {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Nobody else could {{q:26}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "The part of me that can't {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And I would give {{q:28}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I would give everything {{q:29}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Just to have you {{q:30}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:31}} you know"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're loving them so"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But taking them all for {{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You may lose them one day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Someone takes them away"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And they don't hear the words you long to say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I would give anything I own"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I would give everything I own"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Just to have you back again"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just to touch you once again"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 〔第 3 題〕 〔第 4 題〕",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "You",
+            "I",
+            "We"
+          ],
+          "answer": "You"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} 〔第 3 題〕 〔第 4 題〕",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "sheltered",
+            "protected",
+            "kept"
+          ],
+          "answer": "sheltered"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 {{blank}} 〔第 4 題〕",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "us",
+            "you",
+            "me"
+          ],
+          "answer": "me"
+        },
+        {
+          "number": 4,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 〔第 3 題〕 {{blank}}",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "from pain",
+            "from harm",
+            "from rain"
+          ],
+          "answer": "from harm"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, 〔第 6 題〕 warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Kept me warm",
+            "Held me close",
+            "Kept me safe"
+          ],
+          "answer": "Kept me warm"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "〔第 5 題〕, {{blank}} warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Held me",
+            "Made me",
+            "kept me"
+          ],
+          "answer": "kept me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "{{blank}} my 〔第 8 題〕 〔第 9 題〕",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "You brought",
+            "You gave",
+            "You saved"
+          ],
+          "answer": "You gave"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 my {{blank}} 〔第 9 題〕",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "soul",
+            "heart",
+            "life"
+          ],
+          "answer": "life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 my 〔第 8 題〕 {{blank}}",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "for me",
+            "to me",
+            "to you"
+          ],
+          "answer": "to me"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "Set me {{blank}}, 〔第 11 題〕",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "free",
+            "loose",
+            "clear"
+          ],
+          "answer": "free"
+        },
+        {
+          "number": 11,
+          "lineId": "line-4",
+          "prompt": "Set me 〔第 10 題〕, {{blank}}",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "set me free",
+            "Let me go",
+            "Set me loose"
+          ],
+          "answer": "set me free"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 13 題〕 I 〔第 14 題〕",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "The brightest",
+            "The finest",
+            "The longest"
+          ],
+          "answer": "The finest"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 {{blank}} I 〔第 14 題〕",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "times",
+            "days",
+            "years"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 14,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 〔第 13 題〕 I {{blank}}",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "ever spent",
+            "ever had",
+            "ever knew"
+          ],
+          "answer": "ever knew"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "{{blank}} years I 〔第 16 題〕 〔第 17 題〕",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "Were just the",
+            "Were all the",
+            "Are all the"
+          ],
+          "answer": "Were all the"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "〔第 15 題〕 years I {{blank}} 〔第 17 題〕",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "had",
+            "spent",
+            "shared"
+          ],
+          "answer": "had"
+        },
+        {
+          "number": 17,
+          "lineId": "line-6",
+          "prompt": "〔第 15 題〕 years I 〔第 16 題〕 {{blank}}",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "for you",
+            "with you",
+            "by you"
+          ],
+          "answer": "with you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 19 題〕 〔第 20 題〕",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "And I would",
+            "And I will",
+            "But I would"
+          ],
+          "answer": "And I would"
+        },
+        {
+          "number": 19,
+          "lineId": "line-7",
+          "prompt": "〔第 18 題〕 {{blank}} 〔第 20 題〕",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "lose",
+            "trade",
+            "give"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 20,
+          "lineId": "line-7",
+          "prompt": "〔第 18 題〕 〔第 19 題〕 {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "all that I own",
+            "everything I have",
+            "anything I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 21,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 22 題〕",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "Give up my",
+            "Give away my",
+            "Give to you my"
+          ],
+          "answer": "Give up my"
+        },
+        {
+          "number": 22,
+          "lineId": "line-8",
+          "prompt": "〔第 21 題〕 {{blank}}",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "life, my soul, my home",
+            "life, my heart, my home",
+            "life, my mind, my home"
+          ],
+          "answer": "life, my heart, my home"
+        },
+        {
+          "number": 23,
+          "lineId": "line-9",
+          "prompt": "I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "everything I own",
+            "anything I have",
+            "all that I own"
+          ],
+          "answer": "everything I own"
+        },
+        {
+          "number": 24,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 25 題〕",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "Just to see you",
+            "Just to hold you",
+            "Just to have you"
+          ],
+          "answer": "Just to have you"
+        },
+        {
+          "number": 25,
+          "lineId": "line-10",
+          "prompt": "〔第 24 題〕 {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "home again",
+            "back again",
+            "near again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 26,
+          "lineId": "line-11",
+          "prompt": "You {{blank}} me 〔第 27 題〕",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "showed",
+            "taught",
+            "told"
+          ],
+          "answer": "taught"
+        },
+        {
+          "number": 27,
+          "lineId": "line-11",
+          "prompt": "You 〔第 26 題〕 me {{blank}}",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "how to love",
+            "how to live",
+            "how to feel"
+          ],
+          "answer": "how to love"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 29 題〕, 〔第 30 題〕",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "What was",
+            "How it's",
+            "What it's"
+          ],
+          "answer": "What it's"
+        },
+        {
+          "number": 29,
+          "lineId": "line-12",
+          "prompt": "〔第 28 題〕 {{blank}}, 〔第 30 題〕",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "about",
+            "for",
+            "of"
+          ],
+          "answer": "of"
+        },
+        {
+          "number": 30,
+          "lineId": "line-12",
+          "prompt": "〔第 28 題〕 〔第 29 題〕, {{blank}}",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "what it's of",
+            "What it is of",
+            "What's it of"
+          ],
+          "answer": "what it's of"
+        },
+        {
+          "number": 31,
+          "lineId": "line-13",
+          "prompt": "You never said {{blank}}",
+          "promptZh": "你從未多說什麼",
+          "options": [
+            "too little",
+            "too much",
+            "enough"
+          ],
+          "answer": "too much"
+        },
+        {
+          "number": 32,
+          "lineId": "line-14",
+          "prompt": "But still you {{blank}} the way",
+          "promptZh": "但你依然指引了道路",
+          "options": [
+            "showed",
+            "led",
+            "found"
+          ],
+          "answer": "showed"
+        },
+        {
+          "number": 33,
+          "lineId": "line-15",
+          "prompt": "And I knew from {{blank}}",
+          "promptZh": "我從注視你的過程中領悟了",
+          "options": [
+            "hearing you",
+            "looking at you",
+            "watching you"
+          ],
+          "answer": "watching you"
+        },
+        {
+          "number": 34,
+          "lineId": "line-16",
+          "prompt": "Nobody else could {{blank}}",
+          "promptZh": "再也沒有人能夠知道",
+          "options": [
+            "ever see",
+            "ever know",
+            "ever tell"
+          ],
+          "answer": "ever know"
+        },
+        {
+          "number": 35,
+          "lineId": "line-17",
+          "prompt": "The part of me that can't {{blank}}",
+          "promptZh": "我心中那無法割捨的部分",
+          "options": [
+            "move on",
+            "let go",
+            "hold on"
+          ],
+          "answer": "let go"
+        },
+        {
+          "number": 36,
+          "lineId": "line-18",
+          "prompt": "And I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "all that I own",
+            "everything I have",
+            "anything I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 37,
+          "lineId": "line-20",
+          "prompt": "I would give everything {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "I own",
+            "I have",
+            "I hold"
+          ],
+          "answer": "I own"
+        },
+        {
+          "number": 38,
+          "lineId": "line-21",
+          "prompt": "Just to have you {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "back again",
+            "here again",
+            "home again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 39,
+          "lineId": "line-22",
+          "prompt": "{{blank}} you know",
+          "promptZh": "有沒有一個你認識的人",
+          "options": [
+            "Is there somebody",
+            "Do you have someone",
+            "Is there someone"
+          ],
+          "answer": "Is there someone"
+        },
+        {
+          "number": 40,
+          "lineId": "line-24",
+          "prompt": "But taking them all for {{blank}}",
+          "promptZh": "卻把他們的存在視為理所當然",
+          "options": [
+            "given",
+            "granted",
+            "sure"
+          ],
+          "answer": "granted"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:5}}, {{q:6}} warm"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:7}} my {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Set me {{q:10}}, {{q:11}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:12}} {{q:13}} I {{q:14}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:15}} years I {{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:18}} {{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I would give {{q:23}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You {{q:26}} me {{q:27}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:28}} {{q:29}}, {{q:30}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You never said {{q:31}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "But still you {{q:32}} the way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "And I knew from {{q:33}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "Nobody else could {{q:34}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "The part of me that can't {{q:35}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And I would give {{q:36}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I would give everything {{q:37}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Just to have you {{q:38}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:39}} you know"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "You're loving them so"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "But taking them all for {{q:40}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You may lose them one day"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Someone takes them away"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And they don't hear the words you long to say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I would give anything I own"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I would give everything I own"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Just to have you back again"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just to touch you once again"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "{{blank}} 〔第 2 題〕 〔第 3 題〕 〔第 4 題〕",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "You",
+            "I",
+            "We"
+          ],
+          "answer": "You"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 {{blank}} 〔第 3 題〕 〔第 4 題〕",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "protected",
+            "sheltered",
+            "kept"
+          ],
+          "answer": "sheltered"
+        },
+        {
+          "number": 3,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 {{blank}} 〔第 4 題〕",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "me",
+            "you",
+            "us"
+          ],
+          "answer": "me"
+        },
+        {
+          "number": 4,
+          "lineId": "line-1",
+          "prompt": "〔第 1 題〕 〔第 2 題〕 〔第 3 題〕 {{blank}}",
+          "promptZh": "你庇護我免受傷害",
+          "options": [
+            "from rain",
+            "from pain",
+            "from harm"
+          ],
+          "answer": "from harm"
+        },
+        {
+          "number": 5,
+          "lineId": "line-2",
+          "prompt": "{{blank}}, 〔第 6 題〕 warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Held me close",
+            "Kept me warm",
+            "Kept me safe"
+          ],
+          "answer": "Kept me warm"
+        },
+        {
+          "number": 6,
+          "lineId": "line-2",
+          "prompt": "〔第 5 題〕, {{blank}} warm",
+          "promptZh": "讓我感到溫暖，讓我感到溫暖",
+          "options": [
+            "Held me",
+            "Made me",
+            "kept me"
+          ],
+          "answer": "kept me"
+        },
+        {
+          "number": 7,
+          "lineId": "line-3",
+          "prompt": "{{blank}} my 〔第 8 題〕 〔第 9 題〕",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "You brought",
+            "You gave",
+            "You saved"
+          ],
+          "answer": "You gave"
+        },
+        {
+          "number": 8,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 my {{blank}} 〔第 9 題〕",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "life",
+            "heart",
+            "soul"
+          ],
+          "answer": "life"
+        },
+        {
+          "number": 9,
+          "lineId": "line-3",
+          "prompt": "〔第 7 題〕 my 〔第 8 題〕 {{blank}}",
+          "promptZh": "你將生命賦予了我",
+          "options": [
+            "to me",
+            "to you",
+            "for me"
+          ],
+          "answer": "to me"
+        },
+        {
+          "number": 10,
+          "lineId": "line-4",
+          "prompt": "Set me {{blank}}, 〔第 11 題〕",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "clear",
+            "loose",
+            "free"
+          ],
+          "answer": "free"
+        },
+        {
+          "number": 11,
+          "lineId": "line-4",
+          "prompt": "Set me 〔第 10 題〕, {{blank}}",
+          "promptZh": "讓我自由，讓我自由",
+          "options": [
+            "Let me go",
+            "set me free",
+            "Set me loose"
+          ],
+          "answer": "set me free"
+        },
+        {
+          "number": 12,
+          "lineId": "line-5",
+          "prompt": "{{blank}} 〔第 13 題〕 I 〔第 14 題〕",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "The brightest",
+            "The finest",
+            "The longest"
+          ],
+          "answer": "The finest"
+        },
+        {
+          "number": 13,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 {{blank}} I 〔第 14 題〕",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "times",
+            "days",
+            "years"
+          ],
+          "answer": "years"
+        },
+        {
+          "number": 14,
+          "lineId": "line-5",
+          "prompt": "〔第 12 題〕 〔第 13 題〕 I {{blank}}",
+          "promptZh": "我這生所知最美好的歲月",
+          "options": [
+            "ever knew",
+            "ever had",
+            "ever spent"
+          ],
+          "answer": "ever knew"
+        },
+        {
+          "number": 15,
+          "lineId": "line-6",
+          "prompt": "{{blank}} years I 〔第 16 題〕 〔第 17 題〕",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "Were just the",
+            "Were all the",
+            "Are all the"
+          ],
+          "answer": "Were all the"
+        },
+        {
+          "number": 16,
+          "lineId": "line-6",
+          "prompt": "〔第 15 題〕 years I {{blank}} 〔第 17 題〕",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "had",
+            "spent",
+            "shared"
+          ],
+          "answer": "had"
+        },
+        {
+          "number": 17,
+          "lineId": "line-6",
+          "prompt": "〔第 15 題〕 years I 〔第 16 題〕 {{blank}}",
+          "promptZh": "就是與你共度的所有年華",
+          "options": [
+            "by you",
+            "for you",
+            "with you"
+          ],
+          "answer": "with you"
+        },
+        {
+          "number": 18,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 19 題〕 〔第 20 題〕",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "And I would",
+            "And I will",
+            "But I would"
+          ],
+          "answer": "And I would"
+        },
+        {
+          "number": 19,
+          "lineId": "line-7",
+          "prompt": "〔第 18 題〕 {{blank}} 〔第 20 題〕",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "lose",
+            "trade",
+            "give"
+          ],
+          "answer": "give"
+        },
+        {
+          "number": 20,
+          "lineId": "line-7",
+          "prompt": "〔第 18 題〕 〔第 19 題〕 {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "everything I have",
+            "anything I own",
+            "all that I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 21,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 22 題〕",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "Give up my",
+            "Give away my",
+            "Give to you my"
+          ],
+          "answer": "Give up my"
+        },
+        {
+          "number": 22,
+          "lineId": "line-8",
+          "prompt": "〔第 21 題〕 {{blank}}",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "life, my mind, my home",
+            "life, my soul, my home",
+            "life, my heart, my home"
+          ],
+          "answer": "life, my heart, my home"
+        },
+        {
+          "number": 23,
+          "lineId": "line-9",
+          "prompt": "I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "anything I have",
+            "everything I own",
+            "all that I own"
+          ],
+          "answer": "everything I own"
+        },
+        {
+          "number": 24,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 25 題〕",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "Just to hold you",
+            "Just to see you",
+            "Just to have you"
+          ],
+          "answer": "Just to have you"
+        },
+        {
+          "number": 25,
+          "lineId": "line-10",
+          "prompt": "〔第 24 題〕 {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "home again",
+            "back again",
+            "near again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 26,
+          "lineId": "line-11",
+          "prompt": "You {{blank}} me 〔第 27 題〕",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "taught",
+            "showed",
+            "told"
+          ],
+          "answer": "taught"
+        },
+        {
+          "number": 27,
+          "lineId": "line-11",
+          "prompt": "You 〔第 26 題〕 me {{blank}}",
+          "promptZh": "你教會了我如何去愛",
+          "options": [
+            "how to feel",
+            "how to live",
+            "how to love"
+          ],
+          "answer": "how to love"
+        },
+        {
+          "number": 28,
+          "lineId": "line-12",
+          "prompt": "{{blank}} 〔第 29 題〕, 〔第 30 題〕",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "How it's",
+            "What it's",
+            "What was"
+          ],
+          "answer": "What it's"
+        },
+        {
+          "number": 29,
+          "lineId": "line-12",
+          "prompt": "〔第 28 題〕 {{blank}}, 〔第 30 題〕",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "of",
+            "for",
+            "about"
+          ],
+          "answer": "of"
+        },
+        {
+          "number": 30,
+          "lineId": "line-12",
+          "prompt": "〔第 28 題〕 〔第 29 題〕, {{blank}}",
+          "promptZh": "愛的真諦，愛的真諦",
+          "options": [
+            "what it's of",
+            "What it is of",
+            "What's it of"
+          ],
+          "answer": "what it's of"
+        },
+        {
+          "number": 31,
+          "lineId": "line-13",
+          "prompt": "You never said {{blank}}",
+          "promptZh": "你從未多說什麼",
+          "options": [
+            "too little",
+            "too much",
+            "enough"
+          ],
+          "answer": "too much"
+        },
+        {
+          "number": 32,
+          "lineId": "line-14",
+          "prompt": "{{blank}} 〔第 33 題〕 the way",
+          "promptZh": "但你依然指引了道路",
+          "options": [
+            "But then you",
+            "And still you",
+            "But still you"
+          ],
+          "answer": "But still you"
+        },
+        {
+          "number": 33,
+          "lineId": "line-14",
+          "prompt": "〔第 32 題〕 {{blank}} the way",
+          "promptZh": "但你依然指引了道路",
+          "options": [
+            "found",
+            "showed",
+            "led"
+          ],
+          "answer": "showed"
+        },
+        {
+          "number": 34,
+          "lineId": "line-15",
+          "prompt": "{{blank}} from 〔第 35 題〕",
+          "promptZh": "我從注視你的過程中領悟了",
+          "options": [
+            "But I knew",
+            "And I know",
+            "And I knew"
+          ],
+          "answer": "And I knew"
+        },
+        {
+          "number": 35,
+          "lineId": "line-15",
+          "prompt": "〔第 34 題〕 from {{blank}}",
+          "promptZh": "我從注視你的過程中領悟了",
+          "options": [
+            "watching you",
+            "looking at you",
+            "hearing you"
+          ],
+          "answer": "watching you"
+        },
+        {
+          "number": 36,
+          "lineId": "line-16",
+          "prompt": "{{blank}} 〔第 37 題〕",
+          "promptZh": "再也沒有人能夠知道",
+          "options": [
+            "Somebody else could",
+            "Nobody else could",
+            "Nobody else would"
+          ],
+          "answer": "Nobody else could"
+        },
+        {
+          "number": 37,
+          "lineId": "line-16",
+          "prompt": "〔第 36 題〕 {{blank}}",
+          "promptZh": "再也沒有人能夠知道",
+          "options": [
+            "ever know",
+            "ever see",
+            "ever tell"
+          ],
+          "answer": "ever know"
+        },
+        {
+          "number": 38,
+          "lineId": "line-17",
+          "prompt": "{{blank}} 〔第 39 題〕 〔第 40 題〕",
+          "promptZh": "我心中那無法割捨的部分",
+          "options": [
+            "A part of you",
+            "The heart of me",
+            "The part of me"
+          ],
+          "answer": "The part of me"
+        },
+        {
+          "number": 39,
+          "lineId": "line-17",
+          "prompt": "〔第 38 題〕 {{blank}} 〔第 40 題〕",
+          "promptZh": "我心中那無法割捨的部分",
+          "options": [
+            "that won't",
+            "that can't",
+            "that couldn't"
+          ],
+          "answer": "that can't"
+        },
+        {
+          "number": 40,
+          "lineId": "line-17",
+          "prompt": "〔第 38 題〕 〔第 39 題〕 {{blank}}",
+          "promptZh": "我心中那無法割捨的部分",
+          "options": [
+            "let go",
+            "move on",
+            "hold on"
+          ],
+          "answer": "let go"
+        },
+        {
+          "number": 41,
+          "lineId": "line-18",
+          "prompt": "And I would give {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "all that I own",
+            "everything I have",
+            "anything I own"
+          ],
+          "answer": "anything I own"
+        },
+        {
+          "number": 42,
+          "lineId": "line-19",
+          "prompt": "{{blank}} life, my heart, my home",
+          "promptZh": "放棄我的生命、我的心、我的家",
+          "options": [
+            "Give away my",
+            "Give up my",
+            "Give to you my"
+          ],
+          "answer": "Give up my"
+        },
+        {
+          "number": 43,
+          "lineId": "line-20",
+          "prompt": "I would give everything {{blank}}",
+          "promptZh": "我願付出我所擁有的一切",
+          "options": [
+            "I own",
+            "I have",
+            "I hold"
+          ],
+          "answer": "I own"
+        },
+        {
+          "number": 44,
+          "lineId": "line-21",
+          "prompt": "Just to have you {{blank}}",
+          "promptZh": "只為了能再次擁有你",
+          "options": [
+            "home again",
+            "here again",
+            "back again"
+          ],
+          "answer": "back again"
+        },
+        {
+          "number": 45,
+          "lineId": "line-22",
+          "prompt": "{{blank}} you know",
+          "promptZh": "有沒有一個你認識的人",
+          "options": [
+            "Do you have someone",
+            "Is there someone",
+            "Is there somebody"
+          ],
+          "answer": "Is there someone"
+        },
+        {
+          "number": 46,
+          "lineId": "line-23",
+          "prompt": "{{blank}}",
+          "promptZh": "你如此深愛著",
+          "options": [
+            "You're missing them so",
+            "You were loving them so",
+            "You're loving them so"
+          ],
+          "answer": "You're loving them so"
+        },
+        {
+          "number": 47,
+          "lineId": "line-24",
+          "prompt": "{{blank}} 〔第 48 題〕",
+          "promptZh": "卻把他們的存在視為理所當然",
+          "options": [
+            "But taking them all for",
+            "But giving them all for",
+            "And taking them all for"
+          ],
+          "answer": "But taking them all for"
+        },
+        {
+          "number": 48,
+          "lineId": "line-24",
+          "prompt": "〔第 47 題〕 {{blank}}",
+          "promptZh": "卻把他們的存在視為理所當然",
+          "options": [
+            "sure",
+            "given",
+            "granted"
+          ],
+          "answer": "granted"
+        },
+        {
+          "number": 49,
+          "lineId": "line-25",
+          "prompt": "{{blank}}",
+          "promptZh": "有一天你可能會失去他們",
+          "options": [
+            "You may lose them one day",
+            "You will lose them one day",
+            "You may leave them one day"
+          ],
+          "answer": "You may lose them one day"
+        },
+        {
+          "number": 50,
+          "lineId": "line-26",
+          "prompt": "{{blank}}",
+          "promptZh": "有人會把他們帶走",
+          "options": [
+            "Someone took them away",
+            "Someone takes them away",
+            "Someone brings them away"
+          ],
+          "answer": "Someone takes them away"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:5}}, {{q:6}} warm"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:7}} my {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Set me {{q:10}}, {{q:11}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:12}} {{q:13}} I {{q:14}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:15}} years I {{q:16}} {{q:17}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:18}} {{q:19}} {{q:20}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "I would give {{q:23}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:24}} {{q:25}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "You {{q:26}} me {{q:27}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:28}} {{q:29}}, {{q:30}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "You never said {{q:31}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:32}} {{q:33}} the way"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:34}} from {{q:35}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:38}} {{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "And I would give {{q:41}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:42}} life, my heart, my home"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "I would give everything {{q:43}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Just to have you {{q:44}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:45}} you know"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:46}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:47}} {{q:48}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:50}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "And they don't hear the words you long to say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "I would give anything I own"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Give up my life, my heart, my home"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I would give everything I own"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Just to have you back again"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Just to touch you once again"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "b4be8db51bb8e4e79d1847c93dd218826b18f282a143eab6b548a92369a7ff0c",
+    "duration": 189.173
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Harm（約 B2）",
+          "meaning": "傷害；損害（可指身體、健康、環境或其他方面）。",
+          "usage": "說明某種行為或情況會造成傷害，或提醒別人避免傷害時使用。Harm 可當名詞或動詞，本題主要辨認名詞意思。",
+          "prompt": "哪一句最自然地使用「harm」表示「傷害／損害」？",
+          "options": [
+            "The singer wore a little harm to match her blue coat.",
+            "The driver checked the harm before starting the old car.",
+            "The new safety rule helps protect workers from harm.",
+            "The baker added some harm to make the bread sweeter."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "穿戴與外套搭配的是帽子、圍巾等物品；harm 不是服飾。",
+            "發車前會檢查煞車或引擎；harm 指傷害或損害，不是一般的汽車零件。",
+            "安全規定能保護工人免受傷害。Protect someone from harm 是自然的搭配。",
+            "烘焙時加入的是糖等材料，不是「傷害」。Harm 不是一種能讓麵包變甜的配料。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "安全規定能保護工人免受傷害。Protect someone from harm 是自然的搭配。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Finest（約 B2）",
+          "meaning": "最出色的；最優質的；最美好的（fine 的最高級）。",
+          "usage": "讚賞一個人、作品、品質或一段時光達到很高水準時使用。要依上下文判斷是「品質最好」還是「回憶最美好」。",
+          "prompt": "哪一句最自然地使用「finest」表示「最出色／最優質」？",
+          "options": [
+            "The museum displayed some of the finest paintings in town.",
+            "The chef put three finest into the soup for extra flavour.",
+            "The teacher asked us to finest our desks before lunch.",
+            "The bus arrived at its finest because the driver was late."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "博物館展出城裡一些最出色的畫作。Finest paintings 用來稱讚作品品質。",
+            "Finest 是形容詞最高級，不能像調味料一樣數三個放進湯裡。",
+            "Finest 不能直接當「整理桌子」的動詞；可說 tidy our desks。",
+            "Finest 不是「遲到」或「抵達」的時間副詞；這句的時間關係也不合理。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "博物館展出城裡一些最出色的畫作。Finest paintings 用來稱讚作品品質。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Own（約 B1；動詞用法）",
+          "meaning": "擁有；持有（某件東西的所有權）。",
+          "usage": "談房子、土地、商店、車輛等由誰擁有時使用。本題教 own 作為動詞，而不是 my own 的形容詞用法。",
+          "prompt": "哪一句最自然地使用「own」表示「擁有」？",
+          "options": [
+            "The tourists own the sunset because they took a photo.",
+            "My aunt owns a small bookshop near the station.",
+            "The students own the homework when the bell rings.",
+            "My uncle owns the rain whenever he visits our town."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "拍下夕陽不等於擁有夕陽的所有權；可以說 photographed the sunset。",
+            "阿姨擁有車站附近的一間小書店。Own a bookshop 是自然的所有權用法。",
+            "功課由學生完成，不代表下課鐘響後就「擁有」功課；此處應說 have homework 或 finish homework。",
+            "到某個城鎮旅行並不代表擁有那裡的雨水；這裡把自然現象當成私人財產。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "阿姨擁有車站附近的一間小書店。Own a bookshop 是自然的所有權用法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Would give anything（約 B2；強調願望的表達）",
+          "meaning": "願意付出任何代價；非常渴望某件事。",
+          "usage": "強調一個願望對自己非常重要。通常帶誇飾語氣，並不表示真的準備交出所有財產。重點是整個表達的意思，不是條件句文法。",
+          "prompt": "哪一句最自然地用「would give anything」表達強烈願望？",
+          "options": [
+            "I'd give anything to hear my grandmother laugh again.",
+            "I'd give anything to lose the socks I just bought.",
+            "I would give anything to make this empty cup more purple.",
+            "I would give anything to find the chair under me."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "非常希望再次聽到祖母的笑聲，使用 I'd give anything to... 自然表達強烈思念。",
+            "剛買的襪子若真的想丟掉，直接丟掉即可；用「願付出任何代價」語意不自然。",
+            "讓空杯子變得更紫通常不是值得「不惜一切」的心願；語氣與事情的重要性不相稱。",
+            "椅子就在自己身下，通常不需要付出一切去尋找；故意讓誇張語氣與情境衝突。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "非常希望再次聽到祖母的笑聲，使用 I'd give anything to... 自然表達強烈思念。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Part of me（約 B2；抽象用法）",
+          "meaning": "我內心的一部分；我的某一種想法或感受。",
+          "usage": "當自己同時有兩種不同的心情、願望或念頭時，常用 part of me 描述其中一面，而不是身體的某個部位。",
+          "prompt": "哪一句最自然地使用「part of me」表示「內心的一部分」？",
+          "options": [
+            "Part of me is waiting beside the bus as a spare wheel.",
+            "Part of me costs six dollars at the school bookshop.",
+            "Part of me sleeps inside the fridge during summer holidays.",
+            "Part of me wants to stay, but I also miss home."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "這裡把 part of me 當成公車的備用輪胎，沒有表達內心想法或感受。",
+            "Part of me 在本題不是書店裡可以標價出售的物品。",
+            "這裡的 part of me 不是可以放進冰箱避暑的實體物品。",
+            "心裡有一部分想留下，但也想家。這個表達自然呈現互相拉扯的心情。"
+          ],
+          "sourceFile": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "心裡有一部分想留下，但也想家。這個表達自然呈現互相拉扯的心情。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "shelter + 人 + from + 危險",
+          "meaning": "保護某人免受傷害。",
+          "usage": "談避雨、避風或保護他人免受危險。",
+          "prompt": "暴風雨來時，哪句最合理地說明觀景台如何保護遊客？",
+          "options": [
+            "The roof sheltered the visitors from breakfast.",
+            "The visitors sheltered the rain from the roof.",
+            "The roof sheltered the visitors to the rain.",
+            "The roof sheltered the visitors from the rain."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "早餐不是此處需要防範的危險。",
+            "把雨和遊客的位置顛倒，意思變成保護雨。",
+            "表示「免受」應用 from，而非 to。",
+            "屋頂為遊客擋雨，對象與介系詞都正確。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "You sheltered me from harm（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "shelter",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "危險",
+              "fixed": false
+            }
+          ],
+          "explanation": "屋頂為遊客擋雨，對象與介系詞都正確。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "keep + 人 + 形容詞",
+          "meaning": "使某人持續處於某種狀態。",
+          "usage": "說明衣物、設備或活動如何讓人保持溫暖、安全、清醒等。",
+          "prompt": "冬日露營，哪句能解釋熱湯的作用？",
+          "options": [
+            "The hot soup kept warm us.",
+            "The hot soup kept us warm.",
+            "The soup kept us warmth.",
+            "The soup kept us to warm."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "受詞 us 應放在 warm 之前。",
+            "熱湯讓人保持溫暖，語序正確。",
+            "keep 後需形容詞 warm，不能用名詞 warmth。",
+            "此結構不用 to 接形容詞。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Kept me warm（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "keep",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "熱湯讓人保持溫暖，語序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "give + 東西 + to + 人",
+          "meaning": "把某物交給、送給某人。",
+          "usage": "交付票、證書、禮物等物件時。",
+          "prompt": "攝影比賽頒獎，哪句描述評審交給優勝者證書？",
+          "options": [
+            "The judge gave a certificate with the winner.",
+            "The judge gave a certificate for the winner.",
+            "The judge gave to the winner a certificate.",
+            "The judge gave a certificate to the winner."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "with 表示一起，不能表達接受者。",
+            "for 偏向「為某人」，不表示實際交給對方。",
+            "此處一般應說 gave a certificate to the winner。",
+            "證書交給得獎者，符合 give + 物 + to + 人。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "You gave my life to me（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "give",
+              "fixed": true
+            },
+            {
+              "text": "東西",
+              "fixed": false
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "接受者",
+              "fixed": false
+            }
+          ],
+          "explanation": "證書交給得獎者，符合 give + 物 + to + 人。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "set + 人／物 + 形容詞",
+          "meaning": "使對象變成某種狀態。",
+          "usage": "用 set ... free 說明解除限制或讓動物恢復自由。",
+          "prompt": "救援中心決定讓康復的鳥返回野外，哪句最好？",
+          "options": [
+            "They set the bird free.",
+            "They set free to the bird.",
+            "They set the bird to free.",
+            "They set the bird freely."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "set + 受詞 + free，說明讓鳥恢復自由。",
+            "set free 後不能這樣加 to the bird。",
+            "此用法不用 to 接 free。",
+            "需要形容詞 free 表示自由，不是副詞 freely。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "Set me free（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "set",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "set + 受詞 + free，說明讓鳥恢復自由。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "最高級 + 名詞 + 省略受格關係代名詞的子句",
+          "meaning": "在名詞後加子句，說明「我曾經歷過的」對象。",
+          "usage": "分享最喜愛、最特別或最難忘的經驗；此處名詞後省略 that。",
+          "prompt": "旅行家要說「那是我看過最美的海灘」，哪句正確？",
+          "options": [
+            "It was the most beautiful beach I ever sees.",
+            "It was the most beautiful beach I ever saw.",
+            "It was the most beautiful beach I ever see tomorrow.",
+            "It was the most beautiful beach I ever seeing."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "主詞 I 的過去式是 saw，不能接 sees。",
+            "最高級加省略關係代名詞的子句，saw 表示過去所見。",
+            "tomorrow 和過去經驗混在一起，時態不一致。",
+            "主詞 I 後需要真正的過去式 saw，不能接 seeing。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "The finest years I ever knew（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "最高級",
+              "fixed": false
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "ever",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "最高級加省略關係代名詞的子句，saw 表示過去所見。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "would + 動詞原形（假設的意願）",
+          "meaning": "表達假設情境下願意做的事。",
+          "usage": "說如果有機會或有需要，自己會如何付出。",
+          "prompt": "朋友問你若能到火星旅行，會怎樣準備？",
+          "options": [
+            "I would pack my camera first.",
+            "I would packed my camera first.",
+            "I would to pack my camera first.",
+            "I would packing my camera first."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "would + 原形 pack，表達假想決定。",
+            "would 後應用原形 pack。",
+            "would 後不直接加 to。",
+            "would 後不能用 packing。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "I would give anything I own（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "would + 原形 pack，表達假想決定。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "give up + 名詞",
+          "meaning": "放棄、交出某樣事物。",
+          "usage": "談放棄一項權利、活動或原本的計畫。",
+          "prompt": "登山途中天氣變壞，隊長決定放棄登頂計畫，哪句適合？",
+          "options": [
+            "We gave out the plan to reach the top.",
+            "We gave up the plan to reach the top.",
+            "We gave the plan up to the mountain.",
+            "We gave up to the plan at noon."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "give out 是分發／用完，不是放棄計畫。",
+            "give up the plan 表示放棄計畫。",
+            "意思像把計畫交給山，並非放棄。",
+            "give up 後直接接名詞，不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "Give up my life, my heart, my home（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "give up",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "give up the plan 表示放棄計畫。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "just to + 動詞原形（表目的）",
+          "meaning": "表示「只是為了……」的目的。",
+          "usage": "說明為了達到一個特定結果而做某事。",
+          "prompt": "攝影師早起，只為拍攝第一道日光，哪句正確？",
+          "options": [
+            "She woke up early just to catching the first light.",
+            "She woke up early just caught the first light.",
+            "She woke up early just to catch the first light.",
+            "She woke up early just for catch the first light."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to 後應接原形 catch。",
+            "缺少 to，不能清楚表示目的。",
+            "just to + 原形 catch，明確表達目的。",
+            "for 後不能直接接原形 catch。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "Just to have you back again（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "just to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "just to + 原形 catch，明確表達目的。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "have + 人 + back + again",
+          "meaning": "希望某人再次回到身邊或團隊。",
+          "usage": "說明期待離開的人重新歸隊或重逢。",
+          "prompt": "樂團希望生病的鼓手康復後再加入表演，哪句自然？",
+          "options": [
+            "We hope to have our drummer back to again.",
+            "We hope to have our drummer again back to.",
+            "We hope to have our drummer back again.",
+            "We hope to have back our drummer again to us."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "back again 不需中插 to。",
+            "again back to 的排列不自然。",
+            "have + 人 + back again，表示期待對方回歸。",
+            "多了不自然的 to us，語序也彆扭。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "have you back again（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "have",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "back",
+              "fixed": true
+            },
+            {
+              "text": "again",
+              "fixed": true
+            }
+          ],
+          "explanation": "have + 人 + back again，表示期待對方回歸。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "teach + 人 + how to + 動詞",
+          "meaning": "教某人如何做某件事。",
+          "usage": "分享學會技能或方法的過程。",
+          "prompt": "祖母教孩子做風箏，哪句正確？",
+          "options": [
+            "Grandma taught me how making a kite.",
+            "Grandma taught me how make a kite.",
+            "Grandma taught how to me make a kite.",
+            "Grandma taught me how to make a kite."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "how 後這裡應接 to make。",
+            "how 後少了 to。",
+            "受詞 me 應放在 how to 之前。",
+            "teach + 人 + how to make，表示教方法。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "You taught me how to love（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "teach",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "how to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "teach + 人 + how to make，表示教方法。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "never + 過去式（過去的零次經驗）",
+          "meaning": "說明在過去某段關係或期間中從未做過某事。",
+          "usage": "回顧過去的行為習慣，強調一次也沒有。",
+          "prompt": "展覽結束後，經理說講解員從沒遲到，哪句正確？",
+          "options": [
+            "Our guide never arriving late last week.",
+            "Our guide never arrived late during the show.",
+            "Our guide never arrives late yesterday.",
+            "Our guide did never arrived late."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "缺少有限動詞，應用 arrived。",
+            "never + 過去式 arrived，符合過去期間。",
+            "yesterday 應搭配過去式 arrived。",
+            "did 後應用原形 arrive，且一般用 never arrived。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "You never said too much（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "never",
+              "fixed": true
+            },
+            {
+              "text": "過去式動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "never + 過去式 arrived，符合過去期間。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "too much（程度／數量過多）",
+          "meaning": "表示做得或說得超過適當程度。",
+          "usage": "描述話太多、工作太多或食物量過多等情境。",
+          "prompt": "播客主持人一直講話，來賓插不上嘴，哪句正確？",
+          "options": [
+            "The host talked too more during the show.",
+            "The host talked too much words during the show.",
+            "The host talked too many during the show.",
+            "The host talked too much during the show."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "too more 不是此處正確的程度表示法。",
+            "words 可數，應說 too many words。",
+            "修飾 talked 的程度／數量，應用 too much。",
+            "talked too much 意為說得過多。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "You never said too much（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "too much",
+              "fixed": true
+            }
+          ],
+          "explanation": "talked too much 意為說得過多。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "but still + 子句（轉折後仍然）",
+          "meaning": "儘管有前述情況，後面的事仍發生。",
+          "usage": "說明困難或反對存在，但某人仍採取行動。",
+          "prompt": "小型音樂會下雨，樂手仍照常演出，哪句最好？",
+          "options": [
+            "It rained, but still the band play yesterday.",
+            "It rained, but still playing the band.",
+            "It rained, but still the band to play.",
+            "It rained, but still the band played."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "yesterday 要用過去式 played。",
+            "需要主詞 + 動詞的正常語序。",
+            "the band 後缺少動詞 played。",
+            "轉折後仍演奏，句子完整。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "But still you showed the way（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "but still",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "轉折後仍演奏，句子完整。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "know + from + -ing",
+          "meaning": "表示從觀察或經驗中得知某事。",
+          "usage": "用行為和線索判斷，而不是直接被告知。",
+          "prompt": "烘焙師看到蛋糕中央仍濕，知道還沒熟，哪句合理？",
+          "options": [
+            "I knew from checking the cake that it needed more time.",
+            "I knew from to check the cake that it needed more time.",
+            "I knew from checked the cake that it needed more time.",
+            "I knew from check the cake that it needed more time."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "from checking 表示從檢查中知道。",
+            "from 後不直接加 to check。",
+            "from 後不放過去式 checked 作此結構。",
+            "介系詞 from 後應用 checking。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "I knew from watching you（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "know",
+              "fixed": true
+            },
+            {
+              "text": "from",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "from checking 表示從檢查中知道。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "nobody else + could ever + 動詞",
+          "meaning": "強調除了某人以外，其他人都不可能做到。",
+          "usage": "表達某項經驗、秘密或理解非常獨特。",
+          "prompt": "古董鐘的主人說，只有老修理師懂它的怪聲音，哪句符合？",
+          "options": [
+            "Nobody else could ever understands that sound.",
+            "Nobody else could ever understanding that sound.",
+            "Nobody else could ever understand that sound.",
+            "Nobody else could ever to understand that sound."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "could 後不能接 understands。",
+            "could 後不能用 understanding。",
+            "could ever + 原形 understand，表示其他人不可能理解。",
+            "could 後不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Nobody else could ever know（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "nobody else",
+              "fixed": true
+            },
+            {
+              "text": "could ever",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "could ever + 原形 understand，表示其他人不可能理解。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "the part of + 名詞 + that + 子句",
+          "meaning": "用 that 子句說明某個部分的特徵。",
+          "usage": "談作品、故事或個人經驗中的特定部分。",
+          "prompt": "編輯要指一本書裡令她感動的部分，哪句正確？",
+          "options": [
+            "The part of the book that made me cry was short.",
+            "The part of the book that made me cried was short.",
+            "The part of the book made me cry that was short.",
+            "The part of the book that it made me cry was short."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "that made me cry 正確修飾 the part。",
+            "make + 人後接原形 cry，不能接 cried。",
+            "that 子句應緊接被修飾的名詞。",
+            "that 已代替主詞，不需多加 it。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "The part of me that can’t let go（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "the part of",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "that",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "that made me cry 正確修飾 the part。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "Is there + someone + 限定子句？",
+          "meaning": "詢問是否有某位符合條件的人。",
+          "usage": "打聽推薦人選、求助對象或是否有人符合資格。",
+          "prompt": "博物館找會修老相機的人，哪句問法自然？",
+          "options": [
+            "Is there someone you know him who repairs old cameras?",
+            "Is there someone you know who repairs old cameras?",
+            "Is someone there you know repairs old cameras?",
+            "Does there someone you know who repairs old cameras?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "someone 後的 you know 不需再加 him。",
+            "Is there someone... 正確詢問是否有人選。",
+            "語序不自然，缺乏適當關係子句連接。",
+            "存在句應用 Is there，不是 Does there。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Is there someone you know（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "Is there",
+              "fixed": true
+            },
+            {
+              "text": "someone",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "Is there someone... 正確詢問是否有人選。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "be + -ing（正在持續的行為）",
+          "meaning": "描寫當下或某段期間持續發生的行為或感受。",
+          "usage": "談近期特別強烈的情緒；love 在此為歌詞中的強調性動態用法。",
+          "prompt": "在新工作第一週，朋友十分喜歡團隊氣氛，哪句符合進行式形式？",
+          "options": [
+            "She is loves her new team this week.",
+            "She loving her new team this week.",
+            "She is loving her new team this week.",
+            "She is love her new team this week."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "is 後不能接 loves。",
+            "少了 be 動詞。",
+            "is loving 形式正確；日常也常說 She loves her new team。",
+            "進行式需要動詞 -ing。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "You’re loving them so（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "動詞-ing",
+              "fixed": false
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "is loving 形式正確；日常也常說 She loves her new team。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "take + 人 + for granted",
+          "meaning": "把別人的幫助或陪伴視作理所當然。",
+          "usage": "提醒大家感謝平日默默付出的人。",
+          "prompt": "社區活動後，哪句恰當提醒大家珍惜清潔志工？",
+          "options": [
+            "We should never take our volunteers as granted.",
+            "We should never take for granted to our volunteers.",
+            "We should never take our volunteers for granted.",
+            "We should never take our volunteers for thanking."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "應用 for granted，而不是 as granted。",
+            "這裡不需要 to，且語序不對。",
+            "固定搭配 take + 人 + for granted。",
+            "for thanking 並非該片語。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "taking them all for granted（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "take",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": false
+            },
+            {
+              "text": "for granted",
+              "fixed": true
+            }
+          ],
+          "explanation": "固定搭配 take + 人 + for granted。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "may + 動詞原形（可能性）",
+          "meaning": "表示未來可能發生，但不確定。",
+          "usage": "提醒某種風險或機會存在，而非必然。",
+          "prompt": "氣象員提醒明天山上可能有霧，哪句正確？",
+          "options": [
+            "There may be fog on the mountain tomorrow.",
+            "There may being fog on the mountain tomorrow.",
+            "There may is fog on the mountain tomorrow.",
+            "There may to be fog on the mountain tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "may be 表示可能出現霧。",
+            "may 後不能接 being 作此用法。",
+            "may 後用 be，不用 is。",
+            "may 後不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "You may lose them one day（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "may",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "時間",
+              "fixed": false
+            }
+          ],
+          "explanation": "may be 表示可能出現霧。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "take + 人／物 + away",
+          "meaning": "把某人或某物帶走、移走。",
+          "usage": "描述活動結束後收走物品，或某人被帶離某處。",
+          "prompt": "科學展閉館，工作人員把模型帶走保管，哪句正確？",
+          "options": [
+            "The staff took awaying the models.",
+            "The staff took the models to away.",
+            "The staff took the models away.",
+            "The staff took away to the models."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "away 不是可加 -ing 的動詞。",
+            "away 不能放在 to 後構成此片語。",
+            "take + 受詞 + away，表示把模型移走。",
+            "take away 可直接接受詞，不加 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "Someone takes them away（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "take",
+              "fixed": true
+            },
+            {
+              "text": "人／物",
+              "fixed": false
+            },
+            {
+              "text": "away",
+              "fixed": true
+            }
+          ],
+          "explanation": "take + 受詞 + away，表示把模型移走。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "long to + 動詞原形",
+          "meaning": "深切渴望做某件事。",
+          "usage": "想說某句心裡話、見某人或再次體驗某事。",
+          "prompt": "退休舞者很希望再次上台，哪句自然？",
+          "options": [
+            "She longs to dancing on stage again.",
+            "She longs to dance on stage again.",
+            "She long to dance on stage again.",
+            "She longs dance on stage again."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "to 後用原形 dance。",
+            "longs to dance 是正確搭配。",
+            "she 的一般現在式應用 longs。",
+            "long 後需要 to。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "you long to say（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "long to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "longs to dance 是正確搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "once again（動作再發生一次）",
+          "meaning": "表示同一件事再次發生。",
+          "usage": "請人重複、重逢或再試一次時。",
+          "prompt": "魔術表演太快，觀眾想再看一次，哪句自然？",
+          "options": [
+            "Could you show us the trick once again?",
+            "Could you once again a trick for us?",
+            "Could you show us once again the trick to yesterday?",
+            "Could you show once again us a trick?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "once again 放在句末表示重複一次，最自然。",
+            "缺少主要動詞 show。",
+            "to yesterday 不合語意，整句不自然。",
+            "受詞 us 通常應緊接 show。"
+          ],
+          "sourceFile": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "Just to touch you once again（PDF 第 2 頁）",
+          "pattern": [
+            {
+              "text": "動詞",
+              "fixed": false
+            },
+            {
+              "text": "once again",
+              "fixed": true
+            }
+          ],
+          "explanation": "once again 放在句末表示重複一次，最自然。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Everything_I_Own_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "6253ff20bb4c6242e1a8884c347a4a000f4468096a83afaeddcea9d9c03a2bd2"
+    },
+    {
+      "section": "structure",
+      "filename": "Everything_I_Own_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "2e0dfca57b82bc51d5a1e20677ff2ceea65f608690620aaf3b41f0c8fa89ce24"
+    }
+  ]
+}

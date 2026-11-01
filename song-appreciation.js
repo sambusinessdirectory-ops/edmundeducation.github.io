@@ -19,10 +19,13 @@
       [224.84,229.06],[229.06,231.05]
     ])
   });
+  let liveSync, liveClient;
   const state = {
     client: null,
     session: null,
     songs: [],
+    lessonExtras: {},
+    vocabularyIndex: 0,
     activeSong: null,
     activeRoute: "library",
     activeTab: "description",
@@ -33,6 +36,8 @@
     textSizes: {translation:1,exercise:1},
     showChinese: false,
     favoritesOnly: false,
+    selectedTags: [],
+    wordAscending:false, wordPage:0,
     draftSaveTimer: 0,
     playerGeneration: 0,
     bookmarkFilter: "all",
@@ -60,10 +65,11 @@
   const pages = Object.fromEntries($$("[data-page]").map(node => [node.dataset.page, node]));
 
   function text(value) { return String(value == null ? "" : value); }
+  function displayText(value) { return text(value).replace(/\p{Extended_Pictographic}|\uFE0F/gu, ""); }
   function asArray(value) { return Array.isArray(value) ? value : []; }
   function firstRow(value) { return Array.isArray(value) ? (value[0] || null) : (value || null); }
   function clamp(value, min, max) { return Math.min(max, Math.max(min, Number(value) || 0)); }
-  function normalizeSpace(value) { return text(value).replace(/\s+/g, " ").trim(); }
+  function normalizeSpace(value) { return text(value).replace(/[’‘]/g, "'").replace(/\s+/g, " ").trim(); }
   function safeDate(value) { const date = new Date(value); return Number.isNaN(date.valueOf()) ? null : date; }
   function localDayKey(value) {
     const date = safeDate(value);
@@ -159,7 +165,7 @@
         lineId: text(row?.lineId || row?.line_id || `line-${index + 1}`),
         english: text(row?.english),
         chinese: text(row?.chinese),
-        startSeconds: Number.isFinite(startSeconds) && startSeconds >= 0 ? startSeconds : null,
+        startSeconds: rawStart != null && Number.isFinite(startSeconds) && startSeconds >= 0 ? startSeconds : null,
         endSeconds: Number.isFinite(endSeconds) && endSeconds > startSeconds ? endSeconds : null
       };
     });
@@ -169,6 +175,7 @@
     const options = asArray(question?.options).map(text);
     return {
       number: Number(question?.number) || index + 1,
+      lineId: text(question?.lineId),
       prompt: text(question?.prompt || "{{blank}}"),
       options,
       promptZh: text(question?.promptZh || question?.prompt_zh),
@@ -186,6 +193,7 @@
       title: text(mode?.title || mode?.label || id),
       questionCount: Number(mode?.questionCount || mode?.question_count) || questions.length,
       version: Number(mode?.version) || 1,
+      listeningLines: asArray(mode?.listeningLines).map(line => ({lineId:text(line.lineId),prompt:text(line.prompt)})),
       questions
     };
   }
@@ -201,6 +209,12 @@
       exerciseName: text(raw?.exerciseName || raw?.exercise_name || `${raw?.title || "Song"} Listening Practice`),
       description: text(raw?.description),
       youtubeUrl: text(raw?.youtubeUrl || raw?.youtube_url),
+      coverUrl: safeMediaUrl(raw?.coverUrl || raw?.cover_url, true),
+      audioUrl: safeMediaUrl(raw?.audioUrl || raw?.audio_url),
+      vocabulary: asArray(raw?.vocabulary),
+      learningSections: raw?.learning_sections || {},
+      sectionProgress: raw?.section_progress || {},
+      vocabularyProgress: raw?.vocabularyProgress || raw?.vocabulary_progress || {},
       tags: asArray(raw?.tags).map(text).filter(Boolean),
       translations: normalizeTranslationRows(translations),
       modes: asArray(modes).map((mode, index) => normalizeMode(mode, index, includeAnswers)),
@@ -244,10 +258,22 @@
     } catch { return ""; }
   }
 
-  function thumbnailUrl(song) {
-    const id = youtubeVideoId(song?.youtubeUrl);
-    return id ? `https://i.ytimg.com/vi/${encodeURIComponent(id)}/hqdefault.jpg` : "";
+  function safeMediaUrl(value, image = false) {
+    const url = text(value).trim();
+    return /^(https:\/\/(edmundeducation\.com|edmund-speaking-system\.edmundeducation\.workers\.dev)\/|assets\/)/i.test(url) || (image && /^data:image\/(webp|png|jpeg);base64,/i.test(url)) ? url : "";
   }
+  function thumbnailUrl(song) { return song?.coverUrl || ""; }
+  function hasSongAudio(song) { return Boolean(song?.audioUrl || youtubeVideoId(song?.youtubeUrl)); }
+  async function loadLessonExtras() {
+    const session = state.session;
+    const rows = await rpc("song_appreciation_lesson_extras", {p_token:session.token, p_admin:session.role === "admin"});
+    if (state.session !== session) return;
+    const extensions = await rpc("song_appreciation_learning_sections", {p_token:session.token,p_admin:session.role === "admin"});
+    if (state.session !== session) return;
+    state.lessonExtras = Object.fromEntries(asArray(rows).map(row => [row.id, {...row,...asArray(extensions).find(item=>item.id===row.id)}]));
+  }
+  function withLessonExtras(row) { const song = row.song || row; return {...song, ...state.lessonExtras[song.id]}; }
+
 
   function tagElements(tags, container) {
     container.replaceChildren();
@@ -259,7 +285,7 @@
   }
 
   function songHaystack(song) {
-    return normalizeSpace([song.title, song.singer, song.exerciseName, ...song.tags].join(" ")).toLocaleLowerCase("en");
+    return normalizeSpace([song.title, song.singer, song.exerciseName, ...song.tags,...song.translations.map(row=>`${row.english} ${row.chinese}`)].join(" ")).toLocaleLowerCase("en");
   }
 
   function showAuthenticatedHeader(session) {
@@ -353,14 +379,16 @@
     }));
   }
 
-  async function logout() {
-    if (state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
+  async function logout(skipSave = false) {
+    window.SongPreview?.stop();
+    if (skipSave !== true && state.exercise && !state.exercise.submitted) { pauseExerciseClock(); storeLocalDraft(); try { await flushDraft(); } catch { /* Scoped local backup retries on return. */ } }
     if (state.session?.role === "admin") {
       try { await rpc(CONFIG.rpc.adminLogout, { p_admin_token: state.session.token }); } catch { /* Local logout still applies. */ }
     }
     stopExerciseTimers();
     destroyPlayer();
     clearSession();
+    window.dispatchEvent(new Event('edmund:song-appreciation-student-closed'));
     state.songs = [];
     state.activeSong = null;
     state.bookmarks = [];
@@ -368,7 +396,7 @@
     state.drafts = {};
     state.exercise = null;
     state.selectedPhrase = null;
-    clearTimeout(state.draftSaveTimer);
+    clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;
     updateFloatingPlayer();
     $("[data-signed-in-user]").hidden = true;
     $("[data-logout]").hidden = true;
@@ -377,29 +405,59 @@
     offerUniversalSession();
   }
 
+  function libraryProgress(percent, message) {
+    const bar = $("[data-library-progress]");
+    if (!bar) return;
+    bar.setAttribute("aria-valuenow", String(percent));
+    $("[data-library-progress-fill]").style.width = `${percent}%`;
+    $("[data-library-progress-label]").textContent = message;
+  }
+
   async function loadStudentData() {
     const token = state.session.token;
-    const [songRows, bookmarkRows, attemptRows, draftRows, playbackRows] = await Promise.all([
-      rpc(CONFIG.rpc.listSongs, { p_student_token: token }),
-      fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null }),
-      fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null }),
-      rpc(CONFIG.rpc.listDrafts, {p_student_token:token}),
-      rpc(CONFIG.rpc.listPlayback, {p_student_token:token})
-    ]);
+    libraryProgress(10, "正在取回歌曲清單…");
+    const extrasPromise = loadLessonExtras().catch(error => { console.warn("Optional song sections could not load:", error); });
+    const bookmarksPromise = fetchAllPages(CONFIG.rpc.listBookmarks, { p_student_token: token, p_song_id: null });
+    const attemptsPromise = fetchAllPages(CONFIG.rpc.listAttempts, { p_student_token: token, p_song_id: null });
+    const draftsPromise = rpc(CONFIG.rpc.listDrafts, {p_student_token:token});
+    const playbackPromise = rpc(CONFIG.rpc.listPlayback, {p_student_token:token});
+    const secondaryPromise = Promise.allSettled([bookmarksPromise, attemptsPromise, draftsPromise, playbackPromise]);
+    const songRows = await rpc(CONFIG.rpc.listSongs, { p_student_token: token });
     if (state.session?.token !== token) return;
-    state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
     state.songs = asArray(songRows)
       .map(row => normalizeSong(row.song || row, { includeAnswers: false }))
       .map(song => validateSong(song, { requireAnswers: false }))
       .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+    libraryProgress(45, `已載入 ${state.songs.length} 首歌曲，正在顯示…`);
+    routeStudent("library", { skipLibraryRender: true });
+    renderLibrary(12, true);
+    await new Promise(resolve => requestAnimationFrame(() => requestAnimationFrame(resolve)));
+    renderLibrary();
+    await extrasPromise;
+    if (state.session?.token !== token) return;
+    state.songs = asArray(songRows)
+      .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: false }))
+      .map(song => validateSong(song, { requireAnswers: false }))
+      .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
+    renderLibrary();
+    libraryProgress(70, "歌曲已可使用，正在同步收藏與學習紀錄…");
+    const results = await secondaryPromise;
+    if (state.session?.token !== token) return;
+    const [bookmarkRows, attemptRows, draftRows, playbackRows] = results.map(result => result.status === "fulfilled" ? result.value : []);
+    for (const result of results) if (result.status === "rejected") console.warn("Optional song account data could not load:", result.reason);
+    state.drafts = Object.fromEntries(asArray(draftRows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
     state.bookmarks = asArray(bookmarkRows).map(normalizeBookmark);
     state.attempts = asArray(attemptRows).map(normalizeAttempt);
     state.playbackDaily = asArray(playbackRows).map(normalizePlayback);
+    libraryProgress(100, "歌曲及學習紀錄已載入");
   }
 
   async function enterStudent() {
     showAuthenticatedHeader(state.session);
     showView("student");
+    window.dispatchEvent(new CustomEvent('edmund:song-appreciation-student-opened', {
+      detail: { studentId: String(state.session.id || '') }
+    }));
     setConnection("online", "已連接");
     $("[data-library-state]").hidden = false;
     $("[data-song-grid]").hidden = true;
@@ -410,15 +468,16 @@
       renderAttempts();
       renderDashboard();
       setDashboardExpanded(readDashboardExpanded());
-      routeStudent("library");
     } catch (error) {
       setConnection("offline", "未能載入");
-      $("[data-library-state] p").textContent = text(error?.message || "未能載入歌曲庫。");
+      $("[data-library-load-message]").textContent = text(error?.message || "未能載入歌曲庫。");
       toast(error?.message || "未能載入歌曲庫。", "error");
     }
   }
 
-  function routeStudent(route) {
+  function routeStudent(route, { skipLibraryRender = false } = {}) {
+    window.SongPreview?.stop();
+    stopMistakeNavigation();
     if (state.session?.role !== "student") return;
     const valid = pages[route] ? route : "library";
     state.activeRoute = valid;
@@ -432,20 +491,24 @@
     else if (state.activeTab === "exercise") startExerciseClock();
     if (valid === "bookmarks") renderBookmarks();
     if (valid === "progress") renderAttempts();
-    if (valid === "library") renderLibrary();
+    if (valid === "library" && !skipLibraryRender) renderLibrary();
+    if (valid === "big-data") renderBigData();
     updateFloatingPlayer();
     window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
-  function renderLibrary() {
+  function renderLibrary(limit = Infinity, keepProgress = false) {
+    window.SongPreview?.stop();
     const query = normalizeSpace($("[data-song-search]")?.value).toLocaleLowerCase("en");
-    const songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)));
+    let songs = state.songs.filter(song => (!query || songHaystack(song).includes(query)) && (!state.favoritesOnly || songIsFavorite(song.id)) && (!state.selectedTags.length || state.selectedTags.some(tag => song.tags.includes(tag))));
+    songs = window.SongDifficulty?.sortSongs(songs, $("[data-song-sort]")?.value) || songs;
+    renderSelectedTags();
     const grid = $("[data-song-grid]");
     grid.replaceChildren();
-    songs.forEach((song, index) => grid.append(createSongCard(song, index)));
+    songs.slice(0, limit).forEach((song, index) => grid.append(createSongCard(song, index)));
     $("[data-library-count]").textContent = String(state.songs.length);
-    $("[data-search-status]").textContent = query ? `找到 ${songs.length} 首歌曲。` : `共 ${state.songs.length} 首歌曲。`;
-    $("[data-library-state]").hidden = true;
+    $("[data-search-status]").textContent = query || state.selectedTags.length || state.favoritesOnly ? `找到 ${songs.length} 首歌曲。` : `共 ${state.songs.length} 首歌曲。`;
+    $("[data-library-state]").hidden = !keepProgress;
     grid.hidden = false;
   }
 
@@ -456,18 +519,15 @@
     article.setAttribute("role", "link");
     article.setAttribute("aria-label", `開啟 ${song.title}`);
     article.addEventListener("click", event => { if (!event.target.closest("button")) openSong(song.id); });
-    article.addEventListener("keydown", event => { if (event.key === "Enter" || event.key === " ") { event.preventDefault(); openSong(song.id); } });
+    article.addEventListener("keydown", event => { if (event.target === article && (event.key === "Enter" || event.key === " ")) { event.preventDefault(); openSong(song.id); } });
     const progress=songProgress(song.id); if(progress)article.classList.add(`is-${progress}`);
     const thumb = document.createElement("div");
     thumb.className = "song-card__thumb";
-    const fallback = document.createElement("span");
-    fallback.textContent = "♪";
-    thumb.append(fallback);
     const source = thumbnailUrl(song);
     if (source) {
       const image = new Image();
       image.src = source;
-      image.alt = `${song.title} YouTube 縮圖`;
+      image.alt = `${song.title} 專輯封面`;
       image.loading = "lazy";
       image.referrerPolicy = "no-referrer";
       thumb.prepend(image);
@@ -479,18 +539,34 @@
     const title = document.createElement("h3"); title.textContent = song.title;
     const singer = document.createElement("p"); singer.textContent = song.singer;
     const tags = document.createElement("div"); tags.className = "tag-row"; tagElements(song.tags.slice(0, 4), tags);
-    body.append(lesson, title, singer, tags);
-    if(progress){const status=document.createElement("small");status.className="song-card__status";status.textContent=progress==="completed"?"✓ 已完成練習":"◷ 練習進行中";body.append(status);}
-    const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";favorite.textContent=songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲";favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",event=>{event.stopPropagation();toggleFavorite(song);});
+    body.append(lesson, title, singer);
+    const difficulty = window.SongDifficulty?.card(song);
+    if (difficulty) body.append(difficulty);
+    body.append(tags);
+    if(progress){const status=document.createElement("small");status.className="song-card__status";setLabel(status,progress==="completed"?"✓ 已完成練習":"◷ 練習進行中");body.append(status);}
+    const favorite=document.createElement("button");favorite.type="button";favorite.className="song-favorite";setLabel(favorite,songIsFavorite(song.id)?"★ 已收藏":"☆ 收藏歌曲");favorite.setAttribute("aria-pressed",String(songIsFavorite(song.id)));favorite.addEventListener("click",event=>{event.stopPropagation();toggleFavorite(song);});
     const open = document.createElement("button");
     open.type = "button";
-    open.textContent = "開始賞析 →";
+    setLabel(open,"開始賞析 →");
     open.addEventListener("click", event => { event.stopPropagation(); openSong(song.id); });
     article.append(thumb, favorite, body, open);
+    window.SongPreview?.bind(article, song, {
+      allowed: () => state.session?.role === 'student' && state.activeRoute === 'library',
+      pause: pausePlayer,
+      load: async () => {
+        const token = state.session?.token;
+        if (!token || state.session?.role !== 'student') throw new Error('請先登入。');
+        const row = firstRow(await rpc(CONFIG.rpc.getSong, {p_student_token:token,p_song_id:song.id}));
+        if (!row || state.session?.token !== token) throw new Error('未能載入歌曲。');
+        return normalizeSong(withLessonExtras(row), {includeAnswers:false});
+      }
+    });
     return article;
   }
 
   async function openSong(songId, tab = "description") {
+    window.SongPreview?.stop();
+    stopMistakeNavigation();
     const requestId=state.songOpenGeneration=(state.songOpenGeneration||0)+1;
     if (state.session?.role !== "student" || !state.session.token) {
       toast("請先登入學生帳戶。", "error");
@@ -505,7 +581,7 @@
       const row = firstRow(await rpc(CONFIG.rpc.getSong, { p_student_token: state.session.token, p_song_id: songId }));
       if(state.session?.token!==token || state.songOpenGeneration!==requestId)return;
       if (!row) throw new Error("你目前未獲授權開啟這首歌。");
-      const song = validateSong(normalizeSong(row.song || row, { includeAnswers: false }), { requireAnswers: false });
+      const song = validateSong(normalizeSong(withLessonExtras(row), { includeAnswers: false }), { requireAnswers: false });
       if (!song.translations.length || !song.modes.some(mode => mode.questions.length)) throw new Error("這首歌的練習資料尚未完成。");
       pausePlayer();
       await flushPlayback();
@@ -520,25 +596,37 @@
     $("[data-song-title]").textContent = song.title;
     $("[data-song-singer]").textContent = song.singer;
     $("[data-exercise-name]").textContent = song.exerciseName;
-    $("[data-song-description]").textContent = song.description;
+    $("[data-song-description]").replaceChildren(safeIntroduction(song.description));
+    const difficultyPanel = window.SongDifficulty?.panel(song);
+    $("[data-song-difficulty]").replaceChildren(...(difficultyPanel ? [difficultyPanel] : []));
     tagElements(song.tags, $("[data-song-tags]"));
     const cover = $("[data-song-cover]");
     $("img", cover)?.remove();
     const source = thumbnailUrl(song);
     if (source) {
-      const image = new Image(); image.src = source; image.alt = `${song.title} YouTube 縮圖`; image.referrerPolicy = "no-referrer";
+      const image = new Image(); image.src = source; image.alt = `${song.title} 專輯封面`; image.referrerPolicy = "no-referrer";
       cover.prepend(image);
     }
     $("[data-cover-fallback]", cover).hidden = Boolean(source);
     renderTranslations(song);
     renderModes(song);
+    state.vocabularyIndex = 0;
+    state.sectionIndexes = {};
+    for(const name of ["advanced","structure","analysis"]) {
+      const tab = $(`[data-song-tab="${name}"]`);
+      if(tab) tab.hidden = !song.learningSections[name];
+      renderLearningSection(name);
+    }
+    renderVocabulary();
     resetExercise();
     destroyPlayer();
-    if (youtubeVideoId(song.youtubeUrl)) mountPlayer(song.youtubeUrl);
+    if (song.audioUrl) mountAudioPlayer(song);
+    else if (youtubeVideoId(song.youtubeUrl)) mountPlayer(song.youtubeUrl);
   }
 
   function switchSongTab(tab) {
-    const valid = ["description", "translation", "exercise"].includes(tab) ? tab : "description";
+    stopMistakeNavigation();
+    const valid = ["description", "translation", "exercise", "vocabulary", "advanced", "structure", "analysis"].includes(tab) ? tab : "description";
     state.activeTab = valid;
     $$("[data-song-tab]").forEach(button => {
       const active = button.dataset.songTab === valid;
@@ -548,9 +636,9 @@
     $$("[data-tab-panel]").forEach(panel => { panel.hidden = panel.dataset.tabPanel !== valid; });
     $("[data-song-player]").hidden = valid === "description";
     if (valid === "description") { cancelReadCountdown(); pausePlayer(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
-    else if (valid === "translation") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
+    else if (valid !== "exercise") { cancelReadCountdown(); pauseExerciseClock(); storeLocalDraft(); void flushDraft().catch(()=>{}); }
     else {
-      if (state.exercise?.locked && youtubeVideoId(state.activeSong?.youtubeUrl) && !state.countdownTimer) startReadCountdown();
+      if (state.exercise?.locked && hasSongAudio(state.activeSong) && !state.countdownTimer) startReadCountdown();
       startExerciseClock();
     }
     updateFloatingPlayer();
@@ -785,7 +873,8 @@
       const title = document.createElement("strong"); title.textContent = attempt.songTitle || state.songs.find(song => song.id === attempt.songId)?.title || "歌曲練習";
       const date = document.createElement("span"); date.textContent = displayDate(attempt.completedAt);
       const score = document.createElement("b"); score.textContent = `${attempt.correctCount} / ${attempt.totalQuestions}`;
-      summary.append(title, date, score);
+      const level = document.createElement("span"); level.className="difficulty-badge"; level.textContent=`難度 · ${MODE_ACCENTS[attempt.mode] || attempt.mode || "未指定"}`;
+      summary.append(title, level, date, score);
       const body = document.createElement("div"); body.className = "attempt-card__detail";
       body.textContent = `${MODE_ACCENTS[attempt.mode] || attempt.mode} · 練習時間 ${formatDuration(attempt.durationSeconds)} · 正確率 ${attempt.totalQuestions ? Math.round(attempt.correctCount / attempt.totalQuestions * 100) : 0}%`;
       details.append(summary, body); list.append(details);
@@ -911,11 +1000,12 @@
     const preset = SYNC_PRESETS[youtubeVideoId(song?.youtubeUrl)];
     if (preset?.length === lyricRows.length) return lyricRows.map((row, index) => ({ row, start: preset[index][0], end: preset[index][1] }));
     const explicitCount = lyricRows.filter(row => Number.isFinite(row.startSeconds)).length;
-    if (explicitCount === lyricRows.length) {
-      return lyricRows.map((row, index) => ({
+    if (explicitCount > 0) {
+      const timedRows = lyricRows.filter(row => Number.isFinite(row.startSeconds));
+      return timedRows.map((row, index) => ({
         row,
         start: row.startSeconds,
-        end: Number.isFinite(row.endSeconds) ? row.endSeconds : (lyricRows[index + 1]?.startSeconds ?? Math.min(duration || row.startSeconds + 5, row.startSeconds + 5))
+        end: Number.isFinite(row.endSeconds) ? row.endSeconds : (timedRows[index + 1]?.startSeconds ?? Math.min(duration || row.startSeconds + 5, row.startSeconds + 5))
       }));
     }
     if (!(duration > 0)) return [];
@@ -942,6 +1032,9 @@
     let cursor = 0;
     let previousIndex = -1;
     return asArray(questions).map(question => {
+      const explicit = question.lineId && timeline.find(item => item.row.lineId === question.lineId);
+      if (explicit) return explicit;
+      if (question.lineId) return null;
       let index = previousIndex >= 0 && questionMatchesLine(question, timeline[previousIndex]?.row) ? previousIndex : -1;
       if (index < 0) index = timeline.findIndex((item, candidate) => candidate >= cursor && questionMatchesLine(question, item.row));
       if (index < 0) index = timeline.findIndex(item => questionMatchesLine(question, item.row));
@@ -952,12 +1045,54 @@
     });
   }
 
+  // Stable question numbers remain storage keys; visible numbering follows lyric occurrences.
+  function listeningRoute(mode) {
+    const byNumber = new Map(mode.questions.map(q => [q.number, q]));
+    const ordered = [], seen = new Set();
+    for (const line of mode.listeningLines) {
+      for (const match of line.prompt.matchAll(/\{\{q:(\d+)\}\}/g)) {
+        const number = Number(match[1]);
+        if (byNumber.has(number) && !seen.has(number)) { ordered.push(byNumber.get(number)); seen.add(number); }
+      }
+    }
+    for (const question of mode.questions) if (!seen.has(question.number)) ordered.push(question);
+    return ordered;
+  }
+
   function renderExerciseQuestions() {
     const holder = $("[data-lyrics-exercise]"); holder.replaceChildren();
     const exercise = state.exercise;
     if (!exercise) return;
     const timing = questionTimeline(exercise.mode.questions, lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0));
-    exercise.mode.questions.forEach((question, questionIndex) => {
+    const route = listeningRoute(exercise.mode);
+    const displayNumbers = new Map(route.map((q, index) => [q.number, index + 1]));
+    const groups = new Map();
+    const timeline = lyricTimeline(state.activeSong, Number(state.player?.getDuration?.()) || 0);
+    const translationRows = new Map(state.activeSong.translations.filter(row => !row.break).map(row => [row.lineId, row]));
+    exercise.mode.listeningLines.forEach(line => {
+      const section = document.createElement("section"); section.className = "exercise-lyric-group";
+      section.dataset.lyricFlow = line.lineId;
+      const cue = timeline.find(item => item.row.lineId === line.lineId);
+      if (cue) {
+        section.dataset.syncLineId = line.lineId;
+        section.dataset.startSeconds = String(cue.start);
+        section.dataset.endSeconds = String(cue.end);
+      }
+      const heading = document.createElement("p"); heading.className = "exercise-full-line";
+      line.prompt.split(/(\{\{q:\d+\}\})/).forEach(part => {
+        const match = part.match(/^\{\{q:(\d+)\}\}$/);
+        if (!match) heading.append(document.createTextNode(part));
+        else { const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(displayNumbers.get(Number(match[1]))); heading.append(blank); }
+      });
+      section.append(heading);
+      const translation = translationRows.get(line.lineId)?.chinese;
+      if (state.showChinese && translation) { const zh = document.createElement("p"); zh.className="question-translation"; zh.textContent=translation; section.append(zh); }
+      section.classList.toggle("is-support-line", !/\{\{q:/.test(line.prompt));
+      groups.set(line.lineId, section); holder.append(section);
+    });
+    route.forEach(question => {
+      const questionIndex = exercise.mode.questions.indexOf(question);
+      const displayNumber = displayNumbers.get(question.number);
       const card = document.createElement("article"); card.className = "exercise-line"; card.dataset.question = String(question.number);
       const questionTiming = timing[questionIndex];
       if (questionTiming) {
@@ -968,8 +1103,8 @@
       if (Object.prototype.hasOwnProperty.call(exercise.answers, question.number)) card.classList.add("is-answered");
       const prompt = document.createElement("div"); prompt.className = "exercise-prompt";
       const [before, after] = promptParts(question.prompt); prompt.append(document.createTextNode(before));
-      const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(question.number); prompt.append(blank, document.createTextNode(after));
-      const choices = document.createElement("div"); choices.className = "choice-grid"; choices.setAttribute("role", "radiogroup"); choices.setAttribute("aria-label", `第 ${question.number} 題`);
+      const blank = document.createElement("span"); blank.className = "blank-number"; blank.textContent = String(displayNumber); prompt.append(blank, document.createTextNode(after));
+      const choices = document.createElement("div"); choices.className = "choice-grid"; choices.setAttribute("role", "radiogroup"); choices.setAttribute("aria-label", `第 ${displayNumber} 題`);
       question.options.forEach((option, index) => {
         const selected = exercise.answers[question.number] === option;
         const button = document.createElement("button"); button.type = "button"; button.className = "choice-button"; button.classList.toggle("is-selected", selected); button.dataset.option = option; button.setAttribute("role", "radio"); button.setAttribute("aria-checked", String(selected)); button.disabled = exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || Boolean(exercise.pendingSubmission) || exercise.conflict || Boolean(exercise.results?.[question.number]);
@@ -977,44 +1112,54 @@
         if(state.showChinese && question.optionsZh[index]){const zh=document.createElement("small");zh.className="choice-translation";zh.textContent=question.optionsZh[index];label.append(zh);}
         button.addEventListener("click", () => chooseAnswer(question.number, option)); choices.append(button);
       });
+      if (groups.has(question.lineId)) prompt.textContent = `第 ${displayNumber} 題`;
       card.append(prompt);
-      if(state.showChinese && question.promptZh){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
-      card.append(choices); holder.append(card);
+      if(state.showChinese && question.promptZh && !groups.has(question.lineId)){const zh=document.createElement("p");zh.className="question-translation";zh.textContent=question.promptZh;card.append(zh);}
+      card.append(choices); (groups.get(question.lineId) || holder).append(card);
     });
     applyCheckedResults();
+    if(Object.keys(exercise.results||{}).length) holder.append(mistakeReviewButton(listeningMistakes(exercise.results)));
     updateExerciseProgress();
   }
 
-  async function startExercise(modeId) {
+  async function startExercise(modeId, joining = false) {
     const startGeneration=state.exerciseStartGeneration=(state.exerciseStartGeneration||0)+1;
     const song = state.activeSong;
     const mode = song?.modes.find(item => item.id === modeId);
     if (!song || !mode) return;
     if(state.exercise && !state.exercise.submitted){try{await flushDraft();}catch(error){toast("請先同步或載入雲端進度，再切換難度。","error");return;}}
     if(state.activeSong!==song || state.exerciseStartGeneration!==startGeneration)return;
+    if(!joining){
+      try{const data=await roomRequest('start',{p_session:crypto.randomUUID(),p_song:song.id,p_mode:mode.id,p_version:mode.version});acceptRoom(data);if(!data.accepted){toast('已有進行中的課堂，請按下方「加入練習」。');return;}classroom.joined=data.session.id;classroom.revision=-1;}
+      catch(e){toast('未能建立同步課堂，請檢查連線後重試。','error');return;}
+    }
     resetExercise();
-    const draft=draftForMode(song.id,mode);
-    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,conflict:Boolean(draft?.conflict), locked: Boolean(youtubeVideoId(song.youtubeUrl)), submitted: false, startedAt: draft?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
+    const savedLocal=readLocalDrafts()[draftIdentity(song.id,mode.id)];
+    const draft=joining&&!(savedLocal?.dirty||savedLocal?.pending||savedLocal?.pendingSubmission)?state.drafts[draftIdentity(song.id,mode.id)]:draftForMode(song.id,mode);
+    state.exercise = { songId:song.id,ownerId:state.session.id,mode, answers: {...(draft?.answers||{})},results:draft?.result||{},revision:Number(draft?.revision||0),dirty:Boolean(draft?.dirty),pendingDraft:draft?.pending||null,pendingSubmission:draft?.pendingSubmission||null,editSequence:draft?.editSequence||0,localEdits:draft?.localEdits||{},conflict:Boolean(draft?.conflict), locked: hasSongAudio(song), submitted: false, startedAt: draft?.started_at||classroom.room?.started_at||new Date().toISOString(), activeSeconds: Number(draft?.duration_ms||0)/1000, clockStarted: 0 };
     $("[data-mode-grid]").hidden = true;
     $("[data-exercise-stage]").hidden = false;
     $("[data-mode-title]").textContent = `${mode.label} · ${mode.questionCount} 題`;
     $("[data-relisten]").hidden = false;
     renderExerciseQuestions();
     if(draft?.needsReset){state.exercise.dirty=true;try{await flushDraft("reset");}catch{toast("請連線後重設已完成的練習。","error");return;}}
+    if(joining){state.exercise.liveFollowing=!(draft?.dirty||draft?.pending||draft?.pendingSubmission);state.exercise.locked=false;}
     startExerciseClock();
     setDraftStatus(draft?"已恢復上次的練習進度":"選擇答案後會自動儲存。");
     if(state.exercise.dirty || state.exercise.pendingDraft)void flushDraft().catch(()=>{});
-    if (youtubeVideoId(song.youtubeUrl)) {
+    if (hasSongAudio(song) && !joining) {
       startReadCountdown();
     } else {
       state.exercise.locked = false;
       renderExerciseQuestions();
     }
+    renderClassroom();
     $("[data-exercise-stage]").scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function resetExercise() {
-    storeLocalDraft(); clearTimeout(state.draftSaveTimer);
+    stopMistakeNavigation();
+    storeLocalDraft(); clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;
     stopExerciseTimers();
     state.exercise = null;
     $("[data-mode-grid]").hidden = false;
@@ -1035,9 +1180,9 @@
   }
 
   function startExerciseClock() {
-    if (!state.exercise || state.exercise.submitted || state.exercise.clockStarted) return;
+    if (!state.exercise || state.exercise.liveFollowing || state.exercise.submitted || state.exercise.clockStarted) return;
     state.exercise.clockStarted = performance.now();
-    state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
+    state.exerciseTimer = window.setInterval(() => { updateExerciseProgress();const e=state.exercise;if(e && !roomMatches() && Object.keys(e.answers).length && Date.now()-(e.lastDraftTick||0)>15000){e.lastDraftTick=Date.now();queueDraftSave();}}, 1000);
   }
 
   function pauseExerciseClock() {
@@ -1045,12 +1190,14 @@
     state.exercise.activeSeconds += Math.max(0, (performance.now() - state.exercise.clockStarted) / 1000);
     state.exercise.clockStarted = 0;
     window.clearInterval(state.exerciseTimer); state.exerciseTimer = 0;
-    if(Object.keys(state.exercise.answers).length && !state.exercise.submitted)queueDraftSave();
+    if(!roomMatches() && Object.keys(state.exercise.answers).length && !state.exercise.submitted)queueDraftSave();
   }
 
   function startReadCountdown() {
     window.clearInterval(state.countdownTimer);
+    pausePlayer();
     const overlay = $("[data-countdown]"); overlay.hidden = false;
+    updateFloatingPlayer();
     let remaining = 30; $("[data-countdown-value]").textContent = String(remaining);
     state.countdownTimer = window.setInterval(() => {
       remaining -= 1; $("[data-countdown-value]").textContent = String(Math.max(0, remaining));
@@ -1063,7 +1210,7 @@
     window.clearInterval(state.countdownTimer); state.countdownTimer = 0;
     $("[data-countdown]").hidden = true;
     if (wasRunning && state.exercise && !state.exercise.submitted) {
-      state.exercise.locked = Boolean(youtubeVideoId(state.activeSong?.youtubeUrl));
+      state.exercise.locked = Boolean(hasSongAudio(state.activeSong));
       renderExerciseQuestions();
     }
   }
@@ -1075,11 +1222,15 @@
     if (state.exercise) state.exercise.locked = false;
     renderExerciseQuestions();
     playPlayer(true);
+    setTimeout(()=>publishRoomMedia(true),100);
   }
 
   function chooseAnswer(number, option) {
     const exercise = state.exercise;
     if (!exercise || exercise.locked || exercise.submitted || exercise.submitting || exercise.checking || exercise.pendingSubmission || exercise.results?.[number] || exercise.conflict) return;
+    exercise.liveFollowing=false;
+    startExerciseClock();
+    exercise.localEdits ||= {};exercise.localEdits[number]=option;
     exercise.answers[number] = option;
     queueDraftSave();
     const card = $(`[data-question="${number}"]`);
@@ -1139,12 +1290,16 @@
       });
       const feedback = document.createElement("span");
       feedback.className = "answer-feedback";
-      feedback.textContent = ok ? "✓ 正確" : `答案：${answer}`;
+      feedback.textContent = ok ? "正確" : `答案：${answer}`;
       card?.append(feedback);
     });
     $("[data-result-score]").textContent = `${attempt.correctCount} / ${attempt.totalQuestions}`;
     const percent = Math.round(attempt.correctCount / attempt.totalQuestions * 100);
     $("[data-result-message]").textContent = percent >= 90 ? `出色！${percent}% 正確。` : percent >= 70 ? `很好！${percent}% 正確，再聽一次會更穩固。` : `${percent}% 正確；核對答案後再聽一次。`;
+    $("[data-result-card]").querySelector(".lesson-complete")?.remove();
+    $("[data-result-card]").querySelector(".review-mistakes-button")?.remove();
+    $("[data-result-card]").append(mistakeReviewButton(listeningMistakes(attempt.results)));
+    $("[data-result-card]").append(completionPanel("聆聽練習全部完成！"));
     $("[data-result-card]").hidden = false;
   }
 
@@ -1159,7 +1314,7 @@
     pauseExerciseClock();
     exercise.submitting = true;
     exercise.pendingSubmission ||= {
-      attemptId: crypto.randomUUID(),
+      attemptId: roomMatches()?classroom.joined:crypto.randomUUID(),
       songId: song.id,
       modeId: exercise.mode.id,
       exerciseVersion: exercise.mode.version,
@@ -1211,17 +1366,17 @@
   function draftIdentity(songId, modeId) { return `${songId}/${modeId}`; }
   function readLocalDrafts() { try { return JSON.parse(localStorage.getItem(studyStorageKey()) || '{}'); } catch { return {}; } }
   function storeLocalDraft(exercise = state.exercise) {
-    if (!exercise || exercise.submitted || !state.session?.id || exercise.ownerId !== state.session.id) return;
+    if (!exercise || exercise.liveFollowing || exercise.submitted || !state.session?.id || exercise.ownerId !== state.session.id) return;
     const drafts = readLocalDrafts();
     drafts[draftIdentity(exercise.songId, exercise.mode.id)] = {
       song_id: exercise.songId, mode_id: exercise.mode.id, exercise_version: exercise.mode.version,
       answers: exercise.answers, result: exercise.results, revision: exercise.revision,
       duration_ms: Math.round(elapsedExerciseSeconds(exercise) * 1000), started_at: exercise.startedAt,
       dirty: exercise.dirty, pending: exercise.pendingDraft ? {...exercise.pendingDraft,args:{...exercise.pendingDraft.args,p_student_token:undefined}} : null, pendingSubmission: exercise.pendingSubmission,
-      editSequence: exercise.editSequence
+      localEdits:exercise.localEdits,editSequence: exercise.editSequence
     };
     try { localStorage.setItem(studyStorageKey(), JSON.stringify(drafts)); }
-    catch { setDraftStatus('此瀏覽器無法保留離線備份；請保持連線並確認已儲存。', true); }
+    catch { /* Cloud saving continues when local storage is unavailable. */ }
   }
   function elapsedExerciseSeconds(exercise) { return Math.min(14400, exercise.activeSeconds + (exercise.clockStarted ? Math.max(0,(performance.now()-exercise.clockStarted)/1000) : 0)); }
   function setDraftStatus(message, error = false) { const el=$('[data-draft-status]'); if(el) {el.textContent=message;el.dataset.state=error?'error':'saved';const reload=$('[data-reload-draft]');if(reload)reload.hidden=!state.exercise?.conflict;} }
@@ -1238,34 +1393,49 @@
   }
   function queueDraftSave() {
     const exercise=state.exercise;
-    if(!exercise || exercise.submitted) return;
+    if(!exercise || exercise.liveFollowing || exercise.submitted) return;
     exercise.dirty=true; exercise.editSequence+=1; storeLocalDraft(exercise);
-    setDraftStatus('正在儲存…'); clearTimeout(state.draftSaveTimer);
-    state.draftSaveTimer=setTimeout(()=>flushDraft().catch(()=>{}),350);
+    setDraftStatus('正在儲存…');
+    // Bound the wait even when a student keeps choosing answers rapidly.
+    if(!state.draftSaveTimer)state.draftSaveTimer=setTimeout(()=>{state.draftSaveTimer=0;void flushDraft().catch(()=>{});},350);
   }
   async function flushDraft(action='save') {
     const exercise=state.exercise, session=state.session;
     if(!exercise || exercise.submitted || session?.role!=='student')return;
+    if(exercise.liveFollowing && action==='save')return;
+    if(action!=='save')exercise.liveFollowing=false;
     while(exercise.savePromise) { await exercise.savePromise; if(state.exercise!==exercise)return; }
     if(exercise.conflict) {setDraftStatus('其他裝置有較新的進度。請重新載入雲端進度後再繼續。',true);throw new Error('Draft conflict');}
     const current=()=>state.session?.id===session.id && state.session?.token===session.token && state.exercise===exercise;
     const send=async pending=>{
-      const row=firstRow(await rpc(CONFIG.rpc.saveDraft,{...pending.args,p_student_token:session.token}));
+      let row;
+      try{row=firstRow(await rpc(CONFIG.rpc.saveDraft,{...pending.args,p_student_token:session.token}));}
+      catch(error){
+        if(error.code!=='40001'||!roomMatches()||pending.args.p_action!=='save'||(pending.retries||0)>=2)throw error;
+        const snapshot=await readLiveExercise({p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,p_exercise_version:exercise.mode.version,p_since:''});
+        const remote=snapshot?.payload?.draft;if(!remote||snapshot.payload.attempt||!current())throw error;
+        const edits=pending.edits||{};const merged={...remote.answers};for(const [key,value] of Object.entries(edits))if(!remote.result?.[key])merged[key]=value;
+        pending.args={...pending.args,p_answers:merged,p_expected_revision:Number(remote.revision),p_mutation_id:crypto.randomUUID()};pending.retries=(pending.retries||0)+1;
+        exercise.answers={...merged,...exercise.localEdits};for(const [key,result] of Object.entries(remote.result||{}))exercise.answers[key]=result.selected;
+        storeLocalDraft(exercise);return send(pending);
+      }
       if(!row || row.song_id!==exercise.songId || row.mode_id!==exercise.mode.id || row.mutation_id!==pending.args.p_mutation_id || !Number.isFinite(Number(row.revision)))throw new Error('資料服務未確認進度已儲存。');
       if(Object.keys(row.answers||{}).length!==Object.keys(pending.args.p_answers).length || Object.entries(pending.args.p_answers).some(([k,v])=>row.answers?.[k]!==v))throw new Error('儲存回應的答案不一致。');
       for(const [k,result] of Object.entries(row.result||{})) {const q=exercise.mode.questions.find(q=>String(q.number)===k);if(!q||result.selected!==pending.args.p_answers[k]||!q.options.includes(result.answer)||typeof result.correct!=='boolean'||result.correct!==(result.selected===result.answer))throw new Error('核對回應無效。');}
       if(!current())return;
+      for(const [key,value] of Object.entries(pending.edits||{}))if(exercise.localEdits?.[key]===value)delete exercise.localEdits[key];
       exercise.revision=Number(row.revision);exercise.results=row.result||{};exercise.pendingDraft=null;
       exercise.dirty=exercise.editSequence!==pending.sequence;
       state.drafts[draftIdentity(exercise.songId,exercise.mode.id)]=row;
       storeLocalDraft(exercise);
-      setDraftStatus(exercise.dirty?'正在儲存最新選擇…':'✓ 進度已儲存，可登出後繼續');
+      if(pending.retries)renderExerciseQuestions();
+      setDraftStatus(exercise.dirty?'正在儲存最新選擇…':'進度已儲存，可登出後繼續');
     };
     const run=async()=>{
       if(exercise.pendingDraft) await send(exercise.pendingDraft);
       if(!current())return;
       if(!exercise.dirty && action==='save')return;
-      const pending={sequence:exercise.editSequence,args:{
+      const pending={sequence:exercise.editSequence,edits:{...exercise.localEdits},args:{
         p_student_token:session.token,p_song_id:exercise.songId,p_mode_id:exercise.mode.id,
         p_exercise_version:exercise.mode.version,p_answers:{...exercise.answers},
         p_duration_ms:Math.round(elapsedExerciseSeconds(exercise)*1000),p_started_at:exercise.startedAt,
@@ -1276,7 +1446,7 @@
     exercise.savePromise=run().catch(error=>{
       if(current()) { if(error.code==='40001')exercise.conflict=true;storeLocalDraft(exercise);setDraftStatus(error.code==='40001'?'另一裝置已更新進度；請載入雲端版本。':'尚未同步；答案已保留在此裝置，連線後會重試。',true); }
       throw error;
-    }).finally(()=>{exercise.savePromise=null;if(current() && exercise.dirty && !exercise.pendingDraft && !exercise.conflict) {clearTimeout(state.draftSaveTimer);state.draftSaveTimer=setTimeout(()=>flushDraft().catch(()=>{}),350);}});
+    }).finally(()=>{exercise.savePromise=null;if(current() && exercise.dirty && !exercise.pendingDraft && !exercise.conflict) {clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;state.draftSaveTimer=setTimeout(()=>{state.draftSaveTimer=0;void flushDraft().catch(()=>{});},350);}});
     return exercise.savePromise;
   }
   function applyCheckedResults() {
@@ -1286,7 +1456,7 @@
       const card=$(`[data-question="${question.number}"]`);if(!card)return;
       card.classList.add(result.correct?'is-correct':'is-incorrect');
       $$('[data-option]',card).forEach(button=>{button.disabled=true;button.classList.toggle('is-correct',button.dataset.option===result.answer);button.classList.toggle('is-wrong',button.dataset.option===result.selected&&!result.correct);});
-      $('.answer-feedback',card)?.remove();const feedback=document.createElement('span');feedback.className='answer-feedback';feedback.textContent=result.correct?'✓ 正確':`答案：${result.answer}`;card.append(feedback);
+      $('.answer-feedback',card)?.remove();const feedback=document.createElement('span');feedback.className='answer-feedback';feedback.textContent=result.correct?'正確':`答案：${result.answer}`;card.append(feedback);
     });
   }
   async function checkPartialAnswers() {
@@ -1301,7 +1471,7 @@
     if(!window.confirm('重設這次尚未完成的答案及核對結果？已完成的練習紀錄會保留。'))return;
     try {
       await flushDraft();
-      exercise.checking=true;exercise.answers={};exercise.results={};exercise.pendingSubmission=null;exercise.editSequence+=1;exercise.dirty=true;exercise.activeSeconds=0;exercise.startedAt=new Date().toISOString();exercise.clockStarted=performance.now();
+      exercise.liveFollowing=false;exercise.checking=true;exercise.answers={};exercise.results={};exercise.pendingSubmission=null;exercise.editSequence+=1;exercise.dirty=true;exercise.activeSeconds=0;exercise.startedAt=new Date().toISOString();exercise.clockStarted=performance.now();
       storeLocalDraft(exercise);await flushDraft('reset');toast('未完成答案已重設。');
     } catch(error){toast(error.message||'未能重設，請連線後重試。','error');}
     finally{exercise.checking=false;if(state.exercise===exercise)renderExerciseQuestions();}
@@ -1309,7 +1479,7 @@
   async function reloadCloudDraft() {
     const exercise=state.exercise;if(!exercise)return;
     if(!window.confirm('載入雲端版本？此裝置尚未同步的選擇將被雲端進度取代。'))return;
-    try{const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));const saved=readLocalDrafts();delete saved[draftIdentity(exercise.songId,exercise.mode.id)];localStorage.setItem(studyStorageKey(),JSON.stringify(saved));exercise.submitted=true;startExercise(exercise.mode.id);}catch(error){toast(error.message,'error');}
+    try{const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));const saved=readLocalDrafts();delete saved[draftIdentity(exercise.songId,exercise.mode.id)];localStorage.setItem(studyStorageKey(),JSON.stringify(saved));exercise.submitted=true;startExercise(exercise.mode.id,Boolean(roomMatches()));}catch(error){toast(error.message,'error');}
   }
   function songIsFavorite(songId) { return state.bookmarks.some(b=>b.kind==='song' && b.songId===songId); }
   async function toggleFavorite(song) {
@@ -1346,8 +1516,9 @@
     }
     const questions=$$('.exercise-line');
     const exerciseTimeline=questionTimeline(state.exercise?.mode?.questions,timeline);
-    questions.forEach((row,index)=>{
-      const timing=exerciseTimeline[index];
+    const timingByNumber=new Map((state.exercise?.mode?.questions||[]).map((q,index)=>[String(q.number),exerciseTimeline[index]]));
+    questions.forEach(row=>{
+      const timing=timingByNumber.get(row.dataset.question);
       row.classList.toggle('is-current-line',Boolean(timing&&current>=timing.start&&current<timing.end));
     });
   }
@@ -1357,7 +1528,7 @@
   }
   function capturePlaybackChunk() {
     if(!state.playbackStarted)return;
-    state.playbackPending+=Math.max(0,(performance.now()-state.playbackStarted)/1000);state.playbackStarted=performance.now();
+    if(!roomMatches()||classroom.room.owner===classroom.device)state.playbackPending+=Math.max(0,(performance.now()-state.playbackStarted)/1000);state.playbackStarted=performance.now();
   }
   function flushPlayback() {
     capturePlaybackChunk();
@@ -1376,7 +1547,9 @@
     const rates=state.playerReady ? (state.player.getAvailablePlaybackRates?.()||[1]) : [1];
     const rate=state.playerReady ? Number(state.player.getPlaybackRate?.()||1) : 1;
     $$('[data-playback-rate]').forEach(select=>{select.replaceChildren(...rates.map(value=>{const option=document.createElement('option');option.value=String(value);option.textContent=`${value}×`;return option;}));select.value=String(rate);select.disabled=!state.playerReady;});
-    $$('[data-player-toggle]').forEach(button=>{const playing=state.playerState===1;button.textContent=playing?'Ⅱ':'▶';button.setAttribute('aria-label',playing?'暫停':'播放');});
+    $$('[data-player-toggle]').forEach(button=>{const playing=state.playerState===1;button.replaceChildren(songIcon(playing?'pause':'play'));button.setAttribute('aria-label',playing?'暫停':'播放');});
+    $$('[data-speed-label]').forEach(node=>node.textContent=`${rate}×`);
+    $$('[data-speed-trigger]').forEach(button=>button.disabled=!state.playerReady);
     syncLyricsToPlayback();
     updateFloatingPlayer();
   }
@@ -1386,9 +1559,338 @@
     const top=header?Math.max(0,header.getBoundingClientRect().bottom):0;
     document.documentElement.style.setProperty('--song-header-height',`${top}px`);
     const original=$('[data-player-controls]');
-    bar.hidden=!(state.playerReady&&state.activeRoute==='song'&&['translation','exercise'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
+    bar.hidden=!(state.playerReady&&$('[data-countdown]').hidden&&state.activeRoute==='song'&&['translation','exercise','vocabulary','advanced','structure','analysis'].includes(state.activeTab)&&original.getBoundingClientRect().bottom<=top);
   }
-  function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));}
+  function setPlaybackRate(value) {if(!state.playerReady)return;const rates=state.player.getAvailablePlaybackRates?.()||[1];if(rates.includes(Number(value)))state.player.setPlaybackRate(Number(value));setTimeout(publishRoomMedia,100);}
+
+  function mountAudioPlayer(song) {
+    const generation = ++state.playerGeneration;
+    const shell = $("[data-youtube-shell]"); shell.replaceChildren();
+    const audio = document.createElement("audio"); audio.preload = "metadata"; audio.src = song.audioUrl;
+    const artwork = document.createElement("div"); artwork.className = "album-player-art";
+    if (song.coverUrl) { const image = new Image(); image.src = song.coverUrl; image.alt = `${song.title} 專輯封面`; artwork.append(image); }
+    const label = document.createElement("strong"); label.textContent = `${song.title} · ${song.singer}`; artwork.append(label); shell.append(artwork, audio);
+    const current = () => generation === state.playerGeneration;
+    state.player = {
+      getCurrentTime: () => audio.currentTime, getDuration: () => Number.isFinite(audio.duration) ? audio.duration : 0,
+      playVideo: () => { audio.play().catch(() => { if (current()) { $("[data-autoplay-note]").hidden = false; toast("請按播放開始歌曲。", "error"); } }); },
+      pauseVideo: () => audio.pause(), seekTo: time => { audio.currentTime = time; },
+      getAvailablePlaybackRates: () => [.5,.75,1,1.25,1.5], getPlaybackRate: () => audio.playbackRate,
+      setPlaybackRate: rate => { audio.playbackRate = rate; },
+      destroy: () => { audio.pause(); audio.removeAttribute("src"); audio.load(); }
+    };
+    audio.addEventListener("loadedmetadata", () => { if (!current()) return; state.playerReady = true; $("[data-player-controls]").hidden = false; syncPlaybackControls(); });
+    audio.addEventListener("play", () => { if (!current()) return; state.playerState = 1; beginPlaybackTracking(); syncPlaybackControls(); });
+    for (const event of ["pause", "ended"]) audio.addEventListener(event, () => { if (!current()) return; state.playerState = event === "ended" ? 0 : 2; endPlaybackTracking(); syncPlaybackControls(); });
+    audio.addEventListener("seeked", () => { if (current()) syncLyricsToPlayback(); });
+    audio.addEventListener("ratechange", () => { if (current()) syncPlaybackControls(); });
+    audio.addEventListener("error", () => { if (current()) toast("未能載入歌曲音訊，請重試或聯絡老師。", "error"); });
+  }
+
+
+  function renderLearningSection(name) {
+    const holder = document.querySelector(`[data-learning-section="${name}"]`);
+    if(!holder) return;
+    holder.replaceChildren();
+    const song=state.activeSong, section=song?.learningSections?.[name];
+    if(!section) return;
+    const el=(tag,value,cls)=>{const n=document.createElement(tag);n.textContent=value||"";if(cls)n.className=cls;return n;};
+    holder.append(el("h2",section.title));
+    if(section.note) holder.append(el("p",section.note,"section-note"));
+    if(name==="analysis") {
+      for(const item of section.items||[]) {
+        const card=el("article","","analysis-card");card.append(el("h3",item.title));
+        if(item.cue) card.append(el("blockquote",item.cue));
+        if(item.translation) card.append(el("p",item.translation,"vocabulary-meaning"));
+        for(const paragraph of item.paragraphs||[])card.append(el("p",paragraph));
+        holder.append(card);
+      }
+      return;
+    }
+    const questions=section.questions||[];if(!questions.length)return;
+    state.sectionIndexes ||= {};
+    const index=Math.min(state.sectionIndexes[name]||0,questions.length-1), q=questions[index];
+    const key=n=>`${name}:${section.version}:${n}`, saved=song.sectionProgress[key(q.number)];
+    holder.append(el("p",`${index+1} / ${questions.length} · 已完成 ${questions.filter(x=>song.sectionProgress[key(x.number)]).length} 題`,"vocabulary-progress"));
+    const jump=el("select");jump.setAttribute("aria-label","選擇研讀步驟");
+    questions.forEach((x,i)=>{const o=el("option",`${i+1}. ${x.word}`);o.value=i;o.selected=i===index;jump.append(o);});
+    jump.onchange=()=>{state.sectionIndexes[name]=Number(jump.value);renderLearningSection(name);};holder.append(jump);
+    const card=el("article","","vocabulary-card structure-card");card.append(el("h3",q.word));
+    if(q.cue)card.append(el("p",`歌曲線索：${q.cue}`,"section-cue"));
+    if(q.example)card.append(el("blockquote",q.example,"structure-example"));
+    if(q.pattern) {
+      const pattern=el("div","","structure-pattern");
+      for(const part of q.pattern)pattern.append(el("span",part.text,part.fixed?"pattern-fixed":"pattern-slot"));
+      card.append(pattern);
+    }
+    const help=el("div","","structure-help");
+    for(const [title,value] of [["01 · 意思",q.meaning],["02 · 甚麼時候用？",q.usage]]) {const box=el("div");box.append(el("h4",title),el("p",value));help.append(box);}card.append(help);
+    if(q.context)card.append(el("p",`情境：${q.context}`));card.append(el("h3",q.prompt));
+    const options=el("div","","vocabulary-options"),feedback=el("div","","vocabulary-feedback");feedback.setAttribute("role","status");
+    q.options.forEach((value,selected)=>{
+      const button=el("button","","vocabulary-option");button.type="button";button.append(el("b","ABCD"[selected]),el("span",value));
+      if(saved){button.disabled=true;button.classList.toggle("is-correct",selected===saved.answer);button.classList.toggle("is-wrong",selected===saved.selected&&selected!==saved.answer);}
+      button.onclick=async()=>{
+        options.querySelectorAll("button").forEach(b=>b.disabled=true);feedback.textContent="正在核對並儲存…";prepareAnswerAudio();
+        const token=state.session.token;
+        try{
+          const result=state.session.role==="admin" ? {selected,answer:q.answer,explanation:q.explanation,optionExplanations:q.optionExplanations} : await rpc("song_appreciation_section_answer",{p_student_token:token,p_song_id:song.id,p_section:name,p_version:section.version,p_number:q.number,p_selected:selected});
+          if(state.session?.token!==token)return;
+          song.sectionProgress[key(q.number)]=result;
+          if(state.lessonExtras[song.id])state.lessonExtras[song.id].section_progress=song.sectionProgress;
+          if(state.activeSong===song){playAnswerSound(selected===result.answer);renderLearningSection(name);}
+        }catch {feedback.textContent="未能儲存，請重試；若課程已更新，請重新載入。";options.querySelectorAll("button").forEach(b=>b.disabled=false);}
+      };options.append(button);
+    });
+    if(saved){feedback.append(el("h4",`${saved.selected===saved.answer?"答對了！":"再看看用法："}答案 ${"ABCD"[saved.answer]}`));for(const [i,value]of asArray(saved.optionExplanations).entries())feedback.append(el("p",`${"ABCD"[i]} · ${displayText(value)}`));}
+    card.append(options,feedback);holder.append(card);
+    const nav=el("div","","vocabulary-navigation");
+    for(const [label,delta] of [["上一題",-1],["下一題",1]]){const b=el("button",label,"secondary-button");b.disabled=index+delta<0||index+delta>=questions.length;b.onclick=()=>{state.sectionIndexes[name]=index+delta;renderLearningSection(name);holder.scrollIntoView({behavior:"smooth",block:"start"});};nav.append(b);}
+    const wrong=questions.filter(x=>{const r=song.sectionProgress[key(x.number)];return r&&r.answer!==r.selected;});
+    if(wrong.length){const b=el("button",`下一道錯題（${wrong.length} 題）`,"secondary-button");b.onclick=()=>{const next=wrong.find(x=>questions.indexOf(x)>index)||wrong[0];state.sectionIndexes[name]=questions.indexOf(next);renderLearningSection(name);holder.scrollIntoView({behavior:"smooth",block:"start"});};nav.append(b);}
+    holder.append(nav);
+    if(questions.every(x=>song.sectionProgress[key(x.number)]))holder.append(completionPanel(`${section.title}全部完成！`));
+  }
+
+  function renderVocabulary() {
+    const holder = $("[data-vocabulary]"); if (!holder) return; holder.replaceChildren();
+    const song = state.activeSong;
+    if (!song?.vocabulary.length) { holder.textContent = "這首歌的字彙練習尚未加入。"; return; }
+    const index = state.vocabularyIndex, question = song.vocabulary[index], saved = song.vocabularyProgress[question.number];
+    const progress = document.createElement("p"); progress.className = "vocabulary-progress";
+    progress.textContent = `WORD ${String(index + 1).padStart(2, "0")} / ${song.vocabulary.length} · 已完成 ${Object.keys(song.vocabularyProgress).length} 題`;
+    const card = document.createElement("article"); card.className = "vocabulary-card";
+    const title = document.createElement("h2"); title.textContent = question.word;
+    const meaning = document.createElement("p"); meaning.className = "vocabulary-meaning"; meaning.textContent = question.meaning;
+    const usage = document.createElement("p"); usage.textContent = question.usage;
+    const prompt = document.createElement("h3"); prompt.textContent = question.prompt;
+    const options = document.createElement("div"); options.className = "vocabulary-options";
+    const feedback = document.createElement("div"); feedback.setAttribute("role", "status"); feedback.className = "vocabulary-feedback";
+    question.options.forEach((option, selected) => {
+      const button = document.createElement("button"); button.type = "button"; button.className = "vocabulary-option";
+      const letter = document.createElement("b"); letter.textContent = "ABCD"[selected];
+      const sentence = document.createElement("span"); sentence.textContent = option; button.append(letter, sentence);
+      if (saved) { button.disabled = true; button.classList.toggle("is-correct", selected === saved.answer); button.classList.toggle("is-wrong", selected === saved.selected && selected !== saved.answer); }
+      button.onclick = async () => {
+        options.querySelectorAll("button").forEach(b => b.disabled = true); feedback.textContent = "正在核對並儲存…";
+        const token = state.session.token;
+        prepareAnswerAudio();
+        try {
+          const result = await rpc("song_appreciation_vocabulary_answer", {p_student_token:token,p_song_id:song.id,p_number:question.number,p_selected:selected});
+          if (state.session?.token !== token) return;
+          song.vocabularyProgress[question.number] = result;
+          if(state.activeSong === song) playAnswerSound(result.selected === result.answer);
+          if (state.lessonExtras[song.id]) state.lessonExtras[song.id].vocabulary_progress = song.vocabularyProgress;
+          if (state.activeSong === song && state.vocabularyIndex === index) renderVocabulary();
+        } catch { feedback.textContent = "未能儲存，請再試一次。"; options.querySelectorAll("button").forEach(b => b.disabled = false); }
+      };
+      options.append(button);
+    });
+    if (saved) {
+      const summary = document.createElement("h3"); summary.textContent = `${saved.selected === saved.answer ? "答對了！" : "再看看用法："}答案 ${"ABCD"[saved.answer]}`;
+      const explanation = document.createElement("p"); explanation.textContent = displayText(saved.explanation); feedback.append(summary, explanation);
+      asArray(saved.optionExplanations).forEach((value, i) => { const row = document.createElement("p"); row.textContent = `${"ABCD"[i]} · ${displayText(value)}`; feedback.append(row); });
+    }
+    const navigation = document.createElement("div"); navigation.className = "vocabulary-navigation";
+    for (const [label, delta] of [["← 上一題", -1], ["下一題 →", 1]]) {
+      const button = document.createElement("button"); button.type = "button"; button.className = "secondary-button"; setLabel(button,label); button.disabled = index + delta < 0 || index + delta >= song.vocabulary.length;
+      button.onclick = () => { state.vocabularyIndex += delta; renderVocabulary(); holder.scrollIntoView({behavior:"smooth",block:"start"}); }; navigation.append(button);
+    }
+    card.append(title, meaning, usage, prompt, options, feedback); holder.append(progress, card, navigation);
+    const checked=song.vocabulary.filter(q=>song.vocabularyProgress[q.number]).map(q=>{const r=song.vocabularyProgress[q.number];return {number:q.number,title:q.word,selected:`${"ABCD"[r.selected]} · ${q.options[r.selected]}`,answer:`${"ABCD"[r.answer]} · ${q.options[r.answer]}`,explanation:r.optionExplanations?.[r.selected]};});
+    if(checked.length) holder.append(mistakeReviewButton(checked,"vocabulary"));
+    if(song.vocabulary.every(q => song.vocabularyProgress[q.number])) holder.append(completionPanel("字彙練習全部完成！"));
+  }
+
+
+
+  function safeIntroduction(value) {
+    const fragment=document.createDocumentFragment();
+    if(!/<(?:p|div|br|span|mark|b|strong|i|em|u)(?:\s|>)/i.test(value)){fragment.append(document.createTextNode(value));return fragment;}
+    const doc=new DOMParser().parseFromString(value,"text/html");
+    const colors={"#fff2a8":"intro-yellow","rgb(255, 242, 168)":"intro-yellow","#ffd6e7":"intro-pink","rgb(255, 214, 231)":"intro-pink","#d4f3df":"intro-green","rgb(212, 243, 223)":"intro-green","#d5e9ff":"intro-blue","rgb(213, 233, 255)":"intro-blue"};
+    const allowed=["P","DIV","BR","SPAN","MARK","B","STRONG","I","EM","U"];
+    function copy(node,parent){
+      if(node.nodeType===3){parent.append(document.createTextNode(node.textContent));return;}
+      if(node.nodeType!==1 || ["SCRIPT","STYLE","IFRAME","OBJECT","SVG","MATH"].includes(node.tagName))return;
+      const el=allowed.includes(node.tagName)?document.createElement(node.tagName.toLowerCase()):document.createDocumentFragment();
+      if(el.nodeType===1){const color=colors[node.style.backgroundColor]||["intro-yellow","intro-pink","intro-green","intro-blue"].find(c=>node.classList.contains(c));if(color)el.classList.add(color);}
+      node.childNodes.forEach(child=>copy(child,el));parent.append(el);
+    }
+    doc.body.childNodes.forEach(node=>copy(node,fragment));return fragment;
+  }
+  function introductionValue(){const el=document.createElement("div");el.append(safeIntroduction($("[data-intro-editor]").innerHTML));return el.innerHTML.trim();}
+
+  function songIcon(name) {
+    const svg=document.createElementNS("http://www.w3.org/2000/svg","svg");svg.classList.add("song-icon");svg.setAttribute("aria-hidden","true");svg.setAttribute("focusable","false");
+    const use=document.createElementNS(svg.namespaceURI,"use");use.setAttribute("href",`/song-icons.svg#${name}`);svg.append(use);return svg;
+  }
+  function setLabel(node,label) {
+    const icons={"→":"arrow-right","←":"arrow-left","↗":"arrow-up-right","↻":"restart","☆":"star","★":"star","✓":"check","✦":"sparkle","◷":"clock","×":"close"};
+    node.replaceChildren(...String(label).split(/([→←↗↻☆★✓✦◷×])/).filter(Boolean).map(part=>icons[part]?songIcon(icons[part]):document.createTextNode(displayText(part))));
+  }
+  function element(tag,className,value) {const node=document.createElement(tag);node.className=className||"";if(value!==undefined)node.textContent=value;return node;}
+  function wordIndex(songs) {
+    const words=new Map();
+    songs.forEach(song=>song.translations.forEach(row=>{
+      if(row.break)return;
+      (row.english.toLowerCase().replace(/[’‘]/g,"'").match(/[a-z]+(?:'[a-z]+)*/g)||[]).forEach(word=>{
+        if(!words.has(word))words.set(word,{word,count:0,songs:new Map()});const item=words.get(word);item.count++;item.songs.set(song.id,(item.songs.get(song.id)||0)+1);
+      });
+    }));return [...words.values()];
+  }
+  function renderBigData() {
+    const all=wordIndex(state.songs),query=normalizeSpace($('[data-word-search]').value).toLowerCase();
+    const rows=all.filter(row=>row.word.includes(query)).sort((a,b)=>(state.wordAscending?a.count-b.count:b.count-a.count)||a.word.localeCompare(b.word));
+    const stats=$('[data-word-stats]');stats.replaceChildren();
+    [[state.songs.length,'首歌曲'],[all.length,'個不同單字'],[all.reduce((n,w)=>n+w.count,0),'次單字出現']].forEach(([n,label])=>{const card=element('div');card.append(element('strong','',n.toLocaleString()),element('span','',label));stats.append(card);});
+    const sort=$('[data-word-sort]');sort.textContent=state.wordAscending?'次數：由少至多':'次數：由多至少';sort.setAttribute('aria-pressed',String(state.wordAscending));
+    const pages=Math.max(1,Math.ceil(rows.length/50));state.wordPage=Math.min(state.wordPage,pages-1);const start=state.wordPage*50;
+    $('[data-word-status]').textContent=rows.length?`第 ${start+1}–${Math.min(start+50,rows.length)} 個 · 共 ${rows.length} 個單字`:'找不到符合的單字。';
+    const grid=$('[data-word-grid]');grid.replaceChildren();
+    rows.slice(start,start+50).forEach((row,i)=>{const button=makeButton('',()=>openWordSongs(row),'word-card');button.append(element('span','word-rank',String(start+i+1).padStart(2,'0')),element('strong','',row.word),element('span','word-frequency',`${row.count} 次`),element('small','',`${row.songs.size} 首歌曲`),songIcon('arrow-up-right'));grid.append(button);});
+    const pager=$('[data-word-pagination]');pager.replaceChildren();const previous=makeButton('← 上一頁',()=>{state.wordPage--;renderBigData();grid.scrollIntoView({block:'start'});}),next=makeButton('下一頁 →',()=>{state.wordPage++;renderBigData();grid.scrollIntoView({block:'start'});});previous.disabled=state.wordPage===0;next.disabled=state.wordPage===pages-1;pager.append(previous,element('span','',`${state.wordPage+1} / ${pages}`),next);
+  }
+  function openWordSongs(row) {
+    const dialog=makeDialog(row.word);dialog.append(element('p','',`共出現 ${row.count} 次 · ${row.songs.size} 首歌曲`));
+    [...row.songs].sort((a,b)=>b[1]-a[1]).forEach(([id,count])=>{const song=state.songs.find(s=>s.id===id);const button=makeButton(`${song.title} · ${song.singer} — ${count} 次 →`,async()=>{dialog.close();await openSong(id);switchSongTab('translation');},'word-song-link');dialog.append(button);});dialog.showModal();
+  }
+  let speedMenu=null,speedOwner=null;
+  function closeSpeedPicker(restoreFocus=false){speedMenu?.remove();speedMenu=null;if(speedOwner){speedOwner.setAttribute('aria-expanded','false');if(restoreFocus)speedOwner.focus();}speedOwner=null;}
+  function openSpeedPicker(owner){
+    if(speedOwner===owner){closeSpeedPicker(true);return;}closeSpeedPicker();if(!state.playerReady)return;
+    speedOwner=owner;owner.setAttribute('aria-expanded','true');speedMenu=element('div','speed-menu');speedMenu.setAttribute('role','menu');speedMenu.setAttribute('aria-label','播放速度');
+    speedMenu.append(element('p','section-kicker','PLAYBACK SPEED'));
+    const rate=Number(state.player.getPlaybackRate?.()||1),rates=state.player.getAvailablePlaybackRates?.()||[1];
+    rates.forEach(value=>{const button=makeButton('',()=>{setPlaybackRate(value);closeSpeedPicker(true);},'speed-option');button.setAttribute('role','menuitemradio');button.setAttribute('aria-checked',String(value===rate));button.append(element('strong','',`${value}×`),element('span','',value===1?'原速':value<1?'慢速細聽':'加速挑戰'));if(value===rate)button.append(songIcon('check'));speedMenu.append(button);});
+    document.body.append(speedMenu);const r=owner.getBoundingClientRect(),box=speedMenu.getBoundingClientRect();speedMenu.style.left=`${Math.max(12,Math.min(r.right-box.width,innerWidth-box.width-12))}px`;speedMenu.style.top=`${Math.max(12,Math.min(r.bottom+8,innerHeight-box.height-12))}px`;
+    speedMenu.addEventListener('keydown',event=>{const buttons=[...speedMenu.querySelectorAll('button')],index=buttons.indexOf(document.activeElement);if(event.key==='Tab'){closeSpeedPicker();return;}if(event.key==='Escape'){event.preventDefault();closeSpeedPicker(true);}else if(['ArrowDown','ArrowUp','Home','End'].includes(event.key)){event.preventDefault();buttons[event.key==='Home'?0:event.key==='End'?buttons.length-1:(index+(event.key==='ArrowDown'?1:-1)+buttons.length)%buttons.length].focus();}});
+    speedMenu.querySelector('[aria-checked="true"]')?.focus({preventScroll:true});
+  }
+
+  function makeButton(label, action, className="secondary-button") {
+    const b=document.createElement("button");b.type="button";b.className=className;setLabel(b,label);b.onclick=action;return b;
+  }
+  function makeDialog(title) {
+    const dialog=document.createElement("dialog");dialog.className="song-tool-dialog";
+    const h=document.createElement("h2");h.textContent=title;
+    const close=makeButton("關閉 ×",()=>dialog.close());close.classList.add("dialog-close");
+    dialog.append(close,h);dialog.addEventListener("close",()=>dialog.remove());document.body.append(dialog);return dialog;
+  }
+  function renderSelectedTags() {
+    const holder=$("[data-selected-tags]");holder.replaceChildren();
+    state.selectedTags.forEach(tag=>holder.append(makeButton(`${tag} ×`,()=>{state.selectedTags=state.selectedTags.filter(t=>t!==tag);renderLibrary();},"filter-chip is-active")));
+  }
+  function openTagPicker() {
+    const dialog=makeDialog("找到你的下一首歌");dialog.classList.add('tag-explorer');dialog.prepend(element('p','section-kicker','EXPLORE BY TAG'));
+    dialog.append(element('p','tag-intro','選擇歌手、主題或歌名，組合你的歌曲清單。'));
+    const search=element('input','tag-search');search.type='search';search.placeholder='尋找標籤';search.setAttribute('aria-label','尋找標籤');dialog.append(search);
+    const picked=new Set(state.selectedTags),tags=[...new Set(state.songs.flatMap(song=>song.tags))].sort();
+    const artists=new Set(state.songs.map(song=>song.singer.toLowerCase())),titles=new Set(state.songs.map(song=>song.title.toLowerCase()));
+    const body=element('div','tag-explorer-body'),status=element('span','tag-selection-count');
+    function refresh(){body.replaceChildren();const q=search.value.trim().toLowerCase();
+      [['主題與心情',t=>!artists.has(t)&&!titles.has(t)],['歌手',t=>artists.has(t)],['歌曲',t=>titles.has(t)]].forEach(([name,filter])=>{
+        const matches=tags.filter(t=>filter(t)&&t.includes(q));if(!matches.length)return;const group=element('section','tag-group');group.append(element('h3','',name));const grid=element('div','tag-picker-grid');
+        matches.forEach(tag=>{const label=element('label','tag-option'),input=document.createElement('input');input.type='checkbox';input.checked=picked.has(tag);input.onchange=()=>{input.checked?picked.add(tag):picked.delete(tag);updateCount();};label.append(input,songIcon('check'),element('span','',tag),element('small','',String(state.songs.filter(s=>s.tags.includes(tag)).length)));grid.append(label);});group.append(grid);body.append(group);
+      });if(!body.children.length)body.append(element('p','','找不到符合的標籤。'));updateCount();
+    }
+    function updateCount(){status.textContent=`已選 ${picked.size} 個 · ${picked.size?state.songs.filter(s=>s.tags.some(t=>picked.has(t))).length:state.songs.length} 首歌曲`;}
+    search.oninput=refresh;const footer=element('div','tag-footer');footer.append(status,makeButton('清除',()=>{picked.clear();refresh();}),makeButton('查看歌曲 →',()=>{state.selectedTags=[...picked];renderLibrary();dialog.close();},'primary-button'));dialog.append(body,footer);refresh();dialog.showModal();
+  }
+  let answerAudio;
+  function prepareAnswerAudio() {
+    try {const C=window.AudioContext||window.webkitAudioContext;if(C){answerAudio ||= new C();void answerAudio.resume().catch(()=>{});}} catch {}
+  }
+  function playAnswerSound(correct) {
+    try {if(!answerAudio)return;const now=answerAudio.currentTime;
+      (correct?[523.25,659.25,783.99]:[260,196]).forEach((frequency,index)=>{const tone=answerAudio.createOscillator(),gain=answerAudio.createGain();tone.type="sine";tone.frequency.value=frequency;tone.connect(gain);gain.connect(answerAudio.destination);const start=now+index*.1;gain.gain.setValueAtTime(0,start);gain.gain.linearRampToValueAtTime(.07,start+.015);gain.gain.exponentialRampToValueAtTime(.001,start+.23);tone.start(start);tone.stop(start+.25);});
+    } catch {}
+  }
+
+  let mistakeNavigation = null;
+  function stopMistakeNavigation() {
+    mistakeNavigation=null;document.querySelector(".mistake-navigation")?.remove();
+    document.querySelectorAll(".is-review-target").forEach(el=>el.classList.remove("is-review-target"));
+  }
+  function mistakeReviewButton(entries, type="listening") {
+    const wrong=entries.filter(e=>e.selected!==e.answer);
+    const button=makeButton(`逐題查看錯誤 · ${wrong.length}`,()=>{
+      if(!wrong.length){toast("全部答對了，沒有錯題！");return;}
+      stopMistakeNavigation();mistakeNavigation={songId:state.activeSong.id,type,items:wrong,index:0};jumpToMistake();
+    });button.classList.add("review-mistakes-button");return button;
+  }
+  function jumpToMistake() {
+    const nav=mistakeNavigation;if(!nav || state.activeSong?.id!==nav.songId){stopMistakeNavigation();return;}
+    document.querySelectorAll(".is-review-target").forEach(el=>el.classList.remove("is-review-target"));
+    const item=nav.items[nav.index];let target;
+    if(nav.type==="vocabulary"){
+      state.vocabularyIndex=state.activeSong.vocabulary.findIndex(q=>q.number===item.number);renderVocabulary();
+      target=$(".vocabulary-option.is-wrong");
+    }else target=$(`[data-question="${item.number}"] .choice-button.is-wrong`);
+    if(!target){stopMistakeNavigation();return;}
+    target.classList.add("is-review-target");
+    document.querySelector(".mistake-navigation")?.remove();
+    const bar=document.createElement("aside");bar.className="mistake-navigation";bar.setAttribute("aria-label","錯題導覽");
+    const count=document.createElement("strong");count.setAttribute("role","status");count.textContent=`錯題 ${nav.index+1} / ${nav.items.length} · 第 ${item.displayNumber || item.number} 題`;
+    const prev=makeButton("← 上一個",()=>{nav.index--;jumpToMistake();});prev.disabled=nav.index===0;
+    const next=makeButton(nav.index===nav.items.length-1?"完成檢視 ✓":"下一個錯誤 →",()=>{if(nav.index===nav.items.length-1){stopMistakeNavigation();toast("已查看所有錯題。");}else{nav.index++;jumpToMistake();}},"primary-button");
+    bar.append(count,prev,next,makeButton("關閉 ×",stopMistakeNavigation));document.body.append(bar);next.focus({preventScroll:true});
+    target.scrollIntoView({behavior:"smooth",block:"center"});
+  }
+  function listeningMistakes(results) {
+    return listeningRoute(state.exercise.mode).flatMap((q, index) => { const r=results?.[q.number]; return r && typeof r.correct === "boolean" ? [{number:q.number,displayNumber:index+1,title:`第 ${index+1} 題`,selected:r.selected,answer:r.answer}] : []; });
+  }
+
+  function completionPanel(message) {
+    const section=document.createElement("section");section.className="lesson-complete";section.setAttribute("aria-label","練習完成");
+    const heading=document.createElement("h2");setLabel(heading,`✦ 恭喜你！${message}`);
+    section.append(heading);
+    if(state.activeTab==="exercise" && state.exercise?.submitted){
+      const levels=["standard","medium","hard","hell"],index=levels.indexOf(state.exercise.mode.id);
+      const next=index>=0?state.activeSong.modes.find(m=>m.id===levels[index+1]):null;
+      const note=document.createElement("p");note.textContent=next?`完成得好！準備好挑戰更高一級的 ${next.label} 嗎？`:"太棒了！你已完成最高難度，可以再挑戰一次，讓聆聽更穩固。";section.append(note);
+      if(state.activeSong.vocabulary?.length)section.append(makeButton('開始字彙練習 →',()=>{switchSongTab('vocabulary');$('[data-vocabulary]').scrollIntoView({behavior:'smooth',block:'start'});},'primary-button'));
+      if(next)section.append(makeButton(`挑戰 ${next.label} →`,()=>startExercise(next.id),"primary-button"));
+    }
+    const reread=document.createElement('div');reread.className='song-reread';
+    const rereadText=document.createElement('p');rereadText.textContent='聽懂更多，再讀一次歌曲故事，看看你有甚麼新發現。';
+    reread.append(rereadText,makeButton('重讀歌曲介紹 →',()=>{switchSongTab('description');$('[data-song-description]').scrollIntoView({behavior:'smooth',block:'start'});},'secondary-button'));section.append(reread);
+    section.append(makeButton("返回歌曲主頁 →",()=>routeStudent("library"),"primary-button"));
+    const songs=state.songs.filter(song=>song.id!==state.activeSong?.id);
+    if(songs.length){
+      const title=document.createElement("h3");title.textContent="下一首，想聽甚麼？";const view=document.createElement("div");view.className="song-discovery";const track=document.createElement("div");track.className="song-discovery-track";
+      for(let copy=0;copy<2;copy++) {const group=document.createElement("div");group.className="song-discovery-group";if(copy)group.setAttribute("aria-hidden","true");
+        const tiles=Array.from({length:Math.max(8,songs.length)},(_,i)=>songs[i%songs.length]);
+        tiles.forEach((song,index)=>{const button=makeButton("",()=>openSong(song.id),"discovery-song");if(copy || index>=songs.length){button.tabIndex=-1;button.setAttribute("aria-hidden","true");}const cover=thumbnailUrl(song);if(cover){const image=new Image();image.src=cover;image.alt="";button.append(image);}const label=document.createElement("strong");label.textContent=song.title;const artist=document.createElement("span");artist.textContent=song.singer;button.append(label,artist);group.append(button);});track.append(group);
+      }
+      let userPaused=false,touching=false,resumeTimer;
+      const pause=makeButton('暫停動畫',()=>{
+        userPaused=!userPaused;view.classList.toggle('is-paused',userPaused);
+        pause.textContent=userPaused?'繼續動畫':'暫停動畫';pause.setAttribute('aria-pressed',String(userPaused));
+        if(!userPaused)resumeLoop();
+      });pause.setAttribute('aria-pressed','false');view.append(track);
+      view.tabIndex=0;view.setAttribute('aria-label','左右滑動瀏覽歌曲');
+      const resumeLoop=()=>{
+        if(!view.isConnected||touching||userPaused||!view.classList.contains('is-manual')||matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+        const width=track.getBoundingClientRect().width/2;
+        const offset=width?view.scrollLeft%width:0;
+        track.style.animationDelay=`-${width?offset/width*65:0}s`;
+        view.classList.remove('is-manual','is-paused');view.classList.add('is-resumed');view.scrollLeft=0;
+      };
+      const scheduleResume=()=>{clearTimeout(resumeTimer);if(!touching&&!userPaused)resumeTimer=setTimeout(resumeLoop,1600);};
+      const enableSwipe=()=>{
+        clearTimeout(resumeTimer);
+        if(view.classList.contains('is-manual'))return;
+        const x=new DOMMatrixReadOnly(getComputedStyle(track).transform).m41;
+        view.classList.add('is-manual');view.scrollLeft=Math.max(0,-x);
+      };
+      view.addEventListener('touchstart',()=>{touching=true;enableSwipe();},{passive:true});
+      for(const event of ['touchend','touchcancel'])view.addEventListener(event,()=>{touching=false;scheduleResume();},{passive:true});
+      view.addEventListener('scroll',()=>{if(view.classList.contains('is-manual'))scheduleResume();},{passive:true});
+      view.addEventListener('keydown',event=>{if(event.key==='ArrowLeft'||event.key==='ArrowRight'){enableSwipe();view.scrollBy({left:event.key==='ArrowRight'?220:-220,behavior:'smooth'});scheduleResume();event.preventDefault();}});
+      section.append(title,view,pause);
+    }return section;
+  }
 
   let youtubeApiPromise = null;
   function loadYouTubeApi() {
@@ -1431,7 +1933,7 @@
     const shell = $("[data-youtube-shell]");
     if (shell && !$(".youtube-placeholder", shell)) {
       const placeholder = document.createElement("div"); placeholder.className = "youtube-placeholder";
-      const icon = document.createElement("span"); icon.textContent = "♪"; const title = document.createElement("strong"); title.textContent = "等待管理員加入 YouTube 連結"; const note = document.createElement("small"); note.textContent = "題目仍可先行練習及核對。"; placeholder.append(icon, title, note); shell.replaceChildren(placeholder);
+      const icon = document.createElement("span"); icon.append(songIcon("music")); const title = document.createElement("strong"); title.textContent = "等待管理員加入歌曲音訊"; const note = document.createElement("small"); note.textContent = "題目仍可先行練習及核對。"; placeholder.append(icon, title, note); shell.replaceChildren(placeholder);
     }
     $("[data-player-controls]").hidden = true;
     updateFloatingPlayer();
@@ -1444,30 +1946,33 @@
     }
     try {
       state.player.playVideo();
-      if (fromCountdown) window.setTimeout(() => { if (state.playerState !== window.YT?.PlayerState?.PLAYING) $("[data-autoplay-note]").hidden = false; }, 1200);
+      if (fromCountdown) window.setTimeout(() => { if (state.playerState !== 1) $("[data-autoplay-note]").hidden = false; }, 1200);
     } catch { $("[data-autoplay-note]").hidden = false; }
   }
 
   function pausePlayer() { try { state.player?.pauseVideo?.(); } catch { /* Best effort. */ } }
   function togglePlayer() {
     if (!state.playerReady) return;
-    if (state.playerState === window.YT?.PlayerState?.PLAYING) pausePlayer(); else playPlayer();
+    const playing=state.playerState!==1;
+    if (!playing) pausePlayer(); else playPlayer();
+    setTimeout(()=>publishRoomMedia(playing),100);
   }
   function seekPlayer(delta) {
     if (!state.playerReady) return;
-    try { const current = Number(state.player.getCurrentTime()) || 0; const duration = Number(state.player.getDuration()) || Infinity; state.player.seekTo(clamp(current + delta, 0, duration), true); } catch { /* Player may be transitioning. */ }
+    try { const current = Number(state.player.getCurrentTime()) || 0; const duration = Number(state.player.getDuration()) || Infinity; state.player.seekTo(clamp(current + delta, 0, duration), true);setTimeout(publishRoomMedia,100); } catch { /* Player may be transitioning. */ }
   }
-  function seekPlayerTo(value) { if(!state.playerReady)return;try{state.player.seekTo(clamp(Number(value),0,Number(state.player.getDuration())||0),true);syncLyricsToPlayback();}catch{/* Player may be transitioning. */} }
-  function relisten() { if (!state.playerReady) return; try { state.player.seekTo(0, true); state.player.playVideo(); $("[data-autoplay-note]").hidden = true; } catch { /* Best effort. */ } }
+  function seekPlayerTo(value) { if(!state.playerReady)return;try{state.player.seekTo(clamp(Number(value),0,Number(state.player.getDuration())||0),true);syncLyricsToPlayback();clearTimeout(classroom.seekTimer);classroom.seekTimer=setTimeout(publishRoomMedia,150);}catch{/* Player may be transitioning. */} }
+  function relisten() { if (!state.playerReady) return; try { state.player.seekTo(0, true); state.player.playVideo(); $("[data-autoplay-note]").hidden = true;setTimeout(()=>publishRoomMedia(true),100); } catch { /* Best effort. */ } }
 
   async function enterAdmin() {
     showAuthenticatedHeader(state.session);
     showView("admin");
     setConnection("online", "管理模式");
     try {
+      await loadLessonExtras();
       const rows = await rpc(CONFIG.rpc.adminListSongs, { p_admin_token: state.session.token });
       state.adminSongs = asArray(rows)
-        .map(row => normalizeSong(row.song || row, { includeAnswers: true }))
+        .map(row => normalizeSong(withLessonExtras(row), { includeAnswers: true }))
         .map(song => validateSong(song, { requireAnswers: true }))
         .sort((a, b) => a.sortOrder - b.sortOrder || a.title.localeCompare(b.title));
       renderAdminSongList();
@@ -1490,9 +1995,12 @@
     form.elements.title.value = song.title || "";
     form.elements.singer.value = song.singer || "";
     form.elements.exerciseName.value = song.exerciseName || "";
-    form.elements.youtubeUrl.value = song.youtubeUrl || "";
+    form.elements.coverUrl.value = song.coverUrl || "";
+    form.elements.audioUrl.value = song.audioUrl || "";
+    form.elements.coverFile.value = "";
     form.elements.tags.value = song.tags.join(", ");
     form.elements.description.value = song.description || "";
+    $("[data-intro-editor]").replaceChildren(safeIntroduction(song.description || ""));
     form.elements.published.checked = song.published !== false;
     form.elements.sortOrder.value = String(song.sortOrder || 0);
     $("[data-admin-form-title]").textContent = song.id ? `編輯：${song.title}` : "新增歌曲";
@@ -1517,18 +2025,34 @@
   }
 
   function updateAdminYouTubePreview() {
-    const input = $("[data-song-form]").elements.youtubeUrl;
-    const id = youtubeVideoId(input.value);
-    const status = $("[data-youtube-validation]"); const preview = $("[data-youtube-preview]");
-    input.setCustomValidity(input.value.trim() && !id ? "請貼上有效的 YouTube 連結。" : "");
-    status.textContent = input.value.trim() && !id ? "未能辨認這個 YouTube 連結。" : id ? "已辨認影片；縮圖會自動顯示。" : "留空亦可，稍後再加入。";
-    preview.replaceChildren(); preview.hidden = !id;
-    if (id) { const image = new Image(); image.src = `https://i.ytimg.com/vi/${id}/hqdefault.jpg`; image.alt = "YouTube 影片縮圖預覽"; image.referrerPolicy = "no-referrer"; preview.append(image); }
+    const form = $("[data-song-form]"), preview = $("[data-youtube-preview]");
+    const source = safeMediaUrl(form.elements.coverUrl.value, true);
+    preview.replaceChildren(); preview.hidden = !source;
+    if (source) { const image = new Image(); image.src = source; image.alt = "專輯封面預覽"; preview.append(image); }
+  }
+  async function importAlbumCover(event) {
+    const file = event.target.files?.[0]; if (!file) return;
+    if (!/^image\/(jpeg|png|webp)$/.test(file.type) || file.size > 10 * 1024 * 1024) { toast("請選擇 10 MB 以下的 JPG、PNG 或 WebP 圖片。", "error"); return; }
+    const form = event.target.form, songId = form.elements.id.value;
+    const url = URL.createObjectURL(file);
+    try {
+      const image = new Image(); image.src = url; await image.decode();
+      const scale = Math.min(1, 720 / Math.max(image.width, image.height));
+      const canvas = document.createElement("canvas"); canvas.width = Math.round(image.width * scale); canvas.height = Math.round(image.height * scale); canvas.getContext("2d").drawImage(image, 0, 0, canvas.width, canvas.height);
+      const data = canvas.toDataURL("image/webp", .85);
+      if (data.length > 750000) throw new Error("圖片內容太大，請使用較小的封面。");
+      if (form.elements.id.value !== songId) return;
+      form.elements.coverUrl.value = data; updateAdminYouTubePreview();
+    } catch (error) { toast(error.message || "未能讀取圖片。", "error"); } finally { URL.revokeObjectURL(url); }
   }
 
   async function saveAdminSong(event) {
     event.preventDefault();
     const form = event.currentTarget;
+    for (const [name, image] of [["coverUrl", true], ["audioUrl", false]]) {
+      const input = form.elements[name];
+      input.setCustomValidity(input.value.trim() && !safeMediaUrl(input.value, image) ? "請使用 EdmundEducation 的媒體網址；封面亦可直接上載。" : "");
+    }
     if (!form.reportValidity()) return;
     const existing = state.adminSong;
     const id = normalizeSpace(form.elements.id.value) || null;
@@ -1538,8 +2062,10 @@
       title: normalizeSpace(form.elements.title.value),
       singer: normalizeSpace(form.elements.singer.value),
       exerciseName: normalizeSpace(form.elements.exerciseName.value),
-      description: text(form.elements.description.value).trim(),
-      youtubeUrl: text(form.elements.youtubeUrl.value).trim(),
+      description: introductionValue(),
+      youtubeUrl: existing?.youtubeUrl || "",
+      cover_url: form.elements.coverUrl.value.trim(),
+      audio_url: form.elements.audioUrl.value.trim(),
       tags: text(form.elements.tags.value).split(",").map(normalizeSpace).filter(Boolean),
       published: form.elements.published.checked,
       sortOrder: Number(form.elements.sortOrder.value) || 0,
@@ -1548,23 +2074,10 @@
     };
     const status = $("[data-admin-save-status]"); status.textContent = "正在儲存⋯";
     try {
-      const row = firstRow(await rpc(CONFIG.rpc.adminUpsertSong, {
-        p_admin_token: state.session.token,
-        p_id: payload.id,
-        p_slug: payload.slug,
-        p_title: payload.title,
-        p_singer: payload.singer,
-        p_exercise_name: payload.exerciseName,
-        p_description: payload.description,
-        p_youtube_url: payload.youtubeUrl || null,
-        p_tags: payload.tags,
-        p_translations: payload.translations,
-        p_exercises: payload.modes,
-        p_published: payload.published,
-        p_sort_order: payload.sortOrder
-      }));
+      const row = firstRow(await rpc("song_appreciation_admin_save_lesson", {p_admin_token: state.session.token, p_details:payload}));
       if (!row?.id) throw new Error("資料服務未確認歌曲已儲存。");
-      const saved = validateSong(normalizeSong(row.song || row, { includeAnswers: true }), { requireAnswers: true });
+      state.lessonExtras[row.id] = row;
+      const saved = validateSong(normalizeSong(withLessonExtras(row), { includeAnswers: true }), { requireAnswers: true });
       state.adminSongs = state.adminSongs.some(item => item.id === saved.id) ? state.adminSongs.map(item => item.id === saved.id ? saved : item) : [...state.adminSongs, saved];
       state.adminSong = saved; renderAdminSongList(); fillAdminForm(saved); status.textContent = "已儲存"; toast("歌曲資料已儲存。");
       if (saved.id) await selectAdminSong(saved.id);
@@ -1594,10 +2107,20 @@
   }
 
   function bindInteractions() {
+    const editor=$("[data-intro-editor]");
+    editor.addEventListener("input",()=>{editor.closest("form").elements.description.value=introductionValue();});
+    $$("[data-intro-command],[data-intro-color]").forEach(button=>{
+      button.addEventListener("mousedown",event=>event.preventDefault());
+      button.addEventListener("click",()=>{editor.focus();document.execCommand(button.dataset.introColor?"hiliteColor":button.dataset.introCommand,false,button.dataset.introColor||null);editor.closest("form").elements.description.value=introductionValue();});
+    });
+    $("[data-word-search]").addEventListener("input",()=>{state.wordPage=0;renderBigData();});
+    $("[data-word-sort]").addEventListener("click",()=>{state.wordAscending=!state.wordAscending;state.wordPage=0;renderBigData();});
+    $("[data-open-tags]").addEventListener("click", openTagPicker);
     $("[data-logout]").addEventListener("click", logout);
     $$("[data-route]").forEach(button => button.addEventListener("click", () => routeStudent(button.dataset.route)));
     $$("[data-song-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.songTab)));
     $$("[data-open-tab]").forEach(button => button.addEventListener("click", () => switchSongTab(button.dataset.openTab)));
+    $("[data-song-sort]").addEventListener("change", renderLibrary);
     $("[data-song-search]").addEventListener("input", event => { $("[data-clear-search]").hidden = !event.target.value; renderLibrary(); });
     $("[data-clear-search]").addEventListener("click", () => { $("[data-song-search]").value = ""; $("[data-clear-search]").hidden = true; renderLibrary(); $("[data-song-search]").focus(); });
     $("[data-dashboard-toggle]").addEventListener("click", () => setDashboardExpanded($("[data-dashboard-toggle]").getAttribute("aria-expanded") !== "true"));
@@ -1608,6 +2131,10 @@
     const floating=$('[data-player-controls]').cloneNode(true);floating.removeAttribute('data-player-controls');floating.dataset.floatingPlayer='';floating.classList.add('floating-song-controls');floating.hidden=true;document.body.append(floating);
     $$('[data-player-toggle]').forEach(button=>button.addEventListener('click',togglePlayer));
     $$('[data-restart-song]').forEach(button=>button.addEventListener('click',relisten));
+    $$('[data-speed-trigger]').forEach(button=>button.addEventListener('click',()=>openSpeedPicker(button)));
+    document.addEventListener('pointerdown',event=>{if(!event.target.closest('.speed-menu,[data-speed-trigger]'))closeSpeedPicker();});
+    window.addEventListener('resize',()=>closeSpeedPicker());
+    window.addEventListener('wheel',()=>closeSpeedPicker(),{passive:true});
     $$('[data-playback-rate]').forEach(select=>select.addEventListener('change',()=>setPlaybackRate(select.value)));
     $$('[data-player-timeline]').forEach(input=>input.addEventListener('input',()=>seekPlayerTo(input.value)));
     window.addEventListener('scroll',updateFloatingPlayer,{passive:true});window.addEventListener('resize',updateFloatingPlayer);
@@ -1629,7 +2156,8 @@
     $("[data-new-song]").addEventListener("click", newAdminSong);
     $("[data-admin-song-search]").addEventListener("input", renderAdminSongList);
     $("[data-song-form]").addEventListener("submit", saveAdminSong);
-    $("[data-song-form]").elements.youtubeUrl.addEventListener("input", updateAdminYouTubePreview);
+    $("[data-song-form]").elements.coverFile.addEventListener("change", importAlbumCover);
+    $("[data-song-form]").elements.coverUrl.addEventListener("input", updateAdminYouTubePreview);
     $("[data-archive-song]").addEventListener("click", () => { const form = $("[data-song-form]"); form.elements.published.checked = false; form.requestSubmit(); });
     $("[data-student-access-search]").addEventListener("input", renderStudentAccess);
     document.addEventListener("visibilitychange", () => { if(document.hidden){pausePlayer();void flushPlayback();} if (!state.exercise || state.exercise.submitted) return; if (document.hidden) {pauseExerciseClock();storeLocalDraft();void flushDraft().catch(()=>{});} else if (state.activeRoute === "song" && state.activeTab === "exercise") startExerciseClock(); });
@@ -1661,6 +2189,143 @@
       offerUniversalSession();
     }
   }
+
+  const classroom={devices:0,device:crypto.randomUUID(),joined:null,room:null,revision:-1,busy:false,joining:false,commands:0,chain:Promise.resolve(),next:0,token:null};
+  function roomMatches(){return classroom.joined&&classroom.room?.id===classroom.joined&&state.activeRoute==='song'&&state.exercise?.songId===classroom.room.song&&state.exercise?.mode.id===classroom.room.mode;}
+  async function roomRequest(action='poll',extra={}){
+    const token=state.session?.token;
+    if(!token||state.session?.role!=='student')throw Error('請先登入');
+    if(action!=='poll')classroom.epoch=(classroom.epoch||0)+1;
+    if(classroom.token!==token){
+      const key=`edmund-song-device:${token}`;
+      try{classroom.device=sessionStorage.getItem(key)||crypto.randomUUID();sessionStorage.setItem(key,classroom.device);}catch{classroom.device=crypto.randomUUID();}
+      classroom.devices=0;
+    }
+    classroom.token=token;
+    await readLiveExercise(null); // Establish the authenticated transport, without reading a draft.
+    const {data,error}=await liveClient.rpc('song_appreciation_room',{p_token:token,p_device:classroom.device,p_action:action,p_session:classroom.joined,...extra}).abortSignal(AbortSignal.timeout(15000));
+    if(error)throw error;if(token!==state.session?.token)throw Error('登入已變更');
+    if(data?.ejected){
+      pauseExerciseClock();storeLocalDraft();classroom.joined=null;classroom.room=null;classroom.devices=0;
+      await logout(true);renderClassroom();toast('另一部裝置已中斷本機連線，請重新登入。','error');
+      throw Error('本機已中斷連線');
+    }
+    return data;
+  }
+  function renderClassroom(message){
+    let bar=$('[data-classroom-bar]');if(!bar){bar=document.createElement('aside');bar.dataset.classroomBar='';bar.className='song-classroom-bar';bar.setAttribute('aria-label','同步課堂');document.body.append(bar);}
+    bar.hidden=state.session?.role!=='student'||classroom.token!==state.session?.token||classroom.devices<=1;if(bar.hidden)return;
+    const r=classroom.room;const signature=JSON.stringify([r?.id,Boolean(roomMatches()),classroom.devices,message]);if(bar.dataset.signature===signature)return;bar.dataset.signature=signature;bar.replaceChildren();const label=document.createElement('span');label.setAttribute('role','status');label.textContent=message||(r?(roomMatches()?'已加入同步課堂 · 雙方可作答及控制音樂':'另一裝置已開始練習，請加入同一課堂'):'同步課堂已連線 · 選擇難度開始練習');bar.append(label);
+    bar.append(makeButton('中斷其他裝置連線',async()=>{
+      if(!confirm('中斷其他裝置的歌曲練習連線？已儲存的進度會保留。'))return;
+      storeLocalDraft();
+      try{await flushDraft();}catch{ /* Recovery must remain available during a draft conflict. */ }
+      try{acceptRoom(await roomRequest('eject'));toast('其他裝置已中斷連線。');}catch(e){toast(e.message,'error');}
+    },'secondary-button'));
+    if(r&&!roomMatches())bar.append(makeButton('加入練習',()=>void joinClassroom(),'primary-button'));
+    if(roomMatches()){
+      bar.append(makeButton('開啟本機聲音',()=>{applyRoomMedia(true);},'secondary-button'));
+      bar.append(makeButton('結束同步課堂',async()=>{if(!confirm('結束兩部裝置的同步課堂？已儲存的答案會保留。'))return;try{await flushDraft();const data=await roomRequest('end');acceptRoom(data);}catch(e){renderClassroom(e.message);}},'secondary-button'));
+    }
+  }
+  function acceptRoom(data){
+    classroom.devices=Number(data.devices)||0;
+    classroom.room=data.session;
+    if(classroom.joined&&classroom.joined!==data.session?.id){classroom.joined=null;classroom.revision=-1;cancelReadCountdown();}
+    renderClassroom(!data.session&&data.devices>1?`${data.devices} 部裝置已連線 · 由學生選擇難度開始，另一部裝置再加入`:undefined);
+    applyRoomMedia();
+  }
+  function applyRoomMedia(force=false){
+    const r=classroom.room,m=r?.media;
+    if(!roomMatches()||!m||!state.playerReady||classroom.commands||(!force&&r.revision<=classroom.revision))return;
+    classroom.revision=r.revision;
+    const elapsed=Math.max(0,(Date.now()-(classroom.serverOffset||0)-Date.parse(m.at))/1000);
+    const position=Math.min(Number(state.player.getDuration())||86400,Number(m.position)+(m.playing?elapsed*Number(m.rate):0));
+    window.clearInterval(state.countdownTimer);state.countdownTimer=0;$('[data-countdown]').hidden=true;
+    if(state.exercise.locked){state.exercise.locked=false;renderExerciseQuestions();}
+    try{state.player.setPlaybackRate?.(Number(m.rate));state.player.seekTo(position,true);if(m.playing){state.player.playVideo();setTimeout(()=>{if(roomMatches()&&state.playerState!==1)renderClassroom('瀏覽器尚未允許聲音，請按「開啟本機聲音」。');},1200);}else state.player.pauseVideo();}catch{renderClassroom('請按「開啟本機聲音」啟用播放。');}
+  }
+  function publishRoomMedia(intent){
+    if(!roomMatches()||!state.playerReady)return;
+    const token=state.session.token,session=classroom.joined;
+    const media={position:Number(state.player.getCurrentTime())||0,playing:typeof intent==='boolean'?intent:state.playerState===1,rate:Number(state.player.getPlaybackRate?.())||1};
+    classroom.commands++;
+    classroom.chain=classroom.chain.catch(()=>{}).then(async()=>{
+      if(token!==state.session?.token||session!==classroom.joined)return;
+      const data=await roomRequest('media',{p_session:session,p_media:media});classroom.revision=Math.max(classroom.revision,data.session?.revision||0);classroom.room=data.session;
+    }).catch(()=>renderClassroom('音樂控制尚未同步，請檢查連線後再按一次。')).finally(()=>{classroom.commands--;});
+  }
+  async function joinClassroom(){
+    if(classroom.joining||!classroom.room)return;classroom.joining=true;
+    const target=classroom.room;
+    try{
+      if(state.exercise?.dirty)await flushDraft();
+      const data=await roomRequest('join',{p_session:target.id});classroom.joined=target.id;classroom.room=data.session;classroom.revision=-1;
+      await openSong(target.song,'exercise');
+      if(state.activeSong?.id!==target.song)throw Error('無法開啟課堂歌曲');
+      const rows=await rpc(CONFIG.rpc.listDrafts,{p_student_token:state.session.token});state.drafts=Object.fromEntries(asArray(rows).map(row=>[draftIdentity(row.song_id,row.mode_id),row]));
+      await startExercise(target.mode,true);renderClassroom();applyRoomMedia(true);
+    }catch(e){classroom.joined=null;renderClassroom(e.message);}finally{classroom.joining=false;}
+  }
+  async function pollClassroom(){
+    if(classroom.busy||classroom.joining||document.hidden||Date.now()<classroom.next)return;
+    if(state.session?.role!=='student'){classroom.devices=0;classroom.joined=null;classroom.room=null;renderClassroom();return;}
+    if(classroom.token!==state.session.token){classroom.devices=0;classroom.joined=null;classroom.room=null;classroom.revision=-1;}
+    classroom.busy=true;
+    try{const epoch=classroom.epoch,begin=Date.now(),data=await roomRequest();if(epoch!==classroom.epoch)return;classroom.serverOffset=(begin+Date.now())/2-Date.parse(data.server_time);acceptRoom(data);classroom.next=Date.now()+(roomMatches()?500:2000);}
+    catch{classroom.next=Date.now()+5000;renderClassroom('同步連線中斷 · 暫時無法開始或加入課堂');}
+    finally{classroom.busy=false;}
+  }
+  document.addEventListener('visibilitychange',()=>{if(!document.hidden){classroom.revision=-1;classroom.next=0;}});
+  setInterval(()=>void pollClassroom(),250);
+
+  async function readLiveExercise(args) {
+    liveClient ||= window.supabase.createClient(SUPABASE.url,SUPABASE.anonKey,{auth:{persistSession:true,storage:sessionStorage,storageKey:'edmund-song-live-auth-v1',autoRefreshToken:true,detectSessionInUrl:false}});
+    const session=await liveClient.auth.getSession();if(session.error)throw session.error;
+    if(!session.data?.session){const login=await liveClient.auth.signInAnonymously();if(login.error)throw login.error;}
+    if(!args)return;
+    const {data,error}=await liveClient.rpc('song_appreciation_live_snapshot',args).abortSignal(AbortSignal.timeout(15000));
+    if(error)throw error;return data;
+  }
+  function applyLiveExercise(payload) {
+    const e=state.exercise,d=payload?.draft;
+    if(!e||!d||d.song_id!==e.songId||d.mode_id!==e.mode.id||d.exercise_version!==e.mode.version)return true;
+    // Preserve unsaved local answers and existing conflict/retry handling.
+    if(e.dirty||e.pendingDraft||e.savePromise||e.submitting||e.checking||e.pendingSubmission&&!e.submitted||e.conflict)return false;
+    if(Number(d.revision)<e.revision)return true;
+    const answers=d.answers||{},results=d.result||{};
+    for(const [number,value] of Object.entries(answers)){const q=e.mode.questions.find(q=>String(q.number)===number);if(!q||!q.options.includes(value))return true;}
+    for(const [number,r] of Object.entries(results)){const q=e.mode.questions.find(q=>String(q.number)===number);if(!q||r.selected!==answers[number]||!q.options.includes(r.answer)||typeof r.correct!=='boolean'||r.correct!==(r.selected===r.answer))return true;}
+    const attempt=payload.attempt?validateSavedAttempt(payload.attempt,{attemptId:payload.attempt.id,songId:e.songId,modeId:e.mode.id,exerciseVersion:e.mode.version,questionCount:e.mode.questionCount,questions:e.mode.questions,answers}):null;
+    if(e.revision===Number(d.revision)&&JSON.stringify(e.answers)===JSON.stringify(answers)&&JSON.stringify(e.results)===JSON.stringify(attempt?.results||results)&&e.submitted===Boolean(attempt))return true;
+    e.liveFollowing=true;pauseExerciseClock();
+    clearTimeout(state.draftSaveTimer);state.draftSaveTimer=0;window.clearInterval(state.countdownTimer);state.countdownTimer=0;$('[data-countdown]').hidden=true;
+    Object.assign(e,{answers:{...answers},results:attempt?.results||results,revision:Number(d.revision),startedAt:d.started_at,activeSeconds:Number(d.duration_ms||0)/1000,locked:false,submitted:Boolean(attempt),pendingSubmission:null});
+    state.drafts[draftIdentity(e.songId,e.mode.id)]=d;
+    // Patch choices in place: do not remount media, seek, scroll or rebuild lyrics.
+    e.mode.questions.forEach(q=>{
+      const card=$(`[data-question="${q.number}"]`);if(!card)return;
+      card.classList.toggle('is-answered',Object.hasOwn(e.answers,q.number));card.classList.remove('is-correct','is-incorrect');$('.answer-feedback',card)?.remove();
+      $$('[data-option]',card).forEach(button=>{const selected=button.dataset.option===e.answers[q.number];button.classList.toggle('is-selected',selected);button.classList.remove('is-correct','is-wrong');button.setAttribute('aria-checked',String(selected));button.disabled=e.submitted||Boolean(e.results[q.number]);});
+    });
+    applyCheckedResults();updateExerciseProgress();
+    $('[data-result-card]').hidden=!attempt;
+    if(attempt){
+      // revealServerResult also adds feedback, so remove the partial-check labels first.
+      $$('.answer-feedback',$('[data-lyrics-exercise]')).forEach(node=>node.remove());revealServerResult(e,attempt);
+      if(!state.attempts.some(row=>row.id===attempt.id))state.attempts.unshift({...attempt,songTitle:state.activeSong.title});
+      renderAttempts();renderDashboard();
+    }
+    renderLibrary();setDraftStatus('已同步另一裝置的進度');return true;
+  }
+  import('./song-appreciation-live.mjs?v=20261029-1').then(({createSongLiveSync})=>{
+    liveSync=createSongLiveSync({
+      context:()=>({owner:state.session?.role==='student'?state.session.id:null,token:state.session?.token,
+        song:state.activeRoute==='song'&&state.activeTab==='exercise'?state.exercise?.songId:null,
+        mode:state.exercise?.mode.id,version:state.exercise?.mode.version,playing:state.playerState===1&&!state.exercise?.submitted}),
+      rpc:readLiveExercise,apply:applyLiveExercise
+    });
+  }).catch(error=>console.warn('Song live synchronization unavailable',error));
 
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", boot, { once: true });
   else boot();

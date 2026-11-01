@@ -1,0 +1,4551 @@
+{
+  "slug": "wake-me-up",
+  "title": "Wake Me Up",
+  "singer": "Avicii",
+  "translations": [
+    {
+      "english": "Feeling my way through the darkness",
+      "chinese": "我在黑暗中摸索著前行的道路",
+      "lineId": "line-1",
+      "startSeconds": 8.5,
+      "endSeconds": 11.78
+    },
+    {
+      "english": "Guided by a beating heart",
+      "chinese": "只憑胸中那顆跳動的心，引領我前進",
+      "lineId": "line-2",
+      "startSeconds": 11.78,
+      "endSeconds": 15.0
+    },
+    {
+      "english": "I can't tell where the journey will end",
+      "chinese": "我無法預知這段旅程最終將通往何方",
+      "lineId": "line-3",
+      "startSeconds": 15.0,
+      "endSeconds": 19.92
+    },
+    {
+      "english": "But I know where to start",
+      "chinese": "但我知道自己該從何處啟程",
+      "lineId": "line-4",
+      "startSeconds": 19.92,
+      "endSeconds": 23.0
+    },
+    {
+      "english": "They tell me I'm too young to understand",
+      "chinese": "他們說我年紀太輕，還不懂得世事",
+      "lineId": "line-5",
+      "startSeconds": 23.9,
+      "endSeconds": 27.38
+    },
+    {
+      "english": "They say I'm caught up in a dream",
+      "chinese": "他們說我沉醉於夢想之中，無法自拔",
+      "lineId": "line-6",
+      "startSeconds": 27.38,
+      "endSeconds": 30.62
+    },
+    {
+      "english": "Well life will pass me by if I don't open up my eyes",
+      "chinese": "可若我不睜開雙眼，人生便會從我身旁悄然流逝",
+      "lineId": "line-7",
+      "startSeconds": 31.7,
+      "endSeconds": 36.06
+    },
+    {
+      "english": "Well that's fine by me",
+      "chinese": "不過，即使如此，我也甘之如飴",
+      "lineId": "line-8",
+      "startSeconds": 36.52,
+      "endSeconds": 38.2
+    },
+    {
+      "english": "So wake me up when it's all over",
+      "chinese": "那麼，待這一切都結束時，再將我喚醒吧",
+      "lineId": "line-9",
+      "startSeconds": 38.2,
+      "endSeconds": 42.0
+    },
+    {
+      "english": "When I'm wiser and I'm older",
+      "chinese": "待我年歲漸長，也變得更加睿智之時",
+      "lineId": "line-10",
+      "startSeconds": 42.0,
+      "endSeconds": 45.84
+    },
+    {
+      "english": "All this time I was finding myself",
+      "chinese": "原來這一路走來，我始終都在尋找自己",
+      "lineId": "line-11",
+      "startSeconds": 45.84,
+      "endSeconds": 49.8
+    },
+    {
+      "english": "And I didn't know I was lost",
+      "chinese": "卻從未察覺，自己早已迷失了方向",
+      "lineId": "line-12",
+      "startSeconds": 49.8,
+      "endSeconds": 53.98
+    },
+    {
+      "english": "So wake me up when it's all over",
+      "chinese": "那麼，待這一切都結束時，再將我喚醒吧",
+      "lineId": "line-13",
+      "startSeconds": 53.98,
+      "endSeconds": 57.48
+    },
+    {
+      "english": "When I'm wiser and I'm older",
+      "chinese": "待我年歲漸長，也變得更加睿智之時",
+      "lineId": "line-14",
+      "startSeconds": 57.48,
+      "endSeconds": 61.56
+    },
+    {
+      "english": "All this time I was finding myself",
+      "chinese": "原來這一路走來，我始終都在尋找自己",
+      "lineId": "line-15",
+      "startSeconds": 61.56,
+      "endSeconds": 65.26
+    },
+    {
+      "english": "And I didn't know I was lost",
+      "chinese": "卻從未察覺，自己早已迷失了方向",
+      "lineId": "line-16",
+      "startSeconds": 65.26,
+      "endSeconds": 69.44
+    },
+    {
+      "english": "I tried carrying the weight of the world",
+      "chinese": "我曾試著將整個世界的重擔扛在肩上",
+      "lineId": "line-17",
+      "startSeconds": 116.8,
+      "endSeconds": 120.34
+    },
+    {
+      "english": "But I only have two hands",
+      "chinese": "可我終究只有一雙手",
+      "lineId": "line-18",
+      "startSeconds": 120.34,
+      "endSeconds": 124.0
+    },
+    {
+      "english": "Hope I get the chance to travel the world",
+      "chinese": "但願有朝一日，我能有機會走遍世界",
+      "lineId": "line-19",
+      "startSeconds": 124.0,
+      "endSeconds": 128.16
+    },
+    {
+      "english": "But I don't have any plans",
+      "chinese": "儘管此刻，我還沒有任何具體的計畫",
+      "lineId": "line-20",
+      "startSeconds": 128.16,
+      "endSeconds": 132.2
+    },
+    {
+      "english": "Wish that I could stay forever this young",
+      "chinese": "多希望自己能永遠停留在這般年少的時光",
+      "lineId": "line-21",
+      "startSeconds": 132.2,
+      "endSeconds": 136.32
+    },
+    {
+      "english": "Not afraid to close my eyes",
+      "chinese": "不必害怕閉上雙眼，坦然迎向未知",
+      "lineId": "line-22",
+      "startSeconds": 136.32,
+      "endSeconds": 139.6
+    },
+    {
+      "english": "Life's a game made for everyone",
+      "chinese": "人生是一場為每個人而設的遊戲",
+      "lineId": "line-23",
+      "startSeconds": 140.2,
+      "endSeconds": 143.44
+    },
+    {
+      "english": "And love is the prize",
+      "chinese": "而愛，便是這場遊戲最珍貴的獎賞",
+      "lineId": "line-24",
+      "startSeconds": 144.2,
+      "endSeconds": 146.74
+    },
+    {
+      "english": "So wake me up when it's all over",
+      "chinese": "那麼，待這一切都結束時，再將我喚醒吧",
+      "lineId": "line-25",
+      "startSeconds": 146.74,
+      "endSeconds": 150.34
+    },
+    {
+      "english": "When I'm wiser and I'm older",
+      "chinese": "待我年歲漸長，也變得更加睿智之時",
+      "lineId": "line-26",
+      "startSeconds": 151.2,
+      "endSeconds": 154.2
+    },
+    {
+      "english": "All this time I was finding myself",
+      "chinese": "原來這一路走來，我始終都在尋找自己",
+      "lineId": "line-27",
+      "startSeconds": 155.09,
+      "endSeconds": 158.22
+    },
+    {
+      "english": "And I didn't know I was lost",
+      "chinese": "卻從未察覺，自己早已迷失了方向",
+      "lineId": "line-28",
+      "startSeconds": 158.22,
+      "endSeconds": 162.14
+    },
+    {
+      "english": "So wake me up when it's all over",
+      "chinese": "那麼，待這一切都結束時，再將我喚醒吧",
+      "lineId": "line-29",
+      "startSeconds": 162.14,
+      "endSeconds": 166.0
+    },
+    {
+      "english": "When I'm wiser and I'm older",
+      "chinese": "待我年歲漸長，也變得更加睿智之時",
+      "lineId": "line-30",
+      "startSeconds": 166.0,
+      "endSeconds": 169.84
+    },
+    {
+      "english": "All this time I was finding myself",
+      "chinese": "原來這一路走來，我始終都在尋找自己",
+      "lineId": "line-31",
+      "startSeconds": 170.98,
+      "endSeconds": 173.68
+    },
+    {
+      "english": "And I didn't know I was lost",
+      "chinese": "卻從未察覺，自己早已迷失了方向",
+      "lineId": "line-32",
+      "startSeconds": 173.68,
+      "endSeconds": 178.24
+    },
+    {
+      "english": "Didn't know I was lost",
+      "chinese": "不曾察覺自己早已迷失方向",
+      "lineId": "line-33",
+      "startSeconds": 179.48,
+      "endSeconds": 182.1
+    },
+    {
+      "english": "I didn't know I was lost",
+      "chinese": "我從未察覺自己早已迷失方向",
+      "lineId": "line-34",
+      "startSeconds": 182.1,
+      "endSeconds": 185.58
+    },
+    {
+      "english": "I didn't know I was lost",
+      "chinese": "我從未察覺自己早已迷失方向",
+      "lineId": "line-35",
+      "startSeconds": 186.48,
+      "endSeconds": 189.86
+    },
+    {
+      "english": "I didn't know (didn't know, didn't know)",
+      "chinese": "我從未察覺（從未察覺，從未察覺）",
+      "lineId": "line-36"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Feeling my way",
+          "options": [
+            "Feeling my way",
+            "Finding my place",
+            "Following the road"
+          ],
+          "prompt": "{{blank}} through the darkness",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "a beating heart",
+          "options": [
+            "a steady drum",
+            "a beating heart",
+            "a broken heart"
+          ],
+          "prompt": "Guided by {{blank}}",
+          "promptZh": "只憑胸中那顆跳動的心，引領我前進"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "the journey will end",
+          "options": [
+            "the road will bend",
+            "the story will change",
+            "the journey will end"
+          ],
+          "prompt": "I can't tell where {{blank}}",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "too young to understand",
+          "options": [
+            "too young to understand",
+            "too tired to carry on",
+            "too scared to take a chance"
+          ],
+          "prompt": "They tell me I'm {{blank}}",
+          "promptZh": "他們說我年紀太輕，還不懂得世事"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "caught up in a dream",
+          "options": [
+            "caught up in a dream",
+            "stuck inside a memory",
+            "lost in all the noise"
+          ],
+          "prompt": "They say I'm {{blank}}",
+          "promptZh": "他們說我沉醉於夢想之中，無法自拔"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "life will pass me by",
+          "options": [
+            "love will carry me",
+            "life will pass me by",
+            "time will set me free"
+          ],
+          "prompt": "Well {{blank}} if I don't open up my eyes",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-8",
+          "answer": "that's fine by me",
+          "options": [
+            "that's news to me",
+            "that's hard for me",
+            "that's fine by me"
+          ],
+          "prompt": "Well {{blank}}",
+          "promptZh": "不過，即使如此，我也甘之如飴"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-9",
+          "answer": "wake me up",
+          "options": [
+            "let me go",
+            "wake me up",
+            "take me home"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-9",
+          "answer": "when it's all over",
+          "options": [
+            "when it's all over",
+            "when the sun rises",
+            "when the night falls"
+          ],
+          "prompt": "So wake me up {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-10",
+          "answer": "wiser and I'm older",
+          "options": [
+            "younger and I'm bolder",
+            "wiser and I'm older",
+            "stronger and I'm braver"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-11",
+          "answer": "finding myself",
+          "options": [
+            "finding myself",
+            "losing my mind",
+            "changing my plans"
+          ],
+          "prompt": "All this time I was {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-12",
+          "answer": "didn't know I was lost",
+          "options": [
+            "couldn't tell I was tired",
+            "never knew I was wrong",
+            "didn't know I was lost"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-17",
+          "answer": "carrying the weight",
+          "options": [
+            "lifting up the sky",
+            "carrying the weight",
+            "running from the pain"
+          ],
+          "prompt": "I tried {{blank}} of the world",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-18",
+          "answer": "only have two hands",
+          "options": [
+            "still have a long way",
+            "never had a choice",
+            "only have two hands"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我終究只有一雙手"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-19",
+          "answer": "travel the world",
+          "options": [
+            "climb every mountain",
+            "follow the river",
+            "travel the world"
+          ],
+          "prompt": "Hope I get the chance to {{blank}}",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-20",
+          "answer": "don't have any plans",
+          "options": [
+            "won't take any chances",
+            "don't have any plans",
+            "can't find any answers"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "儘管此刻，我還沒有任何具體的計畫"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-21",
+          "answer": "stay forever this young",
+          "options": [
+            "stay forever this young",
+            "live forever alone",
+            "run away from this town"
+          ],
+          "prompt": "Wish that I could {{blank}}",
+          "promptZh": "多希望自己能永遠停留在這般年少的時光"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-22",
+          "answer": "close my eyes",
+          "options": [
+            "close my eyes",
+            "change my mind",
+            "raise my hands"
+          ],
+          "prompt": "Not afraid to {{blank}}",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "made for everyone",
+          "options": [
+            "built for the fearless",
+            "played by the winners",
+            "made for everyone"
+          ],
+          "prompt": "Life's a game {{blank}}",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "love is the prize",
+          "options": [
+            "time is the enemy",
+            "love is the prize",
+            "hope is the answer"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而愛，便是這場遊戲最珍貴的獎賞"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} through the darkness"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Guided by {{q:2}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "I can't tell where {{q:3}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I know where to start"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "They tell me I'm {{q:4}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "They say I'm {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Well {{q:6}} if I don't open up my eyes"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Well {{q:7}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When I'm {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All this time I was {{q:11}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I {{q:12}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So wake me up when it's all over"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "When I'm wiser and I'm older"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "All this time I was finding myself"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I tried {{q:13}} of the world"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But I {{q:14}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Hope I get the chance to {{q:15}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But I {{q:16}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Wish that I could {{q:17}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Not afraid to {{q:18}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Life's a game {{q:19}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And {{q:20}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So wake me up when it's all over"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When I'm wiser and I'm older"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All this time I was finding myself"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So wake me up when it's all over"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "When I'm wiser and I'm older"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All this time I was finding myself"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Didn't know I was lost"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I didn't know I was lost"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I didn't know I was lost"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I didn't know (didn't know, didn't know)"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Feeling my way",
+          "options": [
+            "Feeling my way",
+            "Following the road",
+            "Finding my place"
+          ],
+          "prompt": "{{blank}} through the darkness",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "through the darkness",
+          "options": [
+            "into the daylight",
+            "through the darkness",
+            "across the ocean"
+          ],
+          "prompt": "Feeling my way {{blank}}",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "a beating heart",
+          "options": [
+            "a steady drum",
+            "a beating heart",
+            "a broken heart"
+          ],
+          "prompt": "Guided by {{blank}}",
+          "promptZh": "只憑胸中那顆跳動的心，引領我前進"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-3",
+          "answer": "I can't tell",
+          "options": [
+            "I can't tell",
+            "I don't care",
+            "I can't wait"
+          ],
+          "prompt": "{{blank}} where the journey will end",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "the journey will end",
+          "options": [
+            "the road will bend",
+            "the journey will end",
+            "the story will change"
+          ],
+          "prompt": "I can't tell where {{blank}}",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-4",
+          "answer": "where to start",
+          "options": [
+            "where to start",
+            "when to leave",
+            "how to stop"
+          ],
+          "prompt": "But I know {{blank}}",
+          "promptZh": "但我知道自己該從何處啟程"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-5",
+          "answer": "too young to understand",
+          "options": [
+            "too scared to take a chance",
+            "too tired to carry on",
+            "too young to understand"
+          ],
+          "prompt": "They tell me I'm {{blank}}",
+          "promptZh": "他們說我年紀太輕，還不懂得世事"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-6",
+          "answer": "caught up in a dream",
+          "options": [
+            "caught up in a dream",
+            "lost in all the noise",
+            "stuck inside a memory"
+          ],
+          "prompt": "They say I'm {{blank}}",
+          "promptZh": "他們說我沉醉於夢想之中，無法自拔"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-7",
+          "answer": "life will pass me by",
+          "options": [
+            "life will pass me by",
+            "time will set me free",
+            "love will carry me"
+          ],
+          "prompt": "Well {{blank}} if I don't open up my eyes",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "open up my eyes",
+          "options": [
+            "listen to my heart",
+            "open up my eyes",
+            "follow all the signs"
+          ],
+          "prompt": "Well life will pass me by if I don't {{blank}}",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-8",
+          "answer": "that's fine by me",
+          "options": [
+            "that's news to me",
+            "that's hard for me",
+            "that's fine by me"
+          ],
+          "prompt": "Well {{blank}}",
+          "promptZh": "不過，即使如此，我也甘之如飴"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-9",
+          "answer": "wake me up",
+          "options": [
+            "wake me up",
+            "let me go",
+            "take me home"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "when it's all over",
+          "options": [
+            "when the night falls",
+            "when it's all over",
+            "when the sun rises"
+          ],
+          "prompt": "So wake me up {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-10",
+          "answer": "wiser and I'm older",
+          "options": [
+            "younger and I'm bolder",
+            "stronger and I'm braver",
+            "wiser and I'm older"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-11",
+          "answer": "finding myself",
+          "options": [
+            "changing my plans",
+            "losing my mind",
+            "finding myself"
+          ],
+          "prompt": "All this time I was {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-12",
+          "answer": "didn't know I was lost",
+          "options": [
+            "didn't know I was lost",
+            "never knew I was wrong",
+            "couldn't tell I was tired"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-13",
+          "answer": "wake me up",
+          "options": [
+            "wake me up",
+            "bring me back",
+            "hold me close"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-14",
+          "answer": "wiser and I'm older",
+          "options": [
+            "ready for the future",
+            "stronger than before",
+            "wiser and I'm older"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-15",
+          "answer": "All this time",
+          "options": [
+            "Every morning",
+            "For a moment",
+            "All this time"
+          ],
+          "prompt": "{{blank}} I was finding myself",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-17",
+          "answer": "carrying the weight",
+          "options": [
+            "carrying the weight",
+            "running from the pain",
+            "lifting up the sky"
+          ],
+          "prompt": "I tried {{blank}} of the world",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-17",
+          "answer": "of the world",
+          "options": [
+            "of my dreams",
+            "of the world",
+            "of the night"
+          ],
+          "prompt": "I tried carrying the weight {{blank}}",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-18",
+          "answer": "only have two hands",
+          "options": [
+            "still have a long way",
+            "never had a choice",
+            "only have two hands"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我終究只有一雙手"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-19",
+          "answer": "get the chance",
+          "options": [
+            "get the chance",
+            "make the time",
+            "find the courage"
+          ],
+          "prompt": "Hope I {{blank}} to travel the world",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-19",
+          "answer": "travel the world",
+          "options": [
+            "climb every mountain",
+            "travel the world",
+            "follow the river"
+          ],
+          "prompt": "Hope I get the chance to {{blank}}",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-20",
+          "answer": "don't have any plans",
+          "options": [
+            "won't take any chances",
+            "don't have any plans",
+            "can't find any answers"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "儘管此刻，我還沒有任何具體的計畫"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-21",
+          "answer": "stay forever this young",
+          "options": [
+            "live forever alone",
+            "run away from this town",
+            "stay forever this young"
+          ],
+          "prompt": "Wish that I could {{blank}}",
+          "promptZh": "多希望自己能永遠停留在這般年少的時光"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-22",
+          "answer": "Not afraid",
+          "options": [
+            "Not afraid",
+            "Always waiting",
+            "Never ready"
+          ],
+          "prompt": "{{blank}} to close my eyes",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-22",
+          "answer": "close my eyes",
+          "options": [
+            "change my mind",
+            "raise my hands",
+            "close my eyes"
+          ],
+          "prompt": "Not afraid to {{blank}}",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-23",
+          "answer": "Life's a game",
+          "options": [
+            "Love's a dream",
+            "Life's a game",
+            "Time's a river"
+          ],
+          "prompt": "{{blank}} made for everyone",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "made for everyone",
+          "options": [
+            "built for the fearless",
+            "made for everyone",
+            "played by the winners"
+          ],
+          "prompt": "Life's a game {{blank}}",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-24",
+          "answer": "love is the prize",
+          "options": [
+            "time is the enemy",
+            "hope is the answer",
+            "love is the prize"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而愛，便是這場遊戲最珍貴的獎賞"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-25",
+          "answer": "wake me up",
+          "options": [
+            "take me away",
+            "wake me up",
+            "show me how"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Guided by {{q:3}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:4}} where {{q:5}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I know {{q:6}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "They tell me I'm {{q:7}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "They say I'm {{q:8}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Well {{q:9}} if I don't {{q:10}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Well {{q:11}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So {{q:12}} {{q:13}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When I'm {{q:14}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All this time I was {{q:15}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I {{q:16}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So {{q:17}} when it's all over"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "When I'm {{q:18}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:19}} I was finding myself"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I tried {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But I {{q:22}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Hope I {{q:23}} to {{q:24}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But I {{q:25}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Wish that I could {{q:26}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:27}} to {{q:28}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:29}} {{q:30}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And {{q:31}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So {{q:32}} when it's all over"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When I'm wiser and I'm older"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All this time I was finding myself"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "So wake me up when it's all over"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "When I'm wiser and I'm older"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All this time I was finding myself"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Didn't know I was lost"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I didn't know I was lost"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I didn't know I was lost"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I didn't know (didn't know, didn't know)"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Feeling my way",
+          "options": [
+            "Feeling my way",
+            "Following the road",
+            "Finding my place"
+          ],
+          "prompt": "{{blank}} through the darkness",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "through the darkness",
+          "options": [
+            "into the daylight",
+            "through the darkness",
+            "across the ocean"
+          ],
+          "prompt": "Feeling my way {{blank}}",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Guided by",
+          "options": [
+            "Guided by",
+            "Driven away",
+            "Followed through"
+          ],
+          "prompt": "{{blank}} a beating heart",
+          "promptZh": "只憑胸中那顆跳動的心，引領我前進"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "a beating heart",
+          "options": [
+            "a broken heart",
+            "a beating heart",
+            "a steady drum"
+          ],
+          "prompt": "Guided by {{blank}}",
+          "promptZh": "只憑胸中那顆跳動的心，引領我前進"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "I can't tell",
+          "options": [
+            "I can't tell",
+            "I can't wait",
+            "I don't care"
+          ],
+          "prompt": "{{blank}} where the journey will end",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "the journey will end",
+          "options": [
+            "the journey will end",
+            "the story will change",
+            "the road will bend"
+          ],
+          "prompt": "I can't tell where {{blank}}",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "where to start",
+          "options": [
+            "when to leave",
+            "where to start",
+            "how to stop"
+          ],
+          "prompt": "But I know {{blank}}",
+          "promptZh": "但我知道自己該從何處啟程"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "too young to understand",
+          "options": [
+            "too young to understand",
+            "too tired to carry on",
+            "too scared to take a chance"
+          ],
+          "prompt": "They tell me I'm {{blank}}",
+          "promptZh": "他們說我年紀太輕，還不懂得世事"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "caught up in a dream",
+          "options": [
+            "caught up in a dream",
+            "stuck inside a memory",
+            "lost in all the noise"
+          ],
+          "prompt": "They say I'm {{blank}}",
+          "promptZh": "他們說我沉醉於夢想之中，無法自拔"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "life will pass me by",
+          "options": [
+            "time will set me free",
+            "love will carry me",
+            "life will pass me by"
+          ],
+          "prompt": "Well {{blank}} if I don't open up my eyes",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "open up my eyes",
+          "options": [
+            "listen to my heart",
+            "open up my eyes",
+            "follow all the signs"
+          ],
+          "prompt": "Well life will pass me by if I don't {{blank}}",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "that's fine by me",
+          "options": [
+            "that's news to me",
+            "that's hard for me",
+            "that's fine by me"
+          ],
+          "prompt": "Well {{blank}}",
+          "promptZh": "不過，即使如此，我也甘之如飴"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "wake me up",
+          "options": [
+            "wake me up",
+            "take me home",
+            "let me go"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "when it's all over",
+          "options": [
+            "when it's all over",
+            "when the sun rises",
+            "when the night falls"
+          ],
+          "prompt": "So wake me up {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "wiser and I'm older",
+          "options": [
+            "stronger and I'm braver",
+            "younger and I'm bolder",
+            "wiser and I'm older"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "finding myself",
+          "options": [
+            "changing my plans",
+            "finding myself",
+            "losing my mind"
+          ],
+          "prompt": "All this time I was {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "didn't know I was lost",
+          "options": [
+            "never knew I was wrong",
+            "couldn't tell I was tired",
+            "didn't know I was lost"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "wake me up",
+          "options": [
+            "hold me close",
+            "wake me up",
+            "bring me back"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "wiser and I'm older",
+          "options": [
+            "ready for the future",
+            "wiser and I'm older",
+            "stronger than before"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-15",
+          "answer": "All this time",
+          "options": [
+            "Every morning",
+            "For a moment",
+            "All this time"
+          ],
+          "prompt": "{{blank}} I was finding myself",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-17",
+          "answer": "carrying the weight",
+          "options": [
+            "running from the pain",
+            "lifting up the sky",
+            "carrying the weight"
+          ],
+          "prompt": "I tried {{blank}} of the world",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-17",
+          "answer": "of the world",
+          "options": [
+            "of the world",
+            "of my dreams",
+            "of the night"
+          ],
+          "prompt": "I tried carrying the weight {{blank}}",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-18",
+          "answer": "only have two hands",
+          "options": [
+            "only have two hands",
+            "never had a choice",
+            "still have a long way"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我終究只有一雙手"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-19",
+          "answer": "get the chance",
+          "options": [
+            "find the courage",
+            "make the time",
+            "get the chance"
+          ],
+          "prompt": "Hope I {{blank}} to travel the world",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "travel the world",
+          "options": [
+            "climb every mountain",
+            "follow the river",
+            "travel the world"
+          ],
+          "prompt": "Hope I get the chance to {{blank}}",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-20",
+          "answer": "don't have any plans",
+          "options": [
+            "won't take any chances",
+            "don't have any plans",
+            "can't find any answers"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "儘管此刻，我還沒有任何具體的計畫"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-21",
+          "answer": "stay forever this young",
+          "options": [
+            "run away from this town",
+            "live forever alone",
+            "stay forever this young"
+          ],
+          "prompt": "Wish that I could {{blank}}",
+          "promptZh": "多希望自己能永遠停留在這般年少的時光"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-22",
+          "answer": "Not afraid",
+          "options": [
+            "Always waiting",
+            "Not afraid",
+            "Never ready"
+          ],
+          "prompt": "{{blank}} to close my eyes",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "close my eyes",
+          "options": [
+            "change my mind",
+            "raise my hands",
+            "close my eyes"
+          ],
+          "prompt": "Not afraid to {{blank}}",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "Life's a game",
+          "options": [
+            "Time's a river",
+            "Life's a game",
+            "Love's a dream"
+          ],
+          "prompt": "{{blank}} made for everyone",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "made for everyone",
+          "options": [
+            "built for the fearless",
+            "played by the winners",
+            "made for everyone"
+          ],
+          "prompt": "Life's a game {{blank}}",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "love is the prize",
+          "options": [
+            "love is the prize",
+            "hope is the answer",
+            "time is the enemy"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而愛，便是這場遊戲最珍貴的獎賞"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "wake me up",
+          "options": [
+            "show me how",
+            "wake me up",
+            "take me away"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-25",
+          "answer": "it's all over",
+          "options": [
+            "it's just beginning",
+            "the storm is coming",
+            "it's all over"
+          ],
+          "prompt": "So wake me up when {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "I'm wiser",
+          "options": [
+            "I'm wiser",
+            "I'm stronger",
+            "I'm lonely"
+          ],
+          "prompt": "When {{blank}} and I'm older",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-26",
+          "answer": "I'm older",
+          "options": [
+            "I'm younger",
+            "I'm older",
+            "I'm restless"
+          ],
+          "prompt": "When I'm wiser and {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-27",
+          "answer": "finding myself",
+          "options": [
+            "finding myself",
+            "hiding my feelings",
+            "losing my way"
+          ],
+          "prompt": "All this time I was {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-28",
+          "answer": "I was lost",
+          "options": [
+            "I was late",
+            "I was lost",
+            "I was home"
+          ],
+          "prompt": "And I didn't know {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-29",
+          "answer": "So wake me up",
+          "options": [
+            "So wake me up",
+            "So bring me home",
+            "So let me fall"
+          ],
+          "prompt": "{{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-29",
+          "answer": "when it's all over",
+          "options": [
+            "when the rain stops",
+            "when the stars fade",
+            "when it's all over"
+          ],
+          "prompt": "So wake me up {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} where {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I know {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "They tell me I'm {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "They say I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Well {{q:10}} if I don't {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Well {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When I'm {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All this time I was {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So {{q:18}} when it's all over"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "When I'm {{q:19}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:20}} I was finding myself"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I tried {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But I {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Hope I {{q:24}} to {{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But I {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Wish that I could {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:28}} to {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And {{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So {{q:33}} when {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When {{q:35}} and {{q:36}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All this time I was {{q:37}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I didn't know {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "When I'm wiser and I'm older"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "All this time I was finding myself"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "Didn't know I was lost"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I didn't know I was lost"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I didn't know I was lost"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I didn't know (didn't know, didn't know)"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "Feeling my way",
+          "options": [
+            "Following the road",
+            "Feeling my way",
+            "Finding my place"
+          ],
+          "prompt": "{{blank}} through the darkness",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "through the darkness",
+          "options": [
+            "into the daylight",
+            "across the ocean",
+            "through the darkness"
+          ],
+          "prompt": "Feeling my way {{blank}}",
+          "promptZh": "我在黑暗中摸索著前行的道路"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-2",
+          "answer": "Guided by",
+          "options": [
+            "Driven away",
+            "Guided by",
+            "Followed through"
+          ],
+          "prompt": "{{blank}} a beating heart",
+          "promptZh": "只憑胸中那顆跳動的心，引領我前進"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "a beating heart",
+          "options": [
+            "a beating heart",
+            "a steady drum",
+            "a broken heart"
+          ],
+          "prompt": "Guided by {{blank}}",
+          "promptZh": "只憑胸中那顆跳動的心，引領我前進"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-3",
+          "answer": "I can't tell",
+          "options": [
+            "I can't wait",
+            "I can't tell",
+            "I don't care"
+          ],
+          "prompt": "{{blank}} where the journey will end",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "the journey will end",
+          "options": [
+            "the journey will end",
+            "the road will bend",
+            "the story will change"
+          ],
+          "prompt": "I can't tell where {{blank}}",
+          "promptZh": "我無法預知這段旅程最終將通往何方"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-4",
+          "answer": "where to start",
+          "options": [
+            "when to leave",
+            "how to stop",
+            "where to start"
+          ],
+          "prompt": "But I know {{blank}}",
+          "promptZh": "但我知道自己該從何處啟程"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-5",
+          "answer": "too young to understand",
+          "options": [
+            "too tired to carry on",
+            "too young to understand",
+            "too scared to take a chance"
+          ],
+          "prompt": "They tell me I'm {{blank}}",
+          "promptZh": "他們說我年紀太輕，還不懂得世事"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-6",
+          "answer": "caught up in a dream",
+          "options": [
+            "stuck inside a memory",
+            "lost in all the noise",
+            "caught up in a dream"
+          ],
+          "prompt": "They say I'm {{blank}}",
+          "promptZh": "他們說我沉醉於夢想之中，無法自拔"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-7",
+          "answer": "life will pass me by",
+          "options": [
+            "time will set me free",
+            "life will pass me by",
+            "love will carry me"
+          ],
+          "prompt": "Well {{blank}} if I don't open up my eyes",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-7",
+          "answer": "open up my eyes",
+          "options": [
+            "open up my eyes",
+            "follow all the signs",
+            "listen to my heart"
+          ],
+          "prompt": "Well life will pass me by if I don't {{blank}}",
+          "promptZh": "可若我不睜開雙眼，人生便會從我身旁悄然流逝"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-8",
+          "answer": "that's fine by me",
+          "options": [
+            "that's news to me",
+            "that's fine by me",
+            "that's hard for me"
+          ],
+          "prompt": "Well {{blank}}",
+          "promptZh": "不過，即使如此，我也甘之如飴"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-9",
+          "answer": "wake me up",
+          "options": [
+            "wake me up",
+            "let me go",
+            "take me home"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-9",
+          "answer": "when it's all over",
+          "options": [
+            "when it's all over",
+            "when the night falls",
+            "when the sun rises"
+          ],
+          "prompt": "So wake me up {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-10",
+          "answer": "wiser and I'm older",
+          "options": [
+            "stronger and I'm braver",
+            "younger and I'm bolder",
+            "wiser and I'm older"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-11",
+          "answer": "finding myself",
+          "options": [
+            "finding myself",
+            "changing my plans",
+            "losing my mind"
+          ],
+          "prompt": "All this time I was {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-12",
+          "answer": "didn't know I was lost",
+          "options": [
+            "couldn't tell I was tired",
+            "didn't know I was lost",
+            "never knew I was wrong"
+          ],
+          "prompt": "And I {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-13",
+          "answer": "wake me up",
+          "options": [
+            "bring me back",
+            "hold me close",
+            "wake me up"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-14",
+          "answer": "wiser and I'm older",
+          "options": [
+            "wiser and I'm older",
+            "ready for the future",
+            "stronger than before"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-15",
+          "answer": "All this time",
+          "options": [
+            "All this time",
+            "For a moment",
+            "Every morning"
+          ],
+          "prompt": "{{blank}} I was finding myself",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-17",
+          "answer": "carrying the weight",
+          "options": [
+            "running from the pain",
+            "lifting up the sky",
+            "carrying the weight"
+          ],
+          "prompt": "I tried {{blank}} of the world",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-17",
+          "answer": "of the world",
+          "options": [
+            "of my dreams",
+            "of the night",
+            "of the world"
+          ],
+          "prompt": "I tried carrying the weight {{blank}}",
+          "promptZh": "我曾試著將整個世界的重擔扛在肩上"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-18",
+          "answer": "only have two hands",
+          "options": [
+            "still have a long way",
+            "only have two hands",
+            "never had a choice"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "可我終究只有一雙手"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-19",
+          "answer": "get the chance",
+          "options": [
+            "find the courage",
+            "make the time",
+            "get the chance"
+          ],
+          "prompt": "Hope I {{blank}} to travel the world",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-19",
+          "answer": "travel the world",
+          "options": [
+            "climb every mountain",
+            "follow the river",
+            "travel the world"
+          ],
+          "prompt": "Hope I get the chance to {{blank}}",
+          "promptZh": "但願有朝一日，我能有機會走遍世界"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-20",
+          "answer": "don't have any plans",
+          "options": [
+            "won't take any chances",
+            "don't have any plans",
+            "can't find any answers"
+          ],
+          "prompt": "But I {{blank}}",
+          "promptZh": "儘管此刻，我還沒有任何具體的計畫"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-21",
+          "answer": "stay forever this young",
+          "options": [
+            "stay forever this young",
+            "run away from this town",
+            "live forever alone"
+          ],
+          "prompt": "Wish that I could {{blank}}",
+          "promptZh": "多希望自己能永遠停留在這般年少的時光"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-22",
+          "answer": "Not afraid",
+          "options": [
+            "Never ready",
+            "Not afraid",
+            "Always waiting"
+          ],
+          "prompt": "{{blank}} to close my eyes",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-22",
+          "answer": "close my eyes",
+          "options": [
+            "close my eyes",
+            "change my mind",
+            "raise my hands"
+          ],
+          "prompt": "Not afraid to {{blank}}",
+          "promptZh": "不必害怕閉上雙眼，坦然迎向未知"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-23",
+          "answer": "Life's a game",
+          "options": [
+            "Life's a game",
+            "Love's a dream",
+            "Time's a river"
+          ],
+          "prompt": "{{blank}} made for everyone",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-23",
+          "answer": "made for everyone",
+          "options": [
+            "played by the winners",
+            "built for the fearless",
+            "made for everyone"
+          ],
+          "prompt": "Life's a game {{blank}}",
+          "promptZh": "人生是一場為每個人而設的遊戲"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-24",
+          "answer": "love is the prize",
+          "options": [
+            "time is the enemy",
+            "love is the prize",
+            "hope is the answer"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而愛，便是這場遊戲最珍貴的獎賞"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-25",
+          "answer": "wake me up",
+          "options": [
+            "wake me up",
+            "take me away",
+            "show me how"
+          ],
+          "prompt": "So {{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-25",
+          "answer": "it's all over",
+          "options": [
+            "it's all over",
+            "the storm is coming",
+            "it's just beginning"
+          ],
+          "prompt": "So wake me up when {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-26",
+          "answer": "I'm wiser",
+          "options": [
+            "I'm stronger",
+            "I'm wiser",
+            "I'm lonely"
+          ],
+          "prompt": "When {{blank}} and I'm older",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-26",
+          "answer": "I'm older",
+          "options": [
+            "I'm restless",
+            "I'm younger",
+            "I'm older"
+          ],
+          "prompt": "When I'm wiser and {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-27",
+          "answer": "finding myself",
+          "options": [
+            "hiding my feelings",
+            "finding myself",
+            "losing my way"
+          ],
+          "prompt": "All this time I was {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-28",
+          "answer": "I was lost",
+          "options": [
+            "I was late",
+            "I was home",
+            "I was lost"
+          ],
+          "prompt": "And I didn't know {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-29",
+          "answer": "So wake me up",
+          "options": [
+            "So wake me up",
+            "So let me fall",
+            "So bring me home"
+          ],
+          "prompt": "{{blank}} when it's all over",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-29",
+          "answer": "when it's all over",
+          "options": [
+            "when the stars fade",
+            "when it's all over",
+            "when the rain stops"
+          ],
+          "prompt": "So wake me up {{blank}}",
+          "promptZh": "那麼，待這一切都結束時，再將我喚醒吧"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-30",
+          "answer": "wiser and I'm older",
+          "options": [
+            "wiser and I'm older",
+            "stronger and I'm fearless",
+            "tired and I'm lonely"
+          ],
+          "prompt": "When I'm {{blank}}",
+          "promptZh": "待我年歲漸長，也變得更加睿智之時"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-31",
+          "answer": "All this time",
+          "options": [
+            "Just one night",
+            "Every new day",
+            "All this time"
+          ],
+          "prompt": "{{blank}} I was finding myself",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-31",
+          "answer": "I was finding myself",
+          "options": [
+            "I was finding myself",
+            "I was losing control",
+            "I was chasing the sun"
+          ],
+          "prompt": "All this time {{blank}}",
+          "promptZh": "原來這一路走來，我始終都在尋找自己"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-32",
+          "answer": "didn't know",
+          "options": [
+            "couldn't see",
+            "didn't know",
+            "wouldn't say"
+          ],
+          "prompt": "And I {{blank}} I was lost",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-32",
+          "answer": "I was lost",
+          "options": [
+            "I was free",
+            "I was safe",
+            "I was lost"
+          ],
+          "prompt": "And I didn't know {{blank}}",
+          "promptZh": "卻從未察覺，自己早已迷失了方向"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-33",
+          "answer": "Didn't know",
+          "options": [
+            "Never cared",
+            "Didn't know",
+            "Couldn't wait"
+          ],
+          "prompt": "{{blank}} I was lost",
+          "promptZh": "不曾察覺自己早已迷失方向"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-33",
+          "answer": "I was lost",
+          "options": [
+            "I was right",
+            "I was gone",
+            "I was lost"
+          ],
+          "prompt": "Didn't know {{blank}}",
+          "promptZh": "不曾察覺自己早已迷失方向"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-34",
+          "answer": "I didn't know",
+          "options": [
+            "I wouldn't go",
+            "I didn't know",
+            "I couldn't stay"
+          ],
+          "prompt": "{{blank}} I was lost",
+          "promptZh": "我從未察覺自己早已迷失方向"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-35",
+          "answer": "I was lost",
+          "options": [
+            "I was lost",
+            "I was wrong",
+            "I was there"
+          ],
+          "prompt": "I didn't know {{blank}}",
+          "promptZh": "我從未察覺自己早已迷失方向"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-36",
+          "answer": "didn't know, didn't know",
+          "options": [
+            "couldn't see, couldn't see",
+            "wouldn't go, wouldn't go",
+            "didn't know, didn't know"
+          ],
+          "prompt": "I didn't know ({{blank}})",
+          "promptZh": "我從未察覺（從未察覺，從未察覺）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:5}} where {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "But I know {{q:7}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "They tell me I'm {{q:8}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "They say I'm {{q:9}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Well {{q:10}} if I don't {{q:11}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "Well {{q:12}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "So {{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "When I'm {{q:15}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "All this time I was {{q:16}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "And I {{q:17}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "So {{q:18}} when it's all over"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "When I'm {{q:19}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:20}} I was finding myself"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And I didn't know I was lost"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "I tried {{q:21}} {{q:22}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "But I {{q:23}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Hope I {{q:24}} to {{q:25}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "But I {{q:26}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Wish that I could {{q:27}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:28}} to {{q:29}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:30}} {{q:31}}"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And {{q:32}}"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "So {{q:33}} when {{q:34}}"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "When {{q:35}} and {{q:36}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "All this time I was {{q:37}}"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I didn't know {{q:38}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "{{q:39}} {{q:40}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "When I'm {{q:41}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:42}} {{q:43}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "And I {{q:44}} {{q:45}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:46}} {{q:47}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:48}} I was lost"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "I didn't know {{q:49}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I didn't know ({{q:50}})"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Wake Me Up · Listening & Vocabulary",
+  "description": "《Wake Me Up》描寫一個年輕人在成長過程中，面對未知未來的迷惘，以及渴望探索世界、尋找自我的心情。歌中的主角雖然不知道人生旅程將通往何方，卻仍然選擇跟隨內心，勇敢踏出第一步。面對別人認為他年輕、不夠成熟的質疑，他希望透過親身經歷尋找人生的方向，也逐漸明白自己仍有許多事情需要學習。歌曲中的「Wake Me Up」象徵對成長與自我覺醒的期待。最終，《Wake Me Up》傳達的是青春、自由與自我探索的精神：人生充滿未知與挑戰，即使偶爾迷失方向，也能在不斷嘗試與經歷中累積智慧，逐漸認識真正的自己，找到屬於自己的人生道路。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Feel my way through",
+      "meaning": "摸索前進；在不熟悉的情況下慢慢找路",
+      "usage": "在黑暗中或不熟悉的地方，靠感覺慢慢前進。",
+      "prompt": "哪一句正確使用了「Feel my way through」？",
+      "options": [
+        "I felt my way through a song and put it in my bag.",
+        "She felt her way through the exam with a blue ticket.",
+        "The lights went out, so I felt my way through the room.",
+        "We felt our way through the window because the train was late."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：歌曲不是可以放進袋子的路線；要說聽歌可用 listened to a song。",
+        "錯誤：這裡的藍色票券與「摸索前進」沒有合理關係。",
+        "正確：停電時在房間裡摸索前進，符合片語意思。",
+        "錯誤：火車晚點不代表要從窗戶摸索前進，情境不合理。"
+      ],
+      "explanation": "正確：停電時在房間裡摸索前進，符合片語意思。"
+    },
+    {
+      "number": 2,
+      "word": "Be guided by",
+      "meaning": "受到……引導；由……帶領",
+      "usage": "談旅行、選擇或做決定時，說明是什麼或誰在引導自己。",
+      "prompt": "哪一句正確使用了「Be guided by」？",
+      "options": [
+        "We were guided by a local teacher during our city walk.",
+        "The museum was guided by my sandwich at noon.",
+        "I guided by my phone and found the station.",
+        "The weather was guided by my new jacket."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：當地老師在城市導覽時帶領大家。",
+        "錯誤：三明治無法合理地帶領博物館的活動。",
+        "錯誤：少了 be；應說 I was guided by my phone。",
+        "錯誤：外套不能引導天氣變化。"
+      ],
+      "explanation": "正確：當地老師在城市導覽時帶領大家。"
+    },
+    {
+      "number": 3,
+      "word": "Be caught up in",
+      "meaning": "太投入、陷入某件事；忙於某事",
+      "usage": "當你專注在想法、工作或活動，暫時忘了其他事時。",
+      "prompt": "哪一句正確使用了「Be caught up in」？",
+      "options": [
+        "My uncle was caught up in a chair and bought three tickets.",
+        "She was so caught up in the movie that she missed her bus.",
+        "I caught up in a dream last night.",
+        "They were caught up in the blue paint because it was Tuesday."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這裡把 caught up in 當成坐進椅子，沒有表達投入某事。",
+        "正確：看電影太投入，因此錯過公車。",
+        "錯誤：應說 I was caught up in a dream，需有 be 動詞。",
+        "錯誤：藍色油漆和星期二沒有形成合理的投入情境。"
+      ],
+      "explanation": "正確：看電影太投入，因此錯過公車。"
+    },
+    {
+      "number": 4,
+      "word": "Pass someone by",
+      "meaning": "（機會、生活）從某人身邊溜走；錯過",
+      "usage": "提醒自己別因為等待或猶豫，而錯失經驗和機會。",
+      "prompt": "哪一句正確使用了「Pass someone by」？",
+      "options": [
+        "I passed the library by a new idea in my pocket.",
+        "The contest passed me by while I waited too long to join.",
+        "The actor passed his phone by and it became a mountain.",
+        "Please pass me by the salt at dinner."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：此句混淆 pass by 與帶著東西走過某地。",
+        "正確：因為等待太久，錯過了比賽機會。",
+        "錯誤：此用法不表示讓手機變成山。",
+        "錯誤：請人遞鹽應說 Please pass me the salt。"
+      ],
+      "explanation": "正確：因為等待太久，錯過了比賽機會。"
+    },
+    {
+      "number": 5,
+      "word": "Fine by me",
+      "meaning": "我沒意見；對我來說可以",
+      "usage": "別人提出時間、地點或計畫時，表示你同意。",
+      "prompt": "哪一句正確使用了「Fine by me」？",
+      "options": [
+        "“Shall we meet at six?” “That’s fine by me.”",
+        "I fine by me the tickets online.",
+        "We are fine by me and run to the sea.",
+        "The map is fine by me because it has four shoes."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：用來表示接受六點見面的提議。",
+        "錯誤：fine by me 不是動詞，不能表示買票。",
+        "錯誤：fine by me 的主語結構不對。",
+        "錯誤：這裡沒有表達對他人提議的同意。"
+      ],
+      "explanation": "正確：用來表示接受六點見面的提議。"
+    },
+    {
+      "number": 6,
+      "word": "Wake someone up",
+      "meaning": "叫醒某人",
+      "usage": "需要讓正在睡覺的人醒來時使用。",
+      "prompt": "哪一句正確使用了「Wake someone up」？",
+      "options": [
+        "Please wake me up at seven so I can catch the train.",
+        "The airport woke up my ticket before the flight.",
+        "I woke up the museum to see the old paintings.",
+        "She woke her homework up after school."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：請人在七點叫醒自己趕火車。",
+        "錯誤：票不會睡覺，不能被叫醒。",
+        "錯誤：博物館不能像人一樣睡覺；可說 I visited the museum。",
+        "錯誤：作業不會睡覺。"
+      ],
+      "explanation": "正確：請人在七點叫醒自己趕火車。"
+    },
+    {
+      "number": 7,
+      "word": "Find myself",
+      "meaning": "找到自我；了解真正的自己",
+      "usage": "談成長、旅行或改變時，表示逐漸知道自己喜歡什麼、想要什麼。",
+      "prompt": "哪一句正確使用了「Find myself」？",
+      "options": [
+        "I found myself under the bus and became a song.",
+        "During my year abroad, I learned what I wanted and began to find myself.",
+        "They found myself when the lights changed to red.",
+        "The camera found myself a new bicycle."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：句子把找自我誤解成在公車下面找人。",
+        "正確：在外生活讓自己更了解目標與個性。",
+        "錯誤：they 需搭配 themselves，不是 myself。",
+        "錯誤：found myself 不能這樣表示替我買到腳踏車。"
+      ],
+      "explanation": "正確：在外生活讓自己更了解目標與個性。"
+    },
+    {
+      "number": 8,
+      "word": "Get the chance to",
+      "meaning": "有機會做某事",
+      "usage": "想表達獲得參加活動、旅行或嘗試新事物的機會時。",
+      "prompt": "哪一句正確使用了「Get the chance to」？",
+      "options": [
+        "She got the chance to a new computer yesterday.",
+        "We got the chance for visit the science museum.",
+        "I got the chance to speak to the singer after the show.",
+        "He got the chance to his friends a postcard."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：to 後需要動詞，例如 buy a new computer。",
+        "錯誤：應使用 get the chance to visit。",
+        "正確：有機會在演出後與歌手說話。",
+        "錯誤：to 後缺少動詞，例如 send his friends a postcard。"
+      ],
+      "explanation": "正確：有機會在演出後與歌手說話。"
+    },
+    {
+      "number": 9,
+      "word": "Be afraid to",
+      "meaning": "害怕做某事",
+      "usage": "說自己因擔心風險、犯錯或別人的反應而不敢做某事。",
+      "prompt": "哪一句正確使用了「Be afraid to」？",
+      "options": [
+        "I am afraid to the interview tomorrow.",
+        "The bridge is afraid to five cars every day.",
+        "She is afraid to that answer because it is green.",
+        "He was afraid to ask a question in front of the class."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：to 後需要動詞，例如 go to the interview。",
+        "錯誤：橋不會因擔心而不敢做某事，且缺少適當動詞。",
+        "錯誤：to 後缺少動詞，顏色也不能解釋這句的害怕。",
+        "正確：因為緊張，不敢在全班面前發問。"
+      ],
+      "explanation": "正確：因為緊張，不敢在全班面前發問。"
+    },
+    {
+      "number": 10,
+      "word": "Carry the weight of the world",
+      "meaning": "承受非常大的壓力或責任",
+      "usage": "覺得自己必須處理太多困難、照顧所有人時，使用這個比喻。",
+      "prompt": "哪一句正確使用了「Carry the weight of the world」？",
+      "options": [
+        "The pilot carried the weight of the world in a small suitcase.",
+        "I carried the weight of the world to the shop to buy a hat.",
+        "Our class carried the weight of the world because the clock stopped.",
+        "You don’t have to carry the weight of the world; ask your team for help."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：這個片語是比喻責任，不是可以裝進行李箱的物品。",
+        "錯誤：不能把這個比喻當作可搬運的物品。",
+        "錯誤：時鐘停下不代表承受重大責任，語意不合理。",
+        "正確：勸對方不要獨自承擔所有壓力。"
+      ],
+      "explanation": "正確：勸對方不要獨自承擔所有壓力。"
+    }
+  ],
+  "tags": [
+    "avicii",
+    "wake me up",
+    "self-discovery",
+    "growth"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/wake-me-up/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/wake-me-up/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 247.4266875,
+    "audioSha256": "8c7484c9526beb44aedad74bc83025701494979e9c1e6ce56cb951dfc2b3e062",
+    "timedLines": 35,
+    "untimedLines": 1,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Wake Me Up_.pdf",
+      "sha256": "a22bfafc299f4e7299c1e8570d7f2d186b63e8f5b36f472b026d45cdc7986d2b"
+    },
+    "chosenListening": {
+      "filename": "Wake_Me_Up_Four_Level_Listening_Exercise.md",
+      "sha256": "a25c1c96d96699dc494acaa0ce584e53c56befda07ed054da7efd63066c57a32"
+    },
+    "chosenVocabulary": {
+      "filename": "Wake_Me_Up_Vocabulary_Quiz.md",
+      "sha256": "2c2843e76ac8b1d6e248c3af9f7701eb96fb5714873afc0dc30816d57c5505cd"
+    },
+    "mp3": {
+      "filename": "Wake Me Up [2NiyrtYegso].mp3",
+      "sha256": "8c7484c9526beb44aedad74bc83025701494979e9c1e6ce56cb951dfc2b3e062"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-828ab7a0-478e-492d-8271-1bc70a78ad0f.png",
+    "sha256": "0347ae8cb1d1aa88dde7c5cf71c92e294ae18c50b499d6a540e0b63198a1624a",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "2fcac2d2211ac73132d14907ad59925af527b8cd11135e1c4610afb341f2b4c4"
+    },
+    {
+      "section": "advanced",
+      "filename": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "caf14465c8387fa4f732bb383b613c5d75c1000ae12ce7a2394505325215035a"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "feel one’s way through：摸索前進",
+          "meaning": "靠觸覺或有限的線索慢慢前進；歌詞為省略主詞的 -ing 片語。",
+          "usage": "停電、看不清路，或比喻面對陌生情況。",
+          "prompt": "停電後，小華要在走廊摸索前進。哪句最自然？",
+          "options": [
+            "She felt her way through to the dark hall.",
+            "She felt to her way through the dark hall.",
+            "She felt her way through the dark hall.",
+            "She felt her through way the dark hall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：through 後直接接穿過的空間，不能多加 to。",
+            "錯誤：feel one’s way 後不加 to。",
+            "正確：felt her way through 表示在走廊裡摸索走過。",
+            "錯誤：所有格與 way 的語序顛倒。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "「Feeling my way through the darkness」",
+          "pattern": [
+            {
+              "text": "feel",
+              "fixed": true
+            },
+            {
+              "text": "所有格",
+              "fixed": true
+            },
+            {
+              "text": "way through",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "my / the darkness",
+          "explanation": "正確：felt her way through 表示在走廊裡摸索走過。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "被動分詞片語：guided by",
+          "meaning": "被某人或某事引導；句首沒有寫出主詞，承接歌者「我」。",
+          "usage": "用簡短片語說明行動受到什麼引導。",
+          "prompt": "迷路的旅客由志工帶領。哪句符合被動結構？",
+          "options": [
+            "Guided of a volunteer, we found the exit.",
+            "Guiding by a volunteer, we found the exit.",
+            "Guide by a volunteer, we found the exit.",
+            "Guided by a volunteer, we found the exit."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：表示施事者用 by，不用 of。",
+            "錯誤：guiding 表示主動引導，不符被人帶領。",
+            "錯誤：需要過去分詞 guided，而非原形 guide。",
+            "正確：guided by 指「受到志工引導」。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "「Guided by a beating heart」",
+          "pattern": [
+            {
+              "text": "過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "by",
+              "fixed": true
+            },
+            {
+              "text": "引導者",
+              "fixed": true
+            }
+          ],
+          "example": "Guided / a beating heart",
+          "explanation": "正確：guided by 指「受到志工引導」。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "現在分詞修飾名詞",
+          "meaning": "beating 描述心臟「正在跳動」的特徵。",
+          "usage": "描述正在發出聲音、移動或運作的事物。",
+          "prompt": "老師請大家靜聽正在滴答作響的時鐘。",
+          "options": [
+            "Listen to a clock ticked.",
+            "Listen to a ticking clock.",
+            "Listen to a clock tickingly.",
+            "Listen to a tick clock."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：ticked 在此不表示正在滴答響。",
+            "正確：ticking 是現在分詞作形容詞。",
+            "錯誤：tickingly 不是自然的時鐘修飾語。",
+            "錯誤：tick 是動詞原形，不能直接這樣修飾 clock。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "「a beating heart」",
+          "pattern": [
+            {
+              "text": "a/an",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "beating / heart",
+          "explanation": "正確：ticking 是現在分詞作形容詞。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "can’t tell + 間接問句",
+          "meaning": "表示無法判斷或確定某件事，間接問句使用直述句語序。",
+          "usage": "不知道目的地、結果或答案時。",
+          "prompt": "朋友問：「你知道會議何時結束嗎？」你不確定。",
+          "options": [
+            "I can’t tell when does the meeting end.",
+            "I can’t tell when the meeting will end.",
+            "I can’t tell when will the meeting end.",
+            "I can’t tell when the meeting ending."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：不使用 does 的問句語序。",
+            "正確：when + 主詞 + will end。",
+            "錯誤：間接問句不採用 will the meeting 的倒裝。",
+            "錯誤：缺少完整限定動詞。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "「I can't tell where the journey will end」",
+          "pattern": [
+            {
+              "text": "can’t tell",
+              "fixed": true
+            },
+            {
+              "text": "疑問詞",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "where / the journey will end",
+          "explanation": "正確：when + 主詞 + will end。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "疑問詞 + to-infinitive",
+          "meaning": "用精簡結構表達「該從哪裡開始」；與完整間接問句不同。",
+          "usage": "詢問下一步該在哪裡、如何或何時做。",
+          "prompt": "新同事不知道該從哪裡開始整理檔案。",
+          "options": [
+            "I don’t know where starting.",
+            "I don’t know where start to.",
+            "I don’t know where to start.",
+            "I don’t know where to starting."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：where starting 不能取代疑問詞加不定詞。",
+            "錯誤：to 必須放在動詞前。",
+            "正確：where to start 表示「從哪裡開始」。",
+            "錯誤：to 後用原形 start，不用 starting。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "「where to start」",
+          "pattern": [
+            {
+              "text": "where",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "where / start",
+          "explanation": "正確：where to start 表示「從哪裡開始」。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "tell + 人 + 內容子句",
+          "meaning": "tell 後先接被告知者，再接完整訊息；that 可以省略。",
+          "usage": "傳達別人的話、建議或提醒。",
+          "prompt": "導遊告訴我們博物館週一休館。",
+          "options": [
+            "The guide told that us the museum is closed on Monday.",
+            "The guide told us is the museum closed on Monday.",
+            "The guide told us the museum is closed on Monday.",
+            "The guide told to us the museum is closed on Monday."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：that 不能放在受詞 us 前。",
+            "錯誤：內容子句應使用直述語序。",
+            "正確：told us + 內容子句。",
+            "錯誤：tell someone 不必加 to。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "「They tell me I'm too young to understand」",
+          "pattern": [
+            {
+              "text": "tell",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "me / I’m too young to understand",
+          "explanation": "正確：told us + 內容子句。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "too + 形容詞 + to + 動詞",
+          "meaning": "表示程度過高（或過低），以致做不到後面的事。",
+          "usage": "談年齡、距離、重量或難度造成的限制。",
+          "prompt": "箱子太重，莉莉無法獨自搬動。",
+          "options": [
+            "The box is too heavy for Lily to carry.",
+            "The box is too heavy that Lily carry it.",
+            "The box is too heavy for Lily carrying.",
+            "The box is too heavy to Lily carry."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：too heavy for Lily to carry。",
+            "錯誤：too...to 結構不能用 that 代替 to。",
+            "錯誤：for Lily 後接 to carry。",
+            "錯誤：for 應引入執行者 Lily，再接 to carry。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "「too young to understand」",
+          "pattern": [
+            {
+              "text": "too",
+              "fixed": true
+            },
+            {
+              "text": "adjective",
+              "fixed": true
+            },
+            {
+              "text": "to",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "young / understand",
+          "explanation": "正確：too heavy for Lily to carry。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "be caught up in + 名詞",
+          "meaning": "陷入或過度投入某事；此處是狀態，不是字面「被抓住」。",
+          "usage": "沉迷電影、工作或想法，忘了其他事情。",
+          "prompt": "阿明讀故事太投入，忘記看時間。",
+          "options": [
+            "He was caught up to the story.",
+            "He was caught up on the story.",
+            "He was caught up in the story.",
+            "He caught up in the story."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：此義固定搭配 in，不是 to。",
+            "錯誤：此義固定搭配 in，不是 on。",
+            "正確：was caught up in the story。",
+            "錯誤：少了 be 動詞 was。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "「I'm caught up in a dream」",
+          "pattern": [
+            {
+              "text": "be caught up in",
+              "fixed": true
+            },
+            {
+              "text": "名詞／V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "a dream",
+          "explanation": "正確：was caught up in the story。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "未來式 + if 條件子句",
+          "meaning": "說未來可能結果；if 子句通常用現在式表未來條件。",
+          "usage": "預測在某個條件下可能發生的事。",
+          "prompt": "如果今晚下雨，我們就待在家。",
+          "options": [
+            "We will stayed home if it rains tonight.",
+            "We will stay home if it rains tonight.",
+            "We will stay home if it will rain tonight.",
+            "We staying home if it rains tonight."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：will 後必須接 stay 原形。",
+            "正確：主句 will stay、if 子句 rains。",
+            "錯誤：一般第一類條件句的 if 子句不用 will rain。",
+            "錯誤：主句缺少適當限定動詞。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "「life will pass me by if I don't open up my eyes」",
+          "pattern": [
+            {
+              "text": "will",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            },
+            {
+              "text": "if",
+              "fixed": true
+            },
+            {
+              "text": "現在簡單式",
+              "fixed": true
+            }
+          ],
+          "example": "pass / I don’t open up my eyes",
+          "explanation": "正確：主句 will stay、if 子句 rains。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "pass + 人 + by：機會溜走",
+          "meaning": "此處指人生或機會在未留意時悄悄溜走；也可有字面「經過」之義。",
+          "usage": "提醒把握短暫活動和機會。",
+          "prompt": "展覽明天結束，朋友提醒你別錯過。",
+          "options": [
+            "Don’t let the art show pass you by.",
+            "Don’t let the art show passed you by.",
+            "Don’t let the art show pass by you it.",
+            "Don’t pass the art show me by."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：let + show + pass + you + by。",
+            "錯誤：let 後用原形 pass。",
+            "錯誤：多了一個 it，結構不自然。",
+            "錯誤：pass someone by 的受詞位置不對。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "「life will pass me by」",
+          "pattern": [
+            {
+              "text": "pass",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "by",
+              "fixed": true
+            }
+          ],
+          "example": "me",
+          "explanation": "正確：let + show + pass + you + by。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "祈使句 + 受詞 + up",
+          "meaning": "叫醒某人；代名詞受詞放在 wake 與 up 中間。",
+          "usage": "請人提醒自己起床或叫醒家人。",
+          "prompt": "明早六點請哥哥叫醒你。",
+          "options": [
+            "Please wake up me at six.",
+            "Please waking me up at six.",
+            "Please wake me up at six.",
+            "Please wake me at up six."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：代名詞 me 應放 wake 和 up 之間。",
+            "錯誤：祈使句使用動詞原形 wake。",
+            "正確：wake me up。",
+            "錯誤：不能把 at 插在 wake me up 中間。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "「wake me up」",
+          "pattern": [
+            {
+              "text": "wake",
+              "fixed": true
+            },
+            {
+              "text": "人",
+              "fixed": true
+            },
+            {
+              "text": "up",
+              "fixed": true
+            }
+          ],
+          "example": "me",
+          "explanation": "正確：wake me up。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "when + 現在式，談未來",
+          "meaning": "談未來「當……的時候」，時間子句通常不用 will。",
+          "usage": "約定在某個活動結束後做事。",
+          "prompt": "表演結束後打電話給爸爸。",
+          "options": [
+            "I’ll call Dad when the show will be over.",
+            "I’ll call Dad when the show over.",
+            "I’ll call Dad when is the show over.",
+            "I’ll call Dad when the show is over."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：未來時間子句不用 will be。",
+            "錯誤：缺少 is。",
+            "錯誤：when 子句使用直述語序。",
+            "正確：when the show is over。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "「when it's all over」",
+          "pattern": [
+            {
+              "text": "when",
+              "fixed": true
+            },
+            {
+              "text": "現在簡單式",
+              "fixed": true
+            }
+          ],
+          "example": "it’s all over",
+          "explanation": "正確：when the show is over。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "形容詞比較級：wiser / older",
+          "meaning": "以 -er 比較現在與未來的程度，不一定明說 than。",
+          "usage": "談成長、學習後會變得如何。",
+          "prompt": "練習一年後，妮娜希望變得更快、更強壯。",
+          "options": [
+            "Nina hopes to be fastest and strongest next year.",
+            "Nina hopes to be faster and stronger next year.",
+            "Nina hopes to be faster and strongester next year.",
+            "Nina hopes to be more fast and more strong next year."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：最高級不符合「比現在更……」的比較。",
+            "正確：fast→faster；strong→stronger。",
+            "錯誤：strongester 不是正確比較級。",
+            "錯誤：fast 和 strong 通常直接加 -er。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "「When I'm wiser and I'm older」",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "比較級",
+              "fixed": true
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "比較級",
+              "fixed": true
+            }
+          ],
+          "example": "wiser / older",
+          "explanation": "正確：fast→faster；strong→stronger。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "過去進行式：was + -ing",
+          "meaning": "描寫過去某段時間持續進行的動作或探索。",
+          "usage": "回顧過去正在持續做的事情。",
+          "prompt": "昨晚八點時，我正在為畫展作準備。",
+          "options": [
+            "I was preparing for the art show at eight last night.",
+            "I preparing for the art show at eight last night.",
+            "I were preparing for the art show at eight last night.",
+            "I was prepare for the art show at eight last night."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：I was preparing 表示過去某時正在進行。",
+            "錯誤：缺少 was。",
+            "錯誤：I 應搭配 was，非 were。",
+            "錯誤：was 後需要 -ing。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "「I was finding myself」",
+          "pattern": [
+            {
+              "text": "was/were",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "was / finding",
+          "explanation": "正確：I was preparing 表示過去某時正在進行。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "反身代名詞：find oneself",
+          "meaning": "這裡指逐漸認識自己；不是 find myself + -ing（發現自己正在做某事）。",
+          "usage": "談探索興趣、方向和自我認識。",
+          "prompt": "小傑旅行後更加了解自己。",
+          "options": [
+            "The trip helped Jay find himselfs.",
+            "The trip helped Jay find himself.",
+            "The trip helped Jay find herself.",
+            "The trip helped Jay find he."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：himselfs 不是反身代名詞。",
+            "正確：find himself 表示認識自我。",
+            "錯誤：Jay 在本題指男生，應用 himself。",
+            "錯誤：find oneself 中應用反身代名詞，而非 he。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "「finding myself」",
+          "pattern": [
+            {
+              "text": "find",
+              "fixed": true
+            },
+            {
+              "text": "反身代名詞",
+              "fixed": true
+            }
+          ],
+          "example": "myself",
+          "explanation": "正確：find himself 表示認識自我。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "didn’t know + 省略 that 的子句",
+          "meaning": "know 後的內容子句可以省略 that；didn’t 後用 know 原形。",
+          "usage": "回顧當時未發現的事實。",
+          "prompt": "我當時不知道畫廊已經關門。",
+          "options": [
+            "I didn’t know was the gallery closed.",
+            "I didn’t know the gallery was closed.",
+            "I didn’t know the gallery close was.",
+            "I didn’t knew the gallery was closed."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：內容子句不用倒裝語序。",
+            "正確：didn’t know + 完整內容子句。",
+            "錯誤：動詞與補語順序不對。",
+            "錯誤：didn’t 後須用 know，不是 knew。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "「I didn't know I was lost」",
+          "pattern": [
+            {
+              "text": "didn’t know",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I was lost",
+          "explanation": "正確：didn’t know + 完整內容子句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "try + -ing：嘗試做看看",
+          "meaning": "強調曾試著做某事；不等於保證做到。也可說 try to do，但語意著眼點可能不同。",
+          "usage": "描述試過一種方法或體驗。",
+          "prompt": "房間太熱，艾瑪試著打開窗戶改善空氣。",
+          "options": [
+            "Emma tried opening the window to cool the room.",
+            "Emma tried to opening the window to cool the room.",
+            "Emma tried opened the window to cool the room.",
+            "Emma tried open the window to cool the room."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：tried opening 指試著採用開窗這方法。",
+            "錯誤：to 後不接 opening。",
+            "錯誤：tried 後不能直接接 opened。",
+            "錯誤：此句型需要 opening，而非裸原形。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "「I tried carrying the weight of the world」",
+          "pattern": [
+            {
+              "text": "try",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": true
+            }
+          ],
+          "example": "carrying",
+          "explanation": "正確：tried opening 指試著採用開窗這方法。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "get the chance + to-infinitive",
+          "meaning": "有機會做某事；to 是不定詞標記。",
+          "usage": "談工作體驗、旅行或活動機會。",
+          "prompt": "學生獲得在舞台上唱歌的機會。",
+          "options": [
+            "Maya got the chance for sing on stage.",
+            "Maya got the chance to singing on stage.",
+            "Maya got the chance singing on stage.",
+            "Maya got the chance to sing on stage."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：不能用 for sing 取代 to sing。",
+            "錯誤：to 後用原形。",
+            "錯誤：此句型使用 to sing，不直接用 singing。",
+            "正確：got the chance to sing。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "「get the chance to travel the world」",
+          "pattern": [
+            {
+              "text": "get the chance to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "travel the world",
+          "explanation": "正確：got the chance to sing。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "not + any：否定中的任何",
+          "meaning": "在否定句中用 any 表示「沒有任何」。",
+          "usage": "說目前沒有安排、問題或想法。",
+          "prompt": "週日沒有任何會議安排。",
+          "options": [
+            "We don’t have any meetings on Sunday.",
+            "We doesn’t have any meetings on Sunday.",
+            "We don’t have some meetings on Sunday.",
+            "We don’t has any meetings on Sunday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：don’t have any meetings。",
+            "錯誤：we 搭配 don’t，不是 doesn’t。",
+            "錯誤：這裡用 any 才清楚表示「完全沒有」。",
+            "錯誤：don’t 後應為 have。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "「I don't have any plans」",
+          "pattern": [
+            {
+              "text": "don’t/doesn’t have",
+              "fixed": true
+            },
+            {
+              "text": "any",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": true
+            }
+          ],
+          "example": "any / plans",
+          "explanation": "正確：don’t have any meetings。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "wish + (that) + could：願望",
+          "meaning": "表示對現況或不容易實現的事抱有願望；歌詞省略 I。",
+          "usage": "希望自己具有目前沒有的能力或機會。",
+          "prompt": "我希望我會彈鋼琴，能參加樂隊。",
+          "options": [
+            "I wish I could playing the piano.",
+            "I wish I could to play the piano.",
+            "I wish I can played the piano.",
+            "I wish I could play the piano."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：could 後用原形。",
+            "錯誤：could 後不加 to。",
+            "錯誤：can played 不是正確搭配。",
+            "正確：wish I could + 動詞原形。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "「Wish that I could stay forever this young」",
+          "pattern": [
+            {
+              "text": "wish",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "原形動詞",
+              "fixed": true
+            }
+          ],
+          "example": "I / stay",
+          "explanation": "正確：wish I could + 動詞原形。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "be afraid + to-infinitive",
+          "meaning": "表示害怕或不害怕做某事；歌詞省略主詞和 be。",
+          "usage": "談面對新活動是否緊張。",
+          "prompt": "凱文不害怕向新同學打招呼。",
+          "options": [
+            "Kevin isn’t afraid to saying hello to new classmates.",
+            "Kevin isn’t afraid say hello to new classmates.",
+            "Kevin isn’t afraid to say hello to new classmates.",
+            "Kevin isn’t afraid of to say hello to new classmates."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後用 say 原形。",
+            "錯誤：缺少 to。",
+            "正確：not afraid to say。",
+            "錯誤：afraid of 後用 -ing；不能 of to say。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "「Not afraid to close my eyes」",
+          "pattern": [
+            {
+              "text": "be (not) afraid to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "example": "close my eyes",
+          "explanation": "正確：not afraid to say。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "被動分詞後置修飾：made for",
+          "meaning": "made for everyone 修飾前面的 game，接近 which is made for everyone。",
+          "usage": "簡短描述產品或活動的適用對象。",
+          "prompt": "這套遊戲是為小朋友設計的。",
+          "options": [
+            "This is a game making for children.",
+            "This is a game make for children.",
+            "This is a game made for children.",
+            "This is a game made to children."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：making 表主動製造，不是「被製作給」。",
+            "錯誤：需用過去分詞 made，而非 make。",
+            "正確：made for children 是後置分詞片語。",
+            "錯誤：此處「為……設計」用 for。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "「a game made for everyone」",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": true
+            },
+            {
+              "text": "for",
+              "fixed": true
+            },
+            {
+              "text": "對象",
+              "fixed": true
+            }
+          ],
+          "example": "game / everyone",
+          "explanation": "正確：made for children 是後置分詞片語。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "be + 名詞：比喻定義",
+          "meaning": "用 be 將抽象概念比作某種事物；歌詞為比喻，不是獎品的字面定義。",
+          "usage": "簡單說明一件事是什麼或扮演的角色。",
+          "prompt": "活動的獎品是一張演唱會門票。",
+          "options": [
+            "The prize is a ticket to the concert.",
+            "The prize be a ticket to the concert.",
+            "The prize are a ticket to the concert.",
+            "The prize a ticket to the concert."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：The prize is + 名詞補語。",
+            "錯誤：一般現在式不能直接用 be 原形。",
+            "錯誤：單數主詞 prize 搭配 is。",
+            "錯誤：缺少 is。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "「love is the prize」",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": true
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "名詞補語",
+              "fixed": true
+            }
+          ],
+          "example": "love / the prize",
+          "explanation": "正確：The prize is + 名詞補語。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "hope + 內容子句",
+          "meaning": "希望某件事實現；歌詞省略主詞 I，that 也未寫出。",
+          "usage": "向朋友表達對未來結果的希望。",
+          "prompt": "我希望莉亞明天能收到好消息。",
+          "options": [
+            "I hope Leah to gets good news tomorrow.",
+            "I hope for Leah gets good news tomorrow.",
+            "I hope that gets Leah good news tomorrow.",
+            "I hope that Leah gets good news tomorrow."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：hope 後不能接 Leah to gets。",
+            "錯誤：hope for 後不接這種子句。",
+            "錯誤：that 後應為主詞 Leah 再接 gets。",
+            "正確：hope that + 完整子句。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "「Hope I get the chance to travel the world」",
+          "pattern": [
+            {
+              "text": "hope",
+              "fixed": true
+            },
+            {
+              "text": "(that)",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": true
+            }
+          ],
+          "example": "I get the chance",
+          "explanation": "正確：hope that + 完整子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "only + 數量：強調限制",
+          "meaning": "only 表示「只有」；歌詞強調能力或資源有限。",
+          "usage": "表達手上時間、座位或物品不多。",
+          "prompt": "我們只剩兩張入場券。",
+          "options": [
+            "We have only two ticket left.",
+            "We only have two tickets left.",
+            "We only has two tickets left.",
+            "We have only two tickets leaving."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：two 後要複數 tickets。",
+            "正確：only have two tickets left。",
+            "錯誤：we 搭配 have 而非 has。",
+            "錯誤：表示「剩下」要用 left，非 leaving。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "「I only have two hands」",
+          "pattern": [
+            {
+              "text": "only",
+              "fixed": true
+            },
+            {
+              "text": "動詞／數量相關位置",
+              "fixed": true
+            }
+          ],
+          "example": "two hands",
+          "explanation": "正確：only have two tickets left。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "所有格 + 名詞：the weight of",
+          "meaning": "of 表示兩個名詞之間的關係；整組在歌詞中是承擔巨大壓力的比喻。",
+          "usage": "描述重量、顏色、名字等某物的屬性。",
+          "prompt": "工程師測量箱子的重量。",
+          "options": [
+            "The engineer checked the weight on the box.",
+            "The engineer checked the weight from the box.",
+            "The engineer checked the weight to the box.",
+            "The engineer checked the weight of the box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：on the box 是在箱子上，不表示重量所屬。",
+            "錯誤：表示箱子的重量通常用 of，不是 from。",
+            "錯誤：to 不能表示此處的所屬關係。",
+            "正確：the weight of the box。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "「the weight of the world」",
+          "pattern": [
+            {
+              "text": "the",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            },
+            {
+              "text": "of",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": true
+            }
+          ],
+          "example": "weight / world",
+          "explanation": "正確：the weight of the box。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "形容詞 lost：be + 過去分詞形容詞",
+          "meaning": "lost 在這裡描述迷路／迷失的狀態，不一定指「被某人弄丟」。",
+          "usage": "描述去陌生地方找不到路。",
+          "prompt": "在新城市裡，我們一度迷了路。",
+          "options": [
+            "We were lost in the new city.",
+            "We were losing in the new city.",
+            "We were lose in the new city.",
+            "We was lost in the new city."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：were lost。",
+            "錯誤：were losing 不等於迷路狀態。",
+            "錯誤：lose 是動詞原形，不是此處所需狀態。",
+            "錯誤：we 搭配 were。"
+          ],
+          "sourceFile": "Wake_Me_Up_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "「I was lost」",
+          "pattern": [
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "lost",
+              "fixed": true
+            }
+          ],
+          "example": "was / lost",
+          "explanation": "正確：were lost。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "darkness",
+          "meaning": "黑暗；也可比喻困惑或艱難時期",
+          "usage": "描述沒有光的環境；較文學的用法也可指心理或人生的低潮。",
+          "prompt": "哪一句正確使用「darkness」？",
+          "options": [
+            "The darkness made it hard to see the road.",
+            "We darkness the road after dinner today.",
+            "She put darkness beside her lunch at noon.",
+            "The teacher darknessed the test for us."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：darkness 是名詞，指黑暗使人難以看清道路。",
+            "錯誤：darkness 不是動詞；應說 walked along the road。",
+            "錯誤：darkness 不是可擺放的實體物品。",
+            "錯誤：不能把 darkness 當動詞並加 -ed。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：darkness 是名詞，指黑暗使人難以看清道路。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "journey",
+          "meaning": "旅程；也可指長期的成長過程",
+          "usage": "談旅行過程，或比喻學習、成長等持續一段時間的經歷。",
+          "prompt": "哪一句正確使用「journey」？",
+          "options": [
+            "She journeyed a sandwich to make lunch.",
+            "Our journey took three hours by train.",
+            "The journey is a ticket I wear to school.",
+            "I journey my bags before I leave home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：journey 作動詞可表示旅行，但不能直接帶 sandwich 當受詞。",
+            "正確：journey 作名詞，表示搭火車的旅程。",
+            "錯誤：journey 是經歷或行程，不是可穿戴的車票。",
+            "錯誤：打包行李應說 pack my bags；journey 在這裡不能如此當動詞。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：journey 作名詞，表示搭火車的旅程。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "where to start",
+          "meaning": "從哪裡開始；該如何著手",
+          "usage": "不知道如何開始新任務時，可用 where to + 動詞原形。",
+          "prompt": "哪一句正確使用「where to start」？",
+          "options": [
+            "I know where to starting the new project.",
+            "The coach asked where to started the match.",
+            "This book is long; I don’t know where to start.",
+            "She where to start her lunch with a spoon."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：to 後應接 start 原形，不是 starting。",
+            "錯誤：to 後應接 start 原形，不是 started。",
+            "正確：表示書很長，不知從哪裡開始閱讀。",
+            "錯誤：where to start 不是可以放在主詞後直接當主要動詞的片語。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：表示書很長，不知從哪裡開始閱讀。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "too young to understand",
+          "meaning": "年紀太小，還無法理解",
+          "usage": "too + 形容詞 + to + 原形動詞，表示程度過高而無法做某事。",
+          "prompt": "哪一句正確使用「too young to understand」？",
+          "options": [
+            "She is too young for understand the story.",
+            "He is too young to understand this hard idea.",
+            "He is too young understanding this rule.",
+            "This child is too young understand that joke."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：此處不應使用 for understand。",
+            "正確：表達孩子年紀尚小，難以理解抽象想法。",
+            "錯誤：too young 後要接 to understand，不是 understanding。",
+            "錯誤：缺少 to，標準結構是 too young to understand。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：表達孩子年紀尚小，難以理解抽象想法。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "wiser",
+          "meaning": "更有智慧的；更明智的",
+          "usage": "wise 的比較級，用來比較不同時期或兩個人的判斷力。",
+          "prompt": "哪一句正確使用「wiser」？",
+          "options": [
+            "After that mistake, I made a wiser choice.",
+            "This advice is the wiser of all advice.",
+            "My friend wiser a new bag at the shop.",
+            "He is more wiser than he was last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：wiser 修飾 choice，指更明智的決定。",
+            "錯誤：這裡想表達最高級，應用 wisest 或更自然的說法。",
+            "錯誤：wiser 是形容詞比較級，不是購買的動詞。",
+            "錯誤：wiser 已是比較級，不再加 more。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：wiser 修飾 choice，指更明智的決定。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "all this time",
+          "meaning": "一直以來；這整段時間",
+          "usage": "回顧一段期間，強調某個情況其實一直持續。",
+          "prompt": "哪一句正確使用「all this time」？",
+          "options": [
+            "All this time is a bag beside my chair.",
+            "I bought all this time for twenty dollars.",
+            "She all this time her bike to the station.",
+            "All this time, I thought the shop was closed."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：all this time 是時間表達，不是可充當袋子的名詞。",
+            "錯誤：時間表達不能像商品一樣購買。",
+            "錯誤：不能拿時間片語代替 rode 等主要動詞。",
+            "正確：表示自己一直以為商店沒有開門。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：表示自己一直以為商店沒有開門。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "lost",
+          "meaning": "迷路的；也可形容人生中感到迷惘",
+          "usage": "描述找不到方向，或比喻不清楚自己下一步該怎麼辦。",
+          "prompt": "哪一句正確使用「lost」？",
+          "options": [
+            "She lost her homework to happy today.",
+            "I lost at the bus at eight this morning.",
+            "I felt lost when I moved to a new city.",
+            "We were lost of the map in the library."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：lost 的受詞及後續搭配不合句意。",
+            "錯誤：lost 作動詞時通常要有受詞，例如 lost my ticket。",
+            "正確：到陌生城市後覺得迷惘，是 lost 的自然引申用法。",
+            "錯誤：be lost 不搭配 of the map；可說 We were lost without a map。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：到陌生城市後覺得迷惘，是 lost 的自然引申用法。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "plans",
+          "meaning": "計畫；預先安排的事情",
+          "usage": "談未來活動或安排，常用 make plans、have plans。",
+          "prompt": "哪一句正確使用「plans」？",
+          "options": [
+            "She is plans the trip with her friends.",
+            "I plans my test before the next Monday.",
+            "We have no plans for the weekend yet.",
+            "We have plans going to the zoo tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：進行式應說 is planning。",
+            "錯誤：plans 是名詞複數或第三人稱動詞，不能搭配 I plans。",
+            "正確：表示週末還沒有安排。",
+            "錯誤：較自然為 have plans to go / plans for going。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確：表示週末還沒有安排。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "forever",
+          "meaning": "永遠；一直持續下去",
+          "usage": "描述希望一件事持續很久或永不結束，注意歌詞是詩意語序。",
+          "prompt": "哪一句正確使用「forever」？",
+          "options": [
+            "My teacher forever the lesson at nine.",
+            "I hope we can stay friends forever.",
+            "He is forever years old this Monday.",
+            "We bought two forevers at the shop."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：forever 是副詞，不是上課的動詞。",
+            "正確：forever 修飾 stay friends，表示希望友誼一直延續。",
+            "錯誤：forever 不能直接與 years old 這樣描述年齡。",
+            "錯誤：forever 不是可數商品，不能說 two forevers。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確：forever 修飾 stay friends，表示希望友誼一直延續。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "prize",
+          "meaning": "獎品；獎項；值得追求的收穫",
+          "usage": "比賽得獎時可用 prize；歌曲把愛比喻為人生的獎賞。",
+          "prompt": "哪一句正確使用「prize」？",
+          "options": [
+            "He won first prize in the school art show.",
+            "The prize is how many students are absent.",
+            "She prized the door to get on the bus.",
+            "I took a prize to school by walking it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：win first prize 是自然的得獎搭配。",
+            "錯誤：此句想說缺席人數，不能直接以 the prize 表示。",
+            "錯誤：prize 作動詞是珍視，不表示開門或搭車。",
+            "錯誤：獎品不是可以自己走路的對象；walking it 不合語境。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確：win first prize 是自然的得獎搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "made for everyone",
+          "meaning": "為每個人設計／準備的",
+          "usage": "be made for + 人，表示某物是為特定使用者打造；歌曲是人生比喻。",
+          "prompt": "哪一句正確使用「made for everyone」？",
+          "options": [
+            "The chairs made for everyone are sits here.",
+            "This game made everyone for a new class.",
+            "She made for everyone the shop before lunch.",
+            "This free game was made for everyone to enjoy."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：are sits 不合文法；可說 The chairs are made for everyone。",
+            "錯誤：缺少 be 或明確受詞，且意思不完整。",
+            "錯誤：made for everyone 不能當成前往商店的動詞片語。",
+            "正確：被動式 was made for everyone 表示人人都能享受。"
+          ],
+          "sourceFile": "Wake_Me_Up_B1-C1_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確：被動式 was made for everyone 表示人人都能享受。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    }
+  }
+}

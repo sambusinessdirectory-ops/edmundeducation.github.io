@@ -1,0 +1,5726 @@
+{
+  "slug": "just-dance",
+  "title": "Just Dance",
+  "singer": "Lady Gaga",
+  "translations": [
+    {
+      "english": "Just Dance (feat. Colby O'Donis)",
+      "chinese": "盡情跳舞（feat.ColbyO'Donis）",
+      "lineId": "line-1"
+    },
+    {
+      "english": "[Lady Gaga & Akon:] [Lady Gaga",
+      "chinese": "與Akon：]",
+      "lineId": "line-2"
+    },
+    {
+      "english": "(Truth!)",
+      "chinese": "（說真的！）",
+      "lineId": "line-3"
+    },
+    {
+      "english": "RedOne",
+      "chinese": "RedOne",
+      "lineId": "line-4"
+    },
+    {
+      "english": "Konvict",
+      "chinese": "Konvict",
+      "lineId": "line-5"
+    },
+    {
+      "english": "Gaga (Oh-oh, eh)",
+      "chinese": "Gaga（噢——噢，耶）",
+      "lineId": "line-6"
+    },
+    {
+      "english": "I've had a little bit too much, much (Oh, oh, oh-oh)",
+      "chinese": "我好像喝得有點太多、真的有點太多了（噢，噢，噢——噢）",
+      "lineId": "line-7"
+    },
+    {
+      "english": "All of the people start to rush (Start to rush by)",
+      "chinese": "周圍的人群開始飛快地穿梭（不斷從身旁掠過）",
+      "lineId": "line-8",
+      "startSeconds": 19.34,
+      "endSeconds": 24.14
+    },
+    {
+      "english": "A dizzy twister dance, can't find my drink or man",
+      "chinese": "一場令人天旋地轉的舞蹈，連我的酒杯和男人都找不到了",
+      "lineId": "line-9",
+      "startSeconds": 24.14,
+      "endSeconds": 28.02
+    },
+    {
+      "english": "Where are my keys? I lost my phone, phone (Oh, oh, oh-oh)",
+      "chinese": "我的鑰匙在哪裡？連手機也弄丟了、弄丟了（噢，噢，噢——噢）",
+      "lineId": "line-10"
+    },
+    {
+      "english": "[Lady Gaga:]",
+      "chinese": "[LadyGaga：]",
+      "lineId": "line-11"
+    },
+    {
+      "english": "What's goin' on, on the floor?",
+      "chinese": "舞池裡到底發生了什麼事？",
+      "lineId": "line-12",
+      "startSeconds": 33.76,
+      "endSeconds": 36.4
+    },
+    {
+      "english": "I love this record, baby, but I can't see straight anymore",
+      "chinese": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚",
+      "lineId": "line-13",
+      "startSeconds": 36.72,
+      "endSeconds": 40.24
+    },
+    {
+      "english": "Keep it cool, what's the name of this club?",
+      "chinese": "冷靜一點，對了，這間夜店叫什麼名字？",
+      "lineId": "line-14",
+      "startSeconds": 40.24,
+      "endSeconds": 44.42
+    },
+    {
+      "english": "I can't remember, but it's alright, a-alright",
+      "chinese": "我想不起來了，不過沒關係，沒——關係",
+      "lineId": "line-15",
+      "startSeconds": 44.8,
+      "endSeconds": 47.36
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-16",
+      "startSeconds": 47.36,
+      "endSeconds": 48.8
+    },
+    {
+      "english": "Gonna be okay, da-da-doo-doot-n",
+      "chinese": "一切都會沒事的，噠——噠——嘟——嘟",
+      "lineId": "line-17"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-18",
+      "startSeconds": 51.78,
+      "endSeconds": 52.84
+    },
+    {
+      "english": "Spin that record, babe, da-da-doo-doot-n ",
+      "chinese": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟",
+      "lineId": "line-19"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-20"
+    },
+    {
+      "english": "Gonna be okay",
+      "chinese": "一切都會沒事的",
+      "lineId": "line-21",
+      "startSeconds": 57.36,
+      "endSeconds": 58.32
+    },
+    {
+      "english": "Da-da-da-dance, dance, dance",
+      "chinese": "跳、跳、跳舞，跳舞，跳舞",
+      "lineId": "line-22"
+    },
+    {
+      "english": "Just, j-j-just dance",
+      "chinese": "就、就、就只管跳舞",
+      "lineId": "line-23",
+      "startSeconds": 62.5,
+      "endSeconds": 65.16
+    },
+    {
+      "english": "[Lady Gaga & Akon:] [Lady Gaga",
+      "chinese": "與Akon：]",
+      "lineId": "line-24"
+    },
+    {
+      "english": "Wish I could shut my playboy mouth (Oh, oh, oh-oh)",
+      "chinese": "真希望自己能閉上這張愛調情、口無遮攔的嘴（噢，噢，噢——噢）",
+      "lineId": "line-25",
+      "startSeconds": 66.55,
+      "endSeconds": 71.16
+    },
+    {
+      "english": "How'd I turn my shirt inside out? (Inside out, right)",
+      "chinese": "我怎麼會把衣服穿反了？（裡外顛倒，沒錯）",
+      "lineId": "line-26"
+    },
+    {
+      "english": "Control your poison, babe, roses have thorns, they say",
+      "chinese": "寶貝，控制好你喝下的酒；人們不是常說，玫瑰雖美，卻也帶刺嗎？",
+      "lineId": "line-27",
+      "startSeconds": 74.5,
+      "endSeconds": 78.4
+    },
+    {
+      "english": "And we're all gettin' hosed tonight (Oh, oh, oh-oh)",
+      "chinese": "而今晚，我們所有人都快喝得爛醉如泥了（噢，噢，噢——噢）",
+      "lineId": "line-28",
+      "startSeconds": 78.4,
+      "endSeconds": 83.06
+    },
+    {
+      "english": "[Lady Gaga:]",
+      "chinese": "[LadyGaga：]",
+      "lineId": "line-29"
+    },
+    {
+      "english": "What's goin' on, on the floor?",
+      "chinese": "舞池裡到底發生了什麼事？",
+      "lineId": "line-30",
+      "startSeconds": 83.98,
+      "endSeconds": 86.76
+    },
+    {
+      "english": "I love this record, baby, but I can't see straight anymore",
+      "chinese": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚",
+      "lineId": "line-31",
+      "startSeconds": 86.76,
+      "endSeconds": 90.74
+    },
+    {
+      "english": "Keep it cool, what's the name of this club?",
+      "chinese": "冷靜一點，對了，這間夜店叫什麼名字？",
+      "lineId": "line-32",
+      "startSeconds": 92.02,
+      "endSeconds": 94.84
+    },
+    {
+      "english": "I can't remember, but it's alright, a-alright",
+      "chinese": "我想不起來了，不過沒關係，沒——關係",
+      "lineId": "line-33",
+      "startSeconds": 94.84,
+      "endSeconds": 97.78
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-34",
+      "startSeconds": 97.78,
+      "endSeconds": 99.26
+    },
+    {
+      "english": "Gonna be okay, da-da-doo-doot-n",
+      "chinese": "一切都會沒事的，噠——噠——嘟——嘟",
+      "lineId": "line-35"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-36",
+      "startSeconds": 102.12,
+      "endSeconds": 103.28
+    },
+    {
+      "english": "Spin that record, babe, da-da-doo-doot-n ",
+      "chinese": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟",
+      "lineId": "line-37"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-38",
+      "startSeconds": 106.4,
+      "endSeconds": 107.34
+    },
+    {
+      "english": "Gonna be okay",
+      "chinese": "一切都會沒事的",
+      "lineId": "line-39",
+      "startSeconds": 107.34,
+      "endSeconds": 108.74
+    },
+    {
+      "english": "Da-da-da-dance, dance, dance",
+      "chinese": "跳、跳、跳舞，跳舞，跳舞",
+      "lineId": "line-40"
+    },
+    {
+      "english": "Just, j-j-just",
+      "chinese": "就、就、就只管……",
+      "lineId": "line-41"
+    },
+    {
+      "english": "[Colby O'Donis:]",
+      "chinese": "[ColbyO'Donis：]",
+      "lineId": "line-42"
+    },
+    {
+      "english": "When I come through on the dance floor, checking out that catalogue (Hey)",
+      "chinese": "當我走進舞池，便開始打量眼前形形色色的美女（嘿）",
+      "lineId": "line-43"
+    },
+    {
+      "english": "Can't believe my eyes, so many women without a flaw",
+      "chinese": "真不敢相信自己的眼睛，竟有這麼多近乎完美的女人",
+      "lineId": "line-44",
+      "startSeconds": 119.46,
+      "endSeconds": 122.96
+    },
+    {
+      "english": "And I ain't gon' give it up, steady, tryna pick it up like a call",
+      "chinese": "我可不會就此罷手，還要繼續出擊，就像接起電話般把握機會",
+      "lineId": "line-45",
+      "startSeconds": 123.46,
+      "endSeconds": 127.06
+    },
+    {
+      "english": "I'mma hit it, I'mma beat it up, latch onto it until tomorrow, yeah",
+      "chinese": "我要放膽出手、盡情放縱，緊緊纏著她，直到明天，耶",
+      "lineId": "line-46",
+      "startSeconds": 127.6,
+      "endSeconds": 131.62
+    },
+    {
+      "english": "Shorty, I can see that you got so much energy",
+      "chinese": "小美人，我看得出妳充滿了活力",
+      "lineId": "line-47",
+      "startSeconds": 131.62,
+      "endSeconds": 135.1
+    },
+    {
+      "english": "The way you twirlin' up them hips 'round and 'round",
+      "chinese": "瞧妳那腰臀不停地扭動，一圈又一圈",
+      "lineId": "line-48",
+      "startSeconds": 135.1,
+      "endSeconds": 139.42
+    },
+    {
+      "english": "And there is no reason at all why you can't leave here with me",
+      "chinese": "妳完全沒有理由不能跟我一起離開這裡",
+      "lineId": "line-49",
+      "startSeconds": 139.66,
+      "endSeconds": 143.32
+    },
+    {
+      "english": "In the meantime, stay, let me watch you break it down and",
+      "chinese": "不過現在先留下來，讓我好好欣賞妳盡情舞動，然後……",
+      "lineId": "line-50",
+      "startSeconds": 143.72,
+      "endSeconds": 147.1
+    },
+    {
+      "english": "[Lady Gaga & Akon:] [Lady Gaga",
+      "chinese": "與Akon：]",
+      "lineId": "line-51"
+    },
+    {
+      "english": "Dance",
+      "chinese": "跳舞",
+      "lineId": "line-52"
+    },
+    {
+      "english": "Gonna be okay, da-da-doo-doot-n (Oh)",
+      "chinese": "一切都會沒事的，噠——噠——嘟——嘟（噢）",
+      "lineId": "line-53"
+    },
+    {
+      "english": "Just dance (Ooh yeah)",
+      "chinese": "只管盡情跳舞（噢，耶）",
+      "lineId": "line-54"
+    },
+    {
+      "english": "Spin that record, babe, da-da-doo-doot-n ",
+      "chinese": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟",
+      "lineId": "line-55"
+    },
+    {
+      "english": "Just dance (Ooh yeah)",
+      "chinese": "只管盡情跳舞（噢，耶）",
+      "lineId": "line-56"
+    },
+    {
+      "english": "Gonna be okay, da-da-doo-doot-n (Ooh yeah)",
+      "chinese": "一切都會沒事的，噠——噠——嘟——嘟（噢，耶）",
+      "lineId": "line-57"
+    },
+    {
+      "english": "Just dance (Ooh yeah)",
+      "chinese": "只管盡情跳舞（噢，耶）",
+      "lineId": "line-58",
+      "startSeconds": 211.3,
+      "endSeconds": 213.42
+    },
+    {
+      "english": "Spin that record, babe, da-da-doo-doot-n ",
+      "chinese": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟",
+      "lineId": "line-59"
+    },
+    {
+      "english": "Just dance (Oh)",
+      "chinese": "只管盡情跳舞（噢）",
+      "lineId": "line-60",
+      "startSeconds": 217.78,
+      "endSeconds": 218.34
+    },
+    {
+      "english": "Gonna be okay, da-da-da-dance (Gonna be okay)",
+      "chinese": "一切都會沒事的，跳、跳、跳舞（一切都會沒事的）",
+      "lineId": "line-61",
+      "startSeconds": 219.42,
+      "endSeconds": 223.72
+    },
+    {
+      "english": "Dance, dance (Yeah)",
+      "chinese": "跳舞，跳舞（耶）",
+      "lineId": "line-62"
+    },
+    {
+      "english": "Just, j-j-just dance (Oh)",
+      "chinese": "就、就、就只管跳舞（噢）",
+      "lineId": "line-63"
+    },
+    {
+      "english": "[Akon:]",
+      "chinese": "[Akon：]",
+      "lineId": "line-64"
+    },
+    {
+      "english": "Incredible",
+      "chinese": "難以置信！",
+      "lineId": "line-65"
+    },
+    {
+      "english": "Amazing",
+      "chinese": "太精彩了！",
+      "lineId": "line-66"
+    },
+    {
+      "english": "Music",
+      "chinese": "音樂！",
+      "lineId": "line-67"
+    },
+    {
+      "english": "Woo!",
+      "chinese": "嗚！",
+      "lineId": "line-68"
+    },
+    {
+      "english": "Let's go!",
+      "chinese": "來吧！",
+      "lineId": "line-69"
+    },
+    {
+      "english": "[Lady Gaga & Akon:] [Lady Gaga",
+      "chinese": "與Akon：]",
+      "lineId": "line-70"
+    },
+    {
+      "english": "Half psychotic, sick, hypnotic, got my blueprint, it's symphonic",
+      "chinese": "半瘋半狂，病態又令人著迷；我的構想早已成形，如交響樂般恢宏",
+      "lineId": "line-71"
+    },
+    {
+      "english": "Half psychotic, sick, hypnotic, got my blueprint, electronic",
+      "chinese": "半瘋半狂，病態又令人著迷；我的構想早已成形，充滿電子樂的節奏",
+      "lineId": "line-72"
+    },
+    {
+      "english": "Half psychotic, sick, hypnotic, got my blueprint, it's symphonic",
+      "chinese": "半瘋半狂，病態又令人著迷；我的構想早已成形，如交響樂般恢宏",
+      "lineId": "line-73"
+    },
+    {
+      "english": "Half psychotic, sick, hypnotic, got my blueprint, electronic",
+      "chinese": "半瘋半狂，病態又令人著迷；我的構想早已成形，充滿電子樂的節奏",
+      "lineId": "line-74"
+    },
+    {
+      "english": "Go, use your muscle, carve it out, work it, hustle",
+      "chinese": "來吧，動用全身的力量，盡情舞動、賣力展現、加快節奏",
+      "lineId": "line-75"
+    },
+    {
+      "english": "(I got it, just stay close enough to get it on)",
+      "chinese": "（我懂了，只要靠得夠近，就能一起盡情狂歡）",
+      "lineId": "line-76"
+    },
+    {
+      "english": "Don't slow, drive it, clean it, Lysol, bleed it ",
+      "chinese": "別慢下來，繼續衝刺、盡情揮灑，像用Lysol徹底清潔般，把一切都釋放出來",
+      "lineId": "line-77"
+    },
+    {
+      "english": "Spend the last dough (I got it) in your pock-o (I got it)",
+      "chinese": "花光你口袋裡（我懂了）最後的一點錢（我懂了）",
+      "lineId": "line-78"
+    },
+    {
+      "english": "[Lady Gaga:]",
+      "chinese": "[LadyGaga：]",
+      "lineId": "line-79"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-80"
+    },
+    {
+      "english": "Gonna be okay, da-da-doo-doot-n",
+      "chinese": "一切都會沒事的，噠——噠——嘟——嘟",
+      "lineId": "line-81"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-82"
+    },
+    {
+      "english": "Spin that record, babe, da-da-doo-doot-n ",
+      "chinese": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟",
+      "lineId": "line-83"
+    },
+    {
+      "english": "Just dance (Baby)",
+      "chinese": "只管盡情跳舞（寶貝）",
+      "lineId": "line-84"
+    },
+    {
+      "english": "Gonna be okay, da-da-doo-doot-n",
+      "chinese": "一切都會沒事的，噠——噠——嘟——嘟",
+      "lineId": "line-85"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-86"
+    },
+    {
+      "english": "Spin that record, babe, da-da-doo-doot-n (Oh, baby, yeah)",
+      "chinese": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟（噢，寶貝，耶）",
+      "lineId": "line-87"
+    },
+    {
+      "english": "Just dance",
+      "chinese": "只管盡情跳舞",
+      "lineId": "line-88"
+    },
+    {
+      "english": "Gonna be okay (Spin that record, baby, yeah)",
+      "chinese": "一切都會沒事的（寶貝，讓唱片繼續轉動，耶）",
+      "lineId": "line-89"
+    },
+    {
+      "english": "Da-da-da-dance, dance, dance",
+      "chinese": "跳、跳、跳舞，跳舞，跳舞",
+      "lineId": "line-90"
+    },
+    {
+      "english": "Just, j-j-just dance",
+      "chinese": "就、就、就只管跳舞",
+      "lineId": "line-91"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "a little bit too much",
+          "options": [
+            "a little bit too late",
+            "a little bit too much",
+            "a little bit of luck"
+          ],
+          "prompt": "I've had {{blank}}, much (Oh, oh, oh-oh)",
+          "promptZh": "我好像喝得有點太多、真的有點太多了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "start to rush",
+          "options": [
+            "start to dance",
+            "start to rush",
+            "start to laugh"
+          ],
+          "prompt": "All of the people {{blank}} (Start to rush by)",
+          "promptZh": "周圍的人群開始飛快地穿梭（不斷從身旁掠過）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-10",
+          "answer": "lost my phone",
+          "options": [
+            "found my phone",
+            "lost my bag",
+            "lost my phone"
+          ],
+          "prompt": "Where are my keys? I {{blank}}, phone (Oh, oh, oh-oh)",
+          "promptZh": "我的鑰匙在哪裡？連手機也弄丟了、弄丟了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-12",
+          "answer": "What's goin' on",
+          "options": [
+            "What's goin' on",
+            "Where are we going",
+            "What's happening now"
+          ],
+          "prompt": "{{blank}}, on the floor?",
+          "promptZh": "舞池裡到底發生了什麼事？"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-13",
+          "answer": "love this record",
+          "options": [
+            "love this rhythm",
+            "love this record",
+            "hate this record"
+          ],
+          "prompt": "I {{blank}}, baby, but I can't see straight anymore",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-14",
+          "answer": "name of this club",
+          "options": [
+            "name of this song",
+            "number of this club",
+            "name of this club"
+          ],
+          "prompt": "Keep it cool, what's the {{blank}}?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-15",
+          "answer": "can't remember",
+          "options": [
+            "can remember",
+            "can't believe it",
+            "can't remember"
+          ],
+          "prompt": "I {{blank}}, but it's alright, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-16",
+          "answer": "Just dance",
+          "options": [
+            "Just dance",
+            "Just sing",
+            "Just wait"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只管盡情跳舞"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-17",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be late",
+            "Gonna be fine",
+            "Gonna be okay"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-19",
+          "answer": "Spin that record",
+          "options": [
+            "Play that guitar",
+            "Stop that record",
+            "Spin that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-25",
+          "answer": "playboy mouth",
+          "options": [
+            "playful smile",
+            "playboy mouth",
+            "pretty little mouth"
+          ],
+          "prompt": "Wish I could shut my {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "真希望自己能閉上這張愛調情、口無遮攔的嘴（噢，噢，噢——噢）"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-26",
+          "answer": "shirt inside out",
+          "options": [
+            "shirt inside out",
+            "shirt upside down",
+            "jacket inside out"
+          ],
+          "prompt": "How'd I turn my {{blank}}? (Inside out, right)",
+          "promptZh": "我怎麼會把衣服穿反了？（裡外顛倒，沒錯）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-27",
+          "answer": "roses have thorns",
+          "options": [
+            "roses have petals",
+            "flowers have thorns",
+            "roses have thorns"
+          ],
+          "prompt": "Control your poison, babe, {{blank}}, they say",
+          "promptZh": "寶貝，控制好你喝下的酒；人們不是常說，玫瑰雖美，卻也帶刺嗎？"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-28",
+          "answer": "gettin' hosed tonight",
+          "options": [
+            "gettin' home tonight",
+            "gettin' hosed tonight",
+            "getting lost tonight"
+          ],
+          "prompt": "And we're all {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "而今晚，我們所有人都快喝得爛醉如泥了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-31",
+          "answer": "can't see straight anymore",
+          "options": [
+            "can't see straight anymore",
+            "can't stand still anymore",
+            "can't hear you anymore"
+          ],
+          "prompt": "I love this record, baby, but I {{blank}}",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-32",
+          "answer": "Keep it cool",
+          "options": [
+            "Take it slow",
+            "Keep it cool",
+            "Keep it moving"
+          ],
+          "prompt": "{{blank}}, what's the name of this club?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-43",
+          "answer": "come through on the dance floor",
+          "options": [
+            "come through on the dance floor",
+            "come back to the dance floor",
+            "walk out of the dance hall"
+          ],
+          "prompt": "When I {{blank}}, checking out that catalogue (Hey)",
+          "promptZh": "當我走進舞池，便開始打量眼前形形色色的美女（嘿）"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-44",
+          "answer": "Can't believe my eyes",
+          "options": [
+            "Can't believe my eyes",
+            "Can't believe my luck",
+            "Can't believe your lies"
+          ],
+          "prompt": "{{blank}}, so many women without a flaw",
+          "promptZh": "真不敢相信自己的眼睛，竟有這麼多近乎完美的女人"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-47",
+          "answer": "so much energy",
+          "options": [
+            "so much mystery",
+            "so much energy",
+            "so much attitude"
+          ],
+          "prompt": "Shorty, I can see that you got {{blank}}",
+          "promptZh": "小美人，我看得出妳充滿了活力"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-48",
+          "answer": "hips 'round and 'round",
+          "options": [
+            "hips 'round and 'round",
+            "feet on the ground",
+            "hands up and down"
+          ],
+          "prompt": "The way you twirlin' up them {{blank}}",
+          "promptZh": "瞧妳那腰臀不停地扭動，一圈又一圈"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just Dance (feat. Colby O'Donis)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "(Truth!)"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "RedOne"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Konvict"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gaga (Oh-oh, eh)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've had {{q:1}}, much (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "All of the people {{q:2}} (Start to rush by)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "A dizzy twister dance, can't find my drink or man"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Where are my keys? I {{q:3}}, phone (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:4}}, on the floor?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:5}}, baby, but I can't see straight anymore"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Keep it cool, what's the {{q:6}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I {{q:7}}, but it's alright, a-alright"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:8}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:9}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:10}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Just, j-j-just dance"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Wish I could shut my {{q:11}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "How'd I turn my {{q:12}}? (Inside out, right)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Control your poison, babe, {{q:13}}, they say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And we're all {{q:14}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "What's goin' on, on the floor?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I love this record, baby, but I {{q:15}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:16}}, what's the name of this club?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I can't remember, but it's alright, a-alright"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just, j-j-just"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "[Colby O'Donis:]"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "When I {{q:17}}, checking out that catalogue (Hey)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:18}}, so many women without a flaw"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And I ain't gon' give it up, steady, tryna pick it up like a call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it until tomorrow, yeah"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shorty, I can see that you got {{q:19}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "The way you twirlin' up them {{q:20}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And there is no reason at all why you can't leave here with me"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "In the meantime, stay, let me watch you break it down and"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "Dance"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "Gonna be okay, da-da-doo-doot-n (Oh)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Gonna be okay, da-da-doo-doot-n (Ooh yeah)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just dance (Oh)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Gonna be okay, da-da-da-dance (Gonna be okay)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Dance, dance (Yeah)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just, j-j-just dance (Oh)"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "[Akon:]"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Incredible"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Amazing"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Music"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Woo!"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Let's go!"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, it's symphonic"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, electronic"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, it's symphonic"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, electronic"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Go, use your muscle, carve it out, work it, hustle"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(I got it, just stay close enough to get it on)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Don't slow, drive it, clean it, Lysol, bleed it "
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Spend the last dough (I got it) in your pock-o (I got it)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Just dance (Baby)"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n (Oh, baby, yeah)"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Gonna be okay (Spin that record, baby, yeah)"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just, j-j-just dance"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "a little bit too much",
+          "options": [
+            "a little bit too late",
+            "a little bit too much",
+            "a little bit of luck"
+          ],
+          "prompt": "I've had {{blank}}, much (Oh, oh, oh-oh)",
+          "promptZh": "我好像喝得有點太多、真的有點太多了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "start to rush",
+          "options": [
+            "start to rush",
+            "start to laugh",
+            "start to dance"
+          ],
+          "prompt": "All of the people {{blank}} (Start to rush by)",
+          "promptZh": "周圍的人群開始飛快地穿梭（不斷從身旁掠過）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-9",
+          "answer": "dizzy twister dance",
+          "options": [
+            "crazy disco dance",
+            "dizzy spinning room",
+            "dizzy twister dance"
+          ],
+          "prompt": "A {{blank}}, can't find my drink or man",
+          "promptZh": "一場令人天旋地轉的舞蹈，連我的酒杯和男人都找不到了"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-10",
+          "answer": "lost my phone",
+          "options": [
+            "found my phone",
+            "lost my phone",
+            "lost my bag"
+          ],
+          "prompt": "Where are my keys? I {{blank}}, phone (Oh, oh, oh-oh)",
+          "promptZh": "我的鑰匙在哪裡？連手機也弄丟了、弄丟了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-12",
+          "answer": "What's goin' on",
+          "options": [
+            "Where are we going",
+            "What's happening now",
+            "What's goin' on"
+          ],
+          "prompt": "{{blank}}, on the floor?",
+          "promptZh": "舞池裡到底發生了什麼事？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-13",
+          "answer": "love this record",
+          "options": [
+            "love this record",
+            "love this rhythm",
+            "hate this record"
+          ],
+          "prompt": "I {{blank}}, baby, but I can't see straight anymore",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-14",
+          "answer": "name of this club",
+          "options": [
+            "name of this club",
+            "name of this song",
+            "number of this club"
+          ],
+          "prompt": "Keep it cool, what's the {{blank}}?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-15",
+          "answer": "can't remember",
+          "options": [
+            "can remember",
+            "can't remember",
+            "can't believe it"
+          ],
+          "prompt": "I {{blank}}, but it's alright, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-16",
+          "answer": "Just dance",
+          "options": [
+            "Just dance",
+            "Just wait",
+            "Just sing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只管盡情跳舞"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-17",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be late",
+            "Gonna be okay",
+            "Gonna be fine"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-19",
+          "answer": "Spin that record",
+          "options": [
+            "Spin that record",
+            "Stop that record",
+            "Play that guitar"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-25",
+          "answer": "playboy mouth",
+          "options": [
+            "pretty little mouth",
+            "playboy mouth",
+            "playful smile"
+          ],
+          "prompt": "Wish I could shut my {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "真希望自己能閉上這張愛調情、口無遮攔的嘴（噢，噢，噢——噢）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-26",
+          "answer": "shirt inside out",
+          "options": [
+            "shirt upside down",
+            "jacket inside out",
+            "shirt inside out"
+          ],
+          "prompt": "How'd I turn my {{blank}}? (Inside out, right)",
+          "promptZh": "我怎麼會把衣服穿反了？（裡外顛倒，沒錯）"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-27",
+          "answer": "roses have thorns",
+          "options": [
+            "flowers have thorns",
+            "roses have thorns",
+            "roses have petals"
+          ],
+          "prompt": "Control your poison, babe, {{blank}}, they say",
+          "promptZh": "寶貝，控制好你喝下的酒；人們不是常說，玫瑰雖美，卻也帶刺嗎？"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-28",
+          "answer": "gettin' hosed tonight",
+          "options": [
+            "gettin' home tonight",
+            "getting lost tonight",
+            "gettin' hosed tonight"
+          ],
+          "prompt": "And we're all {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "而今晚，我們所有人都快喝得爛醉如泥了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-31",
+          "answer": "can't see straight anymore",
+          "options": [
+            "can't stand still anymore",
+            "can't hear you anymore",
+            "can't see straight anymore"
+          ],
+          "prompt": "I love this record, baby, but I {{blank}}",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-32",
+          "answer": "Keep it cool",
+          "options": [
+            "Keep it moving",
+            "Keep it cool",
+            "Take it slow"
+          ],
+          "prompt": "{{blank}}, what's the name of this club?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-33",
+          "answer": "it's alright",
+          "options": [
+            "it's alright",
+            "it's a lie",
+            "it's too late"
+          ],
+          "prompt": "I can't remember, but {{blank}}, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-35",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be late",
+            "Gonna be great",
+            "Gonna be okay"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-37",
+          "answer": "Spin that record",
+          "options": [
+            "Break that record",
+            "Spin that record",
+            "Turn up the music"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-43",
+          "answer": "come through on the dance floor",
+          "options": [
+            "walk out of the dance hall",
+            "come through on the dance floor",
+            "come back to the dance floor"
+          ],
+          "prompt": "When I {{blank}}, checking out that catalogue (Hey)",
+          "promptZh": "當我走進舞池，便開始打量眼前形形色色的美女（嘿）"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-44",
+          "answer": "Can't believe my eyes",
+          "options": [
+            "Can't believe my eyes",
+            "Can't believe your lies",
+            "Can't believe my luck"
+          ],
+          "prompt": "{{blank}}, so many women without a flaw",
+          "promptZh": "真不敢相信自己的眼睛，竟有這麼多近乎完美的女人"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-45",
+          "answer": "ain't gon' give it up",
+          "options": [
+            "ain't gon' give it up",
+            "ain't gon' pick it up",
+            "ain't gonna slow it down"
+          ],
+          "prompt": "And I {{blank}}, steady, tryna pick it up like a call",
+          "promptZh": "我可不會就此罷手，還要繼續出擊，就像接起電話般把握機會"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-46",
+          "answer": "until tomorrow",
+          "options": [
+            "until tonight",
+            "until the morning",
+            "until tomorrow"
+          ],
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it {{blank}}, yeah",
+          "promptZh": "我要放膽出手、盡情放縱，緊緊纏著她，直到明天，耶"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-47",
+          "answer": "so much energy",
+          "options": [
+            "so much mystery",
+            "so much energy",
+            "so much attitude"
+          ],
+          "prompt": "Shorty, I can see that you got {{blank}}",
+          "promptZh": "小美人，我看得出妳充滿了活力"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-48",
+          "answer": "hips 'round and 'round",
+          "options": [
+            "feet on the ground",
+            "hands up and down",
+            "hips 'round and 'round"
+          ],
+          "prompt": "The way you twirlin' up them {{blank}}",
+          "promptZh": "瞧妳那腰臀不停地扭動，一圈又一圈"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-49",
+          "answer": "leave here with me",
+          "options": [
+            "leave here with me",
+            "leave here alone",
+            "stay here with me"
+          ],
+          "prompt": "And there is no reason at all why you can't {{blank}}",
+          "promptZh": "妳完全沒有理由不能跟我一起離開這裡"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-50",
+          "answer": "watch you break it down",
+          "options": [
+            "watch you turn around",
+            "watch you slow it down",
+            "watch you break it down"
+          ],
+          "prompt": "In the meantime, stay, let me {{blank}} and",
+          "promptZh": "不過現在先留下來，讓我好好欣賞妳盡情舞動，然後……"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-52",
+          "answer": "Dance",
+          "options": [
+            "Sing",
+            "Stop",
+            "Dance"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "跳舞"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-53",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be late",
+            "Gonna be better"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n (Oh)",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟（噢）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-55",
+          "answer": "Spin that record",
+          "options": [
+            "Drop that record",
+            "Spin that record",
+            "Spin that bottle"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-61",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be famous",
+            "Gonna be ready"
+          ],
+          "prompt": "{{blank}}, da-da-da-dance (Gonna be okay)",
+          "promptZh": "一切都會沒事的，跳、跳、跳舞（一切都會沒事的）"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just Dance (feat. Colby O'Donis)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "(Truth!)"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "RedOne"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Konvict"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gaga (Oh-oh, eh)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've had {{q:1}}, much (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "All of the people {{q:2}} (Start to rush by)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "A {{q:3}}, can't find my drink or man"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Where are my keys? I {{q:4}}, phone (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:5}}, on the floor?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:6}}, baby, but I can't see straight anymore"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Keep it cool, what's the {{q:7}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I {{q:8}}, but it's alright, a-alright"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:10}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:11}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Just, j-j-just dance"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Wish I could shut my {{q:12}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "How'd I turn my {{q:13}}? (Inside out, right)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Control your poison, babe, {{q:14}}, they say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And we're all {{q:15}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "What's goin' on, on the floor?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I love this record, baby, but I {{q:16}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:17}}, what's the name of this club?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I can't remember, but {{q:18}}, a-alright"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:19}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:20}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just, j-j-just"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "[Colby O'Donis:]"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "When I {{q:21}}, checking out that catalogue (Hey)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:22}}, so many women without a flaw"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And I {{q:23}}, steady, tryna pick it up like a call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it {{q:24}}, yeah"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shorty, I can see that you got {{q:25}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "The way you twirlin' up them {{q:26}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And there is no reason at all why you can't {{q:27}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "In the meantime, stay, let me {{q:28}} and"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:30}}, da-da-doo-doot-n (Oh)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:31}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Gonna be okay, da-da-doo-doot-n (Ooh yeah)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just dance (Oh)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "{{q:32}}, da-da-da-dance (Gonna be okay)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Dance, dance (Yeah)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just, j-j-just dance (Oh)"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "[Akon:]"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "Incredible"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "Amazing"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Music"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Woo!"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "Let's go!"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, it's symphonic"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, electronic"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, it's symphonic"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, electronic"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Go, use your muscle, carve it out, work it, hustle"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(I got it, just stay close enough to get it on)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Don't slow, drive it, clean it, Lysol, bleed it "
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Spend the last dough (I got it) in your pock-o (I got it)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Just dance (Baby)"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n (Oh, baby, yeah)"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Gonna be okay (Spin that record, baby, yeah)"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just, j-j-just dance"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "a little bit too much",
+          "options": [
+            "a little bit too late",
+            "a little bit too much",
+            "a little bit of luck"
+          ],
+          "prompt": "I've had {{blank}}, much (Oh, oh, oh-oh)",
+          "promptZh": "我好像喝得有點太多、真的有點太多了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "start to rush",
+          "options": [
+            "start to rush",
+            "start to laugh",
+            "start to dance"
+          ],
+          "prompt": "All of the people {{blank}} (Start to rush by)",
+          "promptZh": "周圍的人群開始飛快地穿梭（不斷從身旁掠過）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-9",
+          "answer": "dizzy twister dance",
+          "options": [
+            "dizzy twister dance",
+            "dizzy spinning room",
+            "crazy disco dance"
+          ],
+          "prompt": "A {{blank}}, can't find my drink or man",
+          "promptZh": "一場令人天旋地轉的舞蹈，連我的酒杯和男人都找不到了"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-10",
+          "answer": "lost my phone",
+          "options": [
+            "found my phone",
+            "lost my phone",
+            "lost my bag"
+          ],
+          "prompt": "Where are my keys? I {{blank}}, phone (Oh, oh, oh-oh)",
+          "promptZh": "我的鑰匙在哪裡？連手機也弄丟了、弄丟了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-12",
+          "answer": "What's goin' on",
+          "options": [
+            "Where are we going",
+            "What's goin' on",
+            "What's happening now"
+          ],
+          "prompt": "{{blank}}, on the floor?",
+          "promptZh": "舞池裡到底發生了什麼事？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-13",
+          "answer": "love this record",
+          "options": [
+            "hate this record",
+            "love this rhythm",
+            "love this record"
+          ],
+          "prompt": "I {{blank}}, baby, but I can't see straight anymore",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-14",
+          "answer": "name of this club",
+          "options": [
+            "name of this song",
+            "number of this club",
+            "name of this club"
+          ],
+          "prompt": "Keep it cool, what's the {{blank}}?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-15",
+          "answer": "can't remember",
+          "options": [
+            "can't remember",
+            "can't believe it",
+            "can remember"
+          ],
+          "prompt": "I {{blank}}, but it's alright, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-16",
+          "answer": "Just dance",
+          "options": [
+            "Just wait",
+            "Just dance",
+            "Just sing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只管盡情跳舞"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-17",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be fine",
+            "Gonna be late"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-19",
+          "answer": "Spin that record",
+          "options": [
+            "Stop that record",
+            "Play that guitar",
+            "Spin that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-25",
+          "answer": "playboy mouth",
+          "options": [
+            "playboy mouth",
+            "pretty little mouth",
+            "playful smile"
+          ],
+          "prompt": "Wish I could shut my {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "真希望自己能閉上這張愛調情、口無遮攔的嘴（噢，噢，噢——噢）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-26",
+          "answer": "shirt inside out",
+          "options": [
+            "shirt inside out",
+            "shirt upside down",
+            "jacket inside out"
+          ],
+          "prompt": "How'd I turn my {{blank}}? (Inside out, right)",
+          "promptZh": "我怎麼會把衣服穿反了？（裡外顛倒，沒錯）"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-27",
+          "answer": "roses have thorns",
+          "options": [
+            "roses have petals",
+            "flowers have thorns",
+            "roses have thorns"
+          ],
+          "prompt": "Control your poison, babe, {{blank}}, they say",
+          "promptZh": "寶貝，控制好你喝下的酒；人們不是常說，玫瑰雖美，卻也帶刺嗎？"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-28",
+          "answer": "gettin' hosed tonight",
+          "options": [
+            "getting lost tonight",
+            "gettin' home tonight",
+            "gettin' hosed tonight"
+          ],
+          "prompt": "And we're all {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "而今晚，我們所有人都快喝得爛醉如泥了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-31",
+          "answer": "can't see straight anymore",
+          "options": [
+            "can't see straight anymore",
+            "can't hear you anymore",
+            "can't stand still anymore"
+          ],
+          "prompt": "I love this record, baby, but I {{blank}}",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-32",
+          "answer": "Keep it cool",
+          "options": [
+            "Take it slow",
+            "Keep it cool",
+            "Keep it moving"
+          ],
+          "prompt": "{{blank}}, what's the name of this club?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-33",
+          "answer": "it's alright",
+          "options": [
+            "it's a lie",
+            "it's too late",
+            "it's alright"
+          ],
+          "prompt": "I can't remember, but {{blank}}, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-35",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be late",
+            "Gonna be great",
+            "Gonna be okay"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-37",
+          "answer": "Spin that record",
+          "options": [
+            "Turn up the music",
+            "Spin that record",
+            "Break that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-43",
+          "answer": "come through on the dance floor",
+          "options": [
+            "walk out of the dance hall",
+            "come back to the dance floor",
+            "come through on the dance floor"
+          ],
+          "prompt": "When I {{blank}}, checking out that catalogue (Hey)",
+          "promptZh": "當我走進舞池，便開始打量眼前形形色色的美女（嘿）"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-44",
+          "answer": "Can't believe my eyes",
+          "options": [
+            "Can't believe my luck",
+            "Can't believe my eyes",
+            "Can't believe your lies"
+          ],
+          "prompt": "{{blank}}, so many women without a flaw",
+          "promptZh": "真不敢相信自己的眼睛，竟有這麼多近乎完美的女人"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-45",
+          "answer": "ain't gon' give it up",
+          "options": [
+            "ain't gon' give it up",
+            "ain't gonna slow it down",
+            "ain't gon' pick it up"
+          ],
+          "prompt": "And I {{blank}}, steady, tryna pick it up like a call",
+          "promptZh": "我可不會就此罷手，還要繼續出擊，就像接起電話般把握機會"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-46",
+          "answer": "until tomorrow",
+          "options": [
+            "until tomorrow",
+            "until tonight",
+            "until the morning"
+          ],
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it {{blank}}, yeah",
+          "promptZh": "我要放膽出手、盡情放縱，緊緊纏著她，直到明天，耶"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-47",
+          "answer": "so much energy",
+          "options": [
+            "so much mystery",
+            "so much attitude",
+            "so much energy"
+          ],
+          "prompt": "Shorty, I can see that you got {{blank}}",
+          "promptZh": "小美人，我看得出妳充滿了活力"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-48",
+          "answer": "hips 'round and 'round",
+          "options": [
+            "hips 'round and 'round",
+            "feet on the ground",
+            "hands up and down"
+          ],
+          "prompt": "The way you twirlin' up them {{blank}}",
+          "promptZh": "瞧妳那腰臀不停地扭動，一圈又一圈"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-49",
+          "answer": "leave here with me",
+          "options": [
+            "stay here with me",
+            "leave here alone",
+            "leave here with me"
+          ],
+          "prompt": "And there is no reason at all why you can't {{blank}}",
+          "promptZh": "妳完全沒有理由不能跟我一起離開這裡"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-50",
+          "answer": "watch you break it down",
+          "options": [
+            "watch you slow it down",
+            "watch you break it down",
+            "watch you turn around"
+          ],
+          "prompt": "In the meantime, stay, let me {{blank}} and",
+          "promptZh": "不過現在先留下來，讓我好好欣賞妳盡情舞動，然後……"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-52",
+          "answer": "Dance",
+          "options": [
+            "Stop",
+            "Dance",
+            "Sing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "跳舞"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-53",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be better",
+            "Gonna be late",
+            "Gonna be okay"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n (Oh)",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟（噢）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-55",
+          "answer": "Spin that record",
+          "options": [
+            "Drop that record",
+            "Spin that bottle",
+            "Spin that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-61",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be ready",
+            "Gonna be okay",
+            "Gonna be famous"
+          ],
+          "prompt": "{{blank}}, da-da-da-dance (Gonna be okay)",
+          "promptZh": "一切都會沒事的，跳、跳、跳舞（一切都會沒事的）"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-65",
+          "answer": "Incredible",
+          "options": [
+            "Unbelievable",
+            "Incredible",
+            "Impossible"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "難以置信！"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-66",
+          "answer": "Amazing",
+          "options": [
+            "Exciting",
+            "Confusing",
+            "Amazing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "太精彩了！"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-69",
+          "answer": "Let's go!",
+          "options": [
+            "Let's go!",
+            "Let's stop!",
+            "Let's dance!"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "來吧！"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-71",
+          "answer": "Half psychotic",
+          "options": [
+            "Half psychotic",
+            "Half dramatic",
+            "Half romantic"
+          ],
+          "prompt": "{{blank}}, sick, hypnotic, got my blueprint, it's symphonic",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，如交響樂般恢宏"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-72",
+          "answer": "my blueprint",
+          "options": [
+            "my music",
+            "my blueprint",
+            "my heartbeat"
+          ],
+          "prompt": "Half psychotic, sick, hypnotic, got {{blank}}, electronic",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，充滿電子樂的節奏"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-73",
+          "answer": "it's symphonic",
+          "options": [
+            "it's symphonic",
+            "it's electronic",
+            "it's hypnotic"
+          ],
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{blank}}",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，如交響樂般恢宏"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-74",
+          "answer": "electronic",
+          "options": [
+            "melodic",
+            "electronic",
+            "automatic"
+          ],
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{blank}}",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，充滿電子樂的節奏"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-75",
+          "answer": "use your muscle",
+          "options": [
+            "use your muscle",
+            "move your body",
+            "use your rhythm"
+          ],
+          "prompt": "Go, {{blank}}, carve it out, work it, hustle",
+          "promptZh": "來吧，動用全身的力量，盡情舞動、賣力展現、加快節奏"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just Dance (feat. Colby O'Donis)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "(Truth!)"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "RedOne"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Konvict"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gaga (Oh-oh, eh)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've had {{q:1}}, much (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "All of the people {{q:2}} (Start to rush by)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "A {{q:3}}, can't find my drink or man"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Where are my keys? I {{q:4}}, phone (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:5}}, on the floor?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:6}}, baby, but I can't see straight anymore"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Keep it cool, what's the {{q:7}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I {{q:8}}, but it's alright, a-alright"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:10}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:11}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Just, j-j-just dance"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Wish I could shut my {{q:12}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "How'd I turn my {{q:13}}? (Inside out, right)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Control your poison, babe, {{q:14}}, they say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And we're all {{q:15}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "What's goin' on, on the floor?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I love this record, baby, but I {{q:16}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:17}}, what's the name of this club?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I can't remember, but {{q:18}}, a-alright"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:19}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:20}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just, j-j-just"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "[Colby O'Donis:]"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "When I {{q:21}}, checking out that catalogue (Hey)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:22}}, so many women without a flaw"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And I {{q:23}}, steady, tryna pick it up like a call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it {{q:24}}, yeah"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shorty, I can see that you got {{q:25}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "The way you twirlin' up them {{q:26}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And there is no reason at all why you can't {{q:27}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "In the meantime, stay, let me {{q:28}} and"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:30}}, da-da-doo-doot-n (Oh)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:31}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Gonna be okay, da-da-doo-doot-n (Ooh yeah)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just dance (Oh)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "{{q:32}}, da-da-da-dance (Gonna be okay)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Dance, dance (Yeah)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just, j-j-just dance (Oh)"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "[Akon:]"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Music"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Woo!"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "{{q:36}}, sick, hypnotic, got my blueprint, it's symphonic"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "Half psychotic, sick, hypnotic, got {{q:37}}, electronic"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{q:38}}"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{q:39}}"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Go, {{q:40}}, carve it out, work it, hustle"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(I got it, just stay close enough to get it on)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "Don't slow, drive it, clean it, Lysol, bleed it "
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Spend the last dough (I got it) in your pock-o (I got it)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Just dance (Baby)"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "Gonna be okay, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n (Oh, baby, yeah)"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "Gonna be okay (Spin that record, baby, yeah)"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "Just, j-j-just dance"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-7",
+          "answer": "a little bit too much",
+          "options": [
+            "a little bit too late",
+            "a little bit of luck",
+            "a little bit too much"
+          ],
+          "prompt": "I've had {{blank}}, much (Oh, oh, oh-oh)",
+          "promptZh": "我好像喝得有點太多、真的有點太多了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-8",
+          "answer": "start to rush",
+          "options": [
+            "start to dance",
+            "start to laugh",
+            "start to rush"
+          ],
+          "prompt": "All of the people {{blank}} (Start to rush by)",
+          "promptZh": "周圍的人群開始飛快地穿梭（不斷從身旁掠過）"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-9",
+          "answer": "dizzy twister dance",
+          "options": [
+            "dizzy twister dance",
+            "dizzy spinning room",
+            "crazy disco dance"
+          ],
+          "prompt": "A {{blank}}, can't find my drink or man",
+          "promptZh": "一場令人天旋地轉的舞蹈，連我的酒杯和男人都找不到了"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-10",
+          "answer": "lost my phone",
+          "options": [
+            "lost my bag",
+            "lost my phone",
+            "found my phone"
+          ],
+          "prompt": "Where are my keys? I {{blank}}, phone (Oh, oh, oh-oh)",
+          "promptZh": "我的鑰匙在哪裡？連手機也弄丟了、弄丟了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-12",
+          "answer": "What's goin' on",
+          "options": [
+            "What's goin' on",
+            "What's happening now",
+            "Where are we going"
+          ],
+          "prompt": "{{blank}}, on the floor?",
+          "promptZh": "舞池裡到底發生了什麼事？"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-13",
+          "answer": "love this record",
+          "options": [
+            "love this record",
+            "love this rhythm",
+            "hate this record"
+          ],
+          "prompt": "I {{blank}}, baby, but I can't see straight anymore",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-14",
+          "answer": "name of this club",
+          "options": [
+            "number of this club",
+            "name of this club",
+            "name of this song"
+          ],
+          "prompt": "Keep it cool, what's the {{blank}}?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-15",
+          "answer": "can't remember",
+          "options": [
+            "can remember",
+            "can't believe it",
+            "can't remember"
+          ],
+          "prompt": "I {{blank}}, but it's alright, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-16",
+          "answer": "Just dance",
+          "options": [
+            "Just wait",
+            "Just dance",
+            "Just sing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只管盡情跳舞"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-17",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be late",
+            "Gonna be fine",
+            "Gonna be okay"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-19",
+          "answer": "Spin that record",
+          "options": [
+            "Play that guitar",
+            "Spin that record",
+            "Stop that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-25",
+          "answer": "playboy mouth",
+          "options": [
+            "playful smile",
+            "pretty little mouth",
+            "playboy mouth"
+          ],
+          "prompt": "Wish I could shut my {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "真希望自己能閉上這張愛調情、口無遮攔的嘴（噢，噢，噢——噢）"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-26",
+          "answer": "shirt inside out",
+          "options": [
+            "shirt inside out",
+            "jacket inside out",
+            "shirt upside down"
+          ],
+          "prompt": "How'd I turn my {{blank}}? (Inside out, right)",
+          "promptZh": "我怎麼會把衣服穿反了？（裡外顛倒，沒錯）"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-27",
+          "answer": "roses have thorns",
+          "options": [
+            "flowers have thorns",
+            "roses have petals",
+            "roses have thorns"
+          ],
+          "prompt": "Control your poison, babe, {{blank}}, they say",
+          "promptZh": "寶貝，控制好你喝下的酒；人們不是常說，玫瑰雖美，卻也帶刺嗎？"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-28",
+          "answer": "gettin' hosed tonight",
+          "options": [
+            "gettin' hosed tonight",
+            "gettin' home tonight",
+            "getting lost tonight"
+          ],
+          "prompt": "And we're all {{blank}} (Oh, oh, oh-oh)",
+          "promptZh": "而今晚，我們所有人都快喝得爛醉如泥了（噢，噢，噢——噢）"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-31",
+          "answer": "can't see straight anymore",
+          "options": [
+            "can't hear you anymore",
+            "can't see straight anymore",
+            "can't stand still anymore"
+          ],
+          "prompt": "I love this record, baby, but I {{blank}}",
+          "promptZh": "寶貝，我愛死這首歌了，可我現在連眼前的東西都看不清楚"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-32",
+          "answer": "Keep it cool",
+          "options": [
+            "Take it slow",
+            "Keep it moving",
+            "Keep it cool"
+          ],
+          "prompt": "{{blank}}, what's the name of this club?",
+          "promptZh": "冷靜一點，對了，這間夜店叫什麼名字？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-33",
+          "answer": "it's alright",
+          "options": [
+            "it's too late",
+            "it's a lie",
+            "it's alright"
+          ],
+          "prompt": "I can't remember, but {{blank}}, a-alright",
+          "promptZh": "我想不起來了，不過沒關係，沒——關係"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-35",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be great",
+            "Gonna be late"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-37",
+          "answer": "Spin that record",
+          "options": [
+            "Turn up the music",
+            "Spin that record",
+            "Break that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-43",
+          "answer": "come through on the dance floor",
+          "options": [
+            "come through on the dance floor",
+            "come back to the dance floor",
+            "walk out of the dance hall"
+          ],
+          "prompt": "When I {{blank}}, checking out that catalogue (Hey)",
+          "promptZh": "當我走進舞池，便開始打量眼前形形色色的美女（嘿）"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-44",
+          "answer": "Can't believe my eyes",
+          "options": [
+            "Can't believe my luck",
+            "Can't believe your lies",
+            "Can't believe my eyes"
+          ],
+          "prompt": "{{blank}}, so many women without a flaw",
+          "promptZh": "真不敢相信自己的眼睛，竟有這麼多近乎完美的女人"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-45",
+          "answer": "ain't gon' give it up",
+          "options": [
+            "ain't gonna slow it down",
+            "ain't gon' give it up",
+            "ain't gon' pick it up"
+          ],
+          "prompt": "And I {{blank}}, steady, tryna pick it up like a call",
+          "promptZh": "我可不會就此罷手，還要繼續出擊，就像接起電話般把握機會"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-46",
+          "answer": "until tomorrow",
+          "options": [
+            "until tomorrow",
+            "until the morning",
+            "until tonight"
+          ],
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it {{blank}}, yeah",
+          "promptZh": "我要放膽出手、盡情放縱，緊緊纏著她，直到明天，耶"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-47",
+          "answer": "so much energy",
+          "options": [
+            "so much attitude",
+            "so much mystery",
+            "so much energy"
+          ],
+          "prompt": "Shorty, I can see that you got {{blank}}",
+          "promptZh": "小美人，我看得出妳充滿了活力"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-48",
+          "answer": "hips 'round and 'round",
+          "options": [
+            "hips 'round and 'round",
+            "feet on the ground",
+            "hands up and down"
+          ],
+          "prompt": "The way you twirlin' up them {{blank}}",
+          "promptZh": "瞧妳那腰臀不停地扭動，一圈又一圈"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-49",
+          "answer": "leave here with me",
+          "options": [
+            "stay here with me",
+            "leave here with me",
+            "leave here alone"
+          ],
+          "prompt": "And there is no reason at all why you can't {{blank}}",
+          "promptZh": "妳完全沒有理由不能跟我一起離開這裡"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-50",
+          "answer": "watch you break it down",
+          "options": [
+            "watch you slow it down",
+            "watch you break it down",
+            "watch you turn around"
+          ],
+          "prompt": "In the meantime, stay, let me {{blank}} and",
+          "promptZh": "不過現在先留下來，讓我好好欣賞妳盡情舞動，然後……"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-52",
+          "answer": "Dance",
+          "options": [
+            "Dance",
+            "Sing",
+            "Stop"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "跳舞"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-53",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be better",
+            "Gonna be late",
+            "Gonna be okay"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n (Oh)",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟（噢）"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-55",
+          "answer": "Spin that record",
+          "options": [
+            "Spin that record",
+            "Drop that record",
+            "Spin that bottle"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-61",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be famous",
+            "Gonna be okay",
+            "Gonna be ready"
+          ],
+          "prompt": "{{blank}}, da-da-da-dance (Gonna be okay)",
+          "promptZh": "一切都會沒事的，跳、跳、跳舞（一切都會沒事的）"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-65",
+          "answer": "Incredible",
+          "options": [
+            "Incredible",
+            "Unbelievable",
+            "Impossible"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "難以置信！"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-66",
+          "answer": "Amazing",
+          "options": [
+            "Confusing",
+            "Amazing",
+            "Exciting"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "太精彩了！"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-69",
+          "answer": "Let's go!",
+          "options": [
+            "Let's dance!",
+            "Let's stop!",
+            "Let's go!"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "來吧！"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-71",
+          "answer": "Half psychotic",
+          "options": [
+            "Half dramatic",
+            "Half psychotic",
+            "Half romantic"
+          ],
+          "prompt": "{{blank}}, sick, hypnotic, got my blueprint, it's symphonic",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，如交響樂般恢宏"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-72",
+          "answer": "my blueprint",
+          "options": [
+            "my heartbeat",
+            "my blueprint",
+            "my music"
+          ],
+          "prompt": "Half psychotic, sick, hypnotic, got {{blank}}, electronic",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，充滿電子樂的節奏"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-73",
+          "answer": "it's symphonic",
+          "options": [
+            "it's electronic",
+            "it's hypnotic",
+            "it's symphonic"
+          ],
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{blank}}",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，如交響樂般恢宏"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-74",
+          "answer": "electronic",
+          "options": [
+            "melodic",
+            "electronic",
+            "automatic"
+          ],
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{blank}}",
+          "promptZh": "半瘋半狂，病態又令人著迷；我的構想早已成形，充滿電子樂的節奏"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-75",
+          "answer": "use your muscle",
+          "options": [
+            "use your rhythm",
+            "move your body",
+            "use your muscle"
+          ],
+          "prompt": "Go, {{blank}}, carve it out, work it, hustle",
+          "promptZh": "來吧，動用全身的力量，盡情舞動、賣力展現、加快節奏"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-76",
+          "answer": "stay close enough",
+          "options": [
+            "stay close enough",
+            "stand close together",
+            "stay far away"
+          ],
+          "prompt": "(I got it, just {{blank}} to get it on)",
+          "promptZh": "（我懂了，只要靠得夠近，就能一起盡情狂歡）"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-77",
+          "answer": "Don't slow",
+          "options": [
+            "Don't slow",
+            "Don't stop",
+            "Go slow"
+          ],
+          "prompt": "{{blank}}, drive it, clean it, Lysol, bleed it ",
+          "promptZh": "別慢下來，繼續衝刺、盡情揮灑，像用Lysol徹底清潔般，把一切都釋放出來"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-78",
+          "answer": "last dough",
+          "options": [
+            "last drink",
+            "last dough",
+            "last chance"
+          ],
+          "prompt": "Spend the {{blank}} (I got it) in your pock-o (I got it)",
+          "promptZh": "花光你口袋裡（我懂了）最後的一點錢（我懂了）"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-80",
+          "answer": "Just dance",
+          "options": [
+            "Just leave",
+            "Just dance",
+            "Just smile"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "只管盡情跳舞"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-81",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be alright",
+            "Gonna be over"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-83",
+          "answer": "Spin that record",
+          "options": [
+            "Spin that wheel",
+            "Play that record",
+            "Spin that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n ",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-85",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be ready",
+            "Gonna be gone"
+          ],
+          "prompt": "{{blank}}, da-da-doo-doot-n",
+          "promptZh": "一切都會沒事的，噠——噠——嘟——嘟"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-87",
+          "answer": "Spin that record",
+          "options": [
+            "Turn that record",
+            "Skip that record",
+            "Spin that record"
+          ],
+          "prompt": "{{blank}}, babe, da-da-doo-doot-n (Oh, baby, yeah)",
+          "promptZh": "寶貝，讓那張唱片繼續轉動，噠——噠——嘟——嘟（噢，寶貝，耶）"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-89",
+          "answer": "Gonna be okay",
+          "options": [
+            "Gonna be okay",
+            "Gonna be sorry",
+            "Gonna be famous"
+          ],
+          "prompt": "{{blank}} (Spin that record, baby, yeah)",
+          "promptZh": "一切都會沒事的（寶貝，讓唱片繼續轉動，耶）"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-91",
+          "answer": "Just, j-j-just dance",
+          "options": [
+            "Just, j-j-just stop",
+            "Just, j-j-just dance",
+            "Just, j-j-just sing"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "就、就、就只管跳舞"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Just Dance (feat. Colby O'Donis)"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "(Truth!)"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "RedOne"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Konvict"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Gaga (Oh-oh, eh)"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "I've had {{q:1}}, much (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "All of the people {{q:2}} (Start to rush by)"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "A {{q:3}}, can't find my drink or man"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "Where are my keys? I {{q:4}}, phone (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:5}}, on the floor?"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I {{q:6}}, baby, but I can't see straight anymore"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "Keep it cool, what's the {{q:7}}?"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "I {{q:8}}, but it's alright, a-alright"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:10}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:11}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Just, j-j-just dance"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Wish I could shut my {{q:12}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "How'd I turn my {{q:13}}? (Inside out, right)"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Control your poison, babe, {{q:14}}, they say"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And we're all {{q:15}} (Oh, oh, oh-oh)"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "What's goin' on, on the floor?"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "I love this record, baby, but I {{q:16}}"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:17}}, what's the name of this club?"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I can't remember, but {{q:18}}, a-alright"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:19}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "{{q:20}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Gonna be okay"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Just, j-j-just"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "[Colby O'Donis:]"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "When I {{q:21}}, checking out that catalogue (Hey)"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "{{q:22}}, so many women without a flaw"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "And I {{q:23}}, steady, tryna pick it up like a call"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'mma hit it, I'mma beat it up, latch onto it {{q:24}}, yeah"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shorty, I can see that you got {{q:25}}"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "The way you twirlin' up them {{q:26}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "And there is no reason at all why you can't {{q:27}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "In the meantime, stay, let me {{q:28}} and"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "{{q:29}}"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:30}}, da-da-doo-doot-n (Oh)"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "{{q:31}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Gonna be okay, da-da-doo-doot-n (Ooh yeah)"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Just dance (Ooh yeah)"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Spin that record, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Just dance (Oh)"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "{{q:32}}, da-da-da-dance (Gonna be okay)"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Dance, dance (Yeah)"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Just, j-j-just dance (Oh)"
+        },
+        {
+          "lineId": "line-64",
+          "prompt": "[Akon:]"
+        },
+        {
+          "lineId": "line-65",
+          "prompt": "{{q:33}}"
+        },
+        {
+          "lineId": "line-66",
+          "prompt": "{{q:34}}"
+        },
+        {
+          "lineId": "line-67",
+          "prompt": "Music"
+        },
+        {
+          "lineId": "line-68",
+          "prompt": "Woo!"
+        },
+        {
+          "lineId": "line-69",
+          "prompt": "{{q:35}}"
+        },
+        {
+          "lineId": "line-70",
+          "prompt": "[Lady Gaga & Akon:] [Lady Gaga"
+        },
+        {
+          "lineId": "line-71",
+          "prompt": "{{q:36}}, sick, hypnotic, got my blueprint, it's symphonic"
+        },
+        {
+          "lineId": "line-72",
+          "prompt": "Half psychotic, sick, hypnotic, got {{q:37}}, electronic"
+        },
+        {
+          "lineId": "line-73",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{q:38}}"
+        },
+        {
+          "lineId": "line-74",
+          "prompt": "Half psychotic, sick, hypnotic, got my blueprint, {{q:39}}"
+        },
+        {
+          "lineId": "line-75",
+          "prompt": "Go, {{q:40}}, carve it out, work it, hustle"
+        },
+        {
+          "lineId": "line-76",
+          "prompt": "(I got it, just {{q:41}} to get it on)"
+        },
+        {
+          "lineId": "line-77",
+          "prompt": "{{q:42}}, drive it, clean it, Lysol, bleed it "
+        },
+        {
+          "lineId": "line-78",
+          "prompt": "Spend the {{q:43}} (I got it) in your pock-o (I got it)"
+        },
+        {
+          "lineId": "line-79",
+          "prompt": "[Lady Gaga:]"
+        },
+        {
+          "lineId": "line-80",
+          "prompt": "{{q:44}}"
+        },
+        {
+          "lineId": "line-81",
+          "prompt": "{{q:45}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-82",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-83",
+          "prompt": "{{q:46}}, babe, da-da-doo-doot-n "
+        },
+        {
+          "lineId": "line-84",
+          "prompt": "Just dance (Baby)"
+        },
+        {
+          "lineId": "line-85",
+          "prompt": "{{q:47}}, da-da-doo-doot-n"
+        },
+        {
+          "lineId": "line-86",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-87",
+          "prompt": "{{q:48}}, babe, da-da-doo-doot-n (Oh, baby, yeah)"
+        },
+        {
+          "lineId": "line-88",
+          "prompt": "Just dance"
+        },
+        {
+          "lineId": "line-89",
+          "prompt": "{{q:49}} (Spin that record, baby, yeah)"
+        },
+        {
+          "lineId": "line-90",
+          "prompt": "Da-da-da-dance, dance, dance"
+        },
+        {
+          "lineId": "line-91",
+          "prompt": "{{q:50}}"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Just Dance · Listening & Vocabulary",
+  "description": "《Just Dance》描寫一個人在熱鬧的派對中，透過音樂與舞蹈暫時忘卻煩惱、盡情享受當下的心情。歌中的主角因喝了太多酒而感到頭暈目眩，甚至弄丟手機與鑰匙，連自己身在何處都記不清楚。然而，她仍然沉浸在強烈的音樂節奏中，試圖以跳舞掩飾混亂與不安。歌曲以幽默、誇張的方式呈現夜生活中的狂歡、誘惑與失控，也反映人們渴望逃離現實壓力的心情。最終，《Just Dance》傳達的是放鬆、自我釋放與享受當下的渴望：即使生活偶爾變得混亂，人們仍希望透過音樂尋找片刻的自由與快樂，但狂歡背後也隱含著失去控制的風險。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "A little bit too much",
+      "meaning": "有一點太多、稍微過量",
+      "usage": "想說某件事的數量或程度超過合適的範圍時使用。",
+      "prompt": "哪一句正確使用了「A little bit too much」？",
+      "options": [
+        "I put a little bit too much salt in the soup, and now it tastes bad.",
+        "The museum is a little bit too much next to the station.",
+        "She a little bit too much arrived before the show.",
+        "We have a little bit too much Monday tomorrow."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！鹽放得稍微太多，所以湯的味道變差。",
+        "錯誤！too much 不能用來表示位置；可以說 very close to the station。",
+        "錯誤！片語不能直接放在 arrived 前；要說 arrived a little bit too early。",
+        "錯誤！星期一不是可用 too much 表示過量的東西；可以說 We have too much work on Monday。"
+      ],
+      "explanation": "正確！鹽放得稍微太多，所以湯的味道變差。"
+    },
+    {
+      "number": 2,
+      "word": "Rush",
+      "meaning": "匆忙、急著做；衝向",
+      "usage": "趕時間、急著走，或很多人快速往某處移動時使用。",
+      "prompt": "哪一句正確使用了「Rush」？",
+      "options": [
+        "The actor rushed his blue jacket because it was new.",
+        "We rushed to the airport because our flight was leaving soon.",
+        "My phone rushed at 20 percent last night.",
+        "The teacher rushed the answer on the board to mean it was correct."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！rush 不能表示穿上衣服；可說 put on his blue jacket。",
+        "正確！趕飛機時匆忙去機場，可以用 rushed to。",
+        "錯誤！手機電量下降不叫 rush；可以說 My phone battery dropped to 20 percent。",
+        "錯誤！rush 不表示核對答案；可說 checked the answer。"
+      ],
+      "explanation": "正確！趕飛機時匆忙去機場，可以用 rushed to。"
+    },
+    {
+      "number": 3,
+      "word": "Dizzy",
+      "meaning": "頭暈的、暈眩的",
+      "usage": "轉太多圈、搭車不舒服或頭暈時，可以說 feel dizzy。",
+      "prompt": "哪一句正確使用了「Dizzy」？",
+      "options": [
+        "I was dizzy because my train ticket was very cheap.",
+        "After spinning around ten times, I felt dizzy.",
+        "The concert was dizzy at seven in the evening.",
+        "He put the dizzy in his bag before class."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！票便宜不會自然地表示頭暈；dizzy 指身體的暈眩感。",
+        "正確！轉了很多圈後感到頭暈，正是 dizzy 的意思。",
+        "錯誤！不能用 dizzy 表示演唱會的開始時間；可說 started at seven。",
+        "錯誤！dizzy 是形容詞，不能當成可放進包包的物品。"
+      ],
+      "explanation": "正確！轉了很多圈後感到頭暈，正是 dizzy 的意思。"
+    },
+    {
+      "number": 4,
+      "word": "What's going on?",
+      "meaning": "發生什麼事了？",
+      "usage": "看到奇怪的情況，想知道發生什麼事時使用。",
+      "prompt": "哪一句正確使用了「What's going on?」？",
+      "options": [
+        "What's going on? Why are all the people running out of the cinema?",
+        "What's going on? I bought a ticket for next Friday.",
+        "What's going on? The coffee costs three dollars.",
+        "What's going on? I will go to the library at four."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！看到大家突然跑出電影院，詢問發生什麼事很自然。",
+        "錯誤！這裡只是陳述購票計畫，沒有需要詢問的奇怪狀況。",
+        "錯誤！單純的價格資訊沒有顯示意外或不明情況。",
+        "錯誤！這是平常的行程安排，不是在問發生什麼事。"
+      ],
+      "explanation": "正確！看到大家突然跑出電影院，詢問發生什麼事很自然。"
+    },
+    {
+      "number": 5,
+      "word": "See straight",
+      "meaning": "看得清楚、視線正常",
+      "usage": "眼睛很累、太暈，或眼前模糊看不清楚時使用。",
+      "prompt": "哪一句正確使用了「See straight」？",
+      "options": [
+        "I see straight my new job next month.",
+        "I can't see straight after riding that fast roller coaster.",
+        "She sees straight the truth of the old story.",
+        "The road sees straight because it has no turns."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤！see straight 不能表示開始新工作；可說 start my new job。",
+        "正確！搭完高速雲霄飛車後頭暈、視線不清，可以這樣說。",
+        "錯誤！此處若要表示了解真相，可說 understands the truth。",
+        "錯誤！道路筆直應說 The road is straight，不能讓道路 see straight。"
+      ],
+      "explanation": "正確！搭完高速雲霄飛車後頭暈、視線不清，可以這樣說。"
+    },
+    {
+      "number": 6,
+      "word": "Keep it cool",
+      "meaning": "保持冷靜、別太激動",
+      "usage": "遇到壓力、尷尬或意外時，提醒自己不要慌張。",
+      "prompt": "哪一句正確使用了「Keep it cool」？",
+      "options": [
+        "Keep it cool means putting the homework in the fridge.",
+        "I kept it cool by making the summer day become winter.",
+        "The microphone stopped working, but the singer kept it cool and smiled.",
+        "Our meeting kept it cool at nine o’clock."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤！這個口語說法是保持冷靜，不是把作業冰起來。",
+        "錯誤！keep it cool 在這裡不是改變季節或天氣。",
+        "正確！麥克風出問題時，歌手仍保持鎮定。",
+        "錯誤！這個片語不能表示會議時間；可說 Our meeting started at nine。"
+      ],
+      "explanation": "正確！麥克風出問題時，歌手仍保持鎮定。"
+    },
+    {
+      "number": 7,
+      "word": "Inside out",
+      "meaning": "裡外顛倒地；翻面",
+      "usage": "衣服穿反，或把東西從裡面翻到外面時使用。",
+      "prompt": "哪一句正確使用了「Inside out」？",
+      "options": [
+        "I wore my T-shirt inside out, and everyone could see the label.",
+        "The artist painted her picture inside out to make it red.",
+        "The bus went inside out when it arrived late.",
+        "He sang inside out because he forgot the words."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確！衣服內外穿反，標籤露出來，可以說 inside out。",
+        "錯誤！inside out 不表示把畫塗成紅色。",
+        "錯誤！公車晚到不能用 inside out；可說 The bus arrived late。",
+        "錯誤！忘記歌詞與內外翻轉沒有關係；可說 He forgot the words。"
+      ],
+      "explanation": "正確！衣服內外穿反，標籤露出來，可以說 inside out。"
+    },
+    {
+      "number": 8,
+      "word": "Give up",
+      "meaning": "放棄、停止嘗試",
+      "usage": "事情太困難而不再繼續，或決定不再追求某件事時使用。",
+      "prompt": "哪一句正確使用了「Give up」？",
+      "options": [
+        "I gave up my passport to finish the airport on time.",
+        "She gave up her birthday at six in the morning.",
+        "The puzzle was very hard, but I didn't give up.",
+        "The coach gave up the weather because it rained."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤！give up 不表示完成機場；句子沒有合理意思。",
+        "錯誤！生日不是這樣使用 give up 的對象；可說 She celebrated her birthday。",
+        "正確！拼圖很難，但沒有放棄嘗試。",
+        "錯誤！天氣不是教練能這樣放棄的事；可說 The coach cancelled practice。"
+      ],
+      "explanation": "正確！拼圖很難，但沒有放棄嘗試。"
+    },
+    {
+      "number": 9,
+      "word": "In the meantime",
+      "meaning": "在這段期間、同時",
+      "usage": "等待某件事發生前，先做另一件事時使用。",
+      "prompt": "哪一句正確使用了「In the meantime」？",
+      "options": [
+        "In the meantime is the name of our new science teacher.",
+        "I bought an in the meantime at the bookshop.",
+        "My train travels in the meantime at 100 kilometres per hour.",
+        "The doctor will arrive soon. In the meantime, please sit here."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤！in the meantime 是時間片語，不是人名或職稱。",
+        "錯誤！它不是可以購買的物品，前面也不能這樣加 an。",
+        "錯誤！in the meantime 不表示速度；這裡可直接說 travels at 100 kilometres per hour。",
+        "正確！等醫生來的這段時間，先坐在這裡。"
+      ],
+      "explanation": "正確！等醫生來的這段時間，先坐在這裡。"
+    },
+    {
+      "number": 10,
+      "word": "Incredible",
+      "meaning": "難以置信的、非常棒的",
+      "usage": "看到很驚人的表演、成果或事情時，用來表達讚嘆或驚訝。",
+      "prompt": "哪一句正確使用了「Incredible」？",
+      "options": [
+        "I incredibled my computer before the online meeting.",
+        "We went incredible to the train station at noon.",
+        "Please put three incredibles in the shopping basket.",
+        "The young dancer gave an incredible performance, and everyone cheered."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤！incredible 是形容詞，不是可以這樣使用的動詞。",
+        "錯誤！incredible 不能當作去車站的方向或方式。",
+        "錯誤！incredible 是形容詞，不能這樣當作可數商品名稱。",
+        "正確！舞者表現非常精彩，大家歡呼，很適合用 incredible。"
+      ],
+      "explanation": "正確！舞者表現非常精彩，大家歡呼，很適合用 incredible。"
+    }
+  ],
+  "tags": [
+    "lady gaga",
+    "just dance",
+    "dance",
+    "celebration"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/just-dance/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/just-dance/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 241.9333125,
+    "audioSha256": "9fc0280e7a8f6a1ce95e646b10768549a5119158bc29b07b4c94c4a6677d84bf",
+    "timedLines": 31,
+    "untimedLines": 60,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Just Dance_.pdf",
+      "sha256": "a6ce2b7b042b8259e8cd25ccdeb31548326953c7403dfd9823b239896202a835"
+    },
+    "chosenListening": {
+      "filename": "Just_Dance_Four_Level_Listening_Exercise.md",
+      "sha256": "677c3bc92bc9a129eb69ab71555ede3afdeb730bd0816dfed09496b2a6b2771a"
+    },
+    "chosenVocabulary": {
+      "filename": "Just_Dance_Vocabulary_Quiz.md",
+      "sha256": "83fdd5a708dab02425b49aaa64af5462044ed180ca4230f99fb98d72462346ba"
+    },
+    "mp3": {
+      "filename": "Just Dance [ACNwMzZejQQ].mp3",
+      "sha256": "9fc0280e7a8f6a1ce95e646b10768549a5119158bc29b07b4c94c4a6677d84bf"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-673e86bd-9920-444f-a817-6bc8ab6dea62.png",
+    "sha256": "7795993de4c1e1d0d323c4a0f6e1d6e6f8c010dd4368bc4109dd077590b00843",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "2df6b602736f7d6b167741414ac0844ac75235d4dd5da6462f798f0697cc547e"
+    },
+    {
+      "section": "structure",
+      "filename": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "6f79fbb95616a6dbe9f6469bf2a2ae4d8e4cd9d3043601a62ea1ac8ef6a943f6"
+    }
+  ],
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "record",
+          "meaning": "唱片；錄製的歌曲",
+          "usage": "談音樂時可指唱片或一首錄製好的歌曲；也有「紀錄」的其他意思。",
+          "prompt": "哪一句正確使用「record」？",
+          "options": [
+            "I sent a record to fix the broken window.",
+            "The doctor played a record to check my fever.",
+            "The DJ played a new record at the party.",
+            "We used a record to wash the kitchen floor."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。修窗戶不會寄送唱片作為維修方法。",
+            "錯誤。看診量體溫不會「播放唱片」；應說 checked my temperature。",
+            "正確。DJ 播放唱片／歌曲，意思自然。",
+            "錯誤。唱片不是清潔地板的工具。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確。DJ 播放唱片／歌曲，意思自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "spin",
+          "meaning": "旋轉；使……轉動",
+          "usage": "形容唱片、陀螺或輪子轉動；也可表示快速轉身。",
+          "prompt": "哪一句正確使用「spin」？",
+          "options": [
+            "The dancer spun around and faced the door.",
+            "The shop spun a ticket to give us a price.",
+            "The driver spun a map to start the engine.",
+            "We spun our dinner for ten minutes to eat it."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。舞者原地轉身，符合 spin around。",
+            "錯誤。抽票決定價格不是 spin 的典型搭配；可說 drew a ticket。",
+            "錯誤。發動引擎不是旋轉地圖；用 started the engine。",
+            "錯誤。吃晚餐不是把晚餐旋轉；用 ate。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確。舞者原地轉身，符合 spin around。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "poison",
+          "meaning": "毒物；有害之物（歌詞中借指酒或危險誘惑）",
+          "usage": "日常通常指會傷害生物的毒物；歌詞中的借喻不可當作一般「飲料」稱呼。",
+          "prompt": "哪一句正確使用「poison」？",
+          "options": [
+            "My father bought poison to make the flowers smell nice.",
+            "The chef added poison to make the soup taste sweet.",
+            "The bottle held poison, so we did not touch it.",
+            "That fresh fruit was poison because it was green."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。毒物不是讓花更香的材料。",
+            "錯誤。毒藥不能當甜味調味料。",
+            "正確。標明是毒物的瓶子不去觸碰，語意正確。",
+            "錯誤。水果綠色不表示必然有毒。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確。標明是毒物的瓶子不去觸碰，語意正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "thorns",
+          "meaning": "刺（尤指植物莖上的刺）",
+          "usage": "談玫瑰或其他帶刺植物時使用；可用來比喻美好事物有風險。",
+          "prompt": "哪一句正確使用「thorns」？",
+          "options": [
+            "Wear gloves; those roses have sharp thorns.",
+            "She put thorns in the soup to make it warm.",
+            "The thorns on the radio made the music louder.",
+            "The bike had thorns because its seat was wet."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。玫瑰帶有尖刺，戴手套合理。",
+            "錯誤。植物刺不是加熱湯的材料。",
+            "錯誤。收音機不會長植物刺；要調音量用 volume。",
+            "錯誤。單車座墊濕不會讓單車長刺。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確。玫瑰帶有尖刺，戴手套合理。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "catalogue",
+          "meaning": "商品／作品目錄",
+          "usage": "查找書本、商品或展覽資料時，常用 catalogue（美式亦寫 catalog）。",
+          "prompt": "哪一句正確使用「catalogue」？",
+          "options": [
+            "The driver checked the catalogue to stop the rain.",
+            "I checked the catalogue to find a book about space.",
+            "She opened the catalogue to turn on the lights.",
+            "We bought a catalogue to cook the rice faster."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。查看目錄不能讓雨停。",
+            "正確。從圖書館目錄找書，是常見用法。",
+            "錯誤。目錄不能用來開燈。",
+            "錯誤。目錄不是加快煮飯速度的器具。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確。從圖書館目錄找書，是常見用法。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "flaw",
+          "meaning": "缺點；瑕疵",
+          "usage": "談產品、設計或計畫的問題；可用 a flaw in + 名詞。",
+          "prompt": "哪一句正確使用「flaw」？",
+          "options": [
+            "He put a flaw on the desk to write a note.",
+            "The train had a flaw because it left on time.",
+            "A flaw in the cake meant it tasted very good.",
+            "There was a flaw in the plan, so we changed it."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。flaw 是缺陷，不是寫字工具。",
+            "錯誤。準時出發不是缺陷。",
+            "錯誤。味道好不是缺陷的合理證據。",
+            "正確。計畫中有缺點，因此修改，意思符合。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確。計畫中有缺點，因此修改，意思符合。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "latch onto",
+          "meaning": "抓緊；緊緊抓住；牢牢記住想法",
+          "usage": "常用 latch onto + 物件／想法；在歌詞中有成人暗示，不宜直接模仿。",
+          "prompt": "哪一句正確使用「latch onto」？",
+          "options": [
+            "Our team latched onto the rain to change the weather.",
+            "The baby latched onto his mom’s finger tightly.",
+            "The chef latched onto the oven to bake a cake.",
+            "The child latched onto a clock to make it ring."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。無法抓住雨來改變天氣。",
+            "正確。嬰兒緊抓手指，是自然的字面用法。",
+            "錯誤。做蛋糕需要用烤箱，不是緊抓烤箱。",
+            "錯誤。握時鐘不會因此使它響；應說 set the alarm。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確。嬰兒緊抓手指，是自然的字面用法。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "hypnotic",
+          "meaning": "令人著迷的；催眠般的",
+          "usage": "形容節奏、聲音或動作具有強烈吸引力，讓人難移開注意。",
+          "prompt": "哪一句正確使用「hypnotic」？",
+          "options": [
+            "Her new shoes were hypnotic because they were wet.",
+            "He called the empty room hypnotic because it was locked.",
+            "The sign was hypnotic because it had no words.",
+            "The slow music had a hypnotic rhythm."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。鞋子濕並不能說明有催眠般魅力。",
+            "錯誤。房間上鎖與令人著迷沒有直接關係。",
+            "錯誤。沒有文字不必然令人入迷，缺少吸引力情境。",
+            "正確。緩慢音樂的節奏令人入迷，搭配自然。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 8,
+          "explanation": "正確。緩慢音樂的節奏令人入迷，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "blueprint",
+          "meaning": "藍圖；詳細設計圖或計畫",
+          "usage": "指建築設計圖，也可比喻做事的詳細計畫。",
+          "prompt": "哪一句正確使用「blueprint」？",
+          "options": [
+            "I wore a blueprint to stay warm in winter.",
+            "The teacher watered a blueprint to help it grow.",
+            "The singer ate a blueprint before going on stage.",
+            "The builder checked the blueprint before work began."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤。藍圖不是保暖衣物。",
+            "錯誤。藍圖不是植物，不能澆水使其生長。",
+            "錯誤。藍圖不是食物。",
+            "正確。建築工人施工前查看設計藍圖很自然。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 9,
+          "explanation": "正確。建築工人施工前查看設計藍圖很自然。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "symphonic",
+          "meaning": "交響樂的；具交響樂風格的",
+          "usage": "多形容音樂或作品，尤其結合多種管弦樂器的聲響。",
+          "prompt": "哪一句正確使用「symphonic」？",
+          "options": [
+            "The film used symphonic music with a full orchestra.",
+            "The car had a symphonic wheel after the tire broke.",
+            "The classroom was symphonic because it had blue walls.",
+            "She bought a symphonic sandwich from the cafe."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。電影配以管弦樂團演奏的交響樂，搭配自然。",
+            "錯誤。輪胎壞掉不會產生「交響樂式車輪」。",
+            "錯誤。牆壁是藍色與交響樂無關。",
+            "錯誤。三明治並非交響樂風格的作品。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 10,
+          "explanation": "正確。電影配以管弦樂團演奏的交響樂，搭配自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "electronic",
+          "meaning": "電子的；靠電子設備運作的",
+          "usage": "常形容電子郵件、電子設備或電子音樂。",
+          "prompt": "哪一句正確使用「electronic」？",
+          "options": [
+            "The bread turned electronic after we warmed it.",
+            "The river was electronic because the water was cold.",
+            "We bought an electronic ticket on the website.",
+            "My dog became electronic after a short walk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤。加熱麵包不會使它變成電子設備。",
+            "錯誤。水溫低並不表示河流是電子的。",
+            "正確。網站上買電子票券，搭配正確。",
+            "錯誤。散步不會使狗變成電子的。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 11,
+          "explanation": "正確。網站上買電子票券，搭配正確。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "carve it out",
+          "meaning": "雕刻出來；切削成形（歌詞命令句）",
+          "usage": "carve 可指雕刻木頭、石頭；carve out 也可指開闢空間或機會。",
+          "prompt": "哪一句正確使用「carve it out」？",
+          "options": [
+            "The student carved out the book by reading it.",
+            "She carved out a small bird from a piece of wood.",
+            "The artist carved out the rain with a blue pencil.",
+            "The driver carved out the bus to get to work."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。讀書並不等於把書雕刻成形。",
+            "正確。從木頭雕出小鳥符合 carve out。",
+            "錯誤。雨水不能當木材般雕刻。",
+            "錯誤。開公車上班應說 drove the bus。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 12,
+          "explanation": "正確。從木頭雕出小鳥符合 carve out。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "hustle",
+          "meaning": "賣力奔忙；催促；（依語境亦可指騙取）",
+          "usage": "正式中性情境常指積極做事、快步移動；有時帶負面意義，需看上下文。",
+          "prompt": "哪一句正確使用「hustle」？",
+          "options": [
+            "She hustled her breakfast to put it in the fridge.",
+            "We had to hustle to catch the last train.",
+            "The museum hustled its windows to turn them green.",
+            "I hustled the blue sky to make it cloudy."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤。把早餐放冰箱應說 put it in the fridge。",
+            "正確。趕末班火車需要加快腳步，語意合理。",
+            "錯誤。hustle 不是把窗戶變色的動詞。",
+            "錯誤。不能靠 hustle 使天空變陰。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 13,
+          "explanation": "正確。趕末班火車需要加快腳步，語意合理。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "dough",
+          "meaning": "麵團；（俚語）錢",
+          "usage": "烘焙時表示麵團；非正式口語也可指錢。歌詞使用金錢的俚語義。",
+          "prompt": "哪一句正確使用「dough」？",
+          "options": [
+            "I need more dough to buy the concert ticket.",
+            "The baker used dough to repair the broken brakes.",
+            "The coach washed the dough to clean the team shirts.",
+            "She used some dough to make her phone ring."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確。買票需要更多錢，dough 的俚語義自然。",
+            "錯誤。dough 若指麵團，不能修理煞車；若指錢則應交代支付修理費。",
+            "錯誤。麵團不能當洗衣精。",
+            "錯誤。麵團／錢不能用來使手機響。"
+          ],
+          "sourceFile": "Just_Dance_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 14,
+          "explanation": "正確。買票需要更多錢，dough 的俚語義自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "現在完成式：have + p.p.",
+          "meaning": "現在的狀況與之前發生的事情有關。",
+          "usage": "談到目前已經完成或造成現況的經歷。",
+          "prompt": "館長已收到三份新照片，哪句最能表達「到現在已經收到」？",
+          "options": [
+            "The museum to receive three photos next year.",
+            "The museum receiving three photos yesterday.",
+            "The museum has received three photos today.",
+            "The museum receive three photos tomorrow."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "to receive 不能單獨作整句的述語。",
+            "缺少助動詞，不能單用 receiving 作述語。",
+            "has received 是現在完成式，連結今天的進展。",
+            "缺少限定動詞，且 tomorrow 是未來。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I've had a little bit too much",
+          "pattern": [
+            {
+              "text": "have/has",
+              "fixed": true
+            },
+            {
+              "text": "過去分詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "has received 是現在完成式，連結今天的進展。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "a little bit too much：程度過量",
+          "meaning": "帶點輕描淡寫地表示「有點太多」。",
+          "usage": "覺得鹽、工作量或時間稍微超過理想程度。",
+          "prompt": "陶藝家在黏土中加了太多水，哪一句最貼切？",
+          "options": [
+            "I added little bit very much water.",
+            "I added a little bit too water.",
+            "I added a little bit too many water.",
+            "I added a little bit too much water."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "very much 無法如此接在 little bit 後。",
+            "too 後缺少 much 或形容詞。",
+            "water 不可數，不能用 many。",
+            "too much water 指水加過量。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "a little bit too much",
+          "pattern": [
+            {
+              "text": "a little bit too much",
+              "fixed": true
+            },
+            {
+              "text": "不可數量或語境已知之事",
+              "fixed": false
+            }
+          ],
+          "explanation": "too much water 指水加過量。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "all of + 複數名詞",
+          "meaning": "指出某個群體的全體成員。",
+          "usage": "談特定團隊、觀眾或參加者全員。",
+          "prompt": "展覽閉館時，工作人員全數離開，哪句適合？",
+          "options": [
+            "All of the staff leaves yesterday.",
+            "All of the team leave tomorrow yesterday.",
+            "All of the visitors left the museum.",
+            "All of visitor left the museum."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "昨天應用 left，且複數主詞不配 leaves。",
+            "tomorrow 與 yesterday 衝突。",
+            "all of the visitors 表示全部參觀者。",
+            "all of 後缺少限定詞或複數形。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "All of the people",
+          "pattern": [
+            {
+              "text": "all of the",
+              "fixed": true
+            },
+            {
+              "text": "複數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "all of the visitors 表示全部參觀者。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "start + to-infinitive",
+          "meaning": "表示開始進行某動作。",
+          "usage": "開始下雨、開始移動或開始排隊。",
+          "prompt": "海豚表演結束，觀眾開始離場，哪句最自然？",
+          "options": [
+            "The crowd starting to left.",
+            "The crowd started to leaving.",
+            "The crowd started leave.",
+            "The crowd started to leave."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少限定動詞且 left 不能跟在 to 後。",
+            "to 後應接 leave 原形。",
+            "start 後面在本句缺少 to。",
+            "started to leave 是開始做某事。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "start to rush",
+          "pattern": [
+            {
+              "text": "start + to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "started to leave 是開始做某事。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "can’t + 動詞原形：不能做到",
+          "meaning": "表示沒有能力或無法完成動作。",
+          "usage": "找不到東西、看不清或做不到時。",
+          "prompt": "魔術師找不到舞台鑰匙，哪句合適？",
+          "options": [
+            "The magician can’t find the key.",
+            "The magician can’t to find the key.",
+            "The magician can’t found the key.",
+            "The magician can’t finding the key."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "can’t find 正確。",
+            "can’t 後不加 to。",
+            "found 是過去式，不能直接跟在 can’t 後。",
+            "情態動詞後不可用 finding。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "can't find my drink",
+          "pattern": [
+            {
+              "text": "can’t",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "can’t find 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "特殊疑問句：Where + be + 主詞？",
+          "meaning": "詢問人或物所在的位置。",
+          "usage": "尋找工具、朋友或物品時。",
+          "prompt": "你在木工教室找不到護目鏡，應問哪句？",
+          "options": [
+            "Where are my goggles?",
+            "Where my goggles are?",
+            "Where do my goggles are?",
+            "Where are goggles my?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "Where are + 名詞是正確問句。",
+            "直接問句須將 are 放在主詞前。",
+            "do 與 are 在這裡不能並用。",
+            "所有格 my 的位置錯誤。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "Where are my keys?",
+          "pattern": [
+            {
+              "text": "Where + am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + ?",
+              "fixed": false
+            }
+          ],
+          "explanation": "Where are + 名詞是正確問句。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "一般過去式：已完成的過去事件",
+          "meaning": "敘述過去發生且已結束的事情。",
+          "usage": "回憶昨天的意外或活動。",
+          "prompt": "昨晚攝影師遺失鏡頭，哪句正確？",
+          "options": [
+            "The photographer losing a lens last night.",
+            "The photographer loses a lens last night.",
+            "The photographer lost a lens last night.",
+            "The photographer has lose a lens last night."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少限定動詞。",
+            "last night 搭配一般過去式較合適。",
+            "lost 是 lose 的過去式。",
+            "has 後需 lost，且明確過去時間不適合此用法。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I lost my phone",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "過去式動詞",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "lost 是 lose 的過去式。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "What’s going on?：正在發生甚麼",
+          "meaning": "詢問眼前發生甚麼事。",
+          "usage": "看到突然的動靜或混亂。",
+          "prompt": "動物園企鵝突然全部跑向水池，你會問甚麼？",
+          "options": [
+            "What’s going on over there?",
+            "What going on over there?",
+            "What’s go on over there?",
+            "What’s going there on?"
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "be + going on 構成進行中的狀況詢問。",
+            "缺少 is。",
+            "going 不可改成 go。",
+            "副詞位置不自然。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "What's goin' on",
+          "pattern": [
+            {
+              "text": "What’s going on",
+              "fixed": true
+            },
+            {
+              "text": "地點／情境?",
+              "fixed": false
+            }
+          ],
+          "explanation": "be + going on 構成進行中的狀況詢問。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "but：兩個子句的對比",
+          "meaning": "前後出現轉折或反差。",
+          "usage": "一件事好、另一件事不如預期。",
+          "prompt": "天文台夜空清楚，但望遠鏡壞了，哪句最好？",
+          "options": [
+            "The sky is clear, and clear telescope broke.",
+            "The sky is clear, but the telescope is broken.",
+            "The sky is clear, because the telescope is broken.",
+            "The sky is clear, so telescope never clear."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "第二部分不成自然子句。",
+            "but 自然對比好天氣與壞設備。",
+            "because 表因果，未呈現預期的對比。",
+            "so 暗示沒有根據的因果且語法有問題。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "I love this record, baby, but I can't see straight anymore",
+          "pattern": [
+            {
+              "text": "子句 A",
+              "fixed": false
+            },
+            {
+              "text": "but",
+              "fixed": true
+            },
+            {
+              "text": "子句 B",
+              "fixed": false
+            }
+          ],
+          "explanation": "but 自然對比好天氣與壞設備。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "anymore：否定句中的「不再」",
+          "meaning": "表達從前可以、現在不再如此。",
+          "usage": "習慣或能力發生改變時。",
+          "prompt": "舊戲院已經不能再放映電影，哪句自然？",
+          "options": [
+            "The old cinema is anymore showing films.",
+            "The old cinema shows anymore films.",
+            "The old cinema didn’t anymore cinema.",
+            "The old cinema doesn’t show films anymore."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "anymore 放在這裡不自然。",
+            "anymore 不這樣修飾 films。",
+            "結構破碎，沒有清楚動詞受詞。",
+            "否定句尾的 anymore 表不再。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "can't see straight anymore",
+          "pattern": [
+            {
+              "text": "否定句",
+              "fixed": false
+            },
+            {
+              "text": "anymore",
+              "fixed": true
+            }
+          ],
+          "explanation": "否定句尾的 anymore 表不再。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "命令句：動詞原形開頭",
+          "meaning": "直接發出要求、指示或邀請。",
+          "usage": "請同伴做一件具體事情時。",
+          "prompt": "電影導演請燈光師開燈，哪句是正確命令句？",
+          "options": [
+            "Turn on the lights, please.",
+            "Turns on the lights, please.",
+            "To turn on the lights, please.",
+            "Turning on the lights, please."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "Turn on 是動詞原形開頭的指示。",
+            "命令句不採第三人稱單數 turns。",
+            "to-infinitive 不是完整命令句。",
+            "-ing 片語不是完整命令句。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "Spin that record",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "Turn on 是動詞原形開頭的指示。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "Wish + could：希望有能力改變現況",
+          "meaning": "對當下不能做到的事表達希望。",
+          "usage": "希望能參加活動、會一種技能但目前不會。",
+          "prompt": "博物館導覽員不會說法文，想和遊客溝通，哪句貼切？",
+          "options": [
+            "I wish I could to speak French.",
+            "I wish I can spoke French.",
+            "I wish I could speak French.",
+            "I wish I could speaking French."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "could 後不加 to。",
+            "can 後面不能用 spoke，且未使用想像式 could。",
+            "wish I could speak 表達目前做不到的願望。",
+            "could 後要原形。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "Wish I could shut my playboy mouth",
+          "pattern": [
+            {
+              "text": "wish",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "could",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "wish I could speak 表達目前做不到的願望。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "How’d + 主詞 + 動詞原形：口語回顧",
+          "meaning": "驚訝地問先前怎麼會發生某件事。",
+          "usage": "發現物件放錯或自己做了意外的事。",
+          "prompt": "廚師發現把糖放進鹽罐，哪句能問「我怎會這樣做」？",
+          "options": [
+            "How’d did I put sugar in the salt jar?",
+            "How’d I put sugar in the salt jar?",
+            "How’d I putted sugar in the salt jar?",
+            "How’d I to put sugar in the salt jar?"
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "How’d 已含 did，不再加 did。",
+            "How’d (= how did) 後用 put 原形。",
+            "did 後不能再用 putted。",
+            "did 後不使用 to put。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "How'd I turn my shirt inside out?",
+          "pattern": [
+            {
+              "text": "How’d (= How did)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞原形 + ?",
+              "fixed": false
+            }
+          ],
+          "explanation": "How’d (= how did) 後用 put 原形。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "turn + 受詞 + inside out",
+          "meaning": "把物件的內外面翻過來。",
+          "usage": "衣服翻面或把袋子裡外翻轉。",
+          "prompt": "裁縫檢查衣服內側縫線，哪句最自然？",
+          "options": [
+            "She turned the jacket inside out to check it.",
+            "She inside out the jacket.",
+            "She turned inside out the jacket to check it.",
+            "She turned the jacket to inside out."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "turned the jacket inside out 正確。",
+            "inside out 不是動詞。",
+            "受詞放在動詞與 inside out 之間更符合此教學句型。",
+            "inside out 前不需 to。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "turn my shirt inside out",
+          "pattern": [
+            {
+              "text": "turn",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "inside out",
+              "fixed": true
+            }
+          ],
+          "explanation": "turned the jacket inside out 正確。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "一般現在式陳述普遍事實",
+          "meaning": "表達普遍成立的事實或規律。",
+          "usage": "描述自然、科學或固定現象。",
+          "prompt": "自然課要說「蜜蜂有翅膀」，哪句正確？",
+          "options": [
+            "Bees having wings.",
+            "Bees had wings tomorrow.",
+            "Bees have wings.",
+            "Bees has wings."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "缺少限定動詞。",
+            "had 是過去式而 tomorrow 是未來。",
+            "have 表示一般事實。",
+            "複數 bees 應搭配 have。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "roses have thorns",
+          "pattern": [
+            {
+              "text": "複數主詞",
+              "fixed": false
+            },
+            {
+              "text": "一般現在式",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "have 表示一般事實。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "they say：傳聞訊息的插入語",
+          "meaning": "表示「人們這麼說」，訊息未必是自己的觀察。",
+          "usage": "引用坊間流傳的觀點或說法。",
+          "prompt": "朋友說那座橋晚上很漂亮，你想標明是聽來的，哪句適合？",
+          "options": [
+            "The bridge is beautiful at night, they to say.",
+            "The bridge is beautiful at night, they say.",
+            "The bridge is beautiful at night, they says.",
+            "The bridge is beautiful at night, they saying."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "to say 在這裡不構成小句。",
+            "they say 是可放句尾的插入語。",
+            "they 要配 say 而非 says。",
+            "缺少 are，並非完整小句。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "roses have thorns, they say",
+          "pattern": [
+            {
+              "text": "陳述",
+              "fixed": false
+            },
+            {
+              "text": "they say",
+              "fixed": true
+            }
+          ],
+          "explanation": "they say 是可放句尾的插入語。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "現在進行式：be + V-ing",
+          "meaning": "表示正進行或近期安排的狀況。",
+          "usage": "談現在正在準備或正在做的事。",
+          "prompt": "劇團正在搭建舞台，哪句正確？",
+          "options": [
+            "The actors is building the stage now.",
+            "The actors building the stage now.",
+            "The actors are building the stage now.",
+            "The actors are build the stage now."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "複數 actors 應用 are。",
+            "缺少 are。",
+            "are building 構成進行式。",
+            "are 後需 building。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "we're all gettin' hosed tonight",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "am/is/are",
+              "fixed": true
+            },
+            {
+              "text": "V-ing",
+              "fixed": false
+            }
+          ],
+          "explanation": "are building 構成進行式。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "When + 現在式子句：時間",
+          "meaning": "指出行動發生的時間條件。",
+          "usage": "描述每次進場或抵達後會做什麼。",
+          "prompt": "保育員每天進入鳥舍就檢查水，哪句最自然？",
+          "options": [
+            "When I entering the bird room, I check the water.",
+            "When enter I the bird room, I check the water.",
+            "When I enters the bird room, I check the water.",
+            "When I enter the bird room, I check the water."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少 am，這不是現在式動詞。",
+            "語序錯誤。",
+            "主詞 I 搭配 enter。",
+            "when 後是完整現在式子句。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "When I come through on the dance floor",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞 + 現在式動詞",
+              "fixed": false
+            },
+            {
+              "text": "地點／情況",
+              "fixed": false
+            }
+          ],
+          "explanation": "when 後是完整現在式子句。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "without + 名詞",
+          "meaning": "表示沒有某物或某種狀況。",
+          "usage": "描述沒有噪音、錯誤或協助的情況。",
+          "prompt": "雕塑家獨自完成作品，哪句符合「沒有助手」？",
+          "options": [
+            "She finished the statue without a helper.",
+            "She finished the statue without was helper.",
+            "She finished the statue without help to.",
+            "She finished the statue without to helper."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "without a helper 是沒有助手。",
+            "without 後不能直接接 was。",
+            "help to 在此不完整。",
+            "without 後不能直接用 to helper。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "without a flaw",
+          "pattern": [
+            {
+              "text": "without",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "without a helper 是沒有助手。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "see + that + 陳述子句",
+          "meaning": "表示觀察後明白或察覺一件事。",
+          "usage": "從結果看出某人準備好或情況改變。",
+          "prompt": "花店員工發現花已開，哪句自然？",
+          "options": [
+            "I can see that the flowers to open.",
+            "I can see that the flowers open are.",
+            "I can see that are the flowers open.",
+            "I can see that the flowers are open."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "缺少限定動詞。",
+            "be 動詞位置錯。",
+            "that 後不能用疑問倒裝。",
+            "that 後接正常陳述語序。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "I can see that you got so much energy",
+          "pattern": [
+            {
+              "text": "see that",
+              "fixed": true
+            },
+            {
+              "text": "完整子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "that 後接正常陳述語序。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "so much + 不可數名詞",
+          "meaning": "強調很多的數量或程度。",
+          "usage": "形容精力、時間、耐心等不可數事物。",
+          "prompt": "志工為社區花園付出許多時間，哪句正確？",
+          "options": [
+            "They gave so much times to the garden.",
+            "They gave so many time to the garden.",
+            "They gave so much time to the garden.",
+            "They gave so much a time to the garden."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "times 在此表次數而非時間量。",
+            "time 不可數時使用 much。",
+            "so much time 正確。",
+            "不可數 time 不加 a。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "so much energy",
+          "pattern": [
+            {
+              "text": "so much",
+              "fixed": true
+            },
+            {
+              "text": "不可數名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "so much time 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "there is no + 名詞 + why 子句",
+          "meaning": "表示找不到某件事不能做的理由。",
+          "usage": "討論計畫有沒有障礙或理由。",
+          "prompt": "天氣晴朗、路線安全，哪句最適合說沒有理由取消野餐？",
+          "options": [
+            "There is no reason why we canceling the picnic.",
+            "There is no reason why do we cancel the picnic.",
+            "There is no reason why to cancel the picnic.",
+            "There is no reason why we should cancel the picnic."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "why 後缺少完整限定動詞。",
+            "間接從句不倒裝。",
+            "why 後在此需完整子句，不是 to-infinitive。",
+            "no reason why + 陳述語序正確。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "there is no reason at all why you can't leave here with me",
+          "pattern": [
+            {
+              "text": "there is no reason",
+              "fixed": true
+            },
+            {
+              "text": "why",
+              "fixed": true
+            },
+            {
+              "text": "子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "no reason why + 陳述語序正確。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "in the meantime：等待期間",
+          "meaning": "表示在另一件事發生之前的這段時間。",
+          "usage": "等候演出、交通或活動開始時。",
+          "prompt": "火車半小時後到，你可以先逛展覽，哪句恰當？",
+          "options": [
+            "The train leaves in thirty minutes. In the meantime my time yesterday.",
+            "The train leaves in thirty minutes. In the meantime, visit the gallery.",
+            "The train leaves in thirty minutes. I bought an in the meantime.",
+            "The train leaves in thirty minutes. In the meantime is a gallery."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "後半句不成完整英文句子。",
+            "in the meantime 正確表示等待期間先做別的事。",
+            "不是可數物品。",
+            "時間片語不能直接作名詞。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "In the meantime, stay",
+          "pattern": [
+            {
+              "text": "in the meantime",
+              "fixed": true
+            },
+            {
+              "text": "指示／子句",
+              "fixed": false
+            }
+          ],
+          "explanation": "in the meantime 正確表示等待期間先做別的事。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "let + 受詞 + 原形動詞",
+          "meaning": "讓某人做某件事；此句的 watch 後還有感官動詞結構。",
+          "usage": "請求允許自己觀看或參與活動。",
+          "prompt": "小孩想幫忙給植物澆水，哪句符合？",
+          "options": [
+            "Let me watering the plants.",
+            "Let I water the plants.",
+            "Let me to water the plants.",
+            "Let me water the plants."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "let 後用原形動詞。",
+            "let 的受詞用 me。",
+            "let 後直接用 water，不能加 to。",
+            "let me water 正確。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "let me watch you break it down",
+          "pattern": [
+            {
+              "text": "let",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "explanation": "let me water 正確。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "watch + 受詞 + 原形動詞",
+          "meaning": "觀看某人完成或進行一項動作（著眼整個動作）。",
+          "usage": "觀察人表演、工作或完成任務。",
+          "prompt": "你從頭看到尾，見證舞者完成一套動作，哪句合適？",
+          "options": [
+            "I watched the dancer finished the show.",
+            "I watched the dancer finish the show.",
+            "I watched the dancer to finish the show.",
+            "I watched the dancer finishes the show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "finished 不是這裡的原形。",
+            "watched the dancer finish 正確。",
+            "watch + 人 + 原形動詞不加 to。",
+            "不能接 finishes。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "watch you break it down",
+          "pattern": [
+            {
+              "text": "watch",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞原形",
+              "fixed": true
+            }
+          ],
+          "explanation": "watched the dancer finish 正確。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "enough + to-infinitive",
+          "meaning": "程度足以讓某事發生。",
+          "usage": "物件距離、大小或能力足夠完成任務。",
+          "prompt": "孩子站得夠近，能看見昆蟲，哪句正確？",
+          "options": [
+            "She is enough close to see the insect.",
+            "She is close enough to see the insect.",
+            "She is close enough seeing the insect.",
+            "She is close enough to seeing the insect."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "enough 應放在 close 後。",
+            "close enough to see 表示距離足以看見。",
+            "需 to-infinitive 而非 seeing。",
+            "to 後用動詞原形。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "stay close enough to get it on",
+          "pattern": [
+            {
+              "text": "形容詞 + enough + to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "close enough to see 表示距離足以看見。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 27,
+          "word": "spend + 金錢 + 地點／目的",
+          "meaning": "花費金錢；此處 dough 是非正式「錢」。",
+          "usage": "買材料或服務、談預算時。",
+          "prompt": "手作市集有人花掉剩下的零錢，哪句正確？",
+          "options": [
+            "They spent their last coins at the craft fair.",
+            "They spend to the last coins at the fair.",
+            "They spent on the last coins without anything.",
+            "They spent the last coins yesterday tomorrow."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "spent their last coins 表花掉最後的零錢。",
+            "spend 直接接金錢，不接 to。",
+            "花的是 coins，而 spent on the coins 變成買硬幣。",
+            "昨天與明天矛盾。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 27,
+          "cue": "Spend the last dough",
+          "pattern": [
+            {
+              "text": "spend",
+              "fixed": true
+            },
+            {
+              "text": "金錢",
+              "fixed": false
+            }
+          ],
+          "explanation": "spent their last coins 表花掉最後的零錢。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 28,
+          "word": "祈使句否定：Don’t + 原形",
+          "meaning": "請對方不要做某件事。",
+          "usage": "安全提醒、舞台指示或日常提醒。",
+          "prompt": "陶器剛上釉，老師提醒大家別碰，哪句正確？",
+          "options": [
+            "Don’t touching the wet paint.",
+            "Don’t touch the wet paint.",
+            "Don’t to touch the wet paint.",
+            "Don’t touches the wet paint."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "don’t 後不能用 touching。",
+            "don’t touch 是正確否定命令句。",
+            "don’t 後不加 to。",
+            "don’t 後不能用 touches。"
+          ],
+          "sourceFile": "Just_Dance_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 28,
+          "cue": "Don't slow",
+          "pattern": [
+            {
+              "text": "Don’t",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "don’t touch 是正確否定命令句。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "A",
+            "C"
+          ]
+        }
+      ]
+    }
+  }
+}

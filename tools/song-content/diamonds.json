@@ -1,0 +1,4639 @@
+{
+  "slug": "diamonds",
+  "title": "Diamonds",
+  "singer": "Rihanna",
+  "translations": [
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-1",
+      "startSeconds": 0.0,
+      "endSeconds": 2.66
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-2",
+      "startSeconds": 5.66,
+      "endSeconds": 8.3
+    },
+    {
+      "english": "Find light in the beautiful sea",
+      "chinese": "在美麗的海洋之中，尋覓那道光芒",
+      "lineId": "line-3",
+      "startSeconds": 10.96,
+      "endSeconds": 13.58
+    },
+    {
+      "english": "I choose to be happy",
+      "chinese": "我選擇讓自己幸福快樂",
+      "lineId": "line-4",
+      "startSeconds": 13.58,
+      "endSeconds": 15.7
+    },
+    {
+      "english": "You and I, you and I",
+      "chinese": "你和我，你和我",
+      "lineId": "line-5",
+      "startSeconds": 15.7,
+      "endSeconds": 19.12
+    },
+    {
+      "english": "We're like diamonds in the sky",
+      "chinese": "我們宛如夜空中閃耀的鑽石",
+      "lineId": "line-6",
+      "startSeconds": 19.12,
+      "endSeconds": 21.52
+    },
+    {
+      "english": "You're a shooting star I see",
+      "chinese": "你是我眼中劃過天際的流星",
+      "lineId": "line-7",
+      "startSeconds": 21.52,
+      "endSeconds": 24.0
+    },
+    {
+      "english": "A vision of ecstasy",
+      "chinese": "宛如一幅令人心醉神迷的幻景",
+      "lineId": "line-8",
+      "startSeconds": 24.0,
+      "endSeconds": 25.64
+    },
+    {
+      "english": "When you hold me, I'm alive",
+      "chinese": "當你將我擁入懷中，我才真正感受到生命的悸動",
+      "lineId": "line-9",
+      "startSeconds": 25.64,
+      "endSeconds": 29.24
+    },
+    {
+      "english": "We're like diamonds in the sky",
+      "chinese": "我們宛如夜空中閃耀的鑽石",
+      "lineId": "line-10",
+      "startSeconds": 29.24,
+      "endSeconds": 31.84
+    },
+    {
+      "english": "I knew that we'd become one right away",
+      "chinese": "我從一開始就知道，我們終將心靈相融",
+      "lineId": "line-11",
+      "startSeconds": 31.84,
+      "endSeconds": 37.72
+    },
+    {
+      "english": "Oh, right away",
+      "chinese": "噢，就在那一瞬間",
+      "lineId": "line-12",
+      "startSeconds": 38.24,
+      "endSeconds": 40.64
+    },
+    {
+      "english": "At first sight I felt the energy of sun rays",
+      "chinese": "初次見到你時，我便感受到陽光般熾熱的能量",
+      "lineId": "line-13",
+      "startSeconds": 41.86,
+      "endSeconds": 47.84
+    },
+    {
+      "english": "I saw the life inside your eyes",
+      "chinese": "我在你的眼眸裡，看見了生命的光彩",
+      "lineId": "line-14"
+    },
+    {
+      "english": "So shine bright tonight, you and I",
+      "chinese": "所以，今夜就讓你我一同綻放耀眼的光芒",
+      "lineId": "line-15",
+      "startSeconds": 51.32,
+      "endSeconds": 58.6
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-16",
+      "startSeconds": 58.6,
+      "endSeconds": 63.42
+    },
+    {
+      "english": "Eye to eye, so alive",
+      "chinese": "四目相望，感受生命如此鮮明而真切",
+      "lineId": "line-17",
+      "startSeconds": 63.42,
+      "endSeconds": 67.74
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-18"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-19"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-20"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-21"
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-22"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-23",
+      "startSeconds": 84.16,
+      "endSeconds": 86.0
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-24",
+      "startSeconds": 86.0,
+      "endSeconds": 88.74
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-25",
+      "startSeconds": 88.74,
+      "endSeconds": 91.14
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-26",
+      "startSeconds": 91.14,
+      "endSeconds": 94.39
+    },
+    {
+      "english": "Palms rise to the universe",
+      "chinese": "張開雙掌，向浩瀚宇宙高高舉起",
+      "lineId": "line-27",
+      "startSeconds": 94.84,
+      "endSeconds": 96.45
+    },
+    {
+      "english": "As we moonshine and molly",
+      "chinese": "當我們沉醉於私釀烈酒與Molly帶來的迷幻之中",
+      "lineId": "line-28",
+      "startSeconds": 96.68,
+      "endSeconds": 99.56
+    },
+    {
+      "english": "Feel the warmth, we'll never die",
+      "chinese": "感受這份溫暖，彷彿我們永遠不會消逝",
+      "lineId": "line-29",
+      "startSeconds": 99.56,
+      "endSeconds": 102.32
+    },
+    {
+      "english": "We're like diamonds in the sky",
+      "chinese": "我們宛如夜空中閃耀的鑽石",
+      "lineId": "line-30",
+      "startSeconds": 102.32,
+      "endSeconds": 105.04
+    },
+    {
+      "english": "You're a shooting star I see",
+      "chinese": "你是我眼中劃過天際的流星",
+      "lineId": "line-31",
+      "startSeconds": 105.04,
+      "endSeconds": 107.48
+    },
+    {
+      "english": "A vision of ecstasy",
+      "chinese": "宛如一幅令人心醉神迷的幻景",
+      "lineId": "line-32",
+      "startSeconds": 107.48,
+      "endSeconds": 109.12
+    },
+    {
+      "english": "When you hold me, I'm alive",
+      "chinese": "當你將我擁入懷中，我才真正感受到生命的悸動",
+      "lineId": "line-33",
+      "startSeconds": 109.12,
+      "endSeconds": 112.72
+    },
+    {
+      "english": "We're like diamonds in the sky",
+      "chinese": "我們宛如夜空中閃耀的鑽石",
+      "lineId": "line-34",
+      "startSeconds": 112.72,
+      "endSeconds": 115.3
+    },
+    {
+      "english": "At first sight I felt the energy of sun rays",
+      "chinese": "初次見到你時，我便感受到陽光般熾熱的能量",
+      "lineId": "line-35",
+      "startSeconds": 115.3,
+      "endSeconds": 120.88
+    },
+    {
+      "english": "I saw the life inside your eyes",
+      "chinese": "我在你的眼眸裡，看見了生命的光彩",
+      "lineId": "line-36",
+      "startSeconds": 121.72,
+      "endSeconds": 124.78
+    },
+    {
+      "english": "So shine bright tonight, you and I",
+      "chinese": "所以，今夜就讓你我一同綻放耀眼的光芒",
+      "lineId": "line-37",
+      "startSeconds": 124.78,
+      "endSeconds": 131.92
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-38",
+      "startSeconds": 131.92,
+      "endSeconds": 136.38
+    },
+    {
+      "english": "Eye to eye, so alive",
+      "chinese": "四目相望，感受生命如此鮮明而真切",
+      "lineId": "line-39",
+      "startSeconds": 136.38,
+      "endSeconds": 142.2
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-40",
+      "startSeconds": 142.2,
+      "endSeconds": 146.88
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-41",
+      "startSeconds": 146.88,
+      "endSeconds": 148.62
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-42",
+      "startSeconds": 149.38,
+      "endSeconds": 151.36
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-43",
+      "startSeconds": 151.36,
+      "endSeconds": 153.7
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-44",
+      "startSeconds": 153.7,
+      "endSeconds": 157.26
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-45",
+      "startSeconds": 157.26,
+      "endSeconds": 159.34
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-46",
+      "startSeconds": 159.34,
+      "endSeconds": 161.84
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-47",
+      "startSeconds": 162.38,
+      "endSeconds": 164.14
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-48",
+      "startSeconds": 164.14,
+      "endSeconds": 167.74
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-49",
+      "startSeconds": 167.74,
+      "endSeconds": 169.72
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-50",
+      "startSeconds": 170.3,
+      "endSeconds": 172.32
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-51",
+      "startSeconds": 172.88,
+      "endSeconds": 175.22
+    },
+    {
+      "english": "So shine bright tonight, you and I",
+      "chinese": "所以，今夜就讓你我一同綻放耀眼的光芒",
+      "lineId": "line-52",
+      "startSeconds": 176.08,
+      "endSeconds": 184.24
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-53",
+      "startSeconds": 184.24,
+      "endSeconds": 188.7
+    },
+    {
+      "english": "Eye to eye, so alive",
+      "chinese": "四目相望，感受生命如此鮮明而真切",
+      "lineId": "line-54",
+      "startSeconds": 188.7,
+      "endSeconds": 193.92
+    },
+    {
+      "english": "We're beautiful like diamonds in the sky",
+      "chinese": "我們如此美麗，宛如夜空中璀璨的鑽石",
+      "lineId": "line-55",
+      "startSeconds": 193.92,
+      "endSeconds": 199.02
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-56",
+      "startSeconds": 199.02,
+      "endSeconds": 200.76
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-57"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-58"
+    },
+    {
+      "english": "Oh, yeah",
+      "chinese": "噢，耶",
+      "lineId": "line-59"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-60",
+      "startSeconds": 200.76,
+      "endSeconds": 203.96
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-61"
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-62",
+      "startSeconds": 214.12,
+      "endSeconds": 216.58
+    },
+    {
+      "english": "Shine bright like a diamond",
+      "chinese": "像鑽石一樣，綻放耀眼的光芒",
+      "lineId": "line-63",
+      "startSeconds": 216.58,
+      "endSeconds": 218.62
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-6",
+          "answer": "diamonds in the sky",
+          "options": [
+            "flowers on the ground",
+            "diamonds in the sky",
+            "shadows in the night"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-9",
+          "answer": "hold me",
+          "options": [
+            "leave me",
+            "hold me",
+            "follow me"
+          ],
+          "prompt": "When you {{blank}}, I'm alive",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-11",
+          "answer": "become one",
+          "options": [
+            "fall apart",
+            "start again",
+            "become one"
+          ],
+          "prompt": "I knew that we'd {{blank}} right away",
+          "promptZh": "我從一開始就知道，我們終將心靈相融"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-15",
+          "answer": "shine bright tonight",
+          "options": [
+            "stay here tomorrow",
+            "shine bright tonight",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-17",
+          "answer": "Eye to eye",
+          "options": [
+            "Hand in hand",
+            "Side by side",
+            "Eye to eye"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-19",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-20",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-22",
+          "answer": "beautiful like diamonds",
+          "options": [
+            "beautiful like diamonds",
+            "peaceful like rivers",
+            "colourful like flowers"
+          ],
+          "prompt": "We're {{blank}} in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-31",
+          "answer": "shooting star",
+          "options": [
+            "falling leaf",
+            "silver moon",
+            "shooting star"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-32",
+          "answer": "A vision of ecstasy",
+          "options": [
+            "A moment of mystery",
+            "A vision of ecstasy",
+            "A feeling of jealousy"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "宛如一幅令人心醉神迷的幻景"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-37",
+          "answer": "you and I",
+          "options": [
+            "you and I",
+            "you and them",
+            "she and I"
+          ],
+          "prompt": "So shine bright tonight, {{blank}}",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-38",
+          "answer": "We're beautiful",
+          "options": [
+            "We're beautiful",
+            "We're invisible",
+            "We're wonderful"
+          ],
+          "prompt": "{{blank}} like diamonds in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-41",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-42",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-44",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "by the sea",
+            "in the sky"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-52",
+          "answer": "shine bright tonight",
+          "options": [
+            "shine bright tonight",
+            "stay here tomorrow",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-56",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-57",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a diamond",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-58",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Shine bright {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Find light in the beautiful sea"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I choose to be happy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "You and I, you and I"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We're like {{q:2}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You're a shooting star I see"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "A vision of ecstasy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "When you {{q:3}}, I'm alive"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I knew that we'd {{q:4}} right away"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, right away"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I saw the life inside your eyes"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So {{q:5}}, you and I"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:6}}, so alive"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Shine bright {{q:7}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:8}} like a diamond"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're {{q:9}} in the sky"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Palms rise to the universe"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "As we moonshine and molly"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Feel the warmth, we'll never die"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You're a {{q:10}} I see"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:11}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When you hold me, I'm alive"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I saw the life inside your eyes"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "So shine bright tonight, {{q:12}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "{{q:13}} like diamonds in the sky"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Eye to eye, so alive"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:14}} like a diamond"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Shine bright {{q:15}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're beautiful like diamonds {{q:16}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So {{q:17}}, you and I"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "Eye to eye, so alive"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:18}} like a diamond"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Shine bright {{q:19}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "{{q:20}} like a diamond"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Oh, yeah"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shine bright like a diamond"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-6",
+          "answer": "diamonds in the sky",
+          "options": [
+            "diamonds in the sky",
+            "flowers on the ground",
+            "shadows in the night"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-7",
+          "answer": "shooting star",
+          "options": [
+            "shooting star",
+            "falling leaf",
+            "silver moon"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-9",
+          "answer": "hold me",
+          "options": [
+            "leave me",
+            "hold me",
+            "follow me"
+          ],
+          "prompt": "When you {{blank}}, I'm alive",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-11",
+          "answer": "become one",
+          "options": [
+            "fall apart",
+            "become one",
+            "start again"
+          ],
+          "prompt": "I knew that we'd {{blank}} right away",
+          "promptZh": "我從一開始就知道，我們終將心靈相融"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-14",
+          "answer": "life inside your eyes",
+          "options": [
+            "rain upon your face",
+            "light across the room",
+            "life inside your eyes"
+          ],
+          "prompt": "I saw the {{blank}}",
+          "promptZh": "我在你的眼眸裡，看見了生命的光彩"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-15",
+          "answer": "shine bright tonight",
+          "options": [
+            "stay here tomorrow",
+            "shine bright tonight",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-17",
+          "answer": "Eye to eye",
+          "options": [
+            "Hand in hand",
+            "Side by side",
+            "Eye to eye"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-18",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "in the sky",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-19",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-20",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-21",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-22",
+          "answer": "beautiful like diamonds",
+          "options": [
+            "beautiful like diamonds",
+            "peaceful like rivers",
+            "colourful like flowers"
+          ],
+          "prompt": "We're {{blank}} in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-30",
+          "answer": "diamonds in the sky",
+          "options": [
+            "diamonds in the sky",
+            "flowers on the ground",
+            "shadows in the night"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-31",
+          "answer": "shooting star",
+          "options": [
+            "falling leaf",
+            "shooting star",
+            "silver moon"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-32",
+          "answer": "A vision of ecstasy",
+          "options": [
+            "A moment of mystery",
+            "A feeling of jealousy",
+            "A vision of ecstasy"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "宛如一幅令人心醉神迷的幻景"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-33",
+          "answer": "I'm alive",
+          "options": [
+            "I'm alive",
+            "I'm afraid",
+            "I'm alone"
+          ],
+          "prompt": "When you hold me, {{blank}}",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-37",
+          "answer": "you and I",
+          "options": [
+            "you and them",
+            "she and I",
+            "you and I"
+          ],
+          "prompt": "So shine bright tonight, {{blank}}",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-38",
+          "answer": "in the sky",
+          "options": [
+            "in the sky",
+            "on the road",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-40",
+          "answer": "We're beautiful",
+          "options": [
+            "We're invisible",
+            "We're beautiful",
+            "We're wonderful"
+          ],
+          "prompt": "{{blank}} like diamonds in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-41",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-42",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-43",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-44",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "in the sky",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-45",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-52",
+          "answer": "shine bright tonight",
+          "options": [
+            "shine bright tonight",
+            "stay here tomorrow",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-54",
+          "answer": "Eye to eye",
+          "options": [
+            "Hand in hand",
+            "Eye to eye",
+            "Side by side"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-56",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-57",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-58",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-60",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Shine bright {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} like a diamond"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Find light in the beautiful sea"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I choose to be happy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "You and I, you and I"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We're like {{q:3}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You're a {{q:4}} I see"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "A vision of ecstasy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "When you {{q:5}}, I'm alive"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I knew that we'd {{q:6}} right away"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, right away"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I saw the {{q:7}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So {{q:8}}, you and I"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:9}}, so alive"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're beautiful like diamonds {{q:10}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "Shine bright {{q:11}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:12}} like a diamond"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:13}} like a diamond"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're {{q:14}} in the sky"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Palms rise to the universe"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "As we moonshine and molly"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Feel the warmth, we'll never die"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "We're like {{q:15}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You're a {{q:16}} I see"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:17}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When you hold me, {{q:18}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I saw the life inside your eyes"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "So shine bright tonight, {{q:19}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We're beautiful like diamonds {{q:20}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Eye to eye, so alive"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:21}} like diamonds in the sky"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:22}} like a diamond"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:23}} like a diamond"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shine bright {{q:24}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're beautiful like diamonds {{q:25}}"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Shine bright {{q:26}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So {{q:27}}, you and I"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:28}}, so alive"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:29}} like a diamond"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Shine bright {{q:30}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "Shine bright {{q:31}}"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Oh, yeah"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "{{q:32}} like a diamond"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shine bright like a diamond"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-5",
+          "answer": "You and I",
+          "options": [
+            "You and I",
+            "He and she",
+            "They and us"
+          ],
+          "prompt": "{{blank}}, you and I",
+          "promptZh": "你和我，你和我"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-6",
+          "answer": "diamonds in the sky",
+          "options": [
+            "diamonds in the sky",
+            "flowers on the ground",
+            "shadows in the night"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-7",
+          "answer": "shooting star",
+          "options": [
+            "falling leaf",
+            "silver moon",
+            "shooting star"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-9",
+          "answer": "hold me",
+          "options": [
+            "hold me",
+            "leave me",
+            "follow me"
+          ],
+          "prompt": "When you {{blank}}, I'm alive",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-11",
+          "answer": "become one",
+          "options": [
+            "fall apart",
+            "start again",
+            "become one"
+          ],
+          "prompt": "I knew that we'd {{blank}} right away",
+          "promptZh": "我從一開始就知道，我們終將心靈相融"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-12",
+          "answer": "right away",
+          "options": [
+            "next year",
+            "right away",
+            "once more"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，就在那一瞬間"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-14",
+          "answer": "life inside your eyes",
+          "options": [
+            "rain upon your face",
+            "light across the room",
+            "life inside your eyes"
+          ],
+          "prompt": "I saw the {{blank}}",
+          "promptZh": "我在你的眼眸裡，看見了生命的光彩"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-15",
+          "answer": "shine bright tonight",
+          "options": [
+            "shine bright tonight",
+            "stay here tomorrow",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-17",
+          "answer": "Eye to eye",
+          "options": [
+            "Hand in hand",
+            "Eye to eye",
+            "Side by side"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-18",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "by the sea",
+            "in the sky"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-19",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-20",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a diamond",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-21",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-23",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-26",
+          "answer": "beautiful like diamonds",
+          "options": [
+            "beautiful like diamonds",
+            "peaceful like rivers",
+            "colourful like flowers"
+          ],
+          "prompt": "We're {{blank}} in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-27",
+          "answer": "Palms rise",
+          "options": [
+            "Clouds fall",
+            "Hands shake",
+            "Palms rise"
+          ],
+          "prompt": "{{blank}} to the universe",
+          "promptZh": "張開雙掌，向浩瀚宇宙高高舉起"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-30",
+          "answer": "diamonds in the sky",
+          "options": [
+            "flowers on the ground",
+            "diamonds in the sky",
+            "shadows in the night"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-31",
+          "answer": "shooting star",
+          "options": [
+            "shooting star",
+            "falling leaf",
+            "silver moon"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-32",
+          "answer": "A vision of ecstasy",
+          "options": [
+            "A moment of mystery",
+            "A feeling of jealousy",
+            "A vision of ecstasy"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "宛如一幅令人心醉神迷的幻景"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-33",
+          "answer": "I'm alive",
+          "options": [
+            "I'm alive",
+            "I'm afraid",
+            "I'm alone"
+          ],
+          "prompt": "When you hold me, {{blank}}",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-36",
+          "answer": "life inside your eyes",
+          "options": [
+            "rain upon your face",
+            "life inside your eyes",
+            "light across the room"
+          ],
+          "prompt": "I saw the {{blank}}",
+          "promptZh": "我在你的眼眸裡，看見了生命的光彩"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-37",
+          "answer": "you and I",
+          "options": [
+            "you and I",
+            "you and them",
+            "she and I"
+          ],
+          "prompt": "So shine bright tonight, {{blank}}",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-38",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "in the sky",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-40",
+          "answer": "We're beautiful",
+          "options": [
+            "We're invisible",
+            "We're beautiful",
+            "We're wonderful"
+          ],
+          "prompt": "{{blank}} like diamonds in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-41",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-42",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-43",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-45",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-48",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "in the sky",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-49",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-50",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-52",
+          "answer": "shine bright tonight",
+          "options": [
+            "stay here tomorrow",
+            "shine bright tonight",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-54",
+          "answer": "Eye to eye",
+          "options": [
+            "Hand in hand",
+            "Side by side",
+            "Eye to eye"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-56",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-57",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-58",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-60",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-61",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Shine bright {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} like a diamond"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Find light in the beautiful sea"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I choose to be happy"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:3}}, you and I"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We're like {{q:4}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You're a {{q:5}} I see"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "A vision of ecstasy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "When you {{q:6}}, I'm alive"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I knew that we'd {{q:7}} right away"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, {{q:8}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I saw the {{q:9}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So {{q:10}}, you and I"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:11}}, so alive"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're beautiful like diamonds {{q:12}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:13}} like a diamond"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Shine bright {{q:14}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "{{q:15}} like a diamond"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:16}} like a diamond"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We're {{q:17}} in the sky"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:18}} to the universe"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "As we moonshine and molly"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Feel the warmth, we'll never die"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "We're like {{q:19}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You're a {{q:20}} I see"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:21}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When you hold me, {{q:22}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I saw the {{q:23}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "So shine bright tonight, {{q:24}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We're beautiful like diamonds {{q:25}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Eye to eye, so alive"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:26}} like diamonds in the sky"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "{{q:27}} like a diamond"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "Shine bright {{q:28}}"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "{{q:29}} like a diamond"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "Shine bright {{q:30}}"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We're beautiful like diamonds {{q:31}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Shine bright {{q:32}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Shine bright {{q:33}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So {{q:34}}, you and I"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:35}}, so alive"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:36}} like a diamond"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Shine bright {{q:37}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "{{q:38}} like a diamond"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Oh, yeah"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Shine bright {{q:39}}"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "{{q:40}} like a diamond"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shine bright like a diamond"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-4",
+          "answer": "choose to be happy",
+          "options": [
+            "choose to be happy",
+            "want to be famous",
+            "need to be careful"
+          ],
+          "prompt": "I {{blank}}",
+          "promptZh": "我選擇讓自己幸福快樂"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-5",
+          "answer": "You and I",
+          "options": [
+            "He and she",
+            "You and I",
+            "They and us"
+          ],
+          "prompt": "{{blank}}, you and I",
+          "promptZh": "你和我，你和我"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-6",
+          "answer": "diamonds in the sky",
+          "options": [
+            "flowers on the ground",
+            "diamonds in the sky",
+            "shadows in the night"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-7",
+          "answer": "shooting star",
+          "options": [
+            "falling leaf",
+            "silver moon",
+            "shooting star"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-9",
+          "answer": "hold me",
+          "options": [
+            "leave me",
+            "hold me",
+            "follow me"
+          ],
+          "prompt": "When you {{blank}}, I'm alive",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-10",
+          "answer": "in the sky",
+          "options": [
+            "in the sky",
+            "on the road",
+            "by the sea"
+          ],
+          "prompt": "We're like diamonds {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-11",
+          "answer": "become one",
+          "options": [
+            "fall apart",
+            "start again",
+            "become one"
+          ],
+          "prompt": "I knew that we'd {{blank}} right away",
+          "promptZh": "我從一開始就知道，我們終將心靈相融"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-12",
+          "answer": "right away",
+          "options": [
+            "right away",
+            "next year",
+            "once more"
+          ],
+          "prompt": "Oh, {{blank}}",
+          "promptZh": "噢，就在那一瞬間"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-14",
+          "answer": "life inside your eyes",
+          "options": [
+            "life inside your eyes",
+            "rain upon your face",
+            "light across the room"
+          ],
+          "prompt": "I saw the {{blank}}",
+          "promptZh": "我在你的眼眸裡，看見了生命的光彩"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-15",
+          "answer": "shine bright tonight",
+          "options": [
+            "stay here tomorrow",
+            "shine bright tonight",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-16",
+          "answer": "beautiful like diamonds",
+          "options": [
+            "peaceful like rivers",
+            "beautiful like diamonds",
+            "colourful like flowers"
+          ],
+          "prompt": "We're {{blank}} in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-17",
+          "answer": "Eye to eye",
+          "options": [
+            "Hand in hand",
+            "Side by side",
+            "Eye to eye"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-18",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "by the sea",
+            "in the sky"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-19",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-20",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a diamond",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-22",
+          "answer": "We're beautiful",
+          "options": [
+            "We're invisible",
+            "We're beautiful",
+            "We're wonderful"
+          ],
+          "prompt": "{{blank}} like diamonds in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-23",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-24",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-26",
+          "answer": "beautiful like diamonds",
+          "options": [
+            "beautiful like diamonds",
+            "peaceful like rivers",
+            "colourful like flowers"
+          ],
+          "prompt": "We're {{blank}} in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-27",
+          "answer": "Palms rise",
+          "options": [
+            "Clouds fall",
+            "Palms rise",
+            "Hands shake"
+          ],
+          "prompt": "{{blank}} to the universe",
+          "promptZh": "張開雙掌，向浩瀚宇宙高高舉起"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-28",
+          "answer": "moonshine and molly",
+          "options": [
+            "moonshine and molly",
+            "sunshine and roses",
+            "midnight and morning"
+          ],
+          "prompt": "As we {{blank}}",
+          "promptZh": "當我們沉醉於私釀烈酒與Molly帶來的迷幻之中"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-30",
+          "answer": "diamonds in the sky",
+          "options": [
+            "flowers on the ground",
+            "shadows in the night",
+            "diamonds in the sky"
+          ],
+          "prompt": "We're like {{blank}}",
+          "promptZh": "我們宛如夜空中閃耀的鑽石"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-31",
+          "answer": "shooting star",
+          "options": [
+            "falling leaf",
+            "shooting star",
+            "silver moon"
+          ],
+          "prompt": "You're a {{blank}} I see",
+          "promptZh": "你是我眼中劃過天際的流星"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-32",
+          "answer": "A vision of ecstasy",
+          "options": [
+            "A moment of mystery",
+            "A vision of ecstasy",
+            "A feeling of jealousy"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "宛如一幅令人心醉神迷的幻景"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-33",
+          "answer": "I'm alive",
+          "options": [
+            "I'm afraid",
+            "I'm alone",
+            "I'm alive"
+          ],
+          "prompt": "When you hold me, {{blank}}",
+          "promptZh": "當你將我擁入懷中，我才真正感受到生命的悸動"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-35",
+          "answer": "energy of sun rays",
+          "options": [
+            "energy of sun rays",
+            "sound of the ocean",
+            "colour of the flowers"
+          ],
+          "prompt": "At first sight I felt the {{blank}}",
+          "promptZh": "初次見到你時，我便感受到陽光般熾熱的能量"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-36",
+          "answer": "life inside your eyes",
+          "options": [
+            "life inside your eyes",
+            "rain upon your face",
+            "light across the room"
+          ],
+          "prompt": "I saw the {{blank}}",
+          "promptZh": "我在你的眼眸裡，看見了生命的光彩"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-37",
+          "answer": "you and I",
+          "options": [
+            "you and them",
+            "she and I",
+            "you and I"
+          ],
+          "prompt": "So shine bright tonight, {{blank}}",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-38",
+          "answer": "in the sky",
+          "options": [
+            "in the sky",
+            "on the road",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-40",
+          "answer": "We're beautiful",
+          "options": [
+            "We're invisible",
+            "We're wonderful",
+            "We're beautiful"
+          ],
+          "prompt": "{{blank}} like diamonds in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-41",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-42",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-43",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a diamond",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-45",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-46",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-47",
+          "answer": "Shine bright",
+          "options": [
+            "Shine bright",
+            "Stay quiet",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-48",
+          "answer": "in the sky",
+          "options": [
+            "on the road",
+            "in the sky",
+            "by the sea"
+          ],
+          "prompt": "We're beautiful like diamonds {{blank}}",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-49",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-50",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a diamond",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-52",
+          "answer": "shine bright tonight",
+          "options": [
+            "shine bright tonight",
+            "stay here tomorrow",
+            "dance slow together"
+          ],
+          "prompt": "So {{blank}}, you and I",
+          "promptZh": "所以，今夜就讓你我一同綻放耀眼的光芒"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-53",
+          "answer": "We're beautiful",
+          "options": [
+            "We're invisible",
+            "We're wonderful",
+            "We're beautiful"
+          ],
+          "prompt": "{{blank}} like diamonds in the sky",
+          "promptZh": "我們如此美麗，宛如夜空中璀璨的鑽石"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-54",
+          "answer": "Eye to eye",
+          "options": [
+            "Eye to eye",
+            "Hand in hand",
+            "Side by side"
+          ],
+          "prompt": "{{blank}}, so alive",
+          "promptZh": "四目相望，感受生命如此鮮明而真切"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-56",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-57",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a diamond",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-58",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Shine bright",
+            "Move slowly"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 48,
+          "lineId": "line-60",
+          "answer": "like a diamond",
+          "options": [
+            "like a flower",
+            "like a rainbow",
+            "like a diamond"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 49,
+          "lineId": "line-61",
+          "answer": "like a diamond",
+          "options": [
+            "like a diamond",
+            "like a flower",
+            "like a rainbow"
+          ],
+          "prompt": "Shine bright {{blank}}",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-62",
+          "answer": "Shine bright",
+          "options": [
+            "Stay quiet",
+            "Move slowly",
+            "Shine bright"
+          ],
+          "prompt": "{{blank}} like a diamond",
+          "promptZh": "像鑽石一樣，綻放耀眼的光芒"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "Shine bright {{q:1}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} like a diamond"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Find light in the beautiful sea"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I {{q:3}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:4}}, you and I"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "We're like {{q:5}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "You're a {{q:6}} I see"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "A vision of ecstasy"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "When you {{q:7}}, I'm alive"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "We're like diamonds {{q:8}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "I knew that we'd {{q:9}} right away"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "Oh, {{q:10}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "At first sight I felt the energy of sun rays"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I saw the {{q:11}}"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "So {{q:12}}, you and I"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "We're {{q:13}} in the sky"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:14}}, so alive"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "We're beautiful like diamonds {{q:15}}"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:16}} like a diamond"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "Shine bright {{q:17}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "{{q:18}} like diamonds in the sky"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:19}} like a diamond"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "{{q:20}} like a diamond"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "We're {{q:21}} in the sky"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "{{q:22}} to the universe"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "As we {{q:23}}"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Feel the warmth, we'll never die"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "We're like {{q:24}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "You're a {{q:25}} I see"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:26}}"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "When you hold me, {{q:27}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "We're like diamonds in the sky"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "At first sight I felt the {{q:28}}"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "I saw the {{q:29}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "So shine bright tonight, {{q:30}}"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "We're beautiful like diamonds {{q:31}}"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Eye to eye, so alive"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:32}} like diamonds in the sky"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Shine bright {{q:33}}"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "{{q:34}} like a diamond"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "Shine bright {{q:35}}"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "{{q:36}} like a diamond"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "Shine bright {{q:37}}"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "{{q:38}} like a diamond"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "We're beautiful like diamonds {{q:39}}"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "Shine bright {{q:40}}"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "Shine bright {{q:41}}"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "Shine bright like a diamond"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "So {{q:42}}, you and I"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "{{q:43}} like diamonds in the sky"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "{{q:44}}, so alive"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "We're beautiful like diamonds in the sky"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "{{q:45}} like a diamond"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "Shine bright {{q:46}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "{{q:47}} like a diamond"
+        },
+        {
+          "lineId": "line-59",
+          "prompt": "Oh, yeah"
+        },
+        {
+          "lineId": "line-60",
+          "prompt": "Shine bright {{q:48}}"
+        },
+        {
+          "lineId": "line-61",
+          "prompt": "Shine bright {{q:49}}"
+        },
+        {
+          "lineId": "line-62",
+          "prompt": "{{q:50}} like a diamond"
+        },
+        {
+          "lineId": "line-63",
+          "prompt": "Shine bright like a diamond"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Diamonds · Listening & Vocabulary",
+  "description": "《Diamonds》描寫一份充滿光芒、幸福與生命力的愛情，以及兩個人因彼此的存在而感受到的美好。歌中的主角將心愛的人比喻為流星，認為對方的出現如陽光般溫暖耀眼，讓她重新感受到生命的喜悅與活力。兩人相遇時便產生強烈的吸引力，在彼此的擁抱與眼神中找到幸福，彷彿整個世界都閃耀著光芒。歌曲以鑽石、星空與陽光象徵美麗、珍貴與希望，也流露出對自由和極致快樂的嚮往。最終，《Diamonds》傳達的是愛情中的喜悅、自信與生命的光彩：當我們學會珍惜自己與身邊的人，勇敢擁抱幸福，便能像夜空中的鑽石一樣，綻放屬於自己的璀璨光芒。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Shine bright",
+      "meaning": "閃耀、發出明亮的光",
+      "usage": "描述太陽、燈光或某個東西明亮地發光。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I shine bright my homework after dinner.",
+        "The stars shine bright in the night sky.",
+        "She shines bright the door with a key.",
+        "We shine bright to the bus stop every day."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：作業不能用 shine bright 表示完成；可以說 do my homework。",
+        "正確：星星在夜空中閃亮，shine bright 用來描述光。",
+        "錯誤：開門應用 open the door，不是 shine bright。",
+        "錯誤：去公車站應用 go 或 walk。"
+      ],
+      "explanation": "正確：星星在夜空中閃亮，shine bright 用來描述光。"
+    },
+    {
+      "number": 2,
+      "word": "Choose to",
+      "meaning": "選擇做某事",
+      "usage": "在有不同選擇時，說明自己決定做什麼；後面接動詞原形。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "We choose to walk to school today.",
+        "He chooses to his blue shoes today.",
+        "I choose to happy this morning.",
+        "She chooses to a banana for lunch."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：choose to 後面接 walk，表示選擇走路。",
+        "錯誤：to 後面需要動詞，例如 wear。",
+        "錯誤：happy 是形容詞，應說 choose to be happy。",
+        "錯誤：缺少動詞，例如 eat。"
+      ],
+      "explanation": "正確：choose to 後面接 walk，表示選擇走路。"
+    },
+    {
+      "number": 3,
+      "word": "Like a",
+      "meaning": "像一個……一樣",
+      "usage": "用來比較兩個事物；a 後面通常接單數可數名詞。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "My brother runs like a very quickly.",
+        "The baby sleeps like a little cat.",
+        "I like a my new phone very much.",
+        "She is like a happy yesterday."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：a 後面缺少名詞。",
+        "正確：把寶寶睡覺的樣子比作小貓。",
+        "錯誤：喜歡手機應說 I like my new phone。",
+        "錯誤：a 不能直接放在 happy 前而沒有名詞。"
+      ],
+      "explanation": "正確：把寶寶睡覺的樣子比作小貓。"
+    },
+    {
+      "number": 4,
+      "word": "Shooting star",
+      "meaning": "流星",
+      "usage": "談到夜空中快速劃過的一道亮光時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I put a shooting star in my school bag.",
+        "I ate a shooting star for breakfast.",
+        "We saw a shooting star in the sky last night.",
+        "My shooting star is late for school."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：真正的流星不能放進書包。",
+        "錯誤：流星不是食物。",
+        "正確：流星會出現在天空，句子符合情境。",
+        "錯誤：流星不會上學，這裡用法不合情境。"
+      ],
+      "explanation": "正確：流星會出現在天空，句子符合情境。"
+    },
+    {
+      "number": 5,
+      "word": "Right away",
+      "meaning": "立刻、馬上",
+      "usage": "表示不等待，立即去做某件事。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I put right away on my sandwich.",
+        "My right away is red and very small.",
+        "He bought two right aways at the shop.",
+        "Please come here right away; I need help."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：right away 不是食物或配料。",
+        "錯誤：right away 不是能用顏色描述的物品。",
+        "錯誤：right away 是時間副詞片語，不能當成可數物品。",
+        "正確：請對方立刻過來幫忙。"
+      ],
+      "explanation": "正確：請對方立刻過來幫忙。"
+    },
+    {
+      "number": 6,
+      "word": "At first sight",
+      "meaning": "第一眼看到時",
+      "usage": "描述第一次看到人或事物時的感覺；也常見於 love at first sight。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "At first sight, I thought the puppy was cute.",
+        "I keep my at first sight in the fridge.",
+        "We at first sight dinner at six.",
+        "She wears at first sight to school."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：第一次看到小狗時就覺得牠可愛。",
+        "錯誤：at first sight 不是可存放的東西。",
+        "錯誤：這個片語不能當動詞使用。",
+        "錯誤：它不是衣物。"
+      ],
+      "explanation": "正確：第一次看到小狗時就覺得牠可愛。"
+    },
+    {
+      "number": 7,
+      "word": "Eye to eye",
+      "meaning": "四目相望；面對面地看著彼此",
+      "usage": "描述兩人互相看著對方；注意 see eye to eye 另有「意見一致」的意思。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "We stood eye to eye and smiled.",
+        "I bought an eye to eye at the bakery.",
+        "The boy eats eye to eye after school.",
+        "I put eye to eye on the table."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：兩人面對面、互相看著對方微笑。",
+        "錯誤：eye to eye 不是麵包或商品名稱。",
+        "錯誤：這是描述目光的片語，不是食物。",
+        "錯誤：eye to eye 不是能放在桌上的物品。"
+      ],
+      "explanation": "正確：兩人面對面、互相看著對方微笑。"
+    },
+    {
+      "number": 8,
+      "word": "Hold someone",
+      "meaning": "抱住、握住某人",
+      "usage": "當你用手或手臂抱住、扶住一個人時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I held the rainy weather after lunch.",
+        "She held her baby in her arms.",
+        "My sister holds the homework with a smile.",
+        "The bus held me a new ticket."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：天氣不是能抱住的人。",
+        "正確：用手臂抱著寶寶，是自然用法。",
+        "錯誤：這裡若指做作業應用 does her homework。",
+        "錯誤：給車票應說 gave me a ticket。"
+      ],
+      "explanation": "正確：用手臂抱著寶寶，是自然用法。"
+    },
+    {
+      "number": 9,
+      "word": "Become one",
+      "meaning": "融為一體；成為一個整體",
+      "usage": "可用於描述兩個團體合併，或在詩意語境中形容彼此非常親近。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I become one my pencil before class.",
+        "She became one to the supermarket.",
+        "We became one our sandwiches at lunch.",
+        "The two small groups became one big team."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：become one 不能這樣接鉛筆。",
+        "錯誤：去超市應用 went to。",
+        "錯誤：這個片語不表示製作三明治。",
+        "正確：兩個小組合成一個團隊。"
+      ],
+      "explanation": "正確：兩個小組合成一個團隊。"
+    },
+    {
+      "number": 10,
+      "word": "Feel alive",
+      "meaning": "感覺充滿活力、覺得自己真正活著",
+      "usage": "當活動讓你特別興奮、快樂或精神充沛時使用。",
+      "prompt": "哪一句正確使用這個單字或片語？",
+      "options": [
+        "I feel alive my lunch on the table.",
+        "She feels alive the window every day.",
+        "This music makes me feel alive!",
+        "He bought three feel alives at the shop."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：feel alive 不能直接接午餐作受詞。",
+        "錯誤：開窗應用 opens the window。",
+        "正確：音樂讓人感到充滿活力。",
+        "錯誤：feel alive 不是可以購買的物品。"
+      ],
+      "explanation": "正確：音樂讓人感到充滿活力。"
+    }
+  ],
+  "tags": [
+    "rihanna",
+    "diamonds",
+    "love",
+    "beauty"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/diamonds/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/diamonds/user-cover-20261030.png",
+  "editorialRepairs": [],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 225.1466875,
+    "audioSha256": "1d4749cfa3e452f5b7ed7fd18341445737cad02df48d6c07bf848015de17a617",
+    "timedLines": 53,
+    "untimedLines": 10,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Diamonds_.pdf",
+      "sha256": "c8923afb270928eafd417d45aa38b56ced0ed34cb93108546bc6c6e3dc9f631e"
+    },
+    "chosenListening": {
+      "filename": "Diamonds_Four_Level_Listening_Exercise(2).docx",
+      "sha256": "900e2343d386ef09bc0c3bea75ff32a63d27da8cd0dfc808de3b7f0349983026"
+    },
+    "chosenVocabulary": {
+      "filename": "Diamonds_Vocabulary_Quiz.md",
+      "sha256": "0ffd00c71592d062cdda97bb95b8ba87c3886350bb9a59d8e006d6edc0b87410"
+    },
+    "mp3": {
+      "filename": "Diamonds [4mVo93E9wpU].mp3",
+      "sha256": "1d4749cfa3e452f5b7ed7fd18341445737cad02df48d6c07bf848015de17a617"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-3477bd65-1d3c-40bb-a725-cccd239bb397.png",
+    "sha256": "40ae81a116bebf30d92469583ba2039d9079f8475835e5a1ceec6945b771a076",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  },
+  "learning_sections": {
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "Vision（B2，估計）",
+          "meaning": "幻象、腦海中的景象；對未來的願景。",
+          "usage": "描述腦中清楚浮現的畫面，或某人對未來想實現的構想。本題考「願景、構想」。",
+          "prompt": "哪一句正確使用了「vision」（願景）？",
+          "options": [
+            "The dentist had a vision of the clock above the waiting room.",
+            "The chef had a vision of a café where robots serve soup.",
+            "The coach had a vision of the whistle hanging by the door.",
+            "My uncle had a vision of the bus arriving at exactly six."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "候診室裡現成的時鐘是實際看得到的物品，應說 saw the clock。注意：vision 在其他情境也能表示眼前的幻象，但這不是本題指定的「未來願景」。",
+            "這是一個尚未實現的咖啡館構想，vision 表示對未來的想像和規劃；機器人端湯也讓畫面有趣。",
+            "如果只是看見門旁掛著的哨子，通常說 saw the whistle；這裡不需要表示未來願景的 vision。",
+            "如果只是預測六點公車到站，通常說 expected the bus to arrive；並非宏觀的願景。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "這是一個尚未實現的咖啡館構想，vision 表示對未來的想像和規劃；機器人端湯也讓畫面有趣。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "Ecstasy（C1–C2，估計）",
+          "meaning": "狂喜、極度喜悅。",
+          "usage": "形容強烈到難以抑制的快樂；比 happiness 情緒強得多。本題只考情緒意思。",
+          "prompt": "哪一句正確使用了「ecstasy」（狂喜）？",
+          "options": [
+            "Mia felt ecstasy when she found a clean spoon in the drawer.",
+            "The fans were in ecstasy when their team won the final.",
+            "Leo felt ecstasy because the printer had enough paper for today.",
+            "Nina was in ecstasy when the lift stopped at the third floor."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "找到乾淨湯匙可能令人高興，但普通小事一般不足以表達 ecstasy 所指的強烈狂喜。",
+            "球隊贏得決賽，球迷欣喜若狂；be in ecstasy 搭配自然。",
+            "印表機紙張充足頂多令人放心，通常不會達到「極度狂喜」的程度。",
+            "電梯正常停在三樓不是強烈歡樂的典型情境，應使用較平淡的說法。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "球隊贏得決賽，球迷欣喜若狂；be in ecstasy 搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "Energy（B1，估計）",
+          "meaning": "精力、活力；也可指能量。",
+          "usage": "描述一個人做事的精神狀態、活動氣氛或物理能量。本題考「精力」。",
+          "prompt": "哪一句正確使用了「energy」（精力）？",
+          "options": [
+            "After the hike, I sent my energy by email to the head chef.",
+            "After the hike, I folded my energy and stored it in a drawer.",
+            "After the hike, I had no energy left inside my red notebook.",
+            "After the hike, I had no energy left to carry the boxes."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "在這個意思下，energy 不能像電子郵件附件一樣直接寄給廚師。",
+            "精力不是能折疊後放進抽屜的物件；這句是刻意的荒謬用法。",
+            "精力並不是一般能存放在紅色筆記本裡的實體物品。",
+            "長途健行後沒有力氣搬箱子，have no energy left 表示精力耗盡。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "長途健行後沒有力氣搬箱子，have no energy left 表示精力耗盡。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "Ray / Sun rays（B2，估計）",
+          "meaning": "光線；sun rays 指陽光射出的光線。",
+          "usage": "談陽光穿過雲層、窗戶或樹葉的光束；也可見於科學語境。本題考「光線」。",
+          "prompt": "哪一句正確使用了「ray」（光線）？",
+          "options": [
+            "A ray of sunlight signed the form and left the school office.",
+            "A ray of sunlight cooked our soup before the waiter returned.",
+            "A ray of sunlight came through the window and lit the floor.",
+            "A ray of sunlight borrowed my bicycle to get to the station."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "光線不能以人的身分簽署表格或離開辦公室。",
+            "陽光可以加熱物品，但一般不會像廚師一樣直接「煮湯」；在這個情境說法不自然。",
+            "一道陽光穿過窗戶照到地板，a ray of sunlight 是自然的搭配。",
+            "光線不會借腳踏車搭車；這是刻意的擬人化笑話，不是一般用法。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "一道陽光穿過窗戶照到地板，a ray of sunlight 是自然的搭配。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "Palm（B2，估計）",
+          "meaning": "手掌；也可指棕櫚樹（另一個意思）。",
+          "usage": "描述手掌上的物品、掌紋或身體動作。本題只考「手掌」。",
+          "prompt": "哪一句正確使用了「palm」（手掌）？",
+          "options": [
+            "The doctor checked the small cut on the palm of my chair.",
+            "The doctor checked the small cut on the palm of the clock.",
+            "The doctor checked the small cut on the palm of my hand.",
+            "The doctor checked the small cut on the palm of the lamp."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "椅子沒有人體的手掌；可以改說 the seat of my chair。",
+            "時鐘有表面（face），但不會有人的手掌。",
+            "the palm of my hand 指手掌心，適合描述手上的小傷口。",
+            "檯燈有燈罩或底座，不會有身體構造中的手掌。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "the palm of my hand 指手掌心，適合描述手上的小傷口。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "Universe（B2，估計）",
+          "meaning": "宇宙；所有星系、恆星及空間的整體。",
+          "usage": "談天文學、太空探索或宇宙的大小；也可用於誇飾性的日常說法。",
+          "prompt": "哪一句正確使用了「universe」？",
+          "options": [
+            "Our teacher explained how stars form in the universe.",
+            "Our teacher explained how sandwiches queue in the universe.",
+            "Our teacher explained how spoons drive trains in the universe.",
+            "Our teacher explained how umbrellas pay rent in the universe."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "天文課討論宇宙中的恆星如何形成，符合 universe 的自然使用情境。",
+            "三明治不會排隊；這句沒有合理的宇宙科學內容。",
+            "湯匙不會開火車；雖然句型完整，但不符合自然的字義應用。",
+            "雨傘不能像房客一樣付租金；不能拿它來描述宇宙現象。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "天文課討論宇宙中的恆星如何形成，符合 universe 的自然使用情境。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "Warmth（B2，估計）",
+          "meaning": "溫暖、暖意；也可指待人親切友善的感覺。",
+          "usage": "描述陽光或火源帶來的暖意，也可描述某人的友善。本題考「待人的溫暖」。",
+          "prompt": "哪一句正確使用了「warmth」（親切、溫暖）？",
+          "options": [
+            "The new teacher spoke with warmth to the nervous students.",
+            "The old cupboard showed warmth when someone opened its door.",
+            "The blue umbrella showed warmth when it fell off the chair.",
+            "The ticket machine showed warmth when it printed my train pass."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "老師親切地與緊張的學生說話，speak with warmth 用法自然。",
+            "櫃子被打開不代表它會展現人際互動中的溫暖。",
+            "雨傘從椅子上掉下來不代表它對人友善，這是刻意的幽默情境。",
+            "售票機印出車票是正常功能，不表示它以親切態度對待人。"
+          ],
+          "sourceFile": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "老師親切地與緊張的學生說話，speak with warmth 用法自然。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        }
+      ]
+    },
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "祈使句：動詞 + 副詞 + like 比喻",
+          "meaning": "像某種事物一樣做一個動作。",
+          "usage": "鼓勵別人、描述動作方式，並用 like 作比喻。",
+          "prompt": "主持人希望舞者在台上自信地表現，哪句最貼切？",
+          "options": [
+            "Shine on a star because it has five chairs.",
+            "Shine brightly like the stars on stage!",
+            "The stars shine a stage like loudly.",
+            "The stage is like to shine a dancer."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：沒有合理描述舞者的表現。",
+            "正確：用祈使句鼓勵舞者像星星般閃耀。",
+            "錯誤：詞序混亂，不能表達動作加比喻。",
+            "錯誤：like 後的結構及句意不自然。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "Shine bright like a diamond",
+          "pattern": [
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "副詞",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞用 bright 作副詞式補語，日常正式英語常用 brightly；練習保留相同「動作＋方式＋like 比喻」框架。",
+          "explanation": "正確：用祈使句鼓勵舞者像星星般閃耀。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "祈使句：Find + 受詞 + 地點",
+          "meaning": "在某個地方找到某物。",
+          "usage": "指示別人從特定地方尋找有用物件或線索。",
+          "prompt": "考古隊正在沙灘尋找一枚小硬幣，哪句是合理指示？",
+          "options": [
+            "Find in the coin the beach happy.",
+            "Find the beach in the coin.",
+            "The coin find the sand yesterday.",
+            "Find the coin in the sand."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：語序和結尾形容詞不合句法。",
+            "錯誤：把要找的東西與地點顛倒了。",
+            "錯誤：主詞、動詞和時態都不合語境。",
+            "正確：在沙子裡尋找硬幣，受詞和地點清楚。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "Find light in the beautiful sea",
+          "pattern": [
+            {
+              "text": "Find",
+              "fixed": true
+            },
+            {
+              "text": "事物",
+              "fixed": false
+            },
+            {
+              "text": "in",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：在沙子裡尋找硬幣，受詞和地點清楚。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "choose + to + 原形動詞",
+          "meaning": "選擇採取某個行動或態度。",
+          "usage": "強調某人經過考慮後主動作出決定。",
+          "prompt": "朋友可以坐電梯，但想鍛鍊身體，哪句最合適？",
+          "options": [
+            "She chooses the stairs are exercise.",
+            "She chooses to happy on the stairs.",
+            "She chooses to take the stairs for exercise.",
+            "She chooses walking the stairs to exercise."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少合適的動詞結構。",
+            "錯誤：happy 前需要 be，且不符合情境。",
+            "正確：選擇走樓梯，choose to 後接 take。",
+            "錯誤：本題要練 choose to + 原形動詞，而不是這個搭配。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "I choose to be happy",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "choose to",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形／be",
+              "fixed": false
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：選擇走樓梯，choose to 後接 take。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "be + like + 名詞：比喻",
+          "meaning": "把某個人或事物比作另一種事物。",
+          "usage": "說明外觀、特點或給人的感覺相似。",
+          "prompt": "小小的白燈掛滿花園，遠看像星星，哪句最自然？",
+          "options": [
+            "The lights like stars being in the garden.",
+            "The lights are like stars in the garden.",
+            "The lights are stars like to the garden.",
+            "The lights are to like stars in the garden."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：缺少 be 動詞，句型不完整。",
+            "正確：用 are like 把燈比作星星。",
+            "錯誤：比喻結構和介系詞不自然。",
+            "錯誤：be like 前不能多加 to。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "We’re like diamonds in the sky",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：用 are like 把燈比作星星。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "零關係代名詞：名詞 + 主詞 + 動詞",
+          "meaning": "在名詞後補充「某人看到／喜歡的」資訊；關係代名詞作受詞時可省略。",
+          "usage": "用短短的子句指定所談的是哪個人或東西。",
+          "prompt": "畫家指著自己昨天拍下的照片，哪句能自然說明是哪張？",
+          "options": [
+            "This is the photo I yesterday took it.",
+            "This is the photo I took yesterday.",
+            "This is the photo who I took yesterday.",
+            "This is the photo took I yesterday."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：photo 已是受詞先行詞，不能再加 it。",
+            "正確：the photo 後省略作受詞的 that，接 I took。",
+            "錯誤：photo 是物，且 who 不適用於此。",
+            "錯誤：關係子句必須用正常的主詞動詞語序。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "You’re a shooting star I see",
+          "pattern": [
+            {
+              "text": "名詞",
+              "fixed": false
+            },
+            {
+              "text": "（省略 that/which）+  主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞的 shooting star 後接 I see，屬於省略受詞關係代名詞的結構。",
+          "explanation": "正確：the photo 後省略作受詞的 that，接 I took。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "When + 現在式，現在式",
+          "meaning": "當某件事發生時，另一種狀態就出現。",
+          "usage": "描述常見反應、習慣或一般情況。",
+          "prompt": "狗每次聽見開零食袋的聲音就跑過來，哪句正確？",
+          "options": [
+            "When my dog hears the bag, it runs to me.",
+            "When the dog heard the bag, it run here every time.",
+            "When my dog hears the bag, it running to me.",
+            "When my dog hearing the bag, runs to me."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：when 子句和主句皆用現在式描述習慣。",
+            "錯誤：混用過去式與不正確的動詞形式。",
+            "錯誤：主句缺少 is，不能直接用 it running。",
+            "錯誤：when 後缺少完整子句。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "When you hold me, I’m alive",
+          "pattern": [
+            {
+              "text": "When",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "現在式， 主詞",
+              "fixed": false
+            },
+            {
+              "text": "現在式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：when 子句和主句皆用現在式描述習慣。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "knew + that + would：過去觀點的未來",
+          "meaning": "描述過去已預期某件事情會發生。",
+          "usage": "回想自己當時對後來事情的判斷。",
+          "prompt": "去年修橋時，工程師相信新橋會幫到村民，哪句最合適？",
+          "options": [
+            "The engineer knew that the bridge would help the village.",
+            "The engineer knows that the bridge would helped people.",
+            "The engineer knew the bridge helping the village tomorrow.",
+            "The engineer knew that the bridge will help last year."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：以 knew 回顧過去，以 would help 表示當時的預期。",
+            "錯誤：would 後必須接原形 help，且時態不配。",
+            "錯誤：缺少 would 等完整動詞形式。",
+            "錯誤：回顧過去時，此處更自然用 would 表示當時的未來。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "I knew that we’d become one right away",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "knew (that)",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "would",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：we’d 在歌詞中 = we would，不是 we had。",
+          "explanation": "正確：以 knew 回顧過去，以 would help 表示當時的預期。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "right away：時間副詞片語",
+          "meaning": "立刻、馬上。",
+          "usage": "需要立即回應、處理或行動時。",
+          "prompt": "水管忽然漏水，房東答應馬上找人修理，哪句合適？",
+          "options": [
+            "The landlord called right away a plumber to.",
+            "The landlord right away a repair person.",
+            "The landlord called a repair worker right away.",
+            "The landlord was right away very blue."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：語序不自然且句子不完整。",
+            "錯誤：right away 不是動詞。",
+            "正確：將 right away 放句末表示立即打電話。",
+            "錯誤：right away 不是形容顏色的詞。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "right away",
+          "pattern": [
+            {
+              "text": "動作或完整句子",
+              "fixed": false
+            },
+            {
+              "text": "right away",
+              "fixed": true
+            }
+          ],
+          "explanation": "正確：將 right away 放句末表示立即打電話。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "At first sight + 過去式",
+          "meaning": "第一眼看見時，就產生某種感覺。",
+          "usage": "描述初次見到人或事物的第一印象。",
+          "prompt": "設計師第一次看見新劇院，就覺得它很漂亮，哪句最好？",
+          "options": [
+            "At first sight is the theatre I beautiful.",
+            "At first sight, I will think the theatre was beautiful yesterday.",
+            "At first sight, the theatre thought me beautiful.",
+            "At first sight, I thought the theatre was beautiful."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：句子缺少合適的主詞動詞結構。",
+            "錯誤：will 與 yesterday 所指的過去情境衝突。",
+            "錯誤：主詞與動詞受詞關係顛倒。",
+            "正確：at first sight 加過去式 thought 表示第一印象。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "At first sight I felt the energy of sun rays",
+          "pattern": [
+            {
+              "text": "At first sight，+  主詞",
+              "fixed": false
+            },
+            {
+              "text": "過去式",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：at first sight 加過去式 thought 表示第一印象。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "過去式：saw + 受詞 + 地點",
+          "meaning": "過去看見某物位於另一個東西裡面。",
+          "usage": "描述先前觀察到的具體景象或內容。",
+          "prompt": "研究員昨天在舊箱子內發現一封信，哪句合適？",
+          "options": [
+            "The scientist sees a letter yesterday inside the box.",
+            "The scientist saw a letter inside an old box yesterday.",
+            "The scientist saw inside an old box a letter yesterday it.",
+            "The scientist saw a letter to inside an old box."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：yesterday 指過去，不能用現在式 sees。",
+            "正確：saw a letter inside an old box 清楚表達發現位置。",
+            "錯誤：句末 it 重複受詞，語序也不自然。",
+            "錯誤：inside 前不需要 to。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "I saw the life inside your eyes",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "saw",
+              "fixed": true
+            },
+            {
+              "text": "受詞",
+              "fixed": false
+            },
+            {
+              "text": "inside",
+              "fixed": true
+            },
+            {
+              "text": "地點",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：saw a letter inside an old box 清楚表達發現位置。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "be + 形容詞 + like + 名詞",
+          "meaning": "形容某人／某物具有某種特質，並借另一物作比較。",
+          "usage": "想用具體事物加強對特質的描寫時。",
+          "prompt": "小屋的窗子被夕陽照得金亮，哪句最好？",
+          "options": [
+            "The windows are bright like gold at sunset.",
+            "The windows beautiful are like gold at sunset.",
+            "The windows is bright like gold at sunset.",
+            "The windows are like beautiful gold in sunshine to."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：are bright like gold 以黃金比喻閃亮的窗戶。",
+            "錯誤：be 與形容詞的順序應為 are beautiful。",
+            "錯誤：複數 windows 要配 are，不是 is。",
+            "錯誤：結尾介系詞與比喻語序不自然。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "We’re beautiful like diamonds in the sky",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "be",
+              "fixed": true
+            },
+            {
+              "text": "形容詞",
+              "fixed": false
+            },
+            {
+              "text": "like",
+              "fixed": true
+            },
+            {
+              "text": "名詞",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：與純粹 be like + 名詞不同，這裡還有獨立的形容詞補語 beautiful。",
+          "explanation": "正確：are bright like gold 以黃金比喻閃亮的窗戶。",
+          "sourceOptionOrder": [
+            "C",
+            "B",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "Eye to eye：片語式省略",
+          "meaning": "彼此四目相對、眼神交會。",
+          "usage": "文學或口語片語描繪互相望著對方的情景。",
+          "prompt": "兩名棋手在決賽前互相對望，哪句貼切？",
+          "options": [
+            "They saw eye to eye on every rule of the game.",
+            "The players were eye to eye a ticket yesterday.",
+            "The players stood eye to eye before the match.",
+            "The players put eye to eye on the desk."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：see eye to eye 指意見一致，並非題目所描述的對望。",
+            "錯誤：名詞 a ticket 不能這樣接在片語後。",
+            "正確：stood eye to eye 描述兩人面對面互望。",
+            "錯誤：eye to eye 不是能放到桌上的實物。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "Eye to eye, so alive",
+          "pattern": [
+            {
+              "text": "eye to eye",
+              "fixed": true
+            },
+            {
+              "text": "（省略的語境補足）",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：只抽取歌詞裡 eye to eye 的畫面，不把 see eye to eye（意見一致）冒充歌詞結構。",
+          "explanation": "正確：stood eye to eye 描述兩人面對面互望。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "主詞 + rise + to + 目的方向",
+          "meaning": "某物向上升至某個方向或高度。",
+          "usage": "描述上升、升高或向某處伸展。",
+          "prompt": "清晨熱氣球慢慢向天空上升，哪句貼切？",
+          "options": [
+            "The balloon rises to sky a warm.",
+            "The balloon rises the sky to happily.",
+            "The balloon rises toward the sky at sunrise.",
+            "The balloon is rise to the sky."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：缺少自然的冠詞與介系詞結構。",
+            "錯誤：語序混亂，也沒有合適的方向介系詞。",
+            "正確：rises toward the sky 表示向天空升起。",
+            "錯誤：is 後不能直接接 rise 原形表此動作。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "Palms rise to the universe",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "rise to",
+              "fixed": true
+            },
+            {
+              "text": "方向／高度",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞是 rise to the universe，例句以自然的 toward the sky 練習方向補語，並不將 toward 說成歌詞原字。",
+          "explanation": "正確：rises toward the sky 表示向天空升起。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "As + 主詞 + 動詞：同時／當……時",
+          "meaning": "當……時；在某動作進行的同時。",
+          "usage": "兩件事情同時發生時可用 as 引導時間子句。",
+          "prompt": "觀眾走進博物館時，導覽員正在說明展品，哪句最好？",
+          "options": [
+            "As the visitors entered the guide speaking is.",
+            "As the visitors entered, the guide began to speak.",
+            "As the visitors entering, the guide speak.",
+            "As visitors were to enter, the guide was speak."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：主句缺少可用的謂語，標點也不清楚。",
+            "正確：as 引導時間子句，說明觀眾進場時發生的事。",
+            "錯誤：as 後的子句缺少完整動詞。",
+            "錯誤：was speak 不是正確的動詞形式。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "As we moonshine and molly",
+          "pattern": [
+            {
+              "text": "As",
+              "fixed": true
+            },
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "動詞， 主句",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞的 moonshine and molly 不是標準可套用的日常動詞搭配；這裡僅抽取明確出現的 as + 主詞 + 謂語形式，另標示歌詞語意與語域特殊。",
+          "explanation": "正確：as 引導時間子句，說明觀眾進場時發生的事。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "祈使句：Feel + 名詞",
+          "meaning": "感受某種溫度、情緒或身體感覺。",
+          "usage": "鼓勵人留意自己的感官體驗時。",
+          "prompt": "老師帶學生到花園感受陽光的溫暖，哪句最好？",
+          "options": [
+            "The warmth feel your face the sun.",
+            "Feel the sun is warm to your face it.",
+            "Feel to the warm from the sun.",
+            "Feel the warmth of the sun on your face."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：主詞與動詞語序顛倒。",
+            "錯誤：動詞與受詞的結構不合。",
+            "錯誤：feel 不用 to 直接接這樣的受詞。",
+            "正確：祈使句 Feel the warmth 讓人感受陽光溫度。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "Feel the warmth",
+          "pattern": [
+            {
+              "text": "Feel",
+              "fixed": true
+            },
+            {
+              "text": "受詞名詞",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：祈使句 Feel the warmth 讓人感受陽光溫度。",
+          "sourceOptionOrder": [
+            "D",
+            "C",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "will + never + 原形動詞",
+          "meaning": "表示未來絕對不會做／發生某事。",
+          "usage": "強烈表達未來的否定預測或承諾。",
+          "prompt": "博物館宣布一幅名畫永遠不會出售，哪句合適？",
+          "options": [
+            "The museum never will sold the painting.",
+            "The museum will sell never the painting.",
+            "The museum will never selling the painting.",
+            "The museum will never sell the painting."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：will 後應接 sell 原形，不是 sold。",
+            "錯誤：never 的位置通常放在 will 後、主要動詞前。",
+            "錯誤：will 後不直接接 selling。",
+            "正確：will never sell 是自然的未來否定。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "we’ll never die",
+          "pattern": [
+            {
+              "text": "主詞",
+              "fixed": false
+            },
+            {
+              "text": "will never",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：will never sell 是自然的未來否定。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "you and I：並列主詞",
+          "meaning": "將兩個人並列為同一組主詞。",
+          "usage": "說明兩人共同做某件事時，主詞位置通常使用 I 而非 me。",
+          "prompt": "你和表妹一起負責布置舞台，哪句正確？",
+          "options": [
+            "My cousin and I are decorating the stage.",
+            "Me and my cousin is decorating the stage.",
+            "My cousin and me are decorating the stage.",
+            "My cousin and I decorating the stage."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：My cousin and I 作並列主詞，搭配 are。",
+            "錯誤：主格代名詞及主謂一致都不合標準用法。",
+            "錯誤：正式標準主詞位置應用 I，而非 me。",
+            "錯誤：現在進行式缺少 are。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "You and I, you and I",
+          "pattern": [
+            {
+              "text": "人物 A",
+              "fixed": false
+            },
+            {
+              "text": "and",
+              "fixed": true
+            },
+            {
+              "text": "人物 B（主格）",
+              "fixed": false
+            }
+          ],
+          "context": "使用註記：歌詞片段是獨立並列名詞詞組；以完整例句練習它的主詞功能。",
+          "explanation": "正確：My cousin and I 作並列主詞，搭配 are。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "So + 祈使句：因此採取行動",
+          "meaning": "所以……；根據前文引出邀請或鼓勵。",
+          "usage": "說明理由後提出下一個行動。",
+          "prompt": "朋友說天氣很好，於是提議出去散步，哪句最自然？",
+          "options": [
+            "The rain has stopped, so come outside and play!",
+            "The rain has stopped, so to play outside.",
+            "The rain has stopped, so are you play outside.",
+            "The rain has stopped, so outside come and playing."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：so 連接理由與祈使句，提出行動建議。",
+            "錯誤：缺少祈使句的原形動詞。",
+            "錯誤：are you play 不是自然的祈使句。",
+            "錯誤：祈使句應以動詞原形開頭。"
+          ],
+          "sourceFile": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "So shine bright tonight, you and I",
+          "pattern": [
+            {
+              "text": "So",
+              "fixed": true
+            },
+            {
+              "text": "動詞原形",
+              "fixed": false
+            },
+            {
+              "text": "補充內容",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：so 連接理由與祈使句，提出行動建議。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
+  },
+  "extensionProvenance": [
+    {
+      "section": "advanced",
+      "filename": "Diamonds_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "d993085c9d4e1eb9388e3f362a5bf437d868fc23105c373851649a23107fcd2d"
+    },
+    {
+      "section": "structure",
+      "filename": "Diamonds_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "be4476067659c53b3b8c0b064754f559609629a8499bb4a601078e754f21a89d"
+    }
+  ]
+}

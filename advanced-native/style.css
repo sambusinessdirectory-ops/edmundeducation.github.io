@@ -242,3 +242,5 @@ body[data-course="advanced-native"] .writing-glossary td:last-child{padding-top:
 body[data-course="advanced-native"] :is(button,input,select,summary){min-width:44px;min-height:44px}
 body[data-course="advanced-native"] .edmund-system-header a{min-width:44px;min-height:44px}
 body[data-course="advanced-native"] .header-actions>a{display:inline-flex;align-items:center;justify-content:center}
+
+body[data-course="advanced-native"] .advanced-card-arrow svg{display:block;width:21px;height:21px;flex:none}

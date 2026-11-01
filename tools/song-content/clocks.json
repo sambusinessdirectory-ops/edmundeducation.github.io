@@ -1,0 +1,3483 @@
+{
+  "slug": "clocks",
+  "title": "Clocks",
+  "singer": "Coldplay",
+  "translations": [
+    {
+      "english": "The lights go out and I can't be saved",
+      "chinese": "燈光熄滅了，而我已無人能救",
+      "lineId": "line-1",
+      "startSeconds": 30.0,
+      "endSeconds": 33.38
+    },
+    {
+      "english": "Tides that I tried to swim against",
+      "chinese": "那些我曾奮力逆游的潮汐",
+      "lineId": "line-2",
+      "startSeconds": 33.38,
+      "endSeconds": 37.02
+    },
+    {
+      "english": "Have brought me down upon my knees",
+      "chinese": "終究將我擊倒，迫使我屈膝跪地",
+      "lineId": "line-3"
+    },
+    {
+      "english": "Oh I beg, I beg and plead, singing",
+      "chinese": "噢，我苦苦哀求，一再懇求，唱著",
+      "lineId": "line-4",
+      "startSeconds": 40.7,
+      "endSeconds": 45.0
+    },
+    {
+      "english": "Come out of things unsaid",
+      "chinese": "從那些未曾說出口的話語中走出來",
+      "lineId": "line-5",
+      "startSeconds": 45.02,
+      "endSeconds": 47.98
+    },
+    {
+      "english": "Shoot an apple off my head and a",
+      "chinese": "射落我頭頂上的蘋果，還有那……",
+      "lineId": "line-6",
+      "startSeconds": 47.98,
+      "endSeconds": 51.94
+    },
+    {
+      "english": "Trouble that can't be named",
+      "chinese": "一場無法言明的困厄",
+      "lineId": "line-7",
+      "startSeconds": 53.18,
+      "endSeconds": 55.26
+    },
+    {
+      "english": "A tiger's waiting to be tamed, singing",
+      "chinese": "一頭猛虎正等待被馴服，唱著",
+      "lineId": "line-8",
+      "startSeconds": 55.26,
+      "endSeconds": 59.5
+    },
+    {
+      "english": "You are",
+      "chinese": "你是……",
+      "lineId": "line-9"
+    },
+    {
+      "english": "You are",
+      "chinese": "你是……",
+      "lineId": "line-10"
+    },
+    {
+      "english": "Confusion never stops",
+      "chinese": "混亂與迷惘從未止息",
+      "lineId": "line-11",
+      "startSeconds": 89.12,
+      "endSeconds": 92.0
+    },
+    {
+      "english": "Closing walls and ticking clocks",
+      "chinese": "四周的牆壁步步逼近，時鐘滴答作響",
+      "lineId": "line-12",
+      "startSeconds": 92.0,
+      "endSeconds": 95.52
+    },
+    {
+      "english": "Gonna come back and take you home",
+      "chinese": "我終將回來，帶你回家",
+      "lineId": "line-13",
+      "startSeconds": 95.52,
+      "endSeconds": 99.2
+    },
+    {
+      "english": "I could not stop that you now know, singing",
+      "chinese": "我無法阻止這一切，如今你已明白，唱著",
+      "lineId": "line-14",
+      "startSeconds": 99.2,
+      "endSeconds": 103.44
+    },
+    {
+      "english": "Come out upon my seas",
+      "chinese": "來吧，出現在我的海面之上",
+      "lineId": "line-15",
+      "startSeconds": 103.44,
+      "endSeconds": 106.5
+    },
+    {
+      "english": "Cursed missed opportunities",
+      "chinese": "那些該死的、錯失的機會",
+      "lineId": "line-16"
+    },
+    {
+      "english": "Am I a part of the cure?",
+      "chinese": "我究竟是解救困境的一部分？",
+      "lineId": "line-17",
+      "startSeconds": 110.3,
+      "endSeconds": 113.6
+    },
+    {
+      "english": "Or am I part of the disease? Singing",
+      "chinese": "還是我本身就是造成問題的一部分？唱著",
+      "lineId": "line-18",
+      "startSeconds": 114.52,
+      "endSeconds": 118.26
+    },
+    {
+      "english": "You are, you are, you are",
+      "chinese": "你是，你是，你是……",
+      "lineId": "line-19"
+    },
+    {
+      "english": "You are, you are, you are",
+      "chinese": "你是，你是，你是……",
+      "lineId": "line-20"
+    },
+    {
+      "english": "And nothing else compares",
+      "chinese": "而世上再沒有什麼能與之相比",
+      "lineId": "line-21",
+      "startSeconds": 178.5,
+      "endSeconds": 182.8
+    },
+    {
+      "english": "Oh nothing else compares",
+      "chinese": "噢，再沒有什麼能與之相比",
+      "lineId": "line-22",
+      "startSeconds": 184.78,
+      "endSeconds": 191.58
+    },
+    {
+      "english": "And nothing else compares",
+      "chinese": "而世上再沒有什麼能與之相比",
+      "lineId": "line-23",
+      "startSeconds": 191.58,
+      "endSeconds": 198.48
+    },
+    {
+      "english": "You are",
+      "chinese": "你是……",
+      "lineId": "line-24"
+    },
+    {
+      "english": "You are",
+      "chinese": "你是……",
+      "lineId": "line-25"
+    },
+    {
+      "english": "Home, home where I wanted to go",
+      "chinese": "家啊，家，那個我一直渴望抵達的地方",
+      "lineId": "line-26"
+    },
+    {
+      "english": "Home, home where I wanted to go",
+      "chinese": "家啊，家，那個我一直渴望抵達的地方",
+      "lineId": "line-27",
+      "startSeconds": 254.82,
+      "endSeconds": 262.26
+    },
+    {
+      "english": "Home, home where I wanted to go",
+      "chinese": "家啊，家，那個我一直渴望抵達的地方",
+      "lineId": "line-28",
+      "startSeconds": 262.26,
+      "endSeconds": 269.74
+    },
+    {
+      "english": "Home, home where I wanted to go",
+      "chinese": "家啊，家，那個我一直渴望抵達的地方",
+      "lineId": "line-29"
+    }
+  ],
+  "exercises": [
+    {
+      "id": "standard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "lights go out",
+          "options": [
+            "lights come on",
+            "lights shine down",
+            "lights go out"
+          ],
+          "prompt": "The {{blank}} and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-2",
+          "answer": "Tides that I tried",
+          "options": [
+            "Waves that I followed",
+            "Tides that I feared",
+            "Tides that I tried"
+          ],
+          "prompt": "{{blank}} to swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-3",
+          "answer": "brought me down",
+          "options": [
+            "brought me down",
+            "pulled me back",
+            "lifted me up"
+          ],
+          "prompt": "Have {{blank}} upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-4",
+          "answer": "beg and plead",
+          "options": [
+            "cry and shout",
+            "beg and plead",
+            "sing and dance"
+          ],
+          "prompt": "Oh I beg, I {{blank}}, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-5",
+          "answer": "things unsaid",
+          "options": [
+            "words forgotten",
+            "dreams unmade",
+            "things unsaid"
+          ],
+          "prompt": "Come out of {{blank}}",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-6",
+          "answer": "an apple",
+          "options": [
+            "an apple",
+            "a candle",
+            "a bottle"
+          ],
+          "prompt": "Shoot {{blank}} off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-7",
+          "answer": "can't be named",
+          "options": [
+            "won't be found",
+            "can't be changed",
+            "can't be named"
+          ],
+          "prompt": "Trouble that {{blank}}",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-8",
+          "answer": "waiting to be tamed",
+          "options": [
+            "waiting to be freed",
+            "waiting to be tamed",
+            "ready to escape"
+          ],
+          "prompt": "A tiger's {{blank}}, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-11",
+          "answer": "Confusion never stops",
+          "options": [
+            "Confusion never stops",
+            "Confusion slowly fades",
+            "The music never stops"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "混亂與迷惘從未止息"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-12",
+          "answer": "Closing",
+          "options": [
+            "Closing",
+            "Falling",
+            "Moving"
+          ],
+          "prompt": "{{blank}} walls and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-12",
+          "answer": "walls",
+          "options": [
+            "doors",
+            "walls",
+            "floors"
+          ],
+          "prompt": "Closing {{blank}} and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-13",
+          "answer": "Gonna",
+          "options": [
+            "Gonna",
+            "Wanna",
+            "Gotta"
+          ],
+          "prompt": "{{blank}} come back and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-13",
+          "answer": "come back",
+          "options": [
+            "go back",
+            "come back",
+            "turn back"
+          ],
+          "prompt": "Gonna {{blank}} and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-14",
+          "answer": "you now know",
+          "options": [
+            "we both know",
+            "you now know",
+            "you never knew"
+          ],
+          "prompt": "I could not stop that {{blank}}, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-15",
+          "answer": "Come out",
+          "options": [
+            "Come out",
+            "Go back",
+            "Stay down"
+          ],
+          "prompt": "{{blank}} upon my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-16",
+          "answer": "Cursed",
+          "options": [
+            "Endless",
+            "Cursed",
+            "Golden"
+          ],
+          "prompt": "{{blank}} missed opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-17",
+          "answer": "part of the cure",
+          "options": [
+            "part of the plan",
+            "part of the cure",
+            "part of the storm"
+          ],
+          "prompt": "Am I a {{blank}}?",
+          "promptZh": "我究竟是解救困境的一部分？"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-18",
+          "answer": "part of the disease",
+          "options": [
+            "part of the dream",
+            "part of the answer",
+            "part of the disease"
+          ],
+          "prompt": "Or am I {{blank}}? Singing",
+          "promptZh": "還是我本身就是造成問題的一部分？唱著"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-21",
+          "answer": "nothing else compares",
+          "options": [
+            "someone else appears",
+            "nothing ever changes",
+            "nothing else compares"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而世上再沒有什麼能與之相比"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-26",
+          "answer": "where I wanted to go",
+          "options": [
+            "where I wanted to go",
+            "where I used to belong",
+            "where I needed to stay"
+          ],
+          "prompt": "Home, home {{blank}}",
+          "promptZh": "家啊，家，那個我一直渴望抵達的地方"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "The {{q:1}} and I can't be saved"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:2}} to swim against"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "Have {{q:3}} upon my knees"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "Oh I beg, I {{q:4}}, singing"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "Come out of {{q:5}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Shoot {{q:6}} off my head and a"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Trouble that {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "A tiger's {{q:8}}, singing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:9}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:10}} {{q:11}} and ticking clocks"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:12}} {{q:13}} and take you home"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "I could not stop that {{q:14}}, singing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:15}} upon my seas"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:16}} missed opportunities"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Am I a {{q:17}}?"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Or am I {{q:18}}? Singing"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:19}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh nothing else compares"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And nothing else compares"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Home, home {{q:20}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Home, home where I wanted to go"
+        }
+      ],
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20
+    },
+    {
+      "id": "medium",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "The lights",
+          "options": [
+            "The nights",
+            "The lights",
+            "The signs"
+          ],
+          "prompt": "{{blank}} go out and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "go out",
+          "options": [
+            "go out",
+            "come on",
+            "shine down"
+          ],
+          "prompt": "The lights {{blank}} and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-1",
+          "answer": "can't be saved",
+          "options": [
+            "can't be changed",
+            "can't be saved",
+            "can't be blamed"
+          ],
+          "prompt": "The lights go out and I {{blank}}",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "Tides",
+          "options": [
+            "Waves",
+            "Winds",
+            "Tides"
+          ],
+          "prompt": "{{blank}} that I tried to swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-2",
+          "answer": "I tried to",
+          "options": [
+            "I tried to",
+            "I hoped to",
+            "I planned to"
+          ],
+          "prompt": "Tides that {{blank}} swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-3",
+          "answer": "Have brought me",
+          "options": [
+            "Have pulled me",
+            "Have held me",
+            "Have brought me"
+          ],
+          "prompt": "{{blank}} down upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-3",
+          "answer": "down",
+          "options": [
+            "down",
+            "back",
+            "close"
+          ],
+          "prompt": "Have brought me {{blank}} upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-4",
+          "answer": "Oh I beg",
+          "options": [
+            "Oh I pray",
+            "Oh I cry",
+            "Oh I beg"
+          ],
+          "prompt": "{{blank}}, I beg and plead, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-4",
+          "answer": "I beg",
+          "options": [
+            "I call",
+            "I shout",
+            "I beg"
+          ],
+          "prompt": "Oh I beg, {{blank}} and plead, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-5",
+          "answer": "Come out of",
+          "options": [
+            "Walk out of",
+            "Come out of",
+            "Step out of"
+          ],
+          "prompt": "{{blank}} things unsaid",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-5",
+          "answer": "things",
+          "options": [
+            "words",
+            "dreams",
+            "things"
+          ],
+          "prompt": "Come out of {{blank}} unsaid",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-6",
+          "answer": "Shoot",
+          "options": [
+            "Throw",
+            "Shoot",
+            "Knock"
+          ],
+          "prompt": "{{blank}} an apple off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-6",
+          "answer": "an apple",
+          "options": [
+            "a bottle",
+            "an apple",
+            "a candle"
+          ],
+          "prompt": "Shoot {{blank}} off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-7",
+          "answer": "Trouble",
+          "options": [
+            "Trouble",
+            "Thunder",
+            "Wonder"
+          ],
+          "prompt": "{{blank}} that can't be named",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-7",
+          "answer": "that",
+          "options": [
+            "that",
+            "which",
+            "when"
+          ],
+          "prompt": "Trouble {{blank}} can't be named",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-8",
+          "answer": "A tiger's",
+          "options": [
+            "A lion's",
+            "A tiger's",
+            "A spider's"
+          ],
+          "prompt": "{{blank}} waiting to be tamed, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-8",
+          "answer": "waiting",
+          "options": [
+            "waiting",
+            "hoping",
+            "fighting"
+          ],
+          "prompt": "A tiger's {{blank}} to be tamed, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-11",
+          "answer": "Confusion never stops",
+          "options": [
+            "Confusion never stops",
+            "The music never stops",
+            "Confusion slowly fades"
+          ],
+          "prompt": "{{blank}}",
+          "promptZh": "混亂與迷惘從未止息"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-12",
+          "answer": "Closing",
+          "options": [
+            "Falling",
+            "Moving",
+            "Closing"
+          ],
+          "prompt": "{{blank}} walls and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-12",
+          "answer": "walls",
+          "options": [
+            "walls",
+            "doors",
+            "floors"
+          ],
+          "prompt": "Closing {{blank}} and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-13",
+          "answer": "Gonna",
+          "options": [
+            "Wanna",
+            "Gonna",
+            "Gotta"
+          ],
+          "prompt": "{{blank}} come back and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-13",
+          "answer": "come back",
+          "options": [
+            "go back",
+            "turn back",
+            "come back"
+          ],
+          "prompt": "Gonna {{blank}} and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-14",
+          "answer": "I could",
+          "options": [
+            "I would",
+            "I could",
+            "I should"
+          ],
+          "prompt": "{{blank}} not stop that you now know, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-14",
+          "answer": "not stop",
+          "options": [
+            "not stay",
+            "not change",
+            "not stop"
+          ],
+          "prompt": "I could {{blank}} that you now know, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-15",
+          "answer": "Come out",
+          "options": [
+            "Come out",
+            "Go back",
+            "Stay here"
+          ],
+          "prompt": "{{blank}} upon my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-15",
+          "answer": "upon",
+          "options": [
+            "across",
+            "upon",
+            "beyond"
+          ],
+          "prompt": "Come out {{blank}} my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-16",
+          "answer": "Cursed",
+          "options": [
+            "Cursed",
+            "Lost",
+            "Missed"
+          ],
+          "prompt": "{{blank}} missed opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-16",
+          "answer": "missed",
+          "options": [
+            "missed",
+            "lost",
+            "last"
+          ],
+          "prompt": "Cursed {{blank}} opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-17",
+          "answer": "part of the cure",
+          "options": [
+            "part of the storm",
+            "part of the cure",
+            "part of the plan"
+          ],
+          "prompt": "Am I a {{blank}}?",
+          "promptZh": "我究竟是解救困境的一部分？"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-18",
+          "answer": "part of the disease",
+          "options": [
+            "part of the dream",
+            "part of the answer",
+            "part of the disease"
+          ],
+          "prompt": "Or am I {{blank}}? Singing",
+          "promptZh": "還是我本身就是造成問題的一部分？唱著"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-21",
+          "answer": "nothing else compares",
+          "options": [
+            "someone else appears",
+            "nothing ever changes",
+            "nothing else compares"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而世上再沒有什麼能與之相比"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-26",
+          "answer": "where I wanted to go",
+          "options": [
+            "where I needed to stay",
+            "where I wanted to go",
+            "where I used to belong"
+          ],
+          "prompt": "Home, home {{blank}}",
+          "promptZh": "家啊，家，那個我一直渴望抵達的地方"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} and I {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} that {{q:5}} swim against"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:6}} {{q:7}} upon my knees"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:8}}, {{q:9}} and plead, singing"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:10}} {{q:11}} unsaid"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:12}} {{q:13}} off my head and a"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:14}} {{q:15}} can't be named"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:16}} {{q:17}} to be tamed, singing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:18}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:19}} {{q:20}} and ticking clocks"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:21}} {{q:22}} and take you home"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:23}} {{q:24}} that you now know, singing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:25}} {{q:26}} my seas"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:27}} {{q:28}} opportunities"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Am I a {{q:29}}?"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Or am I {{q:30}}? Singing"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:31}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh nothing else compares"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And nothing else compares"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Home, home {{q:32}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Home, home where I wanted to go"
+        }
+      ],
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32
+    },
+    {
+      "id": "hard",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "The lights",
+          "options": [
+            "The lights",
+            "The nights",
+            "The signs"
+          ],
+          "prompt": "{{blank}} go out and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "go out",
+          "options": [
+            "come on",
+            "shine down",
+            "go out"
+          ],
+          "prompt": "The lights {{blank}} and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-1",
+          "answer": "can't be saved",
+          "options": [
+            "can't be changed",
+            "can't be blamed",
+            "can't be saved"
+          ],
+          "prompt": "The lights go out and I {{blank}}",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "Tides",
+          "options": [
+            "Waves",
+            "Tides",
+            "Winds"
+          ],
+          "prompt": "{{blank}} that I tried to swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-2",
+          "answer": "I tried to",
+          "options": [
+            "I hoped to",
+            "I planned to",
+            "I tried to"
+          ],
+          "prompt": "Tides that {{blank}} swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-2",
+          "answer": "swim against",
+          "options": [
+            "swim across",
+            "swim against",
+            "swim around"
+          ],
+          "prompt": "Tides that I tried to {{blank}}",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-3",
+          "answer": "Have brought me",
+          "options": [
+            "Have pulled me",
+            "Have held me",
+            "Have brought me"
+          ],
+          "prompt": "{{blank}} down upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-3",
+          "answer": "down",
+          "options": [
+            "down",
+            "back",
+            "close"
+          ],
+          "prompt": "Have brought me {{blank}} upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-3",
+          "answer": "upon my knees",
+          "options": [
+            "upon my knees",
+            "upon my feet",
+            "against the breeze"
+          ],
+          "prompt": "Have brought me down {{blank}}",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-4",
+          "answer": "Oh I beg",
+          "options": [
+            "Oh I pray",
+            "Oh I beg",
+            "Oh I cry"
+          ],
+          "prompt": "{{blank}}, I beg and plead, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-4",
+          "answer": "I beg",
+          "options": [
+            "I call",
+            "I shout",
+            "I beg"
+          ],
+          "prompt": "Oh I beg, {{blank}} and plead, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-4",
+          "answer": "and plead",
+          "options": [
+            "and plead",
+            "and dream",
+            "and weep"
+          ],
+          "prompt": "Oh I beg, I beg {{blank}}, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-5",
+          "answer": "Come out of",
+          "options": [
+            "Come out of",
+            "Walk out of",
+            "Step out of"
+          ],
+          "prompt": "{{blank}} things unsaid",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-5",
+          "answer": "things",
+          "options": [
+            "words",
+            "dreams",
+            "things"
+          ],
+          "prompt": "Come out of {{blank}} unsaid",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-5",
+          "answer": "unsaid",
+          "options": [
+            "unsaid",
+            "unknown",
+            "unheard"
+          ],
+          "prompt": "Come out of things {{blank}}",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-6",
+          "answer": "Shoot",
+          "options": [
+            "Shoot",
+            "Throw",
+            "Knock"
+          ],
+          "prompt": "{{blank}} an apple off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-6",
+          "answer": "an apple",
+          "options": [
+            "a bottle",
+            "an apple",
+            "a candle"
+          ],
+          "prompt": "Shoot {{blank}} off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-6",
+          "answer": "off my head",
+          "options": [
+            "off my hand",
+            "off my head",
+            "off my bed"
+          ],
+          "prompt": "Shoot an apple {{blank}} and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-7",
+          "answer": "Trouble",
+          "options": [
+            "Thunder",
+            "Wonder",
+            "Trouble"
+          ],
+          "prompt": "{{blank}} that can't be named",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-7",
+          "answer": "that",
+          "options": [
+            "that",
+            "which",
+            "when"
+          ],
+          "prompt": "Trouble {{blank}} can't be named",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-7",
+          "answer": "can't be named",
+          "options": [
+            "can't be changed",
+            "can't be named",
+            "can't be blamed"
+          ],
+          "prompt": "Trouble that {{blank}}",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-8",
+          "answer": "A tiger's",
+          "options": [
+            "A lion's",
+            "A spider's",
+            "A tiger's"
+          ],
+          "prompt": "{{blank}} waiting to be tamed, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-8",
+          "answer": "waiting",
+          "options": [
+            "waiting",
+            "hoping",
+            "fighting"
+          ],
+          "prompt": "A tiger's {{blank}} to be tamed, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-8",
+          "answer": "to be tamed",
+          "options": [
+            "to be tamed",
+            "to be saved",
+            "to be blamed"
+          ],
+          "prompt": "A tiger's waiting {{blank}}, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-11",
+          "answer": "Confusion",
+          "options": [
+            "Illusion",
+            "Confusion",
+            "Delusion"
+          ],
+          "prompt": "{{blank}} never stops",
+          "promptZh": "混亂與迷惘從未止息"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-11",
+          "answer": "never stops",
+          "options": [
+            "never ends",
+            "never stops",
+            "slowly stops"
+          ],
+          "prompt": "Confusion {{blank}}",
+          "promptZh": "混亂與迷惘從未止息"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-12",
+          "answer": "Closing",
+          "options": [
+            "Closing",
+            "Falling",
+            "Moving"
+          ],
+          "prompt": "{{blank}} walls and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-12",
+          "answer": "walls",
+          "options": [
+            "doors",
+            "walls",
+            "floors"
+          ],
+          "prompt": "Closing {{blank}} and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-13",
+          "answer": "Gonna",
+          "options": [
+            "Gonna",
+            "Wanna",
+            "Gotta"
+          ],
+          "prompt": "{{blank}} come back and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-13",
+          "answer": "come back",
+          "options": [
+            "go back",
+            "turn back",
+            "come back"
+          ],
+          "prompt": "Gonna {{blank}} and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-14",
+          "answer": "I could",
+          "options": [
+            "I could",
+            "I would",
+            "I should"
+          ],
+          "prompt": "{{blank}} not stop that you now know, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-14",
+          "answer": "not stop",
+          "options": [
+            "not stay",
+            "not stop",
+            "not change"
+          ],
+          "prompt": "I could {{blank}} that you now know, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-15",
+          "answer": "Come out",
+          "options": [
+            "Come out",
+            "Go back",
+            "Stay here"
+          ],
+          "prompt": "{{blank}} upon my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-15",
+          "answer": "upon",
+          "options": [
+            "across",
+            "beyond",
+            "upon"
+          ],
+          "prompt": "Come out {{blank}} my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-16",
+          "answer": "Cursed",
+          "options": [
+            "Lost",
+            "Missed",
+            "Cursed"
+          ],
+          "prompt": "{{blank}} missed opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-16",
+          "answer": "missed",
+          "options": [
+            "lost",
+            "missed",
+            "last"
+          ],
+          "prompt": "Cursed {{blank}} opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-17",
+          "answer": "part of the cure",
+          "options": [
+            "part of the plan",
+            "part of the cure",
+            "part of the storm"
+          ],
+          "prompt": "Am I a {{blank}}?",
+          "promptZh": "我究竟是解救困境的一部分？"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-18",
+          "answer": "part of the disease",
+          "options": [
+            "part of the dream",
+            "part of the answer",
+            "part of the disease"
+          ],
+          "prompt": "Or am I {{blank}}? Singing",
+          "promptZh": "還是我本身就是造成問題的一部分？唱著"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-21",
+          "answer": "nothing else compares",
+          "options": [
+            "nothing ever changes",
+            "nothing else compares",
+            "someone else appears"
+          ],
+          "prompt": "And {{blank}}",
+          "promptZh": "而世上再沒有什麼能與之相比"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-26",
+          "answer": "where I wanted to go",
+          "options": [
+            "where I needed to stay",
+            "where I used to belong",
+            "where I wanted to go"
+          ],
+          "prompt": "Home, home {{blank}}",
+          "promptZh": "家啊，家，那個我一直渴望抵達的地方"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} and I {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} that {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:7}} {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:10}}, {{q:11}} {{q:12}}, singing"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:13}} {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:16}} {{q:17}} {{q:18}} and a"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:19}} {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:22}} {{q:23}} {{q:24}}, singing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:27}} {{q:28}} and ticking clocks"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:29}} {{q:30}} and take you home"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:31}} {{q:32}} that you now know, singing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:33}} {{q:34}} my seas"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:35}} {{q:36}} opportunities"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Am I a {{q:37}}?"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Or am I {{q:38}}? Singing"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:39}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh nothing else compares"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And nothing else compares"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "Home, home {{q:40}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Home, home where I wanted to go"
+        }
+      ],
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40
+    },
+    {
+      "id": "hell",
+      "questions": [
+        {
+          "number": 1,
+          "sourceNumber": 1,
+          "lineId": "line-1",
+          "answer": "The lights",
+          "options": [
+            "The nights",
+            "The signs",
+            "The lights"
+          ],
+          "prompt": "{{blank}} go out and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 2,
+          "sourceNumber": 2,
+          "lineId": "line-1",
+          "answer": "go out",
+          "options": [
+            "come on",
+            "go out",
+            "shine down"
+          ],
+          "prompt": "The lights {{blank}} and I can't be saved",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 3,
+          "sourceNumber": 3,
+          "lineId": "line-1",
+          "answer": "can't be saved",
+          "options": [
+            "can't be saved",
+            "can't be changed",
+            "can't be blamed"
+          ],
+          "prompt": "The lights go out and I {{blank}}",
+          "promptZh": "燈光熄滅了，而我已無人能救"
+        },
+        {
+          "number": 4,
+          "sourceNumber": 4,
+          "lineId": "line-2",
+          "answer": "Tides",
+          "options": [
+            "Waves",
+            "Winds",
+            "Tides"
+          ],
+          "prompt": "{{blank}} that I tried to swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 5,
+          "sourceNumber": 5,
+          "lineId": "line-2",
+          "answer": "I tried to",
+          "options": [
+            "I hoped to",
+            "I planned to",
+            "I tried to"
+          ],
+          "prompt": "Tides that {{blank}} swim against",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 6,
+          "sourceNumber": 6,
+          "lineId": "line-2",
+          "answer": "swim against",
+          "options": [
+            "swim against",
+            "swim across",
+            "swim around"
+          ],
+          "prompt": "Tides that I tried to {{blank}}",
+          "promptZh": "那些我曾奮力逆游的潮汐"
+        },
+        {
+          "number": 7,
+          "sourceNumber": 7,
+          "lineId": "line-3",
+          "answer": "Have brought me",
+          "options": [
+            "Have pulled me",
+            "Have brought me",
+            "Have held me"
+          ],
+          "prompt": "{{blank}} down upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 8,
+          "sourceNumber": 8,
+          "lineId": "line-3",
+          "answer": "down",
+          "options": [
+            "back",
+            "down",
+            "close"
+          ],
+          "prompt": "Have brought me {{blank}} upon my knees",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 9,
+          "sourceNumber": 9,
+          "lineId": "line-3",
+          "answer": "upon my knees",
+          "options": [
+            "upon my knees",
+            "upon my feet",
+            "against the breeze"
+          ],
+          "prompt": "Have brought me down {{blank}}",
+          "promptZh": "終究將我擊倒，迫使我屈膝跪地"
+        },
+        {
+          "number": 10,
+          "sourceNumber": 10,
+          "lineId": "line-4",
+          "answer": "Oh I beg",
+          "options": [
+            "Oh I beg",
+            "Oh I pray",
+            "Oh I cry"
+          ],
+          "prompt": "{{blank}}, I beg and plead, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 11,
+          "sourceNumber": 11,
+          "lineId": "line-4",
+          "answer": "I beg",
+          "options": [
+            "I call",
+            "I shout",
+            "I beg"
+          ],
+          "prompt": "Oh I beg, {{blank}} and plead, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 12,
+          "sourceNumber": 12,
+          "lineId": "line-4",
+          "answer": "and plead",
+          "options": [
+            "and dream",
+            "and weep",
+            "and plead"
+          ],
+          "prompt": "Oh I beg, I beg {{blank}}, singing",
+          "promptZh": "噢，我苦苦哀求，一再懇求，唱著"
+        },
+        {
+          "number": 13,
+          "sourceNumber": 13,
+          "lineId": "line-5",
+          "answer": "Come out of",
+          "options": [
+            "Come out of",
+            "Walk out of",
+            "Step out of"
+          ],
+          "prompt": "{{blank}} things unsaid",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 14,
+          "sourceNumber": 14,
+          "lineId": "line-5",
+          "answer": "things",
+          "options": [
+            "things",
+            "words",
+            "dreams"
+          ],
+          "prompt": "Come out of {{blank}} unsaid",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 15,
+          "sourceNumber": 15,
+          "lineId": "line-5",
+          "answer": "unsaid",
+          "options": [
+            "unknown",
+            "unsaid",
+            "unheard"
+          ],
+          "prompt": "Come out of things {{blank}}",
+          "promptZh": "從那些未曾說出口的話語中走出來"
+        },
+        {
+          "number": 16,
+          "sourceNumber": 16,
+          "lineId": "line-6",
+          "answer": "Shoot",
+          "options": [
+            "Throw",
+            "Knock",
+            "Shoot"
+          ],
+          "prompt": "{{blank}} an apple off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 17,
+          "sourceNumber": 17,
+          "lineId": "line-6",
+          "answer": "an apple",
+          "options": [
+            "an apple",
+            "a bottle",
+            "a candle"
+          ],
+          "prompt": "Shoot {{blank}} off my head and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 18,
+          "sourceNumber": 18,
+          "lineId": "line-6",
+          "answer": "off my head",
+          "options": [
+            "off my hand",
+            "off my head",
+            "off my bed"
+          ],
+          "prompt": "Shoot an apple {{blank}} and a",
+          "promptZh": "射落我頭頂上的蘋果，還有那……"
+        },
+        {
+          "number": 19,
+          "sourceNumber": 19,
+          "lineId": "line-7",
+          "answer": "Trouble",
+          "options": [
+            "Trouble",
+            "Thunder",
+            "Wonder"
+          ],
+          "prompt": "{{blank}} that can't be named",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 20,
+          "sourceNumber": 20,
+          "lineId": "line-7",
+          "answer": "that",
+          "options": [
+            "which",
+            "when",
+            "that"
+          ],
+          "prompt": "Trouble {{blank}} can't be named",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 21,
+          "sourceNumber": 21,
+          "lineId": "line-7",
+          "answer": "can't be named",
+          "options": [
+            "can't be changed",
+            "can't be named",
+            "can't be blamed"
+          ],
+          "prompt": "Trouble that {{blank}}",
+          "promptZh": "一場無法言明的困厄"
+        },
+        {
+          "number": 22,
+          "sourceNumber": 22,
+          "lineId": "line-8",
+          "answer": "A tiger's",
+          "options": [
+            "A lion's",
+            "A tiger's",
+            "A spider's"
+          ],
+          "prompt": "{{blank}} waiting to be tamed, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 23,
+          "sourceNumber": 23,
+          "lineId": "line-8",
+          "answer": "waiting",
+          "options": [
+            "waiting",
+            "hoping",
+            "fighting"
+          ],
+          "prompt": "A tiger's {{blank}} to be tamed, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 24,
+          "sourceNumber": 24,
+          "lineId": "line-8",
+          "answer": "to be tamed",
+          "options": [
+            "to be tamed",
+            "to be saved",
+            "to be blamed"
+          ],
+          "prompt": "A tiger's waiting {{blank}}, singing",
+          "promptZh": "一頭猛虎正等待被馴服，唱著"
+        },
+        {
+          "number": 25,
+          "sourceNumber": 25,
+          "lineId": "line-11",
+          "answer": "Confusion",
+          "options": [
+            "Illusion",
+            "Confusion",
+            "Delusion"
+          ],
+          "prompt": "{{blank}} never stops",
+          "promptZh": "混亂與迷惘從未止息"
+        },
+        {
+          "number": 26,
+          "sourceNumber": 26,
+          "lineId": "line-11",
+          "answer": "never stops",
+          "options": [
+            "never ends",
+            "never stops",
+            "slowly stops"
+          ],
+          "prompt": "Confusion {{blank}}",
+          "promptZh": "混亂與迷惘從未止息"
+        },
+        {
+          "number": 27,
+          "sourceNumber": 27,
+          "lineId": "line-12",
+          "answer": "Closing",
+          "options": [
+            "Closing",
+            "Falling",
+            "Moving"
+          ],
+          "prompt": "{{blank}} walls and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 28,
+          "sourceNumber": 28,
+          "lineId": "line-12",
+          "answer": "walls",
+          "options": [
+            "doors",
+            "floors",
+            "walls"
+          ],
+          "prompt": "Closing {{blank}} and ticking clocks",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 29,
+          "sourceNumber": 29,
+          "lineId": "line-12",
+          "answer": "ticking clocks",
+          "options": [
+            "ringing bells",
+            "ticking clocks",
+            "passing trains"
+          ],
+          "prompt": "Closing walls and {{blank}}",
+          "promptZh": "四周的牆壁步步逼近，時鐘滴答作響"
+        },
+        {
+          "number": 30,
+          "sourceNumber": 30,
+          "lineId": "line-13",
+          "answer": "Gonna",
+          "options": [
+            "Wanna",
+            "Gotta",
+            "Gonna"
+          ],
+          "prompt": "{{blank}} come back and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 31,
+          "sourceNumber": 31,
+          "lineId": "line-13",
+          "answer": "come back",
+          "options": [
+            "go back",
+            "come back",
+            "turn back"
+          ],
+          "prompt": "Gonna {{blank}} and take you home",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 32,
+          "sourceNumber": 32,
+          "lineId": "line-13",
+          "answer": "take you home",
+          "options": [
+            "bring you back",
+            "leave you there",
+            "take you home"
+          ],
+          "prompt": "Gonna come back and {{blank}}",
+          "promptZh": "我終將回來，帶你回家"
+        },
+        {
+          "number": 33,
+          "sourceNumber": 33,
+          "lineId": "line-14",
+          "answer": "I could",
+          "options": [
+            "I would",
+            "I should",
+            "I could"
+          ],
+          "prompt": "{{blank}} not stop that you now know, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 34,
+          "sourceNumber": 34,
+          "lineId": "line-14",
+          "answer": "not stop",
+          "options": [
+            "not stay",
+            "not stop",
+            "not change"
+          ],
+          "prompt": "I could {{blank}} that you now know, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 35,
+          "sourceNumber": 35,
+          "lineId": "line-14",
+          "answer": "you now know",
+          "options": [
+            "we both know",
+            "you never knew",
+            "you now know"
+          ],
+          "prompt": "I could not stop that {{blank}}, singing",
+          "promptZh": "我無法阻止這一切，如今你已明白，唱著"
+        },
+        {
+          "number": 36,
+          "sourceNumber": 36,
+          "lineId": "line-15",
+          "answer": "Come out",
+          "options": [
+            "Go back",
+            "Come out",
+            "Stay here"
+          ],
+          "prompt": "{{blank}} upon my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 37,
+          "sourceNumber": 37,
+          "lineId": "line-15",
+          "answer": "upon",
+          "options": [
+            "across",
+            "beyond",
+            "upon"
+          ],
+          "prompt": "Come out {{blank}} my seas",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 38,
+          "sourceNumber": 38,
+          "lineId": "line-15",
+          "answer": "my seas",
+          "options": [
+            "my dreams",
+            "my seas",
+            "my knees"
+          ],
+          "prompt": "Come out upon {{blank}}",
+          "promptZh": "來吧，出現在我的海面之上"
+        },
+        {
+          "number": 39,
+          "sourceNumber": 39,
+          "lineId": "line-16",
+          "answer": "Cursed",
+          "options": [
+            "Lost",
+            "Cursed",
+            "Missed"
+          ],
+          "prompt": "{{blank}} missed opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 40,
+          "sourceNumber": 40,
+          "lineId": "line-16",
+          "answer": "missed",
+          "options": [
+            "lost",
+            "last",
+            "missed"
+          ],
+          "prompt": "Cursed {{blank}} opportunities",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 41,
+          "sourceNumber": 41,
+          "lineId": "line-16",
+          "answer": "opportunities",
+          "options": [
+            "opportunities",
+            "possibilities",
+            "uncertainties"
+          ],
+          "prompt": "Cursed missed {{blank}}",
+          "promptZh": "那些該死的、錯失的機會"
+        },
+        {
+          "number": 42,
+          "sourceNumber": 42,
+          "lineId": "line-17",
+          "answer": "Am I a",
+          "options": [
+            "Am I a",
+            "Are you a",
+            "Was I a"
+          ],
+          "prompt": "{{blank}} part of the cure?",
+          "promptZh": "我究竟是解救困境的一部分？"
+        },
+        {
+          "number": 43,
+          "sourceNumber": 43,
+          "lineId": "line-17",
+          "answer": "part of the cure",
+          "options": [
+            "part of the plan",
+            "part of the storm",
+            "part of the cure"
+          ],
+          "prompt": "Am I a {{blank}}?",
+          "promptZh": "我究竟是解救困境的一部分？"
+        },
+        {
+          "number": 44,
+          "sourceNumber": 44,
+          "lineId": "line-18",
+          "answer": "Or am I",
+          "options": [
+            "Or am I",
+            "Or are you",
+            "Or was I"
+          ],
+          "prompt": "{{blank}} part of the disease? Singing",
+          "promptZh": "還是我本身就是造成問題的一部分？唱著"
+        },
+        {
+          "number": 45,
+          "sourceNumber": 45,
+          "lineId": "line-18",
+          "answer": "part of the disease",
+          "options": [
+            "part of the dream",
+            "part of the answer",
+            "part of the disease"
+          ],
+          "prompt": "Or am I {{blank}}? Singing",
+          "promptZh": "還是我本身就是造成問題的一部分？唱著"
+        },
+        {
+          "number": 46,
+          "sourceNumber": 46,
+          "lineId": "line-21",
+          "answer": "nothing",
+          "options": [
+            "nothing",
+            "something",
+            "someone"
+          ],
+          "prompt": "And {{blank}} else compares",
+          "promptZh": "而世上再沒有什麼能與之相比"
+        },
+        {
+          "number": 47,
+          "sourceNumber": 47,
+          "lineId": "line-21",
+          "answer": "else compares",
+          "options": [
+            "ever returns",
+            "else compares",
+            "else remains"
+          ],
+          "prompt": "And nothing {{blank}}",
+          "promptZh": "而世上再沒有什麼能與之相比"
+        },
+        {
+          "number": 48,
+          "sourceNumber": 49,
+          "lineId": "line-26",
+          "answer": "Home, home",
+          "options": [
+            "Home, home",
+            "Go, go",
+            "Stay, stay"
+          ],
+          "prompt": "{{blank}} where I wanted to go",
+          "promptZh": "家啊，家，那個我一直渴望抵達的地方"
+        },
+        {
+          "number": 49,
+          "sourceNumber": 48,
+          "lineId": "line-26",
+          "answer": "where I wanted to go",
+          "options": [
+            "where I wanted to go",
+            "where I needed to stay",
+            "where I used to belong"
+          ],
+          "prompt": "Home, home {{blank}}",
+          "promptZh": "家啊，家，那個我一直渴望抵達的地方"
+        },
+        {
+          "number": 50,
+          "sourceNumber": 50,
+          "lineId": "line-27",
+          "answer": "where I wanted",
+          "options": [
+            "where I stayed",
+            "where I wanted",
+            "where you wandered"
+          ],
+          "prompt": "Home, home {{blank}} to go",
+          "promptZh": "家啊，家，那個我一直渴望抵達的地方"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "{{q:1}} {{q:2}} and I {{q:3}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "{{q:4}} that {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "{{q:7}} {{q:8}} {{q:9}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:10}}, {{q:11}} {{q:12}}, singing"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "{{q:13}} {{q:14}} {{q:15}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "{{q:16}} {{q:17}} {{q:18}} and a"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:19}} {{q:20}} {{q:21}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:22}} {{q:23}} {{q:24}}, singing"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:25}} {{q:26}}"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "{{q:27}} {{q:28}} and {{q:29}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "{{q:30}} {{q:31}} and {{q:32}}"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "{{q:33}} {{q:34}} that {{q:35}}, singing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:36}} {{q:37}} {{q:38}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:39}} {{q:40}} {{q:41}}"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:42}} {{q:43}}?"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:44}} {{q:45}}? Singing"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "You are, you are, you are"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "And {{q:46}} {{q:47}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "Oh nothing else compares"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "And nothing else compares"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "You are"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "{{q:48}} {{q:49}}"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "Home, home {{q:50}} to go"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "Home, home where I wanted to go"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "Home, home where I wanted to go"
+        }
+      ],
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50
+    }
+  ],
+  "exercise_name": "Clocks · Listening & Vocabulary",
+  "description": "《Clocks》描寫一個人在時間流逝與生活壓力之中，感到迷惘、無助並渴望尋找歸屬的心情。歌中的主角彷彿被無法抵擋的潮汐擊倒，面對不斷逼近的困境與錯失的機會，逐漸失去對人生的掌控。他努力尋找出路，卻也開始懷疑自己究竟是在解決問題，還是無意間造成更多傷害。歌曲中的時鐘象徵時間的壓迫與無法停止的變化，而反覆出現的「Home」則代表內心對安全感與平靜的渴望。最終，《Clocks》傳達的是對時間、命運與自我認識的深刻思考：即使人生充滿困惑與不確定，我們仍然渴望找到一個真正屬於自己的地方，讓疲憊的心靈得到安慰與歸宿。",
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Go out",
+      "meaning": "（燈、火）熄滅；也可以指外出",
+      "usage": "談燈光突然熄滅，或和朋友外出時使用。",
+      "prompt": "哪一句正確使用「Go out」？",
+      "options": [
+        "The lights went out of the window to buy tickets.",
+        "I went out the answer in my science test.",
+        "Our team went out the train at the wrong station.",
+        "The lights went out during the school play, so nobody could see the actors."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：燈不會自己走出窗外買票；這裡把 go out 當成人的動作。",
+        "錯誤：回答題目要用 wrote 或 gave an answer，不能用 went out。",
+        "錯誤：下火車應說 got off the train，不能說 went out the train。",
+        "正確：go out 可以表示燈熄滅，過去式是 went out。"
+      ],
+      "explanation": "正確：go out 可以表示燈熄滅，過去式是 went out。"
+    },
+    {
+      "number": 2,
+      "word": "Swim against",
+      "meaning": "逆著（水流）游；也可比喻逆勢而行",
+      "usage": "談逆流游泳，或努力反抗主流想法時使用。",
+      "prompt": "哪一句正確使用「Swim against」？",
+      "options": [
+        "The photographer swam against the camera to take a picture.",
+        "She swam against her interview on Monday morning.",
+        "We had to swim against the river current to reach the other side.",
+        "The pilot swam against the airport to find his plane."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：camera 不是水流；想說對著鏡頭應用 faced the camera。",
+        "錯誤：面試不是水流；可以說 she prepared for her interview。",
+        "正確：swim against the current 表示逆著水流游。",
+        "錯誤：在機場找飛機不會用 swim against。"
+      ],
+      "explanation": "正確：swim against the current 表示逆著水流游。"
+    },
+    {
+      "number": 3,
+      "word": "Bring someone to their knees",
+      "meaning": "使某人屈服、崩潰或無力招架",
+      "usage": "形容嚴重困難令個人、團隊或組織難以承受；通常是比喻。",
+      "prompt": "哪一句正確使用「Bring someone to their knees」？",
+      "options": [
+        "The singer brought her knees to the microphone.",
+        "The long power cut brought the whole city to its knees.",
+        "I brought the museum to its knees by buying a postcard.",
+        "My brother brought his homework to his knees before breakfast."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：這是移動膝蓋的字面敘述，不是 bring someone to their knees。",
+        "正確：長時間停電使城市幾乎停擺，符合片語的比喻用法。",
+        "錯誤：買明信片通常不會讓博物館陷入癱瘓，語意不合理。",
+        "錯誤：片語受詞通常是人或組織，不能這樣描述作業。"
+      ],
+      "explanation": "正確：長時間停電使城市幾乎停擺，符合片語的比喻用法。"
+    },
+    {
+      "number": 4,
+      "word": "Beg",
+      "meaning": "懇求、苦苦請求",
+      "usage": "非常希望得到幫助、原諒或某件事情時使用；比 ask 更強烈。",
+      "prompt": "哪一句正確使用「Beg」？",
+      "options": [
+        "The detective begged the door with a small key.",
+        "The actor begged his coat to become famous.",
+        "The little boy begged his parents to let him stay up for the fireworks.",
+        "The manager begged a new office on the wall."
+      ],
+      "answer": 2,
+      "optionExplanations": [
+        "錯誤：用鑰匙開門應用 opened 或 unlocked，beg 不是開門。",
+        "錯誤：外套無法幫人走紅，且 beg 的請求對象不自然。",
+        "正確：beg someone to do something 表示懇求某人同意做某事。",
+        "錯誤：beg 不能表示在牆上建立辦公室。"
+      ],
+      "explanation": "正確：beg someone to do something 表示懇求某人同意做某事。"
+    },
+    {
+      "number": 5,
+      "word": "Tame",
+      "meaning": "馴服；使難控制的東西變得容易管理",
+      "usage": "談訓練野生動物，或比喻控制難以處理的事物時使用。",
+      "prompt": "哪一句正確使用「Tame」？",
+      "options": [
+        "She tamed her passport at the airport desk.",
+        "The animal trainer worked for months to tame the wild horse.",
+        "The film director tamed the movie at seven o’clock.",
+        "He tamed an email to his boss about the meeting."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：護照不需要被馴服；可以說 showed her passport。",
+        "正確：tame a wild horse 表示使野馬逐漸習慣人並變得溫順。",
+        "錯誤：播放電影用 showed 或 played，不用 tamed。",
+        "錯誤：寫或寄電子郵件用 wrote 或 sent，不能用 tamed。"
+      ],
+      "explanation": "正確：tame a wild horse 表示使野馬逐漸習慣人並變得溫順。"
+    },
+    {
+      "number": 6,
+      "word": "Confusion",
+      "meaning": "困惑；混亂",
+      "usage": "當規則不清楚、資訊矛盾，讓大家不知道該怎麼辦時使用。",
+      "prompt": "哪一句正確使用「Confusion」？",
+      "options": [
+        "The confusion arrived by bus and bought a museum ticket.",
+        "My aunt confusioned a beautiful picture for the art show.",
+        "The team wore confusion because it was raining.",
+        "There was confusion at the station because two trains had the same number."
+      ],
+      "answer": 3,
+      "optionExplanations": [
+        "錯誤：confusion 是抽象名詞，不會搭公車或買票。",
+        "錯誤：confusion 是名詞，不能直接當動詞 confusioned。",
+        "錯誤：confusion 不是可以穿的衣物；應說 wore raincoats。",
+        "正確：兩班車號碼相同造成混亂，很符合 confusion 的意思。"
+      ],
+      "explanation": "正確：兩班車號碼相同造成混亂，很符合 confusion 的意思。"
+    },
+    {
+      "number": 7,
+      "word": "Miss an opportunity",
+      "meaning": "錯失機會",
+      "usage": "當原本可以做某件有價值的事，卻沒有把握住時使用。",
+      "prompt": "哪一句正確使用「Miss an opportunity」？",
+      "options": [
+        "She missed an opportunity to meet the author because she arrived too late.",
+        "The chef missed an opportunity inside the oven for ten minutes.",
+        "I missed an opportunity because my train was painted green.",
+        "The teacher missed an opportunity with a pencil and gave it to a student."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：因為太晚到，失去見作家的機會。",
+        "錯誤：opportunity 不是可以放進烤箱烘烤的物品。",
+        "錯誤：車是綠色並不能合理解釋錯失機會，缺少有意義的因果。",
+        "錯誤：這裡把 opportunity 當成能用鉛筆處理的物品，用法不通。"
+      ],
+      "explanation": "正確：因為太晚到，失去見作家的機會。"
+    },
+    {
+      "number": 8,
+      "word": "Be part of",
+      "meaning": "是……的一部分；參與……",
+      "usage": "說自己屬於某個團隊、活動或計畫時使用。",
+      "prompt": "哪一句正確使用「Be part of」？",
+      "options": [
+        "My cousin is part of a team that builds small robots.",
+        "We are part of the temperature because the room is hot.",
+        "She part of to the moon on her bicycle.",
+        "The phone is part of sleepy because it is old."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：be part of a team 表示是團隊的一員。",
+        "錯誤：人不會是溫度的一部分；可說 we feel hot。",
+        "錯誤：be part of 需要 be 動詞和名詞，不能表示騎車去月球。",
+        "錯誤：sleepy 是形容詞，不能這樣接在 part of 後面。"
+      ],
+      "explanation": "正確：be part of a team 表示是團隊的一員。"
+    },
+    {
+      "number": 9,
+      "word": "Compare",
+      "meaning": "比較",
+      "usage": "想了解兩個人、物品或方法有哪些相同和不同時使用。",
+      "prompt": "哪些相同和不同時使用。",
+      "options": [
+        "The doctor compared the patient into the waiting room.",
+        "Before buying a bicycle, I compared the prices at three shops.",
+        "The artist compared a blue wall with a paintbrush in five minutes.",
+        "I compared my train ticket on the table and left home."
+      ],
+      "answer": 1,
+      "optionExplanations": [
+        "錯誤：帶病人進候診室可說 took the patient into，compare 不是帶領。",
+        "正確：compare prices 是比較價錢的自然搭配。",
+        "錯誤：這句想表達粉刷牆壁，應用 painted the wall。",
+        "錯誤：把車票放在桌上應用 put，compare 並非放置。"
+      ],
+      "explanation": "正確：compare prices 是比較價錢的自然搭配。"
+    },
+    {
+      "number": 10,
+      "word": "Come back",
+      "meaning": "回來；返回原來的地方",
+      "usage": "談人返回家、工作地點或某個地方時使用。",
+      "prompt": "哪一句正確使用「Come back」？",
+      "options": [
+        "After the concert, we came back to the hotel to get some sleep.",
+        "The nurse came back a message to the doctor.",
+        "My uncle came back his new car with a little red paint.",
+        "The museum came back its doors with a key."
+      ],
+      "answer": 0,
+      "optionExplanations": [
+        "正確：come back to a place 表示回到某個地方。",
+        "錯誤：回訊息要用 sent a message 或 replied，不能用 came back a message。",
+        "錯誤：幫車上漆要用 painted，come back 不能接車作受詞。",
+        "錯誤：用鑰匙開門應說 unlocked its doors，come back 不等於打開。"
+      ],
+      "explanation": "正確：come back to a place 表示回到某個地方。"
+    }
+  ],
+  "tags": [
+    "coldplay",
+    "clocks",
+    "time",
+    "uncertainty"
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/clocks/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/clocks/user-cover-20261030.png",
+  "editorialRepairs": [
+    [
+      "clocks",
+      "standard",
+      10,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "standard",
+      11,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "standard",
+      12,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "standard",
+      13,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      1,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      2,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      3,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      4,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      5,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      6,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      7,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      8,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      9,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      10,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      11,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      12,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      13,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      14,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      15,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      16,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      17,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      19,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      20,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      21,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      22,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      23,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      24,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      25,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      26,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      27,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "medium",
+      28,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      1,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      2,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      3,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      4,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      5,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      6,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      7,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      8,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      9,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      10,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      11,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      12,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      13,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      14,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      15,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      16,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      17,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      18,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      19,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      20,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      21,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      22,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      23,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      24,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      25,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      26,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      27,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      28,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      29,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      30,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      31,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      32,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      33,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      34,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      35,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hard",
+      36,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      1,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      2,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      3,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      4,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      5,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      6,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      7,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      8,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      9,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      10,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      11,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      12,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      13,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      14,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      15,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      16,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      17,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      18,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      19,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      20,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      21,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      22,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      23,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      24,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      25,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      26,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      27,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      28,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      29,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      30,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      31,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      32,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      33,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      34,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      35,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      36,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      37,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      38,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      39,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      40,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      41,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      42,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      43,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      44,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      45,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      46,
+      "non-overlapping audible target"
+    ],
+    [
+      "clocks",
+      "hell",
+      47,
+      "non-overlapping audible target"
+    ]
+  ],
+  "audioAlignment": {
+    "method": "faster-whisper-small.en-global-edit-word-alignment",
+    "duration": 307.87975,
+    "audioSha256": "062e7345e44d046abf0537af65e27c1c82343d5e4cb19cdadfb60675d8839ad2",
+    "timedLines": 19,
+    "untimedLines": 10,
+    "reviewStatus": "Conservative automatic line alignment. Unmatched/overlapping background lines remain bilingual without guessed timestamps; not a full manual timing certification."
+  },
+  "sourceProvenance": {
+    "pdf": {
+      "filename": "_Clocks_.pdf",
+      "sha256": "08a4eda30f7655dce494e63a448937191dae108bf33d5971375cded78f02dc5e"
+    },
+    "chosenListening": {
+      "filename": "Clocks_Four_Level_Listening_Exercise.md",
+      "sha256": "e223094201d025ebea3865b7f1bd8083a67b4487a0284b5e4807f1f112fac40e"
+    },
+    "chosenVocabulary": {
+      "filename": "Clocks_Vocabulary_Quiz.md",
+      "sha256": "c05552d57985519d11a2d4a1b5c13a13e10a68be9eb6b1cd741ebcd63f314527"
+    },
+    "mp3": {
+      "filename": "Clocks [8Xv_Hg8o1fw].mp3",
+      "sha256": "062e7345e44d046abf0537af65e27c1c82343d5e4cb19cdadfb60675d8839ad2"
+    }
+  },
+  "artworkProvenance": {
+    "source": "user attachment",
+    "filename": "codex-clipboard-d5ef518c-2e78-4d25-85bf-85d4d4186f6d.png",
+    "sha256": "b048a82ef7e315731cb0be83aa3fc4a41db95bd5c8edff53b89780b66942b490",
+    "transformations": "none",
+    "selectedOn": "2026-10-30"
+  }
+}

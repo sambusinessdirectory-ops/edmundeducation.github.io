@@ -1,0 +1,4585 @@
+{
+  "slug": "i-dont-want-to-miss-a-thing",
+  "title": "I Don't Want to Miss a Thing",
+  "singer": "Aerosmith",
+  "exercise_name": "I Don't Want to Miss a Thing · Listening & Vocabulary",
+  "description": "《I Don't Want To Miss A Thing》描寫一份深刻而真摯的愛情，以及渴望珍惜與愛人相處每一刻的心情。歌中的主角深愛著對方，即使只是靜靜看著她熟睡、聆聽她的呼吸與心跳，也能感受到無比的幸福。他甚至不願閉上眼睛，因為害怕錯過任何一個微笑、親吻或珍貴的瞬間。對他而言，即使再甜美的夢境，也無法取代與愛人真實相處的時光。他感謝命運讓兩人相遇，並希望這份幸福能永遠延續。最終，《I Don't Want To Miss A Thing》傳達的是深愛、珍惜與永恆的陪伴：真正的幸福不一定來自轟轟烈烈的事情，是能與心愛的人相守，珍惜每一個平凡而美好的瞬間。",
+  "tags": [
+    "aerosmith",
+    "i don't want to miss a thing",
+    "love",
+    "devotion"
+  ],
+  "translations": [
+    {
+      "lineId": "line-1",
+      "english": "I could stay awake just to hear you breathing",
+      "chinese": "我願意徹夜不眠，只為聽你的呼吸",
+      "startSeconds": 30.22,
+      "endSeconds": 36.92
+    },
+    {
+      "lineId": "line-2",
+      "english": "Watch you smile while you are sleeping",
+      "chinese": "看著你在睡夢中微笑",
+      "startSeconds": 38.0,
+      "endSeconds": 42.3
+    },
+    {
+      "lineId": "line-3",
+      "english": "While you're far away and dreaming",
+      "chinese": "當你已遠去，沉浸在夢鄉",
+      "startSeconds": 42.74,
+      "endSeconds": 46.12
+    },
+    {
+      "lineId": "line-4",
+      "english": "I could spend my life in this sweet surrender",
+      "chinese": "我願用一生，沉醉在這甜蜜的臣服中",
+      "startSeconds": 46.72,
+      "endSeconds": 52.92
+    },
+    {
+      "lineId": "line-5",
+      "english": "I could stay lost in this moment forever",
+      "chinese": "我願永遠迷失在這一刻",
+      "startSeconds": 54.0,
+      "endSeconds": 60.76
+    },
+    {
+      "lineId": "line-6",
+      "english": "Where every moment spent with you is a moment I treasure",
+      "chinese": "因為與你共度的每一刻，都是我最珍視的時光",
+      "startSeconds": 62.32,
+      "endSeconds": 68.64
+    },
+    {
+      "lineId": "line-7",
+      "english": "Don't wanna close my eyes",
+      "chinese": "不想閉上我的雙眼",
+      "startSeconds": 71.88,
+      "endSeconds": 75.32
+    },
+    {
+      "lineId": "line-8",
+      "english": "I don't wanna fall asleep",
+      "chinese": "我不想入睡",
+      "startSeconds": 75.32,
+      "endSeconds": 78.5
+    },
+    {
+      "lineId": "line-9",
+      "english": "'Cause I'd miss you, baby",
+      "chinese": "因為我會想念你，寶貝",
+      "startSeconds": 78.5,
+      "endSeconds": 80.36
+    },
+    {
+      "lineId": "line-10",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 80.36,
+      "endSeconds": 83.4
+    },
+    {
+      "lineId": "line-11",
+      "english": "'Cause even when I dream of you (Even when I dream)",
+      "chinese": "因為即使我夢見你（即使我夢見）",
+      "startSeconds": 83.4,
+      "endSeconds": 86.54
+    },
+    {
+      "lineId": "line-12",
+      "english": "The sweetest dream would never do",
+      "chinese": "最甜美的夢境也無法取代",
+      "startSeconds": 86.54,
+      "endSeconds": 90.52
+    },
+    {
+      "lineId": "line-13",
+      "english": "I'd still miss you, baby",
+      "chinese": "我依然會想念你，寶貝",
+      "startSeconds": 90.52,
+      "endSeconds": 92.38
+    },
+    {
+      "lineId": "line-14",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 92.38,
+      "endSeconds": 95.8
+    },
+    {
+      "lineId": "line-15",
+      "english": "Lying close to you feeling your heart beating",
+      "chinese": "躺在你身旁，感受你的心跳",
+      "startSeconds": 102.42,
+      "endSeconds": 108.44
+    },
+    {
+      "lineId": "line-16",
+      "english": "And I'm wondering what you're dreaming",
+      "chinese": "我想知道你正夢見什麼",
+      "startSeconds": 109.68,
+      "endSeconds": 113.36
+    },
+    {
+      "lineId": "line-17",
+      "english": "Wondering if it's me you're seeing",
+      "chinese": "想知道你夢裡的人是不是我",
+      "startSeconds": 114.22,
+      "endSeconds": 117.3
+    },
+    {
+      "lineId": "line-18",
+      "english": "Then I kiss your eyes and thank God we're together",
+      "chinese": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+      "startSeconds": 117.9,
+      "endSeconds": 124.34
+    },
+    {
+      "lineId": "line-19",
+      "english": "And I just wanna stay with you",
+      "chinese": "我只想和你在一起",
+      "startSeconds": 125.36,
+      "endSeconds": 128.96
+    },
+    {
+      "lineId": "line-20",
+      "english": "In this moment forever, forever and ever",
+      "chinese": "永遠停留在這一刻，直到永遠",
+      "startSeconds": 128.96,
+      "endSeconds": 134.54
+    },
+    {
+      "lineId": "line-21",
+      "english": "I don't wanna close my eyes",
+      "chinese": "我不想閉上雙眼",
+      "startSeconds": 134.54,
+      "endSeconds": 138.82
+    },
+    {
+      "lineId": "line-22",
+      "english": "I don't wanna fall asleep",
+      "chinese": "我不想入睡",
+      "startSeconds": 139.13,
+      "endSeconds": 141.88
+    },
+    {
+      "lineId": "line-23",
+      "english": "'Cause I'd miss you, baby",
+      "chinese": "因為我會想念你，寶貝",
+      "startSeconds": 141.88,
+      "endSeconds": 143.82
+    },
+    {
+      "lineId": "line-24",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 143.82,
+      "endSeconds": 146.96
+    },
+    {
+      "lineId": "line-25",
+      "english": "'Cause even when I dream of you (Even when I dream)",
+      "chinese": "因為即使我夢見你（即使我夢見）",
+      "startSeconds": 146.96,
+      "endSeconds": 150.0
+    },
+    {
+      "lineId": "line-26",
+      "english": "The sweetest dream would never do",
+      "chinese": "最甜美的夢境也無法取代",
+      "startSeconds": 150.88,
+      "endSeconds": 153.82
+    },
+    {
+      "lineId": "line-27",
+      "english": "I'd still miss you, baby",
+      "chinese": "我依然會想念你，寶貝",
+      "startSeconds": 153.82,
+      "endSeconds": 155.76
+    },
+    {
+      "lineId": "line-28",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 155.76,
+      "endSeconds": 159.02
+    },
+    {
+      "lineId": "line-29",
+      "english": "I don't wanna miss one smile",
+      "chinese": "我不想錯過任何一個微笑",
+      "startSeconds": 159.72,
+      "endSeconds": 162.58
+    },
+    {
+      "lineId": "line-30",
+      "english": "I don't wanna miss one kiss",
+      "chinese": "我不想錯過任何一個吻",
+      "startSeconds": 163.86,
+      "endSeconds": 166.32
+    },
+    {
+      "lineId": "line-31",
+      "english": "Well, I just wanna be with you",
+      "chinese": "嗯，我只想和你在一起",
+      "startSeconds": 166.32,
+      "endSeconds": 169.7
+    },
+    {
+      "lineId": "line-32",
+      "english": "Right here with you, just like this",
+      "chinese": "就在這裡，像現在這樣",
+      "startSeconds": 169.7,
+      "endSeconds": 174.6
+    },
+    {
+      "lineId": "line-33",
+      "english": "I just wanna hold you close",
+      "chinese": "我只想緊緊擁抱你",
+      "startSeconds": 174.6,
+      "endSeconds": 178.78
+    },
+    {
+      "lineId": "line-34",
+      "english": "I feel your heart so close to mine",
+      "chinese": "感受你的心如此貼近我的心",
+      "startSeconds": 178.78,
+      "endSeconds": 182.7
+    },
+    {
+      "lineId": "line-35",
+      "english": "And just stay here in this moment",
+      "chinese": "就停留在這一刻",
+      "startSeconds": 182.7,
+      "endSeconds": 186.76
+    },
+    {
+      "lineId": "line-36",
+      "english": "For all the rest of time",
+      "chinese": "直到時間的盡頭",
+      "startSeconds": 186.84,
+      "endSeconds": 191.32
+    },
+    {
+      "lineId": "line-37",
+      "english": "Yeah (Yeah)",
+      "chinese": "耶（耶）",
+      "startSeconds": 191.84,
+      "endSeconds": 192.8
+    },
+    {
+      "lineId": "line-38",
+      "english": "Yeah (Yeah)",
+      "chinese": "耶（耶）",
+      "startSeconds": 193.12,
+      "endSeconds": 193.96
+    },
+    {
+      "lineId": "line-39",
+      "english": "Yeah!",
+      "chinese": "耶！",
+      "startSeconds": 193.96,
+      "endSeconds": 194.82
+    },
+    {
+      "lineId": "line-40",
+      "english": "Don't wanna close my eyes",
+      "chinese": "不想閉上我的雙眼",
+      "startSeconds": 196.84,
+      "endSeconds": 200.32
+    },
+    {
+      "lineId": "line-41",
+      "english": "Don't wanna fall asleep",
+      "chinese": "不想入睡",
+      "startSeconds": 200.32,
+      "endSeconds": 203.06
+    },
+    {
+      "lineId": "line-42",
+      "english": "'Cause I'd miss you, baby",
+      "chinese": "因為我會想念你，寶貝",
+      "startSeconds": 203.5,
+      "endSeconds": 205.34
+    },
+    {
+      "lineId": "line-43",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 205.34,
+      "endSeconds": 208.22
+    },
+    {
+      "lineId": "line-44",
+      "english": "'Cause even when I dream of you (Even when I dream)",
+      "chinese": "因為即使我夢見你（即使我夢見）",
+      "startSeconds": 208.36,
+      "endSeconds": 211.62
+    },
+    {
+      "lineId": "line-45",
+      "english": "The sweetest dream would never do",
+      "chinese": "最甜美的夢境也無法取代",
+      "startSeconds": 211.62,
+      "endSeconds": 215.46
+    },
+    {
+      "lineId": "line-46",
+      "english": "I'd still miss you, baby",
+      "chinese": "我依然會想念你，寶貝",
+      "startSeconds": 215.46,
+      "endSeconds": 217.42
+    },
+    {
+      "lineId": "line-47",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 217.42,
+      "endSeconds": 220.4
+    },
+    {
+      "lineId": "line-48",
+      "english": "I don't wanna close my eyes",
+      "chinese": "我不想閉上雙眼",
+      "startSeconds": 220.4,
+      "endSeconds": 223.68
+    },
+    {
+      "lineId": "line-49",
+      "english": "I don't wanna fall asleep",
+      "chinese": "我不想入睡",
+      "startSeconds": 223.68,
+      "endSeconds": 227.2
+    },
+    {
+      "lineId": "line-50",
+      "english": "'Cause I'd miss you, baby",
+      "chinese": "因為我會想念你，寶貝",
+      "startSeconds": 227.2,
+      "endSeconds": 229.2
+    },
+    {
+      "lineId": "line-51",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 229.2,
+      "endSeconds": 232.2
+    },
+    {
+      "lineId": "line-52",
+      "english": "'Cause even when I dream of you",
+      "chinese": "因為即使我夢見你",
+      "startSeconds": 232.2,
+      "endSeconds": 235.7
+    },
+    {
+      "lineId": "line-53",
+      "english": "The sweetest dream would never do",
+      "chinese": "最甜美的夢境也無法取代",
+      "startSeconds": 236.52,
+      "endSeconds": 239.0
+    },
+    {
+      "lineId": "line-54",
+      "english": "And I'd still miss you, baby",
+      "chinese": "而我依然會想念你，寶貝",
+      "startSeconds": 239.48,
+      "endSeconds": 241.0
+    },
+    {
+      "lineId": "line-55",
+      "english": "And I don't wanna miss a thing",
+      "chinese": "而我不想錯過任何一點",
+      "startSeconds": 241.0,
+      "endSeconds": 244.04
+    },
+    {
+      "lineId": "line-56",
+      "english": "Don't wanna close my eyes",
+      "chinese": "不想閉上我的雙眼",
+      "startSeconds": 245.2,
+      "endSeconds": 247.52
+    },
+    {
+      "lineId": "line-57",
+      "english": "I don't wanna fall asleep, yeah",
+      "chinese": "我不想入睡，耶",
+      "startSeconds": 247.52,
+      "endSeconds": 253.12
+    },
+    {
+      "lineId": "line-58",
+      "english": "I don't wanna miss a thing",
+      "chinese": "我不想錯過任何一點",
+      "startSeconds": 253.36,
+      "endSeconds": 255.92
+    }
+  ],
+  "vocabulary": [
+    {
+      "number": 1,
+      "word": "Stay awake",
+      "meaning": "保持清醒、不要睡著",
+      "usage": "想繼續做事情、不想睡覺時使用。",
+      "prompt": "哪一句正確使用「Stay awake」？",
+      "options": [
+        "I stayed awake to finish my book.",
+        "I stayed awake my calendar before the meeting.",
+        "She stayed awake to watched the final song.",
+        "I stayed awake the door with a key."
+      ],
+      "answer": 0,
+      "explanation": "正確：stay awake 表示保持清醒，讀完書之前不睡。",
+      "optionExplanations": [
+        "正確：stay awake 表示保持清醒，讀完書之前不睡。",
+        "stay awake 指保持清醒，不能直接接 calendar 作受詞。",
+        "表示目的的 to 後接 watch，不能接 watched。",
+        "錯誤：開門應說 opened the door，不能用 stayed awake。"
+      ]
+    },
+    {
+      "number": 2,
+      "word": "Far away",
+      "meaning": "在很遠的地方",
+      "usage": "形容人或地方距離很遠時使用。",
+      "prompt": "哪一句正確使用「Far away」？",
+      "options": [
+        "I booked a far away at the travel office.",
+        "My uncle lives far away but calls during every film.",
+        "She far away her cousin every weekend.",
+        "The concert is far away yesterday."
+      ],
+      "answer": 1,
+      "explanation": "far away 表示相距遙遠。",
+      "optionExplanations": [
+        "far away 表示遙遠，不能單獨當作訂購的東西。",
+        "far away 表示相距遙遠。",
+        "far away 不能單獨作探望親人的動詞。",
+        "這句混用了現在式 is 與過去時間 yesterday。"
+      ]
+    },
+    {
+      "number": 3,
+      "word": "Spend time with",
+      "meaning": "花時間和某人相處",
+      "usage": "談和朋友、家人一起度過時間時使用。",
+      "prompt": "哪一句正確使用「Spend time with」？",
+      "options": [
+        "I spend time with Grandpa; he teaches me new games.",
+        "We spent time with the rain to stop it.",
+        "I spend time with to visit my aunt.",
+        "He spent time with his friend tomorrow."
+      ],
+      "answer": 0,
+      "explanation": "spend time with someone 表示花時間與人相處。",
+      "optionExplanations": [
+        "spend time with someone 表示花時間與人相處。",
+        "錯誤：不能藉由 spend time with 讓雨停止。",
+        "with 後應接相處的對象；花時間做事可說 spend time visiting my aunt。",
+        "spent 表示過去，與此句的未來時間 tomorrow 不配合。"
+      ]
+    },
+    {
+      "number": 4,
+      "word": "Treasure",
+      "meaning": "珍惜；珍貴的事物",
+      "usage": "當某人、禮物或回憶對你很重要時使用。",
+      "prompt": "哪一句正確使用「Treasure」？",
+      "options": [
+        "She treasures the window to get fresh air.",
+        "I treasure to the bus stop every morning.",
+        "I treasure my photos from our family trip.",
+        "We treasure to the theatre every Friday."
+      ],
+      "answer": 2,
+      "explanation": "正確：treasure 表示很珍惜旅行照片。",
+      "optionExplanations": [
+        "錯誤：打開窗戶應說 opens the window。",
+        "錯誤：到公車站應說 walk to the bus stop。",
+        "正確：treasure 表示很珍惜旅行照片。",
+        "treasure 表示珍惜，不能表示前往劇院。"
+      ]
+    },
+    {
+      "number": 5,
+      "word": "Fall asleep",
+      "meaning": "睡著",
+      "usage": "表示從清醒進入睡眠的那一刻。",
+      "prompt": "哪一句正確使用「Fall asleep」？",
+      "options": [
+        "I fall asleep my jacket when it is cold.",
+        "I fell asleep to watched the late film.",
+        "He fell asleep the music very loudly.",
+        "I fell asleep on the sofa after dinner."
+      ],
+      "answer": 3,
+      "explanation": "正確：表示晚餐後在沙發上睡著了。",
+      "optionExplanations": [
+        "錯誤：穿外套應說 put on my jacket。",
+        "to watched 的形式不成立；可說 while watching the late film。",
+        "錯誤：fall asleep 不能直接接 music；可說 fell asleep while listening to music。",
+        "正確：表示晚餐後在沙發上睡著了。"
+      ]
+    },
+    {
+      "number": 6,
+      "word": "Miss a thing",
+      "meaning": "錯過任何事情（常見於 not miss a thing）",
+      "usage": "希望看見、聽見或參與所有事情時使用。",
+      "prompt": "哪一句正確使用「Miss a thing」？",
+      "options": [
+        "I missed a thing my manager at the meeting.",
+        "I sat in front so I wouldn't miss a thing.",
+        "She missed a thing into her school bag.",
+        "We miss a thing very excited about the trip."
+      ],
+      "answer": 1,
+      "explanation": "miss a thing 表示錯過任何細節。",
+      "optionExplanations": [
+        "miss a thing 已有受詞 a thing，不能再直接加 my manager。",
+        "miss a thing 表示錯過任何細節。",
+        "錯誤：放東西進書包應說 put something in her bag。",
+        "miss a thing 不能接 very excited 當作感到興奮的結構。"
+      ]
+    },
+    {
+      "number": 7,
+      "word": "Dream of",
+      "meaning": "夢見；夢想",
+      "usage": "可以表示睡覺時夢見人事物，也能表示心中想做的事。",
+      "prompt": "哪一句正確使用「Dream of」？",
+      "options": [
+        "He dreams of becoming a singer.",
+        "She dreams of to become a dancer.",
+        "I dream of my bike to work.",
+        "They dream of the door with a key."
+      ],
+      "answer": 0,
+      "explanation": "正確：dream of + -ing 可以表示夢想成為歌手。",
+      "optionExplanations": [
+        "正確：dream of + -ing 可以表示夢想成為歌手。",
+        "of 後接 becoming；不能接 to become。",
+        "錯誤：騎腳踏車上班應說 ride my bike to work。",
+        "錯誤：用鑰匙開門應說 open the door with a key。"
+      ]
+    },
+    {
+      "number": 8,
+      "word": "Wonder",
+      "meaning": "想知道；好奇",
+      "usage": "有問題、不確定答案，心裡想著時使用。",
+      "prompt": "哪一句正確使用「Wonder」？",
+      "options": [
+        "He wondered his suitcase to the hotel.",
+        "I wonder very nervous at the interview.",
+        "She wonders the bus at eight every day.",
+        "I wonder why Grandma has three wedding dresses."
+      ],
+      "answer": 3,
+      "explanation": "I wonder why 提出心中的疑問；這裡好奇祖母為何有三件婚紗。",
+      "optionExplanations": [
+        "wonder 指感到疑惑，不能表示搬行李。",
+        "表示緊張要用 feel nervous；wonder 後不能直接接 very nervous。",
+        "錯誤：搭公車應說 takes the bus。",
+        "I wonder why 提出心中的疑問；這裡好奇祖母為何有三件婚紗。"
+      ]
+    },
+    {
+      "number": 9,
+      "word": "Hold someone close",
+      "meaning": "緊緊抱著某人",
+      "usage": "想安慰、保護或表達愛意時使用。",
+      "prompt": "哪一句正確使用「Hold someone close」？",
+      "options": [
+        "I held to my little brother close.",
+        "He held the weather close because it was raining.",
+        "She held her brother close during the scary film.",
+        "We held the door close to learn English."
+      ],
+      "answer": 2,
+      "explanation": "hold someone close 表示把人緊緊抱在身邊。",
+      "optionExplanations": [
+        "hold someone close 直接接人，不加 to。",
+        "錯誤：天氣不是可以擁抱的人。",
+        "hold someone close 表示把人緊緊抱在身邊。",
+        "錯誤：關門可說 closed the door；這裡不能套用 hold someone close。"
+      ]
+    },
+    {
+      "number": 10,
+      "word": "The rest of",
+      "meaning": "剩下的、其餘的",
+      "usage": "說一段時間或一群東西裡剩餘的部分時使用。",
+      "prompt": "哪一句正確使用「The rest of」？",
+      "options": [
+        "I rest of my money into the bank.",
+        "We spent the rest of the trip looking for Dad's camera.",
+        "She is the rest of happy at school.",
+        "He walked the rest of blue to the shop."
+      ],
+      "answer": 1,
+      "explanation": "the rest of the trip 指旅程餘下的時間；用法自然完整。",
+      "optionExplanations": [
+        "the rest of 表示剩餘部分，不能省略 the 並當作存款的動詞。",
+        "the rest of the trip 指旅程餘下的時間；用法自然完整。",
+        "錯誤：不能用 the rest of 修飾 happy。",
+        "錯誤：the rest of 後面應接可以有「剩餘部分」的名詞。"
+      ]
+    }
+  ],
+  "audio_url": "https://edmundeducation.com/song-media/i-dont-want-to-miss-a-thing/album.mp3",
+  "cover_url": "https://edmundeducation.com/song-media/i-dont-want-to-miss-a-thing/cover.webp",
+  "exercises": [
+    {
+      "id": "standard",
+      "label": "Standard",
+      "version": 1,
+      "questionCount": 20,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I could stay {{blank}} just to hear you breathing",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "awake",
+            "up",
+            "out"
+          ],
+          "answer": "awake"
+        },
+        {
+          "number": 2,
+          "lineId": "line-2",
+          "prompt": "Watch you {{blank}} while you are sleeping",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "sleep",
+            "smile",
+            "dream"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 3,
+          "lineId": "line-3",
+          "prompt": "While you're {{blank}} and dreaming",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "far from here",
+            "far apart",
+            "far away"
+          ],
+          "answer": "far away"
+        },
+        {
+          "number": 4,
+          "lineId": "line-4",
+          "prompt": "I could spend my life in this {{blank}}",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "sweet surrender",
+            "sweet seduction",
+            "soft surrender"
+          ],
+          "answer": "sweet surrender"
+        },
+        {
+          "number": 5,
+          "lineId": "line-5",
+          "prompt": "I could stay {{blank}} in this moment forever",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "gone",
+            "lost",
+            "found"
+          ],
+          "answer": "lost"
+        },
+        {
+          "number": 6,
+          "lineId": "line-6",
+          "prompt": "Where every moment spent with you is a moment I {{blank}}",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "treasure",
+            "measure",
+            "cherish"
+          ],
+          "answer": "treasure"
+        },
+        {
+          "number": 7,
+          "lineId": "line-7",
+          "prompt": "Don't wanna {{blank}}",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "shut my eyes",
+            "close my eyes",
+            "close my eye"
+          ],
+          "answer": "close my eyes"
+        },
+        {
+          "number": 8,
+          "lineId": "line-8",
+          "prompt": "I don't wanna {{blank}}",
+          "promptZh": "我不想入睡",
+          "options": [
+            "fall in sleep",
+            "go to sleep",
+            "fall asleep"
+          ],
+          "answer": "fall asleep"
+        },
+        {
+          "number": 9,
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{blank}}",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "miss you, baby",
+            "miss you, lady",
+            "miss you, darling"
+          ],
+          "answer": "miss you, baby"
+        },
+        {
+          "number": 10,
+          "lineId": "line-10",
+          "prompt": "And I don't wanna {{blank}}",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "miss a thing now",
+            "miss a beat",
+            "miss a thing"
+          ],
+          "answer": "miss a thing"
+        },
+        {
+          "number": 11,
+          "lineId": "line-11",
+          "prompt": "'Cause even when I {{blank}} (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "dream about you",
+            "dream of you",
+            "dream of ya"
+          ],
+          "answer": "dream of you"
+        },
+        {
+          "number": 12,
+          "lineId": "line-12",
+          "prompt": "The {{blank}} dream would never do",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "sweetest",
+            "greatest",
+            "deepest"
+          ],
+          "answer": "sweetest"
+        },
+        {
+          "number": 13,
+          "lineId": "line-13",
+          "prompt": "I'd {{blank}} miss you, baby",
+          "promptZh": "我依然會想念你，寶貝",
+          "options": [
+            "always",
+            "still",
+            "always still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 14,
+          "lineId": "line-15",
+          "prompt": "Lying close to you feeling your {{blank}}",
+          "promptZh": "躺在你身旁，感受你的心跳",
+          "options": [
+            "heart beating now",
+            "heart beating fast",
+            "heart beating"
+          ],
+          "answer": "heart beating"
+        },
+        {
+          "number": 15,
+          "lineId": "line-16",
+          "prompt": "And I'm {{blank}} what you're dreaming",
+          "promptZh": "我想知道你正夢見什麼",
+          "options": [
+            "thinking",
+            "dreaming",
+            "wondering"
+          ],
+          "answer": "wondering"
+        },
+        {
+          "number": 16,
+          "lineId": "line-17",
+          "prompt": "Wondering if it's {{blank}}",
+          "promptZh": "想知道你夢裡的人是不是我",
+          "options": [
+            "me you're seeing",
+            "me you're dreamin'",
+            "me you see"
+          ],
+          "answer": "me you're seeing"
+        },
+        {
+          "number": 17,
+          "lineId": "line-18",
+          "prompt": "Then I {{blank}} and thank God we're together",
+          "promptZh": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+          "options": [
+            "kiss your face",
+            "kiss your eyes",
+            "kiss your lips"
+          ],
+          "answer": "kiss your eyes"
+        },
+        {
+          "number": 18,
+          "lineId": "line-19",
+          "prompt": "And I just wanna {{blank}}",
+          "promptZh": "我只想和你在一起",
+          "options": [
+            "stay with you",
+            "be with you",
+            "live with you"
+          ],
+          "answer": "stay with you"
+        },
+        {
+          "number": 19,
+          "lineId": "line-20",
+          "prompt": "In this moment {{blank}}",
+          "promptZh": "永遠停留在這一刻，直到永遠",
+          "options": [
+            "forever, forever and evermore",
+            "forever, and ever and ever",
+            "forever, forever and ever"
+          ],
+          "answer": "forever, forever and ever"
+        },
+        {
+          "number": 20,
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{blank}}",
+          "promptZh": "我不想錯過任何一個微笑",
+          "options": [
+            "a smile",
+            "one smile",
+            "one smile now"
+          ],
+          "answer": "one smile"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I could stay {{q:1}} just to hear you breathing"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Watch you {{q:2}} while you are sleeping"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "While you're {{q:3}} and dreaming"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "I could spend my life in this {{q:4}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I could stay {{q:5}} in this moment forever"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Where every moment spent with you is a moment I {{q:6}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "Don't wanna {{q:7}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "I don't wanna {{q:8}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{q:9}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "And I don't wanna {{q:10}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "'Cause even when I {{q:11}} (Even when I dream)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The {{q:12}} dream would never do"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'd {{q:13}} miss you, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Lying close to you feeling your {{q:14}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And I'm {{q:15}} what you're dreaming"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Wondering if it's {{q:16}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Then I {{q:17}} and thank God we're together"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I just wanna {{q:18}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In this moment {{q:19}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{q:20}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I don't wanna miss one kiss"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Well, I just wanna be with you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Right here with you, just like this"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I just wanna hold you close"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I feel your heart so close to mine"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And just stay here in this moment"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "For all the rest of time"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Yeah!"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause even when I dream of you"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I don't wanna fall asleep, yeah"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I don't wanna miss a thing"
+        }
+      ]
+    },
+    {
+      "id": "medium",
+      "label": "Medium",
+      "version": 1,
+      "questionCount": 32,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I could stay {{blank}} just to 〔第 2 題〕",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "awake",
+            "up",
+            "out"
+          ],
+          "answer": "awake"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I could stay 〔第 1 題〕 just to {{blank}}",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "hear you breath",
+            "hear you breathing",
+            "hear you sleep"
+          ],
+          "answer": "hear you breathing"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Watch you {{blank}} 〔第 4 題〕",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "dream",
+            "sleep",
+            "smile"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Watch you 〔第 3 題〕 {{blank}}",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "while you are sleeping",
+            "while you're sleeping",
+            "as you are sleeping"
+          ],
+          "answer": "while you are sleeping"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "While you're {{blank}} 〔第 6 題〕",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "far from here",
+            "far away",
+            "far apart"
+          ],
+          "answer": "far away"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "While you're 〔第 5 題〕 {{blank}}",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "and a dream",
+            "and dreamin'",
+            "and dreaming"
+          ],
+          "answer": "and dreaming"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} in this 〔第 8 題〕",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "I could give my life",
+            "I could spend my life",
+            "I could spend my time"
+          ],
+          "answer": "I could spend my life"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 in this {{blank}}",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "sweet surrender",
+            "sweet seduction",
+            "soft surrender"
+          ],
+          "answer": "sweet surrender"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I could stay {{blank}} 〔第 10 題〕",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "lost",
+            "gone",
+            "found"
+          ],
+          "answer": "lost"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "I could stay 〔第 9 題〕 {{blank}}",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "in the moment forever",
+            "in this moment forever",
+            "in this moment now"
+          ],
+          "answer": "in this moment forever"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "Where {{blank}} is a moment I 〔第 12 題〕",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "every time spent with you",
+            "every moment with you",
+            "every moment spent with you"
+          ],
+          "answer": "every moment spent with you"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Where 〔第 11 題〕 is a moment I {{blank}}",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "measure",
+            "cherish",
+            "treasure"
+          ],
+          "answer": "treasure"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "Don't wanna",
+            "I don't wanna",
+            "I don't want to"
+          ],
+          "answer": "Don't wanna"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "shut my eyes",
+            "close my eyes",
+            "close my eye"
+          ],
+          "answer": "close my eyes"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "我不想入睡",
+          "options": [
+            "I don't want to",
+            "I do not wanna",
+            "I don't wanna"
+          ],
+          "answer": "I don't wanna"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "我不想入睡",
+          "options": [
+            "fall asleep",
+            "go to sleep",
+            "fall in sleep"
+          ],
+          "answer": "fall asleep"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{blank}}",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "miss you, lady",
+            "miss you, baby",
+            "miss you, darling"
+          ],
+          "answer": "miss you, baby"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 19 題〕",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "And I do not wanna",
+            "And I don't wanna",
+            "And I don't want to"
+          ],
+          "answer": "And I don't wanna"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "〔第 18 題〕 {{blank}}",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "miss a thing",
+            "miss a beat",
+            "miss a thing now"
+          ],
+          "answer": "miss a thing"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I 〔第 21 題〕 (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "'Cause even if",
+            "Because even when",
+            "'Cause even when"
+          ],
+          "answer": "'Cause even when"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "〔第 20 題〕 I {{blank}} (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "dream of you",
+            "dream about you",
+            "dream of ya"
+          ],
+          "answer": "dream of you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "The {{blank}} dream 〔第 23 題〕",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "greatest",
+            "sweetest",
+            "deepest"
+          ],
+          "answer": "sweetest"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "The 〔第 22 題〕 dream {{blank}}",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "would never could",
+            "would never will",
+            "would never do"
+          ],
+          "answer": "would never do"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "I'd {{blank}} miss you, baby",
+          "promptZh": "我依然會想念你，寶貝",
+          "options": [
+            "always",
+            "always still",
+            "still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 25,
+          "lineId": "line-15",
+          "prompt": "Lying close to you feeling your {{blank}}",
+          "promptZh": "躺在你身旁，感受你的心跳",
+          "options": [
+            "heart beating fast",
+            "heart beating",
+            "heart beating now"
+          ],
+          "answer": "heart beating"
+        },
+        {
+          "number": 26,
+          "lineId": "line-16",
+          "prompt": "And I'm {{blank}} what you're dreaming",
+          "promptZh": "我想知道你正夢見什麼",
+          "options": [
+            "wondering",
+            "thinking",
+            "dreaming"
+          ],
+          "answer": "wondering"
+        },
+        {
+          "number": 27,
+          "lineId": "line-17",
+          "prompt": "Wondering if it's {{blank}}",
+          "promptZh": "想知道你夢裡的人是不是我",
+          "options": [
+            "me you see",
+            "me you're seeing",
+            "me you're dreamin'"
+          ],
+          "answer": "me you're seeing"
+        },
+        {
+          "number": 28,
+          "lineId": "line-18",
+          "prompt": "Then I {{blank}} and thank God we're together",
+          "promptZh": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+          "options": [
+            "kiss your eyes",
+            "kiss your face",
+            "kiss your lips"
+          ],
+          "answer": "kiss your eyes"
+        },
+        {
+          "number": 29,
+          "lineId": "line-19",
+          "prompt": "And I just wanna {{blank}}",
+          "promptZh": "我只想和你在一起",
+          "options": [
+            "live with you",
+            "be with you",
+            "stay with you"
+          ],
+          "answer": "stay with you"
+        },
+        {
+          "number": 30,
+          "lineId": "line-20",
+          "prompt": "In this moment {{blank}}",
+          "promptZh": "永遠停留在這一刻，直到永遠",
+          "options": [
+            "forever, and ever and ever",
+            "forever, forever and evermore",
+            "forever, forever and ever"
+          ],
+          "answer": "forever, forever and ever"
+        },
+        {
+          "number": 31,
+          "lineId": "line-23",
+          "prompt": "{{blank}}, baby",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "Because I'd miss you",
+            "'Cause I'd miss you",
+            "'Cause I will miss you"
+          ],
+          "answer": "'Cause I'd miss you"
+        },
+        {
+          "number": 32,
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{blank}}",
+          "promptZh": "我不想錯過任何一個微笑",
+          "options": [
+            "one smile",
+            "a smile",
+            "one smile now"
+          ],
+          "answer": "one smile"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I could stay {{q:1}} just to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Watch you {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "While you're {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} in this {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I could stay {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Where {{q:11}} is a moment I {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{q:17}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:20}} I {{q:21}} (Even when I dream)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The {{q:22}} dream {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'd {{q:24}} miss you, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "Lying close to you feeling your {{q:25}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "And I'm {{q:26}} what you're dreaming"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "Wondering if it's {{q:27}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "Then I {{q:28}} and thank God we're together"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "And I just wanna {{q:29}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "In this moment {{q:30}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:31}}, baby"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{q:32}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "I don't wanna miss one kiss"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Well, I just wanna be with you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Right here with you, just like this"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I just wanna hold you close"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I feel your heart so close to mine"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And just stay here in this moment"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "For all the rest of time"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Yeah!"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause even when I dream of you"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I don't wanna fall asleep, yeah"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I don't wanna miss a thing"
+        }
+      ]
+    },
+    {
+      "id": "hard",
+      "label": "Hard",
+      "version": 1,
+      "questionCount": 40,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I could stay {{blank}} just to 〔第 2 題〕",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "awake",
+            "up",
+            "out"
+          ],
+          "answer": "awake"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I could stay 〔第 1 題〕 just to {{blank}}",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "hear you sleep",
+            "hear you breath",
+            "hear you breathing"
+          ],
+          "answer": "hear you breathing"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Watch you {{blank}} 〔第 4 題〕",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "smile",
+            "sleep",
+            "dream"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Watch you 〔第 3 題〕 {{blank}}",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "while you're sleeping",
+            "while you are sleeping",
+            "as you are sleeping"
+          ],
+          "answer": "while you are sleeping"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "While you're {{blank}} 〔第 6 題〕",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "far from here",
+            "far away",
+            "far apart"
+          ],
+          "answer": "far away"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "While you're 〔第 5 題〕 {{blank}}",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "and dreaming",
+            "and dreamin'",
+            "and a dream"
+          ],
+          "answer": "and dreaming"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} in this 〔第 8 題〕",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "I could spend my time",
+            "I could give my life",
+            "I could spend my life"
+          ],
+          "answer": "I could spend my life"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 in this {{blank}}",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "sweet surrender",
+            "sweet seduction",
+            "soft surrender"
+          ],
+          "answer": "sweet surrender"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I could stay {{blank}} 〔第 10 題〕",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "found",
+            "gone",
+            "lost"
+          ],
+          "answer": "lost"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "I could stay 〔第 9 題〕 {{blank}}",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "in the moment forever",
+            "in this moment forever",
+            "in this moment now"
+          ],
+          "answer": "in this moment forever"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "Where {{blank}} is a moment I 〔第 12 題〕",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "every time spent with you",
+            "every moment with you",
+            "every moment spent with you"
+          ],
+          "answer": "every moment spent with you"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Where 〔第 11 題〕 is a moment I {{blank}}",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "treasure",
+            "measure",
+            "cherish"
+          ],
+          "answer": "treasure"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "I don't wanna",
+            "Don't wanna",
+            "I don't want to"
+          ],
+          "answer": "Don't wanna"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "shut my eyes",
+            "close my eyes",
+            "close my eye"
+          ],
+          "answer": "close my eyes"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "我不想入睡",
+          "options": [
+            "I don't wanna",
+            "I don't want to",
+            "I do not wanna"
+          ],
+          "answer": "I don't wanna"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "我不想入睡",
+          "options": [
+            "fall in sleep",
+            "go to sleep",
+            "fall asleep"
+          ],
+          "answer": "fall asleep"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{blank}}",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "miss you, baby",
+            "miss you, lady",
+            "miss you, darling"
+          ],
+          "answer": "miss you, baby"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 19 題〕",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "And I do not wanna",
+            "And I don't want to",
+            "And I don't wanna"
+          ],
+          "answer": "And I don't wanna"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "〔第 18 題〕 {{blank}}",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "miss a beat",
+            "miss a thing",
+            "miss a thing now"
+          ],
+          "answer": "miss a thing"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I 〔第 21 題〕 (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "Because even when",
+            "'Cause even when",
+            "'Cause even if"
+          ],
+          "answer": "'Cause even when"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "〔第 20 題〕 I {{blank}} (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "dream of you",
+            "dream about you",
+            "dream of ya"
+          ],
+          "answer": "dream of you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "The {{blank}} dream 〔第 23 題〕",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "deepest",
+            "greatest",
+            "sweetest"
+          ],
+          "answer": "sweetest"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "The 〔第 22 題〕 dream {{blank}}",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "would never do",
+            "would never will",
+            "would never could"
+          ],
+          "answer": "would never do"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "I'd {{blank}} miss you, baby",
+          "promptZh": "我依然會想念你，寶貝",
+          "options": [
+            "always still",
+            "always",
+            "still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "And {{blank}} a thing",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "I don't wanna lose",
+            "I don't wanna miss",
+            "I won't wanna miss"
+          ],
+          "answer": "I don't wanna miss"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "{{blank}} feeling your 〔第 27 題〕",
+          "promptZh": "躺在你身旁，感受你的心跳",
+          "options": [
+            "Lying close to you",
+            "Laying close to you",
+            "Lying next to you"
+          ],
+          "answer": "Lying close to you"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "〔第 26 題〕 feeling your {{blank}}",
+          "promptZh": "躺在你身旁，感受你的心跳",
+          "options": [
+            "heart beating now",
+            "heart beating fast",
+            "heart beating"
+          ],
+          "answer": "heart beating"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "{{blank}} 〔第 29 題〕 what you're dreaming",
+          "promptZh": "我想知道你正夢見什麼",
+          "options": [
+            "And I was",
+            "And I'm",
+            "But I'm"
+          ],
+          "answer": "And I'm"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "〔第 28 題〕 {{blank}} what you're dreaming",
+          "promptZh": "我想知道你正夢見什麼",
+          "options": [
+            "dreaming",
+            "thinking",
+            "wondering"
+          ],
+          "answer": "wondering"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "{{blank}} it's 〔第 31 題〕",
+          "promptZh": "想知道你夢裡的人是不是我",
+          "options": [
+            "Wondering if it's",
+            "Wondering if",
+            "Wondering if it is"
+          ],
+          "answer": "Wondering if"
+        },
+        {
+          "number": 31,
+          "lineId": "line-17",
+          "prompt": "〔第 30 題〕 it's {{blank}}",
+          "promptZh": "想知道你夢裡的人是不是我",
+          "options": [
+            "me you're seeing",
+            "me you're dreamin'",
+            "me you see"
+          ],
+          "answer": "me you're seeing"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 33 題〕 and thank God we're together",
+          "promptZh": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+          "options": [
+            "Then I",
+            "When I",
+            "Now I"
+          ],
+          "answer": "Then I"
+        },
+        {
+          "number": 33,
+          "lineId": "line-18",
+          "prompt": "〔第 32 題〕 {{blank}} and thank God we're together",
+          "promptZh": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+          "options": [
+            "kiss your face",
+            "kiss your eyes",
+            "kiss your lips"
+          ],
+          "answer": "kiss your eyes"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 35 題〕",
+          "promptZh": "我只想和你在一起",
+          "options": [
+            "But I just wanna",
+            "And I only wanna",
+            "And I just wanna"
+          ],
+          "answer": "And I just wanna"
+        },
+        {
+          "number": 35,
+          "lineId": "line-19",
+          "prompt": "〔第 34 題〕 {{blank}}",
+          "promptZh": "我只想和你在一起",
+          "options": [
+            "be with you",
+            "stay with you",
+            "live with you"
+          ],
+          "answer": "stay with you"
+        },
+        {
+          "number": 36,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 〔第 37 題〕",
+          "promptZh": "永遠停留在這一刻，直到永遠",
+          "options": [
+            "At this moment",
+            "For this moment",
+            "In this moment"
+          ],
+          "answer": "In this moment"
+        },
+        {
+          "number": 37,
+          "lineId": "line-20",
+          "prompt": "〔第 36 題〕 {{blank}}",
+          "promptZh": "永遠停留在這一刻，直到永遠",
+          "options": [
+            "forever, forever and ever",
+            "forever, and ever and ever",
+            "forever, forever and evermore"
+          ],
+          "answer": "forever, forever and ever"
+        },
+        {
+          "number": 38,
+          "lineId": "line-23",
+          "prompt": "{{blank}}, baby",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "'Cause I'd miss you",
+            "Because I'd miss you",
+            "'Cause I will miss you"
+          ],
+          "answer": "'Cause I'd miss you"
+        },
+        {
+          "number": 39,
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{blank}}",
+          "promptZh": "我不想錯過任何一個微笑",
+          "options": [
+            "one smile now",
+            "one smile",
+            "a smile"
+          ],
+          "answer": "one smile"
+        },
+        {
+          "number": 40,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "我不想錯過任何一個吻",
+          "options": [
+            "I don't wanna miss a kiss",
+            "I don't want to miss one kiss",
+            "I don't wanna miss one kiss"
+          ],
+          "answer": "I don't wanna miss one kiss"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I could stay {{q:1}} just to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Watch you {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "While you're {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} in this {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I could stay {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Where {{q:11}} is a moment I {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{q:17}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:20}} I {{q:21}} (Even when I dream)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The {{q:22}} dream {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'd {{q:24}} miss you, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And {{q:25}} a thing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:26}} feeling your {{q:27}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:28}} {{q:29}} what you're dreaming"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:30}} it's {{q:31}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:32}} {{q:33}} and thank God we're together"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:38}}, baby"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{q:39}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:40}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "Well, I just wanna be with you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "Right here with you, just like this"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "I just wanna hold you close"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "I feel your heart so close to mine"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "And just stay here in this moment"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "For all the rest of time"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Yeah!"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause even when I dream of you"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "I don't wanna fall asleep, yeah"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I don't wanna miss a thing"
+        }
+      ]
+    },
+    {
+      "id": "hell",
+      "label": "Hell",
+      "version": 1,
+      "questionCount": 50,
+      "questions": [
+        {
+          "number": 1,
+          "lineId": "line-1",
+          "prompt": "I could stay {{blank}} just to 〔第 2 題〕",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "up",
+            "awake",
+            "out"
+          ],
+          "answer": "awake"
+        },
+        {
+          "number": 2,
+          "lineId": "line-1",
+          "prompt": "I could stay 〔第 1 題〕 just to {{blank}}",
+          "promptZh": "我願意徹夜不眠，只為聽你的呼吸",
+          "options": [
+            "hear you breathing",
+            "hear you breath",
+            "hear you sleep"
+          ],
+          "answer": "hear you breathing"
+        },
+        {
+          "number": 3,
+          "lineId": "line-2",
+          "prompt": "Watch you {{blank}} 〔第 4 題〕",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "dream",
+            "sleep",
+            "smile"
+          ],
+          "answer": "smile"
+        },
+        {
+          "number": 4,
+          "lineId": "line-2",
+          "prompt": "Watch you 〔第 3 題〕 {{blank}}",
+          "promptZh": "看著你在睡夢中微笑",
+          "options": [
+            "while you're sleeping",
+            "while you are sleeping",
+            "as you are sleeping"
+          ],
+          "answer": "while you are sleeping"
+        },
+        {
+          "number": 5,
+          "lineId": "line-3",
+          "prompt": "While you're {{blank}} 〔第 6 題〕",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "far away",
+            "far from here",
+            "far apart"
+          ],
+          "answer": "far away"
+        },
+        {
+          "number": 6,
+          "lineId": "line-3",
+          "prompt": "While you're 〔第 5 題〕 {{blank}}",
+          "promptZh": "當你已遠去，沉浸在夢鄉",
+          "options": [
+            "and a dream",
+            "and dreamin'",
+            "and dreaming"
+          ],
+          "answer": "and dreaming"
+        },
+        {
+          "number": 7,
+          "lineId": "line-4",
+          "prompt": "{{blank}} in this 〔第 8 題〕",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "I could give my life",
+            "I could spend my life",
+            "I could spend my time"
+          ],
+          "answer": "I could spend my life"
+        },
+        {
+          "number": 8,
+          "lineId": "line-4",
+          "prompt": "〔第 7 題〕 in this {{blank}}",
+          "promptZh": "我願用一生，沉醉在這甜蜜的臣服中",
+          "options": [
+            "sweet surrender",
+            "sweet seduction",
+            "soft surrender"
+          ],
+          "answer": "sweet surrender"
+        },
+        {
+          "number": 9,
+          "lineId": "line-5",
+          "prompt": "I could stay {{blank}} 〔第 10 題〕",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "gone",
+            "lost",
+            "found"
+          ],
+          "answer": "lost"
+        },
+        {
+          "number": 10,
+          "lineId": "line-5",
+          "prompt": "I could stay 〔第 9 題〕 {{blank}}",
+          "promptZh": "我願永遠迷失在這一刻",
+          "options": [
+            "in this moment forever",
+            "in the moment forever",
+            "in this moment now"
+          ],
+          "answer": "in this moment forever"
+        },
+        {
+          "number": 11,
+          "lineId": "line-6",
+          "prompt": "Where {{blank}} is a moment I 〔第 12 題〕",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "every time spent with you",
+            "every moment with you",
+            "every moment spent with you"
+          ],
+          "answer": "every moment spent with you"
+        },
+        {
+          "number": 12,
+          "lineId": "line-6",
+          "prompt": "Where 〔第 11 題〕 is a moment I {{blank}}",
+          "promptZh": "因為與你共度的每一刻，都是我最珍視的時光",
+          "options": [
+            "cherish",
+            "treasure",
+            "measure"
+          ],
+          "answer": "treasure"
+        },
+        {
+          "number": 13,
+          "lineId": "line-7",
+          "prompt": "{{blank}} 〔第 14 題〕",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "Don't wanna",
+            "I don't wanna",
+            "I don't want to"
+          ],
+          "answer": "Don't wanna"
+        },
+        {
+          "number": 14,
+          "lineId": "line-7",
+          "prompt": "〔第 13 題〕 {{blank}}",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "close my eye",
+            "shut my eyes",
+            "close my eyes"
+          ],
+          "answer": "close my eyes"
+        },
+        {
+          "number": 15,
+          "lineId": "line-8",
+          "prompt": "{{blank}} 〔第 16 題〕",
+          "promptZh": "我不想入睡",
+          "options": [
+            "I do not wanna",
+            "I don't wanna",
+            "I don't want to"
+          ],
+          "answer": "I don't wanna"
+        },
+        {
+          "number": 16,
+          "lineId": "line-8",
+          "prompt": "〔第 15 題〕 {{blank}}",
+          "promptZh": "我不想入睡",
+          "options": [
+            "fall in sleep",
+            "go to sleep",
+            "fall asleep"
+          ],
+          "answer": "fall asleep"
+        },
+        {
+          "number": 17,
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{blank}}",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "miss you, baby",
+            "miss you, lady",
+            "miss you, darling"
+          ],
+          "answer": "miss you, baby"
+        },
+        {
+          "number": 18,
+          "lineId": "line-10",
+          "prompt": "{{blank}} 〔第 19 題〕",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "And I do not wanna",
+            "And I don't wanna",
+            "And I don't want to"
+          ],
+          "answer": "And I don't wanna"
+        },
+        {
+          "number": 19,
+          "lineId": "line-10",
+          "prompt": "〔第 18 題〕 {{blank}}",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "miss a thing now",
+            "miss a beat",
+            "miss a thing"
+          ],
+          "answer": "miss a thing"
+        },
+        {
+          "number": 20,
+          "lineId": "line-11",
+          "prompt": "{{blank}} I 〔第 21 題〕 (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "'Cause even when",
+            "Because even when",
+            "'Cause even if"
+          ],
+          "answer": "'Cause even when"
+        },
+        {
+          "number": 21,
+          "lineId": "line-11",
+          "prompt": "〔第 20 題〕 I {{blank}} (Even when I dream)",
+          "promptZh": "因為即使我夢見你（即使我夢見）",
+          "options": [
+            "dream of ya",
+            "dream about you",
+            "dream of you"
+          ],
+          "answer": "dream of you"
+        },
+        {
+          "number": 22,
+          "lineId": "line-12",
+          "prompt": "The {{blank}} dream 〔第 23 題〕",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "sweetest",
+            "greatest",
+            "deepest"
+          ],
+          "answer": "sweetest"
+        },
+        {
+          "number": 23,
+          "lineId": "line-12",
+          "prompt": "The 〔第 22 題〕 dream {{blank}}",
+          "promptZh": "最甜美的夢境也無法取代",
+          "options": [
+            "would never will",
+            "would never do",
+            "would never could"
+          ],
+          "answer": "would never do"
+        },
+        {
+          "number": 24,
+          "lineId": "line-13",
+          "prompt": "I'd {{blank}} miss you, baby",
+          "promptZh": "我依然會想念你，寶貝",
+          "options": [
+            "always still",
+            "always",
+            "still"
+          ],
+          "answer": "still"
+        },
+        {
+          "number": 25,
+          "lineId": "line-14",
+          "prompt": "And {{blank}} a thing",
+          "promptZh": "而我不想錯過任何一點",
+          "options": [
+            "I don't wanna lose",
+            "I don't wanna miss",
+            "I won't wanna miss"
+          ],
+          "answer": "I don't wanna miss"
+        },
+        {
+          "number": 26,
+          "lineId": "line-15",
+          "prompt": "{{blank}} feeling your 〔第 27 題〕",
+          "promptZh": "躺在你身旁，感受你的心跳",
+          "options": [
+            "Lying close to you",
+            "Laying close to you",
+            "Lying next to you"
+          ],
+          "answer": "Lying close to you"
+        },
+        {
+          "number": 27,
+          "lineId": "line-15",
+          "prompt": "〔第 26 題〕 feeling your {{blank}}",
+          "promptZh": "躺在你身旁，感受你的心跳",
+          "options": [
+            "heart beating fast",
+            "heart beating now",
+            "heart beating"
+          ],
+          "answer": "heart beating"
+        },
+        {
+          "number": 28,
+          "lineId": "line-16",
+          "prompt": "{{blank}} 〔第 29 題〕 what you're dreaming",
+          "promptZh": "我想知道你正夢見什麼",
+          "options": [
+            "And I'm",
+            "And I was",
+            "But I'm"
+          ],
+          "answer": "And I'm"
+        },
+        {
+          "number": 29,
+          "lineId": "line-16",
+          "prompt": "〔第 28 題〕 {{blank}} what you're dreaming",
+          "promptZh": "我想知道你正夢見什麼",
+          "options": [
+            "thinking",
+            "wondering",
+            "dreaming"
+          ],
+          "answer": "wondering"
+        },
+        {
+          "number": 30,
+          "lineId": "line-17",
+          "prompt": "{{blank}} it's 〔第 31 題〕",
+          "promptZh": "想知道你夢裡的人是不是我",
+          "options": [
+            "Wondering if it is",
+            "Wondering if",
+            "Wondering if it's"
+          ],
+          "answer": "Wondering if"
+        },
+        {
+          "number": 31,
+          "lineId": "line-17",
+          "prompt": "〔第 30 題〕 it's {{blank}}",
+          "promptZh": "想知道你夢裡的人是不是我",
+          "options": [
+            "me you're seeing",
+            "me you're dreamin'",
+            "me you see"
+          ],
+          "answer": "me you're seeing"
+        },
+        {
+          "number": 32,
+          "lineId": "line-18",
+          "prompt": "{{blank}} 〔第 33 題〕 and thank God we're together",
+          "promptZh": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+          "options": [
+            "Now I",
+            "When I",
+            "Then I"
+          ],
+          "answer": "Then I"
+        },
+        {
+          "number": 33,
+          "lineId": "line-18",
+          "prompt": "〔第 32 題〕 {{blank}} and thank God we're together",
+          "promptZh": "於是我輕吻你的雙眼，感謝上帝讓我們在一起",
+          "options": [
+            "kiss your eyes",
+            "kiss your face",
+            "kiss your lips"
+          ],
+          "answer": "kiss your eyes"
+        },
+        {
+          "number": 34,
+          "lineId": "line-19",
+          "prompt": "{{blank}} 〔第 35 題〕",
+          "promptZh": "我只想和你在一起",
+          "options": [
+            "But I just wanna",
+            "And I only wanna",
+            "And I just wanna"
+          ],
+          "answer": "And I just wanna"
+        },
+        {
+          "number": 35,
+          "lineId": "line-19",
+          "prompt": "〔第 34 題〕 {{blank}}",
+          "promptZh": "我只想和你在一起",
+          "options": [
+            "be with you",
+            "stay with you",
+            "live with you"
+          ],
+          "answer": "stay with you"
+        },
+        {
+          "number": 36,
+          "lineId": "line-20",
+          "prompt": "{{blank}} 〔第 37 題〕",
+          "promptZh": "永遠停留在這一刻，直到永遠",
+          "options": [
+            "For this moment",
+            "At this moment",
+            "In this moment"
+          ],
+          "answer": "In this moment"
+        },
+        {
+          "number": 37,
+          "lineId": "line-20",
+          "prompt": "〔第 36 題〕 {{blank}}",
+          "promptZh": "永遠停留在這一刻，直到永遠",
+          "options": [
+            "forever, and ever and ever",
+            "forever, forever and ever",
+            "forever, forever and evermore"
+          ],
+          "answer": "forever, forever and ever"
+        },
+        {
+          "number": 38,
+          "lineId": "line-21",
+          "prompt": "I {{blank}}",
+          "promptZh": "我不想閉上雙眼",
+          "options": [
+            "don't wanna close my eyes",
+            "I don't wanna close my eyes",
+            "Don't want to close my eyes"
+          ],
+          "answer": "don't wanna close my eyes"
+        },
+        {
+          "number": 39,
+          "lineId": "line-22",
+          "prompt": "I {{blank}}",
+          "promptZh": "我不想入睡",
+          "options": [
+            "I don't wanna fall asleep",
+            "don't wanna fall asleep",
+            "Don't want to fall asleep"
+          ],
+          "answer": "don't wanna fall asleep"
+        },
+        {
+          "number": 40,
+          "lineId": "line-23",
+          "prompt": "{{blank}}, baby",
+          "promptZh": "因為我會想念你，寶貝",
+          "options": [
+            "'Cause I'd miss you",
+            "Because I'd miss you",
+            "'Cause I will miss you"
+          ],
+          "answer": "'Cause I'd miss you"
+        },
+        {
+          "number": 41,
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{blank}}",
+          "promptZh": "我不想錯過任何一個微笑",
+          "options": [
+            "one smile now",
+            "a smile",
+            "one smile"
+          ],
+          "answer": "one smile"
+        },
+        {
+          "number": 42,
+          "lineId": "line-30",
+          "prompt": "{{blank}}",
+          "promptZh": "我不想錯過任何一個吻",
+          "options": [
+            "I don't want to miss one kiss",
+            "I don't wanna miss a kiss",
+            "I don't wanna miss one kiss"
+          ],
+          "answer": "I don't wanna miss one kiss"
+        },
+        {
+          "number": 43,
+          "lineId": "line-31",
+          "prompt": "{{blank}} be with you",
+          "promptZh": "嗯，我只想和你在一起",
+          "options": [
+            "Well, I just want to",
+            "Well, I just wanna",
+            "And I just wanna be"
+          ],
+          "answer": "Well, I just wanna"
+        },
+        {
+          "number": 44,
+          "lineId": "line-32",
+          "prompt": "{{blank}}, just like this",
+          "promptZh": "就在這裡，像現在這樣",
+          "options": [
+            "Right here with you",
+            "Right here beside you",
+            "Right here next to you"
+          ],
+          "answer": "Right here with you"
+        },
+        {
+          "number": 45,
+          "lineId": "line-33",
+          "prompt": "{{blank}}",
+          "promptZh": "我只想緊緊擁抱你",
+          "options": [
+            "I just wanna hold you close",
+            "I just want to hold you close",
+            "I just wanna hold you near"
+          ],
+          "answer": "I just wanna hold you close"
+        },
+        {
+          "number": 46,
+          "lineId": "line-34",
+          "prompt": "{{blank}}",
+          "promptZh": "感受你的心如此貼近我的心",
+          "options": [
+            "I feel your heart so close to me",
+            "I feel your heart so close to mine",
+            "I feel your heart so near to mine"
+          ],
+          "answer": "I feel your heart so close to mine"
+        },
+        {
+          "number": 47,
+          "lineId": "line-35",
+          "prompt": "{{blank}} in this moment",
+          "promptZh": "就停留在這一刻",
+          "options": [
+            "And just be right here",
+            "And just stay right here",
+            "And just stay here"
+          ],
+          "answer": "And just stay here"
+        },
+        {
+          "number": 48,
+          "lineId": "line-36",
+          "prompt": "{{blank}}",
+          "promptZh": "直到時間的盡頭",
+          "options": [
+            "For the rest of all time",
+            "For all the rest of time now",
+            "For all the rest of time"
+          ],
+          "answer": "For all the rest of time"
+        },
+        {
+          "number": 49,
+          "lineId": "line-40",
+          "prompt": "{{blank}}",
+          "promptZh": "不想閉上我的雙眼",
+          "options": [
+            "I don't wanna close my eyes",
+            "Don't wanna close my eyes",
+            "Don't want to close my eyes"
+          ],
+          "answer": "Don't wanna close my eyes"
+        },
+        {
+          "number": 50,
+          "lineId": "line-57",
+          "prompt": "{{blank}}",
+          "promptZh": "我不想入睡，耶",
+          "options": [
+            "I don't wanna fall asleep, yeah",
+            "I don't want to fall asleep, yeah",
+            "I don't wanna fall asleep now"
+          ],
+          "answer": "I don't wanna fall asleep, yeah"
+        }
+      ],
+      "listeningLines": [
+        {
+          "lineId": "line-1",
+          "prompt": "I could stay {{q:1}} just to {{q:2}}"
+        },
+        {
+          "lineId": "line-2",
+          "prompt": "Watch you {{q:3}} {{q:4}}"
+        },
+        {
+          "lineId": "line-3",
+          "prompt": "While you're {{q:5}} {{q:6}}"
+        },
+        {
+          "lineId": "line-4",
+          "prompt": "{{q:7}} in this {{q:8}}"
+        },
+        {
+          "lineId": "line-5",
+          "prompt": "I could stay {{q:9}} {{q:10}}"
+        },
+        {
+          "lineId": "line-6",
+          "prompt": "Where {{q:11}} is a moment I {{q:12}}"
+        },
+        {
+          "lineId": "line-7",
+          "prompt": "{{q:13}} {{q:14}}"
+        },
+        {
+          "lineId": "line-8",
+          "prompt": "{{q:15}} {{q:16}}"
+        },
+        {
+          "lineId": "line-9",
+          "prompt": "'Cause I'd {{q:17}}"
+        },
+        {
+          "lineId": "line-10",
+          "prompt": "{{q:18}} {{q:19}}"
+        },
+        {
+          "lineId": "line-11",
+          "prompt": "{{q:20}} I {{q:21}} (Even when I dream)"
+        },
+        {
+          "lineId": "line-12",
+          "prompt": "The {{q:22}} dream {{q:23}}"
+        },
+        {
+          "lineId": "line-13",
+          "prompt": "I'd {{q:24}} miss you, baby"
+        },
+        {
+          "lineId": "line-14",
+          "prompt": "And {{q:25}} a thing"
+        },
+        {
+          "lineId": "line-15",
+          "prompt": "{{q:26}} feeling your {{q:27}}"
+        },
+        {
+          "lineId": "line-16",
+          "prompt": "{{q:28}} {{q:29}} what you're dreaming"
+        },
+        {
+          "lineId": "line-17",
+          "prompt": "{{q:30}} it's {{q:31}}"
+        },
+        {
+          "lineId": "line-18",
+          "prompt": "{{q:32}} {{q:33}} and thank God we're together"
+        },
+        {
+          "lineId": "line-19",
+          "prompt": "{{q:34}} {{q:35}}"
+        },
+        {
+          "lineId": "line-20",
+          "prompt": "{{q:36}} {{q:37}}"
+        },
+        {
+          "lineId": "line-21",
+          "prompt": "I {{q:38}}"
+        },
+        {
+          "lineId": "line-22",
+          "prompt": "I {{q:39}}"
+        },
+        {
+          "lineId": "line-23",
+          "prompt": "{{q:40}}, baby"
+        },
+        {
+          "lineId": "line-24",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-25",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-26",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-27",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-28",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-29",
+          "prompt": "I don't wanna miss {{q:41}}"
+        },
+        {
+          "lineId": "line-30",
+          "prompt": "{{q:42}}"
+        },
+        {
+          "lineId": "line-31",
+          "prompt": "{{q:43}} be with you"
+        },
+        {
+          "lineId": "line-32",
+          "prompt": "{{q:44}}, just like this"
+        },
+        {
+          "lineId": "line-33",
+          "prompt": "{{q:45}}"
+        },
+        {
+          "lineId": "line-34",
+          "prompt": "{{q:46}}"
+        },
+        {
+          "lineId": "line-35",
+          "prompt": "{{q:47}} in this moment"
+        },
+        {
+          "lineId": "line-36",
+          "prompt": "{{q:48}}"
+        },
+        {
+          "lineId": "line-37",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-38",
+          "prompt": "Yeah (Yeah)"
+        },
+        {
+          "lineId": "line-39",
+          "prompt": "Yeah!"
+        },
+        {
+          "lineId": "line-40",
+          "prompt": "{{q:49}}"
+        },
+        {
+          "lineId": "line-41",
+          "prompt": "Don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-42",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-43",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-44",
+          "prompt": "'Cause even when I dream of you (Even when I dream)"
+        },
+        {
+          "lineId": "line-45",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-46",
+          "prompt": "I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-47",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-48",
+          "prompt": "I don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-49",
+          "prompt": "I don't wanna fall asleep"
+        },
+        {
+          "lineId": "line-50",
+          "prompt": "'Cause I'd miss you, baby"
+        },
+        {
+          "lineId": "line-51",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-52",
+          "prompt": "'Cause even when I dream of you"
+        },
+        {
+          "lineId": "line-53",
+          "prompt": "The sweetest dream would never do"
+        },
+        {
+          "lineId": "line-54",
+          "prompt": "And I'd still miss you, baby"
+        },
+        {
+          "lineId": "line-55",
+          "prompt": "And I don't wanna miss a thing"
+        },
+        {
+          "lineId": "line-56",
+          "prompt": "Don't wanna close my eyes"
+        },
+        {
+          "lineId": "line-57",
+          "prompt": "{{q:50}}"
+        },
+        {
+          "lineId": "line-58",
+          "prompt": "I don't wanna miss a thing"
+        }
+      ]
+    }
+  ],
+  "timingSource": {
+    "method": "faster-whisper-word-alignment-with-targeted-section-review",
+    "audioSha256": "ab1e1769795bf545f29dbe0e931afef98e72e145653f0ab9572abd7bb7507bc7",
+    "duration": 298.76
+  },
+  "extensionProvenance": [
+    {
+      "section": "structure",
+      "filename": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+      "sha256": "8f5f0b27461c4175bed5681c15ad71c9f9b94aeafc2bc4a03d7831af29d5c28b"
+    },
+    {
+      "section": "advanced",
+      "filename": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+      "sha256": "2998bcd22a372feca1d5f62a8debad04135a06ea5425a1b8d537d6e81dd1cb12"
+    }
+  ],
+  "learning_sections": {
+    "structure": {
+      "version": 1,
+      "title": "句型研習",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "could + 原形動詞",
+          "meaning": "可以／願意做某事；依語境表示可能或假設的意願。",
+          "usage": "提出可能的做法、溫和提議或想像中的選擇。",
+          "prompt": "情境：志工活動 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I could planting trees on Sunday.",
+            "If the park needs help, I could plant some trees.",
+            "Yesterday I could planted some trees in the park.",
+            "I could to plant trees with the group."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：could 後不用 planting。",
+            "正確：could 後接 plant，溫和提出自己能幫忙。",
+            "錯誤：could 後不能接過去式 planted。",
+            "錯誤：could 後不加 to。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 1,
+          "cue": "I could stay awake（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] could [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：could 後接 plant，溫和提出自己能幫忙。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "stay + 形容詞",
+          "meaning": "保持某種狀態。",
+          "usage": "表示一種狀態持續不變。",
+          "prompt": "情境：夜間觀星 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The telescope stay quiet on the roof.",
+            "We stay quietly during the film.",
+            "The stars stay awake until morning.",
+            "Please stay quiet while the baby sleeps."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：單數主詞 telescope 應用 stays，且語境不自然。",
+            "錯誤：描述保持安靜的狀態，要用形容詞 quiet。",
+            "錯誤：星星不會像人一樣保持清醒。",
+            "正確：stay quiet 表示保持安靜。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 2,
+          "cue": "stay awake（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "stay [形容詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：stay quiet 表示保持安靜。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "just to + 原形動詞（目的）",
+          "meaning": "只是為了做某事。",
+          "usage": "強調某個動作背後的單一目的。",
+          "prompt": "情境：博物館展覽 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "They went to the museum just seeing a new show.",
+            "We arrived early just to see the new art.",
+            "We came early just to saw the paintings.",
+            "The museum opened early just to a new show."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：表示目的應用 just to see，而不是 just seeing。",
+            "正確：提早到場只是為了看新展覽。",
+            "錯誤：to 後不能接 saw。",
+            "錯誤：to 後需要動詞原形，不能直接接名詞。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 3,
+          "cue": "just to hear you breathing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[行動] just to [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：提早到場只是為了看新展覽。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "D",
+            "A"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "hear + 受詞 + -ing",
+          "meaning": "聽見某人或某物正在發出聲音。",
+          "usage": "強調聽到一個正在進行的動作。",
+          "prompt": "情境：森林散步 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I heard the birds singing in the trees yesterday.",
+            "I heard the birds to sing near the river.",
+            "I heard the birds sang near the river.",
+            "I heard the birds sings outside the tent."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：singing 描述聽見時鳥兒正在唱歌。",
+            "錯誤：這個結構不使用 to sing。",
+            "錯誤：不能直接用 sang 作受詞補語。",
+            "錯誤：此處不使用第三人稱 sings。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 4,
+          "cue": "hear you breathing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "hear [人／物] [V-ing]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：singing 描述聽見時鳥兒正在唱歌。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "watch + 受詞 + 原形動詞",
+          "meaning": "看著某人做某個動作。",
+          "usage": "強調觀看動作發生；與 watch + -ing 相關但本歌曲實際用原形 smile。",
+          "prompt": "情境：馬戲表演 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We watched the clown to jump over a box.",
+            "We watched the clown jumped over a box.",
+            "We watched the clown jumps over a box.",
+            "We watched the clown jump over a small box."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：watch 後在此不用 to jump。",
+            "錯誤：受詞補語不接 jumped。",
+            "錯誤：受詞補語不用 jumps。",
+            "正確：watch + clown + jump 與歌詞的原形動詞結構一致。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 5,
+          "cue": "Watch you smile（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "watch [人／物] [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：watch + clown + jump 與歌詞的原形動詞結構一致。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "while + 主詞 + be + -ing",
+          "meaning": "當某人正在做某件事時。",
+          "usage": "描述兩件事同時間發生。",
+          "prompt": "情境：廚房料理 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "While Dad was cooking, I washed the cups.",
+            "While Dad cooking, I washed the cups.",
+            "While Dad were cooking, I washed the cups.",
+            "While Dad was cook, I washed the cups."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：while 引出的過去進行式表示爸爸煮飯的同時。",
+            "錯誤：was cooking 不可省略 was。",
+            "錯誤：Dad 為單數，應用 was。",
+            "錯誤：was 後應用 cooking。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 6,
+          "cue": "while you are sleeping（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "while [主詞] [be] [V-ing]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：while 引出的過去進行式表示爸爸煮飯的同時。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "spend + 時間 + in + 名詞",
+          "meaning": "把時間花在某種狀態或環境中。",
+          "usage": "敘述長時間身處某個地方或狀態；不是 spend + 錢購物。",
+          "prompt": "情境：海邊小屋 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We spent a week in a small cabin by the sea.",
+            "We spent a week at happy in the cabin.",
+            "We spent a week to the small cabin.",
+            "We spent a week in to a small cabin."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：spend a week in … 表示在小屋度過一週。",
+            "錯誤：happy 不能這樣接在 at 後面。",
+            "錯誤：這裡表示身處地點，不用 to。",
+            "錯誤：in to 不能在此取代 in。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 7,
+          "cue": "spend my life in this sweet surrender（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "spend [時間] in [狀態／場所]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：spend a week in … 表示在小屋度過一週。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 8,
+          "word": "stay + 過去分詞（狀態）",
+          "meaning": "一直處於某個結果狀態。",
+          "usage": "描述某狀態未改變；lost 在此是形容詞性分詞。",
+          "prompt": "情境：迷宮遊戲 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The player stayed confusing after reading the map.",
+            "The player stayed confused until she found the exit.",
+            "The player stayed confuse after reading the map.",
+            "The player stayed to confuse for ten minutes."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：confusing 表示令人困惑，不是自己感到困惑。",
+            "正確：stayed confused 表示她一直處於困惑狀態。",
+            "錯誤：應使用 confused 描述人的狀態。",
+            "錯誤：stay 不接 to confuse 表示維持狀態。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 8,
+          "cue": "stay lost（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "stay [過去分詞作形容詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：stayed confused 表示她一直處於困惑狀態。",
+          "sourceOptionOrder": [
+            "B",
+            "C",
+            "A",
+            "D"
+          ]
+        },
+        {
+          "number": 9,
+          "word": "where + 子句（描述情境／地方）",
+          "meaning": "在那裡／在那樣的情境下……。",
+          "usage": "描述某個地方或前文提到的情境；本句為承接前文的抒情片段。",
+          "prompt": "情境：社區花園 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "This is the garden where our club meets every Friday.",
+            "This is the garden where meets our club every Friday.",
+            "This is the garden where our club meeting Friday.",
+            "This is the garden where does our club meet Friday."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：where 後接正常陳述語序的子句。",
+            "錯誤：where 引導關係子句時不用問句倒裝。",
+            "錯誤：子句缺少動詞 is／meets。",
+            "錯誤：關係子句內不使用 does 問句語序。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 9,
+          "cue": "Where every moment spent with you is a moment I treasure（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "where [完整子句]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：where 後接正常陳述語序的子句。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 10,
+          "word": "過去分詞修飾名詞",
+          "meaning": "被……的某個人／物；補充名詞資訊。",
+          "usage": "以省略關係代名詞及 be 的分詞片語修飾名詞。",
+          "prompt": "情境：相片展 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The photos were took by Mia are on the wall.",
+            "The photos taking by Mia are on the wall.",
+            "The photos taken by Mia are on the wall.",
+            "The photos took by Mia are on the wall."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：were took 既不符合分詞修飾語也不符合被動形式。",
+            "錯誤：表示照片被拍，應用 taken。",
+            "正確：taken by Mia 修飾 photos，表照片由 Mia 拍攝。",
+            "錯誤：took 是過去式，不是過去分詞。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 10,
+          "cue": "moment spent with you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[名詞] [過去分詞片語]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：taken by Mia 修飾 photos，表照片由 Mia 拍攝。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "D",
+            "B"
+          ]
+        },
+        {
+          "number": 11,
+          "word": "名詞 + 省略關係代名詞的子句",
+          "meaning": "我所……的某樣事物。",
+          "usage": "關係代名詞在受詞位置可省略；不是憑空添加另一種子句。",
+          "prompt": "情境：舊書市集 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "This is the book I buying at the market.",
+            "This is the book I bought it at the market.",
+            "This is the book bought I at the market.",
+            "This is the book I bought at the market."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：I buying 缺少助動詞，且不能表示已買下。",
+            "錯誤：book 已是 bought 的受詞，不要再加 it。",
+            "錯誤：關係子句應使用陳述句語序。",
+            "正確：book 後的 I bought 是省略受詞關係代名詞的修飾子句。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 11,
+          "cue": "a moment I treasure（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[名詞] [主詞] [動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：book 後的 I bought 是省略受詞關係代名詞的修飾子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 12,
+          "word": "don’t want to + 原形動詞（歌詞 wanna）",
+          "meaning": "不想做某件事。",
+          "usage": "日常意願的否定；wanna 是歌詞口語寫法，不新增另一題。",
+          "prompt": "情境：陶藝體驗 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I do not want to making another bowl today.",
+            "I do not want making another bowl today.",
+            "I do not want make another bowl today.",
+            "I do not want to make another bowl today."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：to 後應用 make，不是 making。",
+            "錯誤：want 後需接 to + 原形動詞。",
+            "錯誤：want 後缺少 to。",
+            "正確：want to make 表示不想再做一個碗。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 12,
+          "cue": "I don't wanna fall asleep（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] don't/doesn't want to [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：want to make 表示不想再做一個碗。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 13,
+          "word": "would + 原形動詞（假設結果）",
+          "meaning": "在想像的情況下會……。",
+          "usage": "描述某條件成立時的想像結果；歌中常省略已知條件。",
+          "prompt": "情境：露營選擇 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Without a map, we would got lost.",
+            "Without a map, we would getting lost.",
+            "Without a map, we would get lost.",
+            "Without a map, we would to get lost."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：would 後不接 got。",
+            "錯誤：would 後應用 get。",
+            "正確：沒有地圖的假設下，可能會迷路。",
+            "錯誤：would 後不加 to。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 13,
+          "cue": "I'd miss you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] would [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：沒有地圖的假設下，可能會迷路。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "C",
+            "B"
+          ]
+        },
+        {
+          "number": 14,
+          "word": "even when + 子句",
+          "meaning": "即使在……的時候，仍然……。",
+          "usage": "表達某件事在特定時間發生，也不能改變另一個結果。",
+          "prompt": "情境：跑步訓練 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Even when does it rain, the team trains inside.",
+            "Even when it rains, the team trains inside.",
+            "Even when raining, the team trains inside.",
+            "Even when it rain, the team trains inside."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：even when 子句不使用問句倒裝。",
+            "正確：即使下雨，隊伍仍在室內練習。",
+            "錯誤：本題採用歌詞完整子句形式，缺少 it 的句子不符合所測框架。",
+            "錯誤：it 後動詞應用 rains。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 14,
+          "cue": "even when I dream of you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "even when [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：即使下雨，隊伍仍在室內練習。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 15,
+          "word": "最高級形容詞 + 名詞",
+          "meaning": "最……的某個東西。",
+          "usage": "在一組可能的事物中表達程度最高者。",
+          "prompt": "情境：冰品店 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "It is the most sweetest ice cream in the shop.",
+            "It is the sweet ice cream in the shop.",
+            "It is the sweetest ice cream in the shop.",
+            "It is the more sweet ice cream in the shop."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：most 與 sweetest 不可重複標示最高級。",
+            "錯誤：這裡要表示最甜，不能只用 sweet。",
+            "正確：sweetest 為 sweet 的最高級。",
+            "錯誤：more sweet 表比較級，不是最高級。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 15,
+          "cue": "The sweetest dream（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "the [最高級形容詞] [名詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：sweetest 為 sweet 的最高級。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 16,
+          "word": "would never + 原形動詞",
+          "meaning": "在假設下絕不會／終究無法……。",
+          "usage": "強烈否定想像情境的某種結果；歌中的 do 有「夠好／管用」之意。",
+          "prompt": "情境：修理工具 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "That tiny brush would never to clean the whole wall.",
+            "That tiny brush would never cleans the whole wall.",
+            "That tiny brush would never cleaned the whole wall.",
+            "That tiny brush would never clean the whole wall."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：would 後不加 to。",
+            "錯誤：would 後不用第三人稱單數 cleans。",
+            "錯誤：would 後不用過去式。",
+            "正確：表示那把小刷子根本無法清潔整面牆。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 16,
+          "cue": "would never do（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] would never [原形動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：表示那把小刷子根本無法清潔整面牆。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 17,
+          "word": "lie + 地點副詞片語（-ing 片段）",
+          "meaning": "正躺在某個地方／某人附近。",
+          "usage": "歌曲使用 -ing 片段描寫背景，並非完整主句；lie 是躺下，不是 lay 放置。",
+          "prompt": "情境：草地野餐 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The children were laying on the grass to watch clouds.",
+            "The children were lying on the grass to watch clouds.",
+            "The children were lie on the grass to watch clouds.",
+            "The children were lies on the grass to watch clouds."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：laying 一般要接受詞，表示把東西放下。",
+            "正確：were lying 表示孩子們當時躺在草地上。",
+            "錯誤：were 後需要 lying。",
+            "錯誤：were 後不能接 lies。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 17,
+          "cue": "Lying close to you（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "lying [地點片語]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：were lying 表示孩子們當時躺在草地上。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 18,
+          "word": "feel + 受詞 + -ing",
+          "meaning": "感受到某人／某物正在……。",
+          "usage": "直接感知一個持續進行的動作。",
+          "prompt": "情境：地鐵月台 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I felt the train to shake as it passed.",
+            "I felt the train shakes as it passed.",
+            "I felt the train shook as it passed.",
+            "I felt the train shaking as it passed."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：此處感官結構不使用 to shake。",
+            "錯誤：此處不用 shakes 作受詞補語。",
+            "錯誤：此處不用 shook 作受詞補語。",
+            "正確：shaking 表示當時感受到列車正在震動。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 18,
+          "cue": "feeling your heart beating（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "feel [人／物] [V-ing]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：shaking 表示當時感受到列車正在震動。",
+          "sourceOptionOrder": [
+            "B",
+            "D",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 19,
+          "word": "wonder + what 間接問句",
+          "meaning": "想知道某人正在想甚麼／做甚麼。",
+          "usage": "好奇某個問題時，在 wonder 後使用陳述句語序。",
+          "prompt": "情境：猜謎派對 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "I wonder what does Leo draw.",
+            "I wonder what drawing Leo is.",
+            "I wonder what Leo is drawing.",
+            "I wonder what is Leo drawing."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：間接問句不使用 does 問句語序。",
+            "錯誤：詞序不正確，應將 drawing 放在 is 後。",
+            "正確：what Leo is drawing 使用陳述句語序。",
+            "錯誤：間接問句不用 is Leo 的倒裝。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 19,
+          "cue": "I'm wondering what you're dreaming（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "wonder [what + 主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：what Leo is drawing 使用陳述句語序。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "B",
+            "A"
+          ]
+        },
+        {
+          "number": 20,
+          "word": "wonder + if 間接是非問句",
+          "meaning": "想知道是否……。",
+          "usage": "對一件是或否的事情感到好奇。",
+          "prompt": "情境：科學實驗 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We wonder if the plant will grow here.",
+            "We wonder if does the plant grow here.",
+            "We wonder if the plant grow here tomorrow.",
+            "We wonder if will the plant grow here."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：wonder if 接完整陳述語序的子句。",
+            "錯誤：間接問句不使用 does 倒裝。",
+            "錯誤：這裡主詞 plant 是單數且時間是 tomorrow，應有合適動詞形式。",
+            "錯誤：if 後應使用 the plant will 的陳述句語序。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 20,
+          "cue": "Wondering if it's me you're seeing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "wonder if [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：wonder if 接完整陳述語序的子句。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "C",
+            "A"
+          ]
+        },
+        {
+          "number": 21,
+          "word": "it is + 強調對象 + 省略關係代名詞子句",
+          "meaning": "正是……（被強調者）。",
+          "usage": "把特別重要的對象放在 it is 後；歌詞的受詞關係代名詞省略。",
+          "prompt": "情境：秘密禮物 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "It was her I was looking for, not her brother.",
+            "It was her was I looking for, not her brother.",
+            "It was her I was looking her for, not her brother.",
+            "It was her I looking for, not her brother."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：it was her … 強調我尋找的正是她。",
+            "錯誤：強調句後的子句不倒裝。",
+            "錯誤：her 已被提出強調，後面不需再加 her 作重複受詞。",
+            "錯誤：I looking 缺少 was。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 21,
+          "cue": "it's me you're seeing（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "it is [被強調的人／物] [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：it was her … 強調我尋找的正是她。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 22,
+          "word": "thank God + 子句（固定感嘆語）",
+          "meaning": "謝天謝地，幸好……。",
+          "usage": "對令人安心的結果表達感激；歌詞是宗教色彩的感嘆用法。",
+          "prompt": "情境：露天音樂會 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Thank God for the rain stopped before the show.",
+            "Thank God the rain to stop before the show.",
+            "Thank God the rain stopped before the show.",
+            "Thank God stopped the rain before the show."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：for 後不能直接接 the rain stopped 完整子句。",
+            "錯誤：the rain to stop 不構成完整子句。",
+            "正確：thank God 後接完整子句，表示慶幸雨停了。",
+            "錯誤：不能把 God stopped the rain 當作此處的慶幸子句語序。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 22,
+          "cue": "thank God we're together（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "thank God [主詞 + 動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：thank God 後接完整子句，表示慶幸雨停了。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 23,
+          "word": "so + 形容詞 + to + 代名詞",
+          "meaning": "與某個對象如此接近。",
+          "usage": "形容距離或關係的程度；mine 是所有格代名詞。",
+          "prompt": "情境：地圖方位 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "The cabin is so closely to our camp.",
+            "The cabin is so close mine.",
+            "The cabin is so close to our camp.",
+            "The cabin is so close at our camp."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：closely 通常是副詞，這裡應用形容詞 close。",
+            "錯誤：close 後需要 to。",
+            "正確：so close to 表示與營地非常接近。",
+            "錯誤：表達相近應用 to，不是 at。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 23,
+          "cue": "so close to mine（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "so [形容詞] to [對象]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：so close to 表示與營地非常接近。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 24,
+          "word": "just like + 名詞／代名詞",
+          "meaning": "就像……一樣。",
+          "usage": "拿眼前的人、動作或方式作比較。",
+          "prompt": "情境：紙模型 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Fold the paper just like is this.",
+            "Fold the paper just like this, with two small corners.",
+            "Fold the paper just like to this.",
+            "Fold the paper just like this one is."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：just like 後不能接 is this 倒裝。",
+            "正確：just like this 指照示範的方式摺紙。",
+            "錯誤：like 後面不需要 to。",
+            "錯誤：此處只需 this，不必接 one is。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 24,
+          "cue": "just like this（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "just like [名詞／代名詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：just like this 指照示範的方式摺紙。",
+          "sourceOptionOrder": [
+            "C",
+            "A",
+            "B",
+            "D"
+          ]
+        },
+        {
+          "number": 25,
+          "word": "for the rest of + 時間",
+          "meaning": "在剩餘的整段時間裡。",
+          "usage": "表示之後餘下的時間；歌詞把時間延伸到永遠。",
+          "prompt": "情境：班級旅行 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "We sat in silence for the rest of the trip.",
+            "We sat in silence for the rests of the trip.",
+            "We sat in silence for the rest to the trip.",
+            "We sat in silence for rest of the trip."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：for the rest of the trip 指旅途中剩下的時間。",
+            "錯誤：固定片語使用 rest 而非 rests。",
+            "錯誤：rest 後接 of，不是 to。",
+            "錯誤：這個片語通常要有 the。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 25,
+          "cue": "For all the rest of time（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "for [all] the rest of [時間]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：for the rest of the trip 指旅途中剩下的時間。",
+          "sourceOptionOrder": [
+            "C",
+            "D",
+            "A",
+            "B"
+          ]
+        },
+        {
+          "number": 26,
+          "word": "and + 兩個現在式動詞並列",
+          "meaning": "同一主詞做兩件事情。",
+          "usage": "敘述同一個人連續或並列進行的動作，第二個動詞可不重複主詞。",
+          "prompt": "情境：圖書館活動 ｜請選出最符合本題結構、語意及情境的一句。",
+          "options": [
+            "Nora opens the book and read the first page.",
+            "Nora opens the book and reads the first page.",
+            "Nora opens the book and reading the first page.",
+            "Nora opens the book and to read the first page."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：Nora 是單數，後一動詞亦應用 reads。",
+            "正確：opens 和 reads 是同一單數主詞的並列現在式。",
+            "錯誤：and 後形式要與 opens 協調。",
+            "錯誤：這裡不使用 to read。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_Sentence_Structure_Lab_SOURCE_VERIFIED.md",
+          "sourceItem": 26,
+          "cue": "I kiss your eyes and thank God（PDF 歌詞，第 2–3 頁）",
+          "pattern": [
+            {
+              "text": "[主詞] [動詞] and [動詞]",
+              "fixed": true
+            },
+            {
+              "text": "換入不同人、動作、時間或情境。",
+              "fixed": false
+            }
+          ],
+          "explanation": "正確：opens 和 reads 是同一單數主詞的並列現在式。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        }
+      ]
+    },
+    "advanced": {
+      "version": 1,
+      "title": "進階字彙",
+      "note": "依提供的核對版材料編排；保留原有教學範圍。",
+      "questions": [
+        {
+          "number": 1,
+          "word": "breathing",
+          "meaning": "呼吸；breathing 是 breathe（呼吸）的 -ing 形式",
+          "usage": "談人或動物正在呼吸，以及呼吸聲、速度或方式時使用。",
+          "prompt": "哪一句正確使用「breathing」？",
+          "options": [
+            "The painter heard breathing from the empty jar on the desk.",
+            "The driver used breathing to turn the car left.",
+            "The doctor checked that the baby was breathing well.",
+            "The singer put breathing inside her blue backpack."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：空罐子本身不會呼吸；若是有人躲在罐子旁，應交代清楚。",
+            "錯誤：轉彎靠方向盤，不是靠 breathing。",
+            "正確：醫師確認寶寶呼吸正常，使用 breathing 自然。",
+            "錯誤：呼吸不是能放進背包裡的實體物品。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 1,
+          "explanation": "正確：醫師確認寶寶呼吸正常，使用 breathing 自然。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 2,
+          "word": "surrender",
+          "meaning": "投降；放棄抵抗或控制（較正式、強烈）",
+          "usage": "戰爭、競賽中投降；也可比喻不再抗拒某種情感，歌詞屬詩意用法。",
+          "prompt": "哪一句正確使用「surrender」？",
+          "options": [
+            "After losing the match, our coach surrendered his lunch.",
+            "The river surrendered its water to a small blue clock.",
+            "The chef surrendered the bread until it became very hot.",
+            "The team refused to surrender despite being far behind."
+          ],
+          "answer": 3,
+          "optionExplanations": [
+            "錯誤：輸球不必然表示把午餐「投降」出去，缺少合理對象。",
+            "錯誤：河流和時鐘之間沒有自然的 surrender 關係。",
+            "錯誤：把麵包烤熱應說 baked，不是 surrendered。",
+            "正確：球隊即使大幅落後仍拒絕認輸，搭配自然。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 2,
+          "explanation": "正確：球隊即使大幅落後仍拒絕認輸，搭配自然。",
+          "sourceOptionOrder": [
+            "A",
+            "B",
+            "D",
+            "C"
+          ]
+        },
+        {
+          "number": 3,
+          "word": "would never do",
+          "meaning": "絕對不行；不符合需要、不夠好（do＝夠用、合適）",
+          "usage": "評估方案、替代品或方法能否滿足需求時使用，常見 That won’t do。",
+          "prompt": "哪一句正確使用「would never do」？",
+          "options": [
+            "This tiny chair would never do for a very tall guest.",
+            "That song would never do into my school locker.",
+            "The new plan would never do the bus at seven every morning.",
+            "My red pencil would never do because it is red."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：椅子太小，不適合高個子的客人；do 表示「合用」。",
+            "錯誤：這裡不能用 would never do into 表示收納歌曲。",
+            "錯誤：do 不能這樣直接接 the bus 來表示搭車。",
+            "錯誤：紅色本身不代表鉛筆不合用，缺乏理由。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 3,
+          "explanation": "正確：椅子太小，不適合高個子的客人；do 表示「合用」。",
+          "sourceOptionOrder": [
+            "A",
+            "D",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 4,
+          "word": "lying",
+          "meaning": "躺著（lie 的 -ing 形式）；另有「說謊」之義",
+          "usage": "描述人或動物躺在某處；須由上下文分辨與說謊的意思。",
+          "prompt": "哪一句正確使用「lying」？",
+          "options": [
+            "My dog was lying by the door after a long walk.",
+            "The boy was lying a new lamp beside the sofa all evening.",
+            "The singer was lying the window to let air in.",
+            "The cat was lying to the bakery for some bread."
+          ],
+          "answer": 0,
+          "optionExplanations": [
+            "正確：狗散步後躺在門旁，lying 表示躺著。",
+            "錯誤：表示放置檯燈，應用 laying / putting；lying 不直接接物品。",
+            "錯誤：開窗應說 opening the window，不是 lying the window。",
+            "錯誤：若指前往麵包店，應用 going；lying to 在此不是移動。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 4,
+          "explanation": "正確：狗散步後躺在門旁，lying 表示躺著。",
+          "sourceOptionOrder": [
+            "D",
+            "A",
+            "B",
+            "C"
+          ]
+        },
+        {
+          "number": 5,
+          "word": "beating",
+          "meaning": "（心臟）跳動；（鼓）敲擊，beat 的 -ing 形式",
+          "usage": "說明心跳或鼓聲時使用；本歌的 heart beating 是心臟跳動。",
+          "prompt": "哪一句正確使用「beating」？",
+          "options": [
+            "The pilot was beating the ticket to fly to Japan.",
+            "The nurse could hear the patient’s heart beating.",
+            "The drummer was beating her bag to send an email.",
+            "The waiter was beating the table to make soup cold."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：搭機需要機票，但 beating the ticket 不是自然說法。",
+            "正確：護理師聽見病人的心跳；heart beating 搭配自然。",
+            "錯誤：敲打包包不會寄出電子郵件；send an email 才是動作。",
+            "錯誤：敲桌子不會讓湯變涼，目的與動作不符。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 5,
+          "explanation": "正確：護理師聽見病人的心跳；heart beating 搭配自然。",
+          "sourceOptionOrder": [
+            "D",
+            "B",
+            "A",
+            "C"
+          ]
+        },
+        {
+          "number": 6,
+          "word": "thank God",
+          "meaning": "謝天謝地；感謝上天（依語境可為宗教或感嘆語）",
+          "usage": "因結果令人安心或慶幸而表達感謝；口語裡也可不帶宗教意味。",
+          "prompt": "哪一句正確使用「thank God」？",
+          "options": [
+            "She thanked God her shoes into the kitchen after lunch.",
+            "Thank God the bus came before the heavy rain began.",
+            "The teacher thank God the window at half past nine.",
+            "He put thank God on his coat before leaving home."
+          ],
+          "answer": 1,
+          "optionExplanations": [
+            "錯誤：thank God 不能這樣代替「把鞋子放進」的動詞。",
+            "正確：大雨前公車來了，說「謝天謝地」自然。",
+            "錯誤：此處沒有合理的感謝內容，也不符合自然句型。",
+            "錯誤：thank God 不是可以穿在外套上的物品。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 6,
+          "explanation": "正確：大雨前公車來了，說「謝天謝地」自然。",
+          "sourceOptionOrder": [
+            "B",
+            "A",
+            "C",
+            "D"
+          ]
+        },
+        {
+          "number": 7,
+          "word": "forever and ever",
+          "meaning": "永永遠遠；強烈強調沒有終點（常見於歌詞、誓言）",
+          "usage": "表達很長久或永遠不變的情感、承諾，語氣比 forever 更強烈。",
+          "prompt": "哪一句正確使用「forever and ever」？",
+          "options": [
+            "The shop sold forever and ever for three dollars.",
+            "The dog will be forever and ever under the chair since yesterday morning.",
+            "In the story, the two friends stayed close forever and ever.",
+            "The clock was forever and ever at exactly six."
+          ],
+          "answer": 2,
+          "optionExplanations": [
+            "錯誤：這是時間副詞片語，不是可以販賣的商品。",
+            "錯誤：forever and ever 與昨天的限定時間矛盾。",
+            "正確：故事中朋友永遠保持親密，適合抒情敘事語境。",
+            "錯誤：片語不能當作特定鐘點使用。"
+          ],
+          "sourceFile": "I_Dont_Want_To_Miss_A_Thing_B1-C2_Advanced_Vocabulary_Quiz_VERIFIED.md",
+          "sourceItem": 7,
+          "explanation": "正確：故事中朋友永遠保持親密，適合抒情敘事語境。",
+          "sourceOptionOrder": [
+            "A",
+            "C",
+            "D",
+            "B"
+          ]
+        }
+      ]
+    }
+  }
+}
