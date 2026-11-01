@@ -17034,19 +17034,27 @@
       }
     }
 
-    let warmSpeechAudio = null;
-    let warmSpeechPath = "";
+    const warmSpeechCache = new Map();
     function warmCurrentCardAudio() {
-      const expected = normalizedSpeechText(currentCard()?.front || "");
-      if (!expected) return;
+      const card = currentCard();
+      if (!card) return;
+      const position = studySession.currentPosition;
+      const nextIndex = studySession.roundQueue.slice(position + 1).find(index => !studySession.answers[index]);
+      const terms = [card.front, nextIndex == null ? "" : studySession.cards[nextIndex]?.front].map(normalizedSpeechText).filter(Boolean);
       void ensureFlashcardAudioManifest().then(() => {
-        if (normalizedSpeechText(currentCard()?.front || "") !== expected) return;
-        const path = neuralAudioPathForText(expected);
-        if (!path || warmSpeechPath === path) return;
-        warmSpeechAudio = new Audio(window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path);
-        warmSpeechAudio.preload = "auto";
-        warmSpeechAudio.load();
-        warmSpeechPath = path;
+        if (currentCard() !== card) return;
+        for (const term of terms) {
+          const path = neuralAudioPathForText(term);
+          if (!path || warmSpeechCache.has(path)) continue;
+          const audio = new Audio(window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path);
+          audio.preload = "auto";
+          audio.load();
+          warmSpeechCache.set(path, audio);
+        }
+        while (warmSpeechCache.size > 3) {
+          const [oldPath, oldAudio] = warmSpeechCache.entries().next().value;
+          oldAudio.pause(); oldAudio.removeAttribute("src"); oldAudio.load(); warmSpeechCache.delete(oldPath);
+        }
       }).catch(error => console.warn("Audio preload unavailable:", error));
     }
 
@@ -17089,8 +17097,8 @@
 
       stopNeuralSpeech({ refresh: false });
       const requestId = ++activeSpeechRequestId;
-      const audio = warmSpeechPath === path && warmSpeechAudio ? warmSpeechAudio : (activeSpeechAudio || new Audio());
-      warmSpeechAudio = null; warmSpeechPath = "";
+      const audio = warmSpeechCache.get(path) || activeSpeechAudio || new Audio();
+      warmSpeechCache.delete(path);
       activeSpeechAudio = audio;
       audio.preload = "auto";
       audio.src = window.EDMUND_AUDIO_URL ? window.EDMUND_AUDIO_URL(path) : path;
