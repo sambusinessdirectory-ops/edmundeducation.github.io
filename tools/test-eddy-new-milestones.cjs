@@ -5,12 +5,12 @@ const path = require('node:path');
 const { chromium } = require(process.env.PLAYWRIGHT_MODULE || path.join(process.env.HOME, '.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright'));
 const root = path.resolve(__dirname, '..');
 const server = http.createServer((request, response) => {
-  if (request.url === '/') {
+  if (request.url === '/' || request.url === '/only') {
     response.writeHead(200, { 'content-type': 'text/html; charset=utf-8' });
     response.end(`<!doctype html><meta name="viewport" content="width=device-width,initial-scale=1">
       <link rel="stylesheet" href="/eddy-first-question-dialogue.css"><link rel="stylesheet" href="/eddy-five-streak-dialogue.css"><link rel="stylesheet" href="/eddy-student-progress-dialogue.css">
       <section data-view="dashboard"></section><button id="focus">Focus</button>
-      <script src="/eddy-five-streak-dialogue.js"></script><script src="/eddy-student-progress-dialogue.js"></script>`);
+      <script src="/eddy-five-streak-dialogue.js" ${request.url === '/only' ? 'data-eddy-min-streak="30"' : ''}></script><script src="/eddy-student-progress-dialogue.js"></script>`);
     return;
   }
   const file = path.join(root, decodeURIComponent(request.url.split('?')[0].slice(1)));
@@ -48,6 +48,12 @@ const server = http.createServer((request, response) => {
     await progress.waitFor({ state: 'detached' });
     await page.evaluate(() => document.dispatchEvent(new CustomEvent('edmund:student-progress-opened', { detail: { studentId: 'student-1' } })));
     assert.equal(await progress.count(), 0, 'progress greeting appears once per student session');
+    await page.goto(`http://127.0.0.1:${server.address().port}/only`);
+    await page.evaluate(() => document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', { detail: { scope: 'other-mc', correct: true, streak: 5 } })));
+    assert.equal(await page.locator('.eddy-five-streak-overlay').count(), 0, 'additional MC systems skip older milestones');
+    await page.evaluate(() => document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', { detail: { scope: 'other-mc', correct: true, streak: 30 } })));
+    await page.locator('.eddy-five-streak-overlay').waitFor();
+    assert.equal(await page.locator('.eddy-five-streak-overlay img').getAttribute('src'), 'eddy-thirty-streak-alien.png');
     console.log('Correct streak and progress greeting browser checks passed.');
   } finally { await browser.close(); server.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; });

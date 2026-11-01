@@ -45,6 +45,7 @@
     '這座「努力獎」獎盃就送給您吧！下次一定會更順利的……大概啦！'
   ];
   const keyPrefix = 'edmund-eddy-five-streak-v1:';
+  const minimumMilestone = Number(document.currentScript?.dataset?.eddyMinStreak) || 0;
   const counts = new Map();
   const pending = [];
   let overlay = null;
@@ -162,13 +163,13 @@
     const previous = Number.isInteger(previousStreak) && previousStreak >= 0 ? previousStreak : countFor(scope);
     const next = Number.isInteger(streak) && streak >= 0 ? streak : correct ? previous + 1 : 0;
     remember(scope, next);
-    if (correct && milestones.has(next)) {
+    if (correct && next >= minimumMilestone && milestones.has(next)) {
       const milestone = milestones.get(next);
       pending.push(milestone.random
         ? { art: milestone.art, lines: [milestone.lines[Math.floor(Math.random() * milestone.lines.length)]] }
         : milestone);
       schedule();
-    } else if (!correct && previous >= 10) {
+    } else if (!correct && minimumMilestone === 0 && previous >= 10) {
       pending.push({ art: 'eddy-lost-streak-dialogue.png', lines: [lostStreakLines[Math.floor(Math.random() * lostStreakLines.length)]] });
       schedule();
     }
