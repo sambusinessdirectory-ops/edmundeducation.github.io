@@ -1,6 +1,8 @@
 import assert from 'node:assert/strict';
 import fs from 'node:fs';
 import {data,calculate} from '../ielts-chart-teaching/data.mjs';
+import {sourceSpecs} from '../ielts-chart-teaching/source-specs.mjs';
+import {interactiveDiagrams} from '../ielts-chart-teaching/interactive-diagrams.mjs';
 assert.equal(data.length,10);assert.equal(data.flatMap(row=>row.slice(1)).length,20);
 assert.deepEqual(data[0],['China',5398,5322]);assert.deepEqual(data[8],['Germany',526.6,582.5]);
 assert.equal(calculate([5398,5322],['-']).value,76);
@@ -14,3 +16,21 @@ assert(fs.readFileSync('index.html','utf8').includes('href="ielts-chart-teaching
 assert(fs.readFileSync('shared-system-nav.js','utf8').includes('en: "IELTS Chart Studio", homepageCard: 79'));
 console.log('PASS: supplied dataset, arithmetic, rounding, invalid arithmetic, homepage integration');
 await import('../ielts-chart-teaching/validate-reconstructions.mjs');
+
+// These values and regions were checked against the published Task 1 figures.
+assert.deepEqual(sourceSpecs['T1-012'].ticks,[0,1000,2000,3000,4000,5000,6000,7000,8000,9000]);
+assert.deepEqual(sourceSpecs['T1-011'].lines,[['dash','circle-open'],['solid','circle'],['solid','cross']]);
+assert.deepEqual(sourceSpecs['T1-015'].ticks,[0,2,4,6,8,10,12]);
+assert.deepEqual(sourceSpecs['T1-057'].panels[0].ticks,[10,20,30,40,50,60,70]);
+for(const id of ['T1-018','T1-019','T1-022','T1-023'])assert(sourceSpecs[id].pieColumns>1);
+const ring=interactiveDiagrams['T1-039'].zones.find(zone=>zone.key==='route-0-0');
+assert(ring?.path?.includes('Z')&&ring.path.startsWith('M 28 2 H 54'));
+const island=interactiveDiagrams['T1-042'].zones.find(zone=>zone.key==='route-0-0');
+assert(island?.label.includes('Sea')&&!island.path);
+const sports=interactiveDiagrams['T1-040'].zones.find(zone=>zone.key==='place-0-0');
+assert.equal(sports?.label,'Present · Outdoor courts (west)');
+assert(sports.x<30&&sports.y>30);
+assert(!interactiveDiagrams['T1-040'].zones.some(zone=>zone.label.startsWith('The plans below')));
+assert(!interactiveDiagrams['T1-032'].zones.some(zone=>zone.label==='Finished concrete'));
+console.log('PASS: printed chart specifications and original-diagram regions');
+for(let n=33;n<=42;n++){const id=`T1-${String(n).padStart(3,'0')}`;assert(!interactiveDiagrams[id].zones.some(zone=>zone.key?.startsWith('text-')),`${id}: overlapping map text target`);}

@@ -1,8 +1,8 @@
 import {installVocabulary} from './vocabulary.mjs?v=20261031-6';
 import {data,palette,title,format,calculate} from './data.mjs';
-import {reconstructions} from './reconstructions.mjs';
-import {renderReconstruction} from './reconstruction-renderer.mjs';
-import {renderInteractiveDiagram} from './interactive-diagram-renderer.mjs';
+import {reconstructions} from './reconstructions.mjs?v=20261101-5';
+import {renderReconstruction} from './reconstruction-renderer.mjs?v=20261101-5';
+import {renderInteractiveDiagram} from './interactive-diagram-renderer.mjs?v=20261101-5';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 const imageUrl=path=>/^https?:\/\//i.test(path)?path:`/${String(path).replace(/^\/+/, '')}`;
 const electricityKey='edmund-chart-studio-electricity-v1:'+window.chartStudentId;
@@ -55,7 +55,7 @@ function buildChart(){
   $('#chart-title').innerHTML=renderPrompt(currentQuestion.quizPrompt||currentQuestion.prompt);
   const originalDiagram=reconstruction.kind==='process'||reconstruction.kind==='map';
   $('#chart').dataset.view=originalDiagram?'diagram':'reconstruction';
-  $('#chart').innerHTML=originalDiagram?renderInteractiveDiagram(currentQuestion,imageUrl(currentQuestion.image),numbers,esc):renderReconstruction(reconstruction,numbers,esc,format);
+  $('#chart').innerHTML=originalDiagram?renderInteractiveDiagram(currentQuestion,imageUrl(currentQuestion.image),numbers,esc):renderReconstruction({...reconstruction,id:currentQuestion.id},numbers,esc,format);
   $('#image-points').hidden=true;$('#image-view-controls').hidden=true;return;
  }
  if(currentQuestion.id!=='T1-005')throw new Error(`Missing interactive reconstruction for ${currentQuestion.id}`);

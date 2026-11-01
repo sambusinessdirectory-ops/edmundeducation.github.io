@@ -1,4 +1,4 @@
-import {interactiveDiagrams} from './interactive-diagrams.mjs';
+import {interactiveDiagrams} from './interactive-diagrams.mjs?v=20261101-5';
 
 export function renderInteractiveDiagram(question,image,numbers,esc){
  const diagram=interactiveDiagrams[question.id];

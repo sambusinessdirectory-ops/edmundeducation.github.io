@@ -80,7 +80,7 @@
     },
     {
       icon: '▤', title: '拆解與運用句型', en: 'SENTENCE STRUCTURES', description: '逐句查看原文、中文和實際句型；辨認每句的語意連接方式。',
-      rounds: support.structures.map(frame => ({ ...frame, type: 'structure', prompt: frame.context, why: frame.explanations[0] })),
+      rounds: support.structures.map(frame => ({ ...frame, type: 'structure', prompt: frame.prompt || frame.context, why: frame.explanations[0] })),
     },
     {
       icon: '✦', title: '原文重組', en: 'EXACT WORDING', description: '依照上一關的整段句序，逐句把英文小節拼回精確原文。',
@@ -365,7 +365,7 @@
   }
   function renderStructure(item) {
     const source = sentences.find(s=>s.paragraph===item.source.paragraph-1 && s.index===item.source.sentence-1);
-    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><p class="structure-translation" lang="zh-Hant">${escapeHtml(source.chinese)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${escapeHtml(p.label || (p.kind==='slot'?'原句內容':'連接詞'))}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">比較四句的語意關係；選出符合這個句型的一句。</p>`;
+    return `<p class="question-label">第 ${item.source.paragraph} 段 · 第 ${item.source.sentence} 句</p><p class="support-source">${escapeHtml(source.english)}</p><p class="structure-translation" lang="zh-Hant">${escapeHtml(source.chinese)}</p><div class="structure-parts">${item.parts.map(p=>`<span class="structure-part ${p.kind}">${escapeHtml(p.text)}<small>${escapeHtml(p.label || (p.kind==='slot'?'原句內容':'連接詞'))}</small></span>`).join('')}</div><div class="concept-grid"><section class="concept-card"><span class="concept-label">01 · 意思</span><p>${escapeHtml(item.meaning)}</p></section><section class="concept-card"><span class="concept-label">02 · 甚麼時候用？</span><p>${escapeHtml(item.usage)}</p></section></div>${item.contextNote?`<aside class="concept-note">${escapeHtml(item.contextNote)}</aside>`:''}${renderQuiz(item)}<p class="support-notes">${item.patternType?'比較四句的句型及語意，選出正確使用標示結構的一句。':'比較四句的語意關係；選出符合這個句型的一句。'}</p>`;
   }
   const savedRecordings=new Set();
   const freshRecordingRequired = new Set(Object.keys(saved.hintRetry || {}).filter(key=>saved.hintRetry[key]===true));
