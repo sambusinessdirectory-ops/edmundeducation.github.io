@@ -87,7 +87,6 @@ body.is-homepage-loading .eddy-global-overlay {
 
 /* Phoebe keeps the approved checker-wall and wooden-counter composition. */
 html[data-homepage-loading-variant="phoebe"] .homepage-loader {
-  --homepage-loader-art-size: min(760px, 92vw, 84vh);
   background: #d8a579;
 }
 
