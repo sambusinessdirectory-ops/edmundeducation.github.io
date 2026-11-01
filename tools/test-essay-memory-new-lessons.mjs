@@ -11,6 +11,7 @@ const sourceCollections=['EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES','EDMUND_
 const lessons = node.window.ESSAY_MEMORY_LESSONS;
 const keys=['opinion:3','discuss-both-views:4','cause-solution:2'];
 const counts=[19,17,17];
+const vocabularyRoundCounts=[28,32,34];
 for (let n=0;n<keys.length;n++) {
   const lesson=lessons[keys[n]];
   assert(lesson,keys[n]);
@@ -47,6 +48,8 @@ for (let n=0;n<keys.length;n++) {
     const sourceSentence=lesson.sentences.find(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence);
     assert.equal(frame.parts.map(part=>part.text).join(''),sourceSentence.english);
     assert(frame.parts.length>=2);
+    assert(frame.meaning.length>12 && frame.usage.length>12);
+    assert(!frame.usage.includes('清楚陳述一項意思'));
     assert.equal(frame.options.length,4);
     assert.equal(new Set(frame.options).size,4);
     assert.equal(frame.explanations.length,4);
@@ -85,6 +88,8 @@ for(const key of keys){
     assert((await page.locator('#game-card').innerText()).length>20);
     assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: overflow stage ${stage}`);
   }
+  await page.locator('[data-stage="5"]').click();
+  assert.equal(await page.locator('#step-select option').count(),vocabularyRoundCounts[keys.indexOf(key)]);
   await page.locator('[data-stage="6"]').click();
   assert(await page.locator('.structure-part').count()>=1);
   assert.equal(await page.locator('.structure-translation').count(),1);

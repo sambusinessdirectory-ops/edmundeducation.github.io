@@ -214,6 +214,11 @@
         .map(([original, simple, meaning]) => ({original, simple, meaning})).filter((item, position, all) => all.findIndex(other => other.original.toLowerCase() === item.original.toLowerCase()) === position).slice(0, 6);
       return {simple:config.simple[index], synonyms, chunks:sourceChunk(text), simpleChunks:sourceChunk(config.simple[index])};
     });
+    // Keep the published wording intact while making the split stance usable.
+    if (key === 'opinion:3') {
+      sentences[2].chunks = ['This essay strongly', 'disagrees with that view'];
+      sentences[2].simpleChunks = ['This essay says', 'that idea is wrong'];
+    }
     const intro = [
       {type:'quiz', prompt:'作者對題目採取甚麼立場或寫作路線？', options:[config.stance,'完全沒有提出看法或方向','只重述題目，沒有論證'], correct:0, why:config.summary},
       {type:'multi', prompt:'選出全文的兩條主線', detail:'選兩項，再按「確認」。', options:[...config.claims,'只介紹題目的年份','只描述一個與題目無關的個人故事'], correct:[0,1], why:config.summary},
@@ -321,6 +326,106 @@
     'as a result':['As a result, fewer cars used the road.','If it rains, we will stay home.','I like tea, but she likes coffee.','For example, my brother cycles to work.'],
     'instead of':['We walked instead of taking the bus.','We walked because it was sunny.','When it was sunny, we walked.','We walked, so we arrived late.'],
   };
+  // Sentence-specific teaching notes, checked against the published essay text.
+  // The attached mapping supplied useful examples, but source mismatches were not copied.
+  const teachingNotes = {
+    'opinion:3': [
+      ['博物館和美術館會影響公眾如何理解藝術、歷史與文化。','在引言說明一類機構如何塑造大眾看法時。'],
+      ['先交代「只展本地藝術家」的主張；作者尚未表態。','在引言公平介紹題目中的一方觀點，再準備回應時。'],
+      ['作者明確反對上一句提到的看法。','介紹爭議後，要直接說清楚自己不同意甚麼時。'],
+      ['承接上一句的反對立場，預告拓闊理解與促進本地藝術兩項理由。','表明立場後，立即預告兩個主體段將討論的理由時。'],
+      ['國際作品令博物館更具教育價值，是第一主體段的主張。','在主體段開首，用一句話提出這段要證明的好處時。'],
+      ['只看本地藝術會失去比較基礎，因而令理解變窄。','要用假設情況指出某種限制及其原因時。'],
+      ['本地畫作與外國作品並列，讓學生看到文化表達的異同。','提出抽象理由後，用具體展示場景說明學生會學到甚麼時。'],
+      ['第二項教育好處是增進觀眾對其他社會的理解。','同一主體段由第一個好處轉到另一個不同好處時。'],
+      ['外國作品呈現戰爭、移民等經歷，因此幫觀眾理解他人的生活。','列出具體內容後，接着說明觀眾能從中得到甚麼時。'],
+      ['反過來看，排除外國作品會降低博物館的知識及文化價值。','已說明多項好處後，用失去這些好處的後果收束段落時。'],
+      ['第二主體段轉向本地藝術家與支持他們的機構。','換到另一個受惠群體，開始新的主體段時。'],
+      ['陌生技法及藝術理念會促使本地藝術家進步。','指出外來刺激如何轉化成創作能力時。'],
+      ['只展本地作品可能令創作重複；接觸外來方法則可促進創新。','需要對比一種限制與另一種做法的相反效果時。'],
+      ['年輕藝術家借鑑外國藝術，再以新方法處理本地題材。','要用一個藝術家的具體做法，證明上一句的創新機制時。'],
+      ['多元展覽吸引更廣泛的觀眾，也令美術館保持活力。','同一段轉入觀眾及機構所得到的第二項好處時。'],
+      ['本地與國際展覽交替，使更多訪客有機會發現本地人才。','要解釋多元展覽如何間接幫助本地藝術家時。'],
+      ['總結不應把博物館的展示範圍限於本地藝術家。','在結論開首，回應題目中「只展本地作品」的主張時。'],
+      ['作者再次明確表示不同意這項限制。','在結論重申立場，讓讀者清楚知道最終判斷時。'],
+      ['最後回扣公眾理解與本地藝術成長兩條主線。','結論最後一句要精簡重述兩段主體理由時。'],
+    ],
+    'discuss-both-views:4': [
+      ['先交代家族經營在不少國家普遍存在，而且常被視為成功基礎。','在引言介紹一種常見做法及社會對它的看法時。'],
+      ['作者直接表示不同意前述看法。','交代背景後，需要用短句清楚表明立場時。'],
+      ['家族關係主導企業不是最佳模式，因為它會損害專業判斷並帶來風險。','在引言提出立場，同時預告兩項主要問題時。'],
+      ['第一個問題是家族企業容易混淆親情與工作能力。','主體段開首，要清楚點出第一項缺點時。'],
+      ['公平的企業應按員工表現作出選用、晉升及糾正決定。','提出問題後，先建立一個可用來衡量做法的公平標準時。'],
+      ['親屬憑血緣任高層，會造成管理、員工士氣及決策上的連鎖損害。','需要由一個條件逐步推導多項實際後果時。'],
+      ['老闆兒子反覆失去客戶，其他經理卻怕得罪家族而不敢指出。','要把裙帶關係的抽象問題變成讀者可想像的具體例子時。'],
+      ['偏袒日積月累會削弱員工信任及企業競爭力。','舉例後，說明問題長期累積的結果時。'],
+      ['第二個問題是家族爭執可能波及企業運作。','完成第一項問題後，轉到另一項主要缺點時。'],
+      ['專業管理的企業可用合約、職責及正式程序處理爭議。','要提出可對照的制度化做法，凸顯家族企業的問題時。'],
+      ['家族企業的繼承、領導及金錢爭議往往變得高度個人化。','比較正式程序後，說明家族關係為何令衝突難以處理時。'],
+      ['兄弟姊妹爭奪控制權，可能令招聘、投資和擴張停頓。','要用具體家族衝突展示它如何阻礙業務決定時。'],
+      ['其他員工被迫選邊，私人忠誠便可能壓過業務需要。','把家族衝突的影響延伸到非家族員工時。'],
+      ['繼任期間需要穩定，因此家族對立在這時尤其危險。','要指出某個問題在特定過渡時期為何特別嚴重時。'],
+      ['方向盤被家族矛盾拉扯，形象地說明企業難以穩步成長。','段末用貼近論點的比喻，收束長期經營風險時。'],
+      ['整體判斷是家族經營較可能帶來問題，而非最佳企業模式。','比較各項問題後，在結論作出明確的總體判斷時。'],
+      ['公平、專業及清楚管治很重要；家族關係主導決策會削弱它們。','結論最後說明自己判斷所依據的企業原則時。'],
+    ],
+    'cause-solution:2': [
+      ['大企業可大量宣傳，令其產品比本地小企業的產品更顯眼。','在引言解釋資源差距如何造成競爭優勢時。'],
+      ['先概括本地經濟與選擇受損，再預告可採取措施。','在原因與解決類文章的引言，交代問題和方案兩條路線時。'],
+      ['第一個問題是小型本地企業被大品牌蓋過。','問題段開首，先點出第一項主要損害時。'],
+      ['反覆看見同一品牌，會令買家下意識信任它，即使本地產品同樣好。','用購物情境說明熟悉感如何蓋過產品本身品質時。'],
+      ['銷售轉向大企業，小商店因收入下降而裁員甚至結業。','要由市場變化逐步推導對本地商店和職位的後果時。'],
+      ['資金離開社區，主要購物街變得單調及欠缺活力。','說完小店受損後，進一步指出整個社區的影響時。'],
+      ['第二個問題是購物決定受形象而非真正價值左右。','完成經濟影響後，轉到消費者選擇的另一項問題時。'],
+      ['零食因包裝、口號及名人宣傳而顯得更好，未必因品質較高。','要用一種具體商品解釋廣告形象如何影響判斷時。'],
+      ['結果是買家可能為熟悉品牌多付錢，卻忽略較健康或新鮮的本地產品。','例子後，並列指出品牌偏好與本地產品被忽視兩個後果時。'],
+      ['解決段先提出政府及議會應提高本地產品的可見度。','由問題轉到方案時，先說明誰應採取甚麼方向的行動時。'],
+      ['市集、店內專區及網上平台都是可執行的措施。','提出方案後，要列出幾種具體可實施的做法時。'],
+      ['本地貨若像大品牌一樣容易找到，購買本地便可成為方便的習慣。','用 if 說明改善購買便利性如何改變日常行為時。'],
+      ['零售商亦可透過清楚標籤和公平貨架位置幫助本地產品。','補充政府以外的行動者及其實際做法時。'],
+      ['簡單的產地標籤和生產者資料可讓普通購物變成支持社區。','要用一個小而具體的措施說明方案如何產生價值時。'],
+      ['公共宣傳可提醒消費者，本地消費維持職位、技能及社區認同。','在方案段補上資訊宣傳的作用，說明為何人們值得購買本地時。'],
+      ['結論重述大企業的宣傳力量會損害本地企業並推動品牌導向消費。','在結論先概括文章分析過的兩項問題時。'],
+      ['若本地產品顯眼、方便且有意義，社區可把需求引回本地。','結論最後用條件句重申解決方向及期望結果時。'],
+    ],
+  };
+  for (const [key, notes] of Object.entries(teachingNotes)) {
+    if (notes.length !== lessons[key].sentences.length) throw Error('Missing sentence-specific teaching note: ' + key);
+  }
+  // Same-function examples for direct statements and embedded examples.
+  const contextualApplications = {
+    'opinion:3': {
+      0:'Schools help shape how children understand the world.',
+      2:'I strongly disagree with that plan.',
+      4:'Reading books from other countries makes lessons more interesting.',
+      7:'Second, meeting new people can deepen our understanding of others.',
+      9:'For that reason, closing the library would reduce learning opportunities.',
+      10:'Showing films from abroad also benefits local filmmakers.',
+      13:'A young chef who studies abroad, for instance, may improve local dishes.',
+      14:'Second, varied events attract more visitors and keep the centre lively.',
+      17:'I strongly disagree with this rule.',
+    },
+    'discuss-both-views:4': {
+      1:'I disagree.',
+      3:'The first problem is that the new rule may be unfair.',
+      6:'For example, if a driver ignores the sign, other cars may have to stop.',
+      7:'Over time, unfair rules reduce trust among workers.',
+      8:'Another major issue is that old computers often break.',
+      11:'A fight between neighbours over parking, for instance, can delay road repairs.',
+      12:'Other workers may choose sides, creating a stressful workplace.',
+    },
+    'cause-solution:2': {
+      2:'The first problem is that small shops lose customers.',
+      4:'As more people shop online, local stores lose sales and close.',
+      5:'This takes time from teachers and leaves less time for students.',
+      6:'A second problem is that the new rule limits choice.',
+      7:'A popular shoe, for instance, may seem better because its ads are everywhere.',
+      9:'To reduce waste, councils should make recycling bins easier to find.',
+      12:'Schools can also help by giving students clear information.',
+      13:'A clear label, paired with a short explanation, can help buyers choose.',
+      14:'Public messages can also remind people that local shops create jobs.',
+    },
+  };
   const connectorPattern = /\b(?:because|if|when|so|but|while|however|rather than|instead of|for example|for instance|by contrast|as a result|in conclusion|overall)\b|,\s+and\s+/ig;
   for (const [key, essay] of Object.entries(lessons)) {
     essay.support.structures = essay.sentences.map((source, position) => {
@@ -329,7 +434,8 @@
       connectorPattern.lastIndex=0;
       const rawType=match?.[0].trim().replace(/^,\s*/,'').toLowerCase() || 'statement';
       const type=relationTypes[rawType] ? rawType : 'statement';
-      const [functionName,meaning,usage]=relationTypes[type];
+      const [functionName,genericMeaning,genericUsage]=relationTypes[type];
+      const [meaning,usage]=teachingNotes[key]?.[position] || [genericMeaning,genericUsage];
       const before=match ? text.slice(0,match.index) : '';
       const connector=match?.[0] || '';
       const after=match ? text.slice(match.index+connector.length) : text;
@@ -346,9 +452,10 @@
         {text:text.slice(splitAt),kind:'slot',label:'動作／看法'},
       ];
       const frame=parts.map(part=>part.kind==='link'?part.text:`[${part.label}]`).join('');
-      const examples=startsWithBecause ? exampleOptions.reasonFragment : frames[type]?.options || exampleOptions[type] || exampleOptions.statement;
+      const ownExample=contextualApplications[key]?.[position];
+      const examples=ownExample ? [ownExample,...exampleOptions.statement.slice(1)] : startsWithBecause ? exampleOptions.reasonFragment : frames[type]?.options || exampleOptions[type] || exampleOptions.statement;
       return {id:`${essay.id}-frame-${String(position+1).padStart(2,'0')}`,
-        frame, meaning:startsWithBecause?'這句從 because 開始，承接上一句，補充原因。':meaning, usage,
+        frame, meaning, usage,
         source:{paragraph:source.paragraph+1,sentence:source.index+1},
         parts,context:'哪一句也運用了這種句型功能？',
         options:examples,correct:0,explanations:[

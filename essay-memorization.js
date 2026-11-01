@@ -14,6 +14,14 @@
   const support = isPilot ? window.ESSAY_80_LEARNING_SUPPORT : essay.support;
   if (!support || support.sentences.length !== sentences.length) return;
   const byParagraph = paragraph => sentences.map((sentence, index) => ({ ...sentence, globalIndex: index })).filter(sentence => sentence.paragraph === paragraph);
+  const groupedSentences = {
+    'opinion:3': [[2,3],[4,5],[7,8],[16,17,18]],
+    'discuss-both-views:4': [[1,2]],
+  };
+  const requestedGroups = groupedSentences[requestedKey] || [];
+  const groupedStarts = new Map(requestedGroups.map(group => [group[0], group]));
+  const groupedMembers = new Set(requestedGroups.flat());
+  const vocabularyGroups = sentences.flatMap((_, index) => groupedStarts.has(index) ? [groupedStarts.get(index)] : groupedMembers.has(index) ? [] : [[index]]);
   const stageDefinitions = [
     {
       icon: '◎', title: '鎖定立場', en: 'THE COMPASS', description: '先記住作者站在哪一邊，以及全文的兩條主線。', rounds: [
@@ -67,8 +75,8 @@
       })),
     },
     {
-      icon: 'Aa', title: '簡單字詞', en: 'SIMPLE WORDS', description: '每句先看字詞在這個語境中的簡單說法，再用自己的話說一次。',
-      rounds: sentences.flatMap((sentence, sentenceIndex) => [false,true].map(reverse=>({ type: 'vocabulary', sentenceIndex, reverse, prompt: `第 ${sentenceIndex + 1} 句 · ${reverse?'從簡單說法拼回原文':'用簡單字詞重建整句'}` }))),
+      icon: 'Aa', title: '簡單字詞', en: 'SIMPLE WORDS', description: '先用白話讀懂原句；較短的句子與下一句合併，再從簡單說法還原原文。',
+      rounds: vocabularyGroups.flatMap(sentenceIndices => [false,true].map(reverse=>({ type: 'vocabulary', sentenceIndex: sentenceIndices[0], sentenceIndices, reverse, prompt: `第 ${sentenceIndices[0] + 1}${sentenceIndices.length>1?'–'+(sentenceIndices.at(-1)+1):''} 句 · ${reverse?'從簡單說法拼回原文':'用簡單字詞重建整句'}` }))),
     },
     {
       icon: '▤', title: '拆解與運用句型', en: 'SENTENCE STRUCTURES', description: '逐句查看原文、中文和實際句型；辨認每句的語意連接方式。',
@@ -124,11 +132,26 @@
     return rounds;
   }
 
+  function migrateVocabularyProgress(value) {
+    if (isPilot || !value || value.vocabularyFormat === 'paired-v1') return value;
+    const oldSolved = value.solved || {};
+    const solved = {...oldSolved};
+    for (const key of Object.keys(solved)) if (/^5:\d+$/.test(key)) delete solved[key];
+    vocabularyGroups.forEach((indices, groupIndex) => {
+      for (const direction of [0,1]) {
+        const scores = indices.map(index => oldSolved[`5:${index*2+direction}`]);
+        if (scores.every(score => score === 1 || score === 2)) solved[`5:${groupIndex*2+direction}`] = Math.min(...scores);
+      }
+    });
+    const sentenceIndex = Math.floor((value.round || 0)/2);
+    const groupIndex = vocabularyGroups.findIndex(indices => indices.includes(sentenceIndex));
+    return {...value, solved, round:value.stage===5 ? Math.max(0,groupIndex)*2 + ((value.round || 0)%2) : value.round, selection:value.stage===5?[]:value.selection, vocabularyFormat:'paired-v1'};
+  }
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
   const storageKey = isPilot ? 'edmund-essay80-memory-active-v4' : `edmund-essay-memory-${essay.id}-v1`;
   const backupFormat = isPilot ? 'edmund-essay80-progress' : 'edmund-essay-memory-progress';
   const backupVersion = isPilot ? 4 : 1;
-  const saved = migrateStageOrder((() => {
+  const saved = migrateVocabularyProgress(migrateStageOrder((() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
@@ -150,7 +173,7 @@
       Object.entries(old.solved||{}).forEach(([key,value])=>{const [stage,step]=key.split(':').map(Number);if([0,1,2,3,8].includes(stage))solved[`${stage===8?7:stage}:${step}`]=value;});
       return {stage:0,round:0,solved};
     } catch { return {}; }
-  })());
+  })()));
   const state = {
     stage: Number.isInteger(saved.stage) && saved.stage >= 0 && saved.stage < stageDefinitions.length ? saved.stage : 0,
     round: Number.isInteger(saved.round) ? saved.round : 0,
@@ -190,7 +213,7 @@
   applyFontSize();
   let segmentEnd = null;
   let audioButton = null;
-  function progressSnapshot() { return {stageOrder:"20261028",mapFormat:"paragraph-v1",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,hintRetry:Object.fromEntries([...freshRecordingRequired].map(key=>[key,true])),savedAt:new Date().toISOString()}; }
+  function progressSnapshot() { return {stageOrder:"20261028",mapFormat:"paragraph-v1",vocabularyFormat:"paired-v1",stage:state.stage,round:state.round,unlocked:state.unlocked,solved:state.solved,completed:state.completed,selection:state.transitioning?[]:state.selection,hadMistake:state.hadMistake,hintRetry:Object.fromEntries([...freshRecordingRequired].map(key=>[key,true])),savedAt:new Date().toISOString()}; }
   function save() {
     try { localStorage.setItem(storageKey,JSON.stringify(progressSnapshot()));$('#save-status').textContent='已儲存在此瀏覽器 · '+new Date().toLocaleTimeString('zh-HK',{hour:'2-digit',minute:'2-digit'});return true; }
     catch {$('#save-status').textContent='瀏覽器未能儲存，請下載備份以保留進度。';return false;}
@@ -203,7 +226,7 @@
   }
   function validateProgress(data) {
     if(data?.format!==backupFormat || data.version!==backupVersion || (data.essayId!==essay.id && !(isPilot && data.essayId == null)) || !data.progress || typeof data.progress!=='object')throw Error(`這不是本版本的 ${essayLabel} 進度檔。`);
-    const p=migrateStageOrder(data.progress);if(p.mapFormat!=='paragraph-v1' && p.stage===9)p.round=0;if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
+    const p=migrateVocabularyProgress(migrateStageOrder(data.progress));if(p.mapFormat!=='paragraph-v1' && p.stage===9)p.round=0;if(!Number.isInteger(p.stage)||!stageDefinitions[p.stage]||!Number.isInteger(p.round)||!stageDefinitions[p.stage].rounds[p.round])throw Error('進度檔的關卡或步驟無效。');
     const solved={};for(const [key,value] of Object.entries(p.solved||{})){const [stage,step]=key.split(':').map(Number);if(p.mapFormat!=='paragraph-v1' && stage===9)continue;if(/^\d+:\d+$/.test(key)&&stageDefinitions[stage]?.rounds[step]&&[1,2].includes(value))solved[key]=value;}
     return {stage:p.stage,round:p.mapFormat!=='paragraph-v1' && p.stage===9 ? 0 : p.round,unlocked:0,solved,selection:validatedSelection(p.stage,p.round,p.selection),hadMistake:p.hadMistake===true,hintRetry:p.hintRetry&&typeof p.hintRetry==='object'?p.hintRetry:{},completed:false};
   }
@@ -293,7 +316,7 @@
   }
   function renderSequence(item, precision = false) {
     const items = precision ? phraseTiles(sentences[item.sentenceIndex].english).map(title => ({ title })) : item.items;
-    const indices = orderedSeed(items.length, state.stage * 101 + state.round * 19);
+    const indices = orderedSeed(items.length, state.stage * 101 + state.round * 19).filter(index => !item.sentenceMap || !state.selection.includes(index));
     const sentence = item.sentenceIndex == null ? null : sentences[item.sentenceIndex];
     const paragraph = Number.isInteger(item.paragraph) ? byParagraph(item.paragraph) : null;
     const extra = sentence ? `<div class="memory-tools"><span class="role-badge">${escapeHtml(sentence.role)}</span><button class="mini-button" type="button" data-play-sentence="${item.sentenceIndex}">♫ 聽這一句</button><button class="mini-button" type="button" data-translation>繁體中文提示</button></div>${state.revealTranslation ? `<p class="translation-line">${escapeHtml(sentence.chinese)}</p>` : ''}` : paragraph ? `<div class="memory-tools"><span class="role-badge">${['開場', '第一主體段', '第二主體段', '總結'][item.paragraph]}</span><button class="mini-button" type="button" data-translation>${state.revealTranslation ? '隱藏' : '顯示'}繁體中文</button></div>${state.revealTranslation ? `<div class="translation-list">${paragraph.map((line, index) => `<p><b>${index + 1}.</b> ${escapeHtml(line.chinese)}</p>`).join('')}</div>` : ''}` : '';
@@ -308,19 +331,37 @@
     const ids=item.sentenceIndices || [item.sentenceIndex];
     return ids.flatMap(i=>(item.reverse?support.sentences[i].chunks:support.sentences[i].simpleChunks).map(text=>({text,sentenceIndex:i})));
   }
+  function highlightedOriginal(index) {
+    const sentenceText = sentences[index].english;
+    const terms = support.sentences[index].synonyms.map(item => item.original).sort((a,b)=>b.length-a.length);
+    if (!terms.length) return escapeHtml(sentenceText);
+    const specials = '.+*?^$()[]{}|\\';
+    const escapePattern = value => [...value].map(char => specials.includes(char) ? '\\' + char : char).join('');
+    const pattern = new RegExp('(?<![\\p{L}])(?:' + terms.map(escapePattern).join('|') + ')(?![\\p{L}])','giu');
+    let result='', cursor=0;
+    for (const match of sentenceText.matchAll(pattern)) {
+      result += escapeHtml(sentenceText.slice(cursor,match.index));
+      result += `<mark class="vocabulary-highlight">${escapeHtml(match[0])}</mark>`;
+      cursor = match.index + match[0].length;
+    }
+    return result + escapeHtml(sentenceText.slice(cursor));
+  }
   function renderVocabulary(item) { return renderBuild(item); }
   function renderBuild(item) {
-    if(item.reverse && !state.solved[`5:${state.round-1}`]) return `<h3>${escapeHtml(item.prompt)}</h3><p>先完成這一句的簡單英文重組，再拼回原文。</p><button class="primary-button" data-build-prerequisite>前往簡單英文重組 →</button>`;
-    const parts=buildParts(item), position=state.selection.length, current=parts[Math.min(position,parts.length-1)].sentenceIndex;
-    const content=support.sentences[current];
-    const bank=parts.filter(p=>p.sentenceIndex===current).map(p=>p.text);
-    const allChunks=sentences.flatMap((_,i)=>(item.reverse?support.sentences[i].chunks:support.sentences[i].simpleChunks).map((text,chunkIndex)=>({text,chunkIndex})));
-    const pool=[...new Set(allChunks.filter(chunk=>position===0?chunk.chunkIndex===0:chunk.chunkIndex>0).map(chunk=>chunk.text).filter(text=>text!==parts[position]?.text))].sort((a,b)=>Math.abs(a.split(/\s+/).length-parts[position].text.split(/\s+/).length)-Math.abs(b.split(/\s+/).length-parts[position].text.split(/\s+/).length));
-    const shortPool=pool.slice(0,Math.max(8,Math.min(pool.length,20)));
-    const distractors=orderedSeed(shortPool.length,`distractors-${position}`).slice(0,3).map(i=>shortPool[i]);
-    const choices=[parts[position]?.text,...distractors].filter(Boolean);
+    if(item.reverse && !state.solved[`5:${state.round-1}`]) return `<h3>${escapeHtml(item.prompt)}</h3><p>先完成這組句子的簡單英文重組，再拼回原文。</p><button class="primary-button" data-build-prerequisite>前往簡單英文重組 →</button>`;
+    const ids=item.sentenceIndices || [item.sentenceIndex];
+    const parts=buildParts(item), position=state.selection.length;
+    const synonyms=ids.flatMap(index=>support.sentences[index].synonyms);
+    const lexicon={synonyms:synonyms.filter((entry,index)=>synonyms.findIndex(other=>other.original.toLowerCase()===entry.original.toLowerCase())===index)};
+    const original=ids.map(index=>sentences[index].english).join(' ');
+    const simple=ids.map(index=>support.sentences[index].simple).join(' ');
+    const source=item.reverse
+      ? `<div class="build-source"><span class="build-source-label">原文 · 標示可簡化字詞</span><p class="support-source">${ids.map(highlightedOriginal).join(' ')}</p><span class="build-source-label">簡單說法</span><p class="simple-source">${escapeHtml(simple)}</p></div>`
+      : `<p class="support-source">${escapeHtml(original)}</p>`;
+    const bank=parts.map(part=>part.text);
+    const choices=[...new Set(parts.slice(position).map(part=>part.text))].slice(0,4);
     const indices=orderedSeed(choices.length,`build-${position}`);
-    return `<p class="build-mode">${item.reverse?'第二步 · 還原原文':'第一步 · 用簡單字說出意思'}</p><h3>${escapeHtml(item.prompt)}</h3><p>第 ${current+1} 句 · 選出下一小節，完成整句。${item.reverse?'現在把簡單說法換回原文。':'保留原意，用較容易的字詞表達。'}</p><p class="support-source">${escapeHtml(item.reverse?content.simple:item.type==='vocabulary'?sentences[current].english:sentences[current].chinese)}</p>${item.type==='vocabulary'?wordTable(content):''}${bank.length>1?`<div class="table-scroll"><table class="support-table word-bank"><caption>本句所需全部字詞／小節（次序已打亂）</caption><tbody>${orderedSeed(bank.length,`bank-${current}`).map(i=>`<tr><td>${escapeHtml(bank[i])}</td></tr>`).join('')}</tbody></table></div>`:''}<div class="sequence-track build-track">${state.selection.map(i=>`<div class="sequence-slot filled"><span>${escapeHtml(parts[i].text)}</span></div>`).join('')}<div class="sequence-slot">下一小節</div></div><div class="choice-grid">${indices.map(i=>`<button class="choice-card" data-build="${i}">${escapeHtml(choices[i])}</button>`).join('')}</div><p>${position} / ${parts.length} 小節已完成</p>`;
+    return `<p class="build-mode">${item.reverse?'第二步 · 還原原文':'第一步 · 用簡單字說出意思'}</p><h3>${escapeHtml(item.prompt)}</h3><p>${ids.length>1?'把相鄰句子連起來，':'選出下一小節，'}按正確次序完成。${item.reverse?'現在把簡單說法換回原文。':'保留原意，用較容易的字詞表達。'}</p>${source}${wordTable(lexicon)}<div class="table-scroll"><table class="support-table word-bank"><caption>這組句子的小節（次序已打亂）</caption><tbody>${orderedSeed(bank.length,'bank').map(i=>`<tr><td>${escapeHtml(bank[i])}</td></tr>`).join('')}</tbody></table></div><div class="sequence-track build-track">${state.selection.map(i=>`<div class="sequence-slot filled"><span>${escapeHtml(parts[i].text)}</span></div>`).join('')}<div class="sequence-slot">下一小節</div></div><div class="choice-grid">${indices.map(i=>`<button class="choice-card" data-build="${i}">${escapeHtml(choices[i])}</button>`).join('')}</div><p>${position} / ${parts.length} 小節已完成</p>`;
   }
   function renderStructure(item) {
     const source = sentences.find(s=>s.paragraph===item.source.paragraph-1 && s.index===item.source.sentence-1);
@@ -381,8 +422,9 @@
     renderRail(); renderHeader(); feedback('');
     const item = round();
     const card = $('#game-card');
-    card.classList.remove('card-enter','is-correct','sentence-map','simple-build','exact-build');
+    card.classList.remove('card-enter','is-correct','sentence-map','simple-build','exact-build','structure-card');
     if (item.sentenceMap) card.classList.add('sentence-map');
+    if (item.type === 'structure') card.classList.add('structure-card');
     if (item.type === 'vocabulary') card.classList.add(item.reverse ? 'exact-build' : 'simple-build'); void card.offsetWidth; card.classList.add('card-enter');
     card.innerHTML = item.type === 'quiz' ? renderQuiz(item) : item.type === 'structure' ? renderStructure(item) : item.type === 'vocabulary' ? renderVocabulary(item) : item.type==='speaking' ? renderSpeaking(item) : item.type === 'multi' ? renderMulti(item) : renderSequence(item, item.type === 'precision');
     save();
@@ -451,7 +493,14 @@
       const old=button.cloneNode(true), rect=button.getBoundingClientRect();old.getBoundingClientRect=()=>rect;
       state.selection.push(state.selection.length);answerSound(true);
       const parts=buildParts(item);
-      if(state.selection.length===parts.length){$('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><p class="speaking-text">${escapeHtml(parts.map(p=>p.text).join(' '))}</p>`;succeed(false,true);}
+      if(state.selection.length===parts.length){
+        if(item.reverse){
+          const ids=item.sentenceIndices || [item.sentenceIndex];
+          const simple=ids.map(index=>support.sentences[index].simple).join(' ');
+          $('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><div class="build-source"><span class="build-source-label">原文 · 標示可簡化字詞</span><p class="support-source">${ids.map(highlightedOriginal).join(' ')}</p><span class="build-source-label">簡單說法</span><p class="simple-source">${escapeHtml(simple)}</p></div>`;
+        } else $('#game-card').innerHTML=`<h3>${escapeHtml(item.prompt)}</h3><p class="speaking-text">${escapeHtml(parts.map(p=>p.text).join(' '))}</p>`;
+        succeed(false,true);
+      }
       else {$('#game-card').innerHTML=renderBuild(item);flyCard(old,state.selection.length-1);}
     } else if(button.hasAttribute('data-play-chunk')) {
       let first=sentences[item.sentenceIndices[0]],last=sentences[item.sentenceIndices.at(-1)],start=first.start,end=last.end;
