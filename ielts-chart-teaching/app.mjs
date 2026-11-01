@@ -1,6 +1,7 @@
 import {installVocabulary} from './vocabulary.mjs?v=20261031-6';
 import {data,palette,title,format,calculate} from './data.mjs';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const imageUrl=path=>/^https?:\/\//i.test(path)?path:`/${String(path).replace(/^\/+/, '')}`;
 const electricityKey='edmund-chart-studio-electricity-v1:'+window.chartStudentId;
 let key=electricityKey, catalog=[], currentQuestion={id:'T1-005',type:'Bar Charts',title:'Electricity'}, pins=[], pendingPoint=null;
 const tenseChoices={'past':'Past tense','present':'Present tense','future':'Future tense','present-perfect':'Present perfect','past-perfect':'Past perfect'};
@@ -49,7 +50,7 @@ function buildChart(){
  if(currentQuestion.id!=='T1-005'){
   $('#chart-title').innerHTML=renderPrompt(currentQuestion.quizPrompt||currentQuestion.prompt);
   $('#chart').dataset.view='image';
-  $('#chart').innerHTML=`<div class="source-chart"><img class="source-chart-image" src="/${esc(currentQuestion.image)}" alt="${esc(currentQuestion.prompt)}" draggable="false"><div id="pin-layer" class="pin-layer"></div></div>`;
+  $('#chart').innerHTML=`<div class="source-chart"><img class="source-chart-image" src="${esc(imageUrl(currentQuestion.image))}" alt="${esc(currentQuestion.prompt)}" draggable="false"><div id="pin-layer" class="pin-layer"></div></div>`;
   $('#image-points').hidden=false;$('#image-view-controls').hidden=false;applyImageFit();renderPins();return;
  }
  $('#image-points').hidden=true;$('#image-view-controls').hidden=true;$('#chart').dataset.view='electricity';
