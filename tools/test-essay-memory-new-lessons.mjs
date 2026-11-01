@@ -37,7 +37,8 @@ for (let n=0;n<keys.length;n++) {
 
   assert.equal(lesson.support.sentences.length,counts[n]);
   assert.equal(lesson.support.structures.length,counts[n]);
-  assert.equal(lesson.support.transfer.length,n===0?5:6);
+  assert.equal(lesson.support.transfer.length,n===0?10:12);
+  assert.equal(new Set(lesson.support.transfer.map(item=>item.context)).size,lesson.support.transfer.length);
   assert.equal(lesson.support.evidence.length,5);
   assert.equal(lesson.support.logic.length,2);
   assert.equal(lesson.mediumAnswers.length,45);
@@ -119,6 +120,14 @@ for(const key of keys){
   }
   await page.locator('[data-stage="5"]').click();
   assert.equal(await page.locator('#step-select option').count(),vocabularyRoundCounts[keys.indexOf(key)]);
+  await page.locator('[data-stage="4"]').click();
+  assert.equal(await page.locator('#step-select option').count(),key===keys[0]?10:12);
+  for(let index=0;index<lesson.support.transfer.length;index++){
+    await page.locator('#step-select').evaluate((select,value)=>{select.value=String(value);select.dispatchEvent(new Event('change'));},index);
+    assert.equal(await page.locator('[data-choice]').count(),4,`${key}: transfer ${index+1} choices`);
+    assert((await page.locator('.transfer-question').textContent()).includes(lesson.support.transfer[index].question));
+    assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: transfer ${index+1} overflows mobile`);
+  }
   await page.locator('[data-stage="6"]').click();
   assert(await page.locator('.structure-part').count()>=1);
   assert.equal(await page.locator('.structure-translation').count(),1);
