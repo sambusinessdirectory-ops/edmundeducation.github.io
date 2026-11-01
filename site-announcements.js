@@ -152,6 +152,7 @@
       announcements = visibleAnnouncements(Array.isArray(payload?.announcements) ? payload.announcements : []);
       if (announcements.length) {
         await waitForEddyGreetings();
+        if (window.EdmundEddyGlobalDialogue?.suppressOtherDialogues()) return;
         render(createDialog());
       }
     } catch {

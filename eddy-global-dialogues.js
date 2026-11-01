@@ -167,6 +167,7 @@
   let shownSleepyDay = '';
   let shownBedtimeNight = '';
   let surpriseChecked = false;
+  let bothSurprisesThisVisit = false;
   const shownMomentDays = Object.create(null);
   let audioContext = null;
 
@@ -199,7 +200,28 @@
     try { localStorage.setItem(key, value); } catch { /* This page still deduplicates in memory. */ }
   }
   function pick(lines) { return lines[Math.floor(Math.random() * lines.length)]; }
-  function isHomepageSurprise(kind) { return kind === 'cottonCandy' || kind === 'bubbleGum'; }
+  function isHomepageSurprise(kind) { return kind === 'cottonCandy' || kind === 'bubbleGum' || kind === 'funFact'; }
+  function splitFactPages(fact) {
+    if (!window.Intl?.Segmenter) return fact.length > 70 ? splitLongFact(fact) : [fact];
+    const words = [...new Intl.Segmenter('zh-Hant', { granularity: 'word' }).segment(fact)].filter((part) => part.isWordLike);
+    return words.length > 30 ? splitLongFact(fact) : [fact];
+  }
+  function splitLongFact(fact) {
+    const middle = fact.length / 2;
+    const breaks = [...fact.matchAll(/[，；。！？]/g)]
+      .map((match) => match.index + 1)
+      .filter((at) => at > fact.length * .3 && at < fact.length * .7);
+    const at = breaks.length ? breaks.reduce((best, candidate) => Math.abs(candidate - middle) < Math.abs(best - middle) ? candidate : best)
+      : [...fact].slice(0, Math.floor(middle)).join('').length;
+    return [fact.slice(0, at).trim(), fact.slice(at).trim()];
+  }
+  function renderFactPage() {
+    const page = active.factPages[active.factPageIndex];
+    const main = overlay.querySelector('.eddy-global-copy strong');
+    main.textContent = page;
+    overlay.querySelector('.eddy-global-copy > span').hidden = true;
+    overlay.querySelector('button').setAttribute('aria-label', `${page} 點擊、輕觸或按鍵繼續`);
+  }
   function setHorsePun(node, value) {
     const at = value.indexOf('放馬過來');
     if (at < 0) { node.textContent = value; return; }
@@ -262,6 +284,16 @@
     if (!['Enter', ' ', 'Escape', 'Tab'].includes(event.key)) return;
     event.preventDefault();
     event.stopImmediatePropagation();
+    if (event.key === 'Escape') dismiss();
+    else advanceOrDismiss();
+  }
+
+  function advanceOrDismiss() {
+    if (active?.kind === 'funFact' && active.factPageIndex < active.factPages.length - 1) {
+      active.factPageIndex += 1;
+      renderFactPage();
+      return;
+    }
     dismiss();
   }
 
@@ -270,6 +302,7 @@
     while (queue.length) {
       const surpriseIndex = queue.findIndex((item) => isHomepageSurprise(item.kind));
       const next = surpriseIndex < 0 ? queue.shift() : queue.splice(surpriseIndex, 1)[0];
+      if (bothSurprisesThisVisit && !isHomepageSurprise(next.kind)) continue;
       if (next.kind !== 'tomato' && !isMainPage()) continue;
       const timedMoment = timedMoments[next.kind];
       if (timedMoment) {
@@ -305,7 +338,7 @@
         shownBedtimeNight = next.night;
         remember(bedtimeStorageKey, next.night);
       } else if (isHomepageSurprise(next.kind)) {
-        // One of the two surprises is drawn once on each homepage visit.
+        // Homepage surprises are drawn once per visit and never stored by date.
       } else if (Date.now() >= next.endsAt || stored(breakStoragePrefix + next.owner) === String(next.endsAt)) {
         continue;
       } else {
@@ -317,7 +350,7 @@
         ? (next.weekday === 'Saturday' ? saturdayLines : sundayLines)
         : next.kind === 'sleepy' ? sleepyLines : next.kind === 'bedtime' ? bedtimeLines
           : next.kind === 'cottonCandy' ? cottonCandyLines : next.kind === 'bubbleGum' ? bubbleGumLines : tomatoLines;
-      const [main, sub] = pick(lines);
+      const [main, sub] = next.kind === 'funFact' ? ['', ''] : pick(lines);
       overlay = document.createElement('div');
       overlay.className = 'eddy-global-overlay';
       overlay.dataset.eddyGlobalDialogue = '';
@@ -326,20 +359,31 @@
       overlay.setAttribute('aria-label', timedMoment ? timedMoment.label : next.kind === 'lunch' ? 'Eddy 的午飯後問候' : next.kind === 'tea' ? 'Eddy 的下午茶時間'
         : next.kind === 'weekend' ? `Eddy 的${next.weekday === 'Saturday' ? '星期六' : '星期天'}問候`
           : next.kind === 'sleepy' ? 'Eddy 的晚間問候' : next.kind === 'bedtime' ? 'Eddy 的晚安問候'
-            : next.kind === 'cottonCandy' ? 'Eddy 的棉花糖驚喜' : next.kind === 'bubbleGum' ? 'Eddy 的香口膠驚喜' : 'Eddy 的番茄鐘休息時間');
+            : next.kind === 'cottonCandy' ? 'Eddy 的棉花糖驚喜' : next.kind === 'bubbleGum' ? 'Eddy 的香口膠驚喜'
+              : next.kind === 'funFact' ? 'Eddy 的趣味小知識' : 'Eddy 的番茄鐘休息時間');
       overlay.innerHTML = `<button type="button"><span class="eddy-global-art"><img alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>`;
       overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
         : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
           : next.kind === 'sleepy' ? '/eddy-evening-teddy-dialogue.png'
             : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png'
               : next.kind === 'cottonCandy' ? '/eddy-cotton-candy-dialogue.png'
-                : next.kind === 'bubbleGum' ? '/eddy-bubble-gum-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
+                : next.kind === 'bubbleGum' ? '/eddy-bubble-gum-dialogue.png'
+                  : next.kind === 'funFact' ? '/eddy-fun-fact-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
       const subtitle = overlay.querySelector('.eddy-global-copy > span');
       setHorsePun(overlay.querySelector('strong'), main);
       setHorsePun(subtitle, sub);
       subtitle.hidden = !sub;
       overlay.querySelector('button').setAttribute('aria-label', `${main} ${sub} 點擊、輕觸或按鍵繼續`);
-      overlay.addEventListener('click', dismiss);
+      if (next.kind === 'funFact') {
+        const facts = window.EdmundEddyFunFacts;
+        if (!Array.isArray(facts) || !facts.length) { active = null; overlay = null; continue; }
+        const [fact, opinion] = pick(facts);
+        active.factPages = [...splitFactPages(fact), opinion];
+        active.factPageIndex = 0;
+        overlay.dataset.eddyFunFact = '';
+        renderFactPage();
+      }
+      overlay.addEventListener('click', advanceOrDismiss);
       document.body.append(overlay);
       overlay.querySelector('button').focus({ preventScroll: true });
       document.addEventListener('keydown', onKey, true);
@@ -348,7 +392,7 @@
   }
 
   function checkTea() {
-    if (document.hidden || !isMainPage()) return;
+    if (bothSurprisesThisVisit || document.hidden || !isMainPage()) return;
     const { day, hour } = hongKongNow();
     if (hour !== 15 || shownTeaDay === day || stored(teaStorageKey) === day || queue.some((item) => item.kind === 'tea' && item.day === day)) return;
     queue.unshift({ kind: 'tea', day });
@@ -356,7 +400,7 @@
   }
 
   function checkLunch() {
-    if (document.hidden || !isMainPage()) return;
+    if (bothSurprisesThisVisit || document.hidden || !isMainPage()) return;
     const { day, hour, weekday } = hongKongNow();
     if (['Saturday', 'Sunday'].includes(weekday)) return;
     if (hour !== 13 || shownLunchDay === day || stored(lunchStorageKey) === day
@@ -366,7 +410,7 @@
   }
 
   function checkWeekend() {
-    if (document.hidden || !isMainPage()) return;
+    if (bothSurprisesThisVisit || document.hidden || !isMainPage()) return;
     const { day, weekday } = hongKongNow();
     if (!['Saturday', 'Sunday'].includes(weekday) || shownWeekendDay === day || stored(weekendStorageKey) === day
       || queue.some((item) => item.kind === 'weekend' && item.day === day)) return;
@@ -375,7 +419,7 @@
   }
 
   function checkNewTimedMoments() {
-    if (document.hidden || !isMainPage()) return;
+    if (bothSurprisesThisVisit || document.hidden || !isMainPage()) return;
     const now = hongKongNow();
     const { day } = now;
     const entry = Object.entries(timedMoments).find(([, moment]) => momentIsActive(moment, now));
@@ -388,7 +432,7 @@
   }
 
   function checkEvening() {
-    if (document.hidden || !isMainPage()) return;
+    if (bothSurprisesThisVisit || document.hidden || !isMainPage()) return;
     const now = hongKongNow();
     if (now.hour === 21) {
       if (shownSleepyDay === now.day || stored(sleepyStorageKey) === now.day
@@ -404,6 +448,7 @@
   }
 
   function queuePomodoroBreak(owner, endsAt) {
+    if (bothSurprisesThisVisit) return;
     const id = `${owner}:${endsAt}`;
     if (!owner || !Number.isFinite(endsAt) || endsAt <= Date.now() || queuedBreaks.has(id) || stored(breakStoragePrefix + owner) === String(endsAt)) return;
     checkLunch();
@@ -421,12 +466,15 @@
   function checkHomepageSurprise() {
     if (!isMainPage() || surpriseChecked) return;
     surpriseChecked = true;
-    if (Math.random() >= 0.1) return;
-    queue.unshift({ kind: Math.random() < 0.5 ? 'cottonCandy' : 'bubbleGum' });
+    const candyOrGumHit = Math.random() < 0.1;
+    if (candyOrGumHit) queue.push({ kind: Math.random() < 0.5 ? 'cottonCandy' : 'bubbleGum' });
+    const funFactHit = Math.random() < 0.3 && Array.isArray(window.EdmundEddyFunFacts) && window.EdmundEddyFunFacts.length > 0;
+    if (funFactHit) queue.push({ kind: 'funFact' });
+    bothSurprisesThisVisit = candyOrGumHit && funFactHit;
     showNext();
   }
 
-  window.EdmundEddyGlobalDialogue = Object.freeze({ isBlocking, isShowing: () => Boolean(active), queuePomodoroBreak, checkLunch, checkTea, checkNewTimedMoments, checkWeekend, checkEvening });
+  window.EdmundEddyGlobalDialogue = Object.freeze({ isBlocking, isShowing: () => Boolean(active), suppressOtherDialogues: () => bothSurprisesThisVisit, queuePomodoroBreak, checkLunch, checkTea, checkNewTimedMoments, checkWeekend, checkEvening });
   function startHomepageDialogues() {
     checkHomepageSurprise();
     checkTimedGreetings();

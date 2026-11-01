@@ -20,7 +20,7 @@ const server = http.createServer((request, response) => {
     const announcementScripts = url.searchParams.has('announcement')
       ? '<script>window.EdmundAnnouncementRich={render:(node,runs,message)=>{node.textContent=message},mountCarousel:()=>()=>{}}</script><script src="/site-announcements.js"></script>'
       : '';
-    const page = fixture(`<main>Home</main><script src="/eddy-global-dialogues.js"></script>${announcementScripts}`);
+    const page = fixture(`<main>Home</main><script src="/eddy-fun-facts.js"></script><script src="/eddy-global-dialogues.js"></script>${announcementScripts}`);
     response.writeHead(200, { 'Content-Type': 'text/html' }).end(url.searchParams.has('loading') ? page.replace('<body>', '<body class="is-homepage-loading">') : page);
     return;
   }
@@ -67,7 +67,8 @@ const server = http.createServer((request, response) => {
     await candy.addInitScript(() => {
       const RealDate = Date;
       window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-08T03:00:00Z'])); } static now() { return RealDate.parse('2027-02-08T03:00:00Z'); } };
-      Math.random = () => .05;
+      const draws = [.05, .05, .9];
+      Math.random = () => draws.shift() ?? .05;
     });
     await candy.goto(origin + '/index.html');
     assert.match(await candy.locator('.eddy-global-art img').getAttribute('src'), /cotton-candy/);
@@ -77,8 +78,8 @@ const server = http.createServer((request, response) => {
     await bubble.addInitScript(() => {
       const RealDate = Date;
       window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-07T05:30:00Z'])); } static now() { return RealDate.parse('2027-02-07T05:30:00Z'); } };
-      let draws = 0;
-      Math.random = () => draws++ === 0 ? .05 : .5;
+      const draws = [.05, .5, .9];
+      Math.random = () => draws.shift() ?? .05;
     });
     await bubble.goto(origin + '/index.html?loading=1');
     assert.equal(await bubble.locator('.eddy-global-overlay').count(), 0);
@@ -94,7 +95,8 @@ const server = http.createServer((request, response) => {
     await first.addInitScript(() => {
       const RealDate = Date;
       window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-07T05:30:00Z'])); } static now() { return RealDate.parse('2027-02-07T05:30:00Z'); } };
-      Math.random = () => .05;
+      const draws = [.05, .05, .9];
+      Math.random = () => draws.shift() ?? .05;
     });
     await first.goto(origin + '/index.html?loading=1');
     assert.equal(await first.locator('.eddy-global-overlay').count(), 0, 'dialogues wait for the homepage loader');
@@ -108,7 +110,8 @@ const server = http.createServer((request, response) => {
     await priority.addInitScript(() => {
       const RealDate = Date;
       window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-08T03:00:00Z'])); } static now() { return RealDate.parse('2027-02-08T03:00:00Z'); } };
-      Math.random = () => .05;
+      const draws = [.05, .05, .9];
+      Math.random = () => draws.shift() ?? .05;
     });
     await priority.route('https://edmund-schedule-system.edmundeducation.workers.dev/v1/announcements', route => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ announcements: [{ id: 'test-announcement', version: 1, message: 'Important announcement' }] }) }));
     await priority.goto(origin + '/index.html?loading=1&announcement=1');
@@ -127,11 +130,65 @@ const server = http.createServer((request, response) => {
     await noCandy.addInitScript(() => {
       const RealDate = Date;
       window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-08T03:00:00Z'])); } static now() { return RealDate.parse('2027-02-08T03:00:00Z'); } };
-      Math.random = () => .1;
+      Math.random = () => .3;
     });
     await noCandy.goto(origin + '/index.html');
-    assert.equal(await noCandy.locator('.eddy-global-overlay').count(), 0, '10% threshold excludes .1');
+    assert.equal(await noCandy.locator('.eddy-global-overlay').count(), 0, 'draws outside both thresholds show no surprise');
+    const factOnly = await context.newPage();
+    await factOnly.addInitScript(() => {
+      const RealDate = Date;
+      window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-08T03:00:00Z'])); } static now() { return RealDate.parse('2027-02-08T03:00:00Z'); } };
+      const draws = [.5, .2, 0];
+      Math.random = () => draws.shift() ?? 0;
+    });
+    await factOnly.goto(origin + '/index.html');
+    assert.match(await factOnly.locator('.eddy-global-art img').getAttribute('src'), /fun-fact/);
+    assert.equal(await factOnly.locator('.eddy-global-art img').evaluate(image => image.complete && image.naturalWidth > 0), true);
+    assert.equal(await factOnly.locator('.eddy-global-copy > span').isVisible(), false);
+    assert.match(await factOnly.locator('.eddy-global-copy strong').innerText(), /章魚居然有三顆心臟/);
+    const factPages = await factOnly.evaluate(() => [...new Intl.Segmenter('zh-Hant', { granularity: 'word' }).segment(window.EdmundEddyFunFacts[0][0])].filter(part => part.isWordLike).length > 30 ? 2 : 1);
+    for (let page = 0; page < factPages; page++) await factOnly.keyboard.press('Tab');
+    assert.equal(await factOnly.locator('.eddy-global-copy strong').innerText(), '大海裡還真是藏著不少不可思議的傢伙呢！', 'Eddy opinion is a separate final page');
+    await factOnly.locator('.eddy-global-overlay').click({ position: { x: 10, y: 10 } });
+    await factOnly.locator('.eddy-global-overlay').waitFor({ state: 'detached' });
+    await factOnly.reload();
+    assert.match(await factOnly.locator('.eddy-global-copy strong').innerText(), /章魚居然有三顆心臟/, 'each visit redraws, so the same fact can appear again');
+    const longFact = await context.newPage();
+    await longFact.addInitScript(() => {
+      const RealDate = Date;
+      window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-08T03:00:00Z'])); } static now() { return RealDate.parse('2027-02-08T03:00:00Z'); } };
+      const draws = [.5, .2, .07];
+      Math.random = () => draws.shift() ?? 0;
+    });
+    await longFact.goto(origin + '/index.html');
+    assert.match(await longFact.locator('.eddy-global-copy strong').innerText(), /電腦使用的二進位/);
+    await longFact.keyboard.press('Tab');
+    assert.doesNotMatch(await longFact.locator('.eddy-global-copy strong').innerText(), /資訊科學令人著迷/, 'long fact uses a second fact page');
+    await longFact.keyboard.press('Tab');
+    assert.match(await longFact.locator('.eddy-global-copy strong').innerText(), /資訊科學令人著迷/, 'the reaction is the third page');
+    await longFact.keyboard.press('Tab');
+    await longFact.locator('.eddy-global-overlay').waitFor({ state: 'detached' });
+    const both = await context.newPage();
+    await both.addInitScript(() => {
+      const RealDate = Date;
+      window.Date = class extends RealDate { constructor(...args) { super(...(args.length ? args : ['2027-02-07T05:30:00Z'])); } static now() { return RealDate.parse('2027-02-07T05:30:00Z'); } };
+      const draws = [.05, .5, .2, 0];
+      Math.random = () => draws.shift() ?? 0;
+    });
+    await both.route('https://edmund-schedule-system.edmundeducation.workers.dev/v1/announcements', route => route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify({ announcements: [{ id: 'both-surprises-announcement', version: 1, message: 'Later announcement' }] }) }));
+    await both.goto(origin + '/index.html?loading=1&announcement=1');
+    await both.evaluate(() => document.body.classList.remove('is-homepage-loading'));
+    await both.locator('.eddy-global-overlay').waitFor();
+    assert.match(await both.locator('.eddy-global-art img').getAttribute('src'), /bubble-gum/, '10% surprise shows first when both draws hit');
+    await both.keyboard.press('Escape');
+    await both.locator('.eddy-global-overlay').waitFor();
+    assert.match(await both.locator('.eddy-global-art img').getAttribute('src'), /fun-fact/, '30% fact shows second');
+    for (let page = 0; page < factPages + 1; page++) await both.keyboard.press('Tab');
+    await both.locator('.eddy-global-overlay').waitFor({ state: 'detached' });
+    assert.equal(await both.locator('.site-announcement-dialog[open]').count(), 0, 'other dialogues are suppressed for this visit when both surprises hit');
+    await both.evaluate(() => window.EdmundEddyGlobalDialogue.checkWeekend());
+    assert.equal(await both.locator('.eddy-global-overlay').count(), 0, 'Sunday greeting stays suppressed for this visit');
     await context.close();
-    console.log('PASS: grammar and song greetings; homepage 10% surprise split between cotton candy and bubble gum, both first');
+    console.log('PASS: grammar and song greetings; independent 10% and 30% homepage draws, fact pages, dual-hit suppression');
   } finally { await browser.close(); server.close(); }
 })().catch(error => { console.error(error); process.exitCode = 1; server.close(); });
