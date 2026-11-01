@@ -2590,7 +2590,7 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
   if (selectedIndex !== correctAt) {
     state.pilotSelections[`mc:${lesson.id}:${questionId}`] = selectedIndex;
     if (!updateCompassMcQuestion(lesson, question)) renderExercisePage(lesson, { preserveScroll: true });
-    emitEddyStreakAnswer(false, lesson);
+    emitEddyStreakAnswer(false, lesson, true);
     return;
   }
   delete state.pilotSelections[`mc:${lesson.id}:${questionId}`];
@@ -2601,7 +2601,7 @@ async function answerCompassMcQuestion(questionId, selectedIndex) {
   }
   if (compassReviewedCount(lesson) === compassPracticeQuestions(lesson).length) pauseExerciseClock();
   if (!updateCompassMcQuestion(lesson, question)) renderExercisePage(lesson, { preserveScroll: true });
-  emitEddyStreakAnswer(true, lesson);
+  emitEddyStreakAnswer(true, lesson, true);
   syncHorseyTrophies();
   horseyTrophies?.celebrate(elements.lessonContent, lesson, state.exercise.correctIds);
   if (!question.bonus) {
@@ -2725,10 +2725,10 @@ function scheduleExercisePersistence() {
   }, 450);
 }
 
-function emitEddyStreakAnswer(correct, lesson) {
+function emitEddyStreakAnswer(correct, lesson, mc = false) {
   if (!state.user?.id || !lesson?.id || typeof CustomEvent !== 'function') return;
   document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
-    detail: { scope: `idiom:${state.user.id}:${lesson.id}`, correct }
+    detail: { scope: `idiom:${state.user.id}:${lesson.id}`, correct, mc }
   }));
 }
 

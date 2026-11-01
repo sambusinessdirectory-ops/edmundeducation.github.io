@@ -237,6 +237,7 @@ function submitChallenge() {
   save('challenge',challenge);
   feedbackSound(all);
   renderChallenge();
+  if (owner) document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', { detail: { scope: `irregular-verbs:${owner}:challenge`, correct: item.choice === item.id, mc: true } }));
 }
 function showResetModal() {
   if (host.querySelector('.iv-reset-dialog')) return;

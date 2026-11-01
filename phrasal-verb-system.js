@@ -3418,7 +3418,7 @@ function selectPhrasalChoice(questionId, form) {
     state.exercise.drafts[questionId] = form;
     window.EdmundAnswerSound?.play(false);
     renderExercisePage(lesson, { preserveScroll: true });
-    emitEddyStreakAnswer(false, lesson);
+    emitEddyStreakAnswer(false, lesson, true);
     return;
   }
   const controlsBefore = attemptControlState(state.exercise);
@@ -3451,14 +3451,14 @@ function selectPhrasalChoice(questionId, form) {
   }
   window.EdmundAnswerSound?.play(true);
   renderExercisePage(lesson, { preserveScroll: true });
-  emitEddyStreakAnswer(true, lesson);
+  emitEddyStreakAnswer(true, lesson, true);
   scheduleExercisePersistence();
 }
 
-function emitEddyStreakAnswer(correct, lesson) {
+function emitEddyStreakAnswer(correct, lesson, mc = false) {
   if (!state.user?.id || !lesson?.id || typeof CustomEvent !== 'function') return;
   document.dispatchEvent(new CustomEvent('edmund:eddy-streak-answer', {
-    detail: { scope: `phrasal:${state.user.id}:${lesson.id}`, correct }
+    detail: { scope: `phrasal:${state.user.id}:${lesson.id}`, correct, mc }
   }));
 }
 
