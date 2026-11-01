@@ -1991,24 +1991,25 @@
       text-shadow: none;
     }
 
-    .parent-communication-card::after {
-      content: "↔";
-      display: grid;
-      place-items: center;
+    .parent-communication-card::after { display: none; }
+    .parent-communication-icon {
+      position: absolute;
+      z-index: 2;
       right: 50%;
       bottom: clamp(19px, 1.4vw, 25px);
       width: clamp(38px, 2.7vw, 48px);
       height: clamp(38px, 2.7vw, 48px);
+      display: grid;
+      place-items: center;
       border: 2px solid rgba(64,44,80,.22);
       border-radius: 50%;
       color: #67487a;
       background: rgba(255,255,255,.72);
       box-shadow: 0 8px 18px rgba(76,48,94,.16);
-      font-size: clamp(20px, 1.4vw, 26px);
-      font-weight: 900;
       transform: translateX(50%);
-      opacity: 1;
+      pointer-events: none;
     }
+    .parent-communication-icon svg { display: block; width: 55%; height: 55%; }
 
     .parent-communication-card:hover,
     .parent-communication-card:focus-visible {
@@ -3309,6 +3310,7 @@
 
         <a class="category parent-communication-card" href="parent-communication.html" aria-label="(家長使用) 家長溝通系統">
           <span class="category-name">(家長使用)<br>家長溝通系統</span>
+          <span class="parent-communication-icon" aria-hidden="true"><svg viewBox="0 0 24 24" width="26" height="26" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M4 8h16m0 0-4-4m4 4-4 4M20 16H4m0 0 4-4m-4 0 4 4"/></svg></span>
         </a>
 
         <a class="category writing-submission-card" href="writing-submission.html" aria-label="(學生使用) Edmund Sir Writing 交文系統">

@@ -49,7 +49,7 @@ function advancedCard(m,grouped){
  const done=moduleProgress(m,grouped),complete=done===m.questions.length;
  const state=complete?'✓ 已完成':done?`${done} / ${m.questions.length} 題已完成`:'開始學習';
  const title=m.cardTitleLines?.length?`<strong class="advanced-card-title-lines">${m.cardTitleLines.map(line=>`<span>${esc(line)}</span>`).join('')}</strong>`:`<strong>${esc(m.titleZh)}</strong>`;
- return `<button class="module-card advanced-module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}，${esc(state)}"><span class="advanced-card-top"><span>LESSON ${String(m.number).padStart(2,'0')}</span><span>${esc(m.kind.split(' · ')[1]||m.kind)}</span></span><span class="module-card-copy">${title}<em lang="en">${englishText(m.titleEn)}</em></span><span class="advanced-card-bottom"><span>${esc(state)}</span><span class="advanced-card-arrow" aria-hidden="true">↗</span></span></button>`;
+ return `<button class="module-card advanced-module-card" data-module="${m.id}" aria-label="第 ${m.number} 課：${esc(m.titleZh)}，${esc(state)}"><span class="advanced-card-top"><span>LESSON ${String(m.number).padStart(2,'0')}</span><span>${esc(m.kind.split(' · ')[1]||m.kind)}</span></span><span class="module-card-copy">${title}<em lang="en">${englishText(m.titleEn)}</em></span><span class="advanced-card-bottom"><span>${esc(state)}</span><span class="advanced-card-arrow" aria-hidden="true"><svg viewBox="0 0 24 24" width="21" height="21" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M5 19 19 5M9 5h10v10"/></svg></span></span></button>`;
 }
 function zhPhrases(value){return chineseText(value);}
 function renderLibrary(){
