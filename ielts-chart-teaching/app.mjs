@@ -1,15 +1,27 @@
 import {installVocabulary} from './vocabulary.mjs?v=20261031-6';
 import {data,palette,title,format,calculate} from './data.mjs';
 const $=s=>document.querySelector(s),esc=s=>String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
-const key='edmund-chart-studio-electricity-v1:'+window.chartStudentId;
+const electricityKey='edmund-chart-studio-electricity-v1:'+window.chartStudentId;
+let key=electricityKey, catalog=[], currentQuestion={id:'T1-005',type:'Bar Charts',title:'Electricity'}, pins=[], pendingPoint=null;
 const tenseChoices={'past':'Past tense','present':'Present tense','future':'Future tense','present-perfect':'Present perfect','past-perfect':'Past perfect'};
 let tenses={},tenseYear=null,yearOpener=null;
 let notes={observation:[''],overview:['']};
 let organization=[];
 let mode='colour',active='green',marks={},names=Object.fromEntries(palette.map(p=>[p.id,p.name])),history=[],operands=[],operators=[],manualId=0,toastTimer;
-const numbers=new Map();
-try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved&&typeof saved==='object'){for(const [id,group] of Object.entries(saved.marks||{})){const members=[...new Set(Array.isArray(group)?group:[group])].filter(g=>palette.some(p=>p.id===g));if(members.length)marks[id]=members;}if(Array.isArray(saved.organization))organization=[...new Set(saved.organization.filter(id=>typeof id==='string'))];for(const type of ['observation','overview'])if(Array.isArray(saved.notes?.[type]))notes[type]=saved.notes[type].filter(value=>typeof value==='string');for(const [year,tense] of Object.entries(saved.tenses||{}))if(/^\d{4}$/.test(year)&&Object.hasOwn(tenseChoices,tense))tenses[year]=tense;for(const p of palette)if(typeof saved.names?.[p.id]==='string')names[p.id]=saved.names[p.id].slice(0,40);}}catch{}
-function save(){try{localStorage.setItem(key,JSON.stringify({marks,names,tenses,notes,organization}));$('#storage-status').textContent='標記與筆記儲存在此瀏覽器';}catch{$('#storage-status').textContent='此瀏覽器未能儲存；本次標記仍可使用';}}
+const numbers=new Map();let imageFitOverride=null;
+function applyImageFit(){const fit=imageFitOverride??matchMedia('(max-width:600px)').matches;$('#chart').classList.toggle('image-fit',fit);$('#image-fit').setAttribute('aria-pressed',String(fit));$('#image-fit').textContent=fit?'放大閱讀':'縮至全圖';}
+function loadState(){
+ marks={};names=Object.fromEntries(palette.map(p=>[p.id,p.name]));tenses={};notes={observation:[''],overview:['']};organization=[];pins=[];history=[];operands=[];operators=[];manualId=0;
+ try{const saved=JSON.parse(localStorage.getItem(key)||'null');if(saved&&typeof saved==='object'){
+  for(const [id,group] of Object.entries(saved.marks||{})){const members=[...new Set(Array.isArray(group)?group:[group])].filter(g=>palette.some(p=>p.id===g));if(members.length)marks[id]=members;}
+  if(Array.isArray(saved.organization))organization=[...new Set(saved.organization.filter(id=>typeof id==='string'))];
+  for(const type of ['observation','overview'])if(Array.isArray(saved.notes?.[type]))notes[type]=saved.notes[type].filter(value=>typeof value==='string');
+  for(const [year,tense] of Object.entries(saved.tenses||{}))if(/^\d{4}$/.test(year)&&Object.hasOwn(tenseChoices,tense))tenses[year]=tense;
+  for(const p of palette)if(typeof saved.names?.[p.id]==='string')names[p.id]=saved.names[p.id].slice(0,40);
+  if(Array.isArray(saved.pins))pins=saved.pins.filter(pin=>pin&&typeof pin.id==='string'&&typeof pin.label==='string'&&Number.isFinite(pin.x)&&Number.isFinite(pin.y)&&pin.x>=0&&pin.x<=100&&pin.y>=0&&pin.y<=100).slice(0,250).map(pin=>({...pin,label:pin.label.slice(0,100),value:pin.value===null?null:Number.isFinite(pin.value)?pin.value:null}));
+ }}catch{}
+}
+function save(){try{localStorage.setItem(key,JSON.stringify({marks,names,tenses,notes,organization,pins}));$('#storage-status').textContent='標記與筆記儲存在此瀏覽器';}catch{$('#storage-status').textContent='此瀏覽器未能儲存；本次標記仍可使用';}}
 function notice(text){$('#toast').textContent=text;clearTimeout(toastTimer);toastTimer=setTimeout(()=>{$('#toast').textContent='';},2300);}
 function markButton(id,text,cls='',extra=''){return `<button type="button" class="markable ${cls}" data-mark="${id}" aria-pressed="false" ${extra}>${text}</button>`;}
 function resizeNote(input){input.style.height='auto';input.style.height=Math.max(82,input.scrollHeight)+'px';}
@@ -20,7 +32,27 @@ function renderNotes(type,focusIndex=null){
  if(focusIndex!==null)$(`#${type}-${focusIndex}`)?.focus({preventScroll:true});
 }
 function yearButton(year){return `<button type="button" class="markable year-button" data-mark="year-${year}" data-year="${year}" aria-haspopup="dialog" aria-label="為 ${year} 選擇時態">${year}</button>`;}
+function renderPrompt(prompt){
+ const parts=String(prompt).split(/\b((?:19|20)\d{2})\b/g);
+ return `<h2>${parts.map((part,index)=>index%2?yearButton(part):part?`<span role="button" tabindex="0" class="markable title-fragment" data-mark="title-${index}" aria-pressed="false">${esc(part)}</span>`:'').join('')}</h2>`;
+}
+function renderPins(){
+ numbers.clear();
+ const layer=$('#pin-layer'),list=$('#point-list');if(!layer||!list)return;
+ layer.innerHTML=pins.map((pin,index)=>`<button type="button" class="markable image-pin" data-mark="point-${esc(pin.id)}" data-number="${esc(pin.id)}" style="left:${pin.x}%;top:${pin.y}%" aria-label="${esc(pin.label)}${Number.isFinite(pin.value)?' · '+format(pin.value):''}" title="${esc(pin.label)}">${index+1}</button>`).join('');
+ list.innerHTML=pins.length?pins.map((pin,index)=>`<div class="point-row"><button type="button" class="markable" data-mark="point-${esc(pin.id)}" data-number="${esc(pin.id)}">${index+1}. ${esc(pin.label)}${Number.isFinite(pin.value)?' · '+format(pin.value):''}</button><button type="button" data-edit-point="${esc(pin.id)}" aria-label="編輯 ${esc(pin.label)}">編輯</button><button type="button" data-delete-point="${esc(pin.id)}" aria-label="刪除 ${esc(pin.label)}">×</button></div>`).join(''):'<p class="point-empty">點擊圖上的任何位置開始標記。</p>';
+ for(const pin of pins)numbers.set(pin.id,{id:pin.id,label:pin.label,value:pin.value});
+ applyMarks();
+}
 function buildChart(){
+ numbers.clear();
+ if(currentQuestion.id!=='T1-005'){
+  $('#chart-title').innerHTML=renderPrompt(currentQuestion.quizPrompt||currentQuestion.prompt);
+  $('#chart').dataset.view='image';
+  $('#chart').innerHTML=`<div class="source-chart"><img class="source-chart-image" src="/${esc(currentQuestion.image)}" alt="${esc(currentQuestion.prompt)}" draggable="false"><div id="pin-layer" class="pin-layer"></div></div>`;
+  $('#image-points').hidden=false;$('#image-view-controls').hidden=false;applyImageFit();renderPins();return;
+ }
+ $('#image-points').hidden=true;$('#image-view-controls').hidden=true;$('#chart').dataset.view='electricity';
  $('#chart-title').innerHTML=`<h2><span role="button" tabindex="0" class="markable title-fragment" data-mark="title" aria-pressed="false">${esc(title.replace('2014.',''))}</span> ${yearButton('2014')}.</h2>`;
  $('#chart').innerHTML=`<div class="chart-column-head">${markButton('rank-heading','Rank')}${markButton('country-heading','Country')}<div class="electricity-heading">${markButton('chart-heading','Electricity')} · ${yearButton('2014')}</div></div>`+data.map(([country,production,consumption],i)=>{
   const series=[production,consumption].map((value,j)=>{
@@ -52,10 +84,10 @@ function applyMarks(){
   if(members.length)el.setAttribute('aria-description',el.title);else el.removeAttribute('aria-description');
  });
 }
-function setMode(next){mode=next;$('#pick-data-mode').setAttribute('aria-pressed',String(mode==='organize'));$('#pick-data-mode').textContent=mode==='organize'?'✓ Pick data mode · 開啟中':'◉ Pick data mode';document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));$('#mode-hint').textContent=mode==='colour'?'第一組填色，第二組加上光暈；再點同色只移除該組。點年份可選時態。':mode==='organize'?'點擊數字或長條加入 Organization，再拖動卡片安排順序。再次點擊可移除。':'點擊數字或長條加入計算；再次點擊移除。金色外框表示已選數值。';applyMarks();}
+function setMode(next){mode=next;$('#pick-data-mode').setAttribute('aria-pressed',String(mode==='organize'));$('#pick-data-mode').textContent=mode==='organize'?'✓ Pick data mode · 開啟中':'◉ Pick data mode';document.querySelectorAll('[data-mode]').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.mode===mode)));$('#mode-hint').textContent=currentQuestion.id!=='T1-005'?(mode==='colour'?'點擊題圖新增標記，再點標記或下方清單分組。點年份可選時態。':mode==='organize'?'點擊題圖新增標記，或點已有標記加入 Organization。':'為標記填寫圖中可確認的數值，再點標記加入計算。'):mode==='colour'?'第一組填色，第二組加上光暈；再點同色只移除該組。點年份可選時態。':mode==='organize'?'點擊數字或長條加入 Organization，再拖動卡片安排順序。再次點擊可移除。':'點擊數字或長條加入計算；再次點擊移除。金色外框表示已選數值。';applyMarks();}
 function renderOrganization(focusId=null){
  organization=organization.filter(id=>numbers.has(id));
- $('#organization-list').innerHTML=organization.length?organization.map((id,index)=>{const item=numbers.get(id);return `<li class="organization-item" data-org-id="${id}" draggable="true"><div class="org-order"><button type="button" class="org-drag" data-drag-org="${id}" aria-label="拖動 ${esc(item.label)}">⠿</button><span>${String(index+1).padStart(2,'0')}</span></div><div class="org-copy"><small>${esc(item.label)}</small><strong>${format(item.value)} <em>billion kWh</em></strong></div><div class="org-actions"><button type="button" data-move-org="${id}" data-direction="-1" aria-label="上移 ${esc(item.label)}" ${index===0?'disabled':''}>↑</button><button type="button" data-move-org="${id}" data-direction="1" aria-label="下移 ${esc(item.label)}" ${index===organization.length-1?'disabled':''}>↓</button><button type="button" data-remove-org="${id}" aria-label="移除 ${esc(item.label)}">×</button></div></li>`;}).join(''):'<li class="organization-empty">開啟 Pick data mode，點選想用於段落的數據。</li>';
+ $('#organization-list').innerHTML=organization.length?organization.map((id,index)=>{const item=numbers.get(id);return `<li class="organization-item" data-org-id="${id}" draggable="true"><div class="org-order"><button type="button" class="org-drag" data-drag-org="${id}" aria-label="拖動 ${esc(item.label)}">⠿</button><span>${String(index+1).padStart(2,'0')}</span></div><div class="org-copy"><small>${esc(item.label)}</small><strong>${Number.isFinite(item.value)?format(item.value):'位置 / 步驟'} ${currentQuestion.id==='T1-005'?'<em>billion kWh</em>':''}</strong></div><div class="org-actions"><button type="button" data-move-org="${id}" data-direction="-1" aria-label="上移 ${esc(item.label)}" ${index===0?'disabled':''}>↑</button><button type="button" data-move-org="${id}" data-direction="1" aria-label="下移 ${esc(item.label)}" ${index===organization.length-1?'disabled':''}>↓</button><button type="button" data-remove-org="${id}" aria-label="移除 ${esc(item.label)}">×</button></div></li>`;}).join(''):'<li class="organization-empty">開啟 Pick data mode，點選想用於段落的數據。</li>';
  if(focusId)document.querySelector(`[data-drag-org="${focusId}"]`)?.focus({preventScroll:true});
  applyMarks();
 }
@@ -96,10 +128,12 @@ document.addEventListener('click',event=>{
  if(button.dataset.tense&&tenseYear){remember();tenses[tenseYear]=button.dataset.tense;if(active!=='eraser')marks[`year-${tenseYear}`]=[...new Set([...(marks[`year-${tenseYear}`]||[]),active])];refreshMarks();$('#tense-dialog').close();return;}
  if(button.id==='remove-tense'&&tenseYear){remember();delete tenses[tenseYear];refreshMarks();$('#tense-dialog').close();return;}
  if(button.id==='close-tense'){$('#tense-dialog').close();return;}
+ if(button.dataset.editPoint){const pin=pins.find(item=>item.id===button.dataset.editPoint);if(pin)showPointDialog({...pin,editId:pin.id});return;}
+ if(button.dataset.deletePoint){const id=button.dataset.deletePoint;pins=pins.filter(pin=>pin.id!==id);delete marks[`point-${id}`];organization=organization.filter(item=>item!==id);operands=operands.filter(item=>item.id!==id);renderPins();renderOrganization();renderCalculator();groups();save();return;}
  if(!button.dataset.mark)return;
  if(mode==='organize'){const id=button.dataset.number;if(!numbers.has(id)){notice('請點擊長條或其旁邊的數字');return;}organization=organization.includes(id)?organization.filter(item=>item!==id):[...organization,id];renderOrganization();save();return;}
  if(mode==='calculate'){
-  const number=numbers.get(button.dataset.number);if(!number){notice('請點擊長條或其旁邊的數字');return;}
+  const number=numbers.get(button.dataset.number);if(!number||!Number.isFinite(number.value)){notice('請先為這個標記填寫數值');return;}
   const index=operands.findIndex(item=>item.id===number.id);if(index>=0)removeOperand(index);else{if(operands.length)operators.push('+');operands.push(number);renderCalculator();}return;
  }
  remember();const id=button.dataset.mark;if(active==='eraser')delete marks[id];else{const current=marks[id]||[];const next=current.includes(active)?current.filter(group=>group!==active):[...current,active];if(next.length)marks[id]=next;else delete marks[id];}refreshMarks();
@@ -120,4 +154,45 @@ orgList.addEventListener('pointerup',()=>{if(touchDrag?.target)moveOrganization(
 orgList.addEventListener('pointercancel',()=>{touchDrag=null;orgList.querySelectorAll('.drop-target').forEach(el=>el.classList.remove('drop-target'));});
 window.addEventListener('chart-vocabulary-insert',event=>{const {target,text}=event.detail||{};if(!['observation','overview'].includes(target)||typeof text!=='string')return;const blank=notes[target].findIndex(row=>!row.trim());if(blank>=0)notes[target][blank]=text;else notes[target].push(text);renderNotes(target);save();notice('已加入 '+(target==='overview'?'Overview':'Observation'));});
 installVocabulary();
-buildChart();groups();setMode('colour');renderCalculator();renderNotes('observation');renderNotes('overview');renderOrganization();
+function showPointDialog(point){pendingPoint=point;$('#point-form').reset();$('#point-title').textContent=point.editId?'編輯題圖標記':'標記題圖數據';$('#point-label').value=point.label||'';$('#point-value').value=Number.isFinite(point.value)?point.value:'';$('#point-x').value=point.x.toFixed(1);$('#point-y').value=point.y.toFixed(1);$('#point-dialog').showModal();$('#point-label').focus();}
+function openPointDialog(event){
+ if(currentQuestion.id==='T1-005'||!event.target.matches('.source-chart-image'))return;
+ const rect=event.target.getBoundingClientRect();showPointDialog({x:Math.max(0,Math.min(100,(event.clientX-rect.left)/rect.width*100)),y:Math.max(0,Math.min(100,(event.clientY-rect.top)/rect.height*100))});
+}
+$('#chart').addEventListener('click',openPointDialog);
+$('#image-fit').addEventListener('click',()=>{imageFitOverride=!$('#chart').classList.contains('image-fit');applyImageFit();});
+window.addEventListener('resize',()=>{if(currentQuestion.id!=='T1-005'&&imageFitOverride===null)applyImageFit();});
+$('#add-point').addEventListener('click',()=>showPointDialog({x:50,y:50}));
+$('#cancel-point').addEventListener('click',()=>$('#point-dialog').close());
+$('#point-form').addEventListener('submit',event=>{
+ event.preventDefault();if(!pendingPoint)return;
+ const label=$('#point-label').value.trim(),raw=$('#point-value').value.trim();if(!label)return;
+ const x=Number($('#point-x').value),y=Number($('#point-y').value);if(!Number.isFinite(x)||!Number.isFinite(y)||x<0||x>100||y<0||y>100)return;
+ const pin={id:pendingPoint.editId||`pin-${Date.now()}-${Math.random().toString(36).slice(2,6)}`,label,x,y,value:raw?Number(raw):null};
+ if(pendingPoint.editId){pins=pins.map(item=>item.id===pin.id?pin:item);operands=operands.map(item=>item.id===pin.id?{...item,label,value:pin.value}:item).filter(item=>Number.isFinite(item.value));}
+ else{pins.push(pin);if(mode==='colour'&&active!=='eraser')marks[`point-${pin.id}`]=[active];if(mode==='organize')organization.push(pin.id);}
+ $('#point-dialog').close();pendingPoint=null;renderPins();groups();renderOrganization();renderCalculator();save();
+});
+function selectQuestion(id,updateHash=false){
+ const question=catalog.find(item=>item.id===id)||catalog.find(item=>item.id==='T1-005');if(!question)return;
+ currentQuestion=question;key=question.id==='T1-005'?electricityKey:`edmund-chart-studio-task1-v1:${window.chartStudentId}:${question.id}`;loadState();
+ $('#chart-selector').value=question.id;const index=catalog.indexOf(question);$('#chart-position').textContent=`${index+1} / ${catalog.length}`;
+ $('#previous-chart').disabled=index===0;$('#next-chart').disabled=index===catalog.length-1;
+ $('#lesson-chip').innerHTML=`<i></i> ${String(index+1).padStart(2,'0')} / ${catalog.length} · ${esc(question.type)}`;
+ $('#question-id').textContent=`TASK 1 · ${question.id} · ${question.type}`;
+ $('#chart-source').textContent=question.id==='T1-005'?'重製自提供圖表 · 單位：billion kWh':'原題圖 · IELTS Writing Task 1';
+ buildChart();groups();setMode('colour');renderCalculator();renderNotes('observation');renderNotes('overview');renderOrganization();
+ if(updateHash)window.history.replaceState(null,'',`#${question.id}`);
+}
+async function initCatalog(){
+ try{const response=await fetch('/ielts-writing-preview/task1-diagrams.json?v=20261030-3');if(!response.ok)throw Error('Catalogue unavailable');catalog=await response.json();}
+ catch{catalog=[{id:'T1-005',type:'Bar Charts',title:'Electricity',prompt:title,quizPrompt:title}];notice('題圖目錄暫時無法載入');}
+ const selector=$('#chart-selector');let type='';let group;
+ for(const question of catalog){if(question.type!==type){type=question.type;group=document.createElement('optgroup');group.label=type;selector.append(group);}const option=document.createElement('option');option.value=question.id;option.textContent=`${question.id} · ${question.prompt}`;group.append(option);}
+ selectQuestion(location.hash.slice(1).match(/^T1-\d{3}$/)?.[0]||'T1-005');
+ selector.addEventListener('change',()=>selectQuestion(selector.value,true));
+ $('#previous-chart').addEventListener('click',()=>selectQuestion(catalog[Math.max(0,catalog.findIndex(item=>item.id===currentQuestion.id)-1)].id,true));
+ $('#next-chart').addEventListener('click',()=>selectQuestion(catalog[Math.min(catalog.length-1,catalog.findIndex(item=>item.id===currentQuestion.id)+1)].id,true));
+ window.addEventListener('hashchange',()=>{const id=location.hash.slice(1);if(id!==currentQuestion.id&&catalog.some(item=>item.id===id))selectQuestion(id);});
+}
+await initCatalog();
