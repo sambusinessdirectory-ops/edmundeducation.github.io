@@ -1,5 +1,6 @@
-import {reconstructions} from './reconstructions.mjs';
+import {reconstructions} from './reconstructions.mjs?v=20261101-5';
 import {diagramTextZones} from './diagram-text-zones.mjs';
+import {sourceMapRoutes,sourceProcessFlows,sourceMapFeatures} from './source-routes.mjs';
 
 const z=(label,x,y,w,h,value=null)=>({label,x,y,w,h,value});
 const processDiagrams={
@@ -85,7 +86,7 @@ const processDiagrams={
   z('Concrete production',51,6,45,88),z('Cement · 15%',55,17,16,16,15),
   z('Water · 10%',77,12,17,20,10),z('Sand · 25%',55,33,18,17,25),
   z('Gravel · 50%',78,34,17,18,50),z('Concrete mixer',60,46,29,38),
-  z('Finished concrete',80,71,16,14)
+
  ]}
 };
 
@@ -108,8 +109,8 @@ const mapDiagrams=Object.fromEntries(Object.entries(mapBoxes).map(([id,config])=
   const box=config.boxes[panelIndex];
   const places=panel.features.map((feature,index)=>({
    label:`${panel.title} · ${feature.label}`,
-   x:box.x+feature.x*box.w/100,y:box.y+feature.y*box.h/100,
-   w:feature.w*box.w/100,h:feature.h*box.h/100,
+   x:box.x+(feature.x+feature.w*.18)*box.w/100,y:box.y+(feature.y+feature.h*.18)*box.h/100,
+   w:feature.w*.64*box.w/100,h:feature.h*.64*box.h/100,
    value:Number.isFinite(feature.value)?feature.value:null,
    key:`place-${panelIndex}-${index}`
   }));
@@ -120,7 +121,7 @@ const mapDiagrams=Object.fromEntries(Object.entries(mapBoxes).map(([id,config])=
   }));
   return [...routes,...places];
  });
- return [id,{...config,zones}];
+ return [id,{...config,zones:(sourceMapRoutes[id]||sourceMapFeatures[id])?[...(sourceMapRoutes[id]||zones.filter(zone=>zone.path)),...(sourceMapFeatures[id]||zones.filter(zone=>!zone.path))]:zones}];
 }));
 
 // Flow arrows are selectable independently of their source and destination objects.
@@ -199,5 +200,5 @@ const airportZones=[
 mapDiagrams['T1-037']={...mapDiagrams['T1-037'],zones:airportZones};
 
 export const interactiveDiagrams=Object.fromEntries(Object.entries({...processDiagrams,...mapDiagrams}).map(([id,diagram])=>[
- id,{...diagram,zones:[...diagram.zones,...(flowRegions[id]||[]),...(diagramTextZones[id]||[]).map((zone,index)=>({...zone,key:`text-${index}`}))]}
+ id,{...diagram,zones:[...diagram.zones.filter(zone=>!['Cement production','Concrete production','Finished concrete'].includes(zone.label)).map(zone=>id>='T1-024'&&id<='T1-032'?{...zone,x:zone.x+zone.w*.15,y:zone.y+zone.h*.15,w:zone.w*.7,h:zone.h*.7}:zone),...(sourceProcessFlows[id]||flowRegions[id]||[]),...(diagramTextZones[id]||[]).filter(zone=>{const label=zone.label.trim();if(id==='T1-040'&&zone.y<26)return false;return !/^([\W_]+|e\+|oo|wa|NJ\]|ZZ\.|wef E|9°20 5|V2, Factory|EQ\) Housing|aoe AVENUE|for we|nine wl|for cor|Cate Children’s|Ss|Sty|wed|res|@\|Dough.*|©\).*|Vv sheets|KF\]|Se\}|WOe|©O\||\d)$/i.test(label)}).map((zone,index)=>({...zone,key:`text-${index}`}))]}
 ]));

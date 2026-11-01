@@ -122,10 +122,10 @@ Object.assign(reconstructions, {
   {title:'Italy · 2000',values:[14.3,61.6,24.1]},
   {title:'Italy · 2050',values:[11.5,46.2,42.3]}
  ]},
- 'T1-023': {kind:'pie',title:'Annual spending by a UK school',categories:['Teachers’ salaries','Furniture and equipment','Resources such as books','Other workers’ salaries','Insurance'],panels:[
-  {title:'1981',values:[40,15,15,28,2]},
-  {title:'1991',values:[50,5,20,22,3]},
-  {title:'2001',values:[45,23,9,15,8]}
+ 'T1-023': {kind:'pie',title:'Total School Spending',categories:['Teachers’ salaries','Furniture and equipment','Resources e.g. books','Other workers’ salaries','Insurance'],panels:[
+  {title:'Total School Spending 1981',values:[40,15,15,28,2]},
+  {title:'Total School Spending 1991',values:[50,5,20,22,3]},
+  {title:'Total School Spending 2001',values:[45,23,9,15,8]}
  ]}
 });
 
@@ -141,13 +141,13 @@ Object.assign(reconstructions, {
  ]},
  'T1-045': {kind:'table',title:'World Metro (MRT) systems',columns:['City','Year completed','Total length (km)','Carrying capacity per year (millions)'],rows:[['London',1863,1100,548],['Paris',1890,594,850],['Tokyo',1904,149,1434],['Washington DC',1921,114,70],['Kyoto',1980,11,11],['Los Angeles',2001,14,90]]},
  'T1-046': {kind:'table',title:'Nights spent by tourists in Germany, 2016–2022',columns:['Year','Domestic tourists (million)','International tourists (million)'],rows:[[2016,366.4,80.8],[2017,375.6,83.9],[2018,390.3,87.7],[2019,405.7,89.9],[2020,270.3,32],[2021,279.23,31.01],[2022,382.62,68.09]]},
- 'T1-047': {kind:'table',title:'Worldwide mobile phone sales, 2005 and 2006',unit:'% market share',columns:['Company','2005','2006'],rows:[['Nokia',32.5,35],['Motorola',17.7,21.1],['Samsung',12.7,11.8],['Sony Ericsson',6.3,7.4],['L.G',6.7,6.3],['BenQ Mobile',4.9,2.4],['Others',19.2,16.2],['Total',100,100]]},
+ 'T1-047': {kind:'table',title:'Worldwide mobile phone sales, 2005 and 2006',unit:'% market share',columns:['Company','2005','2006'],rows:[['Nokia',32.5,35],['Motorola',17.7,21.1],['Samsung',12.7,11.8],['Sony Ericsson',6.3,7.4],['L.G',6.7,6.3],['BenQ Mobile',4.9,2.4],['Others',19.2,16.2],['Total','100.0','100.0']]},
  'T1-048': {kind:'table',title:'First-year students rating aspects of their course “very good”',unit:'% of students',columns:['Course','Pre-course information','Teaching quality','Tutor support','Resources (print)','Resources (other)'],rows:[['Economics','55%','95%','92%','59%','62%'],['Law','72%','67%','79%','70%','80%'],['Commerce','95%','95%','93%','81%','85%']]},
- 'T1-049': {kind:'table',title:'International tourist arrivals, 2009 and 2010',columns:['Country','2009 (million)','2010 (million)','Change'],rows:[['France',76,76,'0%'],['US',66,67,'1.5%'],['Spain',55,56,'1.8%'],['UK',55,57,'3.6%'],['Italy',44,45,'2.3%'],['Turkey',33,45,'33%'],['China',22,34,'55%'],['Germany',11,23,'109%'],['Hong Kong',10,9,'−11%']]},
+ 'T1-049': {kind:'table',title:'International tourist arrivals, 2009 and 2010',columns:['Country','2009 (million)','2010 (million)','Change'],rows:[['France',76,76,'0'],['US',66,67,'1.5%'],['Spain',55,56,'1.8%'],['UK',55,57,'3.6%'],['Italy',44,45,'2.3%'],['Turkey',33,45,'33%'],['China',22,34,'55%'],['Germany',11,23,'109%'],['Hong Kong',10,9,'−11%']]},
  'T1-050': {kind:'table',title:'Management roles held by women in four industries, 2006',columns:['Position','Finance','Manufacturing','IT','Hospitality'],rows:[['Managers','16.39%','9.00%','16.04%','33.14%'],['Executives','4.58%','1.98%','12.82%','19.9%'],['CEOs','1.98%','1.21%','6.58%','20.6%']]},
  'T1-051': {kind:'table',title:'Consumption of rice, wheat and maize in four countries',unit:'calories per person per day',columns:['Country','Rice','Wheat','Maize'],rows:[['Cambodia',1445,18,103],['Poland',19,865,0],['Egypt',501,1095,578],['Mexico',57,275,1083]]},
  'T1-052': {kind:'table',title:'Secondary school attendance by school type',unit:'% of pupils',columns:['School type','2000','2005','2009'],rows:[['Specialist schools','12%','11%','10%'],['Grammar schools','24%','19%','12%'],['Voluntary-controlled schools','52%','38%','20%'],['Community schools','12%','32%','58%']]},
- 'T1-053': {kind:'table',title:'Cost of minimum daily water requirement',columns:['Country','Daily cost per person','Cost as % of average daily wage'],rows:[['Tanzania','6.4 cents','5.7%'],['Uganda','4.1 cents','3.2%'],['Pakistan','1.76 cents','1.1%'],['UK','1.3 cents','0.013%'],['US','0.85 cents','0.006%']]}
+ 'T1-053': {kind:'table',title:'Cost of minimum daily water requirement',columns:['Country','Daily cost per person (US$)','Cost as percentage of average daily wage'],rows:[['Tanzania','6.4 cents','5.7%'],['Uganda','4.1 cents','3.2%'],['Pakistan','1.76 cents','1.1%'],['UK','1.3 cents','0.013%'],['US','0.85 cents','0.006%']]}
 });
 
 Object.assign(reconstructions, {
