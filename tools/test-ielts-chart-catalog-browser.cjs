@@ -1,4 +1,6 @@
 const assert = require('node:assert/strict');
+const fs = require('node:fs');
+const path = require('node:path');
 const port = Number(process.env.PORT || 8799);
 const {chromium} = require(process.env.HOME+'/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
 (async()=>{
@@ -6,13 +8,17 @@ const {chromium} = require(process.env.HOME+'/.cache/codex-runtimes/codex-primar
  try{
   const page=await browser.newPage({viewport:{width:1280,height:900}}),errors=[];
   page.on('pageerror',error=>errors.push(error.message));
-  await page.route('**/ielts-chart-teaching/auth.mjs*',route=>route.fulfill({contentType:'text/javascript',body:"window.chartStudentId='catalog-test'; document.querySelector('#student-login').hidden=true; document.querySelector('#student-workspace').hidden=false; import('/ielts-chart-teaching/app.mjs?v=20261101-1');"}));
+  const assetBase='https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/';
+  await page.route('**/ielts-writing-preview/task1-diagrams.json*',route=>{const catalogue=JSON.parse(fs.readFileSync('ielts-writing-preview/task1-diagrams.json','utf8'));for(const item of catalogue)item.image=assetBase+item.image;return route.fulfill({json:catalogue});});
+  await page.route('**/site-assets/v1/assets/**',route=>{const localPath=path.resolve(process.cwd(),new URL(route.request().url()).pathname.replace('/site-assets/v1/',''));return route.fulfill({path:localPath,contentType:'image/webp'});});
+  await page.route('**/ielts-chart-teaching/auth.mjs*',route=>route.fulfill({contentType:'text/javascript',body:"window.chartStudentId='catalog-test'; document.querySelector('#student-login').hidden=true; document.querySelector('#student-workspace').hidden=false; import('/ielts-chart-teaching/app.mjs?v=20261101-2');"}));
   await page.goto(`http://127.0.0.1:${port}/ielts-chart-teaching.html`,{waitUntil:'networkidle'});
   await page.locator('#chart-selector option').last().waitFor({state:'attached'});
   assert.equal(await page.locator('#chart-selector option').count(),60);
   assert.equal(await page.locator('.chart-row').count(),10);
   await page.locator('#chart-selector').selectOption('T1-001');
   assert.equal(await page.locator('.source-chart-image').count(),1);
+  assert((await page.locator('.source-chart-image').getAttribute('src')).startsWith(assetBase));
   await page.waitForFunction(()=>{const img=document.querySelector('.source-chart-image');return img?.complete&&img.naturalWidth>0;});
   await page.locator('.source-chart-image').click({position:{x:130,y:100}});
   await page.locator('#point-label').fill('High income households');

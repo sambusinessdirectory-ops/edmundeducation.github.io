@@ -28,4 +28,4 @@ The lesson selector reads the 60-entry `ielts-writing-preview/task1-diagrams.jso
 
 This approach keeps the source visuals faithful and permits any feature to be compartmentalized. It does not claim that raster pixels contain machine-readable exact values; students enter values only when the source provides them.
 
-Catalogue browser check: serve the repository locally, then run `PORT=8799 node tools/test-ielts-chart-catalog-browser.cjs`. The check mocks only the student login gate and verifies all 60 entries, representative images from each category, point interactions, persistence, and mobile layout.
+Catalogue browser check: serve the repository locally, then run `PORT=8799 node tools/test-ielts-chart-catalog-browser.cjs`. The check mocks the student login gate and serves the published absolute R2 asset URLs from local image fixtures. It verifies all 60 entries, representative images from each category, point interactions, persistence, and mobile layout.

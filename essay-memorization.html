@@ -6,19 +6,17 @@
   <meta name="theme-color" content="#0964cf">
   <meta name="description" content="範文背書系統：逐步理解和記住 IELTS Model Essays。">
   <title>範文背書系統 · Model Essay 80 | Edmund Education</title>
-  <link rel="stylesheet" href="essay-memorization.css?v=20261031-three1">
+  <link rel="stylesheet" href="essay-memorization.css?v=20261101-review1">
   <script defer src="essay-80-memory-data.js?v=20261027-bilingual1"></script>
   <script defer src="essay-80-learning-support.js?v=20261027-bilingual1"></script>
-  <script defer src="essay-memory-lessons-data.js?v=20261031-three1"></script>
-  <script defer src="essay-memory-new-support.js?v=20261031-three1"></script>
+  <script defer src="essay-memory-lessons-data.js?v=20261101-review1"></script>
+  <script defer src="essay-memory-new-support.js?v=20261101-review1"></script>
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
   <link rel="stylesheet" href="eddy-global-dialogues.css?v=20261028-hover-guard1">
   <script defer src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
   <script defer src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
-  <link rel="stylesheet" href="shared-speaking-practice.css?v=20260829-1">
-  <script defer src="speaking-system-config.js"></script>
-  <script defer src="shared-speaking-practice.js?v=20261027-bilingual1"></script>
-  <script defer src="essay-memorization.js?v=20261031-three1"></script>
+  <script defer src="essay-memory-recordings.js?v=20261101-review1"></script>
+  <script defer src="essay-memorization.js?v=20261101-review1"></script>
 </head>
 <body>
   <header class="edmund-system-header memory-header">
@@ -67,12 +65,13 @@
       <div class="progress-track" role="progressbar" aria-label="全程進度" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="overall-progress"><span id="progress-fill"></span></div>
       <div class="round-meta"><span id="round-number"></span><span id="overall-number"></span></div>
       <div class="step-picker"><span id="step-picker-label">研讀步驟</span><button id="step-picker-open" type="button" aria-haspopup="dialog" aria-controls="step-dialog"><span id="step-picker-current"></span><span aria-hidden="true">⌄</span></button><select id="step-select" aria-label="選擇本關小步" hidden></select></div>
+      <div class="reading-controls"><button id="font-size-button" type="button" class="utility-button" aria-label="放大練習字體">放大字體：標準</button><label for="playback-speed">範文朗讀速度</label><select id="playback-speed" aria-label="調整範文朗讀速度"><option value="0.75">0.75× 慢速</option><option value="1" selected>1× 正常</option><option value="1.25">1.25× 快速</option><option value="1.5">1.5× 更快</option></select><a class="utility-button" href="essay-memory-recordings.html">我的範文背書錄音 ↗</a></div>
       <div class="progress-actions"><div><strong>我的學習進度</strong><span id="save-status" role="status" aria-live="polite">正在載入…</span></div><div class="progress-buttons"><button id="save-progress" type="button">儲存進度</button><button id="export-progress" type="button">下載備份</button><button id="import-progress" type="button">載入備份</button><input id="progress-file" type="file" accept="application/json,.json" hidden></div></div>
       <div id="game-card" class="game-card" aria-live="polite"></div>
       <div id="feedback" class="feedback" role="status" aria-live="polite"></div>
       <div class="utility-row"><button id="audio-full" class="utility-button" type="button"><span aria-hidden="true">♫</span> 聆聽整篇範文</button><button id="restart-round" class="utility-button" type="button"><span aria-hidden="true">↺</span> 重設本題</button><button id="restart-all" class="utility-button quiet" type="button">重新開始整個旅程</button></div>
     </section>
-    <p class="pilot-note">Essay 80 · 選擇題及重組由系統核對；朗讀錄音儲存在帳戶，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。</p>
+    <p class="pilot-note">Essay 80 · 選擇題及重組由系統核對；朗讀錄音只儲存在此瀏覽器的範文背書收藏，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。</p>
   </main>
   <dialog id="step-dialog" aria-labelledby="step-dialog-title"><div class="picker-heading"><div><p class="question-label">STUDY STEPS</p><h2 id="step-dialog-title">選擇研讀步驟</h2></div><button id="step-picker-close" type="button" aria-label="關閉步驟選單">×</button></div><label class="picker-search">搜尋本關步驟<input id="step-search" type="search" placeholder="輸入題目、句子或步驟編號" autocomplete="off"></label><div id="step-options"></div></dialog>
   <div id="confetti" class="confetti-layer" aria-hidden="true"></div>
