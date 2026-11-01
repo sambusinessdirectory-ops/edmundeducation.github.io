@@ -8,3 +8,7 @@
     .eddy-global-copy strong{font-size:clamp(13px,3vw,29px);font-weight:800;line-height:1.25}
     .eddy-global-copy span{font-size:clamp(11px,2.35vw,22px);font-weight:650;line-height:1.28}
     @media(max-width:560px){.eddy-global-overlay button{align-items:center}.eddy-global-art{width:100%}.eddy-global-copy{top:72%;right:3%;bottom:auto;left:3%;min-height:108px;padding:8px 28px 8px 11px;border:3px solid #a85729;border-radius:14px;box-shadow:0 4px 0 #61301c}.eddy-global-copy strong{font-size:clamp(14px,3.9vw,17px)}.eddy-global-copy span{font-size:clamp(12px,3.3vw,15px)}.eddy-global-copy::after{position:absolute;right:9px;bottom:5px;color:#4b200e;content:'▼';font-size:11px}}
+.eddy-global-copy .eddy-horse-pun{position:relative;display:inline-block;margin:0 .03em;padding:0 .1em;border-radius:.24em;background:linear-gradient(145deg,#b56529,#82331d);box-shadow:0 2px 0 #e9ac39,0 0 .3em #f4c05b;color:#fff6d5;font-weight:900;text-shadow:0 1px 1px #55210e;transform:rotate(-7deg);animation:eddy-global-horse-hop 1.8s ease-in-out 2}
+.eddy-global-copy .eddy-horse-pun::after{position:absolute;top:-.66em;right:-.48em;color:#9b4b20;content:'♞';font:.72em Georgia,serif;text-shadow:0 1px #fff1c4}
+@keyframes eddy-global-horse-hop{0%,74%,100%{transform:translateY(0) rotate(-7deg)}84%{transform:translateY(-.18em) rotate(5deg)}}
+@media(prefers-reduced-motion:reduce){.eddy-global-copy .eddy-horse-pun{animation:none}}

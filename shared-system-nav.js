@@ -1275,16 +1275,22 @@
     const actions=document.querySelector(".edmund-system-header__actions");if(!actions)return;
     let chip=actions.querySelector("[data-edmund-coin-wallet]");const student=studentSessionCandidate();
     if(!student||student.impersonatedByAdmin){chip?.remove();return;}
-    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><img src="/edmund-coins/eddy-v3.webp" width="44" height="44" alt="" decoding="async"></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",openCoinWallet);actions.prepend(chip);}
+    if(!chip){chip=document.createElement("button");chip.type="button";chip.className="edmund-coin-wallet";chip.dataset.edmundCoinWallet="";chip.setAttribute("aria-label","View Edmund Coins balance and history");chip.innerHTML='<span class="edmund-coin-mark" aria-hidden="true"><img src="/edmund-coins/eddy-v3.webp" width="44" height="44" alt="" decoding="async"></span><span class="edmund-coin-copy"><strong>—</strong><small>Edmund Coins</small></span>';chip.addEventListener("click",()=>void openCoinWallet());actions.prepend(chip);}
     void refreshCoinArtwork();
     let config=window.EDMUND_SUPABASE;if(!config?.url||!config?.anonKey){try{await new Promise((resolve,reject)=>{const script=document.createElement("script");script.src=new URL("/supabase-config.js",location.origin).href;script.onload=resolve;script.onerror=reject;document.head.append(script);});config=window.EDMUND_SUPABASE;}catch{return;}}if(!config?.url||!config?.anonKey)return;
     chip.querySelector("strong").textContent="…";
     try{const response=await fetch(`${config.url}/rest/v1/rpc/eddie_farm_snapshot`,{method:"POST",cache:"no-store",credentials:"omit",headers:{apikey:config.anonKey,"Content-Type":"application/json"},body:JSON.stringify({p_token:student.token}),signal:AbortSignal.timeout(9000)});if(!response.ok)throw Error();const data=await response.json();if(studentSessionCandidate()?.token!==student.token)return;chip.querySelector("strong").textContent=Number(data.balance||0).toLocaleString();}catch{chip.querySelector("strong").textContent="—";}
   }
 
-  async function openCoinWallet() {
+  async function openCoinWallet({ skipEddy = false } = {}) {
     const student=studentSessionCandidate();
     if(!student||student.impersonatedByAdmin)return;
+    if (!skipEddy) {
+      try {
+        const { showCoinEddy } = await import('./eddy-coin-wallet-dialogue.mjs?v=20261101-1');
+        if (await showCoinEddy(() => void openCoinWallet({ skipEddy: true }))) return;
+      } catch { /* Coin history remains available if Eddy cannot load. */ }
+    }
     let dialog=document.querySelector("[data-edmund-coin-dialog]");
     if(!dialog){
       dialog=document.createElement("dialog");dialog.className="edmund-coin-dialog";dialog.dataset.edmundCoinDialog="";
