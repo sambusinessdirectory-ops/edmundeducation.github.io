@@ -237,26 +237,26 @@
     because: {
       frame:'[要解釋的結果] because [原因]', meaning:'後半句解釋前半句的原因。', usage:'說明結果或判斷背後的原因。',
       parts:[['[要解釋的結果]','slot'],[' because ','link'],['[原因]','slot']],
-      options:['Mia put on a coat because the air was cold.','The glass broke yesterday because it will fall tomorrow.','The room is empty because the wall is blue.','The road was wet because it was not dry.'],
-      explanations:['寒冷解釋了穿外套的決定。','未來的事不能導致昨天的結果。','牆壁顏色不能解釋為何房間空無一人。','後半句只是換句話說明濕，沒有原因。'],
+      options:['Mia put on a coat because the air was cold.','The air was cold, so Mia put on a coat.','If the air is cold, Mia will put on a coat.','When the air became cold, Mia put on a coat.'],
+      explanations:['because 引出穿外套的原因。','so 引出結果，與標示的 because 句型不同。','if 提出條件，與標示的 because 句型不同。','when 指出時間或情況，與標示的 because 句型不同。'],
     },
     if: {
       frame:'If [條件], [可能出現的結果]', meaning:'前半句提出條件，後半句說明在該條件下的結果。', usage:'解釋某做法或情況出現時會怎樣。',
       parts:[['If ','link'],['[條件]','slot'],[', ','link'],['[可能出現的結果]','slot']],
-      options:['If the train is late, we will take the bus.','If the train is late, it was on time yesterday.','If the train is late, the train is late.','If the train is late, the moon has mountains.'],
-      explanations:['火車遲到是改乘巴士的條件。','昨天準時並非這條件造成的結果。','後半句只重述條件。','後半句與條件沒有相關因果關係。'],
+      options:['If the train is late, we will take the bus.','When the train arrives, we will take the bus.','The train was late, so we took the bus.','We took the bus because the train was late.'],
+      explanations:['if 提出改乘巴士的條件。','when 指出發生的時間或情況，與標示的 if 句型不同。','so 引出結果，與標示的 if 句型不同。','because 解釋原因，與標示的 if 句型不同。'],
     },
     when: {
       frame:'When [情況發生], [相關結果或行動]', meaning:'指定情況發生時，接着出現相關行動或結果。', usage:'把具體情境與其後果連起來。',
       parts:[['When ','link'],['[情況發生]','slot'],[', ','link'],['[相關結果或行動]','slot']],
-      options:['When the bell rang, the class went inside.','When the bell rang, the bell made a sound.','When the bell rang today, yesterday was Monday.','When the bell rang, the apples were red.'],
-      explanations:['鈴聲響起與入課室的行動直接相關。','只重述鈴聲，沒有另一個結果。','昨天的日期不是今天鈴聲的後果。','蘋果顏色與鈴聲沒有相關關係。'],
+      options:['When the bell rang, the class went inside.','If the bell rings, the class will go inside.','The class went inside because the bell rang.','The bell rang, so the class went inside.'],
+      explanations:['when 指定鈴聲響起的時間或情況，後面接相關行動。','if 提出條件，沒有使用 when 引出發生的情況。','because 解釋原因，沒有使用 when 引出發生的情況。','so 引出結果，沒有使用 when 引出發生的情況。'],
     },
     so: {
       frame:'[原因或情況], so [結果]', meaning:'先給原因或情況，再說其結果。', usage:'清楚連接行為、制度或環境與後果。',
       parts:[['[原因或情況]','slot'],[', so ','link'],['[結果]','slot']],
-      options:['The road was icy, so the driver slowed down.','The driver slowed down, so the road had been icy yesterday.','The road was icy, so the road was not warm.','The road was icy, so my blue pen ran out of ink.'],
-      explanations:['結冰可合理導致司機減速。','減速不能造成昨天的結冰。','後半句只重述道路寒冷。','筆沒墨與結冰道路無關。'],
+      options:['The road was icy, so the driver slowed down.','The driver slowed down because the road was icy.','When the road became icy, the driver slowed down.','If the road is icy, the driver will slow down.'],
+      explanations:['so 明確把結冰與司機減速連成前因後果。','because 引出原因，與標示的 so 句型不同。','when 指出時間或情況，與標示的 so 句型不同。','if 提出條件，與標示的 so 句型不同。'],
     },
     but: {
       frame:'[先提出的情況], but [形成轉折的情況]', meaning:'後半句與前半句形成有意義的轉折。', usage:'先承認一點，再指出不同或相反的另一點。',
@@ -315,78 +315,101 @@
     'in conclusion':['總結','收束前面的論證。','總結立場。'],
     'overall':['總結','收束前面的論證。','總結立場。'],
     'and':['並列','連接兩項同樣重要的內容。','並列兩個意思。'],
+    'how-clause':['影響理解','說明某事如何影響別人的理解方式。','用 help shape how 引出被影響的理解方式。'],
+    stance:['表態','直接表達贊同或反對的立場。','用明確動詞指出自己的看法。'],
+    causative:['造成改變','說明一種做法令某事物出現某種特點。','用 Doing A makes B + 形容詞表達改變。'],
+    sequencing:['次序','標示同一系列中的下一項理由或效果。','用 Second 引出與第一項並列的新點。'],
+    consequence:['推論','根據之前的理由帶出一項判斷。','用 For that reason 回指前述理由。'],
+    benefit:['補充好處','說明同一做法亦能使另一方受益。','用 also benefits 補充受惠對象。'],
+    relative:['關係子句','補充說明前面的名詞。','用 who 子句描述前面提到的人。'],
+    problem:['提出問題','用 that 子句說明問題內容。','用 The first problem is that 引出完整子句。'],
+    progression:['時間推進','指出影響隨時間累積。','用 Over time 引出長期結果。'],
+    method:['方法','指出某事透過甚麼方式完成。','用 through 或 by + -ing 說明方法。'],
+    'participle-result':['伴隨結果','用 -ing 片語補充前面情況造成的結果。','用逗號加 creating 表達結果。'],
+    'as-change':['變化伴隨結果','指出一種變化發展時另一種情況隨之出現。','用 As A changes, B happens。'],
+    'parallel-verbs':['並列效果','同一主語連接兩個動作或影響。','用動詞 1 and 動詞 2。'],
+    purpose:['目的','先交代目的，再提出主要行動。','用 To + 動詞原形交代目的。'],
+    list:['列舉','以逗號和 and 並列同類項目。','列出三項或更多同類項目。'],
+    transformation:['轉化','說明一事物變成另一種狀態。','用 turn X into Y。'],
+    reminder:['提醒內容','指出提醒的對象及要記住的內容。','用 remind someone that + 子句。'],
     statement:['直接陳述','這句直接提出一項觀點或事實。','清楚陳述一項意思。'],
   };
   const exampleOptions = {
-    reasonFragment:['I was tired. Because I slept badly.','I was tired. But I slept well.','I was tired. So I went to bed.','I was tired. When I got home.'],
+    reasonFragment:['I disagree with the plan because it costs too much.','I disagree with the plan, but it costs too much.','I disagree with the plan, so it costs too much.','I disagree with the plan when it costs too much.'],
     statement:['I disagree.','If it rains, we will stay home.','I stayed home because it rained.','It was cold, but we went out.'],
     and:['The class read books, and the teacher took notes.','If the bell rings, we will leave.','The class left because it was late.','The room was cold, but we stayed.'],
     'in conclusion':['In conclusion, we should save water.','If it rains, we will stay home.','I stayed home because it rained.','For example, my brother cycles to work.'],
     overall:['Overall, this plan helps students.','When the bell rings, we will leave.','I stayed home because it rained.','For example, my brother cycles to work.'],
     'as a result':['As a result, fewer cars used the road.','If it rains, we will stay home.','I like tea, but she likes coffee.','For example, my brother cycles to work.'],
     'instead of':['We walked instead of taking the bus.','We walked because it was sunny.','When it was sunny, we walked.','We walked, so we arrived late.'],
+    'rather than':['The choice was based on skill rather than family ties.','The choice was based on skill because it was fair.','The choice was based on skill, so the team improved.','The choice was based on skill when the manager arrived.'],
+    'by contrast':frames.contrast.options,
+    relative:['We need helpers who can explain the rules.','We need helpers because the queue is long.','We need helpers if the queue grows.','We need helpers, so the queue moves faster.'],
+    method:['The dispute was settled through discussion.','The dispute was settled because it was small.','The dispute was settled, but it took time.','The dispute was settled when the teacher arrived.'],
+    list:['The club offers music, sport, and art classes.','The club offers music because students asked.','The club offers music, so more people joined.','The club offers music while the room is open.'],
+    transformation:['The course turned a hobby into a career.','The course helped because it was short.','The course was useful, but it was expensive.','The course began when school ended.'],
   };
   // Sentence-specific teaching notes, checked against the published essay text.
   // The attached mapping supplied useful examples, but source mismatches were not copied.
   const teachingNotes = {
     'opinion:3': [
-      ['博物館和美術館會影響公眾如何理解藝術、歷史與文化。','在引言說明一類機構如何塑造大眾看法時。'],
+      ['help shape how 引出受影響的理解方式：博物館會影響公眾如何看待藝術、歷史和文化。','要說明 A 如何影響 B 的理解方式，可用「A helps shape how B understands C」。'],
       ['「只展示本地藝術家」是主張採用的做法；「展示其他國家的作品」是被排除的做法。instead of 表示做前者，而不做後者。','比較兩種做法並指出採用前者、捨棄後者時使用。instead of 後接名詞或 -ing 動詞；這句接 showing。'],
-      ['作者明確反對上一句提到的看法。','介紹爭議後，要直接說清楚自己不同意甚麼時。'],
-      ['承接上一句的反對立場，預告拓闊理解與促進本地藝術兩項理由。','表明立場後，立即預告兩個主體段將討論的理由時。'],
-      ['國際作品令博物館更具教育價值，是第一主體段的主張。','在主體段開首，用一句話提出這段要證明的好處時。'],
-      ['只看本地藝術會失去比較基礎，因而令理解變窄。','要用假設情況指出某種限制及其原因時。'],
-      ['本地畫作與外國作品並列，讓學生看到文化表達的異同。','提出抽象理由後，用具體展示場景說明學生會學到甚麼時。'],
-      ['第二項教育好處是增進觀眾對其他社會的理解。','同一主體段由第一個好處轉到另一個不同好處時。'],
-      ['外國作品呈現戰爭、移民等經歷，因此幫觀眾理解他人的生活。','列出具體內容後，接着說明觀眾能從中得到甚麼時。'],
-      ['反過來看，排除外國作品會降低博物館的知識及文化價值。','已說明多項好處後，用失去這些好處的後果收束段落時。'],
-      ['第二主體段轉向本地藝術家與支持他們的機構。','換到另一個受惠群體，開始新的主體段時。'],
-      ['陌生技法及藝術理念會促使本地藝術家進步。','指出外來刺激如何轉化成創作能力時。'],
-      ['只展本地作品可能令創作重複；接觸外來方法則可促進創新。','需要對比一種限制與另一種做法的相反效果時。'],
-      ['年輕藝術家借鑑外國藝術，再以新方法處理本地題材。','要用一個藝術家的具體做法，證明上一句的創新機制時。'],
-      ['多元展覽吸引更廣泛的觀眾，也令美術館保持活力。','同一段轉入觀眾及機構所得到的第二項好處時。'],
-      ['本地與國際展覽交替，使更多訪客有機會發現本地人才。','要解釋多元展覽如何間接幫助本地藝術家時。'],
-      ['總結不應把博物館的展示範圍限於本地藝術家。','在結論開首，回應題目中「只展本地作品」的主張時。'],
-      ['作者再次明確表示不同意這項限制。','在結論重申立場，讓讀者清楚知道最終判斷時。'],
-      ['最後回扣公眾理解與本地藝術成長兩條主線。','結論最後一句要精簡重述兩段主體理由時。'],
+      ['strongly disagrees with 明確表達作者強烈反對前述看法。','要直接表達強烈反對某項主張，可用「X strongly disagrees with Y」；with 後接反對的對象。'],
+      ['because 承接前一句的反對立場，後面列出兩項理由。','用 because 接在判斷後面交代原因；若有兩項原因，可用 and also 把它們並列。'],
+      ['以 Showing foreign work 這個 -ing 片語作主語，說明它令博物館更具教育意義。','要說明一種做法造成甚麼改變，可用「Doing A makes B + 形容詞」。'],
+      ['if 提出只看本地傳統的條件；主句說理解會變窄，because 再解釋原因。','要說明某條件可能帶來的結果，可用「If A, B」；再用 because 補充造成結果的原因。'],
+      ['When 設定畫作並列的情境；後半句說明學生在這個情境下能看見甚麼。','用「When A, B」把一個情境與其中發生的結果連起來；for example 可插入具體例子。'],
+      ['Second 標示與上一項並列的第二項好處：加深社會理解。','列出同一主題下的第二個獨立理由或效果時，可用 Second 開頭，再給出新的一點。'],
+      ['so 連接前因後果：作品反映不同社會經歷，因此接觸作品有助理解他人。','要把前一情況造成的結果說清楚，可用「A, so B」；B 應是由 A 合理產生的後果。'],
+      ['For that reason 回指前面的理由，帶出排除外國作品會降低博物館價值的推論。','已有理由後，要指出由此得出的判斷或後果，可用 For that reason 開頭。'],
+      ['Displaying international art 是 -ing 主語；also 表示這項做法還使本地藝術家及相關機構受益。','要補充同一做法的另一項好處，可用「Doing A also benefits B」。'],
+      ['when 指出藝術家在受到陌生技法和理念挑戰的情況下會進步。','要說明某結果在甚麼情況下出現，可用「B when A」；when 子句可放在主句後。'],
+      ['先以 if 說明只展本地作品的可能限制，再用 by contrast 對比外來影響的效果。','要並列兩種做法或情況的不同結果，可用分號接 by contrast，突出後者與前者的差異。'],
+      ['for instance 插入一位年輕藝術家的例子，說明借鑑外國技法的可能效果。','一般主張之後要給具體個案時，可用 for instance；也可放在主語後作插入語。'],
+      ['Second 引入另一項好處；attract 和 keep 並列表示同一做法的兩個效果。','列出第二項理由並同時說明兩個效果，可用「Second, A + 動詞 1 and 動詞 2」。'],
+      ['When 指出展覽交替的情況；主句說會吸引訪客，who 再補充訪客可能發現人才。','用 When 引出情況，主句交代結果；若要補充句中提到的人之後會做甚麼，可加「, who + 動詞」。'],
+      ['In conclusion 標示收束；should not 表達不應只展示本地藝術家的判斷。','結束論證並重申最終判斷時，可用 In conclusion 開頭；should 或 should not 表達建議。'],
+      ['strongly disagree with 再次明確表達對該主張的反對。','要簡潔而明確地重申反對立場，可用「I strongly disagree with + 看法」。'],
+      ['because 接續反對立場，後面的 both ... and 並列兩個理由。','解釋某判斷時，可用 because 引出原因；用 both A and B 強調兩個並列理由。'],
     ],
     'discuss-both-views:4': [
-      ['先交代家族經營在不少國家普遍存在，而且常被視為成功基礎。','在引言介紹一種常見做法及社會對它的看法時。'],
-      ['作者直接表示不同意前述看法。','交代背景後，需要用短句清楚表明立場時。'],
-      ['家族關係主導企業不是最佳模式，因為它會損害專業判斷並帶來風險。','在引言提出立場，同時預告兩項主要問題時。'],
-      ['第一個問題是家族企業容易混淆親情與工作能力。','主體段開首，要清楚點出第一項缺點時。'],
-      ['公平的企業應按員工表現作出選用、晉升及糾正決定。','提出問題後，先建立一個可用來衡量做法的公平標準時。'],
-      ['親屬憑血緣任高層，會造成管理、員工士氣及決策上的連鎖損害。','需要由一個條件逐步推導多項實際後果時。'],
-      ['老闆兒子反覆失去客戶，其他經理卻怕得罪家族而不敢指出。','要把裙帶關係的抽象問題變成讀者可想像的具體例子時。'],
-      ['偏袒日積月累會削弱員工信任及企業競爭力。','舉例後，說明問題長期累積的結果時。'],
-      ['第二個問題是家族爭執可能波及企業運作。','完成第一項問題後，轉到另一項主要缺點時。'],
-      ['專業管理的企業可用合約、職責及正式程序處理爭議。','要提出可對照的制度化做法，凸顯家族企業的問題時。'],
-      ['家族企業的繼承、領導及金錢爭議往往變得高度個人化。','比較正式程序後，說明家族關係為何令衝突難以處理時。'],
-      ['兄弟姊妹爭奪控制權，可能令招聘、投資和擴張停頓。','要用具體家族衝突展示它如何阻礙業務決定時。'],
-      ['其他員工被迫選邊，私人忠誠便可能壓過業務需要。','把家族衝突的影響延伸到非家族員工時。'],
-      ['繼任期間需要穩定，因此家族對立在這時尤其危險。','要指出某個問題在特定過渡時期為何特別嚴重時。'],
-      ['方向盤被家族矛盾拉扯，形象地說明企業難以穩步成長。','段末用貼近論點的比喻，收束長期經營風險時。'],
-      ['整體判斷是家族經營較可能帶來問題，而非最佳企業模式。','比較各項問題後，在結論作出明確的總體判斷時。'],
-      ['公平、專業及清楚管治很重要；家族關係主導決策會削弱它們。','結論最後說明自己判斷所依據的企業原則時。'],
+      ['and 連接兩項相關陳述：家族經營普遍存在，這種安排也常被視為成功基礎。','要並列兩項完整而相關的陳述，可用「子句 A, and 子句 B」；第二句可用 this 回指前項。'],
+      ['I disagree 以簡短獨立句明確表達不同意。','要毫不含糊地直接表態時，可用「I disagree」；若要指出對象，可加 with + 看法。'],
+      ['because 解釋為何家族關係主導企業不是最佳模式，後面並列兩個風險。','要為判斷提供原因，可用「判斷, because 原因」；同一原因內可並列兩種影響。'],
+      ['The first problem is that 引出第一項具體問題：親情與能力容易混淆。','要清楚提出第一項問題，可用「The first problem is that + 完整子句」。'],
+      ['who 子句描述 employees，並列 selected、promoted 和 corrected 三項按表現作出的決定。','要補充說明某一群人具備甚麼特徵，可用「名詞 + who + 動詞」；多項平行動作可用逗號及 and 連接。'],
+      ['When 提出親屬憑血緣任職的情況，後面接管理受損及其他連鎖後果。','要先設定一種情況，再推導其後果，可用「When A, B」；後續句子可再展開 B 的影響。'],
+      ['For example 引出具體個案，if 設定個案條件，because 解釋經理為何不敢提出批評。','要用可想像的個案支援一般主張，可用 For example 開頭；例子內可再用 if 和 because 說明條件與原因。'],
+      ['Over time 指出偏袒累積之後會削弱信任和競爭力。','要說明影響逐漸累積而非立即發生，可用 Over time 引出長期結果。'],
+      ['Another major issue is that 引出不同於前一問題的另一項問題。','提出另一個主要問題時，可用「Another major issue is that + 完整子句」。'],
+      ['through 指出處理爭議的方法：合約、職責說明和正式程序。','要交代某事透過甚麼方法完成，可用「動作 + through + 方法」；此處也配合被動語態。'],
+      ['however 插入句中，將家族企業的情況與前述專業管理方式作對比。','要轉向與前一情況不同的情況，可用 however；插在句中時，前後一般用逗號隔開。'],
+      ['for instance 插入兄弟姊妹爭奪控制權的具體例子。','要為一般說法補充具體個案，可用 for instance 作插入語，前後用逗號隔開。'],
+      ['creating 表示前述員工被迫選邊所造成的結果：形成不健康的工作氣氛。','要簡潔補充前一整句造成的結果，可在逗號後用「creating + 結果」。'],
+      ['when 補充說明 during succession 這段期間的情況：企業需要穩定。','先指出某個時期，再補充該時期的特點時，可用「during + 時期, when + 子句」。'],
+      ['if 放在主句後，指出企業無法穩步成長所依據的條件。','要把結果先說出，再補充成立條件，可用「結果 if 條件」。'],
+      ['Overall 標示整體判斷；more likely ... than 比較兩種可能結果。','概括前面的論證時，可用 Overall；比較哪種結果較可能，可用「more likely to A than B」。'],
+      ['and 連接兩項完整陳述：企業需要若干原則，而這些原則可能被家族關係削弱。','要先提出一項需要，再接上與它相關的後果，可用「子句 A, and 子句 B」。'],
     ],
     'cause-solution:2': [
-      ['大企業可大量宣傳，令其產品比本地小企業的產品更顯眼。','在引言解釋資源差距如何造成競爭優勢時。'],
-      ['先概括本地經濟與選擇受損，再預告可採取措施。','在原因與解決類文章的引言，交代問題和方案兩條路線時。'],
-      ['第一個問題是小型本地企業被大品牌蓋過。','問題段開首，先點出第一項主要損害時。'],
-      ['反覆看見同一品牌，會令買家下意識信任它，即使本地產品同樣好。','用購物情境說明熟悉感如何蓋過產品本身品質時。'],
-      ['銷售轉向大企業，小商店因收入下降而裁員甚至結業。','要由市場變化逐步推導對本地商店和職位的後果時。'],
-      ['資金離開社區，主要購物街變得單調及欠缺活力。','說完小店受損後，進一步指出整個社區的影響時。'],
-      ['第二個問題是購物決定受形象而非真正價值左右。','完成經濟影響後，轉到消費者選擇的另一項問題時。'],
-      ['零食因包裝、口號及名人宣傳而顯得更好，未必因品質較高。','要用一種具體商品解釋廣告形象如何影響判斷時。'],
-      ['結果是買家可能為熟悉品牌多付錢，卻忽略較健康或新鮮的本地產品。','例子後，並列指出品牌偏好與本地產品被忽視兩個後果時。'],
-      ['解決段先提出政府及議會應提高本地產品的可見度。','由問題轉到方案時，先說明誰應採取甚麼方向的行動時。'],
-      ['市集、店內專區及網上平台都是可執行的措施。','提出方案後，要列出幾種具體可實施的做法時。'],
-      ['本地貨若像大品牌一樣容易找到，購買本地便可成為方便的習慣。','用 if 說明改善購買便利性如何改變日常行為時。'],
-      ['零售商亦可透過清楚標籤和公平貨架位置幫助本地產品。','補充政府以外的行動者及其實際做法時。'],
-      ['簡單的產地標籤和生產者資料可讓普通購物變成支持社區。','要用一個小而具體的措施說明方案如何產生價值時。'],
-      ['公共宣傳可提醒消費者，本地消費維持職位、技能及社區認同。','在方案段補上資訊宣傳的作用，說明為何人們值得購買本地時。'],
-      ['結論重述大企業的宣傳力量會損害本地企業並推動品牌導向消費。','在結論先概括文章分析過的兩項問題時。'],
-      ['若本地產品顯眼、方便且有意義，社區可把需求引回本地。','結論最後用條件句重申解決方向及期望結果時。'],
+      ['so 連接宣傳投入與產品能見度提升，表示後者由前者造成。','要表達某情況導致甚麼結果，可用「原因或情況, so 結果」。'],
+      ['but 把已指出的損害與仍可採取的改善措施連起來。','先指出一種情況，再轉向不同或相反的可能性時，可用「A, but B」。'],
+      ['The first problem is that 引出小企業被大品牌掩蓋的第一項問題。','要清楚提出第一項問題，可用「The first problem is that + 完整子句」。'],
+      ['When 設定反覆看到品牌的情況；主句說會產生信任，even when 再補充反預期情況。','要由某情況推到常見反應，可用「When A, B」；要指出即使有例外條件仍如此，可加 even when。'],
+      ['As 表示隨着銷售轉向大企業，小商店的收入、職位和存續逐步受影響。','要表示某種變化發展的同時，另一結果隨之出現，可用「As A changes, B happens」。'],
+      ['drains 和 leaves 共用主語 This，並列說明資金流失與街道變得單調兩項後果。','要說明同一原因帶來兩種並行影響，可用「主語 + 動詞 1 and 動詞 2」。'],
+      ['rather than 對比形象與真正價值，指出前者才是影響選擇的因素。','要指出實際依據是 A 而非 B，可用「A rather than B」；兩邊應是可比較的項目。'],
+      ['for instance 插入廣告零食的具體例子；because 再解釋它為何看似更好。','要用一個具體個案說明一般說法，可用 for instance 作插入語；必要時用 because 解釋例子。'],
+      ['As a result 回指前文原因；while 並列對照買家多付錢與本地產品被忽視的結果。','由前述原因推到後果時，可用 As a result 開頭；若有對照的兩個後果，可再用 while。'],
+      ['To encourage local purchasing 先交代目的，主句再提出應採取的行動。','要先說明行動的目的，再提出做法，可用「To + 動詞原形 ..., 主句」。'],
+      ['逗號和 and 把市集、店內專區和網上平台三項平行措施列成清單。','列出三項或更多同類項目時，可用逗號分隔，最後一項前加 and。'],
+      ['If 提出本地貨變得容易找到的條件；主句說購買本地便成為方便的習慣。','要說明某條件成立後可能出現的結果，可用「If A, B」；rather than 可再排除另一種理解。'],
+      ['by using 說明零售商可以用甚麼方法提供幫助。','要補充完成某行動的方法，可用「動作 + by + -ing 動詞」。'],
+      ['turn ... into 表示簡單標籤可把普通購物轉變為支持社區的行為。','要說明某措施把 X 轉化為 Y，可用「turn X into Y」。'],
+      ['remind consumers that 表示公共宣傳提醒某群人注意一項事實。','要指出提醒誰留意甚麼內容，可用「remind + 人 + that + 完整子句」。'],
+      ['In conclusion 標示總結；後面並列大型企業宣傳力量的兩項後果。','要在結尾概括已說過的主要結果，可用 In conclusion 開頭，並列相關重點。'],
+      ['However 將前述問題轉向另一種可能；if 設定方案奏效的條件。','要從問題轉到不同可能性，可用 However；再用 if 說明該可能性成立的條件。'],
     ],
   };
   for (const [key, notes] of Object.entries(teachingNotes)) {
@@ -397,72 +420,139 @@
     'opinion:3': {
       0:'Schools help shape how children understand the world.',
       2:'I strongly disagree with that plan.',
+      3:'I oppose the plan because it costs more and also takes longer.',
       4:'Reading books from other countries makes lessons more interesting.',
+      5:'If the road is blocked, traffic slows because drivers must take another route.',
+      6:'When a library holds a reading day, for example, children can discover new stories.',
       7:'Second, meeting new people can deepen our understanding of others.',
       9:'For that reason, closing the library would reduce learning opportunities.',
       10:'Showing films from abroad also benefits local filmmakers.',
+      12:'If children read only one author, their view stays narrow; by contrast, varied stories widen it.',
       13:'A young chef who studies abroad, for instance, may improve local dishes.',
       14:'Second, varied events attract more visitors and keep the centre lively.',
+      15:'When schools hold festivals, they attract families, who then learn about the community.',
       17:'I strongly disagree with this rule.',
+      18:'I oppose the plan because it both costs more and takes longer.',
     },
     'discuss-both-views:4': {
+      0:'Many people work from home, and this arrangement saves travel time.',
       1:'I disagree.',
       3:'The first problem is that the new rule may be unfair.',
+      5:'When drivers ignore signs, roads become dangerous. This creates more delays.',
       6:'For example, if a driver ignores the sign, other cars may have to stop.',
       7:'Over time, unfair rules reduce trust among workers.',
       8:'Another major issue is that old computers often break.',
       11:'A fight between neighbours over parking, for instance, can delay road repairs.',
       12:'Other workers may choose sides, creating a stressful workplace.',
+      13:'This is risky during winter, when roads are often icy.',
+      15:'Overall, the plan is more likely to save time than cause delays.',
+      16:'Schools need clear rules, and these rules work best when everyone understands them.',
     },
     'cause-solution:2': {
       2:'The first problem is that small shops lose customers.',
+      3:'When a shop becomes crowded, people wait, even when another shop is empty.',
       4:'As more people shop online, local stores lose sales and close.',
       5:'This takes time from teachers and leaves less time for students.',
-      6:'A second problem is that the new rule limits choice.',
+      6:'The choice was based on speed rather than safety.',
       7:'A popular shoe, for instance, may seem better because its ads are everywhere.',
+      8:'As a result, some pupils progressed, while others fell behind.',
       9:'To reduce waste, councils should make recycling bins easier to find.',
       12:'Schools can also help by giving students clear information.',
-      13:'A clear label, paired with a short explanation, can help buyers choose.',
+      13:'A short course can turn a hobby into a career.',
       14:'Public messages can also remind people that local shops create jobs.',
+      16:'However, if the rain stops, we can still play outside.',
+    },
+  };
+  // Each override points to the construction being taught, including places
+  // where the first connector in the sentence is not the useful focus.
+  const focusOverrides = {
+    'opinion:3': {
+      0:['help shape how','how-clause'],2:['strongly disagrees with','stance'],4:['makes','causative'],
+      5:['if','if',', their understanding'],6:['When','when',', for example, students'],
+      7:['Second,','sequencing'],9:['For that reason,','consequence'],10:['also benefits','benefit'],
+      12:['by contrast','by contrast'],14:['Second,','sequencing'],15:['When','when',', they draw'],
+      17:['strongly disagree with','stance'],
+    },
+    'discuss-both-views:4': {
+      1:['disagree','stance'],3:['The first problem is that','problem'],4:['who','relative'],
+      5:['When','when',', poor management'],7:['Over time,','progression'],
+      8:['Another major issue is that','problem'],9:['through','method'],
+      12:['creating','participle-result'],16:[', and ','and',null,true],
+    },
+    'cause-solution:2': {
+      2:['The first problem is that','problem'],3:['When','when',', they tend'],
+      4:['As','as-change',', independent shops'],5:[' and leaves ','parallel-verbs'],
+      9:['To encourage local purchasing,','purpose'],10:[', and ','list'],
+      11:['If','if',', buying locally'],
+      12:['by using','method'],13:['into','transformation'],14:['remind consumers that','reminder'],
     },
   };
   const connectorPattern = /\b(?:because|if|when|so|but|while|however|rather than|instead of|for example|for instance|by contrast|as a result|in conclusion|overall)\b|,\s+and\s+/ig;
   for (const [key, essay] of Object.entries(lessons)) {
     essay.support.structures = essay.sentences.map((source, position) => {
       const text=source.english;
-      const match=connectorPattern.exec(text);
+      const focus=focusOverrides[key]?.[position];
+      const match=focus ? {0:focus[0],index:focus[3]?text.lastIndexOf(focus[0]):text.indexOf(focus[0])} : connectorPattern.exec(text);
       connectorPattern.lastIndex=0;
-      const rawType=match?.[0].trim().replace(/^,\s*/,'').toLowerCase() || 'statement';
+      if (!match || match.index<0) throw Error(`Missing audited structure focus: ${key} sentence ${position+1}`);
+      const rawType=focus?.[1] || match[0].trim().replace(/^,\s*/,'').toLowerCase();
       const type=relationTypes[rawType] ? rawType : 'statement';
+      if (type==='statement') throw Error(`Unaudited structure: ${key} sentence ${position+1}`);
       const [functionName,genericMeaning,genericUsage]=relationTypes[type];
       const [meaning,usage]=teachingNotes[key]?.[position] || [genericMeaning,genericUsage];
-      const before=match ? text.slice(0,match.index) : '';
-      const connector=match?.[0] || '';
-      const after=match ? text.slice(match.index+connector.length) : text;
+      const before=text.slice(0,match.index);
+      const connector=match[0];
+      const after=text.slice(match.index+connector.length);
       const startsWithBecause=type==='because' && !before.trim();
-      const mainVerb=/\b(?:am|is|are|was|were|be|can|could|may|might|should|would|will|has|have|had|help|helps|argue|disagree|disagrees|makes|make|reflect|reflects|benefits|benefit|attract|attracts|need|needs|improve|improves|reduce|reduces|grow|spend|become|becomes|give|gives|show|shows|think|believe|lose|loses|feel|feels|tend|tends|drains|leaves|use|uses|sustains|remind|reminds|tilt)\b/i;
-      const verbMatch=!match && mainVerb.exec(text);
-      const splitAt=verbMatch?.index ?? Math.min(text.length, text.indexOf(' ',Math.max(0,text.indexOf(' ')+1))+1);
-      const parts=match ? [
-        ...(before?[{text:before,kind:'slot',label:type==='instead of'?'提出主張及採用的做法':'前半句／前文'}]:[]),
-        {text:connector,kind:'link',label:type==='instead of'?'表示以 A 代替 B':functionName+'連接詞'},
-        ...(after?[{text:after,kind:'slot',label:type==='instead of'?'被排除的另一做法':startsWithBecause?'承接上一句的原因':'後半句／後文'}]:[]),
-      ] : [
-        {text:text.slice(0,splitAt),kind:'slot',label:'話題／主語'},
-        {text:text.slice(splitAt),kind:'slot',label:'動作／看法'},
-      ];
+      const labels={
+        because:['要解釋的判斷','引出原因','原因'],if:['先說的結果／次序','提出條件','成立條件'],
+        when:['先說的結果／時期','指定情況或時間','情況／時間'],so:['原因／情況','導出結果','結果'],
+        but:['先說的情況','轉向不同情況','形成轉折的情況'],however:['第二種情況的背景','對照前文','不同的情況'],
+        'instead of':['提出主張及採用的做法','表示以 A 代替 B','被排除的另一做法'],
+        'rather than':['實際依據','排除另一依據','被排除的依據'],
+        'by contrast':['第一種情況','引出對照','形成對照的另一情況'],
+        'for example':['一般主張','引出具體例子','具體情境'],
+        'for instance':['例子的主語','插入例子標記','例子的結果'],
+        'as a result':['前述原因','引出後果','後果'],
+        'in conclusion':['前述論證','標示總結','總結判斷'],overall:['前述論證','標示整體判斷','整體判斷'],
+        and:['第一項陳述','連接兩項陳述','相關的第二項陳述'],
+        list:['前面列出的項目','連接清單最後一項','最後一項'],
+        'how-clause':['影響者','影響理解的句型','理解方式'],stance:['表態者','立場動詞','反對的看法'],
+        causative:['造成改變的做法','使某事變得如何','受到影響的事物'],
+        sequencing:['前一個理由','標示第二項','新的一項'],consequence:['前述理由','根據理由作推論','推論結果'],
+        benefit:['做法／主語','補充受惠對象','受惠者'],relative:['被描述的人','引出關係子句','補充特徵'],
+        problem:['前一項問題','引出問題內容','具體問題'],progression:['先前情況','表示時間累積','長期結果'],
+        method:['要完成的行動','引出方法','所用方法'],
+        'participle-result':['前面造成影響的情況','引出伴隨結果','造成的結果'],
+        'as-change':['先前情況','表示隨着變化','變化與結果'],
+        'parallel-verbs':['第一個影響','並列另一個影響','第二個影響'],
+        purpose:['先前情況','先說明目的','主要行動'],
+        transformation:['做法及被轉化的事物','表示轉化為','轉化後的狀態'],
+        reminder:['提醒者','引出提醒內容','要記住的內容'],
+      }[type] || ['前半句','句型核心','後半句'];
+      const parts=[];
+      if (before) parts.push({text:before,kind:'slot',label:labels[0]});
+      parts.push({text:connector,kind:'link',label:labels[1]});
+      if (focus?.[2]) {
+        const boundary=after.indexOf(focus[2]);
+        if (boundary<0) throw Error(`Missing condition boundary: ${key} sentence ${position+1}`);
+        parts.push({text:after.slice(0,boundary),kind:'slot',label:'條件／情況'});
+        parts.push({text:after.slice(boundary,boundary+2),kind:'link',label:'接上結果'});
+        parts.push({text:after.slice(boundary+2),kind:'slot',label:'結果／行動'});
+      } else if (after) parts.push({text:after,kind:'slot',label:startsWithBecause?'承接上一句的原因':labels[2]});
       const frame=parts.map(part=>part.kind==='link'?part.text:`[${part.label}]`).join('');
       const ownExample=contextualApplications[key]?.[position];
-      const examples=ownExample ? [ownExample,...exampleOptions.statement.slice(1)] : startsWithBecause ? exampleOptions.reasonFragment : frames[type]?.options || exampleOptions[type] || exampleOptions.statement;
+      const optionBank=exampleOptions[type] || frames[type]?.options || exampleOptions.statement;
+      const examples=ownExample ? [ownExample,...optionBank.slice(1)] : startsWithBecause ? exampleOptions.reasonFragment : optionBank;
       return {id:`${essay.id}-frame-${String(position+1).padStart(2,'0')}`,
-        frame, meaning, usage,
+        patternType:type,frame, meaning, usage,
         source:{paragraph:source.paragraph+1,sentence:source.index+1},
-        parts,context:'哪一句也運用了這種句型功能？',
+        parts,prompt:'哪一句正確用了上面標示的句型？',
         options:examples,correct:0,explanations:[
           `這句同樣運用了「${functionName}」的功能。`,
-          '這句使用了不同的連接或論證方式。',
-          '這句使用了不同的連接或論證方式。',
-          '這句使用了不同的連接或論證方式。',
+          `這句未能正確呈現「${functionName}」的關係。`,
+          `這句未能正確呈現「${functionName}」的關係。`,
+          `這句未能正確呈現「${functionName}」的關係。`,
         ]};
     });
   }

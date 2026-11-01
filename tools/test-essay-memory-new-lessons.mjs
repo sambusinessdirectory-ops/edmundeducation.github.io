@@ -12,6 +12,19 @@ const lessons = node.window.ESSAY_MEMORY_LESSONS;
 const keys=['opinion:3','discuss-both-views:4','cause-solution:2'];
 const counts=[19,17,17];
 const vocabularyRoundCounts=[28,32,34];
+const patternAnswers={
+  'how-clause':/help shape how/i,'instead of':/instead of/i,stance:/disagree/i,
+  because:/because/i,causative:/\bmakes?\b/i,if:/\bif\b/i,when:/\bwhen\b/i,
+  sequencing:/^Second,/i,so:/,\s*so\b/i,consequence:/^For that reason,/i,
+  benefit:/also benefits/i,'by contrast':/by contrast/i,'for instance':/for instance/i,
+  'in conclusion':/^In conclusion,/i,and:/,\s*and\b/i,'for example':/^For example,/i,
+  problem:/(?:problem|issue) is that/i,relative:/\bwho\b/i,progression:/^Over time,/i,
+  method:/\b(?:through|by\s+\w+ing)\b/i,however:/\bhowever\b/i,
+  'participle-result':/,\s*creating\b/i,overall:/^Overall,/i,'as-change':/^As\b/i,
+  'parallel-verbs':/\band\b/i,'rather than':/rather than/i,'as a result':/^As a result,/i,
+  purpose:/^To\s+\w+/i,list:/,\s*and\b/i,transformation:/\bturn(?:ed|s)?\b.*\binto\b/i,
+  reminder:/\bremind(?:s|ed)?\b.+\bthat\b/i,but:/,\s*but\b/i,
+};
 for (let n=0;n<keys.length;n++) {
   const lesson=lessons[keys[n]];
   assert(lesson,keys[n]);
@@ -49,7 +62,11 @@ for (let n=0;n<keys.length;n++) {
     assert.equal(frame.parts.map(part=>part.text).join(''),sourceSentence.english);
     assert(frame.parts.length>=2);
     assert(frame.meaning.length>12 && frame.usage.length>12);
+    assert.equal(frame.prompt,'哪一句正確用了上面標示的句型？');
     assert(!frame.usage.includes('清楚陳述一項意思'));
+    assert(!/觀眾|藝術|博物館|美術館|本地|家族|公司|企業|商店|購物|產品|消費者|學生|作品|展覽|零食|大品牌|廣告/.test(frame.usage),`${keys[n]} ${frame.id}: topic-specific usage`);
+    assert(patternAnswers[frame.patternType],`${keys[n]} ${frame.id}: unaudited pattern`);
+    assert(patternAnswers[frame.patternType].test(frame.options[0]),`${keys[n]} ${frame.id}: quiz answer misses ${frame.patternType}`);
     assert.equal(frame.options.length,4);
     assert.equal(new Set(frame.options).size,4);
     assert.equal(frame.explanations.length,4);
@@ -74,6 +91,12 @@ assert(insteadFrame.usage.includes('instead of 後接名詞或 -ing 動詞'));
 assert(!insteadFrame.usage.includes('引言'));
 assert.equal(insteadFrame.parts[0].label,'提出主張及採用的做法');
 assert.equal(insteadFrame.parts[2].label,'被排除的另一做法');
+const opinionSo=lessons['opinion:3'].support.structures[8];
+assert.equal(opinionSo.patternType,'so');
+assert(opinionSo.usage.includes('A, so B'));
+assert(!opinionSo.usage.includes('觀眾'));
+assert.equal(opinionSo.parts[0].label,'原因／情況');
+assert.equal(opinionSo.parts[2].label,'結果');
 assert(html.includes('essay-memorization.html?essay=${encodeURIComponent(essayKey)}'));
 const {chromium}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT || '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
 const browser=await chromium.launch({headless:true});
@@ -99,6 +122,14 @@ for(const key of keys){
   await page.locator('[data-stage="6"]').click();
   assert(await page.locator('.structure-part').count()>=1);
   assert.equal(await page.locator('.structure-translation').count(),1);
+  for(let index=0;index<lesson.support.structures.length;index++){
+    await page.locator('#step-select').evaluate((select,value)=>{select.value=String(value);select.dispatchEvent(new Event('change'));},index);
+    assert.equal((await page.locator('.concept-card').last().locator('p').textContent()).replace(/\s+/g,''),lesson.support.structures[index].usage.replace(/\s+/g,''));
+    assert.equal(await page.locator('.structure-part').count(),lesson.support.structures[index].parts.length);
+    assert.equal(await page.locator('.question-intro h3').textContent(),lesson.support.structures[index].prompt);
+    assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: structure ${index+1} overflows mobile`);
+  }
+  await page.locator('#step-select').evaluate(select=>{select.value='0';select.dispatchEvent(new Event('change'));});
   await page.locator('[data-choice="1"]').click();
   assert.equal(await page.locator('[data-continue]').count(),0);
   await page.locator('[data-choice="0"]').click();

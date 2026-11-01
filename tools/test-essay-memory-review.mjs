@@ -27,6 +27,7 @@ assert.equal(await page.locator('.build-source .support-source').count(),1);
 assert.equal(await page.locator('.simple-source').count(),1);
 assert(await page.locator('.vocabulary-highlight').count()>0);
 for(let step=0;step<4;step++) await page.locator('[data-build="0"]').click({force:true});
+await page.locator('[data-continue]').waitFor();
 assert(await page.locator('[data-continue]').count());
 assert.equal(await page.locator('.build-source .support-source').count(),1);
 assert.equal(await page.locator('.simple-source').count(),1);
