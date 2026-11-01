@@ -155,6 +155,7 @@
   });
   const breakStoragePrefix = 'edmund-eddy-pomodoro-break-v1:';
   const queue = [];
+  const cottonCandyLines = [['拉絲雲朵棉花糖!', '']];
   const queuedBreaks = new Set();
   let active = null;
   let overlay = null;
@@ -299,6 +300,8 @@
           || shownBedtimeNight === next.night || stored(bedtimeStorageKey) === next.night) continue;
         shownBedtimeNight = next.night;
         remember(bedtimeStorageKey, next.night);
+      } else if (next.kind === 'cottonCandy') {
+        // This surprise is drawn once on each homepage visit.
       } else if (Date.now() >= next.endsAt || stored(breakStoragePrefix + next.owner) === String(next.endsAt)) {
         continue;
       } else {
@@ -308,7 +311,8 @@
       previousFocus = document.activeElement;
       const lines = timedMoment ? timedMoment.lines : next.kind === 'lunch' ? lunchLines : next.kind === 'tea' ? teaLines : next.kind === 'weekend'
         ? (next.weekday === 'Saturday' ? saturdayLines : sundayLines)
-        : next.kind === 'sleepy' ? sleepyLines : next.kind === 'bedtime' ? bedtimeLines : tomatoLines;
+        : next.kind === 'sleepy' ? sleepyLines : next.kind === 'bedtime' ? bedtimeLines
+          : next.kind === 'cottonCandy' ? cottonCandyLines : tomatoLines;
       const [main, sub] = pick(lines);
       overlay = document.createElement('div');
       overlay.className = 'eddy-global-overlay';
@@ -317,12 +321,14 @@
       overlay.setAttribute('aria-modal', 'true');
       overlay.setAttribute('aria-label', timedMoment ? timedMoment.label : next.kind === 'lunch' ? 'Eddy 的午飯後問候' : next.kind === 'tea' ? 'Eddy 的下午茶時間'
         : next.kind === 'weekend' ? `Eddy 的${next.weekday === 'Saturday' ? '星期六' : '星期天'}問候`
-          : next.kind === 'sleepy' ? 'Eddy 的晚間問候' : next.kind === 'bedtime' ? 'Eddy 的晚安問候' : 'Eddy 的番茄鐘休息時間');
+          : next.kind === 'sleepy' ? 'Eddy 的晚間問候' : next.kind === 'bedtime' ? 'Eddy 的晚安問候'
+            : next.kind === 'cottonCandy' ? 'Eddy 的棉花糖驚喜' : 'Eddy 的番茄鐘休息時間');
       overlay.innerHTML = `<button type="button"><span class="eddy-global-art"><img alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>`;
       overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
         : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
           : next.kind === 'sleepy' ? '/eddy-evening-teddy-dialogue.png'
-            : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
+            : next.kind === 'bedtime' ? '/eddy-bedtime-pyjamas-dialogue.png'
+              : next.kind === 'cottonCandy' ? '/eddy-cotton-candy-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
       const subtitle = overlay.querySelector('.eddy-global-copy > span');
       setHorsePun(overlay.querySelector('strong'), main);
       setHorsePun(subtitle, sub);
@@ -407,9 +413,15 @@
 
   function checkTimedGreetings() { checkLunch(); checkTea(); checkNewTimedMoments(); checkWeekend(); checkEvening(); }
 
+  function checkHomepageSurprise() {
+    if (!isMainPage() || Math.random() >= 0.1) return;
+    queue.push({ kind: 'cottonCandy' });
+    showNext();
+  }
+
   window.EdmundEddyGlobalDialogue = Object.freeze({ isBlocking, isShowing: () => Boolean(active), queuePomodoroBreak, checkLunch, checkTea, checkNewTimedMoments, checkWeekend, checkEvening });
-  if (document.body) checkTimedGreetings();
-  else document.addEventListener('DOMContentLoaded', checkTimedGreetings, { once: true });
+  if (document.body) { checkTimedGreetings(); checkHomepageSurprise(); }
+  else document.addEventListener('DOMContentLoaded', () => { checkTimedGreetings(); checkHomepageSurprise(); }, { once: true });
   document.addEventListener('visibilitychange', checkTimedGreetings);
   document.addEventListener('close', showNext, true);
   window.addEventListener('focus', checkTimedGreetings);

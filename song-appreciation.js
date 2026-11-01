@@ -388,6 +388,7 @@
     stopExerciseTimers();
     destroyPlayer();
     clearSession();
+    window.dispatchEvent(new Event('edmund:song-appreciation-student-closed'));
     state.songs = [];
     state.activeSong = null;
     state.bookmarks = [];
@@ -428,6 +429,9 @@
   async function enterStudent() {
     showAuthenticatedHeader(state.session);
     showView("student");
+    window.dispatchEvent(new CustomEvent('edmund:song-appreciation-student-opened', {
+      detail: { studentId: String(state.session.id || '') }
+    }));
     setConnection("online", "已連接");
     $("[data-library-state]").hidden = false;
     $("[data-song-grid]").hidden = true;
