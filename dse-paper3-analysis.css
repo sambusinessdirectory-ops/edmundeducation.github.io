@@ -34,6 +34,8 @@ html {
 }
 
 body {
+  position: relative;
+  isolation: isolate;
   margin: 0;
   min-width: 320px;
   min-height: 100vh;
@@ -48,6 +50,16 @@ body {
     var(--paper3-ivory);
   background-size: 38px 38px, 38px 38px, auto, auto, auto;
 }
+
+body:has([data-view="login"]:not([hidden]))::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  background: url("paper3-georgian-study-v1.webp") center / cover no-repeat;
+}
+body:has([data-view="login"]:not([hidden])) .study-tools { display: none !important; }
 
 button,
 input,
@@ -231,7 +243,10 @@ button {
   color: #fffaf0;
   border-color: rgba(114, 212, 223, 0.22);
   background:
-    linear-gradient(136deg, rgba(8, 30, 49, 0.98), rgba(20, 58, 83, 0.96) 68%, rgba(27, 74, 101, 0.94));
+    linear-gradient(136deg, rgba(8, 30, 49, 0.58), rgba(20, 58, 83, 0.46) 68%, rgba(27, 74, 101, 0.38));
+  backdrop-filter: none;
+  -webkit-backdrop-filter: none;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, .65);
 }
 
 .login-hero::before {
