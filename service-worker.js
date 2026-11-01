@@ -17,7 +17,6 @@ const SHELL_URLS = [
   "/pwa-register.js",
   "/homepage-loading.css",
   "/homepage-loading.js",
-  "/homepage-eddy-loading-animated.svg",
   "/apostrophe-normalizer.mjs",
   "/favicon.ico",
   "/apple-touch-icon.png",

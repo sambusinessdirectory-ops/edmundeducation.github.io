@@ -4,6 +4,10 @@
   if (!loader || !scene) return;
 
   const minimumPlaybackMs = 1500;
+  const variant = document.documentElement.dataset.homepageLoadingVariant === 'phoebe' ? 'phoebe' : 'eddy';
+  const animationUrl = variant === 'phoebe'
+    ? 'homepage-phoebe-loading-animated.svg'
+    : 'homepage-eddy-loading-animated.svg';
   let pageReady = document.readyState !== 'loading';
   let animationReady = false;
   let playbackStart = 0;
@@ -34,13 +38,13 @@
     }));
   }
 
-  function usePurpleFallback() {
+  function usePlainFallback() {
     animationReady = true;
     playbackStart = performance.now();
     scheduleHide();
   }
 
-  fetch('homepage-eddy-loading-animated.svg', { cache: 'force-cache' })
+  fetch(animationUrl, { cache: 'force-cache' })
     .then(response => {
       if (!response.ok) throw new Error('Animated loader unavailable');
       return response.text();
@@ -53,7 +57,7 @@
       scene.replaceChildren(document.importNode(parsed.documentElement, true));
       startPlayback();
     })
-    .catch(usePurpleFallback);
+    .catch(usePlainFallback);
 
   if (!pageReady) {
     document.addEventListener('DOMContentLoaded', () => {
