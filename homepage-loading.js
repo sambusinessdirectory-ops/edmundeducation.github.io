@@ -6,7 +6,7 @@
   const minimumPlaybackMs = 1500;
   const variant = document.documentElement.dataset.homepageLoadingVariant === 'phoebe' ? 'phoebe' : 'eddy';
   const animationUrl = variant === 'phoebe'
-    ? 'homepage-phoebe-loading-animated.svg'
+    ? 'homepage-phoebe-loading-animated.svg?v=20261101-phoebe2'
     : 'homepage-eddy-loading-animated.svg';
   let pageReady = document.readyState !== 'loading';
   let animationReady = false;
