@@ -113,3 +113,29 @@ html[data-homepage-loading-variant="phoebe"] .homepage-loader.has-animation::bef
 html[data-homepage-loading-variant="phoebe"] .homepage-loader__art {
   z-index: 1;
 }
+
+/* The gym wall extends behind Noir; equipment and bench stay inside the art. */
+html[data-homepage-loading-variant="noir"] .homepage-loader,
+html[data-homepage-loading-variant="noir"] body.is-homepage-loading {
+  background: #591820;
+}
+
+html[data-homepage-loading-variant="noir"] .homepage-loader.has-animation {
+  background: linear-gradient(to bottom, #541820 0%, #842029 29%, #b82b34 51%, #aa2831 65%, #591820 100%);
+}
+
+html[data-homepage-loading-variant="noir"] .homepage-loader.has-animation::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: calc(50% - var(--homepage-loader-art-size) / 2);
+  height: var(--homepage-loader-art-size);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 400'%3E%3Cpath fill='%23500d18' fill-opacity='.38' d='M0 31h8v5H0zm8 5h8v5H8zM0 80h8v5H0zm8 5h8v5H8zM0 129h8v5H0zm8 5h8v5H8zM0 178h8v5H0zm8 5h8v5H8zM0 227h8v5H0zm8 5h8v5H8zM0 355h8v5H0zm8 5h8v5H8z'/%3E%3C/svg%3E") left top / calc(var(--homepage-loader-art-size) * .04) 100% repeat-x;
+  image-rendering: pixelated;
+  pointer-events: none;
+}
+
+html[data-homepage-loading-variant="noir"] .homepage-loader__art {
+  z-index: 1;
+}

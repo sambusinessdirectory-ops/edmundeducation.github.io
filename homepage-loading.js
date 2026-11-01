@@ -4,10 +4,13 @@
   if (!loader || !scene) return;
 
   const minimumPlaybackMs = 1500;
-  const variant = document.documentElement.dataset.homepageLoadingVariant === 'phoebe' ? 'phoebe' : 'eddy';
-  const animationUrl = variant === 'phoebe'
-    ? 'homepage-phoebe-loading-animated.svg?v=20261102-phoebe6'
-    : 'homepage-eddy-loading-animated.svg';
+  const variant = document.documentElement.dataset.homepageLoadingVariant;
+  const animationUrls = {
+    eddy: 'homepage-eddy-loading-animated.svg',
+    phoebe: 'homepage-phoebe-loading-animated.svg?v=20261102-phoebe6',
+    noir: 'homepage-noir-loading-animated.svg?v=20261102-noir1'
+  };
+  const animationUrl = animationUrls[variant] || animationUrls.eddy;
   let pageReady = document.readyState !== 'loading';
   let animationReady = false;
   let playbackStart = 0;
