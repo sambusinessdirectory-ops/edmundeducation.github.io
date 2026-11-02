@@ -176,6 +176,10 @@
 }
 .grammar-eddy-dialogue__copy { display: block; max-height: 130px; overflow: auto; }
 .grammar-eddy-dialogue--long .grammar-eddy-dialogue__text { font-size: clamp(15px, 1.55vw, 18px); }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1671 / 1020; }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { bottom: -55px; }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 31% 5.5%; font-size: clamp(16px, 1.7vw, 20px); }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(24px, 2.5vw, 30px); }
 .grammar-eddy-dialogue__chalk--purple,
 .grammar-new-body .grammar-eddy-dialogue__text strong { color: #602e6f; }
 .grammar-eddy-dialogue__chalk--yellow,
@@ -207,6 +211,9 @@
   .grammar-eddy-dialogue__text::before { top: -29px; left: 11px; min-width: 104px; height: 32px; padding: 2px 11px 2px 34px; border-width: 4px; font-size: 17px; }
   .grammar-eddy-dialogue__text::after { top: -26px; left: 20px; font-size: 22px; }
   .grammar-eddy-dialogue__copy { max-height: 115px; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.4; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { inset: auto 0 30px auto; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 38% 5%; font-size: clamp(14px, 3.5vw, 16px); }
 }
 .grammar-new-appendix { padding-top: clamp(24px, 3vw, 38px); }
 .grammar-new-appendix .grammar-new-table-wrap { margin: 0; }
@@ -246,6 +253,10 @@
 .grammar-new-body .grammar-eddy-dialogue__lesson code { padding: 0; background: transparent; color: #ffe392; font: inherit; }
 .grammar-new-body .grammar-eddy-dialogue__lesson-copy strong { color: #dec3ff; }
 .grammar-new-body .grammar-eddy-dialogue__lesson-copy em { color: #b9f0d3; }
+@media (max-width: 840px) {
+  .grammar-new-body .grammar-eddy-dialogue__lesson-copy .grammar-new-table-wrap { overflow-x: auto; overflow-y: hidden; }
+  .grammar-new-body .grammar-eddy-dialogue__lesson-copy table { min-width: 560px; }
+}
 
 .grammar-lesson-card__copy { position: relative; z-index: 1; }
 .grammar-lesson-card__copy h3 { margin: 0; font: 900 clamp(30px, 4vw, 50px)/1.08 Georgia, "Noto Serif TC Local", serif; }
