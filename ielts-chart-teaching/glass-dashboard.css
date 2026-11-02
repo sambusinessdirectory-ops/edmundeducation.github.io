@@ -8,7 +8,7 @@
   --green: #315b42;
   --court: #75965b;
   --lime: #c9e079;
-  --glass: rgba(255, 255, 255, .88);
+  --glass: rgba(255, 255, 255, .68);
   --glass-border: rgba(255, 255, 255, .75);
   --soft-shadow: 0 20px 58px rgba(24, 49, 33, .12), 0 2px 8px rgba(24, 49, 33, .05);
   --ui-font: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans TC', 'PingFang TC', sans-serif;
@@ -162,8 +162,9 @@ main#student-workspace {
 .workspace {
   position: relative;
   isolation: isolate;
-  grid-template-columns: minmax(0, 1fr) clamp(296px, 23vw, 340px);
-  gap: clamp(15px, 1.6vw, 26px);
+  grid-template-columns: clamp(192px, 14vw, 230px) minmax(0, 1fr) clamp(215px, 16vw, 260px);
+  grid-template-areas: 'left stage right';
+  gap: clamp(13px, 1.35vw, 23px);
   align-items: start;
   padding: clamp(14px, 1.35vw, 25px);
   overflow: hidden;
@@ -196,20 +197,23 @@ main#student-workspace {
   pointer-events: none;
 }
 
-/* The chart remains a neutral, opaque reading surface: no tint, blur, or
-   decorative line ever sits over a plotted value or printed diagram. */
+/* The plotted canvas remains neutral and opaque: no tint, blur, or
+   decorative line ever sits over a value or printed diagram. */
 .chart-card {
+  grid-area: stage;
   min-width: 0;
-  border: 1px solid rgba(255, 255, 255, .84);
+  border: 1px solid rgba(255, 255, 255, .86);
   border-radius: 24px;
-  background: #fff;
+  background: rgba(249, 252, 247, .69);
   box-shadow: 0 22px 64px rgba(22, 49, 29, .2), 0 3px 10px rgba(22, 49, 29, .08);
+  backdrop-filter: blur(18px) saturate(1.08);
+  -webkit-backdrop-filter: blur(18px) saturate(1.08);
 }
 .chart-toolbar {
   min-height: 74px;
   padding: 14px clamp(18px, 2vw, 30px);
   border-bottom: 1px solid #e2e9df;
-  background: linear-gradient(135deg, #f9fbf8, #f3f7f2);
+  background: rgba(247, 250, 246, .55);
 }
 .mode-switch {
   padding: 4px;
@@ -254,11 +258,11 @@ main#student-workspace {
 .mode-hint {
   padding: 11px clamp(18px, 2vw, 30px);
   border-bottom: 1px solid #e9eee7;
-  background: #f7faf5;
+  background: rgba(247, 250, 245, .51);
   color: #576e5d;
   font-size: 12px;
 }
-.chart-heading { padding: 27px clamp(20px, 2.2vw, 34px) 12px; }
+.chart-heading { padding: 27px clamp(20px, 2.2vw, 34px) 12px; background: rgba(255, 255, 255, .48); }
 .chart-heading .eyebrow {
   margin-bottom: 7px;
   color: #71826e;
@@ -284,29 +288,33 @@ main#student-workspace {
   color: #3e6246;
 }
 .image-points {
-  background: #f7faf6;
+  background: rgba(247, 250, 246, .65);
   border-top: 1px solid #e0e9de;
 }
 .chart-footer {
   padding: 17px clamp(20px, 2.2vw, 34px);
   border-top-color: #e3e9e2;
   color: #68776c;
-  background: #f7f9f6;
+  background: rgba(247, 250, 246, .57);
   font-size: 11px;
 }
 
-/* Each utility is a floating, softly translucent dashboard module. */
-.tools { gap: 16px; position: static; }
+/* Utility panels flank the major image rather than forming one sidebar. */
+.tools { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; position: static; min-width: 0; align-content: start; }
+.tools-left { grid-area: left; }
+.tools-right { grid-area: right; }
 .tool-card {
-  padding: 22px;
-  border: 1px solid rgba(255, 255, 255, .72);
+  min-width: 0;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, .79);
   border-radius: 22px;
   background:
-    radial-gradient(circle at 88% 5%, rgba(255, 255, 255, .67), transparent 40%),
-    rgba(246, 250, 243, .88);
-  box-shadow: 0 16px 45px rgba(26, 56, 31, .14), inset 0 1px rgba(255, 255, 255, .8);
-  backdrop-filter: blur(22px) saturate(1.06);
-  -webkit-backdrop-filter: blur(22px) saturate(1.06);
+    radial-gradient(circle at 87% 4%, rgba(255, 255, 255, .49), transparent 45%),
+    radial-gradient(ellipse 95% 75% at 3% 100%, rgba(191, 212, 166, .23), transparent 80%),
+    rgba(246, 250, 243, .59);
+  box-shadow: 0 16px 45px rgba(26, 56, 31, .13), inset 0 1px rgba(255, 255, 255, .72);
+  backdrop-filter: blur(17px) saturate(1.12);
+  -webkit-backdrop-filter: blur(17px) saturate(1.12);
 }
 .tool-heading { gap: 12px; }
 .step {
@@ -328,7 +336,7 @@ main#student-workspace {
   font: 650 18px/1.25 var(--ui-font);
   letter-spacing: -.025em;
 }
-.tool-note { margin: 14px 0; color: #627467; font-size: 12px; line-height: 1.6; }
+.tool-note { margin: 14px 0; color: #455b4a; font-size: 12px; line-height: 1.6; }
 .group-row {
   min-height: 42px;
   margin: 5px 0;
@@ -339,7 +347,7 @@ main#student-workspace {
 .group-row.active { box-shadow: inset 0 1px rgba(255, 255, 255, .7); }
 .group-row input { font-size: 12px; font-weight: 600; }
 .swatch { width: 27px; height: 27px; border-width: 3px; box-shadow: 0 0 0 1px rgba(70, 99, 72, .22); }
-.group-count { color: #70806c; font-size: 11px; font-variant-numeric: tabular-nums; }
+.group-count { color: #4e6250; font-size: 11px; font-variant-numeric: tabular-nums; }
 .group-actions button, #manual-form button {
   min-height: 34px;
   border-color: #d6e1d3;
@@ -347,7 +355,7 @@ main#student-workspace {
   background: rgba(255, 255, 255, .75);
   color: #45664a;
 }
-.storage-note { color: #788a75; }
+.storage-note { color: #506652; }
 .empty, .organization-empty {
   border-color: #c6d7c2;
   border-radius: 11px;
@@ -357,7 +365,7 @@ main#student-workspace {
 .operand, .note-row, .organization-item {
   border-color: #d7e3d5;
   border-radius: 11px;
-  background: rgba(255, 255, 255, .76);
+  background: rgba(255, 255, 255, .57);
   box-shadow: inset 0 1px rgba(255, 255, 255, .75);
 }
 .operator-row select, #manual-number {
@@ -368,7 +376,7 @@ main#student-workspace {
 .result-box {
   border-color: #d2e2ca;
   border-radius: 13px;
-  background: linear-gradient(135deg, rgba(240, 247, 228, .94), rgba(229, 241, 221, .89));
+  background: linear-gradient(135deg, rgba(240, 247, 228, .69), rgba(229, 241, 221, .63));
 }
 #result { color: #294831; font-family: var(--ui-font); font-weight: 650; letter-spacing: -.05em; }
 .note-row textarea { color: #30483a; }
@@ -452,14 +460,18 @@ main#student-workspace {
 .vocab-entry { border-radius: 12px; background: #fff; }
 .vocab-entry h3 { font-family: var(--ui-font); font-weight: 650; letter-spacing: -.025em; }
 
-@media (max-width: 1200px) {
-  .workspace { grid-template-columns: minmax(0, 1fr) 295px; }
+@media (max-width: 1380px) {
+  .workspace {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-areas: 'stage stage' 'left right';
+  }
+  .tools { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .tools-right .organization-card { grid-column: 1 / -1; }
   .chart-toolbar { flex-wrap: wrap; }
 }
 @media (max-width: 1050px) {
-  .workspace { grid-template-columns: 1fr; }
-  .tools { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
-  .organization-card { grid-column: 1 / -1; }
+  .tools { grid-template-columns: minmax(0, 1fr); }
+  .tools-right .organization-card { grid-column: auto; }
 }
 @media (max-width: 680px) {
   main#student-workspace { padding: 22px 10px 24px; }
@@ -475,7 +487,7 @@ main#student-workspace {
   .lesson-navigation label { margin: 0; }
   .lesson-navigation select { order: 3; flex-basis: 100%; max-width: none; }
   .lesson-navigation #chart-position { margin-left: auto; }
-  .workspace { padding: 8px; gap: 10px; border-radius: 19px; }
+  .workspace { grid-template-columns: 1fr; grid-template-areas: 'stage' 'left' 'right'; padding: 8px; gap: 10px; border-radius: 19px; }
   .chart-card { border-radius: 16px; }
   .chart-toolbar { padding: 11px 13px; }
   .mode-switch { width: 100%; }
