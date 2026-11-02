@@ -180,11 +180,14 @@
 .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { bottom: -55px; }
 .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 31% 5.5%; font-size: clamp(16px, 1.7vw, 20px); }
 .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(24px, 2.5vw, 30px); }
-.grammar-eddy-dialogue__chalk--purple,
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--purple { color: #e9c9ff; }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--yellow { color: #ffe28b; }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--mint { color: #b9f5dc; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--purple,
 .grammar-new-body .grammar-eddy-dialogue__text strong { color: #602e6f; }
-.grammar-eddy-dialogue__chalk--yellow,
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--yellow,
 .grammar-new-body .grammar-eddy-dialogue__text code { color: #795000; }
-.grammar-eddy-dialogue__chalk--mint,
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--mint,
 .grammar-new-body .grammar-eddy-dialogue__text em { color: #0d6454; }
 .grammar-new-body .grammar-eddy-dialogue__text code { padding: 0; background: none; font: inherit; }
 @media (max-width: 840px) {
