@@ -36,6 +36,14 @@ await page.locator('.shell').waitFor({state:'visible'});
 await page.locator('[data-memory-logout]').click();
 await page.locator('[data-memory-login]').waitFor({state:'visible'});
 await assert.equal(await page.locator('.shell').isVisible(),false);
+await page.evaluate(() => {
+  sessionStorage.setItem('edmund-universal-student-session-v1',JSON.stringify({id:'expired',name:'Expired',role:'student',token:'bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb'}));
+  sessionStorage.setItem('edmund-essay-memory-student-v1',JSON.stringify({id:'student-1',name:'Learner',role:'student',token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}));
+});
+await page.reload();
+await page.locator('.shell').waitFor({state:'visible'});
+await page.locator('[data-memory-logout]').click();
+await page.locator('[data-memory-login]').waitFor({state:'visible'});
 await page.goto('http://127.0.0.1:8633/essay-memory-recordings.html');
 await assert.equal(await page.locator('[data-memory-login]').isVisible(),true);
 await page.locator('[name=username]').fill('learner');

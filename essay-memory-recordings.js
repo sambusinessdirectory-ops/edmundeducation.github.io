@@ -6,11 +6,11 @@
   const owner = () => window.EssayMemoryAuth?.user?.id;
   const ownedId = id => `${owner()}:${id}`;
   const legacyOwnerKey = 'edmund-essay-memory-legacy-owner-v1';
-  function ownsLegacy() {
+  function ownsLegacy(claim = false) {
     try {
       const claimed = localStorage.getItem(legacyOwnerKey);
-      if (!claimed) localStorage.setItem(legacyOwnerKey, owner());
-      return !claimed || claimed === owner();
+      if (!claimed && claim) localStorage.setItem(legacyOwnerKey, owner());
+      return claimed === owner() || (!claimed && claim);
     } catch { return false; }
   }
   function requireOwner() {
@@ -39,15 +39,19 @@
   window.EssayMemoryRecordings = {
     list: async () => {
       requireOwner();
-      const includeLegacy = ownsLegacy();
-      return (await transact('readonly', store => store.getAll()))
+      const records = await transact('readonly', store => store.getAll());
+      const includeLegacy = ownsLegacy(records.some(record => !record.ownerId));
+      return records
         .filter(record => record.ownerId === owner() || (includeLegacy && !record.ownerId))
         .map(({ownerId, ...record}) => ({...record, id: ownerId ? record.id.slice(ownerId.length + 1) : record.id}));
     },
     get: async id => {
       requireOwner();
       let record = await transact('readonly', store => store.get(ownedId(id)));
-      if (!record && ownsLegacy()) record = await transact('readonly', store => store.get(id));
+      if (!record && !/^[0-9a-f-]{36}:/.test(id)) {
+        const legacy = await transact('readonly', store => store.get(id));
+        if (legacy && !legacy.ownerId && ownsLegacy(true)) record = legacy;
+      }
       if (!record) return undefined;
       return record?.ownerId === owner() || (!record?.ownerId && ownsLegacy()) ? {...record, id} : undefined;
     },
@@ -58,7 +62,7 @@
     remove: id => {
       requireOwner();
       return transact('readwrite', store => store.delete(ownedId(id))).then(() =>
-        ownsLegacy() ? transact('readwrite', store => store.delete(id)) : undefined);
+        ownsLegacy() && !/^[0-9a-f-]{36}:/.test(id) ? transact('readwrite', store => store.delete(id)) : undefined);
     },
   };
 })();

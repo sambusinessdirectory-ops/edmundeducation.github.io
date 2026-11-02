@@ -156,8 +156,12 @@
   const mayUseLegacy = (() => {
     try {
       const claimed = localStorage.getItem(legacyOwnerKey);
-      if (!claimed) localStorage.setItem(legacyOwnerKey, studentId);
-      return !claimed || claimed === studentId;
+      if (claimed) return claimed === studentId;
+      const hasLegacy = localStorage.getItem(legacyStorageKey) || (isPilot &&
+        (localStorage.getItem('edmund-essay80-memory-active-v3') || localStorage.getItem('edmund-essay80-memory-scaffold-v2')));
+      if (!hasLegacy) return false;
+      localStorage.setItem(legacyOwnerKey, studentId);
+      return true;
     } catch { return false; }
   })();
   const backupFormat = isPilot ? 'edmund-essay80-progress' : 'edmund-essay-memory-progress';

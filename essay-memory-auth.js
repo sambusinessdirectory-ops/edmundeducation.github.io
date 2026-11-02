@@ -94,14 +94,16 @@
     setStatus('正在檢查學生登入…');
     const shared = window.EdmundSystemNav?.getStudentSession?.();
     const saved = readLocalSession();
-    const candidate = shared?.role === 'student' && shared.token ? shared : saved;
-    if (!candidate?.token || candidate.role !== 'student') {
+    const candidates = [shared, saved].filter(candidate => candidate?.role === 'student' && candidate.token);
+    if (!candidates.length) {
       setStatus('請使用您的學生帳戶登入。');
       return;
     }
     try {
-      const user = await validateStudent(candidate.token);
-      if (user) { await enter(user); return; }
+      for (const candidate of candidates) {
+        const user = await validateStudent(candidate.token);
+        if (user) { await enter(user); return; }
+      }
       try { sessionStorage.removeItem(SESSION_KEY); } catch {}
       setStatus('登入已過期，請重新登入。');
     } catch {
