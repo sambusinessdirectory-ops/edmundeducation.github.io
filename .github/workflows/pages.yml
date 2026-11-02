@@ -206,6 +206,7 @@ jobs:
           node --check grammar-indefinite-pronouns-data.js
           node --check grammar-indefinite-pronouns.js
           node tools/test-indefinite-pronouns-data.mjs
+          node tools/test-indefinite-admin-answers.mjs
 
       - name: Validate focused Error Identifier release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[error-id-release]') }}
@@ -214,6 +215,7 @@ jobs:
           node --check error-identifier-jayden.js
           node --check error-identifier-indefinite.js
           node tools/test-indefinite-pronouns-data.mjs
+          node tools/test-indefinite-admin-answers.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}

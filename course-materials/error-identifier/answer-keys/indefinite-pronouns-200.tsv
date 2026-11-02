@@ -1,0 +1,201 @@
+number	mark	wrong	fix	reason
+1	tick			Someone 指未指名的人；left 的過去時間與 this morning 相符。
+2	cross	Noone	No one	普通標準拼法是分開兩字的 no one。
+3	tick			Whether anyone 表示中立查問是否有人見過物主。
+4	cross	were	was	Somebody 作單數主語，配 was。
+5	tick			Everything 作單數主語，配 was。
+6	cross	a something	something	普通的不定代名詞 something 前不加冠詞。
+7	tick			Something was wrong 表示有某個未說明的問題。
+8	tick			Someone who could fix it 指可能修理裝置的人。
+9	cross	something	someone	搬袋子的是人，應用 someone。
+10	tick			提供熱飲的問句可自然用 something。
+11	cross	didn't see nobody	didn't see anybody	普通單重否定用 didn't see anybody。
+12	tick			Nobody 自帶否定，has claimed 的形式正確。
+13	tick			Someone 指未露面的人；their 可指性別未明的單數人物。
+14	cross	Everythings	Everything	普通代名詞 everything 沒有複數 -s。
+15	tick			知道身份的人仍可用 someone；關係子句 who repairs radios 修飾人。
+16	cross	knows	know	Does 後接動詞原形 know。
+17	tick			Everyone 作單數主語，their 可回指不指定性別的各人。
+18	tick			Someone's bag 是所有格，表示某人的袋。
+19	cross	were	was	Everyone 作單數主語，配 was。
+20	tick			Everybody 是 thanked 的受詞，指全部相關人員。
+21	cross	something eat	something to eat	Something 後用 to eat 表可吃的東西。
+22	tick			肯定句的 anything 表示從餐桌任選。
+23	cross	anywhere wash	anywhere to wash	Anywhere 後用 to wash 表用途。
+24	tick			請求幫忙的問句可用 someone。
+25	cross	anyone	someone	說昨天確實有人帶蛋糕，普通用 someone。
+26	tick			If anyone 表示若有人需要收據。
+27	tick			Hardly anyone 表示幾乎沒有人留意。
+28	cross	without telling nobody	without telling anybody	Without 已含否定意思，普通用 anybody。
+29	tick			說話者見到包裹，有理由預期對方帶了東西。
+30	tick			Anything at all 強調「真的一點也沒帶嗎」。
+31	cross	Nobody didn't want	Nobody wanted	Nobody 已帶否定，普通意思不再加 didn't。
+32	tick			Didn't like something 可以只否定湯中某一項，後半句證實並非全盤不喜歡。
+33	tick			Didn't buy anything 表示完全沒有購買。
+34	tick			Everyone can 指所有相關人員均可拿傳單；they 回指個別人。
+35	tick			Nothing was more popular 表示朱古力餅乾最受歡迎。
+36	tick			Nowhere better 指沒有更好的座位。
+37	cross	anything	nothing	托盤已空，用 nothing 表示甚麼也沒剩。
+38	tick			Anything you like 表示可任選。
+39	cross	anybodys	anybody	普通代名詞 anybody 不加複數 -s。
+40	tick			眼前有收據，問句用 someone 可暗示有人已付款。
+41	cross	have	has	Everybody 作單數主語，配 has。
+42	tick			Everybody stand up 是向大家發出的祈使句，動詞用原形。
+43	cross	stands	stand	祈使句 Everybody stand up now 的動詞用原形。
+44	tick			Someone 作條件句中的單數主語，they are 可回指未知性別的人。
+45	cross	they is	they are	代詞 they 即使用來指單數人物，動詞仍用 are。
+46	tick			未知性別的人可用 themselves 作反身代詞。
+47	cross	itself	themselves	Volunteer 是人，未知性別可用 themselves。
+48	tick			Everyone is 肯定主句，可接 aren't they 附加問句。
+49	cross	didn't they	did they	Nobody 是否定主語，附加問句用肯定形式。
+50	tick			主語核心 Someone 為單數；with two friends 不改變 is。
+51	cross	is	are	Someone and their friend 合共兩人，配 are。
+52	tick			Somebody from the office 是合乎語境的未指名人物。
+53	tick			Spoke to someone 的介詞 to 指對話對象。
+54	cross	Someone's wrote	Someone wrote	表示過去寫下，直接用 wrote；'s 不能接 wrote。
+55	cross	have	has	Someone 作單數主語，現在完成式用 has。
+56	tick			A nobody 是特殊可數名詞，指地位低微或不出名的人。
+57	tick			Become somebody 可表示成為受人重視的人。
+58	cross	Do	Does	Everyone 作單數主語，問句用 Does。
+59	tick			Nothing 是否定主語；has it 是肯定附加問句。
+60	cross	someone's else	someone else's	所有格的 's 放在 else 後。
+61	tick			Something unusual 的形容詞在不定代名詞後。
+62	cross	interesting something	something interesting	形容詞應放在 something 後。
+63	tick			Something more important 的修飾語放在 something 後。
+64	tick			Pointed to somewhere 表示指向某個地方；介詞 to 屬於 pointed to。
+65	tick			Someone to talk to 的句末 to 保留 talk to 的搭配。
+66	cross	someone to rely	someone to rely on	Rely on someone 的介詞 on 必須保留。
+67	tick			Something to write with 指書寫工具，例如鉛筆。
+68	tick			For the younger pupils to read 明示閱讀的人是小學生。
+69	cross	to repair by	to be repaired by	由圖書館員修補，需用被動不定式。
+70	tick			Someone who could translate the diary 的關係子句修飾人。
+71	cross	someone understands	someone who understands	修飾 someone 的完整關係子句需要 who。
+72	cross	were	was	Everything 作單數主語，配 was。
+73	tick			Everything which the visitors had donated 是可接受的限制性關係子句。
+74	cross	something what	something that	修飾 something 的關係子句可用 that，不能直接用 what。
+75	tick			Someone I had met before 可省略作受詞的關係代詞。
+76	cross	I found it	I found	Message 已作 found 的受詞，不能在子句再放 it。
+77	cross	somebody wait	somebody waiting	描述當時在等待的人，用現在分詞 waiting。
+78	cross	plan	planned	Anything planned 表示已有安排，用過去分詞。
+79	cross	else someone	someone else	Else 放在人稱不定代名詞後。
+80	tick			Someone else's 的所有格 's 正確加在 else 後。
+81	tick			Everywhere 表示在所有相關地方尋找。
+82	cross	were	was	Everywhere 作整體地點主語，配 was。
+83	cross	were	was	Somewhere warm 作整體地點主語，配 was。
+84	tick			Go somewhere quiet 直接接地點副詞，不加 to。
+85	tick			Walk somewhere sheltered 直接接地點副詞。
+86	tick			Out of nowhere 是突然出現的自然表達。
+87	tick			Nowhere to go 表示沒有可去的地方。
+88	cross	nowhere go	nowhere to go	Nowhere 後用 to go 表可去的地方。
+89	tick			Elsewhere 表示在另一個地方休息。
+90	tick			Someplace 是美式英語中可用的地點詞。
+91	tick			Somewhere where… 可用後面的關係子句交代地方特色。
+92	tick			Wherever we liked 表示可在安全路段自由選位置。
+93	cross	wherever where	wherever	Wherever 本身已有「無論在哪裏」的意思。
+94	cross	Nowhere along the trail we saw	Nowhere along the trail did we see	否定地點片語置句首，主句需要倒裝。
+95	tick			Nowhere was safe 以 nowhere 作主語，無須額外倒裝。
+96	cross	somewhere near around	somewhere around	Near 與 around 在此重複表近似，保留其一。
+97	tick			Anywhere from one to three hours 是自然的數值範圍。
+98	cross	nowhere for found	nowhere to be found	Nowhere to be found 是自然固定搭配。
+99	cross	nowhere beside	nowhere near	離營地仍有十公里，應說 nowhere near。
+100	tick			A road to nowhere 可比喻一條不通往有用目的地的小徑。
+101	tick			Not everyone 只說並非全班都捐；most pupils did 說大部分已捐。
+102	cross	donate	donated	During the first hour 是已過去的時段，動詞用 donated。
+103	cross	collected	collect	Did not 後接動詞原形 collect。
+104	cross	have	has	Someone 作單數主語，現在完成式用 has。
+105	cross	have	has	No one 作單數主語，現在完成式用 has。
+106	tick			Nothing anyone could do 表示沒有任何人可做的事。
+107	tick			Nobody knew 與 someone had already found 可同時成立：無人知道找到替代車的人已做成此事。
+108	cross	brought	bring	Did not 後接動詞原形 bring。
+109	tick			Nothing except 排除少量空箱，與句意一致。
+110	cross	didn't receive nothing	didn't receive anything	普通單重否定用 didn't receive anything。
+111	tick			Saw nothing 表示密封捐贈箱裏甚麼也沒有看到。
+112	cross	were	was	Almost everyone 作單數主語，配 was。
+113	tick			Hardly anyone 表示幾乎無人留意。
+114	cross	Hardly nobody	Hardly anybody	Hardly 已帶近乎否定意思，普通用 anybody。
+115	tick			Every donation except 明確排除損壞書本。
+116	cross	know	knows	Nobody but the organiser 的動詞與 nobody 一致，用 knows。
+117	tick			Everything but the blue blankets 表示已裝好其餘全部物資。
+118	tick			Nothing but winter coats 表示只有冬季外套。
+119	tick			Anything but easy 表示一點也不容易。
+120	tick			Not everybody 並不表示無人帶箱，後半句交代部分人帶了小袋。
+121	cross	were	was	Everyone on the editorial team 作單數主語，配 was。
+122	cross	Everyone of	Every one of	逐一指那組相片，用分開寫的 every one of。
+123	tick			Any one of these pictures 指三張圖中任意一張。
+124	tick			None of them 回指三位缺席作家；sent 為過去式。
+125	cross	Nobody of them	None of them	明確回指已提及的一組人，選 none of them。
+126	cross	agrees	agree	All the students 是複數主語，配 agree。
+127	tick			A twenty-something artist 是二十多歲的藝術家，連字號及單數形式正確。
+128	cross	twenty-somethings	twenty-something	表單一人的年齡段，不加複數 -s。
+129	tick			Nothing like the first draft 表示兩版非常不同。
+130	tick			Something like fifteen dollars 表示大約十五元。
+131	tick			Anything like 問相片是否與原圖有任何相似之處。
+132	cross	a little somethings	a little something	表示一份小心意的固定表達用單數 something。
+133	tick			Something of an expert 表示在某程度上是專家。
+134	tick			Just anybody 表未經挑選的任何人；機密檔案不宜交給這類人。
+135	cross	to nobody	to anybody	Cannot 已否定可交付對象，普通用 anybody。
+136	cross	somethings	something	Or something 表示相近而未說明的活動，不加複數 -s。
+137	tick			If anything 把評估推向第二稿更短、更清楚。
+138	tick			If nothing else 表示至少學會合作。
+139	tick			Have something on her mind 表示心裏惦記着某事。
+140	cross	wrong to asking	wrong with asking	Nothing wrong with 後接動名詞 asking。
+141	cross	were	was	Someone 作單數主語，配 was。
+142	cross	They was	They were	單數 they 作代詞時，動詞仍用 were。
+143	cross	stepping	stepped	整句敘述過去發生的動作，缺少限定動詞 stepped。
+144	cross	move	moved	過去敘事中，nothing moved 應用過去式。
+145	tick			Nobody left 表示六時後恐怕一人也不剩。
+146	cross	nothing urgent plan	nothing urgent planned	Nothing 後的 urgent 表修飾，plan 要用過去分詞 planned。
+147	cross	open	opened	Has 後用過去分詞 opened。
+148	tick			Genuinely have no idea 表中立查問，問句用 anyone 自然。
+149	cross	could heard	could hear	情態動詞 could 後用原形 hear。
+150	cross	could has checked	could have checked	Could 後用原形 have，再接過去分詞 checked。
+151	tick			Someone was hiding 描述當時正在藏着的人。
+152	cross	to fall	fall	Hear something fall 表示聽見整個掉落動作。
+153	cross	were	was	Nothing 作單數主語，配 was。
+154	tick			問句以 anybody 查問人，以 anything unusual 查問異常事情。
+155	tick			Have nothing to do with 表示與賊人完全無關。
+156	tick			Out of nowhere 形容小貓突然出現。
+157	cross	frightening something	something frightening	形容詞應置於 something 後。
+158	tick			Their 可指未知性別的單一主人。
+159	tick			Didn't recognise something 可表示相片中有一項事物認不出，後半句仍可談到它。
+160	tick			Everybody realised 表相關所有人都明白；動詞單數形式正確。
+161	cross	Never give nobody	Never give anybody	普通單重否定用 Never give anybody。
+162	tick			No one is allowed 表示一人也不可分享他人帳戶。
+163	cross	have	has	Everyone 作單數主語，配 has。
+164	tick			Does anybody know 是自然中立問句，does 後用原形 know。
+165	tick			Everybody listen 是面向全體的祈使句，listen 用原形。
+166	tick			If anybody forgets 用單數動詞；they should 可回指未知性別的人。
+167	cross	hasn't it	has it	Nothing 是否定主語，附加問句用肯定形式。
+168	cross	are	is	主語核心 Somebody 為單數；with two other pupils 不改變動詞。
+169	cross	everyones	everyone	普通代名詞 everyone 不加複數 -s。
+170	cross	useful anything	anything useful	形容詞放在 anything 後。
+171	tick			Discuss the problem with somebody 的介詞 with 可留在句尾。
+172	cross	to be change	to be changed	被動不定式用 to be 加過去分詞 changed。
+173	tick			Anyone who receives 可指任一收到可疑連結的人。
+174	cross	someone we can trust them	someone we can trust	Someone 已是 trust 的受詞，子句不再加 them。
+175	tick			Nobody had anything planned 表示人人都沒有安排。
+176	cross	else anywhere	anywhere else	Else 放在 anywhere 後。
+177	cross	anyone's else	anyone else's	所有格 's 加在 else 後。
+178	tick			From somewhere outside our network 表示訊息的來源。
+179	cross	Nowhere in the safety rules the guide mentioned	Nowhere in the safety rules did the guide mention	否定地點片語置句首，主句用 did 倒裝。
+180	tick			Hardly anybody 表示幾乎無人發現假按鈕。
+181	cross	were	was	Someone 作單數主語，配 was。
+182	cross	were	was	Everybody 作單數主語，配 was。
+183	cross	nowher	nowhere	固定表達 nowhere to be found 的拼法有末尾 e。
+184	tick			Someone 表示有人幫忙；後半句明說人數未明，兩者相容。
+185	cross	Everythings	Everything	普通代名詞 everything 不加複數 -s。
+186	cross	something drinks	something to drink	提供飲品時說 something to drink。
+187	cross	could asks	could ask	情態動詞 could 後用原形 ask。
+188	tick			If anybody arrives 為條件句；them 可回指身份未明的人。
+189	cross	you likes	you like	You 作主語，動詞用 like。
+190	cross	have	has	Someone 作單數主語，現在完成式用 has。
+191	cross	quietest	quieter	與其他地方比較，用比較級 quieter。
+192	tick			Someone's left 中的 's 表 has，與過去分詞 left 組成現在完成式。
+193	tick			A nobody 是指不出名或不受重視的人，屬特殊名詞用法。
+194	cross	particularly useful something	something particularly useful	形容詞片語放在 something 後。
+195	cross	for the youngest visitors resting	for the youngest visitors to rest	明示休息者，用 for + 名詞片語 + to 不定式。
+196	cross	were	was	Somewhere quiet 作整體地點主語，配 was。
+197	tick			Anyplace 是可接受的美式地點詞，問句用法自然。
+198	tick			Anywhere you like 表示等候區內任選座位。
+199	tick			Anywhere from forty to sixty minutes 是自然的時間範圍。
+200	tick			A little something 表示給每位幫手的小心意。
