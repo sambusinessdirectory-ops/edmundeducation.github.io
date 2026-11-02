@@ -3969,10 +3969,10 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
       }
     ],
     "translation": [
-      "在一個人們從報紙、網站和社交媒體接收資訊的世界裡，新聞報導中的客觀性通常被視為至關重要。我並不認為所有新聞都是真實的，即使它們是由成熟的媒體機構製作的。在我看來，報紙的主要功能是向公民提供可靠資訊，並幫助他們理解具有公共重要性的議題。",
+      "在一個人們從報紙、網站和社交媒體接收資訊的世界裡，新聞報導中的客觀性通常被視為至關重要。我並不認為所有新聞都是真實的，即使它們是由成熟的媒體機構製作的。在我看來，報紙的主要功能是向公民提供可靠資訊，並幫助他們理解關乎公眾利益的議題。",
       "並非所有新聞都可以被視為真實，因為新聞是由人製作的，而人的判斷從來不可能完全中立。一篇報導可能以真實事件為基礎，但標題、資料來源和圖片的選擇仍然可以塑造讀者的解讀。例如，兩份報紙可能報導同一場抗議：其中一份可能把它描述為公眾對公義的訴求，而另一份則可能把它描繪成對社會秩序的威脅。兩篇報導可能都不是完全捏造的，但它們都可以引導讀者產生某種特定的情緒反應。此外，商業壓力可能會誘使報紙為了吸引注意力而誇大故事、簡化複雜議題，或刊登未經核實的說法。",
-      "因此，報紙的功能應該比單純娛樂讀者或填滿版面更加嚴肅。它的首要責任是讓公眾了解會影響他們生活的事件，例如政府決策、經濟問題、健康警告和社會衝突。更重要的是，報紙應該扮演公共監察者的角色。透過調查貪污、質疑有權勢的機構，以及清楚呈現證據，報紙使普通人能夠判斷領袖和組織是否負責任地行事。這一點尤其重要，因為大多數公民無法親自出席法庭案件、檢查公共開支或訪問官員。一份負責任的報紙便成為他們的眼睛和耳朵。",
-      "總結來說，我不相信所有新聞都是真實的，因為事實可以被選擇、被框定，甚至被扭曲。然而，這正正是報紙重要的原因。它們真正的角色是核實資訊、解釋重要議題，並保護公眾免於無知、操控和盲目信任。"
+      "因此，報紙應承擔比單純娛樂讀者或填滿版面更嚴肅的職責。它的首要責任是讓公眾了解會影響他們生活的事件，例如政府決策、經濟問題、健康警告和社會衝突。更重要的是，報紙應該扮演公共監察者的角色。透過調查貪污、質疑有權勢的機構，以及清楚呈現證據，報紙使普通人能夠判斷領袖和組織是否負責任地行事。這一點尤其重要，因為大多數公民無法親自出席法庭案件、檢查公共開支或訪問官員。一份負責任的報紙便成為他們的眼睛和耳朵。",
+      "總結來說，我不相信所有新聞都是真實的，因為事實可能經過挑選、以不同角度呈現，甚至遭到扭曲。然而，這正正是報紙重要的原因。它們真正的角色是核實資訊、解釋重要議題，並保護公眾免於無知、操控和盲目信任。"
     ],
     "translationSections": [
       {
@@ -3993,7 +3993,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Thesis Statement（中心論點）",
             "english": "In my view, the main function of a newspaper is to give citizens reliable information and help them understand matters of public importance.",
-            "chinese": "在我看來，報紙的主要功能是向公民提供可靠資訊，並幫助他們理解具有公共重要性的議題。"
+            "chinese": "在我看來，報紙的主要功能是向公民提供可靠資訊，並幫助他們理解關乎公眾利益的議題。"
           }
         ]
       },
@@ -4037,7 +4037,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "The function of a newspaper, therefore, should be more serious than merely entertaining readers or filling pages.",
-            "chinese": "因此，報紙的功能應該比單純娛樂讀者或填滿版面更加嚴肅。"
+            "chinese": "因此，報紙應承擔比單純娛樂讀者或填滿版面更嚴肅的職責。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -4074,7 +4074,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "In conclusion, I do not believe all news is true, since facts can be selected, framed or distorted.",
-            "chinese": "總結來說，我不相信所有新聞都是真實的，因為事實可以被選擇、被框定，甚至被扭曲。"
+            "chinese": "總結來說，我不相信所有新聞都是真實的，因為事實可能經過挑選、以不同角度呈現，甚至遭到扭曲。"
           },
           {
             "label": "Reiterating Arguments（重申論點）",
@@ -4454,8 +4454,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     ],
     "translation": [
       "現代新聞報道往往給人一種印象，彷彿這個世界是由衝突、災難和犯罪所主導的。正面的事情並不少見；負面事件通常更緊急、更具戲劇性，也更具商業吸引力，這才是箇中原因。在我看來，新聞機構應該呈現一種更健康的平衡，同時報道好消息和壞消息。",
-      "壞消息受到如此多關注，主要有兩個原因。首先，戰爭、饑荒和意外事故等嚴重事件會對公共安全造成即時影響，因此記者自然會把它們視為優先報道的內容。如果一種疾病正在傳播、一宗暴力犯罪發生，或一場自然災害摧毀了家園，人們就需要盡快知道。其次，負面新聞往往更容易引發強烈的情緒反應。恐懼、震驚和憤怒會促使人們點擊、觀看和分享，這意味著媒體公司透過聚焦危機，而不是普通的進步，可以獲得更大的受眾。從這個角度來看，壞消息往往像一個響亮的警鐘：即使人們已經厭倦聽到它，也很難忽視它。",
-      "然而，我認為新聞也應該包含更多正面的故事。源源不絕的悲劇新聞可能會令人感到無助和憤世嫉俗，彷彿社會只是在不斷倒退。這是一幅被扭曲的現實圖像。例如，關於醫學突破、成功的社區項目，或某些地區犯罪率下降的新聞，可以提醒公眾：問題並不總是永久存在的。好消息並不等於膚淺的娛樂；它可以展示解決方案、激發負責任的行為，並讓人們對世界有更完整的理解。如果新聞只展示傷口，卻從不展示癒合的過程，它就沒有把整個故事說完整。",
+      "壞消息受到如此多關注，主要有兩個原因。首先，戰爭、饑荒和意外事故等嚴重事件會對公共安全造成即時影響，因此記者自然會把它們視為優先報道的內容。如果一種疾病正在傳播、一宗暴力犯罪發生，或一場自然災害摧毀了家園，人們就需要盡快知道。其次，負面新聞往往更容易引發強烈的情緒反應。恐懼、震驚和憤怒會促使人們點擊、觀看和分享，這意味著媒體公司透過聚焦危機，而不是日常的正面進展，可以獲得更大的受眾。從這個角度來看，壞消息往往像一個響亮的警鐘：即使人們已經厭倦聽到它，也很難忽視它。",
+      "然而，我認為新聞也應該包含更多正面的故事。源源不絕的悲劇新聞可能會令人感到無助和憤世嫉俗，彷彿社會只是在不斷倒退。這會使人對現實產生扭曲的認識。例如，關於醫學突破、成功的社區項目，或某些地區犯罪率下降的新聞，可以提醒公眾：問題並不總是永久存在的。好消息並不等於膚淺的娛樂；它可以展示解決方案、激發負責任的行為，並讓人們對世界有更完整的理解。如果新聞只展示傷口，卻從不展示癒合的過程，它就沒有把整個故事說完整。",
       "總結來說，壞消息佔主導地位，是因為它緊急、情緒力量強，也具有商業吸引力。然而，新聞機構應該同時報道負面和正面的發展，因為平衡的新聞內容能讓人們保持知情，而不會使他們不必要地變得悲觀。"
     ],
     "translationSections": [
@@ -4509,7 +4509,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Fear, shock and anger make people click, watch and share, which means media companies can gain larger audiences by focusing on crises rather than ordinary progress.",
-            "chinese": "恐懼、震驚和憤怒會促使人們點擊、觀看和分享，這意味著媒體公司透過聚焦危機，而不是普通的進步，可以獲得更大的受眾。"
+            "chinese": "恐懼、震驚和憤怒會促使人們點擊、觀看和分享，這意味著媒體公司透過聚焦危機，而不是日常的正面進展，可以獲得更大的受眾。"
           },
           {
             "label": "Figurative Conclusion（比喻結論）",
@@ -4536,7 +4536,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "This is a distorted picture of reality.",
-            "chinese": "這是一幅被扭曲的現實圖像。"
+            "chinese": "這會使人對現實產生扭曲的認識。"
           },
           {
             "label": "Example（例子）",
@@ -4967,9 +4967,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
       }
     ],
     "translation": [
-      "如今，電影是在高度全球化的媒體環境中被觀看的，觀眾幾乎可以接觸到來自世界任何地方的作品。因此，許多觀眾會選擇國際電影而不是本地電影，因為這些電影往往看起來製作更精良、種類更多元，而且宣傳也更到位。在我看來，政府應該增加對本地電影業的支持，因為這能保護文化身份，並培養創意人才。",
-      "外國電影吸引大量觀眾的主要原因，是它們通常受惠於更強大的商業支持。大型電影公司可以在知名演員、視覺特效、音效設計和全球宣傳上投入大量資金，因此它們的電影往往在觀眾真正走進戲院之前，已經讓人覺得令人期待。它們也往往提供種類廣泛的電影類型，從超級英雄故事到歷史劇都有，這讓觀眾能找到符合自己口味的作品。相比之下，本地電影，尤其是在較小市場中的本地電影，可能行銷能力較弱，技術資源也較少。即使故事本身很出色，這部電影也可能難以接觸到大眾。從這個角度來看，外國電影有時勝出，靠的是更響亮的宣傳聲勢和更耀眼的聚光燈，未必代表它的質素總是更好。",
-      "基於這個原因，我認為公共資金支持本地電影是必要的。電影不只是商業產品；它們也是一個社會記住自身語言、價值觀、幽默、風景和日常問題的一種方式。如果沒有支持，許多本地導演和編劇可能會被迫模仿外國公式，或者乾脆完全離開這個行業。政府補助、培訓計劃，以及對放映本地電影的戲院提供資助，都可以給新人才喘息和發展的空間。例如，一位獲得資助的年輕電影製作人，可能會講述關於本地家庭、工作場所或傳統的故事，而這些故事是國際電影公司永遠不會製作的。這能強化整個創意生態系統。",
+      "如今，觀眾可透過高度全球化的媒體接觸電影，幾乎能觀看世界各地的作品。因此，許多觀眾會選擇國際電影而不是本地電影，因為這些電影往往看起來製作更精良、種類更多元，而且宣傳也更到位。在我看來，政府應該增加對本地電影業的支持，因為這能保護文化身份，並培養創意人才。",
+      "外國電影吸引大量觀眾的主要原因，是它們通常受惠於更強大的商業支持。大型電影公司可以在知名演員、視覺特效、音效設計和全球宣傳上投入大量資金，因此觀眾往往還未走進戲院，就已對這些電影充滿期待。它們也往往提供種類廣泛的電影類型，從超級英雄故事到歷史劇都有，這讓觀眾能找到符合自己口味的作品。相比之下，本地電影，尤其是在較小市場中的本地電影，可能行銷能力較弱，技術資源也較少。即使故事本身很出色，這部電影也可能難以接觸到大眾。從這個角度來看，外國電影有時勝出，靠的是更響亮的宣傳聲勢和更耀眼的聚光燈，未必代表它的質素總是更好。",
+      "基於這個原因，我認為公共資金支持本地電影是必要的。電影不只是商業產品；它們也是一個社會記住自身語言、價值觀、幽默、風景和日常問題的一種方式。如果沒有支持，許多本地導演和編劇可能會被迫模仿外國電影的慣用套路，或者乾脆完全離開這個行業。政府補助、培訓計劃，以及對放映本地電影的戲院提供資助，都可以給新人才喘息和發展的空間。例如，一位獲得資助的年輕電影製作人，可能會講述關於本地家庭、工作場所或傳統的故事，而這些故事是國際電影公司永遠不會製作的。這能強化整個創意生態系統。",
       "總結來說，人們經常較喜歡外國電影，是因為它們有更充足的資金、更強的宣傳，以及更完善的發行渠道。然而，政府應該在本地電影業上投入更多資金，因為國家電影能保存文化，並給予本地人才真正成長的機會。"
     ],
     "translationSections": [
@@ -4981,7 +4981,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Films are now consumed in a highly globalised media environment, where audiences can access productions from almost anywhere.",
-            "chinese": "如今，電影是在高度全球化的媒體環境中被觀看的，觀眾幾乎可以接觸到來自世界任何地方的作品。"
+            "chinese": "如今，觀眾可透過高度全球化的媒體接觸電影，幾乎能觀看世界各地的作品。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -5008,7 +5008,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Major studios can spend heavily on famous actors, visual effects, sound design, and worldwide promotion, so their films often feel exciting before the audience has even entered the cinema.",
-            "chinese": "大型電影公司可以在知名演員、視覺特效、音效設計和全球宣傳上投入大量資金，因此它們的電影往往在觀眾真正走進戲院之前，已經讓人覺得令人期待。"
+            "chinese": "大型電影公司可以在知名演員、視覺特效、音效設計和全球宣傳上投入大量資金，因此觀眾往往還未走進戲院，就已對這些電影充滿期待。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -5050,7 +5050,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Without support, many local directors and writers may be forced to copy foreign formulas or leave the industry altogether.",
-            "chinese": "如果沒有支持，許多本地導演和編劇可能會被迫模仿外國公式，或者乾脆完全離開這個行業。"
+            "chinese": "如果沒有支持，許多本地導演和編劇可能會被迫模仿外國電影的慣用套路，或者乾脆完全離開這個行業。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -5337,7 +5337,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           "I do not think this is a good thing",
           "unnecessary consumption can lead to wasted money and poor financial habits",
           "especially among people who buy on credit",
-          "it creates environmental damage because discarded goods often end up as electronic waste, plastic waste, or landfill",
+          "it creates environmental damage because discarded goods often become electronic waste or plastic waste, or are sent to landfill",
           "Producing constant replacements also consumes energy and natural resources",
           "could be used more responsibly",
           "people often buy needless products because advertising, social comparison, and rapid product cycles make unnecessary purchases seem attractive",
@@ -5441,7 +5441,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           },
           {
             "parts": [
-              "More seriously, it creates environmental damage because discarded goods often end up as electronic waste, plastic waste, or landfill."
+              "More seriously, it creates environmental damage because discarded goods often become electronic waste or plastic waste, or are sent to landfill."
             ]
           },
           {
@@ -5468,10 +5468,10 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
       }
     ],
     "translation": [
-      "在現代消費型社會中，購物已不再只是為了滿足基本需要。如今，許多人會購買一些即使沒有也完全可以生活的物品，並且在完全沒有必要之前，就更換仍然功能正常的產品。本文將主張，這種行為主要是由廣告和社會壓力所推動，而且它明顯是一種負面的發展。",
-      "人們購買不必要商品的一個主要原因是，企業已經非常擅長製造欲望。廣告很少把產品呈現為普通物品；相反，它們會把產品與美貌、成功、自信或社會歸屬感聯繫起來。結果，消費者可能會開始覺得，擁有最新的手機、服裝或家用設備能提升他們的身份形象，而不只是滿足實際功能。這種壓力在社交媒體上更加強烈，因為人們不斷看到網紅和朋友展示新的購買品。當消費變成一種獲得認同的方式時，人們便更有可能購買自己並不真正需要的東西。",
+      "在現代消費型社會中，購物已不再只是為了滿足基本需要。如今，許多人會購買一些即使沒有也完全可以生活的物品，並且在遠未需要更換時，便把仍然運作正常的產品換掉。本文將主張，這種行為主要是由廣告和社會壓力所推動，而且它明顯是一種負面的發展。",
+      "人們購買不必要商品的一個主要原因是，企業已經非常擅長製造欲望。廣告很少把產品呈現為普通物品；相反，它們會把產品與美貌、成功、自信或社會歸屬感聯繫起來。結果，消費者可能會開始覺得，擁有最新的手機、服裝或家用設備能提升他們的身份形象，而不只是滿足實際功能。這種壓力在社交媒體上更加強烈，因為人們不斷看到網紅和朋友展示新買的東西。當消費變成一種獲得認同的方式時，人們便更有可能購買自己並不真正需要的東西。",
       "另一個原因是，許多產品被設計成很快就讓人覺得過時。例如，科技公司每年都會推出新型號，即使改進其實相對有限。一個人的手機即使仍然運作良好，也可能因為新版本看起來更時尚或速度稍快，而想要更換它。這樣一來，購物便不再主要是為了解決真正的問題，而更像是在追逐新鮮感。這種習慣很容易變成一個循環：人們買下某樣東西，短暫享受它，然後很快又開始尋找下一次升級。",
-      "我不認為這是一件好事。在個人層面上，不必要的消費可能導致金錢浪費和不良的理財習慣，尤其是在那些使用信貸購物的人身上。更嚴重的是，它會造成環境破壞，因為被丟棄的商品往往最終變成電子垃圾、塑膠垃圾或堆填區廢物。持續生產替代品也會消耗能源和自然資源，而這些資源本可以被更負責任地使用。",
+      "我不認為這是一件好事。在個人層面上，不必要的消費可能導致金錢浪費和不良的理財習慣，尤其是使用信貸購物的人。更嚴重的是，它會造成環境破壞，因為被丟棄的商品往往變成電子垃圾或塑膠垃圾，或被送往堆填區。持續生產替代品也會消耗能源和自然資源，而這些資源本可以被更負責任地使用。",
       "總結來說，人們經常購買不必要的產品，是因為廣告、社會比較和快速的產品週期，令不必要的購買看起來具有吸引力。然而，這種行為是有害的，因為它鼓勵金錢浪費，並對環境造成本可避免的壓力。"
     ],
     "translationSections": [
@@ -5488,7 +5488,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Many people now purchase items they could easily live without and replace perfectly functional products long before necessary.",
-            "chinese": "如今，許多人會購買一些即使沒有也完全可以生活的物品，並且在完全沒有必要之前，就更換仍然功能正常的產品。"
+            "chinese": "如今，許多人會購買一些即使沒有也完全可以生活的物品，並且在遠未需要更換時，便把仍然運作正常的產品換掉。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -5520,7 +5520,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "This pressure is even stronger on social media, where people are constantly exposed to influencers and friends displaying new purchases.",
-            "chinese": "這種壓力在社交媒體上更加強烈，因為人們不斷看到網紅和朋友展示新的購買品。"
+            "chinese": "這種壓力在社交媒體上更加強烈，因為人們不斷看到網紅和朋友展示新買的東西。"
           },
           {
             "label": "Conclusion（段落總結）",
@@ -5574,12 +5574,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "On a personal level, unnecessary consumption can lead to wasted money and poor financial habits, especially among people who buy on credit.",
-            "chinese": "在個人層面上，不必要的消費可能導致金錢浪費和不良的理財習慣，尤其是在那些使用信貸購物的人身上。"
+            "chinese": "在個人層面上，不必要的消費可能導致金錢浪費和不良的理財習慣，尤其是使用信貸購物的人。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
-            "english": "More seriously, it creates environmental damage because discarded goods often end up as electronic waste, plastic waste, or landfill.",
-            "chinese": "更嚴重的是，它會造成環境破壞，因為被丟棄的商品往往最終變成電子垃圾、塑膠垃圾或堆填區廢物。"
+            "english": "More seriously, it creates environmental damage because discarded goods often become electronic waste or plastic waste, or are sent to landfill.",
+            "chinese": "更嚴重的是，它會造成環境破壞，因為被丟棄的商品往往變成電子垃圾或塑膠垃圾，或被送往堆填區。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -5977,9 +5977,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
       }
     ],
     "translation": [
-      "孩子在學校最初幾年的表現，往往受到正式教育開始之前已經發生的事情所影響。早期閱讀尤其重要，因為它讓孩子接觸語言、指示和思想，而這些全都是學術學習的核心。然而，單靠閱讀並不能決定成功；學前兒童也會受到家庭環境、社交發展和情緒準備程度的強烈影響。",
+      "孩子在學校最初幾年的表現，往往受到入學前經歷的影響。早期閱讀尤其重要，因為它讓孩子接觸語言、指示和思想，而這些全都是學科學習的核心。然而，單靠閱讀並不能決定成功；學前兒童也會受到家庭環境、社交發展和情緒準備程度的強烈影響。",
       "早期閱讀能力在學業表現中扮演關鍵角色，因為它們幾乎是通往每一個學科的入口。一個能夠認字、理解句子並明白簡單故事的孩子，並不只是正在學習英文；他們是在學習如何學習。例如，即使是一份基本的數學工作紙，也要求學生準確閱讀題目，而科學則高度依賴對解釋內容的理解。因此，早期具備閱讀能力的孩子在課堂上較不容易感到迷失，也更有可能在課業變得更困難時建立自信。這份自信可以成為一個安靜卻有力的進步引擎，推動他們提出問題、獨立完成任務，並培養更強的學習習慣。",
-      "話雖如此，其他幾個學前因素也會塑造孩子日後的成就。其中最重要的因素之一是父母的參與，尤其是當父母經常與孩子交談、回答他們的問題，並在家中建立平穩的日常規律時。這樣的孩子入學時通常已經具備更好的詞彙量、更強的專注力，以及更清楚明白學習是重要的。社交和情緒發展是另一個關鍵因素。能夠分享玩具、等待輪到自己，以及處理小挫折的孩子，通常更能為課堂生活作好準備。從這個意義上說，學前成功並不只是由書本建立起來的；它也透過對話、遊戲和穩定的關係建立起來。",
+      "話雖如此，其他幾個學前因素也會塑造孩子日後的成就。其中最重要的因素之一是父母的參與，尤其是當父母經常與孩子交談、回答他們的問題，並在家中建立安定的生活規律時。這樣的孩子入學時通常已經擁有更豐富的詞彙、更強的專注力，也更清楚地明白學習的重要性。社交和情緒發展是另一個關鍵因素。能夠分享玩具、等待輪到自己，以及處理小挫折的孩子，通常更能為課堂生活作好準備。從這個意義上說，學前成功並不只是由書本建立起來的；它也透過對話、遊戲和穩定的關係建立起來。",
       "總結來說，早期閱讀能力極為重要，因為它們支撐孩子在整個課程中的理解力、自信心和獨立學習能力。然而，一個孩子的學業未來也會受到入學前已經建立的家庭支持、情緒成熟度和社交習慣所塑造。"
     ],
     "translationSections": [
@@ -5991,12 +5991,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "A child’s first years at school are often shaped by what has already happened before formal education begins.",
-            "chinese": "孩子在學校最初幾年的表現，往往受到正式教育開始之前已經發生的事情所影響。"
+            "chinese": "孩子在學校最初幾年的表現，往往受到入學前經歷的影響。"
           },
           {
             "label": "Thesis Statement（中心論點）",
             "english": "Early reading is especially important because it gives children access to language, instructions and ideas, all of which are central to academic learning.",
-            "chinese": "早期閱讀尤其重要，因為它讓孩子接觸語言、指示和思想，而這些全都是學術學習的核心。"
+            "chinese": "早期閱讀尤其重要，因為它讓孩子接觸語言、指示和思想，而這些全都是學科學習的核心。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -6050,12 +6050,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "One of the most important is parental involvement, especially when parents talk to children regularly, answer their questions and create a calm routine at home.",
-            "chinese": "其中最重要的因素之一是父母的參與，尤其是當父母經常與孩子交談、回答他們的問題，並在家中建立平穩的日常規律時。"
+            "chinese": "其中最重要的因素之一是父母的參與，尤其是當父母經常與孩子交談、回答他們的問題，並在家中建立安定的生活規律時。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Such children often arrive at school with better vocabulary, stronger concentration and a clearer sense that learning matters.",
-            "chinese": "這樣的孩子入學時通常已經具備更好的詞彙量、更強的專注力，以及更清楚明白學習是重要的。"
+            "chinese": "這樣的孩子入學時通常已經擁有更豐富的詞彙、更強的專注力，也更清楚地明白學習的重要性。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -6483,8 +6483,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
       }
     ],
     "translation": [
-      "現代化帶來了明顯的好處，但它也把許多傳統生活方式推向了邊緣。在我看來，保留這些傳統是重要的，因為它們給予人們文化身份和社會延續性。這可以透過把傳統融入教育和社區生活來實現，而不是把它們當成博物館裡的展品。",
-      "傳統生活方式應該受到保護的主要原因，是它們把人們與自己的歷史以及彼此連結起來。本地節日、家庭儀式、傳統工藝和地區食物等習俗，並不只是舊習慣；它們承載著共同的價值觀、記憶和知識形式，而這些是科技或消費文化無法取代的。當這些做法消失時，年輕一代也許仍然生活在現代城市中，但他們可能會失去一種屬於更大歷史故事的歸屬感。例如，一個只接觸全球流行文化的孩子，可能知道如何使用最新的電子設備，卻對塑造祖父母生活的語言、禮儀或慶祝方式所知甚少。從這個意義上說，傳統就像世代之間的一座橋樑，幫助社會在向前發展的同時仍然保持根基。",
+      "現代化帶來了明顯的好處，但它也把許多傳統生活方式推向了邊緣。在我看來，保留這些傳統是重要的，因為它們給予人們文化身份和世代之間的連繫。這可以透過把傳統融入教育和社區生活來實現，而不是把它們當成博物館裡的展品。",
+      "傳統生活方式應該受到保護的主要原因，是它們把人們與自己的歷史以及彼此連結起來。本地節日、家庭儀式、傳統工藝和地區食物等習俗，並不只是舊習慣；它們承載著共同的價值觀、記憶和代代相傳的知識，而這些是科技或消費文化無法取代的。當這些做法消失時，年輕一代也許仍然生活在現代城市中，但他們可能會失去一種與家族和社群歷史相連的歸屬感。例如，一個只接觸全球流行文化的孩子，可能知道如何使用最新的電子設備，卻對塑造祖父母生活的語言、禮儀或慶祝方式所知甚少。從這個意義上說，傳統就像世代之間的一座橋樑，幫助社會在向前發展的同時仍然保持根基。",
       "然而，傳統只有在以實際方式被延續時，才能真正存活下來。學校應該透過活動教授本地歷史、傳統藝術和社區習俗，而不是依靠枯燥的背誦，這樣學生才能親身體驗文化，而不只是閱讀有關文化的內容。同時，政府和本地社區應該支持節日活動、手工藝市集、口述歷史項目，以及讓長者能夠把技能傳授給年輕人的公共空間。科技也可以提供幫助：短片、數碼檔案和網上課程，可以讓那些遠離原本社區生活的人也能接觸到傳統知識。",
       "總結來說，保留傳統生活方式是重要的，因為它們保護文化身份，並加強社會連繫。最好的方法，是把傳統融入教育、社區活動和數碼平台，讓它繼續在社會中蓬勃發展，無須抗拒現代生活。"
     ],
@@ -6502,7 +6502,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Thesis Statement（中心論點） | Answer to Question 1（回答第一條問題）",
             "english": "In my view, preserving these traditions is important because they give people cultural identity and social continuity.",
-            "chinese": "在我看來，保留這些傳統是重要的，因為它們給予人們文化身份和社會延續性。"
+            "chinese": "在我看來，保留這些傳統是重要的，因為它們給予人們文化身份和世代之間的連繫。"
           },
           {
             "label": "Thesis Statement（中心論點） | Answer to Question 2（回答第二條問題）",
@@ -6524,12 +6524,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Customs such as local festivals, family rituals, traditional crafts and regional food are not merely old habits; they carry shared values, memories and forms of knowledge that cannot be replaced by technology or consumer culture.",
-            "chinese": "本地節日、家庭儀式、傳統工藝和地區食物等習俗，並不只是舊習慣；它們承載著共同的價值觀、記憶和知識形式，而這些是科技或消費文化無法取代的。"
+            "chinese": "本地節日、家庭儀式、傳統工藝和地區食物等習俗，並不只是舊習慣；它們承載著共同的價值觀、記憶和代代相傳的知識，而這些是科技或消費文化無法取代的。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "When these practices disappear, younger generations may still live in modern cities, but they can lose a sense of belonging to a wider story.",
-            "chinese": "當這些做法消失時，年輕一代也許仍然生活在現代城市中，但他們可能會失去一種屬於更大歷史故事的歸屬感。"
+            "chinese": "當這些做法消失時，年輕一代也許仍然生活在現代城市中，但他們可能會失去一種與家族和社群歷史相連的歸屬感。"
           },
           {
             "label": "Example（例子）",
@@ -6999,7 +6999,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     "translation": [
       "歷史一直是社會理解自身的主要方式之一。儘管不同文化以不同形式保存過去，歷史可以透過教育、故事傳承、公共記憶和文化傳統傳給下一代。歷史之所以仍然重要，是因為它給予人們身份認同、智慧，以及共同的方向感。",
       "歷史可以透過幾種方式傳承給年輕一代。最明顯的方法是正規教育，因為學校可以教導學生了解重大事件、重要人物，以及自己國家的發展。然而，歷史並不只存在於課本之中。歷史也可以透過口述傳統、家庭故事、紀念碑、博物館、紀錄片和國家儀式被保存下來。例如，祖父母可能會向孩子講述戰爭時期的艱難或移民經歷，讓他們感受到過去既是書本中的遙遠篇章，也是家庭鮮活記憶的一部分。這樣一來，歷史就像世代之間的一座橋：它讓從未見過面的人仍然保持連結。",
-      "歷史對社會也至關重要，因為它塑造集體身份，並幫助人們作出更明智的決定。一個理解自身過去的社群，更有可能珍惜自己的語言、習俗、價值觀和曾經經歷的奮鬥。如果沒有這種知識，人們可能會感到失去根基，彷彿住在一間看不見地基的房子裡。更重要的是，歷史教導社會明白人類選擇所帶來的後果。戰爭、社會運動、科學發現和政治錯誤，都提供了關於權力、正義、衝突和進步的教訓。如果這些教訓被忽視，社會便可能以新的形式重複舊有的錯誤。",
+      "歷史對社會也至關重要，因為它塑造集體身份，並幫助人們作出更明智的決定。一個理解自身過去的社群，更有可能珍惜自己的語言、習俗、價值觀和過往的奮鬥。如果沒有這種知識，人們可能會感到失去根基，彷彿住在一間看不見地基的房子裡。更重要的是，歷史教導社會明白人類選擇所帶來的後果。戰爭、社會運動、科學發現和政治錯誤，都提供了關於權力、正義、衝突和進步的教訓。如果這些教訓被忽視，社會便可能以新的形式重複舊有的錯誤。",
       "總結來說，歷史可以透過學校、家庭、文化機構、媒體和公共傳統傳承下去。它的重要性不僅在於保存過去的事實，也在於幫助社會理解自己從何而來、自己是誰，以及未來應該如何前進。"
     ],
     "translationSections": [
@@ -7075,7 +7075,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "A community that understands its past is more likely to appreciate its language, customs, values, and struggles.",
-            "chinese": "一個理解自身過去的社群，更有可能珍惜自己的語言、習俗、價值觀和曾經經歷的奮鬥。"
+            "chinese": "一個理解自身過去的社群，更有可能珍惜自己的語言、習俗、價值觀和過往的奮鬥。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",

@@ -1,0 +1,121 @@
+{
+  "key": "advantage-disadvantage:29",
+  "sourceSentenceCount": 15,
+  "reason": "Canonical Traditional Chinese has added, shifted or omitted material; proposed items align one-to-one with physical English sentences.",
+  "sentences": [
+    {
+      "number": 1,
+      "english": "Many families encourage school-age children to take part-time jobs during weekends or school holidays.",
+      "sourceChinese": "很多家庭會鼓勵學齡兒童在週末或學校假期做兼職工作。",
+      "proposedChinese": "很多家庭會鼓勵學齡兒童在週末或學校假期做兼職工作。"
+    },
+    {
+      "number": 2,
+      "english": "Such work can offer valuable lessons beyond the classroom.",
+      "sourceChinese": "這類工作可以帶來課堂以外的寶貴經驗，但同時也可能讓年輕人面對一些他們尚未成熟到足以妥善處理的壓力。",
+      "proposedChinese": "這類工作可以帶來課堂以外的寶貴經驗。"
+    },
+    {
+      "number": 3,
+      "english": "At the same time, it may expose young people to pressures that they are not yet mature enough to manage well.",
+      "sourceChinese": "本文將探討孩子在空閒時間從事兼職工作的優點與缺點。",
+      "proposedChinese": "同時，它也可能令年輕人承受尚未成熟到足以妥善應對的壓力。"
+    },
+    {
+      "number": 4,
+      "english": "One important advantage is that paid work can foster responsibility and financial awareness.",
+      "sourceChinese": "兼職工作的一個重要優點是，它能培養責任感和金錢觀念。",
+      "proposedChinese": "兼職工作的一個重要優點是，它能培養責任感和金錢觀念。"
+    },
+    {
+      "number": 5,
+      "english": "When children are expected to arrive on time, follow instructions and earn their own wages, they begin to understand that money is linked to effort rather than simply provided on demand.",
+      "sourceChinese": "當孩子被要求準時上班、遵從指示並靠自己賺取薪水時，他們便會開始明白，金錢是與付出和努力連在一起的，而不是理所當然地隨時可得。",
+      "proposedChinese": "當孩子被要求準時上班、遵從指示並靠自己賺取薪水時，他們便會開始明白，金錢是與付出和努力連在一起的，而不是理所當然地隨時可得。"
+    },
+    {
+      "number": 6,
+      "english": "For example, a teenager who spends a few hours each week working in a café may become far more careful about unnecessary spending.",
+      "sourceChinese": "這有助於他們變得更有紀律、更理性地看待花費，也更懂得珍惜工作的價值。例如，一名每週在咖啡店工作幾小時的青少年，一旦親自辛苦賺過那些錢，便可能會對購買不必要的東西變得謹慎得多。",
+      "proposedChinese": "例如，一名每週在咖啡店工作數小時的青少年，可能會更謹慎地看待不必要的開支。"
+    },
+    {
+      "number": 7,
+      "english": "Another benefit is that part-time employment can build practical skills that schools do not always teach directly.",
+      "sourceChinese": "另一個優點是，兼職工作能培養一些學校未必會直接教授的實用技能。",
+      "proposedChinese": "另一個優點是，兼職工作能培養一些學校未必會直接教授的實用技能。"
+    },
+    {
+      "number": 8,
+      "english": "By serving customers, cooperating with co-workers and solving small problems under pressure, young people can develop confidence, communication skills and better time management, all of which are likely to be useful in adult life.",
+      "sourceChinese": "透過服務顧客、與同事合作，以及在壓力下處理小問題，年輕人可以培養自信、溝通能力和更好的時間管理能力。例如，一個在小店幫忙的孩子，可能會學會如何有禮貌地與陌生人交談、在繁忙時段保持冷靜，以及在工作與學業責任之間取得平衡。因此，兼職工作可以幫助孩子成長為更有責任感、更有能力、也更獨立的人。",
+      "proposedChinese": "透過服務顧客、與同事合作及在壓力下解決小問題，年輕人可以培養自信、溝通技巧和更好的時間管理能力；這些能力在成年生活中很可能有用。"
+    },
+    {
+      "number": 9,
+      "english": "However, there are also clear disadvantages.",
+      "sourceChinese": "然而，兼職工作也有明顯的缺點，尤其當它開始干擾孩子的學業或身心健康時。",
+      "proposedChinese": "然而，這樣做也有明顯的缺點。"
+    },
+    {
+      "number": 10,
+      "english": "The most obvious is that work can eat into time that should be reserved for study, sleep or family life.",
+      "sourceChinese": "最明顯的缺點是，工作可能會佔去本應留給學習、休息或家庭生活的時間。如果孩子花太多時間工作，他們可能會變得疲累、難以好好完成作業，並且逐漸在學校表現變差。",
+      "proposedChinese": "最明顯的缺點是，工作可能佔去原本應留給學習、睡眠或家庭生活的時間。"
+    },
+    {
+      "number": 11,
+      "english": "A child who works several evening shifts in a supermarket, for instance, may return home too tired to complete homework properly, and this can gradually weaken academic performance.",
+      "sourceChinese": "例如，一個在超市上好幾個晚班的孩子，回到家後可能已經累得無法專心溫習，而這會慢慢損害其學業表現。",
+      "proposedChinese": "例如，一名在超市上好幾個晚班的孩子，回家後可能累得無法好好完成作業，這會逐漸削弱學業表現。"
+    },
+    {
+      "number": 12,
+      "english": "In addition, early exposure to workplace stress may be harmful if the environment is demanding or poorly supervised.",
+      "sourceChinese": "另一個缺點是，如果工作環境要求過高或缺乏妥善監管，過早接觸職場壓力可能會對孩子造成傷害。",
+      "proposedChinese": "此外，如果工作環境要求過高或缺乏妥善監督，過早接觸職場壓力可能有害。"
+    },
+    {
+      "number": 13,
+      "english": "Some young workers may have to deal with rude customers, long hours or unrealistic expectations before they are emotionally ready, which can turn a potentially valuable experience into a heavy burden.",
+      "sourceChinese": "年輕打工者可能在情感上尚未準備好之前，就要面對無禮的顧客、過長的工時或不切實際的期望，這會使原本有價值的經驗變成沉重的負擔。例如，一名在繁忙餐廳工作的青少年，可能會因持續不斷的壓力與批評而感到不堪負荷，而不是從這段經驗中建立自信。因此，雖然兼職工作可以帶來好處，但它也可能為孩子帶來學業和情緒上的壓力。",
+      "proposedChinese": "有些年輕員工可能在情緒上尚未準備好時，便要應對無禮的顧客、長時間工作或不切實際的要求；這會使原本可能有價值的經驗變成沉重負擔。"
+    },
+    {
+      "number": 14,
+      "english": "Overall, part-time work can help children become more mature, capable and independent, yet it can also create academic and emotional strain.",
+      "sourceChinese": "整體而言，兼職工作可以幫助孩子變得更成熟、更有能力和更獨立，但同時也可能帶來學業與情緒上的壓力。",
+      "proposedChinese": "整體而言，兼職工作可以幫助孩子變得更成熟、更有能力和更獨立，但同時也可能帶來學業與情緒上的壓力。"
+    },
+    {
+      "number": 15,
+      "english": "Its impact therefore depends largely on the amount of work involved and whether clear limits are kept in place.",
+      "sourceChinese": "它所帶來的影響，很大程度上取決於工作量是否適中，以及是否有合理的限制被清楚地設立。",
+      "proposedChinese": "它所帶來的影響，很大程度上取決於工作量是否適中，以及是否有合理的限制被清楚地設立。"
+    }
+  ],
+  "rawChinese": [
+    "很多家庭會鼓勵學齡兒童在週末或學校假期做兼職工作。",
+    "這類工作可以帶來課堂以外的寶貴經驗。",
+    "同時，它也可能令年輕人承受尚未成熟到足以妥善應對的壓力。",
+    "兼職工作的一個重要優點是，它能培養責任感和金錢觀念。",
+    "當孩子被要求準時上班、遵從指示並靠自己賺取薪水時，他們便會開始明白，金錢是與付出和努力連在一起的，而不是理所當然地隨時可得。",
+    "例如，",
+    "一名每週在咖啡店工作數小時的青少年，可能會更謹慎地看待不必要的開支。",
+    "另一個優點是，兼職工作能培養一些學校未必會直接教授的實用技能。",
+    "透過服務顧客、與同事合作及在壓力下解決小問題，年輕人可以培養自信、",
+    "溝通技巧和更好的時間管理能力；",
+    "這些能力在成年生活中很可能有用。",
+    "然而，這樣做也有明顯的缺點。",
+    "最明顯的缺點是，工作可能佔去原本應留給學習、",
+    "睡眠或家庭生活的時間。",
+    "例如，一名在超市上好幾個晚班的孩子，回家後可能累得無法好好完成作業，這會逐漸削弱學業表現。",
+    "此外，如果工作環境要求過高或缺乏妥善監督，過早接觸職場壓力可能有害。",
+    "有些年輕員工可能在情緒上尚未準備好時，便要應對無禮的顧客、",
+    "長時間工作或不切實際的要求；",
+    "這會使原本可能有價值的經驗變成沉重負擔。",
+    "整體而言，兼職工作可以幫助孩子變得更成熟、更有能力和更獨立，但同時也可能帶來學業與情緒上的壓力。",
+    "它所帶來的影響，很大程度上取決於工作量是否適中，以及是否有合理的限制被清楚地設立。"
+  ],
+  "rawItemCount": 21
+}

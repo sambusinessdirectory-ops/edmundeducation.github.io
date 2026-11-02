@@ -4087,8 +4087,8 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     "translation": [
       "在世界許多地方，從農村遷往城市的現象已變得越來越普遍。這種流動主要是由一種信念所推動：城市比村莊或小城鎮能提供更好的人生機會。然而，這可能會對城市系統造成嚴重壓力，並使農村社區變得越來越脆弱。",
       "造成這一趨勢的一個主要原因是經濟機會。在許多農村地區，工作仍然與農業、本地貿易或小型家庭生意密切相關，而這些工作都可能帶來不穩定的收入。相比之下，城市通常在工廠、辦公室、零售、酒店服務業和科技行業中提供更廣泛的工作選擇。例如，一個搬到城市的年輕人可能一開始只是從事入門級職位，但仍然能看到晉升、培訓和獲得更高收入的路徑。這種向上流動的感覺使城市生活極具吸引力。",
-      "另一個重要原因是能夠獲得基本服務。城市往往擁有更好的學校、大學、醫院、交通網絡和數位基礎設施。對家庭而言，這可能是決定性的因素，因為教育和醫療並不是奢侈品；它們是長遠保障的基礎。如果一位農村家長相信城市學校能給孩子更強的資歷和更廣闊的社會接觸，那麼搬遷看來不只明智，更有必要。",
-      "然而，這種人口流動可能造成幾個問題。最直接的一個問題是城市過度擁擠。當人口增長快於城市規劃時，住房會變得昂貴，道路會變得擁堵，而公共服務也會被拉得非常緊張。結果是，一些移民最終可能住在質素較差的住所，同時還要競爭有限的工作機會。與此同時，農村地區可能會衰落。隨著較年輕和較有能力的居民離開，村莊可能會失去工人、顧客，以及未來的社區領袖。學校可能會關閉，本地商業可能會陷入困境，而年長居民也可能變得越來越孤立。",
+      "另一個重要原因是能夠獲得基本服務。城市往往擁有更好的學校、大學、醫院、交通網絡和數碼基礎設施。對家庭而言，這可能是決定性的因素，因為教育和醫療並不是奢侈品；它們是長遠保障的基礎。如果一位農村家長相信城市學校能讓孩子取得更有競爭力的學歷資格，並接觸更廣闊的社會環境，那麼搬遷看來不只明智，更有必要。",
+      "然而，這種人口流動可能造成幾個問題。最直接的一個問題是城市過度擁擠。當人口增長快於城市規劃時，住房會變得昂貴，道路會變得擁堵，而公共服務也會不堪負荷。結果是，一些移民最終可能住在質素較差的住所，同時還要競爭有限的工作機會。與此同時，農村地區可能會衰落。隨著較年輕和較有能力的居民離開，村莊可能會失去工人、顧客，以及未來的社區領袖。學校可能會關閉，本地商業可能會陷入困境，而年長居民也可能變得越來越孤立。",
       "總結來說，人們搬到城市主要是為了更好的就業前景和獲得服務的機會。然而，這一趨勢可能會使城市地區負荷過重，並削弱農村的社會和經濟生活。"
     ],
     "translationSections": [
@@ -4159,7 +4159,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Cities tend to have better schools, universities, hospitals, transport networks, and digital infrastructure.",
-            "chinese": "城市往往擁有更好的學校、大學、醫院、交通網絡和數位基礎設施。"
+            "chinese": "城市往往擁有更好的學校、大學、醫院、交通網絡和數碼基礎設施。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -4169,7 +4169,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "If a rural parent believes that a city school will give their child stronger qualifications and wider social exposure, relocation may seem not only sensible but necessary.",
-            "chinese": "如果一位農村家長相信城市學校能給孩子更強的資歷和更廣闊的社會接觸，那麼搬遷看來不只明智，更有必要。"
+            "chinese": "如果一位農村家長相信城市學校能讓孩子取得更有競爭力的學歷資格，並接觸更廣闊的社會環境，那麼搬遷看來不只明智，更有必要。"
           }
         ]
       },
@@ -4191,7 +4191,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "When population growth is faster than planning, housing becomes expensive, roads become congested, and public services are stretched thin.",
-            "chinese": "當人口增長快於城市規劃時，住房會變得昂貴，道路會變得擁堵，而公共服務也會被拉得非常緊張。"
+            "chinese": "當人口增長快於城市規劃時，住房會變得昂貴，道路會變得擁堵，而公共服務也會不堪負荷。"
           },
           {
             "label": "Example（例子）",
@@ -4647,7 +4647,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     ],
     "translation": [
       "隨著城市吸引越來越多人前來尋找工作和更好的發展前景，城市人口過多已成為一個嚴重的挑戰。本文將討論這一趨勢所造成的兩個主要問題，即住房和公共服務所承受的壓力，以及日常生活條件的下降，然後提出實際的方法來解決這些問題。",
-      "第一個問題是，住房變得越來越負擔不起，而且越來越不足。當太多人爭奪數量有限的住房時，租金會急劇上升，而較貧困的居民可能被迫住進狹小的公寓或非正式聚居區。這也會對學校、醫院和衛生系統造成沉重壓力，因為公共服務需要服務的人數超出了原本設計時所能承受的範圍。結果是，城市生活也許象徵著機會，但對許多居民而言，它卻變得昂貴、充滿壓力，而且不健康。",
+      "第一個問題是，住房越來越難以負擔，合適住所亦越來越供不應求。當太多人爭奪數量有限的住房時，租金會急劇上升，而較貧困的居民可能被迫住進狹小的公寓或非正式聚居區。這也會對學校、醫院和衛生系統造成沉重壓力，因為公共服務需要服務的人數超出了原本設計時所能承受的範圍。結果是，城市生活也許象徵著機會，但對許多居民而言，它卻變得昂貴、充滿壓力，而且不健康。",
       "另一個嚴重問題是，擁擠城市地區的日常生活質素下降。龐大的人口通常會導致交通擠塞、通勤時間延長，以及空氣污染水平上升。例如，如果每天早上有數以千計的上班族前往相同的商業區，道路和公共交通系統很快便會不勝負荷。這會浪費時間、降低生產力，並逐漸把城市變成一個讓人花更多時間應付日常壓力，而不是享受城市機會的地方。",
       "這些問題可以透過區域發展和更好的城市規劃相結合來解決。政府應該在較小的城鎮創造就業機會、建立大學，並提供可靠的公共服務，使搬到大城市不再是通往更好生活的唯一途徑。與此同時，城市需要更多可負擔的住房、更完善的公共交通網絡，以及更嚴格的規劃規則，以防止過度擁擠的社區在缺乏適當基礎設施的情況下繼續擴張。",
       "總結來說，城市人口過多可能會造成住房短缺、公共服務壓力、交通擠塞和污染。然而，如果政府能使較小地區更具吸引力，並更謹慎地管理城市增長，這些問題便可以得到減輕。"
@@ -4678,7 +4678,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "The first problem is that housing becomes increasingly unaffordable and inadequate.",
-            "chinese": "第一個問題是，住房變得越來越負擔不起，而且越來越不足。"
+            "chinese": "第一個問題是，住房越來越難以負擔，合適住所亦越來越供不應求。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -4774,7 +4774,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     "exam": "IELTS Writing Task 2",
     "taskType": "Cause / Solution",
     "questionPrompt": [
-      "More and more children as accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
+      "More and more children are accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
       "What problems do you think parents face when dealing with their children using the internet?",
       "How can this problem be solved?"
     ],
@@ -5175,10 +5175,10 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
       }
     ],
     "translation": [
-      "兒童在較少成人監督的情況下上網，而且從較小的年齡便開始接觸網絡，這可能使他們面對一些他們尚未成熟到足以辨識的風險。因此，父母面對兩個主要困難：保護孩子遠離有害的數位內容，以及幫助他們在網上培養自我控制能力。本文將討論這些問題並提出解決方法。",
-      "其中一個主要問題是，父母難以輕易監察孩子在網上看到甚麼，或與誰交流。互聯網並不是一個單一而受控制的空間：一個孩子可能只是從觀看卡通開始，但一次點擊便可能通向暴力影片、誤導性資訊，或與陌生人的對話。由於孩子往往缺乏判斷力，難以分辨娛樂與操控之間的界線，他們可能會透露私人資料、模仿不合適的行為，或因令人不安的內容而感到害怕。另一個困難是圍繞螢幕時間的拉鋸。數位設備本身就是為了吸引注意力而設計的，因此孩子可能會抗拒限制、匆忙完成作業、晚睡，或更偏好網上刺激而不是面對面的玩耍。因此，父母所管理的不只是一部設備，更是一種強大的習慣。",
-      "這些問題可以透過清晰規則、技術保障和教育來減少。首先，父母應建立一致的家庭規律：設備可以只在公共空間使用，螢幕時間可以限制在完成功課之後，而手機在晚上應該放在睡房之外。其次，父母應使用適合孩子年齡的管控功能、私隱設定和安全搜尋工具；這些工具提供一張安全網，不能取代父母的管教。最後，孩子需要被教導數位判斷力。學校和父母可以解釋為甚麼不應分享個人資料、為甚麼網上陌生人可能很危險，以及為甚麼令人不安的內容應立即舉報。這能把網絡安全從一場隱藏的角力，轉化為一場公開的對話。",
-      "總結來說，缺乏監督的互聯網使用會造成問題，因為父母難以監察網上風險，也難以控制孩子的數位習慣。最有效的應對方法，是持續結合界線、保護和教育，讓孩子在成長過程中安全使用互聯網，避免一概禁止。"
+      "兒童在較少成人監督的情況下上網，而且從較小的年齡便開始接觸網絡，這可能使他們面對一些他們尚未成熟到足以辨識的風險。因此，父母面對兩個主要困難：保護孩子遠離有害的網上內容，以及幫助他們在網上培養自我控制能力。本文將討論這些問題並提出解決方法。",
+      "其中一個主要問題是，父母難以輕易監察孩子在網上看到甚麼，或與誰交流。互聯網並不是一個單一而受控制的空間：一個孩子可能只是從觀看卡通開始，但一次點擊便可能通向暴力影片、誤導性資訊，或與陌生人的對話。由於孩子往往缺乏判斷力，難以分辨娛樂與操控之間的界線，他們可能會透露私人資料、模仿不合適的行為，或因令人不安的內容而感到害怕。另一個困難是圍繞螢幕時間的拉鋸。電子設備本身就是為了吸引注意力而設計的，因此孩子可能會抗拒限制、匆忙完成作業、晚睡，或更偏好網上刺激而不是面對面的玩耍。因此，父母所管理的不只是一部設備，更是一種強大的習慣。",
+      "這些問題可以透過清晰規則、技術保障和教育來減少。首先，父母應建立一致的家庭規律：設備可以只在家中共用空間使用，螢幕時間可以限制在完成功課之後，而手機在晚上應該放在睡房之外。其次，父母應使用適合孩子年齡的管控功能、私隱設定和安全搜尋工具；這些工具提供一張安全網，不能取代父母的管教。最後，孩子需要被教導網絡判斷力。學校和父母可以解釋為甚麼不應分享個人資料、為甚麼網上陌生人可能很危險，以及為甚麼令人不安的內容應立即舉報。這能把網絡安全從一場隱藏的角力，轉化為可以公開討論的話題。",
+      "總結來說，缺乏監督的互聯網使用會造成問題，因為父母難以監察網上風險，也難以控制孩子的使用電子設備的習慣。最有效的應對方法，是持續結合界線、保護和教育，讓孩子在成長過程中安全使用互聯網，避免一概禁止。"
     ],
     "translationSections": [
       {
@@ -5194,7 +5194,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Thesis Statement（中心論點）",
             "english": "Parents therefore face two main difficulties: keeping children safe from harmful digital material and helping them develop self-control online.",
-            "chinese": "因此，父母面對兩個主要困難：保護孩子遠離有害的數位內容，以及幫助他們在網上培養自我控制能力。"
+            "chinese": "因此，父母面對兩個主要困難：保護孩子遠離有害的網上內容，以及幫助他們在網上培養自我控制能力。"
           },
           {
             "label": "Essay Roadmap（文章路線）",
@@ -5231,7 +5231,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Digital devices are designed to hold attention, so children may resist limits, rush homework, sleep late, or prefer online stimulation to face-to-face play.",
-            "chinese": "數位設備本身就是為了吸引注意力而設計的，因此孩子可能會抗拒限制、匆忙完成作業、晚睡，或更偏好網上刺激而不是面對面的玩耍。"
+            "chinese": "電子設備本身就是為了吸引注意力而設計的，因此孩子可能會抗拒限制、匆忙完成作業、晚睡，或更偏好網上刺激而不是面對面的玩耍。"
           },
           {
             "label": "Conclusion（結論）",
@@ -5253,7 +5253,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "First, parents should create consistent household routines: devices can be used in shared areas, screen time can be limited after homework, and phones should be kept out of bedrooms at night.",
-            "chinese": "首先，父母應建立一致的家庭規律：設備可以只在公共空間使用，螢幕時間可以限制在完成功課之後，而手機在晚上應該放在睡房之外。"
+            "chinese": "首先，父母應建立一致的家庭規律：設備可以只在家中共用空間使用，螢幕時間可以限制在完成功課之後，而手機在晚上應該放在睡房之外。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -5263,7 +5263,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "Finally, children need to be taught digital judgement.",
-            "chinese": "最後，孩子需要被教導數位判斷力。"
+            "chinese": "最後，孩子需要被教導網絡判斷力。"
           },
           {
             "label": "Example（例子）",
@@ -5273,7 +5273,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Conclusion（結論）",
             "english": "This turns internet safety from a hidden battle into an open conversation.",
-            "chinese": "這能把網絡安全從一場隱藏的角力，轉化為一場公開的對話。"
+            "chinese": "這能把網絡安全從一場隱藏的角力，轉化為可以公開討論的話題。"
           }
         ]
       },
@@ -5285,7 +5285,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Reiterating Problems（重申問題）",
             "english": "In conclusion, unsupervised internet use creates problems because parents struggle to monitor online risks and control digital habits.",
-            "chinese": "總結來說，缺乏監督的互聯網使用會造成問題，因為父母難以監察網上風險，也難以控制孩子的數位習慣。"
+            "chinese": "總結來說，缺乏監督的互聯網使用會造成問題，因為父母難以監察網上風險，也難以控制孩子的使用電子設備的習慣。"
           },
           {
             "label": "Reiterating Solutions（重申解決方法）",
@@ -5305,8 +5305,8 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     "exam": "IELTS Writing Task 2",
     "taskType": "Cause / Solution",
     "questionPrompt": [
-      "As a result of tourism and the increasing number of people travelling, there is an growing demand for more flights.",
-      "What problems does this have on the environment?",
+      "As a result of tourism and the increasing number of people travelling, there is a growing demand for more flights.",
+      "What problems does this cause for the environment?",
       "What measures could be taken to solve the problems? (2020, 2023)"
     ],
     "practiceModes": [
@@ -5702,9 +5702,9 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     ],
     "translation": [
       "旅遊業已經使航空旅行成為現代生活中正常的一部分，而旅客人數的上升自然也創造了對更多航班的更大需求。本文將討論這一趨勢所造成的環境問題，尤其是碳排放和機場周邊的破壞，然後提出可行的措施來減少這些影響。",
-      "最嚴重的問題是，更多航班會導致更高的燃料消耗，因此也會帶來更多的溫室氣體排放。飛機會燃燒大量航空燃料，所以當航空公司營運額外航線或增加航班頻率時，更多二氧化碳便會被釋放到大氣中。長遠而言，這會加劇全球暖化，而全球暖化可能使熱浪、海平面上升和極端天氣變得更加嚴重。第二個問題是在地面上造成的環境壓力。更繁忙的機場通常需要更大的客運大樓、更長的跑道和更密集的道路交通，而這些都可能干擾附近的棲息地，並惡化當地的空氣和噪音污染。對於居住在機場附近的社區和野生動物而言，飛機不斷升降移動可能會成為沉重的環境負擔。",
-      "有幾項措施可以限制這些問題。首先，政府應該透過制定更嚴格的排放標準，並支持對更高效飛機、可持續航空燃料和更完善空中交通管理的投資，來鼓勵更清潔的航空業。如果飛機使用較少燃料，並減少在空中盤旋或在跑道上等待的時間，每一次旅程所留下的環境足跡便會更小。第二，各國應該減少對短途航班的不必要需求。例如，當目的地並不遙遠時，高速鐵路、更完善的長途巴士網絡和便利的本地交通可以為旅客提供一個現實可行的替代選擇。航空公司也可以被要求把環境成本納入機票價格之中，這樣極其便宜的航班便不再鼓勵人們在不考慮影響的情況下隨意出行。",
-      "總結來說，對航班需求的上升主要透過增加排放和加大機場周邊壓力來破壞環境。因此，更清潔的技術、更嚴格的監管，以及具吸引力的飛行替代方案，都是減少這些問題所必需的。"
+      "最嚴重的問題是，更多航班會導致更高的燃料消耗，因此也會帶來更多的溫室氣體排放。飛機會燃燒大量航空燃料，所以當航空公司營運額外航線或增加航班頻率時，更多二氧化碳便會被釋放到大氣中。長遠而言，這會加劇全球暖化，而全球暖化可能使熱浪、海平面上升和極端天氣變得更加嚴重。第二個問題是在地面上造成的環境壓力。更繁忙的機場通常需要更大的客運大樓、更長的跑道和更密集的道路交通，而這些都可能干擾附近的棲息地，並惡化當地的空氣和噪音污染。對於居住在機場附近的社區和野生動物而言，飛機持續起降可能會成為沉重的環境負擔。",
+      "有幾項措施可以限制這些問題。首先，政府應該透過制定更嚴格的排放標準，並支持對更高效飛機、可持續航空燃料和更完善空中交通管理的投資，來鼓勵更清潔的航空業。如果飛機使用較少燃料，並減少在空中盤旋或在跑道上等待的時間，每一次旅程所留下的對環境的影響便會更小。第二，各國應該減少對短途航班的不必要需求。例如，當目的地並不遙遠時，高速鐵路、更完善的長途巴士網絡和便利的本地交通可以為旅客提供一個切實可行的替代選擇。航空公司也可以被要求把環境成本納入機票價格之中，這樣極其便宜的航班便不再鼓勵人們在不考慮影響的情況下隨意出行。",
+      "總結來說，航班需求增加，主要因排放增加和機場周邊環境承壓而損害環境。因此，更清潔的技術、更嚴格的監管，以及具吸引力的飛行替代方案，都是減少這些問題所必需的。"
     ],
     "translationSections": [
       {
@@ -5757,7 +5757,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Example / Effect（例子／影響）",
             "english": "For communities and wildlife living close to airports, the constant movement of planes can become a heavy environmental burden.",
-            "chinese": "對於居住在機場附近的社區和野生動物而言，飛機不斷升降移動可能會成為沉重的環境負擔。"
+            "chinese": "對於居住在機場附近的社區和野生動物而言，飛機持續起降可能會成為沉重的環境負擔。"
           }
         ]
       },
@@ -5779,7 +5779,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "If planes use less fuel and spend less time circling or waiting on runways, each journey will leave a smaller environmental footprint.",
-            "chinese": "如果飛機使用較少燃料，並減少在空中盤旋或在跑道上等待的時間，每一次旅程所留下的環境足跡便會更小。"
+            "chinese": "如果飛機使用較少燃料，並減少在空中盤旋或在跑道上等待的時間，每一次旅程所留下的對環境的影響便會更小。"
           },
           {
             "label": "Measure 2（措施二）",
@@ -5789,7 +5789,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, high-speed rail, better coach networks and convenient domestic transport can give travellers a realistic alternative when the destination is not far away.",
-            "chinese": "例如，當目的地並不遙遠時，高速鐵路、更完善的長途巴士網絡和便利的本地交通可以為旅客提供一個現實可行的替代選擇。"
+            "chinese": "例如，當目的地並不遙遠時，高速鐵路、更完善的長途巴士網絡和便利的本地交通可以為旅客提供一個切實可行的替代選擇。"
           },
           {
             "label": "Further Measure（進一步措施）",
@@ -5806,7 +5806,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Reiterating Problems（重申問題）",
             "english": "In conclusion, the rising demand for flights damages the environment mainly through increased emissions and greater pressure around airports.",
-            "chinese": "總結來說，對航班需求的上升主要透過增加排放和加大機場周邊壓力來破壞環境。"
+            "chinese": "總結來說，航班需求增加，主要因排放增加和機場周邊環境承壓而損害環境。"
           },
           {
             "label": "Reiterating Measures（重申措施）",
@@ -6218,8 +6218,8 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     ],
     "translation": [
       "生態旅遊通常被宣傳為一種負責任的旅行方式，但當遊客進入偏遠地區時，他們可能會對當地文化和社區造成嚴重壓力。本文將討論生態旅遊可能帶來的文化和社會問題，然後提出保護當地居民及其傳統的實際措施。",
-      "其中一個主要問題是，當地文化可能會被商業化。當遊客願意為「地道」體驗付費時，傳統儀式、服飾、音樂和宗教習俗可能會逐漸被變成表演。結果是，原本具有深厚精神或社會意義的習俗，可能會變得只不過是旅遊景點而已。這可能會削弱當地身份認同，尤其是在年輕人當中，因為他們可能會開始把自己的文化看成可以出售的東西，而不是應該保存的東西。另一個問題是，偏遠社區可能會受到突然出現的外來影響所干擾。遊客可能會帶來不同的價值觀、消費習慣和期望，而這些可能會改變當地人的行為，並增加居民與遊客之間的緊張關係。在某些情況下，食物、土地和服務的價格可能會上升，使當地家庭的日常生活變得更加困難。",
-      "可以採取幾項措施來減少這些問題。首先，生態旅遊應該由當地社區控制，而不是由外來公司控制。當地領袖應該決定可以接待多少遊客、哪些地區可以向外來者開放，以及哪些文化習俗應該保持私密。這能讓社區從旅遊中受益，同時不會失去對自身生活方式的控制。第二，政府和旅遊營運者應該為遊客制定清晰的規則。例如，在進入偏遠地區之前，遊客應該接受有關當地習俗、服裝規範、神聖場所和可接受行為的教育。遊客人數也應該受到限制，而生態旅遊收入的一部分應該用來支持當地學校、文化中心、醫療服務和環境保護。",
+      "其中一個主要問題是，當地文化可能會被商業化。當遊客願意為「地道」體驗付費時，傳統儀式、服飾、音樂和宗教習俗可能會逐漸變成表演項目。結果是，原本具有深厚精神或社會意義的習俗，可能淪為旅遊景點。這可能會削弱當地身份認同，尤其是在年輕人當中，因為他們可能會開始把自己的文化看成可以出售的東西，而不是應該保存的東西。另一個問題是，偏遠社區可能會受到突然出現的外來影響所干擾。遊客可能會帶來不同的價值觀、消費習慣和期望，而這些可能會改變當地人的行為，並增加居民與遊客之間的緊張關係。在某些情況下，食物、土地和服務的價格可能會上升，使當地家庭的日常生活變得更加困難。",
+      "可以採取幾項措施來減少這些問題。首先，生態旅遊應該由當地社區主導，而不是由外來公司控制。當地領袖應該決定可以接待多少遊客、哪些地區可以向外來者開放，以及哪些文化習俗應該保持私密。這能讓社區從旅遊中受益，同時不會失去對自身生活方式的控制。第二，政府和旅遊營運者應該為遊客制定清晰的規則。例如，在進入偏遠地區之前，遊客應該接受有關當地習俗、服裝規範、神聖場所和可接受行為的教育。遊客人數也應該受到限制，而生態旅遊收入的一部分應該用來支持當地學校、文化中心、醫療服務和環境保護。",
       "總結來說，生態旅遊可能會透過將文化商業化和干擾當地生活，對偏遠社區造成傷害。然而，社區控制、遊客教育和審慎規管可以幫助保護當地傳統，同時仍然讓旅遊帶來經濟利益。"
     ],
     "translationSections": [
@@ -6253,12 +6253,12 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "When tourists are willing to pay for “authentic” experiences, traditional ceremonies, clothing, music, and religious practices may gradually be turned into performances.",
-            "chinese": "當遊客願意為「地道」體驗付費時，傳統儀式、服飾、音樂和宗教習俗可能會逐漸被變成表演。"
+            "chinese": "當遊客願意為「地道」體驗付費時，傳統儀式、服飾、音樂和宗教習俗可能會逐漸變成表演項目。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "As a result, customs that once had deep spiritual or social meaning can become little more than tourist attractions.",
-            "chinese": "結果是，原本具有深厚精神或社會意義的習俗，可能會變得只不過是旅遊景點而已。"
+            "chinese": "結果是，原本具有深厚精神或社會意義的習俗，可能淪為旅遊景點。"
           },
           {
             "label": "Effect（影響）",
@@ -6295,7 +6295,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Measure 1（措施一）",
             "english": "First, eco-tourism should be controlled by local communities rather than outside companies.",
-            "chinese": "首先，生態旅遊應該由當地社區控制，而不是由外來公司控制。"
+            "chinese": "首先，生態旅遊應該由當地社區主導，而不是由外來公司控制。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -6752,10 +6752,10 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
       }
     ],
     "translation": [
-      "在許多城市和城鎮中，道路正承載著超出其合理容納範圍的車輛數量。這個問題主要是由以汽車為中心的城市規劃，以及私人交通工具以外的替代選擇不足所造成的。這個問題可以透過改善公共交通、更審慎地管理道路使用，以及讓人們在不使用汽車的情況下更容易完成短途本地出行來解決。",
+      "在許多城市和城鎮，道路上的車輛已多到超出合理負荷。這個問題主要是由以汽車為中心的城市規劃，以及除了私家車以外，其他交通選擇不足所造成的。這個問題可以透過改善公共交通、更審慎地管理道路使用，以及讓人們在不使用汽車的情況下更容易完成短途本地出行來解決。",
       "其中一個重要原因是，許多城市地區都是圍繞駕車而建設的。當住宅、工作場所、學校和商店分散在很遠的距離之間時，日常生活的安排幾乎會迫使人們上路開車。例如，一位家長可能需要在一個早上開車前往學校、辦公室和超級市場，結果一個家庭便產生了數次汽車出行。第二個原因是公共交通的質素欠佳。如果巴士速度緩慢、火車過度擁擠，或者交通服務與住宅區連接不佳，人們自然會把駕車視為唯一實際可行的選擇。在這種情況下，每位司機都試圖節省時間，但最後所有人都在交通擠塞中浪費了時間。",
-      "第一個解決方法是讓公共交通真正變得方便。政府應投資於班次頻密的巴士、可靠的鐵路服務和簡單的票務系統，使乘搭巴士或火車感覺上不再像是一種犧牲，而更像是理所當然的選擇。例如，如果一名上班族能夠用一張價格合理的車票快速穿越城市，他開車的可能性便會大大降低。此外，地方政府應透過擁堵收費、限制泊車位和設置巴士專線來管理汽車使用。城市亦應建設安全的步行和單車路線，尤其是為短途出行而設。這些措施能在不完全禁止汽車的情況下減少不必要的交通流量，從而為必要出行、送貨車輛和緊急車輛騰出道路空間。",
-      "總結來說，交通繁忙很大程度上是依賴汽車的城市規劃，以及缺乏吸引力的交通替代方案所造成的。如果城市改善公共交通，同時鼓勵人們以其他方式完成較短和較不必要的出行，交通擠塞便可以得到減少。"
+      "第一個解決方法是讓公共交通真正變得方便。政府應投資於班次頻密的巴士、可靠的鐵路服務和簡單的票務系統，讓人覺得乘搭巴士或火車不再需要作出犧牲，而是合情合理的選擇。例如，如果一名上班族能夠用一張價格合理的車票快速穿越城市，他開車的可能性便會大大降低。此外，地方政府應透過擠塞徵費、限制泊車位和設置巴士專線來管理汽車使用。城市亦應建設安全的步行和單車路線，尤其是為短途出行而設。這些措施能在不完全禁止汽車的情況下減少不必要的交通流量，從而為必要出行、送貨車輛和緊急車輛騰出道路空間。",
+      "總結來說，交通繁忙很大程度上是依賴汽車的城市規劃，以及缺乏吸引力的交通替代方案所造成的。如果城市改善公共交通，同時鼓勵人們以其他方式完成短途及較不必要的旅程，交通擠塞便可以得到減少。"
     ],
     "translationSections": [
       {
@@ -6766,12 +6766,12 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "In many cities and towns, roads are carrying more vehicles than they can reasonably absorb.",
-            "chinese": "在許多城市和城鎮中，道路正承載著超出其合理容納範圍的車輛數量。"
+            "chinese": "在許多城市和城鎮，道路上的車輛已多到超出合理負荷。"
           },
           {
             "label": "Problem Statement（問題陳述）",
             "english": "This problem is mainly caused by car-centred planning and weak alternatives to private transport.",
-            "chinese": "這個問題主要是由以汽車為中心的城市規劃，以及私人交通工具以外的替代選擇不足所造成的。"
+            "chinese": "這個問題主要是由以汽車為中心的城市規劃，以及除了私家車以外，其他交通選擇不足所造成的。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -6830,7 +6830,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Governments should invest in frequent buses, reliable rail services and simple ticketing systems, so that using a bus or train feels less like a sacrifice and more like common sense.",
-            "chinese": "政府應投資於班次頻密的巴士、可靠的鐵路服務和簡單的票務系統，使乘搭巴士或火車感覺上不再像是一種犧牲，而更像是理所當然的選擇。"
+            "chinese": "政府應投資於班次頻密的巴士、可靠的鐵路服務和簡單的票務系統，讓人覺得乘搭巴士或火車不再需要作出犧牲，而是合情合理的選擇。"
           },
           {
             "label": "Example（例子）",
@@ -6840,7 +6840,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "In addition, local authorities should manage car use through congestion charges, limited parking and bus lanes.",
-            "chinese": "此外，地方政府應透過擁堵收費、限制泊車位和設置巴士專線來管理汽車使用。"
+            "chinese": "此外，地方政府應透過擠塞徵費、限制泊車位和設置巴士專線來管理汽車使用。"
           },
           {
             "label": "Supporting Detail 3（支持細節三）",
@@ -6867,7 +6867,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Reiterating Solutions（重申解決方法）",
             "english": "It can be reduced if cities improve public transport while encouraging people to make shorter and less essential journeys in other ways.",
-            "chinese": "如果城市改善公共交通，同時鼓勵人們以其他方式完成較短和較不必要的出行，交通擠塞便可以得到減少。"
+            "chinese": "如果城市改善公共交通，同時鼓勵人們以其他方式完成短途及較不必要的旅程，交通擠塞便可以得到減少。"
           }
         ]
       }
@@ -7265,9 +7265,9 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     ],
     "translation": [
       "在許多國家，越來越多來自農業社群的人正離開鄉村，搬到城市尋找有薪工作。這種趨勢可能同時為城市中心和農村地區帶來嚴重壓力，但它可以透過更強的農村投資和更妥善管理的城市規劃來應對。",
-      "一個主要後果是，城市可能在尚未準備好吸收新增人口之前便變得過度擁擠。當大量農村勞工在短時間內湧入城市時，住房、交通和公共服務可能會被拉扯到超出其正常承載能力的程度。結果是，許多新來者最終可能住在質素低劣的住所中，從事不穩定的工作，或為低薪工作進行激烈競爭。例如，一位沒有受認可資歷的年輕農民搬到大城市後，可能會發現這座城市在理論上提供更多機會，但在實際上並非如此。與此同時，這種人口流動也可能削弱農村社群。如果太多處於工作年齡的人離開農業，農場可能會失去勞動力，村莊可能會變成以長者為主，而本地糧食生產也可能逐漸下降。",
-      "一個實際的應對方法，是令農村生活在經濟上變得可行，而不是把城市視為唯一的進步道路。政府可以投資灌溉系統、儲存設施、農村道路和數位連接，使農民能夠更有效率地出售產品，並賺取更穩定的收入。他們也應該支持現代農業培訓、小型企業和食品加工產業，這些都能在人們居住地附近創造就業機會。在城市中，當局需要為人口遷移作出規劃，而不是單純在問題出現後才作出反應。可負擔住房、職業培訓和可靠的公共交通，將有助於新來者進入正規經濟體系，並避免被推向社會邊緣。",
-      "總結來說，農村到城市的人口遷移可能導致城市過度擁擠、就業不穩定，以及農業社群衰落。然而，如果政府在謹慎管理城市增長的同時改善農村機會，這種人口流動便可以變得危害少得多，也更加可持續。"
+      "一個主要後果是，城市可能在尚未準備好吸收新增人口之前便變得過度擁擠。當大量農村勞工在短時間內湧入城市時，住房、交通和公共服務可能承受超出正常負荷的壓力。結果是，許多新來者最終可能住在質素低劣的住所中，從事不穩定的工作，或為低薪工作進行激烈競爭。例如，一位沒有受認可資歷的年輕農民搬到大城市後，可能會發現城市看似提供更多機會，實際上卻未必如此。與此同時，這種人口流動也可能削弱農村社群。如果太多處於工作年齡的人離開農業，農場可能會失去勞動力，村莊可能會變成以長者為主，而本地糧食生產也可能逐漸下降。",
+      "一個實際的應對方法，是令農村生活在經濟上變得可行，而不是把城市視為唯一的進步道路。政府可以投資灌溉系統、儲存設施、農村道路和數碼連接，使農民能夠更有效率地出售產品，並賺取更穩定的收入。他們也應該支持現代農業培訓、小型企業和食品加工產業，這些都能在人們居住地附近創造就業機會。在城市中，當局需要為人口遷移作出規劃，而不是單純在問題出現後才作出反應。可負擔住房、職業培訓和可靠的公共交通，將有助於新來者進入正規經濟體系，並避免被推向社會邊緣。",
+      "總結來說，農村到城市的人口遷移可能導致城市過度擁擠、就業不穩定，以及農業社群衰落。然而，如果政府在謹慎管理城市增長的同時改善農村機會，這種人口流動造成的損害便可大幅減少，發展亦更可持續。"
     ],
     "translationSections": [
       {
@@ -7300,7 +7300,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "When large numbers of rural workers arrive within a short period, housing, transport and public services can be stretched beyond their normal capacity.",
-            "chinese": "當大量農村勞工在短時間內湧入城市時，住房、交通和公共服務可能會被拉扯到超出其正常承載能力的程度。"
+            "chinese": "當大量農村勞工在短時間內湧入城市時，住房、交通和公共服務可能承受超出正常負荷的壓力。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -7310,7 +7310,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, a young farmer who moves to a major city without recognised qualifications may find that the city offers more opportunities in theory than in practice.",
-            "chinese": "例如，一位沒有受認可資歷的年輕農民搬到大城市後，可能會發現這座城市在理論上提供更多機會，但在實際上並非如此。"
+            "chinese": "例如，一位沒有受認可資歷的年輕農民搬到大城市後，可能會發現城市看似提供更多機會，實際上卻未必如此。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -7337,7 +7337,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Governments could invest in irrigation, storage facilities, rural roads and digital access so that farmers can sell their products more efficiently and earn a steadier income.",
-            "chinese": "政府可以投資灌溉系統、儲存設施、農村道路和數位連接，使農民能夠更有效率地出售產品，並賺取更穩定的收入。"
+            "chinese": "政府可以投資灌溉系統、儲存設施、農村道路和數碼連接，使農民能夠更有效率地出售產品，並賺取更穩定的收入。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -7369,7 +7369,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Reiterating Solutions（重申解決方法）",
             "english": "However, if governments improve rural opportunities while managing urban growth carefully, this movement can become far less damaging and more sustainable.",
-            "chinese": "然而，如果政府在謹慎管理城市增長的同時改善農村機會，這種人口流動便可以變得危害少得多，也更加可持續。"
+            "chinese": "然而，如果政府在謹慎管理城市增長的同時改善農村機會，這種人口流動造成的損害便可大幅減少，發展亦更可持續。"
           }
         ]
       }
@@ -7794,10 +7794,10 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
       }
     ],
     "translation": [
-      "在許多現代社會中，工作已經延伸到辦公室之外，並開始擠壓家庭、休息和個人成長的空間。這個問題通常是由不切實際的職場期望，以及工作生活與私人生活之間界線變得薄弱所造成的。如果僱主能設計更健康的工作制度，而個人也學會有意識地保護自己的時間，這個問題便可以得到減輕。",
-      "其中一個主要原因是，許多員工被期望隨時都能回應工作。電子郵件、即時通訊應用程式和線上會議讓工作可以跟著人們回到家中，因此工作日的結束不再感覺像真正的結束。結果是，一個人身體上可能和家人在一起，但精神上仍然停留在辦公桌前。另一個原因是經濟壓力。當住房、育兒和日常開支高昂時，人們即使知道這些選擇會損害健康，也往往會接受加班、第二份工作或更沉重的工作量。長遠而言，這會形成一個循環：疲憊的員工工作效率下降，需要更多時間完成任務，並失去更多私人生活。",
-      "最有效的解決方法是讓僱主為工作設立更清晰的界線。例如，公司可以不鼓勵員工在辦公時間後發送非緊急訊息、監察過度加班的情況，並讓員工對自己的工作時間和工作地點有更多掌控權。這些措施不只是讓員工更快樂；它們也能幫助員工以更敏銳的專注力和更好的判斷力重新投入工作。同時，個人也需要更堅定地管理自己的日常安排。這可能意味著為運動、家庭用餐或睡眠設定固定時間，並像對待與客戶的會議一樣認真看待這些承諾。如果沒有這些界線，私人生活就會成為最先被犧牲的東西。",
-      "總結來說，糟糕的工作與生活平衡主要是由持續連線、高度職場要求和經濟壓力所造成的。然而，當機構創造更人性化的工作條件，而個人也在工作和生活其他部分之間劃出更清晰的界線時，這個問題便可以被克服。"
+      "在許多現代社會中，工作已經延伸到辦公室之外，並開始擠壓家庭、休息和個人成長的空間。這個問題通常是由不切實際的職場期望，以及工作與私人生活之間的界線變得模糊所造成的。如果僱主能設計更健康的工作制度，而個人也學會有意識地保護自己的時間，這個問題便可以得到減輕。",
+      "其中一個主要原因是，許多員工被期望隨時都能回應工作。電子郵件、即時通訊應用程式和線上會議讓工作跟著人們回到家中，因此工作日的結束不再感覺像真正的結束。結果是，一個人身體上可能和家人在一起，但精神上仍然停留在辦公桌前。另一個原因是經濟壓力。當住房、育兒和日常開支高昂時，人們即使知道這些選擇會損害健康，也往往會接受加班、第二份工作或更沉重的工作量。長遠而言，這會形成一個循環：疲憊的員工工作效率下降，需要更多時間完成任務，並失去更多私人生活。",
+      "最有效的解決方法是讓僱主為工作設立更清晰的界線。例如，公司可以不鼓勵員工在辦公時間後發送非緊急訊息、監察過度加班的情況，並讓員工對自己的工作時間和工作地點有更多掌控權。這些措施不只是讓員工更快樂；它們也能幫助員工以更集中的精神和更好的判斷力重新投入工作。同時，個人也需要更堅定地管理自己的日常安排。這可能意味著為運動、家庭用餐或睡眠設定固定時間，並像對待與客戶的會議一樣認真看待這些承諾。如果沒有這些界線，私人生活就會成為最先被犧牲的東西。",
+      "總結來說，工作與生活失衡主要是由時刻保持聯絡、高度職場要求和經濟壓力所造成的。然而，當機構創造更人性化的工作條件，而個人也在工作和生活其他部分之間劃出更清晰的界線時，便有可能克服這個問題。"
     ],
     "translationSections": [
       {
@@ -7813,7 +7813,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Thesis Statement（中心論點）",
             "english": "This problem is usually caused by unrealistic workplace expectations and weakened boundaries between professional and private life.",
-            "chinese": "這個問題通常是由不切實際的職場期望，以及工作生活與私人生活之間界線變得薄弱所造成的。"
+            "chinese": "這個問題通常是由不切實際的職場期望，以及工作與私人生活之間的界線變得模糊所造成的。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -7835,7 +7835,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Emails, messaging apps and online meetings allow work to follow people home, so the end of the working day no longer feels like a real end.",
-            "chinese": "電子郵件、即時通訊應用程式和線上會議讓工作可以跟著人們回到家中，因此工作日的結束不再感覺像真正的結束。"
+            "chinese": "電子郵件、即時通訊應用程式和線上會議讓工作跟著人們回到家中，因此工作日的結束不再感覺像真正的結束。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -7877,7 +7877,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "These measures do not simply make employees happier; they also help them return to work with sharper concentration and better judgement.",
-            "chinese": "這些措施不只是讓員工更快樂；它們也能幫助員工以更敏銳的專注力和更好的判斷力重新投入工作。"
+            "chinese": "這些措施不只是讓員工更快樂；它們也能幫助員工以更集中的精神和更好的判斷力重新投入工作。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -7904,12 +7904,12 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Reiterating Causes（重申原因）",
             "english": "In conclusion, poor work-life balance is mainly the result of constant connectivity, high workplace demands and financial pressure.",
-            "chinese": "總結來說，糟糕的工作與生活平衡主要是由持續連線、高度職場要求和經濟壓力所造成的。"
+            "chinese": "總結來說，工作與生活失衡主要是由時刻保持聯絡、高度職場要求和經濟壓力所造成的。"
           },
           {
             "label": "Reiterating Solutions（重申解決方法）",
             "english": "However, it can be overcome when organisations create more humane working conditions and individuals draw a clearer line between their jobs and the rest of their lives.",
-            "chinese": "然而，當機構創造更人性化的工作條件，而個人也在工作和生活其他部分之間劃出更清晰的界線時，這個問題便可以被克服。"
+            "chinese": "然而，當機構創造更人性化的工作條件，而個人也在工作和生活其他部分之間劃出更清晰的界線時，便有可能克服這個問題。"
           }
         ]
       }
@@ -8828,8 +8828,8 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
     ],
     "translation": [
       "受過良好教育的專業人士在自己的領域累積專門知識後，往往會選擇到海外工作。這通常是由更強的職業誘因和更好的專業工作條件所推動，而這也可能為他們的原居國以及相關個人帶來嚴重困難。",
-      "主要原因是，在海外工作往往能提供一種在本國難以獲得的回報水平。在許多國家，即使是資歷優秀的工作者，也可能面對低薪、有限的晉升前景，或未能充分認可他們能力的機構。相比之下，外國僱主可能提供更高薪酬、更清晰的職業發展道路，以及更穩定的工作條件。例如，一位醫生、工程師或研究人員移居海外，動機可能超越金錢，還包括當地的現代化設備、更強大的專業人脈，以及能讓技能真正提升的工作環境。從這個意義上說，移民與其說是一種逃離，不如說是在尋找專業上得以伸展和發展的空間。",
-      "然而，這種流動也可能造成若干問題。對原居國而言，最嚴重的後果是人力資本的流失。當有經驗的教師、醫療專家、科學家或技術專家離開時，曾經培訓他們的公共系統可能會變得更薄弱、更缺乏力量。醫院的輪候時間可能會變得更長，大學可能會失去有能力的講師，而本地產業也可能難以創新。長遠而言，這種「人才外流」可能擴大富裕國家與較貧窮國家之間的差距，因為最需要技術人才的地方，有時反而最沒有能力留住他們。此外，也可能存在個人層面的代價：移民者可能面對孤獨、文化障礙，以及在陌生的專業環境中重新開始的壓力。",
+      "主要原因是，海外工作往往能提供在本國難以得到的待遇。在許多國家，即使是資歷優秀的工作者，也可能面對低薪、有限的晉升前景，或未能充分認可他們能力的機構。相比之下，外國僱主可能提供更高薪酬、更清晰的職業發展道路，以及更穩定的工作條件。例如，一位醫生、工程師或研究人員移居海外，動機可能超越金錢，還包括當地的現代化設備、更強大的專業人脈，以及能讓技能真正提升的工作環境。從這個意義上說，移民與其說是一種逃離，不如說是在尋找專業上得以伸展和發展的空間。",
+      "然而，這種流動也可能造成若干問題。對原居國而言，最嚴重的後果是人力資本的流失。當有經驗的教師、醫療專家、科學家或技術專家離開時，曾經培訓他們的公共系統可能會更缺乏人手，運作也更吃力。醫院的輪候時間可能會變得更長，大學可能會失去有能力的講師，而本地產業也可能難以創新。長遠而言，這種「人才外流」可能擴大富裕國家與較貧窮國家之間的差距，因為最需要技術人才的地方，有時反而最沒有能力留住他們。此外，也可能存在個人層面的代價：移民者可能面對孤獨、文化障礙，以及在陌生的專業環境中重新開始的壓力。",
       "總結來說，受過教育並具備經驗的人通常會移居海外，因為海外工作能提供更好的薪酬、認可、資源，以及長遠的職業發展。然而，這一趨勢可能削弱他們原居國的重要服務，並為工作者本人帶來情感和社交上的壓力。"
     ],
     "translationSections": [
@@ -8858,7 +8858,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "The main reason is that working abroad often offers a level of reward that is difficult to obtain at home.",
-            "chinese": "主要原因是，在海外工作往往能提供一種在本國難以獲得的回報水平。"
+            "chinese": "主要原因是，海外工作往往能提供在本國難以得到的待遇。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -8900,7 +8900,7 @@ window.EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "When experienced teachers, medical specialists, scientists, or technical experts leave, the public systems that trained them may be left thinner and weaker.",
-            "chinese": "當有經驗的教師、醫療專家、科學家或技術專家離開時，曾經培訓他們的公共系統可能會變得更薄弱、更缺乏力量。"
+            "chinese": "當有經驗的教師、醫療專家、科學家或技術專家離開時，曾經培訓他們的公共系統可能會更缺乏人手，運作也更吃力。"
           },
           {
             "label": "Example（例子）",

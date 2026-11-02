@@ -911,10 +911,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "招聘是公司所作出的最重要決定之一，因為員工不但塑造公司的產出，也塑造公司文化。有些人認為公司應該聘請富有想像力、並且能夠在沒有密切監督下工作的人；然而，另一些人則認為能夠合作並遵從指示的求職者更有價值。儘管獨立思考者能幫助企業成長，我認為公司應主要優先考慮那些能夠良好團隊合作並尊重指示的人。",
+      "招聘是公司所作出的最重要決定之一，因為員工不但塑造公司的產出，也塑造公司文化。有些人認為公司應該聘請富有想像力、並且能夠毋須密切監督也能工作的人；然而，另一些人則認為能夠合作並遵從指示的求職者更有價值。儘管獨立思考者能幫助企業成長，我認為公司應優先聘請善於團隊合作並願意遵從指示的人。",
       "創新而自立的員工對僱主具有吸引力，這背後有明顯原因。在競爭激烈的市場中，公司不能年復一年只靠重複相同的方法生存。那些會質疑舊做法、提出新解決方法並主動承擔工作的員工，能夠幫助一個機構比競爭對手行動得更快。例如，一位注意到內部系統效率低下的軟件開發人員，可能會在不等待經理指出問題的情況下，設計出一個更好的工具。從這個意義上說，獨立的員工可以成為推動進步的引擎，尤其是在創意和快速解決問題至關重要的行業中。",
-      "然而，更有力的論點是，大多數公司更加依賴團隊合作和有紀律的執行。一間企業很少只是一群孤立個體的集合；它是一個由部門、期限和共同責任組成的網絡。如果員工不能溝通、接受回饋或遵從既定程序，即使是出色的想法也可能變得具有破壞性，而不是有用。例如，在醫療、建築或金融行業中，忽視指示可能導致嚴重錯誤、法律問題或安全風險。相比之下，以團隊為本的員工能夠幫助建立一個穩定的工作場所，讓任務能夠穩定完成，同事之間也能互相信任。",
-      "因此，在我看來，雖然創新能力和獨立性是有價值的特質，但它們不應該是招聘中的主要優先考慮。公司可以隨著時間訓練員工的創意思維，但當員工抗拒合作或基本規則時，公司要正常運作就困難得多。整體而言，企業應該首先招聘那些能夠可靠地為團隊作出貢獻的人，因為共同的紀律正是真正創新日後得以建立的基礎。"
+      "然而，更有力的論點是，大多數公司更加依賴團隊合作和有紀律的執行。一間企業很少只是一群孤立個體的集合；它是一個由部門、期限和共同責任組成的網絡。如果員工不能溝通、接受回饋或遵從既定程序，即使是出色的想法也可能變得具有破壞性，而不是有用。例如，在醫療、建築或金融行業中，忽視指示可能導致嚴重錯誤、法律問題或安全風險。相比之下，以團隊為本的員工能夠幫助建立一個穩定的工作場所，讓任務能按既定標準持續完成，同事之間也能互相信任。",
+      "因此，在我看來，雖然創新能力和獨立性是有價值的特質，但它們不應該是招聘時的首要考量。公司可以隨著時間訓練員工的創意思維，但當員工抗拒合作或基本規則時，公司要正常運作就困難得多。整體而言，企業應該首先招聘那些能夠可靠地為團隊作出貢獻的人，因為共同的紀律正是真正創新日後得以建立的基礎。"
     ],
     "translationSections": [
       {
@@ -930,12 +930,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Transitional Sentence / Two Views（過渡句 / 兩種觀點）",
             "english": "Some argue that firms should hire people who are imaginative and capable of working without close supervision, whereas others believe that cooperative candidates who can follow directions are more valuable.",
-            "chinese": "有些人認為公司應該聘請富有想像力、並且能夠在沒有密切監督下工作的人；然而，另一些人則認為能夠合作並遵從指示的求職者更有價值。"
+            "chinese": "有些人認為公司應該聘請富有想像力、並且能夠毋須密切監督也能工作的人；然而，另一些人則認為能夠合作並遵從指示的求職者更有價值。"
           },
           {
             "label": "Transition + Thesis Statement（轉折 + 中心論點）",
             "english": "Although independent thinkers can help a business grow, I believe companies should mainly prioritise people who can work well in teams and respect instructions.",
-            "chinese": "儘管獨立思考者能幫助企業成長，我認為公司應主要優先考慮那些能夠良好團隊合作並尊重指示的人。"
+            "chinese": "儘管獨立思考者能幫助企業成長，我認為公司應優先聘請善於團隊合作並願意遵從指示的人。"
           }
         ]
       },
@@ -999,7 +999,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（結論）",
             "english": "Team-oriented workers, by contrast, help create a stable workplace where tasks are completed consistently and colleagues can trust one another.",
-            "chinese": "相比之下，以團隊為本的員工能夠幫助建立一個穩定的工作場所，讓任務能夠穩定完成，同事之間也能互相信任。"
+            "chinese": "相比之下，以團隊為本的員工能夠幫助建立一個穩定的工作場所，讓任務能按既定標準持續完成，同事之間也能互相信任。"
           }
         ]
       },
@@ -1011,7 +1011,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "In my view, therefore, while innovation and independence are valuable qualities, they should not be the main priority in recruitment.",
-            "chinese": "因此，在我看來，雖然創新能力和獨立性是有價值的特質，但它們不應該是招聘中的主要優先考慮。"
+            "chinese": "因此，在我看來，雖然創新能力和獨立性是有價值的特質，但它們不應該是招聘時的首要考量。"
           },
           {
             "label": "Reiterating Argument（重申論點）",
@@ -1357,10 +1357,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "有些人認為，一間企業只有在提供獨特產品的情況下，才能取得成功。雖然原創性確實能幫助一間公司脫穎而出，但我不認為它是商業成功背後的唯一因素。在我看來，一間公司之所以成功，主要是因為它了解顧客、良好管理營運，並建立長期信任。",
-      "第一個主要因素是，一間公司能否滿足真正的顧客需求。如果一件產品能比競爭對手更好、更快或更方便地解決問題，它並不一定需要完全原創。事實上，許多成功的企業出售的都是普通產品，例如食物、衣服或家居用品，但它們以一種讓顧客覺得可靠且容易接觸的方式去經營。例如，一間小咖啡店未必提供任何革命性的東西，但如果它能提供好咖啡、公道價格和舒適環境，它仍然可以獲利。這表明，成功往往較少取決於是否獨特，而更多取決於是否實用、穩定，並且符合市場需要。",
-      "另一個重要因素是管理質素。即使產品十分出色，如果公司領導不善、財務控制薄弱，或顧客服務粗心大意，它仍然可能失敗。優秀的管理者會在定價、員工培訓、市場推廣和成本控制方面作出明智決定。當市場發生變化時，他們也會作出調整，而不是死守舊方法。例如，一間能夠快速回應網上購物趨勢或消費者習慣變化的企業，比一間拒絕現代化的企業更有可能生存下來。此外，善待顧客的公司能夠建立良好聲譽，而這種聲譽隨著時間會成為一項強大的資。",
-      "總結來說，擁有獨特產品可以給企業帶來初步優勢，但這並不是通往成功的唯一途徑。最成功的公司，是那些了解市場、高效營運、明智適應變化，並贏得顧客信任的公司。"
+      "有些人認為，一間企業只有在提供獨特產品的情況下，才能取得成功。雖然原創性確實能幫助一間公司脫穎而出，但我不認為它是商業成功背後的唯一因素。在我看來，一間公司之所以成功，主要是因為它了解顧客、妥善管理營運，並建立長期信任。",
+      "第一個主要因素是，一間公司能否滿足真正的顧客需求。如果一件產品能比競爭對手更好、更快或更方便地解決問題，它並不一定需要完全原創。事實上，許多成功的企業出售的都是普通產品，例如食物、衣服或家居用品，但它們以顧客認為可靠、又方便購買的方式提供這些產品。例如，一間小咖啡店未必提供任何革命性的東西，但如果它能提供好咖啡、公道價格和舒適環境，它仍然可以獲利。這表明，成功往往較少取決於是否獨特，而更多取決於是否實用、穩定，並且符合市場需要。",
+      "另一個重要因素是管理質素。即使產品十分出色，如果公司領導不善、財務控制薄弱，或客戶服務疏忽，它仍然可能失敗。優秀的管理者會在定價、員工培訓、市場推廣和成本控制方面作出明智決定。當市場發生變化時，他們也會作出調整，而不是死守舊方法。例如，一間能夠快速回應網上購物趨勢或消費者習慣變化的企業，比一間拒絕現代化的企業更有可能生存下來。此外，善待顧客的公司能夠建立良好聲譽，而這種聲譽隨著時間會成為一項強大的資產。",
+      "總結來說，擁有獨特產品可以給企業帶來初步優勢，但這並不是通往成功的唯一途徑。最成功的公司，是那些了解市場、高效營運、明智地因應變化，並贏得顧客信任的公司。"
     ],
     "translationSections": [
       {
@@ -1381,7 +1381,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Thesis Statement（中心論點）",
             "english": "In my view, a company succeeds mainly because it understands its customers, manages its operations well, and builds long-term trust.",
-            "chinese": "在我看來，一間公司之所以成功，主要是因為它了解顧客、良好管理營運，並建立長期信任。"
+            "chinese": "在我看來，一間公司之所以成功，主要是因為它了解顧客、妥善管理營運，並建立長期信任。"
           }
         ]
       },
@@ -1403,7 +1403,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "In fact, many successful businesses sell ordinary products, such as food, clothing, or household goods, but they do so in a way that customers find reliable and accessible.",
-            "chinese": "事實上，許多成功的企業出售的都是普通產品，例如食物、衣服或家居用品，但它們以一種讓顧客覺得可靠且容易接觸的方式去經營。"
+            "chinese": "事實上，許多成功的企業出售的都是普通產品，例如食物、衣服或家居用品，但它們以顧客認為可靠、又方便購買的方式提供這些產品。"
           },
           {
             "label": "Example（例子）",
@@ -1430,7 +1430,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Even an excellent product can fail if a company has poor leadership, weak financial control, or careless customer service.",
-            "chinese": "即使產品十分出色，如果公司領導不善、財務控制薄弱，或顧客服務粗心大意，它仍然可能失敗。"
+            "chinese": "即使產品十分出色，如果公司領導不善、財務控制薄弱，或客戶服務疏忽，它仍然可能失敗。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -1450,7 +1450,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 3（支持細節三）",
             "english": "In addition, companies that treat customers well can develop a strong reputation, and this reputation becomes a powerful asset over time.",
-            "chinese": "此外，善待顧客的公司能夠建立良好聲譽，而這種聲譽隨著時間會成為一項強大的資。"
+            "chinese": "此外，善待顧客的公司能夠建立良好聲譽，而這種聲譽隨著時間會成為一項強大的資產。"
           }
         ]
       },
@@ -1467,7 +1467,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "The most successful companies are those that understand their market, operate efficiently, adapt intelligently, and earn the trust of their customers.",
-            "chinese": "最成功的公司，是那些了解市場、高效營運、明智適應變化，並贏得顧客信任的公司。"
+            "chinese": "最成功的公司，是那些了解市場、高效營運、明智地因應變化，並贏得顧客信任的公司。"
           }
         ]
       }
@@ -1871,9 +1871,9 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "公民如何使用自己的收入，對一個國家的經濟有重大影響。雖然有些人認為，消費支出能讓企業維持運作並創造就業，但另一些人則認為，儲蓄更有利，因為它能加強財務穩定並支持長期投資。在我看來，雖然消費在短期內是有用的，但儲蓄文化最終對經濟更好。",
-      "支持消費的人有其合理的論點。當人們購買商品和服務時，金錢會流通，而不是閒置不動。餐廳、商店、運輸公司和網上企業都依賴那些願意為自己想要或需要的東西付款的顧客。如果消費者突然停止消費，許多公司便會失去收入、減少生產，或裁減員工。例如，一個經常外出用餐、購買衣服和旅遊的家庭，不只是滿足自己的需要；它同時也在幫助侍應、店員和司機維持生計。從這個意義上說，消費就像經濟的血液，因為它讓貿易保持流動，也讓信心保持活力。",
+      "支持消費的人有其合理的論點。當人們購買商品和服務時，金錢會流通，而不是閒置不動。餐廳、商店、運輸公司和網上企業都依賴那些願意為自己想要或需要的東西付款的顧客。如果消費者突然停止消費，許多公司便會失去收入、減少生產，或裁減員工。例如，一個經常外出用餐、購買衣服和旅遊的家庭，不只是滿足自己的需要；它同時也在幫助侍應、店員和司機維持生計。從這個意義上說，消費猶如經濟的血脈，推動交易並維持市場信心。",
       "然而，我認為儲蓄能帶來更深層、更可持續的經濟好處。有儲蓄的人較不容易受到突然失業、疾病或物價上升的嚴重影響，因此在困難時期，他們也較不可能嚴重依賴政府支援。更重要的是，儲蓄可以轉化為投資。銀行可以把存款借給企業，家庭可以資助教育，而個人也可以在不陷入危險債務的情況下創辦小型企業。一個把每一元都花掉的社會，表面上可能看似繁榮，但它可能變得脆弱，就像建在沙上的房子一樣。相比之下，廣泛的儲蓄能創造財務緩衝，並提供未來增長所需的資本。這會使經濟更有韌性，而不只是更活躍。",
-      "總結來說，消費支出是重要的，因為它支持需求、就業和企業收入。然而，我堅定認為，儲蓄對一個國家的經濟更有價值，因為它能促進穩定、降低財務風險，並為長期發展奠定更強大的基礎。"
+      "總結來說，消費支出是重要的，因為它支持需求、就業和企業收入。然而，我堅定認為，儲蓄對一個國家的經濟更有價值，因為它能促進穩定、降低財務風險，並為長期發展奠定更穩固的基礎。"
     ],
     "translationSections": [
       {
@@ -1931,7 +1931,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（結論）",
             "english": "In this sense, spending acts as the bloodstream of an economy because it keeps trade moving and confidence alive.",
-            "chinese": "從這個意義上說，消費就像經濟的血液，因為它讓貿易保持流動，也讓信心保持活力。"
+            "chinese": "從這個意義上說，消費猶如經濟的血脈，推動交易並維持市場信心。"
           }
         ]
       },
@@ -1990,7 +1990,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "Nevertheless, I firmly believe that saving is more valuable for a nation’s economy, as it promotes stability, reduces financial risk and lays a stronger foundation for long-term development.",
-            "chinese": "然而，我堅定認為，儲蓄對一個國家的經濟更有價值，因為它能促進穩定、降低財務風險，並為長期發展奠定更強大的基礎。"
+            "chinese": "然而，我堅定認為，儲蓄對一個國家的經濟更有價值，因為它能促進穩定、降低財務風險，並為長期發展奠定更穩固的基礎。"
           }
         ]
       }
@@ -2367,9 +2367,9 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "人生不同階段的幸福感經常受到討論。有些人認為青少年的生活比成年人更快樂，而另一些人則認為成年生活能帶來更深層、更穩定的幸福感。在我看來，成年人通常更快樂，因為他們擁有更大的獨立性和更清晰的人生方向。",
-      "一方面，青少年可能看起來更快樂，因為他們的生活通常較少受到重大責任的負擔。他們當中許多人不需要支付帳單、養家，或作出重大的財務決定，因此可以把更多時間花在友誼、興趣、娛樂和個人喜好上。例如，一名中學生放學後可以去做運動、和朋友聊天，或看電影，而不必擔心租金或工作穩定性。這種自由能使青少年生活感覺輕鬆而愉快。從這個意義上說，青春期可能看起來像是一段無憂無慮的時期，尤其是與充滿工作和家庭責任壓力的成人世界相比。",
-      "另一方面，我認為成年人整體上更快樂，因為他們的幸福感往往建立在獨立、成就和情感成熟之上。成年人可以選擇住在哪裡、追求甚麼職業、如何使用金錢，以及與誰建立關係。這些選擇讓他們能掌控自己的生活，而這是一種強大的滿足感來源。此外，成年人通常更擅長了解自己和處理問題。例如，一名努力發展事業或支撐家庭的成年人，可能會感受到一種青少年很少經歷到的強烈人生目標感。雖然成年生活可能充滿壓力，但這種壓力往往會被有意義的回報所平衡。",
-      "總結來說，青少年可能有更多自由時間和較少責任，這使他們表面上看起來更快樂。然而，我認為成年人通常更快樂，因為他們的生活包含更多獨立性、目標感和持久的滿足。幸福不只是沒有壓力；它也是一種感覺，即一個人的人生具有方向和意義。"
+      "一方面，青少年可能看起來更快樂，因為他們通常不用承擔那麼多重大責任。他們當中許多人不需要支付帳單、養家，或作出重大的財務決定，因此可以把更多時間花在友誼、興趣、娛樂和個人喜好上。例如，一名中學生放學後可以去做運動、和朋友聊天，或看電影，而不必擔心租金或工作穩定性。這種自由能使青少年生活感覺輕鬆而愉快。從這個意義上說，青春期可能看起來像是一段無憂無慮的時期，尤其是與充滿工作和家庭責任壓力的成人世界相比。",
+      "另一方面，我認為成年人整體上更快樂，因為他們的幸福感往往建立在獨立、成就和情感成熟之上。成年人可以選擇住在哪裡、追求甚麼職業、如何使用金錢，以及與誰建立關係。這些選擇讓他們能掌控自己的生活，而這是一種強大的滿足感來源。此外，成年人通常更擅長了解自己和處理問題。例如，一名努力發展事業或養家的成年人，可能會感受到一種青少年很少經歷到的強烈人生目標感。雖然成年生活可能充滿壓力，但這種壓力往往會被有意義的回報所平衡。",
+      "總結來說，青少年可能有更多自由時間和較少責任，這使他們表面上看起來更快樂。然而，我認為成年人通常更快樂，因為他們的生活包含更多獨立性、目標感和持久的滿足感。幸福不只是沒有壓力，也來自感到自己的人生有方向和意義。"
     ],
     "translationSections": [
       {
@@ -2402,7 +2402,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "On the one hand, teenagers may appear happier because their lives are usually less burdened by serious responsibilities.",
-            "chinese": "一方面，青少年可能看起來更快樂，因為他們的生活通常較少受到重大責任的負擔。"
+            "chinese": "一方面，青少年可能看起來更快樂，因為他們通常不用承擔那麼多重大責任。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -2454,7 +2454,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For instance, an adult who has worked hard to develop a career or support a family may feel a strong sense of purpose that teenagers rarely experience.",
-            "chinese": "例如，一名努力發展事業或支撐家庭的成年人，可能會感受到一種青少年很少經歷到的強烈人生目標感。"
+            "chinese": "例如，一名努力發展事業或養家的成年人，可能會感受到一種青少年很少經歷到的強烈人生目標感。"
           },
           {
             "label": "Conclusion（結論）",
@@ -2476,12 +2476,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "However, I believe adults are generally happier because their lives contain more independence, purpose, and lasting fulfillment.",
-            "chinese": "然而，我認為成年人通常更快樂，因為他們的生活包含更多獨立性、目標感和持久的滿足。"
+            "chinese": "然而，我認為成年人通常更快樂，因為他們的生活包含更多獨立性、目標感和持久的滿足感。"
           },
           {
             "label": "Final Thought（總結思考）",
             "english": "Happiness is not just the absence of pressure; it is also the feeling that one’s life has direction and meaning.",
-            "chinese": "幸福不只是沒有壓力；它也是一種感覺，即一個人的人生具有方向和意義。"
+            "chinese": "幸福不只是沒有壓力，也來自感到自己的人生有方向和意義。"
           }
         ]
       }
@@ -2871,10 +2871,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "人類智力長久以來一直備受爭議，部分原因是有些人似乎天生反應敏捷，而另一些人則逐漸發展自己的能力。儘管天生能力可以給予個人早期優勢，但我認為智力在更大程度上是由教育、練習和持續學習塑造的。",
-      "那些認為智力是天生的人，往往主張人們在記憶力、推理能力和解決問題的速度方面天生就存在差異。這種觀點是可以理解的，因為同一個課室裡的孩子可能接受相同的教學，但表現卻非常不同。例如，一個學生可能幾乎立即掌握數學規律，而另一個學生則需要反覆解釋，才會明白這個概念。這些差異顯示，某些心智能力，例如音樂天賦或運動潛能，可能有部分是遺傳而來的。如果一個人天生具備較敏銳的資訊處理能力，那麼學習從一開始就可能感覺更容易、更快速。從這個意義上說，天生智力可以起到領先起步的作用。",
-      "然而，我堅定地認為智力並不是固定不變的，因為學習能夠改變人們思考、分析和解決問題的方式。當學生廣泛閱讀、練習困難技能並獲得適當回饋時，他們會逐漸建立更強的推理習慣。例如，一個在科學方面感到吃力的孩子，在多年有指導的練習、實驗和耐心糾正之後，可能會變得非常有能力。這並不意味著每個人都會達到完全相同的水平，但它說明智力能力可以被延展到遠遠超出其起點的位置。更重要的是，許多形式的智力，例如判斷力、創造力和情感理解，都高度依賴經驗，而不是出生時已經決定。一個天生聰明但從不學習的人，可能會碰到上限；相反，一個自律的學習者則可以持續成長。",
-      "總結來說，天生能力可能會影響人們最初學習的速度，而否認某些人具有天生優勢是不現實的。然而，智力最好被理解為一種可以透過學習發展的東西，因為教育、努力和經驗決定了一個人的思維真正能走多遠。"
+      "人類智力的成因一直備受爭議，部分原因是有些人似乎天生反應敏捷，而另一些人則逐漸發展自己的能力。儘管天生能力可以給予個人早期優勢，但我認為智力在更大程度上是由教育、練習和持續學習塑造的。",
+      "那些認為智力是天生的人，往往主張人們在記憶力、推理能力和解決問題的速度方面天生就存在差異。這種觀點是可以理解的，因為同一個課室裡的孩子可能接受相同的教學，但表現卻非常不同。例如，一個學生可能幾乎立即掌握數學規律，而另一個學生則需要反覆解釋，才會明白這個概念。這些差異顯示，某些心智能力，例如音樂天賦或運動潛能，可能有部分是遺傳而來的。如果一個人天生具備較敏銳的資訊處理能力，那麼學習從一開始就可能感覺更容易、更快速。從這個意義上說，天生智力可以令人起步較快。",
+      "然而，我堅定地認為智力並不是固定不變的，因為學習能夠改變人們思考、分析和解決問題的方式。當學生廣泛閱讀、練習困難技能並獲得適當回饋時，他們會逐漸建立更強的推理習慣。例如，一個在科學方面感到吃力的孩子，在多年有指導的練習、實驗和耐心糾正之後，可能會變得非常有能力。這並不意味著每個人都會達到完全相同的水平，但它說明智力可以提升至遠超起初水平。更重要的是，許多形式的智力，例如判斷力、創造力和情感理解，都高度依賴經驗，而不是出生時已經決定。一個天生聰明但從不學習的人，可能會碰到上限；相反，一個自律的學習者則可以持續成長。",
+      "總結來說，天生能力可能會影響人們最初學習的速度，而否認某些人具有天生優勢是不現實的。然而，智力最好被視為可以透過學習培養的能力，因為教育、努力和經驗決定了一個人的思維真正能走多遠。"
     ],
     "translationSections": [
       {
@@ -2885,7 +2885,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Human intelligence has long been debated, partly because some people appear naturally quick-minded while others develop their abilities gradually.",
-            "chinese": "人類智力長久以來一直備受爭議，部分原因是有些人似乎天生反應敏捷，而另一些人則逐漸發展自己的能力。"
+            "chinese": "人類智力的成因一直備受爭議，部分原因是有些人似乎天生反應敏捷，而另一些人則逐漸發展自己的能力。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -2927,7 +2927,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "In this sense, natural intelligence can act as a head start.",
-            "chinese": "從這個意義上說，天生智力可以起到領先起步的作用。"
+            "chinese": "從這個意義上說，天生智力可以令人起步較快。"
           }
         ]
       },
@@ -2954,7 +2954,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "This does not mean that everyone will reach exactly the same level, but it shows that intellectual ability can be stretched far beyond its starting point.",
-            "chinese": "這並不意味著每個人都會達到完全相同的水平，但它說明智力能力可以被延展到遠遠超出其起點的位置。"
+            "chinese": "這並不意味著每個人都會達到完全相同的水平，但它說明智力可以提升至遠超起初水平。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -2981,7 +2981,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "Nevertheless, intelligence is best understood as something that can be developed through learning, because education, effort and experience determine how far a person’s mind can truly go.",
-            "chinese": "然而，智力最好被理解為一種可以透過學習發展的東西，因為教育、努力和經驗決定了一個人的思維真正能走多遠。"
+            "chinese": "然而，智力最好被視為可以透過學習培養的能力，因為教育、努力和經驗決定了一個人的思維真正能走多遠。"
           }
         ]
       }
@@ -3183,7 +3183,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           "new student",
           "says very little",
           "first day",
-          "later become",
+          "later show that they are",
           "kind, loyal and helpful",
           "feel comfortable",
           "Real character",
@@ -3255,7 +3255,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           "a new student",
           "who says very little",
           "on the first day",
-          "may later become",
+          "may later show that they are",
           "kind, loyal and helpful",
           "they feel comfortable",
           "is shown through repeated actions",
@@ -3340,7 +3340,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           },
           {
             "parts": [
-              "For instance, a new student who says very little on the first day may later become kind, loyal and helpful once they feel comfortable."
+              "For instance, a new student who says very little on the first day may later show that they are kind, loyal and helpful once they feel comfortable."
             ]
           },
           {
@@ -3373,9 +3373,9 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "人們第一次見到某個人時，往往會很快作出判斷。雖然有些人認為這些早期印象很重要，因為它們能幫助我們在社交和專業場合中迅速作出反應，但我認為，不要太快評斷別人會明智得多。",
-      "一方面，第一印象可能是有用的，因為它們能讓我們即時看出一個人的態度和行為。在很多情況下，人們並沒有充裕的時間去慢慢了解彼此。例如，在求職面試中，僱主可能會留意一位應徵者是否準時到達、說話是否有禮貌，以及是否用心聆聽。這些細節可以反映出可靠、自信和尊重。從這個角度來看，第一印象就像一道門口：它不能展示整間屋子的全貌，但它能告訴我們是否想走進去看看。",
-      "另一方面，太快評斷一個人可能非常不公平，因為第一次見面往往只捕捉到一個人暫時的狀態。一個人可能看起來安靜，是因為他們緊張；看起來疏離，是因為他們承受壓力；看起來笨拙，是因為他們身處陌生環境。如果別人立刻給他們貼上標籤，即使那個標籤並不準確，也可能會一直留在他們身上。例如，一位新學生第一天可能很少說話，但當他感到自在之後，日後可能會變得善良、忠誠，而且樂於助人。真正的性格是透過反覆的行動展現出來的，而不是透過一次短暫的相遇。",
-      "在我看來，雖然第一印象能提供有用的訊號，但它們絕不應該成為評斷另一個人的最終依據。人是複雜的，而他們真正的品質通常只有經過時間才會顯現。因此，我們最好把第一印象視為一個起點，而不是一項判決。"
+      "一方面，第一印象可能是有用的，因為它們能讓我們即時看出一個人的態度和行為。在很多情況下，人們並沒有充裕的時間去慢慢了解彼此。例如，在求職面試中，僱主可能會留意一位應徵者是否準時到達、說話是否有禮貌，以及是否用心聆聽。這些細節可能顯示一個人可靠、有自信，並尊重他人。從這個角度來看，第一印象就像一扇門：它不能展示整間屋子的全貌，但它能告訴我們是否想走進去看看。",
+      "另一方面，太快評斷一個人可能非常不公平，因為第一次見面往往只捕捉到一個人暫時的狀態。一個人可能看起來安靜，是因為他們緊張；看起來疏離，是因為他們承受壓力；看起來笨拙，是因為他們身處陌生環境。如果別人立刻給他們貼上標籤，即使那個標籤並不準確，也可能會一直留在他們身上。例如，一位新學生第一天可能很少說話，但當他感到自在之後，可能會展現出善良、忠誠和樂於助人的一面。真正的性格是透過反覆的行動展現出來的，而不是透過一次短暫的相遇。",
+      "在我看來，雖然第一印象能提供有用的訊號，但它們絕不應該成為評斷另一個人的最終依據。人是複雜的，而他們真正的特質通常只有經過時間才會顯現。因此，我們最好把第一印象視為一個起點，而不是定論。"
     ],
     "translationSections": [
       {
@@ -3418,12 +3418,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "These small details can suggest reliability, confidence and respect.",
-            "chinese": "這些細節可以反映出可靠、自信和尊重。"
+            "chinese": "這些細節可能顯示一個人可靠、有自信，並尊重他人。"
           },
           {
             "label": "Conclusion（結論）",
             "english": "In this sense, a first impression acts like a doorway: it does not show the whole house, but it tells us whether we may want to step inside.",
-            "chinese": "從這個角度來看，第一印象就像一道門口：它不能展示整間屋子的全貌，但它能告訴我們是否想走進去看看。"
+            "chinese": "從這個角度來看，第一印象就像一扇門：它不能展示整間屋子的全貌，但它能告訴我們是否想走進去看看。"
           }
         ]
       },
@@ -3449,8 +3449,8 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           },
           {
             "label": "Example（例子）",
-            "english": "For instance, a new student who says very little on the first day may later become kind, loyal and helpful once they feel comfortable.",
-            "chinese": "例如，一位新學生第一天可能很少說話，但當他感到自在之後，日後可能會變得善良、忠誠，而且樂於助人。"
+            "english": "For instance, a new student who says very little on the first day may later show that they are kind, loyal and helpful once they feel comfortable.",
+            "chinese": "例如，一位新學生第一天可能很少說話，但當他感到自在之後，可能會展現出善良、忠誠和樂於助人的一面。"
           },
           {
             "label": "Conclusion（結論）",
@@ -3472,12 +3472,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "People are complex, and their true qualities usually appear only over time.",
-            "chinese": "人是複雜的，而他們真正的品質通常只有經過時間才會顯現。"
+            "chinese": "人是複雜的，而他們真正的特質通常只有經過時間才會顯現。"
           },
           {
             "label": "Final Thought（最後總結）",
             "english": "Therefore, it is better to treat first impressions as a starting point, not a verdict.",
-            "chinese": "因此，我們最好把第一印象視為一個起點，而不是一項判決。"
+            "chinese": "因此，我們最好把第一印象視為一個起點，而不是定論。"
           }
         ]
       }
@@ -3839,8 +3839,8 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "預防犯罪是任何安全而文明的社會中的核心部分。雖然有人認為個人應該為自身安全負責，但另一些人則相信預防犯罪主要是國家的責任。我認為，儘管市民應該理智地行事，但政府必須承擔主要責任，因為只有政府才擁有大規模減少犯罪所需的權力和資源。",
-      "支持個人責任的人認為，人們可以透過作出謹慎的選擇來降低自身風險。例如，屋主可以安裝保安攝像頭，避免把貴重物品放在顯眼的位置，並在網上分享個人資料時保持謹慎。這些習慣是有用的，因為許多犯罪都是機會主義式的；如果一個人使自己成為容易下手的目標，罪犯便可能更容易利用他們。從這個角度來看，個人警覺性就是第一道防線，尤其是警察無法親身在場的日常情況中。",
-      "然而，我認為預防犯罪不能主要依賴個人。政府有責任建立並維持使社會安全的系統，例如有效的警務、公平的法律、街道照明、公共教育和社會支援。如果一個社區執法不足、監察薄弱，而且年輕人的機會很少，個人就只能在有限程度上保護自己。一個家庭或許可以每晚鎖好門，但它無法控制有組織犯罪、不安全的公共空間，或那些把人推向違法行為的更廣泛社會問題。這些問題需要有組織的公共行動，而不只是個人的小心謹慎。",
+      "支持個人責任的人認為，人們可以透過作出謹慎的選擇來降低自身風險。例如，屋主可以安裝保安攝像頭，避免把貴重物品放在顯眼的位置，並在網上分享個人資料時保持謹慎。這些習慣是有用的，因為許多罪犯會伺機犯案；如果一個人讓自己成為容易下手的目標，罪犯便更可能趁機下手。從這個角度來看，個人警覺性就是第一道防線，尤其是警察無法親身在場的日常情況中。",
+      "然而，我認為預防犯罪不能主要依賴個人。政府有責任建立並維持使社會安全的系統，例如有效的警務、公平的法律、街道照明、公共教育和社會支援。如果一個社區執法不足、監察薄弱，而且年輕人缺乏發展機會，個人就只能在有限程度上保護自己。一個家庭或許可以每晚鎖好門，但它無法控制有組織犯罪、不安全的公共空間，或那些把人推向違法行為的更廣泛社會問題。這些問題需要由政府統籌的公共行動，而不只是個人的小心謹慎。",
       "總結來說，個人當然應該採取合理措施保護自己，但這不能取代政府的角色。由於犯罪是一個社會問題，而不僅僅是個人的不便，因此國家應該主要負責預防犯罪。"
     ],
     "translationSections": [
@@ -3884,7 +3884,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "These habits are useful because many crimes are opportunistic; if a person makes themselves an easy target, criminals may be more likely to take advantage of them.",
-            "chinese": "這些習慣是有用的，因為許多犯罪都是機會主義式的；如果一個人使自己成為容易下手的目標，罪犯便可能更容易利用他們。"
+            "chinese": "這些習慣是有用的，因為許多罪犯會伺機犯案；如果一個人讓自己成為容易下手的目標，罪犯便更可能趁機下手。"
           },
           {
             "label": "Conclusion（結論）",
@@ -3911,7 +3911,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "If a neighbourhood has poor law enforcement, weak surveillance, and few opportunities for young people, individuals can only protect themselves to a limited extent.",
-            "chinese": "如果一個社區執法不足、監察薄弱，而且年輕人的機會很少，個人就只能在有限程度上保護自己。"
+            "chinese": "如果一個社區執法不足、監察薄弱，而且年輕人缺乏發展機會，個人就只能在有限程度上保護自己。"
           },
           {
             "label": "Example（例子）",
@@ -3921,7 +3921,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（結論）",
             "english": "These issues require coordinated public action, not just private caution.",
-            "chinese": "這些問題需要有組織的公共行動，而不只是個人的小心謹慎。"
+            "chinese": "這些問題需要由政府統籌的公共行動，而不只是個人的小心謹慎。"
           }
         ]
       },
@@ -4329,9 +4329,9 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "在許多學校中，紀律已成為一個日益令人關注的問題，因為教師除了履行教學職責之外，也越來越需要處理擾亂課堂的行為。有些人認為教師應主要負責維持紀律，而另一些人則認為父母必須擔當主導角色。在我看來，雖然教師在學校執行規則方面扮演重要角色，但父母應該承擔塑造孩子行為的主要責任。",
-      "一方面，教師顯然有責任創造一個有秩序的學習環境。由於學生每天在課室中度過許多時間，學校必須制定規則，以防止課堂不斷被打斷。例如，如果一名學生反覆打斷別人說話、拒絕遵從指示，或者分散同學的注意力，教師就必須立即作出回應；否則，整個班級都可能受到影響。從這個意義上說，紀律並不是與教育分開的事情。如果沒有基本的課堂管理，即使是最有能力的教師也可能難以有效教學。學校也可以提供一致的後果，例如留堂或行為報告，讓學生明白行為是有界線的。",
+      "一方面，教師顯然有責任創造一個有秩序的學習環境。由於學生每天在課室中度過許多時間，學校必須制定規則，以防止課堂不斷被打斷。例如，如果一名學生反覆打斷別人說話、拒絕遵從指示，或者分散同學的注意力，教師就必須立即作出回應；否則，整個班級都可能受到影響。從這個意義上說，紀律並不是與教育分開的事情。如果沒有基本的課堂管理，即使是最有能力的教師也可能難以有效教學。學校也可以按一致標準處理違規行為，例如安排留堂或撰寫行為報告，讓學生明白行為是有界線的。",
       "另一方面，良好的紀律通常早在孩子進入課室之前就已經開始形成。父母是最早教導孩子尊重、自制力和責任感的人。如果一個孩子在家中從未被教導要聆聽成年人、控制憤怒或接受後果，教師就會被迫修正一些已經根深蒂固的習慣。例如，一個在家中被允許大叫、無視規則或責怪他人的孩子，很可能會把同樣的行為帶到學校。教師可以暫時管理這類行為，但父母才是在塑造其背後的品格。這就是為甚麼父母的引導比學校的懲罰更根本。",
-      "總結來說，教師必須在學校內維持紀律，因為學習不可能在混亂中發生。然而，我認為父母負有更大的責任，因為孩子對權威、尊重和自制力的態度主要是在家中形成的。學校可以執行規則，但家庭建立的習慣，才是讓這些規則真正發揮作用的關鍵。"
+      "總結來說，教師必須在學校內維持紀律，因為學習不可能在混亂中發生。然而，我認為父母負有更大的責任，因為孩子對權威的態度，以及尊重他人和自我約束的習慣，主要是在家中養成的。學校可以執行規則，但家庭建立的習慣，才是讓這些規則真正發揮作用的關鍵。"
     ],
     "translationSections": [
       {
@@ -4389,7 +4389,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "Schools can also provide consistent consequences, such as detentions or behavioural reports, so that students understand that actions have limits.",
-            "chinese": "學校也可以提供一致的後果，例如留堂或行為報告，讓學生明白行為是有界線的。"
+            "chinese": "學校也可以按一致標準處理違規行為，例如安排留堂或撰寫行為報告，讓學生明白行為是有界線的。"
           }
         ]
       },
@@ -4443,7 +4443,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "However, I believe parents have the greater responsibility, as children’s attitudes towards authority, respect, and self-control are mainly formed at home.",
-            "chinese": "然而，我認為父母負有更大的責任，因為孩子對權威、尊重和自制力的態度主要是在家中形成的。"
+            "chinese": "然而，我認為父母負有更大的責任，因為孩子對權威的態度，以及尊重他人和自我約束的習慣，主要是在家中養成的。"
           },
           {
             "label": "Closing Line（結尾句）",
@@ -4856,10 +4856,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "功課一直是學校教育中存在已久的一部分，但人們對於孩子是否應該每天都有功課存在分歧。有些人認為每天做功課對學業成功是必要的，而另一些人則認為孩子需要定期從課業中休息。在我看來，孩子不應該每天都有功課，因為當練習是有目的的，而不是不斷重複時，學習效果會更好。",
-      "支持每天有功課的人通常認為，功課能培養紀律，並鞏固課堂學習。當學生在課後不久複習一個課題時，他們更有可能記住重點概念，並發現自己理解上的漏洞。例如，一個孩子在學習分數後做幾道數學題，可能會在下一課之前發現錯誤，而不是讓困惑在不知不覺中加深。每天的功課也能建立穩定的日常習慣，這可能有助於較缺乏組織能力的學生培養責任感。從這個角度來看，功課不只是額外的工作；它是一種讓孩子持續投入學習的結構。",
-      "然而，我認為每天給功課可能會適得其反，尤其是對年紀較小的學生而言。孩子需要時間休息、玩耍、運動、為興趣而閱讀，以及與家人互動。如果每個上學日都以更多學業任務作結，教育便可能開始像一條無止境的輸送帶，而這可能會削弱學習動機，而不是增強它。一個疲倦的孩子即使機械式地完成工作紙，也不一定是在深入學習。此外，過量功課可能擠走一些同樣有助於學業成功的活動，例如睡眠、運動和社交發展。這些並不是奢侈的東西；它們能幫助孩子以更好的專注力和情緒平衡回到課堂。",
-      "總結來說，每天做功課或許能幫助學生複習課堂內容並建立學習習慣，但它不應被視為成功的必要條件。學校應該在功課真正能鞏固學習時才佈置功課，而不是單純因為又過了一天就安排功課。相比僵化的每日功課安排，一種平衡的做法在教育上更加合理。"
+      "功課在學校教育中由來已久，但人們對孩子是否應每天有功課意見分歧。有些人認為每天做功課對學業成功是必要的，而另一些人則認為孩子需要定期暫停課業、好好休息。在我看來，孩子不應該每天都有功課，因為當練習是有目的的，而不是不斷重複時，學習效果會更好。",
+      "支持每天有功課的人通常認為，功課能培養紀律，並鞏固課堂學習。當學生在課後不久複習一個課題時，他們更有可能記住重點概念，並發現自己理解上的漏洞。例如，一個孩子在學習分數後做幾道數學題，可能會在下一課之前發現錯誤，而不是讓困惑在不知不覺中加深。每天的功課也能建立穩定的日常習慣，這可能有助於較不善安排學習的學生培養責任感。從這個角度來看，功課不只是額外的工作；它是一套幫助孩子持續投入學習的安排。",
+      "然而，我認為每天給功課可能會適得其反，尤其是對年紀較小的學生而言。孩子需要時間休息、玩耍、運動、按興趣閱讀，以及與家人互動。如果每個上學日都以更多學業任務作結，教育便可能開始像一條無止境的輸送帶，而這可能會削弱學習動機，而不是增強它。一個疲倦的孩子即使機械式地完成工作紙，也不一定是在深入學習。此外，過量功課可能擠走一些同樣有助於學業成功的活動，例如睡眠、運動和社交發展。這些並不是可有可無的安排；它們能幫助孩子以更好的專注力和情緒平衡回到課堂。",
+      "總結來說，每天做功課或許能幫助學生複習課堂內容並建立學習習慣，但它不應被視為成功的必要條件。學校應該在功課真正能鞏固學習時才佈置功課，而不是單純因為又過了一天就安排功課。相比僵化的每日功課安排，一種平衡的做法更符合教育需要。"
     ],
     "translationSections": [
       {
@@ -4870,12 +4870,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Homework is a long-standing part of schooling, but there is disagreement about whether children should receive it every day.",
-            "chinese": "功課一直是學校教育中存在已久的一部分，但人們對於孩子是否應該每天都有功課存在分歧。"
+            "chinese": "功課在學校教育中由來已久，但人們對孩子是否應每天有功課意見分歧。"
           },
           {
             "label": "Transitional Sentence | Two Views（過渡句 | 兩種觀點）",
             "english": "Some argue that daily homework is essential for academic success, whereas others believe that children need regular breaks from schoolwork.",
-            "chinese": "有些人認為每天做功課對學業成功是必要的，而另一些人則認為孩子需要定期從課業中休息。"
+            "chinese": "有些人認為每天做功課對學業成功是必要的，而另一些人則認為孩子需要定期暫停課業、好好休息。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -4907,12 +4907,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "Daily assignments can also create a steady routine, which may help less organised students develop responsibility.",
-            "chinese": "每天的功課也能建立穩定的日常習慣，這可能有助於較缺乏組織能力的學生培養責任感。"
+            "chinese": "每天的功課也能建立穩定的日常習慣，這可能有助於較不善安排學習的學生培養責任感。"
           },
           {
             "label": "Conclusion（段落總結）",
             "english": "From this perspective, homework is not merely extra work; it is a structure that keeps children engaged with their studies.",
-            "chinese": "從這個角度來看，功課不只是額外的工作；它是一種讓孩子持續投入學習的結構。"
+            "chinese": "從這個角度來看，功課不只是額外的工作；它是一套幫助孩子持續投入學習的安排。"
           }
         ]
       },
@@ -4929,7 +4929,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Children need time to rest, play, exercise, read for pleasure and interact with their families.",
-            "chinese": "孩子需要時間休息、玩耍、運動、為興趣而閱讀，以及與家人互動。"
+            "chinese": "孩子需要時間休息、玩耍、運動、按興趣閱讀，以及與家人互動。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -4949,7 +4949,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "These are not luxuries; they help children return to class with better concentration and emotional balance.",
-            "chinese": "這些並不是奢侈的東西；它們能幫助孩子以更好的專注力和情緒平衡回到課堂。"
+            "chinese": "這些並不是可有可無的安排；它們能幫助孩子以更好的專注力和情緒平衡回到課堂。"
           }
         ]
       },
@@ -4971,7 +4971,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Final Judgement（最終判斷）",
             "english": "A balanced approach is more educationally sound than a rigid daily routine.",
-            "chinese": "相比僵化的每日功課安排，一種平衡的做法在教育上更加合理。"
+            "chinese": "相比僵化的每日功課安排，一種平衡的做法更符合教育需要。"
           }
         ]
       }
@@ -5380,10 +5380,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "有人有時主張，孩子應該把空閒時間用於教育活動，而另一些人則認為，這樣做會造成不必要的壓力。我同意後者的觀點，因為童年的空閒時間應該主要用於恢復精力、玩樂和社交發展，而不是成為課堂的延伸。",
-      "支持教育活動的人提出了一個合理的觀點。許多父母擔心，沒有安排的休閒時間會被浪費在螢幕、遊戲或被動娛樂上。如果孩子利用部分空閒時間閱讀、練習語言、學習音樂或解謎，他們便可能在較非正式的環境中強化有用的技能。這些活動也能培養自律：例如，一個習慣放學後閱讀的孩子，可能會培養出有助於日後學業成功的專注力和好奇心。從這個角度來看，教育性休閒是在為未來播種，並無懲罰之意。",
-      "然而，我認為，把空閒時間變成另一段學習時間，會使孩子承受有害的壓力。放學後，許多孩子已經因為課堂、功課、測驗和持續評估而在精神上感到疲累。如果他們的晚上和週末都被額外的學業任務填滿，休息便會消失，而學習也會開始像一個牢籠，而不是成長的來源。一個從學校到補習、再到網上練習的孩子，表面上可能看起來很有成效，但實際上他們可能會變得焦慮、反感，並且更缺乏動力。這尤其有害，因為玩樂並不是空白的時間。透過遊戲、運動、想像和日常交談，孩子能以工作紙難以輕易提供的方式，學習合作、情緒控制、獨立性和解決問題的能力。",
-      "總結來說，儘管這種父母的做法可能出於好意，但我堅定地認為，孩子不應被期望把空閒時間用於學習。童年不應被安排得如此緊密，以至於每一個空閒小時都有學業目的。空閒時間並不是被浪費的時間；它是孩子得以喘息、成長，並成為完整的人的地方。"
+      "有人主張，孩子應該把空閒時間用於教育活動，而另一些人則認為，這樣做會造成不必要的壓力。我同意後者的觀點，因為童年的空閒時間應該主要用於恢復精力、玩樂和社交發展，而不是成為課堂的延伸。",
+      "支持教育活動的人提出了一個合理的觀點。許多父母擔心，沒有安排的休閒時間會被浪費在螢幕、遊戲或被動娛樂上。如果孩子利用部分空閒時間閱讀、練習語言、學習音樂或解謎，他們便可能在較輕鬆的環境中強化有用的技能。這些活動也能培養自律：例如，一個習慣放學後閱讀的孩子，可能會培養出有助於日後學業成功的專注力和好奇心。從這個角度來看，教育性休閒是在為未來播種，並無懲罰之意。",
+      "然而，我認為，把空閒時間變成另一段學習時間，會使孩子承受有害的壓力。放學後，許多孩子已經因為課堂、功課、測驗和持續評估而在精神上感到疲累。如果他們的晚上和週末都被額外的學業任務填滿，休息便會消失，而學習也會開始像一個牢籠，而不是成長的來源。一個從學校到補習、再到網上練習的孩子，表面上可能看起來很有成效，但實際上他們可能會變得焦慮、反感，並且更缺乏動力。這尤其有害，因為玩樂的時間並非毫無收穫。透過遊戲、運動、想像和日常交談，孩子能以工作紙難以輕易提供的方式，學習合作、情緒控制、獨立性和解決問題的能力。",
+      "總結來說，儘管父母的這種做法可能出於好意，但我堅定地認為，孩子不應被期望把空閒時間用於學習。童年不應被安排得如此緊密，以至於每段空閒時間都要有學業目標。空閒時間並不是被浪費的時間；它是孩子得以喘息、成長，並成長為身心健全的人的地方。"
     ],
     "translationSections": [
       {
@@ -5394,7 +5394,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "It is sometimes argued that children should spend their spare time on educational pursuits, while others believe that this creates unnecessary pressure.",
-            "chinese": "有人有時主張，孩子應該把空閒時間用於教育活動，而另一些人則認為，這樣做會造成不必要的壓力。"
+            "chinese": "有人主張，孩子應該把空閒時間用於教育活動，而另一些人則認為，這樣做會造成不必要的壓力。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -5421,7 +5421,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "If children use part of their free time to read, practise a language, learn music, or solve puzzles, they may strengthen useful skills in a less formal setting.",
-            "chinese": "如果孩子利用部分空閒時間閱讀、練習語言、學習音樂或解謎，他們便可能在較非正式的環境中強化有用的技能。"
+            "chinese": "如果孩子利用部分空閒時間閱讀、練習語言、學習音樂或解謎，他們便可能在較輕鬆的環境中強化有用的技能。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -5463,7 +5463,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "This is especially damaging because play is not an empty time.",
-            "chinese": "這尤其有害，因為玩樂並不是空白的時間。"
+            "chinese": "這尤其有害，因為玩樂的時間並非毫無收穫。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -5480,17 +5480,17 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "In conclusion, although this parental approach may have good intentions, I firmly believe that children should not be expected to spend their free time studying.",
-            "chinese": "總結來說，儘管這種父母的做法可能出於好意，但我堅定地認為，孩子不應被期望把空閒時間用於學習。"
+            "chinese": "總結來說，儘管父母的這種做法可能出於好意，但我堅定地認為，孩子不應被期望把空閒時間用於學習。"
           },
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "Childhood should not be scheduled so tightly that every spare hour has an academic purpose.",
-            "chinese": "童年不應被安排得如此緊密，以至於每一個空閒小時都有學業目的。"
+            "chinese": "童年不應被安排得如此緊密，以至於每段空閒時間都要有學業目標。"
           },
           {
             "label": "Memorable Closing Line（收結句）",
             "english": "Free time is not wasted time; it is where children breathe, grow, and become whole people.",
-            "chinese": "空閒時間並不是被浪費的時間；它是孩子得以喘息、成長，並成為完整的人的地方。"
+            "chinese": "空閒時間並不是被浪費的時間；它是孩子得以喘息、成長，並成長為身心健全的人的地方。"
           }
         ]
       }
@@ -5825,10 +5825,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "在一個日益互聯的世界中，能夠說一門外語已成為一項有價值的教育資產。雖然有些人認為學生應該在中學才開始學習另一種語言，我堅定地認為，語言學習應該從小學開始。",
+      "在一個日益互聯的世界中，能夠說一門外語已成為一項重要的教育優勢。雖然有些人認為學生應該在中學才開始學習另一種語言，我堅定地認為，語言學習應該從小學開始。",
       "支持較遲開始的人通常認為，中學生更加成熟。在那個年齡，學習者能夠更有意識地理解文法規則、句子結構和抽象詞彙，因此老師也許能夠以更有系統的方式解釋語言。年紀較大的學生也可能有更清晰的學業目標，例如準備考試或未來就業。例如，一個知道英語、法語或普通話能改善職業前景的青少年，可能會以更強的自律性去學習。從這個角度來看，中學似乎可以是一個更有效率地進行認真語言教學的階段。",
-      "然而，更有力的論點是，小學生通常處於更有利的位置去建立自然的語言習慣。年幼的學習者往往更容易吸收發音、節奏和基本表達，因為他們較少感到自我意識過強，也更願意模仿聲音。如果一個孩子經常唱歌、玩語言遊戲，並聽到另一種語言的簡單課堂指示，那種語言便會逐漸變得熟悉，而不是令人害怕。這種早期信心十分重要，因為語言學習並不是一夜之間就能掌握的；它是透過反覆接觸、犯錯和改正慢慢成長的。因此，一個從六歲起便接觸外語的學生，在中學階段語言學習變得更具要求時，便遠較不可能把它視為一道難以攀越的高牆。",
-      "總結來說，儘管中學生可能會更有意識地學習語言，小學仍然是更好的起點。早期接觸能建立信心、自然習慣和穩定進步，從而使外語學習有效得多。"
+      "然而，更有力的論點是，小學生通常更容易建立自然的語言習慣。年幼的學習者往往更容易吸收發音、節奏和基本表達，因為他們較不怕出錯，也更願意模仿聲音。如果一個孩子經常唱歌、玩語言遊戲，並聽到另一種語言的簡單課堂指示，那種語言便會逐漸變得熟悉，而不是令人害怕。這種早期信心十分重要，因為外語不可能一夜之間學會；它是透過反覆接觸、犯錯和改正慢慢成長的。因此，一個從六歲起便接觸外語的學生，在中學階段語言學習難度提高時，便遠較不可能把它視為一道難以攀越的高牆。",
+      "總結來說，儘管中學生可能會更有意識地學習語言，小學仍然是更好的起點。早期接觸能建立信心和自然的語言習慣，並穩步進步，從而使外語學習有效得多。"
     ],
     "translationSections": [
       {
@@ -5839,7 +5839,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "In an increasingly connected world, the ability to speak a foreign language has become a valuable educational asset.",
-            "chinese": "在一個日益互聯的世界中，能夠說一門外語已成為一項有價值的教育資產。"
+            "chinese": "在一個日益互聯的世界中，能夠說一門外語已成為一項重要的教育優勢。"
           },
           {
             "label": "Transition（轉折）",
@@ -5893,12 +5893,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "However, the stronger argument is that primary school children are usually in a better position to build natural language habits.",
-            "chinese": "然而，更有力的論點是，小學生通常處於更有利的位置去建立自然的語言習慣。"
+            "chinese": "然而，更有力的論點是，小學生通常更容易建立自然的語言習慣。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Young learners tend to absorb pronunciation, rhythm and basic expressions more easily because they are less self-conscious and more willing to imitate sounds.",
-            "chinese": "年幼的學習者往往更容易吸收發音、節奏和基本表達，因為他們較少感到自我意識過強，也更願意模仿聲音。"
+            "chinese": "年幼的學習者往往更容易吸收發音、節奏和基本表達，因為他們較不怕出錯，也更願意模仿聲音。"
           },
           {
             "label": "Example（例子）",
@@ -5908,12 +5908,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "This early confidence matters because language learning is not mastered overnight; it grows through repeated exposure, mistakes and correction.",
-            "chinese": "這種早期信心十分重要，因為語言學習並不是一夜之間就能掌握的；它是透過反覆接觸、犯錯和改正慢慢成長的。"
+            "chinese": "這種早期信心十分重要，因為外語不可能一夜之間學會；它是透過反覆接觸、犯錯和改正慢慢成長的。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "A student who has met a foreign language from the age of six is therefore far less likely to see it as a wall to climb when it becomes more demanding in secondary school.",
-            "chinese": "因此，一個從六歲起便接觸外語的學生，在中學階段語言學習變得更具要求時，便遠較不可能把它視為一道難以攀越的高牆。"
+            "chinese": "因此，一個從六歲起便接觸外語的學生，在中學階段語言學習難度提高時，便遠較不可能把它視為一道難以攀越的高牆。"
           }
         ]
       },
@@ -5930,7 +5930,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "Early exposure builds confidence, natural habits and steady progress, making foreign-language learning far more effective.",
-            "chinese": "早期接觸能建立信心、自然習慣和穩定進步，從而使外語學習有效得多。"
+            "chinese": "早期接觸能建立信心和自然的語言習慣，並穩步進步，從而使外語學習有效得多。"
           }
         ]
       }
@@ -6325,11 +6325,11 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "教育預算經常引起討論，因為學校必須決定有限的資金應該投放於現代設備，還是投放於人的教學。有些人認為，增加對科技的投資，例如電腦和數碼平台，是必不可少的；而另一些人則認為，教師更值得得到更多財政支持。在我看來，儘管科技是有用的，學校仍應優先把資金用於教師身上，因為教師仍然是有效學習背後的核心力量。",
-      "支持增加科技投資的人認為，數碼工具可以令教育更有效率，也更容易獲得。電腦讓學生能夠快速搜尋資料、獨立練習，並培養現今大多數職場都需要的數碼技能。例如，一名能夠使用網上學習軟件的學生，可以在家中重溫困難的課題，並按照適合自己的速度學習。從這個角度來看，科技能夠擴大學習機會，並幫助學生為一個數碼素養已不再是可有可無的世界做好準備。",
-      "然而，把更多金錢投放於教師身上重要得多，因為即使是最好的科技，也無法取代專業指導、情感支持和課堂判斷。一位有能力的教師不只是傳遞資訊；他們會解釋困難的概念、察覺學生何時感到困惑、調整課堂，並鼓勵那些否則可能會放棄的學習者。例如，一個電腦程式可以把答案標示為錯誤，但教師能夠指出錯誤產生的原因，並向學生展示如何改進。如果沒有受過良好訓練並獲得合理薪酬的教師，昂貴的設備可能只會變成華而不實的干擾物。",
+      "教育預算經常引起討論，因為學校必須決定有限的資金應該投放於現代設備，還是投放於教師的教學。有些人認為，增加對科技的投資，例如電腦和數碼平台，是必不可少的；而另一些人則認為，教師應獲得更多資金支持。在我看來，儘管科技是有用的，學校仍應優先把資金用於教師身上，因為教師仍然是有效學習背後的核心力量。",
+      "支持增加科技投資的人認為，數碼工具可以令教育更有效率，也更容易獲得。電腦讓學生能夠快速搜尋資料、獨立練習，並培養現今大多數職場都需要的數碼技能。例如，一名能夠使用網上學習軟件的學生，可以在家中重溫困難的課題，並按照適合自己的速度學習。從這個角度來看，科技能夠擴大學習機會，並幫助學生為數碼素養已成必備能力的世界做好準備。",
+      "然而，把更多金錢投放於教師身上重要得多，因為即使是最好的科技，也無法取代專業指導、情感支持和課堂判斷。一位有能力的教師不只是傳遞資訊；他們會解釋困難的概念、察覺學生何時感到困惑、調整課堂，並鼓勵原本可能放棄的學生。例如，一個電腦程式可以把答案標示為錯誤，但教師能夠指出錯誤產生的原因，並向學生展示如何改進。如果沒有受過良好訓練並獲得合理薪酬的教師，昂貴的設備可能只會變成華而不實的干擾物。",
       "因此，我認為學校應該更大力投資於教師。更好的薪酬可以吸引有才華的畢業生加入這個行業，而定期培訓則可以幫助現有教師更有效地使用傳統和數碼教學方法。如果教師得到適當支持，他們也能夠讓科技在課堂中變得更有意義。",
-      "總結來說，科技在現代教育中具有重要作用，但教師應該獲得學校資金中較大的部分。電腦可以輔助學習，但教師塑造的是理解力、信心，以及長遠的學術成長。"
+      "總結來說，科技在現代教育中具有重要作用，但教師應該獲得學校資金中較大的部分。電腦可以輔助學習，但教師塑造的是理解力、信心，以及長遠的學業發展。"
     ],
     "translationSections": [
       {
@@ -6340,12 +6340,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Education budgets are often debated because schools must decide whether limited funds should be directed towards modern equipment or human instruction.",
-            "chinese": "教育預算經常引起討論，因為學校必須決定有限的資金應該投放於現代設備，還是投放於人的教學。"
+            "chinese": "教育預算經常引起討論，因為學校必須決定有限的資金應該投放於現代設備，還是投放於教師的教學。"
           },
           {
             "label": "Transitional Sentence | Two Views（過渡句 | 雙方觀點）",
             "english": "Some argue that greater investment in technology, such as computers and digital platforms, is essential, while others believe that teachers deserve more financial support.",
-            "chinese": "有些人認為，增加對科技的投資，例如電腦和數碼平台，是必不可少的；而另一些人則認為，教師更值得得到更多財政支持。"
+            "chinese": "有些人認為，增加對科技的投資，例如電腦和數碼平台，是必不可少的；而另一些人則認為，教師應獲得更多資金支持。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -6377,7 +6377,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "In this sense, technology can widen learning opportunities and prepare students for a world in which digital literacy is no longer optional.",
-            "chinese": "從這個角度來看，科技能夠擴大學習機會，並幫助學生為一個數碼素養已不再是可有可無的世界做好準備。"
+            "chinese": "從這個角度來看，科技能夠擴大學習機會，並幫助學生為數碼素養已成必備能力的世界做好準備。"
           }
         ]
       },
@@ -6394,7 +6394,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "A skilled teacher does not merely deliver information; they explain difficult ideas, notice when students are confused, adjust lessons, and motivate learners who may otherwise give up.",
-            "chinese": "一位有能力的教師不只是傳遞資訊；他們會解釋困難的概念、察覺學生何時感到困惑、調整課堂，並鼓勵那些否則可能會放棄的學習者。"
+            "chinese": "一位有能力的教師不只是傳遞資訊；他們會解釋困難的概念、察覺學生何時感到困惑、調整課堂，並鼓勵原本可能放棄的學生。"
           },
           {
             "label": "Example（例子）",
@@ -6443,7 +6443,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "Computers can assist learning, but teachers shape understanding, confidence, and long-term academic growth.",
-            "chinese": "電腦可以輔助學習，但教師塑造的是理解力、信心，以及長遠的學術成長。"
+            "chinese": "電腦可以輔助學習，但教師塑造的是理解力、信心，以及長遠的學業發展。"
           }
         ]
       }
@@ -6775,10 +6775,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "人們普遍認為，孩子的學業進步主要是由父母或老師所塑造的。雖然父母無疑十分重要，因為他們創造了孩子學習習慣開始形成的家庭環境，但我認為老師對學業發展有更大的影響，因為他們直接掌控孩子正規教育的質素、結構和方向。",
-      "一方面，父母在塑造孩子對學習的態度方面扮演著重要角色。在鼓勵閱讀、自律和好奇心的家庭中成長的孩子，更有可能把教育視為日常生活中正常的一部分，而不是一種負擔。例如，一位會設定固定學習時間、限制干擾並讚賞努力的父母，能夠在考試壓力出現之前很早便幫助孩子建立堅持的能力。從這個意義上說，父母就像學業信心最初扎根的土壤：如果沒有他們的支持，即使是有能力的學生也可能失去動力。",
-      "另一方面，老師通常對孩子的學業成長有更直接且更專業的影響。他們的影響並不局限於鼓勵；他們會設計課程、解釋複雜概念、評估進度，並在誤解變成長期弱點之前加以糾正。例如，一位熟練的數學老師可以判斷為甚麼某個學生不斷犯同一個代數錯誤，然後調整解釋方式，直到概念變得清晰為止。這種具針對性的學業指導，是大多數父母難以提供的，尤其當學科變得更加專門化時更是如此。此外，老師可以將一個孩子的表現與許多同齡人作比較，這使他們能夠更準確地判斷孩子的優點和弱點。",
-      "總結來說，父母建立了孩子學習習慣和對教育情感態度的基礎。然而，由於老師擁有學科專業知識、教學方法，並能定期了解學生的學業表現，我認為他們對孩子的學業發展發揮更大的影響。"
+      "人們普遍認為，孩子的學業進步主要是由父母或老師所塑造的。雖然父母無疑十分重要，因為他們營造了孩子開始養成學習習慣的家庭環境，但我認為老師對學業發展有更大的影響，因為他們直接掌控孩子正規教育的質素、結構和方向。",
+      "一方面，父母在塑造孩子對學習的態度方面扮演著重要角色。在鼓勵閱讀、自律和好奇心的家庭中成長的孩子，更有可能把教育視為日常生活中正常的一部分，而不是一種負擔。例如，一位會設定固定學習時間、限制干擾並讚賞努力的父母，能夠早在考試壓力出現前就幫助孩子培養堅持的能力。從這個意義上說，父母就像學業信心最初扎根的土壤：如果沒有他們的支持，即使是有能力的學生也可能失去動力。",
+      "另一方面，老師通常對孩子的學業成長有更直接且更專業的影響。他們的影響並不局限於鼓勵；他們會設計課程、解釋複雜概念、評估進度，並在誤解變成長期弱點之前加以糾正。例如，一位熟練的數學老師可以判斷為甚麼某個學生不斷犯同一個代數錯誤，然後調整解釋方式，直到概念變得清晰為止。這種具針對性的學業指導，是大多數父母難以提供的，尤其當學科變得更加專門化時更是如此。此外，老師可以把一個孩子的表現與許多同學比較，這使他們能夠更準確地判斷孩子的優點和弱點。",
+      "總結來說，父母為孩子的學習習慣及對教育的情感態度奠定基礎。然而，由於老師擁有學科專業知識、教學方法，並能定期了解學生的學業表現，我認為他們對孩子的學業發展發揮更大的影響。"
     ],
     "translationSections": [
       {
@@ -6794,7 +6794,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Transition（轉折）",
             "english": "While parents are undeniably important because they create the home environment in which learning habits begin,",
-            "chinese": "雖然父母無疑十分重要，因為他們創造了孩子學習習慣開始形成的家庭環境，"
+            "chinese": "雖然父母無疑十分重要，因為他們營造了孩子開始養成學習習慣的家庭環境，"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -6821,7 +6821,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, a parent who sets regular study times, limits distractions and praises effort can help a child build persistence long before exam pressure appears.",
-            "chinese": "例如，一位會設定固定學習時間、限制干擾並讚賞努力的父母，能夠在考試壓力出現之前很早便幫助孩子建立堅持的能力。"
+            "chinese": "例如，一位會設定固定學習時間、限制干擾並讚賞努力的父母，能夠早在考試壓力出現前就幫助孩子培養堅持的能力。"
           },
           {
             "label": "Conclusion（段落總結）",
@@ -6858,7 +6858,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Moreover, teachers can compare a child’s performance with that of many peers, which allows them to judge strengths and weaknesses more accurately.",
-            "chinese": "此外，老師可以將一個孩子的表現與許多同齡人作比較，這使他們能夠更準確地判斷孩子的優點和弱點。"
+            "chinese": "此外，老師可以把一個孩子的表現與許多同學比較，這使他們能夠更準確地判斷孩子的優點和弱點。"
           }
         ]
       },
@@ -6870,7 +6870,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Both Sides（重申雙方觀點）",
             "english": "In conclusion, parents build the foundations of a child’s learning habits and emotional attitude towards education.",
-            "chinese": "總結來說，父母建立了孩子學習習慣和對教育情感態度的基礎。"
+            "chinese": "總結來說，父母為孩子的學習習慣及對教育的情感態度奠定基礎。"
           },
           {
             "label": "Reiterating Stance（重申立場）",

@@ -380,8 +380,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
     "translation": [
       "每一種文化都會透過音樂和藝術表達自己，無論是透過歌曲、繪畫、舞蹈、雕塑，還是公共表演。這些創作形式並不只是娛樂來源；它們承載著社會意義和個人價值。本文將解釋音樂和藝術如何強化社會身份認同，並豐富個人的情感生活。",
       "在社會層面，音樂和藝術之所以重要，是因為它們能保存文化，並創造共同的歸屬感。一個社會並不只由它的法律、經濟或政治制度所定義，也由人們代代相傳的故事、情感和價值觀所定義。傳統歌曲、壁畫、節慶和表演，往往能以教科書單獨無法做到的方式，使歷史記憶保持鮮活。例如，國歌或民間舞蹈可以提醒人們他們共同的根源，尤其是在公共慶典或艱難時期。從這個意義上說，藝術就像一座文化橋樑：它們連接過去與現在，並幫助人們感到自己是某個比自身更大的整體的一部分。",
-      "對個人而言，音樂和藝術同樣有價值，因為它們為情感、想像力和自我理解提供了一個強大的出口。許多感受很難直接解釋，但一首歌、一幅畫或一首詩，卻能以令人驚訝的清晰度把它們表達出來。例如，一個下班後感到壓力的人，可能會聽音樂讓自己平靜下來，而另一個人則可能會透過繪畫或寫作來處理悲傷或困惑。這些活動並不只是填補空閒時間；它們幫助人們理解自己的內心生活。如果沒有這些表達形式，生活也許會更加實用，但也會更加冰冷、更加缺乏人性。",
-      "總結來說，音樂和藝術之所以重要，是因為它們賦予社會文化深度，也給予個人情感空間。它們保存身份認同、建立連結，並使人們能夠表達普通語言往往無法表達的東西。"
+      "對個人而言，音樂和藝術同樣有價值，因為它們讓人有力地表達情感、發揮想像力並理解自己。許多感受很難直接解釋，但一首歌、一幅畫或一首詩，卻能清楚得令人驚訝把它們表達出來。例如，一個下班後感到壓力的人，可能會聽音樂讓自己平靜下來，而另一個人則可能會透過繪畫或寫作來處理悲傷或困惑。這些活動並不只是填補空閒時間；它們幫助人們理解自己的內心生活。如果沒有這些表達形式，生活也許會更加實用，但也會更加冰冷、更加缺乏人性。",
+      "總結來說，音樂和藝術之所以重要，是因為它們賦予社會文化深度，也給予個人情感空間。它們保存身份認同、建立連結，並使人們能夠表達日常言語往往無法表達的東西。"
     ],
     "translationSections": [
       {
@@ -446,12 +446,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "For individuals, music and art are equally valuable because they provide a powerful outlet for emotion, imagination, and self-understanding.",
-            "chinese": "對個人而言，音樂和藝術同樣有價值，因為它們為情感、想像力和自我理解提供了一個強大的出口。"
+            "chinese": "對個人而言，音樂和藝術同樣有價值，因為它們讓人有力地表達情感、發揮想像力並理解自己。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Many feelings are difficult to explain directly, but a song, a painting, or a poem can express them with surprising clarity.",
-            "chinese": "許多感受很難直接解釋，但一首歌、一幅畫或一首詩，卻能以令人驚訝的清晰度把它們表達出來。"
+            "chinese": "許多感受很難直接解釋，但一首歌、一幅畫或一首詩，卻能清楚得令人驚訝把它們表達出來。"
           },
           {
             "label": "Example（例子）",
@@ -483,7 +483,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Final Thought（總結句）",
             "english": "They preserve identity, build connection, and allow people to express what ordinary language often cannot.",
-            "chinese": "它們保存身份認同、建立連結，並使人們能夠表達普通語言往往無法表達的東西。"
+            "chinese": "它們保存身份認同、建立連結，並使人們能夠表達日常言語往往無法表達的東西。"
           }
         ]
       }
@@ -904,9 +904,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
       }
     ],
     "translation": [
-      "現代科技已經深深融入職業生活之中。我認為，它主要透過令工作變得更快捷、更靈活，以及較少受實際地點限制，從而改變了我們的工作方式。然而，過度依賴數碼系統可能會削弱人的判斷力，並在這些系統失靈時造成嚴重干擾。",
-      "其中一個主要變化是，員工現在能夠以高得多的效率進行溝通、生產和管理工作。電子郵件、雲端平台、視像會議和自動化軟件，讓過去需要紙本文件、出差或長時間會議才能完成的任務，幾乎可以即時完成。例如，一個市場推廣團隊現在可以在不身處同一間辦公室的情況下，共同編輯同一份文件、與海外客戶交談，並監察宣傳活動的成效。這不只是節省時間；它也改變了職場期望。如今，員工被期望能夠快速回應、學習新工具，並跨部門、跨時區合作。從這個意義上說，科技已經把許多工作從緩慢、依賴固定地點的日常流程，轉變成更快捷、更互相連繫的工作形式。",
-      "然而，過度依賴科技也有明顯的缺點。最嚴重的問題是，當機器替人作出過多決定時，人們可能會失去重要的實用技能。如果員工總是依賴軟件去計算、組織或溝通，當他們需要獨立解決問題時，便可能變得較缺乏信心。另一個風險是脆弱性：當一間公司的網絡、資料庫或自動化系統故障時，工作可能會陷入停頓。例如，一間醫院、銀行或物流公司如果無法存取其數碼記錄，便可能難以安全而有效地為客戶服務。科技是有用的，但當它變成唯一可走的道路時，一座斷橋便可能令整段旅程停下來。",
+      "現代科技已經深深融入工作生活之中。我認為，它主要透過令工作變得更快捷、更靈活，以及較少受實際地點限制，從而改變了我們的工作方式。然而，過度依賴數碼系統可能會削弱人的判斷力，並在這些系統失靈時造成嚴重干擾。",
+      "其中一個主要變化是，員工現在能夠更有效率地溝通、完成工作及管理工作。電子郵件、雲端平台、視像會議和自動化軟件，讓過去需要紙本文件、出差或長時間會議才能完成的任務，幾乎可以即時完成。例如，一個市場推廣團隊現在可以在不身處同一間辦公室的情況下，共同編輯同一份文件、與海外客戶交談，並監察宣傳活動的成效。這不只是節省時間；它也改變了職場期望。如今，員工被期望能夠快速回應、學習新工具，並跨部門、跨時區合作。從這個意義上說，科技已經把許多工作從緩慢、依賴固定地點的日常流程，轉變成更快捷、更緊密互聯的工作模式。",
+      "然而，過度依賴科技也有明顯的缺點。最嚴重的問題是，當機器替人作出過多決定時，人們可能會失去重要的實用技能。如果員工總是依賴軟件去計算、組織或溝通，當他們需要獨立解決問題時，便可能變得較缺乏信心。另一個風險是，工作容易受系統故障影響：當一間公司的網絡、資料庫或自動化系統故障時，工作可能會陷入停頓。例如，一間醫院、銀行或物流公司如果無法存取其數碼記錄，便可能難以安全而有效地為客戶服務。科技是有用的，但當它變成唯一可走的道路時，一座斷橋便可能令整段旅程停下來。",
       "總結來說，現代科技透過令工作變得更快捷、更靈活，以及更具全球連繫性，改變了我們的工作方式。即使如此，我認為過度依賴科技是危險的，因為它可能削弱人的能力，並令機構容易受到技術故障的影響。因此，最理想的工作場所會把科技視為強大的工具，而不是人的判斷力的替代品。"
     ],
     "translationSections": [
@@ -918,7 +918,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Modern technology has become embedded in professional life.",
-            "chinese": "現代科技已經深深融入職業生活之中。"
+            "chinese": "現代科技已經深深融入工作生活之中。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -940,7 +940,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "One major change is that employees can now communicate, produce and manage work with far greater efficiency.",
-            "chinese": "其中一個主要變化是，員工現在能夠以高得多的效率進行溝通、生產和管理工作。"
+            "chinese": "其中一個主要變化是，員工現在能夠更有效率地溝通、完成工作及管理工作。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -965,7 +965,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "In this sense, technology has turned many jobs from slow, location-based routines into faster and more connected forms of work.",
-            "chinese": "從這個意義上說，科技已經把許多工作從緩慢、依賴固定地點的日常流程，轉變成更快捷、更互相連繫的工作形式。"
+            "chinese": "從這個意義上說，科技已經把許多工作從緩慢、依賴固定地點的日常流程，轉變成更快捷、更緊密互聯的工作模式。"
           }
         ]
       },
@@ -992,7 +992,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "A further risk is vulnerability: when a company’s internet, database or automated system breaks down, work can grind to a halt.",
-            "chinese": "另一個風險是脆弱性：當一間公司的網絡、資料庫或自動化系統故障時，工作可能會陷入停頓。"
+            "chinese": "另一個風險是，工作容易受系統故障影響：當一間公司的網絡、資料庫或自動化系統故障時，工作可能會陷入停頓。"
           },
           {
             "label": "Example（例子）",
@@ -1434,9 +1434,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
       }
     ],
     "translation": [
-      "在過去半個世紀裡，科技已經把童年從一種主要以本地生活為中心的經驗，轉變成一種由螢幕、演算法和即時通訊所塑造的經驗。雖然這給孩子帶來了便利和獲取資訊的途徑，但它也為社會和家庭生活帶來了問題。",
-      "在社會層面上，主要問題是孩子可能會形成較弱的人際交往能力和情緒能力。在過去，許多孩子透過戶外遊戲和社區活動學會耐性、合作和妥協。相比之下，一個把大部分空閒時間都花在手機上的孩子，可能會避開真實互動中的困難，例如理解面部表情或解決分歧。長遠而言，這可能會造成一批在交談中較缺乏自信、也較不適應衝突的年輕人。科技也使孩子過早接觸成人世界的壓力。社交媒體和網上娛樂經常把修飾過的身體、奢華的生活方式和人氣競爭呈現得彷彿它們就是正常生活。一個不斷把自己與網紅比較的孩子，可能會開始透過外貌、關注度和讚好數來衡量自己的價值。這可能會助長焦慮和低自尊，形成一代在線上與成千上萬的人連繫，卻仍然感到不安和孤單的人。",
-      "在家庭內部，最明顯的問題是有意義溝通的流失。即使父母和孩子坐在同一個房間裡，不同的螢幕也可以把他們拉進不同的世界。用餐變得更安靜，對話變得更短，而父母也可能無法察覺孩子情緒上的變化。此外，科技使父母權威更難維持，因為父母現在必須管理螢幕時間、網上朋友關係和不適合的內容。這些規則很容易導致爭吵和不信任，尤其是當孩子覺得父母正在侵犯他們的私人數位空間時。結果，家庭可能變得不太像一個提供引導的地方，而更像一個控制權爭奪的戰場。",
+      "過去半個世紀，科技改變了童年：孩子的生活原本主要圍繞本地社區，如今卻更多受螢幕、演算法和即時通訊影響。雖然這給孩子帶來了便利和獲取資訊的途徑，但它也為社會和家庭生活帶來了問題。",
+      "在社會層面上，主要問題是孩子的社交和情緒處理能力可能會較弱。在過去，許多孩子透過戶外遊戲和社區活動學會耐性、合作和妥協。相比之下，一個把大部分空閒時間都花在手機上的孩子，可能會避開真實互動中的困難，例如理解面部表情或解決分歧。長遠而言，這可能會造成一批在交談中較缺乏自信、也較不適應衝突的年輕人。科技也使孩子過早接觸成人世界的壓力。社交媒體和網上娛樂經常把經過修圖的身材影像、奢華的生活方式和人氣競爭呈現得彷彿它們就是正常生活。一個不斷把自己與網紅比較的孩子，可能會開始透過外貌、關注度和讚好數來衡量自己的價值。這可能會加劇焦慮和低自尊，令一代人即使在網上與數千人連繫，仍感到不安和孤單。",
+      "在家庭內部，最明顯的問題是有意義溝通的流失。即使父母和孩子坐在同一個房間裡，不同的螢幕也可以把他們拉進不同的世界。用餐變得更安靜，對話變得更短，而父母也可能無法察覺孩子情緒上的變化。此外，科技也令父母更難有效管教孩子，因為他們現在必須管理螢幕時間、網上朋友關係和不適合的內容。這些規則很容易導致爭吵和不信任，尤其是當孩子覺得父母正在侵犯他們的私人數碼空間時。結果，家庭可能變得不太像一個提供引導的地方，而更像一個控制權爭奪的戰場。",
       "總結來說，現代科技可能會透過損害孩子的社交能力和情緒健康來削弱社會。它也可能透過減少真實對話，並使父母引導變得更困難，從而損害家庭生活。"
     ],
     "translationSections": [
@@ -1448,7 +1448,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Over the last half-century, technology has changed childhood from a mostly local experience into one shaped by screens, algorithms and instant communication.",
-            "chinese": "在過去半個世紀裡，科技已經把童年從一種主要以本地生活為中心的經驗，轉變成一種由螢幕、演算法和即時通訊所塑造的經驗。"
+            "chinese": "過去半個世紀，科技改變了童年：孩子的生活原本主要圍繞本地社區，如今卻更多受螢幕、演算法和即時通訊影響。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -1465,7 +1465,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "At the social level, the main problem is that children may develop weaker interpersonal and emotional skills.",
-            "chinese": "在社會層面上，主要問題是孩子可能會形成較弱的人際交往能力和情緒能力。"
+            "chinese": "在社會層面上，主要問題是孩子的社交和情緒處理能力可能會較弱。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -1490,7 +1490,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Social media and online entertainment often present edited bodies, luxurious lifestyles and popularity contests as if they were normal life.",
-            "chinese": "社交媒體和網上娛樂經常把修飾過的身體、奢華的生活方式和人氣競爭呈現得彷彿它們就是正常生活。"
+            "chinese": "社交媒體和網上娛樂經常把經過修圖的身材影像、奢華的生活方式和人氣競爭呈現得彷彿它們就是正常生活。"
           },
           {
             "label": "Example（例子）",
@@ -1500,7 +1500,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "This can feed anxiety and low self-esteem, creating a generation that is connected to thousands online but still feels insecure and alone.",
-            "chinese": "這可能會助長焦慮和低自尊，形成一代在線上與成千上萬的人連繫，卻仍然感到不安和孤單的人。"
+            "chinese": "這可能會加劇焦慮和低自尊，令一代人即使在網上與數千人連繫，仍感到不安和孤單。"
           }
         ]
       },
@@ -1527,12 +1527,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_39_48_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "In addition, technology makes parental authority more difficult because parents must now control screen time, online friendships and unsuitable content.",
-            "chinese": "此外，科技使父母權威更難維持，因為父母現在必須管理螢幕時間、網上朋友關係和不適合的內容。"
+            "chinese": "此外，科技也令父母更難有效管教孩子，因為他們現在必須管理螢幕時間、網上朋友關係和不適合的內容。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "These rules can easily lead to arguments and mistrust, especially when children feel that parents are invading their private digital space.",
-            "chinese": "這些規則很容易導致爭吵和不信任，尤其是當孩子覺得父母正在侵犯他們的私人數位空間時。"
+            "chinese": "這些規則很容易導致爭吵和不信任，尤其是當孩子覺得父母正在侵犯他們的私人數碼空間時。"
           },
           {
             "label": "Conclusion（段落總結）",

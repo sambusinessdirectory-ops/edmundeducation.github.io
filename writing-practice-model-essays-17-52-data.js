@@ -13545,7 +13545,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
       "環境破壞已不再是一個遙遠的問題，而政府必須謹慎決定有限的公共資金應該投放到哪裡。有些人認為，本地環境問題應該獲得較少資金，這樣便可以把更多資源投放到全球暖化上。我完全不同意這個觀點，因為本地問題往往是對公共健康的即時威脅，同時也是更廣泛氣候危機的一部分。",
       "首先，本地環境問題並不會因為發生在我們身邊而變得微不足道。受污染的河流、惡劣的空氣質素、非法傾倒垃圾以及不安全的飲用水，對人們日常生活的傷害，遠比遙遠的氣候預測更加直接。如果地方議會和國家政府削減這些方面的開支，普通市民便可能要以呼吸系統疾病、受污染的社區和下降的生活水平作為代價。例如，一個忽視垃圾收集和排水系統的城市，在大雨過後可能很快便會面對水道堵塞、水浸和疾病問題。從這個意義上說，本地環境資金提供基本的公共保障，談不上奢侈。",
       "第二，應對全球暖化其實有賴於強而有力的本地行動。碳排放是在真實的街道、家庭、工廠和交通系統中產生的，而不是在某個抽象的全球場域中產生的。當政府投資於更清潔的巴士、更完善的回收系統、更節能的建築和城市綠化空間時，它們其實是在同時處理本地問題和氣候變化。因此，削減這些資金就像一邊試圖加固屋頂，一邊卻把房子的磚塊拆走。一個認真的氣候策略既需要國家層面的願景，也需要本地層面的實際執行。",
-      "總結來說，我強烈不同意政府應該把資金從本地環境問題上轉移走。全球暖化無疑是緊急問題，但它不能透過忽視那些保護社區和減少排放的較小型環境戰役來解決。更明智的做法是加強本地環境計劃，因為它們正是更廣泛氣候行動得以建立的。"
+      "總結來說，我強烈不同意政府應該把資金從本地環境問題上轉移走。全球暖化無疑是緊急問題，但它不能透過忽視那些保護社區和減少排放的較小型環境戰役來解決。更明智的做法是加強本地環境計劃，因為它們正是更廣泛氣候行動得以建立的基礎。"
     ],
     "translationSections": [
       {
@@ -13652,7 +13652,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
           {
             "label": "Final Judgement（最終判斷）",
             "english": "The wiser approach is to strengthen local environmental programmes, because they are the foundation on which broader climate action is built.",
-            "chinese": "更明智的做法是加強本地環境計劃，因為它們正是更廣泛氣候行動得以建立的。"
+            "chinese": "更明智的做法是加強本地環境計劃，因為它們正是更廣泛氣候行動得以建立的基礎。"
           }
         ]
       }
@@ -14206,41 +14206,40 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "title": "Standard Mode",
         "titleZh": "標準模式",
         "answers": [
-          "Environmental damage",
-          "global crisis",
-          "public health",
-          "wealthy countries",
-          "shoulder this burden",
-          "created much of the problem",
-          "poorer nations",
-          "bear no responsibility at all",
-          "strong case",
-          "heavier responsibility",
-          "rich countries",
-          "industrial expansion",
-          "engines of growth",
-          "environmental footprint",
-          "renewable energy",
-          "climate-resilient infrastructure",
-          "wealthy country",
-          "subsidise electric buses",
-          "flood defences",
-          "sacrificing basic services",
-          "fair return",
-          "poorer countries",
-          "step aside",
-          "spectator sport",
-          "pollution controls",
-          "short-term profit",
-          "proper waste systems",
-          "often irreversible",
-          "advanced technology",
-          "enforce basic rules",
-          "natural resources",
-          "dangerous message",
-          "greater historical responsibility",
-          "stronger capacity",
-          "shared responsibility"
+          "Wildlife protection",
+          "poverty and health care",
+          "governments and individuals",
+          "animals and habitats",
+          "healthy ecosystems",
+          "larger costs later",
+          "protecting habitats",
+          "basic services",
+          "keep water clean",
+          "food production",
+          "poorer households",
+          "unsafe water",
+          "restoring a wetland",
+          "nearby homes and clinics",
+          "gift to animals",
+          "protection for people",
+          "social welfare and wildlife",
+          "limited budgets",
+          "fund hospitals",
+          "abandon habitats",
+          "local people can be paid",
+          "responsible tourism",
+          "raise incomes",
+          "clean water",
+          "improved or replaced",
+          "urgent human services",
+          "investment helps people and nature",
+          "every pound",
+          "money for wildlife",
+          "poverty relief and health care",
+          "substantial funding",
+          "natural systems",
+          "public budgets and private donations",
+          "both people and wildlife"
         ]
       },
       {
@@ -14248,51 +14247,57 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "title": "Medium Difficulty Mode",
         "titleZh": "中等難度模式",
         "answers": [
-          "Environmental damage",
-          "local inconvenience",
-          "global crisis",
-          "public health",
-          "wealthy countries",
-          "shoulder this burden",
-          "created much of the problem",
-          "resources to fix it",
-          "understand this view",
-          "poorer nations",
-          "bear no responsibility at all",
-          "strong case",
-          "placing heavier responsibility",
-          "rich countries",
-          "built their prosperity",
-          "decades of industrial expansion",
-          "engines of growth",
-          "As a result",
-          "benefits of development",
-          "large environmental footprint",
-          "richer governments",
-          "renewable energy",
-          "cleaner transport",
-          "climate-resilient infrastructure",
-          "For example",
-          "subsidise electric buses",
-          "build flood defences",
-          "sacrificing basic services",
-          "fair return",
-          "step aside",
-          "spectator sport",
-          "developing nations",
-          "pollution controls",
-          "short-term profit",
-          "proper waste systems",
-          "often irreversible",
-          "advanced technology",
-          "enforce basic rules",
-          "protect natural resources",
-          "choose development plans",
-          "dangerous message",
-          "same mistakes",
-          "greater historical responsibility and stronger capacity",
-          "free from duty",
-          "shared responsibility"
+          "Wildlife protection can",
+          "than poverty and",
+          "public money is",
+          "Some people therefore",
+          "should redirect the",
+          "habitats to these",
+          "I largely disagree,",
+          "human well-being and",
+          "create larger costs",
+          "The first reason",
+          "habitats often protects",
+          "on which communities",
+          "Forests help keep",
+          "reduce flooding, while",
+          "insects support food",
+          "If such systems",
+          "households may face",
+          "and greater exposure",
+          "For example, restoring",
+          "protect wildlife while",
+          "nearby homes and",
+          "Conservation is therefore",
+          "to animals; in",
+          "practical protection for",
+          "A second reason",
+          "and wildlife as",
+          "choices about limited",
+          "Governments must fund",
+          "measures against poverty,",
+          "require them to",
+          "Well-designed projects can",
+          "can be paid",
+          "areas, or develop",
+          "These jobs can",
+          "the restored land",
+          "water and other",
+          "Where a conservation",
+          "be improved or",
+          "support urgent human",
+          "The right question",
+          "helps people and",
+          "should receive every",
+          "In conclusion, I",
+          "wildlife should generally",
+          "relief and health",
+          "Those needs deserve",
+          "would often weaken",
+          "communities safer and",
+          "The same principle",
+          "donations: fund essential",
+          "benefit both people"
         ]
       },
       {
@@ -14300,81 +14305,74 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "title": "Hard Difficulty Mode",
         "titleZh": "高難度模式",
         "answers": [
-          "Environmental damage",
-          "no longer",
-          "local inconvenience",
-          "global crisis",
-          "affecting climate",
-          "biodiversity and public health",
-          "Some argue",
-          "wealthy countries",
-          "shoulder this burden",
-          "created much of the problem",
-          "have the resources",
-          "fix it",
-          "understand this view",
-          "disagree",
-          "poorer nations",
-          "bear no responsibility at all",
-          "strong case",
-          "placing heavier responsibility",
-          "rich countries",
-          "built their prosperity",
-          "industrial expansion",
-          "heavy manufacturing",
-          "engines of growth",
-          "As a result",
-          "benefits of development",
-          "large environmental footprint",
-          "richer governments",
-          "money, technology and expertise",
-          "renewable energy",
-          "cleaner transport",
-          "climate-resilient infrastructure",
-          "For example",
-          "wealthy country",
-          "subsidise electric buses",
-          "build flood defences",
-          "sacrificing basic services",
-          "In this sense",
-          "fair return",
-          "advantages",
-          "already gained",
-          "However",
-          "does not follow",
-          "poorer countries",
-          "step aside",
-          "Environmental protection",
-          "spectator sport",
-          "developing nations",
-          "ignore pollution controls",
-          "destroy forests",
-          "short-term profit",
-          "allow cities to grow",
-          "proper waste systems",
-          "damage will still be real",
-          "often irreversible",
-          "poorer country",
-          "fund advanced technology",
-          "enforce basic rules",
-          "protect natural resources",
-          "choose development plans",
-          "poison its own land and water",
-          "To say",
-          "responsibility belongs only",
-          "rich nations",
-          "dangerous message",
-          "poverty gives governments permission",
-          "repeat the same mistakes",
-          "In conclusion",
-          "rich countries should lead",
-          "greater historical responsibility",
-          "stronger capacity",
-          "Nevertheless",
-          "poorer nations are free from duty",
-          "unequal contributions",
-          "shared responsibility",
-          "clean one river while muddying another"
+          "Wildlife protection can",
+          "seem less urgent",
+          "than poverty and",
+          "public money is",
+          "Some people therefore",
+          "that governments and",
+          "should redirect the",
+          "habitats to these",
+          "I largely disagree,",
+          "because healthy ecosystems",
+          "human well-being and",
+          "create larger costs",
+          "The first reason",
+          "is that protecting",
+          "habitats often protects",
+          "on which communities",
+          "Forests help keep",
+          "water clean and",
+          "reduce flooding, while",
+          "insects support food",
+          "If such systems",
+          "allowed to deteriorate,",
+          "households may face",
+          "and greater exposure",
+          "For example, restoring",
+          "a wetland can",
+          "protect wildlife while",
+          "nearby homes and",
+          "Conservation is therefore",
+          "not simply a",
+          "to animals; in",
+          "practical protection for",
+          "A second reason",
+          "that treating social",
+          "and wildlife as",
+          "choices about limited",
+          "Governments must fund",
+          "basic treatment, and",
+          "measures against poverty,",
+          "require them to",
+          "Well-designed projects can",
+          "both aims: local",
+          "can be paid",
+          "areas, or develop",
+          "These jobs can",
+          "raise incomes while",
+          "the restored land",
+          "water and other",
+          "Where a conservation",
+          "is wasteful, it",
+          "be improved or",
+          "support urgent human",
+          "The right question",
+          "is how each",
+          "helps people and",
+          "should receive every",
+          "In conclusion, I",
+          "disagree that money",
+          "wildlife should generally",
+          "relief and health",
+          "Those needs deserve",
+          "funding, but abandoning",
+          "would often weaken",
+          "communities safer and",
+          "The same principle",
+          "guide public budgets",
+          "donations: fund essential",
+          "benefit both people"
         ]
       },
       {
@@ -14382,52 +14380,91 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "title": "Hell Difficulty Mode",
         "titleZh": "地獄難度模式",
         "answers": [
-          "Environmental damage",
-          "no longer a local inconvenience",
-          "a global crisis",
-          "biodiversity and public health",
-          "wealthy countries should shoulder this burden",
-          "they have created much of the problem",
-          "have the resources to fix it",
-          "I understand this view",
-          "poorer nations should bear no responsibility at all",
-          "a strong case for placing heavier responsibility",
-          "rich countries",
-          "Many of them built their prosperity",
-          "through decades of industrial expansion",
-          "heavy manufacturing were treated as engines of growth",
-          "As a result, they enjoyed the benefits of development",
-          "a large environmental footprint",
-          "richer governments",
-          "usually have the money, technology and expertise",
-          "renewable energy, cleaner transport and climate-resilient infrastructure",
-          "a wealthy country can subsidise electric buses",
-          "build flood defences without sacrificing basic services",
-          "asking rich nations to lead is not charity",
-          "a fair return for the advantages they have already gained",
-          "it does not follow that poorer countries can step aside",
-          "is not a spectator sport",
-          "If developing nations ignore pollution controls",
-          "destroy forests for short-term profit",
-          "allow cities to grow without proper waste systems",
-          "damage will still be real and often irreversible",
-          "A poorer country may not be able to fund advanced technology",
-          "it can still enforce basic rules",
-          "protect natural resources",
-          "choose development plans",
-          "poison its own land and water",
-          "responsibility belongs only to rich nations",
-          "a dangerous message",
-          "poverty gives governments permission",
-          "repeat the same mistakes",
-          "wealthier nations once made",
-          "rich countries should lead",
-          "greater historical responsibility and stronger capacity",
-          "Nevertheless, I do not agree",
-          "poorer nations are free from duty",
-          "Global environmental problems require unequal contributions",
-          "shared responsibility",
-          "trying to clean one river while muddying another"
+          "Wildlife protection can",
+          "seem less urgent",
+          "than poverty and",
+          "health care when",
+          "public money is",
+          "Some people therefore",
+          "that governments and",
+          "should redirect the",
+          "spend on animals",
+          "habitats to these",
+          "I largely disagree,",
+          "because healthy ecosystems",
+          "human well-being and",
+          "cutting conservation funds",
+          "create larger costs",
+          "The first reason",
+          "is that protecting",
+          "habitats often protects",
+          "the basic services",
+          "on which communities",
+          "Forests help keep",
+          "water clean and",
+          "reduce flooding, while",
+          "soils and pollinating",
+          "insects support food",
+          "If such systems",
+          "allowed to deteriorate,",
+          "households may face",
+          "food prices, unsafe",
+          "and greater exposure",
+          "For example, restoring",
+          "a wetland can",
+          "protect wildlife while",
+          "reducing floods that",
+          "nearby homes and",
+          "Conservation is therefore",
+          "not simply a",
+          "to animals; in",
+          "many cases, it",
+          "practical protection for",
+          "A second reason",
+          "that treating social",
+          "and wildlife as",
+          "causes leads to",
+          "choices about limited",
+          "Governments must fund",
+          "basic treatment, and",
+          "measures against poverty,",
+          "that duty does",
+          "require them to",
+          "Well-designed projects can",
+          "both aims: local",
+          "can be paid",
+          "restore forests, manage",
+          "areas, or develop",
+          "These jobs can",
+          "raise incomes while",
+          "the restored land",
+          "to provide clean",
+          "water and other",
+          "Where a conservation",
+          "is wasteful, it",
+          "be improved or",
+          "and the savings",
+          "support urgent human",
+          "The right question",
+          "is how each",
+          "helps people and",
+          "nature, not which",
+          "should receive every",
+          "In conclusion, I",
+          "disagree that money",
+          "wildlife should generally",
+          "be moved to",
+          "relief and health",
+          "Those needs deserve",
+          "funding, but abandoning",
+          "would often weaken",
+          "natural systems that",
+          "communities safer and",
+          "The same principle",
+          "guide public budgets",
+          "donations: fund essential",
+          "supporting conservation projects",
+          "benefit both people"
         ]
       }
     ],
@@ -14437,17 +14474,17 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "sentences": [
           {
             "parts": [
-              "Environmental damage is no longer a local inconvenience but a global crisis, affecting climate, biodiversity and public health."
+              "Wildlife protection can seem less urgent than poverty and health care when public money is limited."
             ]
           },
           {
             "parts": [
-              "Some argue that wealthy countries should shoulder this burden because they have created much of the problem and have the resources to fix it."
+              "Some people therefore argue that governments and individuals should redirect the money they spend on animals and habitats to these human needs."
             ]
           },
           {
             "parts": [
-              "I understand this view, but I disagree that poorer nations should bear no responsibility at all."
+              "I largely disagree, because healthy ecosystems support human well-being and cutting conservation funds can create larger costs later."
             ]
           }
         ]
@@ -14457,32 +14494,27 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "sentences": [
           {
             "parts": [
-              "There is a strong case for placing heavier responsibility on rich countries."
+              "The first reason is that protecting habitats often protects the basic services on which communities depend."
             ]
           },
           {
             "parts": [
-              "Many of them built their prosperity through decades of industrial expansion, during which coal, oil and heavy manufacturing were treated as engines of growth."
+              "Forests help keep water clean and reduce flooding, while healthy soils and pollinating insects support food production."
             ]
           },
           {
             "parts": [
-              "As a result, they enjoyed the benefits of development while leaving a large environmental footprint."
+              "If such systems are allowed to deteriorate, poorer households may face higher food prices, unsafe water, and greater exposure to disease."
             ]
           },
           {
             "parts": [
-              "Moreover, richer governments usually have the money, technology and expertise needed to invest in renewable energy, cleaner transport and climate-resilient infrastructure."
+              "For example, restoring a wetland can help protect wildlife while also reducing floods that threaten nearby homes and clinics."
             ]
           },
           {
             "parts": [
-              "For example, a wealthy country can subsidise electric buses or build flood defences without sacrificing basic services."
-            ]
-          },
-          {
-            "parts": [
-              "In this sense, asking rich nations to lead is not charity; it is a fair return for the advantages they have already gained."
+              "Conservation is therefore not simply a gift to animals; in many cases, it is practical protection for people."
             ]
           }
         ]
@@ -14492,27 +14524,32 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "sentences": [
           {
             "parts": [
-              "However, it does not follow that poorer countries can step aside."
+              "A second reason is that treating social welfare and wildlife as rival causes leads to poor choices about limited budgets."
             ]
           },
           {
             "parts": [
-              "Environmental protection is not a spectator sport."
+              "Governments must fund hospitals, basic treatment, and effective measures against poverty, but that duty does not require them to abandon habitats."
             ]
           },
           {
             "parts": [
-              "If developing nations ignore pollution controls, destroy forests for short-term profit or allow cities to grow without proper waste systems, the damage will still be real and often irreversible."
+              "Well-designed projects can serve both aims: local people can be paid to restore forests, manage protected areas, or develop responsible tourism."
             ]
           },
           {
             "parts": [
-              "A poorer country may not be able to fund advanced technology, but it can still enforce basic rules, protect natural resources and choose development plans that do not poison its own land and water."
+              "These jobs can raise incomes while the restored land continues to provide clean water and other benefits."
             ]
           },
           {
             "parts": [
-              "To say that responsibility belongs only to rich nations also sends a dangerous message: that poverty gives governments permission to repeat the same mistakes that wealthier nations once made."
+              "Where a conservation scheme is wasteful, it should be improved or replaced, and the savings should support urgent human services."
+            ]
+          },
+          {
+            "parts": [
+              "The right question is how each investment helps people and nature, not which side should receive every pound."
             ]
           }
         ]
@@ -14522,27 +14559,27 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "sentences": [
           {
             "parts": [
-              "In conclusion, rich countries should lead because they have greater historical responsibility and stronger capacity."
+              "In conclusion, I disagree that money for wildlife should generally be moved to poverty relief and health care."
             ]
           },
           {
             "parts": [
-              "Nevertheless, I do not agree that poorer nations are free from duty."
+              "Those needs deserve substantial funding, but abandoning conservation would often weaken the natural systems that make communities safer and healthier."
             ]
           },
           {
             "parts": [
-              "Global environmental problems require unequal contributions but shared responsibility; otherwise, the world is trying to clean one river while muddying another."
+              "The same principle should guide public budgets and private donations: fund essential services while supporting conservation projects that clearly benefit both people and wildlife."
             ]
           }
         ]
       }
     ],
     "translation": [
-      "環境破壞已從局部不便，演變為影響氣候、生物多樣性及公共健康的全球危機。有人認為富裕國家應該承擔這項責任，因為它們造成了問題中的很大一部分，也擁有解決問題的資源。我理解這種觀點，但我不同意較貧困國家完全不需要承擔任何責任。",
-      "把更重的責任放在富裕國家身上，是有很強道理的。它們當中許多國家的繁榮，都是透過數十年的工業擴張建立起來的；在這段期間，煤炭、石油和重工業都被視為經濟增長的引擎。結果是，它們享受了發展帶來的好處，同時也留下了巨大的環境足跡。此外，較富裕的政府通常擁有投資可再生能源、更清潔交通和具氣候韌性基礎建設所需的資金、科技和專業知識。例如，一個富裕國家可以資助電動巴士，或興建防洪設施，而不需要犧牲基本公共服務。從這個意義上說，要求富裕國家帶頭行動，是要求它們合理回報已獲得的利益，與慈善有別。",
-      "然而，這並不代表較貧困國家就可以置身事外。環境保護不是一項旁觀者運動。如果發展中國家忽視污染管制、為短期利益而破壞森林，或容許城市在沒有完善廢物處理系統的情況下擴張，造成的破壞仍然是真實的，而且往往是不可逆轉的。一個較貧困的國家未必有能力資助先進科技，但它仍然可以執行基本規則、保護自然資源，並選擇不會毒害自身土地和水源的發展計劃。說責任只屬於富裕國家，也會傳遞一個危險訊息：貧窮似乎讓政府有權重複富裕國家曾經犯下的同樣錯誤。",
-      "總結來說，富裕國家應該帶頭，因為它們承擔更大的歷史責任，也擁有更強的能力。然而，我不同意較貧困國家可以完全免除責任。全球環境問題需要不平等的貢獻，但也需要共同承擔責任；否則，世界就像一邊清理一條河流，另一邊卻把另一條河弄髒。"
+      "當公共資金有限時，野生動物保護可能看似不及扶貧和醫療迫切。因此，有人認為政府與個人應把用於保護動物及棲息地的資金，轉用於這些人類基本需要。我大致不同意，因為健康的生態系統支撐人類福祉，而削減保育資金日後可能造成更大代價。",
+      "第一個原因是，保護棲息地往往也保護社區所依賴的基本服務。森林有助維持潔淨水源及減少洪水，而健康的土壤和傳粉昆蟲則支持糧食生產。如果任由這些系統退化，較貧困的家庭可能面對更高糧價、不安全飲水，以及更高的患病風險。例如，修復濕地可以幫助保護野生動物，同時減少威脅附近住戶和診所的洪水。因此，保育不只是送給動物的禮物；在許多情況下，它也是對人的實際保障。",
+      "第二個原因是，把社會福利與野生動物保護視為互相競爭的目標，會令有限預算作出欠妥選擇。政府必須資助醫院、基本治療和有效的扶貧措施，但這項責任不代表必須放棄棲息地。設計得宜的項目可以兼顧兩者：聘用本地居民修復森林、管理保護區，或發展負責任的旅遊。這些工作可以增加收入，而修復後的土地亦會繼續提供潔淨水源及其他益處。如果某個保育計劃浪費資源，就應改善或取代它，並把節省的資金用於迫切的人類服務。真正應問的是每項投資如何幫助人與自然，而不是哪一方應獲得所有資金。",
+      "總結來說，我不同意普遍把野生動物保育資金轉用於扶貧及醫療。這些需要值得大量撥款，但放棄保育往往會削弱令社區更安全、更健康的自然系統。同一原則應指引公共預算及私人捐款：資助必要服務，同時支持能清楚惠及人與野生動物的保育項目。"
     ],
     "translationSections": [
       {
@@ -14552,18 +14589,18 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "items": [
           {
             "label": "Background（背景）",
-            "english": "Environmental damage is no longer a local inconvenience but a global crisis, affecting climate, biodiversity and public health.",
-            "chinese": "環境破壞已從局部不便，演變為影響氣候、生物多樣性及公共健康的全球危機。"
+            "english": "Wildlife protection can seem less urgent than poverty and health care when public money is limited.",
+            "chinese": "當公共資金有限時，野生動物保護可能看似不及扶貧和醫療迫切。"
           },
           {
             "label": "Transitional Sentence（過渡句）",
-            "english": "Some argue that wealthy countries should shoulder this burden because they have created much of the problem and have the resources to fix it.",
-            "chinese": "有人認為富裕國家應該承擔這項責任，因為它們造成了問題中的很大一部分，也擁有解決問題的資源。"
+            "english": "Some people therefore argue that governments and individuals should redirect the money they spend on animals and habitats to these human needs.",
+            "chinese": "因此，有人認為政府與個人應把用於保護動物及棲息地的資金，轉用於這些人類基本需要。"
           },
           {
             "label": "Thesis Statement（中心論點）",
-            "english": "I understand this view, but I disagree that poorer nations should bear no responsibility at all.",
-            "chinese": "我理解這種觀點，但我不同意較貧困國家完全不需要承擔任何責任。"
+            "english": "I largely disagree, because healthy ecosystems support human well-being and cutting conservation funds can create larger costs later.",
+            "chinese": "我大致不同意，因為健康的生態系統支撐人類福祉，而削減保育資金日後可能造成更大代價。"
           }
         ]
       },
@@ -14574,33 +14611,28 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "items": [
           {
             "label": "Topic Sentence（主題句）",
-            "english": "There is a strong case for placing heavier responsibility on rich countries.",
-            "chinese": "把更重的責任放在富裕國家身上，是有很強道理的。"
+            "english": "The first reason is that protecting habitats often protects the basic services on which communities depend.",
+            "chinese": "第一個原因是，保護棲息地往往也保護社區所依賴的基本服務。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
-            "english": "Many of them built their prosperity through decades of industrial expansion, during which coal, oil and heavy manufacturing were treated as engines of growth.",
-            "chinese": "它們當中許多國家的繁榮，都是透過數十年的工業擴張建立起來的；在這段期間，煤炭、石油和重工業都被視為經濟增長的引擎。"
+            "english": "Forests help keep water clean and reduce flooding, while healthy soils and pollinating insects support food production.",
+            "chinese": "森林有助維持潔淨水源及減少洪水，而健康的土壤和傳粉昆蟲則支持糧食生產。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
-            "english": "As a result, they enjoyed the benefits of development while leaving a large environmental footprint.",
-            "chinese": "結果是，它們享受了發展帶來的好處，同時也留下了巨大的環境足跡。"
-          },
-          {
-            "label": "Supporting Detail 2（支持細節二）",
-            "english": "Moreover, richer governments usually have the money, technology and expertise needed to invest in renewable energy, cleaner transport and climate-resilient infrastructure.",
-            "chinese": "此外，較富裕的政府通常擁有投資可再生能源、更清潔交通和具氣候韌性基礎建設所需的資金、科技和專業知識。"
+            "english": "If such systems are allowed to deteriorate, poorer households may face higher food prices, unsafe water, and greater exposure to disease.",
+            "chinese": "如果任由這些系統退化，較貧困的家庭可能面對更高糧價、不安全飲水，以及更高的患病風險。"
           },
           {
             "label": "Example（例子）",
-            "english": "For example, a wealthy country can subsidise electric buses or build flood defences without sacrificing basic services.",
-            "chinese": "例如，一個富裕國家可以資助電動巴士，或興建防洪設施，而不需要犧牲基本公共服務。"
+            "english": "For example, restoring a wetland can help protect wildlife while also reducing floods that threaten nearby homes and clinics.",
+            "chinese": "例如，修復濕地可以幫助保護野生動物，同時減少威脅附近住戶和診所的洪水。"
           },
           {
             "label": "Conclusion（結論）",
-            "english": "In this sense, asking rich nations to lead is not charity; it is a fair return for the advantages they have already gained.",
-            "chinese": "從這個意義上說，要求富裕國家帶頭行動，是要求它們合理回報已獲得的利益，與慈善有別。"
+            "english": "Conservation is therefore not simply a gift to animals; in many cases, it is practical protection for people.",
+            "chinese": "因此，保育不只是送給動物的禮物；在許多情況下，它也是對人的實際保障。"
           }
         ]
       },
@@ -14611,28 +14643,33 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "items": [
           {
             "label": "Topic Sentence（主題句）",
-            "english": "However, it does not follow that poorer countries can step aside.",
-            "chinese": "然而，這並不代表較貧困國家就可以置身事外。"
+            "english": "A second reason is that treating social welfare and wildlife as rival causes leads to poor choices about limited budgets.",
+            "chinese": "第二個原因是，把社會福利與野生動物保護視為互相競爭的目標，會令有限預算作出欠妥選擇。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
-            "english": "Environmental protection is not a spectator sport.",
-            "chinese": "環境保護不是一項旁觀者運動。"
+            "english": "Governments must fund hospitals, basic treatment, and effective measures against poverty, but that duty does not require them to abandon habitats.",
+            "chinese": "政府必須資助醫院、基本治療和有效的扶貧措施，但這項責任不代表必須放棄棲息地。"
+          },
+          {
+            "label": "Example（例子）",
+            "english": "Well-designed projects can serve both aims: local people can be paid to restore forests, manage protected areas, or develop responsible tourism.",
+            "chinese": "設計得宜的項目可以兼顧兩者：聘用本地居民修復森林、管理保護區，或發展負責任的旅遊。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
-            "english": "If developing nations ignore pollution controls, destroy forests for short-term profit or allow cities to grow without proper waste systems, the damage will still be real and often irreversible.",
-            "chinese": "如果發展中國家忽視污染管制、為短期利益而破壞森林，或容許城市在沒有完善廢物處理系統的情況下擴張，造成的破壞仍然是真實的，而且往往是不可逆轉的。"
+            "english": "These jobs can raise incomes while the restored land continues to provide clean water and other benefits.",
+            "chinese": "這些工作可以增加收入，而修復後的土地亦會繼續提供潔淨水源及其他益處。"
           },
           {
-            "label": "Supporting Detail 2（支持細節二）",
-            "english": "A poorer country may not be able to fund advanced technology, but it can still enforce basic rules, protect natural resources and choose development plans that do not poison its own land and water.",
-            "chinese": "一個較貧困的國家未必有能力資助先進科技，但它仍然可以執行基本規則、保護自然資源，並選擇不會毒害自身土地和水源的發展計劃。"
+            "label": "Qualification（限制條件）",
+            "english": "Where a conservation scheme is wasteful, it should be improved or replaced, and the savings should support urgent human services.",
+            "chinese": "如果某個保育計劃浪費資源，就應改善或取代它，並把節省的資金用於迫切的人類服務。"
           },
           {
-            "label": "Logic Chain（邏輯鏈）",
-            "english": "To say that responsibility belongs only to rich nations also sends a dangerous message: that poverty gives governments permission to repeat the same mistakes that wealthier nations once made.",
-            "chinese": "說責任只屬於富裕國家，也會傳遞一個危險訊息：貧窮似乎讓政府有權重複富裕國家曾經犯下的同樣錯誤。"
+            "label": "Conclusion（結論）",
+            "english": "The right question is how each investment helps people and nature, not which side should receive every pound.",
+            "chinese": "真正應問的是每項投資如何幫助人與自然，而不是哪一方應獲得所有資金。"
           }
         ]
       },
@@ -14643,18 +14680,18 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
         "items": [
           {
             "label": "Reiterating Stance（重申立場）",
-            "english": "In conclusion, rich countries should lead because they have greater historical responsibility and stronger capacity.",
-            "chinese": "總結來說，富裕國家應該帶頭，因為它們承擔更大的歷史責任，也擁有更強的能力。"
+            "english": "In conclusion, I disagree that money for wildlife should generally be moved to poverty relief and health care.",
+            "chinese": "總結來說，我不同意普遍把野生動物保育資金轉用於扶貧及醫療。"
           },
           {
-            "label": "Reiterating Opinion（重申觀點）",
-            "english": "Nevertheless, I do not agree that poorer nations are free from duty.",
-            "chinese": "然而，我不同意較貧困國家可以完全免除責任。"
+            "label": "Reiterating Arguments（重申論點）",
+            "english": "Those needs deserve substantial funding, but abandoning conservation would often weaken the natural systems that make communities safer and healthier.",
+            "chinese": "這些需要值得大量撥款，但放棄保育往往會削弱令社區更安全、更健康的自然系統。"
           },
           {
             "label": "Final Thought（總結句）",
-            "english": "Global environmental problems require unequal contributions but shared responsibility; otherwise, the world is trying to clean one river while muddying another.",
-            "chinese": "全球環境問題需要不平等的貢獻，但也需要共同承擔責任；否則，世界就像一邊清理一條河流，另一邊卻把另一條河弄髒。"
+            "english": "The same principle should guide public budgets and private donations: fund essential services while supporting conservation projects that clearly benefit both people and wildlife.",
+            "chinese": "同一原則應指引公共預算及私人捐款：資助必要服務，同時支持能清楚惠及人與野生動物的保育項目。"
           }
         ]
       }
@@ -16113,7 +16150,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
     "exam": "IELTS Writing Task 2",
     "taskType": "Opinion",
     "questionPrompt": [
-      "Children these days have more freedom than in pervious generations.",
+      "Children these days have more freedom than in previous generations.",
       "Do you think this is a positive or negative development? (2021, 2023)"
     ],
     "practiceModes": [

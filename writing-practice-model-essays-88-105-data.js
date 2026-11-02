@@ -1441,10 +1441,10 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
       }
     ],
     "translation": [
-      "有些人認為，拳擊和武術等搏擊運動應該從電視和國際體育賽事中移除，因為它們涉及身體上的攻擊性。我完全不同意這個觀點。雖然這些運動必須受到謹慎規管，但禁止它們會是一種過度反應，而且誤解了它們的本質和社會價值。",
+      "有些人認為，拳擊和武術等搏擊運動應該從電視和國際體育賽事中移除，因為它們涉及肢體攻擊。我完全不同意這個觀點。雖然這些運動必須受到謹慎規管，但禁止它們會是一種過度反應，而且誤解了它們的本質和社會價值。",
       "第一個原因是，有組織的搏擊運動並不等同於失控的暴力。在街頭打鬥中，沒有規則、醫療檢查，也沒有清晰的限制。相比之下，職業拳擊、柔道、空手道和跆拳道都是建立在共同認可的規則、受訓裁判、保護程序和公平競賽之上的。這種結構把身體力量轉化為有紀律的競技。當觀眾觀看一場受到妥善監督的比賽時，他們看到的並不只是人們互相傷害；他們看到的是運動員控制恐懼、尊重界線，並以克制的態度接受勝利或失敗。例如，一位年輕觀眾看到裁判在其中一名選手有危險時中止比賽，便可以學到力量必須受到規則約束。把這些運動從電視上移除並不會消除社會中的攻擊性；這可能只是把人們的興趣推向較少受到規管的娛樂形式。",
-      "禁止它們出現在國際比賽中，也會對運動員不公平，並對整個體育界造成損害。許多搏擊運動都需要多年犧牲、技術訓練和心理紀律。對於來自較不優越背景的參賽者而言，這些賽事可以帶來收入、民族自豪感和個人尊嚴。此外，武術往往與文化傳統相連，而在這些傳統中，尊重、耐性和自我控制都是核心價值。如果它們被排除在全球性賽事之外，社會便會把投入訓練的運動員視為罪犯，而不是技術純熟的專業人士。更好的解決方法是改善安全標準、年齡指引和負責任的播放安排，而不是完全抹去這些運動。",
-      "總結來說，我強烈不同意搏擊運動應該被禁止出現在電視或國際比賽中。在適當規管之下，它們能夠促進紀律、機會和文化尊重，而這遠比一刀切的禁令更有效。"
+      "禁止它們出現在國際比賽中，也會對運動員不公平，並對整個體育界造成損害。許多搏擊運動都需要長年投入、技術訓練和心理自律。對於來自較缺乏資源的參賽者而言，這些賽事可以帶來收入、國家榮譽感和個人尊嚴。此外，武術往往與文化傳統相連，而在這些傳統中，尊重、耐性和自我控制都是核心價值。如果它們被排除在全球性賽事之外，社會便會把投入訓練的運動員視為罪犯，而不是技術純熟的專業人士。更好的解決方法是改善安全標準、年齡指引和負責任的播放安排，而不是全面取消這些運動。",
+      "總結來說，我強烈不同意搏擊運動應該被禁止出現在電視或國際比賽中。在適當規管之下，它們能夠培養自律、創造機會，並增進對文化的尊重，而這遠比一刀切的禁令更有效。"
     ],
     "translationSections": [
       {
@@ -1455,7 +1455,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Some people believe that combat sports such as boxing and martial arts should be removed from television and international sporting events because they involve physical aggression.",
-            "chinese": "有些人認為，拳擊和武術等搏擊運動應該從電視和國際體育賽事中移除，因為它們涉及身體上的攻擊性。"
+            "chinese": "有些人認為，拳擊和武術等搏擊運動應該從電視和國際體育賽事中移除，因為它們涉及肢體攻擊。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -1524,12 +1524,12 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Many combat sports require years of sacrifice, technical training, and mental discipline.",
-            "chinese": "許多搏擊運動都需要多年犧牲、技術訓練和心理紀律。"
+            "chinese": "許多搏擊運動都需要長年投入、技術訓練和心理自律。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "For competitors from less privileged backgrounds, these events can provide income, national pride, and personal dignity.",
-            "chinese": "對於來自較不優越背景的參賽者而言，這些賽事可以帶來收入、民族自豪感和個人尊嚴。"
+            "chinese": "對於來自較缺乏資源的參賽者而言，這些賽事可以帶來收入、國家榮譽感和個人尊嚴。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -1544,7 +1544,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Solution（解決方法）",
             "english": "A better solution is to improve safety standards, age guidance, and responsible broadcasting, not to erase the sports altogether.",
-            "chinese": "更好的解決方法是改善安全標準、年齡指引和負責任的播放安排，而不是完全抹去這些運動。"
+            "chinese": "更好的解決方法是改善安全標準、年齡指引和負責任的播放安排，而不是全面取消這些運動。"
           }
         ]
       },
@@ -1561,7 +1561,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Reiterating Argument（重申論點）",
             "english": "With proper regulation, they can promote discipline, opportunity, and cultural respect far more effectively than a blanket ban ever could.",
-            "chinese": "在適當規管之下，它們能夠促進紀律、機會和文化尊重，而這遠比一刀切的禁令更有效。"
+            "chinese": "在適當規管之下，它們能夠培養自律、創造機會，並增進對文化的尊重，而這遠比一刀切的禁令更有效。"
           }
         ]
       }
@@ -1981,9 +1981,9 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
     ],
     "translation": [
       "科技不但改變了人們溝通的方式，也改變了人們願意投入多少努力進行真正的社交接觸。我同意手機等發明正在使人們變得較少進行社交互動，因為它們往往削弱面對面溝通，並以快速而膚淺的交流取代有意義的對話。",
-      "第一個原因是，手機在社交場合中不斷爭奪人們的注意力。一個人可能身體上在飯桌旁、課室裡或工作場所中，但精神上卻被訊息、通知和網上內容拉走。當這種情況發生時，對話便會變得零碎：人們只用半邊耳朵聆聽、機械式地回應，並錯過那些使溝通變得溫暖而個人的細微表情。例如，現在很常見到朋友們一起坐在咖啡店裡，但每個人卻都靜靜地滑著自己的手機。他們共享著同一個空間，但其實並沒有真正共享同一個時刻。長遠而言，這種習慣會使直接互動變得較不自然，也較不被重視。",
-      "另一個重要問題是，手機鼓勵人們選擇方便，而不是真正投入地交流。傳送一則短訊或用一個表情符號作出反應，比起與某人見面、進行困難的討論，或透過定期交談建立關係，都要容易得多。這對年輕人尤其有害，因為他們需要練習理解肢體語言、處理分歧，以及自信地與他人交談。如果他們大部分溝通都是在螢幕背後進行，他們便可能變得較不習慣自然即興的面對面接觸。換言之，手機可以變成一種社交捷徑，但這種捷徑會慢慢削弱建立更深層人際連結所需要的能力。",
-      "總結來說，我同意現代科技，尤其是手機，正在減少人們的社交互動。它們使人們分心，不再專注於身邊的人，並令低成本的數位接觸感覺像是真實對話的替代品。雖然它們能讓我們快速連繫彼此，但它們也可能悄悄地使我們變得較不投入、較不專注，也較缺乏社交自信。"
+      "第一個原因是，手機在社交場合中不斷爭奪人們的注意力。一個人可能身體上在飯桌旁、課室裡或工作場所中，但精神上卻被訊息、通知和網上內容拉走。當這種情況發生時，對話便會變得零碎：人們只聽進一半、機械式地回應，並錯過那些使溝通變得溫暖而個人的細微表情。例如，現在很常見到朋友們一起坐在咖啡店裡，但每個人卻都靜靜地滑著自己的手機。他們身處同一個空間，卻沒有真正一起度過那一刻。長遠而言，這種習慣會使直接互動變得較不自然，也較不被重視。",
+      "另一個重要問題是，手機鼓勵人們選擇方便，而不是真正投入地交流。傳送一則短訊或用一個表情符號作出反應，比起與某人見面、進行困難的討論，或透過定期交談建立關係，都要容易得多。這對年輕人尤其有害，因為他們需要練習理解肢體語言、處理分歧，以及自信地與他人交談。如果他們大部分溝通都是在螢幕背後進行，他們便可能變得較不習慣即興的面對面交流。換言之，手機可以變成一種社交捷徑，但這種捷徑會慢慢削弱建立更深層人際連結所需要的能力。",
+      "總結來說，我同意現代科技，尤其是手機，正在減少人們的社交互動。它們使人們分心，不再專注於身邊的人，並令省力的數碼聯繫感覺像是真實對話的替代品。雖然它們能讓我們快速連繫彼此，但它們也可能悄悄地使我們變得較不投入、較不專注，也較缺乏社交自信。"
     ],
     "translationSections": [
       {
@@ -2021,7 +2021,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "When this happens, conversation becomes fragmented: people listen with half an ear, respond mechanically, and miss the small expressions that make communication warm and personal.",
-            "chinese": "當這種情況發生時，對話便會變得零碎：人們只用半邊耳朵聆聽、機械式地回應，並錯過那些使溝通變得溫暖而個人的細微表情。"
+            "chinese": "當這種情況發生時，對話便會變得零碎：人們只聽進一半、機械式地回應，並錯過那些使溝通變得溫暖而個人的細微表情。"
           },
           {
             "label": "Example（例子）",
@@ -2031,7 +2031,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Effect（影響）",
             "english": "They are sharing the same space, but not really sharing the same moment.",
-            "chinese": "他們共享著同一個空間，但其實並沒有真正共享同一個時刻。"
+            "chinese": "他們身處同一個空間，卻沒有真正一起度過那一刻。"
           },
           {
             "label": "Conclusion（段落總結）",
@@ -2063,7 +2063,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "If most of their communication takes place behind a screen, they may become less comfortable with spontaneous face-to-face contact.",
-            "chinese": "如果他們大部分溝通都是在螢幕背後進行，他們便可能變得較不習慣自然即興的面對面接觸。"
+            "chinese": "如果他們大部分溝通都是在螢幕背後進行，他們便可能變得較不習慣即興的面對面交流。"
           },
           {
             "label": "Conclusion（段落總結）",
@@ -2085,7 +2085,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "They distract people from those around them and make low-effort digital contact feel like a substitute for real conversation.",
-            "chinese": "它們使人們分心，不再專注於身邊的人，並令低成本的數位接觸感覺像是真實對話的替代品。"
+            "chinese": "它們使人們分心，不再專注於身邊的人，並令省力的數碼聯繫感覺像是真實對話的替代品。"
           },
           {
             "label": "Final Thought（總結句）",
