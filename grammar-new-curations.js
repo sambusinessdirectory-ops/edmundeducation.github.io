@@ -12,6 +12,42 @@
   const otherViews = '[data-tense-curation], [data-grammar-practice], [data-articles-curation], [data-articles-practice], [data-advanced-articles-curation], [data-advanced-articles-practice], [data-new-grammar-curation], [data-new-grammar-practice]';
   const allViews = [];
 
+  function addUnlessDialogue(view) {
+    const cards = view.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)");
+    cards.forEach((card, index) => {
+      const body = card.querySelector(".grammar-new-topic__content");
+      const note = body.lastElementChild?.tagName === "P" ? body.lastElementChild : null;
+      const figure = document.createElement("figure");
+      figure.className = "grammar-eddy-dialogue";
+      figure.dataset.rule = String(index + 1).padStart(2, "0");
+
+      const art = document.createElement("div");
+      art.className = "grammar-eddy-dialogue__art";
+      const image = document.createElement("img");
+      image.src = `assets/grammar/unless/eddy-${figure.dataset.rule}.webp`;
+      image.alt = "";
+      image.width = 1671;
+      image.height = 941;
+      image.loading = "lazy";
+      image.decoding = "async";
+      art.append(image);
+
+      const caption = document.createElement("figcaption");
+      caption.className = "grammar-eddy-dialogue__text";
+      const copy = document.createElement("span");
+      if (note) {
+        copy.append(...note.childNodes);
+        note.remove();
+      } else {
+        copy.textContent = "看看例句就清楚了！";
+      }
+      caption.append(copy);
+      if (copy.textContent.length > 110) figure.classList.add("grammar-eddy-dialogue--long");
+      figure.append(art, caption);
+      body.append(figure);
+    });
+  }
+
   function formatGuide(view) {
     const source = view.querySelector(".grammar-new-body");
     const stream = document.createElement("div");
@@ -89,6 +125,7 @@
       }
     }
     source.replaceChildren(intro, stream);
+    if (view.dataset.newGrammarCuration === "unless") addUnlessDialogue(view);
   }
 
   function setRoute(slug) {
