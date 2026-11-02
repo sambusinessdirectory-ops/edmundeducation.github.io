@@ -220,6 +220,46 @@
       : [...fact].slice(0, Math.floor(middle)).join('').length;
     return [fact.slice(0, at).trim(), fact.slice(at).trim()];
   }
+  function knowledgeTextFits(value) {
+    const copy = overlay.querySelector('.eddy-global-copy');
+    const main = copy.querySelector('strong');
+    main.textContent = value;
+    const box = copy.getBoundingClientRect();
+    const text = main.getBoundingClientRect();
+    const style = getComputedStyle(copy);
+    return text.top >= box.top + parseFloat(style.paddingTop) - 1
+      && text.bottom <= box.bottom - parseFloat(style.paddingBottom) + 1;
+  }
+  function paginateKnowledgeText(value) {
+    const pages = [];
+    let remaining = value.trim();
+    while (remaining) {
+      if (knowledgeTextFits(remaining)) { pages.push(remaining); break; }
+      const chars = Array.from(remaining);
+      let low = 1;
+      let high = chars.length - 1;
+      while (low < high) {
+        const middle = Math.ceil((low + high) / 2);
+        if (knowledgeTextFits(chars.slice(0, middle).join(''))) low = middle;
+        else high = middle - 1;
+      }
+      let cut = Math.max(1, low);
+      for (let at = cut; at > Math.max(0, cut - 25); at--) {
+        if (/[，；。！？,;.!?\s]/.test(chars[at - 1])) { cut = at; break; }
+      }
+      pages.push(chars.slice(0, cut).join('').trim());
+      remaining = chars.slice(cut).join('').trim();
+    }
+    return pages;
+  }
+  function paginateKnowledgeDialogue() {
+    active.factPages = [
+      ...splitFactPages(active.fact).flatMap(paginateKnowledgeText),
+      ...paginateKnowledgeText(active.opinion)
+    ];
+    active.factPageIndex = 0;
+    renderFactPage();
+  }
   function renderFactPage() {
     const page = active.factPages[active.factPageIndex];
     const main = overlay.querySelector('.eddy-global-copy strong');
@@ -386,13 +426,13 @@
         const facts = knowledgeEntries(next.kind);
         if (!Array.isArray(facts) || !facts.length) { active = null; overlay = null; continue; }
         const [fact, opinion] = pick(facts);
-        active.factPages = [...splitFactPages(fact), opinion];
-        active.factPageIndex = 0;
+        active.fact = fact;
+        active.opinion = opinion;
         overlay.dataset.eddyKnowledge = next.kind;
-        renderFactPage();
       }
       overlay.addEventListener('click', advanceOrDismiss);
       document.body.append(overlay);
+      if (isKnowledgeSurprise(next.kind)) paginateKnowledgeDialogue();
       overlay.querySelector('button').focus({ preventScroll: true });
       document.addEventListener('keydown', onKey, true);
       return;
