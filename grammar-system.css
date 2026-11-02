@@ -81,7 +81,7 @@
 .grammar-new-intro { max-width: 78ch; padding: 4px 0 18px; color: #4a6173; }
 .grammar-new-intro h3 { margin-top: 24px; }
 .grammar-new-stream { margin-top: 12px; }
-.grammar-new-chapter h3 { color: #fff; }
+.grammar-new-body .grammar-new-chapter h3 { color: #fff; margin: 0; }
 .grammar-new-topic { width: 100%; box-sizing: border-box; }
 .grammar-new-topic__content { margin-top: 15px; }
 .grammar-new-topic__content > :first-child { margin-top: 0; }
