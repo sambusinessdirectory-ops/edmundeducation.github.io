@@ -42,6 +42,14 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(section.hidden, false);
   assert.equal(section.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)").length, lesson.count);
   assert.equal(section.querySelectorAll(".grammar-new-chapter").length, lesson.chapters.length);
+  const dialogues = section.querySelectorAll(".grammar-eddy-dialogue");
+  assert.equal(dialogues.length, lesson.slug === "unless" ? 24 : 0);
+  if (lesson.slug === "unless") {
+    assert.deepEqual([...dialogues].map((dialogue) => dialogue.dataset.rule), Array.from({ length: 24 }, (_, i) => String(i + 1).padStart(2, "0")));
+    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp`));
+    assert.match(dialogues[20].querySelector("figcaption").textContent, /短答能依賴前一句/);
+    assert.equal(dialogues[23].querySelector("figcaption").textContent, "看看例句就清楚了！");
+  }
   assert.ok([...section.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)")].every((card) => card.dataset.scrollVisible === "true" && card.querySelector(".grammar-articles-topic__head > span")));
   assert.equal(document.querySelectorAll("[data-new-grammar-curation]:not([hidden])").length, 1);
   assert.equal(document.querySelector("[data-grammar-library]").hidden, true);
