@@ -69,6 +69,9 @@
       const figure = document.createElement("figure");
       figure.className = `grammar-eddy-dialogue${isIndefinite ? " grammar-eddy-dialogue--indefinite" : ""}`;
       figure.dataset.rule = String(index + 1).padStart(2, "0");
+      const eddyAside = isIndefinite && figure.dataset.rule === "05";
+      if (eddyAside) figure.classList.add("grammar-eddy-dialogue--eddy-aside");
+      if (isIndefinite && figure.dataset.rule === "08") figure.classList.add("grammar-eddy-dialogue--eddy-compact");
 
       const art = document.createElement("div");
       art.className = "grammar-eddy-dialogue__art";
@@ -92,7 +95,7 @@
       image.height = 941;
       image.loading = "lazy";
       image.decoding = "async";
-      if (!isIndefinite) art.append(image);
+      if (!eddyAside) art.append(image);
 
       const caption = document.createElement("figcaption");
       caption.className = "grammar-eddy-dialogue__text";
@@ -112,7 +115,7 @@
       if (chalkCopy.textContent.length > 260 || chalkCopy.querySelector("table") || chalkCopy.querySelectorAll("li").length > 3) {
         figure.classList.add("grammar-eddy-dialogue--dense");
       }
-      if (isIndefinite) figure.append(art, image, caption);
+      if (eddyAside) figure.append(art, image, caption);
       else figure.append(art, caption);
       card.replaceChildren(figure);
     });

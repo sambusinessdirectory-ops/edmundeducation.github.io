@@ -101,8 +101,9 @@
 }
 .grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: min(52%, 510px); height: auto; clip-path: inset(0 0 40% 0); pointer-events: none; }
 .grammar-eddy-dialogue--indefinite { width: min(100%, 1170px); }
-.grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art { width: calc(100% - 190px); }
-.grammar-eddy-dialogue--indefinite > img {
+.grammar-eddy-dialogue--eddy-compact .grammar-eddy-dialogue__art > img { width: min(43%, 390px); }
+.grammar-eddy-dialogue--eddy-aside .grammar-eddy-dialogue__art { width: calc(100% - 190px); }
+.grammar-eddy-dialogue--eddy-aside > img {
   position: absolute;
   z-index: 2;
   right: 0;
@@ -230,11 +231,13 @@
   .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.4; }
   .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { inset: auto 0 30px auto; }
   .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 38% 5%; font-size: clamp(14px, 3.5vw, 16px); }
-  .grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art { width: 100%; aspect-ratio: 1 / 1.4; }
-  .grammar-eddy-dialogue--indefinite.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.8; }
-  .grammar-eddy-dialogue--indefinite > img { right: 0; bottom: 105px; width: min(62%, 260px); }
-  .grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__lesson { inset: 5% 5% 55% 5%; }
-  .grammar-eddy-dialogue--indefinite.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 50% 5%; }
+  .grammar-eddy-dialogue--eddy-compact .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.35; }
+  .grammar-eddy-dialogue--eddy-compact .grammar-eddy-dialogue__art > img { inset: auto 0 100px auto; width: min(62%, 240px); }
+  .grammar-eddy-dialogue--eddy-aside .grammar-eddy-dialogue__art { width: 100%; aspect-ratio: 1 / 1.4; }
+  .grammar-eddy-dialogue--eddy-aside.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.8; }
+  .grammar-eddy-dialogue--eddy-aside > img { right: 0; bottom: 105px; width: min(62%, 260px); }
+  .grammar-eddy-dialogue--eddy-aside .grammar-eddy-dialogue__lesson { inset: 5% 5% 55% 5%; }
+  .grammar-eddy-dialogue--eddy-aside.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 50% 5%; }
 }
 .grammar-new-appendix { padding-top: clamp(24px, 3vw, 38px); }
 .grammar-new-appendix .grammar-new-table-wrap { margin: 0; }
