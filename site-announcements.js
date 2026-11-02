@@ -15,6 +15,11 @@
   let announcements = [];
   let currentIndex = 0;
   let stopCarousel = () => {};
+  window.EdmundSiteAnnouncementsPending = true;
+
+  function finishOpeningAnnouncements() {
+    window.EdmundSiteAnnouncementsPending = false;
+  }
 
   function waitForHomepageVisible() {
     if (!document.body.classList.contains("is-homepage-loading")) return Promise.resolve();
@@ -107,7 +112,10 @@
       stopCarousel();
       currentIndex += 1;
       if (currentIndex < announcements.length) render(dialog);
-      else dialog.close();
+      else {
+        dialog.close();
+        finishOpeningAnnouncements();
+      }
     });
     document.body.append(dialog);
     return dialog;
@@ -154,9 +162,12 @@
         await waitForEddyGreetings();
         if (window.EdmundEddyGlobalDialogue?.suppressOtherDialogues()) return;
         render(createDialog());
+      } else {
+        finishOpeningAnnouncements();
       }
     } catch {
       // Announcements are helpful but must never block the public homepage.
+      finishOpeningAnnouncements();
     }
   }
 
