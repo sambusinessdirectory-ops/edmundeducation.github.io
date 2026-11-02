@@ -1,9 +1,10 @@
 (() => {
   'use strict';
   const data = window.EDMUND_INDEFINITE_PRONOUNS;
+  const references = window.EDMUND_INDEFINITE_ANSWERS;
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   const library = dashboard?.querySelector('[data-grammar-library]');
-  if (!data || !dashboard || !library || data.exercises?.length !== 250) return;
+  if (!data || !dashboard || !library || data.exercises?.length !== 250 || references?.length !== 250 || references.some((item, index) => item.number !== index + 1 || !item.answer || !item.explanation)) return;
   const slug = data.guide.slug;
   const card = [...library.querySelectorAll('.grammar-lesson-card--new-curation')].find(el => el.textContent.includes(data.guide.english));
   const guide = dashboard.querySelector(`[data-new-grammar-curation="${slug}"]`);
@@ -51,7 +52,7 @@
   view.className = 'panel grammar-practice grammar-indefinite-practice';
   view.dataset.newGrammarPractice = slug;
   view.hidden = true;
-  view.innerHTML = `<div class="grammar-practice__head"><div><button type="button" class="grammar-button--ghost" data-back-guide>← 返回導讀</button><button type="button" class="grammar-button--ghost" data-back-library>返回語法目錄</button><p class="eyebrow">MODULE 07 · INDEFINITE PRONOUNS</p><h2>逐題練習 · 250 題</h2><p>依題目指示選詞、改寫、解釋或寫作。原檔為學生版，未附答案；此處保存作答，不作自動評分。</p></div><div class="grammar-practice__summary"><strong data-count>0</strong><span>/ 250<br>已完成</span></div></div><div class="grammar-progress" role="progressbar" aria-label="已完成進度" aria-valuemin="0" aria-valuemax="250" aria-valuenow="0"><span data-progress></span></div><div class="grammar-navigator"><div class="grammar-navigator__bar"><label>題目範圍 <select class="grammar-range-select" data-range></select></label><span>可隨時返回修改答案。</span></div><div class="grammar-number-grid" data-numbers></div></div><article class="grammar-question"><div class="grammar-question__meta"><span class="grammar-question__number" data-number></span><span data-section></span></div><p class="grammar-question__prompt" lang="en" data-prompt></p><p class="grammar-question__translation" lang="zh-Hant" data-translation></p><label class="grammar-indefinite-answer">我的答案<textarea rows="5" data-answer spellcheck="true"></textarea></label><div class="grammar-indefinite-actions"><button type="button" class="grammar-button grammar-button--primary" data-finish>標記完成</button><button type="button" class="grammar-button--ghost" data-unfinish>取消完成</button><button type="button" class="grammar-button--ghost" data-backup hidden>下載作答備份</button></div><p class="grammar-save-status" role="status" aria-live="polite" data-status>正在載入作答…</p></article><nav class="grammar-nav" aria-label="題目導覽"><button type="button" data-prev>← 上一題</button><button type="button" data-next>下一題 →</button></nav>`;
+  view.innerHTML = `<div class="grammar-practice__head"><div><button type="button" class="grammar-button--ghost" data-back-guide>← 返回導讀</button><button type="button" class="grammar-button--ghost" data-back-library>返回語法目錄</button><p class="eyebrow">MODULE 07 · INDEFINITE PRONOUNS</p><h2>逐題練習 · 250 題</h2><p>依題目指示選詞、改寫、解釋或寫作。原學生版未附答案；提交後可查看本頁編寫的參考答案與解析，不作自動評分。</p></div><div class="grammar-practice__summary"><strong data-count>0</strong><span>/ 250<br>已完成</span></div></div><div class="grammar-progress" role="progressbar" aria-label="已完成進度" aria-valuemin="0" aria-valuemax="250" aria-valuenow="0"><span data-progress></span></div><div class="grammar-navigator"><div class="grammar-navigator__bar"><label>題目範圍 <select class="grammar-range-select" data-range></select></label><span>可隨時返回修改答案。</span></div><div class="grammar-number-grid" data-numbers></div></div><article class="grammar-question"><div class="grammar-question__meta"><span class="grammar-question__number" data-number></span><span data-section></span></div><p class="grammar-question__prompt" lang="en" data-prompt></p><p class="grammar-question__translation" lang="zh-Hant" data-translation></p><label class="grammar-indefinite-answer">我的答案<textarea rows="5" data-answer spellcheck="true"></textarea></label><div class="grammar-indefinite-actions"><button type="button" class="grammar-button grammar-button--primary" data-finish>完成並查看參考答案與解析</button><button type="button" class="grammar-button--ghost" data-unfinish>重新作答</button><button type="button" class="grammar-button--ghost" data-backup hidden>下載作答備份</button></div><section class="grammar-indefinite-reveal" data-reveal hidden aria-labelledby="grammar-indefinite-reveal-heading"><p class="grammar-indefinite-reveal__eyebrow">REVIEW · 對照學習</p><h3 id="grammar-indefinite-reveal-heading">參考答案與解析</h3><p class="grammar-indefinite-reveal__provenance">原學生版未附答案。以下是本頁編寫的參考作答；開放式題目可以有其他正確答案。</p><div class="grammar-indefinite-reveal__answer"><span>參考答案</span><p lang="en" data-model-answer></p></div><div class="grammar-indefinite-reveal__explanation"><span>解析</span><p lang="zh-Hant" data-model-explanation></p></div><button type="button" class="grammar-button--ghost" data-related-topic>閱讀對應語法導讀 ↗</button></section><p class="grammar-save-status" role="status" aria-live="polite" data-status>正在載入作答…</p></article><nav class="grammar-nav" aria-label="題目導覽"><button type="button" data-prev>← 上一題</button><button type="button" data-next>下一題 →</button></nav>`;
   dashboard.append(view);
   const get = selector => view.querySelector(selector);
   const status = get('[data-status]');
@@ -68,6 +69,7 @@
   }
   function render() {
     const q = data.exercises[state.question - 1];
+    const reference = references[state.question - 1];
     const count = Object.keys(state.done).filter(n => state.done[n]).length;
     get('[data-number]').textContent = `第 ${q.number} / 250 題`;
     get('[data-section]').textContent = q.section;
@@ -87,6 +89,10 @@
     get('[data-next]').disabled = q.number === 250;
     get('[data-unfinish]').hidden = !state.done[q.number];
     get('[data-finish]').hidden = Boolean(state.done[q.number]);
+    get('[data-reveal]').hidden = !state.done[q.number];
+    get('[data-model-answer]').textContent = reference.answer;
+    get('[data-model-explanation]').textContent = reference.explanation;
+    get('[data-related-topic]').dataset.topic = reference.topic;
     if (!view.hidden) setRoute(true);
   }
   async function open(number = state.question) {
@@ -99,7 +105,7 @@
   practiceButton.addEventListener('click', () => open());
   guideButton.addEventListener('click', () => open());
   get('[data-answer]').addEventListener('input', event => { state.drafts[state.question] = event.target.value; save(); });
-  get('[data-finish]').addEventListener('click', () => { if (!String(state.drafts[state.question] || '').trim()) { status.textContent = '請先寫下答案。'; return; } state.done[state.question] = true; render(); save(); });
+  get('[data-finish]').addEventListener('click', () => { if (!String(state.drafts[state.question] || '').trim()) { status.textContent = '請先寫下答案。'; return; } state.done[state.question] = true; render(); save(); get('[data-reveal]').scrollIntoView({ behavior: 'smooth', block: 'nearest' }); });
   get('[data-unfinish]').addEventListener('click', () => { delete state.done[state.question]; render(); save(); });
   get('[data-numbers]').addEventListener('click', event => { const button = event.target.closest('[data-go]'); if (button) { state.question = Number(button.dataset.go); render(); save(); } });
   get('[data-range]').addEventListener('change', event => { state.question = Number(event.target.value); render(); save(); });
@@ -111,6 +117,12 @@
     setTimeout(() => URL.revokeObjectURL(url), 1000);
   });
   get('[data-back-guide]').addEventListener('click', () => { view.hidden = true; card.querySelector('.grammar-lesson-card__stats button').click(); });
+  get('[data-related-topic]').addEventListener('click', event => {
+    const target = guide.querySelector(`#${slug}-topic-${event.currentTarget.dataset.topic}`);
+    view.hidden = true;
+    card.querySelector('.grammar-lesson-card__stats button').click();
+    (target || guide).scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
   get('[data-back-library]').addEventListener('click', () => { view.hidden = true; library.hidden = false; setRoute(false); library.scrollIntoView({ behavior: 'instant', block: 'start' }); });
   window.addEventListener('edmund:learning-portal-session', event => { if (event.detail?.portalId !== 'grammar') return; account = event.detail.user?.id || 'guest'; ready = load(); });
   ready = load();
