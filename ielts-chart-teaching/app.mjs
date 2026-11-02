@@ -81,6 +81,7 @@ function applyMarks(){
   const members=(marks[el.dataset.mark]||[]).map(id=>palette.find(p=>p.id===id)).filter(Boolean);const p=members[0];el.classList.toggle('coloured',!!p);
   el.classList.toggle('multi-group',members.length>1);
   el.style.setProperty('--group-glow',members.slice(1).map((group,i)=>`0 0 0 ${2+i*2}px ${group.color}, 0 0 ${9+i*3}px ${1+i}px ${group.color}99`).join(','));
+  el.style.setProperty('--group-svg-glow',members.slice(1).map((group,i)=>`drop-shadow(0 0 ${2+i}px ${group.color}) drop-shadow(0 0 ${5+i*2}px ${group.color}cc)`).join(' ')||'none');
   el.style.setProperty('--colour',p?.color||'');el.style.setProperty('--tint',p?.tint||'');
   const selected=operands.some(item=>item.id===el.dataset.number);
   el.classList.toggle('organized-data',mode==='organize'&&organization.includes(el.dataset.number));
