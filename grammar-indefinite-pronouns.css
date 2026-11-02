@@ -1,0 +1,7 @@
+.grammar-indefinite-practice .grammar-question { max-width: 1050px; }
+.grammar-indefinite-practice .grammar-question__prompt { white-space: pre-wrap; }
+.grammar-indefinite-answer { display: grid; gap: 10px; margin: 22px 0; color: #203b50; font-weight: 800; }
+.grammar-indefinite-answer textarea { width: 100%; min-height: 145px; resize: vertical; padding: 16px; border: 1px solid #bcced9; border-radius: 14px; background: #fff; color: #203b50; font: 500 18px/1.65 system-ui, sans-serif; box-sizing: border-box; }
+.grammar-indefinite-answer textarea:focus-visible { outline: 3px solid #92c0d4; outline-offset: 2px; }
+.grammar-indefinite-actions { display: flex; flex-wrap: wrap; gap: 12px; align-items: center; }
+.grammar-indefinite-actions [hidden] { display: none !important; }

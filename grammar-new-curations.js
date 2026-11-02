@@ -2,6 +2,9 @@
   "use strict";
 
   const lessons = window.EDMUND_GRAMMAR_NEW_CURATIONS_DATA;
+  if (Array.isArray(lessons) && window.EDMUND_INDEFINITE_PRONOUNS?.guide && !lessons.some((lesson) => lesson.slug === 'indefinite-pronouns')) {
+    lessons.push(window.EDMUND_INDEFINITE_PRONOUNS.guide);
+  }
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   const library = dashboard?.querySelector('[data-grammar-library]');
   if (!dashboard || !library || !Array.isArray(lessons)) return;
@@ -21,7 +24,7 @@
     let appendix = null;
 
     for (const node of [...source.children]) {
-      const heading = node.tagName === "H3" && node.textContent.match(/^([SMU])(\d{2})｜(.+)$/);
+      const heading = node.tagName === "H3" && node.textContent.match(/^(S|M|U|IP)(\d{2})｜(.+)$/);
       if (node.tagName === "H2") {
         chapter = node.textContent;
         const divider = document.createElement("div");
@@ -119,7 +122,7 @@
   lessons.forEach((lesson, index) => {
     const card = document.createElement("article");
     card.className = "grammar-lesson-card grammar-lesson-card--new-curation";
-    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · CURATION + 150 QUESTIONS</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 150 題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
+    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · CURATION + ${lesson.practiceCount || 150} QUESTIONS</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 ${lesson.practiceCount || 150} 題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
     library.append(card);
 
     const view = document.createElement("section");

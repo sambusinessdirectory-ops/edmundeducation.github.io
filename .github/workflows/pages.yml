@@ -203,6 +203,17 @@ jobs:
           node --check grammar-three-sets.js
           node --check study-highlighter-bootstrap.mjs
           node tools/test-grammar-three-sets.mjs
+          node --check grammar-indefinite-pronouns-data.js
+          node --check grammar-indefinite-pronouns.js
+          node tools/test-indefinite-pronouns-data.mjs
+
+      - name: Validate focused Error Identifier release
+        if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[error-id-release]') }}
+        run: |
+          node --check error-identifier-jayden-questions.js
+          node --check error-identifier-jayden.js
+          node --check error-identifier-indefinite.js
+          node tools/test-indefinite-pronouns-data.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[native-release]') }}
