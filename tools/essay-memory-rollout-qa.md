@@ -8,6 +8,7 @@ Status on 2026-11-02: **288 canonical source bundles prepared; four full lessons
 - Four existing lessons have individually reviewed teaching support: Opinion 80, Opinion 3, Discuss Both Views 4, and Cause / Solution 2.
 - The other 284 essays have individual source bundles in `essay-memory-lessons/`. The full catalogue has 4,387 English and Traditional Chinese sentence records: 3,792 Task 2 and 595 Task 1. Each bundle has sentence roles, medium-fill answers, and exact narration word timings; Task 1 bundles also have question images.
 - `tools/build-essay-memory-lessons.js` rejects missing source records, translations, medium answers, Task 1 question images, duplicate keys, and word mismatches with narration. The build completed for all 288 essays. This verifies source integrity, not teaching quality.
+- `tools/audit-essay-memory-release.mjs` checks source completeness and reviewed-support shape across the full catalogue. Its current ledger reports 288 source-ready essays, four released lessons, and 284 unpublished lessons. `--require-complete` fails until every lesson passes the release gate.
 
 ## Why the other lessons are not linked to students yet
 

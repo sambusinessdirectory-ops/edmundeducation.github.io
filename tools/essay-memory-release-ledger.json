@@ -1,0 +1,3173 @@
+{
+  "summaries": {
+    "total": 288,
+    "sourceSentences": 4387,
+    "sourceReady": 288,
+    "released": 4,
+    "supportPresent": 4,
+    "unpublished": 284,
+    "reviewedSupportPassing": 4
+  },
+  "lessons": [
+    {
+      "key": "task1-bar-charts:1",
+      "id": "model-essay-1-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:2",
+      "id": "model-essay-2-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:3",
+      "id": "model-essay-3-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 8,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:4",
+      "id": "model-essay-4-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:5",
+      "id": "model-essay-5-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:6",
+      "id": "model-essay-6-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:7",
+      "id": "model-essay-7-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-bar-charts:8",
+      "id": "model-essay-8-ielts-task1-bar-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 8,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:1",
+      "id": "model-essay-1-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:2",
+      "id": "model-essay-2-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:3",
+      "id": "model-essay-3-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:4",
+      "id": "model-essay-4-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:5",
+      "id": "model-essay-5-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:6",
+      "id": "model-essay-6-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:7",
+      "id": "model-essay-7-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 8,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:8",
+      "id": "model-essay-8-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-line-graph:9",
+      "id": "model-essay-9-ielts-task1-line-graph",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:1",
+      "id": "model-essay-1-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:2",
+      "id": "model-essay-2-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:3",
+      "id": "model-essay-3-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:4",
+      "id": "model-essay-4-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:5",
+      "id": "model-essay-5-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:6",
+      "id": "model-essay-6-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:7",
+      "id": "model-essay-7-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:8",
+      "id": "model-essay-8-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:9",
+      "id": "model-essay-9-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-maps:10",
+      "id": "model-essay-10-ielts-task1-maps",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:1",
+      "id": "model-essay-1-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:2",
+      "id": "model-essay-2-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 8,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:3",
+      "id": "model-essay-3-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:4",
+      "id": "model-essay-4-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 8,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:5",
+      "id": "model-essay-5-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:6",
+      "id": "model-essay-6-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-mixed-charts:7",
+      "id": "model-essay-7-ielts-task1-mixed-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-pie-charts:1",
+      "id": "model-essay-1-ielts-task1-pie-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-pie-charts:2",
+      "id": "model-essay-2-ielts-task1-pie-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-pie-charts:3",
+      "id": "model-essay-3-ielts-task1-pie-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-pie-charts:4",
+      "id": "model-essay-4-ielts-task1-pie-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-pie-charts:5",
+      "id": "model-essay-5-ielts-task1-pie-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-pie-charts:6",
+      "id": "model-essay-6-ielts-task1-pie-charts",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:1",
+      "id": "model-essay-1-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:2",
+      "id": "model-essay-2-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:3",
+      "id": "model-essay-3-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:4",
+      "id": "model-essay-4-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:5",
+      "id": "model-essay-5-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:6",
+      "id": "model-essay-6-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:7",
+      "id": "model-essay-7-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:8",
+      "id": "model-essay-8-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-process-diagram:9",
+      "id": "model-essay-9-ielts-task1-process-diagram",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:1",
+      "id": "model-essay-1-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:2",
+      "id": "model-essay-2-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:3",
+      "id": "model-essay-3-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:4",
+      "id": "model-essay-4-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:5",
+      "id": "model-essay-5-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:6",
+      "id": "model-essay-6-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:7",
+      "id": "model-essay-7-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 11,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:8",
+      "id": "model-essay-8-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:9",
+      "id": "model-essay-9-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:10",
+      "id": "model-essay-10-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 10,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "task1-tables:11",
+      "id": "model-essay-11-ielts-task1-tables",
+      "exam": "IELTS Writing Task 1",
+      "sourceSentences": 9,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:2",
+      "id": "model-essay-2-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:3",
+      "id": "model-essay-3-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 23,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:4",
+      "id": "model-essay-4-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:5",
+      "id": "model-essay-5-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:6",
+      "id": "model-essay-6-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:7",
+      "id": "model-essay-7-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:8",
+      "id": "model-essay-8-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:9",
+      "id": "model-essay-9-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:10",
+      "id": "model-essay-10-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:11",
+      "id": "model-essay-11-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:12",
+      "id": "model-essay-12-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:14",
+      "id": "model-essay-14-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 22,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:15",
+      "id": "model-essay-15-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:16",
+      "id": "model-essay-16-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:17",
+      "id": "model-essay-17-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 20,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:18",
+      "id": "model-essay-18-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:19",
+      "id": "model-essay-19-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:20",
+      "id": "model-essay-20-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:21",
+      "id": "model-essay-21-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:22",
+      "id": "model-essay-22-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:23",
+      "id": "model-essay-23-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:24",
+      "id": "model-essay-24-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 23,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:25",
+      "id": "model-essay-25-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:26",
+      "id": "model-essay-26-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:27",
+      "id": "model-essay-27-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:28",
+      "id": "model-essay-28-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 22,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:29",
+      "id": "model-essay-29-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "advantage-disadvantage:30",
+      "id": "model-essay-30-ielts-advantage-disadvantage",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:2",
+      "id": "model-essay-2-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": true,
+      "teachingSupportPresent": true,
+      "issues": []
+    },
+    {
+      "key": "cause-solution:3",
+      "id": "model-essay-3-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:4",
+      "id": "model-essay-4-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:6",
+      "id": "model-essay-6-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:7",
+      "id": "model-essay-7-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:9",
+      "id": "model-essay-9-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:10",
+      "id": "model-essay-10-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:11",
+      "id": "model-essay-11-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 21,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:12",
+      "id": "model-essay-12-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:13",
+      "id": "model-essay-13-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:14",
+      "id": "model-essay-14-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:15",
+      "id": "model-essay-15-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:16",
+      "id": "model-essay-16-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:17",
+      "id": "model-essay-17-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:18",
+      "id": "model-essay-18-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:19",
+      "id": "model-essay-19-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "cause-solution:20",
+      "id": "model-essay-20-ielts-cause-solution",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:2",
+      "id": "model-essay-2-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:3",
+      "id": "model-essay-3-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:4",
+      "id": "model-essay-4-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:5",
+      "id": "model-essay-5-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:6",
+      "id": "model-essay-6-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:7",
+      "id": "model-essay-7-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:8",
+      "id": "model-essay-8-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:9",
+      "id": "model-essay-9-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:10",
+      "id": "model-essay-10-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:11",
+      "id": "model-essay-11-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:12",
+      "id": "model-essay-12-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:13",
+      "id": "model-essay-13-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:14",
+      "id": "model-essay-14-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:15",
+      "id": "model-essay-15-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:16",
+      "id": "model-essay-16-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:17",
+      "id": "model-essay-17-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:18",
+      "id": "model-essay-18-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:25",
+      "id": "model-essay-25-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:26",
+      "id": "model-essay-26-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:27",
+      "id": "model-essay-27-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:28",
+      "id": "model-essay-28-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:29",
+      "id": "model-essay-29-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:30",
+      "id": "model-essay-30-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:31",
+      "id": "model-essay-31-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:32",
+      "id": "model-essay-32-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:33",
+      "id": "model-essay-33-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:34",
+      "id": "model-essay-34-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:35",
+      "id": "model-essay-35-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:36",
+      "id": "model-essay-36-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:37",
+      "id": "model-essay-37-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:38",
+      "id": "model-essay-38-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:39",
+      "id": "model-essay-39-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:40",
+      "id": "model-essay-40-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:41",
+      "id": "model-essay-41-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:42",
+      "id": "model-essay-42-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:43",
+      "id": "model-essay-43-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:44",
+      "id": "model-essay-44-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:45",
+      "id": "model-essay-45-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:46",
+      "id": "model-essay-46-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:47",
+      "id": "model-essay-47-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "direct-question:48",
+      "id": "model-essay-48-ielts-direct-question",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:4",
+      "id": "model-essay-4-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": true,
+      "teachingSupportPresent": true,
+      "issues": []
+    },
+    {
+      "key": "discuss-both-views:5",
+      "id": "model-essay-5-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:6",
+      "id": "model-essay-6-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:7",
+      "id": "model-essay-7-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:8",
+      "id": "model-essay-8-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:9",
+      "id": "model-essay-9-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:10",
+      "id": "model-essay-10-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:11",
+      "id": "model-essay-11-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:12",
+      "id": "model-essay-12-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:13",
+      "id": "model-essay-13-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:14",
+      "id": "model-essay-14-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:15",
+      "id": "model-essay-15-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:16",
+      "id": "model-essay-16-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:17",
+      "id": "model-essay-17-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:18",
+      "id": "model-essay-18-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:19",
+      "id": "model-essay-19-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:20",
+      "id": "model-essay-20-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:21",
+      "id": "model-essay-21-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:22",
+      "id": "model-essay-22-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:23",
+      "id": "model-essay-23-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:24",
+      "id": "model-essay-24-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:25",
+      "id": "model-essay-25-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:26",
+      "id": "model-essay-26-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:27",
+      "id": "model-essay-27-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:28",
+      "id": "model-essay-28-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:29",
+      "id": "model-essay-29-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:30",
+      "id": "model-essay-30-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:31",
+      "id": "model-essay-31-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:32",
+      "id": "model-essay-32-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:33",
+      "id": "model-essay-33-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 13,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:34",
+      "id": "model-essay-34-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:35",
+      "id": "model-essay-35-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:36",
+      "id": "model-essay-36-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:37",
+      "id": "model-essay-37-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:39",
+      "id": "model-essay-39-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:40",
+      "id": "model-essay-40-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:41",
+      "id": "model-essay-41-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:42",
+      "id": "model-essay-42-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "discuss-both-views:43",
+      "id": "model-essay-43-ielts-discuss-both-views",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:3",
+      "id": "model-essay-3-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": true,
+      "teachingSupportPresent": true,
+      "issues": []
+    },
+    {
+      "key": "opinion:4",
+      "id": "model-essay-4-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:5",
+      "id": "model-essay-5-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:6",
+      "id": "model-essay-6-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:7",
+      "id": "model-essay-7-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:8",
+      "id": "model-essay-8-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:9",
+      "id": "model-essay-9-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:10",
+      "id": "model-essay-10-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:11",
+      "id": "model-essay-11-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:12",
+      "id": "model-essay-12-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:13",
+      "id": "model-essay-13-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:14",
+      "id": "model-essay-14-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:15",
+      "id": "model-essay-15-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:16",
+      "id": "model-essay-16-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:17",
+      "id": "model-essay-17-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:18",
+      "id": "model-essay-18-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:19",
+      "id": "model-essay-19-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:20",
+      "id": "model-essay-20-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:21",
+      "id": "model-essay-21-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:22",
+      "id": "model-essay-22-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:23",
+      "id": "model-essay-23-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:24",
+      "id": "model-essay-24-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:25",
+      "id": "model-essay-25-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:26",
+      "id": "model-essay-26-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:27",
+      "id": "model-essay-27-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:28",
+      "id": "model-essay-28-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:29",
+      "id": "model-essay-29-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:30",
+      "id": "model-essay-30-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:31",
+      "id": "model-essay-31-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:32",
+      "id": "model-essay-32-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:33",
+      "id": "model-essay-33-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:34",
+      "id": "model-essay-34-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:35",
+      "id": "model-essay-35-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:36",
+      "id": "model-essay-36-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:37",
+      "id": "model-essay-37-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:38",
+      "id": "model-essay-38-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:39",
+      "id": "model-essay-39-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 19,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:40",
+      "id": "model-essay-40-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:41",
+      "id": "model-essay-41-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:42",
+      "id": "model-essay-42-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:43",
+      "id": "model-essay-43-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:44",
+      "id": "model-essay-44-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:45",
+      "id": "model-essay-45-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:46",
+      "id": "model-essay-46-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:47",
+      "id": "model-essay-47-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:48",
+      "id": "model-essay-48-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:49",
+      "id": "model-essay-49-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:50",
+      "id": "model-essay-50-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:51",
+      "id": "model-essay-51-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:52",
+      "id": "model-essay-52-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:53",
+      "id": "model-essay-53-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:54",
+      "id": "model-essay-54-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:55",
+      "id": "model-essay-55-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:56",
+      "id": "model-essay-56-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:57",
+      "id": "model-essay-57-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:58",
+      "id": "model-essay-58-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:59",
+      "id": "model-essay-59-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:60",
+      "id": "model-essay-60-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:61",
+      "id": "model-essay-61-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:62",
+      "id": "model-essay-62-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:63",
+      "id": "model-essay-63-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:64",
+      "id": "model-essay-64-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:65",
+      "id": "model-essay-65-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:66",
+      "id": "model-essay-66-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:67",
+      "id": "model-essay-67-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:68",
+      "id": "model-essay-68-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:69",
+      "id": "model-essay-69-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:70",
+      "id": "model-essay-70-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:71",
+      "id": "model-essay-71-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:72",
+      "id": "model-essay-72-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:73",
+      "id": "model-essay-73-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:74",
+      "id": "model-essay-74-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:75",
+      "id": "model-essay-75-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:76",
+      "id": "model-essay-76-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:77",
+      "id": "model-essay-77-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:78",
+      "id": "model-essay-78-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:79",
+      "id": "model-essay-79-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:80",
+      "id": "model-essay-80-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": true,
+      "teachingSupportPresent": true,
+      "issues": []
+    },
+    {
+      "key": "opinion:81",
+      "id": "model-essay-81-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:82",
+      "id": "model-essay-82-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:83",
+      "id": "model-essay-83-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:84",
+      "id": "model-essay-84-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:85",
+      "id": "model-essay-85-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:86",
+      "id": "model-essay-86-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:87",
+      "id": "model-essay-87-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:88",
+      "id": "model-essay-88-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:89",
+      "id": "model-essay-89-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:90",
+      "id": "model-essay-90-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:91",
+      "id": "model-essay-91-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:92",
+      "id": "model-essay-92-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:93",
+      "id": "model-essay-93-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:94",
+      "id": "model-essay-94-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 14,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:95",
+      "id": "model-essay-95-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:96",
+      "id": "model-essay-96-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:97",
+      "id": "model-essay-97-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 17,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:98",
+      "id": "model-essay-98-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:99",
+      "id": "model-essay-99-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:100",
+      "id": "model-essay-100-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:101",
+      "id": "model-essay-101-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:103",
+      "id": "model-essay-103-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 15,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:104",
+      "id": "model-essay-104-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 18,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:105",
+      "id": "model-essay-105-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 13,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    },
+    {
+      "key": "opinion:106",
+      "id": "model-essay-106-ielts-opinion",
+      "exam": "IELTS Writing Task 2",
+      "sourceSentences": 16,
+      "released": false,
+      "teachingSupportPresent": false,
+      "issues": [
+        "missing-teaching-support"
+      ]
+    }
+  ]
+}
