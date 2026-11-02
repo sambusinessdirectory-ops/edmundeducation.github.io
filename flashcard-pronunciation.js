@@ -224,6 +224,7 @@
       return;
     }
     busy = true;
+    const progressKey = window.eddyPronunciationProgress?.key();
     activeButton = button;
     activeText = text;
     // Stop the detached model Audio element before recognition takes the mic.
@@ -248,7 +249,10 @@
           }
         }
       });
-      if (button.isConnected && currentText() === text) showResult(result);
+      if (button.isConnected && currentText() === text && progressKey === window.eddyPronunciationProgress?.key()) {
+        if (result.passed) window.eddyPronunciationProgress?.pass(progressKey);
+        showResult(result);
+      }
     } catch {
       if (button.isConnected && currentText() === text) showResult({ reason: "recognition-unavailable" });
     } finally {
