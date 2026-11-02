@@ -92,7 +92,7 @@
       image.height = 941;
       image.loading = "lazy";
       image.decoding = "async";
-      art.append(image);
+      if (!isIndefinite) art.append(image);
 
       const caption = document.createElement("figcaption");
       caption.className = "grammar-eddy-dialogue__text";
@@ -112,7 +112,8 @@
       if (chalkCopy.textContent.length > 260 || chalkCopy.querySelector("table") || chalkCopy.querySelectorAll("li").length > 3) {
         figure.classList.add("grammar-eddy-dialogue--dense");
       }
-      figure.append(art, caption);
+      if (isIndefinite) figure.append(art, image, caption);
+      else figure.append(art, caption);
       card.replaceChildren(figure);
     });
   }
