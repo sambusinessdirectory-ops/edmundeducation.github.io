@@ -81,13 +81,143 @@
 .grammar-new-intro { max-width: 78ch; padding: 4px 0 18px; color: #4a6173; }
 .grammar-new-intro h3 { margin-top: 24px; }
 .grammar-new-stream { margin-top: 12px; }
-.grammar-new-chapter h3 { color: #fff; }
+.grammar-new-body .grammar-new-chapter h3 { color: #fff; margin: 0; }
 .grammar-new-topic { width: 100%; box-sizing: border-box; }
 .grammar-new-topic__content { margin-top: 15px; }
 .grammar-new-topic__content > :first-child { margin-top: 0; }
 .grammar-new-topic__content p { max-width: 78ch; }
 .grammar-new-topic__content blockquote { max-width: 950px; box-sizing: border-box; border: 1px solid #d9e3ed; border-radius: 15px; background: #f7faff; color: #193c63; font-size: clamp(17px, 1.9vw, 21px); font-weight: 700; }
 .grammar-new-topic__content .grammar-new-table-wrap { margin: 0 0 18px; }
+/* Put each complete unless lesson onto the generated, wood-framed classroom board. */
+.grammar-eddy-dialogue { position: relative; width: min(100%, 980px); margin: 24px 0 4px; }
+.grammar-eddy-dialogue__art {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1671 / 820;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #101d1b url("grammar-eddy-dialogues/blackboard-imagegen-framed-v2.webp") center / 100% 100% no-repeat;
+  box-shadow: 0 3px 12px #36211345;
+}
+.grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: min(52%, 510px); height: auto; clip-path: inset(0 0 40% 0); pointer-events: none; }
+.grammar-eddy-dialogue__lesson {
+  position: absolute;
+  z-index: 1;
+  inset: 6% 5% 36% 5.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
+  overflow: auto;
+  color: #f6f3e8;
+  font: 650 clamp(18px, 2vw, 23px)/1.48 "Noto Sans TC Local", sans-serif;
+  text-shadow: 0 0 1px currentColor, 0 0 4px #e9f2d51a;
+}
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head { display: block; margin: 0 0 8px; padding: 0; border: 0; background: transparent; color: #fff4d2; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head > span { display: none; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head small { display: block; margin: 0 0 2px; color: #aee5d0; font: 750 14px/1.3 "Noto Sans TC Local", sans-serif; letter-spacing: .08em; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { margin: 0; color: #ffe28b; font: 850 clamp(26px, 3vw, 34px)/1.3 Georgia, "Noto Serif TC Local", serif; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus { margin: 0 0 8px; padding: 0; border: 0; background: none; color: inherit; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus > span { display: inline-block; margin: 0 0 2px; color: #b8f0d7; font-size: 14px; font-weight: 800; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus p,
+.grammar-eddy-dialogue__lesson-copy p { max-width: none; margin: 2px 0 7px; color: inherit; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy blockquote { margin: 7px 0; padding: 0 0 0 9px; border: 0; border-left: 2px solid #ffe392; border-radius: 0; background: none; color: #fff8df; font-size: inherit; font-weight: 700; }
+.grammar-eddy-dialogue__lesson-copy strong { color: #dec3ff; }
+.grammar-eddy-dialogue__lesson-copy code { padding: 0; background: none; color: #ffe392; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy em { color: #b9f0d3; font-style: normal; }
+.grammar-eddy-dialogue__lesson-copy ul,
+.grammar-eddy-dialogue__lesson-copy ol { margin: 3px 0 7px; padding-left: 1.25em; }
+.grammar-eddy-dialogue__lesson-copy li { margin: 1px 0; }
+.grammar-eddy-dialogue__lesson-copy table { width: 100%; min-width: 0; border-collapse: collapse; color: inherit; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy th,
+.grammar-eddy-dialogue__lesson-copy td { padding: 2px 4px; border-bottom: 1px solid #f5edcf55; text-align: left; }
+.grammar-eddy-dialogue__lesson-copy th { background: #fff2cf1c; color: #ffe392; }
+.grammar-eddy-dialogue__text {
+  position: absolute;
+  z-index: 3;
+  right: 3%;
+  bottom: 2.5%;
+  left: 3%;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  min-height: 112px;
+  padding: 24px 27px 15px;
+  border: 6px solid #985024;
+  border-radius: 22px;
+  background: linear-gradient(145deg, #fff2d2, #ffe5b5);
+  box-shadow: inset 0 0 0 3px #dda660, inset 0 0 0 8px #fff8de, 0 4px 8px #2b180c66;
+  color: #2c2018;
+  font: 700 clamp(16px, 1.7vw, 20px)/1.4 "Noto Sans TC Local", sans-serif;
+  overflow-wrap: anywhere;
+}
+.grammar-eddy-dialogue__text::before {
+  position: absolute;
+  top: -35px;
+  left: 17px;
+  box-sizing: border-box;
+  min-width: 137px;
+  height: 39px;
+  padding: 2px 17px 2px 48px;
+  border: 5px solid #985024;
+  border-radius: 18px 18px 12px 12px;
+  background: linear-gradient(#ffe4a6, #f8ca76);
+  box-shadow: inset 0 0 0 2px #f7b854;
+  color: #2c2018;
+  content: "Eddy";
+  font: 800 21px/1.35 "Noto Sans TC Local", sans-serif;
+}
+.grammar-eddy-dialogue__text::after {
+  position: absolute;
+  top: -30px;
+  left: 32px;
+  color: #b77a0d;
+  content: "♞";
+  font: 900 27px/1.2 Georgia, serif;
+}
+.grammar-eddy-dialogue__copy { display: block; max-height: 130px; overflow: auto; }
+.grammar-eddy-dialogue--long .grammar-eddy-dialogue__text { font-size: clamp(15px, 1.55vw, 18px); }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1671 / 1020; }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { bottom: -55px; }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 31% 5.5%; font-size: clamp(16px, 1.7vw, 20px); }
+.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(24px, 2.5vw, 30px); }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--purple { color: #e9c9ff; }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--yellow { color: #ffe28b; }
+.grammar-eddy-dialogue__lesson .grammar-eddy-dialogue__chalk--mint { color: #b9f5dc; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--purple,
+.grammar-new-body .grammar-eddy-dialogue__text strong { color: #602e6f; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--yellow,
+.grammar-new-body .grammar-eddy-dialogue__text code { color: #795000; }
+.grammar-eddy-dialogue__text .grammar-eddy-dialogue__chalk--mint,
+.grammar-new-body .grammar-eddy-dialogue__text em { color: #0d6454; }
+.grammar-new-body .grammar-eddy-dialogue__text code { padding: 0; background: none; font: inherit; }
+@media (max-width: 840px) {
+  .grammar-eddy-dialogue { margin-top: 18px; }
+  .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.05; }
+  .grammar-eddy-dialogue__art > img { inset: auto 0 50px auto; width: min(76%, 390px); height: auto; }
+  .grammar-eddy-dialogue__lesson { inset: 5% 5% 43% 5%; overflow: auto; font-size: clamp(15px, 3.8vw, 18px); line-height: 1.4; }
+  .grammar-eddy-dialogue__lesson .grammar-articles-topic__head { margin-bottom: 6px; }
+  .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(16px, 4.6vw, 20px); }
+  .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus { margin-bottom: 5px; }
+  .grammar-eddy-dialogue__lesson-copy blockquote { margin: 5px 0; }
+  .grammar-eddy-dialogue__text,
+  .grammar-eddy-dialogue--long .grammar-eddy-dialogue__text {
+    right: 3%;
+    bottom: 2%;
+    left: 3%;
+    min-height: 100px;
+    padding: 23px 14px 11px;
+    border-width: 4px;
+    border-radius: 16px;
+    font-size: clamp(13px, 3.6vw, 16px);
+    line-height: 1.36;
+  }
+  .grammar-eddy-dialogue__text::before { top: -29px; left: 11px; min-width: 104px; height: 32px; padding: 2px 11px 2px 34px; border-width: 4px; font-size: 17px; }
+  .grammar-eddy-dialogue__text::after { top: -26px; left: 20px; font-size: 22px; }
+  .grammar-eddy-dialogue__copy { max-height: 115px; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.4; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { inset: auto 0 30px auto; }
+  .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 38% 5%; font-size: clamp(14px, 3.5vw, 16px); }
+}
 .grammar-new-appendix { padding-top: clamp(24px, 3vw, 38px); }
 .grammar-new-appendix .grammar-new-table-wrap { margin: 0; }
 .grammar-new-body h2 { scroll-margin-top: 100px; margin: 42px 0 16px; padding: 15px 0; border-top: 2px solid #c8dbe5; border-bottom: 1px solid #e4ebf0; color: #183d59; font: 850 clamp(23px, 2.5vw, 31px)/1.4 Georgia, "Noto Serif TC Local", serif; }
@@ -104,6 +234,32 @@
 .grammar-new-body th { background: #eaf3f7; color: #1e4d65; }
 .grammar-new-body tr:last-child td { border-bottom: 0; }
 .grammar-new-body tr:nth-child(even) td { background: #f8fbfc; }
+
+/* The general lesson styles use pale paper. Inside Eddy's board every row and example stays dark with bright chalk. */
+.grammar-new-body .grammar-eddy-dialogue__lesson,
+.grammar-new-body .grammar-eddy-dialogue__lesson p,
+.grammar-new-body .grammar-eddy-dialogue__lesson li,
+.grammar-new-body .grammar-eddy-dialogue__lesson td { color: #f7f5e9; }
+.grammar-new-body .grammar-eddy-dialogue__lesson .grammar-articles-topic__head small { color: #d0f4e3; }
+.grammar-new-body .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus,
+.grammar-new-body .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus p,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy blockquote,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy .grammar-new-table-wrap,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy table,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy th,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy td,
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy tr:nth-child(even) td { background: transparent; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy blockquote { margin: 7px 0; padding: 0 0 0 10px; border: 0; border-left: 3px solid #ffe392; color: #fff8df; font: inherit; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy .grammar-new-table-wrap { overflow: visible; margin: 6px 0; border-color: #f7f5e980; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy table { min-width: 0; color: #f7f5e9; font: inherit; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy th { color: #ffe392; }
+.grammar-new-body .grammar-eddy-dialogue__lesson code { padding: 0; background: transparent; color: #ffe392; font: inherit; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy strong { color: #dec3ff; }
+.grammar-new-body .grammar-eddy-dialogue__lesson-copy em { color: #b9f0d3; }
+@media (max-width: 840px) {
+  .grammar-new-body .grammar-eddy-dialogue__lesson-copy .grammar-new-table-wrap { overflow-x: auto; overflow-y: hidden; }
+  .grammar-new-body .grammar-eddy-dialogue__lesson-copy table { min-width: 560px; }
+}
 
 .grammar-lesson-card__copy { position: relative; z-index: 1; }
 .grammar-lesson-card__copy h3 { margin: 0; font: 900 clamp(30px, 4vw, 50px)/1.08 Georgia, "Noto Serif TC Local", serif; }

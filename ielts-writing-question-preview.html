@@ -12,10 +12,11 @@
   <link rel="stylesheet" href="/shared-system-nav.css">
   <link rel="stylesheet" href="/ielts-writing-preview/style.css?v=20261101-1">
   <link rel="stylesheet" href="/ielts-writing-preview/workspace-overhaul.css?v=20261101-2">
+  <link rel="stylesheet" href="/ielts-writing-preview/task2-archive.css?v=20261102-2">
   <script defer src="/supabase-config.js"></script>
   <script defer src="/pwa-register.js"></script>
   <script defer src="/shared-system-nav.js"></script>
-  <script defer src="/ielts-writing-preview/app.js?v=20261101-2"></script>
+  <script defer src="/ielts-writing-preview/app.js?v=20261102-2"></script>
   <script type="module" src="/ielts-writing-preview/highlighter.mjs?v=20261031-1"></script>
 </head>
 <body>
@@ -49,7 +50,7 @@
       <div class="table-scroll" id="task1-scroll" tabindex="0" aria-label="Task 1 圖表題目列表"><table role="table"><thead><tr><th scope="col">題目與圖表</th><th scope="col"><span class="visually-hidden">圖表類型</span></th><th scope="col"><span class="visually-hidden">動態 / 靜態</span></th><th scope="col"><span class="visually-hidden">適用時態（可多選）</span></th></tr></thead><tbody id="task1-rows"></tbody></table></div>
     </section>
     <section id="panel-task2" class="panel" role="tabpanel" aria-labelledby="tab-task2" hidden>
-      <div class="panel-heading"><div><p class="eyebrow">TASK 2 · ESSAYS</p><h2>作文題目</h2><p>閱讀題目，判斷題型。</p></div><div class="progress-block"><span class="count" id="task2-count">載入中</span><div class="progress-track" id="task2-progress" role="progressbar" aria-label="Task 2 完成進度" aria-valuemin="0" aria-valuemax="242" aria-valuenow="0"><span id="task2-progress-fill"></span></div></div></div>
+      <div class="panel-heading task2-heading"><div class="task2-heading-copy"><p class="eyebrow">EDMUND WRITING STUDIO / TASK 02</p><h2>作文題目</h2></div><div class="task2-heading-side"><button id="task2-theme-toggle" class="task2-theme-toggle" type="button" aria-pressed="false"><span class="task2-theme-icon" aria-hidden="true">☼</span><span class="task2-theme-label">日間模式</span></button><div class="progress-block"><span class="count" id="task2-count">載入中</span><div class="progress-track" id="task2-progress" role="progressbar" aria-label="Task 2 完成進度" aria-valuemin="0" aria-valuemax="242" aria-valuenow="0"><span id="task2-progress-fill"></span></div></div></div></div>
       <div class="study-tools">
       <div class="toolbar"><label class="search"><span>搜尋題目</span><input id="task2-search" type="search" placeholder="搜尋題目編號、英文或中文" autocomplete="off"></label><div class="toolbar-actions"><div class="filter"><span class="control-label">主題</span><button id="task2-topic" class="menu-trigger" type="button" aria-haspopup="menu" aria-expanded="false"><span>所有主題</span><span class="menu-chevron" aria-hidden="true"></span></button></div><button id="translation-toggle" class="translation-toggle" type="button" aria-pressed="false">顯示繁體中文翻譯</button><button id="admin-labels-toggle" class="translation-toggle" type="button" aria-pressed="false" hidden>管理標準題型</button></div></div>
       <button id="study-tools-toggle" class="study-tools-toggle" type="button" aria-expanded="false" aria-controls="study-tools-extra">篩選與學習工具 <span class="menu-chevron" aria-hidden="true"></span></button>

@@ -468,6 +468,12 @@
       renderAttempts();
       renderDashboard();
       setDashboardExpanded(readDashboardExpanded());
+      const requestedSong = new URL(location.href).searchParams.get('song');
+      if (requestedSong) {
+        const target = state.songs.find(song => song.slug === requestedSong || song.id === requestedSong);
+        if (target) await openSong(target.id);
+        else toast('找不到這首歌曲，或你目前未獲授權開啟。', 'error');
+      }
     } catch (error) {
       setConnection("offline", "未能載入");
       $("[data-library-load-message]").textContent = text(error?.message || "未能載入歌曲庫。");

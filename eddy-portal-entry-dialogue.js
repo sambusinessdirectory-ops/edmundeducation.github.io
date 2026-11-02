@@ -49,13 +49,8 @@
     event.stopImmediatePropagation();
     finish();
   }
-  function setHorsePun(node, value) {
-    const at = value.indexOf('放馬過來');
-    if (at < 0) { node.textContent = value; return; }
-    const horse = document.createElement('span');
-    horse.className = 'eddy-horse-pun';
-    horse.textContent = '馬';
-    node.replaceChildren(value.slice(0, at + 1), horse, value.slice(at + 2));
+  function setDialogueText(node, value) {
+    node.textContent = value;
   }
 
   function showIfReady() {
@@ -83,13 +78,13 @@
     overlay.innerHTML = '<button class="eddy-first-question-dismiss" type="button"><span class="eddy-first-question-art"><img alt="" aria-hidden="true"><span class="eddy-first-question-message eddy-portal-entry-message" lang="zh-Hant"></span></span></button>';
     overlay.querySelector('img').src = config.image;
     const message = overlay.querySelector('.eddy-portal-entry-message');
-    if (typeof comment === 'string') setHorsePun(message, comment);
+    if (typeof comment === 'string') setDialogueText(message, comment);
     else {
       message.classList.add('is-headline');
       const headline = document.createElement('strong');
       const detail = document.createElement('span');
-      setHorsePun(headline, comment.main);
-      setHorsePun(detail, comment.sub);
+      setDialogueText(headline, comment.main);
+      setDialogueText(detail, comment.sub);
       message.replaceChildren(headline, detail);
     }
     const spoken = typeof comment === 'string' ? comment : `${comment.main} ${comment.sub}`;

@@ -54,8 +54,8 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20261031-ielts-types1";
-import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261031-ielts-types1";
+} from "./schedule-homework-links.mjs?v=20261102-song-homework1";
+import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261102-song-homework1";
 import {
   ScheduleGroupShiftError,
   planScheduleGroupShift
@@ -106,7 +106,7 @@ const COUNTDOWN_STEP = COUNTDOWN_BATCH_SIZE;
 const SPAN_COLUMN_BRIDGE_PX = 32;
 const LONG_PRESS_MS = 2000;
 const MARQUEE_START_DISTANCE = 6;
-const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20261031-ielts-types1";
+const HOMEWORK_CATALOG_URL = "./homework-resource-catalog.mjs?v=20261102-song-homework1";
 const VIDEO_CLASS_HOMEWORK_CATALOG_URL = "https://edmund-video-class.edmundeducation.workers.dev/v1/homework-resources";
 const STUDENT_PROGRESS_WORKER_URL = "https://edmund-student-progress.edmundeducation.workers.dev";
 const STUDENT_ACCOUNT_PAGE_SIZE = 100;
@@ -894,6 +894,16 @@ function renderHomeworkPickerResults() {
     const detail = document.createElement("small");
     detail.textContent = resource.detail || homeworkTypeDefinition(type)?.label || "練習";
     button.append(title, detail);
+    if (type === "writing-submission") {
+      const lines = Array.isArray(resource.questionPrompt) ? resource.questionPrompt : [resource.questionPrompt];
+      const text = lines.filter(line => typeof line === "string" && line.trim()).join("\n\n");
+      if (text) {
+        const prompt = document.createElement("span");
+        prompt.className = "homework-picker-question";
+        prompt.textContent = text;
+        button.append(prompt);
+      }
+    }
     fragment.append(button);
   }
   elements.homeworkPickerResults.append(fragment);

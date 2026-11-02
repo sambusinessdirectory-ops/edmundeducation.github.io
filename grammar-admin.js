@@ -1,5 +1,5 @@
-import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261019-admin3';
-import {grammarModules, exportSections, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261027-three-practice1';
+import {grammarAdminConnection,loginError} from './grammar-admin-connection.mjs?v=20261102-indefinite-answers1';
+import {grammarModules, exportSections, exportText, exportHtml} from './grammar-admin-export.mjs?v=20261102-indefinite-answers1';
 const root=document.querySelector('[data-learning-portal-root]');
 const context=grammarAdminConnection();
 if(root && context?.rpc) {
@@ -81,7 +81,7 @@ if(root && context?.rpc) {
           find('[data-answer-heading]').textContent=`${module.title} · ${kind==='exercises'?'全部題目與答案':'教學內容與檢查題答案'}`;
           find('[data-answer-search]').value='';find('[data-answer-browser]').hidden=false;renderAnswers();
           find('[data-answer-browser]').scrollIntoView({block:'start'});find('[data-answer-search]').focus({preventScroll:true});
-        }finally{busy=false;button.disabled=false;}
+        }catch(error){status.textContent=error.message || '答案載入失敗，請重試。';}finally{busy=false;button.disabled=false;}
       });card.append(button);
     }
     for(const kind of ['curation','exercises'])for(const format of ['pdf','txt']){

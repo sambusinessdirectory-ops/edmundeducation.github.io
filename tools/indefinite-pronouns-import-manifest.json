@@ -1,0 +1,13 @@
+{
+  "sourceHashes": {
+    "guide": "9d87697de47e4962eccc6a4ba52993570123b5e73d2ceb3ab7eb5ae7b40b2849",
+    "exercises": "faf9945a6fa240460d3b21a324df2fe82896eb162dbf39405a2727ea2b5e1640",
+    "proofreading": "455830f0a04fee1845070b92083c5e13825f2daa006258cbf6fb3bed10e20622"
+  },
+  "guideConcepts": 68,
+  "guideChapters": 9,
+  "exercises": 250,
+  "proofreadingPassages": 10,
+  "proofreadingQuestions": 200,
+  "answerKeySupplied": false
+}

@@ -1,4 +1,4 @@
-import { HOMEWORK_RESOURCE_TYPES, normalizeHomeworkResource, parseScheduleMessage } from "./schedule-homework-links.mjs?v=20261031-ielts-types1";
+import { HOMEWORK_RESOURCE_TYPES, normalizeHomeworkResource, parseScheduleMessage } from "./schedule-homework-links.mjs?v=20261102-song-homework1";
 
 const STATUS = Object.freeze({
   completed: "completed",

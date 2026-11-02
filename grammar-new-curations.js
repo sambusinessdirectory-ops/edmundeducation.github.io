@@ -2,12 +2,120 @@
   "use strict";
 
   const lessons = window.EDMUND_GRAMMAR_NEW_CURATIONS_DATA;
+  if (Array.isArray(lessons) && window.EDMUND_INDEFINITE_PRONOUNS?.guide && !lessons.some((lesson) => lesson.slug === 'indefinite-pronouns')) {
+    lessons.push(window.EDMUND_INDEFINITE_PRONOUNS.guide);
+  }
   const dashboard = document.querySelector('[data-learning-portal-root] [data-view="dashboard"]');
   const library = dashboard?.querySelector('[data-grammar-library]');
   if (!dashboard || !library || !Array.isArray(lessons)) return;
 
   const otherViews = '[data-tense-curation], [data-grammar-practice], [data-articles-curation], [data-articles-practice], [data-advanced-articles-curation], [data-advanced-articles-practice], [data-new-grammar-curation], [data-new-grammar-practice]';
   const allViews = [];
+
+  function addChalkColors(copy, ruleIndex) {
+    const terms = /(\b(?:unless|not|if|no one|someone|somebody|something|somewhere|anyone|anybody|anything|anywhere|nobody|nothing|nowhere|everyone|everybody|everything|everywhere|elsewhere)\b|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答|某個|任選|沒有|全部|人|事物|地方)/giu;
+    const colors = ["purple", "yellow", "mint"];
+    let colorIndex = ruleIndex;
+    function visit(parent) {
+      for (const node of [...parent.childNodes]) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          const text = node.textContent;
+          const fragment = document.createDocumentFragment();
+          let cursor = 0;
+          for (const match of text.matchAll(terms)) {
+            fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+            const mark = document.createElement("span");
+            mark.className = `grammar-eddy-dialogue__chalk grammar-eddy-dialogue__chalk--${colors[colorIndex++ % colors.length]}`;
+            mark.textContent = match[0];
+            fragment.append(mark);
+            cursor = match.index + match[0].length;
+          }
+          if (cursor) {
+            fragment.append(document.createTextNode(text.slice(cursor)));
+            node.replaceWith(fragment);
+          }
+        } else if (node.nodeType === Node.ELEMENT_NODE && !node.matches("code, strong, em, a")) {
+          visit(node);
+        }
+      }
+    }
+    visit(copy);
+  }
+
+  function addEddyDialogue(view) {
+    const isIndefinite = view.dataset.newGrammarCuration === "indefinite-pronouns";
+    const poses = [
+      ...Array.from({ length: 24 }, (_, index) => `grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp`),
+      "eddy-english-usage-dialogue.png",
+      "eddy-english-difference-dialogue.png",
+      "eddy-error-identifier-dialogue.png",
+      "eddy-student-progress-dialogue.png",
+      "eddy-first-question-dialogue.png",
+      "eddy-twentieth-question-dialogue.png",
+      "eddy-fortieth-question-dialogue.png",
+      "eddy-fun-fact-dialogue.png"
+    ];
+    const summaryForUnlistedEnding = {
+      "04": "-one 與 -body 大多是風格差異，不是嚴格的書面或口語分界。",
+      "44": "elsewhere、someplace 等要按語域和英美用法選擇，不能當作拼錯的同一個字。",
+      "68": "先辨人、事物、地方與範圍，再核對句型、否定、修飾位置和上下文。"
+    };
+    const cards = view.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)");
+    cards.forEach((card, index) => {
+      const body = card.querySelector(".grammar-new-topic__content");
+      const heading = card.querySelector(".grammar-articles-topic__head");
+      const focus = card.querySelector(".grammar-tense-topic__focus");
+      const note = body.lastElementChild?.tagName === "P" ? body.lastElementChild : null;
+      const figure = document.createElement("figure");
+      figure.className = `grammar-eddy-dialogue${isIndefinite ? " grammar-eddy-dialogue--indefinite" : ""}`;
+      figure.dataset.rule = String(index + 1).padStart(2, "0");
+
+      const art = document.createElement("div");
+      art.className = "grammar-eddy-dialogue__art";
+      const lesson = document.createElement("div");
+      lesson.className = "grammar-eddy-dialogue__lesson";
+      if (heading) lesson.append(heading);
+      if (focus) lesson.append(focus);
+      const chalkCopy = document.createElement("div");
+      chalkCopy.className = "grammar-eddy-dialogue__lesson-copy";
+      for (const node of [...body.childNodes]) {
+        if (node !== note) chalkCopy.append(node);
+      }
+      if (note) note.remove();
+      lesson.append(chalkCopy);
+      addChalkColors(lesson, index);
+      art.append(lesson);
+      const image = document.createElement("img");
+      image.src = poses[index % (isIndefinite ? 32 : 24)];
+      image.alt = "";
+      image.width = 1671;
+      image.height = 941;
+      image.loading = "lazy";
+      image.decoding = "async";
+      art.append(image);
+
+      const caption = document.createElement("figcaption");
+      caption.className = "grammar-eddy-dialogue__text";
+      const copy = document.createElement("span");
+      copy.className = "grammar-eddy-dialogue__copy";
+      if (note) {
+        copy.append(...note.childNodes);
+        note.remove();
+      } else {
+        copy.textContent = isIndefinite
+          ? summaryForUnlistedEnding[figure.dataset.rule] || focus?.textContent || ""
+          : "看看例句就清楚了！";
+      }
+      addChalkColors(copy, index);
+      caption.append(copy);
+      if (copy.textContent.length > 110) figure.classList.add("grammar-eddy-dialogue--long");
+      if (chalkCopy.textContent.length > 260 || chalkCopy.querySelector("table") || chalkCopy.querySelectorAll("li").length > 3) {
+        figure.classList.add("grammar-eddy-dialogue--dense");
+      }
+      figure.append(art, caption);
+      card.replaceChildren(figure);
+    });
+  }
 
   function formatGuide(view) {
     const source = view.querySelector(".grammar-new-body");
@@ -21,7 +129,9 @@
     let appendix = null;
 
     for (const node of [...source.children]) {
-      const heading = node.tagName === "H3" && node.textContent.match(/^([SMU])(\d{2})｜(.+)$/);
+      const heading = node.tagName === "H3" && (node.dataset.conceptNumber
+        ? [null, "IP", node.dataset.conceptNumber, node.textContent]
+        : node.textContent.match(/^(S|M|U|IP)(\d{2})｜(.+)$/));
       if (node.tagName === "H2") {
         chapter = node.textContent;
         const divider = document.createElement("div");
@@ -86,6 +196,7 @@
       }
     }
     source.replaceChildren(intro, stream);
+    if (["unless", "indefinite-pronouns"].includes(view.dataset.newGrammarCuration)) addEddyDialogue(view);
   }
 
   function setRoute(slug) {
@@ -119,7 +230,7 @@
   lessons.forEach((lesson, index) => {
     const card = document.createElement("article");
     card.className = "grammar-lesson-card grammar-lesson-card--new-curation";
-    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · CURATION + 150 QUESTIONS</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 150 題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
+    card.innerHTML = `<div class="grammar-lesson-card__copy"><p class="eyebrow">MODULE ${String(index + 4).padStart(2, "0")} · CURATION + ${lesson.practiceCount || 150} QUESTIONS</p><h3>${lesson.english} <span lang="zh-Hant">${lesson.chinese}</span></h3><p>${lesson.count} 個編號教學重點，附英文例句、繁體中文解說及用法對照；再練習 ${lesson.practiceCount || 150} 題。</p></div><div class="grammar-lesson-card__stats"><button class="grammar-button" type="button">閱讀導讀</button></div>`;
     library.append(card);
 
     const view = document.createElement("section");

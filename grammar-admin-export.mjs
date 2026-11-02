@@ -35,6 +35,12 @@ export function grammarModules(source, document) {
     const {topics,appendix}=guideTopics(guide);
     modules.push({id:practice.slug,title:`${practice.title} · ${practice.chinese}`,questions:practice.questions,topics,appendix});
   }
+  const indefinite=source.EDMUND_INDEFINITE_PRONOUNS;
+  const indefiniteAnswers=source.EDMUND_INDEFINITE_ANSWERS;
+  if(indefinite?.exercises?.length===250 && indefiniteAnswers?.length===250) modules.push({
+    id:'indefinite-pronouns',title:'Indefinite Pronouns · 不定代名詞與地點詞',
+    questions:indefinite.exercises.map((question,index)=>({...question,answer:indefiniteAnswers[index].answer,explanation:indefiniteAnswers[index].explanation})),topics:[{number:1,title:'完整導讀',body:guideText(indefinite.guide.html)}],appendix:''
+  });
   // Keep the on-screen editorial summaries as well as the complete imported text.
   if (document) for (const module of modules) {
     const selector = module.id === 'articles' ? '[data-articles-stream]' : module.id === 'advanced-articles' ? '[data-advanced-articles-stream]' : '';
@@ -53,7 +59,7 @@ export function grammarModules(source, document) {
   return modules;
 }
 function answer(q) { return q.answer || (q.answers || q.acceptedAnswers || []).join(' / '); }
-function explanation(q) { return q.steps?.map(s=>`${s.title}\n${s.body}`).join('\n\n') || (q.explanation || []).join('\n'); }
+function explanation(q) { return q.steps?.map(s=>`${s.title}\n${s.body}`).join('\n\n') || (Array.isArray(q.explanation)?q.explanation.join('\n'):text(q.explanation)); }
 function checkpointText(c) {return [c.prompt,...c.choices.map((v,i)=>`${String.fromCharCode(65+i)}. ${v}`),`答案：${String.fromCharCode(65+c.answer)}`,c.whyPrompt,...c.whyChoices.map((v,i)=>`${String.fromCharCode(65+i)}. ${v}`),`原因答案：${String.fromCharCode(65+c.whyAnswer)}`,c.explanation].join('\n');}
 export const curationLines = value => text(value).replace(/。([）)」』】”’]*)[ \t]*(?:\r?\n[ \t]*)?(?=[^\s）)」』】”’])/gu, '。$1\n');
 export function exportSections(module, kind) {

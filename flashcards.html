@@ -4846,6 +4846,7 @@
                       <img src="Static Images/sound-button.png" alt="" aria-hidden="true">
                     </button>
                     <button class="bookmark-card-button" type="button" data-toggle-card-bookmark aria-label="加入書簽" title="加入書簽"></button>
+                    <img data-eddy-pass hidden width="60" height="60" src="eddy-pronunciation-pass-mic.webp" alt="Pronunciation passed · 發音通過">
                   </div>
                   <div class="front-card-content">
                     <div class="front-term" data-front-term data-pronunciation-text="" data-fit-card-term>No cards yet.</div>
@@ -12557,6 +12558,29 @@
       }));
     }
 
+    function pronunciationProgressKey() {
+      const ref = currentCardBookmarkRef();
+      return ref && currentUser?.role === "student" && currentUser.id
+        ? JSON.stringify(["pron-pass", currentUser.id, ref.key]) : "";
+    }
+    function restorePronunciationStamp() {
+      const image = document.querySelector("[data-eddy-pass]");
+      if (!image) return;
+      image.hidden = true;
+      const key = pronunciationProgressKey();
+      try { image.hidden = !key || !localStorage.getItem(key); } catch {}
+    }
+    window.eddyPronunciationProgress = {
+      key: pronunciationProgressKey,
+      pass(key) {
+        if (!key || key !== pronunciationProgressKey()) return;
+        try { localStorage.setItem(key, String(Date.now())); } catch {}
+        const image = document.querySelector("[data-eddy-pass]");
+        image.hidden = false;
+        if (!matchMedia("(prefers-reduced-motion: reduce)").matches)
+          image.animate([{opacity:0,transform:"translateY(-12px) scale(1.55) rotate(-15deg)"},{opacity:1,transform:"scale(.87) rotate(3deg)",offset:.62},{transform:"scale(1)"}],{duration:380,easing:"ease-out"});
+      }
+    };
     function currentCardBookmarkRef() {
       if (!studySession || !currentCard()) return null;
       const sessionIndex = studySession.roundQueue[studySession.currentPosition];
@@ -16854,6 +16878,7 @@
       const revealButtons = document.querySelectorAll("[data-reveal-study-card]");
       const speakButton = document.querySelector("[data-speak-card]");
       const bookmarkButton = document.querySelector("[data-toggle-card-bookmark]");
+      restorePronunciationStamp();
       const cardHint = document.querySelector("[data-card-hint]");
       const noteTextarea = document.querySelector("[data-card-note-text]");
       const noteStatus = document.querySelector("[data-card-note-status]");
@@ -19081,7 +19106,7 @@
     });
   </script>
   <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
-  <script src="flashcard-pronunciation.js?v=20260914-six-languages-1"></script>
+  <script src="flashcard-pronunciation.js?v=20261102-eddy-pass"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="flashcards-eddy-toggle.js?v=20261022-2" defer></script>
   <script defer src="eddy-five-streak-dialogue.js?v=20261101-30-35-allmc"></script>

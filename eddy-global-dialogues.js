@@ -200,7 +200,11 @@
     try { localStorage.setItem(key, value); } catch { /* This page still deduplicates in memory. */ }
   }
   function pick(lines) { return lines[Math.floor(Math.random() * lines.length)]; }
-  function isKnowledgeSurprise(kind) { return kind === 'funFact' || kind === 'englishDifference'; }
+  function isKnowledgeSurprise(kind) { return kind === 'funFact' || kind === 'englishDifference' || kind === 'englishUsage'; }
+  function knowledgeEntries(kind) {
+    return kind === 'funFact' ? window.EdmundEddyFunFacts
+      : kind === 'englishDifference' ? window.EdmundEddyEnglishDifferences : window.EdmundEddyEnglishUsage;
+  }
   function isHomepageSurprise(kind) { return kind === 'cottonCandy' || kind === 'bubbleGum' || isKnowledgeSurprise(kind); }
   function splitFactPages(fact) {
     if (!window.Intl?.Segmenter) return fact.length > 70 ? splitLongFact(fact) : [fact];
@@ -215,6 +219,46 @@
     const at = breaks.length ? breaks.reduce((best, candidate) => Math.abs(candidate - middle) < Math.abs(best - middle) ? candidate : best)
       : [...fact].slice(0, Math.floor(middle)).join('').length;
     return [fact.slice(0, at).trim(), fact.slice(at).trim()];
+  }
+  function knowledgeTextFits(value) {
+    const copy = overlay.querySelector('.eddy-global-copy');
+    const main = copy.querySelector('strong');
+    main.textContent = value;
+    const box = copy.getBoundingClientRect();
+    const text = main.getBoundingClientRect();
+    const style = getComputedStyle(copy);
+    return text.top >= box.top + parseFloat(style.paddingTop) - 1
+      && text.bottom <= box.bottom - parseFloat(style.paddingBottom) + 1;
+  }
+  function paginateKnowledgeText(value) {
+    const pages = [];
+    let remaining = value.trim();
+    while (remaining) {
+      if (knowledgeTextFits(remaining)) { pages.push(remaining); break; }
+      const chars = Array.from(remaining);
+      let low = 1;
+      let high = chars.length - 1;
+      while (low < high) {
+        const middle = Math.ceil((low + high) / 2);
+        if (knowledgeTextFits(chars.slice(0, middle).join(''))) low = middle;
+        else high = middle - 1;
+      }
+      let cut = Math.max(1, low);
+      for (let at = cut; at > Math.max(0, cut - 25); at--) {
+        if (/[，；。！？,;.!?\s]/.test(chars[at - 1])) { cut = at; break; }
+      }
+      pages.push(chars.slice(0, cut).join('').trim());
+      remaining = chars.slice(cut).join('').trim();
+    }
+    return pages;
+  }
+  function paginateKnowledgeDialogue() {
+    active.factPages = [
+      ...splitFactPages(active.fact).flatMap(paginateKnowledgeText),
+      ...paginateKnowledgeText(active.opinion)
+    ];
+    active.factPageIndex = 0;
+    renderFactPage();
   }
   function renderFactPage() {
     const page = active.factPages[active.factPageIndex];
@@ -361,7 +405,8 @@
         : next.kind === 'weekend' ? `Eddy 的${next.weekday === 'Saturday' ? '星期六' : '星期天'}問候`
           : next.kind === 'sleepy' ? 'Eddy 的晚間問候' : next.kind === 'bedtime' ? 'Eddy 的晚安問候'
             : next.kind === 'cottonCandy' ? 'Eddy 的棉花糖驚喜' : next.kind === 'bubbleGum' ? 'Eddy 的香口膠驚喜'
-              : next.kind === 'funFact' ? 'Eddy 的趣味小知識' : next.kind === 'englishDifference' ? 'Eddy 的英文用法小知識' : 'Eddy 的番茄鐘休息時間');
+              : next.kind === 'funFact' ? 'Eddy 的趣味小知識' : next.kind === 'englishDifference' ? 'Eddy 的英文差異小知識'
+                : next.kind === 'englishUsage' ? 'Eddy 的英文用法小知識' : 'Eddy 的番茄鐘休息時間');
       overlay.innerHTML = `<button type="button"><span class="eddy-global-art"><img alt="" aria-hidden="true"><span class="eddy-global-copy" lang="zh-Hant"><strong></strong><span></span></span></span></button>`;
       overlay.querySelector('img').src = timedMoment ? timedMoment.image : next.kind === 'lunch' ? '/eddy-after-lunch-dialogue.png' : next.kind === 'tea' ? '/eddy-afternoon-tea-dialogue.png'
         : next.kind === 'weekend' ? (next.weekday === 'Saturday' ? '/eddy-saturday-plant-dialogue.png' : '/eddy-sunday-hobbies-dialogue.png')
@@ -370,23 +415,24 @@
               : next.kind === 'cottonCandy' ? '/eddy-cotton-candy-dialogue.png'
                 : next.kind === 'bubbleGum' ? '/eddy-bubble-gum-dialogue.png'
                   : next.kind === 'funFact' ? '/eddy-fun-fact-dialogue.png'
-                    : next.kind === 'englishDifference' ? '/eddy-english-difference-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
+                    : next.kind === 'englishDifference' ? '/eddy-english-difference-dialogue.png'
+                      : next.kind === 'englishUsage' ? '/eddy-english-usage-dialogue.png' : '/eddy-pomodoro-tomato-dialogue.png';
       const subtitle = overlay.querySelector('.eddy-global-copy > span');
       setHorsePun(overlay.querySelector('strong'), main);
       setHorsePun(subtitle, sub);
       subtitle.hidden = !sub;
       overlay.querySelector('button').setAttribute('aria-label', `${main} ${sub} 點擊、輕觸或按鍵繼續`);
       if (isKnowledgeSurprise(next.kind)) {
-        const facts = next.kind === 'funFact' ? window.EdmundEddyFunFacts : window.EdmundEddyEnglishDifferences;
+        const facts = knowledgeEntries(next.kind);
         if (!Array.isArray(facts) || !facts.length) { active = null; overlay = null; continue; }
         const [fact, opinion] = pick(facts);
-        active.factPages = [...splitFactPages(fact), opinion];
-        active.factPageIndex = 0;
+        active.fact = fact;
+        active.opinion = opinion;
         overlay.dataset.eddyKnowledge = next.kind;
-        renderFactPage();
       }
       overlay.addEventListener('click', advanceOrDismiss);
       document.body.append(overlay);
+      if (isKnowledgeSurprise(next.kind)) paginateKnowledgeDialogue();
       overlay.querySelector('button').focus({ preventScroll: true });
       document.addEventListener('keydown', onKey, true);
       return;
@@ -471,9 +517,11 @@
     const candyOrGumHit = Math.random() < 0.1;
     if (candyOrGumHit) queue.push({ kind: Math.random() < 0.5 ? 'cottonCandy' : 'bubbleGum' });
     const knowledgeDraw = Math.random() < 0.3;
-    const knowledgeKind = knowledgeDraw ? (Math.random() < 0.5 ? 'funFact' : 'englishDifference') : null;
-    const knowledgeEntries = knowledgeKind === 'funFact' ? window.EdmundEddyFunFacts : window.EdmundEddyEnglishDifferences;
-    const knowledgeHit = knowledgeKind && Array.isArray(knowledgeEntries) && knowledgeEntries.length > 0;
+    const categoryDraw = knowledgeDraw ? Math.random() : null;
+    const knowledgeKind = !knowledgeDraw ? null : categoryDraw < 0.33 ? 'funFact'
+      : categoryDraw < 0.66 ? 'englishDifference' : 'englishUsage';
+    const entries = knowledgeKind ? knowledgeEntries(knowledgeKind) : null;
+    const knowledgeHit = knowledgeKind && Array.isArray(entries) && entries.length > 0;
     if (knowledgeHit) queue.push({ kind: knowledgeKind });
     bothSurprisesThisVisit = candyOrGumHit && knowledgeHit;
     showNext();
