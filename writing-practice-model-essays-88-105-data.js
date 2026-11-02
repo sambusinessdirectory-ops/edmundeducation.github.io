@@ -2502,10 +2502,10 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
       }
     ],
     "translation": [
-      "電視和電子遊戲已經成為童年的正常一部分，而許多孩子現在每天都會花數小時坐在螢幕前。我完全同意這種模式對他們的心理健康有害，因為它會削弱情緒控制能力，並取代更健康的社交和想像性遊戲形式。",
-      "第一個主要問題是，過度的螢幕娛樂可能會過度刺激正在發展中的大腦。許多節目和遊戲都是圍繞快速動作、即時獎勵、響亮聲音和不斷變化的畫面而設計的。當孩子長時間接觸這些內容時，他們的大腦便會習慣高強度的刺激。結果是，閱讀、做功課或交談等普通活動可能開始顯得緩慢而缺乏回報感。例如，一個每晚都玩動作遊戲的孩子，在被要求停止時可能會變得憤怒，原因在於他的大腦已習慣挑戰、獎勵與興奮快速循環的模式，並非性格不好。久而久之，這可能會侵蝕耐性、專注力和情緒穩定性。",
-      "另一個原因是，大量使用螢幕會擠走那些能保護兒童心理健康的經歷。兒童需要運動、睡眠、面對面的友誼，以及非結構化的遊戲，才能處理情緒並建立自信。如果電視和遊戲佔據了大部分的空閒時間，這些具有保護作用的日常活動便會被擠走。孩子成了人工世界中的旁觀者或玩家，失去在真實世界學習協商、分享、坦然面對失敗及解決衝突的機會。一個孤獨的孩子如果每天放學後直接回家打電子遊戲，他可能會感到被娛樂了，但並沒有真正與他人建立聯繫。這可能會加深孤立感，並使日後的社交場合變得更加困難。",
-      "總結來說，我完全同意過度觀看電視和玩電子遊戲會損害兒童的心理健康。它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並把童年變成一種狹窄得多的經歷。"
+      "電視和電子遊戲已經成為童年生活的常見一環，而許多孩子現在每天都會花數小時坐在螢幕前。我完全同意這種模式對他們的心理健康有害，因為它會削弱情緒控制能力，並取代更健康的社交和發揮想像力的遊戲。",
+      "第一個主要問題是，過度的螢幕娛樂可能會過度刺激正在發展中的大腦。許多節目和遊戲都是以快速變換的動作、即時獎勵、響亮聲音和不斷變化的畫面吸引玩家的。當孩子長時間接觸這些內容時，他們的大腦便會習慣高強度的刺激。結果是，閱讀、做功課或交談等普通活動可能開始顯得緩慢而缺少成就感。例如，一個每晚都玩動作遊戲的孩子，在被要求停止時可能會變得憤怒，原因在於他的大腦已習慣挑戰、獎勵與興奮快速循環的模式，並非性格不好。久而久之，這可能會侵蝕耐性、專注力和情緒穩定性。",
+      "另一個原因是，大量使用螢幕會擠走那些能保護兒童心理健康的經歷。兒童需要運動、睡眠、面對面的友誼，以及非結構化的遊戲，才能處理情緒並建立自信。如果電視和遊戲佔據了大部分的空閒時間，這些具有保護作用的日常活動便會被擠走。孩子成了虛擬世界中的旁觀者或玩家，失去在真實世界學習協商、分享、坦然面對失敗及解決衝突的機會。一個孤獨的孩子如果每天放學後直接回家打電子遊戲，他可能會覺得好玩，但並沒有真正與他人建立聯繫。這可能會加深孤立感，並使日後的社交場合變得更加困難。",
+      "總結來說，我完全同意過度觀看電視和玩電子遊戲會損害兒童的心理健康。它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並讓童年生活變得單一得多。"
     ],
     "translationSections": [
       {
@@ -2516,12 +2516,12 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Television and video games have become a normal part of childhood, and many children now spend hours each day in front of a screen.",
-            "chinese": "電視和電子遊戲已經成為童年的正常一部分，而許多孩子現在每天都會花數小時坐在螢幕前。"
+            "chinese": "電視和電子遊戲已經成為童年生活的常見一環，而許多孩子現在每天都會花數小時坐在螢幕前。"
           },
           {
             "label": "Thesis Statement（中心論點）",
             "english": "I completely agree that this pattern is harmful to their mental health because it weakens emotional control and replaces healthier forms of social and imaginative play.",
-            "chinese": "我完全同意這種模式對他們的心理健康有害，因為它會削弱情緒控制能力，並取代更健康的社交和想像性遊戲形式。"
+            "chinese": "我完全同意這種模式對他們的心理健康有害，因為它會削弱情緒控制能力，並取代更健康的社交和發揮想像力的遊戲。"
           }
         ]
       },
@@ -2538,7 +2538,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Many programmes and games are built around fast movement, instant rewards, loud sounds, and constant visual change.",
-            "chinese": "許多節目和遊戲都是圍繞快速動作、即時獎勵、響亮聲音和不斷變化的畫面而設計的。"
+            "chinese": "許多節目和遊戲都是以快速變換的動作、即時獎勵、響亮聲音和不斷變化的畫面吸引玩家的。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -2548,7 +2548,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "As a result, ordinary activities such as reading, homework, or conversation may start to feel slow and unrewarding.",
-            "chinese": "結果是，閱讀、做功課或交談等普通活動可能開始顯得緩慢而缺乏回報感。"
+            "chinese": "結果是，閱讀、做功課或交談等普通活動可能開始顯得緩慢而缺少成就感。"
           },
           {
             "label": "Example（例子）",
@@ -2585,12 +2585,12 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "Instead of learning how to negotiate, share, lose gracefully, and solve conflict in the real world, children become spectators or players in an artificial one.",
-            "chinese": "孩子成了人工世界中的旁觀者或玩家，失去在真實世界學習協商、分享、坦然面對失敗及解決衝突的機會。"
+            "chinese": "孩子成了虛擬世界中的旁觀者或玩家，失去在真實世界學習協商、分享、坦然面對失敗及解決衝突的機會。"
           },
           {
             "label": "Example（例子）",
             "english": "A lonely child who goes straight home to video games every day may feel entertained, but not genuinely connected.",
-            "chinese": "一個孤獨的孩子如果每天放學後直接回家打電子遊戲，他可能會感到被娛樂了，但並沒有真正與他人建立聯繫。"
+            "chinese": "一個孤獨的孩子如果每天放學後直接回家打電子遊戲，他可能會覺得好玩，但並沒有真正與他人建立聯繫。"
           },
           {
             "label": "Conclusion（段落總結）",
@@ -2612,7 +2612,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "They may look like harmless entertainment, but when they dominate a child’s daily life, they can weaken emotional control, reduce real-world interaction, and turn childhood into a much narrower experience.",
-            "chinese": "它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並把童年變成一種狹窄得多的經歷。"
+            "chinese": "它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並讓童年生活變得單一得多。"
           }
         ]
       }
@@ -3021,9 +3021,9 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
     ],
     "translation": [
       "現代家庭中越來越充滿智能手機、平板電腦和手提電腦，而父母和子女各自退回自己的數碼世界，已經不再罕見。我完全同意這種趨勢會損害家庭關係並削弱溝通，因為它減少了家人共同相處的時間，也改變了親人之間回應彼此的方式。",
-      "第一個原因是，個人科技會悄悄取代那些建立家庭關係的日常時刻。家庭關係通常不是透過戲劇性的對話而成長；它們是透過反覆出現的小互動而被加強，例如一起吃飯、放學後聊天，或在日常事情上互相幫助。當每個家庭成員面前都有一個螢幕時，這些簡單的時刻便很容易消失。例如，一個孩子可能在晚餐時觀看影片，而父母則回覆工作訊息，因此這頓飯便變成一個沉默的例行程序，而不是重新建立聯繫的機會。久而久之，這種習慣會造成情感距離，因為人們可能住在同一屋簷下，卻不再以任何真正有意義的方式共享同一個空間。",
-      "另一個嚴重問題是，現代設備會助長膚淺而零碎的溝通。面對面的交談需要專注、眼神接觸和耐性，而數碼娛樂則訓練人們期待持續刺激和快速回覆。如果一個青少年總是戴著耳機或查看社交媒體，父母可能會更難理解孩子的煩惱、友誼或行為。同樣地，孩子也可能開始把父母看成是遙遠的人物：身體上在場，但精神上卻在別處。這會削弱信任，而沒有信任，小小的誤解也很容易發展成家庭緊張。",
-      "總結來說，我完全同意個人擁有現代科技產品可能導致家庭關係和溝通破裂。透過偷走日常互動，並以分心取代深入交談，個人設備可以把家庭住所從一個共享的生活空間，變成一個個孤立私人世界的集合。"
+      "第一個原因是，個人科技會悄悄取代那些建立家庭關係的日常時刻。家庭關係通常不是靠重大談話而建立；它們是透過反覆出現的小互動而被加強，例如一起吃飯、放學後聊天，或在日常事情上互相幫助。當每個家庭成員面前都有一個螢幕時，這些簡單的時刻便很容易消失。例如，一個孩子可能在晚餐時觀看影片，而父母則回覆工作訊息，因此這頓飯便變成一頓沉默的例行晚餐，而不是重新建立聯繫的機會。久而久之，這種習慣會造成情感距離，因為人們可能住在同一屋簷下，卻幾乎沒有真正相處。",
+      "另一個嚴重問題是，現代設備會助長膚淺而零碎的溝通。面對面的交談需要專注、眼神接觸和耐性，而數碼娛樂則訓練人們期待持續刺激和快速回覆。如果一個青少年總是戴著耳機或查看社交媒體，父母可能會更難理解孩子的煩惱、友誼或行為。同樣地，孩子也可能開始覺得父母離自己很遠：身體上在場，但精神上卻在別處。這會削弱信任，而沒有信任，小小的誤解也很容易演變成家庭矛盾。",
+      "總結來說，我完全同意個人擁有現代科技產品可能導致家庭關係和溝通破裂。透過偷走日常互動，並以分心取代深入交談，個人設備可以把家庭住所從一個共享的生活空間，變成彼此隔絕的私人世界。"
     ],
     "translationSections": [
       {
@@ -3056,7 +3056,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Family relationships do not usually grow through dramatic conversations; they are strengthened by repeated small interactions, such as eating together, chatting after school, or helping one another with daily tasks.",
-            "chinese": "家庭關係通常不是透過戲劇性的對話而成長；它們是透過反覆出現的小互動而被加強，例如一起吃飯、放學後聊天，或在日常事情上互相幫助。"
+            "chinese": "家庭關係通常不是靠重大談話而建立；它們是透過反覆出現的小互動而被加強，例如一起吃飯、放學後聊天，或在日常事情上互相幫助。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -3066,12 +3066,12 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, a child may watch videos during dinner while the parents answer work messages, so the meal becomes a silent routine rather than a chance to reconnect.",
-            "chinese": "例如，一個孩子可能在晚餐時觀看影片，而父母則回覆工作訊息，因此這頓飯便變成一個沉默的例行程序，而不是重新建立聯繫的機會。"
+            "chinese": "例如，一個孩子可能在晚餐時觀看影片，而父母則回覆工作訊息，因此這頓飯便變成一頓沉默的例行晚餐，而不是重新建立聯繫的機會。"
           },
           {
             "label": "Effect（影響）",
             "english": "Over time, this habit creates emotional distance, because people may live under the same roof but no longer share the same space in any meaningful sense.",
-            "chinese": "久而久之，這種習慣會造成情感距離，因為人們可能住在同一屋簷下，卻不再以任何真正有意義的方式共享同一個空間。"
+            "chinese": "久而久之，這種習慣會造成情感距離，因為人們可能住在同一屋簷下，卻幾乎沒有真正相處。"
           }
         ]
       },
@@ -3098,12 +3098,12 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Supporting Detail 2（支持細節二）",
             "english": "Similarly, children may begin to see their parents as distant figures who are physically present but mentally elsewhere.",
-            "chinese": "同樣地，孩子也可能開始把父母看成是遙遠的人物：身體上在場，但精神上卻在別處。"
+            "chinese": "同樣地，孩子也可能開始覺得父母離自己很遠：身體上在場，但精神上卻在別處。"
           },
           {
             "label": "Effect（影響）",
             "english": "This weakens trust, and without trust, small misunderstandings can easily grow into family tension.",
-            "chinese": "這會削弱信任，而沒有信任，小小的誤解也很容易發展成家庭緊張。"
+            "chinese": "這會削弱信任，而沒有信任，小小的誤解也很容易演變成家庭矛盾。"
           }
         ]
       },
@@ -3120,7 +3120,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "By stealing everyday interaction and replacing deep conversation with distraction, personal devices can turn the family home from a shared living space into a collection of isolated private worlds.",
-            "chinese": "透過偷走日常互動，並以分心取代深入交談，個人設備可以把家庭住所從一個共享的生活空間，變成一個個孤立私人世界的集合。"
+            "chinese": "透過偷走日常互動，並以分心取代深入交談，個人設備可以把家庭住所從一個共享的生活空間，變成彼此隔絕的私人世界。"
           }
         ]
       }
@@ -3514,8 +3514,8 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
       }
     ],
     "translation": [
-      "旅遊內容已成為現代娛樂中既定的一部分，從電視紀錄片到網紅發布的短影片皆是如此。有些人認為，由於人們現在可以透過螢幕看到外國城市、風景和文化，他們便會較不願意花錢到海外旅行。我完全不同意這個觀點，因為數位旅遊內容通常會激發好奇心，而不是取代真正的旅行；而身處外國的體驗也無法透過媒體被複製。",
-      "第一個原因是，旅遊節目和網上影片往往會成為人們走向旅遊的入口。當觀眾看到希臘清澈湛藍的海水、泰國的街頭美食，或意大利古老的街道時，他們並不只是把這些地方從清單上劃掉；他們其實是在被邀請去想像自己身處其中。尤其是社交媒體，會把旅遊目的地變成生動的明信片，讓人們覺得一個地方是可到達的、令人嚮往的，也是值得為其儲錢的。例如，一個看過幾段關於日本影片的人，可能會變得更想親身參觀寺廟、品嘗當地食物，並感受那裡的氣氛。從這個角度來看，網上旅遊內容更有可能點燃好奇心，而不是熄滅它。",
+      "旅遊內容已成為現代娛樂的常見內容，從電視紀錄片到網紅發布的短影片皆是如此。有些人認為，由於人們現在可以透過螢幕看到外國城市、風景和文化，他們便會較不願意花錢到海外旅行。我完全不同意這個觀點，因為數位旅遊內容通常會激發好奇心，而不是取代真正的旅行；而身處外國的體驗也無法透過媒體被複製。",
+      "第一個原因是，旅遊節目和網上影片往往會成為人們萌生旅遊念頭的起點。當觀眾看到希臘清澈湛藍的海水、泰國的街頭美食，或意大利古老的街道時，他們並不只是把這些地方從清單上劃掉；他們其實會開始想像自己身處其中。尤其是社交媒體，會把旅遊目的地變成生動的明信片，讓人們覺得一個地方並非遙不可及，而且令人嚮往，也是值得為其儲錢的。例如，一個看過幾段關於日本影片的人，可能會變得更想親身參觀寺廟、品嘗當地食物，並感受那裡的氣氛。從這個角度來看，網上旅遊內容更有可能點燃好奇心，而不是熄滅它。",
       "更重要的是，觀看一個目的地和親身經歷它，在本質上是完全不同的。螢幕可以呈現市場的色彩或山脈的形狀，但它無法重現當地食物的氣味、擁擠列車中的壓迫感，或那些令旅行變得難忘的小小對話。人們花錢到外國旅行，並不只是為了收集資訊；他們付錢是為了自由、探索，以及暫時脫離日常生活的規律。即使是一部拍攝精美的紀錄片，也始終只是二手經驗；相比之下，出國旅行能讓人們直接接觸地方和人，而這些接觸可能會改變他們看待世界的方式。",
       "總結來說，我不同意旅遊媒體會降低人們願意為國際旅行付費的意願。它或許能娛樂留在家中的觀眾，但更多時候，它會激發他們出國並親身體驗世界的渴望。"
     ],
@@ -3528,7 +3528,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "Travel content has become an established part of modern entertainment, from television documentaries to short videos posted by influencers.",
-            "chinese": "旅遊內容已成為現代娛樂中既定的一部分，從電視紀錄片到網紅發布的短影片皆是如此。"
+            "chinese": "旅遊內容已成為現代娛樂的常見內容，從電視紀錄片到網紅發布的短影片皆是如此。"
           },
           {
             "label": "Transitional Sentence（過渡句）",
@@ -3550,17 +3550,17 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "The first reason is that travel programmes and online videos often act as a gateway to tourism.",
-            "chinese": "第一個原因是，旅遊節目和網上影片往往會成為人們走向旅遊的入口。"
+            "chinese": "第一個原因是，旅遊節目和網上影片往往會成為人們萌生旅遊念頭的起點。"
           },
           {
             "label": "Supporting Detail 1 + Examples（支持細節一）",
             "english": "When viewers see clear blue water in Greece, street food in Thailand or ancient streets in Italy, they are not simply ticking these places off a list; they are being invited to imagine themselves there.",
-            "chinese": "當觀眾看到希臘清澈湛藍的海水、泰國的街頭美食，或意大利古老的街道時，他們並不只是把這些地方從清單上劃掉；他們其實是在被邀請去想像自己身處其中。"
+            "chinese": "當觀眾看到希臘清澈湛藍的海水、泰國的街頭美食，或意大利古老的街道時，他們並不只是把這些地方從清單上劃掉；他們其實會開始想像自己身處其中。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Social media, in particular, turns destinations into living postcards, making people feel that a place is reachable, desirable and worth saving for.",
-            "chinese": "尤其是社交媒體，會把旅遊目的地變成生動的明信片，讓人們覺得一個地方是可到達的、令人嚮往的，也是值得為其儲錢的。"
+            "chinese": "尤其是社交媒體，會把旅遊目的地變成生動的明信片，讓人們覺得一個地方並非遙不可及，而且令人嚮往，也是值得為其儲錢的。"
           },
           {
             "label": "Example（例子）",
@@ -4033,9 +4033,9 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
       }
     ],
     "translation": [
-      "國際旅行使人們接觸到一些起初可能陌生、令人不自在，甚至令人困惑的風俗習慣。因此，有些人認為，旅客應該適應當地的生活方式，而不是期望東道主文化去遷就他們。我完全同意這觀點，因為適應既是一種基本的尊重，也是通往真正文化理解的最佳途徑。",
-      "第一個原因是，當地習俗往往充當著和平社會生活中的不成文規則。它們不只是裝飾性的傳統；它們顯示了一個社群認為甚麼是禮貌、謙遜、神聖，或冒犯的行為。如果一名遊客在寺廟裡大聲說話、忽視宗教場所的衣著要求，或穿著鞋走進別人家中，這個行為在意圖上可能是無心的，但實際效果卻可能帶有冒犯性。相比之下，當旅客遵守當地禮儀時，他們便表明當地居民的價值觀值得尊重，不能僅把居民當作風景的一部分。這能減少不必要的緊張，並讓雙方在更尊重彼此的基礎上交流。",
-      "適應當地習俗也會使旅行變得更有意義。一個無論到哪裡都帶著自己習慣的人，可能只會隔著一道玻璃牆去看另一種文化：距離近得足以拍照，卻不足以真正理解。一些簡單的行為，例如學習當地問候語、遵守用餐習俗，或參與社區日常活動，都能為真正的交流打開大門。當地居民便更有可能解釋傳統、分享故事，並把旅客視為真誠的客人，而不是匆匆而過的消費者。從這個意義上說，適應並不會限制旅客的自由；它反而透過把旁觀轉化為參與，擴展了旅行體驗。",
+      "國際旅行使人們接觸到一些起初可能陌生、令人不自在，甚至令人困惑的風俗習慣。因此，有些人認為，旅客應該適應當地的生活方式，而不是期望當地文化遷就自己。我完全同意這觀點，因為適應既是一種基本的尊重，也是通往真正文化理解的最佳途徑。",
+      "第一個原因是，當地習俗往往是讓人們和睦相處的不成文規則。它們不只是裝飾性的傳統；它們顯示了一個社群認為甚麼是禮貌、謙遜、神聖，或冒犯的行為。如果一名遊客在寺廟裡大聲說話、忽視宗教場所的衣著要求，或穿著鞋走進別人家中，這個行為在意圖上可能是無心的，但實際效果卻可能帶有冒犯性。相比之下，當旅客遵守當地禮儀時，他們便表明當地居民的價值觀值得尊重，不能僅把居民當作風景的一部分。這能減少不必要的緊張，並讓雙方在更尊重彼此的基礎上交流。",
+      "適應當地習俗也會使旅行變得更有意義。一個無論到哪裡都堅持自己習慣的人，可能只會隔著一道玻璃牆去看另一種文化：距離近得足以拍照，卻不足以真正理解。一些簡單的行為，例如學習當地問候語、遵守用餐習俗，或參與社區日常活動，都能為真正的交流打開大門。當地居民便更有可能解釋傳統、分享故事，並把旅客視為真誠的客人，而不是匆匆而過的消費者。從這個意義上說，適應並不會限制旅客的自由；它反而讓旅客從旁觀者變成參與者，擴展了旅行體驗。",
       "總結來說，我完全同意人們在前往不同文化旅行時，應該適應當地的習俗和做法。這種適應能維護社會和諧，並把旅行從表面的觀光轉化為尊重彼此的文化交流。"
     ],
     "translationSections": [
@@ -4052,7 +4052,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Transition（轉折）",
             "english": "Some people therefore argue that visitors should adjust to the local way of life rather than expect the host culture to accommodate them.",
-            "chinese": "因此，有些人認為，旅客應該適應當地的生活方式，而不是期望東道主文化去遷就他們。"
+            "chinese": "因此，有些人認為，旅客應該適應當地的生活方式，而不是期望當地文化遷就自己。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -4069,7 +4069,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "The first reason is that local customs often act as unwritten rules for peaceful social life.",
-            "chinese": "第一個原因是，當地習俗往往充當著和平社會生活中的不成文規則。"
+            "chinese": "第一個原因是，當地習俗往往是讓人們和睦相處的不成文規則。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -4106,7 +4106,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "A person who carries their own habits everywhere may see another culture only through a glass wall: close enough to photograph, but not close enough to understand.",
-            "chinese": "一個無論到哪裡都帶著自己習慣的人，可能只會隔著一道玻璃牆去看另一種文化：距離近得足以拍照，卻不足以真正理解。"
+            "chinese": "一個無論到哪裡都堅持自己習慣的人，可能只會隔著一道玻璃牆去看另一種文化：距離近得足以拍照，卻不足以真正理解。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -4121,7 +4121,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "In this sense, adaptation does not narrow a traveller’s freedom; it expands the experience by turning observation into participation.",
-            "chinese": "從這個意義上說，適應並不會限制旅客的自由；它反而透過把旁觀轉化為參與，擴展了旅行體驗。"
+            "chinese": "從這個意義上說，適應並不會限制旅客的自由；它反而讓旅客從旁觀者變成參與者，擴展了旅行體驗。"
           }
         ]
       },
@@ -4546,8 +4546,8 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
     ],
     "translation": [
       "交通擠塞是現代生活中的一個嚴重問題。有人認為，為了解決交通問題，應該鼓勵人們居住在城市，而不是住在郊區或鄉村地區。我完全同意，因為緊湊的城市生活能使公共交通更有效率，並減少漫長的日常出行。",
-      "最有力的原因是，城市能夠支撐公共交通，而低密度地區通常做不到這一點。當很多人住得很接近時，政府便有理由投資地下鐵路、巴士、電車路線和單車徑，因為這些服務每天都會被大量乘客使用。相比之下，當住宅分散在遙遠的郊區或村莊時，公共交通的營運成本會變得很高，而且使用起來也不方便。居民於是往往沒有實際選擇，只能開車。例如，一位住在地鐵站附近的上班族可以不增加路面車輛便前往工作地點；然而，住在偏遠郊區的人即使只是處理基本雜務，也可能需要開車。因此，城市集中化能把交通從個人的負擔，轉化為共享的公共服務。",
-      "另一個原因是，城市生活縮短了人們與他們需要前往的地方之間的距離。在規劃良好的城市中，工作場所、學校、醫院、商店和娛樂場所通常都在步行、騎單車或短途公共交通可達的範圍內。這一點很重要，因為交通問題並不只是由車輛造成的；它們是由不必要的車程造成的。如果人們可以步行去超市、騎單車去公園，或乘搭短途巴士去診所，需要使用的汽車便會減少。長遠而言，這會減少交通擠塞、燃料使用、泊車壓力和污染。鄉村生活或許能提供空間與寧靜，但它往往會把每一件小事都變成一次汽車出行。",
+      "最有力的原因是，城市能夠支撐公共交通，而低密度地區通常做不到這一點。當很多人住得很接近時，政府便有理由投資地下鐵路、巴士、電車路線和單車徑，因為這些服務每天都會被大量乘客使用。相比之下，當住宅分散在遙遠的郊區或村莊時，公共交通的營運成本會變得很高，而且使用起來也不方便。居民於是往往沒有實際選擇，只能開車。例如，一位住在地鐵站附近的上班族可以不增加路面車輛便前往工作地點；然而，住在偏遠郊區的人即使只是處理日常瑣事，也可能需要開車。因此，人口集中於城市，能把交通從個人的負擔，轉化為共享的公共服務。",
+      "另一個原因是，城市生活縮短了人們與他們需要前往的地方之間的距離。在規劃良好的城市中，工作場所、學校、醫院、商店和娛樂場所通常都在步行、騎單車或短途公共交通可達的範圍內。這一點很重要，因為交通問題不單在車輛本身，更在於不必要的車程。如果人們可以步行去超市、騎單車去公園，或乘搭短途巴士去診所，需要使用的汽車便會減少。長遠而言，這會減少交通擠塞、燃料使用、泊車壓力和污染。鄉村生活或許能提供空間與寧靜，但它往往會把每一件小事都變成一次汽車出行。",
       "總結來說，我完全同意人們應該被鼓勵居住在城市，以緩解交通問題。高密度的城市生活使公共交通變得可行，並縮短日常出行，而這正正直接處理了交通擠塞的根源。"
     ],
     "translationSections": [
@@ -4601,12 +4601,12 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, an office worker who lives near a metro station can travel to work without adding another car to the road, whereas someone in a remote suburb may need to drive even for basic errands.",
-            "chinese": "例如，一位住在地鐵站附近的上班族可以不增加路面車輛便前往工作地點；然而，住在偏遠郊區的人即使只是處理基本雜務，也可能需要開車。"
+            "chinese": "例如，一位住在地鐵站附近的上班族可以不增加路面車輛便前往工作地點；然而，住在偏遠郊區的人即使只是處理日常瑣事，也可能需要開車。"
           },
           {
             "label": "Conclusion（段落總結）",
             "english": "Urban concentration therefore turns transport from a private burden into a shared public service.",
-            "chinese": "因此，城市集中化能把交通從個人的負擔，轉化為共享的公共服務。"
+            "chinese": "因此，人口集中於城市，能把交通從個人的負擔，轉化為共享的公共服務。"
           }
         ]
       },
@@ -4628,7 +4628,7 @@ window.EDMUND_IELTS_WRITING_88_105_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "This matters because traffic problems are not caused simply by vehicles; they are caused by unnecessary vehicle journeys.",
-            "chinese": "這一點很重要，因為交通問題並不只是由車輛造成的；它們是由不必要的車程造成的。"
+            "chinese": "這一點很重要，因為交通問題不單在車輛本身，更在於不必要的車程。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",

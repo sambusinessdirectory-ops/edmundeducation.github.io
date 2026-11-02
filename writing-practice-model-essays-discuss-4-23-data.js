@@ -7263,8 +7263,8 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "學習不會在任何固定年齡停止；即使在人生後期，它仍然具有價值。雖然有人認為65歲以上的人年紀太大，已經無法獲得新知識或新技能，但我完全不同意。在我看來，較年長的人能從學習中獲得很大益處，因為學習能使他們的思維保持活躍，並讓他們過上更獨立、更有意義的生活。",
-      "第一個原因是，學習新事物能給長者帶來強大的精神和情感提升。許多退休人士會突然失去過去由工作所提供的日常結構，因此他們的日子可能變得重複而空洞。當他們學習一種語言、一種樂器、一項數碼技能或一門手藝時，他們不只是填補時間；他們是在給自己的頭腦一個新的挑戰。這種挑戰能促進專注力、耐性和解難能力，從而幫助他們感到自己仍然有能力，而不是被遺忘。例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一種安靜而穩定的自豪感來源。從這個意義上說，學習就像在一個逐漸變暗的房間裡打開了一盞燈。",
-      "另一個重要好處是，新技能能幫助較年長的人與現代社會保持聯繫。世界變化很快，尤其是在科技方面，而那些拒絕學習的人可能會越來越依賴他人。如果長者學會使用智能手機、網上銀行或視像通話，他們便能與家人溝通、處理日常事務，並更充分地參與社區生活。這並不是一個小小的優勢；它保護了他們的尊嚴。例如，一位學會使用視像聊天的祖母，可以和身在海外的孫兒女說話，而不是感到與他們隔絕。這樣的學習在不同世代之間建立了一座橋樑。",
+      "第一個原因是，學習新事物能給長者帶來精神振奮，心情也更好。許多退休人士會突然失去工作帶來的規律生活，因此他們的日子可能變得重複而空洞。當他們學習一種語言、一種樂器、一項數碼技能或一門手藝時，他們不只是填補時間；他們是在給自己的頭腦一個新的挑戰。這種挑戰能促進專注力、耐性和解難能力，從而幫助他們感到自己仍然有能力，而不是被遺忘。例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一份不張揚的自豪感。從這個意義上說，學習就像在一個逐漸變暗的房間裡打開了一盞燈。",
+      "另一個重要好處是，新技能能幫助較年長的人與現代社會保持聯繫。世界變化很快，尤其是在科技方面，而那些拒絕學習的人可能會越來越依賴他人。如果長者學會使用智能手機、網上銀行或視像通話，他們便能與家人溝通、處理日常事務，並更充分地參與社區生活。這絕非微不足道的好處；它保護了他們的尊嚴。例如，一位學會使用視像聊天的祖母，可以和身在海外的孫兒女說話，而不是感到與他們隔絕。這樣的學習在不同世代之間建立了一座橋樑。",
       "總結來說，對較年長的人而言，學習永遠不會太遲。65歲以後，學習並不是一種奢侈；它是維持自信、獨立和人生目標感的最佳方法之一。"
     ],
     "translationSections": [
@@ -7298,12 +7298,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "The first reason is that learning something new gives elderly people a strong mental and emotional lift.",
-            "chinese": "第一個原因是，學習新事物能給長者帶來強大的精神和情感提升。"
+            "chinese": "第一個原因是，學習新事物能給長者帶來精神振奮，心情也更好。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Many retirees suddenly lose the daily structure that work once provided, so their days can become repetitive and empty.",
-            "chinese": "許多退休人士會突然失去過去由工作所提供的日常結構，因此他們的日子可能變得重複而空洞。"
+            "chinese": "許多退休人士會突然失去工作帶來的規律生活，因此他們的日子可能變得重複而空洞。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -7318,7 +7318,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, an older person who joins a painting class may begin with shaky confidence, but over time the process of improving can become a quiet source of pride.",
-            "chinese": "例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一種安靜而穩定的自豪感來源。"
+            "chinese": "例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一份不張揚的自豪感。"
           },
           {
             "label": "Conclusion（段落總結）",
@@ -7350,7 +7350,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Effect（影響）",
             "english": "This is not a small advantage; it protects their dignity.",
-            "chinese": "這並不是一個小小的優勢；它保護了他們的尊嚴。"
+            "chinese": "這絕非微不足道的好處；它保護了他們的尊嚴。"
           },
           {
             "label": "Example（例子）",
@@ -7810,9 +7810,9 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "人類以前所未有的規模改變了自然世界。由於森林被砍伐、海洋受到污染，許多物種也被推向滅絕邊緣，有些人認為人類對動植物造成的傷害如今已經無法修復。雖然我理解這種悲觀觀點，但我相信實際行動仍然可以減少環境傷害，並讓自然恢復。",
-      "那些認為改變是不可能的人，通常會指出某些環境破壞具有永久性。例如，一旦一個物種消失，就沒有任何法律或運動能夠把它帶回來。此外，現代生活高度依賴會破壞生態系統的活動，例如大規模農業、道路建設、航空旅行和工業生產。這些活動並不是可以一夜之間改掉的小習慣；它們已經編織進經濟運作的方式之中。結果是，即使政府承諾推行更環保的政策，企業和消費者仍然經常優先考慮便利、利潤和短期增長。從這個角度來看，人類的影響就像一股過於強大的潮水，似乎已經無法逆轉。",
-      "然而，我會認為這種觀點過於失敗主義。雖然有些損失是不可逆轉的，但許多形式的環境破壞仍然可以被限制、減緩，甚至部分逆轉。政府可以保護森林、限制非法狩獵、修復濕地，並懲罰污染河流或破壞棲息地的公司。同時，個人也可以透過減少飲食浪費、選擇可持續產品，以及支持保育項目來改變需求。例如，當一座城市建立受保護的綠化空間並控制發展時，鳥類、昆蟲和本地植物可以隨著時間逐漸回歸。如果人們停止不斷向自然施加壓力，自然往往具有驚人的復原力。",
-      "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法被復原。然而，我強烈相信改變仍然是可能的。透過堅定的法律、負責任的企業，以及更審慎的日常選擇，人類可以停止讓問題惡化，並給予動植物真正的生存機會。"
+      "那些認為改變是不可能的人，通常會指出某些環境破壞具有永久性。例如，一旦一個物種消失，就沒有任何法律或運動能夠把它帶回來。此外，現代生活高度依賴會破壞生態系統的活動，例如大規模農業、道路建設、航空旅行和工業生產。這些活動並不是可以一夜之間改掉的小習慣；它們已深深融入經濟運作。結果是，即使政府承諾推行更環保的政策，企業和消費者仍然經常優先考慮便利、利潤和短期增長。從這個角度來看，人類的影響就像一股過於強大的潮水，似乎已經無法逆轉。",
+      "然而，我認為這種觀點過於悲觀，輕易認定無法改善。雖然有些損失是不可逆轉的，但許多形式的環境破壞仍然可以被限制、減緩，甚至部分逆轉。政府可以保護森林、限制非法狩獵、修復濕地，並懲罰污染河流或破壞棲息地的公司。同時，個人也可以透過減少飲食浪費、選擇可持續產品，以及支持保育項目來改變需求。例如，當一座城市建立受保護的綠化空間並控制發展時，鳥類、昆蟲和本地植物可以隨著時間逐漸回歸。如果人們停止不斷向自然施加壓力，自然往往具有驚人的復原力。",
+      "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法挽回。然而，我強烈相信改變仍然是可能的。透過嚴格的法律、負責任的企業，以及更審慎的日常選擇，人類可以停止讓問題惡化，並給予動植物真正的生存機會。"
     ],
     "translationSections": [
       {
@@ -7865,7 +7865,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "These activities are not small habits that can be removed overnight; they are woven into the way economies operate.",
-            "chinese": "這些活動並不是可以一夜之間改掉的小習慣；它們已經編織進經濟運作的方式之中。"
+            "chinese": "這些活動並不是可以一夜之間改掉的小習慣；它們已深深融入經濟運作。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -7887,7 +7887,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "However, I would argue that this view is too defeatist.",
-            "chinese": "然而，我會認為這種觀點過於失敗主義。"
+            "chinese": "然而，我認為這種觀點過於悲觀，輕易認定無法改善。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -7924,7 +7924,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Both Views（重申雙方觀點）",
             "english": "In conclusion, human activity has undoubtedly caused deep damage to the natural world, and some of that damage cannot be undone.",
-            "chinese": "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法被復原。"
+            "chinese": "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法挽回。"
           },
           {
             "label": "Reiterating Stance（重申立場）",
@@ -7934,7 +7934,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Final Thought（最終總結）",
             "english": "With firm laws, responsible businesses and more thoughtful daily choices, humans can stop making the problem worse and give plants and animals a real chance to survive.",
-            "chinese": "透過堅定的法律、負責任的企業，以及更審慎的日常選擇，人類可以停止讓問題惡化，並給予動植物真正的生存機會。"
+            "chinese": "透過嚴格的法律、負責任的企業，以及更審慎的日常選擇，人類可以停止讓問題惡化，並給予動植物真正的生存機會。"
           }
         ]
       }
@@ -8323,10 +8323,10 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
       }
     ],
     "translation": [
-      "大城市的空氣污染通常與私家車的大量使用有關。雖然有些人認為，國際無車日會是減少這個問題的有效方法，但另一些人則認為，更廣泛的措施會更加有效。在我看來，雖然無車日可以提高公眾意識，但持久的改善需要更強而有力、也更具永久性的交通政策。",
-      "支持國際無車日的人認為，它能夠立即並明顯地減少交通流量和排放。如果全球數以百萬計的司機有一天把車留在家中，城市街道便會變得更安靜、更清潔，也較不擁擠。這也可以鼓勵人們反思自己的日常出行習慣。例如，一位平時開車短途上班的辦公室職員，可能會意識到公共交通、騎單車或步行並不像他們原本以為的那麼不方便。從這個意義上說，無車日可以成為一個有用的警醒，向公眾展示更清潔的城市生活是可能實現的。",
-      "然而，我認為其他解決方法有效得多，因為空氣污染是一個每日存在的問題，而不是一個只存在一天的問題。一個象徵性的活動也許能短暫地減少排放，但交通通常會在第二天早上恢復正常。政府反而應該投資於可靠的公共交通、建設安全的單車徑，並為車輛引入更嚴格的排放標準。這些政策會隨著時間改變人們的行為，因為它們使更清潔的選擇變得實際、負擔得起，並且有吸引力。例如，如果巴士和火車便宜、準時又舒適，許多通勤者自然會選擇它們，而不是開車。與無車日不同，這些措施能夠處理問題的根源。",
-      "總結來說，國際無車日具有一定價值，因為它可以提高意識並暫時減少污染。然而，我堅定地認為，長遠的交通改革是改善空氣質素更有效的方法，因為它改變的是人們每天的出行方式，而不是一年只有一次的行為。"
+      "大城市的空氣污染通常與私家車的大量使用有關。雖然有些人認為，國際無車日會是減少空氣污染的有效方法，但另一些人則認為，更廣泛的措施會更加有效。在我看來，雖然無車日可以提高公眾意識，但持久的改善需要更有力、可長期推行的交通政策。",
+      "支持國際無車日的人認為，它能夠立即並明顯地減少交通流量和排放。如果全球數以百萬計的司機有一天把車留在家中，城市街道便會變得更安靜、更清潔，也較不擁擠。這也可以鼓勵人們反思自己的日常出行習慣。例如，一位平時開車短途上班的辦公室職員，可能會意識到公共交通、騎單車或步行並不像他們原本以為的那麼不方便。從這個意義上說，無車日可以成為一個提醒大家改變習慣的契機，向公眾展示更清潔的城市生活是可能實現的。",
+      "然而，我認為其他解決方法有效得多，因為空氣污染是一個每日存在的問題，而不是一個只存在一天的問題。一個象徵性的活動也許能短暫地減少排放，但交通通常會在第二天早上恢復正常。政府反而應該投資於可靠的公共交通、建設安全的單車徑，並為車輛引入更嚴格的排放標準。這些政策會隨著時間改變人們的行為，因為它們使更清潔的選擇變得可行、負擔得起，並且有吸引力。例如，如果巴士和火車便宜、準時又舒適，許多通勤者自然會選擇它們，而不是開車。與無車日不同，這些措施能夠處理問題的根源。",
+      "總結來說，國際無車日具有一定價值，因為它可以提高意識並暫時減少污染。然而，我堅定地認為，長遠的交通改革是改善空氣質素更有效的方法，因為它改變的是人們每天的出行方式，而非只在一年一度的活動中改變。"
     ],
     "translationSections": [
       {
@@ -8342,12 +8342,12 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Transition（轉折）",
             "english": "While some people believe that an international car-free day would be a useful way to reduce this problem, others argue that broader measures would be more effective.",
-            "chinese": "雖然有些人認為，國際無車日會是減少這個問題的有效方法，但另一些人則認為，更廣泛的措施會更加有效。"
+            "chinese": "雖然有些人認為，國際無車日會是減少空氣污染的有效方法，但另一些人則認為，更廣泛的措施會更加有效。"
           },
           {
             "label": "Thesis Statement（中心論點）",
             "english": "In my view, although a car-free day can raise public awareness, lasting improvements require stronger and more permanent transport policies.",
-            "chinese": "在我看來，雖然無車日可以提高公眾意識，但持久的改善需要更強而有力、也更具永久性的交通政策。"
+            "chinese": "在我看來，雖然無車日可以提高公眾意識，但持久的改善需要更有力、可長期推行的交通政策。"
           }
         ]
       },
@@ -8379,7 +8379,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（結論）",
             "english": "In this sense, a car-free day can act as a useful wake-up call, showing the public that cleaner urban life is possible.",
-            "chinese": "從這個意義上說，無車日可以成為一個有用的警醒，向公眾展示更清潔的城市生活是可能實現的。"
+            "chinese": "從這個意義上說，無車日可以成為一個提醒大家改變習慣的契機，向公眾展示更清潔的城市生活是可能實現的。"
           }
         ]
       },
@@ -8406,7 +8406,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "These policies change people’s behaviour over time because they make cleaner choices practical, affordable, and attractive.",
-            "chinese": "這些政策會隨著時間改變人們的行為，因為它們使更清潔的選擇變得實際、負擔得起，並且有吸引力。"
+            "chinese": "這些政策會隨著時間改變人們的行為，因為它們使更清潔的選擇變得可行、負擔得起，並且有吸引力。"
           },
           {
             "label": "Example（例子）",
@@ -8433,7 +8433,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "Nevertheless, I firmly believe that long-term transport reform is a much more effective way to improve air quality, as it changes how people travel every day rather than only once a year.",
-            "chinese": "然而，我堅定地認為，長遠的交通改革是改善空氣質素更有效的方法，因為它改變的是人們每天的出行方式，而不是一年只有一次的行為。"
+            "chinese": "然而，我堅定地認為，長遠的交通改革是改善空氣質素更有效的方法，因為它改變的是人們每天的出行方式，而非只在一年一度的活動中改變。"
           }
         ]
       }
@@ -8832,8 +8832,8 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "環境問題如今已成為人類所面對的最嚴重挑戰之一。有些人認為全球暖化應被視為最大的威脅，而另一些人則認為森林破壞會造成更即時的損害。儘管砍伐森林明顯會傷害生態系統和本地社群，但我認為全球暖化是更緊迫且影響更深遠的問題。",
-      "那些把全球暖化視為主要環境危機的人有很有力的理由，因為它幾乎影響地球的每一個部分。氣溫上升會加劇乾旱、洪水和熱浪，使富裕國家和貧困國家的日常生活都變得更加困難。例如，農民可能會在漫長的乾旱季節後失去收成，而沿海城市則可能因海平面上升而反覆面對洪水。這意味著全球暖化不僅是一個環境問題，也對糧食安全、公共健康和經濟穩定構成威脅。由於它的影響會跨越國界，因此任何單一國家都極難逃避這些後果。",
-      "另一方面，許多人認為砍伐森林甚至更具破壞性，因為森林是地球的肺，也是生物賴以生存的庇護所。當大片林地被清除，用於農業、住房或商業利益時，無數動物會失去棲息地，土壤會變得更脆弱，而原住民社群也可能被迫離開世代依靠的土地。此外，樹木會吸收二氧化碳，因此砍伐樹木會使氣候變化更加嚴重。從這個意義上說，砍伐森林並不是一個小型的地方問題；它可以摧毀整個生態系統，並加速更廣泛的環境破壞。",
+      "那些把全球暖化視為主要環境危機的人理由充分，因為它幾乎影響地球的每一個部分。氣溫上升會加劇乾旱、洪水和熱浪，使富裕國家和貧困國家的日常生活都變得更加困難。例如，農民可能會在漫長的乾旱季節後失去收成，而沿海城市則可能因海平面上升而反覆面對洪水。這意味著全球暖化不僅是一個環境問題，也對糧食安全、公共健康和經濟穩定構成威脅。由於它的影響會跨越國界，因此任何單一國家都極難逃避這些後果。",
+      "另一方面，許多人認為砍伐森林甚至更具破壞性，因為森林是地球的肺，也是生物賴以生存的庇護所。當大片林地被砍伐，以開闢農地、建屋或牟取商業利益時，無數動物會失去棲息地，土壤會變得更脆弱，而原住民社群也可能被迫離開世代依靠的土地。此外，樹木會吸收二氧化碳，因此砍伐樹木會使氣候變化更加嚴重。從這個意義上說，砍伐森林並非只是局部的小問題；它可以摧毀整個生態系統，並加速更廣泛的環境破壞。",
       "然而，在我看來，全球暖化仍然是更大的威脅，因為它會放大許多其他環境問題，包括砍伐森林本身。一片被摧毀的森林固然是災難性的，但一個過熱的地球卻可以同時破壞森林、海洋、城市和農業。因此，儘管政府必須保護森林，應對全球暖化仍應是最優先的環境任務。"
     ],
     "translationSections": [
@@ -8867,7 +8867,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Topic Sentence（主題句）",
             "english": "Those who regard global warming as the main environmental crisis have a strong argument because it affects almost every part of the planet.",
-            "chinese": "那些把全球暖化視為主要環境危機的人有很有力的理由，因為它幾乎影響地球的每一個部分。"
+            "chinese": "那些把全球暖化視為主要環境危機的人理由充分，因為它幾乎影響地球的每一個部分。"
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
@@ -8904,7 +8904,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "When large areas of woodland are cleared for farming, housing or commercial profit, countless animals lose their habitats, soil becomes weaker, and indigenous communities may be pushed off land that has supported them for generations.",
-            "chinese": "當大片林地被清除，用於農業、住房或商業利益時，無數動物會失去棲息地，土壤會變得更脆弱，而原住民社群也可能被迫離開世代依靠的土地。"
+            "chinese": "當大片林地被砍伐，以開闢農地、建屋或牟取商業利益時，無數動物會失去棲息地，土壤會變得更脆弱，而原住民社群也可能被迫離開世代依靠的土地。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -8914,7 +8914,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "In this sense, deforestation is not a small local problem; it can tear apart entire ecosystems and accelerate wider environmental damage.",
-            "chinese": "從這個意義上說，砍伐森林並不是一個小型的地方問題；它可以摧毀整個生態系統，並加速更廣泛的環境破壞。"
+            "chinese": "從這個意義上說，砍伐森林並非只是局部的小問題；它可以摧毀整個生態系統，並加速更廣泛的環境破壞。"
           }
         ]
       },
@@ -9343,9 +9343,9 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
     ],
     "translation": [
       "環境破壞已成為現代生活中其中一個最具代表性的重大問題，影響著空氣、水資源、食物系統以及公共健康。有些人認為這些問題本質上是國際性的，因此需要政府介入；而另一些人則相信，這些問題只能透過個人責任來解決。我堅定地認為，政府必須發揮主導作用，因為只有政府才擁有足夠的權力和資源，去推動所需規模的改變。",
-      "支持政府行動的人指出，許多環境問題規模太大，並非普通市民能夠控制。氣候變化、工業污染和森林砍伐，除了與疏忽的家庭習慣有關，也源於國家能源系統、交通網絡及企業活動。例如，如果一間工廠把有毒廢料排入河流，普通居民可以投訴或抵制它的產品，但他們不能在法律上強制它改變生產方式。相比之下，政府可以實施嚴格規管、懲罰污染者、投資可再生能源，並與其他國家合作。如果沒有這種層次的權力，環境保護就會變成一種善意行為，而不是可以被強制執行的責任。",
+      "支持政府行動的人指出，許多環境問題規模太大，並非普通市民能夠控制。氣候變化、工業污染和森林砍伐並非只由疏忽的家庭習慣造成，更主要源於國家能源系統、交通網絡及企業活動。例如，如果一間工廠把有毒廢料排入河流，普通居民可以投訴或抵制它的產品，但他們不能在法律上強制它改變生產方式。相比之下，政府可以實施嚴格規管、懲罰污染者、投資可再生能源，並與其他國家合作。如果沒有這種層次的權力，環境保護就會變成一種善意行為，而不是可以被強制執行的責任。",
       "另一方面，支持個人行動的人認為，如果人們繼續以浪費的方式生活，單靠法律並不能奏效。日常選擇，例如減少駕車、正確回收、減少使用塑膠以及避免過度消費，都可以共同減輕地球的壓力。例如，如果數百萬個家庭減少浪費食物和電力，對能源和資源的需求便會下降。這種觀點是合理的，因為環境破壞不只是在董事會會議室和工廠中產生；它也受到日常生活習慣的推動。然而，個人努力就像主水管仍在漏水時用杯子盛水一樣：有用，但遠遠不足夠。",
-      "總結來說，個人當然應該表現得更負責任，但環境問題不能主要交由個人選擇來處理。政府最適合去規管產業、塑造基礎建設，並協調國際行動，因此它們應該承擔處理當今環境危機的核心責任。"
+      "總結來說，個人當然應該表現得更負責任，但環境問題不能主要交由個人選擇來處理。政府最有能力規管產業、塑造基礎建設，並協調國際行動，因此它們應該承擔處理當今環境危機的核心責任。"
     ],
     "translationSections": [
       {
@@ -9383,7 +9383,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Climate change, industrial pollution and deforestation are not caused merely by careless household habits, but by national energy systems, transport networks and corporate activity.",
-            "chinese": "氣候變化、工業污染和森林砍伐，除了與疏忽的家庭習慣有關，也源於國家能源系統、交通網絡及企業活動。"
+            "chinese": "氣候變化、工業污染和森林砍伐並非只由疏忽的家庭習慣造成，更主要源於國家能源系統、交通網絡及企業活動。"
           },
           {
             "label": "Example（例子）",
@@ -9447,7 +9447,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "Governments are best placed to regulate industries, shape infrastructure and coordinate international action, so they should bear the central responsibility for tackling today’s environmental crisis.",
-            "chinese": "政府最適合去規管產業、塑造基礎建設，並協調國際行動，因此它們應該承擔處理當今環境危機的核心責任。"
+            "chinese": "政府最有能力規管產業、塑造基礎建設，並協調國際行動，因此它們應該承擔處理當今環境危機的核心責任。"
           }
         ]
       }

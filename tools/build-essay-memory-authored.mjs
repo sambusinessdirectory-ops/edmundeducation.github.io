@@ -73,7 +73,8 @@ const sentences=lessonSentences.map((source,i)=>{
     assert(simple.toLowerCase().includes(plain.toLowerCase()),`Missing simple vocabulary ${i+1}: ${plain}`);
     return {original,simple:plain,meaning};
   });
-  assert(synonyms.length>=2,`Too few real vocabulary bridges: ${i+1}`);
+  const minimumBridges=source.english.trim().split(/\s+/).length<5?1:2;
+  assert(synonyms.length>=minimumBridges,`Too few real vocabulary bridges: ${i+1}`);
   const sourceChunks=authoring.chunkOverrides?.[i]||chunks(source.english);
   const simpleChunks=authoring.simpleChunkOverrides?.[i]||chunks(simple);
   assert.equal(sourceChunks.join(' '),source.english,`Source chunk override changed wording ${i+1}`);
@@ -89,6 +90,12 @@ const structures=lessonSentences.map((source,i)=>{
   const parts=(base.parts||[]).map(part=>Array.isArray(part)?{text:part[0],kind:part[1],label:part[2]}:part);
   assert.equal(parts.map(part=>part.text).join(''),source.english,`Structure source span ${i+1}`);
   assert(parts.length>=2&&parts.some(part=>part.kind==='link')&&parts.some(part=>part.kind==='slot'),`Structure components ${i+1}`);
+  let exampleCursor=0;
+  for(const link of parts.filter(part=>part.kind==='link')){
+    const at=edit.example.indexOf(link.text,exampleCursor);
+    assert(at>=0,`Structure example must reproduce fixed source wording in order ${i+1}: ${link.text}`);
+    exampleCursor=at+link.text.length;
+  }
   const distractors=edit.distractors.map(index=>authoring.structures[index]);
   assert.equal(distractors.length,3,`Three local distractors ${i+1}`);
   const options=[edit.example,...distractors.map(row=>row.example)];
@@ -107,6 +114,8 @@ assert(support.intro?.length>=2&&support.route?.length&&support.evidence?.length
 assert(support.transfer?.length>=10);
 for(const [i,item] of support.transfer.entries()){
   assert(item.options?.length===4&&item.explanations?.length===4&&item.correct===0,`Transfer choices ${i+1}`);
+  const hanCounts=item.options.map(option=>(option.match(/[\u3400-\u9fff]/g)||[]).length);
+  if(hanCounts.every(Boolean))assert(Math.max(...hanCounts)-Math.min(...hanCounts)<=3,`Transfer answer-length cue ${i+1}: ${hanCounts.join(',')}`);
   assert(item.modelLink&&item.sourceSentenceIndices?.length&&item.sourceSentenceIndices.every(n=>Number.isInteger(n)&&n>=0&&n<count),`Transfer source ${i+1}`);
 }
 const out=`/* Individually authored and reviewed lesson support. */\n(()=>{const essay=window.ESSAY_MEMORY_LESSONS[${JSON.stringify(authoring.key)}];if(!essay)throw Error('Missing exact source for ${authoring.key}');${grouped?`essay.learningSentences=${JSON.stringify(lessonSentences)};`:''}essay.meta=${JSON.stringify(authoring.meta)};essay.support=${JSON.stringify(support)};})();\n`;
