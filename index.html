@@ -3850,29 +3850,12 @@
         });
       }
 
-      // Count two uninterrupted visible seconds after the opening art and any
-      // greeting or announcement dialogs have cleared.
-      let clearSince = null;
-      const revealWhenClear = () => {
-        const blocked = document.hidden
-          || document.body.classList.contains("is-homepage-loading")
-          || window.EdmundSiteAnnouncementsPending
-          || window.EdmundEddyGlobalDialogue?.isShowing()
-          || document.querySelector(".eddy-global-overlay, dialog[open]");
-        if (blocked) {
-          clearSince = null;
-          return;
-        }
-        clearSince ??= performance.now();
-        if (performance.now() - clearSince < 2000) return;
-        window.clearInterval(revealTimer);
+      window.setTimeout(() => {
         preview.inert = false;
         preview.removeAttribute("aria-hidden");
         logo.setAttribute("aria-hidden", "true");
         tile.classList.add("is-revealed");
-      };
-      const revealTimer = window.setInterval(revealWhenClear, 100);
-      revealWhenClear();
+      }, 12000);
     }
 
     function setupStudentCommentMotion() {
@@ -4354,7 +4337,7 @@
   <script src="homepage-loading.js?v=20261102-noir1"></script>
   <script src="page-loader.js?v=20260501-f4f0e9-plain"></script>
   <script src="announcement-rich-text.js?v=20261021-announcements4"></script>
-  <script src="site-announcements.js?v=20261102-review-logo-timing1"></script>
+  <script src="site-announcements.js?v=20261102-two-surprises-only1"></script>
 <script src="homepage-instagram-followers.js?v=20261028-badge2" defer></script>
 </body>
 </html>
