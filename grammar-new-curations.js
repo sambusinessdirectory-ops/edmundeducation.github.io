@@ -46,6 +46,8 @@
     const cards = view.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)");
     cards.forEach((card, index) => {
       const body = card.querySelector(".grammar-new-topic__content");
+      const heading = card.querySelector(".grammar-articles-topic__head");
+      const focus = card.querySelector(".grammar-tense-topic__focus");
       const note = body.lastElementChild?.tagName === "P" ? body.lastElementChild : null;
       const figure = document.createElement("figure");
       figure.className = "grammar-eddy-dialogue";
@@ -53,6 +55,19 @@
 
       const art = document.createElement("div");
       art.className = "grammar-eddy-dialogue__art";
+      const lesson = document.createElement("div");
+      lesson.className = "grammar-eddy-dialogue__lesson";
+      if (heading) lesson.append(heading);
+      if (focus) lesson.append(focus);
+      const chalkCopy = document.createElement("div");
+      chalkCopy.className = "grammar-eddy-dialogue__lesson-copy";
+      for (const node of [...body.childNodes]) {
+        if (node !== note) chalkCopy.append(node);
+      }
+      if (note) note.remove();
+      lesson.append(chalkCopy);
+      addChalkColors(lesson, index);
+      art.append(lesson);
       const image = document.createElement("img");
       image.src = `grammar-eddy-dialogues/unless/eddy-${figure.dataset.rule}.webp`;
       image.alt = "";
@@ -76,7 +91,7 @@
       caption.append(copy);
       if (copy.textContent.length > 110) figure.classList.add("grammar-eddy-dialogue--long");
       figure.append(art, caption);
-      body.append(figure);
+      card.replaceChildren(figure);
     });
   }
 

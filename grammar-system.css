@@ -88,20 +88,49 @@
 .grammar-new-topic__content p { max-width: 78ch; }
 .grammar-new-topic__content blockquote { max-width: 950px; box-sizing: border-box; border: 1px solid #d9e3ed; border-radius: 15px; background: #f7faff; color: #193c63; font-size: clamp(17px, 1.9vw, 21px); font-weight: 700; }
 .grammar-new-topic__content .grammar-new-table-wrap { margin: 0 0 18px; }
-/* Keep the supplied Eddy art and frame above one continuous classroom blackboard. */
+/* Put each complete unless lesson onto the generated, wood-framed classroom board. */
 .grammar-eddy-dialogue { position: relative; width: min(100%, 980px); margin: 24px 0 4px; }
 .grammar-eddy-dialogue__art {
+  position: relative;
   width: 100%;
   aspect-ratio: 1671 / 941;
   overflow: hidden;
   border-radius: 18px;
-  background: #101d1b url("grammar-eddy-dialogues/blackboard-imagegen-v1.webp") center / cover no-repeat;
-  box-shadow: inset 0 0 0 5px #86552f, inset 0 0 0 8px #c99758, inset 0 0 38px #020909b8;
+  background: #101d1b url("grammar-eddy-dialogues/blackboard-imagegen-framed-v2.webp") center / 100% 100% no-repeat;
+  box-shadow: 0 3px 12px #36211345;
 }
-.grammar-eddy-dialogue__art img { display: block; width: 100%; height: auto; }
+.grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: 84%; height: auto; }
+.grammar-eddy-dialogue__lesson {
+  position: absolute;
+  z-index: 1;
+  inset: 6% 37% 29% 5.5%;
+  overflow: hidden;
+  color: #f6f3e8;
+  font: 650 clamp(13px, 1.45vw, 17px)/1.43 "Noto Sans TC Local", sans-serif;
+  text-shadow: 0 0 1px currentColor, 0 0 4px #e9f2d51a;
+}
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head { display: block; margin: 0 0 8px; padding: 0; border: 0; background: transparent; color: #fff4d2; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head > span { display: none; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head small { display: block; margin: 0 0 2px; color: #aee5d0; font: 750 10px/1.3 "Noto Sans TC Local", sans-serif; letter-spacing: .08em; }
+.grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { margin: 0; color: #ffe28b; font: 850 clamp(17px, 2vw, 23px)/1.3 Georgia, "Noto Serif TC Local", serif; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus { margin: 0 0 8px; padding: 0; border: 0; background: none; color: inherit; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus > span { display: inline-block; margin: 0 0 2px; color: #b8f0d7; font-size: 10px; font-weight: 800; }
+.grammar-eddy-dialogue__lesson .grammar-tense-topic__focus p,
+.grammar-eddy-dialogue__lesson-copy p { max-width: none; margin: 2px 0 7px; color: inherit; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy blockquote { margin: 7px 0; padding: 0 0 0 9px; border: 0; border-left: 2px solid #ffe392; border-radius: 0; background: none; color: #fff8df; font-size: inherit; font-weight: 700; }
+.grammar-eddy-dialogue__lesson-copy strong { color: #dec3ff; }
+.grammar-eddy-dialogue__lesson-copy code { padding: 0; background: none; color: #ffe392; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy em { color: #b9f0d3; font-style: normal; }
+.grammar-eddy-dialogue__lesson-copy ul,
+.grammar-eddy-dialogue__lesson-copy ol { margin: 3px 0 7px; padding-left: 1.25em; }
+.grammar-eddy-dialogue__lesson-copy li { margin: 1px 0; }
+.grammar-eddy-dialogue__lesson-copy table { width: 100%; min-width: 0; border-collapse: collapse; color: inherit; font: inherit; }
+.grammar-eddy-dialogue__lesson-copy th,
+.grammar-eddy-dialogue__lesson-copy td { padding: 2px 4px; border-bottom: 1px solid #f5edcf55; text-align: left; }
+.grammar-eddy-dialogue__lesson-copy th { background: #fff2cf1c; color: #ffe392; }
 .grammar-eddy-dialogue__text {
   position: absolute;
-  inset: 73.6% 6.2% 5.8% 5.4%;
+  inset: 77.8% 3% 4.9% 20%;
   display: flex;
   align-items: center;
   box-sizing: border-box;
@@ -128,21 +157,24 @@
 .grammar-new-body .grammar-eddy-dialogue__text code { padding: 0; background: none; font: inherit; }
 @media (max-width: 840px) {
   .grammar-eddy-dialogue { margin-top: 18px; }
-  .grammar-eddy-dialogue__art { aspect-ratio: 1671 / 675; }
+  .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.22; }
+  .grammar-eddy-dialogue__art > img { inset: auto 0 0 auto; width: 76%; height: auto; }
+  .grammar-eddy-dialogue__lesson { inset: 5% 5% 39% 5%; overflow: auto; font-size: clamp(12px, 3.5vw, 15px); line-height: 1.38; }
+  .grammar-eddy-dialogue__lesson .grammar-articles-topic__head { margin-bottom: 6px; }
+  .grammar-eddy-dialogue__lesson .grammar-articles-topic__head h3 { font-size: clamp(16px, 4.6vw, 20px); }
+  .grammar-eddy-dialogue__lesson .grammar-tense-topic__focus { margin-bottom: 5px; }
+  .grammar-eddy-dialogue__lesson-copy blockquote { margin: 5px 0; }
   .grammar-eddy-dialogue__text,
   .grammar-eddy-dialogue--long .grammar-eddy-dialogue__text {
-    position: static;
-    display: block;
-    margin: -2px 1.5% 0;
-    padding: 14px 17px;
-    border: 6px solid #a86b38;
-    border-radius: 18px;
-    background:
-      radial-gradient(ellipse at 24% 12%, #f9fff00e, transparent 48%),
-      linear-gradient(145deg, #192528, #111b1e 62%, #1d292b);
-    box-shadow: inset 0 0 0 2px #c99455, inset 0 0 24px #050d10b8, 0 5px 12px #4e2b172e;
-    font-size: 16px;
-    line-height: 1.55;
+    inset: 86% 4.5% 3% 28%;
+    display: flex;
+    padding: 2px 7px;
+    border: 0;
+    border-radius: 0;
+    background: none;
+    box-shadow: none;
+    font-size: 10px;
+    line-height: 1.2;
   }
 }
 .grammar-new-appendix { padding-top: clamp(24px, 3vw, 38px); }
