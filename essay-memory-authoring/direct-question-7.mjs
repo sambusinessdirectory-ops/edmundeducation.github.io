@@ -107,17 +107,17 @@ function card(example,functionName,distractors,frame){
 }
 
 const structures=[
-  card('Success in exams and success at work do not always depend on the same skills.','用兩種 success 並列，指出它們未必依靠相同能力',[1,9,16],
+  card('Success at sport and success in business do not always depend on the same skills.','用兩種 success 並列，指出它們未必依靠相同能力',[1,9,16],
     fixed(0,'Success at [情境甲] and success in [情境乙] do not always depend on [相同條件].','並列兩種成功，再指出其所需能力不一定相同。','要打破把某一環境的成績直接等同另一環境成果的看法時。',['Success at ', ' and success in ', ' do not always depend on '],['第一種成功的情境','第二種成功的情境','未必相同的條件'])),
   card('While test scores are useful, they show only part of what a pupil can do.','用 While 承認價值，再指出衡量範圍有限',[0,4,10],
     fixed(1,'While [某制度有價值], [它只能衡量的範圍].','先承認教育或測量方法有用，後指出其範圍不足以代表整個人。','要公平評價一種標準，同時說明它的局限時。',['While ', ', '],['被承認的價值','受到限制的衡量範圍'])),
-  card('Some volunteers therefore improve after early mistakes because the work values wider strengths, and the most important of these is patience.','用 therefore ... because ... and the most important 承接現象、解釋及核心特質',[3,8,16],
+  card('Some people therefore improve after early mistakes because the work values wider strengths, and the most important of these is patience.','用 therefore ... because ... and the most important 承接現象、解釋及核心特質',[3,8,16],
     fixed(2,'Some people therefore [後來成功] because [更廣的能力得到發揮], and the most important of these is [核心特質].','先說明有人後來成功的現象，解釋不同環境重視其他能力，再點出最關鍵一項。','題目同時問「為何出現這種現象」和「最重要的是甚麼」時。',['Some people therefore ', ' because ', ', and the most important of these is '],['後來成功的現象','環境重視較廣能力的原因','最核心的特質'])),
   card('One reason is that schools often reward memory and the ability to follow rules.','用 One reason is that 引出一個制度偏重的能力範圍',[0,5,11],
     fixed(3,'One reason is that [某制度] often reward [它特別重視的能力].','以一項理由開始，交代某制度會獎賞哪些特質。','要解釋一種評分制度為何只呈現部分人的強項時。',['One reason is that ', ' often reward '],['被分析的制度','制度重視的能力'])),
   card('Exam scores are useful, but they are not the whole story.','用 useful, but ... not the whole story 承認一部分價值並避免過度概括',[1,7,15],
     fixed(4,'[已提到的能力] are useful, but they are not the whole story.','承認前述特質或數字有用，提醒讀者它們不足以解釋整個結果。','前文剛列出某種優勢，接着要限制它的解釋範圍時。',[' are useful, but they are not the whole story.'],['有用但不充分的能力'])),
-  card('Outside the classroom, children may thrive because they solve problems and work well with others.','用 Outside ... may succeed because 對比不同場景所重視的能力',[3,6,8],
+  card('Outside the classroom, children may succeed because they solve problems and work well with others.','用 Outside ... may succeed because 對比不同場景所重視的能力',[3,6,8],
     fixed(5,'Outside [原來的場景], [人] may succeed because [其他能力].','換到另一環境後，指出原來沒有被看見的能力可以帶來成功。','要解釋同一人在學校、工作或社區表現不同的原因時。',['Outside ', ', ', ' may succeed because '],['原來的場景','處於新場景的人','新場景重視的能力'])),
   card('A pupil who finds maths tests hard, for example, may still lead a team and solve practical problems.','用 who struggles ... may still 強調一項弱點不會取消其他能力',[2,9,11],
     fixed(6,'A [人] who [某項評估吃力], for example, may still [其他強項].','用具體個案說明某人在一種測試中不擅長，卻仍可能在其他方面有實力。','已說明制度只測部分能力，想用一人身上的反差作例子時。',[' who ', ', for example, may still '],['被舉例的人','某項評估吃力','仍可能有的其他強項'])),
@@ -359,4 +359,29 @@ const transferTasks=[
     '運氣有影響，但原文特別強調面對挫折的回應。',
   ],[0,7,10,16,17],'範文說人生獎賞的不只有學業表現；韌性讓人在事情出錯時繼續學習、適應與前進。'),
 ];
+const editorialWrongChoices=[
+  ['筆試分數可衡量知識，實務判斷可待取得證書後再查','維修速度顯示能力，客戶溝通只影響服務時的感受','筆試一般但實作佳，應只按客戶評價決定最終聘用'],
+  ['舞台表現顯示領導力，因此選拔時書面學習可暫不考慮','書面成績較穩定，排練合作只算額外的個人興趣活動','排練能力值得看，但應先用同一份筆試篩選新成員'],
+  ['實作專注反映新職位較輕鬆，測試仍代表主要能力','原來測試內容值得調整，卻不必看新崗位的表現','新職位的專注只是暫時現象，長期能力仍由測試決定'],
+  ['天賦有用，首場失利後先休息一季再決定是否訓練','一次失利顯示天賦有限，重點應轉選較易的比賽','韌性值得培養，但身體條件仍應是唯一選拔準則'],
+  ['整理參與人數再加強宣傳，下次仍維持原活動安排','主辦方先增加活動獎品，參與者意見可待第三次再問','把參與少歸因於地點，時間與內容只作輕微調整'],
+  ['她改進作品集，但應避開需要面試的其他合適職位','她繼續申請職位，但只把被拒視為運氣不好的結果','她聽取回饋後，仍照原有作品集申請相同職位'],
+  ['先照手冊重啟系統，未成功才再問別人如何處理','故障超出手冊範圍，先等主管決定而不記錄方法','先自行修復系統，遇到相似問題再考慮向同事求助'],
+  ['差評提供學習資料，但仍須先更換觀眾才可再試','聽取批評後改變畫風，展示方式可保持原來做法','差評反映宣傳不足，作品與呈現不必根據意見調整'],
+  ['保留成績參考，實務合作與適應力可在錄用後才看','先看實務合作，再用一次考試分數決定誰能應變','先比較受挫經驗，學校知識與實際合作能力可略去'],
+  ['同看學業與求職結果，挫折後的學習可待日後再問','只看畢業多年後的職位，不必了解長期成長的過程','同看畢業成績與家庭條件，以此推斷適應變化的能力'],
+];
+const editorialWrongFeedback=[
+  ['實務判斷已可觀察，不能只因筆試一般而延後檢查。','客戶溝通也是工作能力，不能縮成附帶感受。','客戶評價有用，但仍應看安全與維修判斷。'],
+  ['舞台強項不代表書面學習沒有價值，兩者各有所用。','排練中的合作是另一種實際能力，不只是興趣。','先用同一筆試篩選，可能仍排除舞台強項。'],
+  ['新職位的專注可能反映更合適的環境，而非只是輕鬆。','調整測試有用，也須看實際工作中的新證據。','一次標準測試不足以單獨決定長期工作能力。'],
+  ['休息可以有用，但範文重點是從失利後繼續學習。','換較易比賽避開了天賦如何轉成成果的問題。','只看身體條件，忽略遇到失敗後能否堅持。'],
+  ['宣傳或提高人數，但未利用反饋找出安排問題。','獎品未必對準時間與內容問題，應先聽意見。','尚未詢問未到者，不能先認定唯一原因是地點。'],
+  ['避開面試沒有運用回饋來改善下一次申請。','把拒絕只歸於運氣，漏掉檢查和調整。','聽取回饋若不修改做法，仍未把失敗變成學習。'],
+  ['手冊沒有方法，求助及記錄才更能處理新問題。','等待主管可能必要，但不記錄會失去下次改進機會。','不求助可能延誤服務，也不利於把經驗變成方法。'],
+  ['觀眾可能不同，但差評仍可幫她改進呈現。','觀眾反饋可能指向展示方式，不必只改畫風。','未有資料顯示宣傳是問題，應先聽批評的內容。'],
+  ['等錄用才看能力，可能重複只按分數篩人的問題。','一次考試不測受挫後的調整方式。','範文承認學業是一部分，不能把知識與合作全刪。'],
+  ['題目要追蹤持續成長，須問挫折後如何調整。','職位是結果，不能單獨說明成長機制。','家庭條件可能影響機會，不能代替適應力的證據。'],
+];
+transferTasks.forEach((item,index)=>{item.options=[item.options[0],...editorialWrongChoices[index]];item.explanations=[item.explanations[0],...editorialWrongFeedback[index]];item.why=item.explanations[0]});
 export default {key:'direct-question:7',meta:{topic:'學校成績與人生成功',summary:'學校只衡量部分能力；校外強項可以帶來成功，而韌性讓人從挫折中學習並前進。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

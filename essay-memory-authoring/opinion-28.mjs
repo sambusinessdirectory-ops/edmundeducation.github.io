@@ -101,7 +101,7 @@ const structures=[
   S('Young people in adult prisons may lose school support while living with experienced offenders.','are likely to...while... 對照失去正面支援與接觸有經驗罪犯。','句子提出風險路徑，不是對每間監獄作無例外斷言。',[9,11,12],
     F('[進入成人監獄的青少年] are likely to lose [教育、家庭和榜樣], while [接觸有經驗罪犯]','說明成人制度可能同時切斷支援並增添不利環境。','要解釋一項嚴厲處理為何可能損害長期安全時。',[['Teenagers sent to adult prisons','slot','進入成人監獄的青少年'],[' are likely to lose access to ','link','很可能失去'],['education, family support, and positive role models','slot','教育、家庭和榜樣'],[', while ','link','同時'],['being surrounded by experienced criminals.','slot','接觸有經驗罪犯']])),
   S('Instead of correcting a teenager’s behaviour, an adult prison may teach more harmful patterns.','Instead of...may... 對照制度預期與可能反效果。','這句是風險論證，不是說所有青少年必定更危險。',[9,10,12],
-    F('Instead of [糾正行為], [成人監獄環境] may [使人更危險]','把前句環境因素連到可能的反效果。','列出某方案的兩項缺點後，要指出可能的後續結果時。',[['Instead of ','link','對照預期'],['correcting their behaviour','slot','糾正行為'],[', ','link','主語'],['the prison environment','slot','成人監獄環境'],[' may ','link','可能'],['teach them how to become more dangerous.','slot','使人更危險']])),
+    F('Instead of [糾正行為], [成人監獄環境] may [使人更危險]','把原本希望出現的行為改變與另一種可能結果對照；may 表示結果未必必然發生。','要比較被取代的做法與另一做法或結果時，可用 instead of；若結果只是可能，另用 may 保留分寸。',[['Instead of ','link','對照預期'],['correcting their behaviour','slot','糾正行為'],[', ','link','主語'],['the prison environment','slot','成人監獄環境'],[' may ','link','可能'],['teach them how to become more dangerous.','slot','使人更危險']])),
   S('When released, young people may carry a criminal label and struggle to find work.','When...may... 描述釋放後的標籤、就業與歸屬障礙。','長遠安全論證包括離開制度後的社會融入，而非只看拘留期間。',[10,11,13],
     F('When [獲釋], they may [背負標籤], [缺少工作機會] and [感到社會關門]','由監獄期間的經驗轉到回歸社會的阻力。','提出即時反效果後，還要追蹤當事人回到社會後的路徑時。',[['When ','link','設定獲釋後'],['they are released','slot','獲釋'],[', they may ','link','可能'],['carry a criminal label','slot','背負標籤'],[', ','link','並且'],['have few job prospects','slot','缺少工作機會'],[', and ','link','最後'],['feel that ordinary society has closed its doors to them.','slot','感到社會關門']])),
   S('By contrast, a youth system can combine secure custody with counselling, education and job training.','By contrast 提替代制度；combine...with... 把安全拘留與改造服務並列。','青少年司法制度在範文中不是無拘留，而是安全與改造同時運作。',[9,10,14],
@@ -326,6 +326,48 @@ const transfer=[
     '第二段重長期回歸及安全。',
   ],[0,2,5,6,9,13,16],'範文提出嚴肅問責並平衡 rehabilitation 與 public safety。'),
 ];
+const reviewedTransferOptions=[
+  ['仍可安全拘留與賠償，只反對不看年齡自動同罰','反對成人刑罰，便等於反對任何嚴重後果','只有成人監獄，才有可能真正保護受害者','青少年參與暴力，便不應再受到任何調查'],
+  ['考慮傷害，也避免忽略發展階段的一刀切','只看年齡便夠，不用看實際傷害程度','十四歲犯罪，便必定完全沒有任何責任','四十歲犯罪，便必然不用受到任何處罰'],
+  ['監管保安全，向受害者負責，也留改過途徑','因受朋輩影響，便不必回應受害者的傷害','只看少年年齡，不管襲擊造成多大傷害','罪行嚴重，便不用考慮少年仍在發展'],
+  ['少支援又處惡劣環境，或令釋放後風險增加','成人監獄嚴厲，便保證人人獲釋後不再犯罪','失去教育，永遠不會影響其回歸社會','接觸有經驗罪犯，便保證得到正面榜樣'],
+  ['安全安排保護公眾，教育培訓助改造回歸','有職業訓練，便不用任何實際安全措施','有安全拘留，便不能有任何教育或輔導','兩類安排互相矛盾，永遠不能同時存在'],
+  ['就業與回歸障礙或影響安全，須看獲釋後路徑','獲釋後的工作機會與公共安全完全無關','一有犯罪標籤，少年便永遠不可能改變','拘留一結束，制度便不用再考慮長遠後果'],
+  ['比較即時安全、發展與回歸，不只看刑罰輕重','成人式刑罰更重，便保證長遠安全更高','有教育的方案，便一定不需要任何監管','青少年罪行嚴重度，完全不用納入比較'],
+  ['輔導連同安全、教育、職訓與監察一起考慮','一次輔導，便保證所有青少年不再犯錯','有輔導，受害者便不用獲得任何回應','輔導與拘留，不能在同一制度內並存'],
+  ['承認嚴重傷害，也討論發展階段如何影響處理','只談發展階段，完全不提受害者的需要','只談傷害程度，完全禁止考慮少年年齡','把問責和改造，說成絕不可能同時存在'],
+  ['短期保護外，還要看標籤、就業與回歸道路','拘留期安全，獲釋後的障礙便無關緊要','沒有工作路徑，所有青少年便必然再犯','公共安全與回歸社會，完全沒有任何關係'],
+  ['重罪須有後果，青少年制度仍要兼顧改造安全','重大罪行只需口頭提醒，不用其他措施','所有青少年一律受成人處罰，不看年齡','一談改造，便必須放棄公共安全的目標'],
+  ['同看傷害、發展、受害者需要與長期安全','罪行夠嚴重，便永遠不必考慮年齡','犯罪者年輕，便不看受害者和公共安全','只看拘留長短，不查獲釋後的影響'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const plausibleAlternatives=[
+  [['只比較成人刑罰輕重，不看青少年制度可有甚麼措施','把安全拘留等同成人監獄，少問教育輔導差別','只討論賠償額，暫不查少年應承擔哪些實際責任'],['反對成人同罰不等於否定嚴重後果。','安全拘留也可設於獨立青少年制度。','賠償重要，但不能代替整體問責。']],
+  [['只按年齡定處理幅度，較少查具體傷害','把十四歲者的朋輩壓力當主要免責因素','討論四十歲者的處罰，暫不比較兩人差異'],['年齡重要，但罪行嚴重程度也須考慮。','青少年仍要為傷害負責。','題目問的是不區分年齡的制度問題。']],
+  [['先安排輔導，稍後再處理受害者損失','只按十四歲年齡定措施，不查襲擊傷害','先確定監管強度，不問少年可否改變'],['輔導不能延後對受害者的責任。','年齡不取消對罪行的嚴肅處理。','安全也要兼顧改造空間。']],
+  [['只看在囚期間違紀紀錄，不問獲釋後支援','把課程流失當次要問題，先加強隔離時間','先追查成年罪犯背景，少看少年回歸條件'],['在囚紀律不足以預測長期回歸。','教育被範文列為重要支援。','成年罪犯環境重要，但回歸障礙亦不可漏。']],
+  [['主要提供職訓，將安全監管留待個案出現後','只加強安全拘留，教育輔導列為較後安排','把兩類措施分開規劃，不評估是否能互補'],['公眾保護不能被排到案後。','範文提出教育與改造是制度核心。','安全與改造可同時安排。']],
+  [['只記獲釋當天是否安全，不再追蹤求職困難','把犯罪標籤視為定局，較少提供回歸機會','拘留已完成，便把就業困難交由個人自理'],['範文關注獲釋後的因果鏈。','作者主張留出改過與重新融入的空間。','回歸條件也涉及長期公共安全。']],
+  [['只比較兩份方案的關押期，不看教育內容','只看教育項目數，較少檢查嚴格監管安排','把罪行名稱當唯一依據，不查發展階段'],['關押長短不能單獨判斷長遠安全。','替代方案仍須保護公眾。','重大傷害與年齡都應納入。']],
+  [['只追蹤輔導出席，不查其後行為和風險','把輔導放在首位，暫緩受害者賠償安排','把安全拘留與輔導分由兩部門，少作協調'],['參與項目不等於完成改造。','問責與受害者需要仍須處理。','制度應結合安全與改造。']],
+  [['只談少年仍在發展，較少說明對受害者的責任','只談傷害程度，暫不分析年齡如何影響處理','把問責與輔導分開討論，少看兩者如何兼顧'],['範文仍承認嚴重傷害和賠償。','年齡是反對自動同罰的核心因素。','問責與改造可以並存。']],
+  [['拘留期間安全，便先暫緩規劃釋放後支援','把沒有工作路徑當成再犯證據，不查實際情況','只加追蹤獲釋者行蹤，不安排教育和工作'],['釋放後障礙是本文第二段焦點。','風險不等於已發生的再犯。','監察不能取代可行回歸道路。']],
+  [['用口頭提醒起步，受害者賠償日後再討論','為求一致，先按成人制度處理少年重罪','只談改造課程，暫不評估公共安全風險'],['重大罪行需要嚴重後果。','這正是作者反對的自動同罰。','範文要求三項目標兼顧。']],
+  [['只按罪行嚴重程度，之後才考慮少年年齡','先看犯案者年齡，較少問受害者的傷害','只比較拘留年期，不問獲釋後的回歸條件'],['嚴重性重要，但不應讓年齡變成事後附帶。','年齡不能取消受害者需要和安全。','文章也考慮長期結果。']],
+];
+plausibleAlternatives.forEach(([options,explanations],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...explanations);});
+structures[0].example='Violence by young people is a concern in many schools, especially when someone is seriously hurt.';
+structures[1].example='However, I completely disagree that young offenders should automatically receive adult punishment, regardless of age.';
+structures[2].example='A just legal system should punish serious wrongdoing, but it should not ignore a young offender’s development.';
+structures[4].example='They are generally more impulsive, more affected by friends, and less able to see distant effects.';
+structures[5].example='If a system treats a fourteen-year-old and a forty-year-old as identical simply because a crime is serious, punishment becomes a blunt tool rather than a fair response.';
+structures[6].example='For example, a young person involved in serious violence may still deserve secure detention and an order to compensate the victim.';
+structures[7].example='Yet placing that young person in the adult prison system ignores the fact that his character is still developing.';
+structures[8].example='Justice should make the teenager answer for the harm, but it should also leave room to change.';
+structures[10].example='Young people in adult prisons are likely to lose access to school support, while living with experienced offenders.';
+structures[12].example='When released, they may carry a criminal label, have trouble finding work, and feel excluded from ordinary society.';
+structures[15].example='In conclusion, I completely disagree with giving teenagers adult punishment regardless of age.';
+structures[16].example='Serious crimes require serious consequences, but young offenders should be dealt with through a youth system that balances accountability, rehabilitation and safety.';
 export default {
   key:'opinion:28',
   meta:{topic:'重大青少年罪案、發展階段與獨立司法制度',summary:'作者完全反對不分年齡自動給重大罪行青少年成人同等懲罰。嚴重傷害仍須拘留、監管和賠償；同時，青少年制度應顧及發展與獲釋後的回歸，平衡問責、改造和公共安全。'},

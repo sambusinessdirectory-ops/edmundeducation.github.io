@@ -40,8 +40,8 @@ const structures=[
     parts:[slot('Instant coffee was more widely purchased than fresh coffee in every city','所有地點成立的比較'),link(', and'),slot(' Adelaide was the only place where café visits did not occupy first position.','唯一的排名例外')],
   }),
   f('Train use was strongest in A and B, at 60% and 58% respectively, followed by C, where 55% of residents used trains.','先報告最高的兩地及各自比例，再寫緊隨其後的第三地',[2,4,5],{
-    formula:'[最高的兩地], at [依次對應的比例], followed by [下一地及比例]',meaning:'墨爾本及霍巴特咖啡店到訪率約 64%、63%；悉尼以略高於 60% 緊隨其後。',usage:'幾個地點排名相近時，可先合寫最突出兩地，再以 followed by 引出下一地。',
-    parts:[slot('Café-going was especially popular in Melbourne and Hobart','最高的兩地'),link(', at'),slot(' about 64% and 63% respectively','依次對應的比例'),link(', followed by'),slot(' Sydney','下一地'),link(', where'),slot(' just over three fifths of residents reported doing so.','下一地比例')],
+    formula:'[兩地的領先情況], at [依次對應的比例], followed by [下一地], where [下一地比例]',meaning:'墨爾本及霍巴特咖啡店到訪率約 64%、63%；悉尼以略高於 60% 緊隨其後。',usage:'幾個地點數值接近時，合寫領先兩地並用 followed by 排出下一地時。',
+    parts:[slot('Café-going was especially popular in Melbourne and Hobart','兩地的領先情況'),link(', at'),slot(' about 64% and 63% respectively','依次對應的比例'),link(', followed by'),slot(' Sydney','下一地'),link(', where'),slot(' just over three fifths of residents reported doing so.','下一地比例')],
   }),
   f('The shares were lower in D, at 45%, and E, at 42%, making it the weakest region.','比較較低的兩地，再指出其中最低者',[3,6,7],{
     formula:'[第一地比例較低], at [其比例], and [第二地], at [其比例], making it [最低排名]',meaning:'布里斯本約 56%，阿德萊德略低於 50%；阿德萊德為五城咖啡店到訪率最低。',usage:'列完較高地點後，報告較低兩地，並據數值指出最低者。',
@@ -165,4 +165,17 @@ const transfers=[
     'D 城甲乙兩者都是 50%，因此並列第一。',
   ],['比較 49% 與 50%，保留 D 城唯一例外。','50% 高於 49%，所以乙較高。','D 城甲並非第一，不能抹去例外。','把甲的 49% 改成 50%。'],[2,4],'阿德萊德即溶咖啡約 50%，到店率略低於 50%，使它成為到店並非第一的唯一城市。'),
 ];
+const balancedTransferOptions=[
+ ['圖表比較五城居民上月使用三種交通工具的比例。','圖表比較三城居民五年內乘巴士的實際人數。','圖表比較五城政府每月投入交通的預算金額。','圖表解釋五城居民上月選擇交通工具的真正原因。'],
+ ['巴士在多數城市最常用，單車在每城都最少見。','巴士與單車在五個城市的比例都完全相同。','單車在多數城市最多，巴士在每城都最少。','只能列出第一城兩項精確值，無法概括五城。'],
+ ['甲每城都高於乙；只有丁城的丙並非第一。','甲只在丁城高於乙；丙在五城均排第一。','甲與乙每城相同；丁城丙仍然排第一。','甲只在四城高於乙；丙在兩城不是第一。'],
+ ['甲乙依次約六成四、六成三；丙約六成一。','丙最高約六成四；甲乙都低於六成。','甲乙依次約六成三、六成四；丙約六成一。','三城都恰好六成一，沒有任何排名差異。'],
+ ['甲約五成六，乙低於五成且在五城最低。','甲約五成六，所以甲必然低於乙的四成九。','乙低於五成，故它必然在五城之中最高。','甲乙都約五成六，兩城並列全圖最低。'],
+ ['轉到購買率，可先比較各城的即溶咖啡比例。','到店率已列出，可推斷人人進店原因完全一樣。','到店率既相近，可證各城市的咖啡售價相同。','到店率數據可證新鮮咖啡在每城都最高。'],
+ ['丁約五成；戊己略低，依次四成八、四成五。','丁約五成；戊己略低，依次四成五、四成八。','戊約五成；丁己依次四成八、四成五。','丁戊己三城比例都恰好五成，沒有差別。'],
+ ['相比之下，該活動在五城均少於先前活動。','相比之下，該活動只在第一城較少，餘下相同。','相比之下，該活動在五城均多於先前活動。','相比之下，兩項活動在五城的比例完全相同。'],
+ ['約六成一，即只比五分之三略高一點。','約六成一，即比五分之三略低一點。','約六成一，即低於全體受訪者的一半。','約六成一，即接近全體受訪者的四分之三。'],
+ ['丁城唯一甲非第一；乙五成略高於甲四成九。','丁城甲以四成九排名第一，乙五成更低。','甲在五城都排名第一，丁城沒有任何例外。','丁城甲乙均為五成，因此兩項並列第一。'],
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
 export default {key:'task1-bar-charts:3',meta:{topic:'五個澳洲城市的咖啡與茶習慣',summary:'先概述咖啡店到訪在多數城市最多、購買新鮮咖啡一直最少，再分到訪和購買兩組比較各城市比例。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

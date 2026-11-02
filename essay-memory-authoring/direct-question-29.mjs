@@ -81,19 +81,19 @@ const part=(text,kind,label)=>({text,kind,label});
 function fixed(i,formula,meaning,usage,links,labels){const text=original[i],parts=[];let cursor=0,slot=0;for(const link of links){const at=text.indexOf(link,cursor);if(at<0)throw Error(`Missing fixed span ${i+1}: ${link}`);if(at>cursor)parts.push(part(text.slice(cursor,at),'slot',labels[slot++]));parts.push(part(link,'link','句型固定部分'));cursor=at+link.length;}if(cursor<text.length)parts.push(part(text.slice(cursor),'slot',labels[slot++]));return {formula,meaning,usage,parts};}
 function card(example,functionName,distractors,frame){return {example,distractors,frame,patternType:'reviewed',answerReason:`這句${functionName}，與原句的句型和語意關係相同。`,distractorReason:`這句${functionName}；它表達的是另一種關係。`};}
 const structures=[
-  card('Student stress has become a concern in schools, and some people argue that timetables should add exercise to address it.','用 has become ... and some people argue that 引出問題與被提議的方案',[1,2,9],
+  card('Student stress has become a concern in schools, and some people argue that schools should devote more time to exercise to address it.','用 has become ... and some people argue that 引出問題與被提議的方案',[1,2,9],
     fixed(0,'[兒童肥胖] has become [教育制度的嚴重關注], and some people argue that [學校] should devote [更多時間] to [體育和運動] to address [此問題].','引言先交代問題，再忠實呈現題目提出的增加運動方案。','要回應某項被提議的政策，先說明問題與提案內容時。',[' has become ', ', and some people argue that ', ' should devote ', ' to ', ' to address '],['當前問題','其在教育制度中的嚴重性','被要求行動的學校','新增的時間','時間投向的活動','想解決的問題'])),
-  card('Although sport is useful, I do not believe that adding two PE lessons is the best way to reduce unhealthy weight.','用 Although ... I do not believe 承認運動好處但否定最佳方案',[0,3,14],
+  card('Although sport is useful, I do not believe that adding two PE lessons is the best way to solve unhealthy weight.','用 Although ... I do not believe 承認運動好處但否定最佳方案',[0,3,14],
     fixed(1,'Although [體能活動有價值], I do not believe that [增加體育課] is the best way to solve [兒童肥胖].','直接回答第一問：運動有用，但單靠加課不是最佳辦法。','題目問增加運動是否最佳方案，須讓步後清楚表態時。',['Although ', ', I do not believe that ', ' is the best way to solve '],['先承認的運動價值','被否定為最佳的方案','要處理的問題'])),
   card('A more effective approach is to improve school food and change children’s habits both at school and at home.','用 A more effective approach is to 預告飲食與校內外習慣',[1,9,15],
     fixed(2,'A more effective approach is to [改善兒童飲食] and [重塑日常習慣] both [校內與校外].','引言提出較佳替代方向，預告學校和家庭都須參與。','否定增加體育課為最佳解法後，立即提出更有效的方向時。',['A more effective approach is to ', ' and ', ' both '],['較重要的飲食調整','同時需要的習慣改變','改變應發生的場景'])),
-  card('Extra sport at school can help inactive pupils, but its impact is limited.','用 can help ... but impact is limited 作適度承認',[1,4,8],
+  card('Extra exercise at school can help inactive pupils, but its impact is limited.','用 can help ... but impact is limited 作適度承認',[1,4,8],
     fixed(3,'Extra exercise at school can help [超重兒童], but its impact is [有限].','先承認體育課的實際好處，再指出仍須檢查其作用範圍。','開始評估題目提議時，避免把運動說成完全無用時。',['Extra exercise at school can help ', ', but its impact is '],['運動可能幫助的孩子','整體作用的限制'])),
   card('Sport allows pupils to use energy, grow stronger and feel better about their bodies.','用 allows pupils to 並列運動的三項具體好處',[3,5,6],
     fixed(4,'Sport allows pupils to [消耗能量], [增強體力] and [改善對身體的態度].','細化為何運動有用：身體活動、力量與自我看法。','已承認運動有幫助，需要列出具體作用而非空泛讚美時。',['Sport allows pupils to ', ', ', ' and '],['第一項身體作用','第二項身體作用','第三項態度作用'])),
-  card('It can also reduce the time pupils spend sitting or looking at screens.','用 reduce the time ... sitting or ... 顯示運動替代久坐和螢幕時間',[3,4,6],
+  card('It can also reduce the time they spend sitting or looking at screens.','用 reduce the time ... sitting or ... 顯示運動替代久坐和螢幕時間',[3,4,6],
     fixed(5,'It can also reduce the time they spend [坐在課室] or [盯著螢幕].','再補一項好處：運動佔用原本可能久坐或看螢幕的時間。','列運動益處時，需要解釋它替代哪兩種少活動的行為時。',['It can also reduce the time they spend ', ' or '],['第一種久坐狀態','第二種螢幕行為'])),
-  card('However, a few extra hours of PE can be cancelled out if pupils still drink sweet drinks and eat too much every day.','用 However ... cancelled out if 解釋為何體育課收益可被飲食抵消',[3,4,7],
+  card('However, a few extra hours of PE can easily be cancelled out if pupils still drink sweet drinks, eat oversized snacks and skip healthy meals every day.','用 However ... cancelled out if 解釋為何體育課收益可被飲食抵消',[3,4,7],
     fixed(6,'However, [每周額外運動時數] can easily be cancelled out if [孩子吃含糖零食], [喝汽水] and [每日份量過大].','指出增加幾小時運動不能自動抵銷每天高糖和過量飲食。','已列運動益處，現在要精確說出其效果有限的條件時。',['However, ', ' can easily be cancelled out if ', ', ', ' and '],['可能被抵消的運動投入','持續的高糖零食','持續的含糖飲品','每日進食份量'])),
   card('In other words, exercise may strengthen the engine, but poor food keeps pouring the wrong fuel into it.','用 engine 與 wrong fuel 比喻運動和飲食的不同作用',[5,6,8],
     fixed(7,'In other words, [運動] may strengthen [引擎], but [不良飲食] keeps pouring [錯誤燃料] into it.','用引擎燃料比喻說明鍛鍊身體仍不能忽視每天吃進去的食物。','已寫運動可被飲食抵消，要以形象句子概括兩者關係時。',['In other words, ', ' may strengthen ', ', but ', ' keeps pouring ', ' into it.'],['可能強化身體的運動','身體的比喻','仍持續影響健康的飲食','不合適食物的比喻'])),
@@ -103,13 +103,13 @@ const structures=[
     fixed(9,'The most important solution is to [改變兒童飲食].','第二主體段先把重點放在每天吃甚麼，而非再加體育課。','已否定運動是主要解法，開始說更有效的措施時。',['The most important solution is to '],['最重要的具體改變'])),
   card('Schools should give healthier lunches, limit junk food sales and teach pupils how daily choices affect weight.','用 Schools should 並列膳食供應、銷售限制與知識教育',[2,9,11],
     fixed(10,'Schools should [提供健康膳食], [限制校內垃圾食品銷售] and [教日常選擇如何影響體重].','把「改變飲食」拆成學校可操作的三項措施。','已提出飲食方案，要說明學校具體能供甚麼、限制甚麼及教甚麼時。',['Schools should ', ', ', ' and '],['學校提供的膳食','校園銷售的限制','學生需要理解的知識'])),
-  card('For example, a child who replaces sweet drinks with water and snacks with fruit may improve without extra PE hours.','用 For example ... replace ... with ... and ... with ... 舉易做的飲食替換',[9,10,12],
+  card('For example, a child who learns to replace sweet drinks with water and processed snacks with fruit is likely to make progress even without extra PE hours.','用 For example ... replace ... with ... and ... with ... 舉易做的飲食替換',[9,10,12],
     fixed(11,'For example, a child who learns to replace [甜飲] with [水] and [加工零食] with [水果] is likely to make progress even without [大改課表].','用飲品與零食兩項替換，證明飲食調整可在不大增體育課下發揮作用。','學校措施已列，要給學生可理解、可嘗試的飲食例子時。',['For example, a child who learns to replace ', ' with ', ' and ', ' with ', ' is likely to make progress even without '],['被替換的飲品','較佳飲品','被替換的零食','較佳零食','不必進行的大幅變動'])),
-  card('Parents must also be involved, because many eating habits start at home.','用 Parents must also ... because 解釋家庭不能缺席',[10,11,13],
+  card('Parents must also be involved, because many eating habits are usually formed at home.','用 Parents must also ... because 解釋家庭不能缺席',[10,11,13],
     fixed(12,'Parents must also be involved, because [兒童飲食模式] are usually formed at [家中].','把解法從校園延伸到家庭，指出飲食習慣的形成地點。','學校改膳食後，須說明家長為何也負有角色時。',['Parents must also be involved, because ', ' are usually formed at '],['在家逐漸形成的習慣','習慣形成的地方'])),
-  card('If families cook balanced meals, limit screens and encourage outdoor play, healthy behaviour becomes normal rather than punishment.','用 If families ... healthy behaviour becomes ... rather than ... 說明家庭日常如何使健康習慣自然化',[10,12,15],
+  card('If families regularly cook balanced meals, limit screen time and encourage outdoor play, healthy behaviour becomes a daily habit rather than a punishment.','用 If families ... healthy behaviour becomes ... rather than ... 說明家庭日常如何使健康習慣自然化',[10,12,15],
     fixed(13,'If families regularly [煮均衡餐], [限螢幕時間] and [鼓勵步行戶外玩耍], healthy behaviour becomes [正常生活] rather than [懲罰].','家庭以反覆可行的日常安排，讓健康行為成為生活一部分。','已說父母須參與，要列他們具體如何在家支援孩子時。',['If families regularly ', ', ', ' and ', ', healthy behaviour becomes ', ' rather than '],['第一項家中飲食安排','第二項螢幕安排','第三項活動安排','希望形成的常態','需要避免的負面感受'])),
-  card('In conclusion, adding PE time is useful, but it is not the best answer to child obesity.','用 is a useful measure, but not the best 重申對體育課的精確評價',[1,3,15],
+  card('In conclusion, adding PE time is a useful measure, but it is not the best solution to child obesity.','用 is a useful measure, but not the best 重申對體育課的精確評價',[1,3,15],
     fixed(14,'In conclusion, [增加體育運動時間] is a useful measure, but it is not the best solution to [兒童超重].','結論直接回答第一問：運動有效但不是最強解法。','最後須清楚評估題目方案，而不是簡單說贊成或反對時。',['In conclusion, ', ' is a useful measure, but it is not the best solution to '],['受評估的運動措施','其不足以單獨解決的問題'])),
   card('The stronger answer is a combination of healthier school lunches, food education and steady family support.','用 a combination of 並列校園食物、知識與家庭支持',[2,10,14],
     fixed(15,'The stronger answer is a combination of [健康校餐], [實用營養教育] and [家庭持續支持].','最後回答其他解法，將校內供應、知識與校外家庭習慣結合。','第一問已判斷增加運動非最佳，第二問須收束更有力的措施時。',['The stronger answer is a combination of ', ', ', ' and '],['更健康的學校食物','教孩子作選擇的教育','校外維持習慣的家庭'])),
@@ -328,4 +328,17 @@ const transferTasks=[
     '這同樣未完整回答第一問。',
   ],[14,15],'範文結論先評估運動，再把學校食物、教育和家庭支持合起來。'),
 ];
+const revised=[
+ {options:['承認運動有益，也指出每日飲食可能抵消部分效果','先評估體育課出席率，再決定飲食是否值得討論','增加體育課時數，讓學生維持原本的汽水消費','把汽水供應減半，便不需再評估體育課的作用'],explanations:['運動有益，但經常攝取甜飲零食可抵消部分效果。','出席率不能顯示日常飲食對健康的影響。','若甜飲仍是常買選項，增加運動未必足夠。','減少汽水有用，但不能因此忽略運動與其他食物。']},
+ {options:['提供水和較健康餐食，限制不健康選項並解釋原因','維持現有食堂，另要求每班多講一次運動好處','先減少甜飲宣傳，但讓食堂繼續把它放最顯眼處','只降低健康餐價格，卻不改學生可選的含糖飲品'],explanations:['改變供應與教選擇，可處理題目中的高糖環境。','多講運動仍未改變食堂的飲食選項。','減少宣傳有益，但顯眼供應依然推動購買。','價格可影響選擇，但高糖飲品問題仍未處理。']},
+ {options:['這些日常替換可能有幫助，不必徹底改動課表','飲品替換有益，但須先增加體育課才可能見效','水果可代替零食，甜飲仍須留作學生日常選項','因課表未變，這些飲食替換只能算暫時做法'],explanations:['範文用飲品與零食的每日替換說明可行方案。','飲食改變本身就可有作用，不以增課為前提。','題目中的甜飲替換也是關鍵一環。','沒有大改課表，不代表日常替換無法持續。']},
+ {options:['家庭餐食和活動也須調整，因飲食模式多在家形成','由學校改午餐，家庭維持外賣與周末運動安排','請家長監察體育課表，卻不調整平日家庭餐食','只增加孩子周末活動，平日外賣頻率仍維持'],explanations:['長期飲食習慣與活動需要家庭共同參與。','學校午餐有用，但家庭高頻外賣仍可能抵消效果。','監察課表不足以改變家中日常飲食。','周末一次活動難抵消持續的平日飲食模式。']},
+ {options:['提供可安全步行的路線，讓活動自然融入日常生活','把違規罰款用來宣傳步行，暫不改善現有步道','規定居民每日步行時數，再評估路線是否安全','增設一次步行比賽，代替平日可用的安全路線'],explanations:['可安全使用的路線使活動更易成為日常習慣。','宣傳有用，但題目的主要障礙是缺少安全路線。','先要求行為而不處理安全條件，難以持續。','一次比賽不能代替每天可用的活動環境。']},
+ {options:['多運動有用，但日常飲食也需改善，兩者作用相連','增加員工運動時數，甜食供應暫維持原有水平','先減少甜食供應，再把久坐問題交由員工處理','把甜食改為偶爾供應，便不用改善久坐安排'],explanations:['引擎與燃料比喻要求同時看活動與日常飲食。','只增加活動而保留大量甜食，忽略燃料一面。','減少甜食有益，但久坐同樣需要處理。','調整飲食後，長時間久坐仍是另一項問題。']},
+ {options:['除了限售，也教學生理解每天選擇如何影響體重','先實行零食禁令，學生的選擇知識留待校外學習','只教學生閱讀標籤，食堂照舊出售高糖零食','把禁令改成勸告，未提供飲料或餐食選擇指導'],explanations:['完整方案須結合供應規則與日常選擇教育。','禁令若缺少教育，學生未必學會如何選飲料餐食。','教育重要，但校園食物環境也需調整。','勸告與禁令的轉換仍未補上所缺的實用知識。']},
+ {options:['改均衡餐、限螢幕並鼓勵戶外活動，避免責罵式安排','保留目前餐食，用更嚴格的每日體重紀錄督促','只安排戶外活動，孩子的平日餐食與螢幕時間照舊','先減少螢幕時間，再以責罵要求孩子接受原有餐食'],explanations:['均衡餐與活動安排讓健康成為正常生活的一部分。','體重紀錄不能代替改善日常餐食，還可能加強責罰感。','戶外活動有益，但另外兩個日常因素仍未處理。','減少螢幕有用，責罵與不變的餐食仍不利習慣。']},
+ {options:['保留運動作用，以改善飲食和選擇知識作主要方向','以體育課為主軸，餐食與知識留待家長自行處理','以營養講座為主軸，食堂不需改變學生可買甚麼','先改食堂餐食，卻把運動與飲食教育都排除'],explanations:['範文認可運動，但認為飲食環境與知識更有力。','只加課節未處理學生每日接觸的食物。','知識若不配合校園供應，實踐仍受限制。','改餐食有益，但不必否定運動與選擇教育。']},
+ {options:['運動有用但非最佳，再總結校餐、營養教育與家庭支援','先說運動很有用，再把其他方案交由下一篇討論','列出校餐與家長安排，卻不比較增加體育課的價值','承認運動和飲食都重要，但不說哪種方案更有力'],explanations:['結論同時回答加體育課是否最佳及其他辦法。','題目的第二問要求在本文提出其他方案。','只答辦法，漏掉對體育課作最佳與否的判斷。','若不作比較，仍未回答題目中的最佳方案問題。']}
+];
+revised.forEach((r,i)=>{transferTasks[i].options=r.options;transferTasks[i].explanations=r.explanations});
 export default {key:'direct-question:29',meta:{topic:'兒童超重與校內運動的方案比較',summary:'運動有益但作用有限；改善校園飲食、營養知識和家庭習慣更有力。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

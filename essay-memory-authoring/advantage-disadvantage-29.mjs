@@ -45,7 +45,7 @@ const specs=[
  {example:'At the same time, it may expose young people to pressures that they are not yet ready to manage well.',d:[1,8,13],relation:'At the same time 預告年輕人未必能承受的壓力',formula:'At the same time, it may expose [群體] to pressures that they are not yet [能力] to manage well',meaning:'工作亦可能帶來孩子尚未成熟到能處理的壓力。',links:['At the same time, it may expose ', ' to pressures that they are not yet ', ' to manage well.'],labels:['受影響者','尚缺的能力']},
  {example:'One important advantage is that paid work can foster responsibility and better planning.',d:[2,8,9],relation:'主題句提出責任與金錢觀念',formula:'One important advantage is that paid work can foster [能力一] and [能力二]',meaning:'有薪工作可培養責任及金錢觀念。',links:['One important advantage is that paid work can foster ', ' and '],labels:['能力一','能力二']},
  {example:'When children are expected to arrive on time, follow instructions and earn their own wages, they begin to understand that money is linked to effort rather than simply handed over.',d:[3,8,9],relation:'When 列工作要求，rather than 區分努力所得與隨意給予',formula:'When [具體工作要求], they begin to understand that money is linked to effort rather than [原有誤解]',meaning:'準時與按指示賺薪令孩子明白金錢與努力相連。',links:['When ', ', they begin to understand that money is linked to effort rather than '],labels:['具體工作要求','需修正的想法']},
- {example:'For example, a teenager who spends two hours each weekend working in a café may become far more careful about unnecessary spending.',d:[3,8,9],relation:'咖啡店例子把親自賺錢與謹慎消費連上',formula:'For example, a teenager who spends [時間] working in [場所] may become far more careful about [消費行為]',meaning:'青少年親自賺錢後或較少無謂花費。',links:['For example, a teenager who spends ', ' working in a café may become far more careful about '],labels:['工作時間','消費行為']},
+ {example:'For example, a teenager who spends two hours each weekend working in a café may become far more careful about unnecessary spending.',d:[3,8,9],relation:'咖啡店例子把親自賺錢與謹慎消費連上',formula:'For example, a teenager who spends [時間] working in [場所] may become far more careful about [消費行為]',meaning:'青少年親自賺錢後或較少無謂花費。',links:['For example, a teenager who spends ', ' working in ', ' may become far more careful about '],labels:['工作時間','工作場所','消費行為']},
  {example:'Another benefit is that part-time employment can build practical skills that classes do not always teach directly.',d:[3,8,9],relation:'第二好處轉到課堂未必直接教授的實用技能',formula:'Another benefit is that part-time employment can build [技能] that [地方] do not always teach directly',meaning:'兼職可培養學校未必直接教授的技能。',links:['Another benefit is that part-time employment can build ', ' that ', ' do not always teach directly.'],labels:['實用技能','傳統學習場合']},
  {example:'By serving customers, cooperating with co-workers and solving small problems under pressure, young people can develop confidence, speaking skills and better time management, all of which are likely to be useful in adult life.',d:[3,8,9],relation:'By 列實踐行動，all of which 回指形成的多種技能',formula:'By [三項工作行動], young people can develop [多種技能], all of which are likely to be useful in adult life',meaning:'顧客服務、合作及應對小問題可培養自信、溝通和時間管理。',links:['By ', ', young people can develop ', ', all of which are likely to be useful in adult life.'],labels:['具體工作行動','可遷移技能']},
  {example:'However, there are also practical disadvantages.',d:[3,6,12],relation:'However 從好處轉到缺點',formula:'However, there are also [缺點種類] disadvantages',meaning:'兼職工作亦有學業及情緒代價。',links:['However, there are also ', ' disadvantages.'],labels:['缺點種類']},
@@ -110,15 +110,36 @@ const logic=[
  ],'不要把所有兼職一概視為有益或有害。'),
 ];
 const transfers=[
- transfer('一名中學生週末在咖啡店工作幾小時，開始珍惜自己賺的錢。','哪句準確應用金錢觀念論證？',['親自花時間賺薪，可能令他更謹慎看待不必要開支。','只要領過薪水，便保證永遠不亂花。','所有工作收入都必然由家長提供。','咖啡店工作與金錢觀念完全無關。'],['努力與收入連上，保留可能性。','不能保證。','與情況相反。','原文例子支持。'],[4,5],'原文咖啡店青少年較謹慎消費。'),
- transfer('一名學生在店內學會服務顧客並與同事合作。','哪句指出可轉移技能？',['這些實踐可能改善溝通、自信和時間管理，將來仍可使用。','服務顧客只影響店內衣服的顏色。','與同事合作必然令學生不再需要上學。','所有技能都必須只能在課室裡學到。'],['具體行動→可遷移能力。','不相關。','過度推論。','原文說課堂未必直接教。'],[6,7],'原文 By serving customers/cooperating→skills。'),
- transfer('孩子一週上多個晚班，回家後太累而無法好好做功課。','哪句保留學業風險的因果？',['工作佔去休息與學習時間，疲勞可能令功課和成績逐漸受影響。','只要工作一晚，孩子便必然永遠不能畢業。','晚班只會增加睡眠，不可能影響作業。','上班時間與功課完成情況完全無關。'],['時間及疲勞連到學業後果。','過度斷言。','方向相反。','原文例子說有關。'],[9,10],'原文超市晚班太疲累→作業差→成績下降。'),
- transfer('青少年在缺乏主管的高壓餐廳遇上無禮顧客。','哪句符合情緒風險？',['若尚未準備好應對，工作壓力可能使原本有益的經驗變成負擔。','任何顧客說話無禮都必然使青少年永久不能工作。','高壓及監管不足一定使工作更安全。','只要有薪水，情緒壓力便不須討論。'],['if 與 may 限定條件和可能後果。','過度斷言。','方向相反。','仍需考慮。'],[11,12],'原文 demanding/poorly supervised→heavy burden。'),
- transfer('家長為孩子的假期兼職訂下每週工時及休息界線。','哪句符合範文結論？',['兼職效果會受工作量與清楚限制影響，因此應同時看成長和負擔。','只要有任何限制，孩子便不能學到技能。','工時越多，所有孩子就必然越健康。','有薪工作一律不需家長留意。'],['量與界線是最後的判斷條件。','限制可保護。','無此必然。','仍需監督。'],[13,14],'原文 impact depends on amount of work and clear limits。'),
- transfer('作文只說「打工培養責任」，沒有具體內容。','哪句能補足機制？',['準時上班、遵從指示和自己賺薪，可讓孩子明白努力與收入相連。','打工培養責任，因為打工能培養責任。','責任感只能從薪水數字大小判斷。','只要孩子踏入店舖，便不再需要任何指示。'],['列行為及觀念改變。','循環說法。','過窄。','與工作要求相反。'],[3,4],'原文準時、按指示、賺薪→金錢與努力。'),
- transfer('另一題討論學生長假參加社區服務。','哪句真正轉移本文的分析框架？',['可比較責任及合作技能，與學習休息時間及工作環境壓力。','因為兼職可能有益，社區服務必然沒有任何缺點。','只需討論服務地點的招牌。','只要活動在假期，時間壓力就必然不存在。'],['轉移技能、時間與情緒三維度。','結論需另證。','不相關。','假期也有休息需要。'],[4,7,9,11],'原文兩項收益與兩項風險可跨題評估。'),
- transfer('有人說學生只要兼職便一定更成熟。','哪句指出原文的限定？',['兼職可促成成長，但也可能壓縮學習或造成情緒負擔，須看工時與界線。','兼職必然令每名學生完全相同。','有薪水便可證明孩子沒有壓力。','任何技能收益都不可能存在。'],['can、may、depends 保留條件。','過度概括。','忽略壓力。','否認好處。'],[13,14],'原文整體利弊依工作量和限制。'),
- transfer('學生一邊工作一邊要準備考試。','哪句最符合時間管理的權衡？',['工作或能練時間安排，卻不能擠掉必要的溫習與睡眠。','只要安排得好，睡眠可以完全取消。','考試期間工作越多，成績必然越高。','打工與學業時間永遠互不影響。'],['承認技能收益並保護學習休息。','睡眠必要。','無此保證。','時間有限。'],[7,9,10],'原文時間管理好處與學習睡眠代價並存。'),
- transfer('一名孩子工作時遇到長工時與不合理要求。','哪句提出最貼近範文的保護重點？',['檢查是否有成年人妥善監督，並把工時與要求控制在孩子能應付的範圍。','只要店舖付薪，就不用管工作要求。','讓孩子自己承受所有壓力便保證更獨立。','把休息時間全部改為工作可消除壓力。'],['依原文的工時、監管及情緒準備作回應。','薪水不抵銷風險。','無此保證。','方向相反。'],[11,12,14],'原文 demanding/poorly supervised 與 clear limits。'),
+ transfer('一名中學生週末在咖啡店工作幾小時，開始珍惜自己賺的錢。','哪句準確應用金錢觀念論證？',["親自花時間賺薪，可能使他更謹慎看待非必要開支", "開始有收入後，他可完全不用再計算自己日常花費", "咖啡店工作會增加社交能力，卻不影響他的金錢觀", "學會珍惜金錢主要靠家長增加零用錢，而非親身工作"],["把親身付出與收入連到更審慎的消費。", "有收入不代表無須管理支出。", "忽略題境中對自己賺取金錢的認識。", "改由零用錢解釋，未用親身工作的機制。"],[4,5],'原文咖啡店青少年較謹慎消費。'),
+ transfer('一名學生在店內學會服務顧客並與同事合作。','哪句指出可轉移技能？',["顧客服務與同事合作可練溝通和安排時間，日後仍能用", "店內服務只培養銷售技巧，離開店舖後便不再有用", "與同事合作可練溝通，但與自信和時間安排無關", "學生只須在課室學知識，工作經驗不能改善人際能力"],["把具體工作行為連到可在日後使用的技能。", "把可轉移技能錯限於原店舖。", "漏掉範文所說的其他可轉移能力。", "否定實際工作可帶來的社交學習。"],[6,7],'原文 By serving customers/cooperating→skills。'),
+ transfer('孩子一週上多個晚班，回家後太累而無法好好做功課。','哪句保留學業風險的因果？',["工作擠掉休息和溫習，疲勞可能使功課與成績受損", "晚班增加收入，因而能補償所有失去的休息時間", "功課做不完主要是興趣問題，與晚班後疲勞沒有關係", "只要是週內工作，便不會影響孩子準備考試的時間"],["交代工時、疲勞和學業表現的因果鏈。", "收入不能自動補回睡眠和學習。", "忽略題境中的疲勞及時間減少。", "工作時段仍可能與學習和休息競爭。"],[9,10],'原文超市晚班太疲累→作業差→成績下降。'),
+ transfer('青少年在缺乏主管的高壓餐廳遇上無禮顧客。','哪句符合情緒風險？',["缺乏支援時，高壓顧客互動可能令有益工作變成負擔", "無禮顧客可訓練耐性，因此不需要任何主管提供支援", "即使有主管協助，所有青少年都一定無法承受工作", "只要餐廳工資合理，顧客壓力便不會影響青少年"],["保留壓力風險取決於準備程度及支援。", "耐性不等於可忽略支援和壓力。", "把可能風險誇成每個人的必然結果。", "薪酬不能自動消除情緒負擔。"],[11,12],'原文 demanding/poorly supervised→heavy burden。'),
+ transfer('家長為孩子的假期兼職訂下每週工時及休息界線。','哪句符合範文結論？',["工時與休息界線會影響兼職效果，應同時衡量成長和負擔", "假期兼職有收入，便不用再規定休息時間與工作量", "只要家長訂出限制，孩子便不能從工作學到任何技能", "工時雖要控制，但學生是否感到壓力不在評估範圍"],["範文結論要求評估好處、代價及清楚界線。", "收入不能取代休息和工時管理。", "限制可能保護學習和健康。", "情緒負擔也是文章的風險。"],[13,14],'原文 impact depends on amount of work and clear limits。'),
+ transfer('作文只說「打工培養責任」，沒有具體內容。','哪句能補足機制？',["準時上班並遵從指示，親自賺薪可讓努力與收入相連", "準時上班雖是責任，但賺薪與個人努力完全沒有關係", "只要孩子收到薪金，便不用再履行工作承諾和指示", "責任感應只按薪金高低評估，無須觀察工作行為"],["用行為與收入的連結解釋責任感。", "忽略原文的努力與收入關係。", "薪金不會取消履行職責的要求。", "只看數字，沒有分析責任行為。"],[3,4],'原文準時、按指示、賺薪→金錢與努力。'),
+ transfer('另一題討論學生長假參加社區服務。','哪句真正轉移本文的分析框架？',["比較責任與合作收穫，也要檢查休息時間和活動壓力", "社區服務沒有薪金，所以責任與合作技能完全無從學習", "假期活動較自由，因此毋須考慮學習和休息的安排", "只沿用兼職有益的結論，不檢驗社區服務的實際條件"],["轉移多個分析維度，仍需依新題情境判斷。", "無薪也可能練責任與合作。", "假期活動仍可能佔用休息時間。", "不能直接搬用另一題的結論。"],[4,7,9,11],'原文兩項收益與兩項風險可跨題評估。'),
+ transfer('有人說學生只要兼職便一定更成熟。','哪句指出原文的限定？',["兼職可能促進成長，也可能壓縮學習或增加情緒負擔", "兼職能培養責任，所以所有學生都必然同樣受益", "只要能賺取薪水，長工時便不會影響任何學生", "有工作壓力時，溝通與時間管理的收益便一定不存在"],["保留範文的條件式利弊判斷。", "把可能益處推成所有人的結果。", "薪水不能抵消所有工時風險。", "風險與技能收益可以並存。"],[13,14],'原文整體利弊依工作量和限制。'),
+ transfer('學生一邊工作一邊要準備考試。','哪句最符合時間管理的權衡？',["工作可練安排時間，但不能擠掉必要溫習與睡眠", "考試前工作較忙，學生可用收入代替必要的睡眠", "只要有工作經驗，考試期間便不用安排溫習時間", "時間管理應只計算工時，不必把學習與休息納入"],["肯定技能收益，同時保留學業與健康界線。", "收入不能替代睡眠。", "工作經驗不免除溫習需要。", "完整時間管理需兼顧三者。"],[7,9,10],'原文時間管理好處與學習睡眠代價並存。'),
+ transfer('一名孩子工作時遇到長工時與不合理要求。','哪句提出最貼近範文的保護重點？',["應有成人妥善監督，工時與工作要求須在孩子可承受範圍", "只要有成人在場，孩子便可以無限制地延長工作時間", "工時可以保持很長，只要每項工作要求看起來簡單", "孩子若想獨立，就應自己面對所有不合理工作要求"],["以監督和合理工時要求回應過勞與壓力風險。", "監督不能取代工時限制。", "簡單任務的長時間累積仍可能過重。", "不合理要求需要保護，不應全由孩子承受。"],[11,12,14],'原文 demanding/poorly supervised 與 clear limits。'),
 ];
+const revised=[
+ {wrong:['開始有收入後，日常花費便較容易自行安排','咖啡店工作增加社交能力，與金錢觀關係較小','珍惜金錢主要來自家長的零用錢安排而非工作'],why:['有收入仍要學習分配與衡量支出。','親自賺錢可能改變消費判斷。','親身工作也是此處的學習機制。']},
+ {wrong:['店內服務培養銷售技巧，離職後用途較有限','與同事合作練溝通，但較少影響時間安排','課室知識較可轉移，工作人際經驗則較難應用'],why:['溝通和時間安排可轉移至其他場景。','合作和工作安排也可練時間管理。','工作經驗也能培養人際技能。']},
+ {wrong:['晚班增加收入，可補回學生部分失去的休息','功課做不完主要因興趣不足，疲勞作用較小','週內工作時間固定，考試準備便較易安排'],why:['收入不能直接補回睡眠與溫習時間。','疲勞可能直接影響功課表現。','固定晚班也可能擠壓備考時間。']},
+ {wrong:['無禮顧客可練耐性，主管支援可留待嚴重時','有主管協助後，青少年便較少受到工作壓力','餐廳工資合理時，顧客壓力便較易自行消化'],why:['缺支援的高壓互動可能帶來情緒負擔。','主管支援有幫助，但壓力仍需評估。','工資不直接消除無禮互動的影響。']},
+ {wrong:['假期兼職有收入，休息時間可按工作需要調整','家長訂工時界線，孩子學技能的機會便會減少','控制工時即可，學生感到的壓力可另外再處理'],why:['休息是保護孩子的關鍵條件。','合理界線不必然妨礙學技能。','評估兼職仍須考慮情緒負擔。']},
+ {wrong:['準時上班有助責任感，賺薪作用主要在購物','孩子收到薪金後，工作承諾的重要性便會降低','責任感可看薪金高低，工作行為可留到另文'],why:['親自賺薪可把努力與收入連起來。','薪金不取消遵從工作指示的責任。','具體行為比薪金高低更能說明責任。']},
+ {wrong:['社區服務沒有薪金，責任與合作收益較難成立','假期活動較自由，休息安排便較少受到影響','兼職有益的結論可直接移用，活動條件可略過'],why:['責任與合作也可在無薪活動中學習。','社區服務仍可能佔用休息時間。','轉移框架要核對新活動的負擔。']},
+ {wrong:['兼職培養責任，學生因此大多會同樣受益','能賺薪水時，長工時對學習影響通常較小','工作壓力存在，溝通技能的收益便較難成立'],why:['效果仍受工時、支援及學生條件影響。','收入不取消學業與休息代價。','好處與情緒代價可能並存。']},
+ {wrong:['考試前工作較忙，收入可補償睡眠時間縮短','有工作經驗後，溫習時間可以按班表壓縮','時間管理主要看工時，學習與休息可留待後面'],why:['收入不能代替睡眠。','工作經驗不取消溫習需要。','管理時間須納入全部重要活動。']},
+ {wrong:['有成人在場，孩子可放心把工時逐步延長','工作要求看似簡單，長工時便較少有風險','孩子想獨立，可先自行處理各種不合理要求'],why:['成人監督仍須設定合適工時。','簡單工作也會因時間長而疲勞。','成人支援可保護孩子。']},
+];
+revised.forEach((r,i)=>{transfers[i].options=[transfers[i].options[0],...r.wrong];transfers[i].explanations=[transfers[i].explanations[0],...r.why]});
+transfers[1].options[0]='店內服務與合作練溝通和時間安排，日後仍可用';
+transfers[2].options[0]='工作擠掉休息與溫習，疲勞或損功課和成績';
+transfers[3].options[0]='缺乏支援時，高壓顧客互動或令工作變負擔';
+transfers[4].options[0]='工時與休息界線影響兼職效果，須衡量成長與負擔';
+transfers[5].options[0]='準時上班並遵從指示，賺薪讓努力與收入相連';
+transfers[6].options[0]='比較責任與合作收穫，也查休息與活動壓力';
+transfers[7].options[0]='兼職或促進成長，也可能壓縮學習並增情緒負擔';
+transfers[9].options[0]='成人須監督，工時與要求應在孩子可承受範圍內';
 export default {key:'advantage-disadvantage:29',meta:{topic:'學齡孩子兼職的成長與壓力',summary:'範文指出兼職可培養責任、金錢觀念與服務合作等技能，同時可能佔去學習睡眠時間或讓孩子承受未準備好的職場壓力；影響取決於工時及清楚界線。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

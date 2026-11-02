@@ -106,11 +106,11 @@ function card(example,functionName,distractors,frame){
     distractorReason:`這句${functionName}；它表達的是另一種關係。`};
 }
 const structures=[
-  card('Late buses are a serious problem because workers miss shifts, lose pay and feel stressed.','用 because 由問題引出多項實際後果',[3,9,16],
+  card('Road danger is a serious social problem because pedestrians miss work, get hurt and lose trust.','用 because 由問題引出多項實際後果',[3,9,16],
     fixed(0,'[問題] is [嚴重程度] because [原因或後果一], [二] and [三].','先界定社會問題，再列酒精如何削弱控制、加劇攻擊並推高衝突風險。','引言要說明問題為何嚴重，而非只宣稱它重要時。',[' is a serious social problem because ', ', ', ' and '],['被提出的社會問題','第一項作用','第二項作用','第三項作用'])),
   card('However, I do not think closing every shop would be an effective way to cut waste.','用 I do not think ... would be an effective way 直接評估全面措施',[0,8,16],
     fixed(1,'However, I do not think [全面措施] would be [有效解法].','直接回答全面禁酒是否有效，為之後的反對理由定下立場。','題目問某政策是否有效，須在引言明確表態時。',['However, I do not think ', ' would be '],['被評估的全面措施','被否定的政策效用'])),
-  card('That rule would hide the signs of bullying rather than deal with the behaviour behind it.','用 rather than 對比表面處理與真正需要處理的行為',[1,4,7],
+  card('It would hide the signs of bullying rather than deal with the behaviour behind it.','用 rather than 對比表面處理與真正需要處理的行為',[1,4,7],
     fixed(2,'It would [處理表面] rather than [處理真正導致問題的行為].','解釋全面禁令為何沒有針對犯罪行為本身。','已表明不支持政策，接着要指出政策與根本目標錯位時。',['It would ', ' rather than '],['只碰到表面的措施','實際造成問題的行為'])),
   card('The main weakness of a citywide curfew is that it would be hard to enforce and could create more secret meetings.','用 The main weakness ... is that ... and 連結執行困難與新副作用',[2,5,12],
     fixed(3,'The main weakness of [政策] is that [執行難點] and [可能副作用].','總述禁酒的兩項弱點：難執行，並可能催生新的非法活動。','開始反對某政策的主體段，要先概括最重要的兩個理由時。',['The main weakness of ', ' is that ', ' and '],['受評估的政策','執行上的困難','可能引發的新問題'])),
@@ -119,14 +119,14 @@ const structures=[
   card('Unlicensed firms could then overcharge customers, use unsafe cars and avoid safety checks altogether.','用 could then 並列新市場可能造成的多項傷害',[4,7,10],
     fixed(5,'[非法經營者] could then [傷害一], [傷害二] and [逃避監管].','承接黑市形成，列出犯罪集團可能造成的具體損害。','已說非法供應出現，接着要指出它對顧客和監管的影響時。',[' could then ', ', ', ' and '],['非法供應者','對安全的損害','對弱勢顧客的剝削','逃避規管'])),
   card('In this situation, inspectors would spend time chasing small sellers instead of checking unsafe factories.','用 In this situation ... instead of 說明執法資源被轉移',[5,8,13],
-    fixed(6,'In this situation, [執法者] would [耗費資源於次要對象] instead of [集中於主要傷害].','指出全面禁令可能令警方追查一般飲酒者，分散處理暴力罪犯的力量。','要評估政策如何改變有限的執法時間和優先次序時。',['In this situation, ', ' would ', ' instead of '],['處於該情況的執法者','被轉去處理的次要工作','因此受影響的主要工作'])),
+    fixed(6,'In this situation, [執法者] would [耗費資源於次要對象] instead of [集中於主要傷害].','指出全面禁令可能令警方追查一般飲酒者，分散處理暴力罪犯的力量。','要用 instead of 對比同一資源的兩種用途，指出錯置優先次序的代價時。',['In this situation, ', ' would ', ' instead of '],['處於該情況的執法者','被轉去處理的次要工作','因此受影響的主要工作'])),
   card('Therefore, banning street sales may simply push trade underground rather than end it.','用 Therefore ... may simply ... rather than 收束禁令的反效果',[2,4,12],
     fixed(7,'Therefore, [全面禁令] may simply [把問題藏起來] rather than [真正消除問題].','由黑市與警方資源的分析推論：禁酒可能使問題地下化。','一段反對禁令的因果論證末尾，需要總結政策為何無法達標時。',['Therefore, ', ' may simply ', ' rather than '],['被評估的禁令','可能出現的表面變化','未能達成的目標'])),
   card('A more effective solution is targeted safety inspections.','用 A more effective solution is 簡短提出替代政策方向',[1,7,13],
     fixed(8,'A more effective solution is [有針對性的做法].','由否定全面禁令轉向具體針對高風險時段的管制。','主體段開始要先提出替代方案，再展開措施時。',['A more effective solution is '],['更精準的解法'])),
   card('Councils should limit late-night noise, fine repeated offenders, and require venues to close unsafe exits.','用 should 並列政府可執行的三項管制行動',[8,11,14],
     fixed(9,'[政府] should [限制高風險情況], [加重違規代價], and [要求場所負責].','把針對性管制拆成售酒時段、酒駕與暴力罰則，以及酒吧拒絕服務。','要把抽象政策寫成多個可執行規則時。',[' should ', ', ', ', and '],['負責制定規則的機關','限制高風險時段','針對違規的罰則','場所須履行的責任'])),
-  card('These checks focus on the times when factory accidents are most likely to happen.','用 focus on the moments when 說明為何措施對準高風險時刻',[3,8,15],
+  card('These measures focus on the moments when factory accidents are most likely to happen.','用 focus on the moments when 說明為何措施對準高風險時刻',[3,8,15],
     fixed(10,'These measures focus on the moments when [風險最容易發生].','解釋限制深夜售酒等措施的共同原理：在犯罪最可能被觸發時介入。','已列出多種措施，接着要說明它們為何屬於同一種針對性策略時。',['These measures focus on the moments when '],['需要及時處理的高風險時刻'])),
   card('For example, if a venue may lose its licence for unsafe service, staff will step in before an argument becomes a fight.','用 For example, if ... will ... before 展示誘因如何帶來及早介入',[4,9,12],
     fixed(11,'For example, if [場所面對牌照後果], [員工] will [及早介入] before [衝突升級].','以夜店牌照作例子，說明具體責任如何促使員工在打鬥前介入。','要把「管制有效」變成可見的場所決策和時間次序時。',['For example, if ', ', ', ' will ', ' before '],['牌照後果的條件','在場的員工','提前採取的行動','需要防止的升級'])),
@@ -136,7 +136,7 @@ const structures=[
     fixed(13,'Another useful measure is [對反覆受影響者的支援].','在規管之後，另提出對反覆濫用酒精者的治療和教育。','已有執法措施，還要補上處理個人長期問題的方案時。',['Another useful measure is '],['補充的治療或教育方案'])),
   card('Some pupils do not simply need detention; they need a mentor, help at home and a clear account of the harm done.','用 do not simply need ...; they need 對照懲罰與較完整的支援',[9,13,15],
     fixed(14,'Some [涉事者] do not simply need [懲罰]; they need [輔導、戒癮與理解傷害].','說明反覆濫用者除罰則外，還需要處理依賴和認知的支援。','要防止方案只剩處罰，並列出個人層面的實際需要時。',['Some ', ' do not simply need ', '; they need '],['需要更多支援的涉事者','不足夠的單一回應','較完整的支援內容'])),
-  card('If schools teach pupils how sleep affects attention, future mistakes can be reduced at their roots.','用 If ... how ... can be reduced at its roots 寫教育如何做長期預防',[10,13,17],
+  card('If schools teach pupils how sleep affects attention, future risk can be reduced at its roots.','用 If ... how ... can be reduced at its roots 寫教育如何做長期預防',[10,13,17],
     fixed(15,'If [教育者] teach [年輕人] how [因素影響判斷], [日後風險] can be reduced at its roots.','從青少年學會理解酒精影響判斷和自制力，推到未來犯罪的根源預防。','要說明教育不是即時懲罰，而是降低未來風險時。',['If ', ' teach ', ' how ', ', ', ' can be reduced at its roots.'],['提供教育的機構','學習對象','需要認識的影響','日後希望減少的風險'])),
   card('In conclusion, closing every park is not an effective safety policy.','用 In conclusion ... is not 重申對全面措施的否定判斷',[1,8,17],
     fixed(16,'In conclusion, [全面禁令] is not [有效政策].','結論直接回答題目：禁酒不是有效的反犯罪政策。','結論要清楚重申第一個題問的立場時。',['In conclusion, ', ' is not '],['被評估的全面禁令','被否定的政策成效'])),
@@ -361,6 +361,34 @@ const transferTasks=[
     '警方資源問題只是反對禁令的一項理由，非完整答案。',
   ],[1,16,17],'範文結尾否定禁酒，並把更嚴格規管、更有力執法和濫用支援連成較可持續的方案。'),
 ];
+const editorialWrongChoices=[
+  ['先評估禁令後租借是否減少，危險駕駛另由警方處理','先查夜間違規者的年齡，再決定是否保留全面禁令','禁令減少公開租借，地下交易可待執行後才觀察'],
+  ['無牌攤檔增加表明需求仍在，但可先集中處罰顧客','居民仍要便宜午餐，可由持牌餐廳加強宣傳回應','地下交易有風險，全面禁令仍可視為食品安全改善'],
+  ['把管理時間平均分給學生，避免只針對少數人衝突','先禁操場活動，再把新增衝突交其他場所自行處理','只增加操場巡查，先不區分正常活動與高風險情況'],
+  ['人手加在擠迫時段，但主要在推撞後記錄處理','出口引導可疏散人群，重點仍放在事後的投訴','在多數時段平均加人手，避免集中某一個風險點'],
+  ['牌照處罰可約束餐廳，但不必讓員工判斷口角風險','員工可提早停酒，牌照規則主要與事後賠償相關','停止供應合理，爭執可待顧客離場後才另行處理'],
+  ['罰款後安排輔導，暴力責任可交由社工單獨評估','先看依賴問題，接受治療後便不再處理打架行為','先加重罰款，戒癮支援留待再次犯事後才提供'],
+  ['課程先講法律後果，酒精對判斷的影響留待成年再學','先講醉酒衝突案例，學生是否明白自制機制另行測試','把預防課程放到多次違規後，再使用真實個案教學'],
+  ['用規則限制時段，成癮支援可交玩家自行尋求','提供成癮支援，交易監管待地下市場出現後再定','先封鎖高風險網站，支援需求只按罰款人數判斷'],
+  ['優先查地下售酒的供應，酒後傷人留待一般巡邏處理','先要求一般飲酒者申報，以掌握可能的暴力風險','把有限人手平均分給售酒與傷人，不區分傷害程度'],
+  ['否定禁酒，改以執法處罰代替輔導與長期預防','承認禁酒難行，先處理地下售酒再討論暴力與傷害','提出戒癮輔導與教育，但不評估全面禁令效果'],
+];
+const editorialWrongFeedback=[
+  ['只查公開租借，可能漏掉禁令後轉入地下的需求。','年齡可供分析，不能代替檢查禁令真正結果。','地下轉移是禁令成敗的核心，不能等到執行後才想。'],
+  ['處罰顧客沒有處理需求及地下食品安全。','宣傳合法餐廳未必能替代居民需要的便宜午餐。','無牌交易可能更難監管，不能直接視為安全改善。'],
+  ['平均分配會浪費有限人手，應集中真正的衝突風險。','禁令可能把衝突轉移，仍要處理高風險行為。','只加巡查卻不分風險，無法提高執法效率。'],
+  ['針對時段是對的，但應在推撞升級前介入。','出口引導要在擠迫當下發揮作用。','平均加人手忽略已知的高風險時段。'],
+  ['員工辨認口角是牌照規則促成及早介入的關鍵。','牌照責任旨在改變當下供酒決定，不只是賠償。','等顧客離場可能錯過防止打鬥升級的時機。'],
+  ['社工提供支援，暴力責任仍須由相應制度處理。','戒癮支援不能自動免除對傷人行為的責任。','反覆依賴已知，不應等再犯才提供協助。'],
+  ['只講法律後果，漏掉飲酒如何影響判斷與自制。','案例有用，也要解釋促成衝突的機制。','長期預防應在反覆違規前開始。'],
+  ['只靠玩家主動求助，可能漏掉反覆依賴者。','地下交易風險已知，監管不能等它擴大。','封鎖與罰款數無法顯示全部成癮支援需求。'],
+  ['地下供應重要，但暴力傷害亦需優先處理。','普遍申報可能消耗人手而偏離真正高風險者。','平均分配忽略不同情況的傷害程度。'],
+  ['精準規管仍要配合教育及戒癮支援。','地下售酒是部分問題，仍要回應酒後犯罪。','第二問有方案，但第一問仍須判斷全面禁令。'],
+];
+transferTasks.forEach((item,index)=>{item.options=[item.options[0],...editorialWrongChoices[index]];item.explanations=[item.explanations[0],...editorialWrongFeedback[index]];item.why=item.explanations[0]});
+// Reviewed connector structure decompositions.
+structures[0].frame.parts=[["Alcohol-related crime","slot","問題"],[" is a ","link","句型固定部分"],["serious","slot","嚴重程度"],[" social problem because ","link","句型固定部分"],["alcohol can weaken self-control","slot","第一個原因或後果"],[", ","link","句型固定部分"],["intensify aggression","slot","第二個原因或後果"],[" and ","link","句型固定部分"],["turn minor disputes into violence","slot","第三個原因或後果"],[".","link","句型固定部分"]];
+structures[0].frame.formula="[問題] is a [嚴重程度] social problem because [第一個原因或後果], [第二個原因或後果] and [第三個原因或後果].";
 export default {
   key:'direct-question:10',
   meta:{topic:'酒精相關犯罪與禁酒政策',summary:'全面禁酒難執行且可能催生黑市；針對性管制、執法、治療及教育更可行。'},

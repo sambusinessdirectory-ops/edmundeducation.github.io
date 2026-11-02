@@ -142,6 +142,80 @@ const transfer=[
   T('一個國家設了本國河流政策，卻沒有與鄰國協調共同河道的污染。','哪項最符合結論？',['國內措施有用，但若問題跨境，仍需協調的國際行動','只要有國內法，鄰國污染便自動消失','國內河流政策完全無用','國家不需保護自己的河流'],['small patches 比喻措施有用但不足。','跨境來源仍在。','作者承認國內措施。','地方政府有角色。'],[1,6,13,14],'National policies are useful, but without coordinated international action...。'),
   T('要用一句話準確概括全文。','哪項最好？',['作者主張國際協作處理嚴重跨境環境問題，以提高成效並更公平分責，同時保留國內政策作用','作者說所有國家污染與受害程度完全相同','作者要求取消所有本地環境措施','作者認為國際協議不能分享技術'],['跨境因果與公平分責是兩段理由。','第二段指出差異。','地方仍有角色。','協議可分享。'],[1,2,7,8,9,11,12,13,14,15],'borderless by nature；more effective and more just。'),
 ];
+const reviewedExamples=[
+  'Public libraries have become one of the most important learning spaces in many towns.',
+  'While local schools can help, I completely agree that national support is needed because poorer districts lack funds.',
+  'The first reason is that food costs are rising.',
+  'Floods are not problems that one town can solve alone.',
+  'For example, a village can build a small clinic, but patients still struggle if no doctors can work there.',
+  'Similarly, disease can be carried by travellers and damage public health.',
+  'In this sense, a city is like a shared house while its districts are like connected rooms.',
+  'Joint planning is therefore essential because it allows schools to share teachers.',
+  'Another important reason is that smaller towns can lack specialist staff.',
+  'Rural villages are often the most exposed to poor transport, even though cities receive more funding.',
+  'If schools act alone, wealthy ones may improve while poorer ones are left carrying the greater burden.',
+  'A shared budget, by contrast, can encourage cooperation across districts.',
+  'This makes the plan not only more effective, but also fairer.',
+  'In conclusion, I fully agree that shared rivers should be dealt with jointly rather than by each town alone.',
+  'Local rules are useful, but without shared enforcement, they are only partial solutions.',
+  'The river is shared, and responsibility for it must be shared as well.',
+];
+reviewedExamples.forEach((example,i)=>{structures[i].example=example;});
+const reviewedTransfer=[
+  [
+    ['單國減排有用，仍可能受鄰國排放影響而需合作','只因鄰國排放，便斷定本國清潔能源毫無作用','只計本國投資，未評估跨境污染與共同目標','要求鄰國減排，卻不檢查本國是否繼續排放'],
+    ['本國行動仍重要，但跨境排放限制其單獨效果。','鄰國排放不使本國努力完全無用。','投資額不足以判斷跨境減排的成效。','合作也包括本國繼續承擔責任。']
+  ],
+  [
+    ['洋流把污染帶到遠處，需跨境協調保護海洋','只清理棄置海岸，不追蹤下游海域的損害','只數海洋生物，未調查塑膠從何處流入','以當地行政界線，認定污染不會進入別國海域'],
+    ['污染會跨越棄置地點，需要更廣範圍協調。','源頭清理重要，但也要追蹤跨境後果。','生物數量未說明污染來源與流向。','洋流不受行政界線阻隔。']
+  ],
+  [
+    ['一房清潔仍受他房煙影響，局部行動需協調','只看一房清潔成效，不查煙從別處進入','因他房有煙，便停止本房任何清潔措施','把所有房間同時封閉，不查煙真正來源'],
+    ['比喻說明局部努力受外部來源限制。','不查外來煙源，未解決反覆污染。','外部來源不使本房行動全無價值。','封房不等於找出並控制煙源。']
+  ],
+  [
+    ['訂共同目標，再協調各國實施與追蹤減排','各國獨立設目標，不交換減排進展資訊','只公布共同口號，不建立具體行動與查核','只讓排放最多國家決定，未讓其他國家參與'],
+    ['共同目標需配合協調和檢查。','獨立目標缺少跨國一致方向。','口號不能代替執行和監察。','共同目標應容許相關國家參與。']
+  ],
+  [
+    ['按歷史污染、受害程度與能力，公平分配責任','只按當前年收入分責，不看過往排放與受害','只按洪水受害分責，忽略可提供資源者','所有國家付同額，不問能力與歷史排放'],
+    ['公平分責要同時看造成問題、受害與資源能力。','現時收入沒有涵蓋歷史責任和風險。','受害國未必最有能力承擔支出。','同額付款不一定符合不同責任與能力。']
+  ],
+  [
+    ['富國較易自保，弱國可能承受不公平的災害負擔','只看富國的防洪工程，便判定各國風險相同','只統計弱國災害，不問資金能力和排放責任','富國有資金，便認定弱國不再面對任何風險'],
+    ['獨自行動可使資源不足的國家承受較大風險。','富國能自保，不能推出弱國也能。','災害數字以外還有資源和責任差異。','富國有資金並未消除弱國的風險。']
+  ],
+  [
+    ['協議可結合資金、技術分享與共同監察','只訂目標，不提供資金或技術支援','只交流技術，不檢查各國目標進展','只談資金數額，不追蹤減排是否完成'],
+    ['資金、技術和監察共同支持執行。','目標若無資源，可能難以落實。','技術分享仍需追蹤實際進展。','資金承諾仍須檢查效果。']
+  ],
+  [
+    ['作者承認國內政策有用，仍需國際協調跨境問題','因跨境合作重要，便取消所有國內減排措施','因國內措施有用，便不再與鄰國交換污染資訊','只讓地方政府處理海洋污染，不追查跨境來源'],
+    ['國內政策有用，跨境問題還需要協調。','國際合作並不取消國內措施。','單國措施未必足以處理跨境後果。','只看地方，漏掉污染跨境流動。']
+  ],
+  [
+    ['先查病因與後果是否跨境，以及單國措施的限制','只看本國病例數，不查鄰國傳播與共同防治','只問醫院開支，不調查疾病是否會越過國界','只看地圖上的國家邊界，便認定病原不可能跨境'],
+    ['先確認跨境性質與單國措施的局限。','本國病例數未說明跨境傳播。','開支數字未回答是否需要國際合作。','病原傳播不受地圖線條阻止。']
+  ],
+  [
+    ['共同負責，但按歷史排放與能力分擔不同份額','所有國家付同額，不問累積排放與資源差異','只讓受害最深國家付款，忽略主要排放者','只按目前排放分責，不看歷史污染與承受風險'],
+    ['共同責任可以按歷史污染和能力作比例分配。','同額付款忽略不同貢獻和支付能力。','受害者不一定是造成污染最多者。','只看現在會漏掉歷史責任。']
+  ],
+  [
+    ['國內措施有用，跨境河道仍需要與鄰國協調','只訂國內規則，未查鄰國是否同樣排放污染','因河道跨境，便取消所有國內治污措施','只看河道長度，不檢查污染如何流向下游'],
+    ['國內規則與跨境協調要同時存在。','只管本國，無法控制其他來源。','跨境合作不等於國內規則無用。','長度沒有說明污染來源與流向。']
+  ],
+  [
+    ['跨境環境需國際協作，也須公平分責與國內行動','只靠國內政策處理跨境問題，無須國際協調','只談合作減排，不處理貧富國間的公平責任','只訂國際協議，便認定國內措施完全無用'],
+    ['國際協作、分責公平與國內作用三者都需保留。','跨境後果常超出單國行動能力。','原文還要求較公平的責任分配。','國際協議不能取代所有國內措施。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:47',
   meta:{topic:'跨境環境問題、國際合作與公平分責',summary:'作者完全贊成以國際合作處理嚴重的全球環境問題，同時承認地方及國家政策仍有作用。氣候、空氣與海洋污染可跨越國界，單國努力會受他國行動限制。合作亦可依歷史污染、受害及能力差異較公平分責，透過資金、技術分享與共同監察改善成效。'},

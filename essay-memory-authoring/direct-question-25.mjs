@@ -85,18 +85,18 @@ const part=(text,kind,label)=>({text,kind,label});
 function fixed(i,formula,meaning,usage,links,labels){const text=original[i],parts=[];let cursor=0,slot=0;for(const link of links){const at=text.indexOf(link,cursor);if(at<0)throw Error(`Missing fixed span ${i+1}: ${link}`);if(at>cursor)parts.push(part(text.slice(cursor,at),'slot',labels[slot++]));parts.push(part(link,'link','句型固定部分'));cursor=at+link.length;}if(cursor<text.length)parts.push(part(text.slice(cursor),'slot',labels[slot++]));return {formula,meaning,usage,parts};}
 function card(example,functionName,distractors,frame){return {example,distractors,frame,patternType:'reviewed',answerReason:`這句${functionName}，與原句的句型和語意關係相同。`,distractorReason:`這句${functionName}；它表達的是另一種關係。`};}
 const structures=[
-  card('Across many towns, both adults work long hours, so children spend less time talking to them than their parents did.','用 so 和 than 比較雙親工作後孩子獲得的時間',[1,2,6],
-    fixed(0,'Across many modern societies, [雙親全職工作], so [孩子獲得較少直接關注] than [以前世代].','以現代家庭的工作安排開場，清楚指出孩子陪伴時間的變化。','題目說孩子與雙親相處時間減少，須先界定當前情況時。',['Across many modern societies, ', ', so ', ' than '],['父母工作的現況','對孩子直接關注的影響','比較對象'])),
+  card('Across many modern societies, both adults work long hours, so children spend less time talking to them than their parents did.','用 so 和 than 比較雙親工作後孩子獲得的時間',[1,2,6],
+    fixed(0,'Across many modern societies, [雙親全職工作], so [孩子獲得較少直接關注] than [以前世代].','以現代家庭的工作安排開場，清楚指出孩子陪伴時間的變化。','要交代一項社會變化，並用 so 推出其直接後果，再與過去比較時。',['Across many modern societies, ', ', so ', ' than '],['父母工作的現況','對孩子直接關注的影響','比較對象'])),
   card('The main reason is high rent, and this can reduce family time and weaken children’s trust.','用 The main reason is ... and this can ... 預告原因與兩類後果',[0,3,15],
     fixed(1,'The main reason is [經濟壓力], and this can [削弱家庭關係] and [減少成長期引導].','引言先回答原因，再預告情感與引導兩項問題。','雙問題目要求原因及後果，引言要把兩者連起來時。',['The main reason is ', ', and this can ', ' and '],['主要原因','第一項家庭後果','第二項孩子後果'])),
   card('The clearest reason is that one wage is often no longer enough to cover family costs.','用 The clearest reason is that 點明單一收入不足',[1,3,4],
     fixed(2,'The clearest reason is that [一份薪金] is often no longer enough to [維持家庭生活].','原因段先提出可由日常開支支持的核心解釋。','題目問為何雙親都工作，先提出收入不足的主因時。',['The clearest reason is that ', ' is often no longer enough to '],['不足以應付開支的收入','家庭需要維持的生活'])),
   card('Rent and food are expensive, so both parents keep working just to pay basic bills.','用 costs ... so ... just to 把具體開支連到雙親工作需要',[2,4,5],
-    fixed(3,'[住房、交通、食物等] are expensive, so [父母繼續受薪工作] just to [維持家庭穩定].','用生活費例子解釋為何一份薪金不足，雙親只好繼續工作。','提出經濟壓力後，需要以開支細節和家庭決定支撐它時。',[' are expensive, so ', ' just to '],['昂貴的家庭開支','因開支而持續工作的父母','工作所維持的基本目標'])),
+    fixed(3,'[住房、交通、食物等] are expensive, so [父母繼續受薪工作] just to [維持家庭穩定].','用生活費例子解釋為何一份薪金不足，雙親只好繼續工作。','要列出持續開支，再用 so 解釋當事人為何作出某項選擇時。',[' are expensive, so ', ' just to '],['昂貴的家庭開支','因開支而持續工作的父母','工作所維持的基本目標'])),
   card('In this sense, a second job is not simply a career choice; it is a way to pay for daily needs.','用 not simply ...; it is ... 重估雙親工作的必要性',[1,2,3],
     fixed(4,'In this sense, [工作] is not simply [個人抱負]; it is [經濟命脈].','總結經濟原因：工作不只出於個人志向，還支撐家庭生活。','已列日常開支，要糾正「雙親工作純因事業心」的單一解讀時。',['In this sense, ', ' is not simply ', '; it is '],['重新理解的工作','不足以解釋工作的原因','家庭依靠的經濟作用'])),
   card('Because of this, parents often leave early, return late, and depend on relatives to look after their children.','用 Because of this 把經濟原因連到父母作息與代照安排',[0,3,6],
-    fixed(5,'Because of this, [父母] often [早離家], [晚回家], and depend on [祖父母、託兒所或裝置] to [照看孩子].','說明收入壓力如何變成每天較少相處，以及誰暫時照看孩子。','已解釋雙親需工作，接着要指出對家庭時間的實際影響時。',['Because of this, ', ' often ', ', ', ', and depend on ', ' to '],['受壓力影響的父母','離家的時間','回家的時間','替代照看方式','孩子在父母不在場時的安排'])),
+    fixed(5,'Because of this, [父母] often [早離家], [晚回家], and depend on [祖父母、託兒所或裝置] to [照看孩子].','說明收入壓力如何變成每天較少相處，以及誰暫時照看孩子。','前文已交代原因，要用 Because of this 引出可觀察的日常行為及依靠方式時。',['Because of this, ', ' often ', ', ', ', and depend on ', ' to '],['受壓力影響的父母','離家的時間','回家的時間','替代照看方式','孩子在父母不在場時的安排'])),
   card('One serious problem is emotional distance between parents and children.','用 One serious problem is 宣告情感後果',[4,7,11],
     fixed(6,'One serious problem is [情感距離].','問題段先以短句命名第一項後果，後文才解釋如何形成。','原因已清楚，開始回答相處減少可能帶來甚麼問題時。',['One serious problem is '],['第一項家庭問題'])),
   card('Children need more than new toys: they need regular talks, such as family meals and help with schoolwork.','用 need more than ...: they need ... such as 對比物質與日常關注',[6,8,11],
@@ -111,9 +111,9 @@ const structures=[
     fixed(11,'Another problem is [監管較弱].','另起一個問題段，轉向缺少成人在場引導的後果。','情感問題已說清，現在要提出另一種不同的家庭風險時。',['Another problem is '],['第二項家庭問題'])),
   card('When parents are rarely home, children may turn to online friends for advice and approval.','用 When ... may turn to ... for 說明缺少父母時孩子尋求指引的去向',[7,11,13],
     fixed(12,'When [父母少在場], children may turn to [同學、社交媒體或網娛] for [建議和認同].','指出監管變弱時，孩子可能改向同儕或網絡取得指引。','已提出監管問題，需要說孩子在父母不在時會向誰求助時。',['When ', ', children may turn to ', ' for '],['父母缺席的條件','孩子轉向的渠道','希望得到的回應'])),
-  card('For example, a child who spends hours online without adult help may copy risky habits before anyone notices.','用 For example, a teenager who ... may ... before 將網絡暴露連到具體風險',[12,14,10],
+  card('For example, a teenager who spends hours online without adult help may copy risky habits or absorb harmful values before anyone notices.','用 For example, a teenager who ... may ... before 將網絡暴露連到具體風險',[12,14,10],
     fixed(13,'For example, a teenager who [長時間上網] without [成人引導] may [模仿壞習慣] or [吸收有害觀念] before [有人察覺].','以缺少成人引導的網絡使用，說明不良習慣和價值觀可能悄悄形成。','已說孩子轉向網絡，需要舉出監管不足的具體風險時。',['For example, a teenager who ', ' without ', ' may ', ' or ', ' before '],['青少年的網絡行為','缺少的引導','第一種風險','第二種風險','風險被發現的時點'])),
-  card('Even careful children can struggle to build self-control if no adult is present to show them how.','用 Even ... can struggle ... if 說明良好孩子亦需要穩定示範',[11,12,13],
+  card('Even careful children can struggle to build self-control and good habits if no adult is consistently present to show them how.','用 Even ... can struggle ... if 說明良好孩子亦需要穩定示範',[11,12,13],
     fixed(14,'Even [負責任的孩子] can struggle to build [紀律] and [自制力] if no adult is consistently present to [示範].','說明監管不只是防錯，也包括成人持續示範自律。','舉完網絡風險，還要指出沒有成人榜樣對一般孩子的影響時。',['Even ', ' can struggle to build ', ' and ', ' if no adult is consistently present to '],['仍可能受影響的孩子','需養成的紀律','需養成的自制','成人應提供的示範'])),
   card('In conclusion, children see their parents less mainly because many households need two wages to get by.','用 mainly because 在結論精確回答雙親工作的原因',[1,2,16],
     fixed(15,'In conclusion, [孩子較少與父母相處] mainly because [家庭需兩份收入維生].','結論先回答原因：許多家庭需要雙薪，孩子才有較少相處時間。','結尾要先簡明回應「為甚麼」而不引入新原因時。',['In conclusion, ', ' mainly because '],['需要總結的時間變化','最主要的經濟原因'])),
@@ -334,4 +334,17 @@ const transferTasks=[
     '原文說即使負責任孩子也可能需要示範。',
   ],[11,14],'範文指出成人經常不在場時，孩子較難建立紀律和自制。'),
 ];
+const revised=[
+  {options:['打工除興趣外，也是支付房租與學費的方式。','打工主要表明他不重視學業，支出只是次要。','房租學費可由日常節省支付，打工偏向消遣。','打工主要出於事業野心，經濟缺口並不重要。'],explanations:['題目給出明確的支出壓力，工作有實際財務作用。','有工作不能推斷學生不重視學業。','已知費用超出家庭能力，不能忽略收入需要。','題目中的經濟缺口比推測動機更有依據。']},
+  {options:['除物資照顧，亦安排定期談話讓長者感到受關注。','先確保物資供應，談話可留待較空閒的節日。','保持夜班收入，家中交流可主要交由社交媒體。','長者少談心顯示關係轉差，宜先減少工作責任。'],explanations:['物資與固定的情感交流不可互相取代。','不規律的偶爾談話難代替持續關注。','網上訊息未必有題述面對面談話的作用。','工作時間不足不等於不願關心長者。']},
+  {options:['設備以外仍安排導師談話，讓學生可提出擔憂。','增加設備投資，導師談話改成每學期一次。','以考試成績評估支持，求助意願留待事後再看。','增加導師留言表，暫緩安排面對面的固定談話。'],explanations:['物質資源不會自動提供穩定的情感與溝通支持。','低頻度接觸可能不足以建立求助關係。','學科成績不能涵蓋安全感和溝通。','文字留言可補充，但不等於固定的人際關注。']},
+  {options:['先看住房與家庭支出，再判斷長工時的原因。','單看晚歸時間，便將長工時視為事業野心。','先要求減少通勤，再討論收入能否支付開支。','以鄰居印象判斷動機，家庭支出稍後再查。'],explanations:['範文把長工時放在維持家庭收入的背景中看。','回家時間不能單獨證明工作動機。','減少通勤未必解決題述財務需要。','第三者印象不足以替代家庭開支證據。']},
+  {options:['固定的小型相聚可累積信任，不必倚賴大型活動。','大型節日較易吸引人，固定小聚可先暫停。','先送鄰居禮物，再以書面介紹取代實際談話。','每年辦一次盛會，日常互動留待關係成熟後。'],explanations:['日常、規律的接觸可逐漸建立關係。','大型活動不必取代持續的小型互動。','物質禮物難代替彼此認識的過程。','信任需要持續交流，不能只依賴年度活動。']},
+  {options:['成人穩定在場可示範自律，影片較難給個別引導。','影片能示範動作，教練可把回饋全留待學期末。','學生有基本責任感，便可減少成人在場示範。','教練多不在場時，應先增加影片而非觀察學員。'],explanations:['行為示範與個別回饋都依賴可信任成人參與。','影片不能即時回應個別學生困難。','已有責任感的學生仍可能需要持續示範。','增加影片未處理缺乏在場引導的問題。']},
+  {options:['少有定期談心可降低家庭求助，孩子轉向網絡。','孩子向網友求助，可推斷家中沒有經濟壓力。','網絡有即時回覆，便可取代成人長期引導。','父母工作忙但愛孩子，孩子便不會另找認同。'],explanations:['從家庭交流減少，連到求助渠道的可能轉移。','轉向網絡不能排除家中財務壓力。','回應速度不等於建議可靠或關係穩定。','關心與實際可用的陪伴時間可能存在落差。']},
+  {options:['檢視孩子有無定期關注，不僅查看活動費是否已付。','活動費已付，可把情感需要留待下學期再評估。','沒有共同用餐，可推斷家庭無力支付活動費。','先計算活動時數，孩子求助意願放在較後檢查。'],explanations:['物質供應與規律的人際關注是不同層面。','支付費用不能證明家庭互動足夠。','缺少共同用餐不等於沒有購買力。','孩子是否願意談困難也是重要結果。']},
+  {options:['概括雙薪的經濟原因，再說情感與引導的影響。','先談社交媒體流行，再簡述家庭支出壓力。','提出父母縮短工時的建議，略去現有收入原因。','詳述房租學費，孩子相處減少的影響留白。'],explanations:['兩部分分別回應原因與孩子所受影響。','社交媒體不是題目兩問的主要答案。','建議不能代替對當前經濟原因的分析。','只答費用沒有回應孩子的後果。']},
+  {options:['讓成人持續示範並回應問題，幫學生學會自制。','增加規則文字，成人回饋可改成每學期一次。','用電子提醒取代輔導，學生困難留待違規後處理。','只為成績較差者安排榜樣，其他學生靠告示。'],explanations:['可觀察的成人行為與持續回應能支持自律。','告示無法提供即時的示範與個別回饋。','電子提醒可輔助，卻不等於可信任成人。','學業表現良好者也可能需要行為示範。']}
+];
+revised.forEach((r,i)=>{transferTasks[i].options=r.options;transferTasks[i].explanations=r.explanations});
 export default {key:'direct-question:25',meta:{topic:'雙親工作與孩子相處時間減少',summary:'高昂生活費迫使許多家庭維持雙薪；缺少固定陪伴可拉遠感情，成人引導亦可能減少。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

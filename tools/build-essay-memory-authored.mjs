@@ -90,6 +90,9 @@ const structures=lessonSentences.map((source,i)=>{
   const parts=(base.parts||[]).map(part=>Array.isArray(part)?{text:part[0],kind:part[1],label:part[2]}:part);
   assert.equal(parts.map(part=>part.text).join(''),source.english,`Structure source span ${i+1}`);
   assert(parts.length>=2&&parts.some(part=>part.kind==='link')&&parts.some(part=>part.kind==='slot'),`Structure components ${i+1}`);
+  assert(base.formula?.trim(),`Empty structure formula ${i+1}`);
+  assert.equal((base.formula.match(/\[[^\]]+\]/g)||[]).length,parts.filter(part=>part.kind==='slot').length,
+    `Structure formula/slot mismatch ${i+1}`);
   let exampleCursor=0;
   for(const link of parts.filter(part=>part.kind==='link')){
     const at=edit.example.indexOf(link.text,exampleCursor);

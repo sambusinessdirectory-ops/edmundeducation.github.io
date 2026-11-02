@@ -3518,22 +3518,22 @@
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
   <script src="edmund-audio-config.js?v=2"></script>
-  <script src="writing-audio-manifest.js?v=writing-audio-v5-20260818-1"></script>
+  <script src="writing-audio-manifest.js?v=20261102-all288"></script>
   <script src="writing-audio-dse-part-b-manifest.js?v=20260911-kokoro-1"></script>
   <script src="dse-writing-part-b-topics.js?v=20260911-1"></script>
   <script src="writing-practice-dse-part-b-library-data.js?v=20261028-chinese-style-1"></script>
   <script src="writing-practice-dse-part-a-data.js?v=20261028-chinese-style-1"></script>
-  <script src="writing-practice-ielts-task1-data.js?v=20261028-chinese-style-1"></script>
+  <script src="writing-practice-ielts-task1-data.js?v=20261102-corrected-tables4"></script>
   <script src="writing-practice-dse-2025-q3-data.js?v=20261028-chinese-style-1"></script>
   <script src="writing-practice-dse-2022-q3-data.js?v=20261028-chinese-style-1"></script>
   <script src="writing-practice-dse-2024-q5-data.js?v=20261028-chinese-style-1"></script>
-  <script src="writing-practice-model-essay-106-data.js?v=20260715-1"></script>
+  <script src="writing-practice-model-essay-106-data.js?v=20261102-all288"></script>
   <script src="writing-practice-model-essays-opinion-3-16-data.js?v=20261028-chinese-style-1"></script>
   <script src="writing-practice-model-essays-17-52-data.js?v=20261028-chinese-style-1"></script>
-  <script src="writing-practice-model-essays-53-96-data.js?v=20261028-chinese-style-1"></script>
-  <script src="writing-practice-model-essays-88-105-data.js?v=20261028-chinese-style-1"></script>
+  <script src="writing-practice-model-essays-53-96-data.js?v=20261102-all288"></script>
+  <script src="writing-practice-model-essays-88-105-data.js?v=20261102-all288"></script>
   <script src="writing-practice-model-essays-discuss-4-23-data.js?v=20261028-chinese-style-1"></script>
-  <script src="writing-practice-model-essays-discuss-24-43-data.js?v=20261028-chinese-style-1"></script>
+  <script src="writing-practice-model-essays-discuss-24-43-data.js?v=20261102-all288"></script>
   <script src="writing-practice-model-essays-advantage-2-30-data.js?v=20261028-chinese-style-1"></script>
   <script src="writing-practice-model-essays-cause-2-20-data.js?v=20261028-chinese-style-1"></script>
   <script src="writing-practice-model-essays-direct-2-18-data.js?v=20261028-chinese-style-1"></script>
@@ -3545,6 +3545,7 @@
   <script src="writing-progression-data.js?v=20260727-1"></script>
   <script src="dse-writing-part-b-links.js?v=20260911-1"></script>
   <script src="essay-portal-links.js?v=20260730-1"></script>
+  <script src="essay-memory-release-manifest.js?v=20261102-all288"></script>
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script><script src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
   <script src="pronunciation-checker.js?v=20260914-six-languages-1"></script>
@@ -3582,6 +3583,8 @@
     const SUPABASE_URL = "https://ookkxzgpdclzrrhfmvqx.supabase.co";
     const SUPABASE_ANON_KEY = "sb_publishable_0BOvquSJ_34TVHCoboQjVg_gRrggI7x";
     const essayPortals = window.EDMUND_ESSAY_PORTALS || null;
+    const essayMemoryKey = essayKey => essayPortals?.parts(essayKey)?.definition.task === 1
+      ? `task1-${essayKey}` : essayKey;
 
     const writingSections = [
       { key: "dse-writing", label: "DSE", subline: "英文寫作" },
@@ -7733,8 +7736,9 @@ Device: concession 讓步
       if (!essayPortals) return "";
       const essayKey = essayPortals.fromWritingExerciseId(exerciseId);
       if (!essayKey) return "";
-      const memorizationHref = ["opinion:3", "discuss-both-views:4", "cause-solution:2"].includes(essayKey)
-        ? `essay-memorization.html?essay=${encodeURIComponent(essayKey)}`
+      const memoryKey = essayMemoryKey(essayKey);
+      const memorizationHref = window.ESSAY_MEMORY_APPROVED?.[memoryKey]
+        ? `essay-memorization.html?essay=${encodeURIComponent(memoryKey)}`
         : "";
       const flashcardsHref = essayPortals.hasFlashcards(essayKey)
         ? essayPortals.href("flashcards", essayKey)
@@ -10444,6 +10448,10 @@ Device: concession 讓步
                     ? essayPortals.href("flashcards", essayKey)
                     : "";
                   const downloadHref = essayKey ? essayPortals.href("downloads", essayKey) : "";
+                  const memoryKey = essayMemoryKey(essayKey);
+                  const memorizationHref = window.ESSAY_MEMORY_APPROVED?.[memoryKey]
+                    ? `essay-memorization.html?essay=${encodeURIComponent(memoryKey)}`
+                    : "";
                   return `
                     <tr>
                       <td>${escapeHtml(row.number)}</td>
@@ -10461,6 +10469,7 @@ Device: concession 讓步
                           <div class="progression-portal-actions" aria-label="第 ${escapeHtml(row.number)} 項可用資源">
                             ${flashcardsHref ? `<a class="essay-portal-link" href="${escapeHtml(flashcardsHref)}" data-essay-portal-link>Flash Cards</a>` : ""}
                             ${downloadHref ? `<a class="essay-portal-link" href="${escapeHtml(downloadHref)}" data-essay-portal-link>下載 PDF</a>` : ""}
+                            ${memorizationHref ? `<a class="essay-portal-link" href="${escapeHtml(memorizationHref)}" data-essay-portal-link>Memorization</a>` : ""}
                           </div>
                         </div>
                       </td>

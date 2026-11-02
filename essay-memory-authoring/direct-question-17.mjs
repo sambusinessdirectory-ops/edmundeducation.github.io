@@ -103,15 +103,15 @@ function card(example,functionName,distractors,frame){
 const structures=[
   card('Population growth and rapid building are placing intense pressure on old town parks and rivers.','用 are placing pressure on 指出擴張對自然地點造成的壓力',[1,3,9],
     fixed(0,'[人口與城市增長] are placing intense pressure on [自然景觀].','開場指出造成景觀流失的兩股壓力及受影響地方。','題目問如何處理自然美景流失，先交代壓力來源和對象時。',[' are placing intense pressure on '],['造成壓力的增長','承受壓力的自然地點'])),
-  card('Saving local gardens is not simply a matter of taste; it brings health, work and cultural benefits.','用 not simply ...; it brings ... 重定保育的公共價值',[0,4,15],
+  card('Protecting local gardens is not simply a matter of taste; it brings health, work and cultural benefits.','用 not simply ...; it brings ... 重定保育的公共價值',[0,4,15],
     fixed(1,'Protecting [地方] is not simply [環境偏好]; it brings [公共、經濟及文化好處].','預告保育對人、工作和身份認同有實際價值，而非單純個人喜好。','引言要說明保護自然地點值得公共行動的理由時。',['Protecting ', ' is not simply ', '; it brings '],['受保護的地方','被超越的個人偏好','多方面的公共好處'])),
   card('This essay will discuss those benefits and suggest how councils can prevent further loss.','用 discuss ... and suggest how 對兩個題問作清楚路線預告',[1,9,16],
     fixed(2,'This essay will discuss [保育益處] and suggest how [政府防止再流失].','預告先談保護的好處，再談避免景觀繼續消失的方法。','雙問題目要求益處與解法，引言末句須交代順序時。',['This essay will discuss ', ' and suggest how '],['先說明的益處','其後提出的預防方向'])),
   card('First, preserving local parks improves health and quality of life.','用 First ... improves ... 引出公共健康這一項益處',[1,4,6],
     fixed(3,'First, preserving [自然美景] improves [公共健康] and [生活質素].','第一主體段先提出自然空間對身心及日常生活的好處。','開始列保育好處時，要先明確提出一項可解釋的公共益處時。',['First, preserving ', ' improves ', ' and '],['被保存的自然地點','第一項健康益處','第二項生活益處'])),
-  card('Parks and beaches give residents a place to walk, rest and recover from city stress.','用 give people a place to 並列自然空間的實際用途',[3,5,7],
+  card('Parks and beaches give people a place to walk, rest and recover from city stress.','用 give people a place to 並列自然空間的實際用途',[3,5,7],
     fixed(4,'[公園海灘林地] give people a place to [呼吸、步行和舒緩壓力].','具體說明公共健康好處來自哪些日常活動。','已說自然空間有利健康，接着要寫人如何使用它時。',[' give people a place to '],['可使用的自然空間','對健康有幫助的活動'])),
-  card('Without these parks, city life can become a concrete cage, especially for families who cannot pay for holidays.','用 Without ... especially for 指出缺空間對低成本休憩的影響',[3,4,8],
+  card('Without these parks, urban living can become a concrete cage, especially for families who cannot pay for holidays.','用 Without ... especially for 指出缺空間對低成本休憩的影響',[3,4,8],
     fixed(5,'Without [自然空間], urban living can become [混凝土牢籠], especially for [缺少廉價休憩的兒童長者].','以沒有自然空間時的城市生活作對照，突出兒童與長者較少替代選擇。','要說明保育為何也關乎公平使用休憩空間時。',['Without ', ', urban living can become ', ', especially for '],['被移走的自然空間','城市可能變成的環境','特別受影響的人群'])),
   card('These places also support visitors and local jobs.','用 These places also support 加入經濟益處',[3,7,8],
     fixed(6,'These places also support [旅遊業] and [本地就業].','由健康好處轉入自然景觀對本地工作和旅遊的貢獻。','同段還要列第二類保育益處，先用短句定方向時。',['These places also support ', ' and '],['受支持的旅遊活動','因而受益的工作'])),
@@ -121,19 +121,19 @@ const structures=[
     fixed(8,'In addition, [自然地點] preserve [國家身份認同], as [景觀] are tied to [歷史傳統與集體記憶].','第三類好處是文化連結，說明風景不只可供休憩和遊覽。','列完健康與經濟益處，還要補上地方身份與記憶時。',['In addition, ', ' preserve ', ', as ', ' are tied to '],['有文化意義的自然地點','得以保存的身份認同','承載記憶的景觀','相關的歷史與傳統'])),
   card('This problem can be tackled through stronger land-use rules and reliable park funding.','用 can be tackled through 並列規劃法規與保育經費',[2,8,12],
     fixed(9,'This problem can be tackled through [規劃法例] and [保育資金].','轉入方案段，指出一方面控建設，另一方面要有資金管理。','前文已說保育益處，現在要概括兩大防止流失的手段時。',['This problem can be tackled through ', ' and '],['控制開發的法律工具','使保育可持續的經費'])),
-  card('Councils should mark protected zones, limit new buildings, and require builders to replace trees when construction is unavoidable.','用 should ... limit ... and require ... when 列政府對開發的三步規則',[9,11,13],
+  card('Governments should mark protected zones, limit new buildings, and require developers to replace trees when construction is unavoidable.','用 should ... limit ... and require ... when 列政府對開發的三步規則',[9,11,13],
     fixed(10,'Governments should [劃法律邊界], [限制敏感地區施工], and require developers to [修復綠地] when [建設無可避免].','把規劃法寫成可執行的保護區界線、施工限制及補回綠地要求。','已提出規劃法律，需要逐項說明政府與發展商須做甚麼時。',['Governments should ', ', ', ', and require developers to ', ' when '],['政府設保護範圍','限制高風險施工','發展商補救行動','無可避免建設的情況'])),
-  card('This ensures that new roads do not spread like an unchecked tide across every open field.','用 does not spread like an unchecked tide 形象說明規劃的防擴張作用',[0,10,14],
+  card('This ensures that road building does not spread like an unchecked tide across every open field.','用 does not spread like an unchecked tide 形象說明規劃的防擴張作用',[0,10,14],
     fixed(11,'This ensures that [城市擴張] does not spread like [失控潮水] across [所有空地].','解釋規劃法律的目的：避免建築漫無邊界地侵佔自然空間。','列完建設限制後，要交代它們如何避免累積性的景觀流失時。',['This ensures that ', ' does not spread like ', ' across '],['需要控制的擴張','作比較的失控意象','應保留的開放土地'])),
   card('At the same time, protection must be made financially realistic.','用 At the same time 補上法例以外的經費可行性',[9,10,13],
     fixed(12,'At the same time, [保護工作] must be made [財政上可行].','指出不能只訂禁建規則，保護區的日常管理仍要付費。','規劃措施已說明，接着要加入保育財源時。',['At the same time, ', ' must be made '],['需要持續運作的保護','必須具備的經費條件'])),
-  card('Ticket income and partnerships can pay for park staff, while schools can teach residents why green spaces matter.','用 can fund ... while ... can teach 將資金與公眾教育並行',[10,12,14],
+  card('Ticket income and partnerships can fund park staff, while schools can teach residents why green spaces matter.','用 can fund ... while ... can teach 將資金與公眾教育並行',[10,12,14],
     fixed(13,'[入場費、旅遊與公私合作] can fund [保養、廢物管理和人員], while [學校與媒體] can teach [市民為何重要].','列出保育收入怎樣支付日常運作，同時以教育建立民眾支持。','要把「財政可行」具體化，也交代公眾為何願意保護時。',[' can fund ', ', while ', ' can teach '],['可提供資金的來源','要持續支付的保育工作','負責宣傳教育者','需要了解保育價值的人'])),
-  card('When residents see a park as shared wealth rather than empty land for new towers, they are more likely to defend it.','用 When ... as ... rather than ... more likely 解釋觀念轉變如何帶來保護行動',[8,11,13],
+  card('When people see a park as shared wealth rather than empty land for new towers, they are more likely to defend it.','用 When ... as ... rather than ... more likely 解釋觀念轉變如何帶來保護行動',[8,11,13],
     fixed(14,'When people see [自然美景] as [共享財富] rather than [待發展空地], they are more likely to [保護].','指出公眾教育要改變土地觀念：從可售空地轉為共同資產。','已說教育市民，接着要說明它如何提升保護意願時。',['When people see ', ' as ', ' rather than ', ', they are more likely to '],['被重新看待的自然地點','希望建立的公共財富觀','須避免的純開發觀','因此較可能採取的行動'])),
   card('In conclusion, protecting local parks benefits health, jobs and cultural identity.','用 benefits 並列三類保育益處回答第一題',[3,6,16],
     fixed(15,'In conclusion, protecting [自然美景] benefits [健康、經濟和文化身份].','結論先歸納保護自然地點的公共、經濟及文化好處。','結論要先直接回答「保護有何益處」時。',['In conclusion, protecting ', ' benefits '],['受保護的自然地點','前文論證的三方面好處'])),
-  card('The loss of city parks can be reduced through planning, funding and public education, so that homes and green space move forward together.','用 can be reduced through ... so that 將三類解法連到發展與保育並行',[2,9,15],
+  card('The loss of city parks can be reduced through planning, funding and public education, so that homes and green space can move forward together.','用 can be reduced through ... so that 將三類解法連到發展與保育並行',[2,9,15],
     fixed(16,'The loss of [自然地點] can be reduced through [規劃、經費與教育], so that [發展與保育] can move forward together.','結尾把法規、經費和教育連成一套防止流失的組合。','最後回答「如何解決」，並說明發展與保育可同時進行時。',['The loss of ', ' can be reduced through ', ', so that ', ' can move forward together.'],['有流失風險的地方','互相配合的三類措施','期望同時前進的兩個目標'])),
 ];
 const wrongReasons=[
@@ -353,6 +353,10 @@ const transferTasks=[
     '只答一部分方案，沒有回應保育多方面價值。',
   ],[15,16],'範文結論先收健康、經濟、文化三項好處，再收規劃、資金與教育方案。'),
 ];
+// Reviewed transfer alternatives and matched feedback.
+const editorialTransferOptions=[["保留公園可供步行休息，也照顧無力負擔其他休閒的人","建停車場可增加收入，居民休憩則改到收費場所。","保留部分綠地可散步，免費進入則只限附近住戶。","新增車位有助出行，休閒空間可由私人商場提供。"],["景觀吸引遊客和工作，也讓社區更願珍惜土地","導覽與小店受益，可將步道改建成更多商業設施。","海岸工作增加，社區珍惜土地主要因出售價格升高。","先保留步道供導覽，其餘海岸可逐段改成住宅。"],["把林地與歷史、傳統和共同記憶一同列入評估","林地可保留樹木，傳說和節慶則交由博物館記錄。","評估木材收益之餘，地方傳統可視作次要參考。","節慶有文化意義，但開發計劃只需保存幾棵老樹。"],["限制敏感區施工，必要時要求發展商修復或補回綠地","道路必須經過綠地，因此只在完工後種植路旁樹木。","可減少施工面積，但修復責任留給日後的市政府。","先劃出敏感區，必要工程仍可不作後續修復補償。"],["用合理入場與旅遊收入支付保養、清潔和公園人員","法律保護已存在，日常清潔可由義工偶爾處理。","導覽收入可支持宣傳，維修與人員仍靠臨時撥款。","收取入場費可控制人流，保養費另由居民負擔。"],["讓居民認識河岸的共享價值，增加保護意願","地方歷史活動能吸引人流，保育理由則待日後討論。","只介紹河岸景觀，社區共同記憶可由商戶代述。","居民了解售地收益後，便能自然理解共享價值。"],["畫清法律邊界並限制敏感區施工，防止逐步擴張","只宣布保護區名稱，施工限制由發展商自行遵守。","先限制新樓高度，保護區邊界則留待下一期規劃。","畫出海岸邊界，但敏感區施工仍可逐案放寬。"],["用規劃界線、穩定經費和教育，使發展與保育並行","先建住宅以滿足需求，河岸保育留待土地寬裕時做。","先保留樹林，日常維修與居民教育可等數年再安排。","用規劃界線保護河岸，住宅需求則交市場自行處理。"],["妥善管理導賞收入，支付保養並保護景觀界線","導覽收入可支付保養，景觀邊界可因建樓需要調整。","為免商業化，停止收費導覽，保養則靠短期捐款。","把導覽收入投入住宅，另以少量款項清理公園。"],["總結健康、工作和文化好處，再配上規劃、經費與教育","總結健康與文化好處，防止流失的措施留到別篇談。","列出規劃和經費，保護帶來的工作收益則不交代。","只談公園美觀與限制建築，維護和教育措施略過。"]];
+const editorialTransferReasons=[["收費場所不能替代附近免費休憩空間。","只限住戶會減少公共綠地的可及性。","商場不是免費的自然休閒地點。"],["商業設施可能破壞導覽所依靠的景觀。","社區珍惜土地不只因售價，還因工作和地方價值。","逐段改建會削弱整體海岸保護。"],["博物館記錄不能代替林地與節慶的現場關聯。","傳統和記憶應是實質評估項目。","只保留幾棵樹，未必保存文化場所。"],["路旁植樹不能代替敏感區限制與修復。","發展商需承擔必要的修補責任。","有邊界仍要配合工程後補救。"],["偶爾義工工作不足以維持日常管理。","宣傳之外仍需穩定保養與人員開支。","入場收入可回用於公園，不應把保養全交居民。"],["活動要讓居民理解河岸的共享價值。","商戶代述不能取代社區自己的歷史。","售地價格不是保育的共同價值。"],["沒有明確邊界，口號難限制開發。","只管高度，仍可侵入敏感區。","逐案放寬會侵蝕已劃定的保護範圍。"],["發展與保育可透過規劃同時安排。","維修和教育需要持續，不宜延後。","住宅需求也須納入規劃。"],["收入回用保養，也須守住景觀界線。","停收費後仍需可靠的保養來源。","把大部分收益建樓會損害導覽所依靠的公園。"],["題目也要求提出防止流失的方法。","好處要說明，不能只列政策。","維護與教育也是可執行措施。"]];
+editorialTransferOptions.forEach((row,i)=>{transferTasks[i].options=row;transferTasks[i].explanations=[transferTasks[i].explanations[0],...editorialTransferReasons[i]];});
 export default {
   key:'direct-question:17',
   meta:{topic:'自然美景的保護益處與防流失方案',summary:'自然地點有健康、工作與文化價值；規劃法例、保育經費和公眾教育須配合。'},

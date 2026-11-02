@@ -114,6 +114,21 @@ for (const essay of essays) {
 const flashcards = read("flashcards.html");
 const writing = read("writing-practice.html");
 const downloads = read("model-essay-downloads.js");
+const memoryContext = { window: {} };
+vm.createContext(memoryContext);
+vm.runInContext(read("essay-memory-catalog.js"), memoryContext);
+vm.runInContext(read("essay-memory-release-manifest.js"), memoryContext);
+const memoryCatalog = memoryContext.window.ESSAY_MEMORY_CATALOG;
+assert.equal(memoryCatalog.length, 288);
+for (const lesson of memoryCatalog) {
+  const portalKey = portals.fromWritingExerciseId(lesson.id);
+  const memoryKey = portals.parts(portalKey)?.definition.task === 1 ? `task1-${portalKey}` : portalKey;
+  assert.equal(portals.hasWritingPractice(portalKey), true, `${lesson.key}: no writing exercise`);
+  assert.equal(memoryKey, lesson.key, `${lesson.key}: wrong memorization route`);
+  assert.equal(memoryContext.window.ESSAY_MEMORY_APPROVED[memoryKey], true, `${lesson.key}: not approved`);
+}
+assert.match(writing, /src="essay-memory-release-manifest\.js\?/);
+assert.match(writing, /const memoryKey = essayMemoryKey\(essayKey\)/);
 assert.match(flashcards, /data-deck-essay-portals/);
 assert.match(flashcards, /openRequestedFlashcardEssay/);
 assert.match(writing, /openRequestedWritingEssay/);

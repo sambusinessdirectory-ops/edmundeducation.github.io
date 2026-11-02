@@ -39265,7 +39265,7 @@
           ]
         },
         "english": "The main reason is that working abroad often offers a level of reward that is difficult to obtain at home.",
-        "chinese": "主要原因是，在海外工作往往能提供一種在本國難以獲得的回報水平。",
+        "chinese": "主要原因是，海外工作往往能提供在本國難以得到的待遇。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "The main reason is that [這項理由句子]",
@@ -39517,7 +39517,7 @@
           ]
         },
         "english": "When experienced teachers, medical specialists, scientists, or technical experts leave, the public systems that trained them may be left thinner and weaker.",
-        "chinese": "當有經驗的教師、醫療專家、科學家或技術專家離開時，曾經培訓他們的公共系統可能會變得更薄弱、更缺乏力量。",
+        "chinese": "當有經驗的教師、醫療專家、科學家或技術專家離開時，曾經培訓他們的公共系統可能會更缺乏人手，運作也更吃力。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "When [具體情況句子], [在該情況下的結果句子]",
@@ -67538,7 +67538,7 @@
           ]
         },
         "english": "These small details can suggest reliability, confidence and respect.",
-        "chinese": "這些細節可以反映出可靠、自信和尊重。",
+        "chinese": "這些細節可能顯示一個人可靠、有自信，並尊重他人。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "[能採取行動的對象] can [能做到的行動或結果]",
@@ -67574,7 +67574,7 @@
           ]
         },
         "english": "In this sense, a first impression acts like a doorway: it does not show the whole house, but it tells us whether we may want to step inside.",
-        "chinese": "從這個角度來看，第一印象就像一道門口：它不能展示整間屋子的全貌，但它能告訴我們是否想走進去看看。",
+        "chinese": "從這個角度來看，第一印象就像一扇門：它不能展示整間屋子的全貌，但它能告訴我們是否想走進去看看。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -67716,8 +67716,8 @@
             10
           ]
         },
-        "english": "For instance, a new student who says very little on the first day may later become kind, loyal and helpful once they feel comfortable.",
-        "chinese": "例如，一位新學生第一天可能很少說話，但當他感到自在之後，日後可能會變得善良、忠誠，而且樂於助人。",
+        "english": "For instance, a new student who says very little on the first day may later show that they are kind, loyal and helpful once they feel comfortable.",
+        "chinese": "例如，一位新學生第一天可能很少說話，但當他感到自在之後，可能會展現出善良、忠誠和樂於助人的一面。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "For instance, [具體例子句子]",
@@ -67730,7 +67730,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " a new student who says very little on the first day may later become kind, loyal and helpful once they feel comfortable.",
+            "text": " a new student who says very little on the first day may later show that they are kind, loyal and helpful once they feel comfortable.",
             "kind": "slot",
             "label": "具體例子句子"
           }
@@ -67825,7 +67825,7 @@
           ]
         },
         "english": "People are complex, and their true qualities usually appear only over time.",
-        "chinese": "人是複雜的，而他們真正的品質通常只有經過時間才會顯現。",
+        "chinese": "人是複雜的，而他們真正的特質通常只有經過時間才會顯現。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -67839,7 +67839,7 @@
           ]
         },
         "english": "Therefore, it is better to treat first impressions as a starting point, not a verdict.",
-        "chinese": "因此，我們最好把第一印象視為一個起點，而不是一項判決。",
+        "chinese": "因此，我們最好把第一印象視為一個起點，而不是定論。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "Therefore, [由前文推出的結果句子]",
@@ -68020,7 +68020,7 @@
           ]
         },
         "english": "These habits are useful because many crimes are opportunistic; if a person makes themselves an easy target, criminals may be more likely to take advantage of them.",
-        "chinese": "這些習慣是有用的，因為許多犯罪都是機會主義式的；如果一個人使自己成為容易下手的目標，罪犯便可能更容易利用他們。",
+        "chinese": "這些習慣是有用的，因為許多罪犯會伺機犯案；如果一個人讓自己成為容易下手的目標，罪犯便更可能趁機下手。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -68158,7 +68158,7 @@
           ]
         },
         "english": "If a neighbourhood has poor law enforcement, weak surveillance, and few opportunities for young people, individuals can only protect themselves to a limited extent.",
-        "chinese": "如果一個社區執法不足、監察薄弱，而且年輕人的機會很少，個人就只能在有限程度上保護自己。",
+        "chinese": "如果一個社區執法不足、監察薄弱，而且年輕人缺乏發展機會，個人就只能在有限程度上保護自己。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -68235,7 +68235,7 @@
           ]
         },
         "english": "These issues require coordinated public action, not just private caution.",
-        "chinese": "這些問題需要有組織的公共行動，而不只是個人的小心謹慎。",
+        "chinese": "這些問題需要由政府統籌的公共行動，而不只是個人的小心謹慎。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[前述多項問題] require [所需回應], not just [不足的個人做法].",
@@ -68657,7 +68657,7 @@
           ]
         },
         "english": "Schools can also provide consistent consequences, such as detentions or behavioural reports, so that students understand that actions have limits.",
-        "chinese": "學校也可以提供一致的後果，例如留堂或行為報告，讓學生明白行為是有界線的。",
+        "chinese": "學校也可以按一致標準處理違規行為，例如安排留堂或撰寫行為報告，讓學生明白行為是有界線的。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[採取的做法句子] so that [希望達成的目標句子]",
@@ -68918,7 +68918,7 @@
           ]
         },
         "english": "However, I believe parents have the greater responsibility, as children’s attitudes towards authority, respect, and self-control are mainly formed at home.",
-        "chinese": "然而，我認為父母負有更大的責任，因為孩子對權威、尊重和自制力的態度主要是在家中形成的。",
+        "chinese": "然而，我認為父母負有更大的責任，因為孩子對權威的態度，以及尊重他人和自我約束的習慣，主要是在家中養成的。",
         "origin": "essay-mapping",
         "sourceRow": 22,
         "formula": "However, [相反或補充限制的判斷句子]",
@@ -68986,7 +68986,7 @@
           ]
         },
         "english": "Homework is a long-standing part of schooling, but there is disagreement about whether children should receive it every day.",
-        "chinese": "功課一直是學校教育中存在已久的一部分，但人們對於孩子是否應該每天都有功課存在分歧。",
+        "chinese": "功課在學校教育中由來已久，但人們對孩子是否應每天有功課意見分歧。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -69022,7 +69022,7 @@
           ]
         },
         "english": "Some argue that daily homework is essential for academic success, whereas others believe that children need regular breaks from schoolwork.",
-        "chinese": "有些人認為每天做功課對學業成功是必要的，而另一些人則認為孩子需要定期從課業中休息。",
+        "chinese": "有些人認為每天做功課對學業成功是必要的，而另一些人則認為孩子需要定期暫停課業、好好休息。",
         "origin": "essay-mapping",
         "sourceRow": 3,
         "formula": "[第一種情況句子] whereas [對照情況句子]",
@@ -69212,7 +69212,7 @@
           ]
         },
         "english": "Daily assignments can also create a steady routine, which may help less organised students develop responsibility.",
-        "chinese": "每天的功課也能建立穩定的日常習慣，這可能有助於較缺乏組織能力的學生培養責任感。",
+        "chinese": "每天的功課也能建立穩定的日常習慣，這可能有助於較不善安排學習的學生培養責任感。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -69248,7 +69248,7 @@
           ]
         },
         "english": "From this perspective, homework is not merely extra work; it is a structure that keeps children engaged with their studies.",
-        "chinese": "從這個角度來看，功課不只是額外的工作；它是一種讓孩子持續投入學習的結構。",
+        "chinese": "從這個角度來看，功課不只是額外的工作；它是一套幫助孩子持續投入學習的安排。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "From this perspective, [從此角度作出的判斷句子]",
@@ -69323,7 +69323,7 @@
           ]
         },
         "english": "Children need time to rest, play, exercise, read for pleasure and interact with their families.",
-        "chinese": "孩子需要時間休息、玩耍、運動、為興趣而閱讀，以及與家人互動。",
+        "chinese": "孩子需要時間休息、玩耍、運動、按興趣閱讀，以及與家人互動。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "[需要安排時間的一群人] need time to [所需活動].",
@@ -69472,7 +69472,7 @@
           ]
         },
         "english": "These are not luxuries; they help children return to class with better concentration and emotional balance.",
-        "chinese": "這些並不是奢侈的東西；它們能幫助孩子以更好的專注力和情緒平衡回到課堂。",
+        "chinese": "這些並不是可有可無的安排；它們能幫助孩子以更好的專注力和情緒平衡回到課堂。",
         "origin": "essay-mapping",
         "sourceRow": 23,
         "formula": "[被重新評估的對象] are not [過於狹窄的看法]; they [較重要的真正作用句子]",
@@ -69595,7 +69595,7 @@
           ]
         },
         "english": "A balanced approach is more educationally sound than a rigid daily routine.",
-        "chinese": "相比僵化的每日功課安排，一種平衡的做法在教育上更加合理。",
+        "chinese": "相比僵化的每日功課安排，一種平衡的做法更符合教育需要。",
         "origin": "essay-mapping",
         "sourceRow": 28,
         "formula": "[較佳做法] is more [符合所用判準] than [較差做法].",
@@ -69643,7 +69643,7 @@
           ]
         },
         "english": "It is sometimes argued that children should spend their spare time on educational pursuits, while others believe that this creates unnecessary pressure.",
-        "chinese": "有人有時主張，孩子應該把空閒時間用於教育活動，而另一些人則認為，這樣做會造成不必要的壓力。",
+        "chinese": "有人主張，孩子應該把空閒時間用於教育活動，而另一些人則認為，這樣做會造成不必要的壓力。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "It is sometimes argued that [部分人的主張句子]",
@@ -69791,7 +69791,7 @@
           ]
         },
         "english": "If children use part of their free time to read, practise a language, learn music, or solve puzzles, they may strengthen useful skills in a less formal setting.",
-        "chinese": "如果孩子利用部分空閒時間閱讀、練習語言、學習音樂或解謎，他們便可能在較非正式的環境中強化有用的技能。",
+        "chinese": "如果孩子利用部分空閒時間閱讀、練習語言、學習音樂或解謎，他們便可能在較輕鬆的環境中強化有用的技能。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -70031,7 +70031,7 @@
           ]
         },
         "english": "This is especially damaging because play is not an empty time.",
-        "chinese": "這尤其有害，因為玩樂並不是空白的時間。",
+        "chinese": "這尤其有害，因為玩樂的時間並非毫無收穫。",
         "origin": "sentence-support-bank",
         "sourceRow": "S507",
         "formula": "This is especially [特別明顯的特點] in [特點更明顯的情況]",
@@ -70122,7 +70122,7 @@
           ]
         },
         "english": "In conclusion, although this parental approach may have good intentions, I firmly believe that children should not be expected to spend their free time studying.",
-        "chinese": "總結來說，儘管這種父母的做法可能出於好意，但我堅定地認為，孩子不應被期望把空閒時間用於學習。",
+        "chinese": "總結來說，儘管父母的這種做法可能出於好意，但我堅定地認為，孩子不應被期望把空閒時間用於學習。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "In conclusion, [總結立場句子]",
@@ -70153,7 +70153,7 @@
           ]
         },
         "english": "Childhood should not be scheduled so tightly that every spare hour has an academic purpose.",
-        "chinese": "童年不應被安排得如此緊密，以至於每一個空閒小時都有學業目的。",
+        "chinese": "童年不應被安排得如此緊密，以至於每段空閒時間都要有學業目標。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "[應避免行動的對象] should not [應避免的做法]",
@@ -70189,7 +70189,7 @@
           ]
         },
         "english": "Free time is not wasted time; it is where children breathe, grow, and become whole people.",
-        "chinese": "空閒時間並不是被浪費的時間；它是孩子得以喘息、成長，並成為完整的人的地方。",
+        "chinese": "空閒時間並不是被浪費的時間；它是孩子得以喘息、成長，並成長為身心健全的人的地方。",
         "origin": "essay-mapping",
         "sourceRow": 21,
         "formula": "[被重新評估的對象] is not [過於狹窄的看法]; it [較重要的真正作用句子]",
@@ -70232,7 +70232,7 @@
           ]
         },
         "english": "In an increasingly connected world, the ability to speak a foreign language has become a valuable educational asset.",
-        "chinese": "在一個日益互聯的世界中，能夠說一門外語已成為一項有價值的教育資產。",
+        "chinese": "在一個日益互聯的世界中，能夠說一門外語已成為一項重要的教育優勢。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "[出現變化的對象] has become [如今的狀態或角色]",
@@ -70480,7 +70480,7 @@
           ]
         },
         "english": "However, the stronger argument is that primary school children are usually in a better position to build natural language habits.",
-        "chinese": "然而，更有力的論點是，小學生通常處於更有利的位置去建立自然的語言習慣。",
+        "chinese": "然而，更有力的論點是，小學生通常更容易建立自然的語言習慣。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "However, [相反或補充限制的判斷句子]",
@@ -70511,7 +70511,7 @@
           ]
         },
         "english": "Young learners tend to absorb pronunciation, rhythm and basic expressions more easily because they are less self-conscious and more willing to imitate sounds.",
-        "chinese": "年幼的學習者往往更容易吸收發音、節奏和基本表達，因為他們較少感到自我意識過強，也更願意模仿聲音。",
+        "chinese": "年幼的學習者往往更容易吸收發音、節奏和基本表達，因為他們較不怕出錯，也更願意模仿聲音。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -70593,7 +70593,7 @@
           ]
         },
         "english": "This early confidence matters because language learning is not mastered overnight; it grows through repeated exposure, mistakes and correction.",
-        "chinese": "這種早期信心十分重要，因為語言學習並不是一夜之間就能掌握的；它是透過反覆接觸、犯錯和改正慢慢成長的。",
+        "chinese": "這種早期信心十分重要，因為外語不可能一夜之間學會；它是透過反覆接觸、犯錯和改正慢慢成長的。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[被重新評估的對象] is not [過於狹窄的看法]; it [較重要的真正作用句子]",
@@ -70629,7 +70629,7 @@
           ]
         },
         "english": "A student who has met a foreign language from the age of six is therefore far less likely to see it as a wall to climb when it becomes more demanding in secondary school.",
-        "chinese": "因此，一個從六歲起便接觸外語的學生，在中學階段語言學習變得更具要求時，便遠較不可能把它視為一道難以攀越的高牆。",
+        "chinese": "因此，一個從六歲起便接觸外語的學生，在中學階段語言學習難度提高時，便遠較不可能把它視為一道難以攀越的高牆。",
         "origin": "sentence-support-bank",
         "sourceRow": "S415",
         "formula": "[被批評的做法] is therefore [評價].",
@@ -70695,7 +70695,7 @@
           ]
         },
         "english": "Early exposure builds confidence, natural habits and steady progress, making foreign-language learning far more effective.",
-        "chinese": "早期接觸能建立信心、自然習慣和穩定進步，從而使外語學習有效得多。",
+        "chinese": "早期接觸能建立信心和自然的語言習慣，並穩步進步，從而使外語學習有效得多。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "[早期投入] builds [直接成果], making [最終學習目標] far more effective.",
@@ -70748,7 +70748,7 @@
           ]
         },
         "english": "Education budgets are often debated because schools must decide whether limited funds should be directed towards modern equipment or human instruction.",
-        "chinese": "教育預算經常引起討論，因為學校必須決定有限的資金應該投放於現代設備，還是投放於人的教學。",
+        "chinese": "教育預算經常引起討論，因為學校必須決定有限的資金應該投放於現代設備，還是投放於教師的教學。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -70784,7 +70784,7 @@
           ]
         },
         "english": "Some argue that greater investment in technology, such as computers and digital platforms, is essential, while others believe that teachers deserve more financial support.",
-        "chinese": "有些人認為，增加對科技的投資，例如電腦和數碼平台，是必不可少的；而另一些人則認為，教師更值得得到更多財政支持。",
+        "chinese": "有些人認為，增加對科技的投資，例如電腦和數碼平台，是必不可少的；而另一些人則認為，教師應獲得更多資金支持。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "Some argue that [部分人的主張句子]",
@@ -70944,7 +70944,7 @@
           ]
         },
         "english": "In this sense, technology can widen learning opportunities and prepare students for a world in which digital literacy is no longer optional.",
-        "chinese": "從這個角度來看，科技能夠擴大學習機會，並幫助學生為一個數碼素養已不再是可有可無的世界做好準備。",
+        "chinese": "從這個角度來看，科技能夠擴大學習機會，並幫助學生為數碼素養已成必備能力的世界做好準備。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -71006,7 +71006,7 @@
           ]
         },
         "english": "A skilled teacher does not merely deliver information; they explain difficult ideas, notice when students are confused, adjust lessons, and motivate learners who may otherwise give up.",
-        "chinese": "一位有能力的教師不只是傳遞資訊；他們會解釋困難的概念、察覺學生何時感到困惑、調整課堂，並鼓勵那些否則可能會放棄的學習者。",
+        "chinese": "一位有能力的教師不只是傳遞資訊；他們會解釋困難的概念、察覺學生何時感到困惑、調整課堂，並鼓勵原本可能放棄的學生。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[被重新理解的對象] does not merely [較狹窄的理解]; they [更完整的理解句子]",
@@ -71272,7 +71272,7 @@
           ]
         },
         "english": "Computers can assist learning, but teachers shape understanding, confidence, and long-term academic growth.",
-        "chinese": "電腦可以輔助學習，但教師塑造的是理解力、信心，以及長遠的學術成長。",
+        "chinese": "電腦可以輔助學習，但教師塑造的是理解力、信心，以及長遠的學業發展。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -71340,7 +71340,7 @@
           ]
         },
         "english": "While parents are undeniably important because they create the home environment in which learning habits begin, I believe teachers have the greater influence on academic development, as they directly control the quality, structure and direction of a child’s formal education.",
-        "chinese": "雖然父母無疑十分重要，因為他們創造了孩子學習習慣開始形成的家庭環境，但我認為老師對學業發展有更大的影響，因為他們直接掌控孩子正規教育的質素、結構和方向。",
+        "chinese": "雖然父母無疑十分重要，因為他們營造了孩子開始養成學習習慣的家庭環境，但我認為老師對學業發展有更大的影響，因為他們直接掌控孩子正規教育的質素、結構和方向。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -71448,7 +71448,7 @@
           ]
         },
         "english": "For example, a parent who sets regular study times, limits distractions and praises effort can help a child build persistence long before exam pressure appears.",
-        "chinese": "例如，一位會設定固定學習時間、限制干擾並讚賞努力的父母，能夠在考試壓力出現之前很早便幫助孩子建立堅持的能力。",
+        "chinese": "例如，一位會設定固定學習時間、限制干擾並讚賞努力的父母，能夠早在考試壓力出現前就幫助孩子培養堅持的能力。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "For example, [具體例子句子]",
@@ -71652,7 +71652,7 @@
           ]
         },
         "english": "Moreover, teachers can compare a child’s performance with that of many peers, which allows them to judge strengths and weaknesses more accurately.",
-        "chinese": "此外，老師可以將一個孩子的表現與許多同齡人作比較，這使他們能夠更準確地判斷孩子的優點和弱點。",
+        "chinese": "此外，老師可以把一個孩子的表現與許多同學比較，這使他們能夠更準確地判斷孩子的優點和弱點。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -71697,7 +71697,7 @@
           ]
         },
         "english": "In conclusion, parents build the foundations of a child’s learning habits and emotional attitude towards education.",
-        "chinese": "總結來說，父母建立了孩子學習習慣和對教育情感態度的基礎。",
+        "chinese": "總結來說，父母為孩子的學習習慣及對教育的情感態度奠定基礎。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "In conclusion, [總結立場句子]",
@@ -71889,7 +71889,7 @@
           ]
         },
         "english": "The first reason is that learning something new gives elderly people a strong mental and emotional lift.",
-        "chinese": "第一個原因是，學習新事物能給長者帶來強大的精神和情感提升。",
+        "chinese": "第一個原因是，學習新事物能給長者帶來精神振奮，心情也更好。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "The first reason is that [這項理由句子]",
@@ -71920,7 +71920,7 @@
           ]
         },
         "english": "Many retirees suddenly lose the daily structure that work once provided, so their days can become repetitive and empty.",
-        "chinese": "許多退休人士會突然失去過去由工作所提供的日常結構，因此他們的日子可能變得重複而空洞。",
+        "chinese": "許多退休人士會突然失去工作帶來的規律生活，因此他們的日子可能變得重複而空洞。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -72033,7 +72033,7 @@
           ]
         },
         "english": "For example, an older person who joins a painting class may begin with shaky confidence, but over time the process of improving can become a quiet source of pride.",
-        "chinese": "例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一種安靜而穩定的自豪感來源。",
+        "chinese": "例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一份不張揚的自豪感。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "For example, [具體例子句子]",
@@ -72186,7 +72186,7 @@
           ]
         },
         "english": "This is not a small advantage; it protects their dignity.",
-        "chinese": "這並不是一個小小的優勢；它保護了他們的尊嚴。",
+        "chinese": "這絕非微不足道的好處；它保護了他們的尊嚴。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "[被重新評估的對象] is not [過於狹窄的看法]; it [較重要的真正作用句子]",
@@ -72568,7 +72568,7 @@
           ]
         },
         "english": "These activities are not small habits that can be removed overnight; they are woven into the way economies operate.",
-        "chinese": "這些活動並不是可以一夜之間改掉的小習慣；它們已經編織進經濟運作的方式之中。",
+        "chinese": "這些活動並不是可以一夜之間改掉的小習慣；它們已深深融入經濟運作。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[討論對象] are not [需要修正的看法]; they are [較準確的理解]",
@@ -72681,7 +72681,7 @@
           ]
         },
         "english": "However, I would argue that this view is too defeatist.",
-        "chinese": "然而，我會認為這種觀點過於失敗主義。",
+        "chinese": "然而，我認為這種觀點過於悲觀，輕易認定無法改善。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "However, [相反或補充限制的判斷句子]",
@@ -72887,7 +72887,7 @@
           ]
         },
         "english": "In conclusion, human activity has undoubtedly caused deep damage to the natural world, and some of that damage cannot be undone.",
-        "chinese": "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法被復原。",
+        "chinese": "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法挽回。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "In conclusion, [總結立場句子]",
@@ -72949,7 +72949,7 @@
           ]
         },
         "english": "With firm laws, responsible businesses and more thoughtful daily choices, humans can stop making the problem worse and give plants and animals a real chance to survive.",
-        "chinese": "透過堅定的法律、負責任的企業，以及更審慎的日常選擇，人類可以停止讓問題惡化，並給予動植物真正的生存機會。",
+        "chinese": "透過嚴格的法律、負責任的企業，以及更審慎的日常選擇，人類可以停止讓問題惡化，並給予動植物真正的生存機會。",
         "origin": "essay-mapping",
         "sourceRow": 22,
         "formula": "With [已具備的條件], [在此條件下的結果句子]",
@@ -73028,7 +73028,7 @@
           ]
         },
         "english": "While some people believe that an international car-free day would be a useful way to reduce this problem, others argue that broader measures would be more effective.",
-        "chinese": "雖然有些人認為，國際無車日會是減少這個問題的有效方法，但另一些人則認為，更廣泛的措施會更加有效。",
+        "chinese": "雖然有些人認為，國際無車日會是減少空氣污染的有效方法，但另一些人則認為，更廣泛的措施會更加有效。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -73069,7 +73069,7 @@
           ]
         },
         "english": "In my view, although a car-free day can raise public awareness, lasting improvements require stronger and more permanent transport policies.",
-        "chinese": "在我看來，雖然無車日可以提高公眾意識，但持久的改善需要更強而有力、也更具永久性的交通政策。",
+        "chinese": "在我看來，雖然無車日可以提高公眾意識，但持久的改善需要更有力、可長期推行的交通政策。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "In my view, [個人立場句子]",
@@ -73249,7 +73249,7 @@
           ]
         },
         "english": "In this sense, a car-free day can act as a useful wake-up call, showing the public that cleaner urban life is possible.",
-        "chinese": "從這個意義上說，無車日可以成為一個有用的警醒，向公眾展示更清潔的城市生活是可能實現的。",
+        "chinese": "從這個意義上說，無車日可以成為一個提醒大家改變習慣的契機，向公眾展示更清潔的城市生活是可能實現的。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -73393,7 +73393,7 @@
           ]
         },
         "english": "These policies change people’s behaviour over time because they make cleaner choices practical, affordable, and attractive.",
-        "chinese": "這些政策會隨著時間改變人們的行為，因為它們使更清潔的選擇變得實際、負擔得起，並且有吸引力。",
+        "chinese": "這些政策會隨著時間改變人們的行為，因為它們使更清潔的選擇變得可行、負擔得起，並且有吸引力。",
         "origin": "sentence-support-bank",
         "sourceRow": "S005",
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -73541,7 +73541,7 @@
           ]
         },
         "english": "Nevertheless, I firmly believe that long-term transport reform is a much more effective way to improve air quality, as it changes how people travel every day rather than only once a year.",
-        "chinese": "然而，我堅定地認為，長遠的交通改革是改善空氣質素更有效的方法，因為它改變的是人們每天的出行方式，而不是一年只有一次的行為。",
+        "chinese": "然而，我堅定地認為，長遠的交通改革是改善空氣質素更有效的方法，因為它改變的是人們每天的出行方式，而非只在一年一度的活動中改變。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "Nevertheless, [仍然成立的判斷句子]",
@@ -73670,7 +73670,7 @@
           ]
         },
         "english": "Those who regard global warming as the main environmental crisis have a strong argument because it affects almost every part of the planet.",
-        "chinese": "那些把全球暖化視為主要環境危機的人有很有力的理由，因為它幾乎影響地球的每一個部分。",
+        "chinese": "那些把全球暖化視為主要環境危機的人理由充分，因為它幾乎影響地球的每一個部分。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -73891,7 +73891,7 @@
           ]
         },
         "english": "When large areas of woodland are cleared for farming, housing or commercial profit, countless animals lose their habitats, soil becomes weaker, and indigenous communities may be pushed off land that has supported them for generations.",
-        "chinese": "當大片林地被清除，用於農業、住房或商業利益時，無數動物會失去棲息地，土壤會變得更脆弱，而原住民社群也可能被迫離開世代依靠的土地。",
+        "chinese": "當大片林地被砍伐，以開闢農地、建屋或牟取商業利益時，無數動物會失去棲息地，土壤會變得更脆弱，而原住民社群也可能被迫離開世代依靠的土地。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "When [具體情況句子], [在該情況下的結果句子]",
@@ -73977,7 +73977,7 @@
           ]
         },
         "english": "In this sense, deforestation is not a small local problem; it can tear apart entire ecosystems and accelerate wider environmental damage.",
-        "chinese": "從這個意義上說，砍伐森林並不是一個小型的地方問題；它可以摧毀整個生態系統，並加速更廣泛的環境破壞。",
+        "chinese": "從這個意義上說，砍伐森林並非只是局部的小問題；它可以摧毀整個生態系統，並加速更廣泛的環境破壞。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -74272,7 +74272,7 @@
           ]
         },
         "english": "Climate change, industrial pollution and deforestation are not caused merely by careless household habits, but by national energy systems, transport networks and corporate activity.",
-        "chinese": "氣候變化、工業污染和森林砍伐，除了與疏忽的家庭習慣有關，也源於國家能源系統、交通網絡及企業活動。",
+        "chinese": "氣候變化、工業污染和森林砍伐並非只由疏忽的家庭習慣造成，更主要源於國家能源系統、交通網絡及企業活動。",
         "origin": "essay-mapping",
         "sourceRow": 8,
         "formula": "[要重新理解的對象] are not [不準確的看法] but [較準確的看法]",
@@ -74676,7 +74676,7 @@
           ]
         },
         "english": "Governments are best placed to regulate industries, shape infrastructure and coordinate international action, so they should bear the central responsibility for tackling today’s environmental crisis.",
-        "chinese": "政府最適合去規管產業、塑造基礎建設，並協調國際行動，因此它們應該承擔處理當今環境危機的核心責任。",
+        "chinese": "政府最有能力規管產業、塑造基礎建設，並協調國際行動，因此它們應該承擔處理當今環境危機的核心責任。",
         "origin": "essay-mapping",
         "sourceRow": 25,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -76544,7 +76544,7 @@
             3
           ]
         },
-        "english": "Those who support replacing old buildings often have reasonable practical concern.",
+        "english": "Those who support replacing old buildings often have a reasonable practical concern.",
         "chinese": "支持取代舊建築的人，通常有一個合理的實際考量。",
         "origin": "essay-mapping",
         "sourceRow": 8,
@@ -76558,7 +76558,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " support replacing old buildings often have reasonable practical concern.",
+            "text": " support replacing old buildings often have a reasonable practical concern.",
             "kind": "slot",
             "label": "具有某種特點的人"
           }
@@ -76590,7 +76590,7 @@
           ]
         },
         "english": "If a city is short of housing or commercial space, keeping a large, outdated building may seem like a poor use of valuable land.",
-        "chinese": "如果一座城市缺乏住宅或商業空間，保留一座大型而過時的建築，可能看起來像是在不善用寶貴土地。",
+        "chinese": "如果一座城市缺乏住宅或商業空間，保留一座大型而過時的建築，似乎未能善用寶貴土地。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -76897,7 +76897,7 @@
           ]
         },
         "english": "An old theatre, for instance, can become a community arts centre, allowing the past to remain useful in the present.",
-        "chinese": "例如，一座舊劇院可以變成社區藝術中心，讓過去在現在仍然保持有用。",
+        "chinese": "例如，一座舊劇院可以變成社區藝術中心，讓歷史建築在今天仍能發揮作用。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -77081,7 +77081,7 @@
           ]
         },
         "english": "Sport is expensive to run, especially when clubs have to pay for coaching, equipment, travel, medical support and safe facilities.",
-        "chinese": "體育運作成本高昂，尤其是當俱樂部需要支付教練、設備、交通、醫療支援和安全設施的費用時。",
+        "chinese": "體育運作成本高昂，尤其是當俱樂部需要支付教練費、器材費、旅費、醫療支援及安全設施費用時。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -77316,7 +77316,7 @@
           ]
         },
         "english": "This is particularly concerning when fast food, sugary drinks or gambling companies use popular athletes as a shortcut into the minds of children.",
-        "chinese": "當快餐、含糖飲品或博彩公司利用受歡迎的運動員作為進入兒童心智的捷徑時，這一點尤其令人擔憂。",
+        "chinese": "當快餐、含糖飲品或博彩公司藉受歡迎的運動員迅速向兒童推廣產品時，這一點尤其令人擔憂。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -77496,7 +77496,7 @@
           ]
         },
         "english": "Photographs have become a powerful part of modern journalism, with newspapers and television channels using images to make stories more immediate and persuasive.",
-        "chinese": "照片已經成為現代新聞業中一個強而有力的部分，報紙和電視頻道都會使用圖像，使新聞故事更即時、更具說服力。",
+        "chinese": "照片已經成為現代新聞業中一個強而有力的部分，報紙和電視頻道都會使用圖像，使新聞故事更有現場感、更具說服力。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[出現變化的對象] have become [如今的狀態或角色]",
@@ -111017,7 +111017,7 @@
           ]
         },
         "english": "Some people therefore argue that governments and individuals should redirect the money they spend on animals and habitats to these human needs.",
-        "chinese": "因此，有人認為政府與個人應把用於保護動物及棲息地的資金，轉投這些人類基本需要。",
+        "chinese": "因此，有人認為政府與個人應把用於保護動物及棲息地的資金，轉用於這些人類基本需要。",
         "origin": "sentence-support-bank",
         "sourceRow": "S004",
         "formula": "Some people therefore argue that [部分人的主張句子]",
@@ -111420,7 +111420,7 @@
           ]
         },
         "english": "In conclusion, I disagree that money for wildlife should generally be moved to poverty relief and health care.",
-        "chinese": "總結來說，我不同意普遍把野生動物保育資金轉投扶貧及醫療。",
+        "chinese": "總結來說，我不同意普遍把野生動物保育資金轉用於扶貧及醫療。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "In conclusion, [總結立場句子]",
@@ -121687,7 +121687,7 @@
           ]
         },
         "english": "The real issue is not whether cities should have homes or green spaces, but whether they can combine the two wisely.",
-        "chinese": "真正的問題並不是城市應該擁有住房還是綠化空間，是它們能否明智地把兩者結合起來。",
+        "chinese": "真正的問題並不是城市應該擁有住房還是綠化空間，而是它們能否明智地把兩者結合起來。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[要重新理解的對象] is not [不準確的看法] but [較準確的看法]",
@@ -133021,7 +133021,7 @@
           ]
         },
         "english": "A person who has once struggled with a foreign language is less likely to look down on immigrants or tourists who face the same problem at home.",
-        "chinese": "一個曾經因外語而掙扎的人，較容易看不起那些在自己國家面對同樣問題的移民或遊客。",
+        "chinese": "一個曾經因外語而掙扎的人，較不會看不起那些在自己國家面對同樣問題的移民或遊客。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[較不可能出現結果的對象] is less likely to [較不可能出現的行動或結果]",
@@ -135707,7 +135707,7 @@
           ]
         },
         "english": "A medical student, an engineering student and a literature student already face demanding lectures, projects, placements and deadlines.",
-        "chinese": "醫科,工程學生和文學學生本身已經要面對要求很高的講座、項目、實習和截止日期。",
+        "chinese": "醫科學生、工程學生和文學學生本身已經要面對要求很高的講座、項目、實習和截止日期。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[對象一], [對象二] and [對象三] already face [現有負擔].",
@@ -136655,7 +136655,7 @@
           ]
         },
         "english": "Some people believe that combat sports such as boxing and martial arts should be removed from television and international sporting events because they involve physical aggression.",
-        "chinese": "有些人認為，拳擊和武術等搏擊運動應該從電視和國際體育賽事中移除，因為它們涉及身體上的攻擊性。",
+        "chinese": "有些人認為，拳擊和武術等搏擊運動應該從電視和國際體育賽事中移除，因為它們涉及肢體攻擊。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -137024,7 +137024,7 @@
           ]
         },
         "english": "Many combat sports require years of sacrifice, technical training, and mental discipline.",
-        "chinese": "許多搏擊運動都需要多年犧牲、技術訓練和心理紀律。",
+        "chinese": "許多搏擊運動都需要長年投入、技術訓練和心理自律。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "[多項討論的活動] require [所需投入].",
@@ -137060,7 +137060,7 @@
           ]
         },
         "english": "For competitors from less privileged backgrounds, these events can provide income, national pride, and personal dignity.",
-        "chinese": "對於來自較不優越背景的參賽者而言，這些賽事可以帶來收入、民族自豪感和個人尊嚴。",
+        "chinese": "對於來自較缺乏資源的參賽者而言，這些賽事可以帶來收入、國家榮譽感和個人尊嚴。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[能採取行動的對象] can [能做到的行動或結果]",
@@ -137168,7 +137168,7 @@
           ]
         },
         "english": "A better solution is to improve safety standards, age guidance, and responsible broadcasting, not to erase the sports altogether.",
-        "chinese": "更好的解決方法是改善安全標準、年齡指引和負責任的播放安排，而不是完全抹去這些運動。",
+        "chinese": "更好的解決方法是改善安全標準、年齡指引和負責任的播放安排，而不是全面取消這些運動。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "A better solution is to [建議採取的行動]",
@@ -137230,7 +137230,7 @@
           ]
         },
         "english": "With proper regulation, they can promote discipline, opportunity, and cultural respect far more effectively than a blanket ban ever could.",
-        "chinese": "在適當規管之下，它們能夠促進紀律、機會和文化尊重，而這遠比一刀切的禁令更有效。",
+        "chinese": "在適當規管之下，它們能夠培養自律、創造機會，並增進對文化的尊重，而這遠比一刀切的禁令更有效。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "With [已具備的條件], [在此條件下的結果句子]",
@@ -137390,7 +137390,7 @@
           ]
         },
         "english": "When this happens, conversation becomes fragmented: people listen with half an ear, respond mechanically, and miss the small expressions that make communication warm and personal.",
-        "chinese": "當這種情況發生時，對話便會變得零碎：人們只用半邊耳朵聆聽、機械式地回應，並錯過那些使溝通變得溫暖而個人的細微表情。",
+        "chinese": "當這種情況發生時，對話便會變得零碎：人們只聽進一半、機械式地回應，並錯過那些使溝通變得溫暖而個人的細微表情。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "When [具體情況句子], [在該情況下的結果句子]",
@@ -137462,7 +137462,7 @@
           ]
         },
         "english": "They are sharing the same space, but not really sharing the same moment.",
-        "chinese": "他們共享著同一個空間，但其實並沒有真正共享同一個時刻。",
+        "chinese": "他們身處同一個空間，卻沒有真正一起度過那一刻。",
         "origin": "sentence-support-bank",
         "sourceRow": "S545",
         "formula": "[多項已承認的缺點] are [承認其存在] but [相對權重].",
@@ -137656,7 +137656,7 @@
           ]
         },
         "english": "If most of their communication takes place behind a screen, they may become less comfortable with spontaneous face-to-face contact.",
-        "chinese": "如果他們大部分溝通都是在螢幕背後進行，他們便可能變得較不習慣自然即興的面對面接觸。",
+        "chinese": "如果他們大部分溝通都是在螢幕背後進行，他們便可能變得較不習慣即興的面對面交流。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -137759,7 +137759,7 @@
           ]
         },
         "english": "They distract people from those around them and make low-effort digital contact feel like a substitute for real conversation.",
-        "chinese": "它們使人們分心，不再專注於身邊的人，並令低成本的數位接觸感覺像是真實對話的替代品。",
+        "chinese": "它們使人們分心，不再專注於身邊的人，並令省力的數碼聯繫感覺像是真實對話的替代品。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[前述多項工具] distract people from [身邊的人] and make [低投入的替代品] feel like a substitute for [真正的交流].",
@@ -137858,7 +137858,7 @@
           ]
         },
         "english": "Television and video games have become a normal part of childhood, and many children now spend hours each day in front of a screen.",
-        "chinese": "電視和電子遊戲已經成為童年的正常一部分，而許多孩子現在每天都會花數小時坐在螢幕前。",
+        "chinese": "電視和電子遊戲已經成為童年生活的常見一環，而許多孩子現在每天都會花數小時坐在螢幕前。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[出現變化的對象] have become [如今的狀態或角色]",
@@ -137894,7 +137894,7 @@
           ]
         },
         "english": "I completely agree that this pattern is harmful to their mental health because it weakens emotional control and replaces healthier forms of social and imaginative play.",
-        "chinese": "我完全同意這種模式對他們的心理健康有害，因為它會削弱情緒控制能力，並取代更健康的社交和想像性遊戲形式。",
+        "chinese": "我完全同意這種模式對他們的心理健康有害，因為它會削弱情緒控制能力，並取代更健康的社交和發揮想像力的遊戲。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -137961,7 +137961,7 @@
           ]
         },
         "english": "Many programmes and games are built around fast movement, instant rewards, loud sounds, and constant visual change.",
-        "chinese": "許多節目和遊戲都是圍繞快速動作、即時獎勵、響亮聲音和不斷變化的畫面而設計的。",
+        "chinese": "許多節目和遊戲都是以快速變換的動作、即時獎勵、響亮聲音和不斷變化的畫面吸引玩家的。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "[多個討論對象] are built around [設計特點].",
@@ -138038,7 +138038,7 @@
           ]
         },
         "english": "As a result, ordinary activities such as reading, homework, or conversation may start to feel slow and unrewarding.",
-        "chinese": "結果是，閱讀、做功課或交談等普通活動可能開始顯得緩慢而缺乏回報感。",
+        "chinese": "結果是，閱讀、做功課或交談等普通活動可能開始顯得緩慢而缺少成就感。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "As a result, [隨之出現的結果句子]",
@@ -138269,7 +138269,7 @@
           ]
         },
         "english": "Instead of learning how to negotiate, share, lose gracefully, and solve conflict in the real world, children become spectators or players in an artificial one.",
-        "chinese": "孩子成了人工世界中的旁觀者或玩家，失去在真實世界學習協商、分享、坦然面對失敗及解決衝突的機會。",
+        "chinese": "孩子成了虛擬世界中的旁觀者或玩家，失去在真實世界學習協商、分享、坦然面對失敗及解決衝突的機會。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "Instead of [原本採取的做法], [實際改採的做法或結果句子]",
@@ -138310,7 +138310,7 @@
           ]
         },
         "english": "A lonely child who goes straight home to video games every day may feel entertained, but not genuinely connected.",
-        "chinese": "一個孤獨的孩子如果每天放學後直接回家打電子遊戲，他可能會感到被娛樂了，但並沒有真正與他人建立聯繫。",
+        "chinese": "一個孤獨的孩子如果每天放學後直接回家打電子遊戲，他可能會覺得好玩，但並沒有真正與他人建立聯繫。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -138391,7 +138391,7 @@
           ]
         },
         "english": "They may look like harmless entertainment, but when they dominate a child’s daily life, they can weaken emotional control, reduce real-world interaction, and turn childhood into a much narrower experience.",
-        "chinese": "它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並把童年變成一種狹窄得多的經歷。",
+        "chinese": "它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並讓童年生活變得單一得多。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -138530,7 +138530,7 @@
           ]
         },
         "english": "Family relationships do not usually grow through dramatic conversations; they are strengthened by repeated small interactions, such as eating together, chatting after school, or helping one another with daily tasks.",
-        "chinese": "家庭關係通常不是透過戲劇性的對話而成長；它們是透過反覆出現的小互動而被加強，例如一起吃飯、放學後聊天，或在日常事情上互相幫助。",
+        "chinese": "家庭關係通常不是靠重大談話而建立；它們是透過反覆出現的小互動而被加強，例如一起吃飯、放學後聊天，或在日常事情上互相幫助。",
         "origin": "sentence-support-bank",
         "sourceRow": "S160",
         "formula": "[較廣的類別] such as [具體例子]",
@@ -138606,7 +138606,7 @@
           ]
         },
         "english": "For example, a child may watch videos during dinner while the parents answer work messages, so the meal becomes a silent routine rather than a chance to reconnect.",
-        "chinese": "例如，一個孩子可能在晚餐時觀看影片，而父母則回覆工作訊息，因此這頓飯便變成一個沉默的例行程序，而不是重新建立聯繫的機會。",
+        "chinese": "例如，一個孩子可能在晚餐時觀看影片，而父母則回覆工作訊息，因此這頓飯便變成一頓沉默的例行晚餐，而不是重新建立聯繫的機會。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -138647,7 +138647,7 @@
           ]
         },
         "english": "Over time, this habit creates emotional distance, because people may live under the same roof but no longer share the same space in any meaningful sense.",
-        "chinese": "久而久之，這種習慣會造成情感距離，因為人們可能住在同一屋簷下，卻不再以任何真正有意義的方式共享同一個空間。",
+        "chinese": "久而久之，這種習慣會造成情感距離，因為人們可能住在同一屋簷下，卻幾乎沒有真正相處。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "Over time, [逐漸出現的變化句子]",
@@ -138786,7 +138786,7 @@
           ]
         },
         "english": "Similarly, children may begin to see their parents as distant figures who are physically present but mentally elsewhere.",
-        "chinese": "同樣地，孩子也可能開始把父母看成是遙遠的人物：身體上在場，但精神上卻在別處。",
+        "chinese": "同樣地，孩子也可能開始覺得父母離自己很遠：身體上在場，但精神上卻在別處。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "Similarly, [相似的另一種情況句子]",
@@ -138817,7 +138817,7 @@
           ]
         },
         "english": "This weakens trust, and without trust, small misunderstandings can easily grow into family tension.",
-        "chinese": "這會削弱信任，而沒有信任，小小的誤解也很容易發展成家庭緊張。",
+        "chinese": "這會削弱信任，而沒有信任，小小的誤解也很容易演變成家庭矛盾。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[能採取行動的對象] can [能做到的行動或結果]",
@@ -138884,7 +138884,7 @@
           ]
         },
         "english": "By stealing everyday interaction and replacing deep conversation with distraction, personal devices can turn the family home from a shared living space into a collection of isolated private worlds.",
-        "chinese": "透過偷走日常互動，並以分心取代深入交談，個人設備可以把家庭住所從一個共享的生活空間，變成一個個孤立私人世界的集合。",
+        "chinese": "透過偷走日常互動，並以分心取代深入交談，個人設備可以把家庭住所從一個共享的生活空間，變成彼此隔絕的私人世界。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "By [採取的方法], [由此帶來的結果句子]",
@@ -138922,7 +138922,7 @@
           ]
         },
         "english": "Travel content has become an established part of modern entertainment, from television documentaries to short videos posted by influencers.",
-        "chinese": "旅遊內容已成為現代娛樂中既定的一部分，從電視紀錄片到網紅發布的短影片皆是如此。",
+        "chinese": "旅遊內容已成為現代娛樂的常見內容，從電視紀錄片到網紅發布的短影片皆是如此。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[出現變化的對象] has become [如今的狀態或角色]",
@@ -139030,7 +139030,7 @@
           ]
         },
         "english": "The first reason is that travel programmes and online videos often act as a gateway to tourism.",
-        "chinese": "第一個原因是，旅遊節目和網上影片往往會成為人們走向旅遊的入口。",
+        "chinese": "第一個原因是，旅遊節目和網上影片往往會成為人們萌生旅遊念頭的起點。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "The first reason is that [這項理由句子]",
@@ -139061,7 +139061,7 @@
           ]
         },
         "english": "When viewers see clear blue water in Greece, street food in Thailand or ancient streets in Italy, they are not simply ticking these places off a list; they are being invited to imagine themselves there.",
-        "chinese": "當觀眾看到希臘清澈湛藍的海水、泰國的街頭美食，或意大利古老的街道時，他們並不只是把這些地方從清單上劃掉；他們其實是在被邀請去想像自己身處其中。",
+        "chinese": "當觀眾看到希臘清澈湛藍的海水、泰國的街頭美食，或意大利古老的街道時，他們並不只是把這些地方從清單上劃掉；他們其實會開始想像自己身處其中。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "When [具體情況句子], [在該情況下的結果句子]",
@@ -139102,7 +139102,7 @@
           ]
         },
         "english": "Social media, in particular, turns destinations into living postcards, making people feel that a place is reachable, desirable and worth saving for.",
-        "chinese": "尤其是社交媒體，會把旅遊目的地變成生動的明信片，讓人們覺得一個地方是可到達的、令人嚮往的，也是值得為其儲錢的。",
+        "chinese": "尤其是社交媒體，會把旅遊目的地變成生動的明信片，讓人們覺得一個地方並非遙不可及，而且令人嚮往，也是值得為其儲錢的。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -139454,7 +139454,7 @@
           ]
         },
         "english": "Some people therefore argue that visitors should adjust to the local way of life rather than expect the host culture to accommodate them.",
-        "chinese": "因此，有些人認為，旅客應該適應當地的生活方式，而不是期望東道主文化去遷就他們。",
+        "chinese": "因此，有些人認為，旅客應該適應當地的生活方式，而不是期望當地文化遷就自己。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "Some people therefore argue that [部分人的主張句子]",
@@ -139526,7 +139526,7 @@
           ]
         },
         "english": "The first reason is that local customs often act as unwritten rules for peaceful social life.",
-        "chinese": "第一個原因是，當地習俗往往充當著和平社會生活中的不成文規則。",
+        "chinese": "第一個原因是，當地習俗往往是讓人們和睦相處的不成文規則。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "The first reason is that [這項理由句子]",
@@ -139756,7 +139756,7 @@
           ]
         },
         "english": "A person who carries their own habits everywhere may see another culture only through a glass wall: close enough to photograph, but not close enough to understand.",
-        "chinese": "一個無論到哪裡都帶著自己習慣的人，可能只會隔著一道玻璃牆去看另一種文化：距離近得足以拍照，卻不足以真正理解。",
+        "chinese": "一個無論到哪裡都堅持自己習慣的人，可能只會隔著一道玻璃牆去看另一種文化：距離近得足以拍照，卻不足以真正理解。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -139864,7 +139864,7 @@
           ]
         },
         "english": "In this sense, adaptation does not narrow a traveller’s freedom; it expands the experience by turning observation into participation.",
-        "chinese": "從這個意義上說，適應並不會限制旅客的自由；它反而透過把旁觀轉化為參與，擴展了旅行體驗。",
+        "chinese": "從這個意義上說，適應並不會限制旅客的自由；它反而讓旅客從旁觀者變成參與者，擴展了旅行體驗。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -139994,7 +139994,7 @@
           ]
         },
         "english": "Air pollution caused by aviation is a serious environmental concern, and some people believe that international flights should simply be made more expensive.",
-        "chinese": "航空所造成的空氣污染是一個嚴重的環境問題，而有些人認為國際航班應該直接變得更昂貴。",
+        "chinese": "航空所造成的空氣污染是一個嚴重的環境問題，而有些人認為應該直接提高國際航班的價格。",
         "origin": "sentence-support-bank",
         "sourceRow": "S032",
         "formula": "[應採取行動的對象] should [建議採取的做法]",
@@ -140110,7 +140110,7 @@
           ]
         },
         "english": "Families visiting relatives abroad, students studying overseas, and migrant workers returning home would be hit hard, while wealthy travellers and large companies could still afford to fly as often as before.",
-        "chinese": "探望海外親人的家庭、在外國讀書的學生，以及回鄉的外籍勞工會受到嚴重打擊，而富裕旅客和大型公司仍然能夠像以前一樣經常乘搭飛機。",
+        "chinese": "探望海外親人的家庭、在外國讀書的學生，以及回鄉的移民勞工會受到嚴重打擊，而富裕旅客和大型公司仍然能夠像以前一樣經常乘搭飛機。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "[第一種情況句子], while [形成對照的情況句子]",
@@ -140335,7 +140335,7 @@
           ]
         },
         "english": "If planes burn less fuel, avoid wasteful delays, and operate with modern technology, pollution falls on every journey, not only on the journeys that poorer people can no longer afford.",
-        "chinese": "如果飛機燃燒更少燃料、避免浪費性的延誤，並使用現代科技運作，那麼每一次旅程的污染都會下降，而不只是減少那些較貧窮人士再也負擔不起的旅程。",
+        "chinese": "如果飛機燃燒更少燃料、避免不必要的延誤，並使用現代科技運作，那麼每一次旅程的污染都會下降，而不只是減少那些較貧窮人士再也負擔不起的旅程。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -140407,7 +140407,7 @@
           ]
         },
         "english": "This kind of policy attacks the engine of the problem rather than merely raising the gate price.",
-        "chinese": "這類政策針對的是問題的核心，而不是僅僅提高進門的價格。",
+        "chinese": "這類政策針對的是問題的核心，而不是只提高搭機門檻。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[這類措施] attacks [問題根源] rather than merely [表面加價的做法].",
@@ -140484,7 +140484,7 @@
           ]
         },
         "english": "It may discourage some travel, but it is socially unfair and environmentally incomplete.",
-        "chinese": "它也許會阻止部分出行，但在社會層面上並不公平，在環境層面上也並不完整。",
+        "chinese": "它也許會阻止部分出行，但在社會層面上並不公平，也未能全面處理環境問題。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -140498,7 +140498,7 @@
           ]
         },
         "english": "Cleaner aviation and better alternatives would produce a deeper and more balanced solution.",
-        "chinese": "更清潔的航空技術和更好的替代方案，才會帶來更深入、更平衡的解決方法。",
+        "chinese": "更清潔的航空技術和更好的替代方案，才會帶來更徹底、更平衡的解決方法。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[假設中的對象] would [在假設下出現的結果]",
@@ -140756,7 +140756,7 @@
           ]
         },
         "english": "For example, an office worker who lives near a metro station can travel to work without adding another car to the road, whereas someone in a remote suburb may need to drive even for basic errands.",
-        "chinese": "例如，一位住在地鐵站附近的上班族可以不增加路面車輛便前往工作地點；然而，住在偏遠郊區的人即使只是處理基本雜務，也可能需要開車。",
+        "chinese": "例如，一位住在地鐵站附近的上班族可以不增加路面車輛便前往工作地點；然而，住在偏遠郊區的人即使只是處理日常瑣事，也可能需要開車。",
         "origin": "essay-mapping",
         "sourceRow": 8,
         "formula": "[第一種情況句子] whereas [對照情況句子]",
@@ -140797,7 +140797,7 @@
           ]
         },
         "english": "Urban concentration therefore turns transport from a private burden into a shared public service.",
-        "chinese": "因此，城市集中化能把交通從個人的負擔，轉化為共享的公共服務。",
+        "chinese": "因此，人口集中於城市，能把交通從個人的負擔，轉化為共享的公共服務。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -140878,7 +140878,7 @@
           ]
         },
         "english": "This matters because traffic problems are not caused simply by vehicles; they are caused by unnecessary vehicle journeys.",
-        "chinese": "這一點很重要，因為交通問題並不只是由車輛造成的；它們是由不必要的車程造成的。",
+        "chinese": "這一點很重要，因為交通問題不單在車輛本身，更在於不必要的車程。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "[討論對象] are not [需要修正的看法]; they are [較準確的理解]",
@@ -141182,7 +141182,7 @@
           ]
         },
         "english": "I disagree that this would solve the problem, because it would affect travellers unevenly while doing too little to change the aviation system itself.",
-        "chinese": "我不同意這能解決問題，因為它會不公平地影響不同旅客，同時對航空系統本身的改變太少。",
+        "chinese": "我不同意這能解決問題，因為它會不公平地影響不同旅客，卻難以改變航空系統本身。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -141254,7 +141254,7 @@
           ]
         },
         "english": "Many people do not fly for pleasure; they travel for work, education, medical treatment or family responsibilities.",
-        "chinese": "許多人乘搭飛機並不是為了享樂；他們是為了工作、教育、醫療治療或家庭責任而出行。",
+        "chinese": "許多人乘搭飛機並不是為了享樂；他們是為了工作、教育、求醫或履行家庭責任而出行。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "Many people do not [被討論的行為] for [常被假設的目的]; they [實際所做的行動] for [實際需要].",
@@ -141356,7 +141356,7 @@
           ]
         },
         "english": "At the same time, wealthier tourists would barely feel the increase, so the policy would punish ordinary travellers more than frequent luxury passengers.",
-        "chinese": "與此同時，較富裕的遊客幾乎不會感受到加價，因此這項政策對普通旅客的懲罰會比對經常乘搭豪華航班的乘客更大。",
+        "chinese": "與此同時，較富裕的遊客幾乎不會感受到加價，因此這項政策對普通旅客的懲罰會比對經常乘機的高消費旅客更大。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -141397,7 +141397,7 @@
           ]
         },
         "english": "A measure that mainly changes who can afford to fly, rather than how aviation operates, cannot be considered a genuine environmental solution.",
-        "chinese": "一項主要改變誰負擔得起飛行，而不是改變航空業如何運作的措施，不能被視為真正的環境解決方案。",
+        "chinese": "一項主要改變誰負擔得起飛行，而不是改變航空業如何運作的措施，不能被視為真正的環保對策。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "A measure that mainly changes [只改變的對象], rather than [沒有改變的運作方式], cannot be considered [應達到的標準].",
@@ -141663,7 +141663,7 @@
           ]
         },
         "english": "Instead of using price as a gatekeeper, governments should focus on cleaner transport systems and realistic alternatives that reduce the need to fly.",
-        "chinese": "政府不應把價格作為限制人們出行的門檻，而應該專注於更清潔的交通系統，以及能減少飛行需求的現實替代方案。",
+        "chinese": "政府不應把價格作為限制人們出行的門檻，而應該專注於更清潔的交通系統，以及能減少飛行需求的切實可行的替代方案。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "Instead of [原本採取的做法], [實際改採的做法或結果句子]",
@@ -141706,7 +141706,7 @@
           ]
         },
         "english": "Poor infrastructure is often one of the clearest signs that a country is struggling to develop.",
-        "chinese": "貧乏的基礎建設往往是一個國家正努力發展時最明顯的跡象之一。",
+        "chinese": "薄弱的基礎建設往往是一個國家正努力發展時最明顯的跡象之一。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -141935,7 +141935,7 @@
           ]
         },
         "english": "In this sense, infrastructure is not merely one development problem among many; it is the bridge that allows other forms of aid to work.",
-        "chinese": "從這個意義上說，基礎建設並不只是眾多發展問題中的其中一個；它是一座橋樑，讓其他形式的援助能夠發揮作用。",
+        "chinese": "從這個意義上說，基礎建設並不只是眾多發展問題中的其中一項；它是一座橋樑，讓其他形式的援助能夠發揮作用。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -142166,7 +142166,7 @@
           ]
         },
         "english": "Foreign aid, therefore, should first strengthen the physical backbone of the country so that future progress can stand on its own feet.",
-        "chinese": "因此，外國援助應該首先強化一個國家的實體骨幹，使未來的進步能夠靠自身力量站穩腳步。",
+        "chinese": "因此，外國援助應先鞏固一個國家的基建骨幹，使日後發展能靠自身力量持續下去。",
         "origin": "essay-mapping",
         "sourceRow": 21,
         "formula": "[採取的做法句子] so that [希望達成的目標句子]",
@@ -142202,7 +142202,7 @@
           ]
         },
         "english": "In conclusion, I fully agree that poor infrastructure should be the first issue addressed by foreign aid.",
-        "chinese": "總結來說，我完全同意，貧乏的基礎建設應該是外國援助首先處理的問題。",
+        "chinese": "總結來說，我完全同意，薄弱的基礎建設應該是外國援助首先處理的問題。",
         "origin": "essay-mapping",
         "sourceRow": 23,
         "formula": "In conclusion, [總結立場句子]",
@@ -144237,7 +144237,7 @@
           ]
         },
         "english": "For example, a city that depends on migrant carers for its ageing population would face a serious welfare problem if those workers were removed.",
-        "chinese": "例如，一個依賴外來護理員照顧老齡人口的城市，如果這些工人被移走，便會面對嚴重的福利問題。",
+        "chinese": "例如，一個依賴外來護理員照顧老齡人口的城市，如果這些護理員不能再受聘，便會面對嚴重的福利問題。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[可能結果句子] if [使結果成立的條件句子]",
@@ -144410,7 +144410,7 @@
           ]
         },
         "english": "However, these issues can be addressed through stronger labour laws, fair recruitment, language support, and proper housing standards.",
-        "chinese": "然而，這些問題可以透過更強而有力的勞工法例、公平招聘、語言支援和適當的住房標準來處理。",
+        "chinese": "然而，這些問題可以透過更完善的勞工法例、公平招聘、語言支援和適當的住房標準來處理。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "However, [相反或補充限制的判斷句子]",
@@ -144625,7 +144625,7 @@
           ]
         },
         "english": "The better solution is not exclusion, but fair regulation and thoughtful integration.",
-        "chinese": "更好的解決方法，是公平規管並促進周全融合，避免排斥。",
+        "chinese": "更好的方法不是排斥外籍勞工，而是公平規管並協助他們融入社區。",
         "origin": "essay-mapping",
         "sourceRow": 23,
         "formula": "[要重新理解的對象] is not [不準確的看法] but [較準確的看法]",
@@ -145411,7 +145411,7 @@
           ]
         },
         "english": "This does not only damage efficiency; it also sends a quiet but powerful message to other workers that hard work may never be rewarded fairly.",
-        "chinese": "這不但會損害效率，也會向其他員工傳遞一個安靜卻有力的訊息：努力工作可能永遠不會得到公平回報。",
+        "chinese": "這不但會損害效率，也會向其他員工傳遞一個無聲卻有力的訊息：努力工作可能永遠不會得到公平回報。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[討論對象] does not only [第一項影響]; it also [另一項影響]",
@@ -145457,7 +145457,7 @@
           ]
         },
         "english": "Over time, talented staff may leave, standards may fall, and the company can become a closed room rather than a growing organisation.",
-        "chinese": "長遠而言，有才能的員工可能會離開，標準可能會下降，而公司也可能變成一個封閉的房間，而不是一個正在成長的組織。",
+        "chinese": "長遠而言，有才能的員工可能會離開，標準可能會下降，而公司也可能變成一個封閉的小圈子，而不是一個正在成長的組織。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "Over time, [逐漸出現的變化句子]",
@@ -145519,7 +145519,7 @@
           ]
         },
         "english": "In a professionally managed company, disagreements can be handled through clear rules, contracts, and performance targets.",
-        "chinese": "在一間由專業方式管理的公司中，分歧可以透過清晰的規則、合約和績效目標來處理。",
+        "chinese": "在一間由專業人士管理的公司中，分歧可以透過清晰的規則、合約和績效目標來處理。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "[需要處理的問題] can be handled through [處理方法]",

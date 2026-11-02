@@ -97,7 +97,7 @@ function card(example,functionName,distractors,frame){
     distractorReason:`這句${functionName}；它表達的是另一種關係。`};
 }
 const structures=[
-  card('Traffic control is one of the hardest duties officers face, especially when one driver repeatedly blocks the road.','用 especially when 以反覆妨礙他人的情況界定問題',[1,5,10],
+  card('Traffic control is one of the most difficult responsibilities officers face, especially when one driver repeatedly blocks the road.','用 especially when 以反覆妨礙他人的情況界定問題',[1,5,10],
     fixed(0,'[管理問題] is one of the most difficult responsibilities [工作者] face, especially when [反覆妨礙他人的情況].','開場指出紀律管理之難，並限定在一名孩子反覆影響全班學習的情況。','引言要界定管理問題及它對其他人的實際影響時。',[' is one of the most difficult responsibilities ', ' face, especially when '],['需要管理的問題','負責處理的人','令問題特別難的具體情境'])),
   card('However, I do not think sending every late pupil home is the best way to handle the problem.','用 I do not think ... is the best way to 明確評估建議做法',[0,3,14],
     fixed(1,'However, I do not think [讓學生離開課室] is the best way to [處理擾亂].','直接回答第一題：要求學生離開課室不是最佳做法。','題目問某一做法是否最佳，須在引言清楚表態時。',['However, I do not think ', ' is the best way to '],['被評估的移離課室做法','需處理的問題'])),
@@ -108,9 +108,9 @@ const structures=[
   card('The first solution is to establish clear team rules and fair responses before major conflict occurs.','用 The first solution is to ... before 說明規則要先於嚴重問題',[3,6,9],
     fixed(4,'The first solution is to establish [清晰規則] and [可預期處理] before [嚴重擾亂].','把第一種解法寫成事前規則與一致後果，而非等到擾亂後才反應。','開始方案段時，要明確交代規則及其設立時機時。',['The first solution is to establish ', ' and ', ' before '],['先建立的規則','可預期的處理','希望預防的情況'])),
   card('Many workers miss deadlines not because they are lazy, but because instructions are unclear or workloads keep changing.','用 not because ... but because 修正對不良行為的簡單責備',[2,4,10],
-    fixed(5,'Many children behave badly not because [蓄意作惡], but because [不懂界線] or [缺少一致後果].','避免先把孩子定性為壞，轉而檢查規則與後果是否清楚一致。','要解釋紀律問題時，須區分惡意與可由管理改善的原因時。',['Many children behave badly not because ', ', but because ', ' or '],['被質疑的惡意解釋','對界線的不理解','缺少一致處理的經驗'])),
+    fixed(5,'[可見問題] not because [被歸咎的原因], but because [實際原因一] or [實際原因二].','避免先把孩子定性為壞，轉而檢查規則與後果是否清楚一致。','要解釋看似失當的行為時，區分簡單責備與可改善的真實原因。',[' not because ', ', but because ', ' or '],['可見的問題行為','被歸咎的原因','第一項實際原因','第二項實際原因'])),
   card('If a coach explains the rules, gives a warning, and then follows through fairly, players are more likely to take responsibility.','用 If ... and then ... are more likely to 描述一致的教導流程與效果',[4,5,8],
-    fixed(6,'If [老師先說明可接受行為], [規則被破時警告], and then [公平處理], students are more likely to [為行為負責].','按「說明 → 警告 → 公平後果」的次序示範一致管理如何促進責任感。','要把紀律原則寫成可依次執行的教師行動時。',['If ', ', ', ', and then ', ', students are more likely to '],['先說明標準的行動','違規時給警告的行動','接着作公平處理的行動','學生較可能出現的責任行為'])),
+    fixed(6,'If [先說明標準], [接着警告], and then [公平處理], [參與者] are more likely to [負責任行動].','按「說明 → 警告 → 公平後果」的次序示範一致管理如何促進責任感。','要把一項管理原則寫成可依次執行的行動，再說明參與者較可能有的反應時。',['If ', ', ', ', and then ', ', ', ' are more likely to '],['先說明標準的行動','接着給警告的行動','公平處理的行動','受到引導的人','較可能出現的責任行為'])),
   card('For example, a player who keeps interrupting others could be moved to another group, asked to reflect after training, or given a short talk with the coach.','用 For example ... could be ... asked to ... or given ... 列不離開學習場域的處理選項',[6,8,10],
     fixed(7,'For example, [持續打斷他人的學生] could be [換座位], asked to [課後反思], or given [與老師會面].','列出三種具體後果，讓干擾者留在教育關係中仍須承擔行為責任。','已有清晰規則，接着要以單一學生個案示範比例相稱的處理時。',['For example, ', ' could be ', ', asked to ', ', or given '],['被舉例的打斷者','第一種處理','第二種處理','第三種處理'])),
   card('This keeps the player within the team while making it clear that unfair behaviour has a cost.','用 while making it clear that 同時保留參與與表明行為後果',[3,6,7],
@@ -119,11 +119,11 @@ const structures=[
     fixed(9,'Another important solution is to involve [家長、輔導員與資深教師] when [問題反覆出現].','把單一老師的課堂處理，擴展為反覆問題所需的校家合作。','已討論課堂規則，但干擾持續，需要引入其他支援者時。',['Another important solution is to involve ', ' when '],['要一起處理的人','啟動協作的時機'])),
   card('Frequent lateness is often a symptom of deeper issues, such as unsafe travel, family duties or poor sleep.','用 is often a symptom of deeper issues, such as 列行為背後可能不同的原因',[5,9,12],
     fixed(10,'[擾亂行為] is often a symptom of deeper issues, such as [家庭、信心、注意力或同輩因素].','指出表面行為可能反映多種問題，不能只用一種懲罰解釋全部學生。','要為反覆干擾提出支援理由，先列需要了解的可能原因時。',[' is often a symptom of deeper issues, such as '],['可見的問題行為','需要辨認的多種背景問題'])),
-  card('Simply sending a late pupil outside may turn the corridor into a break rather than a real consequence.','用 may turn ... into ... rather than 說明表面懲罰可能變成逃避',[2,8,14],
+  card('Simply sending a late pupil out may turn the corridor into a break rather than a real consequence.','用 may turn ... into ... rather than 說明表面懲罰可能變成逃避',[2,8,14],
     fixed(11,'Simply sending [孩子] out may turn [走廊] into [逃避途徑] rather than [真正後果].','提醒把孩子送出課室可能令他避開課堂，而非處理其行為。','要指出某懲罰看似嚴厲，但實際可能獎勵逃避時。',['Simply sending ', ' out may turn ', ' into ', ' rather than '],['被送出的孩子','被改變用途的走廊','可能形成的逃避','原本想達到的後果'])),
   card('By contrast, a shared support plan can find the cause and respond more effectively.','用 By contrast ... can ... and ... 對比協作診斷與單純送走',[3,10,11],
     fixed(12,'By contrast, [協調計劃] can [找出原因] and [更有效回應].','與「把孩子送出去」對照，說明共同計劃能先查原因再採取支援。','已指出單一懲罰的副作用，接着要轉回較有效的協作方案時。',['By contrast, ', ' can ', ' and '],['相對的協調計劃','先辨認的原因','其後改善的回應'])),
-  card('A team might set behaviour goals, offer mentoring, or arrange regular talks with families so that each player hears the same message.','用 might ... or ... so that 列協作措施及一致訊息的目的',[7,9,12],
+  card('A school might set behaviour goals, offer mentoring, or arrange regular talks with families so that each player hears the same message.','用 might ... or ... so that 列協作措施及一致訊息的目的',[7,9,12],
     fixed(13,'A school might [設行為目標], [提供輔導], or [定期與家長溝通] so that [孩子收到一致訊息].','把協作具體化為目標、輔導和家長溝通，並說明這些做法如何一致。','要把「協調計劃」變成學校能實際安排的多項步驟時。',['A school might ', ', ', ', or ', ' so that '],['學校可設定的目標','可提供的個人支援','與家長的定期聯絡','希望形成的一致訊息'])),
   card('In conclusion, removing a noisy player is not the best response because it solves the appearance of disorder rather than the source of it.','用 because ... rather than 總結移走孩子只處理表象',[1,2,15],
     fixed(14,'In conclusion, [把孩子送走] is not [最佳回應] because it solves [混亂表象] rather than [問題來源].','結尾重新回答第一題，對比即時安靜與未處理的行為根源。','結論要明確評估移離課室，並用前文原因收束時。',['In conclusion, ', ' is not ', ' because it solves ', ' rather than '],['被評估的移離做法','被否定的最佳定位','暫時處理的表象','仍未處理的根源'])),
@@ -346,6 +346,31 @@ const transferTasks=[
     '即時安靜不是完整的政策評估。',
   ],[1,2,14,15],'範文結尾指出移走孩子只處理混亂表象，清晰規則、一致後果和多方合作才更有效。'),
 ];
+const editorialWrongChoices=[
+  ['先請大聲說話者離開，之後才向全體讀者補充規則','只提醒反覆違規者，暫不訂立一致而公開的處理準則','依每次情況臨時決定處理方式，讓管理員保有彈性'],
+  ['調組可讓球員反省，但應先停止練習直到行為改善','短談可說明問題，調組則用來減少教練與球員接觸','球員可繼續練習，打斷行為留待賽季結束後再談'],
+  ['封鎖可恢復秩序，因此可暫停追查反覆擾亂的原因','先查換帳號的技術漏洞，發言規則可留待以後建立','重新登入顯示封鎖不足，主要應延長每次停權時間'],
+  ['先向家長了解壓力，再把課堂規則交由家庭自行訂定','先觀察注意力問題，暫不與家長商量共同的行為目標','先讓學生在走廊休息，原因可等他不再離座時再查'],
+  ['先為故意打斷者訂後果，其他插話留待日後再處理','先向全班解釋規則，再依學生動機臨時改變後果','先處理插話次數，是否明白界線可留待家長會討論'],
+  ['走廊可先減少干擾，行為原因待下次違規時再查','孩子把走廊當休息，表示教師應增加其停留時間','走廊安排保護其他學生，改善目標可留待下學期'],
+  ['先由老師統一要求，家長與輔導員下次開會才跟進','各人分別處理自己的時段，避免學生收到太多要求','讓學生自行選一套要求，待行為改善後再整合規則'],
+  ['先提醒再反思有次序，但教師可按情緒調整準則','公平處理有助減少爭議，因此規則不用事前說明','課後反思方便管理，打斷別人的原因可不必追查'],
+  ['先訂規則與後果，家人支援可留待活動結束後再談','先找家人查明原因，公平後果可等下次活動再決定','請人離開可即時恢復秩序，規則安排留待下次處理'],
+  ['移走可保護課堂，其他方法待孩子再次擾亂時再談','清晰規則有幫助，是否最佳不必比較行為原因','校家協作值得推行，送走孩子的效果可在結論略過'],
+];
+const editorialWrongFeedback=[
+  ['規則應事前清楚，學生才知道行為界線與後果。','提醒若缺乏一致準則，仍可能顯得任意。','公平且可預期的處理比臨時彈性更符合首項方案。'],
+  ['原文希望保留參與和改正機會，而非先停練。','調組是具體後果，不是切斷教練與球員的對話。','短談應及時讓球員理解打斷的後果。'],
+  ['反覆換帳號表示即時安靜不足以解決原因。','技術堵漏可有用，但仍須有清楚行為規則。','加長停權仍只改變外部後果，未必處理重複行為。'],
+  ['家庭提供線索，課堂界線仍須由學校共同制定。','觀察有用，但家校合作才可訂共同目標。','先送走可能暫時安靜，卻延後理解原因。'],
+  ['不懂規則者也需明確指引，不能長期放任。','後果若臨時變動，就失去一致性。','是否明白界線正是當下要分辨的原因。'],
+  ['下次才查原因，仍把離開課室當作主要處理。','延長休息可能使逃避課堂更有吸引力。','保護同學重要，但仍須訂孩子可執行的改善目標。'],
+  ['三方都須得到一致訊息，不能只靠老師先處理。','分時段各自處理會令規則更不一致。','讓孩子獨自選規則不能取代成人協調。'],
+  ['準則按情緒變動，學生難以預測公平後果。','事前說明正是規則清楚的關鍵。','反思要連到行為，原因也可能需要追查。'],
+  ['反覆問題需要支援，不能只安排在活動後再談。','支援原因重要，但也要保護其他參加者。','只驅離未形成清晰、一致的長期方案。'],
+  ['再次擾亂前也應評估移走只解表面的限制。','第一問需比較做法是否最佳及其原因。','兩問都要回答，不能略去移走的效果。'],
+];
+transferTasks.forEach((item,index)=>{item.options=[item.options[0],...editorialWrongChoices[index]];item.explanations=[item.explanations[0],...editorialWrongFeedback[index]];item.why=item.explanations[0]});
 export default {
   key:'direct-question:12',
   meta:{topic:'課堂干擾與紀律支援',summary:'把孩子送出課室只能短暫安靜；清晰規則、公平後果及學校家庭協作更有效。'},

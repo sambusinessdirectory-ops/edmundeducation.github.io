@@ -326,6 +326,34 @@ const transfer=[
     '溝通可有用，只是不能代替可靠表現。',
   ],[4,7,8,10,11,14,16],'範文先以職業成果否定魅力必要性，再以失信領袖說明注意力不等於信任。'),
 ];
+const reviewedTransferOptions=[
+  ['先看安全操作與穩定表現，再考慮溝通能力','只看面試時誰最搶眼，不查安全操作能力','因乙較安靜，便斷定其實驗能力較差','只看一次自我介紹，不查過往工作結果'],
+  ['看長期進步與承諾兌現，不只看演說當下反應','隊員在演說時鼓掌，便證明訓練計畫有效','不追蹤隊員進步，因精彩演說已足夠衡量教練','把初時受鼓舞當作日後承諾必然兌現'],
+  ['承認幽默有助交流，仍要檢查安排與解難能力','主持人幽默，便不再追究活動安排是否可行','認為幽默完全不能改善與參加者的交流','把現場笑聲當作報名問題已獲解決的證據'],
+  ['不因演說安靜而低估研究成果的價值','不擅演說，研究結果便一定無法核實','研究是否準確，全由演說音量決定','研究員安靜，便代表工作毫無價值'],
+  ['追蹤承諾與投訴處理，觀察顧客長期信任','只數開場笑聲，便判定兩人誰比較可靠','甲能吸引客人，承諾履行便永遠無關緊要','乙較內斂，便不必查他處理投訴的成果'],
+  ['比較試教、備課與長期表現，輔看面試魅力','只看面試說話流暢與否，忽略試教與備課','試教較好者面試緊張，便斷定學生聽不懂','只看學生是否喜歡其外表，不評估學習結果'],
+  ['按穩定性與修復能力評價產品，另看宣傳關注','下載量高，便認定儲存資料的問題不存在','只看宣傳片吸引力，不追蹤產品實際運作','把短期曝光直接當成長期使用者信任'],
+  ['觀察任務、承諾與流程改善，不只記首場掌聲','只以首場掌聲當作多年信任的唯一證據','忽略乙可靠準備，因它沒有即時掌聲顯眼','認為甲以後做甚麼，都不會改變初次掌聲'],
+  ['要求系統穩定解難，不只聽介紹是否動聽','介紹有說服力，系統當機便與結果無關','護理人員能否使用系統，不應列入任何評估','把受歡迎簡報視為系統已正常運作的證據'],
+  ['初時吸引人仍須核查承諾兌現及決策品質','演說精彩，未公布紀錄便不會影響同學信心','既然獲得選票，日後承諾便算自動完成','只問演說音量，不查會議紀錄是否公開'],
+  ['承認宣傳助交流，仍以排練與演出衡量成就','宣傳既然有用，便可取代排練及作品品質','安靜導演有好作品，仍因不擅宣傳否定成果','作品好，便認為與觀眾交流永遠沒有作用'],
+  ['查工程安全與承諾履行，分開看吸引力和可靠性','只看發言人受歡迎，便當作工程安全已達標','只看首場發表會，不追蹤進度或承諾兌現','報告與承諾不符，便說溝通能力完全無用'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[1].example='As a result, some argue that public speaking is a necessary ingredient for leadership.';
+structures[2].example='I completely disagree with this view, because lasting school success depends far more on careful preparation than on a teacher’s confident voice.';
+structures[3].example='The main reason popularity is not essential is that strong schools are built on sound teaching rather than a pleasing manner.';
+structures[4].example='In most schools, people are ultimately judged by whether they can explain clearly, prepare lessons, and help pupils improve.';
+structures[5].example='A pilot, for example, does not become successful simply by greeting passengers warmly; he or she must make safe decisions and control the aircraft well.';
+structures[6].example='Similarly, a technician who prevents serious errors may be quiet, but that does not make the achievement any less valuable.';
+structures[7].example='In these cases, a friendly manner may make teamwork smoother, but it cannot replace technical knowledge.';
+structures[8].example='Leadership is therefore more like a strong foundation than a bright stage: what matters most is not how well someone speaks in public, but how reliably they act under pressure.';
+structures[9].example='Another reason is that a popular plan without clear evidence can be fragile, and sometimes even dangerous.';
+structures[10].example='Confident speakers may attract attention quickly, but attention is not the same as achievement.';
+structures[11].example='If a manager speaks well but keeps breaking promises, staff may initially feel excited, yet they will soon lose trust when projects are handled badly.';
+structures[13].example='This kind of respect is less visible, but it lasts longer.';
+structures[15].example='In conclusion, a friendly manner can be useful, but it is not essential for good teaching.';
 export default {
   key:'opinion:14',
   meta:{topic:'個人魅力、專業能力與持久信任',summary:'作者完全反對魅力是成功必要條件：魅力可令溝通順暢，但專業成果不可替代；缺乏實質與可靠行動的魅力只能帶來短期注意，難以建立持久尊重。'},

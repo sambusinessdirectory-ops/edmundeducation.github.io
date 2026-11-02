@@ -97,7 +97,7 @@ const structures=[
   S('Opportunities are rarely offered for certificates alone; they are offered to people whose actions others can understand and trust.','兩個 offered 被動句對照紙面資歷與可信的人。','這句指出機會也取決於他人能否信任實際品格。',[8,9,11],
     F('Opportunities are rarely offered to [紙面資歷] alone; they are offered to [可被理解和信任的人]','分號兩邊用重複被動結構修正選人標準：資格重要，但信任也影響機會。','說明可靠者較易獲支持後，要指出紙面資格為何仍不足夠時。',[['Opportunities are rarely offered to ','link','否定單一依據'],['qualifications on paper','slot','紙面資歷'],[' alone; they are offered to ','link','轉向真正接受機會的人'],['people whose character others can read and trust.','slot','可被理解和信任的人']])),
   S('A shop owner may offer excellent goods, but if she ignores customers or speaks harshly to staff, the shop’s reputation may suffer.','but if 設定待人不善的條件；好產品仍可能伴隨聲譽損失。','這句以小企業例子顯示產品品質不足以單獨保護信任。',[9,10,12],
-    F('[小企業主] may sell [好產品], but if [忽視顧客或苛待員工], [聲譽] will [受損]','承認產品品質，同時用 but if 指出待人態度可能破壞企業聲譽。','要說明表面能力或產品好，為何仍不能保證長期信任時。',[['A small business owner','slot','小企業主'],[', for instance, may sell ','link','承認產品優勢'],['an excellent product','slot','好產品'],[', but if ','link','設定不良互動條件'],['he dismisses customers’ concerns or treats staff harshly','slot','忽視顧客或苛待員工'],[', ','link','接結果'],['his reputation','slot','聲譽'],[' will quickly suffer.','link','快速受損']])),
+    F('[小企業主], for instance, may sell [好產品], but if [忽視顧客或苛待員工], [聲譽] will [受損]','承認產品品質，同時用 but if 指出待人態度可能破壞企業聲譽。','要承認一項優點，同時用 but if 指出另一條件可能使預期結果落空時。',[['A small business owner','slot','小企業主'],[', for instance, may sell ','link','承認產品優勢'],['an excellent product','slot','好產品'],[', but if ','link','設定不良互動條件'],['he dismisses customers’ concerns or treats staff harshly','slot','忽視顧客或苛待員工'],[', ','link','接結果'],['his reputation','slot','聲譽'],[' will ','link','引出後果'],['quickly suffer.','slot','受損']])),
   S('On the other hand, an owner who listens to complaints, supports staff and earns loyalty can turn one-time sales into lasting relationships.','On the other hand 對照前句；turn...into... 說明互動品質如何轉變交易性質。','這句把聆聽與支持連到長期關係，而非只看單次銷售。',[9,11,13],
     F('On the other hand, [善於聆聽和鼓勵的經營者] can turn [單次交易] into [長久關係]','提供正面做法，說明如何把一次購買發展為可持續的人際關係。','指出不良互動的代價後，要展示改善關係的替代途徑時。',[['On the other hand, ','link','轉入正面對照'],['an owner who listens to complaints, encourages employees, and builds loyalty','slot','善於聆聽和鼓勵的經營者'],[' can turn ','link','指出轉化作用'],['ordinary transactions','slot','單次交易'],[' into ','link','轉成'],['lasting relationships.','slot','長久關係']])),
   S('These relationships often become the foundation of future community support.','foundation of... 將長期關係連到未來可持續發展。','這句概括前例的後續價值，沒有再列新人物。',[8,12,14],
@@ -320,6 +320,34 @@ const transfer=[
     '文章沒有否定產品與專業能力。',
   ],[4,7,11,12,13,15],'範文既承認好產品及才華的重要，也指出合作與信任使其較可能形成持久成果。'),
 ];
+const reviewedTransferOptions=[
+  ['請他用簡單步驟講解資料，再討論小組如何運用','只把資料留在電腦內，期待其他人自行理解','因資料本身重要，便認定報告已自動完成','只稱讚他的才華，不檢查組員是否真正理解'],
+  ['先聽負擔、說明分工，再於衝突前調整安排','只叫大家有團隊精神，不討論實際工作量','直接責備提出疑問的人，阻止其他人發言','讓所有人各自猜任務，不再確認具體分工'],
+  ['改善解釋與聆聽，讓方案被檢驗及共同推進','開發者技術好，便不用管團隊能否理解','讓團隊保持沉默，因提問只會降低品質','把同事不敢測試當作方案成功的證據'],
+  ['查兩人能否守時、尊重組員並可靠完成工作','只按成績單字體，決定誰更值得信任','成績相近，便認定兩人的合作方式相同','只看誰說話較快，不查過往小組表現'],
+  ['聽投訴、修訂單流程，讓品質與服務建立信任','產品品質好，便毋須處理任何顧客疑慮','只請顧客不要投訴，不檢查訂單出錯原因','一次口味良好，便保證顧客多年持續回訪'],
+  ['建立客服回饋流程，回應問題並追蹤再次購買','只寄更多廣告，不查看顧客的實際投訴','把客服回饋全部隱藏，期待顧客自行解決','只計單次訂單金額，便斷定顧客一定忠誠'],
+  ['與前線確認期望、分工及風險，讓方案一致執行','只保留業務員個人承諾，不告知其他同事','業務員善於銷售，便認定服務已安排妥當','各同事向顧客作不同承諾，毋須共同協調'],
+  ['可靠與尊重可被觀察，逐步帶來他人信任和支持','只有華麗演說，才能讓其他人主動願意合作','準時回覆與尊重他人，完全不會影響信任','同事願意合作，便代表專業知識不再重要'],
+  ['保留展品知識，也學聆聽與處理分歧以建立信任','展品知識充足，義工是否合作便完全無關緊要','只叫義工不要提意見，不檢查實際帶領方式','人際能力重要，便不再要求任何基本展品知識'],
+  ['聽新人困難並保持可靠安排，追蹤持續出席','只看首堂報名人數，不問往後的參與體驗','不理新人意見，因首次出席已等於長期承諾','每週改安排卻不通知，仍假定學員會信任'],
+  ['先清楚分工、定期聽問題，在衝突前協調','只招募更多專長者，維持原有含糊分工','讓負責人獨做全部工作，不使用團隊能力','等衝突加劇，才決定是否告知截止日期'],
+  ['保留專長並改善協作與服務，再追蹤回訪聲譽','只提高產品品質，不處理顧客或員工關係','只做一場宣傳，便斷定顧客會永久回來','待人方式重要，便停止檢查產品是否有用'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='A community project is rarely achieved in isolation.';
+structures[1].example='In almost every project, from sport to community work, people have to share tasks and respond to other people’s needs.';
+structures[2].example='For this reason, I completely agree that teamwork skills are essential for success, because they turn each person’s knowledge into a useful shared result.';
+structures[3].example='First, listening skills determine how effectively volunteers can cooperate in a group.';
+structures[4].example='A skilled researcher who explains poorly may produce useful evidence, but those findings can be misunderstood or ignored.';
+structures[5].example='By contrast, someone who listens carefully, explains clearly and handles disagreements calmly can keep a committee moving in the same direction.';
+structures[6].example='For example, in a school project, the pupil who shares tasks fairly and discusses problems early is more likely to finish well than a brilliant pupil who pushes everyone away.';
+structures[7].example='In this sense, good communication skills act as the bridge between a team’s knowledge and its final work.';
+structures[9].example='Teachers and colleagues are more likely to support people who appear reliable, respectful and able to handle disagreements calmly.';
+structures[10].example='Opportunities are rarely offered to certificates alone; they are offered to people whose actions others can understand and trust.';
+structures[11].example='A shop owner, for instance, may sell excellent goods, but if she ignores customers or speaks harshly to staff, her reputation will quickly suffer.';
+structures[14].example='In conclusion, I fully agree that careful communication skills are essential for a team’s success.';
+structures[15].example='Knowledge and hard work matter greatly, but without the ability to listen, cooperate and earn trust, those strengths are far less likely to produce lasting results.';
 export default {
   key:'opinion:16',
   meta:{topic:'人際能力、團隊合作與長期信任',summary:'作者完全同意人際能力是成功關鍵：聆聽、解釋與協調讓個人本領轉成團隊成果；可靠與尊重則建立信任，把一次接觸變成長久關係。'},

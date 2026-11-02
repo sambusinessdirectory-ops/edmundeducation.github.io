@@ -88,7 +88,7 @@ const structures=[
   S('At school, watching may turn class into a one-way broadcast rather than participation.','At school 與前句 At home 並列；where...rather than... 對比觀看與參與。','不是說教師永遠不能用任何影像材料。',[10,11,13],F('At school, [常規看電視] may turn [課堂時間] into [單向播放] where [學生觀看而不參與]','把被動問題落到課堂互動。','要比較單向資訊傳送與使用者實際參與時。',[['At school, ','link','限定學校場景'],['it','slot','常規看電視'],[' may turn ','link','可能把'],['valuable classroom time','slot','課堂時間'],[' into ','link','變成'],['a one-way broadcast','slot','單向播放'],[', where ','link','在其中'],['students watch rather than participate.','slot','學生觀看而不參與']])),
   S('Education should be a workshop rather than a theatre seat.','theatre/workshop 對比被動觀看座位與動手參與場域。','此處是比喻，不是要求把教室真的改建成工作坊。',[4,12,14],F('[教育] should not be [劇院座位]; it should be [工作坊]','以精簡比喻收束主動學習觀。','已說明被動接收的缺點，要用簡潔對照強調主動參與時。',[['Education','slot','教育'],[' should not be ','link','不應是'],['a theatre seat','slot','劇院座位'],['; it should be ','link','應是'],['a workshop.','slot','工作坊']])),
   S('I oppose encouraging children to watch television regularly.','In conclusion 重申反對定期鼓勵觀看，不針對偶爾使用節目。','回應原題 at home and school 的常規建議。',[1,13,15],F('In conclusion, I completely disagree with [鼓勵孩子定期看電視的主張]','結論直接重申頻率上的立場。','完成兩條理由後，要重新回答是否應把某行為變成常規時。',[['In conclusion, I completely disagree with ','link','總結反對'],['the idea that children should be encouraged to watch television regularly.','slot','鼓勵孩子定期看電視的主張']])),
-  S('Regular viewing at home and school risks passivity, weaker attention and missed richer learning.','As a regular habit 限定家校常規；三項後果收束全文。','原文此句較肯定，但全文前面用 usually/risk/may 保留情境差異。',[7,8,14],F('As [家校常規習慣], [看電視] encourages [被動], weakens [專注], and takes [孩子] away from [更豐富學習]','以三類代價概括兩個主體段。','結尾要合併前述不同代價，回扣是否值得養成某習慣時。',[['As a regular habit at home and in school, ','link','限定家校常規'],['it','slot','看電視'],[' encourages ','link','促成'],['passivity','slot','被動'],[', weakens ','link','削弱'],['attention','slot','專注'],[', and takes ','link','並使'],['children','slot','孩子'],[' away from ','link','遠離'],['richer forms of learning.','slot','更豐富學習']])),
+  S('As a daily habit, endless scrolling risks passivity, weakens attention and reduces time with friends.','As a regular habit 限定家校常規；三項後果收束全文。','原文此句較肯定，但全文前面用 usually/risk/may 保留情境差異。',[7,8,14],F('As [家校常規習慣], [看電視] encourages [被動], weakens [專注], and takes [孩子] away from [更豐富學習]','以三類代價概括兩個主體段。','結尾要合併前述不同代價，回扣是否值得養成某習慣時。',[['As ','link','引入習慣'],['a regular habit at home and in school','slot','家校常規習慣'],[', ','link','承接主語'],['it','slot','看電視'],[' encourages ','link','促成'],['passivity','slot','被動'],[', weakens ','link','削弱'],['attention','slot','專注'],[', and takes ','link','並使'],['children','slot','孩子'],[' away from ','link','遠離'],['richer forms of learning.','slot','更豐富學習']])),
 ];
 const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
 const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
@@ -141,6 +141,79 @@ const transfer=[
   T('家庭與學校都將看電視列為每天的主要學習安排。','文章會評估哪些合併後果？',['被動接收、專注力下降，以及家庭對話和課堂參與時間減少','所有孩子必然即時成為專家','只有學校環境會受影響','定期觀看必然增加戶外玩耍'],['結論把家校常規後果合併。','沒有保證。','家校都談。','可能擠走活動。'],[3,8,10,11,12,15],'regular habit at home and in school...passivity, weakens attention。'),
   T('要用一句話概括文章立場而不過度概括。','哪項最好？',['作者反對鼓勵孩子在家校定期看電視，主張更多主動引導學習與能訓練專注、社交的活動','作者認為每個節目都製作差','作者要求完全取消所有影像','作者只關心孩子會否記住節目名字'],['兩段分別談學習深度與其他能力。','即使節目好仍不足。','未作全面禁令。','非論證重點。'],[1,2,3,4,8,9,12,13,14,15],'poor substitute for active, guided education；theatre seat/workshop。'),
 ];
+const reviewedExamples={
+  0:'Online video has become common in classrooms, and it is sometimes seen as a quick way to teach.',
+  1:'However, I completely disagree that children should be encouraged to study only through screens.',
+  2:'Even when a video is accurate, it is a poor substitute for asking questions and trying things.',
+  3:'The main problem is that a long lecture usually turns pupils into passive listeners rather than active investigators.',
+  4:'When a child reads a story, their mind has to work: they connect details and ask what follows.',
+  5:'A recorded lecture, by contrast, often delivers answers, leaving little room for students to test them.',
+  6:'For example, a child may remember a picture, but a hands-on project is far more likely to build understanding.',
+  7:'A constant stream of answers therefore risks creating false confidence, while deeper questions remain unanswered.',
+  8:'Another reason is that too much screen time would weaken family conversation.',
+  10:'If lessons rely only on clips, children may find reading, problem-solving, and listening less appealing.',
+  11:'At home, long screen sessions could also reduce time for family conversation.',
+  12:'At school, passive viewing may turn lessons into one-way broadcasts, where students cannot ask questions.',
+  13:'Learning should not be a spectator sport; it should be a chance to practise.',
+  14:'In conclusion, I completely disagree with replacing regular reading by passive video.',
+  15:'As a daily habit after school, endless scrolling encourages passivity, weakens attention, and takes teenagers away from shared activities.',
+};
+for(const [index,example] of Object.entries(reviewedExamples))structures[Number(index)].example=example;
+const reviewedTransfer=[
+  [
+    ['實作班更能檢驗想法、糾正錯誤並理解植物','影片班能記畫面，便已證明理解植物生長','實作班只要種植物，便不需解釋觀察結果','影片班多次重播畫面，便可代替親手記錄變化'],
+    ['種植、記錄和解釋迫使學生檢查自己的理解。','記得畫面不等於理解生長過程。','實作也要觀察、解釋和修正想法。','觀看時長不能保證比實作理解更深。']
+  ],
+  [
+    ['節目再好，定期觀看仍難取代討論與實驗','先完整播放節目，再把學生提問留到下個單元','先看節目再做實驗，但教師不需指導過程','只比較畫質，未檢查學生是否能主動理解'],
+    ['製作質素不能取代主動、有引導的學習。','清晰節目仍需要讓學生思考和提問。','實驗需要引導，不能只憑播放節目。','畫質不是學生學懂與否的證據。']
+  ],
+  [
+    ['記得畫面不等於理解概念，可能形成學習錯覺','能記畫面，便認定學生已會解釋植物生長','學生說不清概念，便把問題歸於影片內容不準','只評估觀看時長，不要求學生說出所學機制'],
+    ['表面記憶可能遮蓋未經檢驗的理解。','畫面記憶不能代替概念解釋。','問題可能在被動觀看，不能只歸咎影片內容。','只計時間，未檢查學生能否運用知識。']
+  ],
+  [
+    ['長時間看節目或擠走家庭對話及戶外活動','只看節目內容，不查放學後其他活動時間','只計學校螢幕時間，漏掉家中對話與玩耍','孩子照常完成家課，便認定親子交流未減少'],
+    ['家中看電視會佔用其他重要活動的時間。','內容之外，還須看時間被甚麼取代。','情境發生在家中，不只在學校。','需要比較實際交流時間，不能靠假定。']
+  ],
+  [
+    ['課堂應讓學生提問和合作，不只被動觀看','播放節目後只測記憶畫面，不讓學生討論','教室排成劇院座位，讓學生更清楚觀看節目','只把座位排成工作坊，活動仍只看節目'],
+    ['工作坊式課堂讓學生參與和交換想法。','只測畫面記憶，仍缺提問和合作。','劇院式單向觀看正是原文的反面。','座位外觀不等於真正參與。']
+  ],
+  [
+    ['孩子可能不願做較慢的閱讀與解難練習','閱讀測驗分數未降，便認定孩子仍願讀長文','只測記憶畫面，未看能否耐心閱讀與解題','閱讀較慢，便斷定任何閱讀都沒有學習價值'],
+    ['定期螢幕刺激可能使較費力的活動顯得不吸引。','分數未降不能證明閱讀意願未改變。','畫面記憶沒有評估閱讀及解難意願。','較慢不代表沒有學習價值。']
+  ],
+  [
+    ['作者反對定期以電視作常規，未否定偶爾教育影片','作者反對教師偶爾展示影片，即使其後讓學生討論','作者只反對家中觀看，學校每天播放仍無問題','作者只談影片畫質，未討論觀看是否取代主動學習'],
+    ['反對鼓勵定期觀看，不等於說每次影片都無效。','把反對常規誇大成絕對禁令。','文章同時討論家中和學校。','核心在被動觀看是否擠走主動學習。']
+  ],
+  [
+    ['重點是能否提問、實驗並解釋，而非觀看時間','只統計觀看分鐘，便判定學生已經理解概念','只看影片畫質，不要求學生說出觀察和推理','學生做過實驗，便不再要求解釋觀察結果'],
+    ['主動檢驗、解釋和修正想法是關鍵。','時間不能代替對理解的檢查。','畫質未顯示能否說明所學。','實驗後仍需核對解釋與錯誤。']
+  ],
+  [
+    ['比較單向輸入與提問、回應及實作機會','只比較錄音長短，未檢查學生是否能提問','只看聲音是否清晰，不評估討論與實作','因錄音可重播，便判定師生對話不再重要'],
+    ['把資訊接收與主動參與的機會作對照。','長短不說明學生是否能互動。','音質不能代替問答和實作。','可重播不會自動取代雙向交流。']
+  ],
+  [
+    ['閱讀、解難及交流，讓孩子主動練專注與溝通','只增加觀看節目時間，不安排討論與解題','只要求孩子默坐，未給閱讀或交流任務','只測記憶畫面，不讓孩子與同學交換想法'],
+    ['活動讓學生思考、堅持並與人互動。','觀看時間增加未必練到所需能力。','安靜坐着不等於主動學習。','畫面記憶未提供溝通機會。']
+  ],
+  [
+    ['定期觀看或削弱專注，擠走家校互動時間','只算家中觀看時間，卻不查課堂參與有否減少','只看學校成績，未比較家庭對話和專注變化','只問孩子是否喜歡節目，便推定其他活動未減少'],
+    ['原文把被動學習、專注和家校時間合在一起評估。','家庭時間只是其中一部分。','成績以外還須看社交與注意力。','喜歡節目不能證明其他活動沒有被擠走。']
+  ],
+  [
+    ['反對家校定期看電視，主張主動學習與社交活動','只反對家中看電視，卻鼓勵學校每天播放節目','只談畫質不夠好，未討論被動觀看與專注力','把教師偶爾展示影片也當成本文反對的常規'],
+    ['立場針對定期觀看，理由包括主動學習及社交。','文章同時談家中和學校的常規。','問題不只在畫質，而在學習與生活被取代。','原文沒有提出絕對禁止所有教育影片。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:49',
   meta:{topic:'兒童定期看電視、主動學習與專注社交',summary:'作者反對鼓勵兒童在家與學校定期看電視。即使節目製作良好，持續單向觀看也難取代閱讀、討論、實驗及教師引導；植物例子說明畫面記憶和真正理解有別。過頻螢幕使用又可能擠走較慢的閱讀解題、家庭對話、戶外活動及課堂參與。'},

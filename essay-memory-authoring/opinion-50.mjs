@@ -131,6 +131,78 @@ const transfer=[
   T('某政策說「給孩子更多自由」卻不指明年齡或風險界線。','文章會要求甚麼修正？',['自由須符合年齡並屬合理，同時保留必要引導','完全取消所有孩子自主','所有年齡都能承擔相同決策','家長不應了解任何孩子選擇'],['age-appropriate、reasonable、guidance 都提供界線。','作者支持自由。','年齡界線必要。','引導重要。'],[4,11,13],'age-appropriate choices；reasonable freedom；guidance。'),
   T('要用一句話概括全文。','哪項最準確？',['作者視更多自由為正面：適齡選擇與自我表達可培養責任、自信和情感成熟，仍需引導','作者主張孩子完全不需成年人','作者認為無條件服從必然最能培養思考','作者否認從小錯誤學習的價值'],['兩主體段和結論共同構成此判斷。','引導仍必要。','作者質疑此等同。','錯誤可教責任。'],[1,2,4,5,7,8,11,12,13],'positive change；guidance still necessary。'),
 ];
+const reviewedExamples=[
+  'Students are often given choices, whether in homework or after-school clubs.',
+  'I believe limited choice is valuable because it teaches planning.',
+  'The main benefit is that practice allows beginners to develop confidence.',
+  'In older classrooms, many pupils were expected to follow instructions, which could make them orderly, but not necessarily thoughtful.',
+  'By contrast, when learners choose a project, they learn to compare options.',
+  'For example, a young player may sometimes miss a goal, but that mistake can teach him patience more effectively than constant praise.',
+  'In this sense, practice acts as a safe test, where learners must make decisions.',
+  'Another reason personal choice is positive is that it encourages self-expression.',
+  'Children who ask questions are more likely to understand their needs.',
+  'If teenagers never make choices, they may grow up unsure how to decide.',
+  'For instance, when a child explains a worry, the child feels heard rather than ignored.',
+  'This does not mean children can ignore rules, but fair choices can help them develop judgment.',
+  'In conclusion, guided choice is valuable.',
+  'Although rules matter, personal choices are essential for helping young people become independent adults.',
+];
+reviewedExamples.forEach((example,i)=>{structures[i].example=example;});
+const reviewedTransfer=[
+  [
+    ['自己安排功課可練比較選項與承擔結果','只由成人指定科目，孩子毋須比較選項','孩子選完科目，便毋須再完成任何功課','只看選擇是否愉快，不檢查安排後的責任'],
+    ['適齡選擇讓孩子練習決定並承擔後果。','成人全代決定，孩子沒有練習。','選擇仍須完成學習責任。','自由的益處包括處理結果，不只看心情。']
+  ],
+  [
+    ['從可控錯誤學責任，比全程受控更能練自主','第一次安排不好，便永久禁止學生自行安排','只表揚按表行事，未討論錯誤如何改進','由家長重訂每次時間表，孩子不需反思結果'],
+    ['試錯和調整可培養責任，不必由成人控制到底。','一次可修正錯誤不足以否定學習機會。','沒有反思便失去從錯誤學習的部分。','家長全代安排，孩子未練到自主判斷。']
+  ],
+  [
+    ['服從或帶來紀律，卻未必教孩子獨立判斷','只看孩子是否服從，便認定他會比較選項','把紀律視作無用，完全不需規則和成人引導','孩子能遵守命令，便不必練習自己作決定'],
+    ['紀律可能存在，卻不能直接證明有判斷力。','服從和獨立比較選項不是同一能力。','原文沒有否定規則和引導。','只遵命會少了自主決策練習。']
+  ],
+  [
+    ['坦誠表達有助理解感受、說出需要及改善關係','孩子說出擔憂後，父母便不必再聆聽和討論','只要求孩子接受安排，未讓他說明自己的擔憂','父母一聽見擔憂，便要毫無條件同意所有想法'],
+    ['表達與聆聽可幫孩子理解情緒和關係。','說出感受後仍需要雙向交流。','壓下擔憂失去表達和理解機會。','聆聽不等於無條件同意。']
+  ],
+  [
+    ['聆聽可令孩子感到受尊重，不等於全盤同意','只有父母同意目標，孩子才可能感到被尊重','父母可先聆聽，卻毋須考慮孩子的實際需要','只讓孩子說完，便可忽略後續的討論與引導'],
+    ['被認真聽見與意見獲全數採納是兩回事。','尊重不以完全同意為前提。','聆聽還要理解和回應需要。','有表達機會後仍需要討論。']
+  ],
+  [
+    ['適齡選擇可與教師安全及時間界線並存','孩子有選擇，教師便不應再設定任何安全規則','教師設好時間，孩子就不需要作任何閱讀選擇','只看選擇數目，不查年齡是否適合和安全'],
+    ['合理自主與必要的成人引導可以同時存在。','自主不代表取消安全界線。','有界線仍可在其內作選擇。','選擇須符合年齡和風險。']
+  ],
+  [
+    ['作者主張合理自由與引導，未准許為所欲為','把合理自由理解為孩子任何要求都要立即答應','因需要引導，便不給孩子任何自主選擇機會','只談自由帶來快樂，未處理責任與年齡界線'],
+    ['原文明言自由須合理，成人引導仍有必要。','無條件答應不是合理或適齡的自由。','引導不要求取消所有自主。','文章還談責任與判斷能力。']
+  ],
+  [
+    ['可能害怕分歧，較難為自己的需要辯護','只看孩子是否安靜，便認定他日後懂得表達','過度保護可減少爭執，故不必練習說出想法','孩子未有表達機會，卻假定其自信不受影響'],
+    ['原文提出過度保護可能影響日後表達與自信。','安靜不代表能處理分歧。','避免爭執可能令孩子少了練習。','缺少表達經驗不能直接推成沒有影響。']
+  ],
+  [
+    ['適齡選擇及處理後果，能練日後決策','孩子改選活動，便證明第一次選擇毫無價值','只讓成人代選，孩子不用比較不同活動','只問活動是否好玩，不看孩子如何調整決定'],
+    ['選擇、發現不合適和改選是安全的決策練習。','修正正是從經驗中學習。','成人代選沒有給孩子練習機會。','還要看反思與處理後果的過程。']
+  ],
+  [
+    ['看獨立、自信、表達與成年準備，不只看快樂','只問孩子是否開心，不看判斷與責任有否增長','只看有多少活動可選，不查孩子能否表達需要','只問家長是否省心，不看孩子長遠的能力發展'],
+    ['作者的正面判斷包含多種能力和情感發展。','快樂只是可能感受，不能代替能力評估。','選項數量不等於孩子能作出成熟決定。','成人省心不是本文的學習目標。']
+  ],
+  [
+    ['說明年齡與風險界線，並保留必要成人引導','只寫給孩子更多自由，不訂任何年齡或安全範圍','只要求成人批准每件小事，孩子沒有練習空間','只談自主能否令人開心，不說明何時需要引導'],
+    ['合理自由須對年齡、風險和引導有清楚邊界。','口號缺少可操作的適齡條件。','成人全代決定，無法培養自主。','快樂不能替代安全和發展判準。']
+  ],
+  [
+    ['適齡自由可培養責任、自信與成熟，但仍需引導','只強調孩子可自由選擇，忽略年齡及必要的界線','只強調成人應引導，卻不讓孩子練習表達與選擇','把服從當成成熟的唯一證據，未看判斷與自信'],
+    ['完整回收自主、表達、成長和成人引導。','自由並非無邊界。','引導仍要給孩子練習空間。','服從未必等於成熟判斷。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:50',
   meta:{topic:'兒童更多自由、獨立決策與情感成長',summary:'作者認為孩子比前代有更多自由是正面變化。符合年齡的選擇使孩子比較選項、承擔後果，從可控錯誤中學責任；坦誠表達亦有助理解感受、溝通需要及建立關係。文章明確指出自由不等於為所欲為，合理自由仍須與成人引導並行。'},

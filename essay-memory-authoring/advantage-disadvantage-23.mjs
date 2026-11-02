@@ -44,11 +44,11 @@ const vocabulary=[
 const part=(text,kind,label)=>[text,kind,label];
 function frame(i,formula,meaning,usage,links,labels){const text=original[i],parts=[];let cursor=0,slotIndex=0;for(const fixed of links){const at=text.indexOf(fixed,cursor);if(at<0)throw Error('Missing fixed phrase '+(i+1)+': '+fixed);if(at>cursor)parts.push(part(text.slice(cursor,at),'slot',labels[slotIndex++]||'換入內容'));parts.push(part(fixed,'link','句型固定部分'));cursor=at+fixed.length}if(cursor<text.length)parts.push(part(text.slice(cursor),'slot',labels[slotIndex++]||'換入內容'));return {formula,meaning,usage,parts}}
 const specs=[
- {example:'In recent decades, the expansion of online courses and other forms of international contact has helped students study across borders.',d:[1,3,9],relation:'背景句把跨國交流擴展連到語言使用範圍',formula:'In recent decades, the expansion of [活動] and other forms of international contact has helped [對象] [結果]',meaning:'旅遊及國際接觸擴展，推動英語廣泛使用。',links:['In recent decades, the expansion of ', ' and other forms of international contact has helped '],labels:['擴展的活動','受影響者及結果']},
+ {example:'In recent decades, the expansion of online courses and other forms of international contact has helped students study across borders.',d:[1,3,9],relation:'背景句把跨國交流擴展連到語言使用範圍',formula:'In recent decades, the expansion of [活動] and other forms of international contact has helped [對象] [結果]',meaning:'旅遊及國際接觸擴展，推動英語廣泛使用。',links:['In recent decades, the expansion of ', ' and other forms of international contact has helped ', ' '],labels:['擴展的活動','受影響者','產生的結果']},
  {example:'As a result, some people believe that every child may one day learn the same second language.',d:[0,9,15],relation:'As a result 從前述現象引出未來推測',formula:'As a result, some people believe that [未來可能情況]',meaning:'部分人因此預測人類可能共用一種語言。',links:['As a result, some people believe that '],labels:['未來推測']},
  {example:'Such a development would offer notable practical benefits, but it would also carry serious cultural costs.',d:[1,9,15],relation:'but 同時預告實際好處與文化社會代價',formula:'Such a development would offer [好處], but it would also carry [代價]',meaning:'共同語言有溝通好處，也可能有文化及社會代價。',links:['Such a development would offer ', ', but it would also carry '],labels:['可得好處','可能代價']},
  {example:'The most obvious advantage of one global language is faster international discussion.',d:[2,9,15],relation:'主題句先提出單語世界的溝通好處',formula:'The most obvious advantage of [做法] is [核心好處]',meaning:'全球一語最明顯好處是溝通容易。',links:['The most obvious advantage of ', ' is '],labels:['做法','核心好處']},
- {example:'If people from different countries could speak to one another without interpreters or translation software, research and business would all become more efficient.',d:[3,9,10],relation:'If 假設無翻譯障礙，推到跨國活動效率',formula:'If [無障礙條件], [多種活動] would become more efficient',meaning:'免翻譯交流可提高旅遊、貿易、外交及學術合作效率。',links:['If ', ' would all become more efficient.'],labels:['無翻譯障礙的條件']},
+ {example:'If people from different countries could speak to one another without interpreters or translation software, research and business would all become more efficient.',d:[3,9,10],relation:'If 假設無翻譯障礙，推到跨國活動效率',formula:'If [無障礙條件], [多種活動] would become more efficient',meaning:'免翻譯交流可提高旅遊、貿易、外交及學術合作效率。',links:['If ', ', ', ' would all become more efficient.'],labels:['無翻譯障礙的條件','受影響活動']},
  {example:'Misunderstandings among researchers could be reduced, and ideas could cross borders far more quickly.',d:[3,9,10],relation:'並列誤解減少與觀念傳播加快',formula:'[誤解] could be reduced, and [想法] could cross borders far more quickly',meaning:'誤解或減少，想法可更快跨國流動。',links:[' could be reduced, and ', ' could cross borders far more quickly.'],labels:['可減少的問題','可流動的內容']},
  {example:'A common language could also widen access to training and work.',d:[3,9,10],relation:'also 從溝通效率加上教育就業可及性',formula:'A common language could also widen access to [新機會]',meaning:'共同語言可擴大教育與就業機會。',links:['A common language could also widen access to '],labels:['可擴大的機會']},
  {example:'Students would be able to apply abroad more easily, while workers could compete in a wider regional labour market.',d:[3,9,10],relation:'while 並列學生及勞工兩種機會',formula:'Students would be able to [學習機會], while workers could [工作機會]',meaning:'學生較易海外升學，勞工可進入更廣國際市場。',links:['Students would be able to ', ', while workers could '],labels:['學生機會','勞工機會']},
@@ -118,15 +118,35 @@ const logic=[
  ],'不能只說「大家都會同一語言」便假定競爭條件公平。'),
 ];
 const transfers=[
- transfer('跨國醫療團隊以同一語言交換研究結果。','哪句準確應用溝通效率的論證？',['少了翻譯步驟，團隊可能更快交換資訊並協調研究。','共同語言保證研究一定找出治療方法。','同一語言會令所有醫療分歧立即消失。','研究團隊只需要語言，不需要專業能力。'],['減少語言障礙可改善交換速度。','不能保證結果。','分歧未必消失。','專業能力仍必要。'],[4,5],'原文無翻譯障礙可令學術合作更有效率。'),
- transfer('一名學生懂得另一國大學的授課語言。','哪句保留範文對教育機會的限定？',['語言相通可讓海外學習較容易，但仍須符合其他入學條件。','只要懂語言，大學便必須立即錄取。','懂授課語言會使海外學習完全不可能。','語言能力與學習選擇永遠無關。'],['could widen access，不是入學保證。','缺少其他條件。','方向相反。','可影響選擇。'],[6,7],'原文 students would be able to study abroad more easily。'),
- transfer('一種小語言保存了社區幾代人的故事。','哪句準確指出流失風險？',['若語言被排擠，相關故事與歷史知識也可能難以傳承。','只要改用大語言，所有民間故事都會自動完整保存。','語言只負責數字計算，與社區記憶無關。','任何小語言都必然在明年消失。'],['語言承載故事與歷史，保留可能性。','無自動保存。','與原文相反。','無此日期保證。'],[10,11],'原文語言承載 memory/identity/tradition。'),
- transfer('全球企業主要用一種語言招聘。','哪句指出機會分配可能不公平？',['從小使用該語言的人可能先佔優勢，其他人須付出額外學習成本。','同一招聘語言保證所有人起點完全相同。','非母語者必然完全沒有任何工作能力。','企業招聘只取決於語言，與技能無關。'],['語言起點不同，機會可能不等。','忽略母語優勢。','過度斷言。','仍看工作技能。'],[12,13],'原文 dominant-language speakers immediate advantage。'),
- transfer('政府考慮把全部公共服務只保留一種語言。','哪句同時評估效率與文化可及性？',['服務或較易統一，但仍須檢查少數語言社群會否失去資訊與身分空間。','統一語言必然令每個社群完全同等受益。','只要有效率，少數語言使用者便不需服務。','只談招牌顏色便能完成語言政策評估。'],['同時看便利與被排除風險。','公平未獲保證。','公共服務仍應可及。','議題不相關。'],[4,10,11,13],'原文便利與文化社會代價並存。'),
- transfer('國際會議取消所有口譯服務後，部分代表溝通更快，部分人發言減少。','哪句最貼近範文的雙面框架？',['共同語言可能提高速度，卻也可能使非母語者較難平等參與。','溝通變快便證明所有代表都發言更多。','有人發言減少便證明溝通效率一定沒有改善。','會議語言只影響座位安排。'],['效率收益與參與公平可同時存在。','忽略另一面。','兩面可並存。','不相關。'],[4,13,14],'原文 practical benefits 與 social imbalance 同時討論。'),
- transfer('有人把「母語」只當一種日常工具。','哪句根據範文修正這種說法？',['母語也可能保存一個群體的記憶、故事及身分認同。','母語與任何文化內容完全沒有關係。','只要有另一種語言，所有回憶都必然消失。','母語的唯一用途是讓人買東西。'],['not merely tool，指出深層文化角色。','與原文相反。','過度保證。','用途太窄。'],[10,11],'原文語言不只交換資訊，還承載文化。'),
- transfer('文章要討論全球共同標準的利弊，例如統一度量衡。','哪句真正跨題轉用本文的思路？',['可比較跨境協作效率與各地原有知識、習慣及適應成本。','因為單一語言有好處，統一度量衡必然沒有代價。','只要標準統一，所有地方傳統都一定消失。','度量衡與任何跨境交流完全無關。'],['轉移效率與本地代價的分析維度。','不可照搬結論。','過度斷言。','可能有關。'],[4,10,12],'原文以效率和本地文化公平兩面評估共同工具。'),
- transfer('一種語言對國際求職者較有用，但社區仍教孩子本地語言。','哪句把兩個目標合理並存？',['可利用共同語言擴大工作機會，同時保留地方語言的文化傳承。','若學全球語言，孩子便必須停止使用母語。','保留本地語言必然令所有國際工作機會消失。','任何人都不可能學會兩種語言。'],['機會與傳承可同時考慮。','原文說風險非必然要求。','無此必然。','人可學多語。'],[6,10,11],'原文 opportunity benefit 與 heritage risk 可同時管理。'),
- transfer('一篇作文只說「一種語言較方便」，便下結論說一定公平。','哪句指出缺少的推論步驟？',['便利不等於公平，還須比較母語者和非母語者的起點及代價。','便利必然令每個人有同樣資源。','只要有人會翻譯，社會便沒有任何不平等。','公平與語言選擇完全無關。'],['先分辨效率與機會分配。','過度推論。','無此保證。','原文談語言優勢。'],[12,13,14],'原文 one-language world might not be as fair as it appears。'),
+ transfer('跨國醫療團隊以同一語言交換研究結果。','哪句準確應用溝通效率的論證？',["減少翻譯步驟，跨國醫療團隊或可更快分享資料及協作", "共同語言有助交談，因此團隊可以不再檢查研究方法", "研究者使用同一語言，便能取代各自的醫學專業判斷", "少了翻譯時間後，跨國研究仍不能交換任何新資訊"],["把共同語言連到較快交流和協作。", "溝通方便不取消方法檢查。", "語言不能代替專業能力。", "忽略交流效率的收益。"],[4,5],'原文無翻譯障礙可令學術合作更有效率。'),
+ transfer('一名學生懂得另一國大學的授課語言。','哪句保留範文對教育機會的限定？',["懂授課語言可讓海外學習較易，仍須符合其他入學要求", "語言能力較好，就等於學校已完成所有成績與資格審核", "海外課程可聽懂後，便毋須再考慮學費與入學名額", "語言相通可能拓闊選擇，但會令所有海外課程停招"],["語言能力降低一項門檻，不保證錄取。", "漏掉其他評核。", "仍有財務和名額條件。", "與拓闊選擇的方向相反。"],[6,7],'原文 students would be able to study abroad more easily。'),
+ transfer('一種小語言保存了社區幾代人的故事。','哪句準確指出流失風險？',["小語言若被排擠，社區故事與歷史知識或更難傳承", "改用大語言可方便交流，因此原有故事會自然完整保留", "社區仍會記得故事，所以語言消失也不會影響傳承方式", "小語言保存記憶，但只要全球語言普及便不再有價值"],["語言也承載跨代的文化內容。", "交流便利不保證保存特定故事。", "傳承方式仍受語言流失影響。", "否定了文章指出的文化價值。"],[10,11],'原文語言承載 memory/identity/tradition。'),
+ transfer('全球企業主要用一種語言招聘。','哪句指出機會分配可能不公平？',["母語使用者或先佔優勢，其他求職者須付出額外學習成本", "統一招聘語言可減少翻譯，故所有求職者起點已經相同", "非母語者須學語言，便表示他們完全缺少工作技能", "企業用同一語言招聘後，專業能力便不再需要評估"],["指出共同語言下不均等的起點。", "效率不等於平等。", "語言學習成本不代表沒有專業能力。", "招聘仍須看技能。"],[12,13],'原文 dominant-language speakers immediate advantage。'),
+ transfer('政府考慮把全部公共服務只保留一種語言。','哪句同時評估效率與文化可及性？',["服務或較易統一，仍須保障少數群體取得資訊與身分空間", "單一語言可提高效率，因此少數群體不再需要公共資訊", "多語服務需要資源，故地方語言與社區身分完全無關", "政府若統一用語，所有居民便會自動同樣理解每項服務"],["兼顧行政效率、資訊可及與文化身分。", "效率不能取消服務需要。", "忽略語言與身分的連結。", "同一用語不保證同等理解。"],[4,10,11,13],'原文便利與文化社會代價並存。'),
+ transfer('國際會議取消所有口譯服務後，部分代表溝通更快，部分人發言減少。','哪句最貼近範文的雙面框架？',["共同語言或加快交流，非母語代表卻可能較難平等發言", "會議溝通變快，便證明每位代表的發言時間都已增加", "部分代表發言減少，便可直接否定所有協作效率收益", "取消口譯後，代表仍能同樣參與，因語言能力不再重要"],["同時承認速度好處和參與不均。", "速度與每人發言量不同。", "不必因代價否定所有收益。", "忽略非母語代表的門檻。"],[4,13,14],'原文 practical benefits 與 social imbalance 同時討論。'),
+ transfer('有人把「母語」只當一種日常工具。','哪句根據範文修正這種說法？',["母語除日常交流外，也可能保存群體故事、記憶與認同", "母語可用於買賣，因此不會再承載任何歷史文化內容", "改用共同語言較方便，便足以完整保存所有原有故事", "社區認同可能重要，但只取決於招牌而非成員的語言"],["補出語言作為文化載體的作用。", "把語言錯限於交易。", "方便不保證原語故事完整傳承。", "忽略語言對身分的作用。"],[10,11],'原文語言不只交換資訊，還承載文化。'),
+ transfer('文章要討論全球共同標準的利弊，例如統一度量衡。','哪句真正跨題轉用本文的思路？',["比較跨境合作效率，也查地方知識習慣與轉換標準的成本", "統一標準可方便合作，所以各地舊習慣都毋須再評估", "地方習慣值得保留，因此共同標準不可能提高任何效率", "只要度量衡一致，所有地區便會以相同速度完成轉換"],["轉移效率與地方適應代價的雙面框架。", "只看收益。", "只看代價。", "忽略轉換能力差異。"],[4,10,12],'原文以效率和本地文化公平兩面評估共同工具。'),
+ transfer('一種語言對國際求職者較有用，但社區仍教孩子本地語言。','哪句把兩個目標合理並存？',["以共同語言擴大國際機會，同時保留本地語言的文化傳承", "國際工作較需要共同語言，因此孩子應停止學習母語", "地方語言值得保存，便代表任何國際工作都不可申請", "學習兩種語言可能較費時，所以兩項目標必須互相排斥"],["兩種語言可分別服務工作與文化目標。", "不需因全球語言放棄母語。", "保存母語不取消國際機會。", "兩項目標可並存。"],[6,10,11],'原文 opportunity benefit 與 heritage risk 可同時管理。'),
+ transfer('一篇作文只說「一種語言較方便」，便下結論說一定公平。','哪句指出缺少的推論步驟？',["便利不等於公平，仍須比較母語與非母語使用者的起點成本", "只要共同語言令交流較快，所有使用者便已獲同等機會", "非母語者可努力學習，便不需要再評估額外學習成本", "統一語言雖能減少翻譯，公平問題只看會議場地大小"],["在效率之外補上起點與代價的比較。", "速度不等於機會平等。", "個人可學不取消結構成本。", "場地大小並非公平機制。"],[12,13,14],'原文 one-language world might not be as fair as it appears。'),
 ];
+const revised=[
+ {wrong:['共同語言有助交談，因此研究方法可稍後再核對','使用同一語言後，專業判斷便較少影響研究交流','少了翻譯時間，團隊只會更快重述已有的資訊'],why:['溝通效率不取消研究方法的核查。','語言共同不會取代醫學專業判斷。','更快交流也可能促進新資料分享。']},
+ {wrong:['語言能力較好，學校審核成績與資格便會更寬鬆','能聽懂海外課程後，學費和名額可視為次要條件','語言相通擴大選擇，畢業資格便可視為已達標'],why:['語言是入學條件之一，不決定其他審核。','學費和名額仍可能限制申請。','能聽課不保證完成課程或取得資格。']},
+ {wrong:['大語言方便交流，原有故事可換種語言完整保留','社區仍記得故事，語言流失便較少影響傳承','小語言有歷史價值，但全球語言更利於保存故事'],why:['翻譯未必保留語言特有的文化細節。','語言改變可能改變故事的傳遞方式。','小語言本身也是記憶與認同的載體。']},
+ {wrong:['招聘語言統一較有效率，求職者起點便大致相同','非母語者須額外學語言，因此專業技能較難比較','企業以同一語言招聘，專業能力可留到入職再看'],why:['效率提升不會消除母語者的起點優勢。','語言成本與其他專業能力應分開評估。','招聘仍需評估職務所需能力。']},
+ {wrong:['單一語言提高效率，少數群體可自行尋找譯本','多語服務需要資源，因此地方語言可只用於私人生活','政府統一用語後，居民理解服務的差距便會縮小'],why:['公共資訊可及性不應完全轉嫁給少數群體。','地方語言也涉及公共身分和參與。','統一用語可能使部分居民較難理解。']},
+ {wrong:['交流速度變快，可推知各代表的參與程度也提高','部分代表發言減少，合作效率的收益便較難成立','取消口譯後，非母語代表可透過準備維持同等參與'],why:['速度不等於人人有同等發言機會。','效率收益與不公平代價可以並存。','準備有幫助，仍可能有語言障礙。']},
+ {wrong:['母語方便日常買賣，歷史文化可由其他媒介保存','共同語言較方便，原有故事的內容便較易完整傳承','社區認同有多種來源，語言在其中的作用較小'],why:['其他媒介不會取消母語的文化載體作用。','改用語言可能失去原有細節和表達。','母語也可能是重要的認同來源。']},
+ {wrong:['統一標準方便合作，地方轉換成本便較不重要','地方習慣有保存價值，共同標準的效率收益可略過','度量衡標準一致後，各地轉換速度應大致相同'],why:['合作效率與轉換成本都需比較。','保留地方習慣不否定共同標準的收益。','轉換速度仍受各地條件影響。']},
+ {wrong:['國際工作需要共同語言，母語可留到成年再學','地方語言值得保存，國際工作機會便較少重要','兩種語言都要學，文化與求職目標便容易互相擠壓'],why:['母語傳承不必因國際需求而延期。','兩項目標並非只能擇一。','時間投入有成本，但不必然互相排斥。']},
+ {wrong:['共同語言令交流較快，便可推知機會分配較平等','非母語者可以學習，額外成本便只屬個人選擇','統一語言減少翻譯，公平問題可由會場安排處理'],why:['速度和公平是不同評估面向。','額外學習成本仍值得比較。','會場安排不能消除語言起點差異。']},
+];
+revised.forEach((r,i)=>{transfers[i].options=[transfers[i].options[0],...r.wrong];transfers[i].explanations=[transfers[i].explanations[0],...r.why]});
+transfers[0].options[0]='少了翻譯步驟，跨國醫療團隊或可更快分享資料';
+transfers[1].options[0]='懂授課語言有利海外學習，仍須符合其他入學要求';
+transfers[3].options[0]='母語者或先佔優勢，其他求職者有額外學習成本';
+transfers[4].options[0]='單一語言較有效率，仍須保障少數群體取得資訊';
+transfers[7].options[0]='比較跨境合作效率，也查地方習慣與標準轉換成本';
+transfers[8].options[0]='以共同語言擴大機會，也保留本地語言的文化傳承';
+transfers[9].options[0]='便利不等於公平，還須比較兩類使用者的起點成本';
 export default {key:'advantage-disadvantage:23',meta:{topic:'共同語言的效率與文化公平代價',summary:'範文承認全球共通語言可減少翻譯障礙，擴大教育與工作機會；亦指出較小語言可能連同故事和知識流失，主導語言母語者可能先佔優勢。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

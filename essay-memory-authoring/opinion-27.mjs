@@ -2,7 +2,7 @@
 const simple=[
   'New technology has greatly changed how crimes are prevented and investigated.',
   'I strongly agree that crime is generally less common than in the past because today’s digital tools make crimes harder to carry out and much easier to solve.',
-  'The first reason is that technology can stop many crimes before they take place.',
+  'First, technology helps stop many crimes before they start.',
   'In the past, people committing crimes often did not worry much about being recognised, especially in quiet streets, shops, places to park cars or areas where people live.',
   'But today, cameras that watch places, alarms, locks that check a person’s body and phone apps that help protect property have changed this a lot.',
   'A person thinking of stealing may be much less willing to try if they see cameras outside a building or know an alarm will tell the owner at once.',
@@ -21,7 +21,7 @@ const simple=[
 const vocabulary=[
   [['Crime prevention','how crimes are prevented','預防犯罪'],['criminal investigation','investigated','刑事調查'],['transformed','greatly changed','徹底改變'],['modern technology','New technology','現代科技']],
   [['strongly agree','strongly agree','強烈同意'],['crime rates are generally lower','crime is generally less common','犯罪率整體較低'],['digital tools','digital tools','數位工具'],['offences harder to commit','crimes harder to carry out','更難犯罪'],['easier to solve','easier to solve','更易破案']],
-  [['stop many crimes','stop many crimes','阻止許多罪案'],['before they happen','before they take place','發生之前']],
+  [['The first reason is that','First,','第一個原因是'],['stop many crimes','stop many crimes','阻止許多罪案'],['before they happen','before they start','發生之前']],
   [['criminals','people committing crimes','罪犯'],['little fear of being identified','did not worry much about being recognised','不太怕被識別'],['car parks','places to park cars','停車場'],['residential areas','areas where people live','住宅區']],
   [['however','But','然而'],['surveillance cameras','cameras that watch places','監控攝影機'],['alarm systems','alarms','警報系統'],['biometric locks','locks that check a person’s body','生物識別門鎖'],['mobile security apps','phone apps that help protect property','手機保安應用程式']],
   [['thief','person thinking of stealing','小偷'],['immediately alert the owner','tell the owner at once','立即通知業主'],['far less likely to take the risk','much less willing to try','較不願冒險']],
@@ -59,7 +59,7 @@ const chunkOverrides=[
 const simpleChunkOverrides=[
   ['New technology has greatly changed','how crimes are prevented and investigated.'],
   ['I strongly agree that crime is generally less common than in the past','because today’s digital tools make crimes harder to carry out','and much easier to solve.'],
-  ['The first reason is that technology','can stop many crimes before they take place.'],
+  ['First, technology helps stop many crimes','before they start.'],
   ['In the past, people committing crimes often did not worry much about being recognised,','especially in quiet streets, shops, places to park cars or areas where people live.'],
   ['But today, cameras that watch places, alarms, locks that check a person’s body and phone apps that help protect property','have changed this a lot.'],
   ['A person thinking of stealing may be much less willing to try','if they see cameras outside a building','or know an alarm will tell the owner at once.'],
@@ -326,6 +326,47 @@ const transfer=[
     '範文沒有逐年資料。',
   ],[7,10,13,14,16],'範文最後用 By preventing offences and giving police stronger evidence 概括。'),
 ];
+const reviewedTransferOptions=[
+  ['顧客知偷貨較易被察覺，或因此不願冒險','裝了設備，所有偷竊便必然永久消失','商品標籤只會令偷貨更容易不被察覺','只有事後調查會受保安設備影響'],
+  ['入侵者知業主即收警報，或因而不敢冒險','警報一響，便證明大廈從不會有罪案','即時通知使入侵者難知自己可能被發現','警報只可取代全部日後調查證據'],
+  ['目擊資料可參考，仍應加上其他可核實證據','證人有一次不一致，所有證人便永遠無用','有人目擊，警方便不再可以查其他紀錄','記憶不一致，任何其他資料便無法幫助'],
+  ['定位查車位置，攝影機或顯示涉事者路線','定位裝置必定顯示每個人的完整身份','攝影機只可提供油量，不能顯示去向','已有一種線索，便毋須核實其他資料'],
+  ['網絡資料或留可追查痕跡，仍需調查核實','見到一個網絡地址，便自動確認全部案情','網上訊息不能保存，便永遠不能作資料','轉帳紀錄只與商店的電子標籤有關'],
+  ['設備事前增風險，線索亦可讓潛在罪犯卻步','科技只於罪案發生後出現，事前沒有設備','有追查能力，便保證每個人都不會犯罪','證據與潛在罪犯的風險判斷毫無關係'],
+  ['說明發現風險，再查失竊與調查的實際資料','裝了攝影機，便宣稱失竊率已經變成零','只憑設備清單，便知道每名學生的行為','攝影機只是裝飾，毋須檢查其記錄功能'],
+  ['兩種設備或增加被察覺風險，影響小偷選擇','設備名稱不同，便不可能有任何共同作用','警報與攝影機都保證所有案件自動偵破','兩種設備都令偷貨更加容易而安全'],
+  ['不只靠目擊者，可用其他證據補充而不排除證人','範文明確要求所有案件都完全忽略證人','有目擊者，便絕不能再查看指紋或DNA等證據','目擊者記憶永遠完美，不需其他實物資料'],
+  ['通知偏向警示阻嚇，DNA屬調查證據工具','手機通知與DNA一樣，都只看人體材料','兩者都沒有任何事前或事後實際用途','只要用了手機，便毋須區分科技的作用'],
+  ['攝影機提高被記錄機會，或令人較不願冒險','攝影機一裝，所有人便永遠不再犯罪','攝影機從來不會影響被發現的風險','只有犯罪後，人們才可能看到攝影機'],
+  ['保安或防部分罪案，證據助調查並增加風險','只有保安設備能預防，證據不影響事前判斷','有更強證據，便毋須再查案件實際情況','兩者證明每年犯罪率都必定完全相同'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const plausibleAlternatives=[
+  [['先比較失竊前後數目，暫不說明顧客被察覺風險','把標籤當作案後線索，不談它在出口的阻嚇','只談警方到場速度，不看設備會否被顧客注意'],['數字可檢驗效果，但題目問的是事前機制。','標籤也可能在當下增加被發現風險。','可見設備在犯罪決定前已可能發揮作用。']],
+  [['先查警報響後的處理，不談入侵者事前判斷','通知機主有幫助，但先把它當作案後工具','只看警報音量，少看即時通知是否增加風險'],['題目問的是對潛在入侵者的影響。','即時通知也能在案前改變風險判斷。','聲音大小不足以說明通知機制。']],
+  [['只查其他紀錄，暫不再向目擊者核對細節','仍以目擊者說法為主，較少檢查時間矛盾','因一項記憶不一致，便較少尋找其他線索'],['範文說不只依賴證人，並未要求排除。','已知矛盾，應配合可核實材料。','其他資料仍可補足記憶缺口。']],
+  [['用定位資料推測涉事者身份，少查攝影機畫面','把攝影機畫面當定位紀錄，少看人物去向','先用一種線索定案，另一種只作事後補述'],['車輛位置不能直接證明誰涉事。','攝影機可提供不同種類的線索。','證據需要相互核對。']],
+  [['先憑單一網絡地址下判斷，其他紀錄稍後才查','把訊息看作聊天內容，暫不保存與核對','只查商店電子標籤，不追蹤網上轉帳紀錄'],['一項線索不足以證明完整案情。','訊息歷史可能是可用線索。','電子標籤與這宗網騙的線索不對題。']],
+  [['只看案後的科技用途，不查設備案前是否可見','把被追查風險當案後結果，少問犯案前想法','只比較設備價格，不問潛在犯案者如何判斷'],['設備可事前影響風險感。','可能被追查也是事前決定的一部分。','價格不等於阻嚇機制。']],
+  [['先展示設備數量，暫不收集實際失竊資料','只用設備清單，推測每名學生的個別行為','只談攝影機畫質，不查其警示及記錄作用'],['清單不能直接證明實際效果。','設備存在不能推定個人行為。','畫質只是可能的因素，仍須檢驗機制。']],
+  [['因設備形式不同，先分別描述而不找共同機制','把警報當作破案證據，較少談即時通知','只算設備安裝數，不問它是否增加風險感'],['兩者都可提高被察覺風險。','警報還可能在案前通知與阻嚇。','數量不足以回答共同原理。']],
+  [['取得指紋後，先把目擊說法列為較次要資料','目擊者曾記錯，便不再向他核對其他細節','把新證據當證人記憶可靠的證明，不另查'],['其他證據可補充，並非一律取代證人。','局部錯誤不等於其餘描述沒有價值。','證據之間仍須核對。']],
+  [['把通知與DNA合稱「追查」，不分事前事後的作用','只看兩者都是科技，較少查所用資料種類','先分類所需設備價格，不討論作用的時間點'],['這混淆了警示和案後鑑定。','技術名稱相近不足以說明機制。','價格無助釐清題目的分類錯誤。']],
+  [['把攝影機數量當成失竊率下降的直接證據','先查案後影片，不談作案前被看見的風險','只看校園巡邏時段，少問攝影機是否可見'],['設備數量不能證明實際犯罪結果。','範文也談事前阻嚇。','要回應海報，須檢查其絕對化推論。']],
+  [['只說保安設備有用，較少提案後證據的作用','只談證據如何破案，不問可追查性會否阻嚇','按一年罪案數下結論，不說明兩項機制'],['題目要求概括雙重作用。','可追查性也可能進入事前風險判斷。','單年數據不足以解釋機制。']],
+];
+plausibleAlternatives.forEach(([options,explanations],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...explanations);});
+structures[0].example='Online payments and bank investigations have been transformed by modern technology.';
+structures[3].example='In the past, thieves often acted with little fear of being recognised, especially in quiet car parks.';
+structures[4].example='Today, however, cameras and alarms have changed that risk completely.';
+structures[5].example='A would-be thief who notices a camera is less willing to risk entering the building.';
+structures[6].example='For example, shops use cameras and electronic tags, so taking goods unnoticed is no longer as simple as walking out unseen.';
+structures[7].example='The chance of being recorded creates a deterrent, which reduces theft and damage to property.';
+structures[9].example='Modern investigations no longer depend only on witnesses, who may forget details.';
+structures[11].example='For instance, if a stolen bicycle has a tracking device, the bicycle may be tracked through GPS, while cameras can show the route taken.';
+structures[12].example='Similarly, online fraudsters often leave behind money records, internet addresses and messages.';
+structures[13].example='When would-be offenders know their actions may leave a trace, they are less willing to act.';
+structures[16].example='By preventing theft and giving investigators stronger evidence, technology has made offending a riskier choice.';
 export default {
   key:'opinion:27',
   meta:{topic:'科技、犯罪阻嚇與刑事調查',summary:'範文作者強烈同意科技有助減少犯罪，提出兩條機制：監控與警報增加作案前被發現風險；DNA、GPS與數位痕跡等資料可協助調查，亦可能反過來形成阻嚇。'},

@@ -313,6 +313,54 @@ const transfer=[
     '靈活不是放棄準確。',
   ],[5,6,13,14],'範文結論為 adjust according to purpose and audience，Grammar is not dying。'),
 ];
+const reviewedTransferOptions=[
+  ['聊天簡寫或求快，不等於正式拼字能力消失','寫過「u」，便永遠不能在考試中再正確寫「you」','朋友聊天與考試，必須使用完全相同文風','圖方便，正式作文也應一律改用「u」寫作'],
+  ['員工按受眾切換寫法，兩種語域可並存','對朋友用短寫法，便證明不能寫完整信件','客戶信與私訊，必須遵守完全相同規範','朋友私訊足以顯示員工全部語言能力'],
+  ['接觸文字多仍會犯錯，須靠教育與檢查改進','只要寫留言，便不可能再寫出任何錯字','留言愈多，學校便毋須再教正式寫作','有粗心留言，便證明從未接觸書面語'],
+  ['按正式通知讀者，改用完整句與清楚標點','聊天能用縮寫，正式通知也必須照搬','曾用縮寫，學生便再也學不會正式寫作','通知要清楚，朋友私訊也必須像公文'],
+  ['同一人可因場合改變表達，聊天考試亦然','在家說話隨意，便一定不能完成面試','面試與家庭談話，必須遵守同一套規範','學過正式用語，便不能與家人輕鬆交談'],
+  ['職場期望與工具，可促使員工檢查正式文件','有拼字工具，員工便永遠不會再粗心','建議書標準，應與朋友聊天完全一致','聊天較隨意，客戶文件便毋須再檢查'],
+  ['一則私帖不代表全部能力，更不證明文法消失','任何省標點貼文，必然都是正式的公文','文法已死，所以考試不再看正確的拼字','貼文有標點，正式場合便必然全都完美'],
+  ['數位寫作增接觸，作文修改可練正式規範','留言一多，正式作文便再也無法修改','每天寫留言，正式寫作便必然變完美','正式作文與留言，沒有共同文字基礎'],
+  ['一次錯誤不定未來，學校與練習仍可改正','一次拼字錯誤，便保證孩子永遠錯下去','可以改正，網上寫作便永遠不會粗心','學校教文法，孩子便不必再留意受眾'],
+  ['因讀者不同而換風格，仍可保留正式能力','只有展覽文字算語言，朋友訊息不算','用了表情符號，便不能寫出完整句','一種語域存在，另一種便必須消失'],
+  ['承認帖子或粗心，也教核對稿件並多練習','有錯誤，便否定數位生活增加文字接觸','容許網上寫作，便不用再教正確拼字','為免出錯，讓學生停止寫任何文字'],
+  ['按目的與讀者選擇詞語和完整度，不守一式','把正式作文全改為朋友短訊的縮寫','只學正式寫作，不必理解朋友的訊息','場景一多，正確拼字便完全不再重要'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const lessObviousAlternatives=[
+  [0,1,'群組簡寫反覆出現，可直接視作考試拼字弱點'],
+  [0,2,'朋友聊天與考試的書寫標準應盡量一致'],
+  [1,2,'客戶信與私訊應優先維持同一種簡潔規範'],
+  [1,3,'朋友私訊可作評估正式寫作的主要證據'],
+  [2,1,'網上留言夠多，拼字問題便會自然減少'],
+  [4,1,'在家說話隨意，面試能力可能因此受限制'],
+  [5,1,'設了拼字工具，員工可減少自行覆核步驟'],
+  [5,2,'客戶建議書可沿用群組內較省字的表達'],
+  [6,1,'省標點貼文較能代表學生平日的正式文風'],
+  [6,3,'貼文有標點，便可推定正式寫作的能力'],
+  [7,2,'每日寫留言已足以取代正式作文的修改'],
+  [8,1,'一次拼字錯誤可作未來能力的主要判據'],
+  [8,2,'已有改正渠道，家長便可少查學生當前錯誤'],
+  [10,3,'為避免錯誤，校刊應先減少學生的公開寫作'],
+  [11,3,'場景變多，正式拼字準確度便可稍後再學'],
+];
+lessObviousAlternatives.forEach(([row,option,wording])=>{transfer[row].options[option]=wording;});
+transfer[0].options[3]='圖方便，正式作文也應一律直接改用「u」寫作';
+transfer[8].explanations[2]='能改正也仍須留意當前錯誤與正式用途。';
+transfer[10].explanations[3]='減少書寫機會不是範文的改進方向。';
+structures[0].example='It is often argued that short messages will eventually destroy students’ ability to write formal essays.';
+structures[1].example='I disagree with this view because casual chat language depends on context, and frequent writing can improve awareness of words.';
+structures[3].example='When friends type “u” or leave out full stops in a quick note, they are usually choosing speed, not showing that they have forgotten spelling.';
+structures[4].example='This is similar to the way people speak differently with family and in a job interview.';
+structures[5].example='A student may write casually to friends, but the same student can still use full sentences and correct spelling in a test.';
+structures[6].example='In this sense, texting is not the death of spelling; it is simply another style for a different situation.';
+structures[8].example='Many people now write emails, comments and work notes each day, so they are meeting written language more often.';
+structures[9].example='Admittedly, some posts are careless, but poor habits are corrected by teachers, workplace rules and checking tools.';
+structures[10].example='For example, a worker may use short forms with friends, yet still check a client report carefully.';
+structures[11].example='The need to communicate clearly has not disappeared; if anything, it has become more visible in public writing.';
+structures[13].example='Although short messages encourage a simpler style, people can still adjust language according to readers and purposes.';
+structures[14].example='Grammar is not dead; it is being used differently across situations.';
 export default {
   key:'opinion:24',
   meta:{topic:'短訊語域、文法能力與日常寫作',summary:'作者反對短訊會毀掉文法和拼字的預測。朋友訊息可用較快的非正式語域，而正式寫作仍有不同要求；數位生活也增加文字接觸，學校和職場會促使人寫得清楚。'},

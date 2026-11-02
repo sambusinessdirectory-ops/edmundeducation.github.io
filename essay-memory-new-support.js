@@ -419,7 +419,7 @@
   const contextualApplications = {
     'opinion:3': {
       0:'Schools help shape how children understand the world.',
-      2:'I strongly disagree with that plan.',
+      2:'The committee strongly disagrees with that plan.',
       3:'I oppose the plan because it costs more and also takes longer.',
       4:'Reading books from other countries makes lessons more interesting.',
       5:'If the road is blocked, traffic slows because drivers must take another route.',
@@ -484,7 +484,7 @@
       4:['As','as-change',', independent shops'],5:[' and leaves ','parallel-verbs'],
       9:['To encourage local purchasing,','purpose'],10:[', and ','list'],
       11:['If','if',', buying locally'],
-      12:['by using','method'],13:['into','transformation'],14:['remind consumers that','reminder'],
+      12:['by ','method'],13:['into','transformation'],14:['remind consumers that','reminder'],
     },
   };
   const connectorPattern = /\b(?:because|if|when|so|but|while|however|rather than|instead of|for example|for instance|by contrast|as a result|in conclusion|overall)\b|,\s+and\s+/ig;
@@ -540,6 +540,21 @@
         parts.push({text:after.slice(boundary,boundary+2),kind:'link',label:'接上結果'});
         parts.push({text:after.slice(boundary+2),kind:'slot',label:'結果／行動'});
       } else if (after) parts.push({text:after,kind:'slot',label:startsWithBecause?'承接上一句的原因':labels[2]});
+      if(key==='cause-solution:2' && position===9){
+        parts.splice(0,parts.length,
+          {text:'To ',kind:'link',label:'引出目的'},
+          {text:'encourage local purchasing',kind:'slot',label:'要達到的目的'},
+          {text:', ',kind:'link',label:'接上主要行動'},
+          {text:'governments and councils should first make local products more visible.',kind:'slot',label:'應採取的行動'});
+      }
+      if(key==='cause-solution:2' && position===14){
+        parts.splice(0,parts.length,
+          {text:'Public campaigns can also ',kind:'slot',label:'提醒者'},
+          {text:'remind ',kind:'link',label:'提醒動詞'},
+          {text:'consumers',kind:'slot',label:'被提醒的人'},
+          {text:' that ',kind:'link',label:'引出提醒內容'},
+          {text:'local spending sustains jobs, skills and neighbourhood identity.',kind:'slot',label:'要記住的事實'});
+      }
       const frame=parts.map(part=>part.kind==='link'?part.text:`[${part.label}]`).join('');
       const ownExample=contextualApplications[key]?.[position];
       const optionBank=exampleOptions[type] || frames[type]?.options || exampleOptions.statement;
@@ -864,5 +879,79 @@
     essay.support.structures.splice(5,1,firstFrame,secondFrame);
     essay.support.structures.forEach((frame,i)=>{const row=essay.learningSentences[i];frame.source={paragraph:row.paragraph+1,sentence:row.index+1};});
     essay.support.transfer.forEach(item=>{item.sourceSentenceIndices=[...new Set(item.sourceSentenceIndices.flatMap(i=>i===5?[5,6]:[i>5?i+1:i]))];});
+  }
+})();
+(() => {
+  'use strict';
+  // Reviewed cross-topic alternatives: each wrong answer tests a specific
+  // missing step or overclaim, without revealing the key by visual length.
+  const revisions = {
+    'opinion:3': {
+      0: [
+        ['加入外國故事，比較不同文化如何處理相似的家庭關係','重讀不同本地故事，找出本地家庭關係的共同主題','加入外國故事，但只按篇幅與年代比較，不看主題','請外國作者談作品，卻不與本地故事並列作分析'],
+        ['比較相似主題在不同文化中的呈現，才有跨文化比較基礎。','只有本地材料，缺少另一文化作比較。','篇幅和年代不能代替對相似主題的比較。','聽到外地觀點，仍未與本地作品作有意義的對照。']
+      ],
+      3: [
+        ['交替安排本地與國際劇目，讓新觀眾認識本地演員','增加本地劇演出次數，卻不引入其他劇目與觀眾','只邀國際劇團演出，卻不安排本地演員登台','同時宣傳兩類劇目，卻只演出同一齣本地劇'],
+        ['多元劇目吸引更廣觀眾，並讓他們發現本地人才。','只增加原有節目，未必接觸到新觀眾。','新觀眾沒有機會看見本地演員。','宣傳多元而演出單一，沒有實際增加展演選擇。']
+      ],
+      4: [
+        ['保留本地作品並加入外國作品，擴闊理解也啟發本地作者','只加入外國作品，卻不給本地作者展示與交流機會','保留並增加本地作品，卻不引入任何外國觀點來作比較','展出兩類作品，卻只比較價格而不討論理解與創作'],
+        ['同時保留跨文化理解與本地創作成長兩條理由。','排除本地作者，未保留支持本地創作的理由。','缺少外來觀點，未保留擴闊理解的理由。','只看價格，沒有處理題目要求的兩種文化效益。']
+      ],
+      5: [
+        ['比較不同城市的單車道設計，找出同一交通問題的不同解法','只整理本市歷年單車道照片，未與其他城市做法比較','照搬海外城市單車道設計，未比較當地路況和人口差異','比較各城單車道的顏色，卻不分析使用量與交通成效'],
+        ['對照不同地方如何處理相同問題，才能看出設計用途。','只有本市資料，沒有其他做法可供比較。','直接照搬，沒有檢查不同條件下的適用性。','只比外觀，沒有比較解決交通問題的效果。']
+      ],
+      6: [
+        ['播放海外照顧者談工作的影片，再討論與本地生活的異同','只公布本地照顧者工時，未接觸其他地方的生活經歷','播放海外片段卻關掉字幕，讓觀眾只猜人物的情緒','只記錄片長和觀影人數，不討論影片中的照顧者生活'],
+        ['接觸並討論他人的實際經歷，才能擴闊社會理解。','只有本地工時，未接觸外地照顧者的經歷。','單憑猜測，難以理解片中人的真實處境。','觀看數據不能代替對他人生活的理解。']
+      ],
+      7: [
+        ['研究外地烘焙技法，再用本地食材試出新的麵包做法','保留原配方，只把麵包包裝及產品名稱改得更新','停止交流技法，讓學員反覆做同一款產品而不改配方','直接購買外地麵包轉售，學員仍不用嘗試新的製法'],
+        ['新技法與本地材料結合，才會改變學員的創作方法。','只改包裝和名稱，製作方法仍舊重複。','重做同一產品，沒有吸收或試用新技法。','轉售外地成品，沒有讓學員學習並應用做法。']
+      ],
+      8: [
+        ['交替安排本地與海外團隊分享，讓新訪客也認識本地初創','只讓海外團隊分享，卻不讓本地初創展示產品與方法','每場重播同一本地團隊介紹，卻不加入不同分享者','只更換展場海報和燈光，分享團隊與內容維持不變'],
+        ['多樣分享吸引新訪客，再增加本地團隊被發現的機會。','沒有本地團隊登場，新訪客無從認識他們。','重複同一內容，未增加吸引不同訪客的理由。','改變外觀，沒有改變活動內容與觀眾來源。']
+      ],
+      9: [
+        ['讓本地與外地農友交流，既擴闊知識也啟發本地耕作','只邀外地農友介紹產品，不讓本地農友展示方法','只邀本地農友，卻不討論其他地區的耕作經驗','讓兩地農友參展，卻只比較攤位裝飾與場地租金'],
+        ['保留本地參與，同時讓外來經驗改善理解和做法。','缺少本地農友參與，沒有促進本地耕作。','拒絕外地經驗，失去比較與改進方法的機會。','同場參展仍要交流方法，才有兩條預期效益。']
+      ]
+    },
+    'discuss-both-views:4': {
+      0: [
+        ['比較兩人的管理能力與表現，再依公開標準選任','因侄子與老闆有親屬關係，就把職位直接給他','讓兩名應徵者自行商量，卻不評估管理能力','按誰住得離餐廳較近決定，不檢查工作表現'],
+        ['按能力與表現公平選任，保留親情與工作能力的界線。','血緣不能代替管理能力。','自行商量沒有提供公平的能力評核。','住得近不是適任的證據。']
+      ],
+      7: [
+        ['錯誤持續不改，標準變得不一致，員工對管理失去信任','親屬主管的疏失未改，但員工仍相信管理標準一致','只更換店舖招牌與告示，未改進安全檢查程序','員工不再提出問題，就認定既有安全檢查已足夠'],
+        ['未糾正親屬的錯誤，會損害標準與員工信任。','疏失未改，不能推斷員工仍信任同一標準。','改招牌不能修復安全檢查或管理問題。','員工沉默可能出於顧慮，不能證明程序安全。']
+      ]
+    },
+    'cause-solution:2': {
+      0: [
+        ['居民更容易熟悉並信任連鎖品牌，本地店較難被看見','見本地店宣傳較少，便推斷它的商品品質一定較差','連鎖廣告出現頻繁，就認定居民完全停止購物','只憑宣傳量，便判定連鎖店絕不會僱用本地人'],
+        ['反覆曝光提升熟悉度，使本地店較難被注意。','廣告預算不能證明商品品質。','廣告影響選擇，不代表居民停止購物。','情境沒有聘用資料，不能推出這個結論。']
+      ],
+      3: [
+        ['設鄰近農夫市集和網上直售，方便居民選購','只勸居民支持農戶，卻不說清楚蔬菜在何處出售','公布農戶資料，卻把取貨地點設在偏遠地區','增加農戶宣傳，卻縮短市場和取貨點的開放時間'],
+        ['同時改善可見度與購買便利，回應題目的兩個障礙。','只有勸說，仍不知道在哪裏購買。','知道農戶仍不等於方便取得蔬菜。','曝光增加，但可購買時段反而變少。']
+      ],
+      8: [
+        ['受歡迎可能源於廣告形象，仍要比較實際成分與效果','明星願意代言，便推斷產品成分必然對皮膚更好','本地商品廣告較少，便推斷它的成分一定比較差','產品賣得更多，便認為毋須再檢查其成分與效果'],
+        ['宣傳形象與實際品質不同，仍須檢查成分與效果。','代言不是成分或功效的可靠證據。','宣傳量不能證明本地產品較差。','銷量也不能單獨證明產品價值。']
+      ],
+      11: [
+        ['增設購買渠道、標示來源，並解釋本地消費如何支持工作','只發放支持本地的口號，卻不處理購買渠道與標示','只增加廣告曝光，卻不說明居民可在哪些地方買貨','只說本地商品重要，仍把它放在貨架上不顯眼的位置'],
+        ['同時處理取得、辨識與理解效益三個環節。','口號不足以讓居民找到並辨認產品。','知道商品存在，仍不知如何方便購買。','認同價值不能彌補貨架可見度不足。']
+      ]
+    }
+  };
+  for(const [key,items] of Object.entries(revisions))for(const [index,revision] of Object.entries(items)){
+    const item=window.ESSAY_MEMORY_LESSONS[key].support.transfer[Number(index)];
+    [item.options,item.explanations]=revision;
+    item.why=item.explanations[item.correct];
   }
 })();

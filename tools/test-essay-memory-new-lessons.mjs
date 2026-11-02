@@ -11,7 +11,7 @@ const sourceCollections=['EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES','EDMUND_
 const lessons = node.window.ESSAY_MEMORY_LESSONS;
 const keys=['opinion:3','discuss-both-views:4','cause-solution:2'];
 const counts=[19,18,17];
-const vocabularyRoundCounts=[28,34,34];
+const vocabularyRoundCounts=[30,34,34];
 const patternAnswers={
   'how-clause':/help shape how/i,'instead of':/instead of/i,stance:/disagree/i,
   because:/because/i,causative:/\bmakes?\b/i,if:/\bif\b/i,when:/\bwhen\b/i,
@@ -100,13 +100,23 @@ assert(opinionSo.usage.includes('A, so B'));
 assert(!opinionSo.usage.includes('觀眾'));
 assert.equal(opinionSo.parts[0].label,'原因／情況');
 assert.equal(opinionSo.parts[2].label,'結果');
-assert(html.includes('essay-memorization.html?essay=${encodeURIComponent(essayKey)}'));
+assert(html.includes('essay-memorization.html?essay=${encodeURIComponent(memoryKey)}'));
+assert(html.includes('const essayMemoryKey = essayKey =>'));
 const {chromium}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT || '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce',acceptDownloads:true});
 await page.route('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',route=>route.fulfill({contentType:'application/javascript',body:''}));
 await page.addInitScript(() => {
   sessionStorage.setItem('edmund-essay-memory-student-v1',JSON.stringify({id:'qa-student',name:'QA student',role:'student',token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}));
+  // The shared site navigation can show a timed return prompt after test navigation.
+  // Mark its current and previous local-date windows as seen for this QA account.
+  for (const offset of [0,-1]) {
+    const date=new Date();
+    date.setDate(date.getDate()+offset);
+    const key=`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+    localStorage.setItem(`edmund-night-return-v1:seen:student:qa-student:${key}`,'1');
+  }
+  localStorage.removeItem('edmund-night-return-v1:pending:student:qa-student');
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'anonymous'}}},error:null})},rpc:async()=>({data:[{id:'qa-student',name:'QA student',role:'student',session_token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}],error:null})})};
 });
 const errors=[];

@@ -313,6 +313,31 @@ const transfer=[
     '證書不能代替團隊理解。',
   ],[1,9,10,12],'範文的「釋放能力」指清楚表達讓知識被他人理解並用於合作。'),
 ];
+const reviewedTransferOptions=[
+  ['用圖表解釋結論與證據，讓委員能討論方案','只交出未加說明的表格，假設委員全都明白','把調查數據藏起來，避免委員提出問題','只強調自己資歷，不解釋調查發現甚麼'],
+  ['說明省電方式，並用資料回應買家疑問','只重複零件編號，不解釋買家會得到甚麼','產品省電，便認為買家不用了解也會採用','只要求買家立即投資，不讓他們提出疑問'],
+  ['整理方法並展示作品，清楚講解可重複步驟','只求變得有魅力，不分享任何教學證據','教學有效，便假定同事已知道全部做法','只提高演說音量，不說明方法和成果'],
+  ['清楚分派任務並確認理解，再鼓勵團隊執行','只在腦中記住程序，期待員工自行猜分工','只展示主管證書，不交代停機處理步驟','給每人互相矛盾的指示，卻不作澄清'],
+  ['重述雙方關注，再說共同目標與可接受分工','只重複自己的建議，完全不聽對方擔憂','避免爭論，連截止日期與任務也不說明','只比較誰聲音大，不討論實際計畫內容'],
+  ['說明工作量並聽困難，再商量分工和鼓勵參與','只命令義工接受安排，不回答工作量問題','只發布模糊口號，不說明任何人要做甚麼','有人擔心，便取消與所有義工的日常溝通'],
+  ['按問題、方案、人手與預期效果向同學解釋','繼續只說「這很好」，讓大家猜方案內容','只把方案寫在私人日記，不與小組分享','想法可能有用，便認為不用說明如何實行'],
+  ['用前後數據說明成果，再回應上司的疑問','工作有價值，便假設上司已注意全部細節','只要求晉升，不說明改善了甚麼或怎樣改善','把工作紀錄藏起來，避免同事知道成果'],
+  ['練習發問及說明看法，逐步建立討論自信','永遠不發問，因沉默必然使自己更有自信','只背誦他人意見，避免表達自己的疑問','現在感到緊張，便斷定工作不需表達'],
+  ['向管理者解釋作品價值與安排，回答關鍵疑問','只把作品留在儲物室，等待管理者自行了解','只說藝術家有才華，不交代展覽的觀眾價值','作品準備好，便斷言場地申請一定獲准'],
+  ['對外說清產品好處，對內清楚分工和核對共識','只向外部顧客解釋產品，對團隊分工保持含糊','只向團隊說明職責，卻不向顧客解釋產品價值','只強調創業者懂技術，完全不檢查別人是否理解'],
+  ['請同事複述步驟，再用易懂例子說明工作目標','同事一點頭，便假設每人都能正確執行','增加未解釋的術語，避免有人提出問題','只看專家證書，不看團隊是否理解內容'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[1].example='I completely agree that reading skills are essential, because success rarely depends only on what students know; it also depends on how well they compare and explain it.';
+structures[2].example='First, clear diagrams allow scientists to make their findings visible.';
+structures[3].example='In volunteer work, capable people remain overlooked not because their work lacks value, but because they do not explain its results clearly.';
+structures[6].example='In this sense, clear explanation turns private research into public understanding, which is central to informed decisions.';
+structures[7].example='Moreover, clear speaking skills are essential because teamwork often requires cooperation.';
+structures[9].example='When organisers speak with confidence and sensitivity, they can reduce misunderstandings and help the group agree on a plan.';
+structures[10].example='A coach who gives clear directions and encourages players during a difficult match will achieve more than one who has deep knowledge but communicates poorly.';
+structures[11].example='Similarly, pupils who ask questions and join discussions develop confidence that later opens doors in both study and work.';
+structures[13].example='In conclusion, I completely agree that clear speaking skills are essential for effective teamwork.';
+structures[14].example='They help people explain ideas, persuade partners, and build the relationships through which progress usually happens.';
 export default {
   key:'opinion:15',
   meta:{topic:'演說能力、能力可見性與合作',summary:'作者完全同意演說能力重要：清楚表達使有價值的想法被理解和採用，也減少誤解、建立共識，讓個人能力透過團隊和關係發揮作用。'},

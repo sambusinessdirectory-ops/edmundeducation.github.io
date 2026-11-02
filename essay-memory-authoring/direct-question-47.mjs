@@ -101,4 +101,38 @@ const transfers=[
  transfer('主管想提升員工長期投入，而不是只設升職名額。','哪句符合結論？',['還需讓工作有目的、公平待遇、成長機會和良好職場氣氛。','只需每人發一張新名片便保證持久投入。','有升職名額就可忽略所有有毒文化。','員工能力成長與努力完全無關。'],['持久努力依靠多因素。','無保證。','環境重要。','原文有關。'],[16],'lasting effort depends on purpose/fairness/growth。'),
  transfer('結論要同時回答晉升激勵和其他努力因素。','哪句最完整？',['晉升提供金錢、認可與職涯方向；持久努力也取決於意義、公平及成長。','晉升有用，因為晉升有用。','只談薪金，完全不提其他因素。','只談環境，否定晉升的任何作用。'],['兩部分都有原因。','循環。','漏第二問。','漏第一問。'],[15,16],'結論 promotion + lasting effort。'),
 ];
+const balancedTransferOptions=[
+ ['加薪與福利可使晉升成為改善生活的途徑。','晉升讓員工有機會帶領團隊，重點在管理經驗。','晉升使判斷與自律獲得公開肯定，重點在認可。','較穩定的收入主要來自同事的尊重與合作。'],
+ ['升職可公開認可付出，不只是新職銜。','較高薪金讓員工能負擔更好的生活。','新職位讓員工接觸不同的管理工作。','同事稱讚他的加班，卻沒有談到這次晉升。'],
+ ['知道工作有助病人，未即時升職也可投入。','醫護員因為預期很快升職，才繼續投入。','醫護員因薪金提高而願意多做工作。','醫護員因主管公開表揚其能力而保持投入。'],
+ ['環境若不公平且缺尊重，升職仍難維持動力。','只要薪金增加，管理和同事關係便不再重要。','員工可以設定個人目標，因此不公平不會造成風險。','升職機會目前不存在，因此員工失去工作的方向。'],
+ ['個人抱負可推動練習，即使暫無升職加薪。','學徒努力主要因為同事已公開稱讚他的表現。','學徒練習是因為工作直接幫助了服務對象。','學徒投入是因為新職位已帶來較高收入。'],
+ ['比較外在認可與內在目標，再看環境和成長。','比較分數與獎狀，便可找到學生努力的主要原因。','老師的表揚可解釋學生的長期投入，不必另談目標。','比較課程難度，再判斷學生是否有足夠能力。'],
+ ['升職除薪金外，亦可代表能力與付出獲認可。','晉升帶來較高薪金，因此心理回報不必另談。','員工得到認可，因此薪金福利已不影響晉升吸引力。','晉升代表職責增加，因此付出是否被看見並不重要。'],
+ ['升職可增薪酬福利，也公開認可判斷與能力。','升職可讓員工加薪，其他回報可以留到結論再說。','主管會宣布升職結果，但不必說明它如何激勵員工。','員工有個人抱負，因此晉升的作用可以省略。'],
+ ['還要有工作目的、公平待遇、成長與良好氣氛。','增加晉升名額便足夠，不必處理不公平的管理。','只談員工的個人抱負，略去工作目的和職場環境。','只改善同事關係，忽略工作意義與學習機會。'],
+ ['升職有金錢與認可，持久努力亦靠意義公平成長。','晉升能增加薪金，因此可略去其他動力來源。','意義與公平環境重要，因此不用回答晉升的作用。','晉升提供認可與方向，其他動力只需談薪金。'],
+];
+const balancedTransferFeedback=[
+ ['薪酬和福利是題目要辨認的物質回報。','管理經驗可能有價值，卻不是薪酬或福利。','這是原文的心理認可機制，並非物質回報。','同事合作並不是這次加薪的收入來源。'],
+ ['公開承認投入，是這次晉升的心理價值。','這是物質回報，沒有解釋被看見的感受。','工作內容可能改變，卻沒有說明努力獲認可。','情境重點是晉升帶來的公開認可。'],
+ ['病人受益帶來工作意義，可獨立於即時升職。','題目沒有說他預期很快升職。','題目沒有提到薪金增加。','情境沒有主管表揚；動機來自幫助病人。'],
+ ['不公平與缺乏尊重可能抵銷升職的吸引力。','加薪不會直接消除情境中的管理問題。','個人目標不能證明不公平已無風險。','題目明說升職機會存在。'],
+ ['掌握技能與自我達標是個人抱負。','情境沒有說同事已表揚他。','服務他人可帶來意義，但不是這位學徒提出的目標。','情境沒有新職位或加薪。'],
+ ['外在、內在、環境與成長四方面都可跨題分析。','分數和獎狀只涵蓋外在回報。','老師表揚只涵蓋認可，未處理目的與環境。','課程難度不能代替動機分析。'],
+ ['原文同時說明薪酬和公開認可。','只談薪金會漏掉付出被看見的心理價值。','認可存在不表示薪酬不重要。','職責增加不等於努力已獲認可。'],
+ ['薪酬福利和公開認可解釋了晉升如何激勵。','只談薪酬，仍未解釋心理回報。','宣布結果沒有說明金錢或認可的作用。','個人抱負是另一種動機，不能替代晉升機制。'],
+ ['長期投入需要多項因素共同支持。','升職名額仍不能解決不公平的管理。','抱負只是其中一項，不能取代其他因素。','同事關係有幫助，但未涵蓋意義與成長。'],
+ ['兩部分都得到回答：晉升的回報與其他持久動機。','只回答晉升的物質回報，漏掉第二問。','只回答其他因素，漏掉晉升的作用。','把薪金誤放進其他動機，且漏掉意義和公平。'],
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options;transfers[i].explanations=balancedTransferFeedback[i];transfers[i].why=balancedTransferFeedback[i][0]});
+// Reviewed connector structure decompositions.
+structures[1].frame.parts=[["People are strongly motivated by ","link","句型固定部分"],["it","slot","使人有動力的事物"],[" because it usually brings ","link","句型固定部分"],["better pay, higher status and greater control over their professional future","slot","帶來的回報"],[".","link","句型固定部分"]];
+structures[1].frame.formula="People are strongly motivated by [使人有動力的事物] because it usually brings [帶來的回報].";
+structures[4].frame.parts=[["A more senior position often means ","link","句型固定部分"],["a higher salary, better benefits and a stronger sense of financial stability","slot","經濟回報"],[", so employees see it as a practical route to ","link","句型固定部分"],["improving their quality of life","slot","希望改善的生活面向"],[".","link","句型固定部分"]];
+structures[4].frame.formula="A more senior position often means [經濟回報], so employees see it as a practical route to [希望改善的生活面向].";
+structures[13].frame.parts=[["Supportive managers, fair rules and respectful colleagues","slot","支持性環境"],[" can make people willing to raise their standards, whereas a toxic workplace can drain motivation even when ","link","句型固定部分"],["promotion","slot","可能的獎賞"],[" is possible.","link","句型固定部分"]];
+structures[13].frame.formula="[支持性環境] can make people willing to raise their standards, whereas a toxic workplace can drain motivation even when [可能的獎賞] is possible.";
+structures[14].frame.parts=[["Personal ambition also plays a role: some people work hard because they want to ","link","句型固定部分"],["master a skill","slot","想掌握的能力"],[", ","link","句型固定部分"],["build confidence","slot","想建立的信心"],[" or ","link","句型固定部分"],["prove to themselves that they can meet demanding goals","slot","想證明的能力"],[".","link","句型固定部分"]];
+structures[14].frame.formula="Personal ambition also plays a role: some people work hard because they want to [想掌握的能力], [想建立的信心] or [想證明的能力].";
 export default {key:'direct-question:47',meta:{topic:'晉升及其他努力工作動機',summary:'文章區分晉升的物質回報與公開認可，再分析工作意義、支持性職場和個人抱負，指出持久努力不能只靠升職。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

@@ -77,35 +77,35 @@ const part=(text,kind,label)=>({text,kind,label});
 function fixed(i,formula,meaning,usage,links,labels){const text=original[i],parts=[];let cursor=0,slot=0;for(const link of links){const at=text.indexOf(link,cursor);if(at<0)throw Error(`Missing fixed span ${i+1}: ${link}`);if(at>cursor)parts.push(part(text.slice(cursor,at),'slot',labels[slot++]));parts.push(part(link,'link','句型固定部分'));cursor=at+link.length;}if(cursor<text.length)parts.push(part(text.slice(cursor),'slot',labels[slot++]));return {formula,meaning,usage,parts};}
 function card(example,functionName,distractors,frame){return {example,distractors,frame,patternType:'reviewed',answerReason:`這句${functionName}，與原句的句型和語意關係相同。`,distractorReason:`這句${functionName}；它表達的是另一種關係。`};}
 const structures=[
-  card('As more people live past ninety, access to daily care is becoming an urgent community issue.','用 As ... rises 指出人口變化如何使照護問題更迫切',[1,2,7],
+  card('As life expectancy rises, access to daily care is becoming an urgent community issue.','用 As ... rises 指出人口變化如何使照護問題更迫切',[1,2,7],
     fixed(0,'As [預期壽命] rises, [九十多歲長者照護] is becoming [迫切社會議題].','引言交代老年人口增加後，照護安排為何值得公共討論。','題目問長者由誰照顧，先說明問題日益重要的背景時。',['As ', ' rises, ', ' is becoming '],['上升的人口指標','需求增加的照護','因此出現的公共議題'])),
-  card('Although family affection matters, I believe disability support should rest with public services rather than households, because it needs trained care.','用 Although ... rather than ... because 分清親情價值與主要責任',[0,6,13],
-    fixed(1,'Although [家庭親情可貴], I believe [長者照護責任] should rest with [政府] rather than with [個別家庭], because [高齡照護] now requires [醫療、財政及社會支援] that [私人家庭] often cannot provide.','承認家人感情重要，同時把主要照護責任歸政府，理由是所需支援超出多數家庭能力。','題目要求在家庭與政府之間表態時，須說清責任歸屬和依據。',['Although ', ', I believe ', ' should rest with ', ' rather than with ', ', because ', ' now requires ', ' that ', ' often cannot provide.'],['先承認的親情價值','須歸屬的責任','應負主要責任者','不應獨力承擔者','需要支援的高齡階段','需有組織提供的支援','能力有限的家庭'])),
-  card('The first reason is that modern medical care is too complex to be left to untrained relatives.','用 far too ... to be left to 提出家庭難獨力處理專業照護',[1,3,4],
+  card('Although family affection matters, I believe disability support should rest with public services rather than with individual households, because severe disability now requires specialist help that families often cannot provide.','用 Although ... rather than ... because 分清親情價值與主要責任',[0,6,13],
+    fixed(1,'Although [家庭親情可貴], I believe [長者照護責任] should rest with [政府] rather than with [個別家庭], because [高齡照護] now requires [醫療、財政及社會支援] that [私人家庭] often cannot provide.','承認家人感情重要，同時把主要照護責任歸政府，理由是所需支援超出多數家庭能力。','要先承認另一方有價值，再選擇責任主體，並用 because 說明能力上的理由時。',['Although ', ', I believe ', ' should rest with ', ' rather than with ', ', because ', ' now requires ', ' that ', ' often cannot provide.'],['先承認的親情價值','須歸屬的責任','應負主要責任者','不應獨力承擔者','需要支援的高齡階段','需有組織提供的支援','能力有限的家庭'])),
+  card('The first reason is that modern medical care is far too complex to be left to untrained relatives.','用 far too ... to be left to 提出家庭難獨力處理專業照護',[1,3,4],
     fixed(2,'The first reason is that [現代長者照護] is far too [複雜] to be left to [親屬].','第一主體段先界定專業照護的複雜程度與家庭能力落差。','要解釋政府為何須承擔主要責任，先提出照護超出一般家庭訓練時。',['The first reason is that ', ' is far too ', ' to be left to '],['需要處理的照護','超出一般能力的程度','不能獨力承擔者'])),
-  card('A frail patient may need daily nursing, medicine checks, help moving around and transport to hospital.','用 may need 並列高齡者可能需要的具體服務',[2,4,5],
+  card('A frail patient may need daily nursing, medicine checks, help moving around, safer bathrooms, and transport to hospital.','用 may need 並列高齡者可能需要的具體服務',[2,4,5],
     fixed(3,'[九十多歲長者] may need [日常護理], [藥物管理], [家居改裝], [物理治療], and [醫院交通].','逐項說明專業照護涉及醫療、住家及交通，而非單純陪伴。','提出照護太複雜後，需要列出能檢驗的實際需求時。',[' may need ', ', ', ', ', ', ', ', and '],['可能需要照護的人','持續護理','服藥安排','住家安全','身體功能支援','就醫交通'])),
-  card('Many adult children already handle jobs and home loans, so expecting professional care from them can harm both parent and carer.','用 already ... so expecting ... can damage both ... and ... 寫雙方負擔',[2,3,6],
+  card('Most adult children are already juggling jobs and home loans, so expecting them to deliver professional care can damage both the parent’s health and the carer’s livelihood.','用 already ... so expecting ... can damage both ... and ... 寫雙方負擔',[2,3,6],
     fixed(4,'[成年子女] are already juggling [工作、按揭及孩子], so expecting them to deliver [專業照護] can damage both [長者健康] and [照顧者生計].','成年子女已有多重責任；若再要求專業照護，長者與照顧者都可能受損。','已列長者需求，要指出把全部工作交給家人可能帶來的雙重風險時。',[' are already juggling ', ', so expecting them to deliver ', ' can damage both ', ' and '],['已承擔家庭責任的人','現有工作及家庭壓力','被要求提供的服務','長者可能受損之處','照顧者可能受損之處'])),
   card('For instance, if a parent develops dementia, family kindness cannot replace trained nurses and regular doctor visits.','用 For instance, if ... cannot replace 說明善意不能代替專業照護',[3,4,6],
     fixed(5,'For instance, if [長者患認知障礙症], [家人善意] cannot replace [受訓照顧者、安全設施及定期醫療監督].','以認知障礙症為例，分清家人的感情支持與專業安全需求。','需要證明「家庭未必有能力」時，用一個專業要求明確的個案。',['For instance, if ', ', ', ' cannot replace '],['需專業照護的情況','不能獨力完成照護的善意','不可缺的專業支援'])),
-  card('Publicly funded services, by contrast, can offer a safety net through hospitals, local nurses, care homes and pensions.','用 by contrast ... through 對照政府可提供的服務網絡',[2,4,5],
+  card('Publicly funded services, by contrast, can provide a safety net through hospitals, local nurses, care homes and pensions.','用 by contrast ... through 對照政府可提供的服務網絡',[2,4,5],
     fixed(6,'[政府資助服務], by contrast, can provide [可靠保障] through [醫院、社區護士、安老院及退休金].','由家庭能力限制轉到政府能整合的醫療、居住與收入支援。','已說家人不能取代專業服務，接着要交代公共制度如何填補缺口時。',[', by contrast, can provide ', ' through '],['政府資助服務','可靠保障','服務網絡'])),
   card('Another reason is equal access to care.','用 Another reason is 轉入公平性理由',[2,8,9],
     fixed(7,'Another reason is [公平].','第二主體段把焦點由照護複雜性轉向不同家庭背景的公平性。','第一個專業照護理由已說完，須提出另一個獨立理由時。',['Another reason is '],['第二項責任判斷理由'])),
-  card('If medical care depends on family money, poorer patients may suffer, while wealthier households have safer options.','用 If ... while ... 對比家境不同導致的照護差距',[6,7,10],
+  card('If medical care depends on family money, poorer patients are punished for circumstances they cannot control, while wealthier households are more likely to obtain timely treatment.','用 If ... while ... 對比家境不同導致的照護差距',[6,7,10],
     fixed(8,'If [照護主要依賴家庭], [沒有子女、親屬住遠或家境差的長者] are punished for [無法控制的處境], while [富裕家庭長者] are more likely to [有尊嚴地老去].','指出只靠家人會令長者的照護質素取決於子女、距離與財力。','已提出公平問題，要說清家庭背景如何造成不應有的差距時。',['If ', ', ', ' are punished for ', ', while ', ' are more likely to '],['導致不公平的照護安排','較缺支援的長者','無法自行選擇的家庭處境','較有資源的長者','比較出的晚年結果'])),
-  card('A public system can set care rules, inspect homes, fund home visits and protect seniors from abuse.','用 can set ... inspect ... offer ... and protect 列公共制度的四類保障',[6,8,10],
+  card('A government system can set care rules, inspect homes, fund home visits, and protect seniors from abuse.','用 can set ... inspect ... offer ... and protect 列公共制度的四類保障',[6,8,10],
     fixed(9,'A government system can [設最低標準], [巡查安老院], [提供家居照護津貼], and [防止忽視與財務剝削].','政府責任具體包含規則、監察、補助及保護，而非只宣稱關心。','提出公平問題後，需要列制度能怎樣保障不同背景的長者時。',['A government system can ', ', ', ', ', ', and '],['照護品質底線','對院舍的監察','讓居家照護可負擔的支援','對長者的風險防護'])),
-  card('For example, a widower whose children live abroad should still receive safe housing and medical support.','用 For example ... whose ... should still 說明沒有子女在身邊者仍應受保障',[8,9,11],
+  card('For example, a widower whose children live abroad should still be able to receive safe housing and medical support.','用 For example ... whose ... should still 說明沒有子女在身邊者仍應受保障',[8,9,11],
     fixed(10,'For example, [子女住海外的鰥夫] should still be able to receive [基本支援、安全住所及醫療照顧].','用子女不在身邊的長者，檢驗公共保障是否公平。','已說政府可設最低保障，要舉出不應因家庭距離而失去照護的人時。',['For example, ', ' should still be able to receive '],['家庭支持有限的長者','仍應得到的基本服務'])),
   card('In this sense, care for people with disabilities is not merely a private matter; it is a shared social duty.','用 not merely ...; it is ... 把照護提升到公共責任',[7,8,12],
     fixed(11,'In this sense, [長者照護] is not merely [私人家庭事務]; it is [社會共同承諾].','前面公平例子顯示，照護不應完全受家庭條件決定。','已說制度須讓無子女或貧困長者受保障，要概括其公共責任時。',['In this sense, ', ' is not merely ', '; it is '],['要重新界定的照護','不足以涵蓋責任的私人層面','社會層面的義務'])),
   card('People who have supported their community for years should not be abandoned when they become frail.','用 People who ... should not ... when ... 說明長者不應因衰弱被遺棄',[8,10,11],
     fixed(12,'People who [長期為社會貢獻] should not be [遺棄] when [身體變弱].','用長者一生的社會貢獻作結，強化公共保障的道德依據。','公平理由已說清，還要指出社會對曾作貢獻者的持續責任時。',['People who ', ' should not be ', ' when '],['早年作出的貢獻','不應出現的對待','最需要照顧的時候'])),
-  card('In conclusion, families should stay emotionally close, but formal care should be a government responsibility.','用 families should ... but ... government 釐清情感參與與制度責任',[1,11,14],
+  card('In conclusion, families should remain emotionally close, but formal care should belong to the government.','用 families should ... but ... government 釐清情感參與與制度責任',[1,11,14],
     fixed(13,'In conclusion, [家人] should remain [情感參與], but [長者照護責任] should belong to [政府].','結論不排斥家人關心；它明確把主要正式照護責任歸公共制度。','最後要回答家庭與政府誰應負責，同時保留家人親情作用時。',['In conclusion, ', ' should remain ', ', but ', ' should belong to '],['應繼續參與的家人','家人保留的角色','須清楚歸屬的照護責任','承擔制度責任者'])),
-  card('Family affection gives warmth, but only public systems can provide reliable, checked and fair care.','用 Family love ... but only public systems ... 區分溫暖與可持續制度服務',[1,6,13],
+  card('Family love can provide warmth, but only public systems can provide reliable, checked and fair care.','用 Family love ... but only public systems ... 區分溫暖與可持續制度服務',[1,6,13],
     fixed(14,'[家庭的愛] can provide [溫暖], but only [公共制度] can provide [持續、受監管且公平照護].','最後用兩者各擅長的作用，說明為何政府負主要責任、家人仍有價值。','結論要以一句精確對照收束家人與政府不同角色時。',[' can provide ', ', but only ', ' can provide '],['能提供關愛者','家庭可提供的情感支持','能提供制度服務者','制度可提供的照護品質'])),
 ];
 const wrongReasons=[
@@ -319,4 +319,17 @@ const transferTasks=[
     '這與原文公平論證相反。',
   ],[13,14],'範文結論保留家人情感角色，卻將正式照護責任歸政府。'),
 ];
+const revised=[
+ {options:['保留女兒關心，安排受訓照顧者與定期醫療監督','由女兒處理日常護理，醫院只在病情惡化時介入','安排定期醫療檢查，但減少女兒探望以便管理','先改裝住家並購買設備，暫緩安排受訓照護'],explanations:['親情與受訓照護可並存，並須持續監督。','認知障礙症的日常安全需求不能只靠沒有訓練的女兒。','專業服務不需要排除女兒的情感參與。','環境與設備有用，仍不能取代受訓者的日常照護。']},
+ {options:['公共服務承接護理，避免長者健康與子女生計受損','給子女一次護理講座，再由他獨力承擔日常工作','替父親安排交通，但其餘專業護理都由子女提供','補貼子女部分薪金，卻不安排父親所需護理'],explanations:['專業服務可回應健康需要，也減輕家庭工作與房貸壓力。','一次講座不足以承擔每日專業護理。','交通只解決一部分需求，不能代替日常照護。','收入支援有用，但題目中的護理需要仍未處理。']},
+ {options:['基本照護不應取決於有沒有子女，制度須設保障','先由鄰居輪流幫忙，待病情加重才評估公共服務','給有子女長者優先資格，獨居者只列候補名單','按居住年期分配照護，不考慮獨居者的實際需要'],explanations:['基本保障須按需要提供，不能由家庭結構決定。','鄰里協助可補充支援，不能代替穩定的制度保障。','把家庭結構作為優先條件會使獨居長者處境更差。','居住年期未能反映此人的照護需要。']},
+ {options:['訂最低照護標準、巡查院舍，並保護長者免受忽視','先比較收費，再讓院舍自行決定是否公開照護紀錄','只在收到嚴重投訴時檢查，平日由院舍自行評估','要求家屬增加探訪，卻不檢查院舍照護程序'],explanations:['最低標準與定期巡查可發現並處理忽視。','相近收費無法證明照護品質，需要獨立標準。','只靠嚴重投訴，可能錯過尚未能投訴的長者。','探訪有益，但不能取代監管院舍的公共責任。']},
+ {options:['結合家居改裝、就醫交通與護士，不只靠遠方親屬','先安排醫院交通，但暫不處理家居安全與日常護理','請海外親屬定期通話，藉此取代本地照護安排','安排護士每月探訪，卻不評估外出就醫的障礙'],explanations:['幾項服務連成持續的支援網，回應不同需要。','就醫交通有用，但家居安全與護理仍未解決。','遠方聯絡有情感價值，不能提供當地日常支援。','護士探訪不足以解決住家與醫院之間的交通需求。']},
+ {options:['醫療以外要防止忽視和財務剝削，並設基本標準','強化醫院預約系統，財務問題只由家人自行處理','增派接送車輛，但暫不建立剝削的通報機制','只向長者發防騙單張，沒有後續調查或保護安排'],explanations:['完整責任涵蓋醫療、最低標準和防止剝削。','預約服務有用，卻未處理題目中的財務風險。','接送改善就醫，但不能識別或處理財務剝削。','資訊可提醒風險，仍需可執行的通報與保護。']},
+ {options:['保留家長關心，特殊需要仍須受訓人員持續支援','先由家長義工教學，遇到困難才考慮專業評估','由受訓人員包辦學習，家長只負責接送學生','安排家長與教師面談，暫緩特殊支援的實際提供'],explanations:['家庭關心可保留，而特殊需要須有專業技能支援。','沒有評估與訓練的義工未必能回應特殊需要。','專業服務不需要排除家長在學習中的角色。','面談有助溝通，不能替代所需的持續支援。']},
+ {options:['建立公共底線，避免照護質素只由家庭財力決定','向低收入家庭提供資訊，但不設可負擔照護服務','讓各家庭自行購買護理，政府只核對服務價目','先增加私人院舍名額，暫不處理低收入者的負擔'],explanations:['公共底線使基本照護不因家庭收入而出現差距。','資訊有用，但無法讓缺乏資源的家庭取得服務。','價目透明仍無法確保不同收入家庭負擔得起。','私人名額增加，不代表低收入長者可獲基本照護。']},
+ {options:['社會不應在他衰弱時遺棄他，照護不靠近親決定','先尋找遠房親戚，再決定他是否有資格獲照護','按過去薪金高低分配服務，不先評估目前健康需要','只提供短期慰問，待他找到近親後再安排護理'],explanations:['照護應回應衰弱時的需要，不能由近親有無決定。','尋找親戚可有助聯絡，但不應延誤所需照護。','薪金紀錄未必反映當前健康與安全需要。','慰問不能取代已明確需要的正式照護安排。']},
+ {options:['家庭保留情感參與，政府提供持續、受監管且公平照護','家庭負責護理與費用，政府只在家屬申請時提供資料','政府安排醫療和院舍，家庭應退出長者日常生活','讓家庭與院舍自行商議標準，政府只負責宣傳'],explanations:['結論清楚分配家庭情感與政府正式照護責任。','資料不能代替受監管且公平的持續服務。','正式服務與家人的情感參與可以並存。','沒有公共標準，照護品質可能取決於家庭資源。']}
+];
+revised.forEach((r,i)=>{transferTasks[i].options=r.options;transferTasks[i].explanations=r.explanations});
 export default {key:'direct-question:27',meta:{topic:'長者照護的家庭與政府責任',summary:'親情重要，但高齡照護複雜且須公平；政府應承擔正式制度責任。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

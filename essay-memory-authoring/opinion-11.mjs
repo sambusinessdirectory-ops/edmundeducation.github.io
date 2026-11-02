@@ -333,6 +333,27 @@ const transfer=[
     '口號若與實際選拔相反，不能改善人才庫。',
   ],[0,4,7,8,10,11,16],'範文先分析不公平篩選如何傷害人才與合作，再指出錯選和流失的長期成本。'),
 ];
+const reviewedTransferOptions=[
+  ['按工作能力與出勤資料選人，不憑未證實的住址猜測','只靠住址推斷能力，毋須面試合資格的申請者','因住得較遠，便斷定其專業能力一定比較低下','只比較應徵者衣服顏色，不評估職位真正需要'],
+  ['檢查被排除者能力，避免無關條件縮小人才庫','排除人數愈多，便保證合適人選範圍愈大','只看上一份工作名稱，便推論教學效果如何','合適人選較少，便再加入更多無關篩選條件'],
+  ['比較被拒與受聘者能力，再追蹤作品及收入後果','只因受聘者較方便，便認定其設計作品必定更好','最強作品集被拒，便保證企業每年虧損固定金額','只看工作室招牌，不問聘用決定如何影響成果'],
+  ['分析管理層失去信任後，員工士氣與合作如何受影響','經理有偏好，便保證全體員工的士氣因此上升','只看升職公告字體，不調查員工對決定的反應','認為一項升職決定絕不會影響整個團隊的觀感'],
+  ['比較短期替補費與錯選、重訓及流失的長期費用','只看一週替補費，便認定排除人選永遠最省錢','因需要安排替補，便完全取消對工作能力的評估','只比較診所牆色，不計算實際人事相關開支'],
+  ['分開記錄重訓、修錯及更換員工的實際成本','只算初次面試的車費，其他支出一概忽略','店舖仍有員工，便斷定從未產生更替費用','只看廣告次數，便當作算出全部人事成本'],
+  ['計算替補費，也追蹤支持安排能否留住資深員工','有短期費用，便認定多年經驗完全沒有價值','保證每位員工都會永遠留任，無須再作觀察','只看假期名稱，不比較短期與長期實際成本'],
+  ['觀察公平準則能否增加信任與持續參與','準則一旦公開，便保證志願者永遠不會離開','選拔透明，便認為不必再評估實際工作能力','只統計公告字數，便推斷整個團隊士氣'],
+  ['比較請假成本，也計算錯選、重訓與流失的風險','請假永遠不用安排，因此根本毋須比較任何成本','縮小人選範圍，便保證聘得最合適員工的機會上升','以私人資料代替能力評估，便保證選人沒有失誤'],
+  ['按能力與業務需要選人，不猜測未來私人選擇','對私人生活有猜測，便不再需要測試工作能力','未婚身分能準確預測每個人多年的工作表現','只比較申請表封面，便決定誰最適合職位'],
+  ['短期支出可留住資深教師，減少重新招聘與磨合','臨時替補要花錢，所以留任有經驗教師沒有價值','教師曾經請假，便斷定他不再具備教學能力','只看替補老師姓名，不查原教師能否繼續留任'],
+  ['移除無關篩選，並衡量人才、信任及長期成本','只要求員工更快工作，不改原有的選人準則','只看眼前替補費，不計將來錯選與人員流失','口頭宣示公平，仍然繼續排除合資格申請者'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[3].example='The first reason I completely disagree is that this rule is unfair and prevents the school from selecting its strongest students.';
+structures[4].example='Once a school excludes qualified pupils for an unrelated detail, the talent pool immediately becomes smaller, which makes poor decisions more likely.';
+structures[8].example='In a small clinic, where each worker affects patients directly, this loss of trust can quickly undermine teamwork and service quality.';
+structures[12].example='By contrast, fair and supportive school policies often improve teacher retention.';
+structures[15].example='In conclusion, I completely disagree that schools should avoid hiring experienced teachers in order to avoid short absences.';
+structures[16].example='This policy is unjust, wastes strong applicants and rests on a false understanding of cost, so recruitment should always be based on skills rather than guesses about family plans.';
 export default {
   key:'opinion:11',
   meta:{topic:'公平招聘與真正的人事成本',summary:'作者完全反對以預測產假成本排除年輕女性：此舉縮小合資格人才庫、削弱團隊信任，亦忽略錯選與流失的長期成本。'},

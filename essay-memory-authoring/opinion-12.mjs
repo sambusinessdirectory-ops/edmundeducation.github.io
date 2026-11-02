@@ -326,6 +326,28 @@ const transfer=[
     '隱藏總額會削弱家庭的判斷。',
   ],[7,9,12,13,14,16],'範文重點是不能只看眼前付款；把關者須避免還款擠壓基本生活費。'),
 ];
+const reviewedTransferOptions=[
+  ['比較每次付款感受與月底總支出，查小額款項有否累積','只問玩家喜歡哪個畫面，不查看任何實際購買紀錄','每次購買金額較小，便斷定月底總支出必定很低','把月底總額當作每次購買前已清楚顯示的資料'],
+  ['觀察拍卡時有否留意餘額，及小額購買是否反覆出現','學生使用預付卡，便認定他永遠不會買非必要點心','只看一件點心價格，不記錄全星期實際買了幾次','把家長事後看清單等同學生事前已看清總額'],
+  ['列出月供、全部利息與總額，不只比較首月付款','只比較第一個月的供款，認為利息不影響總額','只看旅程相片，便認定分期一定比一次付清便宜','把最低付款額當作全部欠款都已清零的證據'],
+  ['逐月記錄本金、還款及利息，核對實際還清時間','只問顧客滿不滿意包裝，不追蹤實際欠款餘額','繳了最低金額，便假設未付的部分不再存在','只看第一次付款日期，不看其後每月的利息'],
+  ['用歸還紀錄訂借用條件，借出前說明責任','不看既有紀錄，只按喜歡的音樂類型決定借用','曾有遺失紀錄，便保證每人以後都會遺失樂器','借出後才首次訂條件，讓申請者事前無從了解'],
+  ['先評估借用風險與維修能力，再決定是否擴大服務','先無限制擴大服務，再決定是否需要查事故紀錄','只看會員卡外觀，便推斷維修及事故的風險','已有紀錄卻全數棄用，因事前評估必然無效'],
+  ['比較分期總費用與房租水電後的餘額，評估持續能力','只看家具原價，不理會分期產生的額外費用支出','能付第一期，便保證往後每期都不影響房租支出','家庭有一份薪金，便斷定基本開支不會受擠壓'],
+  ['指出先講清總額是負責安排，而非多餘拖延','只重複「太小心」，不討論學員需要支付多少','認為任何詢問都保證所有學員完成整個課程','因擔心付款困難，便不再公布課程的總費用'],
+  ['顯示累積總費用，並先評估學生能否按期付款','只強調每次付款少，不公布總額也不查還款能力','只評估付款能力，卻刻意隱藏全部附加費用','只公開課程海報，便認定每位學生都可長期負擔'],
+  ['加查已有貸款、收入與透支紀錄，估計還款能力','購物次數多，便認定顧客足以償還任何信用額','只看所選電器種類，便推斷其全部家庭支出','刻意不查已有欠款，便認為風險會自然消失'],
+  ['顯示累積支出，並在申請前審查付款能力','只叫顧客自律，平台不顯示總額也不作審查','只查付款能力，卻故意不讓人看累積支出','應用程式方便，便認定每筆貸款都可準時還'],
+  ['先查基本開支與總負擔，再設定可承受的還款額','首期金額低，便忽略往後利息及房租開支','能付首期，便斷定全部欠款都必定可負擔','不告知分期總額，讓家庭自行猜測往後支出'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[5].example='For example, a student who often leaves homework until late evening may not realise how tired she is until the next morning.';
+structures[6].example='The problem is then intensified by the notification system itself.';
+structures[7].example='Small deposits create the illusion that a trip is cheap, whereas later charges quietly increase the final price.';
+structures[11].example='A school can see, for example, if a pupil already has several missed classes or a record of needing language support.';
+structures[12].example='More importantly, weak transport planning can trap residents in a cycle in which long journeys begin to consume time needed for work or family.';
+structures[13].example='A family living on one salary, for instance, may start struggling with travel costs once its monthly bus fare begins to grow.';
+structures[16].example='Because libraries reach many children and because teachers can guide their reading, these changes are both practical and worthwhile.';
 export default {
   key:'opinion:12',
   meta:{topic:'信用卡債務與負責任放貸',summary:'作者完全同意嚴查發卡能力：信用卡令小額消費的即時代價不明顯，最低還款與利息使債務延長；銀行具資料，應在發卡前防止無力償還的借貸。'},

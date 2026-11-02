@@ -334,6 +334,37 @@ const transfer=[
     '服裝價格不足以判斷整體公共價值。',
   ],[4,5,7,10,12,13,14],'範文指出低薪流失會損害文化取用及未來收入，並以城市投資的外溢效益作對照。'),
 ];
+// Keep only wording that the reusable example actually reproduces as a fixed link.
+import fs from 'node:fs';
+const sourceFrames=JSON.parse(fs.readFileSync(new URL('../tools/essay-memory-structure-candidates.json',import.meta.url),'utf8')).essays['opinion:5'];
+function reviseFrame(index,oldText,replacement){
+  const frame=structuredClone(structures[index].frame||sourceFrames[index]);
+  const p=frame.parts.findIndex(part=>part[0]===oldText&&part[1]==='link');
+  if(p<0)throw Error(`Missing frame link ${index+1}: ${oldText}`);
+  frame.parts.splice(p,1,...replacement);
+  frame.formula=frame.parts.map(([text,kind,label])=>kind==='link'?text:`[${label}]`).join('');
+  structures[index].frame=frame;
+}
+reviseFrame(5,'are produced, which reduces', [['are produced','slot','服務如何提供'],[', which reduces','link','接公眾後果']]);
+reviseFrame(7,'must survive only through', [['must','slot','條件或可能性'],[' survive only through','link','僅靠某收入維持']]);
+structures[7].example=structures[7].example.replace('public support lets residents','public support allows residents');
+reviseFrame(10,'quickly circulates through', [['quickly ','slot','流通速度'],['circulates through','link','資金流向更廣範圍']]);
+structures[11].example=structures[11].example.replace('during their early development','at an early stage of development');
+const reviewedTransferOptions=[
+  ['分開評估救援收入和居民安全，再判斷支援','收入低便斷定居民完全不需要救援','只看收費便當作所有社會效益證據','救援隊未獲利便不應討論公共支持'],
+  ['對比票房風險與補助帶來的參與機會','售票不足便斷定孩子不想接觸科學','只看外牆便斷定所有家庭付得起門票','認定每項補助必令展覽立即獲利'],
+  ['演出減少或削弱參與，長遠影響地方聯繫','只記指揮薪金，不問居民文化機會','停演便斷定所有社區聯繫立即消失','只看樂譜價格便推論社區凝聚力'],
+  ['故事可擴大文化參與，也可能培養同理心','只計借書量，便推定人人同理心相同','免費工作坊就必定沒有任何教育作用','有新朋友便不必解釋工作坊內容'],
+  ['追蹤補助如何流向附近企業與職業','只看銀行帳戶，便斷定補助沒有外流','只計票房，不記印刷技術服務開支','因補助來自政府，便斷定不能向私人付款'],
+  ['看訓練培育跨產業人才，不只看現金','現時稅收少，便斷定學員永不轉業','只問作品能否立即出售，不看技能','斷定所有受訓者必到同一公司工作'],
+  ['同看研究人才流失與未來產品收入','只看當年省薪金，便斷定長遠更好','研究員轉行便斷定醫療技術盡失','只看招聘廣告，不理人才供應變化'],
+  ['列訪客、地區復興與其他職位三項外溢','外牆翻新便保證全市所有行業增長','只計市場攤位，忽略附近餐飲運輸','訪客增加便當作人人得到新職位'],
+  ['評估學習與家庭參與，再與影院票房分開','票房不高便斷定放映沒有公眾作用','只看海報顏色便推斷觀眾溝通能力','免費場次無票房便否定其文化價值'],
+  ['資金支持創作，並流向聘人與採購','獎助金發出後便從經濟中永久消失','只談作者受鼓勵，不談後續交易','只要有印刷服務便保證作品立刻暢銷'],
+  ['說清文化參與，也追蹤資金流向其他業','反覆寫有好處，不給任何具體例子','只列藝術家姓名便算證明所有效益','只選高票房作品，不談貧困社區'],
+  ['同看活動、人才及後續產業收入的流失','保證舞蹈團必帶同額稅收，不用證據','削減開支便斷定違法，不討論後果','只看舞衣價格便作完整政策判斷'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
 export default {
   key:'opinion:5',
   meta:{topic:'藝術家政府資助的文化與經濟理據',summary:'作者完全贊成政府資助藝術家：私人收入未反映全部文化及教育利益；資助亦支持創作供應鏈、其他產業人才和長遠收入。'},

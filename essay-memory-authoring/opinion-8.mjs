@@ -310,9 +310,31 @@ const transfer=[
     '這承認品質前提，同時重申「被看見」與「被信任」的兩個必要環節。',
     '品質本身不能完成資訊傳遞或建立信任。',
     '範文沒有說宣傳可以取代產品品質。',
-    '資訊不足更需要清楚說明，而非禁止告知。',
+    '資訊不足更需要清楚說明，不宜延後告知。',
   ],[0,2,3,8,13],'範文在結論以 However useful... 讓步承認產品實用，仍指出消費者需要資訊與安心感。'),
 ];
+// Keep each transfer choice equally plausible in length so the answer is decided by logic.
+const reviewedTransferOptions=[
+  ['先讓家庭知道課程時間、適用對象及報名方法，再評估參與情況','課程免費便先假定附近家庭早已知道內容並會主動報名','只改善課室設備，卻不告訴附近居民課程存在或如何報名參加','看見報名人數偏少，便斷定附近多數家庭暫時不需要語文課程'],
+  ['指出省電優點不能自行傳開；顧客未知道新選擇時仍可能購買熟悉品牌','只因新機比舊機省電，便預言許多家庭會很快放棄熟悉的舊品牌','只比較兩間公司的規模，便認定較小公司出產的新機可能較不可靠','停止公開新機的省電資料，等待顧客自行發現它比舊品牌更節能'],
+  ['說明診所服務、適用病人、與其他診所的差異，以及預約方法','只宣稱診所最好，卻不列明服務內容、適用病人或預約方法','只刊登診所大樓照片，卻不交代可治療的病症或怎樣求診','只羅列董事姓名，便假定病人已明白診所服務和預約步驟'],
+  ['先查居民是否知道應用程式的用途與下載方法，再判斷需求或品質','只見下載數字偏低，便直接認定程式用途較小而且毋須再調查','因程式功能良好，便假定不少附近居民已知道它及下載方法','只更換圖示的顏色，卻不查居民是否真正明白程式的求助流程'],
+  ['提供安全安排、員工資歷與退款規則，回應家長對陌生機構的顧慮','只讓家長知道中心地址，便推論他們已理解服務而願意信任它','因家長仍有安全顧慮，便斷言中心客觀上仍較不安全可靠','不提供具體可核查資料，只重複「放心」，便期待家長很快相信'],
+  ['展示材料、通過的測試與退換保障，讓家長檢查安全聲稱','只把「值得信賴」放大，卻不解釋材料或相關安全測試資料','只因產品刊登了廣告，便認定它取得所需安全認證','只比較廣告觀看次數，便聲稱產品的安全風險已明顯較低'],
+  ['展示實際穿着、產品保證和退貨方法，降低購買前的不確定','只證明雨衣能防水，便認為尺寸與退貨疑問都會隨之減少','刻意隱藏退貨規則，讓顧客下單後自行承擔不確定風險','刪除產品詳細描述，單靠「耐用」兩字要求顧客相信它'],
+  ['先說清服務用途與開戶方法，再展示安全認證及遇到問題時的處理方式','只公布服務費用，便假設用戶已明白用途並願意信任銀行的安全措施','只展示銀行的安全標誌，卻不解釋它提供甚麼具體服務及如何開戶','因銀行品牌較新，便斷言很少人會使用它，仍毋須再提供具體資訊'],
+  ['補上產地、價格及購買時間，讓買家能識別和比較這個選擇','只因蔬菜新鮮，便假定不少買家已知道攤位位置和開放時間','只把蔬菜排列整齊，卻不提供價格、產地或具體購買方法','只見銷量偏低，便斷定蔬菜品質較差而毋須查明原因'],
+  ['公開資格、評審與申訴安排，讓學生知道自己能否申請並理解程序','只因獎學金名稱公開，便假定學生已知道主要申請細節及標準','只增加相同海報數量，卻不釐清申請資格、評審與申訴方法','因部分學生仍有疑問，便斷言獎學金制度本身實際價值較低'],
+  ['清楚呈現測試標準、產品示範及保證內容，讓買家核查安全性','只說警報器已通過測試，卻不說明測試內容及合格標準','只讓廣告更悅目，便當作已分析警報器的安全與可靠性','因警報器確有效果，便假定買家的後續安全顧慮較少'],
+  ['承認服務品質重要，再檢查使用者是否知道它並有足夠資料相信它','只因服務品質良好，便假定附近人會逐步聽說並信任這項服務','宣傳次數夠多，便斷言服務品質毋須再經定期仔細檢查或改善','只因有人提出疑問，便暫緩新服務公開其具體內容及相關資訊'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[2].example='This essay completely disagrees, because a public notice is still essential both for guiding visitors and for keeping them safe in a large building.';
+structures[3].example='The first reason clear notices remain necessary is that families cannot choose a service they have never heard of.';
+structures[5].example='A school guide therefore performs an informative function: it tells people what courses exist, who may join, how they differ and where to apply.';
+structures[8].example='A clear label is also necessary because quality alone does not remove parents’ worries.';
+structures[9].example='When a school is unfamiliar, parents may still worry about safety and teaching quality, even if its results are strong.';
+structures[13].example='However useful a new clinic may be, patients still need clear details and reassurance, and without public notices many valuable services would remain unknown and untrusted.';
 export default {
   key:'opinion:8',
   meta:{topic:'好產品仍需要廣告的資訊與信任功能',summary:'作者完全反對「產品夠好便不需廣告」：消費者須先知道產品，亦須從示範、保證及測試等資料建立信任。'},

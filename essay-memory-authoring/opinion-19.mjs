@@ -308,6 +308,29 @@ const transfer=[
     '問題是表象取代技能，不是技能本身。',
   ],[4,5,6,8,9,10,13],'範文第一段談技能被曝光取代，第二段談比較製造消費及外表壓力。'),
 ];
+const reviewedTransferOptions=[
+  ['分開球鞋照片與球星多年練習失敗的過程','球鞋昂貴，便斷定穿同款能立即得到技術','只看一場比賽照片，不了解球星練習過程','照片漂亮，便認為訓練對成就毫無作用'],
+  ['查看草稿和修改，分清作品與形成作品的過程','只看工作室裝潢，便斷定畫技已經成熟','把成品照片當作畫家從未失敗的證據','作品精美，便否定長期練習和耐心的作用'],
+  ['查品質、貢獻與技能，不單以觀看數衡量成就','觀看數高，便認為內容必定有益觀眾','只看片頭特效，不查創作者的實際成果','把成名速度當作品格與技能的直接證據'],
+  ['查舊手機是否仍有用，再辨別失禮感從何而來','網紅展示新款，便斷定舊手機全部功能失效','把手機價格當作學生品格和技能的分數','不問用途與預算，只按名人照片決定購買'],
+  ['以實際外語交流為目標，追蹤練習與進步','只統計貼文獲讚，不查能否聽懂與表達','只買名人同款用品，便認為語言能力提高','想被看見，便不必學習任何詞語或句子'],
+  ['說明精選照片不能代表多數人的完整日常','照片漂亮，便認為這是所有人的正常生活','拿網紅精選相片與自己完整一天逐項比較','只問拍攝器材，不討論相片是否經過挑選'],
+  ['看受推崇原因及其技能、品格與實際貢獻','只按職業名稱，斷言演員一定是不良榜樣','只按衣服價格，判斷是否值得學生學習','只看粉絲數，便認為所有人有同等成就'],
+  ['查是否把精心形象當常態，誤把外表當價值','買了名人用品，便認為自己已學到有用技能','把一次購物當作長期成就的充分證據','只問影片長度，不查用品是否實際需要'],
+  ['按長期服務、品格與成果選人，不只看形象','只按豪華照片數，決定誰能代表公益工作','一人較少展示奢華，便否定其多年服務','把網上關注數當作服務成效的唯一指標'],
+  ['分清合照短暫形象與家庭生活的實際價值','只憑合照，便斷定同學每天過着名人生活','把普通住處當作個人能力不足的直接證據','只看照片布景，不問比較為何令人感到不足'],
+  ['呈現練習、挫折與貢獻，說明成就形成過程','只延長展示流量數字，不談實際作品品質','把粉絲數當作每種職業成功的唯一證據','只展示豪華照片，令人以為技能不用學'],
+  ['先看練習能否提高技能，再查購物動機','先買最貴器材，便斷定作品品格自動變好','只看名人購物清單，不查自己的拍攝目標','因外表比較可能有害，便放棄攝影練習'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[1].example='I completely agree that this change is harmful, because it teaches pupils to value praise and appearance more than steady improvement.';
+structures[2].example='The first problem is that online praise often presents skill as a polished picture rather than years of practice.';
+structures[3].example='When children often see players praised for costly shoes and staged posts, they may begin to believe that online attention matters more than practice.';
+structures[4].example='This is dangerous because useful skill usually grows slowly, through practice and mistakes, whereas a polished photo offers the illusion of overnight success.';
+structures[5].example='For example, a teenager who spends hours watching star athletes may become more interested in famous shoes than in learning to play well.';
+structures[6].example='Over time, this can weaken a school team’s ambition in a quiet way: the goal becomes to be photographed, not to improve its work.';
+structures[8].example='Many online creators display a polished lifestyle, yet younger viewers may treat it as normal life.';
+structures[11].example='A pupil, for instance, might feel embarrassed about ordinary trainers, not because the shoes affect learning, but because online images present costly brands as status.';
 export default {
   key:'opinion:19',
   meta:{topic:'名人奢華形象、真正成就與社會比較',summary:'作者完全同意主要因財富和光鮮受推崇的名人可能樹立不良榜樣：一夜成功的畫面掩蓋練習與技能，精選形象也可能讓年輕人感到不足並亂花錢。'},

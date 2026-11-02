@@ -93,7 +93,7 @@ const structures=[
   S('This creates regular use and growth through recommendations, both of which are steadier than interest bought through posters.','both of which 指回前面兩項效果，再與付費買來的關注比較穩定性。','這句把顧客回訪及自然增長歸納為較穩定的結果。',[4,7,14],
     F('This creates [效果一] and [效果二], both of which are [比較優點] than [短暫付費關注]','This 指回前文的滿意與推薦；both of which 同時指向回訪和自然增長。','已說明品質帶來的兩種後果，接着要比較其穩定性時。',[['This creates','link','歸納前文後果'],[' repeat custom ','slot','效果一'],['and','link','並列第二效果'],[' organic growth','slot','效果二'],[', both of which','link','指回兩項效果'],[' are far more stable ','slot','比較優點'],['than','link','提出比較對象'],[' attention purchased through advertising.','slot','短暫付費關注']])),
   S('For example, a new gym may fill its classes through discounts, yet members will not return if the equipment is unsafe or the trainers are unhelpful.','yet 對照首次到場與不回訪，if 指出實際品質不足的原因。','這句用具體例子說明宣傳能帶來首次使用，不能保證長期滿意。',[4,5,11],
-    F('For example, [新機構] may [最初吸引顧客] through [宣傳方式], yet [顧客] will not return if [實際品質不足]','先給最初成功的例子，再以 yet/if 指出服務失準時回訪會受影響。','提出一般推論後，要用具體情境檢驗首次效果能否持續時。',[['For example,','link','引入具體例子'],[' a new restaurant ','slot','新機構'],['may fill its tables','link','最初吸引顧客'],[' through online discounts and social-media campaigns','slot','宣傳方式'],[', yet','link','轉向回訪結果'],[' those customers ','slot','顧客'],['will not return if','link','指出不能維持的條件'],[' the food is mediocre or the staff are inattentive.','slot','實際品質不足']])),
+    F('For example, [新機構] may fill its tables [宣傳方式], yet [顧客] will not return if [實際品質不足]','先給最初成功的例子，再以 yet/if 指出服務失準時回訪會受影響。','提出一般推論後，要用具體情境檢驗首次效果能否持續時。',[['For example,','link','引入具體例子'],[' a new restaurant ','slot','新機構'],['may fill its tables','link','最初吸引顧客'],[' through online discounts and social-media campaigns','slot','宣傳方式'],[', yet','link','轉向回訪結果'],[' those customers ','slot','顧客'],['will not return if','link','指出不能維持的條件'],[' the food is mediocre or the staff are inattentive.','slot','實際品質不足']])),
   S('In addition, reliable clinics develop reputations of their own.','In addition 補上一條品質自身建立聲譽的理由。','這句在首項論證中再補一個不依賴付費宣傳的需求來源。',[1,5,9],
     F('In addition, [實際表現良好的事物] develop reputations of their own','補充良好表現可能逐漸建立聲譽，為下一句的口碑機制鋪路。','已說明一項直接效果，還要引出人們互相推薦的間接效果時。',[['In addition,','link','補充另一作用'],[' strong products ','slot','實際表現良好的事物'],['develop reputations of their own.','link','建立自身聲譽']])),
   S('Once trust is established, word of mouth becomes a major source of visitors, showing that quality, rather than posters, is the key to long-term success.','Once 設定信任形成；showing that 把口碑與品質的重要性連回主張。','這句由信任推到口碑需求，再歸納長期動力。',[3,6,14],
@@ -103,7 +103,7 @@ const structures=[
   S('Even the most famous clinic will struggle if it cannot manage costs, train staff or keep its promises.','Even 承認高度知名度，if 指出管理失敗仍會造成困難。','這句把品牌曝光與實際營運能力分開。',[4,6,9],
     F('Even [最知名的機構] will struggle if it cannot [成本管理], [員工訓練] or [履行承諾]','即使已有知名度，缺乏三種基本營運能力仍可能使機構陷入困境。','要反駁只要單一條件充足，整體結果便必然成功的假設時。',[['Even','link','承認知名度'],[' the most visible brand ','slot','最知名的機構'],['will struggle if it cannot','link','指出仍會受困'],[' control costs','slot','成本管理'],[',','link','並列訓練'],[' train employees properly ','slot','員工訓練'],['or','link','並列承諾'],[' deliver what it has promised.','slot','履行承諾']])),
   S('In such cases, publicity may accelerate failure: the more clients a weak clinic attracts, the more delays and complaints it causes, and these reduce trust.','the more...the more 顯示在能力不足時擴大需求，問題也會增加。','這句解釋宣傳可能放大營運缺陷，反而令信任更快受損。',[5,10,12],
-    F('In such cases, [宣傳] may accelerate failure: the more [顧客] a weak [機構] attracts, the more [服務問題] it creates, and these [信任後果]','冒號後展示需求愈多而服務問題愈多的關係；最後說問題如何傷害信任。','一項能力不足時，要說明增加需求反而可能使問題更快浮現時。',[['In such cases,','link','承接管理不足'],[' marketing ','slot','宣傳'],['may actually accelerate failure: the more','link','指出可能加速失敗'],[' customers ','slot','顧客'],['a weak company attracts, the more','link','連接問題增長'],[' delayed orders, complaints and refund requests ','slot','服務問題'],['it creates, and these quickly damage','link','指出信任後果'],[' public confidence.','slot','信任後果']])),
+    F('In such cases, [宣傳] may actually accelerate failure: the more [顧客] a weak company attracts, the more [服務問題] it creates, and these quickly damage [信任後果]','冒號後展示需求愈多而服務問題愈多的關係；最後說問題如何傷害信任。','一項能力不足時，要說明增加需求反而可能使問題更快浮現時。',[['In such cases,','link','承接管理不足'],[' marketing ','slot','宣傳'],['may actually accelerate failure: the more','link','指出可能加速失敗'],[' customers ','slot','顧客'],['a weak company attracts, the more','link','連接問題增長'],[' delayed orders, complaints and refund requests ','slot','服務問題'],['it creates, and these quickly damage','link','指出信任後果'],[' public confidence.','slot','信任後果']])),
   S('This pattern is common in online tutoring, where a heavily advertised school can still lose families if lessons are cancelled or help is poor.','where 把一般管理失誤落到具體行業；if 指出失去顧客的條件。','這句表明宣傳多不能抵消服務不穩定。',[6,10,11],
     F('This pattern is common in [行業], where [大力宣傳的機構] can still lose [市場支持] if [服務失準]','先指出行業場景，再說即使宣傳很多，服務不可靠仍可能使顧客流失。','要用一個常見行業例子，具體比較兩種成功條件的重要性時。',[['This pattern is common in','link','指出行業場景'],[' e-commerce','slot','行業'],[', where','link','引出具體情況'],[' an aggressively advertised firm ','slot','大力宣傳的機構'],['can still lose','link','仍可能失去'],[' market share ','slot','市場支持'],['if','link','指出服務條件'],[' deliveries are unreliable or customer support is ineffective.','slot','服務失準']])),
   S('Sound management also enables a clinic to adapt, whether by improving booking, responding to new needs or investing wisely.','whether by 並列三種適應方式，說明良好管理不只是在避免失誤。','這句補上主動調整及長期生存的機制。',[9,10,14],
@@ -333,6 +333,27 @@ const transfer=[
     '點擊數不能代表耐久成功。',
   ],[3,4,10,11,14,16],'範文把品質和管理視為持久成功的根基，宣傳則可能放大它們的效果。'),
 ];
+const reviewedTransferOptions=[
+  ['檢查課堂與教練能否令會員滿意，而非只看試堂人數','試堂人數一多，便斷定所有會員必然會長期續約','只增加折扣次數，卻不調查會員為何突然退會','因有人不續約，便判定宣傳完全沒有任何吸引力'],
+  ['網上關注可帶來初客，但品質不佳使顧客難以再來','以網上爆紅證明食物一定好吃，差評必定無關','因服務緩慢，便認為根本沒有人看過餐廳廣告','只數照片轉發量，不查顧客有否再次到店光顧'],
+  ['由可靠體驗說明信任形成，再看居民推薦帶來新客','只因服務名稱好聽，便斷言居民口碑已建立','認為每次推薦都必須由付費廣告直接產生','只計首次借閱人數，不看使用者會否再次到來'],
+  ['履約能力不足時，更多訂單可能引起更多延誤投訴','廣告增加，便推論員工自動學會處理全部訂單','訂單愈多，便斷言延誤數目一定下降到零次','只比較廣告畫面，不查員工能否處理新訂單'],
+  ['檢查公司能否履行回覆承諾，並補人手或調整宣稱','只增加宣傳次數，便當作公司已履行回覆承諾','只因宣傳吸引，便斷言學生絕對不會提出投訴','只比較課程標誌，不查公司實際回覆的速度'],
+  ['先改善預約及培訓，免得病人增加後投訴跟着上升','只因媒體關注多，便保證預約流程已經順暢','只重做診所招牌，便認為可以完全取代員工培訓','因診所知名，便斷言所有病人不會在意服務'],
+  ['說明可靠服務建立信任，推薦逐漸帶來穩定客源','因廣告少，便斷定維修店不可能有新顧客','只看首次客戶數，便否定後來的口碑作用','認為推薦和品質完全無關，全靠偶然運氣'],
+  ['承認宣傳帶來初客，指出履約問題損害長期信任','初次訂單多，便認為取消及退款問題不重要','一旦出現投訴，便認為宣傳從未吸引過顧客','只改廣告配色，便當作已經解決取消行程'],
+  ['把課程改善、培訓及審慎投入視為適應變化的決策','只加招生廣告，便斷言課程已適合新的需要','因購置新設備，便認為不用再查實際教學成效','只看學校名氣，不問管理層作了甚麼實際調整'],
+  ['宣傳帶來首次關注，長期回訪仍靠品質與管理','本篇認為廣告永遠無法帶來首次購買','產品夠好，顧客便會自動知道並信任它','宣傳有效，店舖便不用再履行任何承諾'],
+  ['影片擴大關注，也令派發及財務問題更快被看見','影片成功，便證明機構內部管理必然良好','只要再拍一段影片，便可不理會派發混亂','因捐款下跌，便否認影片曾帶來最初關注'],
+  ['先修正故障與客服問題，再介紹改良後的產品','只增加廣告，便認為更多顧客能使故障消失','停止全部產品介紹，因為宣傳絕對沒有用途','只看短期點擊數，不問退貨及顧客回訪'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[2].example='This essay completely disagrees, because schools prosper above all when they teach well and manage resources carefully.';
+structures[3].example='The primary reason a large sign is not the key is that visitors remain loyal only when a museum offers valuable exhibitions.';
+structures[4].example='A bright poster may generate initial visits, but continued success comes from satisfaction: when lessons are useful, learners return, pay again and recommend the school.';
+structures[6].example='For example, a new café may fill its tables through social media promotions, yet those customers will not return if the drinks are poor or the staff are rude.';
+structures[11].example='In such cases, publicity may actually accelerate failure: the more clients a weak company attracts, the more delays and complaints it creates, and these quickly damage public confidence.';
+structures[14].example='These decisions determine whether a school survives beyond the short term, whereas publicity merely amplifies strengths or weaknesses already present.';
 export default {
   key:'opinion:10',
   meta:{topic:'企業持久成功的價值與管理基礎',summary:'作者完全反對把宣傳視為成功關鍵：宣傳可吸引首次顧客，可靠產品、顧客信任及有效管理才令企業長久生存。'},

@@ -43,7 +43,7 @@ const structures=[
  f('City E produced 871 million litres but consumed only 698.8 million litres.','用 but 對比同一對象兩個不同系列的數值',[2,5,8],{formula:'[對象] produced [系列甲數值] but consumed only [較低的系列乙數值]',meaning:'印度發電 871、用電只有 698.8 十億千瓦時，兩者差距在這組較明顯。',usage:'同一對象的兩個系列有值得指出的差距時，可用 but 連接較高與較低的數值。',parts:[slot('India','對象'),link(' produced'),slot(' 871 billion kWh','系列甲數值'),link(' but consumed only'),slot(' 698.8 billion kWh.','較低的系列乙數值')]}),
  f('Cities F, G and H showed broadly similar patterns, each supplying more water than it used, with supply between 530.7 and 618.9 million litres.','將三個相近對象合成一組，並提供其較高系列的數值範圍',[1,4,7],{formula:'[三個對象] showed broadly similar patterns, each [甲高於乙], with [甲數值範圍]',meaning:'加拿大、法國、巴西都發電多於用電；三國發電量介乎 530.7 至 618.9 十億千瓦時。',usage:'幾個對象方向一致、數值又相近時，可先說共同關係，再用正確系列的最小至最大值收束。',parts:[slot('Canada, France and Brazil','三個對象'),link(' showed broadly similar patterns, each'),slot(' generating more electricity than it used','甲高於乙'),link(', with'),slot(' production between 530.7 and 618.9 billion kWh.','甲數值範圍')]}),
  f('City G was the only exception, using 582.5 million litres compared with supply of 526.6 million litres.','標出唯一反轉對象並用兩個數值證明例外',[2,6,10],{formula:'[對象] was the only exception, [乙數值較高] compared with [甲數值較低]',meaning:'德國用電 582.5，高於發電 526.6 十億千瓦時，是唯一用電超過發電的國家。',usage:'概覽已說「只有一個例外」時，細節段要點名對象並以同單位的兩個數值驗證。',parts:[slot('Germany','對象'),link(' was the only exception,'),slot(' consuming 582.5 billion kWh','乙數值較高'),link(' compared with'),slot(' output of 526.6 billion kWh.','甲數值較低')]}),
- f('City J had the lowest totals, at 485.1 and 449.5 million litres.','用最低排名及依系列順序的兩個值結尾',[3,7,9],{formula:'[對象] had the lowest totals, at [系列甲值] and [系列乙值]',meaning:'南韓的發電與用電量均為十國最低，依次為 485.1、449.5 十億千瓦時。',usage:'兩個系列的最低者是同一對象時，可簡潔收束；兩個值仍要依圖例順序配對。',parts:[slot('South Korea','對象'),link(' had the lowest totals, at'),slot(' 485.1 and 449.5 billion kWh.','系列甲和系列乙值')]}),
+ f('City J had the lowest totals, at 485.1 and 449.5 million litres.','用最低排名及依系列順序的兩個值結尾',[3,7,9],{formula:'[對象] had the lowest totals, at [系列甲值] and [系列乙值]',meaning:'南韓的發電與用電量均為十國最低，依次為 485.1、449.5 十億千瓦時。',usage:'同一對象在兩系列均墊底，需按圖例順序同列兩值時。',parts:[slot('South Korea','對象'),link(' had the lowest totals, at'),slot(' 485.1','系列甲值'),link(' and'),slot(' 449.5 billion kWh.','系列乙值')]}),
 ];
 const intro=[
  quiz('圖中每個國家有兩根柱，兩根柱代表甚麼？',['發電量與用電量，單位為十億千瓦時','發電廠數目與居民人數，單位為人','石油進口與出口，單位為美元','2014 與 2015 年的人口百分比'],'圖例分別標明 production、consumption，兩者單位均為 billion kWh。'),
@@ -97,4 +97,18 @@ const transfers=[
  transfer('G 城用水 582.5、供水 526.6；其他九城均供水高於用水。','哪項能用數字證明 G 城是唯一例外？',['G 城唯一用水多於供水：582.5 對 526.6。','G 城與其他九城一樣，供水多於用水。','G 城兩項數值完全相等。','G 城供水 582.5，用水 526.6。'],['582.5 高於 526.6，且方向與其他九城相反。','G 城方向不同。','兩項差 55.9。','把供需數值對調。'],[9],'原文以德國用電 582.5 對發電 526.6，具體證明概覽中的唯一例外。'),
  transfer('J 城供水 485.1、用水 449.5，兩項均為十城最低。','哪句準確收束排名？',['J 城兩項總值最低，供水及用水依次為 485.1、449.5。','J 城兩項總值最高，供水及用水依次為 485.1、449.5。','J 城供水 449.5、用水 485.1，且兩項最低。','J 城兩項數值都恰好為 485.1。'],['最低排名和兩個系列的數值順序都正確。','題目已說兩項最低。','把兩系列值對調。','用水是 449.5。'],[10],'原文最後以南韓發電 485.1、用電 449.5 收束十國最低值。'),
 ];
+const balancedTransferOptions=[
+ ['圖表比較十城該年供水與用水量，單位百萬公升。','圖表解釋十城該年缺水成因，單位百萬公升。','圖表比較十國該年飲用水比例，單位百分比。','圖表比較十城十年間用水變化，單位百萬公升。'],
+ ['甲乙兩城供水用水均領先，其餘八城明顯較低。','甲城供水最高，但乙城供水與其餘八城相同。','十座城市的供水與用水兩項數值都完全相等。','其餘八城的供水用水均遠高於甲乙兩城。'],
+ ['除庚城以外，九城供水量均高於各自用水量。','包括庚城在內，十城供水量均高於用水量。','只有庚城供水量高於用水，其餘九城相反。','九座城市的供水用水量全部恰好相等。'],
+ ['甲城兩項居首：供水5,398，用水5,322百萬公升。','甲城兩項居首：用水5,398，供水5,322百萬公升。','甲城兩項居末：供水用水均少於500百萬公升。','甲城兩項居首：供水用水均為5,398百萬公升。'],
+ ['乙城兩項排第二，低於甲城但高於另外八城。','乙城兩項排第二，卻與另外八城數值相同。','乙城兩項排第一，供水用水都遠高於甲城。','乙城兩項排最後，低於甲城和另外八城。'],
+ ['丙城第三：供水1,057、用水1,038；丁城第四。','丁城第三：供水1,057、用水1,038；丙城第四。','丙城第三：用水1,057、供水1,038；丁城第四。','丙丁兩城均居前列，供水各超過5,000。'],
+ ['至於其餘六城，兩項數值都較前四城低。','十座城市的兩項數值全部都超過900。','前四城兩項數值均比其餘六城還要低。','其餘六城的兩項數值完全沒有任何差異。'],
+ ['戊城供水871，用水698.8百萬公升，供水較高。','戊城用水871，供水698.8百萬公升，用水較高。','戊城供水用水都恰好是871，兩項相同。','戊城供水用水均低於500，屬最低組。'],
+ ['己辛壬三城均供水多於用水，供水介乎530.7至618.9。','己辛壬三城均用水多於供水，供水介乎530.7至618.9。','己辛壬三城的供水量完全相同，都恰好為618.9。','己辛壬三城均供水多於用水，供水介乎455.8至499.9。'],
+ ['庚城在十城中是唯一用水較高者：582.5對526.6。','庚城與其餘九城相同，供水量都高於用水。','庚城供水與用水兩項數值恰好完全相等。','庚城在十城中是唯一供水較高者：582.5對526.6。'],
+ ['癸城兩項居末：供水485.1，用水449.5。','癸城兩項居首：供水485.1，用水449.5。','癸城兩項居末：供水449.5，用水485.1。','癸城兩項居末：供水用水都恰好485.1。'],
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
 export default {key:'task1-bar-charts:5',meta:{topic:'2014 年十國發電與用電量',summary:'先辨認中國和美國與其餘八國的量級差，再核對每國發電通常高於用電、只有德國相反，最後按排名組織數值。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

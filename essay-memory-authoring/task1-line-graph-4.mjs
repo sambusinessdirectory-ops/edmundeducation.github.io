@@ -38,7 +38,7 @@ const structures=[
  f('After this brief rebound, openings fell back to 4,000 in 2015 and 2016, edged up slightly to 4,200 in 2017, and then declined to 3,000 in 2018.','交代回升後的停滯、小反彈及末年最低',[2,4,9],{formula:'After this brief rebound, [甲] fell back to [兩年相同值], edged up slightly to [下一年值], and then declined to [末年值]',meaning:'開業於 2015、2016 年均約 4,000，2017 年小升至約 4,200，2018 年降至約 3,000 最低。',usage:'兩年持平、下一年略升、末年再跌是不同動作，須按年份次序保留。',parts:[link('After this brief rebound,'),slot(' openings','甲'),link(' fell back to'),slot(' 4,000 in 2015 and 2016','兩年相同值'),link(', edged up slightly to'),slot(' around 4,200 in 2017','下一年值'),link(', and then declined to'),slot(' approximately 3,000 in 2018.','末年值')]}),
  f('Closures followed a less steady pattern.','由開業轉到起伏較大的結業系列',[2,5,8],{formula:'[第二系列] followed a less steady pattern',meaning:'細節由開業線轉到結業線，後者在 2015 年有異常低值。',usage:'兩條線形狀不同時，可用短句明確換組，但後續句必須用數值證明「較不穩定」。',parts:[slot('Closures','第二系列'),link(' followed a less steady pattern.')]}),
  f('The figure slipped from 6,400 to just under 6,000 in 2012, then rose to a peak of 7,200 in 2013.','報告第二系列先降後升至高點',[3,5,9],{formula:'The figure slipped from [起始值] to just under [次年值], then rose to a peak of [高點]',meaning:'結業店數由 2011 年約 6,400 降至 2012 年略低於 6,000，再於 2013 年達約 7,200。',usage:'先降後升的轉折不可只寫起點和高點；要把中間低值與年份交代。',parts:[link('The figure slipped from'),slot(' around 6,400','起始值'),link(' to just under'),slot(' 6,000 in 2012','次年值'),link(', then rose to a peak of'),slot(' about 7,200 in 2013.','高點')]}),
- f('It remained high in 2014, at roughly 6,500, before plunging to only about 500 in 2015.','對照相鄰兩年由高位急跌到異常低點',[3,6,9],{formula:'It remained high in [前一年], at roughly [值], before plunging to only about [低值] in [後一年]',meaning:'結業店數 2014 年約 6,500，2015 年卻驟降至約 500，構成全圖最異常低點。',usage:'極端相鄰年變化應明示兩年和兩值；500 不是 5,000。',parts:[link('It remained high in'),slot(' 2014','前一年'),link(', at roughly'),slot(' 6,500','值'),link(', before plunging to only about'),slot(' 500 in 2015.','低值及後一年')]}),
+ f('It remained high in 2014, at roughly 6,500, before plunging to only about 500 in 2015.','對照相鄰兩年由高位急跌到異常低點',[3,6,9],{formula:'It remained high in [前一年], at roughly [值], before plunging to only about [低值] in [後一年].',meaning:'結業店數 2014 年約 6,500，2015 年卻驟降至約 500，構成全圖最異常低點。',usage:'要描述某條線在高位保持後，於相鄰年份急跌時。',parts:[link('It remained high in'),slot(' 2014','前一年'),link(', at roughly'),slot(' 6,500','值'),link(', before plunging to only about'),slot(' 500','低值'),link(' in '),slot('2015','後一年'),link('.')]}),
  f('However, closures rebounded sharply to just over 5,000 in 2016 and then stayed close to this level in the final two years.','低點後快速反彈，再維持接近水平至末年',[4,6,8],{formula:'However, [系列] rebounded sharply to [反彈值及年] and then stayed close to this level in [末兩年]',meaning:'2015 年低谷後，2016 年結業反彈至 5,000 多間，2017、2018 年維持約 5,000。',usage:'異常低點後若反彈，應報告反彈幅度及其後是否持平；不要把短暫低谷當作長期趨勢。',parts:[link('However,'),slot(' closures','系列'),link(' rebounded sharply to'),slot(' just over 5,000 in 2016','反彈值及年'),link(' and then stayed close to this level in'),slot(' the final two years.','末兩年')]}),
 ];
 const intro=[
@@ -91,4 +91,17 @@ const transfers=[
  transfer('結業 2014 年約 6,500，2015 年約 500。','哪項準確表達異常跌幅？',['結業由約 6,500 急跌至翌年只有約 500。','結業由約 500 急升至翌年 6,500。','兩年結業數都在 5,000 左右。','2015 年約 5,000，沒有異常變化。'],['兩年差約 6,000 店，2015 年是深谷。','把兩年數值倒轉。','2015 年只有約 500。','把 500 多寫一個零。'],[8],'原文 2014 年結業仍約 6,500，2015 年 plunging to only about 500。'),
  transfer('結業 2015 年約 500、2016 年逾 5,000，2017、2018 年維持約 5,000。','哪句保留反彈及其後持平？',['結業次年急速回升至 5,000 多，最後兩年接近這個水平。','結業自 2015 年起每年繼續下降至零。','2016 年仍只有 500，其後才開始反彈。','2017、2018 年都升到 8,500。'],['從 500 到逾 5,000 是急反彈，其後相對平穩。','2016 年是上升。','2016 年已逾 5,000。','最後兩年約 5,000。'],[9],'原文在 2015 低點後報告 2016 年反彈及 2017、2018 年接近持平。'),
 ];
+const balancedTransferOptions=[
+ ['圖表比較某城2010至2020年每年餐廳開業及結業數。','圖表比較某城2010至2020年餐廳營業額及利潤率。','圖表比較某城2020年餐廳顧客總數及平均消費。','圖表解釋某城2010至2020年餐廳結業的原因。'],
+ ['開業數整體下降，期末最低；結業數則大幅波動。','開業數逐年上升，期末最高；結業數完全不變。','開業及結業數每年都下降，兩條線從未反彈。','開業數期末最高；結業數全期都維持零。'],
+ ['除首年及2015年低谷，其餘年份結業都多於開業。','包括首年及2015年在內，每年結業都多於開業。','只有首年結業多於開業，其餘年份開業更多。','包括首年及2015年在內，每年開業都多於結業。'],
+ ['2010年開業約8,500，結業約6,400，開業較多。','2010年結業約8,500，開業約6,400，結業較多。','2010年開業與結業都約8,500，兩者完全相等。','2010年開業約6,400，結業約8,500，開業較少。'],
+ ['開業先由8,500近乎減半至4,000，再回升至逾6,000。','開業由8,500逐年下降至4,000、3,000及2,000，從未回升。','開業次年升至8,500，此後一直維持在4,000。','開業由8,500急跌至500，低於起點的十分之一。'],
+ ['2015及2016年同為4,000，2017年略升，2018年再降。','2015至2018年逐年增加，四年都沒有回落。','2017年先急降至3,000，2018年又回升至4,200。','2015至2018年全都維持4,000，沒有任何變化。'],
+ ['結業數較不穩定，接下來可細看其中的低谷。','結業數與開業數相等，接下來可細看高峰。','結業數長期維持500，接下來可細看持平。','開業數一直沒有變化，接下來可細看結業。'],
+ ['結業先略降至不足6,000，再升至約7,200高峰。','結業由6,400一直降至500，三年沒有反彈。','結業在第二年已達7,200，第三年反而下降。','結業在三個年份都相等，全部維持6,400。'],
+ ['結業由2014年約6,500急跌至翌年約500。','結業由2014年約500急升至翌年約6,500。','結業在2014及2015年都維持約5,000。','結業於2015年約5,000，與前一年接近。'],
+ ['結業次年反彈至5,000多，最後兩年仍接近此數。','結業自2015年約500起，每年繼續下降，至2018年已跌至零。','結業在2016年仍只得約500，直到2017年才反彈至5,000多。','結業於2017及2018年都約為8,500，明顯高於2016年的數值。'],
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
 export default {key:'task1-line-graph:4',meta:{topic:'2011 至 2018 年商店開業與結業數',summary:'開業數總體下降但並非逐年下降；結業數在 2015 年異常低，次年反彈。按兩條線分段並核對每年誰較高。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

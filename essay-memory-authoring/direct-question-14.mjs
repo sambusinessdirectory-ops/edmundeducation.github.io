@@ -103,11 +103,11 @@ const structures=[
     fixed(1,'Several practical solutions can reduce [差距], especially if [多方機構] work together rather than [只當成地方問題].','預告方案需政府、國際組織及私人機構合作，避免單一地區獨力承擔。','引言要從問題轉入解方，並指出跨機構合作是成功條件時。',['Several practical solutions can reduce ', ', especially if ', ' work together rather than '],['要縮小的差距','應合作的機構','需要避免的狹窄處理方式'])),
   card('One important solution is to increase long-term investment in safe public buses.','用 One important solution is to 提出第一項長期基礎投入',[1,7,14],
     fixed(2,'One important solution is to increase long-term investment in [基礎教育設施].','把第一主體段的焦點定在學校實體條件的長期投資。','開始第一個方案段，需先清楚指出要持續投入甚麼時。',['One important solution is to increase long-term investment in '],['需要長期投資的基礎設施'])),
-  card('In many villages, pupils are not late because they are lazy; they are held back by unreliable buses and unsafe roads.','用 not ... because ...; they are held back by 修正對落後學生的歸因',[0,2,8],
-    fixed(3,'In [較貧困地區], students are not failing because [缺乏能力]; they are held back by [擠迫課室、設備不足與師資短缺].','把學習落後由個人能力不足，轉回學校資源和教師缺口。','提出投資後，要說明為何低成績不能單純責怪學生時。',['In ', ', students are not failing because ', '; they are held back by '],['資源不足的地區','被否定的能力歸因','真正阻礙學習的條件'])),
-  card('Public funding should be directed not only towards buying buses, but also towards maintaining them and training drivers.','用 not only towards ... but also towards 擴大援助的完整用途',[2,5,11],
+  card('In many villages, students are not failing because they are lazy; they are held back by unreliable buses and unsafe roads.','用 not ... because ...; they are held back by 修正對落後學生的歸因',[0,2,8],
+    fixed(3,'In [較貧困地區], students are not failing because [缺乏能力]; they are held back by [擠迫課室、設備不足與師資短缺].','把學習落後由個人能力不足，轉回學校資源和教師缺口。','要糾正錯誤歸因，先否定一個原因，再指出真正的限制因素時。',['In ', ', students are not failing because ', '; they are held back by '],['資源不足的地區','被否定的能力歸因','真正阻礙學習的條件'])),
+  card('International aid should therefore be directed not only towards buying buses, but also towards maintaining them and training drivers.','用 not only towards ... but also towards 擴大援助的完整用途',[2,5,11],
     fixed(4,'International aid should therefore be directed not only towards [建校], but also towards [保養、材料與教師薪酬].','把援助由一次性建校延伸到維持學校運作的持續資源。','要防止方案只重視新建築而忽略長期運作時。',['International aid should therefore be directed not only towards ', ', but also towards '],['容易受重視的建校項目','讓學校持續運作的其他投入'])),
-  card('For example, a village clinic with steady power, medicine and trained staff would give patients a fairer chance to get care.','用 For example ... with ... would give ... chance 讓基礎投入變成可見機會',[3,4,6],
+  card('For example, a village clinic with steady power, medicine and trained staff would immediately give patients a fairer chance to get care.','用 For example ... with ... would give ... chance 讓基礎投入變成可見機會',[3,4,6],
     fixed(5,'For example, [鄉村學校] with [穩定電力、網絡、課本與師資] would immediately give [學生] a fairer chance to [與富裕地區比較].','用一所鄉村學校的具體配備，展示資源如何轉為學生的競爭機會。','列完投資項目後，要用完整場景說明資源對學生的實際作用時。',['For example, ', ' with ', ' would immediately give ', ' a fairer chance to '],['被改善的鄉村學校','到位的基礎資源','得到機會的學生','能更公平參與的目標'])),
   card('Without these foundations, even the best safety plan will remain a paper promise.','用 Without ... even ... will remain 指出缺基礎時改革難落實',[2,5,10],
     fixed(6,'Without [基礎條件], even [有抱負的改革] will remain [紙上承諾].','收束基礎設施段：缺少電力、教材與師資，宏大改革也無法落地。','要警示讀者方案不能只停在口號，必須先具備基本條件時。',['Without ', ', even ', ' will remain '],['缺少的基礎','看似有希望的改革','難以落實的結果'])),
@@ -117,7 +117,7 @@ const structures=[
     fixed(8,'Teachers in [貧困地區] often have limited access to [新教法], so [定期培訓] could help them [改善授課].','解釋教師培訓不是形式：它填補新教學方法的取得缺口。','已提出培訓，接着要交代教師目前缺甚麼以及培訓帶來甚麼時。',['Teachers in ', ' often have limited access to ', ', so ', ' could help them '],['缺資源地區','教師接觸不足的教法','能補足缺口的培訓','對課堂帶來的改善'])),
   card('At the same time, online advice can reduce the care gap if it is introduced carefully.','用 At the same time ... can ... if 加入科技及實施條件',[7,8,12],
     fixed(9,'At the same time, [科技] can [縮小教育差距] if [審慎引入].','在教師培訓之外補上數碼學習，但加上實施方式的條件。','要提出科技可能有幫助，同時避免把科技寫成自動解法時。',['At the same time, ', ' can ', ' if '],['被加入的科技','可改善的差距','必須具備的實施條件'])),
-  card('Recorded lessons can bring skilled teaching to pupils who would otherwise have no access to specialist tutors.','用 can bring ... to ... who would otherwise have no access 說科技跨越師資距離',[8,9,11],
+  card('Recorded lessons can bring skilled teaching to students who would otherwise have no access to specialist tutors.','用 can bring ... to ... who would otherwise have no access 說科技跨越師資距離',[8,9,11],
     fixed(10,'[網上課程等工具] can bring [高質素教學] to students who would otherwise have no access to [專科教師].','指出數碼工具具體服務哪些原本接觸不到專科教師的學生。','已說科技可縮差距，須解釋它如何把教學送到缺師資地區時。',[' can bring ', ' to students who would otherwise have no access to '],['可遠程傳送內容的工具','可送到學生的教學','原本接觸不到的教師資源'])),
   card('However, this should not mean simply handing out tablets without lessons or support.','用 should not mean simply 防止把工具派發當成完整方案',[4,10,12],
     fixed(11,'However, this should not mean simply [派發設備].','指出數碼學習不能縮成只交給學生一件設備。','講完科技的優點後，要防止讀者把實施條件省略時。',['However, this should not mean simply '],['不足以構成數碼學習的單一行動'])),
@@ -127,7 +127,7 @@ const structures=[
     fixed(13,'In conclusion, [貧富國家教育差距] cannot be solved by [一項速成政策].','結論先說問題不能靠單一措施處理，為組合方案鋪路。','已有多項方案，結尾要點出它們為何必須合用時。',['In conclusion, ', ' cannot be solved by '],['需要處理的差距','不足夠的單一做法'])),
   card('It requires steady funding, better staff training, and reliable access to online services.','用 It requires 三項並列回收全文方案',[2,7,13],
     fixed(14,'It requires [持續校舍投資], [教師培訓], and [妥善數碼使用].','濃縮全文三類互補投入：學校、教師與數碼接入。','結論要用短清單回答「有哪些解法」時。',['It requires ', ', ', ', and '],['第一類長期投入','第二類人力改善','第三類數碼接入'])),
-  card('If these measures are combined, small towns can gain not just clinics, but genuine access to care.','用 If combined ... not just ... but 把配套組合連到真正機會',[5,13,14],
+  card('If these measures are combined, small towns can give residents not just clinics, but genuine access to care.','用 If combined ... not just ... but 把配套組合連到真正機會',[5,13,14],
     fixed(15,'If [多項措施結合], [較貧困國家] can give [青年] not just [課室], but [真正機會].','最後把物理教室與實際能學、能發展的機會區分，並以方案組合為條件。','結尾要說明校舍和科技不是目的，目的在於青年真正獲得機會時。',['If ', ', ', ' can give ', ' not just ', ', but '],['措施結合的條件','可改善教育的國家','得到機會的青年','單靠建築的局限','希望產生的實質機會'])),
 ];
 const wrongReasons=[
@@ -346,6 +346,10 @@ const transferTasks=[
     '文章指出學生受資源不足阻礙，不能只責怪能力或努力。',
   ],[3,11,12,13,14,15],'範文說教育差距不能靠一項速成政策；校舍、教師和數碼接入須結合。'),
 ];
+// Reviewed transfer alternatives and matched feedback.
+const editorialTransferOptions=[["建築須配合維修、物資和人員，診所才能持續服務","先建診所並購藥品，人員薪酬與設備維修後續再籌。","安排醫護駐診，電力與藥品則待服務開始後補足。","把首年款項集中建造，日常物資交地方自行負擔。"],["先補基本學習條件，不把低成績直接當作能力不足","成績偏低可促使加強考試訓練，課本與電力以後再補。","先比較學生排名，再依分數決定哪些學校應獲資源。","補課本和設備即可改善學習，師資訓練可暫緩。"],["把館藏、人員和維修列入長期經費，確保能開放","先購大量新書，人員與維修開支待圖書館開放後再議。","館員可到其他館輪值，長期借書服務靠學生自助。","開館時有書和館員，設備保養則可由捐助者另籌。"],["定期交流補新教法缺口，幫教師改善日常授課","每月發新教材即可，教師交流示範可安排於學期末。","教師能分享經驗，但新教法主要靠更換課室設備。","交流可幫教師，舊教材則不用再評估是否合用。"],["把原本接觸不到的專科教學送到島上學生面前","把錄影課程送上島，專科學習仍只靠學生自行摸索。","錄影可補專科缺口，教師協助則可在考試後安排。","有網絡便足以學物理，課程內容可由學生自行選。"],["提供可負擔網絡、技術協助及適合本地的課程內容","先讓平板能上網，技術維修和語言問題則待日後處理。","提供本地語言課程，昂貴網費由學生家庭先承擔。","增加技術支援人員，課程內容仍沿用外地語言。"],["把差距視為共同責任，讓各方配合資源與執行","中央政府出資即可，學校與企業只需在年終報告。","讓每間學校自行規劃，其他機構只負責供應設備。","多方都可出資，但各自實施方案只作有限協調。"],["補教師培訓與穩定網絡，讓校舍和平板真正可用","增加平板與新課室，教師培訓則安排在下一學年。","先改善網絡連線，教師仍沿用未受訓的舊教法。","先培訓教師，偏遠網絡的費用與穩定性留待後看。"],["看學生是否得到師資、課程及可持續的學習機會","十間課室可反映投入，師資與課程安排可明年再查。","先看課室使用人數，學生是否學懂仍以建築數推估。","報告可列教材數量，學習機會的持續性暫不評估。"],["單一做法不足，應結合學校投入、教師培訓與數碼配套","派平板後補網絡，教師培訓和本地內容可延至下一期。","先增加學校經費，數碼配套與課程仍由家庭自付。","重點處理教師培訓，校舍與網絡差距則維持原狀。"]];
+const editorialTransferReasons=[["薪酬維修仍須及早安排，否則難持續服務。","沒有電力藥品，駐診人員難提供服務。","建築本身不能代替日常運作配套。"],["加考試訓練不會補足基本學習條件。","排名不能解釋資源差距。","教師訓練也是學習條件之一。"],["館藏之外仍需要館員與維修預算。","輪值和自助未必維持長期開放。","設備保養不宜等開館後才籌。"],["教師仍需要定期交流與示範。","教法問題不只靠更換課室設備。","舊教材是否合用也須檢視。"],["錄影課程已有可用內容，仍應支持學生理解。","專科教學要在學習過程中可用。","不能把有網絡等同有合適課程。"],["技術和語言問題也會阻礙實際使用。","昂貴網費仍讓弱勢學生難以接觸。","外地語言仍阻礙本地學生理解。"],["共同責任包括共同規劃與執行。","學校不能獨自承擔全部規劃。","各方不協調，資源可能無法配合。"],["新設備不會自行提供合適教師。","有網絡仍須會教的教師。","教師培訓也要有穩定網絡支援。"],["建成課室不等於有可持續學習。","人數與建築數不能替代學習成果。","教材量未說明機會能否持續。"],["單次設備派發仍不足以解決師資與內容。","家庭自付可能擴大取得差距。","只補師資仍漏了基建與數碼配套。"]];
+editorialTransferOptions.forEach((row,i)=>{transferTasks[i].options=row;transferTasks[i].explanations=[transferTasks[i].explanations[0],...editorialTransferReasons[i]];});
 export default {
   key:'direct-question:14',
   meta:{topic:'縮小貧富國家的教育差距',summary:'長期投資校舍、教師培訓和有配套的數碼學習，才能把建築變成真正教育機會。'},

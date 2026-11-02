@@ -13,6 +13,13 @@ const page = await browser.newPage({reducedMotion:'reduce'});
 await page.route('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',route=>route.fulfill({contentType:'application/javascript',body:''}));
 await page.addInitScript(()=>{
   sessionStorage.setItem('edmund-essay-memory-student-v1',JSON.stringify({id:'wrap-check',name:'Learner',role:'student',token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}));
+  for(const offset of [0,-1]){
+    const date=new Date();
+    date.setDate(date.getDate()+offset);
+    const key=`${date.getFullYear()}-${String(date.getMonth()+1).padStart(2,'0')}-${String(date.getDate()).padStart(2,'0')}`;
+    localStorage.setItem(`edmund-night-return-v1:seen:student:wrap-check:${key}`,'1');
+  }
+  localStorage.removeItem('edmund-night-return-v1:pending:student:wrap-check');
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:null},error:null}),signInAnonymously:async()=>({data:{session:{user:{id:'anonymous'}}},error:null})},
     rpc:async(_name,args)=>({error:null,data:[{id:'wrap-check',name:'Learner',role:'student',session_token:args.p_token}]})})};
 });

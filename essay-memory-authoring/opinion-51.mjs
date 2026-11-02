@@ -69,7 +69,7 @@ const simpleChunkOverrides=[
 const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
 const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
 const structures=[
-  S('Training and experience both matter, but I believe careful practice has a greater effect on long-term progress than one early success.','but 承認兩項因素；greater...than 清楚比較長期影響並表態。','不能把承認乙有作用誤讀成認為甲乙同等重要。',[1,3,12],F('[甲與乙] both shape [結果], but I agree that [甲] has a greater influence than [乙]','承認兩種因素都存在，再判斷哪一種影響較深。','題目要求比較兩項因素的影響力時，要先公平承認兩者再明確排序。',[['Family and school both shape a person’s future,','slot','兩種因素都影響結果'],[' but I completely agree that ','link','但明確贊同'],['the values learned from parents and family','slot','影響更深的因素'],[' have a greater influence on long-term success than ','link','對長期結果影響大於'],['academic skills or classroom knowledge.','slot','比較因素']])),
+  S('Training and experience both matter, but I believe careful practice has a greater effect on long-term progress than one early success.','but 承認兩項因素；greater...than 清楚比較長期影響並表態。','不能把承認乙有作用誤讀成認為甲乙同等重要。',[1,3,12],F('[兩種因素都影響結果], but I completely agree that [較重要的因素] have a greater influence on long-term success than [比較因素]','承認兩種因素都存在，再判斷哪一種影響較深。','題目要求比較兩項因素的影響力時，要先公平承認兩者再明確排序。',[['Family and school both shape a person’s future','slot','兩種因素都影響結果'],[', but I completely agree that ','link','但明確贊同'],['the values learned from parents and family','slot','影響更深的因素'],[' have a greater influence on long-term success than ','link','對長期結果影響大於'],['academic skills or classroom knowledge.','slot','比較因素']])),
   S('This is because regular practice forms habits that guide how people solve unfamiliar problems.','This is because 承接立場；that determine how 交代較深影響發生的機制。','不能只重複「比較重要」，須解釋如何發生作用。',[0,2,7],F('This is because [因素甲] forms [深層習慣] that determine how [日後行為]','把比較判斷推進到可解釋的內在機制。','表態後，要解釋某因素為何能持續影響人們日後的行為時。',[['This is because ','link','說明原因'],['family values','slot','因素甲'],[' form ','link','形成'],['the inner habits','slot','深層習慣'],[' that determine how ','link','決定如何'],['people use whatever they later learn.','slot','日後行為']])),
   S('First, patience and regular practice are the foundation on which musical skill is built.','First 引首條理由；foundation on which 比喻較深層的基礎。','基礎重要並不代表後來的知識毫無價值。',[0,3,8],F('First, [幾項基本品質] are the foundation on which [成果] is built','指出一組品質是後續成果得以建立的條件。','開始第一理由時，要指出某項成果依賴哪些更基本的條件。',[['First, ','link','引出第一理由'],['values such as discipline, responsibility, honesty, and perseverance','slot','幾項基本品質'],[' are the foundation on which ','link','是...的基礎'],['achievement','slot','成果'],[' is built.','link','得以建立']])),
   S('A course can teach safety rules, but those rules help only when a worker follows them every day.','but 承認所教內容；only when 限定它何時轉成實際效用。','不是否認課堂知識，而是指出運用知識需要條件。',[2,4,5],F('[學習機構] can teach [知識或技能], but these are useful only when [人能持續運用]','區分學會內容與長期實際使用。','要承認某項知識有用，同時指出它產生效益所需的行為條件時。',[['Schools','slot','學習機構'],[' can teach ','link','可教授'],['mathematics, science, or writing','slot','知識或技能'],[', but these abilities are useful only when ','link','但只有在...時才有用'],['a person has the character to apply them consistently.','slot','人能持續運用']])),
@@ -77,7 +77,7 @@ const structures=[
   S('By contrast, a skilled worker who lacks self-control may miss deadlines, quit early, or ignore feedback.','By contrast 對照；but lacks... 指出即使有能力，仍可能缺少運用能力的條件。','may 保留可能性，沒有把知識不足者定性為失敗。',[3,4,6],F('By contrast, someone who has [能力] but lacks [關鍵品質] may [多項損失]','用反面對照檢驗前句的因果機制。','展示正面例子後，要用具備表面優勢卻欠缺關鍵條件的人作對比時。',[['By contrast, someone who has ','link','轉入對照'],['knowledge','slot','能力'],[' but lacks ','link','但缺乏'],['self-control','slot','關鍵品質'],[' may ','link','可能'],['waste opportunities, give up too quickly, or look for shortcuts.','slot','多項損失']])),
   S('In this sense, a reliable routine is like a building’s foundation: unseen at first, but essential during a crisis.','like...: 後用隱藏基礎比喻價值；but essential... 交代何時顯出作用。','比喻是總結前文機制，不能代替前面的實際例證。',[2,5,11],F('In this sense, [深層因素] are like [看不見的基礎]: invisible at first, but essential when [遇到考驗]','用具體圖像收束一項平常不易看見的作用。','解釋具體機制後，要用簡潔比喻說明隱藏條件在困難時的重要性時。',[['In this sense, ','link','由前文推論'],['family values','slot','深層因素'],[' are like ','link','就像'],['the roots of a tree','slot','看不見的基礎'],[': invisible at first, but essential when ','link','起初難見，考驗時關鍵'],['the weather turns rough.','slot','遇到考驗']])),
   S('Another reason is that progress in a team depends heavily on how members treat one another.','Another reason 清楚開第二條理由；depends heavily on 交代重要但非唯一條件。','第二理由是與人相處，不是重複首段的個人紀律。',[2,8,12],F('Another reason is that [某種成果] depends heavily on [與人相處方式]','從個人習慣轉向人際運作的另一理由。','完成個人層面的理由後，要另從人際關係如何影響成果展開時。',[['Another reason is that ','link','引出第二理由'],['success in adult life','slot','某種成果'],[' depends heavily on ','link','在很大程度取決於'],['the way people deal with others.','slot','與人相處方式']])),
-  S('Qualities such as patience and reliability are often first learned at home through daily tasks with relatives.','such as 列品質；through daily interactions 指學習發生的途徑。','often 不是宣稱所有人只可能在家學會這些品質。',[4,7,9],F('Qualities such as [幾項品質] are often first learned [場所] through [反覆互動]','指出抽象品質可在甚麼環境經由甚麼經驗形成。','提出某些品質重要後，要列出品質及最初形成的日常途徑時。',[['Qualities such as ','link','列出品質'],['respect, empathy, patience, and reliability','slot','幾項品質'],[' are often first learned at home through ','link','往往先在家經由'],['daily interactions with parents, siblings, and relatives.','slot','反覆互動']])),
+  S('Qualities such as patience and reliability are often first learned at home through daily tasks with relatives.','such as 列品質；through daily interactions 指學習發生的途徑。','often 不是宣稱所有人只可能在家學會這些品質。',[4,7,9],F('Qualities such as [幾項品質] are often first learned at home through [反覆互動]','指出抽象品質可在甚麼環境經由甚麼經驗形成。','要先列出幾項抽象品質，再說明它們通常經甚麼互動逐漸形成時。',[['Qualities such as ','link','列出品質'],['respect, empathy, patience, and reliability','slot','幾項品質'],[' are often first learned at home through ','link','往往先在家經由'],['daily interactions with parents, siblings, and relatives.','slot','反覆互動']])),
   S('These habits later affect friendships, teamwork, leadership, and trust at work.','These qualities 回指前句的品質；later affect 延伸到多個未來情境。','不是引入新價值觀，而是追蹤前句品質的後續影響。',[3,8,11],F('These [先前提到的品質] later affect [數個日後領域]','把形成階段與其後廣泛用途連起來。','已列某些品質如何形成，接着要列出它們在日後哪些範疇發揮作用時。',[['These qualities','slot','先前提到的品質'],[' later affect ','link','日後影響'],['friendships, teamwork, leadership, and professional trust.','slot','數個日後領域']])),
   S('Two applicants may have the same training, but the one who listens and keeps promises is more likely to earn trust at work.','may...but the one who...more likely... 用控制相近資歷的對比例子，突顯人際品質。','例子說更可能得到信任，不是保證所有管理者都會公平判斷。',[4,7,9],F('Two [資歷相近的人] may [條件相同], but the one who [具體品格行為] is more likely to [工作結果]','用相近條件的兩人對照，凸顯另一因素的影響。','要隔開兩人共有的表面優勢，透過行為差異顯示真正起作用的因素時。',[['For example, ','link','引出例子'],['two graduates','slot','資歷相近的人'],[' may ','link','可能'],['leave university with similar qualifications','slot','條件相同'],[', but the one who ','link','但其中...者'],['listens carefully, treats colleagues fairly, and keeps promises','slot','具體品格行為'],[' is far more likely to ','link','更可能'],['earn respect and responsibility at work.','slot','工作結果']])),
   S('A certificate may open the door, but reliability often decides whether a worker remains trusted.','may open the door...but...stay in the room 以進門與留下比喻入職和持續表現。','知識有初步作用，但不能單獨保證長期成果。',[6,10,13],F('[表面資格] may open the door, but [深層品質] often decides whether [長期結果]','用進門與留下的對比概括入場條件與持久條件。','要對比某因素幫人取得初步機會，另一因素決定能否長期維持時。',[['Technical knowledge','slot','表面資格'],[' may open the door, but ','link','可帶來機會，但'],['character','slot','深層品質'],[' often decides whether ','link','往往決定'],['a person can stay in the room.','slot','長期結果']])),
@@ -136,6 +136,72 @@ const transfer=[
   T('學生要總結家庭與學校對長遠成就的影響。','要比較學校教育與家庭影響時，哪種結論最忠於原文？',['兩者都有影響，但家庭形成的習慣更深地指引知識和人際行為','兩者完全相同，沒有相對判斷','學校永遠完全無用','家庭只提供考試技巧'],['both shape...greater influence 準確保留承認及排序。','作者明確排序。','作者承認教育有用。','家庭價值觀不限考試。'],[0,1,12,13,14],'both shape；greater influence；undeniably useful。'),
   T('學生要向同學簡要介紹全文主張。','要用一句話概括全文，哪項最準確？',['家庭價值觀培養持續運用知識與善待他人的習慣，因此作者認為它比學校技能更深地影響長遠成功','作者主張所有成功只靠學校考試','作者說家庭價值觀能取代所有專業知識','作者認為人際品質只影響兒童，不影響工作'],['包含兩段不同機制與比較判斷。','與立場相反。','原文承認學校能力。','第二段論成年工作。'],[0,1,2,3,7,8,9,10,12,13,14],'inner habits；deal with others；lasting achievement。'),
 ];
+const reviewedExamples={
+  0:'School lessons matter, but I completely agree that daily habits have a greater influence on long-term success than test scores.',
+  1:'This is because repeated choices form habits that determine how children respond to challenges.',
+  3:'Schools can teach communication and planning, but these abilities are useful only when students practise them.',
+  5:'By contrast, someone who has strong skills but lacks patience may abandon a difficult project.',
+  6:'In this sense, steady habits are like roots: invisible at first, but essential when challenges arrive.',
+  10:'For example, two trainees may know the same rules, but the one who listens carefully is far more likely to gain trust.',
+  12:'In conclusion, I fully agree that daily habits have a stronger influence on future health than short lessons.',
+  13:'Formal education is undeniably useful, but without practice, it becomes knowledge without effect.',
+};
+for(const [index,example] of Object.entries(reviewedExamples))structures[Number(index)].example=example;
+const reviewedTransfer=[
+  [
+    ['技術需紀律與毅力，才會持續用於工作','只比較學歷，忽略能否定期修正錯誤','一次失誤便判定工程師沒有任何專業技能','只讚努力，未檢查實際工程結果是否改善'],
+    ['技術有用，持續修正與堅持使它發揮作用。','學歷相近仍要看日常工作習慣。','一次錯誤不能證明完全沒有技能。','努力也要連到實際改進。']
+  ],
+  [
+    ['重視努力使學生願接受建議並在失敗後再試','只看一次考試分數，未追蹤學生如何改進','只因考試失利，便斷言教師建議沒有價值','只要求繼續溫習，卻不檢查是否修正方法'],
+    ['努力習慣可引導學生接受反饋並堅持。','單次分數未顯示後續學習方式。','考試不理想不使教師反饋無用。','堅持也需根據建議調整。']
+  ],
+  [
+    ['守時、聆聽與守信可幫求職者贏得信任','只看學歷相同，便判定兩人的可靠程度相等','只看面試表現，未追蹤承諾是否在工作中兌現','因其中一人失約，便認定他完全沒有工作技能'],
+    ['相同學歷下，人際與可靠品質仍影響信任。','學歷不能代替守時守信的觀察。','面試印象未證明日常可靠性。','失約提示品格風險，不代表零技能。']
+  ],
+  [
+    ['訓練有用，欠持續實踐便難發揮作用','只看取得證書，未查技能是否長期應用','因不肯練習，便認定當初訓練全無價值','只安排更多課程，卻不處理拒絕接受批評'],
+    ['學得的技能需要持續使用和修正。','證書沒有證明能力已被運用。','訓練仍有價值，只是未充分發揮。','更多課堂不能代替接受反饋的習慣。']
+  ],
+  [
+    ['證書可帶來機會，可靠與合作維持長期信任','只增加證書數目，未看團隊能否互相聆聽','只看首次錄用，未追蹤成員日後的合作表現','因團隊不合作，便認定每張證書都完全無用'],
+    ['資格或能開門，合作品格決定機會能否維持。','證書數量不能直接改善聆聽。','入職機會與長期信任是兩步。','證書可有用，但不足以取代品格。']
+  ],
+  [
+    ['學校技能仍有用，品格影響能否持續運用','因品格重要，便取消科學與寫作的正式教學','只看課堂知識，不評估遇到難題時會否堅持','把家庭價值觀說成知識本身，忽略學校的作用'],
+    ['原文承認學校技能，重點在品格如何引導運用。','品格重要不等於學科沒有價值。','知識與持續使用的習慣都要看。','家庭與學校影響不同，不能混為一談。']
+  ],
+  [
+    ['技能或帶來機會，可靠習慣決定能否留住','只看面試成功，便認定日後必然守信可靠','只看起初表現，未觀察員工能否長期履約','因新員工常違約，便認為其技能必然不存在'],
+    ['初步條件能開門，可靠品格影響能否留下。','面試表現沒有保證後續行為。','短期印象不足以判斷長期可靠性。','違約是品格問題，不能直接推成零技能。']
+  ],
+  [
+    ['輪流家務與討論錯誤可練責任及改進','只統計做了多少家務，未看錯誤如何處理','做錯一次便取消孩子日後安排家務的機會','只讓成人完成家務，孩子不需負任何責任'],
+    ['日常任務與反思能形成責任及改進習慣。','數量未說明孩子有否學習。','可修正錯誤正是學習機會。','全由成人代做，孩子無從練習。']
+  ],
+  [
+    ['查知識能否運用，也看可靠與合作的行為','只數青年取得的證書，不追蹤工作是否完成','只問青年是否友善，不檢查技能能否應用','只看培訓出席率，未評估合作與履約表現'],
+    ['同時檢查學校技能的運用和家庭培養的品格。','證書數量未顯示持續運用。','品格以外也要看工作技能。','出席率不能代表可靠合作。']
+  ],
+  [
+    ['好習慣如樹根，遇挫折時支撐持續努力','只看平日表現，未查困難時是否仍能堅持','遇到難題便換目標，未讓日常紀律發揮作用','把習慣當成表面裝飾，忽略它對行動的支撐'],
+    ['平時不顯眼的習慣會在困難時支撐行動。','困難時的反應是比喻重點。','放棄不顯示毅力習慣的作用。','樹根比喻的是深層支撐，非裝飾。']
+  ],
+  [
+    ['學校傳授知識，家庭習慣更深影響其運用','只看學校課程內容，未問所學是否被持續實踐','只看家中規矩，便認定學校教的技能沒有價值','把兩者說成完全相同，未比較長遠作用的差異'],
+    ['兩者有用，家庭品格更深地引導知識與人際行為。','課程內容不能說明日後如何運用。','原文沒有否定學校技能。','題目要求比較影響程度。']
+  ],
+  [
+    ['家庭養成的品格或比學校技能更影響長遠成就','只談學校教的知識，忽略日常責任與合作習慣','只談家庭的價值觀，便認為學校課程全無作用','因兩者都重要，便拒絕判斷哪一方影響更深'],
+    ['作者比較兩者，判斷家庭習慣影響更深。','沒有回收家庭價值觀的主張。','原文仍承認學校知識有用。','只說都重要，沒有回答比較題。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:51',
   meta:{topic:'家庭價值觀與學校知識對長遠成功的影響',summary:'作者完全同意家庭價值觀比學校技能或知識更深地影響長遠成功。紀律、責任感、誠實與毅力使人能持續運用所學、面對挫折；尊重、同理心和可靠性則影響合作及職場信任。教育仍然有用，但需要價值觀指引使用方向。'},

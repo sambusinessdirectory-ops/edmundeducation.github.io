@@ -101,4 +101,43 @@ const transfers=[
  transfer('一名管理者希望改善長期高壓的工作環境。','哪句同時反映員工與機構收益？',['減少持續壓力可保護身心，受尊重的員工也較可能保持動力和貢獻。','只改善辦公室顏色便保證所有健康問題消失。','工作壓力越高，所有人越健康。','受尊重必然令員工停止學習技能。'],['健康及工作表現雙重效果。','無保證。','方向相反。','原文說可能提升技能。'],[13,14],'stress harms; respect supports motivation。'),
  transfer('結論要同時回答「為何像奢侈」和「是否重要」。','哪句最完整？',['經濟不安全限制選擇，使滿足感看似奢侈；但體面工作仍是健康高產社會的基礎。','工作滿足感似奢侈，因為它似奢侈。','只列失業問題，完全不回答重要性。','只說滿足感重要，不解釋為何很多人難追求。'],['兩問均有原因及立場。','循環。','漏第二問。','漏第一問。'],[15,16],'結論 because 經濟原因 + essential not decorative。'),
 ];
+const balancedTransferOptions=[
+ ['他或先選能付生活費的工作，較難優先追求興趣。','他必然只選完全沒有收入、卻最令人興奮的工作。','食物租金與子女學費都不會影響工作選擇。','每份有薪工作都保證同樣符合他的個人興趣。'],
+ ['家庭生計壓力可限制選擇，長工時不代表喜歡。','接受長工時便證明他喜歡任何不安全環境。','全家生計絕不可能影響他是否接受長工時。','他只要立即辭職，便保證找到更理想工作。'],
+ ['缺合約與晉升途徑可削弱工人議價能力。','沒有正式合約必然讓工人的議價力更高。','晉升機會與工人能否要求較好待遇無關。','只要工人有工作，就能自由選擇全部條件。'],
+ ['工作佔人生不少時間，長期壓力可傷身心健康。','工作無論壓力多大，都絕不可能影響健康。','只有專業人士才需要長時間留在工作場所。','有工作滿足感，人人就可立即成為公司老闆。'],
+ ['受尊重與有目標可助動力、技能及工作貢獻。','只要受到尊重，員工便完全不需要任何薪金。','受到尊重後，全部工作都保證不再需要學習。','一旦知道工作目標，所有健康問題便自動消失。'],
+ ['基本開支先佔資源，家庭或難再追求額外活動。','所有家庭都必須參加同一種課外活動才算滿足。','經濟壓力從來不影響任何家庭的活動選擇。','課外活動花費與家庭可用資源完全沒有關係。'],
+ ['未必；缺合約或其他工作機會可削弱議價能力。','不提出要求，就證明全部工作條件都很理想。','所有工人都已有清晰合約和良好晉升機會。','只要提出改善要求，一切職場風險便會消失。'],
+ ['收入不足須先顧食物租金，難按興趣選工作。','工資偏低，唯一原因就是工資本身偏低。','收入多寡與任何工作選擇都完全沒有關係。','只要找到工作，興趣價值觀就保證完全相符。'],
+ ['減少持續壓力可護身心，尊重亦可維持動力。','只改辦公室顏色便保證所有健康問題消失。','工作壓力愈大，所有員工身體必然愈健康。','一受到尊重，員工便必定立即停止學習技能。'],
+ ['經濟不安限制選擇，但體面工作仍有健康價值。','滿足感之所以似奢侈，只因它看來像奢侈。','只要提到失業，就毋須再解釋工作為何重要。','只說滿足感重要，便已解釋追求它為何困難。'],
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
+const revised=[
+  {options:['他或先選能付生活費的工作，較難優先追求興趣。','他可先按興趣選工作，生活支出留待日後處理。','生活支出已明確，便可推斷工作選擇不受收入影響。','他先選高薪工作，便表示個人興趣已得到滿足。'],explanations:['生計壓力可能讓收入先於理想工作。','題述支出已超出可忽略的範圍。','支出越具體，收入約束越值得分析。','收入足夠不等於工作內容符合興趣。']},
+  {options:['家庭生計壓力限制選擇，長工時不代表喜歡。','他接受長工時，反映已適應該環境的各項風險。','家庭擔憂失業，因此他有更大空間談縮短工時。','長工時換來收入，可推斷他的工作滿足感較高。'],explanations:['接受條件可能出於需要，而非偏好。','妥協不等於已接受安全與健康風險。','失業壓力往往削弱議價空間。','收入有用，但不能單獨證明滿足感。']},
+  {options:['缺合約與晉升途徑，會削弱工人議價能力。','缺合約可令條件靈活，通常有助工人要求改善。','晉升途徑欠清楚，與薪資談判的能力仍無關。','有工作便有穩定籌碼，可自行設定全部條件。'],explanations:['制度保障與替代機會影響談判能力。','靈活也可能意味缺少保障與可執行承諾。','晉升機會是改善待遇的重要籌碼。','就業本身不保證工人能單方決定條件。']},
+  {options:['工作佔人生不少時間，長期壓力可傷身心健康。','長期壓力主要影響下班活動，與工作健康分開。','滿足感較適用於高薪職位，基層只需穩定收入。','改善滿足感可以取代工資，因健康作用更直接。'],explanations:['健康後果顯示滿足感並非裝飾。','長期壓力可能同時影響身心及工作。','低收入工人同樣花大量時間工作。','健康與合理收入不能互相取代。']},
+  {options:['受尊重與有目標，或能增動力、技能和工作貢獻。','受尊重可提升動力，因此薪資安排可延後檢討。','目標清楚可增效率，但與學習新技能關係不大。','受尊重後壓力較小，故工作技能不必再提升。'],explanations:['保留「可能」的力度與員工、機構雙重好處。','尊重不能代替合理薪酬。','有方向的工作可鼓勵技能發展。','較好環境不代表學習需求消失。']},
+  {options:['基本開支先佔資源，家庭或難選額外活動。','基本開支先佔資源，課外活動便可優先購買。','活動費用較高，家庭選擇主要取決於興趣。','家庭資源不足，卻可把課外活動視為固定必需。'],explanations:['資源約束可能壓縮額外選擇。','若開支已有壓力，額外活動未必能先行。','興趣重要，但題述低收入是關鍵條件。','活動價值不等於所有家庭都能負擔。']},
+  {options:['未必；缺合約或替代工作可削弱議價能力。','大致可以；沉默通常反映待遇已合乎期望。','未必；但一經提出要求便可改善所有條件。','大致可以；因工人應有充分選擇才會沉默。'],explanations:['不能把沒有提出要求直接當作滿意。','不滿也可能因失業風險而不敢開口。','提出要求仍受制度與職位選擇限制。','題目沒有證據說工人具備充分選擇。']},
+  {options:['收入不足須先付食物租金，難按興趣選工作。','工資較低令選擇變少，原因主要是選擇少。','收入不足會增加求職壓力，但更易挑到理想工作。','工作滿足感像奢侈，因有工作便可滿足生活。'],explanations:['把低收入、生計優先與選擇受限串成因果。','只是重述結果，沒有說明支出如何約束選擇。','壓力通常縮窄而非擴大可接受職位。','有工作不等於可選到符合價值的職位。']},
+  {options:['減少持續壓力可護身心，尊重亦可能維持動力。','改善辦公室環境後，健康與薪資問題可暫不檢討。','維持較高壓力可提高產量，健康影響較次要。','尊重員工能減少抱怨，但與技能成長關係較弱。'],explanations:['健康和工作表現都可能受較好環境支持。','裝修改善不等於工作壓力已解決。','短期產量不能遮蔽長期健康成本。','被尊重也可鼓勵持續投入和學習。']},
+  {options:['經濟不安限制選擇，但體面工作仍有健康價值。','經濟不安限制選擇，因此滿足感較適合留到未來。','體面工作有健康價值，生計約束則不必再分析。','經濟不安限制選擇，但工作價值只按薪金衡量。'],explanations:['分別回答為何難追求及為何仍重要。','這弱化第二問對工作滿足感價值的要求。','只回答重要性，沒有解釋「像奢侈」的原因。','薪金之外，健康和動力也是本文的價值。']}
+];
+revised.forEach((r,i)=>{transfers[i].options=r.options;transfers[i].explanations=r.explanations});
+// Reviewed connector structure decompositions.
+structures[4].frame.parts=[["In ","link","句型固定部分"],["countries","slot","所在地方"],[" where ","link","句型固定部分"],["wages are low","slot","薪酬偏低"],[", ","link","句型固定部分"],["social protection is weak","slot","保障不足"],[" and ","link","句型固定部分"],["unemployment is high","slot","失業率高"],[", people often have little room to choose work that matches their interests or values.","link","句型固定部分"]];
+structures[4].frame.formula="In [所在地方] where [薪酬偏低], [保障不足] and [失業率高], people often have little room to choose work that matches their interests or values.";
+structures[6].frame.parts=[["For example, ","link","句型固定部分"],["a factory worker or delivery rider","slot","受壓工作者"],[" may accept ","link","句型固定部分"],["long hours, unsafe conditions or repetitive tasks","slot","不佳條件"],[" because losing the job would threaten ","link","句型固定部分"],["the whole family","slot","受失業波及的人"],[".","link","句型固定部分"]];
+structures[6].frame.formula="For example, [受壓工作者] may accept [不佳條件] because losing the job would threaten [受失業波及的人].";
+structures[9].frame.parts=[["Workers may not have ","link","句型固定部分"],["strong unions, clear contracts or realistic chances of promotion","slot","欠缺的保障"],[", so they cannot easily demand ","link","句型固定部分"],["better treatment","slot","想爭取的改善"],[".","link","句型固定部分"]];
+structures[9].frame.formula="Workers may not have [欠缺的保障], so they cannot easily demand [想爭取的改善].";
+structures[11].frame.parts=[["Those without these advantages may feel that they must take whatever ","link","句型固定部分"],["work","slot","可能接受的工作"],[" is available, even if it leaves them ","link","句型固定部分"],["exhausted or undervalued","slot","不良後果"],[".","link","句型固定部分"]];
+structures[11].frame.formula="Those without these advantages may feel that they must take whatever [可能接受的工作] is available, even if it leaves them [不良後果].";
+// Source-aligned remaining frames.
+structures[0].frame.parts=[["In many parts of the developing world, ","link","句型固定部分"],["work","slot","事物"],[" is judged less by ","link","句型固定部分"],["personal fulfilment","slot","理想標準"],[" than by ","link","句型固定部分"],["the basic security it provides.","slot","基本保障"]];
+structures[5].frame.parts=[["Their first concern is not whether ","link","句型固定部分"],["a job is inspiring","slot","工作有趣"],[", but whether it can pay for ","link","句型固定部分"],["food, rent and their children’s education.","slot","生活開支"]];
+structures[10].frame.parts=[["In such circumstances, ","link","句型固定部分"],["job satisfaction","slot","條件"],[" can feel like a luxury reserved for people with ","link","句型固定部分"],["education, savings or professional skills.","slot","三種優勢"]];
 export default {key:'direct-question:45',meta:{topic:'發展中地區的工作滿足感',summary:'文章以經濟不安全與議價能力不足解釋滿足感為何似奢侈，再以身心健康、動力、技能和社會生產力論證其必要性。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

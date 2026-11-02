@@ -136,6 +136,78 @@ const transfer=[
   T('一項政策只針對最顯眼的來源，其他來源完全不管。','本文的核心批評如何轉用？',['把多來源問題縮成單一來源，可能留下大部分成因未處理','最顯眼來源必然是唯一來源','其他成因會自動消失','只要限制一處，就不需監察成效'],['too narrowly on one source 是可轉用原則。','顯眼不等於唯一。','沒有此保證。','仍需整體評估。'],[2,3,5,7],'focuses too narrowly on one source of pollution。'),
   T('要用一句話不誇大地概括全文。','哪項最好？',['作者認為限制飛行或有小作用，但清潔城市更需交通、工業、能源及航空技術的廣泛改善','作者說航空完全不污染','作者主張只靠禁飛解決所有空污','作者否定公交和工廠標準'],['結論保留小作用並主張廣泛改革。','引言承認飛機耗油。','作者反對唯一性。','原文支持。'],[0,1,9,10,11,13,14],'small role；wider reforms in transport, industry and energy。'),
 ];
+const reviewedExamples={
+  0:'City noise has become a serious concern, and road traffic is often criticised because it is loud at night.',
+  1:'However, I completely disagree with the view that homework is the only way to learn.',
+  2:'The plan focuses too narrowly on one school, while better alternatives are available.',
+  3:'The first reason is that waste is produced by homes and factories, not by shops alone.',
+  4:'Cars and factories can all release chemicals into the air.',
+  5:'If factories keep burning coal, pollution will remain high.',
+  6:'For example, a town may still suffer from flooding if rivers are blocked.',
+  8:'A better approach is to reduce waste across homes and businesses.',
+  9:'Cleaner buses can reduce city noise.',
+  10:'The changes would affect daily travel, so their impact would be much wider.',
+  11:'At the same time, bus companies can be pushed to improve vehicle safety, instead of being treated as enemies of public transport.',
+  12:'This is more practical because public transport also supports workers who cannot drive.',
+  13:'In conclusion, banning plastic may play a small part, but it is certainly not the only answer.',
+  14:'I strongly believe that cleaner streets require better transport, rather than a ban on all cars.',
+};
+for(const [index,example] of Object.entries(reviewedExamples))structures[Number(index)].example=example;
+const reviewedTransfer=[
+  [
+    ['只管航班而不改舊巴士與工廠，空污仍可能持續','航班減少後便停止監察巴士與工廠排放','只算航班數目，未查其他日常污染的來源','認定舊巴士排放無關，毋須檢查工廠能源'],
+    ['多個來源仍排放，限航單獨不足以清潔空氣。','巴士和工廠仍可能產生污染。','航班數字未涵蓋其他主要來源。','舊巴士與工廠能源都需要檢查。']
+  ],
+  [
+    ['航班少仍可能有煙霧，汽油車也是污染來源','只看航班數量，便認為市內空氣一定清潔','只記汽油車數量，卻不量度它們的排放','因航班較少，便取消對工廠和道路的監察'],
+    ['少航班不會消除數百萬汽油車的排放。','航班不是城市唯一污染來源。','車數以外，還要看排放及其他來源。','其他污染源仍需監察。']
+  ],
+  [
+    ['只清一扇窗，整屋仍有塵；單一措施不足夠','只清一扇窗，就認定屋內其他地方也乾淨','只列出屋中灰塵，卻不檢查任何清潔措施','因屋內有塵，便認為清潔那扇窗完全無用'],
+    ['比喻指出單一措施不能處理多來源問題。','其他地方的灰塵仍未處理。','指出來源仍須配合實際清理。','局部清潔有用，只是不足以完成全局。']
+  ],
+  [
+    ['同時改善公交、工廠標準與清潔能源','只在機場勸旅客少飛，忽略公交和工廠排放','只改善公交，卻不檢查工廠與電力來源','只改電力供應，未監察交通與工業排放'],
+    ['多線處理交通、工業與能源來源。','機場宣傳仍漏掉其他來源。','公交改善只是較廣方案的一部分。','能源改革也要配合交通與工業。']
+  ],
+  [
+    ['促使航空業提高效率並採用較清潔技術','只限制航班數量，未要求航空設備改善效率','只換機場宣傳標語，未改善飛機燃料與設備','只保留現有引擎，卻聲稱航空污染已下降'],
+    ['原文提出改善航空本身的效率和技術。','限航不是唯一可用的航空減排方式。','標語不能代替設備和燃料技術改進。','沒有改進或數據，不能宣稱排放下降。']
+  ],
+  [
+    ['飛行有商業與家庭用途，減污時應兼顧這些需要','只計航班排放，未衡量遠距家庭與商業往來','只談旅遊收入，忽略家人探訪與其他交通選擇','因航班有用，便完全不檢查航空業排放與效率'],
+    ['技術改進兼顧減污和有價值的飛行用途。','排放要治理，但也須看政策影響的需求。','旅遊只是飛行用途之一。','用途存在不等於航空無須改善。']
+  ],
+  [
+    ['先查垃圾各來源與其他措施，再評估單一禁令','直接認定一項禁令可解決所有海洋垃圾','只量塑膠袋數量，不查其他垃圾與來源','因禁令未能包辦全局，便否定它可能的作用'],
+    ['多來源問題要比較不同來源及可用措施。','單一禁令未必涵蓋全部海洋垃圾。','塑膠袋只是可能來源之一。','有限作用仍可能值得保留。']
+  ],
+  [
+    ['承認限航或有小作用，但否定它是唯一方案','把限航說成完全無效，因而不再比較其他辦法','只談限航的小作用，未比較更廣泛的減排措施','認定限制航班已足夠，不再檢查道路與工廠'],
+    ['文章否定唯一解法，沒有否定任何小作用。','完全無效是比原文更強的主張。','只列小作用，仍未說明為何不是唯一方案。','其他大量排放來源仍未處理。']
+  ],
+  [
+    ['比較措施覆蓋多少日常交通及工業排放','只看航空乘客數，未算日常通勤與工業排放','只比較政策成本，不檢查排放來源的覆蓋面','只看機場宣傳效果，忽略每天道路上的車輛'],
+    ['覆蓋日常習慣與工業行為，減排範圍才更廣。','乘客數不能代表全部城市排放。','成本要和觸及的排放來源一同看。','機場以外仍有大量每日排放。']
+  ],
+  [
+    ['交通、工業、能源多線減污，航空技術也改進','只改革航空，維持舊巴士與工廠原有排放','只更新工廠設備，不處理通勤與電力來源','因航班仍保留，便斷定其他減排都沒有用'],
+    ['多來源減污，同時改善航空本身。','只處理航空，仍漏掉其他來源。','工廠改革之外還有交通與能源。','保留必要航班不使其他改革無效。']
+  ],
+  [
+    ['只抓顯眼來源會漏掉其他成因，難以全面減污','只看一種來源的數字，便判斷所有排放都下降','只比較最顯眼來源，未追查其他日常污染','因來源很多，便認定各項減污措施都無效'],
+    ['把多來源問題縮成單一來源，會留下重要成因。','單一來源下降不代表總排放下降。','仍未調查顯眼來源以外的成因。','多來源要求更廣方案，不代表措施無效。']
+  ],
+  [
+    ['限飛或有小作用，仍須多線減排及改進航空技術','只限制航空旅行，便認為道路和工廠不用改善','只改善道路排放，卻不看工業能源與航空技術','因飛行有用途，便主張完全不治理航空排放'],
+    ['保留有限效果，也提出跨來源與航空技術改善。','只限飛仍漏掉其他重要來源。','道路只是綜合方案的一部分。','飛行有用途仍須改善效率。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:48',
   meta:{topic:'限制航空旅行與多污染源空氣治理',summary:'作者反對限制航空旅行是防止空氣污染唯一方法的說法，亦承認限飛可能有小作用。車輛、工廠、發電站及工地等也是污染源；只減少航班，其他來源仍可令空氣受污染。較完整的方案是改善公共交通、電動車、工廠標準和清潔發電，同時推動航空業提高燃油效率與採用清潔技術。'},

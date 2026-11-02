@@ -58,9 +58,9 @@ const specs=[
 ];
 const usage=[
  '當你要用 not simply ...; for many ... 表達個人選擇也影響依賴者時。',
- '當你要用 because 解釋一項財務因素如何保障家庭時。',
+ '要說明選擇中的一項重要因素，並用 because 解釋它提供的具體保障時。',
  '當你已承認金錢重要，還要用 However 加入其他評估標準時。',
- '當你要用簡短主題句說明財務穩定與家庭安全的關係時。',
+ '要用簡短主題句說明某項條件的重要性，再用 because 補上直接理由時。',
  '當你要列出基本開支，說明足夠收入如何減少家庭焦慮時。',
  '當你要用 not only ... but also ... 說明一人的選擇也影響家人時。',
  '當你要用具體家庭例子比較理想工作與必要開支時。',
@@ -107,4 +107,16 @@ const balancedTransferOptions=[
  ['好工作有穩定收入，也不犧牲健康、家庭關係和未來發展。','好工作只須給最高薪，健康與家庭關係可以完全不理。','好工作只須很有趣，即使無法支付家庭基本開支也無妨。','好工作只需目前穩定，未來技能與職涯發展毋須考慮。'],
 ];
 balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options;});
+// Reviewed connector structure decompositions.
+structures[4].frame.parts=[["A person who earns enough to pay for ","link","句型固定部分"],["housing, food, education and medical care","slot","需支付的必要開支"],[" is less likely to expose ","link","句型固定部分"],["their household","slot","受保障的家人"],[" to constant anxiety.","link","句型固定部分"]];
+structures[4].frame.formula="A person who earns enough to pay for [需支付的必要開支] is less likely to expose [受保障的家人] to constant anxiety.";
+structures[12].frame.parts=[["When ","link","句型固定部分"],["people","slot","獲得成長機會的人"],[" work in a field where they can ","link","句型固定部分"],["improve their skills, gain experience and build a sustainable career","slot","可以累積的能力與經驗"],[", they are more likely to remain employable and confident in the long run.","link","句型固定部分"]];
+structures[12].frame.formula="When [獲得成長機會的人] work in a field where they can [可以累積的能力與經驗], they are more likely to remain employable and confident in the long run.";
+structures[6].frame.parts=[["For example, ","link","句型固定部分"],["a father or mother","slot","有照顧責任的人"],[" may prefer ","link","句型固定部分"],["a creative but poorly paid job","slot","較低薪的理想工作"],[", but if that income cannot cover ","link","句型固定部分"],["rent or school expenses","slot","必要開支"],[", the whole family may be forced to live under ","link","句型固定部分"],["unnecessary pressure","slot","可能承受的壓力"],[".","link","句型固定部分"]];
+structures[6].frame.formula="For example, [有照顧責任的人] may prefer [較低薪的理想工作], but if that income cannot cover [必要開支], the whole family may be forced to live under [可能承受的壓力].";
+structures[9].frame.parts=[["One major factor is work-life balance, because ","link","句型固定部分"],["a high-paying occupation","slot","高薪工作"],[" can damage family life if it demands ","link","句型固定部分"],["excessive hours","slot","過長工時"],[" or creates ","link","句型固定部分"],["severe stress","slot","嚴重壓力"],[".","link","句型固定部分"]];
+structures[9].frame.formula="One major factor is work-life balance, because [高薪工作] can damage family life if it demands [過長工時] or creates [嚴重壓力].";
+// Source-aligned remaining frames.
+structures[0].frame.parts=[["Choosing ","link","句型固定部分"],["a career","slot","重大選擇"],[" is no longer simply a matter of personal ambition; for many adults, it is directly connected to ","link","句型固定部分"],["the welfare of the people who depend on them.","slot","受影響家人"]];
+structures[5].frame.parts=[["This is particularly true for ","link","句型固定部分"],["parents","slot","有照顧責任者"],[", whose career choices can affect not only ","link","句型固定部分"],["their own comfort","slot","自身"],[" but also ","link","句型固定部分"],["their children’s opportunities.","slot","家人機會"]];
 export default {key:'direct-question:48',meta:{topic:'選擇工作時金錢與其他因素',summary:'文章先說穩定收入如何保障家人、減少焦慮，再分析過長工時和壓力的代價，以及能力匹配與長遠成長；結論要求財務穩定而不犧牲健康與關係。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

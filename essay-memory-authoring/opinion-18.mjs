@@ -320,6 +320,30 @@ const transfer=[
     '網上展示可能經精心修飾。',
   ],[0,2,8,10,13,15],'範文結論承認過去艱難，仍從持續工作壓力與社會比較支持其反對立場。'),
 ];
+const reviewedTransferOptions=[
+  ['查夜間等候回覆有否令員工一直留意手機','員工已離開辦公室，便斷定晚上不會有壓力','只統計辦公桌數量，不查訊息於何時送達','把夜間工作訊息當休閒交流，不查內容要求'],
+  ['承認過去也辛苦，再比較今天下班後的聯絡要求','過去教師工作辛苦，便否認今天訊息帶來壓力','今天收到訊息，便斷定過去教師完全沒有負擔','只比較兩代教師衣著，不查實際工作時段'],
+  ['記錄通知與回覆時間，再看睡眠和專注變化','只問員工喜不喜歡手機顏色，不記通知時段','通知多數不緊急，便斷言持續警覺沒有影響','只看一晚睡眠，便判定長期狀況已經清楚'],
+  ['分清緊急訊息，訂明下班後一般事項毋須回覆','要求員工隨時看群組，卻不說明回覆要求','群組可以靜音，便認為心理負擔完全消失','只管午餐看手機，不處理夜間工作期待'],
+  ['把貼文當片段，再看自己完整進度和目標','把同學貼文當作其全部生活的完整紀錄','同學獲獎，便否定自己整年的所有學習','只叫同學停止分享，不檢視自身比較方式'],
+  ['分開他人公開亮點與自己實際測試成果','只按網上亮眼消息，判定自己企業的價值','別人公布融資，便認為自己工作全無意義','只看貼文數目，不看產品的市場測試資料'],
+  ['承認朋友或有成就，不把少量貼文當全部生活','貼文經挑選，便認定朋友成就全都不真實','朋友看來成功，便認為自己必定不夠好','只比較照片外觀，不問自己的真正目標'],
+  ['查比較有否持續傷害自我評價，不憑表面平靜','學生沒有公開哭泣，便斷定比較毫無負擔','學生使用社交媒體，便保證每人壓力一樣','只數貼文顏色，不問學生怎樣理解自己'],
+  ['比較體力負擔與夜間聯絡，查壓力何時停止','只比較每日工時，便認為較短的一組無壓力','只看夜間訊息，便否認舊工廠有真實艱難','只看建築新舊，不問員工實際工作邊界'],
+  ['同時問夜間工作聯絡與網上比較，各看其影響','只問加班時數，認定現代壓力只出自一因','只數網上貼文，不問看後有否感到比較','只問會員年齡，便推斷全部心理壓力來源'],
+  ['工作規則可改善邊界，社會比較仍需另行理解','工作訊息減少，網上比較壓力便一同消失','社會比較仍在，便說改善工作邊界全無用','把兩種壓力都歸咎於工廠大門外觀設計'],
+  ['承認過去艱難，也分析今天壓力如何持續','否認過去存在體力勞動或家庭負擔','只列手機電郵名稱，不解釋壓力如何延續','把網上展示當成每個人的全部真實生活'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='Conflict has always been part of group work, and every team has carried its own burdens.';
+structures[1].example='However, I completely disagree that the older team were more stressed than the team today.';
+structures[3].example='The first reason is that schoolwork follows students far beyond the end of lessons.';
+structures[4].example='In the past, teaching jobs were exhausting, but once school ended, responsibilities were more likely to stop at the staffroom door.';
+structures[7].example='For example, a coach may leave the sports centre at six, yet still feel tense whenever a work message appears at night.';
+structures[8].example='Over time, repeated evening alerts can harm sleep, weaken concentration and make workers feel that they are never truly off duty.';
+structures[10].example='Earlier pupils usually judged success against classmates nearby, whereas pupils today are exposed to carefully selected achievements from people far away.';
+structures[13].example='This quiet pressure is easy to dismiss, but it can weigh heavily on confidence and wellbeing.';
+structures[14].example='In conclusion, I fully disagree with the view that older pupils were more stressed than pupils are today.';
 export default {
   key:'opinion:18',
   meta:{topic:'現代工作邊界與社會比較壓力',summary:'作者完全反對過去世代壓力更大的說法：過去有真實艱難，但今天下班後仍被聯絡與網上精選展示可形成更持續、難以停止的壓力。'},

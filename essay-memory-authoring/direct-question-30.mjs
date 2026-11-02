@@ -75,17 +75,17 @@ function card(example,functionName,distractors,frame){return {example,distractor
 const structures=[
   card('With enrolment rising, a school must decide whether to enlarge its current building or open a new campus.','用 must decide whether ... or ... 呈現兩個建屋選項',[1,2,7],
     fixed(0,'With [人口增長], [政府] must decide whether to [擴展現有城市] or [建立鄉郊新城].','引言先把住房需求化成需比較的兩種地點方案。','題目問新房應建舊城或新城，先準確列出兩個選擇時。',['With ', ', ', ' must decide whether to ', ' or '],['增加的需求','須決策者','第一個城市方案','第二個鄉郊方案'])),
-  card('In my view, new homes should be built near current stations, because this uses transport better and protects farmland.','用 In my view ... because ... and ... 表態並預告基建與環境理由',[0,2,12],
+  card('In my view, new homes should be concentrated in existing cities, because this uses transport better and protects farmland.','用 In my view ... because ... and ... 表態並預告基建與環境理由',[0,2,12],
     fixed(1,'In my view, [新住房] should be concentrated in [現有城市], because this [更有效用基建] and [保護鄉郊].','明確主張城市建屋，原因分為善用既有設施與避免鄉郊損害。','兩選一題目需要早表態，並預告後文兩項主要依據時。',['In my view, ', ' should be concentrated in ', ', because this ', ' and '],['待建的住房','選定的建屋地點','既有設施效益','環境保護效益'])),
   card('The strongest argument for expanding current clinics is that basic support is already there.','用 The strongest argument for ... is that 指出既有城市的基建優勢',[1,3,7],
     fixed(2,'The strongest argument for [在城內建房] is that [日常生活的基本設施] is already there.','第一主體段先說現有城市不用從零建立生活所需系統。','開始支持城市方案，先提出可用具體設施支持的理由時。',['The strongest argument for ', ' is that '],['受支持的建設地點','已經存在的基本框架'])),
-  card('Roads, schools and clinics have been established for years, so new homes can use them more cheaply than a new town can.','用 so ... more quickly and cheaply than 將既有服務連到建房效率',[2,4,5],
+  card('Roads, schools and clinics have usually been established over many decades, so new homes can be connected to them more quickly and cheaply than homes in a new town.','用 so ... more quickly and cheaply than 將既有服務連到建房效率',[2,4,5],
     fixed(3,'[道路、醫院、學校等] have usually been established over many decades, so [新增房屋] can be connected to them more quickly and cheaply than [新城房屋].','列出現有基建，再比較接駁新房和從頭服務新城的時間成本。','已說基建存在，須解釋它怎樣讓新房更快、更省資源時。',[' have usually been established over many decades, so ', ' can be connected to them more quickly and cheaply than '],['已有的公共服務','可接駁的新增房屋','成本與速度的比較對象'])),
   card('If a council builds a new rural town from scratch, it must first provide roads and water before families can move in.','用 If ... from scratch ... before 解釋新城必須先建服務',[3,5,7],
     fixed(4,'If [政府從零建鄉郊新城], it must first [建好整套服務] before [家庭可適當入住].','以條件句指出新城非只有房屋，居民入住前還需服務網絡。','比較現有城市與鄉郊新城成本時，要說出新城額外建設次序時。',['If ', ' from scratch, it must first ', ' before '],['由零開始的新城工程','須預先建好的基建','服務具備後才能做的事'])),
-  card('That money could instead be spent on city flats, better buses and schools where residents already work.','用 That money could instead be spent on 表示資源改投現有城區',[3,4,6],
+  card('That money could instead be spent on city flats, better buses, and schools in places where residents already work.','用 That money could instead be spent on 表示資源改投現有城區',[3,4,6],
     fixed(5,'That money could instead be spent on [高密度公寓], [改善交通] and [公共設施] in places where [人們已工作和學習].','把建新城服務的資金轉投現有城市建屋及升級設施。','新城基建成本已說明，要指出同一筆錢的另一種用途時。',['That money could instead be spent on ', ', ', ' and ', ' in places where '],['更有效的住房投入','交通改善','公共設施改善','資源投向的現有地區'])),
-  card('For example, replacing a low-rise car park with flats can house many people without long commutes.','用 For example ... replacing ... with ... without 具體化市內土地再利用',[3,5,10],
+  card('For example, replacing a low-rise car park with flats can house many people without forcing them to travel long distances.','用 For example ... replacing ... with ... without 具體化市內土地再利用',[3,5,10],
     fixed(6,'For example, replacing [低層未善用城市土地] with [設計良好公寓] can house [數千居民] without forcing them to [遠距離通勤].','例子展示如何在現有城市增加住所，同時保留接近工作地點的優勢。','已提出高密度公寓，要以一塊未充分利用的土地說明實行方式時。',['For example, replacing ', ' with ', ' can house ', ' without forcing them to '],['可重建的城內地段','新建住所','受益的居民','可避免的通勤負擔'])),
   card('Another reason is that building on rural land often creates lasting social and environmental costs.','用 Another reason is that 轉入鄉郊代價',[2,6,8],
     fixed(7,'Another reason is that [向鄉郊擴張] often creates [長遠社會和環境成本].','第二主體段轉向新城可能破壞土地及造成依賴汽車的生活。','基建成本理由已完成，再提出不同角度的長期代價時。',['Another reason is that ', ' often creates '],['可能產生代價的擴張','須衡量的長遠損失'])),
@@ -93,13 +93,13 @@ const structures=[
     fixed(8,'Rural land is not simply [空地]; it may be [農田], [林地], [野生動物棲地] or [社區身份的一部分].','反駁把鄉郊當待建空地的看法，列出原有生態與社區用途。','已說鄉郊擴張有代價，要具體說明土地原本承載甚麼時。',['Rural land is not simply ', '; it may be ', ', ', ', ', ' or '],['被否定的空地看法','農業用途','林地資源','動物棲地','社區意義'])),
   card('Once woodland is covered with concrete, it is extremely difficult to restore.','用 Once ... concrete ... difficult to restore 強調土地轉用難逆轉',[7,8,11],
     fixed(9,'Once [土地被混凝土覆蓋], it is extremely difficult to [恢復原狀].','指出鄉郊環境破壞可能長期甚至難以逆轉。','列完農田與棲地價值，要說明改成建地的不可逆風險時。',['Once ', ', it is extremely difficult to '],['被建築覆蓋的土地','難以完成的修復'])),
-  card('New rural towns can create car-dependent lives, because jobs and hospitals still sit in the city.','用 can produce ... because ... 解釋新城為何容易依賴汽車',[7,8,11],
+  card('New rural towns can also produce car-dependent lives, because jobs and hospitals normally remain in the city.','用 can produce ... because ... 解釋新城為何容易依賴汽車',[7,8,11],
     fixed(10,'[鄉郊新城] can also produce [依賴汽車的生活], because [工作與主要服務] normally remain in [市中心].','新城離現有工作及服務遠，可能使居民更依賴汽車移動。','已談土地損失，還要說明鄉郊新城對交通的長期影響時。',[' can also produce ', ', because ', ' normally remain in '],['帶來交通需求的新城','形成的生活方式','仍在原市區的工作服務','集中所在的中心'])),
-  card('As a result, residents travel longer, roads get busier, and the plan to solve housing creates a wider city footprint.','用 As a result ... and ... may create another burden 連長通勤、塞車與城市擴散',[7,10,12],
+  card('As a result, residents may travel longer, roads may get busier, and the plan may create another burden: a wider city footprint.','用 As a result ... and ... may create another burden 連長通勤、塞車與城市擴散',[7,10,12],
     fixed(11,'As a result, [居民路上時間增加], [交通增加], and [本應解房荒的方案] may create another burden: [更大、更分散的城市擴張].','把依賴汽車一路推到路上時間、交通壓力和更大城區範圍。','已指出新城可能依賴汽車，須交代其連鎖社會與環境後果時。',['As a result, ', ', ', ', and ', ' may create another burden: '],['居民的通勤後果','道路交通後果','原本為解決房荒的方案','反而新增的城市形態'])),
-  card('In conclusion, new homes should be built in current cities rather than new towns in rural areas.','用 should ... in ... rather than ... 重申建屋位置選擇',[1,7,13],
+  card('In conclusion, new homes should be constructed in current cities rather than in new rural towns.','用 should ... in ... rather than ... 重申建屋位置選擇',[1,7,13],
     fixed(12,'In conclusion, [新住房] should be constructed in [現有城市] rather than in [鄉郊新城].','結論第一句直接回答新住宅究竟應建在哪裏。','兩方面理由已論證完，要清楚重申城市方案時。',['In conclusion, ', ' should be constructed in ', ' rather than in '],['要建的住房','被選定的地點','被排除的替代地點'])),
-  card('City-based homes use transport better, keep residents near work and protect rural land from poor planning.','用 makes ... keeps ... prevents ... 並列三項最終好處',[1,5,12],
+  card('City-based housing uses transport better, keeps residents near work, and protects rural land from poor planning.','用 makes ... keeps ... prevents ... 並列三項最終好處',[1,5,12],
     fixed(13,'City-based housing [善用基建], [靠近工作服務], and [防鄉郊被亂發展侵佔].','用基建、日常距離與鄉郊保護三項好處收束全文。','最後需以簡潔原因支持建屋地點判斷時。',['City-based housing ', ', ', ', and '],['第一項基建效益','第二項生活便利','第三項環境保護'])),
 ];
 const wrongReasons=[
@@ -314,4 +314,17 @@ const transferTasks=[
     '新城基建與交通成本不可略。',
   ],[12,13],'範文最後兩句重申現有城市，並以基建、日常距離及鄉郊保護收束。'),
 ];
+const revised=[
+ {options:['先評估城內地段加建住宅，利用已存在的交通和服務','優先在鄉郊建屋，因土地成本可能較低便可省開支','先在鄉郊建住宅，醫院與學校可待居民入住後安排','只比較兩處可建樓面，不計入現有交通服務的價值'],explanations:['城內地段可利用既有車站與服務，減少從零建設。','土地較便宜不代表新道路、水電與公共服務也較便宜。','家庭入住前便需要基本服務，不宜把它們留到最後。','樓面數量不足以衡量新城所需基建成本。']},
+ {options:['入住前安排整套基本服務，不能只完成住宅圖則','先完成住宅，再以臨時車輛替代供水與醫療服務','只建醫療設施，其餘服務待人口增長後再考慮','讓住戶先遷入，基建需要交由各家庭個別處理'],explanations:['新城須有供水、學校、醫療等完整生活基礎。','臨時交通不能替代供水與醫療。','醫療有用，但學校和供水仍是入住基本條件。','家庭無法獨力建設城市規模的公共服務。']},
+ {options:['先評估農業、棲地和社區用途，不能把鄉郊只當空地','先比較樓宇面積，再把農田的現有用途列為附註','保留農田外觀，但建屋後再研究原有棲地價值','只檢查農業收入，忽略社區用途和生態功能'],explanations:['未建樓的土地也可能有農業、生態與社區價值。','樓宇面積不能取代對原有土地功能的評估。','施工後再研究，可能已造成難以逆轉的損失。','農業收入只是土地價值的其中一面。']},
+ {options:['工作服務仍在市中心，便宜住宅可能換來更長通勤','房價較低已可抵銷通勤時間，毋須評估交通情況','只計算住戶開車成本，不計每日道路時間與車流','先建新鎮住宅，等工作與醫療自然轉到附近'],explanations:['住房價格與每日通勤成本都應納入比較。','便宜房價不會自動消除路程與時間成本。','燃料費只是交通負擔一部分，時間與車流也重要。','題目已說工作與醫療仍在市中心。']},
+ {options:['比較同筆錢的兩種用途，考慮舊城已有基建可利用','先挑遠郊地價最低的方案，之後才計公共服務','把資金平均分給兩地，毋須比較可用基建多少','先修舊城外觀，但不評估交通與住宅實際供應'],explanations:['機會成本要求比較同筆公共資金的不同用途。','土地價低不代表從零建服務的總成本低。','平均分配未必是最有效利用既有基建的方法。','外觀改善不能代替住房與交通的成本比較。']},
+ {options:['考慮重建城內未善用地段，讓更多住戶靠近工作地點','先保留倉庫用地，再要求住戶每天從遠郊通勤','只擴建城外道路，不評估車站旁地段的建屋潛力','把住宅移去遠郊，再增加往返城市的接駁服務'],explanations:['城內未善用低層地段可供加建並縮短工作距離。','保留倉庫可能有理由，但不評估會錯過現有基建優勢。','只建道路未能處理城內地段的潛在用途。','接駁服務可減輕負擔，卻仍增加遠距離旅程。']},
+ {options:['比較已有交通和服務的效益，並計入遠郊新路成本','選遠郊大地段，因圖書館面積比交通方便更重要','選舊城分館，但只因附近學校能替圖書館付費','先比較地價與建築外觀，通達性留待啟用後處理'],explanations:['公共設施選址要計可到達性和新增道路的成本。','較大面積有用，但需評估使用者能否方便到達。','附近有學校可能增加需求，不能推定其承擔費用。','啟用後才處理通達性，可能使設施使用受限。']},
+ {options:['混凝土覆蓋後恢復原貌極難，應在建造前評估損失','先試建一部分，再用短期植樹判斷能否恢復棲地','相信開發商承諾復原，便不用測量現有棲地','把損失列作未來補償項目，毋須施工前評估'],explanations:['被覆蓋的農地與棲地難以迅速復原，應先評估。','小規模試建也可能破壞應先調查的生態條件。','承諾不等於有證據證明原有棲地可完全恢復。','補償討論不能取代建造前對損失的判斷。']},
+ {options:['住房方案可能造成城市擴散及額外交通負擔','增加市郊住宅後，城市工作機會會自然外移','先擴建道路，長通勤與車流便不需再評估','只把新城住宅計入成果，不把車流列入後果'],explanations:['解決住房的方案也可能產生新的交通與土地負擔。','題目沒有證據表明工作機會會隨住宅外移。','道路可改善流量，但不能消除出行距離問題。','只看供應數量會漏掉方案造成的額外成本。']},
+ {options:['選城市，因可善用基建、靠近工作並保護鄉郊','選鄉郊，因土地面積較大便可忽略新建服務','選城市，只因舊建築比鄉郊住宅看起來熟悉','選兩地平均建屋，卻不比較基建與土地影響'],explanations:['結論須作選擇，並總結基建、通勤與鄉郊價值。','空地多仍須計算公共服務與土地損失。','作者選城內的理由是實際基建與通勤，不是熟悉感。','平均分配未回應兩地成本與影響的差異。']}
+];
+revised.forEach((r,i)=>{transferTasks[i].options=r.options;transferTasks[i].explanations=r.explanations});
 export default {key:'direct-question:30',meta:{topic:'新住房應建現有城市還是鄉郊新城',summary:'城內建房可善用既有基建；鄉郊新城可能損農地、加長通勤並擴大城區。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

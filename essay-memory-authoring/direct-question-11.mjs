@@ -101,7 +101,7 @@ function card(example,functionName,distractors,frame){
     distractorReason:`這句${functionName}；它表達的是另一種關係。`};
 }
 const structures=[
-  card('In many homes, reading is seen not merely as homework, but as a way to share ideas.','用 not merely ... but as ... 重定一項活動的雙重意義',[3,7,9],
+  card('In many homes, reading is treated not merely as homework, but as a way to share ideas.','用 not merely ... but as ... 重定一項活動的雙重意義',[3,7,9],
     fixed(0,'In [群體], [某項成就] is treated not merely as [個人目標], but as [更大意義].','說明家長把成績同時看成孩子目標與未來保障，因此容易投入過多焦慮。','要交代某項成就為何在家庭中承載超過其本身的意義時。',['In ', ', ', ' is treated not merely as ', ', but as '],['家庭或社會情境','被賦予意義的成就','被超越的個人目標','附加的家庭意義'])),
   card('This is why some coaches place extra pressure on young players to train every evening.','用 This is why 由前句原因推出可見的行為',[0,4,15],
     fixed(1,'This is why [某群人] place [某種壓力] on [對象] to [期望表現].','把家長視學業為未來保障的心態，接到對孩子施壓的現象。','已解釋家長相信甚麼，接着要指出這種想法如何影響孩子時。',['This is why ', ' place ', ' on ', ' to '],['持有前述想法的人','施加的壓力','承受壓力的對象','被期望達到的表現'])),
@@ -109,11 +109,11 @@ const structures=[
     fixed(2,'In my view, [家長] should be [正面角色]: they should [建立紀律與信心] without [使學習變恐懼].','直接回答父母應扮演甚麼角色，並把引導與製造恐懼區分。','引言要回應第二題，說明家長應做甚麼及不應把學習變成甚麼時。',['In my view, ', ' should be ', ': they should ', ' without '],['應扮演角色的人','正面教育角色','需要建立的兩項條件','必須避免的傷害'])),
   card('One reason volunteers become overworked is that managers see their time as free.','用 One reason ... is that 解釋行為背後的觀念',[1,5,7],
     fixed(3,'One reason [某人要求過高] is that [他們相信某途徑最安全].','把父母要求過高，連到他們對教育能改善社會處境的信念。','開始回答為何施壓時，要先提出一個有根據的心理原因時。',['One reason ', ' is that '],['需要解釋的過高要求','背後的教育信念'])),
-  card('In busy cities, reliable transport is often linked to better jobs, more free time and a steadier life.','用 In ... is often linked to 並列某資源的實際回報',[0,3,8],
+  card('In busy cities, reliable transport is often linked to better jobs, more free time, and a steadier life.','用 In ... is often linked to 並列某資源的實際回報',[0,3,8],
     fixed(4,'In [競爭環境], [好成績] is often linked to [大學], [工作], and [穩定生活].','解釋父母為何相信教育有用：成績與大學、工作和生活穩定相關。','已提出「教育是安全途徑」，接着要交代這種看法的現實根據時。',['In ', ', ', ' is often linked to ', ', ', ', and '],['競爭環境','被重視的成績','大學機會','工作機會','生活穩定'])),
-  card('As a result, some workers believe that every late bus may put their job at risk.','用 As a result ... believe that 把前述條件接到當事人的信念',[3,4,6],
+  card('As a result, some workers believe that every late bus may affect their job security.','用 As a result ... believe that 把前述條件接到當事人的信念',[3,4,6],
     fixed(5,'As a result, [某人] believe that [每項小成績] may affect [未來].','由成績和未來機會的關聯，推到家長過分重視每次分數與排名。','要說明大環境如何變成家長對日常測驗的焦慮時。',['As a result, ', ' believe that ', ' may affect '],['受環境影響的人','被放大的每項成績','被認為受影響的未來'])),
-  card('This worry can become conflict, especially when managers compare new staff with senior colleagues.','用 especially when 說一種情緒在特定情境下升級',[4,5,8],
+  card('This worry can easily become conflict, especially when managers compare new staff with senior colleagues.','用 especially when 說一種情緒在特定情境下升級',[4,5,8],
     fixed(6,'This [焦慮] can easily become [壓力], especially when [比較情境].','說明對未來的恐懼如何轉化為孩子的壓力，並指出比較會加劇它。','要由內心擔憂推到具體施壓行為，並交代甚麼情況最易發生時。',['This ', ' can easily become ', ', especially when '],['前文的焦慮','轉化出的壓力','加劇壓力的比較情境'])),
   card('Another reason is that some leaders project their own disappointments onto a new team.','用 Another reason is that 加入不同於前一原因的心理動機',[3,6,9],
     fixed(7,'Another reason is that [部分成人] project [自身抱負或遺憾] onto [孩子].','另提出父母的個人抱負或遺憾，避免只用社會競爭解釋壓力。','一個原因已解釋社會競爭，還須補上個人經歷造成的推動力時。',['Another reason is that ', ' project ', ' onto '],['另一些成人','被投射的個人願望或遺憾','承受投射的孩子'])),
@@ -126,11 +126,11 @@ const structures=[
   card('They should also notice when a student is falling behind and respond with help rather than blame.','用 notice when ... and respond ... rather than 說觀察困難及回應方式',[6,10,12],
     fixed(11,'They should also notice when [孩子真的遇到困難] and respond with [耐心] rather than [責備].','父母須察覺真正困難，並用耐心取代責怪。','孩子未達預期時，要說明家長先觀察甚麼以及怎樣回應時。',['They should also notice when ', ' and respond with ', ' rather than '],['需留意的困難情境','合適的耐心回應','要避免的責備'])),
   card('For example, if a pupil struggles with reading, a helpful teacher would try to understand whether the cause is missing basics or anxiety, instead of simply demanding more pages.','用 For example, if ... whether ... instead of 展示先診斷再支援的做法',[8,11,14],
-    fixed(12,'For example, if [孩子表現欠佳], [父母] would try to understand whether [可能原因], instead of [只要求更高分].','以數學成績為例，列基礎、焦慮和方法三種可能原因，取代只催分數。','要把「耐心」變成家長面對具體學習困難的可行步驟時。',['For example, if ', ', ', ' would try to understand whether ', ', instead of '],['孩子遇到的具體困難','採取支援態度的父母','值得診斷的可能原因','沒有診斷的單純要求'])),
+    fixed(12,'For example, if [孩子表現欠佳], [父母] would try to understand whether [可能原因], instead of [只要求更高分].','以數學成績為例，列基礎、焦慮和方法三種可能原因，取代只催分數。','要用 instead of 對比追查原因與只要求更高結果兩種回應時。',['For example, if ', ', ', ' would try to understand whether ', ', instead of '],['孩子遇到的具體困難','採取支援態度的父母','值得診斷的可能原因','沒有診斷的單純要求'])),
   card('Most importantly, schools should protect pupils’ long-term interest in reading.','用 Most importantly ... protect ... long-term 說明高於短期成績的目標',[5,10,15],
     fixed(13,'Most importantly, [家長] should protect [孩子對學習的長遠態度].','把焦點由眼前分數提升至孩子能否持續願意學習。','列出家庭安排和個別支援後，要指出最長遠的教育目標時。',['Most importantly, ', ' should protect '],['有責任保護學習態度的人','需要長期維持的學習意願'])),
   card('Praise, clear advice and a safe classroom can help pupils try again, whereas constant criticism may make lessons feel shameful.','用 whereas 對比支持與持續壓力對學習態度的結果',[6,12,16],
-    fixed(14,'[鼓勵、回饋與安全感] can help [孩子有韌性及自我動力], whereas [持續壓力] may make [學習聯繫羞愧與疲憊].','對比兩種家庭氛圍：支持促進韌性，長期壓力則損害學習感受。','要用並列結果說明父母的回應如何改變孩子的長期學習態度時。',[' can help ', ', whereas ', ' may make '],['正面支持條件','支持帶來的能力','相反的持續壓力','壓力造成的負面聯想'])),
+    fixed(14,'[鼓勵、回饋與安全感] can help [孩子有韌性及自我動力], whereas [持續壓力] may make [學習聯繫羞愧與疲憊].','對比兩種家庭氛圍：支持促進韌性，長期壓力則損害學習感受。','要用 whereas 並列兩種做法的不同結果，讓對比支持判斷時。',[' can help ', ', whereas ', ' may make '],['正面支持條件','支持帶來的能力','相反的持續壓力','壓力造成的負面聯想'])),
   card('In conclusion, constant school stress often comes from comparison, fear and high expectations.','用 In conclusion ... comes from 濃縮多個原因回答第一問',[3,7,16],
     fixed(15,'In conclusion, [過度壓力] often comes from [恐懼、競爭與個人抱負].','在結論總結父母施壓的三類來源，明確回應第一問。','結論第一句要把前文兩種施壓原因收成簡潔的答案時。',['In conclusion, ', ' often comes from '],['需要解釋的過度壓力','前文分析的原因群'])),
   card('A coach’s true responsibility is to guide firmly but kindly, so that training becomes a path to growth rather than a burden to survive.','用 so that ... rather than 把應有角色接到長期正面結果',[2,13,15],
@@ -347,6 +347,31 @@ const transferTasks=[
     '範文也要對照支持與壓力的不同結果。',
   ],[15,16],'範文結尾先歸納恐懼、競爭及個人抱負，再提出父母應堅定而溫和地支持成長。'),
 ];
+const editorialWrongChoices=[
+  ['排名影響升學，家長責問主要來自學校的小測安排','先分析孩子對職業的想法，家長焦慮可稍後再問','家長擔心未來，但壓力主要來自孩子目前不夠用功'],
+  ['父親重視音樂教育，女兒恐懼主要因練習技巧不足','父親錯過學習機會，女兒應替他完成同樣目標','女兒受壓可能因競賽制度，父親願望只是次要因素'],
+  ['先建立固定練習時段，環境與期望待成績進步再調整','讓孩子自選安靜位置，讀書時間由每人自行安排','先問測驗難度，再把家長較高期望當作學習動力'],
+  ['先讓孩子加倍練習，原因可由下次測驗結果推斷','先調整學習方法，焦慮與基礎缺口可稍後再問','先降低數學目標，不與孩子討論成績下降的原因'],
+  ['維持高要求，把羞辱改成公開比較讓隊員警醒','先停練以避免恐懼，賽季結束後再提供誠實回饋','讓隊員自行消化失誤，教練只記錄下一場的成績'],
+  ['先安排額外練習，焦慮等因素待分數未升時再查','先比較他與同伴表現，再判斷是否缺基本知識','先提高最低分要求，方法問題交由學生自行調整'],
+  ['加入規律安排，合理期望與耐心支援留待個別諮詢','加入合理期望，但不提供家庭學習環境的具體建議','加入耐心鼓勵，同時仍把排名當成唯一進步指標'],
+  ['維持升大學目標，低分時加強比較以維持學習動力','先減少小測，學習習慣與回饋留待升學前再建立','以孩子每天快樂為先，原有學習目標暫時取消'],
+  ['未來焦慮可解釋比較，孩子迴避主要是自律不足','親戚成績可作參考，孩子感受留待大考後再問','先處理孩子迴避，家長比較方式不是分析重點'],
+  ['先說家長擔心未來，再要求孩子努力提高分數','說明個人遺憾的作用，具體支援交由學校處理','提出耐心回饋建議，但不解釋家長施壓的成因'],
+];
+const editorialWrongFeedback=[
+  ['小測安排是背景，題目重點是未來焦慮如何放大排名。','孩子觀點值得聽，也要理解家長施壓的焦慮來源。','把壓力歸給孩子，漏掉家長對職業前景的擔心。'],
+  ['練習方法可調，但父親的遺憾與期待更直接解釋要求。','女兒不必替父親完成其未實現的願望。','可能有競賽壓力，但此例明示父親的個人經歷。'],
+  ['固定時間有用，但忽略目前缺乏安靜環境與合理期望。','環境改善不等於可以沒有規律安排。','考題難度值得查，較高期望也可能加重壓力。'],
+  ['多練習未必對準基礎、焦慮或方法問題。','先只改方法，仍未辨明成績下降的真正原因。','降低目標可減壓，但不問原因便難以提供支援。'],
+  ['公開比較仍可能傷害安全感與持續練習意願。','暫停訓練未必必要，回饋應及時而耐心。','教練不只記分，也要幫隊員理解與改善失誤。'],
+  ['加練或有用，但應先了解困難來源。','比較分數不能直接診斷知識缺口或焦慮。','提高要求若沒有方法支援，仍重複原來問題。'],
+  ['個別諮詢可補充，信中仍應說明合理期望與支援。','只給期望而無環境和方法，仍不完整。','耐心鼓勵與單靠排名衡量成長不相容。'],
+  ['頻繁比較可能把低分變成恐懼。','減少小測未必解決缺少規律與誠實回饋的問題。','保護快樂不要求完全取消合理學習目標。'],
+  ['孩子迴避可能是比較壓力造成，不能只歸於自律。','孩子已開始迴避，感受不宜等到大考後再處理。','家長比較方式正是因果鏈中的關鍵一環。'],
+  ['只要求更高分，沒有回答家長應怎樣支援。','學校可合作，家長仍須調整自身做法。','第二問有建議，第一問的施壓原因仍未回答。'],
+];
+transferTasks.forEach((item,index)=>{item.options=[item.options[0],...editorialWrongChoices[index]];item.explanations=[item.explanations[0],...editorialWrongFeedback[index]];item.why=item.explanations[0]});
 export default {
   key:'direct-question:11',
   meta:{topic:'父母施壓與教育角色',summary:'升學競爭和個人遺憾可能促成過度壓力；父母應有要求、有耐心地支持長遠學習。'},

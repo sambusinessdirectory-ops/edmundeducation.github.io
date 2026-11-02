@@ -75,7 +75,7 @@ const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
 const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
 const structures=[
   S('People often form quick impressions from accents because speech is one of the first things they hear.','especially because 補充「為何能很快形成印象」的原因；沒有把印象當成真相。','此句只承認初步印象容易出現，尚未證明衣著能揭示性格。',[1,2,3],
-    F('It is common for [人們] to form [初步印象] from [可見線索], especially because [這線索常是先看到的東西]','先承認外表會影響第一印象，讓後文反駁「第一印象可靠」更有根據。','引言要先交代人們如何由可見線索形成初步判斷時。',[['It is common for people to form ','link','交代普遍現象'],['quick impressions','slot','初步印象'],[' from ','link','印象來源'],['clothing','slot','可見線索'],[', especially because ','link','補充原因'],['appearance is often the first thing visible in social interaction.','slot','這線索常是先看到的東西']])),
+    F('It is common for [人們] to form [初步印象] from [可見線索], especially because [這線索常是先看到的東西]','先承認外表會影響第一印象，讓後文反駁「第一印象可靠」更有根據。','要說明人們常從某種線索形成初步判斷，再用 especially because 補充原因時。',[['It is common for ','link','交代普遍現象'],['people','slot','人們'],[' to form ','link','形成印象'],['quick impressions','slot','初步印象'],[' from ','link','印象來源'],['clothing','slot','可見線索'],[', especially because ','link','補充原因'],['appearance is often the first thing visible in social interaction.','slot','這線索常是先看到的東西']])),
   S('However, I strongly disagree with the view that a quiet voice reveals a great deal about honesty.','However 轉向反對；disagree with the view that 精確指出被反對的推論。','反對的是由外在表現直接推斷內在性格，不是否認第一印象存在。',[0,2,14],
     F('However, I strongly disagree with the view that [外在表現] reveals [大量內在性格]','明確反對把第一印象推成對內在性格的充分了解。','承認初步印象容易形成後，要表態它是否可靠時。',[['However, I strongly disagree with the view that ','link','轉折並表態'],['a person’s dress','slot','外在表現'],[' reveals ','link','聲稱能揭示'],['a great deal about their personality.','slot','大量內在性格']])),
   S('In my opinion, a school uniform is more often shaped by school rules than by a student’s inner character.','more often...than... 比較兩種可能成因，指出外在條件較常解釋衣著。','這句是文章的主張框架，不是宣稱衣著完全不受性格影響。',[1,3,9],
@@ -320,6 +320,46 @@ const transfer=[
     '面具比喻正提醒評審不能停在外表。',
   ],[9,10,11,12,15],'範文承認第一印象，但說社交表現令衣著不足以可靠衡量品格。'),
 ];
+const reviewedTransferOptions=[
+  ['同樣衣着或因同一規定，不能推斷性格相同','穿同一制服，便斷定兩人價值觀完全相同','制服顏色一樣，便能讀出兩人的生活習慣','衣着相似，便證明兩人的家庭條件相同'],
+  ['白袍可能是職業要求，不能推斷各方面性格','醫生穿白袍，便證明她從來不在家休息','職業服裝可完整呈現一個人的所有習慣','白袍屬工作服，便否認醫生在醫院工作'],
+  ['外套或受家庭預算影響，不能直接證明自尊','二手衣服一定令所有穿者失去想像力','衣服價格可以完整量度一個人的品格','外套不昂貴，便毋須了解學生實際處境'],
+  ['正式服裝或為顯得可靠，未必顯示平時性格','正式服裝必然永久改變原本害羞的性格','面試衣着與留下好印象完全沒有關係','只看衣服，比實際交談更能了解一個人'],
+  ['鮮明衣着或助扮演角色，不能證明平日外向','鮮明服裝必然表示她內在一直十分外向','她穿得鮮明，便證明全部害羞的人虛偽','穿得時尚，便不可能有任何深層價值觀'],
+  ['只看外表或低估思想者，也過早稱讚表面者','華麗衣着必然證明每名候選人都膚淺','樸素衣着必然證明每名候選人都能幹','只看外表便能避免所有評價上的錯誤'],
+  ['先看天氣與場合，不以衣着量度同情心','雨衣厚薄足以完整說明兩人的道德品格','衣服不同，便斷定兩人來自不同文化','服裝不同，便不能觀察義工實際行為'],
+  ['只憑外表評完整能力，或錯過有思想的人','樸素服裝必然令研究成果完全沒有價值','書封面樸素，內文便一定沒有任何內容','講者穿得樸素，便證明他比別人聰明'],
+  ['制服或透露工作情境，未必揭示深層性格','知道工作場所，便足以知道全部個人習慣','制服不能顯示情境，也必定不顯示職業','有制服，便斷定青年每一刻都在工作'],
+  ['第一印象易形成，準確判斷還須看處境與行為','印象形成得快，便不可能受到服裝規定影響','有第一印象，便證明衣着完整顯示價值觀','作者質疑準確性，便代表他否認第一印象'],
+  ['衣着受背景影響，不能作單一可靠性格測量','背景因素愈多，愈能從衣服直接讀出性格','只有薪酬影響衣着，場合與文化毫無影響','海報上有規則，便可忽略人的實際行為'],
+  ['承認衣着有初印象，再查行為、作品與合作','光鮮形象，便證明兩人都沒有深層價值觀','衣服愈昂貴，這個人便必然愈可靠','兩人管理印象，便毋須再查實際表現'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='It is common for people to form quick impressions from accents, especially because speech is one of the first things they hear.';
+structures[3].example='First, the bags students carry are frequently determined by school rules and family budgets.';
+structures[4].example='In many schools, for instance, pupils must follow a uniform rule, whether they are outgoing or shy.';
+structures[7].example='Since bags are affected by school rules, money and the weather, it is unsafe to treat it as a clear test of character.';
+structures[8].example='At best, a uniform shows us where a student studies; it does not reliably reveal what the student believes.';
+structures[9].example='Second, people often dress to manage impressions rather than to express their true selves.';
+structures[11].example='In these cases, a carefully chosen profile functions almost like a mask: it helps people play a role, but it does not necessarily expose their deeper beliefs.';
+structures[12].example='If employers rely too heavily on polished clothes, thoughtful applicants may be missed and showy applicants may be praised too quickly.';
+structures[14].example='In conclusion, I strongly disagree that an expensive jacket speaks volumes about honesty.';
+structures[15].example='Although clothes can create an impression, they are too dependent on setting and expectation to be a reliable measure of character.';
+const plausibleAlternatives=[
+  [['同樣衣着反映規定，也能推測相近的興趣','制服相似，性格便可先視作大致相同','衣着一致可顯示學校文化，品格稍後再問'],['共同規定不足以推斷個人興趣。','相似服裝不能直接代表性格。','學校文化線索不能替代個人判斷。']],
+  [['白袍顯示專業角色，也能推知家庭習慣','醫生穿白袍，便可推測她在家同樣嚴肅','工作服代表可靠，平時性格可由此概括'],['職業服裝未必反映家中行為。','工作場合與私人生活要分開。','職業印象不等於各方面性格。']],
+  [['二手外套顯示預算有限，自尊也可能較低','衣服價格能反映資源，亦可推測品格','外套不昂貴，學生可先獲得價值觀輔導'],['預算限制不能直接證明自尊程度。','經濟條件與品格是不同面向。','先了解處境，再決定是否需協助。']],
+  [['正式服裝有助印象，長期性格仍由面試判斷','面試打扮可靠，外向程度便較易推測','衣着管理印象，因此實際交談可少看'],['面試表現也可能是情境角色。','顯得可靠不等於內在外向。','還須觀察行為與長期表現。']],
+  [['鮮明衣着能增自信，平日性格也會改變','衣着吸引目光，便可把她視作外向者','演講造型可表現角色，價值觀也較易看見'],['短暫扮演不代表平日性格轉變。','外在呈現不足以證明內向或外向。','衣着未必揭示深層信念。']],
+  [['華麗者善於表達，應先獲得較高評分','樸素者較安靜，合作能力便較難評估','衣着是一條線索，可先取代作品評審'],['光鮮健談不等於真正能力。','應透過作品與互動評估，而非先忽略。','單一外表線索不足以作可靠判斷。']],
+  [['先看天氣與場合，再推定雨衣者更謹慎','服裝不同可顯示準備，亦能反映同情心','雨衣適應天氣，薄外套代表較少投入'],['適應天氣不等於較有同情心。','準備程度與道德品格不能直接等同。','衣着厚薄未說明實際關懷行動。']],
+  [['講者穿得樸素，研究可先由造型評估','外表可提供線索，內容可留待另一位評審','樸素裝束不影響成果，觀眾仍可先不聽'],['比喻要求看完整內容，而非只看封面。','把內容延後仍可能錯過有思想的人。','不能因外觀而拒絕研究證據。']],
+  [['制服透露職業，性格也可按職業初步判斷','知道工作場所，便能推測大部分習慣','制服只在工作時穿，故平時性格更易推斷'],['職業訊息不是深層性格證據。','工作環境不能概括私人習慣。','換掉制服也不能由此推斷性格。']],
+  [['第一印象易形成，準確程度看衣服價格','第一印象常有線索，背景因素較少影響','印象形成得快，因此可暫不用觀察行為'],['價格不是可靠的品格測量。','規定與場合可能左右外在呈現。','判斷準確性仍須看更多證據。']],
+  [['衣着受背景影響，仍可作主要性格評分','背景因素很多，服裝可先代表一半品格','規則影響衣着，實際行為可留到之後看'],['受外部條件左右，便不宜單靠衣着。','沒有根據可把服裝量化為品格的一半。','直接觀察行為比只看規則可靠。']],
+  [['承認衣着有初印象，作品可等入選後再看','光鮮造型顯示準備，合作能力可由此推測','先看行為和作品，衣着印象則不用考慮'],['評審應在選擇前查實際能力。','專業形象不能直接證明合作可靠性。','文章承認衣着能形成第一印象。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
 export default {
   key:'opinion:21',
   meta:{topic:'衣著、第一印象與內在性格',summary:'作者強烈反對從衣著大量推斷性格。服裝規定、家庭收入及場合能左右衣著；人也會主動管理形象。衣服可形成第一印象，卻不是可靠的品格尺度。'},

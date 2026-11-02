@@ -78,9 +78,9 @@ function fixed(i,formula,meaning,usage,links,labels){
 }
 function card(example,functionName,distractors,frame){return {example,distractors,frame,patternType:'reviewed',answerReason:`這句${functionName}，與原句的句型和語意關係相同。`,distractorReason:`這句${functionName}；它表達的是另一種關係。`};}
 const structures=[
-  card('As old trees are cut down and roads expand, many birds are pushed out of places that once sheltered them.','用 As 連上多項人為壓力與動物失去棲地的結果',[1,2,8],
+  card('As old trees are cut down, roads expand, and rivers are polluted, many birds are being pushed out of the places that once sustained them.','用 As 連上多項人為壓力與動物失去棲地的結果',[1,2,8],
     fixed(0,'As [森林被清除], [城市擴張], and [野生動物被獵捕], many [物種] are being pushed out of [原有生態系統] that once sustained them.','開場把伐林、城市擴張和獵捕連成物種失去棲地的背景。','要交代環境問題的多個原因，並指出共同造成的後果時。',['As ', ', ', ', and ', ', many ', ' are being pushed out of ', ' that once sustained them.'],['森林清除','城市擴張','為利獵捕','受威脅的物種','失去的棲地'])),
-  card('I believe saving wetlands is essential, not merely for their beauty but because they protect water and people.','用 not merely ... but because 把保護理由由情感推進到生態與人類利益',[0,5,12],
+  card('I believe protecting wetlands is essential, not merely for their beauty but because their survival is tied to ecological balance and, ultimately, human health.','用 not merely ... but because 把保護理由由情感推進到生態與人類利益',[0,5,12],
     fixed(1,'I believe [保護對象] is essential, not merely for [情感理由] but because [生存] is tied to [生態穩定] and, ultimately, [人類福祉].','立場明確：情感可以是理由，但生態與人類福祉提供更深的必要性。','題目問保護動物是否重要，須先給出立場及有說服力的根據時。',['I believe ', ' is essential, not merely for ', ' but because ', ' is tied to ', ' and, ultimately, '],['須保護的對象','情感上的理由','與生態相連的生存','依存的生態條件','最終受影響的人'])),
   card('The first reason mangroves must be protected is that they form part of a coastal balance.','用 The first reason ... is that 明確提出第一項保護理由',[1,3,7],
     fixed(2,'The first reason [動物] must be protected is that [牠們] form part of [脆弱的自然平衡].','第一主體段把「重要」落在動物與整體生態的關係上。','開始解釋保護動物的必要性，先提出可用例子支持的理由時。',['The first reason ', ' must be protected is that ', ' form part of '],['需保護的物種','參與平衡的同一群物種','所維持的自然系統'])),
@@ -96,15 +96,15 @@ const structures=[
     fixed(7,'Several practical measures can be taken to address [問題].','標示第二題已開始：接下來要說可執行的保護措施。','由「為甚麼要保護」轉到「怎樣減少危機」時。',['Several practical measures can be taken to address '],['需要解決的問題'])),
   card('Governments should first create and enforce protected river zones, where fishing and building are strictly controlled.','用 create and enforce ... where ... 控制具體破壞行為',[7,9,10],
     fixed(8,'Governments should first create and enforce [保護區], where [伐木、建築和狩獵] are strictly controlled.','政府不只宣布地點受保護，還須執行對破壞行為的限制。','提出法律方案時，要交代受保護範圍與區內哪些活動被管制時。',['Governments should first create and enforce ', ', where ', ' are strictly controlled.'],['要設立並執行的地區','須受嚴格管制的行為'])),
-  card('Such rules must be more than words on paper: wardens need funding, poachers face penalties, and firms that damage rivers must pay.','用 more than words on paper: 列出法律真正落地所需的人手、懲罰及責任',[8,10,13],
+  card('Such laws, however, must be more than words on paper: wardens need funding, poachers face penalties, and firms that damage rivers must pay.','用 more than words on paper: 列出法律真正落地所需的人手、懲罰及責任',[8,10,13],
     fixed(9,'Such laws, however, must be more than words on paper: [護林員需經費], [非法獵人受懲罰], and [破壞棲地的公司須賠償].','指出法律實效取決於執法人員資源、違法代價及公司責任。','已提出保護區法例，接着要避免法律只停留於宣布時。',['Such laws, however, must be more than words on paper: ', ', ', ', and '],['執行者需要的資源','違法者須面對的後果','破壞者須承擔的責任'])),
   card('At the same time, river protection will be more effective if local families have a real stake in it.','用 will be more effective if 交代社區參與是提高保育成效的條件',[8,9,11],
     fixed(10,'At the same time, [保育] will be more effective if [當地社區真正參與並受益].','補上法律執行以外的條件：讓住在當地的人有保護動機。','法律與處罰已說明，要加入社區合作才能長期保護時。',['At the same time, ', ' will be more effective if '],['需要改善成效的保育','提升成效的社區條件'])),
-  card('When residents can earn money from guided walks or forest work, they are less likely to see wildlife as a threat to their income.','用 When ... can earn ... they are less likely to see ... as ... 解釋收入如何改變態度',[7,10,13],
+  card('When residents can earn income through guided walks or forest work, they are less likely to see wildlife as a threat to their income.','用 When ... can earn ... they are less likely to see ... as ... 解釋收入如何改變態度',[7,10,13],
     fixed(11,'When [居民] can earn income through [生態旅遊、農業或保育職位], they are less likely to see [野生動物] as [生存障礙].','指出替代生計的作用：使當地人較少把野生動物當成阻礙。','已說社區須參與並受益，要舉出具體收入如何改變保護意願時。',['When ', ' can earn income through ', ', they are less likely to see ', ' as '],['可能得到收入的人','可持續的收入途徑','看法可能改變的對象','原本認為的阻礙'])),
   card('In conclusion, forest protection is highly important because native birds are part of the natural system that supports life.','用 because 把保護重要性與維持生命的自然基礎連起來',[1,6,13],
     fixed(12,'In conclusion, [動物保護] is highly important because [瀕危物種] are part of [支撐生命的自然基礎].','結論先回答「是否重要」，並濃縮生態平衡與人類福祉的理由。','結論需重申保護立場，而理由須回扣前文生態論證時。',['In conclusion, ', ' is highly important because ', ' are part of '],['須重申的重要行動','保護對象','使其重要的自然系統'])),
-  card('The most effective response is not one publicity event, but a combination of enforceable rules, careful land use and local participation.','用 not ... but a combination of ... 指出多項配合的解法',[7,9,11],
+  card('The most effective response is not one publicity event, but a combination of enforceable rules, careful land use, and local participation.','用 not ... but a combination of ... 指出多項配合的解法',[7,9,11],
     fixed(13,'The most effective response is not [單一方案], but a combination of [法律保護], [土地管理], and [社區參與].','結尾收束成相互配合的法律、土地與社區方案，避免只倚賴單一行動。','回答「採取甚麼措施」時，須把前文分散的手段整合成組合時。',['The most effective response is not ', ', but a combination of ', ', ', ', and '],['不足以單獨解決的方案','第一類法律手段','第二類土地手段','第三類社區手段'])),
 ];
 const wrongReasons=[
@@ -319,4 +319,29 @@ const transferTasks=[
     '題目第二問要求可採取的做法。',
   ],[12,13],'範文結論分別重申自然基礎的價值，以及法律、土地管理與社區參與。'),
 ];
+const editorialWrongChoices=[
+  ['貓頭鷹減少與田鼠增加同時出現，應先查農藥用量','田鼠增多損害幼苗，主要用圍欄處理而不看捕食者','先研究作物損失，食物鏈變化可等下一季再查'],
+  ['候鳥可吸引遊客，保護價值主要看它們帶來的收入','濕地可減洪水，動物棲地的長期作用可獨立處理','居民喜歡候鳥可提高支持，環境功能暫不評估'],
+  ['先強化保護法文字，巡查經費留待下一年度審批','先擴大保護區範圍，偷蛋問題交社區自行勸阻','先處罰偷蛋者，巡查能力仍由現有人手維持'],
+  ['先由居民付費修復，公司責任可待工程完成後再查','先要求公司停止伐木，已受損棲地由政府負責修復','先訂保護規則，公司是否造成破壞留待居民舉證'],
+  ['新工作可增加收入，狩獵習慣則主要靠提高罰款改變','導賞工作可幫村民轉業，保育收入只作短期補貼','先加強保護區巡查，其他生計可等獵捕下降後再辦'],
+  ['先訂保護法例，土地與社區方案可在伐木減少後展開','先擴大嘉年華教育，執法仍交由原有機構處理','先管理土地開發，居民生計與合作留到下階段'],
+  ['昆蟲數量改變值得查，但草地影響可只看植物生長','先統計其他生物數量，食物鏈關係留待變化擴大再查','昆蟲變少可能影響食物鏈，主要先增加草地的面積'],
+  ['安排養殖工作讓村民增收，保護規則交由政府單獨定','先開發導賞吸引遊客，魚群保護等收入穩定後再辦','讓村民參與保護會議，但生計需求交由市場處理'],
+  ['先設保護法，再讓道路工程照原計劃通過棲地','先審查道路工程，保護區規則仍可保持寬鬆','先調整鳥類遷徙路線，建設審查可待開工後再補'],
+  ['重申動物值得保護，措施可留待下一段再逐一討論','列出法律與保護區，土地與社區生計可暫不提及','說明居民生計需要支援，保護價值可留給例子解釋'],
+];
+const editorialWrongFeedback=[
+  ['農藥可能有影響，但題目已給出捕食者移走的線索。','圍欄或有用，仍未說明生態連鎖原因。','作物受損正是食物鏈改變的後果，不宜分開延後。'],
+  ['旅遊收入不是濕地減洪水與維持生態的主要理由。','濕地多種功能相連，不能把人與棲地完全切開。','喜愛候鳥可動員支持，仍須看環境功能。'],
+  ['法律文字已存在，缺的是執行所需的人手經費。','擴區仍可能無人巡查，偷蛋者未受約束。','處罰須有巡查才能發現和阻止偷蛋。'],
+  ['公司已造成損失，責任不應先轉嫁居民。','停伐重要，修復成本仍應由破壞者負擔。','已知公司破壞棲地，不能把舉證全交居民。'],
+  ['罰款可阻止部分行為，新收入才處理生計依賴。','保育工作應成為可持續生計，不只是短期補貼。','只有巡查而無替代收入，可能無法長期減少獵捕。'],
+  ['伐木持續，土地管理與社區方案不能全部延後。','教育活動有用，卻不能單獨阻止持續威脅。','居民生計與合作是可持續保護的一部分。'],
+  ['只看植物漏掉昆蟲與其他動物的相互作用。','統計數量有用，也要及早查食物鏈機制。','擴大面積不一定修復物種之間的連鎖。'],
+  ['收入方案有用，村民也應參與保護規則。','若先不保護魚群，後續收入難以持續。','只開會而無生計選項，參與難以持久。'],
+  ['已有法律仍須管制穿越棲地的具體建設。','審查是對的，規則也須有效執行。','遷徙路線不能由政府任意改，工程應事前審查。'],
+  ['兩問都須在結論回答，不能把措施延到後文。','土地管理與社區方案也是範文主要解法。','只談生計措施，未回答動物為何值得保護。'],
+];
+transferTasks.forEach((item,index)=>{item.options=[item.options[0],...editorialWrongChoices[index]];item.explanations=[item.explanations[0],...editorialWrongFeedback[index]];item.why=item.explanations[0]});
 export default {key:'direct-question:18',meta:{topic:'瀕危動物的保護價值與措施',summary:'食物鏈連鎖說明動物保護關乎人類；保護區須執法，社區亦須有可持續收入。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

@@ -135,6 +135,79 @@ const transfer=[
   T('公園改建支持者說：「住房和商業有價值，所以公園必須消失。」','哪項指出推論缺口？',['住房與商業重要，不代表可忽略公園對健康、社區和宜居的獨特作用','只要住房重要，任何開放空間都多餘','公園只能在沒有居民時存在','城市不需要經濟活動'],['結論承認人口與經濟需求仍反對犧牲綠地。','缺乏公園作用評估。','公園服務居民。','作者承認經濟重要。'],[2,3,8,14],'While population growth and economic development are important...。'),
   T('要用一句話概括全文。','哪項最準確？',['作者反對以住宅或商業取代公園：它們提供免費健康空間、社交聯繫及城市長遠吸引力','作者認為城市不應建任何住宅','作者說公園只因景色好看而值得保留','作者主張短期利潤是唯一城市標準'],['兩段分別講健康與社區/城市價值。','並無此絕對主張。','原文否定只看美觀。','原文批評只看短期。'],[2,3,5,6,8,9,11,12,13,14],'public health, social life, and long-term sustainability of cities。'),
 ];
+const reviewedExamples=[
+  'School libraries are often seen as costly extras, especially in small towns.',
+  'Some argue that the old warehouse would be more useful if it were converted into a clinic.',
+  'I completely disagree with that policy, because public libraries are essential to equal learning.',
+  'The strongest reason for keeping school gardens is that they provide children with outdoor learning.',
+  'In crowded schools, many students have nowhere quiet to read.',
+  'Libraries give families somewhere to read and study together.',
+  'For example, a parent may not be able to afford private tutoring, but a library allows children to learn after school.',
+  'If the school closes its garden, lessons may become less active.',
+  'A community library also supports new friendships and helps neighbours learn.',
+  'They are shared rooms where neighbours can meet, rather than private spaces for a few.',
+  'This matters because education is not simply a test score; it is a path to independence.',
+  'Moreover, safe cycle routes can support local shops indirectly by making the street more attractive to visitors.',
+  'A new shopping centre may generate quick revenue, but it risks becoming a burden if few residents use it.',
+  'In conclusion, I strongly disagree that public playgrounds should be replaced by parking spaces.',
+  'While new offices would add jobs, they would remove the only public garden.',
+];
+reviewedExamples.forEach((example,i)=>{structures[i].example=example;});
+const reviewedTransfer=[
+  [
+    ['公園讓孩子安全遊玩及成人免費活動，支援家庭健康','只比較私人中心收費，暫不衡量免費公園的作用','只計辦公室新增職位，不看家庭的戶外活動需要','設付費室內健身房，假定所有當地家庭都能負擔'],
+    ['免費且可及的活動空間，是家庭例子的健康作用。','比較價格仍須檢查公園能否提供免費選擇。','新增職位不能取代家庭的活動需要。','付費設施未解決部分家庭無法負擔的障礙。']
+  ],
+  [
+    ['公園供散步、運動與紓壓，對公共健康有實際作用','只談公園景觀與照片，不看居民能進行的活動','把新大樓的面積當成居民健康的唯一指標','建室內健身房但收高費，仍缺人人可用的空間'],
+    ['作者指出開放空間有具體身心健康用途。','美觀不能涵蓋運動和紓壓的實際作用。','樓面面積不能單獨衡量健康。','高收費設施未提供同等可及的公共空間。']
+  ],
+  [
+    ['綠地減少會限制免費活動，也可能加重城市壓力','只看失去綠地後的景色，忽略居民原有的活動','只計建築施工噪音，未看日後能否走路運動','假定私人運動場足夠，毋須檢查家庭支付能力'],
+    ['居民的開放活動空間減少，可能增加壓力。','景色以外，居民也失去活動和休息場所。','施工期影響未涵蓋長期健康與活動需要。','私人場所是否可負擔，正是原文關心的條件。']
+  ],
+  [
+    ['補看健康、壓力、社區聯繫和長期宜居程度','只計新增樓面，未衡量居民健康與社區聯繫','只計出售收入，未衡量長期居住吸引力','只統計建築數量，便斷定居民必然更安全'],
+    ['規劃指標須包括公園對生活品質的多種作用。','樓面數字沒有量度公共健康和社會生活。','即時收入未反映長期宜居與吸引力。','建築數量不能保證安全感或社區關係。']
+  ],
+  [
+    ['共享公園讓不同群體自然相遇，建立社區聯繫','要求每位公園使用者交友，才算有社區作用','讓同齡居民分開活動，卻不提供相遇空間','只在網上發布公園照片，不安排共享場所'],
+    ['共享場所讓不同人有自然相遇的機會。','原文談可能性，不保證每個人一定交友。','分隔群體削弱跨背景的自然接觸。','照片不能代替人們共用的實際空間。']
+  ],
+  [
+    ['公園提高城市吸引力，或間接支持人流與經濟','只計公園門票收入，忽略城市對居民的吸引力','只看樓宇即時租金，未計人才是否願意居住','假定建築越密集，居民與訪客必然越願意來'],
+    ['更宜人的城市可吸引居民、工作者和訪客，間接帶動經濟。','原文談間接作用，並非只看公園本身收入。','租金未反映人才和訪客是否願意留下。','密度本身不保證城市吸引力。']
+  ],
+  [
+    ['作者承認發展重要，仍反對犧牲公園的公共作用','因公園重要，便否定所有住宅及商業發展','因發展重要，便直接接受取消全部公共綠地','只談訪客喜好，避開居民健康與社區需要'],
+    ['文章承認發展需要，但不接受以公園公共價值作代價。','原文沒有反對所有住宅和商業。','承認發展不等於忽視公園的作用。','居民健康與社區生活是核心論據。']
+  ],
+  [
+    ['免費公共設施可減少家庭收入造成的使用障礙','改用會員制設施，仍要求家庭支付較高費用','因設施免費，便認為不再需要任何專業服務','只看設施地點，不檢查家庭能否負擔費用'],
+    ['免收費使較低收入家庭也能使用活動空間。','會員費仍可能排除無力支付的家庭。','免費公共設施不會取代所有專業服務。','地點以外，價格也是使用障礙。']
+  ],
+  [
+    ['除了租金，還要評估健康、吸引力及長遠宜居','只用即時租金評估，未看居民會否願意長住','只算建設成本，卻不估計開放空間的益處','只看樓宇數量，便推斷城市長期自然吸引人'],
+    ['短期收入須與健康和長期城市價值一同衡量。','租金不足以說明居民會否留下或投資。','只算成本會漏掉公園帶來的長期效益。','樓宇增加不保證城市長期宜居。']
+  ],
+  [
+    ['成功城市有樓宇，也讓居民感到連結與安全','住宅和商場數量增加，便認定城市已足夠成功','居民能在網上聯絡，便不需要共享公共空間','只改善照明與保安，卻忽略居民相遇的地方'],
+    ['城市是生活環境，也要有連結與安全感。','樓宇數量只是其中一面。','網上聯絡未必代替自然相遇的共享場所。','安全重要，但未涵蓋社區聯繫。']
+  ],
+  [
+    ['住宅商業有價值，仍須衡量公園獨有的公共作用','既然住宅有需求，便假定公園沒有健康價值','只談公園景色，未處理健康及社區等作用','因公園有作用，便主張停止所有住宅供應'],
+    ['發展有價值，不能據此抹去公園的獨特作用。','住宅需求不能證明公園無用。','公園的作用不只在外觀。','原文承認人口與經濟發展需要。']
+  ],
+  [
+    ['反對以樓宇取代公園，因公園兼顧健康與長遠發展','只談公園能讓人運動，未解釋其社區與經濟作用','只談商業樓宇的短期收入，忽略公園公共價值','只稱公園景色宜人，未說明保留它的實際理由'],
+    ['健康、社區和城市長遠吸引力共同支持反對立場。','全文還談社會聯繫和間接經濟。','短期收入不足以取代公共健康和長期價值。','美觀只是被反駁的狹窄理解。']
+  ],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:45',
   meta:{topic:'公共公園、城市健康與長遠宜居',summary:'作者反對把公共公園改建成住宅或商業區。擁擠城市的居民需要免費開放空間散步、運動及紓壓，不能負擔私人設施的家庭尤其受益。公園亦讓不同群體自然相遇，使城市更有聯繫與安全感，並可透過吸引居民、工作者和遊客間接支持經濟。'},

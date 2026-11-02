@@ -33,7 +33,7 @@ const vocabulary=[
 ];
 const structures=[
  f('The two maps compare the present industrial area in Town A with the proposed redevelopment of the site.','引言分清目前工業區與尚未落實的重建規劃',[2,4,8],{formula:'The two maps compare the present industrial area in [地點] with the proposed redevelopment of the site',meaning:'兩圖對照 Norbiton 工業區現在與未來擬議的住宅化方案。',usage:'proposed 表示規劃，不能用已完成語氣寫新住宅、橋或學校。',parts:[link('The two maps compare the present industrial area in'),slot(' Norbiton','地點'),link(' with the proposed redevelopment of the site.')]}),
- f('Overall, the area is set to be transformed from a derelict factory complex into a new residential district with public amenities.','概覽由工廠轉住宅與公共服務的用途轉換',[0,4,7],{formula:'Overall, the area is set to be transformed from a factory complex into a residential district with public amenities',meaning:'擬拆全部工廠，以住宅為主，加商店、醫療、遊樂場與學校。',usage:'set to be 是未來計劃；圖中目前仍是工廠區。',parts:[link('Overall, the area is set to be transformed from a'),slot(' factory complex','原用途'),link(' into a'),slot(' residential district with public amenities.','新用途')]}),
+ f('Overall, the area is set to be transformed from a derelict factory complex into a new residential district with public amenities.','概覽由工廠轉住宅與公共服務的用途轉換',[0,4,7],{formula:'Overall, the area is set to be transformed from a [原用途] into a [新用途]',meaning:'擬拆全部工廠，以住宅為主，加商店、醫療、遊樂場與學校。',usage:'要概括地圖中從原用途到規劃新用途的主要轉變時。',parts:[link('Overall, the area is set to be transformed from a'),slot(' factory complex','原用途'),link(' into a'),slot(' residential district with public amenities.','新用途')]}),
  f('The road network will also be expanded, especially northwards across the canal and southwards to the ring road, while the canal and the main east–west road will largely remain in place.','概覽同時寫新跨河連接和保留的固定地標',[0,5,8],{formula:'The road network will also be expanded, especially northwards across [障礙] and southwards to [南面連接], while [保留地標] will largely remain in place',meaning:'北向新橋越河，南面通道加第二迴旋處；河與東西向主路大致保留。',usage:'橋在未來圖才出現；主要東西向道路與河都仍可作前後定位。',parts:[link('The road network will also be expanded, especially northwards across'),slot(' the river','障礙'),link(' and southwards to'),slot(' the main road','南面連接'),link(', while'),slot(' the river and the main east–west road','保留地標'),link(' will largely remain in place.')]}),
  f('Currently, the site is centred on a roundabout south of the canal.','先用現有迴旋處與河的相對位置定位',[1,5,9],{formula:'Currently, the site is centred on a roundabout south of [水道]',meaning:'現有主迴旋處位於河以南、主路以北的工業區中央。',usage:'這個現有迴旋處在未來圖仍在；另增的第二個在南面主路處。',parts:[link('Currently, the site is centred on a roundabout south of'),slot(' the river.','水道')]}),
  f('From this junction, one road runs east, with several warehouses on both sides and another at its far end.','從迴旋處沿東向道路定位兩側及最東端建築',[0,3,8],{formula:'From this junction, one road runs east, with several [建築] on both sides and another at its far end',meaning:'現有迴旋處往東的路兩邊有多間工廠，最東端另有一間。',usage:'此句描述目前工廠，不可把未來圖的學校或遊樂場寫進去。',parts:[link('From this junction, one road runs east, with several'),slot(' factories','建築'),link(' on both sides and another at its far end.')]}),
@@ -95,4 +95,18 @@ const transfers=[
  transfer('未來保留原中央迴旋處，南面主路交會處再增一個。','哪句正確解釋 second？',['第二個迴旋處將建在南面接入路上。','原中央迴旋處會直接搬到河以北。','兩個迴旋處在目前圖已存在。','第二個將建在東端學校內。'],['第二個新增於南面主路交匯處。','原中央迴旋處保留。','現況只有一個。','學校在東端。'],[9],'原文第二 roundabout 擬建於 southern access road。'),
  transfer('未來商店在西南、醫療在東南、遊樂場在東路北側、學校在最東端。','哪句把四設施位置配準？',['商店與醫療中心靠南，遊樂場在東路北面，學校在東端。','商店和學校都建在河以北農田中央。','遊樂場在南面主路上，醫療中心在西北。','四項現在都已建成。'],['四項新公共設施與方位皆符合未來圖。','北岸主要是住宅。','位置錯配。','全部屬未來規劃。'],[10],'原文四項新設施在南部、東部與東北部；圖上可逐項定位。'),
 ];
+const balancedTransferOptions=[
+ ['兩張地圖比較同一工業區現況與未來的擬議重建。','兩張地圖比較兩個已完工住宅區的現有佈局。','兩張地圖比較工廠今年與明年的生產總量。','兩張地圖解釋該區未來重建成本上升的原因。'],
+ ['該區計劃由工廠群改成附帶公共設施的住宅區。','該區今日已由工廠群改成完全建成的住宅區。','該區規劃保留全部工廠，而且不會增設住宅。','該區未來只會擴增工廠，不會設公共設施。'],
+ ['新路擬跨河向北延伸，河及東西向主路仍大致保留。','新路計劃取代整條河流，原主路也完全拆除。','跨河住宅路今日已存在，河及東西向主路保留。','東西向主路計劃完全搬到北岸，不再在原位。'],
+ ['現有中央迴旋處位於河以南，是該區交通樞紐。','現有中央迴旋處位於河以北的農田中央。','目前已有兩個迴旋處，分別在河的南北岸。','附近城鎮在迴旋處正東，與地圖方向相反。'],
+ ['現有東路兩旁及末端均有工廠，並非住宅。','現有東路兩旁及末端均有住宅，並非工廠。','現有工廠全在河以北農田，東路沒有工廠。','現有東路尚未興建，因此沒有任何建築。'],
+ ['工廠亦在迴旋處北及西側，短路向南接主路。','工廠只在河以北農田，迴旋處南面沒有路。','短路將中央迴旋處連到北岸未來的學校。','迴旋處西側目前已建成商店，沒有工廠。'],
+ ['城鎮位於工業區與迴旋處西面，即地圖左邊。','城鎮位於工業區與迴旋處北面，即河對岸。','城鎮位於未來學校東面，在地圖最右邊。','城鎮位於南面主路正南面，在地圖下方。'],
+ ['規劃拆除全部工廠，主要建住宅，也會有公共設施。','目前全部工廠已拆，住宅及公共設施均已建成。','每個廠址都只能改住宅，不能有其他公共用途。','規劃保留全部工廠，只在旁邊增建一個住宅。'],
+ ['住宅規劃在迴旋處西側、東路旁及建橋後的北岸。','住宅規劃全在南面主路外，迴旋處旁並沒有。','北岸住宅現已可經舊橋到達，不需興建新橋。','東路旁未來仍只有工廠，沒有任何新住宅。'],
+ ['第二個迴旋處擬建於南面主路的交會位置。','原中央迴旋處擬搬到河以北的農田之中。','目前已有兩個迴旋處，南面並非新規劃。','第二個迴旋處擬建於東端的學校內。'],
+ ['商店與醫療在南面，遊樂場在東路北側，學校最東。','商店與學校都在北岸農田中間，遠離道路。','遊樂場在南面主路上，醫療中心卻在西北。','四項設施在現有工業區早已建成並營運。'],
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
 export default {key:'task1-maps:4',meta:{topic:'Norbiton 現有工業區與擬議未來重建',summary:'嚴格區分現況與計劃；全部工廠擬拆、住宅分三片，跨河橋及南面第二迴旋處，河與主路大致保留。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

@@ -2,6 +2,7 @@
   'use strict';
 
   const SESSION_KEY = 'edmund-essay-memory-student-v1';
+  const CONTENT_VERSION = '20261102-all288-review2';
   const gate = document.querySelector('[data-memory-login]');
   const form = gate?.querySelector('[data-memory-login-form]');
   const status = gate?.querySelector('[data-memory-login-status]');
@@ -82,8 +83,8 @@
       if (requestedKey && window.ESSAY_MEMORY_APPROVED?.[requestedKey] && requestedKey !== 'opinion:80' && !window.ESSAY_MEMORY_LESSONS?.[requestedKey]) {
         const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === requestedKey);
         if (!meta) throw new Error('找不到這篇範文。');
-        await loadScript(`essay-memory-lessons/${meta.id}.js`);
-        await loadScript(`essay-memory-support/${meta.id}.js`);
+        await loadScript(`essay-memory-lessons/${meta.id}.js?v=${CONTENT_VERSION}`);
+        await loadScript(`essay-memory-support/${meta.id}.js?v=${CONTENT_VERSION}`);
         if (!window.ESSAY_MEMORY_LESSONS?.[requestedKey]?.support) throw new Error('這篇範文的教材未能載入。');
       }
       if (appScript) await loadScript(appScript);

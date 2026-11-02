@@ -326,6 +326,45 @@ const transfer=[
     '結尾明確否定石像圖像。',
   ],[2,3,8,15,16],'範文結論列 genes 的 starting points 與 family, education, relationships and effort。'),
 ];
+const reviewedTransferOptions=[
+  ['安靜或是起點，支持與練習仍可幫人建立自信','天生安靜，便終生無法在小組開口說話','老師鼓勵一次，學生便即時變得完全外向','基因完全無影響，所以安靜也不可能存在'],
+  ['環境不同，性格仍可能沿不同方向發展','兩人都愛笑，便保證日後性格完全相同','受嚴厲批評者，必然永遠快樂而無防備','家庭與學校環境不可能影響任何習慣'],
+  ['反覆停頓並聽回饋，可能逐步增強自制','只練習一次，便必定永遠不再生氣','容易生氣，便證明自制力全無改善空間','聽取回饋與處理衝突完全沒有關係'],
+  ['日常要求或促使人適應，逐步形成較好紀律','性格入職前已固定，半年變化必定不可能','有壓力，所有人便以相同速度變得成熟','工作要求只改衣服，不會影響任何行為'],
+  ['基因影響起點，教育與關係仍可重塑性格','基因存在，便令所有環境影響完全歸零','教育有用，便表示基因根本完全不存在','環境只影響成績，絕對不會影響性格'],
+  ['性格像有根活樹，仍可隨練習與環境改變','性格像石像，任何新習慣都不可能學會','活樹完全沒有根，先天傾向便不存在','石像與活樹只在顏色不同，與改變無關'],
+  ['給支持及反覆發言機會，讓自信慢慢增長','學生如今害羞，便放棄所有發言練習','只上台一次，便保證人人不再害羞','只看基因報告，不安排任何實際練習'],
+  ['一次失誤不定終局，持續練習或形成新習慣','一週失控一次，便斷定此前練習全部無效','性格出生已固定，任何停頓都不能發生','不反思衝突，只等時間過去便增加自制'],
+  ['起初開朗者，也可能因嚴苛環境變得防備','天生活潑，便保證家庭壓力完全沒有影響','環境只影響安靜者，絕不影響開朗者','每個開朗孩子在嚴苛環境都更加外向'],
+  ['耐心行為反覆出現，習慣或成為性格一部分','職場耐心一次，便斷定性格已永久改變','行為與養成習慣，永遠沒有任何關係','只有家庭影響性格，職場不會帶來適應'],
+  ['先天是起點；可觀察的習慣成長反駁全然預定','人會成長，便否定基因對起點的所有影響','有先天傾向，後天學習便必然毫無作用','日常有成長，便斷定人人天生完全一樣'],
+  ['先天或影響起點，後天環境與努力仍塑造性格','既然有基因，家庭教育便必然沒有作用','只要努力，一天內人人性格便完全相同','性格像石像，永遠不受任何生長條件影響'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const plausibleAlternatives=[
+  [['先讓安靜學生只寫意見，不安排小組口頭練習','憑一次上台反應，便判斷自信已經穩固','既然能練習，就不必考慮個別起點差異'],['只用書面方式，沒有提供題目所需的發言練習。','一次反應不足以證明持續改變。','後天可塑不等於人人起點相同。']],
+  [['按兩人起初都愛笑，先預測後續性格相近','只問孩子是否愛笑，不查後續家庭經歷','把支持或批評當短期情緒，不追蹤長期改變'],['早期相似不能代替成長環境的比較。','這略去了題目中最重要的經歷差異。','反覆經歷可能累積為習慣和性格。']],
+  [['只看練習首日表現，便決定自制能否改善','把易怒當固定特質，只教他避開與同學爭執','只記數三秒，不查他有否吸收同學回饋'],['肌肉比喻着重反覆練習，不是一日見效。','避開情境不等於練習調整反應。','回饋與重試是題目的重要環節。']],
+  [['把半年改善只歸因熟悉流程，不查紀律變化','用一人進步，推定其他新人也會同速成熟','只記完成任務量，不看工作習慣與壓力處理'],['範文指出高要求工作可促使習慣改變。','一個例子不能保證每人相同。','成果數量不能代替習慣的觀察。']],
+  [['只研究基因差異，不查家庭支持或學校經歷','看到教育有效，便忽略可能存在的先天起點','把環境影響限於成績，不問處事習慣變化'],['基因不是作者提出的唯一塑造力量。','後天影響與先天傾向可以並存。','範文談的是性格，不只考試分數。']],
+  [['既有安靜起點，便把後續耐性練習放到次要','用活樹比喻，只談枝葉卻不看根和生長條件','只比較石像與樹的外觀，不討論持續改變'],['起點不應被當成終局。','比喻同時包含起點與生長環境。','比喻重點是可塑性。']],
+  [['先按現在是否害羞分組，減少部分學生發言機會','只憑首次上台，就判斷後續練習是否有用','只提供支持語句，不安排實際發言的練習'],['這把目前狀態當成限制後續機會的理由。','一次經驗不足以判斷長期進展。','支持須配合實際練習。']],
+  [['把一週失誤當主要判據，較少看此前的進步','只記錄失控次數，不看是否學會先停頓','認為時間過去已足夠，不再反思爭執經過'],['單次失誤不取消累積的練習。','新習慣的早期跡象也值得觀察。','時間須配合有意識的調整。']],
+  [['先以天生活潑評估，暫不查持續家庭壓力','只把嚴厲環境與安靜孩子連在一起','按孩子現在開朗，就推定日後仍會外向'],['先天傾向不能取代環境評估。','不同起點的人都可能受環境影響。','當前表現不保證長期結果。']],
+  [['只看一次耐心表現，不查往後是否反覆出現','把職場行為與日常習慣分開，不追蹤轉變','先查家庭經歷，略過新工作帶來的適應'],['一事不足以證明習慣已形成。','文章以反覆行為連結習慣與性格。','高要求職場也是可能的塑造力量。']],
+  [['見到後天成長，便先忽略兩人的起點差別','把先天傾向用作預測，少查日常練習成果','見到相似進步，就推定兩人起點也相同'],['後天可變不排除先天影響。','傾向不等於固定終局。','進步相似不證明起點相同。']],
+  [['性格有先天差異，便把家庭與教育列為次要','只講努力的作用，不追蹤改變需要多久','用石像比喻性格，不查後續成長的條件'],['範文明列家庭和教育的塑造作用。','改變需要時間，不能只說努力便算解釋。','石像圖像忽略可塑性。']],
+];
+plausibleAlternatives.forEach(([options,explanations],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...explanations);});
+structures[0].example='Ability is often discussed as if it were written into a child before school, like a script nobody can change.';
+structures[2].example='Although genes may create certain tendencies, confidence is not fixed at birth; it is continually shaped by support and practice.';
+structures[5].example='If a quiet child grows up with support and practises speaking in class, she is likely to become more confident over time.';
+structures[7].example='This suggests that genes may provide the raw material, but surroundings help mold the final shape of a person’s character.';
+structures[9].example='Traits such as patience and self-control are not simply gifts we are born with; they can be strengthened through practice like muscles.';
+structures[12].example='Similarly, young adults in demanding jobs often become more disciplined because they must adapt each day.';
+structures[14].example='In conclusion, I completely reject the idea that patience is locked in place before birth.';
+structures[15].example='Genes may influence a child’s starting point, but family, education and effort can reshape character through life.';
+structures[16].example='Personality is not a stone statue; it is more like a growing tree, shaped by both roots and its environment.';
 export default {
   key:'opinion:25',
   meta:{topic:'性格、基因起點與後天塑造',summary:'作者完全反對性格出生前已鎖定。基因可能帶來初始傾向，但支持或嚴苛環境可改變發展；練習、反思與反覆經驗也能把新行為逐漸變成性格的一部分。'},

@@ -77,29 +77,29 @@ const part=(text,kind,label)=>({text,kind,label});
 function fixed(i,formula,meaning,usage,links,labels){const text=original[i],parts=[];let cursor=0,slot=0;for(const link of links){const at=text.indexOf(link,cursor);if(at<0)throw Error(`Missing fixed span ${i+1}: ${link}`);if(at>cursor)parts.push(part(text.slice(cursor,at),'slot',labels[slot++]));parts.push(part(link,'link','句型固定部分'));cursor=at+link.length;}if(cursor<text.length)parts.push(part(text.slice(cursor),'slot',labels[slot++]));return {formula,meaning,usage,parts};}
 function card(example,functionName,distractors,frame){return {example,distractors,frame,patternType:'reviewed',answerReason:`這句${functionName}，與原句的句型和語意關係相同。`,distractorReason:`這句${functionName}；它表達的是另一種關係。`};}
 const structures=[
-  card('In many cities, councils try to influence how people eat, travel and use parks.','用 governments often try to influence 開場列出政府觸及的日常選擇',[1,2,11],
+  card('In modern societies, councils often try to influence how people eat, travel, work and use parks.','用 governments often try to influence 開場列出政府觸及的日常選擇',[1,2,11],
     fixed(0,'In modern societies, [政府] often try to influence how [公民] eat, travel, work and [度過休閒時間].','說明政府已介入哪些生活領域，讓責任問題有具體範圍。','題目問政府應否決定生活方式，先界定現有影響領域時。',['In modern societies, ', ' often try to influence how ', ' eat, travel, work and '],['試圖影響選擇的政府','受影響的公民','餘下的休閒行為'])),
-  card('While schools should explain healthy food and prevent direct harm, lunch choices should be made by families.','用 While ... , ... should ... 讓步承認保護責任再表明個人決定',[0,2,14],
+  card('While schools have a legitimate duty to explain healthy food and prevent direct harm, lunch choices should ultimately be made by families.','用 While ... , ... should ... 讓步承認保護責任再表明個人決定',[0,2,14],
     fixed(1,'While [公共當局] have a legitimate duty to [提供資訊及防止直接傷害], [生活方式選擇] should ultimately be made by [個人].','明確保留政府的資訊和安全角色，最終選擇仍歸個人。','題目要求政府或個人決定，需精確劃出政府可做與不可代選之界線時。',['While ', ' have a legitimate duty to ', ', ', ' should ultimately be made by '],['有公共責任者','可正當提供的服務','最終需決定的選擇','應作決定的人'])),
   card('This essay will argue that freedom and real-world results make voluntary choices the better approach.','用 This essay will argue that 預告自由與成效兩個判斷標準',[1,3,8],
     fixed(2,'This essay will argue that [個人自主] and [實際成效] make [個人決策] the better approach.','引言預告兩段主體分別論證自主權及自願選擇的有效性。','已給個人決定的立場，接着要說用哪些標準判斷時。',['This essay will argue that ', ' and ', ' make ', ' the better approach.'],['第一項判斷原則','第二項判斷原則','較佳的決策方式'])),
   card('The strongest reason is that how adults eat is closely tied to personal freedom and identity.','用 The strongest reason is that 把生活選擇連到自由、身份與尊嚴',[2,4,8],
     fixed(3,'The strongest reason is that [生活方式] is closely tied to [自由、身份與尊嚴].','第一主體段先提出為何私人生活領域值得由個人掌控。','開始支持個人決定的立場，先說生活方式與人格價值的關係時。',['The strongest reason is that ', ' is closely tied to '],['受討論的生活方式','相關的個人價值'])),
-  card('People differ in health, income and family needs, so one school food rule may not suit everyone.','用 People differ ... so ... 指出單一標準難照顧差異',[3,5,6],
+  card('People differ widely in health, income and family needs, so one school food rule is unlikely to suit everyone.','用 People differ ... so ... 指出單一標準難照顧差異',[3,5,6],
     fixed(4,'People differ widely in [價值、健康、收入、家庭和文化], so [單一政府標準] is unlikely to suit [所有人].','自由論點的實際根據是人與人情況差異太大，統一規則容易失準。','已說生活方式與個人有關，須解釋為何不能一套規則套用所有人時。',['People differ widely in ', ', so ', ' is unlikely to suit '],['使選擇不同的條件','難以適配的單一標準','需要被照顧的不同個體'])),
-  card('If officials decide how every resident eats, normal preferences may be labelled problems, and adults may be treated as passive followers.','用 If ... preferences ... and adults ... 說明政府替人決定的雙重風險',[4,6,7],
+  card('If officials decide how every resident eats, normal preferences can quickly be treated as problems, and adults may be reduced to passive followers rather than responsible decision-makers.','用 If ... preferences ... and adults ... 說明政府替人決定的雙重風險',[4,6,7],
     fixed(5,'If [國家決定公民怎樣生活], [普通偏好] can quickly be treated as [社會問題], and [成年人] may be reduced to [被動對象] rather than [負責任的人].','指出過度控制既會把普通差異問題化，也會削弱成人的自主責任。','已說單一標準難適配，要說明國家代替成人選擇可能帶來甚麼時。',['If ', ', ', ' can quickly be treated as ', ', and ', ' may be reduced to ', ' rather than '],['過度控制的條件','本屬個人的偏好','被錯誤貼上的標籤','被控制的成年人','被動化的角色','應被承認的成人責任'])),
-  card('For example, a meal that helps one runner may harm a patient, while a shift pattern that helps one family may harm another.','用 A may ... while B may ... 比較不同人的需求',[4,5,7],
+  card('For example, a meal that helps one runner may be unsuitable for a patient, while a shift pattern that helps one family may damage another.','用 A may ... while B may ... 比較不同人的需求',[4,5,7],
     fixed(6,'For example, [適合運動員的飲食] may be unsuitable for [年長糖尿病患者], while [適合某家的工時] may damage [另一家].','用飲食和工作兩個例子展示同一安排不會對所有人同樣合適。','抽象差異已說明，要以相反個案檢驗單一規則時。',['For example, ', ' may be unsuitable for ', ', while ', ' may damage '],['對第一人合理的安排','對其不合適的另一人','適合第一家的工作安排','因此可能受損的另一家'])),
-  card('When people make their own food choices, they can adapt general advice to their health rather than follow one fixed rule.','用 When ... adapt ... instead of 說明個人如何運用一般建議',[4,6,8],
+  card('When individuals make their own food choices, people can adapt general advice to their health instead of being trapped in one fixed rule.','用 When ... adapt ... instead of 說明個人如何運用一般建議',[4,6,8],
     fixed(7,'When [個人決定生活方式], people can adapt [一般建議] to [自己的情況] instead of being trapped in [一刀切制度].','不是拒絕公共建議，而是讓個人按健康和家庭需要調整它。','例子已證明需求不同，須說明個人如何使用而非照單全收建議時。',['When ', ', people can adapt ', ' to ', ' instead of being trapped in '],['個人作決定的情況','可供參考的建議','應配合的個別條件','需避免的單一規則'])),
-  card('Another important point is that voluntary health choices work better than imposed routines.','用 Another important point is that 轉入成效比較',[3,7,9],
+  card('Another important point is that voluntary exercise is usually more effective than imposed routines.','用 Another important point is that 轉入成效比較',[3,7,9],
     fixed(8,'Another important point is that [個人選擇] is usually more effective than [官方控制].','第二主體段由自主原則轉到哪種方法能令健康行為真正持續。','自由論點已完成，需要提出另一個不同的判斷標準時。',['Another important point is that ', ' is usually more effective than '],['較有效的做法','被比較的官方控制'])),
-  card('Healthy eating rarely lasts when it is forced; it lasts longer when people understand why and choose it.','用 rarely lasts when ...; becomes sustainable when 對比強制與理解後自選',[8,10,11],
+  card('Healthy eating rarely lasts when it is forced; it becomes sustainable when people understand why and choose it.','用 rarely lasts when ...; becomes sustainable when 對比強制與理解後自選',[8,10,11],
     fixed(9,'[健康行為] rarely lasts when [由上而下強加]; it becomes sustainable when [人理解原因] and [自行選擇].','說明效果差異的機制：被迫做難持續，理解並自願做較能維持。','已主張個人選擇較有效，須解釋成效何以不同時。',[' rarely lasts when ', '; it becomes sustainable when ', ' and '],['健康行為','強加方式','理解原因','自行選擇'])),
-  card('A school may ban snacks or dictate meal times, but such pressure can produce resentment and surface-level obedience.','用 may ban ... but pressure can create ... 交代強制管制的反效果',[8,9,11],
+  card('A government may ban snacks or dictate meal times, but such pressure can create resentment and surface-level obedience.','用 may ban ... but pressure can create ... 交代強制管制的反效果',[8,9,11],
     fixed(10,'A government may [禁止習慣] or [規定日常], but such pressure can create [怨氣、表面服從甚至反抗].','把前句抽象的強制效果具體化為情緒、表面配合與抵抗。','已說強加行為難持續，要列出壓力可能產生的反作用時。',['A government may ', ' or ', ', but such pressure can create '],['第一種限制','第二種限制','由壓力引發的反效果'])),
-  card('By contrast, clear labels and affordable parks help people choose better without taking control away from them.','用 By contrast ... help ... without ... 列出不奪選擇權的公共支援',[9,10,12],
+  card('By contrast, policies such as clear labels and affordable parks help people make wiser choices without taking control away from them.','用 By contrast ... help ... without ... 列出不奪選擇權的公共支援',[9,10,12],
     fixed(11,'By contrast, [食品標籤、教育、公園和運動設施] help [人們] make wiser choices without [剝奪主導權].','提出政府的替代做法：改善資訊與環境，讓個人作更好決定。','已指出禁令可有反效果，要給出政府能做的具體支援時。',['By contrast, policies such as ', ' help ', ' make wiser choices without '],['協助選擇的公共政策','受支援的人','不應被奪走的主導權'])),
   card('In this sense, the council should light the path, not drag residents along it.','用 light the path, not drag ... 比喻政府引導而非強制',[9,11,14],
     fixed(12,'In this sense, [國家] should light the path, not drag [公民] along it.','以道路比喻收束：提供方向和條件，但不強行替人走路。','已列標籤、教育與公園，需概括政府理想角色時。',['In this sense, ', ' should light the path, not drag ', ' along it.'],['提供方向的政府','仍須自己作選擇的人'])),
@@ -321,4 +321,17 @@ const transferTasks=[
     '這與原文立場相反。',
   ],[1,13,14],'範文最後兩句說政府應 inform、warn、support，個人作最終選擇。'),
 ];
+const revised=[
+ {options:['提供營養資料和選項，容許學生按健康需要作選擇','以一般學生需要訂餐單，另讓有病者自行帶飯','為運動員增加餐量，其他學生沿用原有安排','先統一餐單減輕管理工作，再處理個別健康差異'],explanations:['資訊和選項讓不同健康狀況的學生作合適決定。','自行帶飯將學校的個別支援責任移給有病學生。','只照顧運動員，仍忽略過敏與糖尿病學生。','管理方便不能成為忽略已知健康差異的理由。']},
+ {options:['按健康與家庭責任提供可選安排，比單一工時更合適','保留統一工時，只批准接受治療者偶爾請假休息','讓照顧家人者提早下班，但不調整每週總工時','以多給津貼代替彈性安排，維持原有出勤規則'],explanations:['可選安排能回應治療與家庭責任的不同需要。','偶爾請假未必能配合持續的照護與治療。','提前下班若沒有可持續安排，未必解決工時衝突。','津貼可能有用，但沒有改變題目中的時間衝突。']},
+ {options:['建立安全公園並提供健康資訊，讓居民自行運動','增加未運動者的罰款，並讓居民自行尋找場地','只開健康講座，不改善居民可使用的運動空間','先規定每日跑步時數，再按居民反應考慮公園'],explanations:['設施與資訊改善實行條件，讓人自願持續運動。','罰款難使缺少安全場所的人建立長期習慣。','講座提供理解，但缺少可行的活動環境。','同一時數不能配合不同工作與健康情況。']},
+ {options:['政府可提供警告和資訊，最終日常選擇仍由個人作出','政府提供風險資訊後，應替每位市民選定日常習慣','把風險資料交給醫生，公共部門不向市民解釋','只用罰則降低吸煙，避免討論市民如何理解風險'],explanations:['公共資訊與個人最終決定可以並存。','提供資訊不等於代替每個人作所有生活決定。','醫生可協助，但政府仍能直接提供公共警告。','罰則不能取代清楚的健康風險資訊。']},
+ {options:['表面配合未必持久；解釋價值並提供選項較可行','增加點名次數，以學生出席率證明他們認同活動','保留強制活動，再讓學生填表表達喜好作紀錄','取消課外活動，由家長在校外自行安排所有項目'],explanations:['理解與選擇比只看表面服從更有助持續參與。','出席數據不能證明學生真正認同。','調查喜好有用，但若不影響安排，強制仍在。','取消活動沒有解決如何鼓勵自願參與。']},
+ {options:['提供可用資訊，使人按自身需要選購而保留主導權','把標籤改成健康評分，由商店代顧客選每餐食物','只列糖分但不解釋份量，讓顧客自行推測影響','標示較健康食品，並取消顧客比較其他食品的機會'],explanations:['清楚標示可支援顧客按自身情況自主選擇。','評分可提供參考，卻不應代替最終決定。','缺少份量資料會削弱資訊的可用性。','標示選項不應取消顧客比較與決定的空間。']},
+ {options:['保留健康講座與設施，協助居民自己決定並持續實行','維持講座但減少運動設施，主要靠命令推動改變','只建運動場，不再向居民解釋健康選擇的原因','先要求居民承諾服從，再評估設施是否真正可用'],explanations:['教育與可負擔設施支援理解後的自願行動。','移走實行條件會使講座和命令較難轉為習慣。','設施有用，但缺少資訊難幫人作知情選擇。','表面承諾不能代替可用設施與持續意願。']},
+ {options:['政府指出安全路線及原因，居民仍自己決定怎樣走','政府公布路線後，要求居民照指定方法每天出行','居民自行選路，政府只處理事故後的道路維修','只標示最短路線，不向居民解釋道路安全差異'],explanations:['道路比喻指政府提供方向，而人保留選擇。','指定方法把指引變成替居民作決定。','選擇權與事前安全資訊可以並存。','距離資訊不足以讓人理解路線安全。']},
+ {options:['讓他參考建議並按自身健康情況調整，保留決定權','讓他先照一般建議飲食，身體不適後再作調整','只請他向醫生諮詢，公共營養資料不用提供','為他設一份新餐單，之後不容他按病況修改'],explanations:['一般資訊可用作起點，慢性病仍需個別調整。','已知有疾病，不應等出現不適才承認差異。','專業意見有用，不代表公共資訊應停止提供。','個別餐單仍須留有因健康變化而調整的空間。']},
+ {options:['政府提供資訊與支援，個人保留生活方式的最終選擇','政府訂健康目標後，個人只可選達標的具體方法','個人決定生活習慣，政府僅在患病後提供治療','政府提供風險警告後，交由企業決定市民習慣'],explanations:['結論把資訊支援與個人決定的角色分清。','目標若強制套用，也可能忽略個別差異。','政府還可事前提供資訊和可用設施。','企業不能代替個人作最終生活選擇。']}
+];
+revised.forEach((r,i)=>{transferTasks[i].options=r.options;transferTasks[i].explanations=r.explanations});
 export default {key:'direct-question:28',meta:{topic:'生活方式的個人選擇與政府角色',summary:'政府提供資訊和保護，人們按自身情況作決定；自願選擇較有助持續改變。'},simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer:transferTasks};

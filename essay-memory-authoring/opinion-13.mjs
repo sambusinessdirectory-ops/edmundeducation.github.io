@@ -91,7 +91,7 @@ const structures=[
   S('A runner preparing for a difficult race, for example, may train before work, skip some parties and keep practising for months.','for example 引出具體人物；may 列出可能的持續投入。','這句以一個具體人物和三項行動展示長期代價，不是在下抽象判斷。',[3,4,7],
     F('[為目標努力的人], for example, may [持續行動一], [減少享樂二] and [長期練習三]','用一名學生及多項日常行動展示「願意忍受不便」如何具體發生。','提出長期紀律與代價後，要用可信的人物例子使其可見時。',[['A student aiming for a highly competitive scholarship','slot','為目標努力的人'],[', for example, may ','link','引出可能行動'],['spend evenings revising','slot','持續行動一'],[', ','link','並列'],['reduce social activities','slot','減少享樂二'],[' and ','link','並列'],['practise under constant pressure for months.','slot','長期練習三']])),
   S('Just as importantly, a clear goal helps athletes recover from injuries instead of ending their plans after one bad season.','instead of 對照遭挫後的兩種選擇：恢復再試與放棄。','這句先標示同等重要的另一作用，再對照兩個不同後續行動。',[4,5,8],
-    F('Just as importantly, [推動因素] helps [人] recover from [挫折] instead of [過早放棄]','Just as importantly 轉入同等重要的作用；instead of 對照受挫後繼續與放棄兩種行動。','談過持續投入後，要解釋人遇到挫折時如何繼續前進時。',[['Just as importantly, ','link','引出同等重要作用'],['ambition','slot','推動因素'],[' helps people recover from ','link','指出恢復作用'],['setbacks','slot','挫折'],[' instead of ','link','對照不採取的行動'],['abandoning their plans at the first disappointment.','slot','過早放棄']])),
+    F('Just as importantly, [推動因素] helps [人] recover from [挫折] instead of [過早放棄]','Just as importantly 轉入同等重要的作用；instead of 對照受挫後繼續與放棄兩種行動。','要對照一個因素使人從挫折中恢復，而非過早放棄時。',[['Just as importantly, ','link','引出同等重要作用'],['ambition','slot','推動因素'],[' helps ','link','指出作用'],['people','slot','人'],[' recover from ','link','從挫折中恢復'],['setbacks','slot','挫折'],[' instead of ','link','對照不採取的行動'],['abandoning their plans at the first disappointment.','slot','過早放棄']])),
   S('When a young musician performs badly at a first concert, a clear goal encourages practice rather than an immediate decision to quit.','When 設定失敗情況，rather than 對照反思再試與立即退出。','這句在具體挫敗下比較兩種反應，不是泛稱面對挫折的能力。',[5,6,8],
     F('When [具體受挫情況], [推動因素] encourages [檢查問題並再試] rather than [認定不能成功]','把抽象的「從挫折恢復」落到模擬考失利後的兩種可見反應。','已提出某品質有助從挫折恢復，要用同一人物展示下一步行動時。',[['When ','link','設定具體受挫情況'],['such a student performs badly in an early mock exam','slot','具體受挫情況'],[', ','link','接反應'],['ambition','slot','推動因素'],[' encourages them to ','link','促使採取行動'],['analyse weaknesses and try again','slot','檢查問題並再試'],[' rather than ','link','對照被避免的反應'],['conclude that success is impossible.','slot','認定不能成功']])),
   S('Because learning a language involves mistakes and repeated practice, continuing after a weak test result is necessary; it is part of progress.','Because 統合先前例子，分號後再強化必要性。','這句由常見失敗推到堅持的必要性，未列出具體個案。',[2,5,7],
@@ -326,6 +326,48 @@ const transfer=[
     '第二段還要求改進和把能力置於可見場合。',
   ],[4,6,7,10,12,13,14,16],'範文兩段由堅持與受挫再試，推進到改進方法及主動把握機會。'),
 ];
+const reviewedTransferOptions=[
+  ['定每週練習與檢討計畫，持續觀察進步','只在申請前一晚準備，當作全年都有紀律','只談交換名額重要，不安排任何日常練習','數週未見改善，便斷定全年準備都無用'],
+  ['檢視起跳與換氣問題，調整訓練後再參賽','不看比賽紀錄，只重複同一套錯誤動作','一次比賽失利，便認定自己永遠無法進步','只說想進步，卻取消往後的全部練習'],
+  ['學軟件、求回饋，並練習新職位的溝通要求','只把目標寫在履歷上，不更新任何技能','繼續原有方法，卻假定能力已經自動提高','避開所有回饋，認為指出弱點妨礙改進'],
+  ['參與專題展示作品，並用評語改善程式','只在私下修改程式，拒絕展示成果的機會','只報名專題，不準備任何可展示的作品','技能一有提高，便斷言所有人必定知道'],
+  ['試更好做法、請人評價，再承擔較難的菜單工作','只增加同一道菜份量，便認為方法已進步','完全避開批評，因回饋與技能提升無關','只等主廚職位出缺，自己不作任何準備'],
+  ['查明居民缺席原因，調整活動並繼續試行','把一次參與者少當作計畫必然永遠失敗','只重做相同活動，不問哪一步出現問題','有長期目標，便認為毋須再觀察活動成效'],
+  ['先學管理並請教同事，再申請帶領改善項目','只學技能，卻避開所有實際運用機會','只報名領導項目，不了解所需管理技能','只向院方說有抱負，卻不提出具體行動'],
+  ['維持練習，分析首演問題，為下次試演調整','已練習數月，便認為首場表現不需檢討','因首演欠佳，便取消以後所有練習與試演','只要求更多試演機會，不改善演出內容'],
+  ['評估所需工作後申請，並用項目展示技能','題目困難，便不讀要求而直接放棄參與','只私下練技能，從不留意可參與的項目','不準備技能，只希望參與便保證獲認可'],
+  ['試新演法、徵求觀眾回饋，再接更難演出','只重複舊節目，認為技術穩定便不用改進','只提高宣傳預算，不查節目演法能否改善','把觀眾回饋當作必須完全避免的干擾'],
+  ['把抱負化成練習、修正、改進與把握機會','只要說出抱負，所有行動便會自動發生','沒有練習也不參與，能力仍必定被看見','因抱負重要，便可完全忽略失敗與回饋'],
+  ['先備課試行，據回饋修正，再分享有效做法','只向全校宣布目標，省略備課試行與回饋','首次試行不順便停下，也不檢查原因','只長期備課，不檢驗方法或展示成果'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='In most workplaces, a useful skill does not happen by accident.';
+structures[1].example='Many people therefore believe that daily reading helps children build confidence.';
+structures[2].example='I completely agree, because regular practice gives people both stronger memory and the confidence to speak until new words become useful in conversation.';
+structures[3].example='The first reason patient teaching is essential is that it sustains children’s effort over many months.';
+structures[4].example='Learning to play an instrument normally demands practice, and serious pupils are far more willing to give up free evenings in order to improve.';
+structures[6].example='Just as importantly, a clear goal helps people recover from injuries instead of ending their plans after one bad season.';
+structures[7].example='When young musicians perform badly at first concerts, a clear goal encourages them to practise rather than quit.';
+structures[8].example='Because learning a language involves mistakes and repeated practice, continuing after a weak test result is not optional; it is fundamental.';
+structures[10].example='Those who volunteer regularly do not simply repeat last year’s plan; they actively seek better methods and harder tasks.';
+structures[13].example='The same student may join a difficult science project or share an idea with teachers, thereby gaining both experience and attention.';
+structures[14].example='As a result, regular practice does not just improve a pupil’s writing; it places that ability in situations where it can be noticed and valued.';
+structures[16].example='It enables learners to practise regularly, learn from mistakes, pursue improvement and seize opportunities, and these are precisely the conditions in which meaningful progress becomes possible.';
+const plausibleAlternatives=[
+  [['先安排每週練習，檢討可待申請失敗後再做','數週未見改善，便改以短期衝刺替代全年準備','目標需要全年投入，因此可先不追蹤進度'],['定期檢討有助調整長期投入。','短期衝刺不足以代替持續努力。','觀察進步才能判斷策略是否有效。']],
+  [['分析比賽失誤，再延後下一次訓練','再次參賽能增經驗，原有動作可照舊','首賽失利後宜先改練較短的賽程'],['反思還須接上調整後的練習。','不修正起跳和換氣便難改進。','一次失利不必改掉長程目標。']],
+  [['學新軟件有幫助，溝通技能可待晉升後再練','先申請職位，面試結果再決定要否學新技能','原有工作能勝任，回饋便可暫時省去'],['新職位要求的能力應提早準備。','把抱負轉行動需在機會前積累能力。','持續改進仍需了解不足。']],
+  [['參與專題能曝光，作品可在展示後再準備','程式能力已提升，評語便較少影響後續改進','先向同學宣傳自己，再看有沒有專題內容'],['展示機會要有實際作品支撐。','公開回饋可進一步改善能力。','宣傳不能代替可見的成果。']],
+  [['請食客評價菜式，較難菜單可等升職後再試','試新做法後，回饋可由廚師本人自行推測','主廚職位將開放，現有菜式可繼續照舊'],['挑戰更難工作也是改進的一部分。','外部回饋能指出盲點。','抱負需配合技能進步與主動承擔。']],
+  [['分析居民缺席原因，調整活動可等下年再做','少人參與後，先加活動宣傳而不問原因','目標較長遠，首次活動可不記錄成效'],['要根據發現及時改進並再試。','宣傳未必是缺席的真正原因。','抱負不代表可以忽略實際回饋。']],
+  [['先學管理技能，項目機會可留給更有經驗者','先申請改善項目，管理能力再慢慢準備','請教同事有用，正式申請則可待明年'],['能力也需要在機會中展示。','沒有準備便承擔項目較難成功。','現有機會可連接學習與實作。']],
+  [['維持練習，首演問題可留到下一次再看','分析首演問題，但第二次試演可先放棄','再爭取試演機會，訓練內容仍照舊'],['要從失敗中調整下一次準備。','受挫後再試是主體段的論點。','機會需配合改進，不只是重複。']],
+  [['題目困難，可先私下練習而不提交申請','把握徵集機會，所需技能可到入選後再學','先提交想法，項目要求可留待面試再讀'],['只私下準備未把能力放進機會中。','應評估能力與工作要求後再申請。','未看要求容易錯過合適準備。']],
+  [['試新演法，觀眾反應可等票房下滑再問','回饋有用，較難演出應由大型劇團承擔','技術已穩定，提升觀眾量主要靠加宣傳'],['主動徵求回饋能及早改善。','挑戰新任務是超越勝任的表現。','演法與內容改進也是吸引觀眾的方法。']],
+  [['抱負可提供方向，練習安排可等機會後再訂','努力練習有用，失敗後修正可視為次要','把握專題能曝光，技能可留待獲選後再學'],['方向仍須轉化為持續行動。','從錯誤中調整是文章的核心環節。','先準備能力，才較能用好機會。']],
+  [['先備課試行，方法可由教師單獨評定','據回饋修正計畫，成果可留在班內','先向全校分享目標，再決定是否試行'],['使用者回饋可揭示需調整之處。','展示有效成果是把握機會的一環。','未試行便分享，缺少實際成效。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
 export default {
   key:'opinion:13',
   meta:{topic:'抱負、持續努力與把握機會',summary:'作者完全同意抱負對成功重要：它幫助人長期投入、受挫後再試，也促進技能改進、主動承擔，使能力有機會被看見與回報。'},

@@ -320,6 +320,31 @@ const transfer=[
     '再犯循環是其直接目標。',
   ],[10,11,12,13,15],'範文第二段把改造定位為執法必要夥伴。'),
 ];
+const reviewedTransfer=[
+  [['承認巡邏減少偷竊，也用教育就業處理剩餘壓力','街頭偷竊下降後，先擴大巡邏而暫緩青年支援','把巡邏成效歸因教育改善，不再追查失學問題','只以報案數評價治安，先不研究犯罪的成因'],['同時承認局部阻嚇與源頭壓力。','只擴大巡邏沒有處理題目所述失學與失業。','不能把巡邏帶來的變化直接歸因教育。','報案數不足以說明犯罪源頭是否改善。']],
+  [['困境或增加犯罪誘因，仍不能推斷人人會犯罪','把貧困當主要成因，較少查個人選擇和支援','只看一個地區的案件，推論全區青年的選擇','有工作希望，便把其他預防和執法措施放低'],['這保留了可能性，沒有把環境影響變成必然結果。','社會條件重要，但不能只靠一項條件解釋行為。','地區資料不能代表每一位青年的選擇。','工作機會有幫助，仍不足以替代其他必要措施。']],
+  [['活動與就業路徑可在案前處理部分成因','社區有課後中心，便降低對實際效果的查證','先擴充巡邏時段，暫時不問青年放學後處境','只把活動當案後獎勵，不看它有否預防作用'],['在問題形成前介入，是範文所說的務實預防。','成立中心仍須檢查是否真的改善處境。','這留下青年失學和失業的壓力。','把預防全放到案後，忽略源頭作用。']],
+  [['短期隔離外，還需技能、支援與回歸安排','只追蹤在囚期間紀律，較少看獲釋後生活','把技能訓練列為附加項，不查它與再犯關係','先延長關押時間，暫不評估獲釋後的工作'],['短期控制與長期再犯成因須一起處理。','在囚表現不能單獨說明獲釋後風險。','範文把技能視為打破再犯循環的一部分。','關押長短本身沒有解決釋放後的困境。']],
+  [['有技能與釋放後指導者，較可能穩定回歸','只以完成職訓的人數，推斷所有人回歸狀況','只比較兩組關押年期，不看釋放後的支援','把求職結果全歸因個人意志，不查技能差別'],['這個比較包含可解釋差異的實際條件。','課程完成不等於穩定生活，需要追蹤結果。','兩組的技能和支援差異才是題目的關鍵。','忽略訓練與支援，便不能作公平比較。']],
+  [['執法處理違法，改造協助減少再犯，兩者並行','先擴大改造計畫，暫不檢查違法行為的後果','把巡邏當唯一重點，較少看獲釋者的技能','分開兩組工作，便不再比較它們能否互補'],['範文讓執法和改造各做不同而互補的工作。','改造不能取代對當前違法行為的處理。','只靠執法不能處理再犯成因。','制度分工仍應檢查共同效果。']],
+  [['警員可阻嚇部分罪案，長久安全還靠源頭措施','只按巡邏次數決定預算，不查青年失學情況','只增加就業課程，不檢查街頭即時風險','以街頭罪案下降判斷全部犯罪成因已消除'],['這保留巡邏的有限效用並加入長期預防。','巡邏數字不能代替源頭分析。','源頭措施有用，但題目的即時安全也要考慮。','罪案下降不證明深層壓力已消失。']],
+  [['加入課後監督、技能與就業路徑，處理學生壓力','先增夜間巡邏，暫不調查學生放學後處境','把失去工作希望當成犯罪的唯一決定因素','等問題出現才提供支援，不查可否提早介入'],['這些措施在案前處理可能成因。','只加巡邏沒有回應學生的日常風險。','工作希望重要，仍不能單獨預測個人行為。','範文主張在犯罪形成前介入。']],
+  [['預防處理案前壓力，改造處理再犯，可與執法並行','把課後活動放到獲釋後，忽略案前預防功能','只討論再犯服務，不看初次涉案前的處境','以巡邏成效代表所有改造與預防工作的結果'],['三種機制各有時間點與作用，可互相補足。','課後活動可在首次犯罪前發揮作用。','這忽略第一主體段的源頭預防。','巡邏成效不能代表不同措施的效果。']],
+  [['個人仍須負責，無支援地獲釋或保留再犯成因','只談社會壓力，較少看個人作過的違法選擇','只看在囚紀律，暫不查獲釋後的工作機會','把求職困難當成再犯結果，未檢查實際經過'],['責任與制度條件同時納入，符合兩段論證。','社會壓力不取消個人責任。','在囚紀律不代表回歸後有可行出路。','風險與實際結果須分開檢查。']],
+  [['按各自作用評估：巡邏阻嚇，支援處理深層壓力','先選報案下降較快的措施，不查青年生活條件','只看青年支援的參與人數，不看街頭安全','用制服是否顯眼比較兩種措施的預防成效'],['這分別檢驗即時阻嚇和源頭預防。','報案變化不足以單獨說明長遠問題。','參與人數不足以說明治安或再犯情況。','外觀不是措施效果的證據。']],
+  [['執法與改造互補：維持規則，也幫人穩定回歸','有技能課後，便把違法行為的處理延後','巡邏能處理當下，便不再追蹤釋放後狀況','把改造當額外安排，不評估其再犯影響'],['一邊處理違法，一邊改善回歸條件。','技能培訓不應取代對當前違法的回應。','只看當下會漏掉再犯循環。','改造作用須從結果檢驗。']],
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{transfer[i].options=options;transfer[i].explanations=explanations;transfer[i].why=explanations[0];});
+structures[1].example='In response to rising theft, some people argue that putting more officers on the streets is the only effective solution.';
+structures[2].example='I completely disagree with this view, because crime can be reduced more permanently through education and support after release.';
+structures[3].example='The first reason is that some offences are rooted in social conditions, not merely in too few patrols.';
+structures[6].example='By contrast, education, youth centres and job training can tackle some causes of crime.';
+structures[7].example='For example, a teenager with after-school support and a path to work is less likely to join a gang.';
+structures[8].example='Prevention is therefore not a weak option; it is a way to stop problems before they grow.';
+structures[10].example='If prisons release people without skills or support, society may simply be keeping them away briefly while leaving the real problem.';
+structures[11].example='Education and supervised work after release can break a cycle of offending again.';
+structures[14].example='In conclusion, I completely disagree that street policing is the only way to reduce crime.';
+structures[15].example='Visible officers may discourage some offences, but lasting safety depends on prevention, education, jobs and rehabilitation.';
 export default {
   key:'opinion:29',
   meta:{topic:'街頭警力、犯罪預防與再犯改造',summary:'作者完全反對增加街頭警力是唯一減罪方法。巡邏可阻止部分罪案，但教育、就業和心理支援可處理部分社會根源；改造與獲釋後指導則有助打破再犯循環。'},

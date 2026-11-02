@@ -105,7 +105,7 @@ const structures=[
   S('In conclusion, although a school leader’s public decisions should be discussed, private family matters should remain protected.','although 承認工作和專業行為可受討論，主句保留私生活保護。','這句把例外與原則同時放入結論，沒有說任何公眾關注都不合理。',[3,13,15],
     F('In conclusion, although [工作與專業行為可受討論], [私生活] should remain protected','結論明確區分可討論的公共職務與應受保護的私人領域。','結尾要避免把反對過度做法寫成反對所有正當做法時。',[['In conclusion, although ','link','總結並作讓步'],['famous people should expect public discussion of their work and professional behaviour','slot','工作與專業行為可受討論'],[', ','link','轉入核心界線'],['their private lives','slot','私生活'],[' should remain protected.','link','主張繼續保護']])),
   S('A public role may open the door to questions, but it should not give strangers a key to every room at home.','may...but should not... 延續門與房間的比喻，限制關注可進入的範圍。','比喻承認關注的存在，同時否定全面進入私生活的許可。',[3,13,14],
-    F('Fame may open [受關注的大門], but it should not give [媒體] [進入每個私人房間的許可]','用門與房間的比喻，把「有名」和「全面公開私生活」的界線留給讀者。','最後一句要用簡短圖像重申有條件的原則時。',[['Fame','slot','名氣'],[' may open ','link','可能打開'],['the door to attention','slot','受關注的大門'],[', but it should not give ','link','否定由此得到'],['the media','slot','媒體'],[' a licence to ','link','全面許可'],['walk through every room.','slot','進入每個私人房間']]))
+    F('[名氣] may open [受關注的大門], but it should not give [媒體] a licence to [進入每個私人房間]','用門與房間的比喻，把「有名」和「全面公開私生活」的界線留給讀者。','要用同一比喻承認某種權利或機會，同時劃出其界限時。',[['Fame','slot','名氣'],[' may open ','link','可能打開'],['the door to attention','slot','受關注的大門'],[', but it should not give ','link','否定由此得到'],['the media','slot','媒體'],[' a licence to ','link','全面許可'],['walk through every room.','slot','進入每個私人房間']]))
 ];
 const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
 const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
@@ -320,6 +320,28 @@ const transfer=[
     '選擇公開工作不能推到家人全面曝光。',
   ],[5,14,15],'範文最後以 door 和 every room 限定關注所能進入的範圍。'),
 ];
+const reviewedTransferOptions=[
+  ['評論比賽，孩子上學路線通常與球員工作無關','球員公開比賽，孩子行程便可全部刊登','照片清晰，便證明路線有明確公共利益','要保護孩子，便不可討論球員公開比賽'],
+  ['新書內容可評論，住址與成就無關且好奇不足為據','讀者有興趣，住址便比新書內容更值得報道','作者自願出版，便同意公開家中每個私人角落','住址屬私人資料，因此書的內容也不能評論'],
+  ['核實政策內容與影響，不以家庭爭執作決策證據','只報道家庭爭執，因私事永遠比政策重要','完全不討論校長決策，因每個人都有私生活','把未核實傳聞混進政策，製造吸引人標題'],
+  ['分享工作影片，不代表同意公開個人健康紀錄','曾在網上露面，便同意公開所有健康問題','健康紀錄一定比影片品質更能評價教學','不能公開健康紀錄，便不可評論影片內容'],
+  ['脫離背景的照片，不能證明事業或健康狀況','標題愈戲劇化，照片便愈能證明故事真實','醫院外的照片必然都有明確公共利益','人物知名，便無須核實任何前因後果'],
+  ['反覆播私人衝突，或使觀眾把歌手當公共財產','留言增加，便證明每條家庭短片都有公共利益','歌手在台上表演，家人便必須接受無限曝光','短片只要夠短，便不會改變人們的看法'],
+  ['核實募款去向；報道孩子活動須另有公共利益','募款受質疑，孩子全部生活便自動公開','為保護私隱，募款去向不得受公眾檢視','只看故事點擊數，不問與公眾有何關係'],
+  ['先查完整語境及公共相關性，免以片段誤導','片段截得愈短，便愈能呈現爭論全貌','能做成標題，私人片刻便有公共價值','即使未查證，歌手也不可能被片段誤導'],
+  ['公開研究不等於同意住址曝光，兩者並不相關','講座公開，便把家門地址視為研究資料','讀者感到親近，住址便必然有公共利益','要避免住址曝光，便不能討論公開研究'],
+  ['持續跟拍可添壓力，損害健康與家庭生活','只要稱為娛樂，跟拍便不可能造成壓力','下班後每個畫面都可直接評價老師教學','偷拍更多，當事人便更能享受家庭生活'],
+  ['先報可核實專業行為，私人猜測須有公共利益','先刊感情猜測，因好奇心等於公共利益','一律忽略公開行為，因為名人有私隱權','把未核實猜測寫成事實，以增加吸引力'],
+  ['上電視帶來工作關注，不等於媒體可進私生活','一旦有名，媒體便擁有每個房間的鑰匙','私生活須保護，因此主持節目也不能評論','主持人可選工作，等於放棄全部家庭界線'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='In today’s sports media, fame often comes with attention from newspapers, television and websites.';
+structures[3].example='In my view, newspapers should not publish a musician’s home address unless the information clearly serves the public.';
+structures[5].example='A teacher may choose to share lessons online, but this does not mean the teacher agreed to show every family conversation.';
+structures[6].example='A performer’s family arguments and home address are usually irrelevant to the quality of a stage performance.';
+structures[10].example='When readers repeatedly receive stories about private conflicts, they may start to see an athlete less as a person and more as something they own.';
+structures[13].example='Responsible journalism should explain decisions that affect students, not feed curiosity about a teacher’s family at any cost.';
+structures[15].example='A public role may open the door to questions, but it should not give strangers a licence to enter every room at home.';
 export default {
   key:'opinion:20',
   meta:{topic:'名人私生活與媒體報道的公共利益界線',summary:'作者強烈反對把全面曝光視為名氣的必然代價。公開工作不等於放棄私隱；無限制報道還可能助長八卦、誇大及斷章取義。涉及明確公共利益時，仍可討論工作與專業行為。'},

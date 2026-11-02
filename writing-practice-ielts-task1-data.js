@@ -19438,7 +19438,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
     ],
     "questionImages": [
       {
-        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-tables.webp",
+        "src": "model-essay-4-ielts-task1-tables-corrected.svg",
         "alt": "IELTS Task 1 Tables Model Essay 4 question"
       }
     ],

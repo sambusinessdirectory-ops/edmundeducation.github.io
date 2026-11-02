@@ -87,7 +87,7 @@ const structures=[
   S('A person may have many online followers and still feel alone if their conversations are brief or shallow.','may...still...if... 對照數量多與孤立感仍可能存在，並提供品質條件。','這是可能例子，不是說所有網上交流都膚淺。',[3,4,6],
     F('A person may have [大量網上聯絡人] and still feel [孤立] if [交流短暫、表面或膚淺]','用反直覺的數量與感受對照，說明孤單與關係品質更相關。','提出真正需要的品質後，要用具體例子反駁「數量等於品質」時。',[['A person may have ','link','雖然擁有'],['hundreds of online contacts','slot','大量網上聯絡人'],[' and still feel ','link','仍可能感到'],['isolated','slot','孤立'],[' if ','link','條件是'],['those exchanges are brief, performative or shallow.','slot','交流短暫、表面或膚淺']])),
   S('Social media can encourage users to share perfect-looking photos rather than talk honestly about disappointment.','rather than 對照修飾形象與坦誠談脆弱感受。','此句解釋為何網上交流可能有數量卻少深度。',[5,7,8],
-    F('[社交媒體] can encourage users to [發布美化生活] rather than [坦誠談不安]','指出平台上的自我展示可能阻礙真正情感交流。','指出表面交流不足後，要交代造成不足的具體機制時。',[['Social media, for instance, can encourage users to ','link','以平台舉例'],['post polished versions of their lives','slot','發布美化生活'],[' rather than ','link','對照被排擠的交流'],['speak honestly about fear, disappointment or insecurity.','slot','坦誠談不安']])),
+    F('[社交媒體], for instance, can encourage users to [發布美化生活] rather than [坦誠談不安]','指出平台上的自我展示可能阻礙真正情感交流。','要用具體例子說明某種環境鼓勵一種行為，卻排擠另一種行為時。',[['Social media','slot','平台'],[', for instance, can encourage users to ','link','以平台舉例'],['post polished versions of their lives','slot','發布美化生活'],[' rather than ','link','對照被排擠的交流'],['speak honestly about fear, disappointment or insecurity.','slot','坦誠談不安']])),
   S('When conversations become only likes and brief replies, they may look like friendship without giving real emotional support.','When...may...without... 指出表面陪伴與真正支持可分離。','這句的結論是「可能」，不是所有讚好留言都沒有價值。',[5,6,8],
     F('When [溝通變成讚好、留言與短回覆], it may create [有人陪伴的感覺] without providing [情感支持]','把交流形式的表面活躍，對照仍可能缺少的心理支持。','要說明某行為即使頻繁，也不能保證目標結果時。',[['When ','link','設定交流方式'],['communication becomes a stream of likes, comments and short replies','slot','溝通變成讚好、留言與短回覆'],[', it may create ','link','可能形成'],['a sense of companionship','slot','有人陪伴的感覺'],[' without providing ','link','卻未提供'],['emotional support.','slot','情感支持']])),
   S('In this sense, an online group can be a crowded room in which nobody really listens.','crowded room 比喻聯絡人數很多但缺乏真正聆聽。','這句概括前述表面交流，不否認所有網上群體都能互相支持。',[5,7,9],
@@ -320,6 +320,45 @@ const transfer=[
     '按讚不保證情感支持。',
   ],[2,4,7,9,13,15],'範文把 access 與 genuine companionship 分開，結尾以深度、信任和持續性收束。'),
 ];
+const reviewedTransferOptions=[
+  ['聯絡人多不保證陪伴，還要看聆聽和支持','有五百名聯絡人，學生便絕不會感到孤單','所有遊戲聯絡人必然不會真正關心別人','生病便足以證明網上群體全都不安全'],
+  ['展示美化生活不等於坦誠談困難和得到支持','照片精美，追蹤者便必然明白失業感受','有讚好，創作者便不可能再感到孤單了','任何生活照都使真誠關係無法真正形成'],
+  ['平台提供入口，友誼仍需時間、信任與關心','能傳訊息，便保證所有人立即彼此信任','只要有平台，社交自信便完全不重要','無法保證友誼，平台便沒有任何聯絡作用'],
+  ['有入口不代表人人易互動，過去遭遇或添壓力','有聊天群，便保證學生已不再害怕交友','受過欺凌者，便永遠不能建立任何友情','學生猶豫，便證明網上群組全部是騙局'],
+  ['提供易懂參與方式與真誠回應，把機會變互動','群組一存在，長者便必然擁有深厚友誼','沒人即時回應，長者便永遠交不到朋友','不用建立信任，只要增加更多帳號數量'],
+  ['假身份與騙局會增加網上建立信任的難度','有假帳號，便證明每一位用戶都是騙徒','網站能配對，便不再需要任何相互信任','新用戶謹慎，便證明網上友情必定虛假'],
+  ['環境安全仍不保證友情，還需時間與互相關心','群組一安全，成員便自動成為親密朋友','沒有假帳號，所有讚好便等於情感支持','友情需要時間，便認為安全環境完全不重要'],
+  ['短回覆可維持接觸，深入支持還需聆聽感受','每天回覆，便保證兩人理解所有情緒','曾有短回覆，便不可能發展深入友誼','只按訊息長度評定一段友情全部品質'],
+  ['隨時可看螢幕只是機會，仍要深度與信任','程式存在，便保證隨時都有真誠朋友','可能感到孤單，程式便完全沒有溝通功能','感到孤單，便證明從未使用任何科技'],
+  ['網上友情可形成，但靠持續而真誠的雙方投入','範文認為所有網上友情必然都是虛假','加入群組當天，便保證大家成為好朋友','投入幾個月，便認為相互信任不再重要'],
+  ['說平台能助認識人，不保證互動都成友情','有搜尋功能，便保證每人得到真誠關懷','不能保證友情，便宣稱平台不能聯絡人','把接觸機會當作已建立完整友誼'],
+  ['群組提供入口，減少孤單仍靠信任與持續相處','群組一建立，便毋須再有人認真聆聽別人','傾聽重要，網上聯絡群便完全沒有作用','所有人都能讚好，便保證學生得到實際支持'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='Online learning has become part of daily life, allowing people to join classes and stay connected across distance.';
+structures[1].example='However, I completely disagree that having many contacts means people cannot feel lonely or will always make new friends.';
+structures[2].example='A new app can widen access to classmates, but it cannot guarantee a close friendship.';
+structures[6].example='Social media, for instance, can encourage users to share perfect-looking photos rather than talk honestly about disappointment.';
+structures[7].example='When online communication becomes only likes and brief replies, it may create a sense of friendship without providing real emotional support.';
+structures[12].example='Moreover, online groups are not always safe; false accounts and scams can make users cautious about new friends.';
+structures[13].example='Even in a friendly group, friendships require time and care, which an app cannot automatically create.';
+structures[14].example='In conclusion, online communication makes others easier to reach, but it has not removed loneliness and it cannot promise friendship for everyone.';
+structures[15].example='Close connection is built through trust and continued care, not merely through constant access to a chat window.';
+const plausibleAlternatives=[
+  [['聯絡人多表示社交活躍，生病時可自行處理','有人會在遊戲中回覆，便足以代替傾聽','若缺少陪伴，應先增加帳號聯絡人數量'],['活躍度不能代替有需要時的支持。','短暫回覆未必等於真正聆聽。','數量增加未必改善關係品質。']],
+  [['生活照可獲讚好，失業困難可稍後才談','創作者不談失業，追蹤者可由照片理解','公開生活片段較多，便代表已有情感支持'],['表面活躍仍可能伴隨孤單。','修飾照片未能透露真實困難。','曝光與被理解是不同經驗。']],
+  [['平台提供入口，友誼可由訊息數量衡量','居民可互傳訊息，信任便較易自行形成','沒有即時交友，平台的聯絡價值便較低'],['友誼還需時間、信任與關心。','工具本身不能保證關係深化。','沒有保證不代表平台沒有用途。']],
+  [['聊天群提供入口，學生應能很快放下恐懼','過去欺凌會添壓力，平台宜先增加功能','學生猶豫加入，便可推斷群組不夠安全'],['遭遇可能持續影響互動意願。','只改工具未必處理信任與自信。','猶豫也可能來自過往經歷。']],
+  [['提供參與指引，回應仍可由系統自動產生','群組已有成員，長者可先等待別人接觸','增加帳號數量，信任關係可留待日後處理'],['真誠回應不是單靠自動功能。','缺少回應時仍須設法促進互動。','帳號數量不能代替信任。']],
+  [['假帳號增加疑慮，網站配對仍可代替信任','新用戶謹慎，主要因網上互動速度較慢','騙局影響安全，友情深度則只看訊息頻率'],['配對入口不能取代相互信任。','題目指向身分與詐騙風險。','頻繁訊息也未必建立深層關係。']],
+  [['環境安全有幫助，讚好便可視作深厚支持','安全群組提供機會，友情可由管理員安排','友情需要時間，安全環境可先放在次要'],['淺層讚好未必回應困難。','管理員也不能替成員建立互相關心。','安全仍是參與與信任的基礎。']],
+  [['短回覆維持接觸，深入支持可由朋友代答','互動頻繁便可推測兩人已理解彼此困難','家庭困難較私密，因此同學不需再聆聽'],['支持需要直接聆聽當事人的感受。','頻率未必等於情緒理解。','對方需要時，仍可提供適當關心。']],
+  [['程式隨時可用，友誼可由連線時數推斷','感到孤單時可打開程式，因此不必求助','有隨時聯絡的機會，便可少花時間建立信任'],['連線時數不是深層關係的證據。','可接觸他人不等於已得到支持。','關係仍需持續投入與信任。']],
+  [['網上友情可形成，群組規模是主要原因','定期討論有益，個人信任可待之後再建立','友情已形成，便可不再互相回應彼此想法'],['案例重點是持續真誠投入。','互信在持續互動中逐漸建立。','友誼也需要延續關心。']],
+  [['說平台能助認識人，友情可按搜尋次數估算','說平台能提供私訊，關心由會員自行想像','說平台能增加聯絡，便可保證部分人交友'],['搜尋次數不是友誼品質的尺度。','真誠互動不能由工具單獨提供。','平台無法預先保證具體會員交友結果。']],
+  [['群組方便聯絡，傾聽安排可留給有事者','持續傾聽有用，網上聯絡入口則較少必要','兩種措施並存，信任可由群組規則代替'],['支援設計應讓有需要者獲得真實回應。','網上入口也能增加接觸機會。','規則不能代替相互理解與持續關心。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
 export default {
   key:'opinion:23',
   meta:{topic:'網上接觸、孤單與真正友誼',summary:'作者完全反對網上溝通能保證人人不孤單、總能交朋友。平台可增加接觸機會，但淺層互動未必提供情感支持；交友仍需社交自信、安全、信任及雙方長期投入。'},

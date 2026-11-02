@@ -86,7 +86,7 @@ const structures=[
   S('If local clinics are allowed to close, poorer families may face longer journeys, missed treatment, and higher costs.','If 設定惡化條件；may 保留可能性；三項結果明確落在較脆弱家庭。','這不表示每戶必然遭遇全部結果。',[4,6,12],F('If [重要系統惡化], [較脆弱群體] may face [多項具體損失]','從系統退化推到受影響者的日常代價。','要以條件句說明基礎系統受損時，誰可能承受哪些具體損失時。',[['If ','link','設定條件'],['such systems are allowed to deteriorate','slot','重要系統惡化'],[', ','link','便可能'],['poorer households','slot','較脆弱群體'],[' may face ','link','面對'],['higher food prices, unsafe water, and greater exposure to disease.','slot','多項具體損失']])),
   S('For example, repairing a neighbourhood park can give children a safe place to play while also reducing summer heat.','For example 引實例；while also 指同一措施同時產生第二項效益。','例子示範雙重作用，並非宣稱每個項目都必然有同等效果。',[4,5,7],F('For example, [具體措施] can help [目標甲] while also [目標乙]','以單一具體措施展示兩項原以為分開的好處。','提出雙重效益後，要用一個具體案例展示同一措施如何兼顧兩者時。',[['For example, ','link','引出例子'],['restoring a wetland','slot','具體措施'],[' can help ','link','可幫助'],['protect wildlife','slot','目標甲'],[' while also ','link','同時'],['reducing floods that threaten nearby homes and clinics.','slot','目標乙']])),
   S('A school meal programme is therefore not simply a free lunch; in many cases, it is practical support for learning.','not simply...; in many cases... 先糾正狹窄看法，再指出額外的實際作用。','in many cases 限定適用範圍，不表示每個項目都有效。',[1,6,13],F('[一項措施] is therefore not simply [狹窄理解]; in many cases, it is [實際作用]','把具體證據收束成對措施價值的重新界定。','列出實際作用後，要糾正讀者對某措施只惠及單一對象的看法時。',[['Conservation','slot','一項措施'],[' is therefore not simply ','link','因此不只是'],['a gift to animals','slot','狹窄理解'],['; in many cases, it is ','link','在許多情況下也是'],['practical protection for people.','slot','實際作用']])),
-  S('A second reason is that treating road safety and public transport as rival aims can lead to poor spending decisions.','A second reason is that 開新論點；treating A and B as rival causes 指錯誤的二選一設定。','這句批評把兩個目標對立，沒有否認預算需要比較。',[3,9,13],F('A second reason is that treating [目標甲] and [目標乙] as rivals leads to [欠妥決策]','第二段轉入資源分配的判斷方式。','要引出另一條理由，指出把可互相配合的目標硬設為對手的問題時。',[['A second reason is that ','link','引入第二理由'],['treating social welfare and wildlife as rival causes','slot','把兩個目標硬設為對手'],[' leads to ','link','導致'],['poor choices about limited budgets.','slot','欠妥決策']])),
+  S('A second reason is that treating road safety and public transport as rival aims can lead to poor spending decisions.','A second reason is that 開新論點；treating A and B as rival causes 指錯誤的二選一設定。','這句批評把兩個目標對立，沒有否認預算需要比較。',[3,9,13],F('A second reason is that [把兩個目標當成對手] leads to [欠妥決策]','第二段轉入資源分配的判斷方式。','要增加另一條理由，指出把兩個可能並行的目標錯誤設為對手會造成甚麼結果時。',[['A second reason is that ','link','引入第二理由'],['treating social welfare and wildlife as rival causes','slot','把兩個目標硬設為對手'],[' leads to ','link','導致'],['poor choices about limited budgets.','slot','欠妥決策']])),
   S('A council must maintain emergency housing, but that duty does not require it to close every community library.','must 承認必要責任；but...does not require... 排除由此跳到放棄另一目標的推論。','承認甲需要資助，不等於乙必須被取消。',[2,8,10],F('[決策者] must fund [必要服務], but that duty does not require [放棄另一目標]','承認迫切需要，再阻止它被當作取消另一目標的理由。','要承認一項不可推卸的責任，同時指出它並不必然排除另一項責任時。',[['Governments','slot','決策者'],[' must fund ','link','必須資助'],['hospitals, basic treatment, and effective measures against poverty','slot','必要服務'],[', but that duty does not require them to ','link','但並不因此必須'],['abandon habitats.','slot','放棄另一目標']])),
   S('Well-designed school projects can serve both aims: parents can be paid to grow food, manage gardens, or organise meal deliveries.','冒號後以三個具體行動解釋 serve both aims，而非重複抽象口號。','例子必須同時回應先前兩個目標，不能只換一種名稱。',[6,9,12],F('[設計得宜的項目] can serve both aims: [參與者] can be paid to [三項具體工作]','提出可同時服務兩個目標的操作方法。','要證明兩個目標可並行，並列出可執行的工作或安排時。',[['Well-designed projects','slot','設計得宜的項目'],[' can serve both aims: ','link','可兼顧兩者：'],['local people','slot','參與者'],[' can be paid to ','link','可獲酬從事'],['restore forests, manage protected areas, or develop responsible tourism.','slot','三項具體工作']])),
   S('These community jobs can raise incomes while the repaired school continues to serve children.','while 連接短期收入與持續的基礎服務，回應兩個不同目標。','工作收入及設施效益是兩條不同作用，不可只算一項。',[4,10,13],F('[新工作] can raise [收入] while [改善後的資源] continues to provide [持續效益]','說明同一方案既帶來收入，也保留長期服務。','提出兼顧方案後，要追蹤它如何同時產生即時與持續效益時。',[['These jobs','slot','新工作'],[' can raise ','link','可提高'],['incomes','slot','收入'],[' while ','link','同時'],['the restored land','slot','改善後的資源'],[' continues to provide ','link','持續提供'],['clean water and other benefits.','slot','持續效益']])),
@@ -147,6 +147,73 @@ const transfer=[
   T('捐款者想同時支持基本醫療與有效的環境項目。','文章的結尾原則如何運用？',['資助必要服務，亦支持經查證能惠及人與自然的項目','捐款只能支持動物，不得支持人','所有環境項目都毋須證明效果','一律把醫療與環境捐款平均分半'],['公共預算與私人捐款都可按成效兼顧。','原文承認醫療必要。','clearly benefit 要求證據。','沒有平均要求。'],[12,15,16],'public budgets and private donations...'),
   T('要用一句話概括全文。','哪項最準確？',['作者大致反對普遍挪走保育資金：健康生態支撐人的需要，有效項目可兼顧兩方，浪費項目則須修正','作者認為醫院與扶貧不重要','作者要求永久保留每項保育計劃','作者主張任何野生動物支出都必須轉給醫療'],['完整包含立場、兩條理由與例外。','與原文相反。','忽略浪費例外。','與立場相反。'],[2,3,8,9,10,12,14,15,16],'largely disagree；serve both aims；wasteful scheme。'),
 ];
+const reviewedExamples={
+  1:'Some people therefore argue that the council should redirect park funds to school repairs.',
+  3:'The first reason is that better street lighting often protects people travelling at night.',
+  4:'Wetlands help farms retain water, while forests support cleaner air.',
+  6:'For example, a local repair project can help residents find work while also improving public spaces.',
+  8:'A second reason is that treating clinics and schools as rivals leads to poor decisions.',
+  9:'Local councils must fund emergency shelters, but that duty does not require them to close every library.',
+  11:'Training jobs can raise incomes while the new clinic continues to provide care.',
+  12:'Where a programme is wasteful, it should be revised, and the savings should support families in urgent need.',
+  15:'Hospitals deserve support, but abandoning preventive care would often weaken community health.',
+};
+for(const [index,example] of Object.entries(reviewedExamples))structures[Number(index)].example=example;
+const reviewedTransfer=[
+  [
+    ['先保障醫療，再查公園是否也有防熱健康用途','為保留公園，直接否認醫院的緊急資金需要','因醫院更迫切，便不調查公園對居民的作用','只看兩方支持者多少，不比較公共健康成效'],
+    ['承認迫切需要，再查另一項目是否也服務居民。','原文承認醫院等基本服務應獲資助。','迫切性不能代替對另一項目實際作用的評估。','支持者數量不是公共利益的證據。']
+  ],
+  [
+    ['同一濕地修復可同時保護動物與診所安全','只把濕地視作動物福利，忽略診所防洪效果','只記診所少水浸，便判定所有保育項目有效','只比較動物數量，不追蹤附近人的洪水風險'],
+    ['一項措施可同時達到兩種看似競爭的目標。','漏掉已知的人類防洪收益。','單一例子不能保證所有項目都有效。','動物指標未涵蓋居民和診所的風險。']
+  ],
+  [
+    ['修正或取代無效工程，把節省資金投向迫切服務','工程已耗資，就永久維持做法而不檢查成效','因工程無效，便停掉所有保育項目的資金','只比較花費高低，不看棲地與居民實際效益'],
+    ['原文容許改善或取代浪費項目，並重投急需服務。','已花的錢不能證明未來繼續支出合理。','個別浪費不能推成全部保育都無效。','費用要與可觀察的效益一同衡量。']
+  ],
+  [
+    ['一項修復可同時增加收入並改善長期公共服務','只計聘用人數，卻不驗證水源改善是否持續','只看水源改善，便認定項目沒有任何就業價值','因同時有兩種效益，就不再檢查成本與成效'],
+    ['工作收入和自然服務可由同一項目共同產生。','只證明工作收益，未證明持續的公共服務。','忽略情境中的聘用及收入收益。','雙重效益也須接受成本和成效檢查。']
+  ],
+  [
+    ['比較圖書館與補習的不同作用，尋找可兼顧方案','只看補習的考試成績，便決定取消所有圖書館','只看借書量，便斷定補習對任何學生都無用','把兩項服務預算平分，不分析各自需求與效果'],
+    ['先問兩項服務如何幫助學生，再找合理組合。','成績未涵蓋圖書館的其他學習作用。','借書量不能證明補習全無作用。','平均分配不是按需求和成效評估。']
+  ],
+  [
+    ['聘居民改善行人路與巴士站，再量度安全和就業','只修行人路而不檢查事故，便宣稱安全已改善','只聘居民做短工，卻不改善上班交通與道路','新建巴士站便假定低收入者都能順利上班'],
+    ['讓同一工程兼顧道路安全和本地收入，再查成效。','有工程不等於事故已減少。','短工未處理交通安全和通勤。','巴士站存在不保證交通和就業問題已解決。']
+  ],
+  [
+    ['承認治病必要，仍要評估預防能否減少日後患病','因要資助治病，便完全不看預防服務的作用','因預防有益，便主張停掉現有緊急醫療服務','把兩項服務視作互斥，未比較各自的實際成效'],
+    ['治療責任與預防作用可同時成立。','治病必要不等於預防無用。','預防有益也不取消急救責任。','直接設成二選一，沒有比較效果。']
+  ],
+  [
+    ['先承認預算有限，再估算昏暗街道的事故與醫療成本','因急救迫切，便不調查停修街燈會否增加意外','只統計換燈費用，未估計日後的事故與醫療支出','只看街燈數量，便宣稱此項安全投資一定能省錢'],
+    ['表面不迫切的支出仍可能避免更大的未來代價。','急救重要，仍須查明預防事故的作用。','只算眼前成本，漏掉可能增加的後續支出。','燈數本身不能證明事故或成本結果。']
+  ],
+  [
+    ['列出水、健康及就業等可核查的受益途徑','只重複投資有益，卻不指出誰受惠及如何受惠','只問動物有否受惠，未追蹤附近人的實際收益','只看項目名稱，便斷言它對任何居民都無用'],
+    ['具體機制可顯示項目如何也保護人。','沒有受益者和途徑，主張仍未得到支持。','只看動物，未回答人能否受惠。','名稱不能代替對水、健康和工作效果的證據。']
+  ],
+  [
+    ['檢查河岸修復能否減災和聘人，再比較成本效益','只計修復聘人數，不評估洪水風險有否下降','只估防洪效果，便認定項目可無限增加支出','把就業和防洪列作對手，不查能否同時改善'],
+    ['同時檢查兩項目標及資源使用的實際成效。','只有工作數據，未證明防洪收益。','有防洪作用仍須考慮有限預算。','同一工程可能兼顧兩項目標。']
+  ],
+  [
+    ['支持必要醫療，也資助有證據惠及人與自然的計劃','只因項目標榜保育，便不再檢查對居民的益處','只因醫療迫切，便停止所有仍有效的環境計劃','把捐款平均分配，不比較各項目的實際效果'],
+    ['必要服務與有效環境項目可按證據一同支持。','保育名稱不能代替實際益處證據。','醫療需要不要求放棄所有有效保育。','平均分配不是按需求和成效判斷。']
+  ],
+  [
+    ['反對全挪保育款：有效項目助人，浪費項目應修正','只因醫療重要，便斷定所有保育支出都應撤走','只因保育可助人，便不檢查各項目的成本與成效','把民生與保育當成互斥，主張資金只給其中一方'],
+    ['保留反對全面挪款的立場，也承認要修正浪費。','醫療重要，不能推出每項保育都該撤資。','保育可能有益，也不能免於成效審查。','原文主張找兼顧方案，不作一刀切選邊。']
+  ]
+];
+reviewedTransfer.forEach(([options,explanations],i)=>{
+  transfer[i].options=options;
+  transfer[i].explanations=explanations;
+  transfer[i].why=explanations[0];
+});
 export default {
   key:'opinion:46',
   meta:{topic:'野生動物保育與扶貧醫療的預算取捨',summary:'作者大致不同意普遍把保育資金轉投扶貧醫療。棲息地支撐水、糧食及防洪等人類基本需要；設計得宜的保育工作亦可增加收入。政府仍須資助醫院與扶貧，浪費的保育項目要改善或取代。公共及私人資金都應按實際效益兼顧必要服務和有效保育。'},

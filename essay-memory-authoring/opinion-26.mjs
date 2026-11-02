@@ -314,6 +314,45 @@ const transfer=[
     '輪替提供機會，不保證同一結果。',
   ],[4,7,8,9,11,14],'範文以社會訓練解釋表現，並說和平透過教育、文化和個人責任培養。'),
 ];
+const reviewedTransferOptions=[
+  ['不同獎勵可教出不同表達，不等於天生性格','女生少爭論，便證明她們天生沒有意見','男生受讚賞，便證明他們出生就很強勢','教室有規則，所有人便不能再作選擇'],
+  ['把照顧工作當性別義務，會增添不公平負擔','女性一出生，便必須無薪承擔全部照顧','工作叫關懷，便完全不用考慮公平分配','企業對男性責任與性別標籤毫無關係'],
+  ['不把暴力當性別本能，仍追究個人行為責任','男孩作出暴力行為，便可認定自然無害','有人暴力，所有男孩便必定有同一性格','談到教養，個人便完全不用為行為負責'],
+  ['預設女性天生溫柔，會錯把堅定表態當異常','女性表達政治立場，便證明她不關心人','只有男性才可能對公共政策有堅定意見','任何批評政策的行為，都屬於實際暴力'],
+  ['男性也可關懷調解，不把和平行為專屬女性','一位男教師耐心，便證明所有男性相同','教師是男性，調解行為便不算真正關懷','只有天生傾向，才能解釋他每一個選擇'],
+  ['看價值、處境與選擇，不憑性別預設決定','她作過嚴格決策，便永遠沒有關懷能力','她關心朋友，便不能作任何強硬決定','女性領袖必然作出與她完全相同的選擇'],
+  ['一次爭勝不證明天性，還要查教導與情境','標題提及性別，便自動證明因果正確','男孩爭勝，便證明女孩從來不想贏','一次比賽足以推定每個人的終身性格'],
+  ['不同期望或教出不同的衝突處理方式','女兒日後安靜，便證明出生前不能爭辯','兒子日後強勢，便證明男性天生暴力','家長反覆教導，絕不影響孩子說話方式'],
+  ['調解可靠教育培養，不能只憑性別選人','女性不需訓練，便一定能有效調解','男性即使受訓，也不能營造平靜環境','調解只由出生時的生理特徵決定'],
+  ['女生被加照顧義務，男生暴力卻可能獲開脫','性別規則使每個隊員責任完全相同','教練說暴力正常，便毋須再作任何評估','女生有不滿，便表示她們毫無關懷能力'],
+  ['分清行為與先天原因，再查教育和期望','只要觀察到行為，便不必分析其成因','少量觀察，便足以判定每個人的本性','有替代解釋，男女便不會有行為差異'],
+  ['共同練習並追究責任，不按性別分配關懷或藉口','只讓一種性別練傾聽，因另一方完全學不會','一出現爭論，便只能歸咎於個人天生性格','角色一輪替，所有學生便立即作出相同決定'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+const plausibleAlternatives=[
+  [['女生少在課上爭論，便先推定她們較少不同意見','男生受讚賞，便把強勢表達主要歸於先天','班規既有差別，便較少查學生自己的選擇'],['安靜表達也可包含不同意見。','獎勵方式是後天影響，不能跳到先天原因。','社會期望與個人選擇都值得看。']],
+  [['按女員工較會照顧人的印象，繼續分派無薪工作','工作既稱關懷，便先不核對實際分工是否公平','只查女性工作量，不問男性被免除哪些責任'],['刻板印象不能作無薪分工的依據。','工作名稱不能代替公平分析。','範文指出標籤對男女的責任都有影響。']],
+  [['先讓男孩道歉，暫不細查傷害與個人責任','以男孩個案，推測同班男生較易作出暴力','把行為主要歸因教養，較少問本人選擇'],['道歉不等於充分問責。','單一個案不能代表整個性別。','教養重要，但個人責任仍存在。']],
+  [['把堅定表態當成較欠關懷的主要線索','先比較男女議員語氣，再決定誰能議政','只看她有否讓步，不查政策主張的內容'],['堅定和關懷可以並存。','議政能力不能由性別化的語氣標準決定。','一項表態不能概括整個人格。']],
+  [['把一位男教師的耐心推到其他男性教師','先看教師的性別，再評估調解是否算關懷','把調解表現只歸先天，不查訓練與選擇'],['個例不代表群體。','行為本身可作關懷的證據。','範文也強調環境與個人決定。']],
+  [['見她作嚴格決定，便把關懷記錄列為次要','因她關心朋友，便少查她的政策決定','以一位領袖的做法，預測同組女性的選擇'],['不同場合可表現不同特質。','私人關懷不能取代對公共決定的分析。','個例不能代表所有女性。']],
+  [['以標題中的性別分類代替對獎勵方式的調查','只記男孩爭勝，不查女孩對比賽的態度','把單次比賽表現當作較穩定的性格線索'],['標題不會自動提供因果證據。','一方行為不足以證明另一方天性。','單次表現不足以定終身特質。']],
+  [['按子女日後表達方式，推定差異主要出於天性','兒子爭論較強勢，便把強勢直接當成暴力','先比較出生時氣質，少問反覆教導的內容'],['後天教導是題目已給的關鍵原因。','強勢說話不等於傷害或暴力。','先天傾向不能取代環境分析。']],
+  [['按女性身分先選調解員，培訓安排另作考慮','因有男教師能調解，便把每位男性看作相同','先看生理特徵，不查候選人的訓練成果'],['能力應靠培養與實際表現評估。','個別男教師不代表所有男性。','性別不能取代能力和責任。']],
+  [['把照顧工作先給女生，再請男生協助較少部分','對男生發怒先作提醒，暫不記錄造成的傷害','女生提出不滿後，便降低對她的關懷評價'],['額外義務仍主要落在女生身上。','提醒不能替代對行為的責任分析。','不滿和關懷能力並不互斥。']],
+  [['只列出行為差異，便推定已有足夠先天證據','用少量課堂觀察，概括其他班級的學生','承認可能有差異，便先忽略教導與權力作用'],['觀察與先天因果推論是兩回事。','小樣本不能代表所有個體。','差異也可能由環境造成。']],
+  [['按性別給不同傾聽時段，主持角色才輪替','出現爭論時先看性別，較少查具體互動過程','安排輪替後，便不用觀察學生實際學習成效'],['仍按性別分配能力練習。','爭論須看情境、選擇與責任。','機會相同不代表成果可免評估。']],
+];
+plausibleAlternatives.forEach(([options,explanations],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...explanations);});
+structures[1].example='While girls are sometimes described as quieter than boys, I completely disagree that they are naturally less assertive.';
+structures[2].example='In my view, cooperation is shaped far more by family teaching and power than by biological sex.';
+structures[4].example='From childhood, children may be taught different roles: some are praised for patience, whereas others are praised for winning.';
+structures[5].example='Over time, repeated expectations can become a mask that people mistake for a natural trait.';
+structures[6].example='For example, a child repeatedly told not to argue may learn to disagree quietly, while a child praised for winning debates may become more forceful.';
+structures[8].example='Moreover, describing mothers as naturally selfless can be harmful because it imposes unfair duties and excuses fathers from caring.';
+structures[10].example='At the same time, aggressive men may be treated as if they are following instinct, which lowers what society expects of them.';
+structures[11].example='In reality, people of every sex can be kind or harsh depending on values, circumstances and choices.';
+structures[14].example='Peace is not written into one gender like a birthmark; it is cultivated through education, culture and responsibility.';
 export default {
   key:'opinion:26',
   meta:{topic:'性別刻板印象、和平行為與個人責任',summary:'作者完全反對把女性較和平歸因於天生照顧特質。不同的教養與獎勵可塑造表現；先天標籤亦會不公平要求女性，並可能為男性暴力開脫。和平須由教育、文化與責任培養。'},

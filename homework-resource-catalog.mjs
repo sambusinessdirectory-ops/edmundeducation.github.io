@@ -14692,7 +14692,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     ],
     "questionImages": [
       {
-        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-tables.webp",
+        "src": "model-essay-4-ielts-task1-tables-corrected.svg",
         "alt": "IELTS Task 1 Tables Model Essay 4 question"
       }
     ]
@@ -14883,7 +14883,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-5-ielts-task1-tables",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "The table shows the worldwide market share of the mobile phone market for manufactures in the years 2005 and 2006.",
+      "The table shows the worldwide market share of the mobile phone market for manufacturers in the years 2005 and 2006.",
       "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "Write at least 150 words."
     ],
@@ -15894,7 +15894,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-13-ielts-cause-solution",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "More and more children as accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
+      "More and more children are accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
       "What problems do you think parents face when dealing with their children using the internet?",
       "How can this problem be solved?"
     ],
@@ -15966,8 +15966,8 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-14-ielts-cause-solution",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "As a result of tourism and the increasing number of people travelling, there is an growing demand for more flights.",
-      "What problems does this have on the environment?",
+      "As a result of tourism and the increasing number of people travelling, there is a growing demand for more flights.",
+      "What problems does this cause for the environment?",
       "What measures could be taken to solve the problems? (2020, 2023)"
     ],
     "questionImages": []
@@ -17657,7 +17657,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-practice.html?exercise=model-essay-50-ielts-opinion",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "Children these days have more freedom than in pervious generations.",
+      "Children these days have more freedom than in previous generations.",
       "Do you think this is a positive or negative development? (2021, 2023)"
     ],
     "questionImages": []
@@ -127770,7 +127770,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     ],
     "questionImages": [
       {
-        "src": "assets/writing-practice/questions/ielts-task1/model-essay-4-ielts-task1-tables.webp",
+        "src": "model-essay-4-ielts-task1-tables-corrected.svg",
         "alt": "IELTS Task 1 Tables Model Essay 4 question"
       }
     ]
@@ -127961,7 +127961,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-submission.html?exercise=model-essay-5-ielts-task1-tables",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "The table shows the worldwide market share of the mobile phone market for manufactures in the years 2005 and 2006.",
+      "The table shows the worldwide market share of the mobile phone market for manufacturers in the years 2005 and 2006.",
       "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "Write at least 150 words."
     ],
@@ -128972,7 +128972,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-submission.html?exercise=model-essay-13-ielts-cause-solution",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "More and more children as accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
+      "More and more children are accessing the internet unsupervised and at a younger age. This can sometimes put children at risk.",
       "What problems do you think parents face when dealing with their children using the internet?",
       "How can this problem be solved?"
     ],
@@ -129044,8 +129044,8 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-submission.html?exercise=model-essay-14-ielts-cause-solution",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "As a result of tourism and the increasing number of people travelling, there is an growing demand for more flights.",
-      "What problems does this have on the environment?",
+      "As a result of tourism and the increasing number of people travelling, there is a growing demand for more flights.",
+      "What problems does this cause for the environment?",
       "What measures could be taken to solve the problems? (2020, 2023)"
     ],
     "questionImages": []
@@ -130735,7 +130735,7 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "writing-submission.html?exercise=model-essay-50-ielts-opinion",
     "sectionKey": "ielts-writing",
     "questionPrompt": [
-      "Children these days have more freedom than in pervious generations.",
+      "Children these days have more freedom than in previous generations.",
       "Do you think this is a positive or negative development? (2021, 2023)"
     ],
     "questionImages": []

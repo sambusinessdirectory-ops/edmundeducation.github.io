@@ -68,4 +68,17 @@ const transfers=[
  transfer('上一句順序是 Commerce、Law、Economics；印刷資源是 81、70、59%。','哪句正確運用「分別」？',['印刷資源按上述次序分別為 81%、70% 和 59%。','印刷資源按上述次序分別為 59%、70% 和 81%。','81%、70%、59% 是同一門課的三年數值。','Commerce 的印刷資源只有 59%。'],['respectively 沿用同一順序。','前後顛倒。','表只有一個時間點。','Commerce 81%。'],[8],'原文 same hierarchy，respectively。'),
  transfer('Other resources：Commerce 85、Law 80、Economics 62%。','哪句保留三者相對位置？',['Commerce 以 85% 最高，其次 Law 80%，Economics 以 62% 落後。','Economics 以 85% 最高。','Law 以 62% 墊底。','三者都是 80%。'],['排序與數字都正確。','Economics 62%。','Law 80%。','三值不同。'],[9],'原文 most highly Commerce，followed by Law，leaving Economics behind。'),
 ];
+const balancedTransferOptions=[
+  ['該課程新生評「非常好」的學生比例。','該課程教師評「非常好」的教師比例。','全部學生評「及格」的學生比例。','該課程新生評教學品質的學生比例。'],
+  ['Commerce 五項均居首，教學品質與 Economics 並列。','Commerce 五項均獨居首，教學品質高於 Economics。','Economics 五項均居首，教學品質與 Commerce 並列。','Commerce 五項均居首，但教學品質低於 Law。'],
+  ['Economics 教學與導師評價高，課前資訊及資源較弱。','Economics 印刷資源評價最高，教學與導師評價較弱。','Economics 教學與導師評價高，課前資訊也最高。','Economics 五項評價相近，沒有明顯的強弱差別。'],
+  ['Economics、Commerce 教學均為 95%，Law 為 67%。','Law、Commerce 教學均為 95%，Economics 為 67%。','Economics、Commerce 教學均為 67%，Law 為 95%。','Economics 教學為 95%，Commerce 比它低 28 點。'],
+  ['Commerce 導師支援比 Economics 高 1 點，Law 得 79%。','Commerce 導師支援比 Economics 高 14 點，Law 得 79%。','Economics 導師支援比 Commerce 高 1 點，Law 得 79%。','Law 導師支援比 Commerce 高 1 點，Economics 得 79%。'],
+  ['教學品質與導師支援兩項，由 Economics 與 Commerce 領先。','五項相關評價全都由 Economics 與 Commerce 並列領先。','教學品質與導師支援兩項，只由 Law 學生評價。','教學品質與導師支援兩項，由 Law 與 Economics 領先。'],
+  ['其餘三項評價，Commerce 仍然表現突出。','其餘三項評價，Economics 全部表現最好。','其餘三項評價，Commerce 全部跌至最低。','其餘三項評價，只記錄教學品質數據。'],
+  ['課前資訊：Commerce 95%、Law 72%、Economics 55%。','課前資訊：Law 95%、Commerce 72%、Economics 55%。','課前資訊：Commerce 95%、Economics 72%、Law 55%。','課前資訊：Commerce 55%、Law 72%、Economics 95%。'],
+  ['印刷資源依次為 Commerce 81%、Law 70%、Economics 59%。','印刷資源依次為 Commerce 59%、Law 70%、Economics 81%。','印刷資源依次為 Commerce 81%、Economics 70%、Law 59%。','印刷資源依次為 Commerce 81%、Law 70%、Economics 95%。'],
+  ['其他資源：Commerce 85%、Law 80%、Economics 62%。','其他資源：Economics 85%、Law 80%、Commerce 62%。','其他資源：Commerce 85%、Economics 80%、Law 62%。','其他資源：Commerce 62%、Law 80%、Economics 85%。']
+];
+balancedTransferOptions.forEach((options,i)=>{transfers[i].options=options});
 export default {key:'task1-tables:6',meta:{topic:'大學新生對三門課程五個方面的「非常好」評價',summary:'Commerce 在五項都獨佔或並列最高；Economics 教學品質和導師支援高，課前資訊與資源較弱；Law 五項相對均衡，教學品質最低。百分比是各課程受訪新生給該項「非常好」的比例。'},simple,vocabulary,structures,intro,route,evidence,logic,transfer:transfers};

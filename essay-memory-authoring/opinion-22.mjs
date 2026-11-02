@@ -320,6 +320,50 @@ const transfer=[
     '親身線索有助理解，但不保證零誤解。',
   ],[13,14,15],'範文最後說數位溝通繼續成長，而直接接觸仍支持信任與社會連結。'),
 ];
+const reviewedTransferOptions=[
+  ['短訊先傳資料，再直接交談以觀察反應與安撫','短訊送達，學生便必然明白校長的關心','停課安排只能口頭說，不能留下任何文字紀錄','語句夠短，便不可能在敏感情境被誤解'],
+  ['缺少語氣與表情，短句可能失去真正用意','「很好」這句話永遠只能表示諷刺語氣','只要用手機發訊息，就不能傳遞事實','標點符號可完整代替所有眼神與語氣'],
+  ['直接交談，讓醫生看反應並回應病人感受','再發更短訊息，便保證病人得到安撫','只提供資料，不必查病人如何理解','永遠不用書面資料，因面談可取代記錄'],
+  ['訊息可維持聯繫，用餐仍帶來親身共享經驗','能互傳訊息，家人便不再需要共同活動','同桌吃飯，便保證所有家庭矛盾消失','共同活動重要，網上訊息便毫無作用'],
+  ['即時討論與觀察反應，當場交換並改進方案','只傳更多短訊，便能重現同室討論節奏','禁止全部線上聯繫，否則合作無法開始','不理對方反應，只照第一個人的想法做'],
+  ['網聊保持聯繫，旅行另可建立親身共享經驗','只要曾網聊，旅行共同活動便沒有價值','旅行有用，過去網上聯絡便毫無意義','只有住在同一城市，才能建立真正友情'],
+  ['文件分享有用，複雜問題有時仍要即時交流','能傳文件，所有想法便會自動受到完善','每項簡單資料都要全公司面對面討論','遠距員工絕不可能保持任何工作聯繫'],
+  ['文字更快捷，敏感對話仍需語氣與表情','文字訊息永遠不能傳遞任何具體資料','只要有網絡，敏感對話便絕不會誤解','作者認為數位溝通會完全停止發展'],
+  ['同處一室可看即時反應，當場調整共同方案','只要有地圖，成員便毋須表達任何意見','同桌坐着，便保證每人有完全相同想法','路線只靠短訊，當場一定不能再修改'],
+  ['訊息快只證明便利，未證明能取代共享經驗','訊息速度提高，便可消除每種見面需要','見面仍有用，平台速度便不可能提高','親身用餐有用，線上聯繫便沒有價值'],
+  ['表格先收資料，面談再用人際線索回應情緒','表格填好，情緒便必然已受到完整安撫','既然要面談，事前收集資料便全無作用','輔導員只讀短句，不查說話真正用意'],
+  ['數位工具會發展，親身互動仍有信任價值','數位工具發展，面對面信任便失去作用','親身互動有價值，數位工具便不應發展','只要見面，人們便不會產生任何誤解'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[0].example='With online shopping now part of daily life, many people predict that high-street stores will eventually disappear.';
+structures[4].example='Tone of voice, eye contact and facial expression all help people understand not only the words, but also the speaker’s intention.';
+structures[5].example='Without a kind tone or visible expression, even a brief reply can be misunderstood, especially in a difficult conversation.';
+// The source comma belongs to the long subject, not to a reusable connector.
+structures[6].frame.parts[1][0]+=',';
+structures[6].frame.parts[2][0]=' cannot rely only on ';
+structures[6].frame.formula=structures[6].frame.parts.map(([part,kind,label])=>kind==='link'?part:`[${label}]`).join('');
+structures[6].example='For example, a counsellor comforting a worried student cannot rely only on brief written replies.';
+structures[7].example='In a hard conversation, being there in person acts as a bridge between necessary facts and care for the listener.';
+structures[8].example='This is why in-person meetings will remain essential wherever trust and comfort are required.';
+structures[9].example='Another reason is that some school and community work still depend on people doing things together in the same place.';
+structures[11].example='Online forums may help people keep in touch, but they do not fully recreate a live discussion, where ideas are questioned and improved immediately.';
+structures[12].example='A group of volunteers planning around a table, for instance, can notice one another’s reactions and improve a plan immediately.';
+structures[15].example='Digital services will continue to grow, but in-person care will remain irreplaceable because it makes feelings clearer and builds trust.';
+const plausibleAlternatives=[
+  [['短訊傳資料，學生情緒可留待家長處理','先交談安撫，再用短訊代替實際觀察反應','訊息若寫得清楚，便可省去當面直接交談'],['校長仍需留意學生如何理解與感受。','面談可同時觀察反應並作回應。','文字清楚也難提供即時情感線索。']],
+  [['短句含義模糊，主要原因是內容太少','文字缺少語氣，標點便可充分補足','先問同事用意，表情線索則較次要'],['短句長短不是唯一問題。','標點未必重現聲調與面部表情。','非文字線索也是判讀意圖的重要部分。']],
+  [['改用較長短訊，病人感受可稍後再問','先傳醫療細節，情緒安撫交由家人','面談有助觀察，病人追問仍宜留在短訊'],['較長文字仍未提供即時反應線索。','醫生也應回應病人理解與情緒。','面談可讓疑問當場獲解釋。']],
+  [['訊息維持聯繫，用餐可待有爭執時再做','共同活動有價值，平日網聊則較少必要','家人常互傳訊息，便可推測關係已充足'],['共享經驗不只用來處理衝突。','文章承認網上聯繫也有作用。','訊息頻率不能代替親身相處。']],
+  [['群組訊息方便，複雜方案可再多發幾輪','即時討論有用，觀察他人反應可略過','先由一人定案，再讓其他人在群組回覆'],['更多訊息仍可能缺少即時協作節奏。','反應線索有助當場修正想法。','共同討論不應只在單人決定後發生。']],
+  [['網聊保持聯繫，旅行只是更方便分享照片','親身旅行有價值，網上聯絡可暫停使用','兩地朋友能見面，往後便不需平日訊息'],['旅行的共同經驗不只照片分享。','文章承認兩種方式可相互補充。','遠距時網上訊息仍可維持關係。']],
+  [['文件分享有用，討論可等正式評核才開始','即時交流有效，但遠距工作較難安排','複雜問題可面談，日常文件不宜再分享'],['等待評核會失去及時修正方案的機會。','遠距仍可安排即時小組討論。','作者承認數位工具的便利。']],
+  [['文字快捷，敏感對話也可單靠詳細長文','文字易誤解，普通資料也應改為面談','敏感談話需要語氣，線上溝通可逐步退出'],['文字長短未必提供表情與即時回應。','文章承認文字適合快捷傳資料。','作者不主張停止數位溝通。']],
+  [['同處一室可看地圖，疑慮可留待會後提出','成員當場改方案，其他人反應可由文字記錄','共同開會有用，實際修改仍先交給主持人'],['即時說出疑慮是合作效率的來源。','只看記錄未必捕捉當場反應。','討論可讓參與者共同改進方案。']],
+  [['訊息便利可增加聯繫，共同用餐便較少必要','平台愈快，親身探訪活動便較難維持','親身活動重要，因此新平台不值得發展'],['便利不等於能取代共享經驗。','沒有證據顯示速度會令探訪消失。','作者也認可數位工具進步。']],
+  [['表格先收資料，面談可改以標準答案完成','面談能回應情緒，事前表格則可省去','資料收集後，輔導員較少需要聽語氣'],['面談還須觀察與回應個人情緒。','兩步安排利用兩種方式的長處。','文字資料不能取代人際線索。']],
+  [['數位工具會發展，面對面互動宜限於醫療','親身互動有信任價值，線上服務可停止','數位工具方便，信任也可主要交由短訊建立'],['文章提到合作與共享經驗等多種場景。','作者不否定數位工具的用途。','文字未必提供足夠情感與非文字線索。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
 export default {
   key:'opinion:22',
   meta:{topic:'數位溝通與面對面互動的持續價值',summary:'作者完全反對數位科技會使親身互動消失的預測。網上工具提高效率並維持聯繫，但非文字線索、同理心、共同活動與即時合作仍使面對面接觸重要。'},

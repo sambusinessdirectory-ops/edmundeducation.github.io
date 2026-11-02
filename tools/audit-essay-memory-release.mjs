@@ -69,9 +69,27 @@ for(const meta of catalog){
       if(row.source?.paragraph!==source.paragraph+1||row.source?.sentence!==source.index+1)issues.push(`structure-source-${i+1}`);
       if((row.parts||[]).map(part=>part.text).join('')!==source.english)issues.push(`structure-spans-${i+1}`);
       if(!row.meaning||!row.usage||!row.frame)issues.push(`structure-explanation-${i+1}`);
+      if((row.frame?.match(/\[[^\]]+\]/g)||[]).length!==(row.parts||[]).filter(part=>part.kind==='slot').length)
+        issues.push(`structure-formula-slot-count-${i+1}`);
+      if(/清楚陳述一項意思|在引言公平介紹題目中的一方觀點|列出具體內容後，接着說明觀眾/.test(row.usage||''))
+        issues.push(`rejected-structure-usage-${i+1}`);
+      if(/instead of/i.test(row.frame||'')&&/後續結果|預期結果不同/.test(row.usage||''))
+        issues.push(`misread-instead-of-usage-${i+1}`);
+      if(/\bso\b/i.test(row.frame||'')&&/觀眾預期|觀眾能從中得到/.test(row.usage||''))
+        issues.push(`topic-bound-so-usage-${i+1}`);
       if(row.parts?.some(part=>!part.text||!['slot','link'].includes(part.kind)||!part.label))issues.push(`structure-part-label-${i+1}`);
       if(row.options?.length!==4||new Set(row.options).size!==4||row.explanations?.length!==4||row.explanations?.some(note=>!note)||!Number.isInteger(row.correct)||row.correct<0||row.correct>3)
         issues.push(`structure-choices-${i+1}`);
+      else {
+        const answer=row.options[row.correct].toLowerCase();
+        let cursor=0;
+        for(const part of row.parts||[]){
+          if(part.kind!=='link')continue;
+          const at=answer.indexOf(part.text.toLowerCase(),cursor);
+          if(at<0){issues.push(`structure-answer-fixed-wording-${i+1}`);break;}
+          cursor=at+part.text.length;
+        }
+      }
     }
     if(!support.intro?.length||!support.route?.length||!support.evidence?.length||!support.logic?.length)issues.push('missing-argument-map-stages');
     if((support.transfer?.length||0)<10)issues.push('fewer-than-ten-transfer-tasks');
@@ -79,6 +97,11 @@ for(const meta of catalog){
       if(item.options?.length!==4||new Set(item.options).size!==4||item.explanations?.length!==4||item.explanations?.some(note=>!note)||!Number.isInteger(item.correct)||item.correct<0||item.correct>3)
         issues.push(`transfer-choices-${i+1}`);
       if(!item.context||!item.question||item.options?.some(option=>!/[\u3400-\u9fff]/.test(option)))issues.push(`transfer-language-${i+1}`);
+      if(item.options?.length===4){
+        const hanCounts=item.options.map(option=>(option.match(/[\u3400-\u9fff]/g)||[]).length);
+        if(hanCounts.every(Boolean)&&Math.max(...hanCounts)-Math.min(...hanCounts)>3)
+          issues.push(`transfer-answer-length-cue-${i+1}`);
+      }
       if(!item.modelLink||!item.sourceSentenceIndices?.length||item.sourceSentenceIndices.some(n=>!Number.isInteger(n)||n<0||n>=teachingSentences.length))
         issues.push(`transfer-source-link-${i+1}`);
     }

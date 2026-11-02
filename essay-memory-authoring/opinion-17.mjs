@@ -91,9 +91,9 @@ const structures=[
   S('By contrast, safer roads, better water and public assistance reduce the hardships that residents once had to accept.','By contrast 對照保障增加後，某些曾被迫承受的痛苦可減少。','這句從風險轉向具體保護措施及其效果。',[3,4,6],
     F('By contrast, [現代保障措施] reduce [人過去須視為正常的痛苦]','不是泛稱現代更好，而是列醫療、勞工、衛生與支援如何減少可避免的苦難。','列出某時期的風險後，要說明另一時期有哪些保障改變了結果時。',[['By contrast, ','link','與過去對照'],['modern healthcare, labour protection, sanitation, and social support','slot','現代保障措施'],[' reduce ','link','指出緩減作用'],['the amount of suffering that people have to accept as normal.','slot','人過去須視為正常的痛苦']])),
   S('A worker injured today is more likely to receive treatment and time off, whereas the same injury in the past could have ended the family’s income.','whereas 把同類意外放在不同時代比較，保留 more likely/could 的審慎程度。','這句用對照例子說明保障如何改變家庭後果。',[4,5,7],
-    F('For example, [今天遇困境者] is more likely to receive [多種支援], whereas [過去同類問題] could [造成嚴重後果]','用同一種患病情況對比有無保障，避免只以印象判斷快樂。','已列保障措施，要用一個具體人物或家庭說明實際差異時。',[['For example, ','link','引出具體對照'],['a worker who becomes seriously ill today','slot','今天遇困境者'],[' is more likely to receive ','link','審慎指出支援'],['medical treatment, sick leave, or community support','slot','多種支援'],[', whereas ','link','對照過去'],['a similar problem in the past','slot','過去同類問題'],[' could easily ','link','表示可能風險'],['destroy a household’s income.','slot','造成嚴重後果']])),
+    F('For example, [今天遇困境者] is more likely to receive [多種支援], whereas [過去同類問題] could [造成嚴重後果]','用同一種患病情況對比有無保障，避免只以印象判斷快樂。','要用同一類情況在兩個時期或條件下的不同結果作對照，並用 more likely／could 保留可能性時。',[['For example, ','link','引出具體對照'],['a worker who becomes seriously ill today','slot','今天遇困境者'],[' is more likely to receive ','link','審慎指出支援'],['medical treatment, sick leave, or community support','slot','多種支援'],[', whereas ','link','對照過去'],['a similar problem in the past','slot','過去同類問題'],[' could easily ','link','表示可能風險'],['destroy a household’s income.','slot','造成嚴重後果']])),
   S('Wellbeing is not only about a quiet routine; it also depends on protection from avoidable harm.','not only...; it also... 擴展快樂標準：簡單生活之外還有安全。','這句收束第一段的衡量標準，不是提出新年代例子。',[3,6,8],
-    F('Happiness is not only about [簡單生活]; it also depends on [免於可避免苦難]','把安全從補充好處提升成評估快樂時不可忽略的條件。','首段結尾要說明前述保障與題目所問的生活品質有何關係時。',[['Happiness','slot','快樂'],[' is not only about ','link','排除單一標準'],['having a simple life','slot','簡單生活'],['; it also depends on ','link','加入另一條件'],['being safe from preventable misery.','slot','免於可避免苦難']])),
+    F('[要評估的概念] is not only about [第一項條件]; it also depends on [另一項條件]','把安全從補充好處提升成評估快樂時不可忽略的條件。','要說明某種結果不能只靠一項條件，還取決於另一項條件時。',[['Happiness','slot','快樂'],[' is not only about ','link','排除單一標準'],['having a simple life','slot','簡單生活'],['; it also depends on ','link','加入另一條件'],['being safe from preventable misery.','slot','免於可避免苦難']])),
   S('Another important point is that young adults now have more freedom to choose their education.','Another important point 轉入第二條理由：個人可作出的選擇。','這句明確切換主線，不重複前段安全論證。',[2,7,9],
     F('Another important point is that [今天的社會] allows more [個人自由]','第二段從保障轉向自由，說明快樂還關乎能否選擇合適的人生。','完成一條安全理由後，要引入另一條關於自主選擇的理由時。',[['Another important point is that ','link','引出新理由'],['modern society','slot','今天的社會'],[' allows more ','link','指出增加'],['personal freedom.','slot','個人自由']])),
   S('In earlier decades, many people were restricted by strict rules about family roles, schooling and work.','In... 設定過去時代，were trapped by 指出僵化期望如何限制選擇。','這句列過去選擇受限的領域，未談外表與內心快樂的差別。',[8,10,11],
@@ -103,7 +103,7 @@ const structures=[
   S('Today, more pupils can choose subjects, courses and future work that match their interests.','列舉可選範圍，讓「自由」不是空泛口號。','這句以多項具體生活決定顯示自主空間。',[8,9,10],
     F('Today, people are more able to choose [教育、職業、伴侶、生活方式與信念]','逐項列出現代人較能決定的生活領域，不把自由縮成單一選項。','列出一方的限制後，要具體呈現另一方的選擇空間時。',[['Today, people are more able to choose ','link','提出當代選擇空間'],['their education, career, partner, lifestyle, and beliefs.','slot','教育、職業、伴侶、生活方式與信念']])),
   S('This choice can create uncertainty, but it also lets people build a life that fits their values.','can 承認自由帶來壓力；but it also 指出能建立更合適生活的好處。','這句是有條件的讓步，不把自由說成只有好處。',[8,10,11],
-    F('This freedom can create [壓力], but it also gives individuals room to build [真正合適的生活]','承認選擇可能令人有壓力，同時指出可依個人需要規劃生活。','列出更多選擇後，要公平交代選擇帶來的代價與好處時。',[['This freedom','slot','自由'],[' can create ','link','承認可能代價'],['pressure','slot','壓力'],[', but it also gives individuals room to build ','link','轉向選擇帶來的空間'],['a life that actually fits them.','slot','真正合適的生活']])),
+    F('[這項選擇] can create [代價], but it also gives individuals room to build [正面結果]','承認選擇可能令人有壓力，同時指出可依個人需要規劃生活。','要承認某項選擇可能帶來代價，同時指出它也提供正面空間時。',[['This freedom','slot','自由'],[' can create ','link','承認可能代價'],['pressure','slot','壓力'],[', but it also gives individuals room to build ','link','轉向選擇帶來的空間'],['a life that actually fits them.','slot','真正合適的生活']])),
   S('For instance, a young man who wants to change careers or study overseas may have more options now than his grandfather probably had.','For instance 將抽象自由落到具體人生選擇，並以 probably 保留比較的不確定。','這句用跨世代人物例子，不保證每人或每地都一樣。',[9,11,12],
     F('For instance, [想作多種個人選擇的年輕人] has far more freedom now than [上一代親人] probably had','用學業、創業與婚姻的可能選擇具體呈現自由增加；probably 避免絕對斷言。','提出某種選擇有價值後，要用一個具體人物的決定示範時。',[['For instance, ','link','引出人物例子'],['a young woman who wants to study abroad, start a business, or delay marriage','slot','想作多種個人選擇的年輕人'],[' has far more freedom now than ','link','跨世代比較'],['her grandmother','slot','上一代親人'],[' probably had.','link','保留不確定性']])),
   S('That kind of freedom is not a minor extra; it is one of the foundations of a satisfying life.','not...; it is... 否定「小奢侈」，改判為滿足感的基礎。','這句將例子的選擇提升成幸福條件，不再增加新例。',[7,12,13],
@@ -326,6 +326,48 @@ const transfer=[
     '名稱本身不能解釋幸福條件。',
   ],[1,5,7,8,12,14,16],'範文結論承認過去遠看可能平靜，仍以更大安全、自由與尊嚴支持立場。'),
 ];
+const reviewedTransferOptions=[
+  ['查安全、求助途徑及真實感受，不只看舊校舍外表','舊校舍看似平靜，便斷定所有學生內心快樂','只問校友喜不喜歡照片，不查當時安全情況','今日有安全設備，便保證學生完全沒有壓力'],
+  ['比較工傷後醫療、休假及收入支援的實際作用','只看昔日同事合照，便認為工傷沒有經濟後果','只問工場外牆顏色，不查任何工傷保障','同事關係好，便保證家庭收入永遠不受影響'],
+  ['查措施有否減少疾病與工作風險，不憑外觀','街道維持舊貌，便認定新服務完全沒有作用','只看建築風格，不問醫療或工作保障','有新措施，便保證所有居民從此不會受苦'],
+  ['查孫女能否選合適路徑，也承認選擇或帶壓力','選項較多，便保證每次決定都輕鬆容易','祖父按家人期望工作，便斷定他內心快樂','選職業是否合適，與長期生活毫無關係'],
+  ['承認選擇有壓力，再看能否找到較合適組合','否認作出選擇會使任何學生感到壓力','有人感到壓力，便主張取消所有科目選項','把選項數目直接當成每位學生的快樂分數'],
+  ['先把照片當外在紀錄，再查當時生活選擇','只憑照片笑容，便斷言所有人內心快樂','照片很整齊，便認為當時沒有僵化期望','只看衣著款式，不問居民對生活的感受'],
+  ['查患病或出行受阻時可否求助，記錄風險變化','只看設施照片吸引與否，不問能否提供支援','設施外觀好看，便斷定所有家庭再無危機','忽略安全服務資料，只比較設施標誌顏色'],
+  ['比較路徑與個人目標，也聽家人期望而不盲從','只按家人舊有期望，便認定自己一定滿足','因有三種選擇，便保證不用面對任何困難','只統計選項數目，不查哪條路徑真正適合'],
+  ['查兩代人的選項，不斷言所有祖母都失去自由','今天仍有人批評，便認為兩代選擇完全一樣','未查家庭背景，便斷定祖母一定不能讀書','只看兩人年齡，不問當時有哪些可行路徑'],
+  ['比較保障、選擇與感受，不只憑生活節奏判斷','舊村落節奏較慢，便斷定每個人都更快樂','現代住宅區選項多，便保證居民沒有壓力','只看房屋年份，不查保障或生活選擇'],
+  ['分開看公開表達與內心感受，再查轉職自由','把公開沉默當作內心快樂的完整證據','換工作困難，便認為當時每人都不快樂','不查工作與感受，只看舊照片的色彩'],
+  ['承認舊時或顯平靜，再以安全與自由解釋今天','只用懷舊感概括全文，不談保障或選擇','斷言今天所有人快樂，不承認任何壓力','只列新科技名稱，不連到實際生活品質'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
+structures[1].example='I completely disagree with this view because city life, despite its noise, gives people better access to work and services.';
+structures[2].example='The first reason is that children today are less exposed to many dangers that shaped school life decades ago.';
+structures[3].example='Older towns may be remembered through the warm light of nostalgia, but daily travel was often slower and less safe.';
+structures[6].example='For example, a worker injured today is more likely to receive treatment and time off, whereas the same injury in the past could easily end the family’s income.';
+structures[8].example='Another important point is that modern schooling allows more personal freedom.';
+structures[9].example='In earlier decades, many people were trapped by strict rules about family roles, schooling and work.';
+structures[10].example='They might have appeared satisfied, but appearance is not the same as inner happiness.';
+structures[11].example='Today, people are more able to choose subjects, courses and future work that match their interests.';
+structures[12].example='This choice can create uncertainty, but it also gives individuals room to build a life that fits their values.';
+structures[13].example='For instance, a young man who wants to change careers or study overseas has far more freedom now than his grandfather probably had.';
+structures[15].example='In conclusion, I completely reject the idea that people in earlier decades were happier.';
+structures[16].example='The past may look peaceful in memory, but modern life offers more safety and choice, which make daily happiness more attainable today.';
+const plausibleAlternatives=[
+  [['查舊校舍安全，學生感受可由校友照片推測','安靜環境有價值，因此安全設備可稍後比較','先比較兩代校舍外觀，再問學生是否感到快樂'],['外觀與校友記憶不能代替學生真實感受。','安全與求助途徑也是生活品質的一部分。','外觀不足以推論內心狀態。']],
+  [['同事關係好，可緩解工傷後的收入中斷','舊工場有家庭氣氛，醫療支援便較次要','先查工傷醫療，休假與收入可留給家庭'],['友好關係未必提供實際財務保障。','情感支持不能取代醫療與收入保障。','工傷後的收入風險是比喻核心。']],
+  [['檢查新設施是否易用，疾病風險可留待後說','街道保留舊貌，現代水源效益便較難判斷','安全規則已頒布，實際風險可不再追蹤'],['措施價值應看疾病與工作風險的變化。','外觀不影響是否能評估供水效果。','規則存在不等於風險已降低。']],
+  [['比較兩代選項，孫女壓力便可視作較小','選擇變多，祖父的職業滿意度由家人決定','自由有價值，職涯是否合適可待退休再看'],['選項增加仍可能帶來決策壓力。','家庭期待不能證明內心滿意。','選職業能否配合目標影響長期生活。']],
+  [['承認選擇有壓力，因此先減少可選科目','自由增加選項，但壓力只需靠考試分數評估','先按科目數量評價自由，再問是否合適'],['壓力存在不等於自由沒有價值。','選擇是否適合學生也應評估。','數量不能替代個人路徑的適配。']],
+  [['照片可顯示生活外貌，內心感受可先假定','先查當年工作規則，個人選擇可略去','家庭照整齊，表示當年社會期望較穩定'],['外在紀錄不足以推斷所有人的感受。','選擇空間是文章另一條比較線。','期望穩定與個人滿足不是同一回事。']],
+  [['查設施外觀與新穎程度，再推測居民安全','先比較新舊設備數量，求助時能否用可稍後查','公共交通更方便，疾病保障便不需評估'],['安全主線重視實際風險與支援。','設備數量不能代替可用性。','醫療與交通都是基本保障。']],
+  [['選擇三條路徑，便可先不用聽家人說法','家人期望值得尊重，個人目標可稍後再談','先看選項數量，再決定哪條路最為適合'],['自主選擇仍可參考家人意見。','文章強調配合個人價值與興趣。','選項數目不能代替實際適配。']],
+  [['查兩代人的選項，再推定祖母限制較多','今天有批評，便可認為兩代人的自由相近','先問祖母有否升學，家庭背景可稍後看'],['須核實具體處境，不能概括整代人。','社會壓力存在不代表可行路徑相同。','家庭與時代背景都影響選項。']],
+  [['比較兩地生活節奏，保障差異可稍後說','現代工作選項多，舊村落壓力可忽略','兩地都有壓力，便只需比較房屋價格'],['生活節奏只是因素之一。','兩地壓力都要承認並比較。','保障與自主選擇不能只由價格概括。']],
+  [['把公開沉默視為滿足，再查轉職是否容易','換工作較難，便可推斷每人都較不快樂','先統計表達不滿者，工作選項可留待後文'],['公開沉默未必代表內心滿足。','機會受限不等於所有人感受一致。','轉職自由也是衡量生活的線索。']],
+  [['承認舊時較平靜，現代生活壓力則可略過','總結現代選擇，疾病保障可在另段處理','比較安全與自由，再斷言每人都更快樂'],['結尾仍須承認現代也有壓力。','前文兩條主線都應回收。','更多可能性不是對每個人的保證。']],
+];
+plausibleAlternatives.forEach(([options,reasons],i)=>{transfer[i].options.splice(1,3,...options);transfer[i].explanations.splice(1,3,...reasons);});
 export default {
   key:'opinion:17',
   meta:{topic:'懷舊、基本保障與自主選擇',summary:'作者完全反對過去世代一定較快樂的說法：現代保障可減少可避免的苦難，更多自主選擇則讓人較可能建立適合自己的生活；現代壓力仍然存在。'},

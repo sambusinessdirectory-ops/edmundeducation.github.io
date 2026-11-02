@@ -86,7 +86,7 @@ const structures=[
   structure('Because the river flooded the road, buses could not reach the village.','Because 先交代水浸這項原因，再說明巴士無法進村的結果。','這句使用 Because 把原因放在前面，再引出結果。',[3,10,13],
     frame('Because [先成立的原因], [因此出現的結果]','句首 Because 先交代原因；逗號後才說由此出現的結果。','需要先交代一項原因，再說明它對另一件事造成甚麼影響時。',[['Because','link','引出原因'],[' retail markets are increasingly dominated by supermarket chains','slot','先成立的原因'],[',','link','接上結果'],[' independent shops in many towns now struggle to survive.','slot','因此出現的結果']])),
   structure('I completely agree that the library should open on Sundays, because many workers cannot visit it on weekdays.','先提出贊成延長開放的立場，再用 because 解釋這個判斷。','這句先給判斷，再以 because 補充理由。',[0,4,14],
-    frame('I [同意程度] agree that [立場與可能後果], because [支撐立場的原因]','先明確表態及預測可能後果，再用 because 交代支持這個立場的理由；can 不表示必然。','在引言提出立場，並立即預告為何持這個立場時。',[['I ','slot','發言者'],['completely','slot','同意程度'],[' agree that','link','表明立場'],[' the disappearance of small local businesses can lead to the death of local communities','slot','立場與可能後果'],[', because','link','引出支持立場的原因'],[' these businesses sustain both social relationships and the economic life on which community identity depends.','slot','支撐立場的原因']])),
+    frame('I [同意程度] agree that [立場與可能後果], because [支撐立場的原因]','先明確表態及預測可能後果，再用 because 交代支持這個立場的理由；can 不表示必然。','在引言提出立場，並立即預告為何持這個立場時。',[['I ','link','發言者'],['completely','slot','同意程度'],[' agree that ','link','表明立場'],['the disappearance of small local businesses can lead to the death of local communities','slot','立場與可能後果'],[', because ','link','引出支持立場的原因'],['these businesses sustain both social relationships and the economic life on which community identity depends.','slot','支撐立場的原因']])),
   structure('First, community gardens function as meeting places rather than mere plots for growing food.','First 引出首項理由；rather than 指出不能只把花園看成種植場地。','這句用 First 標示第一點，再以 rather than 排除過於狹窄的理解。',[0,9,15],
     frame('First, [對象] function as [較完整的作用] rather than [過於狹窄的作用]','First 引出首項理由；rather than 比較兩種功能，強調前者不應被縮減成後者。','第一項理由要糾正讀者對某事物作用的狹窄理解時。',[['First,','link','第一項理由'],[' small businesses ','slot','討論對象'],['function as','link','說明實際作用'],[' social anchors ','slot','較完整的作用'],['rather than','link','排除過於狹窄的理解'],[' mere places of transaction.','slot','過於狹窄的作用']])),
   structure('When neighbours meet each week, they begin to know one another better.','When 說明定期相遇的情況，後面指出由此形成的熟悉感。','這句用 When 設定情況，主句交代當時或隨之出現的變化。',[0,6,13],
@@ -108,13 +108,13 @@ const structures=[
   structure('This creates a cycle in which regular theatre attendance helps nearby cafés stay open.','in which 解釋循環如何運作，而非只宣稱形成一個循環。','這句用 This creates 指出結果，in which 展開其內部運作方式。',[9,10,12],
     frame('This creates a cycle in which [一項本地活動] helps [另一項活動持續]','This creates a cycle 指出前文做法形成循環；in which 具體解釋循環如何運作。','前文已交代一個做法，接着要說明它如何形成互相支撐的循環時。',[['This creates a cycle','link','指出形成循環'],[' in which','link','解釋循環運作'],[' local spending ','slot','一項本地活動'],['helps','link','指出支撐作用'],[' other local services survive.','slot','另一項活動持續']])),
   structure('Public gardens also give a city its own character; a square full of trees and people reflects what residents value.','分號連接一般判斷與具體場景，後半句展示地方特色如何被看見。','這句先提出身分作用，再用分號和具體場景展示它。',[2,11,14],
-    frame('[本地事物] also give [地方] its [獨特身分]; [具體場景] reflects [與地方相關的人或價值]','前半句提出地方身分的判斷；分號後的具體場景展示這判斷如何成立。','提出某做法能形成特色後，要用一個可見場景說明時。',[['Independent shops ','slot','本地事物'],['also give','link','指出作用'],[' a town centre its distinctive identity','slot','地方與獨特身分'],[';','link','接上具體場景'],[' a street filled with family-run bookstores, cafés and food stalls ','slot','具體場景'],['reflects','link','顯示'],[' the people who live there.','slot','與地方相關的人或價值']])),
+    frame('[本地事物] also give [地方] its [獨特身分]; [具體場景] reflects [與地方相關的人或價值]','前半句提出地方身分的判斷；分號後的具體場景展示這判斷如何成立。','提出某做法能形成特色後，要用一個可見場景說明時。',[['Independent shops','slot','本地事物'],[' also give ','link','指出作用'],['a town centre','slot','地方'],[' its ','link','所有關係'],['distinctive identity','slot','獨特身分'],['; ','link','接上具體場景'],['a street filled with family-run bookstores, cafés and food stalls','slot','具體場景'],[' reflects ','link','顯示'],['the people who live there.','slot','與地方相關的人或價值']])),
   structure('By contrast, when large firms control the market, decisions move to distant offices, and local workers have less say.','By contrast 對照先前情況；when 設定條件，後面列出兩項不同後果。','這句以 By contrast 引出對照，再用 when 說明此情況下的兩項後果。',[6,10,12],
     frame('By contrast, when [相反情況成立], [第一項變化], and [第二項變化]','By contrast 轉向與前文相反的情況；when 設定條件，再列出兩項結果。','已展示一種模式的作用，要轉向對照模式並說明其兩項影響時。',[['By contrast, when','link','引出對照情況'],[' chain supermarkets dominate','slot','相反情況成立'],[',','link','接第一項變化'],[' profits and decision-making are centralised','slot','第一項變化'],[', and','link','並列第二項變化'],[' high streets gradually become uniform.','slot','第二項變化']])),
   structure('A school may still have classrooms and teachers, but it no longer offers a safe place to learn.','may still 承認表面存在的條件；but 轉向較深層的缺失。','這句用 may still 和 but 對照表面仍有與實質已失去。',[2,9,13],
     frame('[地方] may still [保留表面事物], but [該地方] no longer [具備的深層功能]','may still 承認表面的保留；but 指出更重要的功能已經失去。','有人可能以表面仍存在的事物反駁時，要指出關鍵功能其實已喪失。',[['A place ','slot','地方'],['may still','link','承認表面保留'],[' contain shops and consumers','slot','保留表面事物'],[', but','link','轉向深層缺失'],[' it ','slot','該地方'],['no longer','link','指出功能喪失'],[' functions as a genuine community in the fuller social sense.','slot','具備的深層功能']])),
   structure('In conclusion, I strongly agree that losing public libraries would harm many neighbourhoods.','In conclusion 收束全文，重申作者對圖書館關閉的立場。','這句以 In conclusion 標示總結，再重申前文論證的立場。',[1,8,16],
-    frame('In conclusion, I [同意程度] agree that [重申的立場]','In conclusion 標示全文收束；後面重申已在主體段支持過的立場。','文章已完成論證，要在結尾明確回扣問題與自己的立場時。',[['In conclusion,','link','全文收束'],[' I ','slot','發言者'],['strongly','slot','同意程度'],[' agree that','link','重申立場'],[' the closure of small local businesses can bring about the death of local communities.','slot','重申的立場']])),
+    frame('In conclusion, I [同意程度] agree that [重申的立場]','In conclusion 標示全文收束；後面重申已在主體段支持過的立場。','文章已完成論證，要在結尾明確回扣問題與自己的立場時。',[['In conclusion,','link','全文收束'],[' I ','link','發言者'],['strongly','slot','同意程度'],[' agree that ','link','重申立場'],['the closure of small local businesses can bring about the death of local communities.','slot','重申的立場']])),
   structure('Without safe buses, residents lose both a way to work and a chance to stay connected.','Without 提出缺少安全巴士的條件；both...and 並列兩種損失。','這句用 Without 指出條件，再用 both...and 列出兩種不同損失。',[1,6,10],
     frame('Without [缺少的條件], [受影響者] lose both [第一項損失] and [第二項損失]','Without 指出缺少甚麼；both...and 並列因此失去的兩項不同事物。','結尾要把一項缺失造成的兩類損失一起收束時。',[['Without','link','提出缺少的條件'],[' them','slot','缺少的條件'],[',','link','接上損失'],[' neighbourhoods ','slot','受影響者'],['lose both','link','並列兩項損失'],[' the human relationships ','slot','第一項損失'],['and','link','連接第二項'],[' the locally rooted economic networks that make communal life possible.','slot','第二項損失']])),
 ];
@@ -340,6 +340,22 @@ const transfer=[
   ],[5,7,10,14,16],'範文從熟人接觸及本地經濟網絡兩方面判斷社區是否維持，並使用可能性而非絕對斷言。'),
 ];
 
+structures[8].example='As a result, the links that help a team work together begin to weaken.';
+const reviewedTransferOptions=[
+  ['看常到圖書館者的熟人接觸，及關閉後的失落','只看藏書量，便當作全部社交聯繫證據','假定所有讀者反對網借，不查使用情況','只看平台成本，便否定圖書館社交作用'],
+  ['看病人會否失去熟悉職員，特別是少交談者','斷定長者都不能用自助機，故不能搬遷','只看新中心房間數，便推定病人社交','見到更多病人便斷定必會結交朋友'],
+  ['比較省時與否，也看反覆交談機會有否減少','取餐變快便斷定學生與職員關係改善','沒職員便斷定學生再不會與人說話','只看機器品牌售價便推定學生歸屬'],
+  ['承認服務仍在，再查熟悉職員協助有否流失','電話接通便斷定原有社區關係仍在','櫃台變少便斷定所有服務質素下降','只比電話費，不理居民與服務者關係'],
+  ['看攤主聘本地人及向附近供應商採購','只比市集商場招牌，便判定地區得益','假定居民攤主把全部利潤捐出','只看人流便斷定收入全留在本地'],
+  ['查決策是否轉總部及本地特色有否消失','平台有總部便斷定學生不再學音樂','只比商標顏色，便斷定教學內容相同','連鎖變大便斷定本地教師更有權'],
+  ['不只看客量，也看地方特色與居民聯繫','客量上升便斷定本地利潤聯繫均增加','家庭店離開便斷定街道再無商店','咖啡品質相同便斷定地方身分不變'],
+  ['看店舖如何因居民球會需求提供服務','只列店舖折扣，不談與地方生活關係','把連鎖店數目當作各地特色證據','只問旅客喜好，便代表所有居民看法'],
+  ['同看熟人聯繫與會費採購的本地作用','活動仍在便斷定社交經濟作用不變','只比球衣款式便判斷居民不相識','全國機構一定更差，毋須查運作'],
+  ['追蹤維修費流向與附近商戶生意','郵寄方便便斷定鄉鎮服務更興旺','維修店關閉便斷定全鎮無人能維修','只比包裝，不追蹤維修費用去向'],
+  ['看公園偶遇能否維持居民熟悉關係','公園開放便斷定原有接觸機會不變','公園改制便斷定居民不再外出','只看草地面積便推定居民信任'],
+  ['比較熟人關係與服務支出，再判斷合併影響','機構變大便斷定長者失去全部熟人','服務仍在便斷定人際與經濟作用不變','只數辦公室，不查服務支出實際變化'],
+];
+reviewedTransferOptions.forEach((options,i)=>{transfer[i].options=options;});
 export default {
   key:'opinion:6',
   meta:{topic:'小店、社交聯繫與地方經濟',summary:'作者完全同意小店關閉可令社區衰亡：日常熟人聯繫逐漸消失，本地收入循環和街道特色也被削弱。'},
