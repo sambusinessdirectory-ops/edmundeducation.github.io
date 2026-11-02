@@ -45,7 +45,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15108, "the Homework/Schedule catalogue includes the two IELTS Question Types task links");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15195, "catalogue includes every song teaching module");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -1007,12 +1007,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261031-ielts-types1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261031-ielts-types1/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261031-ielts-types1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261101-three-day/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261031-ielts-types1/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261031-ielts-types1/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261102-song-homework1"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261102-song-homework1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261102-song-homework1/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261102-song-homework1/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261102-song-homework1/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261102-song-homework1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
 assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");
@@ -1082,3 +1082,12 @@ for (let page = 1; page <= 47; page += 1) {
   assert.ok(normalizeHomeworkResource(resource), `Page ${page} has a valid Homework link`);
   assert.equal(new URL(resource.url, "https://edmundeducation.com/").searchParams.get("deck"), `custom-setup/sunny-s3-grammar-book/page-${page}`);
 }
+
+const songResources=HOMEWORK_RESOURCE_CATALOG.filter(r=>r.type==='song-appreciation');
+assert.equal(songResources.length,87);
+assert.equal(homeworkAutocomplete('Song appreciation').type,'song-appreciation');
+for(const resource of songResources){
+ assert.ok(normalizeHomeworkResource(resource),resource.label);
+ assert.equal(parseScheduleMessage(serializeScheduleMessage('Listen and learn',[resource])).resources[0].url,resource.url);
+}
+assert.equal(normalizeHomeworkHref('song-appreciation.html?song=lea&unexpected=true'),null);

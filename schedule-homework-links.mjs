@@ -118,11 +118,13 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "grammar", trigger: "Grammar", aliases: Object.freeze(["Grammar Practice"]), label: "Grammar", pickerTitle: "選擇語法模組或題目", pickerNoun: "語法練習", color: "#244a7a" }),
   Object.freeze({ type: "error-identification", trigger: "Error Identification", aliases: Object.freeze(["Error Identifier", "Proofreading"]), label: "Error Identification", pickerTitle: "選擇錯因分析題目或文章", pickerNoun: "校對練習", color: "#754e82" }),
   Object.freeze({ type: "junior-exam-prep", trigger: "Junior Exam Prep", aliases: Object.freeze(["Jayden Homework", "Jayden Exam Prep"]), label: "Junior Exam Prep", pickerTitle: "選擇 Jayden 的考試溫習模組或文章", pickerNoun: "考試溫習", color: "#244e65" }),
+  Object.freeze({ type: "song-appreciation", trigger: "Song appreciation", label: "Song appreciation", pickerTitle: "選擇歌曲教學模組", pickerNoun: "歌曲", color: "#d92364" }),
   Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
 ]);
 
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
 const ALLOWED_PAGES_BY_TYPE = Object.freeze({
+  "song-appreciation": Object.freeze(["/song-appreciation.html"]),
   "ielts-question-types": Object.freeze(["/ielts-writing-question-preview.html"]),
   flashcards: Object.freeze(["/flashcards.html"]),
   "fill-blanks": Object.freeze(["/writing-practice.html"]),
@@ -201,6 +203,7 @@ const DOWNLOAD_CATALOG_KEYS = Object.freeze([
 ]);
 const DOWNLOAD_CATALOG_KEY_SET = new Set(DOWNLOAD_CATALOG_KEYS);
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
+  "/song-appreciation.html": Object.freeze(["song"]),
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
   "/writing-submission.html": Object.freeze(["exercise", "manualTopic", "speakingTopic"]),

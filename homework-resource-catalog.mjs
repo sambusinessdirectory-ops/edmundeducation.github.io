@@ -61510,6 +61510,615 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "sentence-structure.html?lesson=ss345"
   },
   {
+    "id": "song-appreciation:a-sky-full-of-stars",
+    "type": "song-appreciation",
+    "label": "A Sky Full of Stars · Coldplay",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=a-sky-full-of-stars"
+  },
+  {
+    "id": "song-appreciation:a-thousand-years",
+    "type": "song-appreciation",
+    "label": "A Thousand Years · Christina Perri",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=a-thousand-years"
+  },
+  {
+    "id": "song-appreciation:africa",
+    "type": "song-appreciation",
+    "label": "Africa · Toto",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=africa"
+  },
+  {
+    "id": "song-appreciation:alejandro",
+    "type": "song-appreciation",
+    "label": "Alejandro · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=alejandro"
+  },
+  {
+    "id": "song-appreciation:all-of-me",
+    "type": "song-appreciation",
+    "label": "All of Me · John Legend",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=all-of-me"
+  },
+  {
+    "id": "song-appreciation:always",
+    "type": "song-appreciation",
+    "label": "Always · Bon Jovi",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=always"
+  },
+  {
+    "id": "song-appreciation:another-day-in-paradise",
+    "type": "song-appreciation",
+    "label": "Another Day In Paradise · Phil Collins",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=another-day-in-paradise"
+  },
+  {
+    "id": "song-appreciation:applause",
+    "type": "song-appreciation",
+    "label": "Applause · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=applause"
+  },
+  {
+    "id": "song-appreciation:bad-romance",
+    "type": "song-appreciation",
+    "label": "Bad Romance · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=bad-romance"
+  },
+  {
+    "id": "song-appreciation:believer",
+    "type": "song-appreciation",
+    "label": "Believer · Imagine Dragons",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=believer"
+  },
+  {
+    "id": "song-appreciation:bohemian-rhapsody",
+    "type": "song-appreciation",
+    "label": "Bohemian Rhapsody · Queen",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=bohemian-rhapsody"
+  },
+  {
+    "id": "song-appreciation:cheap-thrills",
+    "type": "song-appreciation",
+    "label": "Cheap Thrills · Sia",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=cheap-thrills"
+  },
+  {
+    "id": "song-appreciation:clocks",
+    "type": "song-appreciation",
+    "label": "Clocks · Coldplay",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=clocks"
+  },
+  {
+    "id": "song-appreciation:close-to-you",
+    "type": "song-appreciation",
+    "label": "Close To You · Carpenters",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=close-to-you"
+  },
+  {
+    "id": "song-appreciation:counting-stars",
+    "type": "song-appreciation",
+    "label": "Counting Stars · OneRepublic",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=counting-stars"
+  },
+  {
+    "id": "song-appreciation:diamonds",
+    "type": "song-appreciation",
+    "label": "Diamonds · Rihanna",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=diamonds"
+  },
+  {
+    "id": "song-appreciation:dont-stop-believin",
+    "type": "song-appreciation",
+    "label": "Don't Stop Believin' · Journey",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=dont-stop-believin"
+  },
+  {
+    "id": "song-appreciation:dust-in-the-wind",
+    "type": "song-appreciation",
+    "label": "Dust In The Wind · Kansas",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=dust-in-the-wind"
+  },
+  {
+    "id": "song-appreciation:every-breath-you-take",
+    "type": "song-appreciation",
+    "label": "Every Breath You Take · The Police",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=every-breath-you-take"
+  },
+  {
+    "id": "song-appreciation:everybody-backstreets-back",
+    "type": "song-appreciation",
+    "label": "Everybody (Backstreet’s Back) · Backstreet Boys",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=everybody-backstreets-back"
+  },
+  {
+    "id": "song-appreciation:everything-has-changed",
+    "type": "song-appreciation",
+    "label": "Everything Has Changed · Taylor Swift & Ed Sheeran",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=everything-has-changed"
+  },
+  {
+    "id": "song-appreciation:everything-i-own",
+    "type": "song-appreciation",
+    "label": "Everything I Own · Bread",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=everything-i-own"
+  },
+  {
+    "id": "song-appreciation:faithfully",
+    "type": "song-appreciation",
+    "label": "Faithfully · Journey",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=faithfully"
+  },
+  {
+    "id": "song-appreciation:fast-car",
+    "type": "song-appreciation",
+    "label": "Fast Car · Tracy Chapman",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=fast-car"
+  },
+  {
+    "id": "song-appreciation:fly-me-to-the-moon",
+    "type": "song-appreciation",
+    "label": "Fly Me To The Moon · Frank Sinatra",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=fly-me-to-the-moon"
+  },
+  {
+    "id": "song-appreciation:forever-young",
+    "type": "song-appreciation",
+    "label": "Forever Young · Alphaville",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=forever-young"
+  },
+  {
+    "id": "song-appreciation:happier",
+    "type": "song-appreciation",
+    "label": "Happier · Ed Sheeran",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=happier"
+  },
+  {
+    "id": "song-appreciation:heal-the-world",
+    "type": "song-appreciation",
+    "label": "Heal The World · Michael Jackson",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=heal-the-world"
+  },
+  {
+    "id": "song-appreciation:hey-brother",
+    "type": "song-appreciation",
+    "label": "Hey Brother · Avicii",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=hey-brother"
+  },
+  {
+    "id": "song-appreciation:highway-to-hell",
+    "type": "song-appreciation",
+    "label": "Highway to Hell · AC/DC",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=highway-to-hell"
+  },
+  {
+    "id": "song-appreciation:hold-my-hand",
+    "type": "song-appreciation",
+    "label": "Hold My Hand · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=hold-my-hand"
+  },
+  {
+    "id": "song-appreciation:hung-up",
+    "type": "song-appreciation",
+    "label": "Hung Up · Madonna",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=hung-up"
+  },
+  {
+    "id": "song-appreciation:i-dont-want-to-miss-a-thing",
+    "type": "song-appreciation",
+    "label": "I Don't Want to Miss a Thing · Aerosmith",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=i-dont-want-to-miss-a-thing"
+  },
+  {
+    "id": "song-appreciation:i-lay-my-love-on-you",
+    "type": "song-appreciation",
+    "label": "I Lay My Love On You · Westlife",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=i-lay-my-love-on-you"
+  },
+  {
+    "id": "song-appreciation:i-want-it-that-way",
+    "type": "song-appreciation",
+    "label": "I Want It That Way · Backstreet Boys",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=i-want-it-that-way"
+  },
+  {
+    "id": "song-appreciation:i-was-made-for-lovin-you",
+    "type": "song-appreciation",
+    "label": "I Was Made For Lovin’ You · KISS",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=i-was-made-for-lovin-you"
+  },
+  {
+    "id": "song-appreciation:i-will-remember",
+    "type": "song-appreciation",
+    "label": "I Will Remember · Toto",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=i-will-remember"
+  },
+  {
+    "id": "song-appreciation:if-bread",
+    "type": "song-appreciation",
+    "label": "If · Bread",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=if-bread"
+  },
+  {
+    "id": "song-appreciation:imagine",
+    "type": "song-appreciation",
+    "label": "Imagine · John Lennon",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=imagine"
+  },
+  {
+    "id": "song-appreciation:iris",
+    "type": "song-appreciation",
+    "label": "Iris · Goo Goo Dolls",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=iris"
+  },
+  {
+    "id": "song-appreciation:its-my-life",
+    "type": "song-appreciation",
+    "label": "It's My Life · Bon Jovi",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=its-my-life"
+  },
+  {
+    "id": "song-appreciation:just-dance",
+    "type": "song-appreciation",
+    "label": "Just Dance · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=just-dance"
+  },
+  {
+    "id": "song-appreciation:just-give-me-a-reason",
+    "type": "song-appreciation",
+    "label": "Just Give Me A Reason · P!nk feat. Nate Ruess",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=just-give-me-a-reason"
+  },
+  {
+    "id": "song-appreciation:la-isla-bonita",
+    "type": "song-appreciation",
+    "label": "La Isla Bonita · Madonna",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=la-isla-bonita"
+  },
+  {
+    "id": "song-appreciation:layla",
+    "type": "song-appreciation",
+    "label": "Layla · Derek and the Dominos",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=layla"
+  },
+  {
+    "id": "song-appreciation:lea",
+    "type": "song-appreciation",
+    "label": "Lea · Toto",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=lea"
+  },
+  {
+    "id": "song-appreciation:like-a-prayer",
+    "type": "song-appreciation",
+    "label": "Like A Prayer · Madonna",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=like-a-prayer"
+  },
+  {
+    "id": "song-appreciation:livin-on-a-prayer",
+    "type": "song-appreciation",
+    "label": "Livin' On A Prayer · Bon Jovi",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=livin-on-a-prayer"
+  },
+  {
+    "id": "song-appreciation:maneater",
+    "type": "song-appreciation",
+    "label": "Maneater · Daryl Hall & John Oates",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=maneater"
+  },
+  {
+    "id": "song-appreciation:million-reasons",
+    "type": "song-appreciation",
+    "label": "Million Reasons · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=million-reasons"
+  },
+  {
+    "id": "song-appreciation:my-love",
+    "type": "song-appreciation",
+    "label": "My Love · Westlife",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=my-love"
+  },
+  {
+    "id": "song-appreciation:my-way",
+    "type": "song-appreciation",
+    "label": "My Way · Frank Sinatra",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=my-way"
+  },
+  {
+    "id": "song-appreciation:never-enough",
+    "type": "song-appreciation",
+    "label": "Never Enough · Loren Allred",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=never-enough"
+  },
+  {
+    "id": "song-appreciation:nothings-gonna-stop-us-now",
+    "type": "song-appreciation",
+    "label": "Nothing's Gonna Stop Us Now · Starship",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=nothings-gonna-stop-us-now"
+  },
+  {
+    "id": "song-appreciation:oops-i-did-it-again",
+    "type": "song-appreciation",
+    "label": "Oops!...I Did It Again · Britney Spears",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=oops-i-did-it-again"
+  },
+  {
+    "id": "song-appreciation:open-arms-journey",
+    "type": "song-appreciation",
+    "label": "Open Arms · Journey",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=open-arms-journey"
+  },
+  {
+    "id": "song-appreciation:paparazzi",
+    "type": "song-appreciation",
+    "label": "Paparazzi · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=paparazzi"
+  },
+  {
+    "id": "song-appreciation:perfect",
+    "type": "song-appreciation",
+    "label": "Perfect · Ed Sheeran",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=perfect"
+  },
+  {
+    "id": "song-appreciation:photograph-ed-sheeran",
+    "type": "song-appreciation",
+    "label": "Photograph · Ed Sheeran",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=photograph-ed-sheeran"
+  },
+  {
+    "id": "song-appreciation:poker-face",
+    "type": "song-appreciation",
+    "label": "Poker Face · Lady Gaga",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=poker-face"
+  },
+  {
+    "id": "song-appreciation:rewrite-the-stars",
+    "type": "song-appreciation",
+    "label": "Rewrite The Stars · Zac Efron & Zendaya",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=rewrite-the-stars"
+  },
+  {
+    "id": "song-appreciation:rolling-in-the-deep",
+    "type": "song-appreciation",
+    "label": "Rolling In The Deep · Adele",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=rolling-in-the-deep"
+  },
+  {
+    "id": "song-appreciation:separate-ways",
+    "type": "song-appreciation",
+    "label": "Separate Ways · Journey",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=separate-ways"
+  },
+  {
+    "id": "song-appreciation:set-fire-to-the-rain",
+    "type": "song-appreciation",
+    "label": "Set Fire To The Rain · Adele",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=set-fire-to-the-rain"
+  },
+  {
+    "id": "song-appreciation:shake-it-off-taylor-swift",
+    "type": "song-appreciation",
+    "label": "Shake It Off · Taylor Swift",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=shake-it-off-taylor-swift"
+  },
+  {
+    "id": "song-appreciation:shallow",
+    "type": "song-appreciation",
+    "label": "Shallow · Lady Gaga & Bradley Cooper",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=shallow"
+  },
+  {
+    "id": "song-appreciation:snowman",
+    "type": "song-appreciation",
+    "label": "Snowman · Sia",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=snowman"
+  },
+  {
+    "id": "song-appreciation:somebody-that-i-used-to-know",
+    "type": "song-appreciation",
+    "label": "Somebody That I Used To Know · Gotye feat. Kimbra",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=somebody-that-i-used-to-know"
+  },
+  {
+    "id": "song-appreciation:somewhere-only-we-know",
+    "type": "song-appreciation",
+    "label": "Somewhere Only We Know · Keane",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=somewhere-only-we-know"
+  },
+  {
+    "id": "song-appreciation:sorry",
+    "type": "song-appreciation",
+    "label": "Sorry · Madonna",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=sorry"
+  },
+  {
+    "id": "song-appreciation:stop-loving-you",
+    "type": "song-appreciation",
+    "label": "Stop Loving You · Toto",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=stop-loving-you"
+  },
+  {
+    "id": "song-appreciation:take-on-me",
+    "type": "song-appreciation",
+    "label": "Take On Me · a-ha",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=take-on-me"
+  },
+  {
+    "id": "song-appreciation:telephone",
+    "type": "song-appreciation",
+    "label": "Telephone · Lady Gaga feat. Beyoncé",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=telephone"
+  },
+  {
+    "id": "song-appreciation:the-a-team",
+    "type": "song-appreciation",
+    "label": "The A Team · Ed Sheeran",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=the-a-team"
+  },
+  {
+    "id": "song-appreciation:thinking-out-loud-ed-sheeran",
+    "type": "song-appreciation",
+    "label": "Thinking Out Loud · Ed Sheeran",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=thinking-out-loud-ed-sheeran"
+  },
+  {
+    "id": "song-appreciation:this-is-me",
+    "type": "song-appreciation",
+    "label": "This Is Me · Keala Settle & The Greatest Showman Ensemble",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=this-is-me"
+  },
+  {
+    "id": "song-appreciation:thunderstruck",
+    "type": "song-appreciation",
+    "label": "Thunderstruck · AC/DC",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=thunderstruck"
+  },
+  {
+    "id": "song-appreciation:too-good-at-goodbyes",
+    "type": "song-appreciation",
+    "label": "Too Good At Goodbyes · Sam Smith",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=too-good-at-goodbyes"
+  },
+  {
+    "id": "song-appreciation:top-of-the-world",
+    "type": "song-appreciation",
+    "label": "Top Of The World · Carpenters",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=top-of-the-world"
+  },
+  {
+    "id": "song-appreciation:viva-la-vida",
+    "type": "song-appreciation",
+    "label": "Viva La Vida · Coldplay",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=viva-la-vida"
+  },
+  {
+    "id": "song-appreciation:wake-me-up",
+    "type": "song-appreciation",
+    "label": "Wake Me Up · Avicii",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=wake-me-up"
+  },
+  {
+    "id": "song-appreciation:we-are-the-world",
+    "type": "song-appreciation",
+    "label": "We Are The World · USA for Africa",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=we-are-the-world"
+  },
+  {
+    "id": "song-appreciation:we-are-young",
+    "type": "song-appreciation",
+    "label": "We Are Young · fun. feat. Janelle Monáe",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=we-are-young"
+  },
+  {
+    "id": "song-appreciation:what-makes-you-beautiful",
+    "type": "song-appreciation",
+    "label": "What Makes You Beautiful · One Direction",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=what-makes-you-beautiful"
+  },
+  {
+    "id": "song-appreciation:with-or-without-you",
+    "type": "song-appreciation",
+    "label": "With Or Without You · U2",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=with-or-without-you"
+  },
+  {
+    "id": "song-appreciation:yellow",
+    "type": "song-appreciation",
+    "label": "Yellow · Coldplay",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=yellow"
+  },
+  {
+    "id": "song-appreciation:you-give-love-a-bad-name",
+    "type": "song-appreciation",
+    "label": "You Give Love A Bad Name · Bon Jovi",
+    "detail": "Song appreciation · 歌曲教學模組",
+    "url": "song-appreciation.html?song=you-give-love-a-bad-name"
+  },
+  {
     "id": "speaking:ielts-part-2-book-2-exercise-09",
     "type": "speaking",
     "ordinal": 9,

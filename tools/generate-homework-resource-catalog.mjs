@@ -870,7 +870,18 @@ async function moduleLessonResources({ file, type, systemLabel, page, titleFor, 
 
 const allFiles = await readdir(root);
 const writingPracticeResources = await writingResources();
+async function songHomeworkResources() {
+  const songs = new Map();
+  for (const file of (await readdir(path.join(root, 'tools/song-content'))).filter(f => f.endsWith('.json')).sort()) {
+    const song = JSON.parse(await readFile(path.join(root, 'tools/song-content', file), 'utf8'));
+    if (!song.slug || !song.title) continue;
+    songs.set(song.slug, {id:`song-appreciation:${song.slug}`,type:'song-appreciation',label:`${song.title} · ${song.singer || ''}`.replace(/ · $/, ''),detail:'Song appreciation · 歌曲教學模組',url:`song-appreciation.html?song=${encodeURIComponent(song.slug)}`});
+  }
+  return [...songs.values()];
+}
+
 const resources = [
+  ...await songHomeworkResources(),
   {id:'ielts-question-types:task1',type:'ielts-question-types',label:'IELTS Question Types · Task 1',detail:'IELTS Writing · Diagrams',url:'ielts-writing-question-preview.html#task1'},
   {id:'ielts-question-types:task2',type:'ielts-question-types',label:'IELTS Question Types · Task 2',detail:'IELTS Writing · Essays',url:'ielts-writing-question-preview.html#task2'},
   ...await flashcardResources(allFiles),
