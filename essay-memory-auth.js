@@ -94,7 +94,7 @@
     setStatus('正在檢查學生登入…');
     const shared = window.EdmundSystemNav?.getStudentSession?.();
     const saved = readLocalSession();
-    const candidates = [shared, saved].filter(candidate => candidate?.role === 'student' && candidate.token);
+    const candidates = [shared, saved].filter(candidate => candidate?.role === 'student' && candidate.impersonatedByAdmin !== true && candidate.token);
     if (!candidates.length) {
       setStatus('請使用您的學生帳戶登入。');
       return;
