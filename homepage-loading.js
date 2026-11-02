@@ -9,7 +9,8 @@
     eddy: 'homepage-eddy-loading-animated.svg',
     phoebe: 'homepage-phoebe-loading-animated.svg?v=20261102-phoebe6',
     noir: 'homepage-noir-loading-animated.svg?v=20261102-noir1',
-    celeste: 'homepage-celeste-loading-animated.svg?v=20261102-celeste1'
+    celeste: 'homepage-celeste-loading-animated.svg?v=20261102-celeste1',
+    elsie: 'homepage-elsie-loading-animated.svg?v=20261102-elsie1'
   };
   const animationUrl = animationUrls[variant] || animationUrls.eddy;
   let pageReady = document.readyState !== 'loading';
