@@ -3097,7 +3097,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
           "speak honestly about fear, disappointment or insecurity",
           "communication becomes a stream of likes",
           "comments and short replies",
-          "create the impression of a company",
+          "create a sense of companionship",
           "without providing emotional support",
           "online platforms can be a crowded room",
           "in which no one truly listens",
@@ -3173,7 +3173,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
           },
           {
             "parts": [
-              "When communication becomes a stream of likes, comments and short replies, it may create the impression of a company without providing emotional support."
+              "When communication becomes a stream of likes, comments and short replies, it may create a sense of companionship without providing emotional support."
             ]
           },
           {
@@ -3232,7 +3232,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
     "translation": [
       "網上溝通已經融入日常生活，使人們能夠交換訊息、加入群體，並跨越距離維持人際關係。然而，我完全不同意這種發展意味著人們將永遠不會孤單，或永遠能夠結交新朋友。數位接觸可以擴大人們接觸他人的機會，但它不能保證真正的陪伴。",
       "這個說法的第一個問題是，孤單並不只是身邊沒有人。它往往是由缺乏有意義的連結所造成的。一個人即使擁有數百個網上聯絡人，如果那些交流只是短暫、表面化或膚淺的，他仍然可能感到孤立。例如，社交媒體可能鼓勵用戶發布經過美化的人生版本，而不是誠實地談論恐懼、失望或不安全感。當溝通變成一連串的讚好、留言和簡短回覆時，它可能營造出有人陪伴的感覺，卻沒有提供真正的情感支持。從這個意義上說，網上平台可以像一個擠滿人的房間，但其中沒有任何人真正聆聽。",
-      "另一個原因是，在網上交朋友仍然取決於社交自信、信任和共同努力。互聯網也許能打開一扇門，但人們仍然必須自己走進去。害羞的青少年、年長用戶，或曾經遭受網絡欺凌的人，可能會覺得數位互動帶來壓力，而不是帶來解放感。此外，網上空間並不總是安全或真誠的；虛假身份、敵意留言和騙局都可能令用戶在建立新關係時變得謹慎。即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產。",
+      "另一個原因是，在網上交朋友仍然取決於社交自信、信任和共同努力。互聯網也許能打開一扇門，但人們仍然必須自己走進去。害羞的青少年、年長用戶，或曾經遭受網絡欺凌的人，可能會覺得數位互動帶來壓力，而不是帶來解放感。此外，網上空間並不總是安全或真誠的；虛假身份、敵意留言和騙局都可能令用戶在建立新關係時變得謹慎。即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產生。",
       "總結來說，網上溝通使人們更容易接觸他人，但它並沒有消除孤單，也不能向每個人承諾友誼。人與人之間的連結是透過深度、信任和持續相處建立的，而不只是透過持續接觸螢幕而形成的。"
     ],
     "translationSections": [
@@ -3285,7 +3285,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
           },
           {
             "label": "Logic Chain（邏輯鏈）",
-            "english": "When communication becomes a stream of likes, comments and short replies, it may create the impression of a company without providing emotional support.",
+            "english": "When communication becomes a stream of likes, comments and short replies, it may create a sense of companionship without providing emotional support.",
             "chinese": "當溝通變成一連串的讚好、留言和簡短回覆時，它可能營造出有人陪伴的感覺，卻沒有提供真正的情感支持。"
           },
           {
@@ -3323,7 +3323,7 @@ window.EDMUND_IELTS_WRITING_17_52_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Even in positive environments, friendships require time, honesty and mutual care, which cannot be produced automatically by technology.",
-            "chinese": "即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產。"
+            "chinese": "即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產生。"
           }
         ]
       },

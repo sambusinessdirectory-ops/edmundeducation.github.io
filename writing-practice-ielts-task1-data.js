@@ -4129,10 +4129,10 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "with forecasts to",
           "Overall",
           "countries became more urbanised",
-          "Malaysia rose to and is expected to remain the clear leader",
-          "Indonesia records",
-          "the fastest long-term growth",
-          "moving from the lowest position to second place",
+          "Malaysia became and is expected to remain the clear leader",
+          "Indonesia climbed sharply",
+          "from the lowest position",
+          "to second place",
           "the Philippines fluctuated",
           "and Thailand grew more slowly",
           "becoming the least urbanised country from",
@@ -4191,7 +4191,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "parts": [
-              "Malaysia rose to and is expected to remain the clear leader, while Indonesia records the fastest long-term growth, moving from the lowest position to second place."
+              "Malaysia became and is expected to remain the clear leader, while Indonesia climbed sharply from the lowest position to second place."
             ]
           },
           {
@@ -4239,7 +4239,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
     ],
     "translation": [
       "這張折線圖比較了 1970 年至 2020 年間菲律賓、馬來西亞、泰國和印尼城市人口所佔百分比，並附有到 2040 年的預測。",
-      "整體而言，四個國家的城市化程度都提高了。馬來西亞上升後成為、並預計會繼續保持明顯領先的位置；與此同時，印尼錄得最顯著的長期增長，從最低位置升至第二位。相比之下，菲律賓的數據有所波動，而泰國增長較慢，從 2010 年起成為城市化比例最低的國家。",
+      "整體而言，四個國家的城市化程度都提高了。馬來西亞已成為明顯領先者，並預計會保持這個位置；與此同時，印尼則從最低位置大幅上升至第二位。相比之下，菲律賓的數據有所波動，而泰國增長較慢，從 2010 年起成為城市化比例最低的國家。",
       "在 1970 年，菲律賓以略高於 30% 的城市人口比例小幅領先，而馬來西亞約為。菲律賓的數據在 1990 年達到接近 50% ，之後在 2010 年下降至略高於 40% ，再於2020 年回升至約 46% ；預計到 2040 年將升至約 56% 。然而，馬來西亞從 1970 年的約 30% 穩步上升至 2000 年的 60% ，並預計在最後一年超過 80% 。",
       "印尼的起點只有約 13% ，但其比例持續上升，在 2010 年以約 43% 追平菲律賓，並於 2020 年達到略高於 50% 。預計印尼會進一步升至 60 多 % 的中段，而泰國則預計會從 2020 年的略高於30% 升至 2040 年的 50% 。"
     ],
@@ -4268,8 +4268,8 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "label": "Main Feature 2（主要特徵）",
-            "english": "Malaysia rose to and is expected to remain the clear leader, while Indonesia records the fastest long-term growth, moving from the lowest position to second place.",
-            "chinese": "馬來西亞上升後成為、並預計會繼續保持明顯領先的位置；與此同時，印尼錄得最顯著的長期增長，從最低位置升至第二位。"
+            "english": "Malaysia became and is expected to remain the clear leader, while Indonesia climbed sharply from the lowest position to second place.",
+            "chinese": "馬來西亞已成為明顯領先者，並預計會保持這個位置；與此同時，印尼則從最低位置大幅上升至第二位。"
           },
           {
             "label": "Main Feature 3（主要特徵）",
@@ -19101,9 +19101,9 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "completed first",
           "covers",
           "almost twice",
-          "which opened",
+          "which was completed",
           "nevertheless",
-          "carries more passengers annually",
+          "has a higher annual carrying capacity",
           "compared with",
           "completed",
           "only",
@@ -19166,7 +19166,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "almost twice",
           "kilometres",
           "Paris",
-          "which opened",
+          "which was completed",
           "nevertheless",
           "carries more",
           "passengers annually",
@@ -19230,8 +19230,8 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "almost twice Paris’s",
           "kilometres",
           "Paris",
-          "which opened",
-          "nevertheless carries more passengers annually",
+          "which was completed",
+          "nevertheless has a higher annual carrying capacity",
           "than London",
           "million",
           "compared with",
@@ -19240,9 +19240,9 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "and is only",
           "kilometres long",
           "yet it dominates in capacity",
-          "handling",
+          "with an annual carrying capacity of",
           "million",
-          "passengers per year",
+          "passengers",
           "The other three systems are on a much smaller scale",
           "Washington DC",
           "completed",
@@ -19298,12 +19298,12 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "parts": [
-              "Paris, which opened in 1890, nevertheless carries more passengers annually than London, at 850 million compared with 548 million."
+              "Paris, which was completed in 1890, nevertheless has a higher annual carrying capacity than London, at 850 million compared with 548 million."
             ]
           },
           {
             "parts": [
-              "Tokyo was completed in 1904 and is only 149 kilometres long, yet it dominates in capacity, handling 1,434 million passengers per year."
+              "Tokyo was completed in 1904 and is only 149 kilometres long, yet it dominates in capacity, with an annual carrying capacity of 1,434 million passengers."
             ]
           }
         ]
@@ -19337,7 +19337,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
     "translation": [
       "這個表格比較了六個主要地鐵系統的完工年份、網絡長度和年度載客容量。",
       "整體而言，倫敦和巴黎是最早完工且網絡規模最大的系統，其中倫敦的路線長度明顯遠超所有其他城市。相比之下，東京雖然路線短得多，卻擁有遠遠最高的年度載客容量；而京都在路線長度和載客容量兩方面都是最小的系統。",
-      "倫敦最早完工，時間是 1863 年，總長度為 1,100 公里，幾乎是巴黎 594 公里的兩倍。巴黎於 1890 年開通，但其年度載客容量仍高於倫敦，分別為 8.5 億和 5.48 億。東京於 1904 年完工，長度只有 149 公里，但它在載客容量方面居於首位，每年可承載 14.34 億乘客。",
+      "倫敦最早完工，時間是 1863 年，總長度為 1,100 公里，幾乎是巴黎 594 公里的兩倍。巴黎於 1890 年完工，但其年度載客容量仍高於倫敦，分別為 8.5 億和 5.48 億。東京於 1904 年完工，長度只有 149 公里，但它在載客容量方面居於首位，每年可承載 14.34 億乘客。",
       "另外三個系統的規模則小得多。華盛頓特區於 1921 年完工，擁有 114 公里路線，但其年度載客容量只有 7,000 萬。京都和洛杉磯是最新的兩個網絡，分別於 1980 年和 2001 年完工，而且兩者都非常短，分別只有 11 公里和 14 公里。然而，洛杉磯每年可承載 9,000 萬乘客，遠高於京都的 1,100 萬。"
     ],
     "translationSections": [
@@ -19382,12 +19382,12 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "label": "Detail 2（細節）",
-            "english": "Paris, which opened in 1890, nevertheless carries more passengers annually than London, at 850 million compared with 548 million.",
-            "chinese": "巴黎於 1890 年開通，但其年度載客容量仍高於倫敦，分別為 8.5 億和 5.48 億。"
+            "english": "Paris, which was completed in 1890, nevertheless has a higher annual carrying capacity than London, at 850 million compared with 548 million.",
+            "chinese": "巴黎於 1890 年完工，但其年度載客容量仍高於倫敦，分別為 8.5 億和 5.48 億。"
           },
           {
             "label": "Detail 3（細節）",
-            "english": "Tokyo was completed in 1904 and is only 149 kilometres long, yet it dominates in capacity, handling 1,434 million passengers per year.",
+            "english": "Tokyo was completed in 1904 and is only 149 kilometres long, yet it dominates in capacity, with an annual carrying capacity of 1,434 million passengers.",
             "chinese": "東京於 1904 年完工，長度只有 149 公里，但它在載客容量方面居於首位，每年可承載 14.34 億乘客。"
           }
         ]
@@ -19872,7 +19872,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
     "modelEssayNumber": 5,
     "downloadCategory": "tables",
     "questionPrompt": [
-      "The table shows the worldwide market share of the mobile phone market for manufactures in the years 2005 and 2006.",
+      "The table shows the worldwide market share of the mobile phone market for manufacturers in the years 2005 and 2006.",
       "Summarise the information by selecting and reporting the main features, and make comparisons where relevant.",
       "Write at least 150 words."
     ],
@@ -19980,7 +19980,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "well ahead",
           "One year later",
           "risen",
-          "widening its lead",
+          "maintaining a clear lead",
           "despite",
           "increase",
           "largest improvement",
@@ -20110,7 +20110,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "well ahead of Samsung",
           "One year later",
           "Nokia had risen to",
-          "widening its lead",
+          "maintaining a clear lead",
           "despite",
           "increase to",
           "rise",
@@ -20122,7 +20122,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           "Sony Ericsson rose from",
           "overtaking LG",
           "whose figure declined marginally from",
-          "The steepest fall was seen in BenQ Mobile",
+          "Among named manufacturers, the steepest fall was seen in BenQ Mobile",
           "which more than halved from",
           "Other manufacturers also became less significant collectively",
           "dropping from"
@@ -20165,7 +20165,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "parts": [
-              "One year later, Nokia had risen to 35%, widening its lead despite Motorola’s increase to 21.1%."
+              "One year later, Nokia had risen to 35%, maintaining a clear lead despite Motorola’s increase to 21.1%."
             ]
           },
           {
@@ -20190,7 +20190,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "parts": [
-              "The steepest fall was seen in BenQ Mobile, which more than halved from 4.9% to 2.4%."
+              "Among named manufacturers, the steepest fall was seen in BenQ Mobile, which more than halved from 4.9% to 2.4%."
             ]
           },
           {
@@ -20204,8 +20204,8 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
     "translation": [
       "這張表比較了數間手機製造商在 2005 年和 2006 年所佔的全球手機銷售市場份額。",
       "整體而言， Nokia 仍然是明顯的市場領導者，並略微鞏固了其地位；而在所有列名公司之中， Motorola 錄得最顯著的增長。相比之下， Samsung 、 LG 、 BenQ Mobile 以及合併計算的「其他」類別均失去市場份額； Sony Ericsson 則是較小型列名品牌中唯一錄得增長的一間。",
-      "2005 年， Nokia 佔全球銷售的 32.5% ，幾乎是 Motorola 17.7% 的兩倍，並遠高於Samsung 的 12.7% 。一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍進一步擴大其領先優勢。Motorola 上升了 3.4 個百分點，是表中最大增幅；相反， Samsung 則輕微下跌至 11.8% 。",
-      "其餘列名製造商所佔的市場份額明顯較小。Sony Ericsson 從 6.3% 上升至 7.4% ，並超越了 LG ；後者的數字則由 6.7% 輕微下降至 6.3% 。最大跌幅出現在 BenQ Mobile ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。其他製造商合計所佔的重要性亦有所下降，從 19.2% 跌至 16.2% 。"
+      "2005 年， Nokia 佔全球銷售的 32.5% ，幾乎是 Motorola 17.7% 的兩倍，並遠高於Samsung 的 12.7% 。一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍保持明顯領先。Motorola 上升了 3.4 個百分點，是表中最大增幅；相反， Samsung 則輕微下跌至 11.8% 。",
+      "其餘列名製造商所佔的市場份額明顯較小。Sony Ericsson 從 6.3% 上升至 7.4% ，並超越了 LG ；後者的數字則由 6.7% 輕微下降至 6.3% 。在列名製造商中，BenQ Mobile 的跌幅最大 ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。其他製造商的合計市佔率也下降，從 19.2% 跌至 16.2% 。"
     ],
     "translationSections": [
       {
@@ -20249,8 +20249,8 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "label": "Detail 2（細節）",
-            "english": "One year later, Nokia had risen to 35%, widening its lead despite Motorola’s increase to 21.1%.",
-            "chinese": "一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍進一步擴大其領先優勢。"
+            "english": "One year later, Nokia had risen to 35%, maintaining a clear lead despite Motorola’s increase to 21.1%.",
+            "chinese": "一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍保持明顯領先。"
           },
           {
             "label": "Detail 3（細節）",
@@ -20276,13 +20276,13 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           },
           {
             "label": "Detail 3（細節）",
-            "english": "The steepest fall was seen in BenQ Mobile, which more than halved from 4.9% to 2.4%.",
-            "chinese": "最大跌幅出現在 BenQ Mobile ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。"
+            "english": "Among named manufacturers, the steepest fall was seen in BenQ Mobile, which more than halved from 4.9% to 2.4%.",
+            "chinese": "在列名製造商中，BenQ Mobile 的跌幅最大 ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。"
           },
           {
             "label": "Detail 4（細節）",
             "english": "Other manufacturers also became less significant collectively, dropping from 19.2% to 16.2%.",
-            "chinese": "其他製造商合計所佔的重要性亦有所下降，從 19.2% 跌至 16.2% 。"
+            "chinese": "其他製造商的合計市佔率也下降，從 19.2% 跌至 16.2% 。"
           }
         ]
       }

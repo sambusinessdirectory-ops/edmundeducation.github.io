@@ -1853,8 +1853,8 @@
             2
           ]
         },
-        "english": "Malaysia rose to and is expected to remain the clear leader, while Indonesia records the fastest long-term growth, moving from the lowest position to second place.",
-        "chinese": "馬來西亞上升後成為、並預計會繼續保持明顯領先的位置；與此同時，印尼錄得最顯著的長期增長，從最低位置升至第二位。",
+        "english": "Malaysia became and is expected to remain the clear leader, while Indonesia climbed sharply from the lowest position to second place.",
+        "chinese": "馬來西亞已成為明顯領先者，並預計會保持這個位置；與此同時，印尼則從最低位置大幅上升至第二位。",
         "origin": "sentence-support-bank",
         "sourceRow": "S081",
         "formula": "[第一種情況句子], while [形成對照的情況句子]",
@@ -1862,7 +1862,7 @@
         "usage": "想並排比較兩個群體、方法或結果時。",
         "parts": [
           {
-            "text": "Malaysia rose to and is expected to remain the clear leader",
+            "text": "Malaysia became and is expected to remain the clear leader",
             "kind": "slot",
             "label": "第一種情況句子"
           },
@@ -1872,7 +1872,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " Indonesia records the fastest long-term growth, moving from the lowest position to second place.",
+            "text": " Indonesia climbed sharply from the lowest position to second place.",
             "kind": "slot",
             "label": "形成對照的情況句子"
           }
@@ -11070,8 +11070,8 @@
             4
           ]
         },
-        "english": "Paris, which opened in 1890, nevertheless carries more passengers annually than London, at 850 million compared with 548 million.",
-        "chinese": "巴黎於 1890 年開通，但其年度載客容量仍高於倫敦，分別為 8.5 億和 5.48 億。",
+        "english": "Paris, which was completed in 1890, nevertheless has a higher annual carrying capacity than London, at 850 million compared with 548 million.",
+        "chinese": "巴黎於 1890 年完工，但其年度載客容量仍高於倫敦，分別為 8.5 億和 5.48 億。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -11084,7 +11084,7 @@
             5
           ]
         },
-        "english": "Tokyo was completed in 1904 and is only 149 kilometres long, yet it dominates in capacity, handling 1,434 million passengers per year.",
+        "english": "Tokyo was completed in 1904 and is only 149 kilometres long, yet it dominates in capacity, with an annual carrying capacity of 1,434 million passengers.",
         "chinese": "東京於 1904 年完工，長度只有 149 公里，但它在載客容量方面居於首位，每年可承載 14.34 億乘客。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
@@ -11450,8 +11450,8 @@
             4
           ]
         },
-        "english": "One year later, Nokia had risen to 35%, widening its lead despite Motorola’s increase to 21.1%.",
-        "chinese": "一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍進一步擴大其領先優勢。",
+        "english": "One year later, Nokia had risen to 35%, maintaining a clear lead despite Motorola’s increase to 21.1%.",
+        "chinese": "一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍保持明顯領先。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -11527,8 +11527,8 @@
             8
           ]
         },
-        "english": "The steepest fall was seen in BenQ Mobile, which more than halved from 4.9% to 2.4%.",
-        "chinese": "最大跌幅出現在 BenQ Mobile ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。",
+        "english": "Among named manufacturers, the steepest fall was seen in BenQ Mobile, which more than halved from 4.9% to 2.4%.",
+        "chinese": "在列名製造商中，BenQ Mobile 的跌幅最大 ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。",
         "origin": "sentence-support-bank",
         "sourceRow": "S034",
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -11536,7 +11536,7 @@
         "usage": "要在主句後補充相關性質、影響或細節，且 which 指代的內容清楚時。",
         "parts": [
           {
-            "text": "The steepest fall was seen in BenQ Mobile",
+            "text": "Among named manufacturers, the steepest fall was seen in BenQ Mobile",
             "kind": "slot",
             "label": "先說明的情況句子"
           },
@@ -11563,7 +11563,7 @@
           ]
         },
         "english": "Other manufacturers also became less significant collectively, dropping from 19.2% to 16.2%.",
-        "chinese": "其他製造商合計所佔的重要性亦有所下降，從 19.2% 跌至 16.2% 。",
+        "chinese": "其他製造商的合計市佔率也下降，從 19.2% 跌至 16.2% 。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -31761,7 +31761,7 @@
           ]
         },
         "english": "In a small rural community, people tend to know one another, so suspicious behaviour is more visible and social pressure acts as a quiet form of control.",
-        "chinese": "在一個細小的鄉村社區中，人們往往彼此認識，因此可疑行為更容易被看見，而社會壓力也會成為一種安靜但有效的控制力量。",
+        "chinese": "在一個細小的鄉村社區中，人們往往彼此認識，因此可疑行為更容易被看見，而社群的目光也會形成一種無聲的約束力量。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -31878,7 +31878,7 @@
           ]
         },
         "english": "Cities often bring wealth and poverty face to face: luxury apartments may stand only a few streets away from overcrowded housing.",
-        "chinese": "城市往往使富裕與貧窮正面相遇：豪華住宅可能只與擁擠的住房相隔幾條街。",
+        "chinese": "在城市裏，富裕與貧窮往往近在咫尺：豪華住宅可能只與擁擠的住房相隔幾條街。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -32478,7 +32478,7 @@
           ]
         },
         "english": "This doubt can become self-fulfilling: if a girl rarely sees female scientists, teachers or classmates around her, science starts to look less like an open door and more like a room built for someone else.",
-        "chinese": "這種懷疑可能會變成自我實現的結果：如果一個女孩很少在身邊看見女性科學家、教師或同學，科學便開始不像一扇向她敞開的門，而更像是一個為別人而建的房間。",
+        "chinese": "這種懷疑可能會自行應驗：如果一個女孩很少在身邊看見女性科學家、教師或同學，科學便開始不像一扇向她敞開的門，而更像是一個為別人而建的房間。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "[可能結果句子] if [使結果成立的條件句子]",
@@ -32581,7 +32581,7 @@
           ]
         },
         "english": "At the same time, teachers should actively challenge the quiet stereotypes that influence subject selection, so that girls are not simply allowed to study science but genuinely expected to succeed in it.",
-        "chinese": "同時，教師應該積極挑戰那些悄悄影響科目選擇的刻板印象，讓女生除了獲准修讀科學，也真正得到能在科學領域取得成功的期許。",
+        "chinese": "同時，教師應該積極挑戰那些悄悄影響科目選擇的刻板印象，讓女生不只是被容許修讀科學，更被真心相信能在這個領域取得成功。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[採取的做法句子] so that [希望達成的目標句子]",
@@ -32763,7 +32763,7 @@
           ]
         },
         "english": "It can be narrowed through earlier encouragement, stronger role models and more supportive university environments.",
-        "chinese": "這種差距可以透過更早的鼓勵、更有力的榜樣，以及更具支援性的university環境來縮小。",
+        "chinese": "這種差距可以透過更早的鼓勵、更有力的榜樣，以及支援更充足的大學環境來縮小。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -47477,7 +47477,7 @@
           ]
         },
         "english": "I believe this benefits young people by developing empathy and practical maturity, and it should definitely be included in the school curriculum.",
-        "chinese": "我認為這能透過培養同理心和實際成熟度來令年輕人受益，而且它絕對應該被納入學校課程之中。",
+        "chinese": "我認為這能透過培養同理心和處事能力，讓年輕人受益，而且它絕對應該被納入學校課程之中。",
         "origin": "sentence-support-bank",
         "sourceRow": "S045",
         "formula": "[帶來好處的做法] benefits [受惠者]",
@@ -47661,7 +47661,7 @@
           ]
         },
         "english": "For example, a student who helps an elderly resident use a phone or carry groceries may realise how small acts of kindness can make another person’s day easier.",
-        "chinese": "例如，一名學生如果幫助一位年長居民使用電話或提購物袋，可能會意識到小小的善意行為如何能令另一個人的一天變得更容易。",
+        "chinese": "例如，一名學生如果幫助一位年長居民使用電話或提購物袋，可能會意識到小小的善意行為如何能讓對方的日常生活輕鬆一點。",
         "origin": "essay-mapping",
         "sourceRow": 8,
         "formula": "For example, [具體例子句子]",
@@ -47886,7 +47886,7 @@
           ]
         },
         "english": "As long as the work is age-appropriate and properly supervised, it can become a meaningful stepping stone towards responsible adulthood.",
-        "chinese": "只要這些工作適合學生年齡，並且受到適當監督，它便可以成為邁向負責任成年階段的一塊有意義的踏腳石。",
+        "chinese": "只要這些工作適合學生年齡，並且受到適當監督，它便可以成為幫助學生長大後成為負責任成年人的重要一步。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "As long as [必要條件句子], [在此條件下成立的結果句子]",
@@ -48333,7 +48333,7 @@
           ]
         },
         "english": "Facts can now be found in books, videos and digital platforms, but a young person still needs guidance to develop discipline, resilience and intellectual courage.",
-        "chinese": "事實性知識現在可以在書本、影片和數碼平台上找到，但年輕人仍然需要引導，才能培養自律、韌性和intellectualcourage。",
+        "chinese": "事實性知識現在可以在書本、影片和數碼平台上找到，但年輕人仍然需要引導，才能培養自律、韌性和敢於獨立思考的勇氣。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -48651,7 +48651,7 @@
           ]
         },
         "english": "Parks, beaches and woodlands give people a place to breathe, walk and recover from the mental strain of city life.",
-        "chinese": "公園、海灘和林地為人們提供了一個可以呼吸、散步，並從城市生活的精神壓力中恢復過來的地方。",
+        "chinese": "公園、海灘和林地為人們提供了呼吸新鮮空氣、散步，並舒緩城市生活精神壓力的地方。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "[各類場所] give people a place to [用途一], [用途二] and [用途三]",
@@ -48930,7 +48930,7 @@
           ]
         },
         "english": "At the same time, protection must be made financially realistic.",
-        "chinese": "同時，保護工作必須在財政上變得切實可行。",
+        "chinese": "同時，保育工作也必須有可行的資金安排。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "At the same time, [同時需要考慮的情況句子]",
@@ -49043,7 +49043,7 @@
           ]
         },
         "english": "In conclusion, protecting natural beauty spots benefits public health, local economies and cultural identity.",
-        "chinese": "總結來說，保護自然美景地點有利於公共健康、本地經濟和文化身份。",
+        "chinese": "總結來說，保護自然美景地點有利於公共健康、本地經濟和文化身份認同。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "In conclusion, [總結立場句子]",
@@ -49482,7 +49482,7 @@
           ]
         },
         "english": "At the same time, conservation will be more effective if local communities are given a real stake in it.",
-        "chinese": "同時，如果當地社區能夠在保育工作中擁有真正的利益，保育便會更加有效。",
+        "chinese": "同時，如果當地社區能夠真正參與保育並從中受益，保育便會更加有效。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "[可能結果句子] if [使結果成立的條件句子]",
@@ -49590,7 +49590,7 @@
           ]
         },
         "english": "The most effective response is not a single dramatic solution, but a combination of strict legal protection, responsible land use, and community involvement.",
-        "chinese": "最有效的應對方法，是結合嚴格的法律保護、負責任的土地使用及社區參與，單靠一個轟動的方案無法取代這種配合。",
+        "chinese": "最有效的應對方法並非單一的重大方案，而是結合嚴格的法律保護、負責任的土地使用及社區參與。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "[要重新理解的對象] is not [不準確的看法] but [較準確的看法]",
@@ -49751,7 +49751,7 @@
           ]
         },
         "english": "Housing, transport, food, childcare and education are expensive, so many parents feel they must remain in paid employment just to keep the household stable.",
-        "chinese": "住房、交通、食物、childcare和教育都十分昂貴，因此許多父母覺得自己必須繼續受薪工作，才能維持家庭穩定。",
+        "chinese": "住房、交通、食物、託兒服務和教育都十分昂貴，因此許多父母覺得自己必須繼續受薪工作，才能維持家庭穩定。",
         "origin": "sentence-support-bank",
         "sourceRow": "S094",
         "formula": "[有責任的對象] must [必須完成的行動]",
@@ -50884,7 +50884,7 @@
           ]
         },
         "english": "Although relocation may cause short-term stress, its advantages outweigh its disadvantages because it strengthens adaptability and may give children access to a better future.",
-        "chinese": "儘管搬遷可能造成短期壓力，但它的優點大於缺點，因為它能加強適應能力，並可能讓孩子接觸到更好的未來。",
+        "chinese": "儘管搬遷可能造成短期壓力，但它的優點大於缺點，因為它能加強適應能力，並可能為孩子帶來更好的發展機會。",
         "origin": "essay-mapping",
         "sourceRow": 22,
         "formula": "Although [讓步情況句子], [主要判斷句子]",
@@ -51138,7 +51138,7 @@
           ]
         },
         "english": "Government-funded services, by contrast, can provide a reliable safety net through hospitals, community nurses, subsidised residential homes, and pensions.",
-        "chinese": "相比之下，由政府資助的服務可以透過醫院、社區護士、受資助的安老院舍和退休金，提供一張可靠的安全網。",
+        "chinese": "相比之下，由政府資助的服務可以透過醫院、社區護士、受資助的安老院舍和退休金，提供可靠的基本保障。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "[某類服務], by contrast, can provide [保障] through [具體渠道]",
@@ -51214,8 +51214,8 @@
             8
           ]
         },
-        "english": "If care depends mainly on family, elderly people with no children, distant relatives, or poor households are punished for circumstances beyond their control, while those from wealthier families are more likely to age with dignity.",
-        "chinese": "如果照護主要依賴家庭，那麼沒有子女、親屬疏遠或家境貧困的長者，便會因一些他們無法控制的情況而受到懲罰；相反，來自較富裕家庭的人則更有可能有尊嚴地老去。",
+        "english": "If care depends mainly on family, elderly people who have no children, whose relatives live far away, or who live in poor households are punished for circumstances beyond their control, while those from wealthier families are more likely to age with dignity.",
+        "chinese": "如果照護主要依賴家庭，那麼沒有子女、親屬住得很遠或家境貧困的長者，便會因一些他們無法控制的情況而受到懲罰；相反，來自較富裕家庭的人則更有可能有尊嚴地老去。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "[第一種情況句子], while [形成對照的情況句子]",
@@ -51223,7 +51223,7 @@
         "usage": "想並排比較兩個群體、方法或結果時。",
         "parts": [
           {
-            "text": "If care depends mainly on family, elderly people with no children, distant relatives, or poor households are punished for circumstances beyond their control",
+            "text": "If care depends mainly on family, elderly people who have no children, whose relatives live far away, or who live in poor households are punished for circumstances beyond their control",
             "kind": "slot",
             "label": "第一種情況句子"
           },
@@ -51721,7 +51721,7 @@
           ]
         },
         "english": "When lifestyle decisions are made by individuals, people can adapt general advice to their own circumstances instead of being trapped in a one-size-fits-all system.",
-        "chinese": "當生活方式的決定由個人作出時，人們便能根據自己的情況調整一般性的建議，而不是被困在一套一體適用的制度之中。",
+        "chinese": "當生活方式的決定由個人作出時，人們便能根據自己的情況調整一般性的建議，而不是被困在一套一刀切的制度之中。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "[選擇或主張的做法] instead of [不採用的做法]",
@@ -51946,7 +51946,7 @@
           ]
         },
         "english": "In conclusion, people should make their own lifestyle decisions.",
-        "chinese": "總結來說，人們應該自行作出自己的生活方式決定。",
+        "chinese": "總結來說，人們應該自行決定生活方式。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "In conclusion, [總結立場句子]",
@@ -52250,7 +52250,7 @@
           ]
         },
         "english": "However, a few additional hours of exercise each week can easily be cancelled out if children continue to eat sugary snacks, drink soft drinks and consume oversized portions every day.",
-        "chinese": "然而，如果兒童每天仍然吃含糖零食、喝汽水，並攝取過大的食物份量，那麼每週額外幾小時的運動很容易被抵消。",
+        "chinese": "然而，如果兒童每天仍然吃含糖零食、喝汽水，而且每餐份量過大，那麼每週額外幾小時的運動很容易被抵消。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "[可能結果句子] if [使結果成立的條件句子]",
@@ -52559,7 +52559,7 @@
           ]
         },
         "english": "The stronger answer is a combination of healthier school food, practical nutrition education and consistent support from families.",
-        "chinese": "更有力的答案，是結合更健康的學校食物、實用的營養教育，以及來自家庭的持續支持。",
+        "chinese": "更有效的做法是結合較健康的學校膳食、實用的營養教育，以及家庭持續的支持。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "The stronger answer is a combination of [措施一], [措施二] and [措施三]",
@@ -52771,7 +52771,7 @@
           ]
         },
         "english": "If a government builds a rural settlement from scratch, it must first lay down a whole skeleton of services before families can live there properly.",
-        "chinese": "如果政府從零開始建設一個鄉郊聚居地，在家庭能夠真正適當地生活之前，它必須先建立一整套服務骨架。",
+        "chinese": "如果政府從零開始建設一個鄉郊聚居地，在家庭能夠真正適當地生活之前，它必須先先建好一整套基本公共服務設施。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -52853,7 +52853,7 @@
           ]
         },
         "english": "For example, replacing low-rise, underused urban land with well-designed apartment blocks can house thousands of residents without forcing them to commute from distant areas.",
-        "chinese": "例如，以設計良好的公寓大樓取代低層且未被充分利用的城市土地，可以容納數以千計的居民，而不必迫使他們從遙遠地區通勤。",
+        "chinese": "例如，把市內未充分利用的低層地段重建為設計良好的公寓大樓，可以容納數以千計的居民，而不必迫使他們從遙遠地區通勤。",
         "origin": "essay-mapping",
         "sourceRow": 8,
         "formula": "For example, [具體例子句子]",
@@ -53032,7 +53032,7 @@
           ]
         },
         "english": "As a result, residents may spend more time on the road, traffic may increase, and the supposed solution to the housing shortage may create another burden: a larger, more scattered urban footprint.",
-        "chinese": "結果，居民可能會花更多時間在路上，交通流量可能會增加，而這個本應解決住房短缺的方案，可能會製造另一種負擔：更大、更分散的城市足跡。",
+        "chinese": "結果，居民可能會花更多時間在路上，交通流量可能會增加，而這個本應解決住房短缺的方案，可能會製造另一種負擔：城市擴張範圍更大、布局更分散。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "As a result, [隨之出現的結果句子]",
@@ -97708,7 +97708,7 @@
             7
           ]
         },
-        "english": "When communication becomes a stream of likes, comments and short replies, it may create the impression of a company without providing emotional support.",
+        "english": "When communication becomes a stream of likes, comments and short replies, it may create a sense of companionship without providing emotional support.",
         "chinese": "當溝通變成一連串的讚好、留言和簡短回覆時，它可能營造出有人陪伴的感覺，卻沒有提供真正的情感支持。",
         "origin": "essay-mapping",
         "sourceRow": 9,
@@ -97732,7 +97732,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " comments and short replies, it may create the impression of a company without providing emotional support.",
+            "text": " comments and short replies, it may create a sense of companionship without providing emotional support.",
             "kind": "slot",
             "label": "在該情況下的結果句子"
           }
@@ -97924,7 +97924,7 @@
           ]
         },
         "english": "Even in positive environments, friendships require time, honesty and mutual care, which cannot be produced automatically by technology.",
-        "chinese": "即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產。",
+        "chinese": "即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產生。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",

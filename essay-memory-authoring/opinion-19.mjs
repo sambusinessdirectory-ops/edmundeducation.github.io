@@ -1,0 +1,316 @@
+// Model Essay 19 · Opinion: celebrity glamour, earned skill and manufactured comparison.
+const simple=[
+  'In today’s media, people often admire famous people less for what they have achieved and more for the expensive lives they seem to have.',
+  'I fully agree this change is harmful because it teaches young people to care more about looks, buying things and getting attention quickly than about real achievements.',
+  'First, stories about famous people often make success look like something you can see in a picture rather than something you work for.',
+  'When young people often see famous people praised for costly clothes, cars and carefully arranged photos, they may think being admired matters more than hard work, self-control or helping others.',
+  'This is risky because real success usually takes time, practice, mistakes and patience, while a glamorous image makes success look as if it happens in one night.',
+  'For example, a teenager who spends hours watching online stars may care more about looking rich than learning useful skills.',
+  'Over time, this can slowly but seriously weaken a young person’s goal: they may want others to notice them rather than want to do something useful.',
+  'Another reason I agree is that this kind of being famous can put unhealthy pressure on other people.',
+  'Many famous people show only the best-looking parts of their lives, which may not show ordinary reality, but young viewers may think this is normal life.',
+  'So they may compare their normal homes, bodies and things they own with an image made carefully for the public.',
+  'This can make them feel not good enough, spend money they do not need to spend and think their value depends on how they look.',
+  'For example, a student might feel ashamed of an old phone or simple clothes, not because these things are important, but because famous people have made expensive things look like signs of high social position.',
+  'In short, I fully agree that famous people praised mainly for being rich and looking glamorous give young people a bad example.',
+  'Being famous should not be a shiny short way to get attention that takes the place of good character, useful skills and real achievements.',
+];
+const vocabulary=[
+  [['modern media landscape','today’s media','現代媒體環境'],['celebrities','famous people','名人'],['admired less for what they have done than for','admire famous people less for what they have achieved and more for','較少因實際成就而仰慕'],['luxurious their lives appear','expensive lives they seem to have','看似奢華的生活']],
+  [['completely agree','fully agree','完全同意'],['this shift','this change','這種轉變'],['image','looks','形象'],['consumption','buying things','消費'],['instant attention','getting attention quickly','即時關注'],['genuine achievement','real achievements','真正成就']],
+  [['celebrity culture','stories about famous people','名人文化'],['presents success','make success look','呈現成功'],['something visual','something you can see in a picture','視覺上的東西'],['rather than earned','rather than something you work for','而非努力得來']],
+  [['constantly','often','不斷'],['famous figures','famous people','名人'],['designer clothes','costly clothes','名牌服裝'],['perfectly staged photos','carefully arranged photos','精心擺拍照片'],['public admiration','being admired','公眾仰慕'],['discipline','self-control','自律'],['contribution','helping others','貢獻']],
+  [['dangerous','risky','危險'],['achievement usually grows slowly','real success usually takes time','成就通常慢慢累積'],['failure','mistakes','失敗'],['glamour','a glamorous image','奢華魅力'],['illusion of overnight success','makes success look as if it happens in one night','一夜成功的幻象']],
+  [['following influencers','watching online stars','追蹤網紅'],['looking wealthy','looking rich','看來富有'],['building real skills','learning useful skills','建立真正技能']],
+  [['weaken ambition','weaken a young person’s goal','削弱抱負'],['in a quiet but serious way','slowly but seriously','安靜但嚴重'],['to be seen','others to notice them','被看見'],['to be useful','to do something useful','變得有用']],
+  [['create unhealthy social pressure','put unhealthy pressure on other people','製造不健康社會壓力'],['this kind of fame','this kind of being famous','這種名氣']],
+  [['celebrities','famous people','名人'],['display a lifestyle','show only the best-looking parts of their lives','展示生活方式'],['polished, selective and often unrealistic','may not show ordinary reality','修飾、篩選且往往不現實'],['young audiences','young viewers','年輕觀眾'],['treat it as normal life','think this is normal life','視為正常生活']],
+  [['As a result','So','結果'],['ordinary homes','normal homes','普通的家'],['possessions','things they own','物品'],['carefully manufactured image','image made carefully for the public','精心製造的形象']],
+  [['lead to insecurity','make them feel not good enough','導致不安全感'],['wasteful spending','spend money they do not need to spend','浪費性消費'],['personal worth','their value','個人價值'],['appearance','how they look','外表']],
+  [['For instance','For example','例如'],['embarrassed','ashamed','尷尬'],['not because these things matter','not because these things are important','不是因事情本身重要'],['luxury','expensive things','奢侈'],['symbol of status','signs of high social position','地位象徵']],
+  [['In conclusion','In short','總結來說'],['celebrities','famous people','名人'],['celebrated mainly for wealth and glamour','praised mainly for being rich and looking glamorous','主要因財富魅力受推崇'],['set a poor example','give young people a bad example','樹立不良榜樣']],
+  [['Fame','Being famous','名氣'],['glittering shortcut','shiny short way to get attention','閃亮捷徑'],['replaces','takes the place of','取代'],['character','good character','品格'],['meaningful achievement','real achievements','有意義成就']],
+];
+const chunkOverrides=[
+  ['In the modern media landscape, many celebrities are admired','less for what they have done','than for how luxurious their lives appear.'],
+  ['I completely agree that this shift is harmful,','because it teaches young people to value image, consumption and instant attention','more than genuine achievement.'],
+  ['The first problem is that celebrity culture often presents success','as something visual rather than earned.'],
+  ['When young people constantly see famous figures praised','for designer clothes, expensive cars and perfectly staged photos,','they may begin to believe that public admiration matters more','than effort, discipline or contribution.'],
+  ['This is dangerous because achievement usually grows slowly,','through practice, failure and patience,','whereas glamour offers the illusion of overnight success.'],
+  ['For example, a teenager who spends hours following influencers','may become more interested in looking wealthy','than in building real skills.'],
+  ['Over time, this can weaken ambition in a quiet but serious way:','the goal becomes to be seen, not to be useful.'],
+  ['Another reason I agree is that','this kind of fame can create unhealthy social pressure.'],
+  ['Many celebrities display a lifestyle','that is polished, selective and often unrealistic,','yet young audiences may treat it as normal life.'],
+  ['As a result, they may compare their own ordinary homes, bodies and possessions','with a carefully manufactured image.'],
+  ['This can lead to insecurity, wasteful spending','and a belief that personal worth depends on appearance.'],
+  ['A student, for instance, might feel embarrassed','about using an old phone or wearing simple clothes,','not because these things matter,','but because the celebrity world has turned luxury into a symbol of status.'],
+  ['In conclusion, I fully agree that celebrities','who are celebrated mainly for wealth and glamour','set a poor example for young people.'],
+  ['Fame should not become a glittering shortcut','that replaces character, skill and meaningful achievement.'],
+];
+const simpleChunkOverrides=[
+  ['In today’s media, people often admire famous people','less for what they have achieved','and more for the expensive lives they seem to have.'],
+  ['I fully agree this change is harmful','because it teaches young people to care more about looks, buying things and getting attention quickly','than about real achievements.'],
+  ['First, stories about famous people often make success look','like something you can see in a picture rather than something you work for.'],
+  ['When young people often see famous people praised','for costly clothes, cars and carefully arranged photos,','they may think being admired matters more','than hard work, self-control or helping others.'],
+  ['This is risky because real success usually takes time,','practice, mistakes and patience,','while a glamorous image makes success look as if it happens in one night.'],
+  ['For example, a teenager who spends hours watching online stars','may care more about looking rich','than learning useful skills.'],
+  ['Over time, this can slowly but seriously weaken a young person’s goal:','they may want others to notice them rather than want to do something useful.'],
+  ['Another reason I agree is that','this kind of being famous can put unhealthy pressure on other people.'],
+  ['Many famous people show only the best-looking parts of their lives,','which may not show ordinary reality,','but young viewers may think this is normal life.'],
+  ['So they may compare their normal homes, bodies and things they own','with an image made carefully for the public.'],
+  ['This can make them feel not good enough,','spend money they do not need to spend','and think their value depends on how they look.'],
+  ['For example, a student might feel ashamed','of an old phone or simple clothes,','not because these things are important,','but because famous people have made expensive things look like signs of high social position.'],
+  ['In short, I fully agree that famous people','praised mainly for being rich and looking glamorous','give young people a bad example.'],
+  ['Being famous should not be a shiny short way to get attention','that takes the place of good character, useful skills and real achievements.'],
+];
+const F=(formula,meaning,usage,parts)=>({formula,meaning,usage,parts});
+const S=(example,answerReason,distractorReason,distractors,frame)=>({example,answerReason,distractorReason,distractors,frame});
+const structures=[
+  S('In online sports coverage, some players are admired less for their training than for how expensive their equipment looks.','less for...than for... 對照受欣賞的真正原因與較搶眼的表象。','這句指出評價標準被外觀取代，沒有直接說此轉變有害。',[1,2,9],
+    F('In [媒體環境], [名人] are admired less for [真正成果] than for [奢華表象]','以 less...than... 精確表達公眾注意重心由成就轉向外表。','引言要先描述人們欣賞名人的原因已發生甚麼轉變時。',[['In ','link','設定媒體環境'],['the modern media landscape','slot','媒體環境'],[', ','link','接評價對象'],['many celebrities','slot','名人'],[' are admired less for ','link','較少因'],['what they have done','slot','真正成果'],[' than for ','link','更多因'],['how luxurious their lives appear.','slot','奢華表象']])),
+  S('I completely agree this change is harmful because it teaches pupils to value praise and appearance more than steady improvement.','because 說明轉變為何有害；more than 指出被顛倒的價值排序。','這句由觀察轉向評價，清楚指出教育後果。',[0,2,7],
+    F('I completely agree that [價值轉移] is harmful, because it teaches [年輕人] to value [表象與即時注意] more than [真實成就]','先表態同意其有害，再說明青少年學到的價值排序問題。','引言已描述名人被欣賞的原因，下一句要說明這如何影響年輕人時。',[['I completely agree that ','link','表明立場'],['this shift','slot','價值轉移'],[' is harmful, because it teaches ','link','指出有害的教育機制'],['young people','slot','年輕人'],[' to value ','link','更重視'],['image, consumption and instant attention','slot','表象與即時注意'],[' more than ','link','對照被輕視者'],['genuine achievement.','slot','真實成就']])),
+  S('The first problem is that online praise presents skill as a polished picture rather than years of practice.','rather than 對照可見畫面與真正形成成果的努力。','這句提出第一主體段的核心問題：成功被看成畫面。',[1,3,7],
+    F('The first problem is that [文化或媒體] presents [成功] as [可見表象] rather than [努力得來的成果]','指出成功的呈現方式可能遮住投入時間和練習的過程。','要開始分析外觀崇拜如何改變青少年的成功觀時。',[['The first problem is that ','link','引出首項問題'],['celebrity culture','slot','文化或媒體'],[' often presents ','link','呈現'],['success','slot','成功'],[' as ','link','被看成'],['something visual','slot','可見表象'],[' rather than ','link','對照被遮住的部分'],['earned.','slot','努力得來的成果']])),
+  S('When children often see players praised for costly shoes and staged posts, they may think online attention matters more than practice.','When 設定反覆看到的展示；may 保留青少年價值觀可能受影響的程度。','這句說明表象如何經重複觀看形成錯誤排序。',[2,4,5],
+    F('When [年輕人反覆看見表象受讚], they may begin to believe that [公眾仰慕] matters more than [努力與貢獻]','先列反覆接觸的具體展示，再用 may 審慎說明可能形成的價值判斷。','已說媒體把成功視覺化，接着要解釋青少年可能怎樣理解這些畫面時。',[['When ','link','設定反覆接觸'],['young people constantly see famous figures praised for designer clothes, expensive cars and perfectly staged photos','slot','年輕人反覆看見表象受讚'],[', they may begin to believe that ','link','可能形成看法'],['public admiration','slot','公眾仰慕'],[' matters more than ','link','排序改變'],['effort, discipline or contribution.','slot','努力與貢獻']])),
+  S('This is risky because useful skill grows through practice and mistakes, whereas a polished photo can suggest it arrived overnight.','because 講真實成就的慢過程；whereas 對照外觀帶來的快速成功假象。','這句解釋為何只看光鮮表象會誤導。',[2,3,6],
+    F('This is dangerous because [成就] grows slowly through [練習、失敗和耐心], whereas [奢華表象] offers [一夜成功幻象]','把形成成果的時間與媒體所呈現的時間感對照。','要指出「看起來成功」為何可能傷害對長期練習的理解時。',[['This is dangerous because ','link','解釋風險'],['achievement','slot','成就'],[' usually grows slowly, through ','link','指出形成速度與途徑'],['practice, failure and patience','slot','練習、失敗和耐心'],[', whereas ','link','對照表象'],['glamour','slot','奢華表象'],[' offers ','link','造成'],['the illusion of overnight success.','slot','一夜成功幻象']])),
+  S('For example, a teenager who spends hours watching star athletes may care more about famous shoes than about learning to play well.','人物例子由反覆觀看連到學習目標轉移，用 may 而非保證。','這句把抽象價值轉移落到一名青少年的日常行為。',[3,4,6],
+    F('For example, [長時間追看名人的青少年] may become more interested in [看似富有] than in [建立技能]','用青少年追蹤網紅的例子，說明外表目標可擠走技能建立。','已解釋一夜成功幻象，接着要用具體人物展示學習重心變化時。',[['For example, ','link','引出人物例子'],['a teenager who spends hours following influencers','slot','長時間追看名人的青少年'],[' may become more interested in ','link','較在意'],['looking wealthy','slot','看似富有'],[' than in ','link','較少在意'],['building real skills.','slot','建立技能']])),
+  S('Over time, this can weaken a school team’s purpose: the goal becomes to be photographed, not to improve its work.','Over time 指累積影響；冒號後用 not...to... 點明目標轉向。','這句總結第一段，不只是一次青少年行為。',[4,5,7],
+    F('Over time, [表象崇拜] can weaken [抱負] in [不易察覺但嚴重的方式]: the goal becomes to [被看見], not to [變得有用]','由個別青少年例子提升為長期目標轉移：追求被看見而非能貢獻。','第一段尾要說明外表導向如何慢慢改變真正的抱負時。',[['Over time, ','link','指出累積影響'],['this','slot','表象崇拜'],[' can weaken ','link','逐漸削弱'],['ambition','slot','抱負'],[' in ','link','描述方式'],['a quiet but serious way','slot','不易察覺但嚴重的方式'],[': the goal becomes to ','link','揭示目標轉移'],['be seen','slot','被看見'],[', not to ','link','對照真正目標'],['be useful.','slot','變得有用']])),
+  S('Another reason I agree is that this kind of online fame can create pressure for young athletes.','另一理由轉向觀看者承受的社會壓力，不重複技能目標。','這句清楚開啟第二條不同的因果線。',[2,6,9],
+    F('Another reason I agree is that [這類名氣] can create [不健康社會壓力]','第二段由對成功的價值觀轉向日常比較帶來的心理和消費影響。','首段談技能被表象取代，第二段要分析觀眾為何感到壓力時。',[['Another reason I agree is that ','link','引出第二理由'],['this kind of fame','slot','這類名氣'],[' can create ','link','可能造成'],['unhealthy social pressure.','slot','不健康社會壓力']])),
+  S('Many online creators display carefully selected and polished moments, yet younger viewers may treat those moments as ordinary daily life.','yet 對照經選取的展示與觀眾以為它是日常生活。','這句解釋比較壓力的資訊來源，沒有否認名人真的有成就。',[7,9,10],
+    F('[名人] display [修飾且經篩選的生活], yet [年輕觀眾] may treat it as [正常生活]','先指出展示經過選擇和美化，再說觀眾可能誤以為它代表一般生活。','談社會壓力前，要說明網上形象與日常現實之間的落差時。',[['Many celebrities','slot','名人'],[' display ','link','呈現'],['a lifestyle that is polished, selective and often unrealistic','slot','修飾且經篩選的生活'],[', yet ','link','對照觀眾理解'],['young audiences','slot','年輕觀眾'],[' may treat it as ','link','可能視為'],['normal life.','slot','正常生活']])),
+  S('As a result, teenagers may compare their ordinary routines with carefully prepared images shown online.','As a result 把誤認展示為常態推到自我比較。','這句是中間因果環節，不直接等同後續花費或自尊結果。',[7,8,10],
+    F('As a result, [觀眾] may compare [自己的普通生活] with [精心製造的形象]','說明被修飾的展示如何成為不對等的比較對象。','已指出年輕觀眾可能把精選展示當正常，下一步要說明他們如何評價自己時。',[['As a result, ','link','推出比較行為'],['they','slot','觀眾'],[' may compare ','link','與之相比'],['their own ordinary homes, bodies and possessions','slot','自己的普通生活'],[' with ','link','比較對象'],['a carefully manufactured image.','slot','精心製造的形象']])),
+  S('This can lead to low confidence, unnecessary purchases and the idea that a person’s value depends on appearance.','can lead to 列心理、消費與價值判斷三種可能後果。','這句從比較行為推到可能結果，不是單純形容網上形象。',[8,9,11],
+    F('This can lead to [不安全感], [浪費消費] and [外表決定個人價值的信念]','明確拆開三項後果，使學生不把「社會壓力」當空泛詞語。','已建立比較機制，現在要列其對情緒、花費和自我觀念的影響時。',[['This can lead to ','link','指出可能後果'],['insecurity','slot','不安全感'],[', ','link','並列'],['wasteful spending','slot','浪費消費'],[' and ','link','並列'],['a belief that personal worth depends on appearance.','slot','外表決定個人價值的信念']])),
+  S('A pupil might feel embarrassed about ordinary trainers, not because the shoes affect learning, but because online images present costly brands as status.','not because...but because... 排除物品本身重要，指出地位象徵才是羞愧來源。','這句以具體學生例子說明比較壓力如何作用。',[8,9,10],
+    F('[學生] might feel embarrassed about [普通用品], not because [用品本身重要], but because [奢侈被塑成地位象徵]','以舊手機和樸素衣服為例，明確糾正尷尬的真正原因。','已列出不安全感，接着要展示某件日常物品如何被賦予不必要的地位意義時。',[['A student','slot','學生'],[', for instance, might feel embarrassed about ','link','指出尷尬情境'],['using an old phone or wearing simple clothes','slot','普通用品'],[', not because ','link','排除錯誤原因'],['these things matter','slot','用品本身重要'],[', but because ','link','指出真正原因'],['the celebrity world has turned luxury into a symbol of status.','slot','奢侈被塑成地位象徵']])),
+  S('In conclusion, I fully agree that public figures celebrated mainly for costly possessions can set a poor example for pupils.','結論重申支持題目的負面評價，限定為主要因財富外貌受推崇的人。','這句不批評所有名人，只回到文中所分析的一類。',[1,7,13],
+    F('In conclusion, I fully agree that [主要因財富與光鮮受讚的名人] set [不良榜樣] for [年輕人]','結論精確限定批評對象：主要因財富和魅力受推崇的人，而非所有名人。','兩段已解釋價值觀與比較壓力，要直接回答榜樣是否良好時。',[['In conclusion, I fully agree that ','link','重申完全同意'],['celebrities who are celebrated mainly for wealth and glamour','slot','主要因財富與光鮮受讚的名人'],[' set ','link','造成榜樣作用'],['a poor example','slot','不良榜樣'],[' for ','link','對象'],['young people.','slot','年輕人']])),
+  S('Popularity should not become a shiny shortcut that replaces patient practice and useful work.','should not...that replaces... 清楚禁止名氣取代品格、技能與真實成就的價值排序。','這句提出結論的正面判準，不只是重複「名人有害」。',[2,6,12],
+    F('[名氣] should not become [閃亮捷徑] that replaces [品格、技能與有意義成就]','用 should not 明確指出不應把快速曝光當作真實成就的替代品。','最後一句須為青少年留下可應用的成功標準時。',[['Fame','slot','名氣'],[' should not become ','link','提出規範判斷'],['a glittering shortcut','slot','閃亮捷徑'],[' that replaces ','link','指出不應取代'],['character, skill and meaningful achievement.','slot','品格、技能與有意義成就']])),
+];
+const Q=(prompt,options,why)=>({type:'quiz',prompt,options,correct:0,why});
+const sequence=(prompt,rows,why)=>({type:'sequence',prompt,detail:'依照原文的推進次序，逐一點選下一步。',items:rows.map(([title,body])=>({title,body})),why});
+const intro=[
+  Q('作者是否認為主要因奢華生活而受推崇的名人會樹立不良榜樣？',[
+    '完全同意：這會把形象與即時注意放在真正技能之前，也造成不健康比較',
+    '完全反對：奢華形象一定能教會年輕人長期練習',
+    '認為文章在批評所有曾有成就的名人，無論他們做了甚麼',
+    '沒有立場：只描述衣服和汽車的價格',
+  ],'引言與結論都同意其有害；批評對象被限定為 mainly for wealth and glamour 受推崇的名人。'),
+  {type:'multi',prompt:'選出兩條不同的負面影響',detail:'選兩項，再按「確認」。',options:[
+    '青少年可能把被看見誤當成功，減少對練習、紀律和技能的重視',
+    '青少年可能以自己的普通生活比較精心製造的形象，感到不足並浪費消費',
+    '所有網上名人都沒有任何真實能力，文章已逐一證明',
+    '只要物品昂貴，青少年的所有社會壓力便自動消失',
+  ],correct:[0,1],why:'第一段談成功觀被表象取代，第二段談比較壓力及其情緒與消費後果。'},
+];
+const route=[sequence('先排好全文四段',[
+  ['引言 · 欣賞標準的轉移','一些名人因奢華形象而非實際成果受追捧；作者完全同意這有害。'],
+  ['主體段一 · 成功變成畫面','華麗展示掩蓋練習、失敗和耐心，青少年可能追求被看見而非有用。'],
+  ['主體段二 · 不健康比較','名人精選生活被誤認為常態，年輕人比較普通生活而感到不足、亂花錢。'],
+  ['結論 · 真正成功標準','名氣不應取代品格、技能及有意義成就。'],
+],'光鮮外觀被讚 → 努力過程被遮住 → 精選形象引發比較 → 回到技能與品格。')];
+const evidence=[
+  Q('第一主體段說名人文化如何錯誤呈現成功？',[
+    '把成功看成外表上可見的畫面，而非練習和努力得來的成果',
+    '把練習、失敗和耐心完整呈現在每張相片中',
+    '證明名人只要有好車，便必定在所有領域有真實成就',
+    '只談成功者的工作技能，完全不談影像',
+  ],'presents success as something visual rather than earned 是第一段核心對照。'),
+  Q('名牌衣服、昂貴汽車和擺拍照片為何可能影響青少年？',[
+    '反覆看到表象獲讚，可能讓人覺得公眾仰慕比努力、自律與貢獻重要',
+    '看到一次照片便保證每名青少年立即放棄學業',
+    '照片可完整展示名人多年練習、失敗與耐心',
+    '青少年只會因此更看重他人的實際貢獻',
+  ],'When...constantly see...they may begin to believe... 是審慎的可能影響，不是保證。'),
+  Q('「一夜成功的幻象」與真實成就有甚麼時間差？',[
+    '真實成就通常慢慢由練習、失敗與耐心累積，光鮮展示卻令人以為可突然取得',
+    '真實技能只需一夜，與練習無關',
+    '有耐心的人必定不會有任何失敗',
+    '光鮮展示能完整呈現多年投入',
+  ],'whereas 對照成就的慢過程與華麗形象給人的快速印象。'),
+  Q('追蹤網紅的青少年例子，如何展示抱負被改變？',[
+    '可能更想看起來富有，而不是建立真正技能；目標變成被看見而非有用',
+    '只要追蹤網紅，便保證獲得職業資格',
+    '花時間建立技能必定比追求外表更快得到注意',
+    '文章說每位追蹤網紅的人都不可能有技能',
+  ],'例子接 Over time...the goal becomes to be seen, not to be useful。'),
+  Q('第二主體段為何說名人的生活展示可能造成不健康比較？',[
+    '展示經修飾及挑選，觀眾卻可能把它當作普通生活來比較自己',
+    '展示永遠包含名人每天所有困難與平凡片段',
+    '年輕人只會比較真實工作技能，不比較外表',
+    '普通生活與精心製造的形象在範文中完全相同',
+  ],'polished, selective and often unrealistic 與 yet...treat it as normal life 形成關鍵落差。'),
+  Q('學生因舊手機或樸素衣服感到尷尬，文中指出真正原因是甚麼？',[
+    '奢侈被塑造成地位象徵，使普通用品看起來像缺點',
+    '舊手機或樸素衣服本身必定妨礙學習',
+    '學生的品格與技能完全由手機型號決定',
+    '文章說所有學生都必須買新手機才能交朋友',
+  ],'not because...but because... 排除用品本身重要，指出名人世界賦予奢侈品地位意義。'),
+];
+const logic=[
+  sequence('第一主體段：外表崇拜如何改變成功觀？',[
+    ['首項問題','名人文化把成功呈現成可見畫面，而非努力得來的成果。'],
+    ['重複刺激','青少年見名人因名牌、汽車及擺拍照片獲讚。'],
+    ['價值排序','可能把公眾仰慕放在努力、自律和貢獻之前。'],
+    ['真實過程','成就往往需要練習、失敗與耐心，並非一夜形成。'],
+    ['青少年例子','長時間追網紅者可能更想看起來富有，而非學技能。'],
+    ['長期結果','抱負由「有用」悄悄轉向「被看見」。'],
+  ],'外觀受讚 → 成就的慢過程被遮住 → 目標由建立能力轉向獲注意。'),
+  sequence('第二主體段：精選形象如何造成社會壓力？',[
+    ['新理由','主要因光鮮受推崇的名氣可造成不健康壓力。'],
+    ['展示特點','名人生活經過修飾、挑選，往往不反映普通日常。'],
+    ['觀眾誤解','年輕觀眾可能把這些展示當成正常生活。'],
+    ['不對等比較','以普通的家、身體及物品，對比精心製造的形象。'],
+    ['可能後果','感到不足、浪費消費，誤以為價值取決於外表。'],
+    ['學生例子','舊手機或樸素衣服被錯當地位問題，令人尷尬。'],
+  ],'精選展示被視為常態 → 普通生活與之比較 → 情緒、消費與自我價值觀受影響。'),
+];
+const T=(context,question,options,explanations,sourceSentenceIndices,modelLink)=>({type:'quiz',prompt:question,context,question,options,correct:0,explanations,why:explanations[0],sourceSentenceIndices,modelLink});
+const transfer=[
+  T('一名年輕球員只看球星的名牌球鞋照片，卻不知道對方多年訓練的過程。','哪項最能轉用「一夜成功幻象」？',[
+    '把球鞋照片與球星的練習、失敗和調整經歷分開，提醒成果需時間累積',
+    '只因球鞋昂貴，便推斷穿同款鞋可立即取得同等技術',
+    '只看球星一場比賽的照片，不了解練習過程',
+    '因照片漂亮，便認定訓練對成就毫無作用',
+  ],[
+    '這對照可見表象與技能形成的慢過程。',
+    '裝備不能代替練習。',
+    '單一畫面不能呈現長期投入。',
+    '範文正強調練習、失敗與耐心。',
+  ],[2,3,4],'範文說光鮮展示可能掩蓋成就經練習、失敗和耐心慢慢形成。'),
+  T('藝術帳號只展示畫家完美作品與豪華工作室，學生因此以為畫畫不用反覆修改。','哪項最能修正學生的理解？',[
+    '查看草稿、修改和多年練習，分清最終作品與形成作品的過程',
+    '只看工作室裝潢，便判斷畫技是否成熟',
+    '把最終作品的照片當作畫家從未失敗的證據',
+    '因作品精美，便否定練習與耐心的作用',
+  ],[
+    '這把可見成果與不可見的長期投入重新連起來。',
+    '裝潢不能代表畫技。',
+    '最終照片不會顯示全部修改。',
+    '範文將耐心列為成就慢慢形成的因素。',
+  ],[2,4,5],'範文反對把成功只看成視覺展示，指出真正成就需練習與耐心。'),
+  T('一個短片帳號教人「一夜成名」，但其內容只展示觀看數，沒有說明創作者做了甚麼。','哪項最能檢驗成功標準？',[
+    '另查作品品質、實際貢獻和持續技能，不以觀看數單獨定義成就',
+    '只要觀看數高，便認定內容必定有益',
+    '只比較片頭特效，不問創作者的工作成果',
+    '把成名速度直接當成品格和技能的證據',
+  ],[
+    '這用實際能力與貢獻校正即時注意的偏向。',
+    '高觀看數不直接證明內容價值。',
+    '特效只是表象的一部分。',
+    '速度不能替代品格或技能。',
+  ],[1,2,4,6,13],'範文對照即時關注與真正成就，結論反對名氣取代品格與技能。'),
+  T('一名學生想換新手機，理由只有「網上有名的人都用新款，所以舊手機很失禮」。','哪項最能轉用舊手機例子的因果分析？',[
+    '檢查舊手機是否仍能滿足需要，並辨別「失禮」是否來自奢侈地位的暗示',
+    '只因網紅展示新款，便斷定舊手機已失去所有功能',
+    '把手機價格當作學生品格與技能的分數',
+    '不問用途或預算，只按名人照片決定',
+  ],[
+    '這區分物品的實際用途與被製造的地位意義。',
+    '新款展示不能證明舊款不能使用。',
+    '價格不能代表個人價值。',
+    '範文指出比較可能促成浪費消費。',
+  ],[9,10,11],'範文說學生因舊手機尷尬，是奢侈被塑成地位象徵，而非舊手機本身重要。'),
+  T('一名青年長期看名人生活影片，開始把「別人看見我」當成學習外語的唯一目標。','哪項最貼近第一主體段的抱負問題？',[
+    '把目標改成能否真正使用外語交流，並追蹤練習與進步',
+    '只統計貼文獲讚，不檢查是否能聽懂或表達',
+    '只買與名人相似的學習用品，便當作語言能力提高',
+    '因想被看見，便完全不必學習詞語或句子',
+  ],[
+    '這把「被看見」轉回「有用」和可檢驗的技能。',
+    '點讚不是語言使用能力。',
+    '用品不會自動帶來技能。',
+    '範文批評以曝光取代實際能力。',
+  ],[5,6,13],'範文說過度追逐光鮮可使目標由變得有用轉向只求被看見。'),
+  T('一位網紅只發佈度假、豪宅與精心修圖照片，觀眾以為每個成年人每天都如此。','哪項最能指出不對等的比較？',[
+    '說明照片是經挑選的片段，不能直接代表大多數人的日常生活',
+    '因照片漂亮，便當作所有人的正常生活',
+    '把網紅的精選相片與自己完整一天逐項比較',
+    '只問照片拍攝器材，不討論內容是否經選取',
+  ],[
+    '這指出被修飾展示與一般日常之間的資訊落差。',
+    '範文正批評把精選形象當常態。',
+    '兩邊材料不對等，易造成壓力。',
+    '器材不是比較是否公平的核心。',
+  ],[8,9],'範文說名人生活經修飾與篩選，年輕觀眾卻可能當作正常。'),
+  T('學校想討論名人的榜樣作用，候選人物有演員、科學家與社區義工。','哪項評價準則最符合文章的限定？',[
+    '看人物主要因甚麼受推崇，以及其技能、品格與實際貢獻',
+    '只按職業名稱判斷，凡演員都一定是不良榜樣',
+    '只按衣服價格判斷是否值得學生學習',
+    '只看粉絲數，便認定所有人有同等成就',
+  ],[
+    '範文批評的是主要因財富與光鮮受讚的一類，並提出技能與品格標準。',
+    '文章沒有批評所有演員或所有名人。',
+    '價格不能代表貢獻。',
+    '粉絲數不能說明成就內容。',
+  ],[0,1,12,13],'範文結論限定為 mainly for wealth and glamour 受推崇的名人，而非所有公眾人物。'),
+  T('一名學生看完豪華開箱影片後買了不需要的用品，卻說「這能讓我顯得成功」。','哪項最能解釋其決策可能受甚麼影響？',[
+    '檢查是否把精心製造的形象當成常態，並把外表錯當個人價值',
+    '只因買了用品，便推定已建立有用技能',
+    '把一次購物當作長期成就的充分證據',
+    '只問影片長度，不問用品是否實際需要',
+  ],[
+    '這連接不對等比較、浪費消費與外表決定價值的信念。',
+    '購物不等於技能形成。',
+    '一次消費不能代表成就。',
+    '是否必要與價值觀才是分析焦點。',
+  ],[8,9,10,11],'範文由精心製造的形象推到浪費消費與外表決定價值的錯誤信念。'),
+  T('社區公益組織選宣傳代言人。一位擅長展示奢華生活，另一位長期參與並能說明實際服務成果。','哪項最能運用結論標準？',[
+    '評估長期服務、可信品格與實際成果，不只按光鮮形象選人',
+    '只按豪華照片數量決定誰更能代表公益工作',
+    '因一人較少展示奢華，就否定其多年服務',
+    '把網上關注數當作服務成效的唯一數據',
+  ],[
+    '這把公眾形象與真正貢獻分開，以品格和成果為重。',
+    '照片不說明服務是否有效。',
+    '不奢華不會消除實際貢獻。',
+    '關注數與服務成效仍須分別評估。',
+  ],[0,1,6,12,13],'範文主張名氣不應取代品格、技能與有意義成就。'),
+  T('一名學生看到同學與名人合照後，開始覺得自己的普通家庭不夠好。','哪項最貼近第二主體段的處理方向？',[
+    '分辨合照所呈現的短暫形象與家庭生活的真實價值，不以外表作唯一標準',
+    '只憑合照便判定同學的家庭每天都過著名人生活',
+    '把自己的普通住處直接當成個人能力不足的證據',
+    '只看照片布景，不問這種比較為何令人感到不足',
+  ],[
+    '這修正以普通生活對比精選形象的錯誤標準。',
+    '合照不是完整生活紀錄。',
+    '住處外表不能代表能力或價值。',
+    '應分析比較帶來的心理影響。',
+  ],[8,9,10],'範文說年輕人可能以普通家庭與精心製造的形象比較，導致不安全感。'),
+  T('一間學校的生涯課只邀請一夜爆紅者分享流量數據，學生問如何練習技能卻沒有答案。','哪項改進最符合第一主體段？',[
+    '加入經驗分享者的練習、挫折與實際貢獻，讓學生看見成就形成過程',
+    '只延長展示流量數字的時間，不談作品品質',
+    '把粉絲數當作每種職業成功的唯一證據',
+    '只展示豪華生活照片，令學生以為技能不用學',
+  ],[
+    '這將被遮住的慢過程和真正成果補回教學內容。',
+    '更多數字仍不能解釋技能。',
+    '不同工作需按實際成就判斷。',
+    '範文正指出這種幻象的問題。',
+  ],[2,3,4,5,6],'範文把成就的練習、失敗和耐心，對照一夜成功的光鮮幻象。'),
+  T('一名學生同時想學攝影，又因看名人影片而想買昂貴相機和服飾。','哪項決定最能結合兩段論證？',[
+    '先看練習與作品能否提高技能，再問購物是否只為模仿經修飾的地位形象',
+    '先買最貴器材，便認定作品和品格都會自動變好',
+    '只看名人購物清單，不檢查自己的拍攝目標',
+    '因外表比較可能有害，便放棄所有攝影練習',
+  ],[
+    '這兼顧真正技能成長與精選形象造成的不必要消費。',
+    '器材價格不能代替練習或品格。',
+    '他人清單不能定義自己的需要。',
+    '問題是表象取代技能，不是技能本身。',
+  ],[4,5,6,8,9,10,13],'範文第一段談技能被曝光取代，第二段談比較製造消費及外表壓力。'),
+];
+export default {
+  key:'opinion:19',
+  meta:{topic:'名人奢華形象、真正成就與社會比較',summary:'作者完全同意主要因財富和光鮮受推崇的名人可能樹立不良榜樣：一夜成功的畫面掩蓋練習與技能，精選形象也可能讓年輕人感到不足並亂花錢。'},
+  simple,vocabulary,chunkOverrides,simpleChunkOverrides,structures,intro,route,evidence,logic,transfer,
+  mediumExtras:[],
+};

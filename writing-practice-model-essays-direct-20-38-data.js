@@ -379,7 +379,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     ],
     "translation": [
       "在許多現代社會中，母親和父親現在都全職工作，因此與早期世代相比，孩子獲得父母直接關注的時間更少。主要原因是經濟壓力，而這可能削弱家庭關係，並減少孩子在成長過程中所獲得的引導。",
-      "最明顯的原因是，一份薪金通常已不再足以讓一個家庭舒適地生活。住房、交通、食物、childcare和教育都十分昂貴，因此許多父母覺得自己必須繼續受薪工作，才能維持家庭穩定。從這個意義上說，工作不僅僅是個人抱負；它是一條經濟上的生命線。正因如此，父母往往很早離家、很晚回家，並依靠祖父母、幼兒園或電子設備來讓孩子有事可做。",
+      "最明顯的原因是，一份薪金通常已不再足以讓一個家庭舒適地生活。住房、交通、食物、託兒服務和教育都十分昂貴，因此許多父母覺得自己必須繼續受薪工作，才能維持家庭穩定。從這個意義上說，工作不僅僅是個人抱負；它是一條經濟上的生命線。正因如此，父母往往很早離家、很晚回家，並依靠祖父母、幼兒園或電子設備來讓孩子有事可做。",
       "其中一個嚴重問題是情感距離。孩子需要的不只是物質上的舒適：他們需要細小而固定的關注時刻，例如家庭用餐、睡前對話，以及功課上的幫助。這些日常習慣看起來或許很普通，但它們正是維繫關係的黏合劑。如果這些習慣消失，即使父母深愛孩子，孩子也可能感到自己較不被重視，或較沒有安全感。長遠而言，這可能削弱他們的自信，並使他們較不願意討論恐懼、錯誤或個人困難。",
       "另一個問題是監管較弱。當父母很少能陪伴在旁時，孩子可能會轉向同學、社交媒體或網上娛樂，以尋求建議和認同。例如，一個在沒有成年人引導下花數小時上網的青少年，可能會在任何人察覺之前模仿不健康的習慣，或吸收有害的價值觀。即使是負責任的孩子，如果沒有成年人持續在場示範這些品質，也可能難以建立紀律和自制力。",
       "總結來說，孩子與父母相處的時間減少，主要是因為許多家庭現在需要兩份收入才能維持生活。這可能造成情感上的疏離，並使孩子得到較少的支持、規律和道德引導。"
@@ -415,7 +415,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "Housing, transport, food, childcare and education are expensive, so many parents feel they must remain in paid employment just to keep the household stable.",
-            "chinese": "住房、交通、食物、childcare和教育都十分昂貴，因此許多父母覺得自己必須繼續受薪工作，才能維持家庭穩定。"
+            "chinese": "住房、交通、食物、託兒服務和教育都十分昂貴，因此許多父母覺得自己必須繼續受薪工作，才能維持家庭穩定。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -904,7 +904,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
       "主要好處是，搬遷能教會孩子如何適應陌生環境。當一個孩子進入一所新學校或一個新城市時，他們必須學習新的日常規律、結交朋友，並理解陌生的社交期待。這一開始可能會令人不舒服，但它訓練孩子去觀察、溝通，並應對變化，而不是害怕變化。例如，一個從安靜小鎮搬到大城市的孩子，起初可能會感到迷失；然而，在參加課堂和運動隊之後，他們往往會在陌生人面前變得更加自信。從這個意義上說，搬遷不只是地址的改變；它是一堂關於韌性的實際課程。",
       "搬遷也能改善孩子的長遠前景。父母往往會為了更好的工作、更安全的社區、更優質的學校，或更可靠的服務而搬遷。如果一個家庭搬到教育穩定、課外活動容易接觸到的地區，孩子便能獲得更豐富的學業和社交支持。這些條件能夠塑造孩子未來的自信、抱負和職業選擇。",
       "誠然，搬遷可能會造成情感上的困難。當孩子離開親密的朋友、熟悉的老師，以及一個讓他們感覺像家的地方時，他們可能會感到自己被連根拔起。在某些情況下，這種干擾可能會在一段時間內影響他們的情緒或學校表現。然而，如果父母能提供穩定的支持、維持日常規律，並幫助孩子在建立新關係的同時與舊朋友保持聯繫，這些缺點通常只是暫時的。過渡期的不適是真實存在的，但它並不大於那些長遠的收穫。",
-      "總結來說，孩子能夠從搬遷中獲得顯著好處。儘管搬遷可能造成短期壓力，但它的優點大於缺點，因為它能加強適應能力，並可能讓孩子接觸到更好的未來。"
+      "總結來說，孩子能夠從搬遷中獲得顯著好處。儘管搬遷可能造成短期壓力，但它的優點大於缺點，因為它能加強適應能力，並可能為孩子帶來更好的發展機會。"
     ],
     "translationSections": [
       {
@@ -1028,7 +1028,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Reiterating Arguments（重申論點）",
             "english": "Although relocation may cause short-term stress, its advantages outweigh its disadvantages because it strengthens adaptability and may give children access to a better future.",
-            "chinese": "儘管搬遷可能造成短期壓力，但它的優點大於缺點，因為它能加強適應能力，並可能讓孩子接觸到更好的未來。"
+            "chinese": "儘管搬遷可能造成短期壓力，但它的優點大於缺點，因為它能加強適應能力，並可能為孩子帶來更好的發展機會。"
           }
         ]
       }
@@ -1104,7 +1104,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           "reliable safety net",
           "subsidised residential homes",
           "fairness",
-          "distant relatives",
+          "whose relatives live far away",
           "circumstances beyond their control",
           "age with dignity",
           "minimum standards",
@@ -1148,8 +1148,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           "fairness",
           "mainly on family",
           "elderly people",
-          "distant relatives",
-          "poor households",
+          "whose relatives live far away",
+          "who live in poor households",
           "circumstances beyond their control",
           "wealthier families",
           "age with dignity",
@@ -1212,9 +1212,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           "subsidised residential homes",
           "Another reason is fairness",
           "depends mainly on family",
-          "elderly people with no children",
-          "distant relatives",
-          "poor households",
+            "elderly people who have no children",
+          "whose relatives live far away",
+          "who live in poor households",
           "punished for circumstances beyond their control",
           "wealthier families",
           "age with dignity",
@@ -1291,9 +1291,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           "hospitals, community nurses, subsidised residential homes, and pensions",
           "Another reason is fairness",
           "If care depends mainly on family",
-          "elderly people with no children",
-          "distant relatives",
-          "poor households",
+          "elderly people who have no children",
+          "whose relatives live far away",
+          "who live in poor households",
           "punished for circumstances beyond their control",
           "wealthier families",
           "more likely to age with dignity",
@@ -1382,7 +1382,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           },
           {
             "parts": [
-              "If care depends mainly on family, elderly people with no children, distant relatives, or poor households are punished for circumstances beyond their control, while those from wealthier families are more likely to age with dignity."
+              "If care depends mainly on family, elderly people who have no children, whose relatives live far away, or who live in poor households are punished for circumstances beyond their control, while those from wealthier families are more likely to age with dignity."
             ]
           },
           {
@@ -1425,8 +1425,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     ],
     "translation": [
       "隨著預期壽命上升，照顧九十多歲的人正成為一個迫切的社會問題。儘管家庭親情很有價值，我認為照顧長者的責任應該落在政府身上，而不是個別家庭身上，因為如今的老年階段需要有組織的醫療、財政和社會支援，而私人家庭往往無法提供這些支援。",
-      "第一個原因是，現代長者照護太複雜，不能只交給親屬負責。一位九十多歲的長者可能需要日常護理、藥物管理、家居改裝、物理治療，以及往返醫院的交通安排。大多數成年子女已經要同時應付工作、按揭和自己的孩子，因此期望他們提供專業照護，可能同時損害長者的健康和照顧者的生計。例如，如果一位年長女性患上認知障礙症，家人的善意並不能取代受過訓練的照顧者、安全的設施和定期的醫療監督。相比之下，由政府資助的服務可以透過醫院、社區護士、受資助的安老院舍和退休金，提供一張可靠的安全網。",
-      "另一個原因是公平。如果照護主要依賴家庭，那麼沒有子女、親屬疏遠或家境貧困的長者，便會因一些他們無法控制的情況而受到懲罰；相反，來自較富裕家庭的人則更有可能有尊嚴地老去。政府制度可以設立最低標準、巡查安老院舍、提供家居照護津貼，並保護長者免受忽視或財務剝削。例如，一位子女住在海外的鰥夫，仍然應該能夠獲得基本支援、安全住所和醫療照顧。從這個意義上說，長者照護不僅僅是私人家庭事務；它是社會契約的一部分。那些在整個工作生涯中為社會作出貢獻的人，不應該在身體變得虛弱時被遺棄。",
+      "第一個原因是，現代長者照護太複雜，不能只交給親屬負責。一位九十多歲的長者可能需要日常護理、藥物管理、家居改裝、物理治療，以及往返醫院的交通安排。大多數成年子女已經要同時應付工作、按揭和自己的孩子，因此期望他們提供專業照護，可能同時損害長者的健康和照顧者的生計。例如，如果一位年長女性患上認知障礙症，家人的善意並不能取代受過訓練的照顧者、安全的設施和定期的醫療監督。相比之下，由政府資助的服務可以透過醫院、社區護士、受資助的安老院舍和退休金，提供可靠的基本保障。",
+      "另一個原因是公平。如果照護主要依賴家庭，那麼沒有子女、親屬住得很遠或家境貧困的長者，便會因一些他們無法控制的情況而受到懲罰；相反，來自較富裕家庭的人則更有可能有尊嚴地老去。政府制度可以設立最低標準、巡查安老院舍、提供家居照護津貼，並保護長者免受忽視或財務剝削。例如，一位子女住在海外的鰥夫，仍然應該能夠獲得基本支援、安全住所和醫療照顧。從這個意義上說，長者照護不僅僅是私人家庭事務；它是社會契約的一部分。那些在整個工作生涯中為社會作出貢獻的人，不應該在身體變得虛弱時被遺棄。",
       "總結來說，家庭應該繼續在情感上參與其中，但照顧年長公民的責任應該屬於政府。家庭的愛可以提供溫暖，但只有公共制度才能提供持續、受監管且公平的照護。"
     ],
     "translationSections": [
@@ -1475,7 +1475,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Conclusion（結論）",
             "english": "Government-funded services, by contrast, can provide a reliable safety net through hospitals, community nurses, subsidised residential homes, and pensions.",
-            "chinese": "相比之下，由政府資助的服務可以透過醫院、社區護士、受資助的安老院舍和退休金，提供一張可靠的安全網。"
+            "chinese": "相比之下，由政府資助的服務可以透過醫院、社區護士、受資助的安老院舍和退休金，提供可靠的基本保障。"
           }
         ]
       },
@@ -1491,8 +1491,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           },
           {
             "label": "Supporting Detail 1（支持細節一）",
-            "english": "If care depends mainly on family, elderly people with no children, distant relatives, or poor households are punished for circumstances beyond their control, while those from wealthier families are more likely to age with dignity.",
-            "chinese": "如果照護主要依賴家庭，那麼沒有子女、親屬疏遠或家境貧困的長者，便會因一些他們無法控制的情況而受到懲罰；相反，來自較富裕家庭的人則更有可能有尊嚴地老去。"
+            "english": "If care depends mainly on family, elderly people who have no children, whose relatives live far away, or who live in poor households are punished for circumstances beyond their control, while those from wealthier families are more likely to age with dignity.",
+            "chinese": "如果照護主要依賴家庭，那麼沒有子女、親屬住得很遠或家境貧困的長者，便會因一些他們無法控制的情況而受到懲罰；相反，來自較富裕家庭的人則更有可能有尊嚴地老去。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -1936,9 +1936,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     ],
     "translation": [
       "在現代社會中，政府經常試圖影響公民如何飲食、出行、工作，以及度過休閒時間。雖然公共當局有正當責任提供資訊，並保護公民免受直接傷害，但生活方式的選擇最終應由個人自己作出。本文將論證，個人自主和實際有效性使個人自行決策成為更好的做法。",
-      "最有力的原因是，生活方式與個人自由、身份認同和尊嚴密切相關。人們在價值觀、健康狀況、收入、家庭責任和文化習慣方面差異很大，因此單一的政府標準不太可能適合所有人。如果國家決定公民應該如何生活，普通的個人偏好很快就可能被視為社會問題，而成年人也可能被降低為被動服從的對象，而不是有責任感的人。例如，對年輕運動員來說合理的飲食，可能並不適合一位年長的糖尿病患者；而適合某個家庭的工作安排，也可能傷害另一個家庭。當生活方式的決定由個人作出時，人們便能根據自己的情況調整一般性的建議，而不是被困在一套一體適用的制度之中。",
+      "最有力的原因是，生活方式與個人自由、身份認同和尊嚴密切相關。人們在價值觀、健康狀況、收入、家庭責任和文化習慣方面差異很大，因此單一的政府標準不太可能適合所有人。如果國家決定公民應該如何生活，普通的個人偏好很快就可能被視為社會問題，而成年人也可能被降低為被動服從的對象，而不是有責任感的人。例如，對年輕運動員來說合理的飲食，可能並不適合一位年長的糖尿病患者；而適合某個家庭的工作安排，也可能傷害另一個家庭。當生活方式的決定由個人作出時，人們便能根據自己的情況調整一般性的建議，而不是被困在一套一刀切的制度之中。",
       "另一個重要觀點是，個人選擇通常比官方控制更有效。當健康行為是由上而下強加時，它很少能夠持久；當人們理解其原因並自行選擇時，它才會變得可持續。政府也許可以禁止某些習慣，或規定某些日常安排，但這種壓力可能會引起怨氣、表面服從，甚至反抗。相比之下，清晰的食品標籤、公共健康教育、安全的公園和價格合理的運動設施等政策，能幫助人們作出更明智的選擇，而不會剝奪他們對自己生活的主導權。從這個意義上說，國家應該照亮道路，而不是拖著公民沿路前行。",
-      "總結來說，人們應該自行作出自己的生活方式決定。政府應該提供資訊、作出提醒並給予支援，但關於如何生活的最終選擇，必須留在個人手中。"
+      "總結來說，人們應該自行決定生活方式。政府應該提供資訊、作出提醒並給予支援，但關於如何生活的最終選擇，必須留在個人手中。"
     ],
     "translationSections": [
       {
@@ -1991,7 +1991,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Conclusion（段落總結）",
             "english": "When lifestyle decisions are made by individuals, people can adapt general advice to their own circumstances instead of being trapped in a one-size-fits-all system.",
-            "chinese": "當生活方式的決定由個人作出時，人們便能根據自己的情況調整一般性的建議，而不是被困在一套一體適用的制度之中。"
+            "chinese": "當生活方式的決定由個人作出時，人們便能根據自己的情況調整一般性的建議，而不是被困在一套一刀切的制度之中。"
           }
         ]
       },
@@ -2035,7 +2035,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "In conclusion, people should make their own lifestyle decisions.",
-            "chinese": "總結來說，人們應該自行作出自己的生活方式決定。"
+            "chinese": "總結來說，人們應該自行決定生活方式。"
           },
           {
             "label": "Reiterating Argument（重申論點）",
@@ -2438,9 +2438,9 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     ],
     "translation": [
       "兒童肥胖已成為許多教育制度中的嚴重問題，而一些人認為學校應該投放更多時間在體育和運動上，以處理這個問題。儘管體能活動當然有價值，但我並不認為增加體育課是解決這個問題的最佳方法。更有效的方法是改善兒童的飲食，並重塑他們在校內和校外的日常習慣。",
-      "在學校增加運動確實可以幫助超重兒童，但其影響是有限的。運動能讓學生消耗能量、增強體力，並對自己的身體建立更健康的態度。它也可以減少他們坐在課室裡，或盯著螢幕的時間。然而，如果兒童每天仍然吃含糖零食、喝汽水，並攝取過大的食物份量，那麼每週額外幾小時的運動很容易被抵消。換句話說，運動或許能強化引擎，但不良飲食卻一直把錯誤的燃料倒進去。因此，學校不應把增加運動視為治療兒童肥胖的主要方法。",
+      "在學校增加運動確實可以幫助超重兒童，但其影響是有限的。運動能讓學生消耗能量、增強體力，並對自己的身體建立更健康的態度。它也可以減少他們坐在課室裡，或盯著螢幕的時間。然而，如果兒童每天仍然吃含糖零食、喝汽水，而且每餐份量過大，那麼每週額外幾小時的運動很容易被抵消。換句話說，運動或許能強化引擎，但不良飲食卻一直把錯誤的燃料倒進去。因此，學校不應把增加運動視為治療兒童肥胖的主要方法。",
       "最重要的解決方法是改變兒童的飲食內容。學校應該提供更健康的膳食、限制校園內垃圾食品的銷售，並教導學生日常選擇如何影響他們的體重。例如，一個學會用水取代甜飲、用水果取代加工零食的孩子，即使時間表沒有巨大改變，也很可能會有所進步。父母也必須參與其中，因為兒童的飲食模式通常是在家中形成的。如果家庭經常烹調均衡膳食、限制螢幕時間，並鼓勵步行或戶外玩耍，健康行為就會成為生活中的正常部分，而不是一種懲罰。",
-      "總結來說，增加體育和運動時間是一項有用的措施，但它並不是解決兒童超重問題的最佳方法。更有力的答案，是結合更健康的學校食物、實用的營養教育，以及來自家庭的持續支持。"
+      "總結來說，增加體育和運動時間是一項有用的措施，但它並不是解決兒童超重問題的最佳方法。更有效的做法是結合較健康的學校膳食、實用的營養教育，以及家庭持續的支持。"
     ],
     "translationSections": [
       {
@@ -2488,7 +2488,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Counter-argument（反方考量）",
             "english": "However, a few additional hours of exercise each week can easily be cancelled out if children continue to eat sugary snacks, drink soft drinks and consume oversized portions every day.",
-            "chinese": "然而，如果兒童每天仍然吃含糖零食、喝汽水，並攝取過大的食物份量，那麼每週額外幾小時的運動很容易被抵消。"
+            "chinese": "然而，如果兒童每天仍然吃含糖零食、喝汽水，而且每餐份量過大，那麼每週額外幾小時的運動很容易被抵消。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
@@ -2547,7 +2547,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Reiterating Solutions（重申解決方法）",
             "english": "The stronger answer is a combination of healthier school food, practical nutrition education and consistent support from families.",
-            "chinese": "更有力的答案，是結合更健康的學校食物、實用的營養教育，以及來自家庭的持續支持。"
+            "chinese": "更有效的做法是結合較健康的學校膳食、實用的營養教育，以及家庭持續的支持。"
           }
         ]
       }
@@ -2947,8 +2947,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
     ],
     "translation": [
       "隨著人口上升，各國政府必須決定是擴展現有城市地區，還是在鄉郊地區建立全新的聚居地。在我看來，新住房應該集中建於現有城市之中，因為這能更有效地使用公共基礎設施，並保護鄉郊免受不必要的破壞。",
-      "支持在城市建房最有力的理由是，日常生活所需的基本框架已經存在。道路、鐵路、醫院、學校、供水系統和緊急服務通常已經經過數十年建立起來，因此新增房屋能比新城鎮中的房屋更快速、更低成本地接駁到這些設施。如果政府從零開始建設一個鄉郊聚居地，在家庭能夠真正適當地生活之前，它必須先建立一整套服務骨架。這筆資金反而可以用於在人們已經工作和學習的地方興建更高密度的公寓、改善交通連接，以及提供更好的公共設施。例如，以設計良好的公寓大樓取代低層且未被充分利用的城市土地，可以容納數以千計的居民，而不必迫使他們從遙遠地區通勤。",
-      "另一個原因是，向鄉郊擴張往往會造成長遠的社會和環境成本。鄉郊土地並不只是空地；它可能是農田、林地、野生動物棲息地，或者是本地社區身份的一部分。一旦它被混凝土覆蓋，就極難恢復原狀。新的鄉郊城鎮也可能造成依賴汽車的生活方式，因為工作機會和主要服務通常仍然留在市中心。結果，居民可能會花更多時間在路上，交通流量可能會增加，而這個本應解決住房短缺的方案，可能會製造另一種負擔：更大、更分散的城市足跡。",
+      "支持在城市建房最有力的理由是，日常生活所需的基本框架已經存在。道路、鐵路、醫院、學校、供水系統和緊急服務通常已經經過數十年建立起來，因此新增房屋能比新城鎮中的房屋更快速、更低成本地接駁到這些設施。如果政府從零開始建設一個鄉郊聚居地，在家庭能夠真正適當地生活之前，它必須先先建好一整套基本公共服務設施。這筆資金反而可以用於在人們已經工作和學習的地方興建更高密度的公寓、改善交通連接，以及提供更好的公共設施。例如，把市內未充分利用的低層地段重建為設計良好的公寓大樓，可以容納數以千計的居民，而不必迫使他們從遙遠地區通勤。",
+      "另一個原因是，向鄉郊擴張往往會造成長遠的社會和環境成本。鄉郊土地並不只是空地；它可能是農田、林地、野生動物棲息地，或者是本地社區身份的一部分。一旦它被混凝土覆蓋，就極難恢復原狀。新的鄉郊城鎮也可能造成依賴汽車的生活方式，因為工作機會和主要服務通常仍然留在市中心。結果，居民可能會花更多時間在路上，交通流量可能會增加，而這個本應解決住房短缺的方案，可能會製造另一種負擔：城市擴張範圍更大、布局更分散。",
       "總結來說，新住房應該建於現有城市之中，而不是建於新建的鄉郊城鎮。以城市為基礎的住房能更好地利用基礎設施，使人們靠近工作和服務，並防止鄉郊被規劃不善的發展所吞噬。"
     ],
     "translationSections": [
@@ -2987,7 +2987,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "If a government builds a rural settlement from scratch, it must first lay down a whole skeleton of services before families can live there properly.",
-            "chinese": "如果政府從零開始建設一個鄉郊聚居地，在家庭能夠真正適當地生活之前，它必須先建立一整套服務骨架。"
+            "chinese": "如果政府從零開始建設一個鄉郊聚居地，在家庭能夠真正適當地生活之前，它必須先先建好一整套基本公共服務設施。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -2997,7 +2997,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Example（例子）",
             "english": "For example, replacing low-rise, underused urban land with well-designed apartment blocks can house thousands of residents without forcing them to commute from distant areas.",
-            "chinese": "例如，以設計良好的公寓大樓取代低層且未被充分利用的城市土地，可以容納數以千計的居民，而不必迫使他們從遙遠地區通勤。"
+            "chinese": "例如，把市內未充分利用的低層地段重建為設計良好的公寓大樓，可以容納數以千計的居民，而不必迫使他們從遙遠地區通勤。"
           }
         ]
       },
@@ -3029,7 +3029,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_20_38_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "As a result, residents may spend more time on the road, traffic may increase, and the supposed solution to the housing shortage may create another burden: a larger, more scattered urban footprint.",
-            "chinese": "結果，居民可能會花更多時間在路上，交通流量可能會增加，而這個本應解決住房短缺的方案，可能會製造另一種負擔：更大、更分散的城市足跡。"
+            "chinese": "結果，居民可能會花更多時間在路上，交通流量可能會增加，而這個本應解決住房短缺的方案，可能會製造另一種負擔：城市擴張範圍更大、布局更分散。"
           }
         ]
       },
