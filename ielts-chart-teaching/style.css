@@ -56,3 +56,6 @@
 .recon-mixed-library .recon-table{min-width:0;font-size:.72rem}.recon-mixed-library .recon-table-cell,.recon-mixed-library .recon-table th button{padding:.46rem .25rem}.recon-mixed-library>.recon-panel{min-width:0}.recon-mixed-library .recon-pie-layout{display:block}.recon-mixed-library .recon-pie-svg{max-width:240px;margin:auto}.recon-mixed-library .recon-pie-keys{font-size:.72rem}
 .recon-source-T1-020 .recon-pie-grid .recon-pie-layout{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);align-items:center;gap:12px}.recon-source-T1-020 .recon-pie-svg{max-width:285px}.recon-source-T1-020 .recon-pie-keys{text-align:left;font-size:.78rem}.recon-source-T1-020 .recon-pie-key{display:flex;justify-content:space-between;gap:8px}.recon-pie-local-label{font:13px Arial,sans-serif;stroke:none}.recon-source-T1-021 .recon-pie-svg,.recon-source-T1-023 .recon-pie-svg{max-width:420px}
 @media(max-width:600px){.recon-source-T1-020 .recon-pie-grid .recon-pie-layout{grid-template-columns:1fr}}
+/* Extra group membership needs an SVG filter: box-shadow does not outline paths or markers. */
+#chart svg [data-mark].multi-group{filter:var(--group-svg-glow)}
+#chart .recon-pie-slice.multi-group:hover{filter:brightness(.87) var(--group-svg-glow)}

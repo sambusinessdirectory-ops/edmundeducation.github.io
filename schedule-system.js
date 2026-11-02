@@ -894,6 +894,16 @@ function renderHomeworkPickerResults() {
     const detail = document.createElement("small");
     detail.textContent = resource.detail || homeworkTypeDefinition(type)?.label || "練習";
     button.append(title, detail);
+    if (type === "writing-submission") {
+      const lines = Array.isArray(resource.questionPrompt) ? resource.questionPrompt : [resource.questionPrompt];
+      const text = lines.filter(line => typeof line === "string" && line.trim()).join("\n\n");
+      if (text) {
+        const prompt = document.createElement("span");
+        prompt.className = "homework-picker-question";
+        prompt.textContent = text;
+        button.append(prompt);
+      }
+    }
     fragment.append(button);
   }
   elements.homeworkPickerResults.append(fragment);

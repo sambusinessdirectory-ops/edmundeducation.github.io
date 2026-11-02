@@ -65,12 +65,6 @@ if(root && context?.rpc) {
   find('[data-answer-search]').addEventListener('input',()=>{answerPage=0;renderAnswers();});
   for(const [selector,delta] of [['[data-answer-prev]',-1],['[data-answer-next]',1]])find(selector).addEventListener('click',()=>{answerPage+=delta;renderAnswers();find('[data-answer-heading]').scrollIntoView({block:'start'});});
   const modules=grammarModules(window,document);
-  async function prepareModule(module){
-    if(module.id!=='indefinite-pronouns')return;
-    const rows=await context.rpc('grammar_admin_indefinite_pronouns_answers',{p_token:token});
-    if(!Array.isArray(rows)||rows.length!==250||rows.some((row,index)=>row.number!==index+1||!row.answer||!row.explanation))throw new Error('不定代名詞答案未能完整載入。');
-    module.questions=module.questions.map((question,index)=>({...question,answer:rows[index].answer,explanation:rows[index].explanation}));
-  }
   for(const module of modules){
     const card=document.createElement('article');card.className='grammar-admin__module';
     const title=document.createElement('h2');title.textContent=module.title;card.append(title);
@@ -83,7 +77,6 @@ if(root && context?.rpc) {
         if(busy)return;busy=true;button.disabled=true;const session=token;
         try{
           if(!await validate()||token!==session)return;
-          await prepareModule(module);
           answerSections=exportSections(module,kind);answerPage=0;
           find('[data-answer-heading]').textContent=`${module.title} · ${kind==='exercises'?'全部題目與答案':'教學內容與檢查題答案'}`;
           find('[data-answer-search]').value='';find('[data-answer-browser]').hidden=false;renderAnswers();
@@ -102,7 +95,6 @@ if(root && context?.rpc) {
         if(popup){popup.opener=null;popup.document.body.textContent='正在驗證管理員…';}
         try{
           if(!await validate()){popup?.close();return;}
-          await prepareModule(module);
 
           if(format==='txt'){
             const url=URL.createObjectURL(new Blob(['\uFEFF',exportText(module,kind)],{type:'text/plain;charset=utf-8'}));

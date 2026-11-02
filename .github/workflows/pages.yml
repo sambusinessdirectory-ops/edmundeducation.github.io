@@ -205,8 +205,10 @@ jobs:
           node tools/test-grammar-three-sets.mjs
           node --check grammar-indefinite-pronouns-data.js
           node --check grammar-indefinite-pronouns.js
+          node --check grammar-indefinite-pronouns-answers.js
           node tools/test-indefinite-pronouns-data.mjs
           node tools/test-indefinite-admin-answers.mjs
+          node tools/test-indefinite-pronouns-references.mjs
 
       - name: Validate focused Error Identifier release
         if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[error-id-release]') }}

@@ -13,7 +13,7 @@
   const allViews = [];
 
   function addChalkColors(copy, ruleIndex) {
-    const terms = /(\b(?:unless|not|if)\b|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答)/giu;
+    const terms = /(\b(?:unless|not|if|no one|someone|somebody|something|somewhere|anyone|anybody|anything|anywhere|nobody|nothing|nowhere|everyone|everybody|everything|everywhere|elsewhere)\b|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答|某個|任選|沒有|全部|人|事物|地方)/giu;
     const colors = ["purple", "yellow", "mint"];
     let colorIndex = ruleIndex;
     function visit(parent) {
@@ -42,19 +42,51 @@
     visit(copy);
   }
 
-  function addUnlessDialogue(view) {
+  function addEddyDialogue(view) {
+    const isIndefinite = view.dataset.newGrammarCuration === "indefinite-pronouns";
+    const poses = [
+      ...Array.from({ length: 24 }, (_, index) => `grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp`),
+      "eddy-english-usage-dialogue.png",
+      "eddy-english-difference-dialogue.png",
+      "eddy-error-identifier-dialogue.png",
+      "eddy-student-progress-dialogue.png",
+      "eddy-first-question-dialogue.png",
+      "eddy-twentieth-question-dialogue.png",
+      "eddy-fortieth-question-dialogue.png",
+      "eddy-fun-fact-dialogue.png"
+    ];
+    const summaryForUnlistedEnding = {
+      "04": "-one 與 -body 大多是風格差異，不是嚴格的書面或口語分界。",
+      "44": "elsewhere、someplace 等要按語域和英美用法選擇，不能當作拼錯的同一個字。",
+      "68": "先辨人、事物、地方與範圍，再核對句型、否定、修飾位置和上下文。"
+    };
     const cards = view.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)");
     cards.forEach((card, index) => {
       const body = card.querySelector(".grammar-new-topic__content");
+      const heading = card.querySelector(".grammar-articles-topic__head");
+      const focus = card.querySelector(".grammar-tense-topic__focus");
       const note = body.lastElementChild?.tagName === "P" ? body.lastElementChild : null;
       const figure = document.createElement("figure");
-      figure.className = "grammar-eddy-dialogue";
+      figure.className = `grammar-eddy-dialogue${isIndefinite ? " grammar-eddy-dialogue--indefinite" : ""}`;
       figure.dataset.rule = String(index + 1).padStart(2, "0");
 
       const art = document.createElement("div");
       art.className = "grammar-eddy-dialogue__art";
+      const lesson = document.createElement("div");
+      lesson.className = "grammar-eddy-dialogue__lesson";
+      if (heading) lesson.append(heading);
+      if (focus) lesson.append(focus);
+      const chalkCopy = document.createElement("div");
+      chalkCopy.className = "grammar-eddy-dialogue__lesson-copy";
+      for (const node of [...body.childNodes]) {
+        if (node !== note) chalkCopy.append(node);
+      }
+      if (note) note.remove();
+      lesson.append(chalkCopy);
+      addChalkColors(lesson, index);
+      art.append(lesson);
       const image = document.createElement("img");
-      image.src = `grammar-eddy-dialogues/unless/eddy-${figure.dataset.rule}.webp`;
+      image.src = poses[index % (isIndefinite ? 32 : 24)];
       image.alt = "";
       image.width = 1671;
       image.height = 941;
@@ -70,13 +102,18 @@
         copy.append(...note.childNodes);
         note.remove();
       } else {
-        copy.textContent = "看看例句就清楚了！";
+        copy.textContent = isIndefinite
+          ? summaryForUnlistedEnding[figure.dataset.rule] || focus?.textContent || ""
+          : "看看例句就清楚了！";
       }
       addChalkColors(copy, index);
       caption.append(copy);
       if (copy.textContent.length > 110) figure.classList.add("grammar-eddy-dialogue--long");
+      if (chalkCopy.textContent.length > 260 || chalkCopy.querySelector("table") || chalkCopy.querySelectorAll("li").length > 3) {
+        figure.classList.add("grammar-eddy-dialogue--dense");
+      }
       figure.append(art, caption);
-      body.append(figure);
+      card.replaceChildren(figure);
     });
   }
 
@@ -159,7 +196,7 @@
       }
     }
     source.replaceChildren(intro, stream);
-    if (view.dataset.newGrammarCuration === "unless") addUnlessDialogue(view);
+    if (["unless", "indefinite-pronouns"].includes(view.dataset.newGrammarCuration)) addEddyDialogue(view);
   }
 
   function setRoute(slug) {

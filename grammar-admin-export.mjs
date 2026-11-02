@@ -36,9 +36,10 @@ export function grammarModules(source, document) {
     modules.push({id:practice.slug,title:`${practice.title} · ${practice.chinese}`,questions:practice.questions,topics,appendix});
   }
   const indefinite=source.EDMUND_INDEFINITE_PRONOUNS;
-  if(indefinite?.exercises?.length===250) modules.push({
+  const indefiniteAnswers=source.EDMUND_INDEFINITE_ANSWERS;
+  if(indefinite?.exercises?.length===250 && indefiniteAnswers?.length===250) modules.push({
     id:'indefinite-pronouns',title:'Indefinite Pronouns · 不定代名詞與地點詞',
-    questions:indefinite.exercises,topics:[{number:1,title:'完整導讀',body:guideText(indefinite.guide.html)}],appendix:''
+    questions:indefinite.exercises.map((question,index)=>({...question,answer:indefiniteAnswers[index].answer,explanation:indefiniteAnswers[index].explanation})),topics:[{number:1,title:'完整導讀',body:guideText(indefinite.guide.html)}],appendix:''
   });
   // Keep the on-screen editorial summaries as well as the complete imported text.
   if (document) for (const module of modules) {

@@ -39,7 +39,7 @@ export function grammarAdminConnection(source=window){
   try{return await pending;}finally{pending=null;}
  }
  return {async rpc(name,args){
-  if(!['grammar_admin_login','grammar_admin_profile','grammar_admin_logout','grammar_admin_indefinite_pronouns_answers'].includes(name))throw new Error('Unsupported admin operation');
+  if(!['grammar_admin_login','grammar_admin_profile','grammar_admin_logout'].includes(name))throw new Error('Unsupported admin operation');
   const c=await connect();const result=await c.rpc(name,args);if(result.error)throw result.error;return result.data;
  }};
 }
