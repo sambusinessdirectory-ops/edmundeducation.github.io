@@ -26,7 +26,7 @@
 
   const $ = selector => document.querySelector(selector);
   const escapeHtml = value => String(value).replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' })[character]);
-  const sentences = essay.sentences;
+  const sentences = essay.learningSentences || essay.sentences;
   const support = isPilot ? window.ESSAY_80_LEARNING_SUPPORT : essay.support;
   if (!support || support.sentences.length !== sentences.length) return;
   const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
@@ -65,6 +65,10 @@
   const groupedSentences = {
     'opinion:3': [[2,3],[4,5],[7,8],[16,17,18]],
     'opinion:4': [[6,7],[8,9],[10,11],[13,14]],
+    'opinion:7': [[5,6]],
+    'opinion:9': [[4,5]],
+    'opinion:10': [[7,8],[9,10]],
+    'opinion:11': [[6,7],[9,10],[12,13]],
     'direct-question:2': [[2,3],[5,6],[7,8],[9,10],[13,14],[15,16]],
     'discuss-both-views:4': [[1,2]],
   };

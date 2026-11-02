@@ -10,8 +10,8 @@ for(const file of ['writing-practice-model-essays-opinion-3-16-data.js','writing
 const sourceCollections=['EDMUND_IELTS_WRITING_OPINIONS_3_16_EXERCISES','EDMUND_IELTS_WRITING_DISCUSS_4_23_EXERCISES','EDMUND_IELTS_WRITING_CAUSE_2_20_EXERCISES'];
 const lessons = node.window.ESSAY_MEMORY_LESSONS;
 const keys=['opinion:3','discuss-both-views:4','cause-solution:2'];
-const counts=[19,17,17];
-const vocabularyRoundCounts=[28,32,34];
+const counts=[19,18,17];
+const vocabularyRoundCounts=[28,34,34];
 const patternAnswers={
   'how-clause':/help shape how/i,'instead of':/instead of/i,stance:/disagree/i,
   because:/because/i,causative:/\bmakes?\b/i,if:/\bif\b/i,when:/\bwhen\b/i,
@@ -24,14 +24,16 @@ const patternAnswers={
   'parallel-verbs':/\band\b/i,'rather than':/rather than/i,'as a result':/^As a result,/i,
   purpose:/^To\s+\w+/i,list:/,\s*and\b/i,transformation:/\bturn(?:ed|s)?\b.*\binto\b/i,
   reminder:/\bremind(?:s|ed)?\b.+\bthat\b/i,but:/,\s*but\b/i,
+  'enumerated-consequence':/^This creates.+:/i,
 };
 for (let n=0;n<keys.length;n++) {
   const lesson=lessons[keys[n]];
+  const taught=lesson.learningSentences||lesson.sentences;
   assert(lesson,keys[n]);
-  assert.equal(lesson.sentences.length,counts[n]);
+  assert.equal(taught.length,counts[n]);
   const source=canonical.window[sourceCollections[n]][lesson.id];
   const sourceText=source.paragraphs.flatMap(paragraph=>paragraph.sentences.map(sentence=>sentence.parts.join(''))).join(' ').replace(/\s+/g,' ');
-  const lessonText=lesson.sentences.map(sentence=>sentence.english).join(' ').replace(/\s+/g,' ');
+  const lessonText=taught.map(sentence=>sentence.english).join(' ').replace(/\s+/g,' ');
   assert.equal(lessonText,sourceText,`${keys[n]} source text changed`);
   assert.equal(lesson.audio,canonical.window.EDMUND_WRITING_AUDIO[lesson.id].path);
 
@@ -43,9 +45,9 @@ for (let n=0;n<keys.length;n++) {
   assert.equal(lesson.support.logic.length,2);
   assert.equal(lesson.mediumAnswers.length,45);
   const allAnswers=[...lesson.mediumAnswers,...lesson.support.mediumExtras];
-  for (const [index,sentence] of lesson.sentences.entries()) assert(allAnswers.some(answer=>sentence.english.toLowerCase().includes(answer.toLowerCase())),`${keys[n]} sentence ${index+1} lacks a medium blank`);
+  for (const [index,sentence] of taught.entries()) assert(allAnswers.some(answer=>sentence.english.toLowerCase().includes(answer.toLowerCase())),`${keys[n]} sentence ${index+1} lacks a medium blank`);
   assert(fs.existsSync(lesson.audio),lesson.audio);
-  for (const [index,sentence] of lesson.sentences.entries()) {
+  for (const [index,sentence] of taught.entries()) {
     const bridge=lesson.support.sentences[index];
     assert.equal(bridge.chunks.join(' '),sentence.english);
     assert.equal(bridge.simpleChunks.join(' '),bridge.simple);
@@ -59,7 +61,7 @@ for (let n=0;n<keys.length;n++) {
     for(const synonym of bridge.synonyms) assert(synonym.original&&synonym.simple&&synonym.meaning);
   }
   for(const frame of lesson.support.structures){
-    const sourceSentence=lesson.sentences.find(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence);
+    const sourceSentence=taught.find(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence);
     assert.equal(frame.parts.map(part=>part.text).join(''),sourceSentence.english);
     assert(frame.parts.length>=2);
     assert(frame.meaning.length>12 && frame.usage.length>12);
@@ -71,14 +73,14 @@ for (let n=0;n<keys.length;n++) {
     assert.equal(frame.options.length,4);
     assert.equal(new Set(frame.options).size,4);
     assert.equal(frame.explanations.length,4);
-    assert(lesson.sentences.some(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence));
+    assert(taught.some(sentence=>sentence.paragraph+1===frame.source.paragraph&&sentence.index+1===frame.source.sentence));
     assert(!frame.options.some(option=>/museum|gallery|family-run|advertis/i.test(option)));
   }
   for(const item of lesson.support.transfer){
     assert.equal(item.options.length,4);
     assert.equal(item.explanations.length,4);
     assert(item.options.every(option=>/[\u3400-\u9fff]/.test(option)));
-    assert(item.sourceSentenceIndices.every(index=>lesson.sentences[index]));
+    assert(item.sourceSentenceIndices.every(index=>taught[index]));
     assert(item.modelLink);
     const lengths=item.options.map(option=>option.length);
     assert(Math.max(...lengths)-Math.min(...lengths)<=9,`${keys[n]} transfer options reveal the answer by length`);

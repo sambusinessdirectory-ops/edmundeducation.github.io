@@ -19,11 +19,24 @@ const sourceContext={window:{}};
 vm.runInNewContext(read(`essay-memory-lessons/${meta.id}.js`),sourceContext);
 const essay=sourceContext.window.ESSAY_MEMORY_LESSONS[authoring.key];
 const candidates=JSON.parse(read('tools/essay-memory-structure-candidates.json')).essays[authoring.key];
-const count=essay.sentences.length;
+const sentenceGroups=JSON.parse(read('tools/essay-memory-sentence-groups.json')).essays[authoring.key];
+const grouped=candidates.length!==essay.sentences.length;
+const lessonSentences=grouped?sentenceGroups.map(group=>{
+  const records=group.sourceIndices.map(i=>essay.sentences[i]);
+  assert(records.length&&records.every(row=>row.paragraph===records[0].paragraph));
+  const english=records.map(row=>row.english).join(' ');
+  const chinese=records.map(row=>row.chinese).join('');
+  assert.equal(english,group.english,`Grouped source English ${group.paragraph}.${group.sentence}`);
+  assert.equal(chinese,group.chinese,`Grouped source Chinese ${group.paragraph}.${group.sentence}`);
+  return {paragraph:group.paragraph-1,index:group.sentence-1,role:records[0].role,
+    english,chinese,words:records.flatMap(row=>row.words),start:records[0].start,end:records.at(-1).end,
+    sourceIndices:group.sourceIndices};
+}):essay.sentences;
+const count=lessonSentences.length;
 assert.equal(authoring.simple.length,count,'One simple English bridge per source record');
 assert.equal(authoring.vocabulary.length,count,'One reviewed vocabulary list per source record');
 assert.equal(authoring.structures.length,count,'One reviewed structure card per source record');
-assert.equal(candidates.length,count,'This builder currently requires unfragmented source sentences');
+assert.equal(candidates.length,count,'One reviewed structure candidate per complete sentence');
 
 function chunks(text){
   const words=text.split(/\s+/).filter(Boolean);
@@ -51,7 +64,7 @@ function chunks(text){
   return pieces;
 }
 
-const sentences=essay.sentences.map((source,i)=>{
+const sentences=lessonSentences.map((source,i)=>{
   const simple=authoring.simple[i].trim();
   assert(simple&&simple.toLowerCase()!==source.english.toLowerCase(),`Unchanged simple sentence ${i+1}`);
   const synonyms=authoring.vocabulary[i].map(([original,plain,meaning])=>{
@@ -69,7 +82,7 @@ const sentences=essay.sentences.map((source,i)=>{
   return {simple,synonyms,chunks:sourceChunks,simpleChunks};
 });
 
-const structures=essay.sentences.map((source,i)=>{
+const structures=lessonSentences.map((source,i)=>{
   const edit=authoring.structures[i],candidate=candidates[i];
   if(!candidate||candidate.origin==='unmatched'&&!edit.frame)throw Error(`Unreviewed structure: ${i+1}`);
   const base=edit.frame||candidate;
@@ -96,7 +109,7 @@ for(const [i,item] of support.transfer.entries()){
   assert(item.options?.length===4&&item.explanations?.length===4&&item.correct===0,`Transfer choices ${i+1}`);
   assert(item.modelLink&&item.sourceSentenceIndices?.length&&item.sourceSentenceIndices.every(n=>Number.isInteger(n)&&n>=0&&n<count),`Transfer source ${i+1}`);
 }
-const out=`/* Individually authored and reviewed lesson support. */\n(()=>{const essay=window.ESSAY_MEMORY_LESSONS[${JSON.stringify(authoring.key)}];if(!essay)throw Error('Missing exact source for ${authoring.key}');essay.meta=${JSON.stringify(authoring.meta)};essay.support=${JSON.stringify(support)};})();\n`;
+const out=`/* Individually authored and reviewed lesson support. */\n(()=>{const essay=window.ESSAY_MEMORY_LESSONS[${JSON.stringify(authoring.key)}];if(!essay)throw Error('Missing exact source for ${authoring.key}');${grouped?`essay.learningSentences=${JSON.stringify(lessonSentences)};`:''}essay.meta=${JSON.stringify(authoring.meta)};essay.support=${JSON.stringify(support)};})();\n`;
 const target=new URL(`../essay-memory-support/${meta.id}.js`,import.meta.url);
 fs.mkdirSync(new URL('../essay-memory-support/',import.meta.url),{recursive:true});
 fs.writeFileSync(target,out);

@@ -793,4 +793,76 @@
         why:explanations[0],sourceSentenceIndices,modelLink});
     }
   }
+  // One legacy source record contains two physical sentences. Keep the original
+  // narration/source intact while teaching and testing both sentences separately.
+  {
+    const essay=lessons['discuss-both-views:4'];
+    const source=essay.sentences[5];
+    const boundary=source.english.indexOf('. This creates')+1;
+    if(boundary<2)throw Error('Missing two-sentence family-business source');
+    const firstEnglish=source.english.slice(0,boundary);
+    const secondEnglish=source.english.slice(boundary+1);
+    const chineseBoundary=source.chinese.indexOf('。')+1;
+    const firstChinese=source.chinese.slice(0,chineseBoundary);
+    const secondChinese=source.chinese.slice(chineseBoundary);
+    const firstWordCount=[...firstEnglish.matchAll(/[\p{L}\p{N}]+(?:[-’'][\p{L}\p{N}]+)*/gu)].length;
+    const first={...source,english:firstEnglish,chinese:firstChinese,
+      words:source.words.slice(0,firstWordCount),end:source.words[firstWordCount][1]-0.08};
+    const second={...source,english:secondEnglish,chinese:secondChinese,
+      words:source.words.slice(firstWordCount),start:source.words[firstWordCount][1]-0.16};
+    const indexed=essay.sentences.flatMap((row,i)=>i===5?[[first,i],[second,i]]:[[row,i]]);
+    const paragraphCounts=new Map();
+    essay.learningSentences=indexed.map(([row,sourceIndex])=>{
+      const index=paragraphCounts.get(row.paragraph)||0;
+      paragraphCounts.set(row.paragraph,index+1);
+      return {...row,index,sourceIndices:[sourceIndex]};
+    });
+    essay.support.sentences.splice(5,1,
+      {simple:'If family members get top jobs just because they are family, poor leaders may keep their jobs.',
+        synonyms:[
+          {original:'relatives',simple:'family members',meaning:'親屬'},
+          {original:'senior roles',simple:'top jobs',meaning:'高層職位'},
+          {original:'blood rather than ability',simple:'just because they are family',meaning:'憑血緣而非能力'},
+          {original:'poor management',simple:'poor leaders',meaning:'管理不善'},
+        ],
+        chunks:['When relatives are given senior roles','because of blood rather than ability,','poor management may be protected by loyalty.'],
+        simpleChunks:['If family members get top jobs','just because they are family,','poor leaders may keep their jobs.']},
+      {simple:'This causes many problems: good workers outside the family feel unimportant, rules change from case to case, and hard choices are put off.',
+        synonyms:[
+          {original:'serious chain of damage',simple:'many problems',meaning:'一連串嚴重損害'},
+          {original:'capable non-family workers',simple:'good workers outside the family',meaning:'有能力的非家族員工'},
+          {original:'feel undervalued',simple:'feel unimportant',meaning:'覺得不受重視'},
+          {original:'standards become inconsistent',simple:'rules change from case to case',meaning:'標準不一致'},
+          {original:'difficult decisions are delayed',simple:'hard choices are put off',meaning:'艱難決策被拖延'},
+        ],
+        chunks:['This creates a serious chain of damage:','capable non-family workers feel undervalued,','standards become inconsistent,','and difficult decisions are delayed.'],
+        simpleChunks:['This causes many problems:','good workers outside the family feel unimportant,','rules change from case to case,','and hard choices are put off.']});
+    const firstFrame={...essay.support.structures[5],
+      parts:[{text:'When',kind:'link',label:'指定情況'},
+        {text:' relatives are given senior roles because of blood rather than ability',kind:'slot',label:'條件'},
+        {text:', ',kind:'link',label:'接上結果'},
+        {text:'poor management may be protected by loyalty.',kind:'slot',label:'該情況下的結果'}],
+      meaning:'When 指出親屬憑血緣取得高層職位的情況；主句說明管理不善可能因此受到包庇。',
+      usage:'要先設定一種情況，再指出在該情況下可能出現的結果時。',
+      frame:'When [條件], [該情況下的結果]',
+      options:['When drivers ignore signs, roads become dangerous.','If the bell rings, the class will go inside.','The class went inside because the bell rang.','The bell rang, so the class went inside.'],
+      explanations:['When 先設定情況，再指出結果，與原句相同。','If 提出假設條件，不是用 When 指出所描述情況。','because 在結果後解釋原因，方向與原句不同。','so 從前因推到結果，沒有使用 When 的情況子句。']};
+    const secondFrame={id:'model-essay-4-ielts-discuss-both-views-frame-06b',patternType:'enumerated-consequence',
+      frame:'This creates [結果總稱]: [具體後果清單]',
+      meaning:'先概括管理不善造成一連串損害，再用冒號具體列出對員工、標準和決策的影響。',
+      usage:'已指出一個問題，接着要先概括後果，再列出幾項具體影響時。',
+      parts:[{text:'This creates',kind:'link',label:'承接前述問題並引出後果'},
+        {text:' a serious chain of damage',kind:'slot',label:'結果總稱'},
+        {text:':',kind:'link',label:'引出具體清單'},
+        {text:' capable non-family workers feel undervalued, standards become inconsistent, and difficult decisions are delayed.',kind:'slot',label:'具體後果清單'}],
+      prompt:'哪一句正確用了上面標示的句型？',
+      options:['This creates three problems: workers leave, rules vary, and decisions slow down.',
+        'When managers ignore feedback, mistakes become costly.',
+        'Managers should reward skill rather than family ties.',
+        'For example, one worker may leave after being overlooked.'],correct:0,
+      explanations:['先概括後果，再用冒號列出三項具體影響。','When 設定情況並說明結果，沒有先概括後果再列清單。','rather than 對照兩種做法，沒有展開多項後果。','For example 給單一例子，沒有概括並列出一組後果。']};
+    essay.support.structures.splice(5,1,firstFrame,secondFrame);
+    essay.support.structures.forEach((frame,i)=>{const row=essay.learningSentences[i];frame.source={paragraph:row.paragraph+1,sentence:row.index+1};});
+    essay.support.transfer.forEach(item=>{item.sourceSentenceIndices=[...new Set(item.sourceSentenceIndices.flatMap(i=>i===5?[5,6]:[i>5?i+1:i]))];});
+  }
 })();

@@ -16,6 +16,14 @@ function essayFor(meta){
   return local.window.ESSAY_MEMORY_LESSONS[meta.key];
 }
 const endOfSentence=text=>/[.!?][)”"'’]*$/.test(text.trim());
+function physicalParts(sentence){
+  const english=sentence.english.split(/(?<=[.!?][)”"'’]*)\s+(?=[A-Z])/);
+  if(english.length===1)return [sentence];
+  const chinese=sentence.chinese.match(/[^。！？]*[。！？]/g)||[];
+  assert.equal(chinese.length,english.length,`Cannot align bilingual physical sentences: ${sentence.english}`);
+  assert.equal(chinese.join(''),sentence.chinese,`Chinese sentence split lost text: ${sentence.english}`);
+  return english.map((text,i)=>({...sentence,english:text,chinese:chinese[i]}));
+}
 const output={};
 const totals={essays:catalog.length,sourceRecords:0,completeSentences:0,fragmentRecords:0,joinedGroups:0,missingTerminalPunctuation:0};
 for(const meta of catalog){
@@ -34,16 +42,18 @@ for(const meta of catalog){
     groups.push(group);
     pending=[];
   };
-  essay.sentences.forEach((sentence,index)=>{
-    if(paragraph!==sentence.paragraph){
+  essay.sentences.forEach((source,index)=>{
+    for(const sentence of physicalParts(source)){
+      if(paragraph!==sentence.paragraph){
       if(pending.length)flush(true);
       paragraph=sentence.paragraph;
+      }
+      pending.push({sentence,index});
+      if(endOfSentence(sentence.english))flush();
     }
-    pending.push({sentence,index});
-    if(endOfSentence(sentence.english))flush();
   });
   if(pending.length)flush(true);
-  assert.equal(groups.flatMap(group=>group.sourceIndices).join(','),essay.sentences.map((_,index)=>index).join(','));
+  assert.equal([...new Set(groups.flatMap(group=>group.sourceIndices))].join(','),essay.sentences.map((_,index)=>index).join(','));
   for(let p=0;p<meta.paragraphCount;p++)assert.equal(
     groups.filter(group=>group.paragraph===p+1).map(group=>group.english).join(' '),
     essay.sentences.filter(sentence=>sentence.paragraph===p).map(sentence=>sentence.english).join(' '),

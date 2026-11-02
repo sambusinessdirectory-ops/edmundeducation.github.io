@@ -7,8 +7,10 @@ const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({reducedMotion:'reduce'});
 const errors=[];page.on('pageerror',error=>errors.push(error.message));
 await page.route('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',route=>route.fulfill({contentType:'application/javascript',body:''}));
-const approved=Object.fromEntries(['opinion:80','opinion:3','discuss-both-views:4','cause-solution:2',...keys].map(key=>[key,true]));
-await page.route('**/essay-memory-release-manifest.js*',route=>route.fulfill({contentType:'application/javascript',body:`window.ESSAY_MEMORY_APPROVED=Object.freeze(${JSON.stringify(approved)});`}));
+if(process.env.MEMORY_QA_REAL_MANIFEST!=='1'){
+  const approved=Object.fromEntries(['opinion:80','opinion:3','discuss-both-views:4','cause-solution:2',...keys].map(key=>[key,true]));
+  await page.route('**/essay-memory-release-manifest.js*',route=>route.fulfill({contentType:'application/javascript',body:`window.ESSAY_MEMORY_APPROVED=Object.freeze(${JSON.stringify(approved)});`}));
+}
 await page.addInitScript(()=>{
   sessionStorage.setItem('edmund-essay-memory-student-v1',JSON.stringify({id:'browser-qa',name:'Learner',role:'student',token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}));
   window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:null},error:null}),signInAnonymously:async()=>({data:{session:{user:{id:'anonymous'}}},error:null})},

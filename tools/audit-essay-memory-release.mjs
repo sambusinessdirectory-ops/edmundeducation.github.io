@@ -32,19 +32,27 @@ for(const meta of catalog){
   const essay=sourceFor(meta);
   const issues=[];
   const fullSentences=sentenceGroups.essays[meta.key];
-  if(!fullSentences?.length||fullSentences.flatMap(row=>row.sourceIndices).join(',')!==essay?.sentences?.map((_,i)=>i).join(','))
+  if(!fullSentences?.length||[...new Set(fullSentences.flatMap(row=>row.sourceIndices))].join(',')!==essay?.sentences?.map((_,i)=>i).join(','))
     issues.push('incomplete-full-sentence-map');
+  if(fullSentences?.some(row=>!/[。！？][”」』）]*$/.test(row.chinese.trim().replace(/\]$/,''))))
+    issues.push('incomplete-chinese-sentence-ending');
+  if(fullSentences?.some(row=>/原始 PDF 未提供中文翻譯|\btranslation missing\b/i.test(row.chinese)))
+    issues.push('placeholder-chinese-translation');
   if(!essay || essay.id!==meta.id || essay.sentences?.length!==meta.sentenceCount)issues.push('canonical-source-mismatch');
   if(!essay?.audio || !essay?.sentences?.every(sentence=>sentence.english&&sentence.chinese&&sentence.words?.length))
     issues.push('incomplete-source-or-narration');
+  const teachingSentences=essay?.learningSentences||essay?.sentences;
+  if(essay?.learningSentences&&(!fullSentences||teachingSentences.length!==fullSentences.length||
+      teachingSentences.some((row,i)=>row.english!==fullSentences[i].english||row.chinese!==fullSentences[i].chinese||
+        row.sourceIndices?.join(',')!==fullSentences[i].sourceIndices.join(','))))issues.push('grouped-teaching-source-mismatch');
   if(meta.exam==='IELTS Writing Task 1' && !essay?.questionImages?.length)issues.push('missing-task1-question-image');
   const support=meta.key==='opinion:80'?context.window.ESSAY_80_LEARNING_SUPPORT:essay?.support;
   if(!support)issues.push('missing-teaching-support');
   if(support && meta.key!=='opinion:80'){
     if(!essay.meta?.topic||!essay.meta?.summary)issues.push('missing-lesson-orientation');
-    if(support.sentences?.length!==essay.sentences.length)issues.push('sentence-support-count');
-    else for(let i=0;i<essay.sentences.length;i++){
-      const row=support.sentences[i],source=essay.sentences[i];
+    if(support.sentences?.length!==teachingSentences.length)issues.push('sentence-support-count');
+    else for(let i=0;i<teachingSentences.length;i++){
+      const row=support.sentences[i],source=teachingSentences[i];
       if(!row.simple || normalized(row.simple).toLowerCase()===normalized(source.english).toLowerCase())issues.push(`simple-english-${i+1}`);
       if(normalized(row.chunks?.join(' '))!==normalized(source.english))issues.push(`source-chunks-${i+1}`);
       if(normalized(row.simpleChunks?.join(' '))!==normalized(row.simple))issues.push(`simple-chunks-${i+1}`);
@@ -55,9 +63,9 @@ for(const meta of catalog){
         !source.english.toLowerCase().includes(item.original.toLowerCase())||(!meta.curated&&!row.simple.toLowerCase().includes(item.simple.toLowerCase()))))
         issues.push(`unverified-vocabulary-${i+1}`);
     }
-    if(support.structures?.length!==essay.sentences.length)issues.push('structure-count');
+    if(support.structures?.length!==teachingSentences.length)issues.push('structure-count');
     else for(const [i,row] of support.structures.entries()){
-      const source=essay.sentences[i];
+      const source=teachingSentences[i];
       if(row.source?.paragraph!==source.paragraph+1||row.source?.sentence!==source.index+1)issues.push(`structure-source-${i+1}`);
       if((row.parts||[]).map(part=>part.text).join('')!==source.english)issues.push(`structure-spans-${i+1}`);
       if(!row.meaning||!row.usage||!row.frame)issues.push(`structure-explanation-${i+1}`);
@@ -71,10 +79,10 @@ for(const meta of catalog){
       if(item.options?.length!==4||new Set(item.options).size!==4||item.explanations?.length!==4||item.explanations?.some(note=>!note)||!Number.isInteger(item.correct)||item.correct<0||item.correct>3)
         issues.push(`transfer-choices-${i+1}`);
       if(!item.context||!item.question||item.options?.some(option=>!/[\u3400-\u9fff]/.test(option)))issues.push(`transfer-language-${i+1}`);
-      if(!item.modelLink||!item.sourceSentenceIndices?.length||item.sourceSentenceIndices.some(n=>!Number.isInteger(n)||n<0||n>=essay.sentences.length))
+      if(!item.modelLink||!item.sourceSentenceIndices?.length||item.sourceSentenceIndices.some(n=>!Number.isInteger(n)||n<0||n>=teachingSentences.length))
         issues.push(`transfer-source-link-${i+1}`);
     }
-    const coveredParagraphs=new Set(support.transfer?.flatMap(item=>item.sourceSentenceIndices||[]).map(index=>essay.sentences[index]?.paragraph));
+    const coveredParagraphs=new Set(support.transfer?.flatMap(item=>item.sourceSentenceIndices||[]).map(index=>teachingSentences[index]?.paragraph));
     if(meta.exam==='IELTS Writing Task 2'&&(!coveredParagraphs.has(1)||!coveredParagraphs.has(2)))issues.push('transfer-misses-body-paragraph');
     if(meta.exam==='IELTS Writing Task 1'&&(!coveredParagraphs.has(1)||!coveredParagraphs.has(2)||!coveredParagraphs.has(3)))issues.push('transfer-misses-chart-section');
   }

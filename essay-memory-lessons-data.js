@@ -2851,7 +2851,7 @@ window.ESSAY_MEMORY_LESSONS = {
         "index": 1,
         "role": "Supporting Detail 1（支持細節一）",
         "english": "In a professionally managed company, disagreements can be handled through contracts, clear job descriptions, and formal procedures.",
-        "chinese": "在一間由專業方式管理的公司中，分歧可透過合約、清晰的職責說明和正式程序來處理",
+        "chinese": "在一間由專業方式管理的公司中，分歧可透過合約、清晰的職責說明和正式程序來處理。",
         "words": [
           [
             "In",

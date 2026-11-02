@@ -7,10 +7,10 @@
       "unmatched": 368
     },
     "task2": {
-      "sentences": 3680,
-      "mapped": 3182,
-      "bank": 244,
-      "unmatched": 254
+      "sentences": 3695,
+      "mapped": 3209,
+      "bank": 229,
+      "unmatched": 257
     }
   },
   "essays": {
@@ -15995,7 +15995,7 @@
           ]
         },
         "english": "Some people, however, argue that a system of fixed punishments would be more efficient.",
-        "chinese": "儘管這種發展可能削弱人際關係的品質，並增加誤解的風險，",
+        "chinese": "然而，有些人認為，採用固定刑罰制度會更有效率。",
         "origin": "sentence-support-bank",
         "sourceRow": "S014",
         "formula": "[假設中的對象] would [在假設下出現的結果]",
@@ -16679,7 +16679,7 @@
           ]
         },
         "english": "In this context, some educators argue that international exchange visits are beneficial for teenagers.",
-        "chinese": "儘管這種發展可能削弱人際關係的品質，並增加誤解的風險，",
+        "chinese": "在這種背景下，一些教育工作者認為國際交流訪問對青少年有益。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -18387,7 +18387,7 @@
           ]
         },
         "english": "This shift may free up lessons for computer-based skills and reduce pressure on pupils whose script is untidy.",
-        "chinese": "儘管這種發展可能削弱人際關係的質素，並增加誤解的風險，",
+        "chinese": "這項轉變可以騰出課堂時間來學習電腦技能，也能減輕字跡潦草的學生所承受的壓力。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "[討論對象] may [可能出現的行動或結果]",
@@ -19033,7 +19033,7 @@
           ]
         },
         "english": "While cities are widely associated with opportunity and convenience, the countryside is often regarded as a healthier and more peaceful environment.",
-        "chinese": "[儘管這種發展可能削弱人際關係的質素，並增加誤解的風險，]",
+        "chinese": "雖然城市常被視為充滿機會、生活便利，鄉村卻往往被認為是更健康、更寧靜的環境。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -21265,31 +21265,10 @@
             13
           ]
         },
-        "english": "By repeatedly presenting non-essential items as symbols of success or happiness, advertising can blur the distinction between wants and needs. As a result, many people buy impulsively, reduce their savings, or rely on credit to purchase goods that add little real value to their lives.",
-        "chinese": "廣告一再把非必要物品包裝成成功或幸福的象徵，便會模糊「想要」與「需要」之間的界線。結果，很多人會衝動購物、減少儲蓄，甚至依賴借貸去購買一些對生活其實沒有太大實際價值的商品。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S552",
-        "formula": "[有依賴的對象] rely on [所依靠的資源或因素]",
-        "meaning": "前面的對象需要依靠後面的資源或條件。",
-        "usage": "想指出某個制度、行業或成果背後依賴甚麼時。",
-        "parts": [
-          {
-            "text": "By repeatedly presenting non-essential items as symbols of success or happiness, advertising can blur the distinction between wants and needs. As a result, many people buy impulsively, reduce their savings, or ",
-            "kind": "slot",
-            "label": "有依賴的對象"
-          },
-          {
-            "text": "rely on",
-            "kind": "link",
-            "label": "句型固定部分"
-          },
-          {
-            "text": " credit to purchase goods that add little real value to their lives.",
-            "kind": "slot",
-            "label": "所依靠的資源或因素"
-          }
-        ],
-        "reviewStatus": "candidate"
+        "english": "By repeatedly presenting non-essential items as symbols of success or happiness, advertising can blur the distinction between wants and needs.",
+        "chinese": "廣告一再把非必要物品包裝成成功或幸福的象徵，便會模糊「想要」與「需要」之間的界線。",
+        "origin": "unmatched",
+        "reviewStatus": "needs-authorship"
       },
       {
         "index": 12,
@@ -21300,10 +21279,27 @@
             14
           ]
         },
-        "english": "A young worker who frequently upgrades perfectly functional devices simply to follow trends, for example, may create unnecessary financial pressure.",
-        "chinese": "例如，一名年輕上班族若只是為了追趕潮流，便頻繁更換仍然運作良好的電子產品，便可能為自己帶來不必要的財務壓力。",
-        "origin": "unmatched",
-        "reviewStatus": "needs-authorship"
+        "english": "As a result, many people buy impulsively, reduce their savings, or rely on credit to purchase goods that add little real value to their lives.",
+        "chinese": "結果，很多人會衝動購物、減少儲蓄，甚至依賴借貸去購買一些對生活其實沒有太大實際價值的商品。",
+        "origin": "essay-mapping",
+        "sourceRow": 11,
+        "formula": "As a result, [隨之出現的結果句子]",
+        "meaning": "後面的情況是前面事情所帶來的結果。",
+        "usage": "說完一項變化或做法，想接着交代其影響時。",
+        "parts": [
+          {
+            "text": "As a result,",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " many people buy impulsively, reduce their savings, or rely on credit to purchase goods that add little real value to their lives.",
+            "kind": "slot",
+            "label": "隨之出現的結果句子"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
       },
       {
         "index": 13,
@@ -21314,8 +21310,8 @@
             15
           ]
         },
-        "english": "The second drawback is environmental.",
-        "chinese": "第二個缺點則與環境有關。",
+        "english": "A young worker who frequently upgrades perfectly functional devices simply to follow trends, for example, may create unnecessary financial pressure.",
+        "chinese": "例如，一名年輕上班族若只是為了追趕潮流，便頻繁更換仍然運作良好的電子產品，便可能為自己帶來不必要的財務壓力。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -21328,10 +21324,24 @@
             16
           ]
         },
+        "english": "The second drawback is environmental.",
+        "chinese": "第二個缺點則與環境有關。",
+        "origin": "unmatched",
+        "reviewStatus": "needs-authorship"
+      },
+      {
+        "index": 15,
+        "source": {
+          "paragraph": 3,
+          "sentence": 7,
+          "sourceIndices": [
+            17
+          ]
+        },
         "english": "Consumerism depends on continual production, packaging, transport, and replacement, all of which consume energy and raw materials.",
         "chinese": "消費主義依賴持續不斷的生產、包裝、運輸和替換，而這些過程全都會消耗能源和原材料。此外，許多廉價衣物和電子產品在尚未真正用盡之前便被丟棄，從而增加堆填區廢物及污染。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S102",
+        "origin": "essay-mapping",
+        "sourceRow": 13,
         "formula": "[依賴的一方或事情] depends on [所依賴的條件或資源]",
         "meaning": "前者依賴後面的條件或資源。",
         "usage": "要指出一個結果取決於甚麼，或一方依靠甚麼資源時。",
@@ -21352,21 +21362,22 @@
             "label": "所依賴的條件或資源"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 3,
-          "sentence": 7,
+          "sentence": 8,
           "sourceIndices": [
-            17
+            18
           ]
         },
         "english": "Moreover, many cheap clothes and electronic products are discarded long before the end of their useful life, increasing landfill waste and pollution.",
         "chinese": "因此，這種不斷購買的文化，對地球造成了沉重的負擔。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S033",
+        "origin": "essay-mapping",
+        "sourceRow": 14,
         "formula": "Moreover, [進一步補充的論點句子]",
         "meaning": "後面進一步補充支持同一方向的論點。",
         "usage": "想在已有理由上再加一個有分量的理由時。",
@@ -21382,21 +21393,22 @@
             "label": "進一步補充的論點句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 16,
+        "index": 17,
         "source": {
           "paragraph": 3,
-          "sentence": 8,
+          "sentence": 9,
           "sourceIndices": [
-            18
+            19
           ]
         },
         "english": "For this reason, a culture of constant purchasing places a heavy burden on the planet.",
         "chinese": "因此，消費主義不但鼓勵不必要的消費，亦加劇了環境惡化。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S038",
+        "origin": "essay-mapping",
+        "sourceRow": 15,
         "formula": "For this reason, [由前述理由支持的判斷句子]",
         "meaning": "基於前述理由，後面提出判斷或做法。",
         "usage": "說完理由後，想接着提出選擇或建議時。",
@@ -21412,15 +21424,16 @@
             "label": "由前述理由支持的判斷句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 17,
+        "index": 18,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            19
+            20
           ]
         },
         "english": "In conclusion, although consumerism can create employment and drive innovation, its disadvantages are ultimately more significant.",
@@ -21446,16 +21459,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 18,
+        "index": 19,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            20
+            21
           ]
         },
         "english": "Because it encourages needless expenditure and deepens environmental degradation, it is, on balance, a harmful social trend.",
-        "chinese": "因為它助長不必要的開支，並加深環境破壞，所以整體來說，它是一種有害的社會趨勢",
+        "chinese": "因為它助長不必要的開支，並加深環境破壞，所以整體來說，它是一種有害的社會趨勢。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "Because [先提出的原因句子], [由此解釋的結果句子]",
@@ -22733,7 +22746,7 @@
           ]
         },
         "english": "In conclusion, while economic development may erode some important social values, its overall impact is far more positive.",
-        "chinese": "總結來說，雖然經濟發展可能侵蝕一些重要的社會價值，但它的整體影響仍然遠較正面",
+        "chinese": "總結來說，雖然經濟發展可能侵蝕一些重要的社會價值，但它的整體影響仍然遠較正面。",
         "origin": "essay-mapping",
         "sourceRow": 23,
         "formula": "In conclusion, [總結立場句子]",
@@ -24297,7 +24310,7 @@
           ]
         },
         "english": "By taking over much of this domestic drudgery, machines improve comfort as well as overall quality of life.",
-        "chinese": "透過接手大量繁重而乏味的家務，機器不但提升了生活舒適度，也改善了整體生活質素",
+        "chinese": "透過接手大量繁重而乏味的家務，機器不但提升了生活舒適度，也改善了整體生活質素。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "By [採取的方法], [由此帶來的結果句子]",
@@ -26462,7 +26475,7 @@
           ]
         },
         "english": "One obvious advantage is that repeated testing could improve road safety by ensuring that drivers still meet an acceptable standard.",
-        "chinese": "一個明顯的優點是，重複測試可以確保駕駛者仍然達到可接受的標準，從而提升道路安全",
+        "chinese": "一個明顯的優點是，重複測試可以確保駕駛者仍然達到可接受的標準，從而提升道路安全。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "One obvious advantage is that [具體好處句子]",
@@ -27499,7 +27512,7 @@
           ]
         },
         "english": "Although this arrangement may seem commercially sensible, I do not believe it has more advantages than disadvantages.",
-        "chinese": "儘管這種安排在商業上看似合理，",
+        "chinese": "雖然這種安排在商業上似乎合理，但我不認為它的好處多於壞處。",
         "origin": "essay-mapping",
         "sourceRow": 3,
         "formula": "Although [讓步情況句子], [主要判斷句子]",
@@ -32750,7 +32763,7 @@
           ]
         },
         "english": "It can be narrowed through earlier encouragement, stronger role models and more supportive university environments.",
-        "chinese": "這種差距可以透過更早的鼓勵、更有力的榜樣，以及更具支援性的university環境來縮小",
+        "chinese": "這種差距可以透過更早的鼓勵、更有力的榜樣，以及更具支援性的university環境來縮小。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -35973,7 +35986,7 @@
           ]
         },
         "english": "For communities and wildlife living close to airports, the constant movement of planes can become a heavy environmental burden.",
-        "chinese": "對於居住在機場附近的社區和野生動物而言，飛機不斷升降移動可能會成為沉重的環境負擔",
+        "chinese": "對於居住在機場附近的社區和野生動物而言，飛機不斷升降移動可能會成為沉重的環境負擔。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -36560,7 +36573,7 @@
           ]
         },
         "english": "In some cases, prices for food, land, and services may rise, making everyday life harder for local families.",
-        "chinese": "在某些情況下，食物、土地和服務的價格可能會上升，使當地家庭的日常生活變得更加困難",
+        "chinese": "在某些情況下，食物、土地和服務的價格可能會上升，使當地家庭的日常生活變得更加困難。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "In [所談的環境], [該環境中的情況句子]",
@@ -39346,7 +39359,7 @@
           ]
         },
         "english": "By contrast, foreign employers may provide higher pay, clearer career paths, and more stable working conditions.",
-        "chinese": "相比之下，外國僱主可能提供更高薪酬、更清晰的職業發展道路，以及更穩定的工作條件",
+        "chinese": "相比之下，外國僱主可能提供更高薪酬、更清晰的職業發展道路，以及更穩定的工作條件。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "By contrast, [形成對照的情況句子]",
@@ -39418,7 +39431,7 @@
           ]
         },
         "english": "In this sense, migration becomes less an act of escape than a search for room to breathe professionally.",
-        "chinese": "從這個意義上說，移民與其說是一種逃離，不如說是在尋找專業上得以伸展和發展的空間",
+        "chinese": "從這個意義上說，移民與其說是一種逃離，不如說是在尋找專業上得以伸展和發展的空間。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -41336,7 +41349,7 @@
           ]
         },
         "english": "A candidate who can stay calm after losing a deal is far more valuable than one who is energetic only when everything goes well.",
-        "chinese": "一個在失去交易後仍能保持冷靜的求職者，遠比一個只有在一切順利時才充滿幹勁的人更有價值。",
+        "chinese": "一個在未能成交後仍能保持冷靜的求職者，遠比一個只有在一切順利時才充滿幹勁的人更有價值。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "[能採取行動的對象] can [能做到的行動或結果]",
@@ -41408,7 +41421,7 @@
           ]
         },
         "english": "Sales staff represent the company’s face, and one dishonest promise can poison a brand’s reputation for years.",
-        "chinese": "銷售員工代表公司的形象，而一個不誠實的承諾可能會多年來損害一個品牌的聲譽。",
+        "chinese": "銷售員工代表公司的形象，而一個不誠實的承諾可能在往後多年損害品牌聲譽。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -41734,8 +41747,8 @@
             6
           ]
         },
-        "english": "In this sense, price can create desire by giving a product an aura of value. It tells buyers not only what the item costs, but also what owning it might say about them.",
-        "chinese": "從這個意義上說，價格可以透過賦予產品一種價值光環來創造購買慾望。它告訴買家的不只是這件物品的成本，也包括擁有它可能代表著他們是怎樣的人。",
+        "english": "In this sense, price can create desire by giving a product an aura of value.",
+        "chinese": "從這個意義上說，價格可以透過賦予產品一種價值光環來創造購買慾望。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -41748,7 +41761,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " price can create desire by giving a product an aura of value. It tells buyers not only what the item costs, but also what owning it might say about them.",
+            "text": " price can create desire by giving a product an aura of value.",
             "kind": "slot",
             "label": "從此角度作出的判斷句子"
           }
@@ -41759,10 +41772,45 @@
       {
         "index": 7,
         "source": {
+          "paragraph": 2,
+          "sentence": 6,
+          "sourceIndices": [
+            7
+          ]
+        },
+        "english": "It tells buyers not only what the item costs, but also what owning it might say about them.",
+        "chinese": "它告訴買家的不只是這件物品的成本，也包括擁有它可能代表著他們是怎樣的人。",
+        "origin": "sentence-support-bank",
+        "sourceRow": "S190",
+        "formula": "[討論對象] might [可能出現的行動或結果]",
+        "meaning": "前面的對象有可能出現後面的情況。",
+        "usage": "想提出一個仍有不確定性的可能結果時。",
+        "parts": [
+          {
+            "text": "It tells buyers not only what the item costs, but also what owning it ",
+            "kind": "slot",
+            "label": "討論對象"
+          },
+          {
+            "text": "might",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " say about them.",
+            "kind": "slot",
+            "label": "可能出現的行動或結果"
+          }
+        ],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 8,
+        "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "However, price alone rarely carries a purchase decision from beginning to end.",
@@ -41788,12 +41836,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Buyers are also influenced by the usefulness of the product, the reputation of the brand, reviews from other customers and the emotional experience attached to ownership.",
@@ -41802,12 +41850,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "A parent choosing a child’s laptop, for example, may care less about whether it looks fashionable and more about battery life, reliability and after-sales support.",
@@ -41816,12 +41864,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "Similarly, a product with strong advertising may initially catch the eye, but poor reviews can quickly pour cold water on that interest.",
@@ -41847,12 +41895,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "Convenience also matters: people often choose items that are easy to obtain, simple to use and compatible with their daily routines.",
@@ -41883,12 +41931,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "In conclusion, price has a powerful influence because it can suggest quality, prestige and social meaning.",
@@ -41914,12 +41962,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "Nevertheless, people ultimately buy products when price works together with trust, usefulness, reputation and convenience.",
@@ -41945,12 +41993,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 3,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "A high price may open the door, but other factors usually decide whether buyers walk through it.",
@@ -42559,8 +42607,8 @@
             0
           ]
         },
-        "english": "Success at school and success in life do not always depend on the same abilities. While education is valuable, it measures only a limited range of skills.",
-        "chinese": "學校中的成功與人生中的成功並不總是取決於相同的能力。雖然教育很有價值，但它只衡量有限範圍的技能。",
+        "english": "Success at school and success in life do not always depend on the same abilities.",
+        "chinese": "學校中的成功與人生中的成功並不總是取決於相同的能力。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[依賴的一方或事情] depend on [所依賴的條件或資源]",
@@ -42578,7 +42626,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " the same abilities. While education is valuable, it measures only a limited range of skills.",
+            "text": " the same abilities.",
             "kind": "slot",
             "label": "所依賴的條件或資源"
           }
@@ -42595,10 +42643,51 @@
             1
           ]
         },
+        "english": "While education is valuable, it measures only a limited range of skills.",
+        "chinese": "雖然教育很有價值，但它只衡量有限範圍的技能。",
+        "origin": "essay-mapping",
+        "sourceRow": 2,
+        "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
+        "meaning": "前後兩種情況形成對比；後者可帶出另一個重點。",
+        "usage": "想對比兩組人、做法或結果，讓差異更清楚時。",
+        "parts": [
+          {
+            "text": "While",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " education is valuable",
+            "kind": "slot",
+            "label": "第一種情況句子"
+          },
+          {
+            "text": ",",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " it measures only a limited range of skills.",
+            "kind": "slot",
+            "label": "形成對比的另一種情況句子"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 2,
+        "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            2
+          ]
+        },
         "english": "Some people therefore succeed after academic failure because life rewards broader strengths, and the most important of these is resilience.",
         "chinese": "因此，有些人在學業失敗後仍然取得成功，是因為人生獎賞的是更廣泛的能力，而其中最重要的是韌性。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S005",
+        "origin": "essay-mapping",
+        "sourceRow": 3,
         "formula": "[需要解釋的情況句子] because [原因句子]",
         "meaning": "前面的情況由後面的原因解釋。",
         "usage": "先說出一個判斷或結果，再立即交代其原因時。",
@@ -42619,15 +42708,16 @@
             "label": "原因句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 2,
+        "index": 3,
         "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            2
+            3
           ]
         },
         "english": "One reason is that schools often reward discipline, memory, examination technique and the ability to follow a fixed system.",
@@ -42636,12 +42726,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "These qualities are useful, but they are not the whole story.",
@@ -42672,12 +42762,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "Outside the classroom, people may succeed because they are practical, socially intelligent, creative or willing to take calculated risks.",
@@ -42707,12 +42797,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "A student who struggles with written exams, for example, may still have a sharp instinct for business, an ability to understand customers, or the courage to start again after failure.",
@@ -42721,12 +42811,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "In this sense, poor school results are not always a final judgement on a person’s ability; they may simply show that one particular system did not suit them.",
@@ -42757,16 +42847,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
           "sentence": 6,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Once such people find work that feels purposeful, they can develop the focus and confidence that they never showed in school.",
-        "chinese": "一旦這些人找到讓他們感到有目標的工作，他們便能培養出在學校裡從未展現過的專注力和自信。",
+        "chinese": "一旦這些人找到讓他們感到有意義的工作，他們便能培養出在學校裡從未展現過的專注力和自信。",
         "origin": "essay-mapping",
         "sourceRow": 8,
         "formula": "Once [先完成的情況句子], [隨後出現的結果句子]",
@@ -42798,12 +42888,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "The most important thing for success in life is resilience.",
@@ -42829,12 +42919,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "Talent, education and luck all matter, but they are fragile advantages if a person gives up too easily.",
@@ -42865,16 +42955,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "Life rarely moves in a straight line: people lose jobs, make poor decisions, face rejection and meet problems that no textbook has prepared them for.",
-        "chinese": "人生很少會沿著一條直線前進：人們會失去工作、作出錯誤決定、面對拒絕，並遇上沒有任何教科書曾經讓他們準備好的問題。",
+        "chinese": "人生很少會沿著一條直線前進：人們會失去工作、作出錯誤決定、面對拒絕，並遇上教科書從未教他們如何應對的問題。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[發展過程] rarely moves in a straight line: [挫折例子]",
@@ -42901,12 +42991,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "Resilience allows them to absorb these setbacks without being defined by them.",
@@ -42937,12 +43027,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "More importantly, it turns failure into feedback.",
@@ -42968,12 +43058,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "For instance, a young entrepreneur whose first idea collapses may learn how to manage money, listen to customers and build a stronger plan.",
@@ -42999,12 +43089,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 3,
           "sentence": 7,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "Without resilience, that first failure becomes an ending; with resilience, it becomes a rough but useful apprenticeship.",
@@ -43040,12 +43130,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "In conclusion, some people succeed after failing at school because life rewards far more than academic performance.",
@@ -43071,12 +43161,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 16,
+        "index": 17,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            16
+            17
           ]
         },
         "english": "Resilience is the most essential quality because it helps people keep learning, adapting and moving forward when things go wrong.",
@@ -43595,7 +43685,7 @@
           ]
         },
         "english": "Managers often control budgets, evaluate staff and communicate sensitive information, so they must be trusted to act fairly rather than protect their own interests.",
-        "chinese": "經理經常掌管預算、評估員工，並傳達敏感資訊，因此他們必須被信任會公平行事，而不是保護自己的利益。",
+        "chinese": "經理經常掌管預算、評估員工，並傳達敏感資訊，因此他們必須值得信任，能公平行事，而非只顧私利。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -43631,7 +43721,7 @@
           ]
         },
         "english": "Without these qualities, a manager may become efficient on paper but harmful in practice.",
-        "chinese": "如果沒有這些品質，一位經理可能在表面上顯得有效率，但在實際工作中卻會造成傷害",
+        "chinese": "如果沒有這些品質，一位經理可能在表面上顯得有效率，但在實際工作中卻會造成傷害。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "Without [缺少的條件], [隨之出現的問題句子]",
@@ -43672,7 +43762,7 @@
           ]
         },
         "english": "In conclusion, leadership is not an inborn talent but a skill shaped by experience and deliberate improvement.",
-        "chinese": "總結來說，領導力是透過經驗和有意識的改進所培養的技能，並非天生的才能",
+        "chinese": "總結來說，領導力是透過經驗和有意識的改進所培養的技能，並非天生的才能。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "In conclusion, [總結立場句子]",
@@ -43708,7 +43798,7 @@
           ]
         },
         "english": "For this reason, companies rightly assess personality as well as knowledge, especially qualities such as empathy, judgement, integrity and responsibility.",
-        "chinese": "基於這個原因，公司不只評估知識，也評估性格是合理的，尤其是同理心、判斷力、誠信和責任感等品質。",
+        "chinese": "基於這個原因，公司同時評估性格和知識是合理的，尤其應重視同理心、判斷力、誠信和責任感等特質。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "For this reason, [由前述理由支持的判斷句子]",
@@ -45018,8 +45108,8 @@
             0
           ]
         },
-        "english": "In many families, academic achievement is treated not merely as a personal goal for children, but as a measure of future security. This is why some parents place excessive pressure on their children to perform well at school.",
-        "chinese": "在許多家庭中，學業成就不僅被視為孩子的個人目標，也被看作未來保障的一種衡量標準。這就是為甚麼一些父母會給孩子施加過度壓力，要求他們在學校表現優異。",
+        "english": "In many families, academic achievement is treated not merely as a personal goal for children, but as a measure of future security.",
+        "chinese": "在許多家庭中，學業成就不僅被視為孩子的個人目標，也被看作未來保障的一種衡量標準。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "In many [不同地方或群體], [在這些地方出現的現象句子]",
@@ -45042,7 +45132,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " academic achievement is treated not merely as a personal goal for children, but as a measure of future security. This is why some parents place excessive pressure on their children to perform well at school.",
+            "text": " academic achievement is treated not merely as a personal goal for children, but as a measure of future security.",
             "kind": "slot",
             "label": "在這些地方出現的現象句子"
           }
@@ -45068,11 +45158,42 @@
             1
           ]
         },
+        "english": "This is why some parents place excessive pressure on their children to perform well at school.",
+        "chinese": "這就是為甚麼一些父母會給孩子施加過度壓力，要求他們在學校表現優異。",
+        "origin": "essay-mapping",
+        "sourceRow": 4,
+        "formula": "This is why [由前文解釋的結論句子]",
+        "meaning": "前面的理由解釋了後面的結論。",
+        "usage": "分析完原因後，想直接點出它為何支持自己的結論時。",
+        "parts": [
+          {
+            "text": "This is why",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " some parents place excessive pressure on their children to perform well at school.",
+            "kind": "slot",
+            "label": "由前文解釋的結論句子"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 2,
+        "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            2
+          ]
+        },
         "english": "In my view, parents should be supportive guides in education: they should create discipline and confidence without turning learning into a source of fear.",
         "chinese": "在我看來，父母在教育中應該成為支持性的引導者：他們應該建立紀律和信心，而不是把學習變成恐懼的來源。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S122",
-        "formula": "in my view, [個人立場句子]",
+        "origin": "essay-mapping",
+        "sourceRow": 5,
+        "formula": "In my view, [個人立場句子]",
         "meaning": "後面提出作者自己的判斷。",
         "usage": "交代背景後，想直接說出自己的立場時。",
         "parts": [
@@ -45087,15 +45208,16 @@
             "label": "個人立場句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 2,
+        "index": 3,
         "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            2
+            3
           ]
         },
         "english": "One reason parents become over-demanding is that they see education as the safest route to social mobility.",
@@ -45104,12 +45226,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "In competitive societies, a strong academic record is often linked to better universities, higher-status jobs, and a more stable life.",
@@ -45140,12 +45262,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "As a result, some parents believe that every grade and ranking may affect their child’s future.",
@@ -45171,12 +45293,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "This fear can easily become pressure, especially when parents compare their children with classmates or relatives.",
@@ -45207,12 +45329,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "Another reason is that some adults project their own ambitions or regrets onto their children.",
@@ -45238,12 +45360,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
           "sentence": 6,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "If they once missed educational opportunities themselves, they may push their sons or daughters too hard, hoping to rewrite their own story through the next generation.",
@@ -45279,12 +45401,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "However, the proper role of a parent is not to act as a second examiner at home.",
@@ -45310,12 +45432,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "Parents should provide a calm structure: regular study habits, a suitable learning environment, and reasonable expectations.",
@@ -45346,12 +45468,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "They should also notice when a child is genuinely struggling and respond with patience rather than blame.",
@@ -45381,12 +45503,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "For example, if a child performs poorly in mathematics, a helpful parent would try to understand whether the problem is weak foundations, anxiety, or poor study methods, instead of simply demanding higher marks.",
@@ -45431,12 +45553,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "Most importantly, parents should protect their child’s long-term attitude towards learning.",
@@ -45466,12 +45588,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "Encouragement, honest feedback, and emotional security can help children become resilient and self-motivated, whereas constant pressure may make them associate education with shame and exhaustion.",
@@ -45502,12 +45624,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "In conclusion, excessive parental pressure often comes from fear, competition, and personal ambition.",
@@ -45533,12 +45655,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "A parent’s true responsibility is to support learning firmly but kindly, so that education becomes a path to growth rather than a burden to survive.",
@@ -47266,7 +47388,7 @@
           ]
         },
         "english": "If these measures are combined, poorer countries can give their young people not just classrooms, but genuine opportunities.",
-        "chinese": "如果這些措施能夠結合起來，較貧困的國家便能為年輕人提供課室以至真正的機會",
+        "chinese": "如果這些措施能夠結合起來，較貧困的國家便能為年輕人提供課室以至真正的機會。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -48354,7 +48476,7 @@
           ]
         },
         "english": "Information can be handed over, but confidence, curiosity and purpose have to be awakened.",
-        "chinese": "資訊可以被傳遞，但自信、好奇心和目標感必須被喚醒",
+        "chinese": "資訊可以被傳遞，但自信、好奇心和目標感必須被喚醒。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -48875,7 +48997,7 @@
           ]
         },
         "english": "When people see natural beauty as shared public wealth rather than empty land waiting to be developed, they are more likely to defend it.",
-        "chinese": "當人們把自然美景視為共享的公共財富，而不是等待發展的空地時，他們更有可能保護它",
+        "chinese": "當人們把自然美景視為共享的公共財富，而不是等待發展的空地時，他們更有可能保護它。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "When [具體情況句子], [在該情況下的結果句子]",
@@ -49557,7 +49679,7 @@
           ]
         },
         "english": "The main reason is economic pressure, and this can weaken family bonds and reduce the guidance children receive while they are growing up.",
-        "chinese": "主要原因是經濟壓力，而這可能削弱家庭關係，並減少孩子在成長過程中所獲得的引導",
+        "chinese": "主要原因是經濟壓力，而這可能削弱家庭關係，並減少孩子在成長過程中所獲得的引導。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "The main reason is [具體理由]",
@@ -50300,7 +50422,7 @@
           ]
         },
         "english": "This may be uncomfortable at first, but it trains them to observe, communicate, and cope with change rather than fear it.",
-        "chinese": "這一開始可能會令人不舒服，但它訓練孩子去觀察、溝通，並應對變化，而不是害怕變化",
+        "chinese": "這一開始可能會令人不舒服，但它訓練孩子去觀察、溝通，並應對變化，而不是害怕變化。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -52437,7 +52559,7 @@
           ]
         },
         "english": "The stronger answer is a combination of healthier school food, practical nutrition education and consistent support from families.",
-        "chinese": "更有力的答案，是結合更健康的學校食物、實用的營養教育，以及來自家庭的持續支持",
+        "chinese": "更有力的答案，是結合更健康的學校食物、實用的營養教育，以及來自家庭的持續支持。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "The stronger answer is a combination of [措施一], [措施二] and [措施三]",
@@ -55381,8 +55503,8 @@
             0
           ]
         },
-        "english": "In modern consumer societies, shopping is no longer limited to meeting basic needs. Many people now purchase items they could easily live without and replace perfectly functional products long before necessary.",
-        "chinese": "在現代消費型社會中，購物已不再只是為了滿足基本需要。如今，許多人會購買一些即使沒有也完全可以生活的物品，並且在完全沒有必要之前，就更換仍然功能正常的產品。",
+        "english": "In modern consumer societies, shopping is no longer limited to meeting basic needs.",
+        "chinese": "在現代消費型社會中，購物已不再只是為了滿足基本需要。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "In [所談的環境], [該環境中的情況句子]",
@@ -55400,7 +55522,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " shopping is no longer limited to meeting basic needs. Many people now purchase items they could easily live without and replace perfectly functional products long before necessary.",
+            "text": " shopping is no longer limited to meeting basic needs.",
             "kind": "slot",
             "label": "該環境中的情況句子"
           }
@@ -55417,10 +55539,46 @@
             1
           ]
         },
+        "english": "Many people now purchase items they could easily live without and replace perfectly functional products long before necessary.",
+        "chinese": "如今，許多人會購買一些即使沒有也完全可以生活的物品，並且在完全沒有必要之前，就更換仍然功能正常的產品。",
+        "origin": "essay-mapping",
+        "sourceRow": 2,
+        "formula": "[討論對象] could [可能做到的事或出現的結果]",
+        "meaning": "前面的對象可能做到後面的事，或可能帶來後面的結果。",
+        "usage": "想提出一種可行做法或可能影響，而不把它說成必然時。",
+        "parts": [
+          {
+            "text": "Many people now purchase items they ",
+            "kind": "slot",
+            "label": "討論對象"
+          },
+          {
+            "text": "could",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " easily live without and replace perfectly functional products long before necessary.",
+            "kind": "slot",
+            "label": "可能做到的事或出現的結果"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 2,
+        "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            2
+          ]
+        },
         "english": "This essay will argue that this behaviour is mainly driven by advertising and social pressure, and that it is clearly a negative development.",
-        "chinese": "本文將主張，這種行為主要是由廣告和社會壓力所推動，而且它明顯是一種負面的發展",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S106",
+        "chinese": "本文將主張，這種行為主要是由廣告和社會壓力所推動，而且它明顯是一種負面的發展。",
+        "origin": "essay-mapping",
+        "sourceRow": 3,
         "formula": "[討論對象] will [預計會出現的結果]",
         "meaning": "後面預計前面的對象將出現某種結果。",
         "usage": "有充分理由預計某種後續結果，想明確作出預測時。",
@@ -55441,15 +55599,16 @@
             "label": "預計會出現的結果"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 2,
+        "index": 3,
         "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            2
+            3
           ]
         },
         "english": "One major reason people buy unnecessary goods is that companies have become highly skilled at creating desire.",
@@ -55479,12 +55638,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "Advertisements rarely present products as ordinary objects; instead, they connect them with beauty, success, confidence, or social belonging.",
@@ -55525,12 +55684,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "As a result, consumers may start to feel that owning the newest phone, outfit, or household device will improve their identity rather than simply serve a practical function.",
@@ -55556,12 +55715,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "This pressure is even stronger on social media, where people are constantly exposed to influencers and friends displaying new purchases.",
@@ -55597,12 +55756,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "When consumption becomes a way to gain approval, people are more likely to buy things they do not genuinely need.",
@@ -55643,12 +55802,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Another reason is that many products are designed to feel outdated very quickly.",
@@ -55674,12 +55833,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Technology companies, for instance, release new models every year, even when the improvements are relatively minor.",
@@ -55688,12 +55847,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "A person whose phone still works well may still feel tempted to replace it because the newer version looks more fashionable or slightly faster.",
@@ -55724,12 +55883,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "In this way, shopping becomes less about solving real problems and more about chasing novelty.",
@@ -55755,12 +55914,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "This habit can easily turn into a cycle: people buy something, enjoy it briefly, and then soon begin looking for the next upgrade.",
@@ -55791,12 +55950,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "I do not think this is a good thing.",
@@ -55805,12 +55964,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "On a personal level, unnecessary consumption can lead to wasted money and poor financial habits, especially among people who buy on credit.",
@@ -55819,12 +55978,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 3,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "More seriously, it creates environmental damage because discarded goods often end up as electronic waste, plastic waste, or landfill.",
@@ -55854,12 +56013,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 4,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "Producing constant replacements also consumes energy and natural resources that could be used more responsibly.",
@@ -55889,12 +56048,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 16,
+        "index": 17,
         "source": {
           "paragraph": 5,
           "sentence": 1,
           "sourceIndices": [
-            16
+            17
           ]
         },
         "english": "In conclusion, people often buy needless products because advertising, social comparison, and rapid product cycles make unnecessary purchases seem attractive.",
@@ -55920,12 +56079,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 17,
+        "index": 18,
         "source": {
           "paragraph": 5,
           "sentence": 2,
           "sourceIndices": [
-            17
+            18
           ]
         },
         "english": "However, this behaviour is harmful because it encourages financial waste and places avoidable pressure on the environment.",
@@ -62360,7 +62519,7 @@
           ]
         },
         "english": "If mostly young adults leave, villages are left with an ageing population and weaker local economies.",
-        "chinese": "如果離開的主要是年輕成年人，村莊便會剩下老齡化人口，並且本地經濟會變得更薄弱",
+        "chinese": "如果離開的主要是年輕成年人，村莊便會剩下老齡化人口，並且本地經濟會變得更薄弱。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -63826,8 +63985,8 @@
             5
           ]
         },
-        "english": "When relatives are given senior roles because of blood rather than ability, poor management may be protected by loyalty. This creates a serious chain of damage: capable non-family workers feel undervalued, standards become inconsistent, and difficult decisions are delayed.",
-        "chinese": "當親屬因血緣而不是能力獲得高層職位時，糟糕的管理可能會受到忠誠感的保護。這會造成一連串嚴重損害：有能力的非家族員工會覺得自己不受重視，標準會變得不一致，而艱難的決定也會被拖延。",
+        "english": "When relatives are given senior roles because of blood rather than ability, poor management may be protected by loyalty.",
+        "chinese": "當親屬因血緣而不是能力獲得高層職位時，糟糕的管理可能會受到忠誠感的保護。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "[需要解釋的結果句子] because of [造成結果的因素]",
@@ -63845,7 +64004,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " blood rather than ability, poor management may be protected by loyalty. This creates a serious chain of damage: capable non-family workers feel undervalued, standards become inconsistent, and difficult decisions are delayed.",
+            "text": " blood rather than ability, poor management may be protected by loyalty.",
             "kind": "slot",
             "label": "造成結果的因素"
           }
@@ -63864,13 +64023,44 @@
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
+            5
+          ]
+        },
+        "english": "This creates a serious chain of damage: capable non-family workers feel undervalued, standards become inconsistent, and difficult decisions are delayed.",
+        "chinese": "這會造成一連串嚴重損害：有能力的非家族員工會覺得自己不受重視，標準會變得不一致，而艱難的決定也會被拖延。",
+        "origin": "essay-mapping",
+        "sourceRow": 11,
+        "formula": "This creates [造成的後果]",
+        "meaning": "前述情況造成後面的結果。",
+        "usage": "說完一個做法後，想指出它引發甚麼新問題或影響時。",
+        "parts": [
+          {
+            "text": "This creates",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " a serious chain of damage: capable non-family workers feel undervalued, standards become inconsistent, and difficult decisions are delayed.",
+            "kind": "slot",
+            "label": "造成的後果"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 7,
+        "source": {
+          "paragraph": 2,
+          "sentence": 5,
+          "sourceIndices": [
             6
           ]
         },
         "english": "For example, if an owner’s son repeatedly loses important clients, other managers may hesitate to challenge him because criticism could be treated as a family insult.",
         "chinese": "例如，如果老闆的兒子不斷失去重要客戶，其他經理可能會猶豫是否要質疑他，因為批評可能會被視為對家族的侮辱。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S043",
+        "origin": "essay-mapping",
+        "sourceRow": 13,
         "formula": "For example, if [例子中的條件句子], [例子中的可能結果句子]",
         "meaning": "後面用一種有條件的具體情況說明可能結果。",
         "usage": "想把抽象的因果主張變成讀者容易想像的假設例子時。",
@@ -63896,21 +64086,27 @@
             "label": "例子中的可能結果句子"
           }
         ],
+        "alternativeRows": [
+          {
+            "sourceRow": 12,
+            "formula": "For example, [具體例子句子]"
+          }
+        ],
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
-          "sentence": 5,
+          "sentence": 6,
           "sourceIndices": [
             7
           ]
         },
         "english": "Over time, such favouritism reduces trust within the workplace and makes the firm less competitive.",
         "chinese": "長遠而言，這種偏袒會削弱工作場所內的信任，並使企業的競爭力下降。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S042",
+        "origin": "essay-mapping",
+        "sourceRow": 14,
         "formula": "Over time, [逐漸出現的變化句子]",
         "meaning": "隨着時間過去，情況逐漸改變。",
         "usage": "想由短期情況轉到長期累積的變化時。",
@@ -63926,10 +64122,11 @@
             "label": "逐漸出現的變化句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 1,
@@ -63960,7 +64157,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 2,
@@ -63969,7 +64166,7 @@
           ]
         },
         "english": "In a professionally managed company, disagreements can be handled through contracts, clear job descriptions, and formal procedures.",
-        "chinese": "在一間由專業方式管理的公司中，分歧可透過合約、清晰的職責說明和正式程序來處理",
+        "chinese": "在一間由專業方式管理的公司中，分歧可透過合約、清晰的職責說明和正式程序來處理。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "[需要處理的問題] can be handled through [處理方法]",
@@ -63996,7 +64193,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 3,
@@ -64010,7 +64207,7 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 4,
@@ -64046,7 +64243,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 5,
@@ -64082,7 +64279,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 3,
           "sentence": 6,
@@ -64143,7 +64340,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 3,
           "sentence": 7,
@@ -64179,7 +64376,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 1,
@@ -64234,7 +64431,7 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 16,
+        "index": 17,
         "source": {
           "paragraph": 4,
           "sentence": 2,
@@ -64301,7 +64498,7 @@
           ]
         },
         "english": "Recruitment is one of the most important decisions a company makes because employees shape not only its output but also its culture.",
-        "chinese": "招聘是公司所作出的最重要決定之一，因為員工不但塑造公司的產出，也塑造公司文化",
+        "chinese": "招聘是公司所作出的最重要決定之一，因為員工不但塑造公司的產出，也塑造公司文化。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -64625,7 +64822,7 @@
           ]
         },
         "english": "A business is rarely a collection of isolated individuals; it is a network of departments, deadlines and shared responsibilities.",
-        "chinese": "一間企業很少只是一群孤立個體的集合；它是一個由部門、期限和共同責任組成的網絡",
+        "chinese": "一間企業很少只是一群孤立個體的集合；它是一個由部門、期限和共同責任組成的網絡。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[被討論的機構] is rarely [過窄的理解]; it is [更準確的理解].",
@@ -64702,7 +64899,7 @@
           ]
         },
         "english": "For instance, in healthcare, construction or finance, ignoring instructions can lead to serious mistakes, legal problems or safety risks.",
-        "chinese": "例如，在醫療、建築或金融行業中，忽視指示可能導致嚴重錯誤、法律問題或安全風險",
+        "chinese": "例如，在醫療、建築或金融行業中，忽視指示可能導致嚴重錯誤、法律問題或安全風險。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "For instance, [具體例子句子]",
@@ -65015,7 +65212,7 @@
           ]
         },
         "english": "A product does not have to be completely original if it solves a problem better, faster, or more conveniently than its competitors.",
-        "chinese": "如果一件產品能比競爭對手更好、更快或更方便地解決問題，它並不一定需要完全原創",
+        "chinese": "如果一件產品能比競爭對手更好、更快或更方便地解決問題，它並不一定需要完全原創。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -65287,7 +65484,7 @@
           ]
         },
         "english": "In addition, companies that treat customers well can develop a strong reputation, and this reputation becomes a powerful asset over time.",
-        "chinese": "此外，善待顧客的公司能夠建立良好聲譽，而這種聲譽隨著時間會成為一項強大的資",
+        "chinese": "此外，善待顧客的公司能夠建立良好聲譽，而這種聲譽隨著時間會成為一項強大的資。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "In addition, [補充的另一項理由句子]",
@@ -66033,31 +66230,10 @@
             0
           ]
         },
-        "english": "Happiness at different stages of life is often debated. Some people believe that teenagers enjoy a happier life than adults, while others argue that adulthood offers a deeper and more stable form of happiness.",
-        "chinese": "人生不同階段的幸福感經常受到討論。有些人認為青少年的生活比成年人更快樂，而另一些人則認為成年生活能帶來更深層、更穩定的幸福感。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S081",
-        "formula": "[第一種情況句子], while [形成對照的情況句子]",
-        "meaning": "前後兩種情況形成對照。",
-        "usage": "想並排比較兩個群體、方法或結果時。",
-        "parts": [
-          {
-            "text": "Happiness at different stages of life is often debated. Some people believe that teenagers enjoy a happier life than adults",
-            "kind": "slot",
-            "label": "第一種情況句子"
-          },
-          {
-            "text": ", while",
-            "kind": "link",
-            "label": "句型固定部分"
-          },
-          {
-            "text": " others argue that adulthood offers a deeper and more stable form of happiness.",
-            "kind": "slot",
-            "label": "形成對照的情況句子"
-          }
-        ],
-        "reviewStatus": "candidate"
+        "english": "Happiness at different stages of life is often debated.",
+        "chinese": "人生不同階段的幸福感經常受到討論。",
+        "origin": "unmatched",
+        "reviewStatus": "needs-authorship"
       },
       {
         "index": 1,
@@ -66068,38 +66244,80 @@
             1
           ]
         },
-        "english": "In my view, adults are generally happier because they have greater independence and a clearer sense of direction.",
-        "chinese": "在我看來，成年人通常更快樂，因為他們擁有更大的獨立性和更清晰的人生方向。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S122",
-        "formula": "in my view, [個人立場句子]",
-        "meaning": "後面提出作者自己的判斷。",
-        "usage": "交代背景後，想直接說出自己的立場時。",
+        "english": "Some people believe that teenagers enjoy a happier life than adults, while others argue that adulthood offers a deeper and more stable form of happiness.",
+        "chinese": "有些人認為青少年的生活比成年人更快樂，而另一些人則認為成年生活能帶來更深層、更穩定的幸福感。",
+        "origin": "essay-mapping",
+        "sourceRow": 1,
+        "formula": "Some people believe that [部分人的主張句子]",
+        "meaning": "後面介紹部分人持有的看法，作者未必認同。",
+        "usage": "想先公平交代一種常見立場，再分析是否成立時。",
         "parts": [
           {
-            "text": "In my view,",
+            "text": "Some people believe that",
             "kind": "link",
             "label": "句型固定部分"
           },
           {
-            "text": " adults are generally happier because they have greater independence and a clearer sense of direction.",
+            "text": " teenagers enjoy a happier life than adults, while others argue that adulthood offers a deeper and more stable form of happiness.",
             "kind": "slot",
-            "label": "個人立場句子"
+            "label": "部分人的主張句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
         "index": 2,
         "source": {
-          "paragraph": 2,
-          "sentence": 1,
+          "paragraph": 1,
+          "sentence": 3,
           "sourceIndices": [
             2
           ]
         },
+        "english": "In my view, adults are generally happier because they have greater independence and a clearer sense of direction.",
+        "chinese": "在我看來，成年人通常更快樂，因為他們擁有更大的獨立性和更清晰的人生方向。",
+        "origin": "essay-mapping",
+        "sourceRow": 2,
+        "formula": "[需要解釋的情況句子] because [原因句子]",
+        "meaning": "前面的情況由後面的原因解釋。",
+        "usage": "先說出一個判斷或結果，再立即交代其原因時。",
+        "parts": [
+          {
+            "text": "In my view, adults are generally happier ",
+            "kind": "slot",
+            "label": "需要解釋的情況句子"
+          },
+          {
+            "text": "because",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " they have greater independence and a clearer sense of direction.",
+            "kind": "slot",
+            "label": "原因句子"
+          }
+        ],
+        "alternativeRows": [
+          {
+            "sourceRow": 3,
+            "formula": "In my view, [個人立場句子]"
+          }
+        ],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 3,
+        "source": {
+          "paragraph": 2,
+          "sentence": 1,
+          "sourceIndices": [
+            3
+          ]
+        },
         "english": "On the one hand, teenagers may appear happier because their lives are usually less burdened by serious responsibilities.",
-        "chinese": "一方面，青少年可能看起來更快樂，因為他們的生活通常較少受到重大責任的負擔",
+        "chinese": "一方面，青少年可能看起來更快樂，因為他們的生活通常較少受到重大責任的負擔。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "On the one hand, [首先考慮的一面句子]",
@@ -66121,12 +66339,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "Many of them do not have to pay bills, support a family, or make major financial decisions, so they can spend more time on friendships, hobbies, entertainment, and personal interests.",
@@ -66157,12 +66375,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "For example, a secondary school student may finish classes and then play sports, chat with friends, or watch films without worrying about rent or job security.",
@@ -66188,12 +66406,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "This freedom can make teenage life feel light and enjoyable.",
@@ -66224,12 +66442,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "In this sense, adolescence can seem like a carefree period, especially when compared with the pressure-filled world of work and family duties.",
@@ -66255,12 +66473,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "On the other hand, I believe adults are happier overall because their happiness is often built on independence, achievement, and emotional maturity.",
@@ -66286,12 +66504,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Adults can choose where to live, what career to pursue, how to spend their money, and who to build relationships with.",
@@ -66331,12 +66549,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "These choices give them control over their lives, which is a powerful source of satisfaction.",
@@ -66367,12 +66585,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "Moreover, adults are usually better at understanding themselves and dealing with problems.",
@@ -66398,12 +66616,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "For instance, an adult who has worked hard to develop a career or support a family may feel a strong sense of purpose that teenagers rarely experience.",
@@ -66429,12 +66647,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "Although adult life can be stressful, that stress is often balanced by meaningful rewards.",
@@ -66470,12 +66688,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In conclusion, teenagers may have more free time and fewer responsibilities, which can make them seem happier on the surface.",
@@ -66501,12 +66719,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "However, I believe adults are generally happier because their lives contain more independence, purpose, and lasting fulfillment.",
@@ -66532,12 +66750,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 3,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "Happiness is not just the absence of pressure; it is also the feeling that one’s life has direction and meaning.",
@@ -67685,7 +67903,7 @@
           ]
         },
         "english": "While some people argue that individuals should take responsibility for their own safety, others believe that preventing crime is mainly the duty of the state.",
-        "chinese": "雖然有人認為個人應該為自身安全負責，但另一些人則相信預防犯罪主要是國家的責任",
+        "chinese": "雖然有人認為個人應該為自身安全負責，但另一些人則相信預防犯罪主要是國家的責任。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -67860,7 +68078,7 @@
           ]
         },
         "english": "From this perspective, personal awareness acts as the first line of defence, especially in daily situations where the police cannot be physically present.",
-        "chinese": "從這個角度來看，個人警覺性就是第一道防線，尤其是警察無法親身在場的日常情況中",
+        "chinese": "從這個角度來看，個人警覺性就是第一道防線，尤其是警察無法親身在場的日常情況中。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "From this perspective, [從此角度作出的判斷句子]",
@@ -69011,7 +69229,7 @@
           ]
         },
         "english": "Daily assignments can also create a steady routine, which may help less organised students develop responsibility.",
-        "chinese": "每天的功課也能建立穩定的日常習慣，這可能有助於較缺乏組織能力的學生培養責任感",
+        "chinese": "每天的功課也能建立穩定的日常習慣，這可能有助於較缺乏組織能力的學生培養責任感。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -69240,7 +69458,7 @@
           ]
         },
         "english": "Moreover, excessive homework can crowd out activities that also support success at school, such as sleep, sport and social development.",
-        "chinese": "此外，過量功課可能擠走一些同樣有助於學業成功的活動，例如睡眠、運動和社交發展",
+        "chinese": "此外，過量功課可能擠走一些同樣有助於學業成功的活動，例如睡眠、運動和社交發展。",
         "origin": "essay-mapping",
         "sourceRow": 22,
         "formula": "Moreover, [進一步補充的論點句子]",
@@ -71606,7 +71824,7 @@
           ]
         },
         "english": "While some people argue that people over 65 are too old to acquire new knowledge or skills, I completely disagree.",
-        "chinese": "雖然有人認為65歲以上的人年紀太大，已經無法獲得新知識或新技能，但我完全不同意",
+        "chinese": "雖然有人認為65歲以上的人年紀太大，已經無法獲得新知識或新技能，但我完全不同意。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -71754,8 +71972,8 @@
             5
           ]
         },
-        "english": "When they learn a language, musical instrument, digital skill or craft, they are not merely filling time; they are giving their minds a fresh challenge. This kind of challenge encourages concentration, patience and problem-solving, which can help them feel capable rather than forgotten.",
-        "chinese": "當他們學習一種語言、一種樂器、一項數碼技能或一門手藝時，他們不只是填補時間；他們是在給自己的頭腦一個新的挑戰。這種挑戰能促進專注力、耐性和解難能力，從而幫助他們感到自己仍然有能力，而不是被遺忘。",
+        "english": "When they learn a language, musical instrument, digital skill or craft, they are not merely filling time; they are giving their minds a fresh challenge.",
+        "chinese": "當他們學習一種語言、一種樂器、一項數碼技能或一門手藝時，他們不只是填補時間；他們是在給自己的頭腦一個新的挑戰。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "When [具體情況句子], [在該情況下的結果句子]",
@@ -71778,7 +71996,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " musical instrument, digital skill or craft, they are not merely filling time; they are giving their minds a fresh challenge. This kind of challenge encourages concentration, patience and problem-solving, which can help them feel capable rather than forgotten.",
+            "text": " musical instrument, digital skill or craft, they are not merely filling time; they are giving their minds a fresh challenge.",
             "kind": "slot",
             "label": "在該情況下的結果句子"
           }
@@ -71795,11 +72013,47 @@
             6
           ]
         },
+        "english": "This kind of challenge encourages concentration, patience and problem-solving, which can help them feel capable rather than forgotten.",
+        "chinese": "這種挑戰能促進專注力、耐性和解難能力，從而幫助他們感到自己仍然有能力，而不是被遺忘。",
+        "origin": "essay-mapping",
+        "sourceRow": 10,
+        "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
+        "meaning": "which 引出補充說明。它可能指向前面的名詞或整個情況，須依原句判斷，不能一律當成結果。",
+        "usage": "要在主句後補充相關性質、影響或細節，且 which 指代的內容清楚時。",
+        "parts": [
+          {
+            "text": "This kind of challenge encourages concentration, patience and problem-solving",
+            "kind": "slot",
+            "label": "先說明的情況句子"
+          },
+          {
+            "text": ", which",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " can help them feel capable rather than forgotten.",
+            "kind": "slot",
+            "label": "補充的影響或說明句子"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 7,
+        "source": {
+          "paragraph": 2,
+          "sentence": 5,
+          "sourceIndices": [
+            7
+          ]
+        },
         "english": "For example, an older person who joins a painting class may begin with shaky confidence, but over time the process of improving can become a quiet source of pride.",
         "chinese": "例如，一位參加繪畫班的長者起初可能信心不足，但隨著時間過去，不斷進步的過程可以成為一種安靜而穩定的自豪感來源。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S010",
-        "formula": "for example, [具體例子句子]",
+        "origin": "essay-mapping",
+        "sourceRow": 12,
+        "formula": "For example, [具體例子句子]",
         "meaning": "後面提供一個具體例子。",
         "usage": "提出一般觀點後，想用一個具體情況讓讀者看懂時。",
         "parts": [
@@ -71814,21 +72068,27 @@
             "label": "具體例子句子"
           }
         ],
+        "alternativeRows": [
+          {
+            "sourceRow": 11,
+            "formula": "[先提出的情況句子], but [形成轉折的情況句子]"
+          }
+        ],
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
-          "sentence": 5,
+          "sentence": 6,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "In this sense, learning acts like a light being switched on in a room that had been growing dim.",
         "chinese": "從這個意義上說，學習就像在一個逐漸變暗的房間裡打開了一盞燈。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S103",
+        "origin": "essay-mapping",
+        "sourceRow": 13,
         "formula": "In this sense, [從此角度作出的判斷句子]",
         "meaning": "從前述角度看，可以作出後面的判斷。",
         "usage": "舉例或解釋後，想指出它在這個角度上的意義時。",
@@ -71844,15 +72104,16 @@
             "label": "從此角度作出的判斷句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Another important benefit is that new skills help older people stay connected with modern society.",
@@ -71878,12 +72139,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "The world changes quickly, especially through technology, and those who refuse to learn may become increasingly dependent on others.",
@@ -71892,12 +72153,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "If senior citizens learn how to use smartphones, online banking or video calls, they can communicate with family, manage daily tasks and participate more fully in community life.",
@@ -71933,12 +72194,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "This is not a small advantage; it protects their dignity.",
@@ -71969,12 +72230,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "For instance, a grandmother who learns to use video chat can speak to her grandchildren abroad instead of feeling cut off from them.",
@@ -72010,12 +72271,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "Such learning builds a bridge between generations.",
@@ -72024,12 +72285,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "In conclusion, it is never too late for older people to learn.",
@@ -72055,12 +72316,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "After 65, learning is not a luxury; it is one of the best ways to preserve confidence, independence and a sense of purpose.",
@@ -72545,7 +72806,7 @@
           ]
         },
         "english": "At the same time, individuals can change demand by eating less wastefully, choosing sustainable products and supporting conservation projects.",
-        "chinese": "同時，個人也可以透過減少飲食浪費、選擇可持續產品，以及支持保育項目來改變需求",
+        "chinese": "同時，個人也可以透過減少飲食浪費、選擇可持續產品，以及支持保育項目來改變需求。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "At the same time, [同時需要考慮的情況句子]",
@@ -72643,7 +72904,7 @@
           ]
         },
         "english": "In conclusion, human activity has undoubtedly caused deep damage to the natural world, and some of that damage cannot be undone.",
-        "chinese": "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法被復原",
+        "chinese": "總結來說，人類活動無疑已對自然世界造成了深重傷害，而且其中一些傷害無法被復原。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "In conclusion, [總結立場句子]",
@@ -73529,7 +73790,7 @@
           ]
         },
         "english": "This means that global warming is not only an environmental issue, but also a threat to food security, public health and economic stability.",
-        "chinese": "這意味著全球暖化不僅是一個環境問題，也對糧食安全、公共健康和經濟穩定構成威脅",
+        "chinese": "這意味著全球暖化不僅是一個環境問題，也對糧食安全、公共健康和經濟穩定構成威脅。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "This means that [由此得出的含意句子]",
@@ -74120,7 +74381,7 @@
           ]
         },
         "english": "Governments, by contrast, can impose strict regulations, fine polluters, invest in renewable energy and cooperate with other countries.",
-        "chinese": "相比之下，政府可以實施嚴格規管、懲罰污染者、投資可再生能源，並與其他國家合作",
+        "chinese": "相比之下，政府可以實施嚴格規管、懲罰污染者、投資可再生能源，並與其他國家合作。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[行動者], by contrast, can [可採取的多種行動].",
@@ -74885,7 +75146,7 @@
           ]
         },
         "english": "Discipline without nurture is like building walls without a roof: it may create boundaries, but it does not provide true shelter.",
-        "chinese": "沒有關愛的紀律就像建造沒有屋頂的牆壁：它或許能建立界線，卻不能提供真正的庇護",
+        "chinese": "沒有關愛的紀律就像建造沒有屋頂的牆壁：它或許能建立界線，卻不能提供真正的庇護。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "[需要解釋的情況] is like [用來說明的比喻]",
@@ -74926,7 +75187,7 @@
           ]
         },
         "english": "In conclusion, parents should certainly teach their children right from wrong, as discipline helps them become responsible members of society.",
-        "chinese": "總結來說，父母當然應該教孩子分辨是非，因為紀律能幫助他們成為負責任的社會成員",
+        "chinese": "總結來說，父母當然應該教孩子分辨是非，因為紀律能幫助他們成為負責任的社會成員。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "In conclusion, [總結立場句子]",
@@ -75026,7 +75287,7 @@
           ]
         },
         "english": "While some argue that governments should be blamed for this trend, others believe that parents are mainly responsible.",
-        "chinese": "雖然有些人認為政府應該為這種趨勢受到指責，但另一些人則相信父母才是主要責任方",
+        "chinese": "雖然有些人認為政府應該為這種趨勢受到指責，但另一些人則相信父母才是主要責任方。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -75240,7 +75501,7 @@
           ]
         },
         "english": "For example, a child who spends every evening watching videos while eating sugary snacks may gradually see this lifestyle as normal.",
-        "chinese": "例如，一個每天晚上邊看影片邊吃含糖零食的孩子，可能會逐漸把這生活方式視為正常",
+        "chinese": "例如，一個每天晚上邊看影片邊吃含糖零食的孩子，可能會逐漸把這生活方式視為正常。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "For example, [具體例子句子]",
@@ -75956,7 +76217,7 @@
           ]
         },
         "english": "This view is reasonable because daily routines are like the small hinges on which long-term health swings.",
-        "chinese": "這個觀點是合理的，因為日常習慣就像細小的鉸鏈，而長遠健康正是在這些鉸鏈上轉動",
+        "chinese": "這個觀點是合理的，因為日常習慣就像細小的鉸鏈，而長遠健康正是在這些鉸鏈上轉動。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -76923,7 +77184,7 @@
           ]
         },
         "english": "In this way, sponsorship does not merely advertise a brand; it can open the door to wider participation and better performance.",
-        "chinese": "這樣一來，贊助並不只是為品牌做廣告；它還能為更廣泛的參與和更好的表現打開大門",
+        "chinese": "這樣一來，贊助並不只是為品牌做廣告；它還能為更廣泛的參與和更好的表現打開大門。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "[被重新理解的對象] does not merely [較狹窄的理解]; it [更完整的理解句子]",
@@ -77334,7 +77595,7 @@
           ]
         },
         "english": "I will discuss both views, but I firmly believe that photographs should be treated as supporting evidence rather than irrefutable proof.",
-        "chinese": "我將討論雙方觀點，但我堅定地認為，照片應被視為輔助證據，而不是無可反駁的證明",
+        "chinese": "我將討論雙方觀點，但我堅定地認為，照片應被視為輔助證據，而不是無可反駁的證明。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -78126,7 +78387,7 @@
           ]
         },
         "english": "From this perspective, the problem is not one particular programme, but the way television fills up a child’s daily life.",
-        "chinese": "從這個角度來看，問題並不在某一個特定節目，而在於電視佔據了孩子日常生活的方式",
+        "chinese": "從這個角度來看，問題並不在某一個特定節目，而在於電視佔據了孩子日常生活的方式。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "From this perspective, [從此角度作出的判斷句子]",
@@ -78295,7 +78556,7 @@
           ]
         },
         "english": "By contrast, educational programmes or stories with positive role models can encourage curiosity, kindness, and responsible choices.",
-        "chinese": "相比之下，教育性節目或具正面榜樣的故事，則可以鼓勵好奇心、善良和負責任的選擇",
+        "chinese": "相比之下，教育性節目或具正面榜樣的故事，則可以鼓勵好奇心、善良和負責任的選擇。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "By contrast, [形成對照的情況句子]",
@@ -78565,7 +78826,7 @@
           ]
         },
         "english": "This is especially useful for students, commuters, and frequent travellers, who may need quick access to several texts at once.",
-        "chinese": "這對學生、通勤人士和常旅行的人尤其有用，因為他們可能需要同時快速查閱多份文本",
+        "chinese": "這對學生、通勤人士和常旅行的人尤其有用，因為他們可能需要同時快速查閱多份文本。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "This is especially [特別明顯的特點] for [特點更明顯的情況]",
@@ -79520,7 +79781,7 @@
           ]
         },
         "english": "In my view, change is ultimately beneficial because it pushes people to grow, even though it can be uncomfortable in the short term.",
-        "chinese": "在我看來，變化最終是有益的，因為它推動人們成長，即使它在短期內可能令人不舒服",
+        "chinese": "在我看來，變化最終是有益的，因為它推動人們成長，即使它在短期內可能令人不舒服。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "[仍然成立的判斷句子] even though [不改變結果的情況句子]",
@@ -80202,7 +80463,7 @@
           ]
         },
         "english": "Once a message is sent, it cannot be recalled, and humanity would have no control over who receives it or how they respond.",
-        "chinese": "一旦訊息被發出，它就無法被收回，而人類也無法控制誰接收到它，或對方如何回應",
+        "chinese": "一旦訊息被發出，它就無法被收回，而人類也無法控制誰接收到它，或對方如何回應。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "Once [先完成的情況句子], [隨後出現的結果句子]",
@@ -80955,7 +81216,7 @@
           ]
         },
         "english": "While supporters of prohibition believe this would protect people from serious harm, I firmly believe that adults should remain free to choose such sports, provided that proper safety rules are enforced.",
-        "chinese": "雖然支持禁止的人認為這樣可以保護人們免受嚴重傷害，我堅定地認為，只要適當的安全規則得到執行，成年人仍然應該有自由選擇這類運動",
+        "chinese": "雖然支持禁止的人認為這樣可以保護人們免受嚴重傷害，我堅定地認為，只要適當的安全規則得到執行，成年人仍然應該有自由選擇這類運動。",
         "origin": "essay-mapping",
         "sourceRow": 3,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -81027,7 +81288,7 @@
           ]
         },
         "english": "Sports such as rock climbing, boxing, motor racing, and skydiving do not merely involve mild discomfort; one mistake can cause permanent damage.",
-        "chinese": "攀岩、拳擊、賽車和跳傘等運動並不只是帶來輕微不適；一個錯誤便可造成永久性傷害",
+        "chinese": "攀岩、拳擊、賽車和跳傘等運動並不只是帶來輕微不適；一個錯誤便可造成永久性傷害。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "[較廣的類別] such as [具體例子]",
@@ -81293,7 +81554,7 @@
           ]
         },
         "english": "These measures reduce unnecessary danger while still allowing people to test their courage, discipline, and physical limits.",
-        "chinese": "這些措施可以減少不必要的危險，同時仍然允許人們考驗自己的勇氣、紀律和身體極限",
+        "chinese": "這些措施可以減少不必要的危險，同時仍然允許人們考驗自己的勇氣、紀律和身體極限。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "[前述措施] reduce [要減少的風險] while still allowing people to [應保留的機會].",
@@ -81918,7 +82179,7 @@
           ]
         },
         "english": "In conclusion, sport does teach children how to compete, especially by helping them deal with pressure, failure, and self-improvement.",
-        "chinese": "總結來說，運動確實能教會孩子如何競爭，尤其是幫助他們應對壓力、失敗和自我提升",
+        "chinese": "總結來說，運動確實能教會孩子如何競爭，尤其是幫助他們應對壓力、失敗和自我提升。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "In conclusion, [總結立場句子]",
@@ -83657,7 +83918,7 @@
           ]
         },
         "english": "In conclusion, while banning tourism may appear to protect local culture, it is too extreme and often ineffective.",
-        "chinese": "總結來說，雖然禁止旅遊看似可以保護本地文化，但這種做法過於極端，而且往往無效",
+        "chinese": "總結來說，雖然禁止旅遊看似可以保護本地文化，但這種做法過於極端，而且往往無效。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "In conclusion, [總結立場句子]",
@@ -83726,7 +83987,7 @@
           ]
         },
         "english": "Air pollution has become one of the most pressing environmental problems in many urban areas, and road transport is often seen as a major cause.",
-        "chinese": "空氣污染已成為許多城市地區最迫切的環境問題之一，而道路交通往往被視為主要原因",
+        "chinese": "空氣污染已成為許多城市地區最迫切的環境問題之一，而道路交通往往被視為主要原因。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "[出現變化的對象] has become one of the most [突出的特點] [所屬的類別]",
@@ -83943,7 +84204,7 @@
           ]
         },
         "english": "In this sense, a car-free day is not merely a symbolic gesture; it can plant the seed of cleaner habits.",
-        "chinese": "從這個意義上說，無車日不僅僅是一種象徵性姿態；它可以種下更清潔生活習慣的種子",
+        "chinese": "從這個意義上說，無車日不僅僅是一種象徵性姿態；它可以種下更清潔生活習慣的種子。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -84208,7 +84469,7 @@
           ]
         },
         "english": "Nevertheless, I strongly believe that lasting reductions in air pollution depend on permanent policies that reshape daily transport habits.",
-        "chinese": "【原始 PDF 未提供中文翻譯】",
+        "chinese": "儘管如此，我堅信，要持續減少空氣污染，仍須依靠能改變日常交通習慣的長期政策。",
         "origin": "essay-mapping",
         "sourceRow": 22,
         "formula": "Nevertheless, [仍然成立的判斷句子]",
@@ -86843,7 +87104,7 @@
           ]
         },
         "english": "I completely agree because artistic labour strengthens cultural life and also supports significant economic activity.",
-        "chinese": "我完全同意。因為藝術勞動不但能強化文化生活，也能支持重要的經濟活動。",
+        "chinese": "我完全同意，因為藝術勞動不但能強化文化生活，也能支持重要的經濟活動。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -88060,7 +88321,7 @@
           ]
         },
         "english": "Modern businesses derive substantial benefits from the communities in which they operate, so it is reasonable to expect something in return.",
-        "chinese": "現代企業從營運所在的社區中獲得了大量利益，因此合理地可以期待它們作出某種回饋",
+        "chinese": "現代企業從營運所在的社區中獲得了大量利益，因此合理地可以期待它們作出某種回饋。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[先出現的情況句子], so [因此出現的結果句子]",
@@ -88102,7 +88363,7 @@
           ]
         },
         "english": "I completely agree that companies should provide sports and social facilities for local residents, because these amenities improve public well-being and because profitable firms have a clear responsibility to reinvest locally.",
-        "chinese": "我完全同意。企業應該為當地居民提供體育及社交設施，因為這些設施能提升公眾福祉，而獲利企業也明確有責任把資源重新投放到本地社區。",
+        "chinese": "我完全同意企業應該為當地居民提供體育及社交設施，因為這些設施能提升公眾福祉，而獲利企業也明確有責任把資源重新投放到本地社區。",
         "origin": "essay-mapping",
         "sourceRow": 3,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -88599,7 +88860,7 @@
           ]
         },
         "english": "In competitive markets, even products that genuinely solve consumers’ problems do not automatically sell themselves.",
-        "chinese": "在競爭激烈的市場中，即使產品確實能解決消費者的問題，也不會自然而然地自行暢銷",
+        "chinese": "在競爭激烈的市場中，即使產品確實能解決消費者的問題，也不會自然而然地自行暢銷。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "In [所談的環境], [該環境中的情況句子]",
@@ -92146,8 +92407,8 @@
             0
           ]
         },
-        "english": "In many societies, successful people are often imagined as confident, magnetic, and naturally charming. As a result, some argue that charisma is a necessary ingredient for achievement.",
-        "chinese": "在許多社會中，成功人士常常被想像成自信、有吸引力，而且天生具有人格魅力的人。因此，有些人認為個人魅力是取得成就的必要條件。",
+        "english": "In many societies, successful people are often imagined as confident, magnetic, and naturally charming.",
+        "chinese": "在許多社會中，成功人士常常被想像成自信、有吸引力，而且天生具有人格魅力的人。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "In many [不同地方或群體], [在這些地方出現的現象句子]",
@@ -92170,7 +92431,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " successful people are often imagined as confident, magnetic, and naturally charming. As a result, some argue that charisma is a necessary ingredient for achievement.",
+            "text": " successful people are often imagined as confident, magnetic, and naturally charming.",
             "kind": "slot",
             "label": "在這些地方出現的現象句子"
           }
@@ -92192,34 +92453,76 @@
             1
           ]
         },
-        "english": "I completely disagree with this view, because long-term success depends far more on competence, discipline, and trustworthiness than on personal charm.",
-        "chinese": "我完全不同意這個觀點，因為長期的成功更多取決於能力、自律和可靠性，而不是個人魅力。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S092",
-        "formula": "I completely disagree with [不同意的看法]",
-        "meaning": "作者明確表示不認同這個看法。",
-        "usage": "想在引言或結論直接表明自己反對某一觀點時。",
+        "english": "As a result, some argue that charisma is a necessary ingredient for achievement.",
+        "chinese": "因此，有些人認為個人魅力是取得成就的必要條件。",
+        "origin": "essay-mapping",
+        "sourceRow": 3,
+        "formula": "As a result, [隨之出現的結果句子]",
+        "meaning": "後面的情況是前面事情所帶來的結果。",
+        "usage": "說完一項變化或做法，想接着交代其影響時。",
         "parts": [
           {
-            "text": "I completely disagree with",
+            "text": "As a result,",
             "kind": "link",
             "label": "句型固定部分"
           },
           {
-            "text": " this view, because long-term success depends far more on competence, discipline, and trustworthiness than on personal charm.",
+            "text": " some argue that charisma is a necessary ingredient for achievement.",
             "kind": "slot",
-            "label": "不同意的看法"
+            "label": "隨之出現的結果句子"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
         "index": 2,
         "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            2
+          ]
+        },
+        "english": "I completely disagree with this view, because long-term success depends far more on competence, discipline, and trustworthiness than on personal charm.",
+        "chinese": "我完全不同意這個觀點，因為長期的成功更多取決於能力、自律和可靠性，而不是個人魅力。",
+        "origin": "essay-mapping",
+        "sourceRow": 4,
+        "formula": "[需要解釋的情況句子] because [原因句子]",
+        "meaning": "前面的情況由後面的原因解釋。",
+        "usage": "先說出一個判斷或結果，再立即交代其原因時。",
+        "parts": [
+          {
+            "text": "I completely disagree with this view, ",
+            "kind": "slot",
+            "label": "需要解釋的情況句子"
+          },
+          {
+            "text": "because",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " long-term success depends far more on competence, discipline, and trustworthiness than on personal charm.",
+            "kind": "slot",
+            "label": "原因句子"
+          }
+        ],
+        "alternativeRows": [
+          {
+            "sourceRow": 5,
+            "formula": "I completely disagree with [不同意的看法]"
+          }
+        ],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 3,
+        "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            2
+            3
           ]
         },
         "english": "The main reason charisma is not essential is that many forms of success are built on skill rather than social appeal.",
@@ -92255,12 +92558,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "In most professions, people are ultimately judged by whether they can solve problems, make sound decisions, and deliver consistent results.",
@@ -92290,12 +92593,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "A doctor, for example, does not become successful simply by speaking warmly to patients; he or she must diagnose illnesses accurately and provide effective treatment.",
@@ -92326,12 +92629,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "Similarly, an engineer whose work prevents a bridge from collapsing may be quiet and socially reserved, but that does not make the achievement any less valuable.",
@@ -92362,12 +92665,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "In these cases, charisma may make communication smoother, but it cannot replace expertise.",
@@ -92397,12 +92700,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
           "sentence": 6,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Success is therefore more like a foundation than a spotlight: what matters most is not how brightly a person shines in public, but how solidly they perform when real responsibility is placed on them.",
@@ -92443,12 +92746,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Another reason is that charisma without substance can be fragile, and sometimes even dangerous.",
@@ -92484,12 +92787,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "Charismatic people may attract attention quickly, but attention is not the same as achievement.",
@@ -92519,12 +92822,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "If a leader is charming but unreliable, employees may initially feel inspired, yet they will soon lose confidence when promises are broken or decisions are poorly made.",
@@ -92565,12 +92868,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "By contrast, a less charismatic person who is honest, prepared, and dependable can gradually earn deep respect.",
@@ -92596,12 +92899,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "This kind of respect is quieter, but it lasts longer.",
@@ -92610,12 +92913,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In business, education, and public life, people eventually trust results more than attractive words.",
@@ -92676,12 +92979,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "In conclusion, charisma can be useful, but it is not essential for success.",
@@ -92707,16 +93010,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "Real success is built on ability, consistency, and integrity, not merely on the power to impress others.",
-        "chinese": "真正的成功是建立在能力、穩定性和誠信之上，而不僅僅是建立在打動他人的能力之上",
+        "chinese": "真正的成功是建立在能力、穩定性和誠信之上，而不僅僅是建立在打動他人的能力之上。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "[被討論的成果] is built on [真正的基礎], not merely on [不足以單獨解釋的因素]",
@@ -93000,7 +93303,7 @@
           ]
         },
         "english": "In this sense, public speaking turns private ability into public influence, which is central to professional success.",
-        "chinese": "從這個意義上說，公開演說把個人的能力轉化為公共影響力，而這正是職業成功的核心",
+        "chinese": "從這個意義上說，公開演說把個人的能力轉化為公共影響力，而這正是職業成功的核心。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -93320,30 +93623,26 @@
             0
           ]
         },
-        "english": "Success is rarely achieved in isolation. In almost every field, from education to business, people have to work with others, persuade them, and respond to their expectations.",
-        "chinese": "成功很少是獨自一人便能取得的。在幾乎每一個領域中，從教育到商業，人們都必須與他人合作、說服他人，並回應他人的期望。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S430",
-        "formula": "[被討論的機構] is rarely [過窄的理解]; it is [更準確的理解].",
-        "meaning": "一個機構很少只是前一種簡化形態；它更準確地說是後一種形態。",
-        "usage": "要用更完整的理解糾正對系統或機構的簡化想像時。",
+        "english": "Success is rarely achieved in isolation.",
+        "chinese": "成功很少是獨自一人便能取得的。",
+        "origin": "essay-mapping",
+        "sourceRow": 1,
+        "formula": "[成果] is rarely achieved in isolation.",
+        "meaning": "某項成果很少能單靠個別一方、孤立地達成。",
+        "usage": "想提醒讀者某成果通常需要合作，不能靠一方獨自完成時。",
         "parts": [
           {
             "text": "Success ",
             "kind": "slot",
-            "label": "被討論的機構"
+            "label": "成果"
           },
           {
-            "text": "is rarely",
+            "text": "is rarely achieved in isolation.",
             "kind": "link",
             "label": "句型固定部分"
-          },
-          {
-            "text": " achieved in isolation. In almost every field, from education to business, people have to work with others, persuade them, and respond to their expectations.",
-            "kind": "slot",
-            "label": "過窄的理解"
           }
         ],
+        "alternativeRows": [],
         "reviewStatus": "candidate"
       },
       {
@@ -93355,8 +93654,8 @@
             1
           ]
         },
-        "english": "For this reason, I completely agree that people skills are essential for success, because they turn individual ability into useful social and professional outcomes.",
-        "chinese": "因此，我完全同意人際交往能力對成功至關重要，因為它們能把個人的能力轉化為有用的社交和專業成果。",
+        "english": "In almost every field, from education to business, people have to work with others, persuade them, and respond to their expectations.",
+        "chinese": "在幾乎每一個領域中，從教育到商業，人們都必須與他人合作、說服他人，並回應他人的期望。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "In [所談的環境], [該環境中的情況句子]",
@@ -93364,7 +93663,7 @@
         "usage": "想讓讀者知道一個現象適用於哪些地方、行業或時代時。",
         "parts": [
           {
-            "text": "For this reason",
+            "text": "In almost every field",
             "kind": "slot",
             "label": "所談的環境"
           },
@@ -93374,7 +93673,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " I completely agree that people skills are essential for success, because they turn individual ability into useful social and professional outcomes.",
+            "text": " from education to business, people have to work with others, persuade them, and respond to their expectations.",
             "kind": "slot",
             "label": "該環境中的情況句子"
           }
@@ -93385,10 +93684,51 @@
       {
         "index": 2,
         "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            2
+          ]
+        },
+        "english": "For this reason, I completely agree that people skills are essential for success, because they turn individual ability into useful social and professional outcomes.",
+        "chinese": "因此，我完全同意人際交往能力對成功至關重要，因為它們能把個人的能力轉化為有用的社交和專業成果。",
+        "origin": "essay-mapping",
+        "sourceRow": 4,
+        "formula": "[需要解釋的情況句子] because [原因句子]",
+        "meaning": "前面的情況由後面的原因解釋。",
+        "usage": "先說出一個判斷或結果，再立即交代其原因時。",
+        "parts": [
+          {
+            "text": "For this reason, I completely agree that people skills are essential for success, ",
+            "kind": "slot",
+            "label": "需要解釋的情況句子"
+          },
+          {
+            "text": "because",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " they turn individual ability into useful social and professional outcomes.",
+            "kind": "slot",
+            "label": "原因句子"
+          }
+        ],
+        "alternativeRows": [
+          {
+            "sourceRow": 5,
+            "formula": "For this reason, [由前述理由支持的判斷句子]"
+          }
+        ],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 3,
+        "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            2
+            3
           ]
         },
         "english": "First, interpersonal skills determine how effectively a person can cooperate in a group.",
@@ -93414,12 +93754,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "A capable worker who communicates poorly may produce good ideas, but those ideas can be misunderstood, ignored, or resisted.",
@@ -93450,12 +93790,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "By contrast, someone who listens carefully, explains clearly, and handles disagreement calmly can keep a team moving in the same direction.",
@@ -93481,12 +93821,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "For example, in a workplace project, the employee who can divide responsibilities tactfully and discuss problems before they become personal conflicts is more likely to deliver results than a brilliant colleague who alienates everyone.",
@@ -93522,12 +93862,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "In this sense, people skills act as the bridge between competence and performance.",
@@ -93553,12 +93893,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Second, success often depends on trust and long-term relationships.",
@@ -93594,12 +93934,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Employers, clients, teachers, and colleagues are more likely to support people who appear reliable, respectful, and emotionally mature.",
@@ -93630,12 +93970,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "Opportunities are rarely offered to qualifications on paper alone; they are offered to people whose character others can read and trust.",
@@ -93666,12 +94006,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "A small business owner, for instance, may sell an excellent product, but if he dismisses customers’ concerns or treats staff harshly, his reputation will quickly suffer.",
@@ -93702,12 +94042,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "On the other hand, an owner who listens to complaints, encourages employees, and builds loyalty can turn ordinary transactions into lasting relationships.",
@@ -93733,12 +94073,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "These relationships often become the foundation of future growth.",
@@ -93769,12 +94109,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In conclusion, I fully agree that people skills are essential for success.",
@@ -93800,12 +94140,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "Knowledge, talent, and hard work matter greatly, but without the ability to communicate, cooperate, and earn trust, those strengths are far less likely to produce meaningful achievement.",
@@ -94816,7 +95156,7 @@
           ]
         },
         "english": "This quiet psychological pressure is easy to dismiss, but it can weigh heavily on self-esteem and mental health.",
-        "chinese": "這種安靜的心理壓力很容易被忽視，但可能會沉重地壓在一個人的自尊和心理健康之上",
+        "chinese": "這種安靜的心理壓力很容易被忽視，但可能會沉重地壓在一個人的自尊和心理健康之上。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -95434,39 +95774,49 @@
             2
           ]
         },
-        "english": "I strongly disagree. In my view, the media should not publish the private lives of famous people unless there is a clear public interest.",
-        "chinese": "我強烈不同意這種看法。在我看來，除非涉及明確的公共利益，否則媒體不應公開名人的私人生活。",
-        "origin": "sentence-support-bank",
-        "sourceRow": "S131",
-        "formula": "[應避免行動的對象] should not [應避免的做法]",
-        "meaning": "前面的對象不應採取後面的做法。",
-        "usage": "分析風險後，想明確指出某一方應避免甚麼做法時。",
-        "parts": [
-          {
-            "text": "I strongly disagree. In my view, the media ",
-            "kind": "slot",
-            "label": "應避免行動的對象"
-          },
-          {
-            "text": "should not",
-            "kind": "link",
-            "label": "句型固定部分"
-          },
-          {
-            "text": " publish the private lives of famous people unless there is a clear public interest.",
-            "kind": "slot",
-            "label": "應避免的做法"
-          }
-        ],
-        "reviewStatus": "candidate"
+        "english": "I strongly disagree.",
+        "chinese": "我強烈不同意這種看法。",
+        "origin": "unmatched",
+        "reviewStatus": "needs-authorship"
       },
       {
         "index": 3,
         "source": {
+          "paragraph": 1,
+          "sentence": 4,
+          "sourceIndices": [
+            3
+          ]
+        },
+        "english": "In my view, the media should not publish the private lives of famous people unless there is a clear public interest.",
+        "chinese": "在我看來，除非涉及明確的公共利益，否則媒體不應公開名人的私人生活。",
+        "origin": "essay-mapping",
+        "sourceRow": 3,
+        "formula": "In my view, [個人立場句子]",
+        "meaning": "後面提出作者自己的判斷。",
+        "usage": "交代背景後，想直接說出自己的立場時。",
+        "parts": [
+          {
+            "text": "In my view,",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " the media should not publish the private lives of famous people unless there is a clear public interest.",
+            "kind": "slot",
+            "label": "個人立場句子"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 4,
+        "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "The main reason is that being well known does not remove a person’s basic right to privacy.",
@@ -95492,12 +95842,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "Celebrities may choose to appear on screen, perform on stage, or promote their work online, but this does not mean they have agreed to have every corner of their personal lives examined.",
@@ -95528,12 +95878,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "Their family problems, romantic relationships, health issues, and home addresses are usually irrelevant to their professional achievements.",
@@ -95542,12 +95892,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "If journalists follow them to private places or publish photographs of their children, this is not entertainment; it is intrusion dressed up as news.",
@@ -95583,12 +95933,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Over time, such pressure can damage mental health and make normal family life almost impossible.",
@@ -95614,12 +95964,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Another reason is that unrestricted media attention encourages a harmful culture of gossip.",
@@ -95645,12 +95995,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "When audiences are constantly fed stories about scandals and private conflicts, they may start to see celebrities less as human beings and more as public property.",
@@ -95686,12 +96036,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "This is unfair, especially because many of these stories are exaggerated, misleading, or based on moments taken out of context.",
@@ -95722,12 +96072,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "For example, a tired actor leaving a hospital or a singer arguing with a family member may be turned into a dramatic headline, even though the situation has nothing to do with the public.",
@@ -95763,12 +96113,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "Responsible journalism should inform society, not feed curiosity at any cost.",
@@ -95799,12 +96149,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In conclusion, although famous people should expect public discussion of their work and professional behaviour, their private lives should remain protected.",
@@ -95830,16 +96180,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "Fame may open the door to attention, but it should not give the media a licence to walk through every room.",
-        "chinese": "名氣也許會打開通往關注的大門，但它不應該給予媒體一張可以走進每個房間的通行證",
+        "chinese": "名氣也許會打開通往關注的大門，但它不應該給予媒體一張可以走進每個房間的通行證。",
         "origin": "sentence-support-bank",
         "sourceRow": "S131",
         "formula": "[應避免行動的對象] should not [應避免的做法]",
@@ -95943,7 +96293,7 @@
           ]
         },
         "english": "In my opinion, clothing is more often shaped by circumstance and social expectation than by someone’s inner character.",
-        "chinese": "在我看來，衣著更多時候是由處境和社會期望塑造，而不是由一個人的內在性格所決定",
+        "chinese": "在我看來，衣著更多時候是由處境和社會期望塑造，而不是由一個人的內在性格所決定。",
         "origin": "essay-mapping",
         "sourceRow": 3,
         "formula": "In my opinion, [個人立場句子]",
@@ -96602,7 +96952,7 @@
           ]
         },
         "english": "The strongest reason is that face-to-face communication carries human signals that written messages often flatten or distort.",
-        "chinese": "最有力的原因是，面對面溝通承載人性的訊號，而文字訊息往往會削弱或扭曲這些訊號",
+        "chinese": "最有力的原因是，面對面溝通承載人性的訊號，而文字訊息往往會削弱或扭曲這些訊號。",
         "origin": "essay-mapping",
         "sourceRow": 4,
         "formula": "The strongest reason is that [這項理由句子]",
@@ -96792,7 +97142,7 @@
           ]
         },
         "english": "This is why direct interaction will remain essential wherever trust, reassurance and emotional intelligence are required.",
-        "chinese": "這就是為甚麼凡是需要信任、安撫和情緒智慧的地方，直接互動都仍然會是不可或缺的",
+        "chinese": "這就是為甚麼凡是需要信任、安撫和情緒智慧的地方，直接互動都仍然會是不可或缺的。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "This is why [由前文解釋的結論句子]",
@@ -97006,7 +97356,7 @@
           ]
         },
         "english": "A group of colleagues brainstorming around a table, for instance, can read one another’s reactions and adjust their thinking in real time.",
-        "chinese": "例如，一群同事圍著桌子腦力激盪時，可以讀懂彼此的反應，並即時調整自己的思路",
+        "chinese": "例如，一群同事圍著桌子腦力激盪時，可以讀懂彼此的反應，並即時調整自己的思路。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -97574,7 +97924,7 @@
           ]
         },
         "english": "Even in positive environments, friendships require time, honesty and mutual care, which cannot be produced automatically by technology.",
-        "chinese": "即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產",
+        "chinese": "即使在正面環境中，友誼也需要時間、誠實和彼此關心，而這些都不能由科技自動產。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -98905,8 +99255,8 @@
             2
           ]
         },
-        "english": "While women are sometimes described as more caring and less confrontational than men, I completely disagree that they are naturally more peaceful. In my view, peacefulness is shaped far more by upbringing, social expectations and power than by biological sex.",
-        "chinese": "雖然女性有時被描述為比男性更關懷他人，也較少具對抗性，但我完全不同意女性天生更加和平的說法。在我看來，和平的性格遠比生理性別更大程度上受到成長環境、社會期望和權力關係所塑造。",
+        "english": "While women are sometimes described as more caring and less confrontational than men, I completely disagree that they are naturally more peaceful.",
+        "chinese": "雖然女性有時被描述為比男性更關懷他人，也較少具對抗性，但我完全不同意女性天生更加和平的說法。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -98929,7 +99279,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " I completely disagree that they are naturally more peaceful. In my view, peacefulness is shaped far more by upbringing, social expectations and power than by biological sex.",
+            "text": " I completely disagree that they are naturally more peaceful.",
             "kind": "slot",
             "label": "形成對比的另一種情況句子"
           }
@@ -98940,10 +99290,41 @@
       {
         "index": 2,
         "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            3
+          ]
+        },
+        "english": "In my view, peacefulness is shaped far more by upbringing, social expectations and power than by biological sex.",
+        "chinese": "在我看來，和平的性格遠比生理性別更大程度上受到成長環境、社會期望和權力關係所塑造。",
+        "origin": "essay-mapping",
+        "sourceRow": 3,
+        "formula": "In my view, [個人立場句子]",
+        "meaning": "後面提出作者自己的判斷。",
+        "usage": "交代背景後，想直接說出自己的立場時。",
+        "parts": [
+          {
+            "text": "In my view,",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " peacefulness is shaped far more by upbringing, social expectations and power than by biological sex.",
+            "kind": "slot",
+            "label": "個人立場句子"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 3,
+        "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "First, the idea that women are born more peace-loving oversimplifies how character is formed.",
@@ -98969,12 +99350,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "From childhood, boys and girls are often taught to behave in different ways: girls may be encouraged to be patient, polite and emotionally aware, whereas boys may be praised for toughness, competitiveness and dominance.",
@@ -99005,12 +99386,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "Over time, these expectations can become a mask that people mistake for nature.",
@@ -99036,12 +99417,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "For example, a girl who is repeatedly told to avoid conflict may learn to express disagreement quietly, while a boy who is rewarded for winning arguments may become more forceful.",
@@ -99077,12 +99458,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "This does not prove that one sex is naturally peaceful and the other naturally aggressive; it shows that society trains people to perform different versions of acceptable behaviour.",
@@ -99118,12 +99499,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Moreover, describing women as naturally nurturing can be harmful because it places unfair moral expectations on them and excuses aggression in men.",
@@ -99159,12 +99540,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "If women are assumed to be gentle by nature, those who are ambitious, angry or politically assertive may be judged as abnormal.",
@@ -99200,12 +99581,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "At the same time, men who show violence may be treated as if they are simply following their instincts, which lowers the standard of responsibility expected of them.",
@@ -99245,12 +99626,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "In reality, both men and women can be compassionate, cruel, diplomatic or confrontational depending on their values, circumstances and choices.",
@@ -99281,12 +99662,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "A female leader can make ruthless decisions, just as a male teacher or father can create a calm and caring environment.",
@@ -99316,12 +99697,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In conclusion, I entirely reject the claim that women are generally more peaceful because they are naturally more nurturing.",
@@ -99347,16 +99728,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "Peace is not written into one gender like a birthmark; it is cultivated through education, culture and personal responsibility.",
-        "chinese": "和平並不像胎記一樣寫在某一個性別身上；它是透過教育、文化和個人責任培養出來的",
+        "chinese": "和平並不像胎記一樣寫在某一個性別身上；它是透過教育、文化和個人責任培養出來的。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "[被重新評估的對象] is not [過於狹窄的看法]; it [較重要的真正作用句子]",
@@ -99909,7 +100290,7 @@
           ]
         },
         "english": "In conclusion, I fully agree that advanced technology has helped reduce crime.",
-        "chinese": "總結來說，我完全同意先進科技已經幫助減少犯罪",
+        "chinese": "總結來說，我完全同意先進科技已經幫助減少犯罪。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "In conclusion, [總結立場句子]",
@@ -99940,7 +100321,7 @@
           ]
         },
         "english": "By preventing offences and giving the police stronger evidence, it has made crime a much riskier and less attractive choice.",
-        "chinese": "透過預防罪案並為警方提供更有力的證據，科技已使犯罪成為一個風險更高、吸引力更低的選擇",
+        "chinese": "透過預防罪案並為警方提供更有力的證據，科技已使犯罪成為一個風險更高、吸引力更低的選擇。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "By [採取的方法], [由此帶來的結果句子]",
@@ -100055,7 +100436,7 @@
           ]
         },
         "english": "A just legal system should punish serious wrongdoing firmly, but it should not ignore the offender’s stage of development.",
-        "chinese": "公正的法律制度應該堅定地懲罰嚴重的不當行為，但不應忽視犯罪者所處的發展階段",
+        "chinese": "公正的法律制度應該堅定地懲罰嚴重的不當行為，但不應忽視犯罪者所處的發展階段。",
         "origin": "essay-mapping",
         "sourceRow": 3,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -100777,7 +101158,7 @@
           ]
         },
         "english": "More patrols may stop some offences in public places, but they do not remove the pressure that pushes people towards illegal behaviour.",
-        "chinese": "更多巡邏或許能阻止公共場所中的犯罪，但它們並不能消除把人推向違法行為的壓力",
+        "chinese": "更多巡邏或許能阻止公共場所中的犯罪，但它們並不能消除把人推向違法行為的壓力。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -102272,7 +102653,7 @@
           ]
         },
         "english": "For example, someone convicted of minor theft could be ordered to complete months of supervised work in public spaces.",
-        "chinese": "例如，一名因輕微盜竊而被定罪的人，可以被命令在公共空間完成數個月受監督的工作",
+        "chinese": "例如，一名因輕微盜竊而被定罪的人，可以被命令在公共空間完成數個月受監督的工作。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "For example, [具體例子句子]",
@@ -102966,8 +103347,8 @@
             2
           ]
         },
-        "english": "While imprisonment may appear to be the most direct response to criminal behaviour, I firmly believe that it is not the best general solution. In most cases, rehabilitation and carefully supervised community-based punishments are more effective because they address the causes of crime rather than merely hiding criminals from society.",
-        "chinese": "雖然監禁看起來可能是對犯罪行為最直接的回應，我堅定地認為，這並不是一般情況下最好的解決方法。在大多數情況下，改造和受到仔細監管的社區式懲罰更加有效，因為它們處理的是犯罪的根源，而不是僅僅把罪犯從社會中隱藏起來。",
+        "english": "While imprisonment may appear to be the most direct response to criminal behaviour, I firmly believe that it is not the best general solution.",
+        "chinese": "雖然監禁看起來可能是對犯罪行為最直接的回應，我堅定地認為，這並不是一般情況下最好的解決方法。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -102990,7 +103371,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " I firmly believe that it is not the best general solution. In most cases, rehabilitation and carefully supervised community-based punishments are more effective because they address the causes of crime rather than merely hiding criminals from society.",
+            "text": " I firmly believe that it is not the best general solution.",
             "kind": "slot",
             "label": "形成對比的另一種情況句子"
           }
@@ -103001,10 +103382,51 @@
       {
         "index": 2,
         "source": {
+          "paragraph": 1,
+          "sentence": 3,
+          "sourceIndices": [
+            3
+          ]
+        },
+        "english": "In most cases, rehabilitation and carefully supervised community-based punishments are more effective because they address the causes of crime rather than merely hiding criminals from society.",
+        "chinese": "在大多數情況下，改造和受到仔細監管的社區式懲罰更加有效，因為它們處理的是犯罪的根源，而不是僅僅把罪犯從社會中隱藏起來。",
+        "origin": "essay-mapping",
+        "sourceRow": 3,
+        "formula": "[需要解釋的情況句子] because [原因句子]",
+        "meaning": "前面的情況由後面的原因解釋。",
+        "usage": "先說出一個判斷或結果，再立即交代其原因時。",
+        "parts": [
+          {
+            "text": "In most cases, rehabilitation and carefully supervised community-based punishments are more effective ",
+            "kind": "slot",
+            "label": "需要解釋的情況句子"
+          },
+          {
+            "text": "because",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " they address the causes of crime rather than merely hiding criminals from society.",
+            "kind": "slot",
+            "label": "原因句子"
+          }
+        ],
+        "alternativeRows": [
+          {
+            "sourceRow": 4,
+            "formula": "In [所談的環境], [該環境中的情況句子]"
+          }
+        ],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 3,
+        "source": {
           "paragraph": 2,
           "sentence": 1,
           "sourceIndices": [
-            3
+            4
           ]
         },
         "english": "Supporters of prison often argue that it protects the public and sends a clear warning to potential offenders.",
@@ -103040,12 +103462,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 3,
+        "index": 4,
         "source": {
           "paragraph": 2,
           "sentence": 2,
           "sourceIndices": [
-            4
+            5
           ]
         },
         "english": "This view is understandable because dangerous criminals can cause real harm if they remain free.",
@@ -103076,12 +103498,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 4,
+        "index": 5,
         "source": {
           "paragraph": 2,
           "sentence": 3,
           "sourceIndices": [
-            5
+            6
           ]
         },
         "english": "However, prison often treats the symptom rather than the disease.",
@@ -103107,12 +103529,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 5,
+        "index": 6,
         "source": {
           "paragraph": 2,
           "sentence": 4,
           "sourceIndices": [
-            6
+            7
           ]
         },
         "english": "Many offenders commit crimes because of addiction, poor education, unemployment, or unstable family backgrounds.",
@@ -103143,12 +103565,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 6,
+        "index": 7,
         "source": {
           "paragraph": 2,
           "sentence": 5,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "If these problems are ignored, prison can become a revolving door: criminals enter, serve their sentence, and return to society with the same weaknesses, or sometimes even worse ones.",
@@ -103184,12 +103606,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 7,
+        "index": 8,
         "source": {
           "paragraph": 2,
           "sentence": 6,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "For example, a young person who commits a minor theft may leave prison with fewer job prospects and stronger links to hardened criminals.",
@@ -103215,12 +103637,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 2,
           "sentence": 7,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "In this sense, prison can punish crime without actually reducing it.",
@@ -103246,12 +103668,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "A better approach is to combine punishment with rehabilitation.",
@@ -103277,12 +103699,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "Offenders should still face consequences, but those consequences should help them rebuild their lives and repay society.",
@@ -103313,12 +103735,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "Drug treatment, psychological counselling, vocational training, community service, and victim compensation can all make punishment more constructive.",
@@ -103348,12 +103770,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "For instance, someone who has committed a non-violent offence could be required to work in the community while attending training courses and meeting strict supervision conditions.",
@@ -103379,12 +103801,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "This approach does not excuse the crime; rather, it turns punishment into a ladder instead of a cage.",
@@ -103415,12 +103837,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            15
+            16
           ]
         },
         "english": "It gives offenders a realistic path back into society, which ultimately makes communities safer.",
@@ -103451,16 +103873,16 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 15,
+        "index": 16,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            16
+            17
           ]
         },
         "english": "In conclusion, prison may look like a strong solution, but it is often a blunt instrument.",
-        "chinese": "總結來說，監獄可能看起來是一種有力的解決方法，但它往往是一種粗糙不精準的工具",
+        "chinese": "總結來說，監獄可能看起來是一種有力的解決方法，但它往往是一種粗糙不精準的工具。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "In conclusion, [總結立場句子]",
@@ -103482,12 +103904,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 16,
+        "index": 17,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            17
+            18
           ]
         },
         "english": "I believe that rehabilitation and structured alternatives are better ways to deal with most criminals because they reduce reoffending, repair damage, and help society break the cycle of crime.",
@@ -103930,7 +104352,7 @@
           ]
         },
         "english": "Similarly, some violent crimes are linked to anger, revenge, addiction or social breakdown rather than simple economic need.",
-        "chinese": "同樣地，一些暴力犯罪與憤怒、報復、成癮或社會關係崩壞有關，不是單純的經濟需要",
+        "chinese": "同樣地，一些暴力犯罪與憤怒、報復、成癮或社會關係崩壞有關，並非單純出於經濟需要。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "[被討論的情況] are linked to [與其相關的因素]",
@@ -105979,7 +106401,7 @@
           ]
         },
         "english": "These habits are highly relevant to the modern workplace, where many tasks require originality rather than mechanical obedience.",
-        "chinese": "這些習慣與現代職場高度相關，因許多工作任務需要的是原創性，而不是機械式的服從",
+        "chinese": "這些習慣與現代職場高度相關，因許多工作任務需要的是原創性，而不是機械式的服從。",
         "origin": "sentence-support-bank",
         "sourceRow": "S380",
         "formula": "[多項討論的活動] require [所需投入].",
@@ -107436,7 +107858,7 @@
           ]
         },
         "english": "If university fees are extremely high, many young people either abandon their ambitions or begin adult life under a mountain of debt.",
-        "chinese": "如果大學學費極高，許多年輕人不是放棄自己的抱負，就是在沉重債務下開始成年生活",
+        "chinese": "如果大學學費極高，許多年輕人不是放棄自己的抱負，就是在沉重債務下開始成年生活。",
         "origin": "essay-mapping",
         "sourceRow": 11,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -108568,8 +108990,8 @@
             6
           ]
         },
-        "english": "In this sense, spending money on wildlife is not money thrown into the wilderness. It is an investment in the invisible machinery that keeps human life running.",
-        "chinese": "從這個意義上說，花錢保護野生動物並不是把錢丟進荒野之中。這是對維持人類生活運作的無形機器作出投資。",
+        "english": "In this sense, spending money on wildlife is not money thrown into the wilderness.",
+        "chinese": "從這個意義上說，花錢保護野生動物並不是把錢丟進荒野之中。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -108582,7 +109004,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " spending money on wildlife is not money thrown into the wilderness. It is an investment in the invisible machinery that keeps human life running.",
+            "text": " spending money on wildlife is not money thrown into the wilderness.",
             "kind": "slot",
             "label": "從此角度作出的判斷句子"
           }
@@ -108593,10 +109015,46 @@
       {
         "index": 7,
         "source": {
+          "paragraph": 2,
+          "sentence": 6,
+          "sourceIndices": [
+            7
+          ]
+        },
+        "english": "It is an investment in the invisible machinery that keeps human life running.",
+        "chinese": "這是對維持人類生活運作的無形機器作出投資。",
+        "origin": "essay-mapping",
+        "sourceRow": 13,
+        "formula": "It is an investment in the invisible machinery that keeps [重要系統] running.",
+        "meaning": "這是一項投資，支持維持重要系統運作、但不易被看見的基礎。",
+        "usage": "要說明投資一項不顯眼、卻維持系統運作的基礎時。",
+        "parts": [
+          {
+            "text": "It is an investment in the invisible machinery that keeps",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " human life ",
+            "kind": "slot",
+            "label": "重要系統"
+          },
+          {
+            "text": "running.",
+            "kind": "link",
+            "label": "句型固定部分"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 8,
+        "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Another important point is that conservation and social welfare should not be treated as enemies competing for the same piece of bread.",
@@ -108622,12 +109080,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "Responsible governments must fund hospitals, schools, housing, and public safety, but this does not mean that wildlife protection should be pushed aside.",
@@ -108658,12 +109116,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "In fact, many conservation projects also benefit local communities directly.",
@@ -108672,12 +109130,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "National parks, marine reserves, and forest-protection schemes can create jobs, attract tourism, preserve clean water, and protect rural livelihoods.",
@@ -108686,12 +109144,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "When these projects are managed well, they do not drain public resources; they create long-term value.",
@@ -108727,12 +109185,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "Ignoring wildlife may seem cheaper in the short term, but it can become far more expensive when environmental damage has to be repaired later.",
@@ -108741,12 +109199,12 @@
         "reviewStatus": "needs-authorship"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In conclusion, I do not agree that governments spend too much on protecting wildlife.",
@@ -108772,12 +109230,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "Although many social problems deserve serious attention, wildlife conservation is one of the foundations of a safe, healthy, and sustainable society.",
@@ -108824,7 +109282,7 @@
           ]
         },
         "english": "Environmental damage is one of the most serious challenges facing the modern world, and fuel consumption is often seen as an obvious target.",
-        "chinese": "環境破壞是現代世界面臨的最嚴重挑戰之一，而燃料消耗通常被視為一個明顯針對目標",
+        "chinese": "環境破壞是現代世界面臨的最嚴重挑戰之一，而燃料消耗通常被視為一個明顯針對目標。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[被評價的對象] is often seen as [外界賦予的角色或看法]",
@@ -109985,7 +110443,7 @@
           ]
         },
         "english": "The wiser approach is to strengthen local environmental programmes, because they are the foundation on which broader climate action is built.",
-        "chinese": "更明智的做法是加強本地環境計劃，因為它們正是更廣泛氣候行動得以建立的",
+        "chinese": "更明智的做法是加強本地環境計劃，因為它們正是更廣泛氣候行動得以建立的。",
         "origin": "sentence-support-bank",
         "sourceRow": "S005",
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -110195,7 +110653,7 @@
           ]
         },
         "english": "Parks give people somewhere to walk, exercise, breathe fresh air, and recover from the pressure of city life.",
-        "chinese": "公園給人們一個可以散步、運動、呼吸新鮮空氣，並從城市生活壓力中恢復過來的地方",
+        "chinese": "公園給人們一個可以散步、運動、呼吸新鮮空氣，並從城市生活壓力中恢復過來的地方。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "[提供空間的地方] give [使用這個空間的人] somewhere to [在此可做的活動]",
@@ -110562,7 +111020,7 @@
           ]
         },
         "english": "Environmental damage is no longer a local inconvenience but a global crisis, affecting climate, biodiversity and public health.",
-        "chinese": "環境破壞已從局部不便，演變為影響氣候、生物多樣性及公共健康的全球危機",
+        "chinese": "環境破壞已從局部不便，演變為影響氣候、生物多樣性及公共健康的全球危機。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[問題] is no longer [較小範圍的困擾] but [更大層次的危機], affecting [影響範圍].",
@@ -110618,7 +111076,7 @@
           ]
         },
         "english": "Some argue that wealthy countries should shoulder this burden because they have created much of the problem and have the resources to fix it.",
-        "chinese": "有人認為富裕國家應該承擔這項責任，因為它們造成了問題中的很大一部分，也擁有解決問題的資源",
+        "chinese": "有人認為富裕國家應該承擔這項責任，因為它們造成了問題中的很大一部分，也擁有解決問題的資源。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -112472,7 +112930,7 @@
           ]
         },
         "english": "Television, by contrast, often delivers information in a polished stream, leaving little room for reflection or interaction.",
-        "chinese": "相比下，電視往往以一種經過包裝的連續形式傳遞資訊，幾乎沒有留下反思或互動空間",
+        "chinese": "相比下，電視往往以一種經過包裝的連續形式傳遞資訊，幾乎沒有留下反思或互動空間。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "[媒介], by contrast, often delivers [內容] in [呈現方式], leaving little room for [更深入的活動].",
@@ -113209,7 +113667,7 @@
           ]
         },
         "english": "If young people are always silenced or overprotected, they may grow up afraid of disagreement or unable to defend themselves.",
-        "chinese": "如果年輕人總是被壓制或過度保護，他們長大後可能會害怕分歧，或者無法為自己辯護",
+        "chinese": "如果年輕人總是被壓制或過度保護，他們長大後可能會害怕分歧，或者無法為自己辯護。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -113548,7 +114006,7 @@
           ]
         },
         "english": "By contrast, someone who has knowledge but lacks self-control may waste opportunities, give up too quickly, or look for shortcuts.",
-        "chinese": "相比之下，一個有知識但缺乏自制力的人，可能會浪費機會、太快放棄，或者尋找捷徑",
+        "chinese": "相比之下，一個有知識但缺乏自制力的人，可能會浪費機會、太快放棄，或者尋找捷徑。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "By contrast, [形成對照的情況句子]",
@@ -113579,7 +114037,7 @@
           ]
         },
         "english": "In this sense, family values are like the roots of a tree: invisible at first, but essential when the weather turns rough.",
-        "chinese": "從這個角度來看，家庭價值觀就像一棵樹的根：起初看不見，但風雨來臨時卻至關重要",
+        "chinese": "從這個角度來看，家庭價值觀就像一棵樹的根：起初看不見，但風雨來臨時卻至關重要。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "In this sense, [從此角度作出的判斷句子]",
@@ -114538,7 +114996,7 @@
           ]
         },
         "english": "Creative work is often treated as a private passion, yet it also shapes how a society remembers, feels and understands itself.",
-        "chinese": "創意工作經常被視為一種個人的熱情，但也塑造了一個社會如何記憶、感受和理解自身",
+        "chinese": "創意工作經常被視為一種個人的熱情，但也塑造了一個社會如何記憶、感受和理解自身。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[被評價的對象] is often treated as [外界賦予的角色或看法]",
@@ -115522,7 +115980,7 @@
           ]
         },
         "english": "Museums, galleries, concerts, public performances, and cultural festivals help preserve national identity and bring communities together.",
-        "chinese": "博物館、畫廊、音樂會、公眾表演和文化節，有助保存國家身份，並把社區凝聚在一起",
+        "chinese": "博物館、畫廊、音樂會、公眾表演和文化節，有助保存國家身份，並把社區凝聚在一起。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[多種文化活動] help preserve [共同身份] and bring [群體] together.",
@@ -115758,7 +116216,7 @@
           ]
         },
         "english": "A wiser policy is to invest in both, because strong education needs creativity, and a healthy society needs culture.",
-        "chinese": "更明智的政策是同時投資於兩者，因為強大的教育需要創造力，而健康的社會需要文化",
+        "chinese": "更明智的政策是同時投資於兩者，因為強大的教育需要創造力，而健康的社會需要文化。",
         "origin": "sentence-support-bank",
         "sourceRow": "S005",
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -116083,7 +116541,7 @@
           ]
         },
         "english": "A law may draw a line on paper, but people’s habits decide whether that line matters in real life.",
-        "chinese": "法律或能在紙面上劃出界線，但人們的習慣才決定那條界線在現實生活中是否真正重要",
+        "chinese": "法律或能在紙面上劃出界線，但人們的習慣才決定那條界線在現實生活中是否真正重要。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -117662,7 +118120,7 @@
           ]
         },
         "english": "For example, a low-income worker who develops cancer should not be denied medical care merely because they cannot afford expensive treatment.",
-        "chinese": "例如，一位低收入工人若患上癌症，不應該僅因為負擔不起昂貴治療而被剝奪醫療照顧",
+        "chinese": "例如，一位低收入工人若患上癌症，不應該僅因為負擔不起昂貴治療而被剝奪醫療照顧。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "For example, [具體例子句子]",
@@ -117693,7 +118151,7 @@
           ]
         },
         "english": "If healthcare depends entirely on personal wealth, disease becomes not only a medical problem but also a financial punishment for the vulnerable.",
-        "chinese": "如果醫療完全取決於個人財富，疾病就不再只是醫學問題，也會變成對弱勢人士的一種經濟懲罰",
+        "chinese": "如果醫療完全取決於個人財富，疾病就不再只是醫學問題，也會變成對弱勢人士的一種經濟懲罰。",
         "origin": "essay-mapping",
         "sourceRow": 8,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -118004,7 +118462,7 @@
           ]
         },
         "english": "A fair healthcare system recognises that health is partly personal, but never entirely personal.",
-        "chinese": "一個公平的醫療制度會承認健康在某程度上屬於個人責任，但它絕不全只是個人的責任",
+        "chinese": "一個公平的醫療制度會承認健康在某程度上屬於個人責任，但它絕不全只是個人的責任。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -118368,7 +118826,7 @@
           ]
         },
         "english": "Another important point is that exercise also improves mental health, which is an essential part of overall well-being.",
-        "chinese": "另一個重要觀點是，運動也能改善心理健康，這是整體福祉中不可或缺的一環",
+        "chinese": "另一個重要觀點是，運動也能改善心理健康，這是整體福祉中不可或缺的一環。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "[先說明的情況句子], which [補充的影響或說明句子]",
@@ -119074,7 +119532,7 @@
           ]
         },
         "english": "This not only improves individual well-being, but also allows hospitals and clinics to focus more resources on patients who urgently need treatment.",
-        "chinese": "這不但能改善個人的健康福祉，也能讓醫院和診所有更多資源集中照顧迫切需要治療的病人",
+        "chinese": "這不但能改善個人的健康福祉，也能讓醫院和診所有更多資源集中照顧迫切需要治療的病人。",
         "origin": "essay-mapping",
         "sourceRow": 18,
         "formula": "[提供條件的做法] allows [受惠對象] to [因此能做的事]",
@@ -121309,7 +121767,7 @@
           ]
         },
         "english": "The real issue is not whether cities should have homes or green spaces, but whether they can combine the two wisely.",
-        "chinese": "真正的問題並不是城市應該擁有住房還是綠化空間，是它們能否明智地把兩者結合起來",
+        "chinese": "真正的問題並不是城市應該擁有住房還是綠化空間，是它們能否明智地把兩者結合起來。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[要重新理解的對象] is not [不準確的看法] but [較準確的看法]",
@@ -121422,7 +121880,7 @@
           ]
         },
         "english": "A city that looks green but cannot house its people is like a beautifully painted door that no one can enter.",
-        "chinese": "一座看起來綠意盎然卻無法安置居民的城市，就像一扇畫得很漂亮、但沒有人能夠進入的門",
+        "chinese": "一座看起來綠意盎然卻無法安置居民的城市，就像一扇畫得很漂亮、但沒有人能夠進入的門。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "A [地方] that looks [表面優點] but cannot [基本功能] is like [華麗外觀卻無法使用的比喻].",
@@ -121596,7 +122054,7 @@
           ]
         },
         "english": "Translation software has become an ordinary part of daily life, and it can now convert many texts within seconds.",
-        "chinese": "翻譯軟件已經成為日常生活中普通的一部分，而且它現在能夠在數秒之內轉換許多文本",
+        "chinese": "翻譯軟件已經成為日常生活中普通的一部分，而且它現在能夠在數秒之內轉換許多文本。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[出現變化的對象] has become [如今的狀態或角色]",
@@ -122199,7 +122657,7 @@
           ]
         },
         "english": "Computers can support communication, but they cannot replace the cultural understanding, personal confidence and human connection that language learning provides.",
-        "chinese": "電腦可以支援溝通，但它們無法取代語言學習所帶來的文化理解、個人信心和人際連結",
+        "chinese": "電腦可以支援溝通，但它們無法取代語言學習所帶來的文化理解、個人信心和人際連結。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -122746,7 +123204,7 @@
           ]
         },
         "english": "As digital devices become an established part of school life, some schools have begun to reduce, or even remove, handwriting lessons.",
-        "chinese": "隨著數位裝置成為學校生活中既定的一部分，一些學校已開始減少，甚至取消手寫課程",
+        "chinese": "隨著數位裝置成為學校生活中既定的一部分，一些學校已開始減少，甚至取消手寫課程。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "As [先出現的變化句子], [隨之出現的結果句子]",
@@ -123048,7 +123506,7 @@
           ]
         },
         "english": "Schools should prepare pupils not only for ideal digital environments, but also for ordinary real-life moments.",
-        "chinese": "學校不應只讓學生為理想的數位環境作準備，也應讓他們為普通的真實生活場景作準備",
+        "chinese": "學校不應只讓學生為理想的數位環境作準備，也應讓他們為普通的真實生活場景作準備。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[應採取行動的對象] should [建議採取的做法]",
@@ -123125,7 +123583,7 @@
           ]
         },
         "english": "If handwriting is abandoned completely, children may become unnecessarily dependent on screens for even the simplest written tasks.",
-        "chinese": "如果手寫被完全放棄，兒童甚至在最簡單的書寫任務上，也可能變得不必要地依賴螢幕",
+        "chinese": "如果手寫被完全放棄，兒童甚至在最簡單的書寫任務上，也可能變得不必要地依賴螢幕。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -123268,7 +123726,7 @@
           ]
         },
         "english": "A pen may look old-fashioned beside a tablet, but it still teaches control, concentration and self-reliance.",
-        "chinese": "一支筆在平板電腦旁邊也許看起來很老派，但它仍能教會人控制力、專注力和自立能力",
+        "chinese": "一支筆在平板電腦旁邊也許看起來很老派，但它仍能教會人控制力、專注力和自立能力。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -123677,7 +124135,7 @@
           ]
         },
         "english": "Speaking the language allows people to ask questions, understand jokes, join ordinary conversations, and notice how people behave in daily life.",
-        "chinese": "會說該語言讓人能夠提出問題、理解笑話、參與日常對話，並留意人們在日常生活中的行為方式",
+        "chinese": "會說該語言讓人能夠提出問題、理解笑話、參與日常對話，並留意人們在日常生活中的行為方式。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[提供條件的做法] allows [受惠對象] to [因此能做的事]",
@@ -124465,7 +124923,7 @@
           ]
         },
         "english": "Violence has become a familiar feature of modern entertainment, from films and online videos to games and social media clips.",
-        "chinese": "暴力已成現代娛樂中常見的一部分，從電影、網上影片到遊戲和社交媒體短片皆是如此",
+        "chinese": "暴力已成現代娛樂中常見的一部分，從電影、網上影片到遊戲和社交媒體短片皆是如此。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[出現變化的對象] has become [如今的狀態或角色]",
@@ -125931,7 +126389,7 @@
           ]
         },
         "english": "It is not merely an old device from the past, but a simple and reliable companion in situations where screens become a burden.",
-        "chinese": "它除了是昔日的舊設備，也能在螢幕成為負擔時，提供簡單而可靠的陪伴",
+        "chinese": "它除了是昔日的舊設備，也能在螢幕成為負擔時，提供簡單而可靠的陪伴。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "[要重新理解的對象] is not [不準確的看法] but [較準確的看法]",
@@ -127001,7 +127459,7 @@
           ]
         },
         "english": "Cinemas will continue to exist because they provide immersion, community and cultural value that private screens cannot match.",
-        "chinese": "電影院將會繼續存在，因為它們提供了私人螢幕無法相比的沉浸感、群體感和文化價值",
+        "chinese": "電影院將會繼續存在，因為它們提供了私人螢幕無法相比的沉浸感、群體感和文化價值。",
         "origin": "sentence-support-bank",
         "sourceRow": "S005",
         "formula": "[需要解釋的情況句子] because [原因句子]",
@@ -127219,8 +127677,8 @@
             6
           ]
         },
-        "english": "This is not fair competition. It is the deliberate use of adult marketing skills against people whose judgement is still developing.",
-        "chinese": "這並不是公平競爭。這是刻意把成年人的行銷技巧用在判斷力仍在發展中的人身上。",
+        "english": "This is not fair competition.",
+        "chinese": "這並不是公平競爭。",
         "origin": "sentence-support-bank",
         "sourceRow": "S116",
         "formula": "[被重新評估的對象] is not [過於狹窄的看法]; it [較重要的真正作用句子]",
@@ -127238,7 +127696,7 @@
             "label": "句型固定部分"
           },
           {
-            "text": " fair competition. It is the deliberate use of adult marketing skills against people whose judgement is still developing.",
+            "text": " fair competition.",
             "kind": "slot",
             "label": "過於狹窄的看法"
           }
@@ -127248,10 +127706,56 @@
       {
         "index": 7,
         "source": {
+          "paragraph": 2,
+          "sentence": 6,
+          "sourceIndices": [
+            7
+          ]
+        },
+        "english": "It is the deliberate use of adult marketing skills against people whose judgement is still developing.",
+        "chinese": "這是刻意把成年人的行銷技巧用在判斷力仍在發展中的人身上。",
+        "origin": "essay-mapping",
+        "sourceRow": 8,
+        "formula": "It is the deliberate use of [強勢一方的技巧] against people whose [判斷能力] is still developing.",
+        "meaning": "這是強勢一方刻意運用技巧，針對判斷能力尚在發展的人。",
+        "usage": "要把看似普通的做法，重新界定為強勢一方對弱勢對象的刻意利用時。",
+        "parts": [
+          {
+            "text": "It is the deliberate use of",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " adult marketing skills ",
+            "kind": "slot",
+            "label": "強勢一方的技巧"
+          },
+          {
+            "text": "against people whose",
+            "kind": "link",
+            "label": "句型固定部分"
+          },
+          {
+            "text": " judgement ",
+            "kind": "slot",
+            "label": "判斷能力"
+          },
+          {
+            "text": "is still developing.",
+            "kind": "link",
+            "label": "句型固定部分"
+          }
+        ],
+        "alternativeRows": [],
+        "reviewStatus": "candidate"
+      },
+      {
+        "index": 8,
+        "source": {
           "paragraph": 3,
           "sentence": 1,
           "sourceIndices": [
-            7
+            8
           ]
         },
         "english": "Another important concern is the pressure these advertisements create inside the home.",
@@ -127277,12 +127781,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 8,
+        "index": 9,
         "source": {
           "paragraph": 3,
           "sentence": 2,
           "sourceIndices": [
-            8
+            9
           ]
         },
         "english": "When children are repeatedly encouraged to want particular snacks, toys, or fast-food meals, parents are often forced into an unnecessary battle.",
@@ -127318,12 +127822,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 9,
+        "index": 10,
         "source": {
           "paragraph": 3,
           "sentence": 3,
           "sourceIndices": [
-            9
+            10
           ]
         },
         "english": "They either give in and spend money on things the family may not need, or they refuse and face arguments, disappointment, and guilt.",
@@ -127373,12 +127877,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 10,
+        "index": 11,
         "source": {
           "paragraph": 3,
           "sentence": 4,
           "sourceIndices": [
-            10
+            11
           ]
         },
         "english": "This problem is even sharper for low-income families, where every small purchase matters.",
@@ -127419,12 +127923,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 11,
+        "index": 12,
         "source": {
           "paragraph": 3,
           "sentence": 5,
           "sourceIndices": [
-            11
+            12
           ]
         },
         "english": "In addition, many child-focused advertisements promote short-term pleasure rather than healthy habits, which can quietly normalise overconsumption.",
@@ -127460,12 +127964,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 12,
+        "index": 13,
         "source": {
           "paragraph": 3,
           "sentence": 6,
           "sourceIndices": [
-            12
+            13
           ]
         },
         "english": "Childhood should not become a marketplace in which family routines are constantly interrupted by commercial demands.",
@@ -127496,12 +128000,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 13,
+        "index": 14,
         "source": {
           "paragraph": 4,
           "sentence": 1,
           "sourceIndices": [
-            13
+            14
           ]
         },
         "english": "In conclusion, advertisements aimed at children should not be allowed.",
@@ -127527,12 +128031,12 @@
         "reviewStatus": "candidate"
       },
       {
-        "index": 14,
+        "index": 15,
         "source": {
           "paragraph": 4,
           "sentence": 2,
           "sourceIndices": [
-            14
+            15
           ]
         },
         "english": "Young viewers deserve protection from manipulation, and parents should not have to compete with carefully designed marketing campaigns in their own living rooms.",
@@ -129173,7 +129677,7 @@
           ]
         },
         "english": "Although companies may claim that they are only exercising their commercial freedom, this freedom should not come at the expense of young people’s well-being.",
-        "chinese": "儘管公司可能聲稱自己只是在行使商業自由，但這種自由不應以年輕人的福祉作為代價",
+        "chinese": "儘管公司可能聲稱自己只是在行使商業自由，但這種自由不應以年輕人的福祉作為代價。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "Although [讓步情況句子], [主要判斷句子]",
@@ -129599,7 +130103,7 @@
           ]
         },
         "english": "In this sense, books do not merely give answers; they build judgement.",
-        "chinese": "從這個意義上說，書本不只是給出答案；它們還能培養判斷力",
+        "chinese": "從這個意義上說，書本不只是給出答案；它們還能培養判斷力。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "[被重新理解的對象] do not merely [較狹窄的理解]; they [更完整的理解句子]",
@@ -132597,7 +133101,7 @@
           ]
         },
         "english": "A person who has once struggled with a foreign language is less likely to look down on immigrants or tourists who face the same problem at home.",
-        "chinese": "一個曾經因外語而掙扎的人，較容易看不起那些在自己國家面對同樣問題的移民或遊客",
+        "chinese": "一個曾經因外語而掙扎的人，較容易看不起那些在自己國家面對同樣問題的移民或遊客。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "[較不可能出現結果的對象] is less likely to [較不可能出現的行動或結果]",
@@ -133044,7 +133548,7 @@
           ]
         },
         "english": "Another reason is that discovering life on other planets is a scientific curiosity rather than a core governmental responsibility.",
-        "chinese": "另一個理由是，發現其他星球上的生命是一種科學上的好奇心，而不是政府的核心責任",
+        "chinese": "另一個理由是，發現其他星球上的生命是一種科學上的好奇心，而不是政府的核心責任。",
         "origin": "essay-mapping",
         "sourceRow": 12,
         "formula": "Another reason is that [活動或選擇] is a [偏好或探索興趣] rather than a [機構核心責任].",
@@ -133378,7 +133882,7 @@
           ]
         },
         "english": "Teamwork is an essential social skill, and many parents believe that children can learn it best through team sports.",
-        "chinese": "團隊合作是一項重要的社交技能，而許多父母相信，孩子最能透過團隊運動學會這能力",
+        "chinese": "團隊合作是一項重要的社交技能，而許多父母相信，孩子最能透過團隊運動學會這能力。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -134105,7 +134609,7 @@
           ]
         },
         "english": "Others may work long hours, live in unsafe neighbourhoods or simply underestimate how much movement children need.",
-        "chinese": "另一些父母可能長時間工作、住在不安全的社區，或者只是低估了孩子需要多少活動量",
+        "chinese": "另一些父母可能長時間工作、住在不安全的社區，或者只是低估了孩子需要多少活動量。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[討論對象] may [可能出現的行動或結果]",
@@ -134141,7 +134645,7 @@
           ]
         },
         "english": "If schools abandon physical education, the children who already have fewer opportunities outside school will be the first to lose out.",
-        "chinese": "如果學校放棄體育教育，那些在校外本來已經較少機會運動的孩子，將會是最先受損的一群",
+        "chinese": "如果學校放棄體育教育，那些在校外本來已經較少機會運動的孩子，將會是最先受損的一群。",
         "origin": "essay-mapping",
         "sourceRow": 6,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -135283,7 +135787,7 @@
           ]
         },
         "english": "A medical student, an engineering student and a literature student already face demanding lectures, projects, placements and deadlines.",
-        "chinese": "醫科,工程學生和文學學生本身已經要面對要求很高的講座、項目、實習和截止日期",
+        "chinese": "醫科,工程學生和文學學生本身已經要面對要求很高的講座、項目、實習和截止日期。",
         "origin": "essay-mapping",
         "sourceRow": 5,
         "formula": "[對象一], [對象二] and [對象三] already face [現有負擔].",
@@ -135635,7 +136139,7 @@
           ]
         },
         "english": "These measures encourage students to build routines they can sustain.",
-        "chinese": "這些措施能鼓勵學生建立他們可以長期維持的日常習慣",
+        "chinese": "這些措施能鼓勵學生建立他們可以長期維持的日常習慣。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -136636,7 +137140,7 @@
           ]
         },
         "english": "For competitors from less privileged backgrounds, these events can provide income, national pride, and personal dignity.",
-        "chinese": "對於來自較不優越背景的參賽者而言，這些賽事可以帶來收入、民族自豪感和個人尊嚴",
+        "chinese": "對於來自較不優越背景的參賽者而言，這些賽事可以帶來收入、民族自豪感和個人尊嚴。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "[能採取行動的對象] can [能做到的行動或結果]",
@@ -136806,7 +137310,7 @@
           ]
         },
         "english": "With proper regulation, they can promote discipline, opportunity, and cultural respect far more effectively than a blanket ban ever could.",
-        "chinese": "在適當規管之下，它們能夠促進紀律、機會和文化尊重，而這遠比一刀切的禁令更有效",
+        "chinese": "在適當規管之下，它們能夠促進紀律、機會和文化尊重，而這遠比一刀切的禁令更有效。",
         "origin": "essay-mapping",
         "sourceRow": 20,
         "formula": "With [已具備的條件], [在此條件下的結果句子]",
@@ -136849,7 +137353,7 @@
           ]
         },
         "english": "Technology has changed not only how people communicate, but also how much effort they put into real social contact.",
-        "chinese": "科技不但改變了人們溝通的方式，也改變了人們願意投入多少努力進行真正的社交接觸",
+        "chinese": "科技不但改變了人們溝通的方式，也改變了人們願意投入多少努力進行真正的社交接觸。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       },
@@ -137804,7 +138308,7 @@
           ]
         },
         "english": "If television and gaming fill most of their free time, these protective routines are squeezed out.",
-        "chinese": "如果電視和遊戲佔據了大部分的空閒時間，這些具有保護作用的日常活動便會被擠走",
+        "chinese": "如果電視和遊戲佔據了大部分的空閒時間，這些具有保護作用的日常活動便會被擠走。",
         "origin": "essay-mapping",
         "sourceRow": 13,
         "formula": "If [條件句子], [相應的結果、推測或建議]",
@@ -137967,7 +138471,7 @@
           ]
         },
         "english": "They may look like harmless entertainment, but when they dominate a child’s daily life, they can weaken emotional control, reduce real-world interaction, and turn childhood into a much narrower experience.",
-        "chinese": "它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並把童年變成一種狹窄得多的經歷",
+        "chinese": "它們看起來可能像是無害的娛樂，但當它們主導孩子的日常生活時，便可能削弱情緒控制能力、減少真實世界中的互動，並把童年變成一種狹窄得多的經歷。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -138498,7 +139002,7 @@
           ]
         },
         "english": "Travel content has become an established part of modern entertainment, from television documentaries to short videos posted by influencers.",
-        "chinese": "旅遊內容已成為現代娛樂中既定的一部分，從電視紀錄片到網紅發布的短影片皆是如此",
+        "chinese": "旅遊內容已成為現代娛樂中既定的一部分，從電視紀錄片到網紅發布的短影片皆是如此。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "[出現變化的對象] has become [如今的狀態或角色]",
@@ -138963,7 +139467,7 @@
           ]
         },
         "english": "It may entertain audiences at home, but it more often fuels their desire to go abroad and experience the world first-hand.",
-        "chinese": "它或許能娛樂留在家中的觀眾，但更多時候，它會激發他們出國並親身體驗世界的渴望",
+        "chinese": "它或許能娛樂留在家中的觀眾，但更多時候，它會激發他們出國並親身體驗世界的渴望。",
         "origin": "unmatched",
         "reviewStatus": "needs-authorship"
       }
@@ -139030,7 +139534,7 @@
           ]
         },
         "english": "Some people therefore argue that visitors should adjust to the local way of life rather than expect the host culture to accommodate them.",
-        "chinese": "因此，有些人認為，旅客應該適應當地的生活方式，而不是期望東道主文化去遷就他們",
+        "chinese": "因此，有些人認為，旅客應該適應當地的生活方式，而不是期望東道主文化去遷就他們。",
         "origin": "essay-mapping",
         "sourceRow": 2,
         "formula": "Some people therefore argue that [部分人的主張句子]",
@@ -140126,7 +140630,7 @@
           ]
         },
         "english": "Some argue that people should be encouraged to live in cities rather than in suburbs or rural areas to solve transport problems.",
-        "chinese": "有人認為，為了解決交通問題，應該鼓勵人們居住在城市，而不是住在郊區或鄉村地區",
+        "chinese": "有人認為，為了解決交通問題，應該鼓勵人們居住在城市，而不是住在郊區或鄉村地區。",
         "origin": "essay-mapping",
         "sourceRow": 1,
         "formula": "Some argue that [部分人的主張句子]",
@@ -140830,7 +141334,7 @@
           ]
         },
         "english": "Many people do not fly for pleasure; they travel for work, education, medical treatment or family responsibilities.",
-        "chinese": "許多人乘搭飛機並不是為了享樂；他們是為了工作、教育、醫療治療或家庭責任而出行",
+        "chinese": "許多人乘搭飛機並不是為了享樂；他們是為了工作、教育、醫療治療或家庭責任而出行。",
         "origin": "essay-mapping",
         "sourceRow": 7,
         "formula": "Many people do not [被討論的行為] for [常被假設的目的]; they [實際所做的行動] for [實際需要].",
@@ -142297,7 +142801,7 @@
           ]
         },
         "english": "These qualities are difficult to measure through a résumé, yet they strongly influence whether someone will succeed in a demanding role.",
-        "chinese": "這些特質很難透過履歷來衡量，但它們會強烈影響一個人能否在要求高的職位中取得成功",
+        "chinese": "這些特質很難透過履歷來衡量，但它們會強烈影響一個人能否在要求高的職位中取得成功。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "[原本預期的情況句子], yet [仍然出現的相反結果句子]",
@@ -142656,7 +143160,7 @@
           ]
         },
         "english": "Celebrities may entertain millions, but entertainment is a luxury; healthcare and education are the oxygen of social progress.",
-        "chinese": "名人或許能娛樂數以百萬計的人，但娛樂是一種奢侈；醫療和教育才是社會進步的氧氣",
+        "chinese": "名人或許能娛樂數以百萬計的人，但娛樂是一種奢侈；醫療和教育才是社會進步的氧氣。",
         "origin": "essay-mapping",
         "sourceRow": 9,
         "formula": "[先提出的情況句子], but [形成轉折的情況句子]",
@@ -142692,7 +143196,7 @@
           ]
         },
         "english": "For this reason, it is morally difficult to justify paying a footballer more than a nurse who saves lives every week.",
-        "chinese": "因此，從道德角度看，很難合理化一名足球員比一位每週拯救生命的護士獲得更高薪酬",
+        "chinese": "因此，從道德角度看，很難合理化一名足球員比一位每週拯救生命的護士獲得更高薪酬。",
         "origin": "essay-mapping",
         "sourceRow": 10,
         "formula": "For this reason, [由前述理由支持的判斷句子]",
@@ -142948,7 +143452,7 @@
           ]
         },
         "english": "While celebrities can enrich people’s leisure time, essential workers protect lives, shape minds and hold society together.",
-        "chinese": "雖然名人可豐富人們的休閒時間，但必要工作者保護生命、塑造思想，並維繫整個社會",
+        "chinese": "雖然名人可豐富人們的休閒時間，但必要工作者保護生命、塑造思想，並維繫整個社會。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "While [第一種情況句子], [形成對比的另一種情況句子]",
@@ -143446,7 +143950,7 @@
           ]
         },
         "english": "Over time, this would not create a peaceful workplace; it would create a quiet frustration under the surface.",
-        "chinese": "長遠而言，這並不會創造一個平和的工作場所；它只在表面之下製造一種沉默的挫敗感",
+        "chinese": "長遠而言，這並不會創造一個平和的工作場所；它只在表面之下製造一種沉默的挫敗感。",
         "origin": "essay-mapping",
         "sourceRow": 15,
         "formula": "Over time, [逐漸出現的變化句子]",
@@ -143482,7 +143986,7 @@
           ]
         },
         "english": "In conclusion, paying everyone the same may appear to remove jealousy, but it would actually undermine fairness, motivation, and respect.",
-        "chinese": "總結來說，給每個人相同薪金看似可以消除嫉妒，但實際上卻會削弱公平、動力和尊重",
+        "chinese": "總結來說，給每個人相同薪金看似可以消除嫉妒，但實際上卻會削弱公平、動力和尊重。",
         "origin": "essay-mapping",
         "sourceRow": 17,
         "formula": "In conclusion, [總結立場句子]",
@@ -143894,7 +144398,7 @@
           ]
         },
         "english": "Another reason is that the problems linked to foreign workers are usually caused by poor management rather than immigration itself.",
-        "chinese": "另一個原因是，與外籍工人有關的問題通常是由管理不善造成，而不是由移民本身造成",
+        "chinese": "另一個原因是，與外籍工人有關的問題通常是由管理不善造成，而不是由移民本身造成。",
         "origin": "essay-mapping",
         "sourceRow": 14,
         "formula": "Another reason is that [表面上相關的多項問題] are usually caused by [真正成因] rather than [被錯誤歸咎的因素].",
@@ -143950,7 +144454,7 @@
           ]
         },
         "english": "Local resentment may arise when wages are unfair, housing is overcrowded, or newcomers are left socially isolated.",
-        "chinese": "當工資不公平、住房過度擁擠，或者新來者在社交上被孤立時，本地人的不滿情緒便可能出現",
+        "chinese": "當工資不公平、住房過度擁擠，或者新來者在社交上被孤立時，本地人的不滿情緒便可能出現。",
         "origin": "essay-mapping",
         "sourceRow": 16,
         "formula": "[討論對象] may [可能出現的行動或結果]",
@@ -144053,7 +144557,7 @@
           ]
         },
         "english": "It treats them as the problem, when in reality they are often filling gaps that the local labour market has failed to solve.",
-        "chinese": "這種做法把他們視為問題，但事實上，他們往往是在填補本地勞動市場未能解決的空缺",
+        "chinese": "這種做法把他們視為問題，但事實上，他們往往是在填補本地勞動市場未能解決的空缺。",
         "origin": "essay-mapping",
         "sourceRow": 19,
         "formula": "[有待批評的看法] treats [被錯認為問題的人] as the problem, when in reality they are often [實際作用].",

@@ -1451,7 +1451,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
     "translation": [
       "在銷售行業中，人們很容易假設最好的員工就是那些最積極追求金錢的人，因為佣金會直接獎勵工作成果。我不同意這種觀點：金錢並不是持續努力工作的真正推動力，而招聘應該著重於品格和面對客戶的能力，而不是單靠對金錢的渴望。",
       "金錢也許能推動人們多打一通電話，或多完成一筆交易，但它本身很少能產生持久的投入感。如果一名銷售人員只受到收入驅動，他們的努力便取決於回報是否能夠即時看見。當目標變得更困難、客戶變得更謹慎，或者拒絕不斷累積時，這種動力便可能很快耗盡。更重要的是，一個金錢至上的員工可能會把客戶視為交易，而不是有真實需要的人，這可能會損害信任，並削弱長期商業關係。真正的努力工作更有可能來自專業自豪感、抗壓能力，以及對所銷售產品的信念。當容易得到的回報消失時，這些特質能讓一個人保持穩定。",
-      "因此，在招聘銷售員工時，公司應該考慮幾項實際的特質。第一項是溝通能力：一名優秀的銷售人員必須細心聆聽、清楚解釋產品好處，並根據不同客戶調整語氣。銷售不只是說話；它是理解人。第二個因素是抗壓能力，因為被拒絕是這份工作的一部分。一個在失去交易後仍能保持冷靜的求職者，遠比一個只有在一切順利時才充滿幹勁的人更有價值。最後，誠信應該被視為不可或缺的特質。銷售員工代表公司的形象，而一個不誠實的承諾可能會多年來損害一個品牌的聲譽。",
+      "因此，在招聘銷售員工時，公司應該考慮幾項實際的特質。第一項是溝通能力：一名優秀的銷售人員必須細心聆聽、清楚解釋產品好處，並根據不同客戶調整語氣。銷售不只是說話；它是理解人。第二個因素是抗壓能力，因為被拒絕是這份工作的一部分。一個在未能成交後仍能保持冷靜的求職者，遠比一個只有在一切順利時才充滿幹勁的人更有價值。最後，誠信應該被視為不可或缺的特質。銷售員工代表公司的形象，而一個不誠實的承諾可能在往後多年損害品牌聲譽。",
       "總結來說，金錢也許是一種有用的激勵，但不應被視為努力工作的主要引擎。對於銷售職位，公司應該招聘那些具說服力、有抗壓能力、有道德操守，並真正能夠與客戶建立信任的人。"
     ],
     "translationSections": [
@@ -1537,7 +1537,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "A candidate who can stay calm after losing a deal is far more valuable than one who is energetic only when everything goes well.",
-            "chinese": "一個在失去交易後仍能保持冷靜的求職者，遠比一個只有在一切順利時才充滿幹勁的人更有價值。"
+            "chinese": "一個在未能成交後仍能保持冷靜的求職者，遠比一個只有在一切順利時才充滿幹勁的人更有價值。"
           },
           {
             "label": "Supporting Detail 3（支持細節三）",
@@ -1547,7 +1547,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Sales staff represent the company’s face, and one dishonest promise can poison a brand’s reputation for years.",
-            "chinese": "銷售員工代表公司的形象，而一個不誠實的承諾可能會多年來損害一個品牌的聲譽。"
+            "chinese": "銷售員工代表公司的形象，而一個不誠實的承諾可能在往後多年損害品牌聲譽。"
           }
         ]
       },
@@ -2017,8 +2017,13 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           },
           {
             "label": "Conclusion of Body Paragraph（段落總結）",
-            "english": "In this sense, price can create desire by giving a product an aura of value. It tells buyers not only what the item costs, but also what owning it might say about them.",
-            "chinese": "從這個意義上說，價格可以透過賦予產品一種價值光環來創造購買慾望。它告訴買家的不只是這件物品的成本，也包括擁有它可能代表著他們是怎樣的人。"
+            "english": "In this sense, price can create desire by giving a product an aura of value.",
+            "chinese": "從這個意義上說，價格可以透過賦予產品一種價值光環來創造購買慾望。"
+          },
+          {
+            "label": "Elaboration（闡述）",
+            "english": "It tells buyers not only what the item costs, but also what owning it might say about them.",
+            "chinese": "它告訴買家的不只是這件物品的成本，也包括擁有它可能代表著他們是怎樣的人。"
           }
         ]
       },
@@ -3027,8 +3032,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
     ],
     "translation": [
       "學校中的成功與人生中的成功並不總是取決於相同的能力。雖然教育很有價值，但它只衡量有限範圍的技能。因此，有些人在學業失敗後仍然取得成功，是因為人生獎賞的是更廣泛的能力，而其中最重要的是韌性。",
-      "其中一個原因是，學校往往獎賞紀律、記憶力、考試技巧，以及遵從固定制度的能力。這些素質是有用的，但它們並不是全部。在課室之外，人們可能會成功，是因為他們務實、具備社交智慧、有創意，或者願意承擔經過計算的風險。例如，一個在筆試中表現吃力的學生，仍然可能擁有敏銳的商業直覺、理解顧客的能力，或者在失敗後重新開始的勇氣。從這個意義上說，糟糕的學校成績並不總是對一個人能力的最終判斷；它們可能只是顯示某一個特定制度並不適合他們。一旦這些人找到讓他們感到有目標的工作，他們便能培養出在學校裡從未展現過的專注力和自信。",
-      "人生成功最重要的東西是韌性。天賦、教育和運氣都很重要，但如果一個人太容易放棄，這些優勢都是脆弱的。人生很少會沿著一條直線前進：人們會失去工作、作出錯誤決定、面對拒絕，並遇上沒有任何教科書曾經讓他們準備好的問題。韌性使他們能夠承受這些挫折，而不被這些挫折所定義。更重要的是，它把失敗轉化為回饋。例如，一位年輕創業者的第一個想法失敗後，可能會學會如何管理金錢、聆聽顧客，以及建立一個更強的計劃。沒有韌性，那第一次失敗便會成為終點；有了韌性，它便會成為一段艱難但有用的學徒期。",
+      "其中一個原因是，學校往往獎賞紀律、記憶力、考試技巧，以及遵從固定制度的能力。這些素質是有用的，但它們並不是全部。在課室之外，人們可能會成功，是因為他們務實、具備社交智慧、有創意，或者願意承擔經過計算的風險。例如，一個在筆試中表現吃力的學生，仍然可能擁有敏銳的商業直覺、理解顧客的能力，或者在失敗後重新開始的勇氣。從這個意義上說，糟糕的學校成績並不總是對一個人能力的最終判斷；它們可能只是顯示某一個特定制度並不適合他們。一旦這些人找到讓他們感到有意義的工作，他們便能培養出在學校裡從未展現過的專注力和自信。",
+      "人生成功最重要的東西是韌性。天賦、教育和運氣都很重要，但如果一個人太容易放棄，這些優勢都是脆弱的。人生很少會沿著一條直線前進：人們會失去工作、作出錯誤決定、面對拒絕，並遇上教科書從未教他們如何應對的問題。韌性使他們能夠承受這些挫折，而不被這些挫折所定義。更重要的是，它把失敗轉化為回饋。例如，一位年輕創業者的第一個想法失敗後，可能會學會如何管理金錢、聆聽顧客，以及建立一個更強的計劃。沒有韌性，那第一次失敗便會成為終點；有了韌性，它便會成為一段艱難但有用的學徒期。",
       "總結來說，有些人在學校失敗後仍然成功，是因為人生獎賞的遠遠不只是學業表現。韌性是最重要的素質，因為它能幫助人們在事情出錯時繼續學習、適應，並向前走。"
     ],
     "translationSections": [
@@ -3039,8 +3044,13 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
         "items": [
           {
             "label": "Background（背景）",
-            "english": "Success at school and success in life do not always depend on the same abilities. While education is valuable, it measures only a limited range of skills.",
-            "chinese": "學校中的成功與人生中的成功並不總是取決於相同的能力。雖然教育很有價值，但它只衡量有限範圍的技能。"
+            "english": "Success at school and success in life do not always depend on the same abilities.",
+            "chinese": "學校中的成功與人生中的成功並不總是取決於相同的能力。"
+          },
+          {
+            "label": "Background（背景）",
+            "english": "While education is valuable, it measures only a limited range of skills.",
+            "chinese": "雖然教育很有價值，但它只衡量有限範圍的技能。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -3082,7 +3092,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Conclusion of Body Paragraph（段落總結）",
             "english": "Once such people find work that feels purposeful, they can develop the focus and confidence that they never showed in school.",
-            "chinese": "一旦這些人找到讓他們感到有目標的工作，他們便能培養出在學校裡從未展現過的專注力和自信。"
+            "chinese": "一旦這些人找到讓他們感到有意義的工作，他們便能培養出在學校裡從未展現過的專注力和自信。"
           }
         ]
       },
@@ -3104,7 +3114,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Life rarely moves in a straight line: people lose jobs, make poor decisions, face rejection and meet problems that no textbook has prepared them for.",
-            "chinese": "人生很少會沿著一條直線前進：人們會失去工作、作出錯誤決定、面對拒絕，並遇上沒有任何教科書曾經讓他們準備好的問題。"
+            "chinese": "人生很少會沿著一條直線前進：人們會失去工作、作出錯誤決定、面對拒絕，並遇上教科書從未教他們如何應對的問題。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -3559,8 +3569,8 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
     "translation": [
       "管理層面試通常考察的遠遠不只是候選人的專業能力，因為經理被期望能影響他人、作出決策，並代表一個機構的價值觀。在我看來，領導力並不是一種天生技能；相反，它是一種透過訓練、經驗和自我覺察而發展出來的實用能力。公司在挑選經理時，通常也會尋找情緒智商、良好判斷力和可靠性。",
       "領導力不應被視為人們只是天生便擁有的東西。儘管有些人可能天生看起來更有自信或更有魅力，但單靠這些特質並不能使他們成為有效的領導者。真正的領導力包括仔細聆聽、解決衝突、設定清晰期望，以及幫助他人在壓力下有良好表現。這些能力通常是透過反覆面對困難情況而建立起來的。例如，一位初級員工如果逐漸學會如何處理不滿的客戶、支援能力較弱的同事，以及組織團隊項目，可能會比一個只是天生性格強勢的人，成為更出色的領導者。從這個意義上說，領導力與其說像一份天賦，不如說更像一塊肌肉：當它被訓練、考驗和修正時，它就會變得更強。",
-      "除了領導力之外，公司通常希望經理能夠理解他人，並作出平衡的決定。情緒智商是必不可少的，因為一位無法察覺團隊氣氛的經理，即使技術知識很出色，也可能製造不必要的緊張。一位好的經理必須知道何時應該鼓勵、何時應該提出挑戰，以及何時應該退一步。此外，企業也會尋找誠信和問責能力。經理經常掌管預算、評估員工，並傳達敏感資訊，因此他們必須被信任會公平行事，而不是保護自己的利益。如果沒有這些品質，一位經理可能在表面上顯得有效率，但在實際工作中卻會造成傷害",
-      "總結來說，領導力是透過經驗和有意識的改進所培養的技能，並非天生的才能基於這個原因，公司不只評估知識，也評估性格是合理的，尤其是同理心、判斷力、誠信和責任感等品質。"
+      "除了領導力之外，公司通常希望經理能夠理解他人，並作出平衡的決定。情緒智商是必不可少的，因為一位無法察覺團隊氣氛的經理，即使技術知識很出色，也可能製造不必要的緊張。一位好的經理必須知道何時應該鼓勵、何時應該提出挑戰，以及何時應該退一步。此外，企業也會尋找誠信和問責能力。經理經常掌管預算、評估員工，並傳達敏感資訊，因此他們必須值得信任，能公平行事，而非只顧私利。如果沒有這些品質，一位經理可能在表面上顯得有效率，但在實際工作中卻會造成傷害。",
+      "總結來說，領導力是透過經驗和有意識的改進所培養的技能，並非天生的才能。基於這個原因，公司同時評估性格和知識是合理的，尤其應重視同理心、判斷力、誠信和責任感等特質。"
     ],
     "translationSections": [
       {
@@ -3650,12 +3660,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Managers often control budgets, evaluate staff and communicate sensitive information, so they must be trusted to act fairly rather than protect their own interests.",
-            "chinese": "經理經常掌管預算、評估員工，並傳達敏感資訊，因此他們必須被信任會公平行事，而不是保護自己的利益。"
+            "chinese": "經理經常掌管預算、評估員工，並傳達敏感資訊，因此他們必須值得信任，能公平行事，而非只顧私利。"
           },
           {
             "label": "Conclusion（段落總結）",
             "english": "Without these qualities, a manager may become efficient on paper but harmful in practice.",
-            "chinese": "如果沒有這些品質，一位經理可能在表面上顯得有效率，但在實際工作中卻會造成傷害"
+            "chinese": "如果沒有這些品質，一位經理可能在表面上顯得有效率，但在實際工作中卻會造成傷害。"
           }
         ]
       },
@@ -3667,12 +3677,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Reiterating Stance（重申立場）",
             "english": "In conclusion, leadership is not an inborn talent but a skill shaped by experience and deliberate improvement.",
-            "chinese": "總結來說，領導力是透過經驗和有意識的改進所培養的技能，並非天生的才能"
+            "chinese": "總結來說，領導力是透過經驗和有意識的改進所培養的技能，並非天生的才能。"
           },
           {
             "label": "Reiterating Answer（重申答案）",
             "english": "For this reason, companies rightly assess personality as well as knowledge, especially qualities such as empathy, judgement, integrity and responsibility.",
-            "chinese": "基於這個原因，公司不只評估知識，也評估性格是合理的，尤其是同理心、判斷力、誠信和責任感等品質。"
+            "chinese": "基於這個原因，公司同時評估性格和知識是合理的，尤其應重視同理心、判斷力、誠信和責任感等特質。"
           }
         ]
       }
@@ -5187,8 +5197,13 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
         "items": [
           {
             "label": "Background（背景）",
-            "english": "In many families, academic achievement is treated not merely as a personal goal for children, but as a measure of future security. This is why some parents place excessive pressure on their children to perform well at school.",
-            "chinese": "在許多家庭中，學業成就不僅被視為孩子的個人目標，也被看作未來保障的一種衡量標準。這就是為甚麼一些父母會給孩子施加過度壓力，要求他們在學校表現優異。"
+            "english": "In many families, academic achievement is treated not merely as a personal goal for children, but as a measure of future security.",
+            "chinese": "在許多家庭中，學業成就不僅被視為孩子的個人目標，也被看作未來保障的一種衡量標準。"
+          },
+          {
+            "label": "Background（背景）",
+            "english": "This is why some parents place excessive pressure on their children to perform well at school.",
+            "chinese": "這就是為甚麼一些父母會給孩子施加過度壓力，要求他們在學校表現優異。"
           },
           {
             "label": "Thesis Statement（中心論點）",
@@ -6702,7 +6717,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
       "富裕國家與貧困國家之間的教育差距不斷擴大，是一個嚴重問題，因為它限制了社會流動，並使許多年輕人陷入劣勢循環之中。有幾個實際可行的解決方法可以縮小這種差距，尤其是當政府、國際組織和私人機構共同合作，而不是只把教育視為單一地區問題時。",
       "其中一個重要的解決方法，是增加對基礎教育設施的長期投資。在許多較貧困的國家，學生失敗並不是因為他們缺乏能力；他們是被過度擁擠的課室、設備不足的學校，以及受過訓練教師的短缺所拖累。因此，國際援助不應只投向興建學校，也應投向維修保養學校、提供學習材料，以及合理支付教師薪酬。例如，一所擁有穩定電力、網絡連接、課本和合資格教職員的鄉村學校，會立即給予學生更公平的機會，去與富裕國家的學生競爭。沒有這些基礎，即使是最有抱負的教育改革，也只會停留在紙上承諾。",
       "另一個有效方法，是擴大教師培訓和數位學習。較貧困地區的教師往往較少接觸現代教學方法，因此定期的專業發展可以幫助他們更有效地授課。同時，如果科技被謹慎地引入，它也可以縮小教育差距。網上課程、錄影講座和低成本學習平台，可以把高質素教學帶給那些原本無法接觸專科教師的學生。然而，這不應該只是簡單地派發電子設備。政府和慈善機構也必須提供可負擔的網絡、技術支援，以及符合本地需要的內容，使科技成為橋樑，而不是另一道障礙。",
-      "總結來說，富裕國家與貧困國家之間的教育差距，不能靠一項快速政策解決。它需要對學校的持續投資、更好的教師培訓，以及管理得宜的數位使用途徑。如果這些措施能夠結合起來，較貧困的國家便能為年輕人提供課室以至真正的機會"
+      "總結來說，富裕國家與貧困國家之間的教育差距，不能靠一項快速政策解決。它需要對學校的持續投資、更好的教師培訓，以及管理得宜的數位使用途徑。如果這些措施能夠結合起來，較貧困的國家便能為年輕人提供課室以至真正的機會。"
     ],
     "translationSections": [
       {
@@ -6809,7 +6824,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Closing Line（收結句）",
             "english": "If these measures are combined, poorer countries can give their young people not just classrooms, but genuine opportunities.",
-            "chinese": "如果這些措施能夠結合起來，較貧困的國家便能為年輕人提供課室以至真正的機會"
+            "chinese": "如果這些措施能夠結合起來，較貧困的國家便能為年輕人提供課室以至真正的機會。"
           }
         ]
       }
@@ -7646,7 +7661,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
       "有些人認為，教學只是把知識從專家傳遞給學習者。我強烈不同意這種狹隘的看法。在我看來，教師的核心角色是激勵和啟發學生，因為知識只有在學生願意投入其中、質疑它，並在課堂以外運用它時，才會真正變得有價值。",
       "第一個原因是，動機能把資訊轉化為真正的學習。一位教師可以講授一堂完全準確的課，但如果學生感到沉悶、被動，或者害怕犯錯，那麼大部分知識在考試後都會逐漸消散。相比之下，一位能啟發學生的教師會激發好奇心。這樣的教師不只是告訴學生歷史上發生了甚麼，或者一條公式如何運作；他們會幫助學生明白為甚麼這些知識重要。例如，一位把過去的衝突與現代正義觀念連繫起來的歷史老師，可能會引導學生辯論、挑戰既有假設，並更深刻地記住那堂課。從這個意義上說，啟發並不是裝飾性的東西；它是讓學習持續運轉的引擎。",
       "另一個原因是，教師會塑造學生帶入成年階段的態度、自信和習慣。事實性知識現在可以在書本、影片和數碼平台上找到，但年輕人仍然需要引導，才能培養自律、韌性和intellectualcourage。一位能激勵學生的教師，可以改變學生如何看待自己作為學習者的身份。例如，當一位科學老師在一次實驗失敗後鼓勵一名能力較弱的學生時，這名學生可能會停止把失敗視為羞辱，並開始把它看成探索的一部分。這一課比教科書中的單一章節更加持久。",
-      "總結來說，雖然教師必須清楚解釋知識，但他們更深層的角色是啟發學生去重視學習。資訊可以被傳遞，但自信、好奇心和目標感必須被喚醒"
+      "總結來說，雖然教師必須清楚解釋知識，但他們更深層的角色是啟發學生去重視學習。資訊可以被傳遞，但自信、好奇心和目標感必須被喚醒。"
     ],
     "translationSections": [
       {
@@ -7753,7 +7768,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Closing Line（結尾句）",
             "english": "Information can be handed over, but confidence, curiosity and purpose have to be awakened.",
-            "chinese": "資訊可以被傳遞，但自信、好奇心和目標感必須被喚醒"
+            "chinese": "資訊可以被傳遞，但自信、好奇心和目標感必須被喚醒。"
           }
         ]
       }
@@ -8152,7 +8167,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
     "translation": [
       "人口增長和快速城市擴張，正對森林、海岸線、河流以及其他風景優美的地區造成巨大壓力。保護這些地方並不只是環境方面的偏好；它能帶來明顯的公共、經濟和文化利益。本文將討論這些好處，並提出政府可以如何防止這些地方進一步流失。",
       "首先，保護自然美景地點能改善公共健康和生活質素。公園、海灘和林地為人們提供了一個可以呼吸、散步，並從城市生活的精神壓力中恢復過來的地方。如果沒有這些空間，城市生活可能會變成一個混凝土牢籠，尤其是對於兒童和長者而言，因為他們可負擔的放鬆方式並不多。這些地方也能支持旅遊業和本地就業。一條受到良好保護的山徑或海岸保護區，可以吸引遊客、為導遊和小型企業創造職位，並讓社區有理由珍惜自己的景觀，而不是把它一點一點地出售。此外，自然地點也能保存一個國家的身份認同，因為許多景觀都與本地歷史、傳統和集體記憶緊密相連。",
-      "這個問題可以透過更強有力的規劃法律和實際的保育資金來處理。政府應該在重要自然地點周圍設立法律邊界，限制在敏感地區進行建設，並在建築工程無法避免時，要求發展商修復或補回綠化空間。這能確保城市擴張不會像失控的潮水一樣蔓延到每一片開放空間。同時，保護工作必須在財政上變得切實可行。入場費、生態旅遊收入和公私營合作，可以為維修保養、廢物管理和公園員工提供資金，而學校和媒體宣傳活動則可以教導市民為何這些地方重要。當人們把自然美景視為共享的公共財富，而不是等待發展的空地時，他們更有可能保護它",
+      "這個問題可以透過更強有力的規劃法律和實際的保育資金來處理。政府應該在重要自然地點周圍設立法律邊界，限制在敏感地區進行建設，並在建築工程無法避免時，要求發展商修復或補回綠化空間。這能確保城市擴張不會像失控的潮水一樣蔓延到每一片開放空間。同時，保護工作必須在財政上變得切實可行。入場費、生態旅遊收入和公私營合作，可以為維修保養、廢物管理和公園員工提供資金，而學校和媒體宣傳活動則可以教導市民為何這些地方重要。當人們把自然美景視為共享的公共財富，而不是等待發展的空地時，他們更有可能保護它。",
       "總結來說，保護自然美景地點有利於公共健康、本地經濟和文化身份。這些地方的流失可以透過堅定的城市規劃、可靠的資金和公共教育來減少，從而讓發展與環境保護能夠共同向前推進。"
     ],
     "translationSections": [
@@ -8248,7 +8263,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Conclusion of Body Paragraph（段落總結）",
             "english": "When people see natural beauty as shared public wealth rather than empty land waiting to be developed, they are more likely to defend it.",
-            "chinese": "當人們把自然美景視為共享的公共財富，而不是等待發展的空地時，他們更有可能保護它"
+            "chinese": "當人們把自然美景視為共享的公共財富，而不是等待發展的空地時，他們更有可能保護它。"
           }
         ]
       },
