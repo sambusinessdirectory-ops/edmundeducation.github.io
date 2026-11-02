@@ -12,6 +12,36 @@
   const otherViews = '[data-tense-curation], [data-grammar-practice], [data-articles-curation], [data-articles-practice], [data-advanced-articles-curation], [data-advanced-articles-practice], [data-new-grammar-curation], [data-new-grammar-practice]';
   const allViews = [];
 
+  function addChalkColors(copy, ruleIndex) {
+    const terms = /(\b(?:unless|not|if)\b|除非|例外|否定|主句|條件|現在式|過去|未來|動詞|例句|改寫|範圍|短答)/giu;
+    const colors = ["purple", "yellow", "mint"];
+    let colorIndex = ruleIndex;
+    function visit(parent) {
+      for (const node of [...parent.childNodes]) {
+        if (node.nodeType === Node.TEXT_NODE) {
+          const text = node.textContent;
+          const fragment = document.createDocumentFragment();
+          let cursor = 0;
+          for (const match of text.matchAll(terms)) {
+            fragment.append(document.createTextNode(text.slice(cursor, match.index)));
+            const mark = document.createElement("span");
+            mark.className = `grammar-eddy-dialogue__chalk grammar-eddy-dialogue__chalk--${colors[colorIndex++ % colors.length]}`;
+            mark.textContent = match[0];
+            fragment.append(mark);
+            cursor = match.index + match[0].length;
+          }
+          if (cursor) {
+            fragment.append(document.createTextNode(text.slice(cursor)));
+            node.replaceWith(fragment);
+          }
+        } else if (node.nodeType === Node.ELEMENT_NODE && !node.matches("code, strong, em, a")) {
+          visit(node);
+        }
+      }
+    }
+    visit(copy);
+  }
+
   function addUnlessDialogue(view) {
     const cards = view.querySelectorAll(".grammar-new-topic:not(.grammar-new-appendix)");
     cards.forEach((card, index) => {
@@ -35,12 +65,14 @@
       const caption = document.createElement("figcaption");
       caption.className = "grammar-eddy-dialogue__text";
       const copy = document.createElement("span");
+      copy.className = "grammar-eddy-dialogue__copy";
       if (note) {
         copy.append(...note.childNodes);
         note.remove();
       } else {
         copy.textContent = "看看例句就清楚了！";
       }
+      addChalkColors(copy, index);
       caption.append(copy);
       if (copy.textContent.length > 110) figure.classList.add("grammar-eddy-dialogue--long");
       figure.append(art, caption);
