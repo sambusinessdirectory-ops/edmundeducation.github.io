@@ -5,7 +5,7 @@ import vm from 'node:vm';
 
 const read=file=>fs.readFileSync(new URL(`../${file}`,import.meta.url),'utf8');
 const context={window:{}};
-for(const file of ['essay-memory-catalog.js','essay-80-memory-data.js','essay-80-learning-support.js','essay-memory-lessons-data.js','essay-memory-new-support.js'])
+for(const file of ['essay-memory-catalog.js','essay-memory-release-manifest.js','essay-80-memory-data.js','essay-80-learning-support.js','essay-memory-lessons-data.js','essay-memory-new-support.js'])
   vm.runInNewContext(read(file),context,{filename:file});
 
 const catalog=context.window.ESSAY_MEMORY_CATALOG;
@@ -16,6 +16,12 @@ assert.equal(sentenceGroups.totals.missingTerminalPunctuation,0);
 const sourceFor=meta=>{
   if(meta.key==='opinion:80')return context.window.ESSAY_80_MEMORY_DATA;
   if(context.window.ESSAY_MEMORY_LESSONS?.[meta.key])return context.window.ESSAY_MEMORY_LESSONS[meta.key];
+  const supportFile=`essay-memory-support/${meta.id}.js`;
+  if(context.window.ESSAY_MEMORY_APPROVED?.[meta.key]||fs.existsSync(new URL(`../${supportFile}`,import.meta.url))){
+    vm.runInNewContext(read(`essay-memory-lessons/${meta.id}.js`),context);
+    vm.runInNewContext(read(supportFile),context);
+    return context.window.ESSAY_MEMORY_LESSONS?.[meta.key];
+  }
   const local={window:{}};
   vm.runInNewContext(read(`essay-memory-lessons/${meta.id}.js`),local);
   return local.window.ESSAY_MEMORY_LESSONS?.[meta.key];
@@ -35,34 +41,46 @@ for(const meta of catalog){
   const support=meta.key==='opinion:80'?context.window.ESSAY_80_LEARNING_SUPPORT:essay?.support;
   if(!support)issues.push('missing-teaching-support');
   if(support && meta.key!=='opinion:80'){
+    if(!essay.meta?.topic||!essay.meta?.summary)issues.push('missing-lesson-orientation');
     if(support.sentences?.length!==essay.sentences.length)issues.push('sentence-support-count');
     else for(let i=0;i<essay.sentences.length;i++){
       const row=support.sentences[i],source=essay.sentences[i];
       if(!row.simple || normalized(row.simple).toLowerCase()===normalized(source.english).toLowerCase())issues.push(`simple-english-${i+1}`);
       if(normalized(row.chunks?.join(' '))!==normalized(source.english))issues.push(`source-chunks-${i+1}`);
       if(normalized(row.simpleChunks?.join(' '))!==normalized(row.simple))issues.push(`simple-chunks-${i+1}`);
+      if((!meta.curated&&(row.chunks?.length<2||row.simpleChunks?.length<2))||row.chunks?.some(chunk=>!chunk)||row.simpleChunks?.some(chunk=>!chunk))
+        issues.push(`one-choice-chunks-${i+1}`);
+      const legitimatelyPlain=meta.curated&&source.english.split(/\s+/).length<=5;
+      if((!row.synonyms?.length&&!legitimatelyPlain)||row.synonyms?.some(item=>!item.original||!item.simple||!item.meaning||
+        !source.english.toLowerCase().includes(item.original.toLowerCase())||(!meta.curated&&!row.simple.toLowerCase().includes(item.simple.toLowerCase()))))
+        issues.push(`unverified-vocabulary-${i+1}`);
     }
     if(support.structures?.length!==essay.sentences.length)issues.push('structure-count');
     else for(const [i,row] of support.structures.entries()){
       const source=essay.sentences[i];
       if(row.source?.paragraph!==source.paragraph+1||row.source?.sentence!==source.index+1)issues.push(`structure-source-${i+1}`);
       if((row.parts||[]).map(part=>part.text).join('')!==source.english)issues.push(`structure-spans-${i+1}`);
-      if(!row.meaning||!row.usage)issues.push(`structure-explanation-${i+1}`);
-      if(row.options?.length!==4||new Set(row.options).size!==4||row.explanations?.length!==4||!Number.isInteger(row.correct)||row.correct<0||row.correct>3)
+      if(!row.meaning||!row.usage||!row.frame)issues.push(`structure-explanation-${i+1}`);
+      if(row.parts?.some(part=>!part.text||!['slot','link'].includes(part.kind)||!part.label))issues.push(`structure-part-label-${i+1}`);
+      if(row.options?.length!==4||new Set(row.options).size!==4||row.explanations?.length!==4||row.explanations?.some(note=>!note)||!Number.isInteger(row.correct)||row.correct<0||row.correct>3)
         issues.push(`structure-choices-${i+1}`);
     }
     if(!support.intro?.length||!support.route?.length||!support.evidence?.length||!support.logic?.length)issues.push('missing-argument-map-stages');
     if((support.transfer?.length||0)<10)issues.push('fewer-than-ten-transfer-tasks');
     else for(const [i,item] of support.transfer.entries()){
-      if(item.options?.length!==4||new Set(item.options).size!==4||item.explanations?.length!==4||!Number.isInteger(item.correct)||item.correct<0||item.correct>3)
+      if(item.options?.length!==4||new Set(item.options).size!==4||item.explanations?.length!==4||item.explanations?.some(note=>!note)||!Number.isInteger(item.correct)||item.correct<0||item.correct>3)
         issues.push(`transfer-choices-${i+1}`);
+      if(!item.context||!item.question||item.options?.some(option=>!/[\u3400-\u9fff]/.test(option)))issues.push(`transfer-language-${i+1}`);
       if(!item.modelLink||!item.sourceSentenceIndices?.length||item.sourceSentenceIndices.some(n=>!Number.isInteger(n)||n<0||n>=essay.sentences.length))
         issues.push(`transfer-source-link-${i+1}`);
     }
+    const coveredParagraphs=new Set(support.transfer?.flatMap(item=>item.sourceSentenceIndices||[]).map(index=>essay.sentences[index]?.paragraph));
+    if(meta.exam==='IELTS Writing Task 2'&&(!coveredParagraphs.has(1)||!coveredParagraphs.has(2)))issues.push('transfer-misses-body-paragraph');
+    if(meta.exam==='IELTS Writing Task 1'&&(!coveredParagraphs.has(1)||!coveredParagraphs.has(2)||!coveredParagraphs.has(3)))issues.push('transfer-misses-chart-section');
   }
   checks.push({key:meta.key,id:meta.id,exam:meta.exam,sourceSentences:essay?.sentences?.length||0,
     completeSentences:fullSentences?.length||0,
-    released:meta.curated===true,teachingSupportPresent:!!support,issues});
+    released:context.window.ESSAY_MEMORY_APPROVED?.[meta.key]===true,teachingSupportPresent:!!support,issues});
 }
 const summaries={total:checks.length,sourceSentences:checks.reduce((sum,row)=>sum+row.sourceSentences,0),
   completeSentences:checks.reduce((sum,row)=>sum+row.completeSentences,0),
@@ -70,7 +88,8 @@ const summaries={total:checks.length,sourceSentences:checks.reduce((sum,row)=>su
   released:checks.filter(row=>row.released).length,
   supportPresent:checks.filter(row=>row.teachingSupportPresent).length,
   unpublished:checks.filter(row=>!row.released).length,
-  reviewedSupportPassing:checks.filter(row=>row.released&&row.issues.length===0).length};
+  reviewedSupportPassing:checks.filter(row=>row.released&&row.issues.length===0).length,
+  candidateSupportPassing:checks.filter(row=>!row.released&&row.teachingSupportPresent&&row.issues.length===0).length};
 fs.writeFileSync(new URL('./essay-memory-release-ledger.json',import.meta.url),JSON.stringify({summaries,lessons:checks},null,2)+'\n');
 console.log(JSON.stringify(summaries,null,2));
 for(const row of checks.filter(row=>row.released&&row.issues.length))console.error(row.key,row.issues.join(','));

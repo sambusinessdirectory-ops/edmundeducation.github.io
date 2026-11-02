@@ -4,6 +4,8 @@ window.ESSAY_MEMORY_LESSONS = {
     "id": "model-essay-3-ielts-opinion",
     "key": "opinion:3",
     "title": "Model Essay 3 - IELTS - Opinion",
+    "exam": "IELTS Writing Task 2",
+    "taskType": "Opinion",
     "question": [
       "Many people think that museums and galleries should only show work from local artists rather than work from other countries. Do you agree? (2021, 2022)"
     ],
@@ -1851,6 +1853,8 @@ window.ESSAY_MEMORY_LESSONS = {
     "id": "model-essay-4-ielts-discuss-both-views",
     "key": "discuss-both-views:4",
     "title": "Model Essay 4 - IELTS - Discuss Both Views",
+    "exam": "IELTS Writing Task 2",
+    "taskType": "Discuss Both Views",
     "question": [
       "In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business,",
       "while others consider this a potential source of problems.",
@@ -3683,6 +3687,8 @@ window.ESSAY_MEMORY_LESSONS = {
     "id": "model-essay-2-ielts-cause-solution",
     "key": "cause-solution:2",
     "title": "Model Essay 2 - IELTS - Cause / Solution",
+    "exam": "IELTS Writing Task 2",
+    "taskType": "Cause / Solution",
     "question": [
       "Large businesses have big budgets for marketing and promotion and as a result, people gravitate towards buying their products.",
       "What problems does this cause?",

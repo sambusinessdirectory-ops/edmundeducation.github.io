@@ -2,9 +2,25 @@
   'use strict';
   const requestedKey = new URLSearchParams(location.search).get('essay');
   const selectedLesson = window.ESSAY_MEMORY_LESSONS?.[requestedKey];
+  if (requestedKey && requestedKey !== 'opinion:80' && !selectedLesson) {
+    const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === requestedKey);
+    const title = meta?.title || '找不到這篇範文';
+    document.title = `${title} · 範文背書系統 | Edmund Education`;
+    document.querySelector('.hero-copy .eyebrow').textContent = title.toUpperCase();
+    document.querySelector('.setup-card strong').textContent = title;
+    document.querySelector('.setup-card p').textContent = meta
+      ? '這篇範文的背書教材正在逐句核對。你可以先閱讀原範文及使用原有的寫作練習。'
+      : '此連結未對應任何範文。請返回寫作練習選擇範文。';
+    const sourceLink = document.querySelector('.setup-card > a');
+    sourceLink.href = meta ? `writing-practice.html?exercise=${encodeURIComponent(meta.id)}` : 'writing-practice.html';
+    sourceLink.textContent = meta ? '查看原範文 ↗' : '返回寫作練習 ↗';
+    for (const selector of ['.mission','.play-area','.pilot-note']) document.querySelector(selector).hidden = true;
+    return;
+  }
   const isPilot = !selectedLesson;
   const essay = selectedLesson || window.ESSAY_80_MEMORY_DATA;
   if (!essay?.sentences?.length) return;
+  const isTask1 = essay.exam === 'IELTS Writing Task 1';
   const essayLabel = essay.title.replace(' - IELTS - ', ' · ');
   const writingUrl = `writing-practice.html?exercise=${encodeURIComponent(essay.id)}`;
 
@@ -13,15 +29,66 @@
   const sentences = essay.sentences;
   const support = isPilot ? window.ESSAY_80_LEARNING_SUPPORT : essay.support;
   if (!support || support.sentences.length !== sentences.length) return;
+  const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
+  if(approvedEssays.length>4){
+    const panel=document.createElement('section');
+    panel.className='memory-catalogue';
+    panel.setAttribute('aria-label','搜尋已完成的範文背書教材');
+    panel.innerHTML='<div class="memory-catalogue-heading"><div><strong>選擇範文</strong><p>搜尋已完成的背書教材；各篇進度分開儲存。</p></div><span data-memory-catalogue-count></span></div><div class="memory-catalogue-controls"><label>搜尋題目或編號<input type="search" data-memory-catalogue-search placeholder="例如：Model Essay 4、藝術、business"></label><label>類別<select data-memory-catalogue-type><option value="">全部類別</option></select></label></div><div class="memory-catalogue-results" data-memory-catalogue-results></div><button type="button" class="utility-button" data-memory-catalogue-more hidden>顯示更多範文</button>';
+    document.querySelector('.memory-lessons').after(panel);
+    const typeSelect=panel.querySelector('[data-memory-catalogue-type]');
+    for(const type of [...new Set(approvedEssays.map(item=>`${item.exam} · ${item.taskType}`))]){
+      const option=document.createElement('option');option.value=type;option.textContent=type;typeSelect.append(option);
+    }
+    let shown=24;
+    const draw=()=>{
+      const query=panel.querySelector('[data-memory-catalogue-search]').value.trim().toLowerCase();
+      const category=typeSelect.value;
+      const matches=approvedEssays.filter(item=>(!category||`${item.exam} · ${item.taskType}`===category)&&
+        (!query||`${item.title} ${item.question} ${item.taskType} ${item.key}`.toLowerCase().includes(query)));
+      const list=panel.querySelector('[data-memory-catalogue-results]');list.replaceChildren();
+      for(const item of matches.slice(0,shown)){
+        const link=document.createElement('a');link.href=`essay-memorization.html?essay=${encodeURIComponent(item.key)}`;
+        const title=document.createElement('strong');title.textContent=item.title;
+        const detail=document.createElement('small');detail.textContent=item.question;
+        link.append(title,detail);if(item.key===(isPilot?'opinion:80':essay.key))link.setAttribute('aria-current','page');list.append(link);
+      }
+      panel.querySelector('[data-memory-catalogue-count]').textContent=`${Math.min(shown,matches.length)} / ${matches.length} 篇`;
+      panel.querySelector('[data-memory-catalogue-more]').hidden=shown>=matches.length;
+    };
+    panel.querySelector('[data-memory-catalogue-search]').addEventListener('input',()=>{shown=24;draw();});
+    typeSelect.addEventListener('change',()=>{shown=24;draw();});
+    panel.querySelector('[data-memory-catalogue-more]').addEventListener('click',()=>{shown+=24;draw();});
+    draw();
+  }
   const byParagraph = paragraph => sentences.map((sentence, index) => ({ ...sentence, globalIndex: index })).filter(sentence => sentence.paragraph === paragraph);
   const groupedSentences = {
     'opinion:3': [[2,3],[4,5],[7,8],[16,17,18]],
+    'opinion:4': [[6,7],[8,9],[10,11],[13,14]],
+    'direct-question:2': [[2,3],[5,6],[7,8],[9,10],[13,14],[15,16]],
     'discuss-both-views:4': [[1,2]],
   };
-  const requestedGroups = groupedSentences[requestedKey] || [];
+  function task1VocabularyGroups(){
+    const pairs=[];
+    for(let i=0;i<sentences.length;){
+      const group=[i];let sourceCount=support.sentences[i].chunks.length;
+      let simpleCount=support.sentences[i].simpleChunks.length;
+      while(Math.min(sourceCount,simpleCount)<4&&i+group.length<sentences.length&&
+        sentences[i+group.length].paragraph===sentences[i].paragraph){
+        const next=i+group.length;group.push(next);
+        sourceCount+=support.sentences[next].chunks.length;
+        simpleCount+=support.sentences[next].simpleChunks.length;
+      }
+      if(group.length>1)pairs.push(group);
+      i+=group.length;
+    }
+    return pairs;
+  }
+  const requestedGroups = isTask1 ? task1VocabularyGroups() : groupedSentences[requestedKey] || [];
   const groupedStarts = new Map(requestedGroups.map(group => [group[0], group]));
   const groupedMembers = new Set(requestedGroups.flat());
   const vocabularyGroups = sentences.flatMap((_, index) => groupedStarts.has(index) ? [groupedStarts.get(index)] : groupedMembers.has(index) ? [] : [[index]]);
+  const paragraphNames = isTask1 ? ['引言','概覽','細節一','細節二'] : ['開場','第一主體段','第二主體段','總結'];
   const stageDefinitions = [
     {
       icon: '◎', title: '鎖定立場', en: 'THE COMPASS', description: '先記住作者站在哪一邊，以及全文的兩條主線。', rounds: [
@@ -69,7 +136,7 @@
     },
     {
       icon: '▤', title: '還原句序', en: 'SENTENCE MAP', description: '先看每句意思，再按範文順序排好整段的句子。英文全部用小寫，請靠內容判斷。', rounds: [0,1,2,3].map(paragraph => ({
-        type: 'sequence', sentenceMap: true, paragraph, prompt: `${['開場','第一主體段','第二主體段','總結'][paragraph]} · 排好整段句序`,
+        type: 'sequence', sentenceMap: true, paragraph, prompt: `${paragraphNames[paragraph]} · 排好整段句序`,
         detail: '按意思排列整句；這一步練段落次序，下一關才拼回每句的原文字詞。',
         items: byParagraph(paragraph).map(sentence => ({title:sentence.english.toLowerCase(),body:sentence.chinese})), why: '已接回整段句序。'
       })),
@@ -97,14 +164,31 @@
 
   if (!isPilot) {
     stageDefinitions[0].rounds = support.intro;
-    if (requestedKey === 'cause-solution:2') stageDefinitions[0].title = '鎖定文章路線';
     stageDefinitions[1].rounds = support.route;
     stageDefinitions[2].rounds = support.evidence;
     stageDefinitions[3].rounds = support.logic;
-    stageDefinitions[0].description = '先記住作者的立場或文章路線，以及全文兩條主線。';
-    stageDefinitions[2].description = '辨認這篇範文兩段主體的支持細節與例子。';
-    stageDefinitions[3].description = '把本篇的理由、細節、例子與結論接成兩條論證鏈。';
-    if (requestedKey === 'cause-solution:2') stageDefinitions[4].rounds.forEach(item => { if (item.prompt.startsWith('開場：')) item.prompt = item.prompt.replace('背景如何帶出立場？', '背景如何帶出問題與方案？'); });
+    const titles={
+      'Cause / Solution':'鎖定問題與方案',
+      'Direct Question':'鎖定兩個問題',
+      'Advantages / Disadvantages':'鎖定利弊取捨',
+      'Discuss Both Views':'辨清雙方觀點',
+    };
+    stageDefinitions[0].title=isTask1?'看懂圖表':titles[essay.taskType]||'鎖定立場';
+    stageDefinitions[0].description=isTask1
+      ? '先看題目、圖表類型、單位和全文概覽，再找出主要資料。'
+      : '先記住文章如何回應題目，以及兩段主體的主要方向。';
+    stageDefinitions[2].description=isTask1
+      ? '辨認概覽、關鍵數據、比較及變化；以原圖表為準。'
+      : '辨認這篇範文兩段主體的支持細節與例子。';
+    stageDefinitions[3].title=isTask1?'串起描述':'接通論證';
+    stageDefinitions[3].description=isTask1
+      ? '把概覽、比較、數值及變化按報告原有次序接起來。'
+      : '把本篇的理由、細節、例子與結論接成兩條論證鏈。';
+    if(isTask1){
+      stageDefinitions[10].title='跨圖表描述應用';
+      stageDefinitions[10].en='TRANSFER THE REPORT';
+      stageDefinitions[10].description='把概覽、比較及數據描述的方法運用到新的圖表情境。';
+    }
   }
 
   // Old indices remain the migration reference for existing local and downloaded progress.
@@ -215,6 +299,22 @@
     document.querySelector('.hero-copy .eyebrow').innerHTML = `<span class="sparkle">✦</span> ${escapeHtml(essay.title.toUpperCase())}`;
     document.querySelector('.setup-card strong').textContent = essayLabel + ' · ' + essay.meta.topic;
     document.querySelector('.setup-card p').textContent = `題目：${essay.question.join(' ')} ${essay.meta.summary}${requestedKey === 'discuss-both-views:4' ? ' 此範文雖列於 Discuss Both Views 分類，正文主要論證反對家族經營是最佳模式。' : ''}`;
+    if(isTask1){
+      document.querySelector('.hero-tags span').textContent='圖表與概覽';
+      const gallery=document.createElement('figure');
+      gallery.className='memory-task1-visual';
+      const caption=document.createElement('figcaption');
+      caption.textContent='原題圖表 · 點選圖片放大查看';
+      gallery.append(caption);
+      for(const image of essay.questionImages||[]){
+        const link=document.createElement('a');
+        link.href=image.src;link.target='_blank';link.rel='noopener';
+        const img=document.createElement('img');
+        img.src=image.src;img.alt=image.alt||'IELTS Writing Task 1 原題圖表';img.loading='lazy';
+        link.append(img);gallery.append(link);
+      }
+      document.querySelector('.setup-card').after(gallery);
+    }
     document.querySelector('.pilot-note').textContent = `${essayLabel} · 選擇題及重組由系統核對；朗讀錄音只儲存在此瀏覽器的範文背書收藏，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。`;
   }
   document.querySelectorAll('[data-memory-essay]').forEach(link => { if (link.dataset.memoryEssay === (isPilot ? 'opinion:80' : requestedKey)) link.setAttribute('aria-current', 'page'); });
@@ -239,7 +339,7 @@
   function validatedSelection(stage,step,selection) {
     const item=stageDefinitions[stage]?.rounds[step];if(!item || !Array.isArray(selection))return [];
     if(item.type==='multi')return [...new Set(selection.filter(n=>Number.isInteger(n)&&n>=0&&n<item.options.length))].slice(0,2);
-    const count=item.type==='vocabulary'?(item.reverse?support.sentences[item.sentenceIndex].chunks:support.sentences[item.sentenceIndex].simpleChunks).length:item.type==='precision'?support.sentences[item.sentenceIndex].chunks.length:item.items?.length||0;
+    const count=item.type==='vocabulary'?buildParts(item).length:item.type==='precision'?support.sentences[item.sentenceIndex].chunks.length:item.items?.length||0;
     return selection.length<count && selection.every((n,i)=>n===i)?selection:[];
   }
   function validateProgress(data) {
@@ -356,15 +456,24 @@
       span.style.textWrap = 'wrap';
       const needsBreak = shortChineseTail(span);
       span.style.textWrap = '';
-      if (!needsBreak) return;
-      const breaks = [...fullText.matchAll(/，/g)]
-        .map(match => match.index + 1)
-        .filter(index => index >= 5 && fullText.length - index >= 5)
-        .sort((a, b) => Math.abs(a - fullText.length / 2) - Math.abs(b - fullText.length / 2));
-      if (!breaks.length) return;
-      const index = breaks[0];
-      span.replaceChildren(document.createTextNode(fullText.slice(0, index)), document.createElement('br'), document.createTextNode(fullText.slice(index)));
-      if (shortChineseTail(span)) span.textContent = fullText;
+      const breaks=needsBreak?[...fullText.matchAll(/，/g)]
+        .map(match=>match.index+1)
+        .filter(index=>index>=5&&fullText.length-index>=5)
+        .sort((a,b)=>Math.abs(a-fullText.length/2)-Math.abs(b-fullText.length/2)):[];
+      const split=breaks[0]??null;
+      const tail=fullText.match(/(?:[\u3400-\u9fff]{4}|[0-9][0-9,]*\s*[\u3400-\u9fff]{1,4}|[A-Za-z0-9%$]+\s*[\u3400-\u9fff]{1,3}|[\u3400-\u9fff]{1,2}[、，][\u3400-\u9fff]{1,3})[。！？」』）]*$/);
+      if(!tail){
+        if(split!==null)span.replaceChildren(document.createTextNode(fullText.slice(0,split)),document.createElement('br'),document.createTextNode(fullText.slice(split)));
+        return;
+      }
+      const tailStart=fullText.length-tail[0].length;
+      const guard=document.createElement('span');
+      guard.className='choice-tail';
+      guard.textContent=tail[0];
+      if(split!==null&&split<tailStart)span.replaceChildren(
+        document.createTextNode(fullText.slice(0,split)),document.createElement('br'),
+        document.createTextNode(fullText.slice(split,tailStart)),guard);
+      else span.replaceChildren(document.createTextNode(fullText.slice(0,tailStart)),guard);
     });
   }
   let transferResizeFrame = 0;
@@ -508,7 +617,7 @@
     $('#game-card').querySelectorAll('button').forEach(button => { button.disabled = true; });
     if(round().modelLink){
       const q=round();
-      $('#game-card').insertAdjacentHTML('beforeend',`<section class="model-connection"><h4>這題怎樣應用範文的論證？</h4><p>${escapeHtml(q.modelLink)}</p><details><summary>對照範文原句</summary>${q.sourceSentenceIndices.map(i=>`<blockquote><small>第 ${sentences[i].paragraph+1} 段 · 第 ${sentences[i].index+1} 句</small><p lang="en">${escapeHtml(sentences[i].english)}</p><p class="model-translation" lang="zh-Hant"><span>中文意思</span>${escapeHtml(sentences[i].chinese)}</p></blockquote>`).join('')}</details></section>`);
+      $('#game-card').insertAdjacentHTML('beforeend',`<section class="model-connection"><h4>${isTask1?'這題怎樣應用範文的描述方法？':'這題怎樣應用範文的論證？'}</h4><p>${escapeHtml(q.modelLink)}</p><details><summary>對照範文原句</summary>${q.sourceSentenceIndices.map(i=>`<blockquote><small>第 ${sentences[i].paragraph+1} 段 · 第 ${sentences[i].index+1} 句</small><p lang="en">${escapeHtml(sentences[i].english)}</p><p class="model-translation" lang="zh-Hant"><span>中文意思</span>${escapeHtml(sentences[i].chinese)}</p></blockquote>`).join('')}</details></section>`);
     }
     $('#game-card').insertAdjacentHTML('beforeend', '<button class="primary-button support-next" data-continue>下一小步 →</button>');
     if (!selfCheck) celebrate();
@@ -540,7 +649,12 @@
     $('#play-title').textContent = `你已走完 ${essayLabel} 的記憶路線`;
     $('#stage-description').textContent = '你已完成字詞、句型、雙向句子重組，以及分小步的有提示與中階填空朗讀。';
     $('#round-number').textContent = '十一個關卡完成';
-    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與跨主題論證練習。</h3><p>現在可嘗試一次過背出整篇：${isPilot ? '先說出立場及兩條理由' : requestedKey === 'cause-solution:2' ? '先說出問題與解決路線' : '先說出立場與兩條主線'}，再依次講出兩段細節、例子與結論，最後逐句還原英文。你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="${escapeHtml(writingUrl)}">對照原範文 ↗</a></div></div>`;
+    const recap=isTask1
+      ? '先說明圖表類型、單位及概覽，再依次報告主要數據、比較和變化，最後逐句還原英文。'
+      : essay.taskType==='Cause / Solution'
+        ? '先說出問題與解決路線，再依次講出兩段細節、例子與結論，最後逐句還原英文。'
+        : '先說出文章如何回應題目，以及兩段主體的主要方向，再講出細節、例子與結論，最後逐句還原英文。';
+    $('#game-card').innerHTML = `<div class="ending"><div class="ending-star" aria-hidden="true">✦</div><p class="question-label">JOURNEY COMPLETE</p><h3>你已完成所有朗讀小步與${isTask1?'跨圖表描述':'跨主題論證'}練習。</h3><p>現在可嘗試一次過背出整篇：${recap}你可以重玩任何關卡，或回原範文頁聽完整錄音。</p><div class="ending-actions"><button class="primary-button" type="button" data-replay>重玩原文重組 ↺</button><a class="secondary-button" href="${escapeHtml(writingUrl)}">對照原範文 ↗</a></div></div>`;
     feedback('完成！朗讀及重述為自行核對，系統不會自動判定口說準確度。', 'success');
   }
 

@@ -78,6 +78,14 @@
     rememberLocalSession(user);
     window.EdmundSystemNav?.rememberStudentSession?.(user);
     try {
+      const requestedKey = new URLSearchParams(location.search).get('essay');
+      if (requestedKey && window.ESSAY_MEMORY_APPROVED?.[requestedKey] && requestedKey !== 'opinion:80' && !window.ESSAY_MEMORY_LESSONS?.[requestedKey]) {
+        const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === requestedKey);
+        if (!meta) throw new Error('找不到這篇範文。');
+        await loadScript(`essay-memory-lessons/${meta.id}.js`);
+        await loadScript(`essay-memory-support/${meta.id}.js`);
+        if (!window.ESSAY_MEMORY_LESSONS?.[requestedKey]?.support) throw new Error('這篇範文的教材未能載入。');
+      }
       if (appScript) await loadScript(appScript);
       document.body.classList.add('memory-authorized');
       gate.hidden = true;

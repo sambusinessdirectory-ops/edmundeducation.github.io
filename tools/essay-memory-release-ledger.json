@@ -5,9 +5,10 @@
     "completeSentences": 4275,
     "sourceReady": 288,
     "released": 4,
-    "supportPresent": 4,
+    "supportPresent": 14,
     "unpublished": 284,
-    "reviewedSupportPassing": 4
+    "reviewedSupportPassing": 4,
+    "candidateSupportPassing": 10
   },
   "lessons": [
     {
@@ -17,10 +18,8 @@
       "sourceSentences": 10,
       "completeSentences": 10,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "task1-bar-charts:2",
@@ -29,10 +28,8 @@
       "sourceSentences": 11,
       "completeSentences": 11,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "task1-bar-charts:3",
@@ -41,10 +38,8 @@
       "sourceSentences": 8,
       "completeSentences": 8,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "task1-bar-charts:4",
@@ -53,10 +48,8 @@
       "sourceSentences": 10,
       "completeSentences": 10,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "task1-bar-charts:5",
@@ -65,10 +58,8 @@
       "sourceSentences": 11,
       "completeSentences": 11,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "task1-bar-charts:6",
@@ -77,10 +68,8 @@
       "sourceSentences": 9,
       "completeSentences": 9,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "task1-bar-charts:7",
@@ -1275,10 +1264,8 @@
       "sourceSentences": 17,
       "completeSentences": 17,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "direct-question:3",
@@ -1287,10 +1274,8 @@
       "sourceSentences": 16,
       "completeSentences": 16,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "direct-question:4",
@@ -2243,10 +2228,8 @@
       "sourceSentences": 19,
       "completeSentences": 19,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "opinion:5",
@@ -2267,10 +2250,8 @@
       "sourceSentences": 17,
       "completeSentences": 17,
       "released": false,
-      "teachingSupportPresent": false,
-      "issues": [
-        "missing-teaching-support"
-      ]
+      "teachingSupportPresent": true,
+      "issues": []
     },
     {
       "key": "opinion:7",

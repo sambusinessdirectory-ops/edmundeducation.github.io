@@ -48,7 +48,8 @@ for (const source of sources) {
   if (task1 && (!Array.isArray(source.questionImages) || source.questionImages.length === 0 ||
       source.questionImages.some(image => !image.src || !image.alt || !fs.existsSync(path.join(root,image.src)))))
     throw Error(`Missing Task 1 visual prompt: ${id}`);
-  lessons[key] = { id, key, title: source.title, ...(task1 ? {exam:source.exam,taskType:source.taskType,questionImages:source.questionImages} : {}),
+  lessons[key] = { id, key, title: source.title, exam:source.exam, taskType:source.taskType,
+    ...(task1 ? {questionImages:source.questionImages} : {}),
     question: source.questionPrompt,
     audio: narration.path, sentences, mediumAnswers: medium.answers };
   catalog.push({key,id,title:source.title,exam:source.exam,taskType:source.taskType,question:source.questionPrompt.join(' '),

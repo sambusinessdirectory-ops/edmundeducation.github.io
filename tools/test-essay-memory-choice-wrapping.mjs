@@ -10,6 +10,12 @@ for (const file of ['essay-memory-lessons-data.js', 'essay-memory-new-support.js
 const {chromium} = await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT || '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
 const browser = await chromium.launch({headless:true});
 const page = await browser.newPage({reducedMotion:'reduce'});
+await page.route('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',route=>route.fulfill({contentType:'application/javascript',body:''}));
+await page.addInitScript(()=>{
+  sessionStorage.setItem('edmund-essay-memory-student-v1',JSON.stringify({id:'wrap-check',name:'Learner',role:'student',token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}));
+  window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:null},error:null}),signInAnonymously:async()=>({data:{session:{user:{id:'anonymous'}}},error:null})},
+    rpc:async(_name,args)=>({error:null,data:[{id:'wrap-check',name:'Learner',role:'student',session_token:args.p_token}]})})};
+});
 const base = process.env.MEMORY_QA_URL || 'http://127.0.0.1:8764/essay-memorization.html';
 const examples = [
   '播放海外照顧者談工作的影片，',

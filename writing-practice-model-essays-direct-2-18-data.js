@@ -401,7 +401,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
     "translation": [
       "一家公司的成功往往與其說取決於雄心勃勃的策略，不如說取決於員工在日常工作中能否持續穩定地表現。為了提高員工生產力，企業應該專注於兩個實際範疇：讓工作更容易被做好，以及創造一種讓人願意盡力而為的環境。",
       "第一步是讓工作變得更清晰、得到更好的支援，並減少浪費。許多員工缺乏生產力並不是因為他們懶惰；相反，他們浪費時間，是因為指示含糊、系統緩慢，或者優先事項變動太頻繁。因此，公司應該設定清晰目標，將大型項目分拆成可管理的任務，並確保員工準確知道自己被期望完成甚麼。定期但簡潔的回饋同樣重要，因為它能讓員工在小問題變成昂貴錯誤之前及時修正。培訓也應該被視為一項核心投資，而不是偶爾才提供的額外安排。當員工被教導如何使用新軟件、與客戶溝通，或管理自己的工作量時，他們便能更有信心地工作，並減少錯誤。一支訓練有素的團隊很少只是奢侈品；它是一間高生產力公司的引擎。",
-      "另一個提高生產力的有效方法，是保護員工的動力和身心健康。如果員工長期感到疲憊、薪酬不足，或被忽視，即使他們很有才華，表現最終也會下降公司可以透過提供公平薪酬、認可優秀工作，以及給予員工合理的工作量來防止這種情況彈性工作安排也能有所幫助，尤其是當它們能減少不必要的通勤，並讓員工在自己最有效率的時間集中工作時。管理者也應該創造一種讓員工感到被信任，而不是被監視的文化。當人們感到被尊重時，通常會更努力工作，因為他們把工作既看作職責，也看作貢獻。",
+      "另一個提高生產力的有效方法，是保護員工的動力和身心健康。如果員工長期感到疲憊、薪酬不足，或被忽視，即使他們很有才華，表現最終也會下降。公司可以透過提供公平薪酬、認可優秀工作，以及給予員工合理的工作量來防止這種情況。彈性工作安排也能有所幫助，尤其是當它們能減少不必要的通勤，並讓員工在自己最有效率的時間集中工作時。管理者也應該創造一種讓員工感到被信任，而不是被監視的文化。當人們感到被尊重時，通常會更努力工作，因為他們不再只把工作視為職責，也視為一種貢獻。",
       "總結來說，公司可以透過改善工作制度、提供有用的培訓，以及維持一個健康而具激勵性的工作環境來提升員工生產力。當效率與士氣同步提升時，生產力最能自然增長。"
     ],
     "translationSections": [
@@ -477,12 +477,12 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Supporting Detail 1（支持細節一）",
             "english": "If staff are constantly exhausted, underpaid, or ignored, their performance will eventually decline, even if they are talented.",
-            "chinese": "如果員工長期感到疲憊、薪酬不足，或被忽視，即使他們很有才華，表現最終也會下降"
+            "chinese": "如果員工長期感到疲憊、薪酬不足，或被忽視，即使他們很有才華，表現最終也會下降。"
           },
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "Companies can prevent this by offering fair salaries, recognising good work, and giving employees realistic workloads.",
-            "chinese": "公司可以透過提供公平薪酬、認可優秀工作，以及給予員工合理的工作量來防止這種情況"
+            "chinese": "公司可以透過提供公平薪酬、認可優秀工作，以及給予員工合理的工作量來防止這種情況。"
           },
           {
             "label": "Supporting Detail 2（支持細節二）",
@@ -497,7 +497,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Logic Chain（邏輯鏈）",
             "english": "People usually work harder when they feel respected, because they see their job not merely as a duty, but as a contribution.",
-            "chinese": "當人們感到被尊重時，通常會更努力工作，因為他們把工作既看作職責，也看作貢獻。"
+            "chinese": "當人們感到被尊重時，通常會更努力工作，因為他們不再只把工作視為職責，也視為一種貢獻。"
           }
         ]
       },
@@ -922,10 +922,10 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
       }
     ],
     "translation": [
-      "許多機構要求員工在值班時必須穿著標準制服。儘管這看起來可能只是一項關於服裝的簡單規定，但它可以服務於幾個重要的商業目的，也可以讓員工的日常工作生活變得更容易。",
-      "對公司而言，最明顯的優點是制服能夠塑造一致而專業的公眾形象。當顧客看到員工以同樣容易識別的方式穿著時，該企業會顯得更有組織、更可靠，也更值得信任。這在酒店、航空公司和餐廳等服務行業中尤其重要，因為第一印象可以塑造顧客對整間公司的看法。制服也讓員工容易被識別。因此，顧客可以更快尋求幫助，管理人員可以更有效率地監督工作場所，而外來人士也較不可能在未被察覺的情況下進入限制區域。在涉及食品、醫療或機械的工作中，制服也可以支持衛生和安全，因為員工穿著的是為該特定環境而設計的服裝。",
+      "許多機構要求員工在值班時必須穿著標準制服。儘管這看起來可能只是一項關於服裝的簡單規定，但它可以達到幾項重要的商業目的，也可以讓員工的日常工作生活變得更容易。",
+      "對公司而言，最明顯的優點是制服能夠塑造一致而專業的公眾形象。當顧客看到員工以同樣容易識別的方式穿著時，該企業會顯得更有組織、更可靠，也更值得信任。這在酒店、航空公司和餐廳等服務行業中尤其重要，因為第一印象可以塑造顧客對整間公司的看法。制服也讓員工容易被識別。因此，顧客可以更快尋求幫助，管理人員可以更有效率地監督工作場所，而外來人士也較不可能在未被察覺的情況下進入限制區域。在涉及食品、醫療或機械的工作中，制服也有助維持衛生和安全，因為員工穿著的是為該特定環境而設計的服裝。",
       "對員工而言，也有明顯的好處。首先，制服消除了每天決定穿甚麼的壓力，也減少了在時尚服裝或適合工作的服裝上花錢的需要。這是一個實際的優點，尤其是對收入較低的員工而言，否則他們可能會因自己的外表而感到被評價。其次，制服可以創造更強的平等感和歸屬感。當每個人穿著相似的服裝時，財富、品味或社會背景上的差異會變得較不明顯，而員工也可能會覺得自己是同一個團隊的一部分。此外，設計良好的制服可以既舒適又具保護性，讓員工能夠專注於自己的工作任務，而不是自己的衣著。",
-      "總結來說，制服透過強化品牌形象、改善識別度和支持工作場所管理，為公司帶來好處它們也可以透過節省時間和金錢、減少社交壓力，以及鼓勵共同的專業意識，為員工帶來好處。"
+      "總結來說，制服透過強化品牌形象、改善識別度和支持工作場所管理，為公司帶來好處。它們也可以透過節省時間和金錢、減少社交壓力，以及鼓勵共同的專業意識，為員工帶來好處。"
     ],
     "translationSections": [
       {
@@ -941,7 +941,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Thesis Statement（中心論點）",
             "english": "Although this may seem like a simple rule about clothing, it can serve several important business purposes and can also make daily working life easier for employees.",
-            "chinese": "儘管這看起來可能只是一項關於服裝的簡單規定，但它可以服務於幾個重要的商業目的，也可以讓員工的日常工作生活變得更容易。"
+            "chinese": "儘管這看起來可能只是一項關於服裝的簡單規定，但它可以達到幾項重要的商業目的，也可以讓員工的日常工作生活變得更容易。"
           }
         ]
       },
@@ -978,7 +978,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Example / Extension（例子／延伸）",
             "english": "In jobs involving food, healthcare or machinery, a uniform can also support hygiene and safety because workers are dressed in clothing designed for that particular environment.",
-            "chinese": "在涉及食品、醫療或機械的工作中，制服也可以支持衛生和安全，因為員工穿著的是為該特定環境而設計的服裝。"
+            "chinese": "在涉及食品、醫療或機械的工作中，制服也有助維持衛生和安全，因為員工穿著的是為該特定環境而設計的服裝。"
           }
         ]
       },
@@ -1027,7 +1027,7 @@ window.EDMUND_IELTS_WRITING_DIRECT_2_18_EXERCISES = {
           {
             "label": "Reiterating Company Benefits（重申公司方面的好處）",
             "english": "In conclusion, uniforms benefit companies by strengthening brand image, improving identification and supporting workplace control.",
-            "chinese": "總結來說，制服透過強化品牌形象、改善識別度和支持工作場所管理，為公司帶來好處"
+            "chinese": "總結來說，制服透過強化品牌形象、改善識別度和支持工作場所管理，為公司帶來好處。"
           },
           {
             "label": "Reiterating Staff Benefits（重申員工方面的好處）",
