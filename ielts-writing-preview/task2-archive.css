@@ -113,7 +113,7 @@ body:has(#panel-task2:not([hidden])) .tab.is-active {
   background: #28292a;
   backdrop-filter: none;
 }
-#panel-task2 .task2-heading .progress-block::before { content: 'PROGRESS / 完成進度'; }
+#panel-task2 .task2-heading .progress-block::before { content: 'PROGRESS / 進度'; white-space: nowrap; }
 #panel-task2 .task2-heading .count {
   color: #fff8ef;
   font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
