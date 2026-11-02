@@ -44,4 +44,4 @@ A broader heuristic scan found many wrong choices containing words such as `å¿…ç
 
 ## Publication boundary
 
-An earlier attempt to publish this repository was rejected by automatic approval review because of the destination and repository contents. The user has now explicitly requested that the verified release be pushed live. Preserve all intervening `main` changes, run the final release gates, and record the production deployment result here.
+An earlier attempt to publish this repository was rejected by automatic approval review because of the destination and repository contents. The user has now explicitly requested that the verified release be pushed live. The first production Pages run reached its focused Writing gate but failed because an older image test assumed every Task 1 graphic had an R2 URL; the corrected Tables 4 SVG is served from the public site root. The test now checks both R2-backed images and public root images, and the complete focused Writing gate passes locally. Preserve all intervening `main` changes and record the successful production deployment result here when Pages finishes.

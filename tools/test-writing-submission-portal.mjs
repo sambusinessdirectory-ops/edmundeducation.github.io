@@ -142,10 +142,12 @@ test("writing question images survive the public R2 asset migration", () => {
   const mediaPrefix = "https://edmund-site-assets.edmundeducation.workers.dev/site-assets/v1/";
   for (const image of questionImages) {
     assert.ok(safeWritingPromptImage(image.src));
-    assert.equal(
-      safeWritingPromptImage(mediaPrefix + image.src),
-      mediaPrefix + image.src
-    );
+    if (image.src.startsWith("assets/")) {
+      assert.equal(safeWritingPromptImage(mediaPrefix + image.src), mediaPrefix + image.src);
+    } else {
+      assert.ok(fs.existsSync(path.join(root, image.src)), `${image.src}: public root image is missing`);
+      assert.equal(safeWritingPromptImage(`/${image.src}`), `/${image.src}`);
+    }
   }
   assert.equal(safeWritingPromptImage("https://example.com/assets/question.webp"), "");
   assert.equal(safeWritingPromptImage("https://edmund-site-assets.edmundeducation.workers.dev/other/question.webp"), "");
