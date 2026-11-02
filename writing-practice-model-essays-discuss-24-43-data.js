@@ -7198,7 +7198,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_24_43_EXERCISES = {
           },
           {
             "parts": [
-              "Nevertheless, I believe it has made society more isolated overall because online interaction too often replaces, rather than strengthens, genuine human contact"
+              "Nevertheless, I believe it has made society more isolated overall because online interaction too often replaces, rather than strengthens, genuine human contact."
             ]
           }
         ]
@@ -7319,7 +7319,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_24_43_EXERCISES = {
           },
           {
             "label": "Reiterating Opinion（重申立場）",
-            "english": "Nevertheless, I believe it has made society more isolated overall because online interaction too often replaces, rather than strengthens, genuine human contact",
+            "english": "Nevertheless, I believe it has made society more isolated overall because online interaction too often replaces, rather than strengthens, genuine human contact.",
             "chinese": "然而，我認為它整體上使社會變得更加孤立，因為網上互動太常取代真正的人際接觸，而不是加強它。"
           }
         ]

@@ -9,6 +9,7 @@ const catalog=catalogContext.window.ESSAY_MEMORY_CATALOG;
 const authored=JSON.parse(read('tools/essay-memory-structure-mapping.json'));
 const bank=JSON.parse(read('writing-sentence-support-data.json'));
 const formulaOverrides=JSON.parse(read('tools/essay-memory-formula-overrides.json'));
+const sentenceGroups=JSON.parse(read('tools/essay-memory-sentence-groups.json')).essays;
 const curated={window:{}};
 for(const file of ['essay-memory-lessons-data.js','essay-80-memory-data.js'])vm.runInNewContext(read(file),curated);
 
@@ -60,6 +61,8 @@ function matchFormula(formula,source){
     parts.push({text:source.slice(cursor),kind:'slot',label:trailing.slice(1,-1)});
   } else if(trailing)return null;
   if(parts.length<2)return null;
+  // A discourse marker such as "First," is not a result clause in "[result] if [condition]".
+  if(parts.some(part=>part.kind==='slot' && /句子/.test(part.label) && (part.text.match(/[\p{L}\p{N}]+/gu)||[]).length<2))return null;
   if(parts.map(part=>part.text).join('')!==source)throw Error(`Lossy structure match: ${source}`);
   return {parts,score};
 }
@@ -82,10 +85,12 @@ for(const meta of catalog){
   const essay=sourceFor(meta);
   if(!essay?.sentences?.length)throw Error(`Missing source: ${meta.key}`);
   const group=meta.exam.endsWith('1')?'task1':'task2';
-  result[meta.key]=essay.sentences.map((sentence,index)=>{
+  const complete=sentenceGroups[meta.key];
+  if(!complete?.length)throw Error(`Missing complete-sentence groups: ${meta.key}`);
+  result[meta.key]=complete.map((sentence,index)=>{
     totals[group].sentences++;
     const mapped=(authored[meta.key]||[])
-      .filter(row=>row.paragraph===sentence.paragraph+1&&row.sentence===sentence.index+1)
+      .filter(row=>row.paragraph===sentence.paragraph&&row.sentence===sentence.sentence)
       .map(row=>({row,match:matchFormula(row.formula,sentence.english)}))
       .filter(candidate=>candidate.match)
       .sort((a,b)=>structurePriority(b.row,b.match)-structurePriority(a.row,a.match)||a.row.row-b.row.row);
@@ -93,7 +98,7 @@ for(const meta of catalog){
       totals[group].mapped++;
       const {row,match}=mapped[0];
       const explanation=formulaOverrides[row.formula] || row;
-      return {index,source:{paragraph:sentence.paragraph+1,sentence:sentence.index+1},
+      return {index,source:{paragraph:sentence.paragraph,sentence:sentence.sentence,sourceIndices:sentence.sourceIndices},
         english:sentence.english,chinese:sentence.chinese,origin:'essay-mapping',sourceRow:row.row,
         formula:explanation.formula||row.formula,meaning:explanation.meaning,usage:explanation.usage,parts:displayedParts(match.parts,formulaOverrides[row.formula]),
         alternativeRows:mapped.slice(1).map(item=>({sourceRow:item.row.row,formula:formulaOverrides[item.row.formula]?.formula||item.row.formula})),reviewStatus:'candidate'};
@@ -105,12 +110,12 @@ for(const meta of catalog){
       totals[group].bank++;
       const {row,match}=general[0];
       const explanation=formulaOverrides[row.formula] || row;
-      return {index,source:{paragraph:sentence.paragraph+1,sentence:sentence.index+1},
+      return {index,source:{paragraph:sentence.paragraph,sentence:sentence.sentence,sourceIndices:sentence.sourceIndices},
         english:sentence.english,chinese:sentence.chinese,origin:'sentence-support-bank',sourceRow:row.id,
         formula:explanation.formula||row.formula,meaning:explanation.meaning,usage:explanation.usage,parts:displayedParts(match.parts,formulaOverrides[row.formula]),reviewStatus:'candidate'};
     }
     totals[group].unmatched++;
-    return {index,source:{paragraph:sentence.paragraph+1,sentence:sentence.index+1},
+    return {index,source:{paragraph:sentence.paragraph,sentence:sentence.sentence,sourceIndices:sentence.sourceIndices},
       english:sentence.english,chinese:sentence.chinese,origin:'unmatched',reviewStatus:'needs-authorship'};
   });
 }

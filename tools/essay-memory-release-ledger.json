@@ -2,6 +2,7 @@
   "summaries": {
     "total": 288,
     "sourceSentences": 4387,
+    "completeSentences": 4275,
     "sourceReady": 288,
     "released": 4,
     "supportPresent": 4,
@@ -14,6 +15,7 @@
       "id": "model-essay-1-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -25,6 +27,7 @@
       "id": "model-essay-2-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -36,6 +39,7 @@
       "id": "model-essay-3-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 8,
+      "completeSentences": 8,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -47,6 +51,7 @@
       "id": "model-essay-4-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -58,6 +63,7 @@
       "id": "model-essay-5-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -69,6 +75,7 @@
       "id": "model-essay-6-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -80,6 +87,7 @@
       "id": "model-essay-7-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -91,6 +99,7 @@
       "id": "model-essay-8-ielts-task1-bar-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 8,
+      "completeSentences": 8,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -102,6 +111,7 @@
       "id": "model-essay-1-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -113,6 +123,7 @@
       "id": "model-essay-2-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -124,6 +135,7 @@
       "id": "model-essay-3-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -135,6 +147,7 @@
       "id": "model-essay-4-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -146,6 +159,7 @@
       "id": "model-essay-5-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -157,6 +171,7 @@
       "id": "model-essay-6-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -168,6 +183,7 @@
       "id": "model-essay-7-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 8,
+      "completeSentences": 8,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -179,6 +195,7 @@
       "id": "model-essay-8-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -190,6 +207,7 @@
       "id": "model-essay-9-ielts-task1-line-graph",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -201,6 +219,7 @@
       "id": "model-essay-1-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -212,6 +231,7 @@
       "id": "model-essay-2-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -223,6 +243,7 @@
       "id": "model-essay-3-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -234,6 +255,7 @@
       "id": "model-essay-4-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -245,6 +267,7 @@
       "id": "model-essay-5-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -256,6 +279,7 @@
       "id": "model-essay-6-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -267,6 +291,7 @@
       "id": "model-essay-7-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -278,6 +303,7 @@
       "id": "model-essay-8-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -289,6 +315,7 @@
       "id": "model-essay-9-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -300,6 +327,7 @@
       "id": "model-essay-10-ielts-task1-maps",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -311,6 +339,7 @@
       "id": "model-essay-1-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -322,6 +351,7 @@
       "id": "model-essay-2-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 8,
+      "completeSentences": 8,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -333,6 +363,7 @@
       "id": "model-essay-3-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -344,6 +375,7 @@
       "id": "model-essay-4-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 8,
+      "completeSentences": 8,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -355,6 +387,7 @@
       "id": "model-essay-5-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -366,6 +399,7 @@
       "id": "model-essay-6-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -377,6 +411,7 @@
       "id": "model-essay-7-ielts-task1-mixed-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -388,6 +423,7 @@
       "id": "model-essay-1-ielts-task1-pie-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -399,6 +435,7 @@
       "id": "model-essay-2-ielts-task1-pie-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -410,6 +447,7 @@
       "id": "model-essay-3-ielts-task1-pie-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -421,6 +459,7 @@
       "id": "model-essay-4-ielts-task1-pie-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -432,6 +471,7 @@
       "id": "model-essay-5-ielts-task1-pie-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -443,6 +483,7 @@
       "id": "model-essay-6-ielts-task1-pie-charts",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -454,6 +495,7 @@
       "id": "model-essay-1-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -465,6 +507,7 @@
       "id": "model-essay-2-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -476,6 +519,7 @@
       "id": "model-essay-3-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -487,6 +531,7 @@
       "id": "model-essay-4-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -498,6 +543,7 @@
       "id": "model-essay-5-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -509,6 +555,7 @@
       "id": "model-essay-6-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -520,6 +567,7 @@
       "id": "model-essay-7-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -531,6 +579,7 @@
       "id": "model-essay-8-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -542,6 +591,7 @@
       "id": "model-essay-9-ielts-task1-process-diagram",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -553,6 +603,7 @@
       "id": "model-essay-1-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -564,6 +615,7 @@
       "id": "model-essay-2-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -575,6 +627,7 @@
       "id": "model-essay-3-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -586,6 +639,7 @@
       "id": "model-essay-4-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -597,6 +651,7 @@
       "id": "model-essay-5-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -608,6 +663,7 @@
       "id": "model-essay-6-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -619,6 +675,7 @@
       "id": "model-essay-7-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 11,
+      "completeSentences": 11,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -630,6 +687,7 @@
       "id": "model-essay-8-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -641,6 +699,7 @@
       "id": "model-essay-9-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -652,6 +711,7 @@
       "id": "model-essay-10-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 10,
+      "completeSentences": 10,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -663,6 +723,7 @@
       "id": "model-essay-11-ielts-task1-tables",
       "exam": "IELTS Writing Task 1",
       "sourceSentences": 9,
+      "completeSentences": 9,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -674,6 +735,7 @@
       "id": "model-essay-2-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 21,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -685,6 +747,7 @@
       "id": "model-essay-3-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 23,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -696,6 +759,7 @@
       "id": "model-essay-4-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -707,6 +771,7 @@
       "id": "model-essay-5-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -718,6 +783,7 @@
       "id": "model-essay-6-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -729,6 +795,7 @@
       "id": "model-essay-7-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -740,6 +807,7 @@
       "id": "model-essay-8-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -751,6 +819,7 @@
       "id": "model-essay-9-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -762,6 +831,7 @@
       "id": "model-essay-10-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -773,6 +843,7 @@
       "id": "model-essay-11-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -784,6 +855,7 @@
       "id": "model-essay-12-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -795,6 +867,7 @@
       "id": "model-essay-14-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 22,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -806,6 +879,7 @@
       "id": "model-essay-15-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -817,6 +891,7 @@
       "id": "model-essay-16-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -828,6 +903,7 @@
       "id": "model-essay-17-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 20,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -839,6 +915,7 @@
       "id": "model-essay-18-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -850,6 +927,7 @@
       "id": "model-essay-19-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -861,6 +939,7 @@
       "id": "model-essay-20-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -872,6 +951,7 @@
       "id": "model-essay-21-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -883,6 +963,7 @@
       "id": "model-essay-22-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -894,6 +975,7 @@
       "id": "model-essay-23-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -905,6 +987,7 @@
       "id": "model-essay-24-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 23,
+      "completeSentences": 20,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -916,6 +999,7 @@
       "id": "model-essay-25-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -927,6 +1011,7 @@
       "id": "model-essay-26-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -938,6 +1023,7 @@
       "id": "model-essay-27-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -949,6 +1035,7 @@
       "id": "model-essay-28-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 22,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -960,6 +1047,7 @@
       "id": "model-essay-29-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -971,6 +1059,7 @@
       "id": "model-essay-30-ielts-advantage-disadvantage",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -982,6 +1071,7 @@
       "id": "model-essay-2-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": true,
       "teachingSupportPresent": true,
       "issues": []
@@ -991,6 +1081,7 @@
       "id": "model-essay-3-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1002,6 +1093,7 @@
       "id": "model-essay-4-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1013,6 +1105,7 @@
       "id": "model-essay-6-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1024,6 +1117,7 @@
       "id": "model-essay-7-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1035,6 +1129,7 @@
       "id": "model-essay-9-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1046,6 +1141,7 @@
       "id": "model-essay-10-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1057,6 +1153,7 @@
       "id": "model-essay-11-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 21,
+      "completeSentences": 21,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1068,6 +1165,7 @@
       "id": "model-essay-12-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1079,6 +1177,7 @@
       "id": "model-essay-13-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1090,6 +1189,7 @@
       "id": "model-essay-14-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1101,6 +1201,7 @@
       "id": "model-essay-15-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1112,6 +1213,7 @@
       "id": "model-essay-16-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1123,6 +1225,7 @@
       "id": "model-essay-17-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1134,6 +1237,7 @@
       "id": "model-essay-18-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1145,6 +1249,7 @@
       "id": "model-essay-19-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1156,6 +1261,7 @@
       "id": "model-essay-20-ielts-cause-solution",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1167,6 +1273,7 @@
       "id": "model-essay-2-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1178,6 +1285,7 @@
       "id": "model-essay-3-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1189,6 +1297,7 @@
       "id": "model-essay-4-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1200,6 +1309,7 @@
       "id": "model-essay-5-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1211,6 +1321,7 @@
       "id": "model-essay-6-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1222,6 +1333,7 @@
       "id": "model-essay-7-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1233,6 +1345,7 @@
       "id": "model-essay-8-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1244,6 +1357,7 @@
       "id": "model-essay-9-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1255,6 +1369,7 @@
       "id": "model-essay-10-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1266,6 +1381,7 @@
       "id": "model-essay-11-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1277,6 +1393,7 @@
       "id": "model-essay-12-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1288,6 +1405,7 @@
       "id": "model-essay-13-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1299,6 +1417,7 @@
       "id": "model-essay-14-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1310,6 +1429,7 @@
       "id": "model-essay-15-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1321,6 +1441,7 @@
       "id": "model-essay-16-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1332,6 +1453,7 @@
       "id": "model-essay-17-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1343,6 +1465,7 @@
       "id": "model-essay-18-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1354,6 +1477,7 @@
       "id": "model-essay-25-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1365,6 +1489,7 @@
       "id": "model-essay-26-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1376,6 +1501,7 @@
       "id": "model-essay-27-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1387,6 +1513,7 @@
       "id": "model-essay-28-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1398,6 +1525,7 @@
       "id": "model-essay-29-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1409,6 +1537,7 @@
       "id": "model-essay-30-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1420,6 +1549,7 @@
       "id": "model-essay-31-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1431,6 +1561,7 @@
       "id": "model-essay-32-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1442,6 +1573,7 @@
       "id": "model-essay-33-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1453,6 +1585,7 @@
       "id": "model-essay-34-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1464,6 +1597,7 @@
       "id": "model-essay-35-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1475,6 +1609,7 @@
       "id": "model-essay-36-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1486,6 +1621,7 @@
       "id": "model-essay-37-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1497,6 +1633,7 @@
       "id": "model-essay-38-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1508,6 +1645,7 @@
       "id": "model-essay-39-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1519,6 +1657,7 @@
       "id": "model-essay-40-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1530,6 +1669,7 @@
       "id": "model-essay-41-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1541,6 +1681,7 @@
       "id": "model-essay-42-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1552,6 +1693,7 @@
       "id": "model-essay-43-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1563,6 +1705,7 @@
       "id": "model-essay-44-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1574,6 +1717,7 @@
       "id": "model-essay-45-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1585,6 +1729,7 @@
       "id": "model-essay-46-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1596,6 +1741,7 @@
       "id": "model-essay-47-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1607,6 +1753,7 @@
       "id": "model-essay-48-ielts-direct-question",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1618,6 +1765,7 @@
       "id": "model-essay-4-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": true,
       "teachingSupportPresent": true,
       "issues": []
@@ -1627,6 +1775,7 @@
       "id": "model-essay-5-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1638,6 +1787,7 @@
       "id": "model-essay-6-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1649,6 +1799,7 @@
       "id": "model-essay-7-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1660,6 +1811,7 @@
       "id": "model-essay-8-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1671,6 +1823,7 @@
       "id": "model-essay-9-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1682,6 +1835,7 @@
       "id": "model-essay-10-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1693,6 +1847,7 @@
       "id": "model-essay-11-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1704,6 +1859,7 @@
       "id": "model-essay-12-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1715,6 +1871,7 @@
       "id": "model-essay-13-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1726,6 +1883,7 @@
       "id": "model-essay-14-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1737,6 +1895,7 @@
       "id": "model-essay-15-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1748,6 +1907,7 @@
       "id": "model-essay-16-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1759,6 +1919,7 @@
       "id": "model-essay-17-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 13,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1770,6 +1931,7 @@
       "id": "model-essay-18-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1781,6 +1943,7 @@
       "id": "model-essay-19-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1792,6 +1955,7 @@
       "id": "model-essay-20-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1803,6 +1967,7 @@
       "id": "model-essay-21-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1814,6 +1979,7 @@
       "id": "model-essay-22-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1825,6 +1991,7 @@
       "id": "model-essay-23-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1836,6 +2003,7 @@
       "id": "model-essay-24-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1847,6 +2015,7 @@
       "id": "model-essay-25-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1858,6 +2027,7 @@
       "id": "model-essay-26-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1869,6 +2039,7 @@
       "id": "model-essay-27-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1880,6 +2051,7 @@
       "id": "model-essay-28-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1891,6 +2063,7 @@
       "id": "model-essay-29-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1902,6 +2075,7 @@
       "id": "model-essay-30-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1913,6 +2087,7 @@
       "id": "model-essay-31-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1924,6 +2099,7 @@
       "id": "model-essay-32-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1935,6 +2111,7 @@
       "id": "model-essay-33-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 13,
+      "completeSentences": 13,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1946,6 +2123,7 @@
       "id": "model-essay-34-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1957,6 +2135,7 @@
       "id": "model-essay-35-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1968,6 +2147,7 @@
       "id": "model-essay-36-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1979,6 +2159,7 @@
       "id": "model-essay-37-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -1990,6 +2171,7 @@
       "id": "model-essay-39-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2001,6 +2183,7 @@
       "id": "model-essay-40-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2012,6 +2195,7 @@
       "id": "model-essay-41-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2023,6 +2207,7 @@
       "id": "model-essay-42-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2034,6 +2219,7 @@
       "id": "model-essay-43-ielts-discuss-both-views",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2045,6 +2231,7 @@
       "id": "model-essay-3-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 17,
       "released": true,
       "teachingSupportPresent": true,
       "issues": []
@@ -2054,6 +2241,7 @@
       "id": "model-essay-4-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2065,6 +2253,7 @@
       "id": "model-essay-5-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2076,6 +2265,7 @@
       "id": "model-essay-6-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2087,6 +2277,7 @@
       "id": "model-essay-7-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2098,6 +2289,7 @@
       "id": "model-essay-8-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2109,6 +2301,7 @@
       "id": "model-essay-9-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2120,6 +2313,7 @@
       "id": "model-essay-10-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2131,6 +2325,7 @@
       "id": "model-essay-11-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2142,6 +2337,7 @@
       "id": "model-essay-12-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2153,6 +2349,7 @@
       "id": "model-essay-13-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2164,6 +2361,7 @@
       "id": "model-essay-14-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2175,6 +2373,7 @@
       "id": "model-essay-15-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2186,6 +2385,7 @@
       "id": "model-essay-16-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2197,6 +2397,7 @@
       "id": "model-essay-17-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2208,6 +2409,7 @@
       "id": "model-essay-18-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2219,6 +2421,7 @@
       "id": "model-essay-19-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2230,6 +2433,7 @@
       "id": "model-essay-20-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2241,6 +2445,7 @@
       "id": "model-essay-21-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2252,6 +2457,7 @@
       "id": "model-essay-22-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2263,6 +2469,7 @@
       "id": "model-essay-23-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2274,6 +2481,7 @@
       "id": "model-essay-24-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2285,6 +2493,7 @@
       "id": "model-essay-25-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2296,6 +2505,7 @@
       "id": "model-essay-26-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2307,6 +2517,7 @@
       "id": "model-essay-27-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2318,6 +2529,7 @@
       "id": "model-essay-28-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2329,6 +2541,7 @@
       "id": "model-essay-29-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2340,6 +2553,7 @@
       "id": "model-essay-30-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2351,6 +2565,7 @@
       "id": "model-essay-31-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2362,6 +2577,7 @@
       "id": "model-essay-32-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2373,6 +2589,7 @@
       "id": "model-essay-33-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2384,6 +2601,7 @@
       "id": "model-essay-34-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2395,6 +2613,7 @@
       "id": "model-essay-35-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2406,6 +2625,7 @@
       "id": "model-essay-36-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2417,6 +2637,7 @@
       "id": "model-essay-37-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2428,6 +2649,7 @@
       "id": "model-essay-38-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2439,6 +2661,7 @@
       "id": "model-essay-39-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 19,
+      "completeSentences": 19,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2450,6 +2673,7 @@
       "id": "model-essay-40-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2461,6 +2685,7 @@
       "id": "model-essay-41-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2472,6 +2697,7 @@
       "id": "model-essay-42-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2483,6 +2709,7 @@
       "id": "model-essay-43-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2494,6 +2721,7 @@
       "id": "model-essay-44-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2505,6 +2733,7 @@
       "id": "model-essay-45-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2516,6 +2745,7 @@
       "id": "model-essay-46-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2527,6 +2757,7 @@
       "id": "model-essay-47-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2538,6 +2769,7 @@
       "id": "model-essay-48-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2549,6 +2781,7 @@
       "id": "model-essay-49-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2560,6 +2793,7 @@
       "id": "model-essay-50-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2571,6 +2805,7 @@
       "id": "model-essay-51-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2582,6 +2817,7 @@
       "id": "model-essay-52-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2593,6 +2829,7 @@
       "id": "model-essay-53-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2604,6 +2841,7 @@
       "id": "model-essay-54-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2615,6 +2853,7 @@
       "id": "model-essay-55-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2626,6 +2865,7 @@
       "id": "model-essay-56-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2637,6 +2877,7 @@
       "id": "model-essay-57-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2648,6 +2889,7 @@
       "id": "model-essay-58-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2659,6 +2901,7 @@
       "id": "model-essay-59-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2670,6 +2913,7 @@
       "id": "model-essay-60-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2681,6 +2925,7 @@
       "id": "model-essay-61-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2692,6 +2937,7 @@
       "id": "model-essay-62-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2703,6 +2949,7 @@
       "id": "model-essay-63-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2714,6 +2961,7 @@
       "id": "model-essay-64-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2725,6 +2973,7 @@
       "id": "model-essay-65-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2736,6 +2985,7 @@
       "id": "model-essay-66-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2747,6 +2997,7 @@
       "id": "model-essay-67-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2758,6 +3009,7 @@
       "id": "model-essay-68-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2769,6 +3021,7 @@
       "id": "model-essay-69-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2780,6 +3033,7 @@
       "id": "model-essay-70-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2791,6 +3045,7 @@
       "id": "model-essay-71-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2802,6 +3057,7 @@
       "id": "model-essay-72-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2813,6 +3069,7 @@
       "id": "model-essay-73-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2824,6 +3081,7 @@
       "id": "model-essay-74-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2835,6 +3093,7 @@
       "id": "model-essay-75-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2846,6 +3105,7 @@
       "id": "model-essay-76-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2857,6 +3117,7 @@
       "id": "model-essay-77-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2868,6 +3129,7 @@
       "id": "model-essay-78-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2879,6 +3141,7 @@
       "id": "model-essay-79-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2890,6 +3153,7 @@
       "id": "model-essay-80-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": true,
       "teachingSupportPresent": true,
       "issues": []
@@ -2899,6 +3163,7 @@
       "id": "model-essay-81-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2910,6 +3175,7 @@
       "id": "model-essay-82-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2921,6 +3187,7 @@
       "id": "model-essay-83-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2932,6 +3199,7 @@
       "id": "model-essay-84-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2943,6 +3211,7 @@
       "id": "model-essay-85-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2954,6 +3223,7 @@
       "id": "model-essay-86-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2965,6 +3235,7 @@
       "id": "model-essay-87-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2976,6 +3247,7 @@
       "id": "model-essay-88-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2987,6 +3259,7 @@
       "id": "model-essay-89-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -2998,6 +3271,7 @@
       "id": "model-essay-90-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3009,6 +3283,7 @@
       "id": "model-essay-91-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3020,6 +3295,7 @@
       "id": "model-essay-92-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3031,6 +3307,7 @@
       "id": "model-essay-93-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3042,6 +3319,7 @@
       "id": "model-essay-94-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 14,
+      "completeSentences": 14,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3053,6 +3331,7 @@
       "id": "model-essay-95-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3064,6 +3343,7 @@
       "id": "model-essay-96-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3075,6 +3355,7 @@
       "id": "model-essay-97-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 17,
+      "completeSentences": 17,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3086,6 +3367,7 @@
       "id": "model-essay-98-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3097,6 +3379,7 @@
       "id": "model-essay-99-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3108,6 +3391,7 @@
       "id": "model-essay-100-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3119,6 +3403,7 @@
       "id": "model-essay-101-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 16,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3130,6 +3415,7 @@
       "id": "model-essay-103-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 15,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3141,6 +3427,7 @@
       "id": "model-essay-104-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 18,
+      "completeSentences": 18,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3152,6 +3439,7 @@
       "id": "model-essay-105-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 13,
+      "completeSentences": 13,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [
@@ -3163,6 +3451,7 @@
       "id": "model-essay-106-ielts-opinion",
       "exam": "IELTS Writing Task 2",
       "sourceSentences": 16,
+      "completeSentences": 15,
       "released": false,
       "teachingSupportPresent": false,
       "issues": [

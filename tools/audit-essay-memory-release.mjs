@@ -10,6 +10,9 @@ for(const file of ['essay-memory-catalog.js','essay-80-memory-data.js','essay-80
 
 const catalog=context.window.ESSAY_MEMORY_CATALOG;
 assert.equal(catalog.length,288);
+const sentenceGroups=JSON.parse(read('tools/essay-memory-sentence-groups.json'));
+assert.equal(sentenceGroups.totals.essays,288);
+assert.equal(sentenceGroups.totals.missingTerminalPunctuation,0);
 const sourceFor=meta=>{
   if(meta.key==='opinion:80')return context.window.ESSAY_80_MEMORY_DATA;
   if(context.window.ESSAY_MEMORY_LESSONS?.[meta.key])return context.window.ESSAY_MEMORY_LESSONS[meta.key];
@@ -22,6 +25,9 @@ const checks=[];
 for(const meta of catalog){
   const essay=sourceFor(meta);
   const issues=[];
+  const fullSentences=sentenceGroups.essays[meta.key];
+  if(!fullSentences?.length||fullSentences.flatMap(row=>row.sourceIndices).join(',')!==essay?.sentences?.map((_,i)=>i).join(','))
+    issues.push('incomplete-full-sentence-map');
   if(!essay || essay.id!==meta.id || essay.sentences?.length!==meta.sentenceCount)issues.push('canonical-source-mismatch');
   if(!essay?.audio || !essay?.sentences?.every(sentence=>sentence.english&&sentence.chinese&&sentence.words?.length))
     issues.push('incomplete-source-or-narration');
@@ -55,9 +61,11 @@ for(const meta of catalog){
     }
   }
   checks.push({key:meta.key,id:meta.id,exam:meta.exam,sourceSentences:essay?.sentences?.length||0,
+    completeSentences:fullSentences?.length||0,
     released:meta.curated===true,teachingSupportPresent:!!support,issues});
 }
 const summaries={total:checks.length,sourceSentences:checks.reduce((sum,row)=>sum+row.sourceSentences,0),
+  completeSentences:checks.reduce((sum,row)=>sum+row.completeSentences,0),
   sourceReady:checks.filter(row=>!row.issues.some(issue=>issue.includes('source')||issue.includes('narration')||issue.includes('image'))).length,
   released:checks.filter(row=>row.released).length,
   supportPresent:checks.filter(row=>row.teachingSupportPresent).length,
