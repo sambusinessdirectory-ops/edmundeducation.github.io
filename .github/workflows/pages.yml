@@ -378,6 +378,8 @@ jobs:
         run: |
           node --check essay-memorization.js
           node tools/test-essay-memory-scaffolding.mjs
+          node tools/test-writing-practice-answer-spans.mjs
+          node tools/audit-essay-memory-release.mjs --require-complete
           node --check writing-submission.js
           node --test tools/test-writing-function-helper.mjs
           node --test tools/test-writing-sentence-support.mjs

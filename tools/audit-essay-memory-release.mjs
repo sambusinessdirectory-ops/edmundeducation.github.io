@@ -11,6 +11,9 @@ for(const file of ['essay-memory-catalog.js','essay-memory-release-manifest.js',
 const catalog=context.window.ESSAY_MEMORY_CATALOG;
 assert.equal(catalog.length,288);
 const sentenceGroups=JSON.parse(read('tools/essay-memory-sentence-groups.json'));
+const siteAssetIndex=JSON.parse(read('workers/edmund-site-assets/src/site-pack-index-v1.json'));
+assert.equal(siteAssetIndex.meta.r2UploadComplete,true);
+const publishedAssetPaths=new Set(Object.keys(siteAssetIndex.entries));
 assert.equal(sentenceGroups.totals.essays,288);
 assert.equal(sentenceGroups.totals.missingTerminalPunctuation,0);
 const sourceFor=meta=>{
@@ -41,6 +44,9 @@ for(const meta of catalog){
   if(!essay || essay.id!==meta.id || essay.sentences?.length!==meta.sentenceCount)issues.push('canonical-source-mismatch');
   if(!essay?.audio || !essay?.sentences?.every(sentence=>sentence.english&&sentence.chinese&&sentence.words?.length))
     issues.push('incomplete-source-or-narration');
+  if(essay?.audio && !fs.existsSync(new URL(`../${essay.audio}`,import.meta.url)))issues.push('missing-local-narration-file');
+  if(essay?.audio?.startsWith('assets/')&&!publishedAssetPaths.has(essay.audio))
+    issues.push('narration-excluded-from-pages');
   const teachingSentences=essay?.learningSentences||essay?.sentences;
   if(essay?.learningSentences&&(!fullSentences||teachingSentences.length!==fullSentences.length||
       teachingSentences.some((row,i)=>row.english!==fullSentences[i].english||row.chinese!==fullSentences[i].chinese||

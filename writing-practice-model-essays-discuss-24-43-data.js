@@ -1164,7 +1164,7 @@ window.EDMUND_IELTS_WRITING_DISCUSS_24_43_EXERCISES = {
           "demolishing them and constructing modern replacements is more practical",
           "old buildings should be protected because they carry cultural value that",
           "cannot be rebuilt once it is lost",
-          "support replacing old buildings often have reasonable practical concern",
+          "support replacing old buildings often have a reasonable practical concern",
           "expensive to maintain, especially when their foundations, wiring, or drainage systems no longer meet modern safety standards",
           "a city is short of housing or commercial space",
           "a large, outdated building may seem like a poor use of valuable land",

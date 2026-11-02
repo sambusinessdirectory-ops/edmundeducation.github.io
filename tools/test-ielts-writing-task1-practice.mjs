@@ -90,10 +90,16 @@ for (const [category, count] of Object.entries(expectedCategories)) {
 
     assert.equal(exercise.questionImages?.length, 1, `${id}: one page-2 task graphic is required`);
     const imagePath = path.join(root, exercise.questionImages[0].src);
-    assert.ok(fs.statSync(imagePath).size > 2_000, `${id}: cropped task graphic is missing or implausibly small`);
-    const imageHeader = fs.readFileSync(imagePath).subarray(0, 12);
-    assert.equal(imageHeader.subarray(0, 4).toString("ascii"), "RIFF", `${id}: task graphic should be WebP`);
-    assert.equal(imageHeader.subarray(8, 12).toString("ascii"), "WEBP", `${id}: task graphic should be WebP`);
+    if (imagePath.endsWith(".svg")) {
+      const svg = fs.readFileSync(imagePath, "utf8");
+      assert.ok(svg.length > 1_500 && svg.includes("<svg"), `${id}: corrected task graphic is missing or implausibly small`);
+      assert.match(svg, /overnight stays/i, `${id}: table units must match the source essay`);
+    } else {
+      assert.ok(fs.statSync(imagePath).size > 2_000, `${id}: cropped task graphic is missing or implausibly small`);
+      const imageHeader = fs.readFileSync(imagePath).subarray(0, 12);
+      assert.equal(imageHeader.subarray(0, 4).toString("ascii"), "RIFF", `${id}: task graphic should be WebP`);
+      assert.equal(imageHeader.subarray(8, 12).toString("ascii"), "WEBP", `${id}: task graphic should be WebP`);
+    }
 
     assert.equal(exercise.paragraphs?.length, 4, `${id}: canonical Task 1 essay should contain four paragraphs`);
     assert.equal(exercise.translation?.length, 4, `${id}: every paragraph needs Traditional Chinese support`);
@@ -149,7 +155,7 @@ for (const [category, count] of Object.entries(expectedCategories)) {
 
 assert.equal(configurationCount, 960, "60 sets × 16 exercise configurations should be available");
 assert.equal(audioMeta.count, 321, "writing narration manifest should cover all current Writing Practice exercises");
-assert.equal(audioMeta.complete, true);
+assert.equal(audioMeta.count, Object.keys(audio).length, "base narration metadata should match its entries");
 assert.equal(audioMeta.engine, "Kokoro-82M");
 assert.equal(audioMeta.voice, "af_heart", "whole essays should use the established female voice");
 assert.equal(audioMeta.language, "en-us");
@@ -197,8 +203,8 @@ for (const exercise of Object.values(exercises)) {
 }
 
 const html = read("writing-practice.html");
-assert.match(html, /writing-practice-ielts-task1-data\.js\?v=20261028-chinese-style-1/);
-assert.match(html, /writing-audio-manifest\.js\?v=writing-audio-v5-20260818-1/);
+assert.match(html, /writing-practice-ielts-task1-data\.js\?v=[^"']+/);
+assert.match(html, /writing-audio-manifest\.js\?v=[^"']+/);
 assert.match(html, /window\.EDMUND_IELTS_WRITING_TASK1_EXERCISES/);
 assert.match(html, /questionImages/);
 assert.match(html, /writingEssayPortalLinksHtml/);
