@@ -70,6 +70,9 @@
     'opinion:10': [[7,8],[9,10]],
     'opinion:11': [[6,7],[9,10],[12,13]],
     'direct-question:2': [[2,3],[5,6],[7,8],[9,10],[13,14],[15,16]],
+    'direct-question:13': [[8,9],[11,12]],
+    'direct-question:14': [[2,3],[7,8],[11,12]],
+    'cause-solution:4': [[6,7],[10,11],[12,13]],
     'discuss-both-views:4': [[1,2]],
   };
   function task1VocabularyGroups(){

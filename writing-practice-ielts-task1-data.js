@@ -15907,7 +15907,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
     ],
     "translation": [
       "這兩張平面圖展示了 Southwest Airport 現時的布局，以及它預計在明年重新發展後的樣貌。",
-      "整體而言，該機場將會大幅擴建，尤其是在空側區域；現有設有八個登機閘口的登機廊將被一個 Y 形候機大廳取代，當中會有十八個登機閘口和一條空中列車。Main Feature 2 （主要特徵二）。航站樓亦會提供更多乘客服務設施，不過其基本的離境和入境分區將會保留。",
+      "整體而言，該機場將會大幅擴建，尤其是在空側區域；現有設有八個登機閘口的登機廊將被一個 Y 形候機大廳取代，當中會有十八個登機閘口和一條空中列車。航站樓亦會提供更多乘客服務設施，不過其基本的離境和入境分區將會保留。",
       "目前，該機場有一個較小的航站樓，離境區位於左邊，入境區位於右邊。離境乘客會先通過安檢和護照檢查，然後經由一條步行通道前往圍繞矩形登機廊排列的八個登機閘口。離境區只設有辦理登機手續的設施和一間咖啡店，而入境區則只包括護照檢查和海關。",
       "重新發展後，離境大堂將會包括行李托運處、辦理登機手續區和咖啡店。商店將會增設在安檢之後的位置，並通往擴大的候機大廳。乘客將改乘空中列車，沿主登機廊前進，取代原有的簡單步行通道；該登機廊會分成兩條支線，並把登機閘口數量增加至十八個。入境區一側亦會在出口附近增設咖啡店、自動櫃員機和租車設施。"
     ],
@@ -15932,7 +15932,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           {
             "label": "Main Feature 1（主要特徵）",
             "english": "Overall, the airport will be substantially enlarged, especially airside, where the existing pier with eight gates will be replaced by a Y-shaped concourse containing eighteen gates and a sky train.",
-            "chinese": "整體而言，該機場將會大幅擴建，尤其是在空側區域；現有設有八個登機閘口的登機廊將被一個 Y 形候機大廳取代，當中會有十八個登機閘口和一條空中列車。Main Feature 2 （主要特徵二）。"
+            "chinese": "整體而言，該機場將會大幅擴建，尤其是在空側區域；現有設有八個登機閘口的登機廊將被一個 Y 形候機大廳取代，當中會有十八個登機閘口和一條空中列車。"
           },
           {
             "label": "Main Feature 2（主要特徵）",
@@ -17191,7 +17191,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
       }
     ],
     "translation": [
-      "這兩張平面圖說明一所大學體育中心目前的布局，以及其擬議重建後的樣。",
+      "這兩張平面圖說明一所大學體育中心目前的布局，以及其擬議重建後的樣貌。",
       "整體而言，該中心預計會向西和向東擴展，並用室內設施取代兩側的戶外球場區。現有的中央核心區，包括 25 米泳池、接待處、原有更衣室和座位區，將大致保持不變；同時，健身房會擴大，並會增設新的休閒和商業設施。",
       "目前，該體育中心由一座緊湊的矩形建築組成。一個 25 米泳池位於中間，其正北方是健身房。泳池西側設有更衣室，而座位區位於東側。接待處位於南面的入口處，而建築兩側各有一片戶外球場。",
       "重建後，西側球場將被一個大型休閒泳池取代，其南面會新增一間更衣室和一間體育用品商店。在東側，球場將讓位給一個體育館、兩間舞蹈室、一間咖啡廳和另一間更衣室。健身房也將沿著建築群北部擴建。"
@@ -17205,7 +17205,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "The two plans illustrate the current layout of a university sports centre and its proposed redevelopment.",
-            "chinese": "這兩張平面圖說明一所大學體育中心目前的布局，以及其擬議重建後的樣。"
+            "chinese": "這兩張平面圖說明一所大學體育中心目前的布局，以及其擬議重建後的樣貌。"
           }
         ]
       },
@@ -20202,9 +20202,9 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
       }
     ],
     "translation": [
-      "這張表比較了數間手機製造商在 2005 年和 2006 年所佔的全球手機銷售市場份額。Overview （總覽）Main Feature 1 （主要特徵一）。",
-      "整體而言， Nokia 仍然是明顯的市場領導者，並略微鞏固了其地位；而在所有列名公司之中， Motorola 錄得最顯著的增長。Main Feature 2 （主要特徵二）。相比之下， Samsung 、 LG 、 BenQ Mobile 以及合併計算的「其他」類別均失去市場份額； Sony Ericsson 則是較小型列名品牌中唯一錄得增長的一間。Body Paragraph 1 （正文第一段）Leading Companies Details （主要公司細節）。",
-      "2005 年， Nokia 佔全球銷售的 32.5% ，幾乎是 Motorola 17.7% 的兩倍，並遠高於Samsung 的 12.7% 。一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍進一步擴大其領先優勢。Motorola 上升了 3.4 個百分點，是表中最大增幅；相反， Samsung 則輕微下跌至 11.8% 。Body Paragraph 2 （正文第二段）Smaller Companies and Others （較小公司及其他類別）。",
+      "這張表比較了數間手機製造商在 2005 年和 2006 年所佔的全球手機銷售市場份額。",
+      "整體而言， Nokia 仍然是明顯的市場領導者，並略微鞏固了其地位；而在所有列名公司之中， Motorola 錄得最顯著的增長。相比之下， Samsung 、 LG 、 BenQ Mobile 以及合併計算的「其他」類別均失去市場份額； Sony Ericsson 則是較小型列名品牌中唯一錄得增長的一間。",
+      "2005 年， Nokia 佔全球銷售的 32.5% ，幾乎是 Motorola 17.7% 的兩倍，並遠高於Samsung 的 12.7% 。一年後， Nokia 上升至 35% ；儘管 Motorola 也增至 21.1% ， Nokia 仍進一步擴大其領先優勢。Motorola 上升了 3.4 個百分點，是表中最大增幅；相反， Samsung 則輕微下跌至 11.8% 。",
       "其餘列名製造商所佔的市場份額明顯較小。Sony Ericsson 從 6.3% 上升至 7.4% ，並超越了 LG ；後者的數字則由 6.7% 輕微下降至 6.3% 。最大跌幅出現在 BenQ Mobile ，其市場份額由 4.9% 跌至 2.4% ，縮減了一半以上。其他製造商合計所佔的重要性亦有所下降，從 19.2% 跌至 16.2% 。"
     ],
     "translationSections": [
@@ -20216,7 +20216,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           {
             "label": "Background（背景）",
             "english": "The table compares the global market shares of mobile phone sales held by several manufacturers in 2005 and 2006.",
-            "chinese": "這張表比較了數間手機製造商在 2005 年和 2006 年所佔的全球手機銷售市場份額。Overview （總覽）Main Feature 1 （主要特徵一）。"
+            "chinese": "這張表比較了數間手機製造商在 2005 年和 2006 年所佔的全球手機銷售市場份額。"
           }
         ]
       },
@@ -20228,12 +20228,12 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           {
             "label": "Main Feature 1（主要特徵）",
             "english": "Overall, Nokia remained the clear market leader and slightly strengthened its position, while Motorola recorded the most notable gain among the named companies.",
-            "chinese": "整體而言， Nokia 仍然是明顯的市場領導者，並略微鞏固了其地位；而在所有列名公司之中， Motorola 錄得最顯著的增長。Main Feature 2 （主要特徵二）。"
+            "chinese": "整體而言， Nokia 仍然是明顯的市場領導者，並略微鞏固了其地位；而在所有列名公司之中， Motorola 錄得最顯著的增長。"
           },
           {
             "label": "Main Feature 2（主要特徵）",
             "english": "By contrast, Samsung, LG, BenQ Mobile and the collective “Others” category all lost market share; Sony Ericsson was the only smaller named brand to grow.",
-            "chinese": "相比之下， Samsung 、 LG 、 BenQ Mobile 以及合併計算的「其他」類別均失去市場份額； Sony Ericsson 則是較小型列名品牌中唯一錄得增長的一間。Body Paragraph 1 （正文第一段）Leading Companies Details （主要公司細節）。"
+            "chinese": "相比之下， Samsung 、 LG 、 BenQ Mobile 以及合併計算的「其他」類別均失去市場份額； Sony Ericsson 則是較小型列名品牌中唯一錄得增長的一間。"
           }
         ]
       },
@@ -20255,7 +20255,7 @@ window.EDMUND_IELTS_WRITING_TASK1_EXERCISES = {
           {
             "label": "Detail 3（細節）",
             "english": "Motorola’s rise, at 3.4 percentage points, was the largest improvement in the table, whereas Samsung slipped slightly to 11.8%.",
-            "chinese": "Motorola 上升了 3.4 個百分點，是表中最大增幅；相反， Samsung 則輕微下跌至 11.8% 。Body Paragraph 2 （正文第二段）Smaller Companies and Others （較小公司及其他類別）。"
+            "chinese": "Motorola 上升了 3.4 個百分點，是表中最大增幅；相反， Samsung 則輕微下跌至 11.8% 。"
           }
         ]
       },
