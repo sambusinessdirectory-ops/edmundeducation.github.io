@@ -24,7 +24,7 @@
       const art = document.createElement("div");
       art.className = "grammar-eddy-dialogue__art";
       const image = document.createElement("img");
-      image.src = `assets/grammar/unless/eddy-${figure.dataset.rule}.webp`;
+      image.src = `grammar-eddy-dialogues/unless/eddy-${figure.dataset.rule}.webp`;
       image.alt = "";
       image.width = 1671;
       image.height = 941;

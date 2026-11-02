@@ -46,7 +46,7 @@ for (const [index, lesson] of lessons.entries()) {
   assert.equal(dialogues.length, lesson.slug === "unless" ? 24 : 0);
   if (lesson.slug === "unless") {
     assert.deepEqual([...dialogues].map((dialogue) => dialogue.dataset.rule), Array.from({ length: 24 }, (_, i) => String(i + 1).padStart(2, "0")));
-    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `assets/grammar/unless/eddy-${dialogue.dataset.rule}.webp`));
+    assert.ok([...dialogues].every((dialogue) => dialogue.querySelector("img")?.getAttribute("src") === `grammar-eddy-dialogues/unless/eddy-${dialogue.dataset.rule}.webp`));
     assert.match(dialogues[20].querySelector("figcaption").textContent, /短答能依賴前一句/);
     assert.equal(dialogues[23].querySelector("figcaption").textContent, "看看例句就清楚了！");
   }
