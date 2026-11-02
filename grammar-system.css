@@ -100,6 +100,19 @@
   box-shadow: 0 3px 12px #36211345;
 }
 .grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: min(52%, 510px); height: auto; clip-path: inset(0 0 40% 0); pointer-events: none; }
+.grammar-eddy-dialogue--indefinite { width: min(100%, 1170px); }
+.grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art { width: calc(100% - 190px); }
+.grammar-eddy-dialogue--indefinite > img {
+  position: absolute;
+  z-index: 2;
+  right: 0;
+  bottom: 40px;
+  display: block;
+  width: 380px;
+  height: auto;
+  clip-path: inset(0 0 40% 0);
+  pointer-events: none;
+}
 .grammar-eddy-dialogue__lesson {
   position: absolute;
   z-index: 1;
@@ -217,6 +230,11 @@
   .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.4; }
   .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art > img { inset: auto 0 30px auto; }
   .grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 38% 5%; font-size: clamp(14px, 3.5vw, 16px); }
+  .grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art { width: 100%; aspect-ratio: 1 / 1.4; }
+  .grammar-eddy-dialogue--indefinite.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__art { aspect-ratio: 1 / 1.8; }
+  .grammar-eddy-dialogue--indefinite > img { right: 0; bottom: 105px; width: min(62%, 260px); }
+  .grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__lesson { inset: 5% 5% 55% 5%; }
+  .grammar-eddy-dialogue--indefinite.grammar-eddy-dialogue--dense .grammar-eddy-dialogue__lesson { inset: 5% 5% 50% 5%; }
 }
 .grammar-new-appendix { padding-top: clamp(24px, 3vw, 38px); }
 .grammar-new-appendix .grammar-new-table-wrap { margin: 0; }
