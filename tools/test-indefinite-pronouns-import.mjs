@@ -21,6 +21,10 @@ for (const file of ['grammar-new-curations-data.js','grammar-indefinite-pronouns
 assert.equal(await page.locator('.grammar-lesson-card--new-curation').count(), 4);
 assert.equal(await page.locator('[data-new-grammar-curation="indefinite-pronouns"] .grammar-new-topic[id*="topic-IP"]').count(), 68);
 assert.equal(await page.locator('[data-new-grammar-curation="indefinite-pronouns"] .grammar-new-chapters a').count(), manifest.guideChapters);
+const studentGuideText = await page.locator('[data-new-grammar-curation="indefinite-pronouns"]').innerText();
+assert.doesNotMatch(studentGuideText, /(?:來源|教材|PDF|掃描|高頻|IP\d{2}|十、檢查理解|本次來源與編寫方式)/);
+assert.match(studentGuideText, /祈使句也要按意思選詞/);
+assert.match(studentGuideText, /其他常見整組/);
 assert.equal(await page.locator('[data-new-grammar-curation="indefinite-pronouns"] .grammar-new-chapter h3').first().evaluate(element => getComputedStyle(element).color), 'rgb(255, 255, 255)');
 await page.locator('.grammar-lesson-card--new-curation').last().getByText('開始 250 題練習').click();
 assert.equal(await page.locator('[data-new-grammar-practice="indefinite-pronouns"] [data-number]').innerText(), '第 1 / 250 題');

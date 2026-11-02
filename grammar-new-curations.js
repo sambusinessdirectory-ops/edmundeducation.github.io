@@ -60,7 +60,9 @@
     let appendix = null;
 
     for (const node of [...source.children]) {
-      const heading = node.tagName === "H3" && node.textContent.match(/^(S|M|U|IP)(\d{2})｜(.+)$/);
+      const heading = node.tagName === "H3" && (node.dataset.conceptNumber
+        ? [null, "IP", node.dataset.conceptNumber, node.textContent]
+        : node.textContent.match(/^(S|M|U|IP)(\d{2})｜(.+)$/));
       if (node.tagName === "H2") {
         chapter = node.textContent;
         const divider = document.createElement("div");
