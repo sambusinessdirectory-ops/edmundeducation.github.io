@@ -261,7 +261,6 @@ body:has(#panel-task2:not([hidden])) .tab.is-active {
     radial-gradient(ellipse 30% 110% at 10% 90%, var(--t2-glow-b), transparent 82%),
     var(--t2-card);
   filter: none;
-  backdrop-filter: blur(10px);
   transition: border-color .2s ease;
 }
 #panel-task2:not(.is-admin) .table-scroll tbody tr:nth-child(4n + 2) {
@@ -795,7 +794,6 @@ body[data-task2-theme='light'] .choice-menu.is-task2-menu.is-compact .choice-men
     overflow: hidden;
     border: 1px solid var(--t2-rule);
     border-radius: 5px;
-    backdrop-filter: blur(10px);
   }
   #panel-task2.is-admin .table-scroll tbody td,
   #panel-task2.is-admin .table-scroll tbody td:first-child,
