@@ -4,13 +4,21 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>範文背書錄音收藏 | Edmund Education</title>
-  <link rel="stylesheet" href="essay-memorization.css?v=20261101-review1">
-  <script defer src="essay-memory-recordings.js?v=20261101-review1"></script>
-  <script defer src="essay-memory-recordings-page.js?v=20261101-review1"></script>
+  <link rel="stylesheet" href="essay-memorization.css?v=20261102-student1">
+  <script defer src="essay-memory-recordings.js?v=20261102-student1"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script defer src="supabase-config.js"></script>
+  <script defer src="shared-system-nav.js?v=20261101-coin-dialogue1"></script>
+  <script defer src="essay-memory-auth.js?v=20261102-student1"></script>
 </head>
-<body>
+<body data-memory-app-script="essay-memory-recordings-page.js?v=20261101-review1">
+  <section class="memory-login-view" data-memory-login aria-labelledby="memory-login-title">
+    <div class="memory-login-hero"><p class="memory-login-kicker">EDMUND EDUCATION · MODEL ESSAY MEMORY</p><h1 id="memory-login-title">重聽自己<br><span>進步的聲音。</span></h1><p>你的範文背書錄音只留在這個瀏覽器，與 Speaking System 分開。</p><div class="memory-login-route" aria-label="錄音收藏"><span>朗讀</span><span>儲存</span><span>重聽</span></div></div>
+    <div class="memory-login-panel"><p class="memory-login-kicker">STUDENT LOGIN · 學生登入</p><h2>登入範文背書錄音收藏</h2><p>請使用您的 Edmund Education 學生帳戶。</p><form data-memory-login-form novalidate><label>用戶名稱<input name="username" autocomplete="username" maxlength="100" required></label><label>密碼<span class="memory-login-password"><input name="password" type="password" autocomplete="current-password" maxlength="200" required><button type="button" data-memory-password-toggle aria-label="顯示或隱藏密碼" aria-pressed="false">顯示</button></span></label><p data-memory-login-status role="status" aria-live="polite">正在檢查學生登入…</p><button class="memory-login-submit" type="submit" data-memory-login-submit>登入並查看錄音 <span aria-hidden="true">→</span></button></form><a href="essay-memorization.html">返回範文背書系統</a></div>
+  </section>
   <main class="shell recording-library">
     <a class="utility-button" href="essay-memorization.html">← 返回範文背書系統</a>
+    <div class="memory-recording-account"><span data-memory-student-name></span><button class="utility-button" type="button" data-memory-logout>登出</button></div>
     <h1>我的範文背書錄音</h1>
     <p>此收藏只儲存在目前的瀏覽器，不會上傳到口說系統。換裝置或清除瀏覽器資料前，請下載需要保留的錄音。</p>
     <p id="recordings-status" role="status">正在載入錄音…</p>

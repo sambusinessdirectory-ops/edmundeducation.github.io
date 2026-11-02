@@ -173,3 +173,43 @@ body{background:#fdfcf9}
 .structure-card .concept-card p{font-size:calc(1.18rem * var(--reader-scale));line-height:1.55;font-weight:650}
 .structure-card .concept-label{font-size:calc(.68rem * var(--reader-scale))}
 .choice-text{min-width:0;text-wrap:balance}
+
+/* Student-only entry shared by the memorization route and its recording library. */
+body:not(.memory-authorized) > .memory-header,
+body:not(.memory-authorized) > .shell,
+body:not(.memory-authorized) > #step-dialog,
+body:not(.memory-authorized) > #confetti{display:none!important}
+body:not(.memory-authorized) .learning-question-launcher{display:none!important}
+.memory-login-view[hidden]{display:none!important}
+.memory-login-view{width:min(1120px,calc(100% - 38px));min-height:620px;margin:clamp(28px,7vh,90px) auto;display:grid;grid-template-columns:minmax(0,1.05fr) minmax(340px,.95fr);overflow:hidden;border:1px solid #cfdef0;border-radius:22px;background:#fff;box-shadow:0 28px 80px #1a355627;color:#17385f}
+.memory-login-hero{position:relative;isolation:isolate;display:flex;flex-direction:column;justify-content:center;min-height:620px;padding:clamp(34px,5vw,70px);overflow:hidden;background:radial-gradient(circle at 85% 12%,#55bea566 0,transparent 30%),linear-gradient(145deg,#123d65 0%,#174e68 51%,#0a716e 100%);color:#fff}
+.memory-login-hero:before{content:"";position:absolute;z-index:-1;width:390px;height:390px;right:-105px;bottom:-130px;border:1px solid #fff5;border-radius:50%;box-shadow:0 0 0 44px #ffffff0c,0 0 0 91px #ffffff0a}
+.memory-login-kicker{margin:0 0 18px;font-size:12px;font-weight:800;letter-spacing:.15em;line-height:1.6}
+.memory-login-hero .memory-login-kicker{color:#b9e9e0}
+.memory-login-hero h1{margin:0 0 26px;font-size:clamp(44px,5.4vw,71px);line-height:1.16;letter-spacing:-.035em;color:#fff}
+.memory-login-hero h1 span{color:#ffdc96}
+.memory-login-hero>p:not(.memory-login-kicker){max-width:440px;margin:0;font-size:18px;line-height:1.85;color:#e1f0f2}
+.memory-login-route{display:flex;gap:10px;flex-wrap:wrap;margin-top:42px}
+.memory-login-route span{padding:8px 14px;border:1px solid #e7f6e873;border-radius:999px;background:#ffffff15;color:#ecf8f5;font-size:13px;font-weight:750}
+.memory-login-panel{display:flex;flex-direction:column;justify-content:center;padding:clamp(32px,5vw,64px);background:linear-gradient(180deg,#fff,#f9fcff)}
+.memory-login-panel .memory-login-kicker{color:#087b70}
+.memory-login-panel h2{margin:0 0 8px;color:#17385f;font-size:clamp(27px,3vw,35px);line-height:1.3}
+.memory-login-panel>p:not(.memory-login-kicker){margin:0 0 27px;color:#58708b;line-height:1.7}
+.memory-login-panel form{display:grid;gap:17px}
+.memory-login-panel label{display:grid;gap:8px;color:#2b4869;font-weight:750;font-size:15px}
+.memory-login-panel input{width:100%;min-height:49px;padding:10px 13px;border:1px solid #b8cbe0;border-radius:8px;background:#fff;color:#17385f;font:inherit;font-weight:500}
+.memory-login-panel input:focus-visible{outline:3px solid #75bbdb;outline-offset:2px}
+.memory-login-password{position:relative;display:block}
+.memory-login-password input{padding-right:70px}
+.memory-login-password button{position:absolute;right:7px;top:7px;min-width:56px;height:35px;border:0;border-radius:5px;background:#edf4fc;color:#22558a;font-size:13px;font-weight:750}
+.memory-login-panel [data-memory-login-status]{min-height:1.5em;margin:0;color:#496d88;font-size:14px;font-weight:600;line-height:1.5}
+.memory-login-panel [data-memory-login-status].is-error{color:#aa4545}
+.memory-login-submit{display:flex;justify-content:space-between;align-items:center;gap:20px;min-height:52px;padding:11px 18px;border:0;border-radius:8px;background:#0964cf;color:#fff;font-size:16px;font-weight:800;text-align:left}
+.memory-login-submit:hover:not(:disabled){background:#0856ae}
+.memory-login-submit:disabled{opacity:.55;cursor:wait}
+.memory-login-panel>a{width:max-content;margin-top:23px;color:#37688b;font-size:14px;font-weight:750;text-decoration:none}
+.memory-login-panel>a:hover{text-decoration:underline}
+.memory-student-pill,.memory-recording-account{color:#315c79;font-size:14px;font-weight:750}
+.memory-recording-account{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:24px}
+@media(max-width:780px){.memory-login-view{grid-template-columns:1fr;min-height:0;margin:18px auto}.memory-login-hero{min-height:310px;padding:35px}.memory-login-hero h1{font-size:46px;margin-bottom:15px}.memory-login-hero>p:not(.memory-login-kicker){font-size:16px}.memory-login-route{margin-top:21px}.memory-login-panel{padding:34px}}
+@media(max-width:450px){.memory-login-view{width:calc(100% - 20px);border-radius:15px}.memory-login-hero{min-height:290px;padding:26px}.memory-login-hero h1{font-size:39px}.memory-login-panel{padding:28px 23px}.memory-login-route span{padding:6px 10px}.memory-student-pill{display:none}}

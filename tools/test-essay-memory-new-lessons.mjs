@@ -102,6 +102,11 @@ assert(html.includes('essay-memorization.html?essay=${encodeURIComponent(essayKe
 const {chromium}=await import(process.env.PROFESSIONAL_QA_PLAYWRIGHT || '/Users/sammak/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright/index.mjs');
 const browser=await chromium.launch({headless:true});
 const page=await browser.newPage({viewport:{width:390,height:844},reducedMotion:'reduce',acceptDownloads:true});
+await page.route('https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2',route=>route.fulfill({contentType:'application/javascript',body:''}));
+await page.addInitScript(() => {
+  sessionStorage.setItem('edmund-essay-memory-student-v1',JSON.stringify({id:'qa-student',name:'QA student',role:'student',token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}));
+  window.supabase={createClient:()=>({auth:{getSession:async()=>({data:{session:{user:{id:'anonymous'}}},error:null})},rpc:async()=>({data:[{id:'qa-student',name:'QA student',role:'student',session_token:'aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa'}],error:null})})};
+});
 const errors=[];
 page.on('pageerror',error=>errors.push(error.message));
 const base=process.env.MEMORY_QA_URL || 'http://127.0.0.1:8764/essay-memorization.html';
@@ -164,7 +169,7 @@ for(const key of keys){
   assert.equal(await page.locator('#step-select option').count(),4);
   await page.locator('[data-stage="10"]').click();
   assert.equal(await page.locator('#step-select option').count(),counts[keys.indexOf(key)]);
-  const stored=await page.evaluate(id=>localStorage.getItem(`edmund-essay-memory-${id}-v1`),lesson.id);
+  const stored=await page.evaluate(id=>localStorage.getItem(`edmund-essay-memory-${id}-v1-student-qa-student`),lesson.id);
   assert(stored);
 }
 // A backup belongs to one essay and cannot silently overwrite another lesson.

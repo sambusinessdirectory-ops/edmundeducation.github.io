@@ -148,13 +148,27 @@
     return {...value, solved, round:value.stage===5 ? Math.max(0,groupIndex)*2 + ((value.round || 0)%2) : value.round, selection:value.stage===5?[]:value.selection, vocabularyFormat:'paired-v1'};
   }
   const totalRounds = stageDefinitions.reduce((count, stage) => count + stage.rounds.length, 0);
-  const storageKey = isPilot ? 'edmund-essay80-memory-active-v4' : `edmund-essay-memory-${essay.id}-v1`;
+  const legacyStorageKey = isPilot ? 'edmund-essay80-memory-active-v4' : `edmund-essay-memory-${essay.id}-v1`;
+  const studentId = window.EssayMemoryAuth?.user?.id;
+  if (!studentId) return;
+  const storageKey = `${legacyStorageKey}-student-${studentId}`;
+  const legacyOwnerKey = 'edmund-essay-memory-legacy-owner-v1';
+  const mayUseLegacy = (() => {
+    try {
+      const claimed = localStorage.getItem(legacyOwnerKey);
+      if (!claimed) localStorage.setItem(legacyOwnerKey, studentId);
+      return !claimed || claimed === studentId;
+    } catch { return false; }
+  })();
   const backupFormat = isPilot ? 'edmund-essay80-progress' : 'edmund-essay-memory-progress';
   const backupVersion = isPilot ? 4 : 1;
   const saved = migrateVocabularyProgress(migrateStageOrder((() => {
     try {
       const current = JSON.parse(localStorage.getItem(storageKey) || 'null');
       if (current) return current;
+      if (!mayUseLegacy) return {};
+      const legacy = JSON.parse(localStorage.getItem(legacyStorageKey) || 'null');
+      if (legacy) return legacy;
       if (!isPilot) return {};
       const previous=JSON.parse(localStorage.getItem('edmund-essay80-memory-active-v3') || 'null');
       if(previous){
