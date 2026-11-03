@@ -8383,6 +8383,24 @@ elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.clos
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.closeTeacherMove?.addEventListener("click", () => elements.teacherMoveDialog.close());
 const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid');
+let assignedWeekRequest=0;
+async function markAssignedWeeks(year){
+ const ticket=++assignedWeekRequest,user=state.currentUser,student=activeStudent();
+ const status=chart.querySelector('[data-week-marker-status]');
+ if(!user||!student)return;
+ status.textContent='正在查閱功課…';
+ try{
+  const rows=await callRpc('schedule_assigned_weeks',{p_token:user.role==='admin'?user.adminToken:user.studentToken,p_year:year,p_student:user.role==='admin'?student.id:null});
+  if(ticket!==assignedWeekRequest||!chart.open||state.currentUser!==user||activeStudent()?.id!==student.id)return;
+  const dates=new Set(rows.map(row=>row.week_start));
+  for(const button of weekGrid.querySelectorAll('button'))if(dates.has(button.dataset.week)){
+   button.dataset.assigned='true';button.setAttribute('aria-label',button.getAttribute('aria-label')+' · 已安排功課');
+   const sticker=document.createElement('span');sticker.className='week-assigned-sticker';sticker.setAttribute('aria-hidden','true');button.append(sticker);
+  }
+  status.textContent='Eddy 貼紙 · 已安排功課';
+ }catch{if(ticket===assignedWeekRequest)status.textContent='功課標記未能載入，請重開週曆重試。';}
+}
+chart.addEventListener('close',()=>{assignedWeekRequest++;});
 function drawWeeks(){
  const year=Number(chartYear.value);weekGrid.replaceChildren();let n=0;
  for(let d=mondayFor(new Date(year,0,4,12));addDays(d,3).getFullYear()===year;d=addDays(d,7)){
@@ -8390,11 +8408,12 @@ function drawWeeks(){
   const key=toISODate(d),btn=document.createElement('button');btn.type='button';
   const today=key===defaultWeekStart(),end=addDays(d,6),crossYear=d.getFullYear()!==end.getFullYear();
   const short=v=>(crossYear?v.getFullYear()+'/':'')+(v.getMonth()+1)+'/'+v.getDate();
-  btn.dataset.today=String(today);btn.setAttribute('aria-label','第 '+n+' 週 · '+formatWeekRange(key)+(today?' · 本週':''));
+  btn.dataset.week=key;btn.dataset.today=String(today);btn.setAttribute('aria-label','第 '+n+' 週 · '+formatWeekRange(key)+(today?' · 本週':''));
   const title=document.createElement('b'),range=document.createElement('small');title.textContent='第 '+n+' 週'+(today?' · 本週':'');range.textContent=short(d)+' – '+short(end);btn.append(title,range);
   btn.setAttribute('aria-current',String(key===state.weekStart));
   btn.onclick=()=>{chart.close();changeWeek(Math.round((parseISODate(key)-parseISODate(state.weekStart))/86400000));};weekGrid.append(btn);
  }
+ void markAssignedWeeks(year);
 }
 document.querySelector('[data-week-chart]').onclick=()=>{
  chartYear.replaceChildren();for(let y=addDays(firstWeekStart(),3).getFullYear();y<=addDays(lastWeekStart(),3).getFullYear();y++)chartYear.add(new Option(y,y));
