@@ -2,6 +2,102 @@
   'use strict';
   const requestedKey = new URLSearchParams(location.search).get('essay');
   const selectedLesson = window.ESSAY_MEMORY_LESSONS?.[requestedKey];
+  const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
+  const pathwayTasks=[
+    {key:'task-1',exam:'IELTS Writing Task 1',label:'Task 1 (Charts)',subline:'圖表寫作',types:[
+      {type:'Bar Charts',label:'Bar Charts',subline:'柱狀圖'},
+      {type:'Line Graph',label:'Line Graph',subline:'折線圖'},
+      {type:'Pie Charts',label:'Pie Charts',subline:'圓餅圖'},
+      {type:'Process Diagram',label:'Process Diagram',subline:'流程圖'},
+      {type:'Maps',label:'Maps',subline:'地圖題'},
+      {type:'Tables',label:'Tables',subline:'表格題'},
+      {type:'Mixed Charts',label:'Mixed Charts',subline:'混合圖表'}
+    ]},
+    {key:'task-2',exam:'IELTS Writing Task 2',label:'Task 2 (Essay)',subline:'議論文寫作',types:[
+      {type:'Opinion',label:'Opinions',subline:'立場題'},
+      {type:'Discuss Both Views',label:'Discuss both views + Your opinion',subline:'雙邊討論及個人意見'},
+      {type:'Cause / Solution',label:'Cause and Solution',subline:'原因及解決方法'},
+      {type:'Advantages / Disadvantages',label:'Advantage and Disadvantage',subline:'利弊題'},
+      {type:'Direct Question',label:'Direct question',subline:'直接問題'}
+    ]}
+  ];
+  const pathway=document.querySelector('[data-memory-pathway]');
+  let pathwayTask=null,pathwayType=null,pathwayShown=24;
+  pathway.innerHTML='<div class="memory-catalogue-heading"><div><p class="memory-catalogue-kicker">IELTS WRITING PATHWAY</p><h2 id="memory-pathway-title">IELTS Writing</h2><p data-memory-pathway-description></p></div><span data-memory-pathway-count></span></div><nav class="memory-pathway-crumbs" aria-label="範文選擇路徑" data-memory-pathway-crumbs></nav><div class="memory-pathway-list" data-memory-pathway-list></div><button type="button" class="utility-button memory-pathway-more" data-memory-pathway-more hidden>顯示更多範文</button>';
+  pathway.hidden=false;
+  const pathwayItems=task=>approvedEssays.filter(item=>item.exam===task.exam);
+  const typeItems=(task,type)=>pathwayItems(task).filter(item=>item.taskType===type.type);
+  const pathwayButton=(title,subtitle,count,attribute,value)=>{
+    const button=document.createElement('button');button.type='button';button.className='memory-pathway-row';button.dataset[attribute]=value;
+    const copy=document.createElement('span');copy.className='memory-pathway-row-copy';
+    const name=document.createElement('strong');name.textContent=title;
+    const detail=document.createElement('small');detail.textContent=subtitle;
+    const total=document.createElement('span');total.textContent=`${count} 篇範文`;
+    const arrow=document.createElement('span');arrow.className='memory-pathway-arrow';arrow.setAttribute('aria-hidden','true');arrow.textContent='→';
+    copy.append(name,detail,total);button.append(copy,arrow);return button;
+  };
+  const pathwayCrumb=(label,action)=>{
+    const node=document.createElement(action?'button':'span');node.textContent=label;
+    if(action){node.type='button';node.dataset.memoryPathwayGo=action;}
+    else node.setAttribute('aria-current','location');
+    return node;
+  };
+  const drawPathway=()=>{
+    const heading=pathway.querySelector('#memory-pathway-title');
+    const description=pathway.querySelector('[data-memory-pathway-description]');
+    const count=pathway.querySelector('[data-memory-pathway-count]');
+    const crumbs=pathway.querySelector('[data-memory-pathway-crumbs]');
+    const list=pathway.querySelector('[data-memory-pathway-list]');
+    const more=pathway.querySelector('[data-memory-pathway-more]');
+    crumbs.replaceChildren();list.replaceChildren();more.hidden=true;
+    if(!pathwayTask){
+      heading.textContent='IELTS Writing';description.textContent='先選 Task 1 或 Task 2，再按題型尋找範文。';
+      count.textContent=`${approvedEssays.length} 篇範文`;crumbs.hidden=true;
+      for(const task of pathwayTasks)list.append(pathwayButton(task.label,task.subline,pathwayItems(task).length,'memoryPathwayTask',task.key));
+      return;
+    }
+    crumbs.hidden=false;
+    crumbs.append(pathwayCrumb('IELTS Writing','home'));
+    if(!pathwayType){
+      heading.textContent=pathwayTask.label;description.textContent='選擇題型，再進入指定範文。';
+      count.textContent=`${pathwayItems(pathwayTask).length} 篇範文`;
+      crumbs.append(pathwayCrumb(pathwayTask.label));
+      for(const type of pathwayTask.types)list.append(pathwayButton(type.label,type.subline,typeItems(pathwayTask,type).length,'memoryPathwayType',type.type));
+      return;
+    }
+    const essays=typeItems(pathwayTask,pathwayType);
+    heading.textContent=pathwayType.label;description.textContent=pathwayType.subline;
+    count.textContent=`${Math.min(pathwayShown,essays.length)} / ${essays.length} 篇`;
+    crumbs.append(pathwayCrumb(pathwayTask.label,'task'),pathwayCrumb(pathwayType.label));
+    for(const item of essays.slice(0,pathwayShown)){
+      const link=document.createElement('a');link.className='memory-pathway-essay';
+      link.href=`essay-memorization.html?essay=${encodeURIComponent(item.key)}`;link.dataset.memoryEssay=item.key;
+      if(item.key===requestedKey)link.setAttribute('aria-current','page');
+      const copy=document.createElement('span');copy.className='memory-pathway-essay-copy';
+      const title=document.createElement('strong');title.textContent=item.title;
+      const question=document.createElement('small');question.textContent=item.question;
+      const arrow=document.createElement('span');arrow.className='memory-pathway-arrow';arrow.setAttribute('aria-hidden','true');arrow.textContent='→';
+      copy.append(title,question);link.append(copy,arrow);list.append(link);
+    }
+    more.hidden=pathwayShown>=essays.length;
+    more.textContent=`顯示更多範文（${Math.min(pathwayShown,essays.length)} / ${essays.length} 篇）`;
+  };
+  pathway.addEventListener('click',event=>{
+    const button=event.target.closest('button');if(!button||!pathway.contains(button))return;
+    if(button.dataset.memoryPathwayTask){pathwayTask=pathwayTasks.find(task=>task.key===button.dataset.memoryPathwayTask);pathwayType=null;pathwayShown=24;}
+    else if(button.dataset.memoryPathwayType){pathwayType=pathwayTask?.types.find(type=>type.type===button.dataset.memoryPathwayType);pathwayShown=24;}
+    else if(button.dataset.memoryPathwayGo==='home'){pathwayTask=null;pathwayType=null;pathwayShown=24;}
+    else if(button.dataset.memoryPathwayGo==='task'){pathwayType=null;pathwayShown=24;}
+    else if(button.matches('[data-memory-pathway-more]'))pathwayShown+=24;
+    else return;
+    drawPathway();
+  });
+  drawPathway();
+  if(!requestedKey){
+    document.body.classList.add('memory-library-landing');
+    for(const selector of ['.setup-card','.mission','.play-area','.pilot-note'])document.querySelector(selector).hidden=true;
+    return;
+  }
   if (requestedKey && requestedKey !== 'opinion:80' && !selectedLesson) {
     const meta = window.ESSAY_MEMORY_CATALOG?.find(item => item.key === requestedKey);
     const title = meta?.title || '找不到這篇範文';
@@ -29,38 +125,6 @@
   const sentences = essay.learningSentences || essay.sentences;
   const support = isPilot ? window.ESSAY_80_LEARNING_SUPPORT : essay.support;
   if (!support || support.sentences.length !== sentences.length) return;
-  const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
-  if(approvedEssays.length>4){
-    const panel=document.createElement('section');
-    panel.className='memory-catalogue';
-    panel.setAttribute('aria-label','搜尋已完成的範文背書教材');
-    panel.innerHTML='<div class="memory-catalogue-heading"><div><strong>選擇範文</strong><p>搜尋已完成的背書教材；各篇進度分開儲存。</p></div><span data-memory-catalogue-count></span></div><div class="memory-catalogue-controls"><label>搜尋題目或編號<input type="search" data-memory-catalogue-search placeholder="例如：Model Essay 4、藝術、business"></label><label>類別<select data-memory-catalogue-type><option value="">全部類別</option></select></label></div><div class="memory-catalogue-results" data-memory-catalogue-results></div><button type="button" class="utility-button" data-memory-catalogue-more hidden>顯示更多範文</button>';
-    document.querySelector('.memory-lessons').after(panel);
-    const typeSelect=panel.querySelector('[data-memory-catalogue-type]');
-    for(const type of [...new Set(approvedEssays.map(item=>`${item.exam} · ${item.taskType}`))]){
-      const option=document.createElement('option');option.value=type;option.textContent=type;typeSelect.append(option);
-    }
-    let shown=24;
-    const draw=()=>{
-      const query=panel.querySelector('[data-memory-catalogue-search]').value.trim().toLowerCase();
-      const category=typeSelect.value;
-      const matches=approvedEssays.filter(item=>(!category||`${item.exam} · ${item.taskType}`===category)&&
-        (!query||`${item.title} ${item.question} ${item.taskType} ${item.key}`.toLowerCase().includes(query)));
-      const list=panel.querySelector('[data-memory-catalogue-results]');list.replaceChildren();
-      for(const item of matches.slice(0,shown)){
-        const link=document.createElement('a');link.href=`essay-memorization.html?essay=${encodeURIComponent(item.key)}`;
-        const title=document.createElement('strong');title.textContent=item.title;
-        const detail=document.createElement('small');detail.textContent=item.question;
-        link.append(title,detail);if(item.key===(isPilot?'opinion:80':essay.key))link.setAttribute('aria-current','page');list.append(link);
-      }
-      panel.querySelector('[data-memory-catalogue-count]').textContent=`${Math.min(shown,matches.length)} / ${matches.length} 篇`;
-      panel.querySelector('[data-memory-catalogue-more]').hidden=shown>=matches.length;
-    };
-    panel.querySelector('[data-memory-catalogue-search]').addEventListener('input',()=>{shown=24;draw();});
-    typeSelect.addEventListener('change',()=>{shown=24;draw();});
-    panel.querySelector('[data-memory-catalogue-more]').addEventListener('click',()=>{shown+=24;draw();});
-    draw();
-  }
   const byParagraph = paragraph => sentences.map((sentence, index) => ({ ...sentence, globalIndex: index })).filter(sentence => sentence.paragraph === paragraph);
   const groupedSentences = {
     'opinion:3': [[3,4],[6,7],[13,14],[15,16]],
@@ -464,12 +528,11 @@
   state.selection = validatedSelection(state.stage,state.round,state.selection);
 
 
+  document.title = `範文背書系統 · ${essay.title} | Edmund Education`;
+  document.querySelector('meta[name=description]').content = `範文背書系統：逐步理解和記住 ${essay.title}。`;
+  document.querySelectorAll('.memory-header .utility-button:first-child, .setup-card > a').forEach(link => { link.href = writingUrl; });
+  document.querySelector('.hero-copy .eyebrow').innerHTML = `<span class="sparkle">✦</span> ${escapeHtml(essay.title.toUpperCase())}`;
   if (!isPilot) {
-    document.title = `範文背書系統 · ${essay.title} | Edmund Education`;
-    document.querySelector('meta[name=description]').content = `範文背書系統：逐步理解和記住 ${essay.title}。`;
-    const originalLinks = document.querySelectorAll('.memory-header .utility-button:first-child, .setup-card > a');
-    originalLinks.forEach(link => { link.href = writingUrl; });
-    document.querySelector('.hero-copy .eyebrow').innerHTML = `<span class="sparkle">✦</span> ${escapeHtml(essay.title.toUpperCase())}`;
     document.querySelector('.setup-card strong').textContent = essayLabel + ' · ' + essay.meta.topic;
     document.querySelector('.setup-card p').textContent = `題目：${essay.question.join(' ')} ${essay.meta.summary}${requestedKey === 'discuss-both-views:4' ? ' 此範文雖列於 Discuss Both Views 分類，正文主要論證反對家族經營是最佳模式。' : ''}`;
     if(isTask1){

@@ -127,6 +127,9 @@ for(const key of keys){
   await page.goto(`${base}?essay=${encodeURIComponent(key)}`);
   assert((await page.title()).includes(lesson.title));
   assert.equal(await page.locator('[data-stage]').count(),11);
+  await page.locator('[data-memory-pathway-task="task-2"]').click();
+  const type={'opinion:3':'Opinion','discuss-both-views:4':'Discuss Both Views','cause-solution:2':'Cause / Solution'}[key];
+  await page.locator('[data-memory-pathway-type]').filter({hasText:type==='Opinion'?'Opinions':type==='Discuss Both Views'?'Discuss both views + Your opinion':'Cause and Solution'}).click();
   assert.equal(await page.locator('[data-memory-essay][aria-current=page]').getAttribute('data-memory-essay'),key);
   assert.equal(await page.locator('.setup-card strong').innerText(),lesson.title.replace(' - IELTS - ',' · ')+' · '+lesson.meta.topic);
   for(const stage of [0,1,2,3,4,5,6,7,8,9,10]){

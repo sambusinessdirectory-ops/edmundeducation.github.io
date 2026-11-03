@@ -127,12 +127,6 @@ body{background:#fdfcf9}
 .model-translation>span{display:block;font-size:13px;font-weight:750;letter-spacing:.06em;color:#796024;margin-bottom:6px}
 .sentence-lines{white-space:pre-line}
 
-/* Lesson selection: the four source essays share the same learning journey. */
-.memory-lessons{display:flex;flex-wrap:wrap;gap:.55rem;margin:1.25rem 0 1.5rem}
-.memory-lessons a{display:inline-flex;align-items:center;padding:.65rem .9rem;border:1px solid #c5d9e8;border-radius:999px;background:#fff;color:#173e56;font-weight:700;text-decoration:none;line-height:1.3}
-.memory-lessons a:hover,.memory-lessons a:focus-visible{border-color:#3179c6;background:#eef7ff}
-.memory-lessons a[aria-current=page]{border-color:#0964cf;background:#0964cf;color:#fff}
-
 /* Review improvements: two distinct word-building tasks and scalable reading text. */
 :root{--reader-scale:1}
 .reading-controls{display:flex;align-items:center;flex-wrap:wrap;gap:12px;margin:18px 0;color:#47617c}
@@ -220,21 +214,36 @@ body:not(.memory-authorized) .learning-question-launcher{display:none!important}
 .memory-task1-visual figcaption{justify-self:start;color:#3d665d;font-size:.85rem;font-weight:750}
 .memory-task1-visual a{display:block;max-width:100%;border-radius:10px;overflow:hidden;border:1px solid #e1e8e5}
 .memory-task1-visual img{display:block;max-width:100%;height:auto;max-height:660px;object-fit:contain}
-.memory-catalogue{margin:0 0 22px;padding:20px;border:1px solid #c9dbd5;border-radius:18px;background:#f8fbfa;color:#173638}
-.memory-catalogue-heading{display:flex;justify-content:space-between;align-items:start;gap:16px}
-.memory-catalogue-heading strong{font-size:1.12rem}
-.memory-catalogue-heading p{margin:4px 0 0;font-size:.78rem;color:#526d65}
-.memory-catalogue-heading span{white-space:nowrap;color:#376f5e;font-size:.8rem;font-weight:800}
-.memory-catalogue-controls{display:grid;grid-template-columns:minmax(0,2fr) minmax(180px,1fr);gap:12px;margin:17px 0}
-.memory-catalogue-controls label{display:grid;gap:6px;color:#365e54;font-size:.72rem;font-weight:800}
-.memory-catalogue-controls input,.memory-catalogue-controls select{width:100%;min-width:0;padding:11px 12px;border:1px solid #b9d1c4;border-radius:9px;background:#fff;color:#173638;font:inherit;font-size:.82rem}
-.memory-catalogue-results{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,280px),1fr));gap:9px}
-.memory-catalogue-results a{display:grid;align-content:start;gap:5px;min-width:0;padding:12px 14px;border:1px solid #c5d9d0;border-radius:10px;background:#fff;text-decoration:none}
-.memory-catalogue-results a:hover,.memory-catalogue-results a[aria-current=page]{border-color:#2f8b74;background:#ecf7f2}
-.memory-catalogue-results strong{font-size:.84rem;line-height:1.4}
-.memory-catalogue-results small{display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;color:#5d756d;font-size:.68rem;line-height:1.4}
-.memory-catalogue [data-memory-catalogue-more]{margin-top:13px}
+.memory-catalogue{margin:0 0 26px;padding:clamp(16px,2.2vw,28px);border:1px solid #bfd5e9;border-radius:22px;background:linear-gradient(180deg,#f8fbff,#eef5fb);color:#183d60;box-shadow:0 16px 36px rgba(3,29,49,.12)}
+.memory-catalogue-heading{display:flex;justify-content:space-between;align-items:flex-start;gap:18px;flex-wrap:wrap}
+.memory-catalogue-kicker{margin:0 0 7px;color:#1471bd;font-size:.78rem;font-weight:850;letter-spacing:.14em}
+.memory-catalogue-heading h2{margin:0;color:#123b67;font:700 clamp(1.65rem,2.5vw,2.35rem)/1.16 Georgia,"Noto Serif TC",serif}
+.memory-catalogue-heading [data-memory-pathway-description]{margin:8px 0 0;color:#526a7e;font-size:.96rem;line-height:1.5}
+.memory-catalogue-heading [data-memory-pathway-count]{padding:8px 12px;border-radius:999px;background:#e0edfa;color:#245d8d;font-size:.91rem;font-weight:800;white-space:nowrap}
+.memory-pathway-crumbs{display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:18px 0 4px;color:#526a7e;font-size:.93rem;font-weight:750}
+.memory-pathway-crumbs[hidden]{display:none}
+.memory-pathway-crumbs>*+*::before{content:"›";margin-right:8px;color:#7c9ab5}
+.memory-pathway-crumbs button{border:0;background:none;padding:3px 0;color:#1167af;font-weight:800;text-decoration:underline;text-underline-offset:3px}
+.memory-pathway-list{display:grid;gap:13px;margin-top:19px}
+.memory-pathway-row{display:flex;align-items:center;justify-content:space-between;gap:20px;width:100%;min-width:0;min-height:110px;padding:19px 22px;border:0;border-radius:17px;background:linear-gradient(180deg,#60a6f5 0%,#2f80ed 62%,#2472d8 100%);color:#fff;text-align:left;box-shadow:inset 0 2px 0 rgba(255,255,255,.28),0 7px 0 #175da8,0 17px 27px rgba(35,107,180,.18);transition:transform .16s ease,box-shadow .16s ease}
+.memory-pathway-row:hover{transform:translateY(-2px);box-shadow:inset 0 2px 0 rgba(255,255,255,.28),0 9px 0 #175da8,0 21px 30px rgba(35,107,180,.23)}
+.memory-pathway-row-copy,.memory-pathway-essay-copy{display:grid;gap:5px;min-width:0}
+.memory-pathway-row strong{font-size:clamp(1.24rem,2vw,1.65rem);line-height:1.25}
+.memory-pathway-row small{color:rgba(255,255,255,.9);font-size:.94rem;font-weight:750;line-height:1.35}
+.memory-pathway-row-copy>span{margin-top:4px;color:#eaf5ff;font-size:.9rem;font-weight:800}
+.memory-pathway-arrow{flex:none;font-size:1.55rem;font-weight:800;line-height:1}
+.memory-pathway-essay{display:flex;align-items:center;justify-content:space-between;gap:18px;min-width:0;padding:17px 20px;border:1px solid #c8d9e9;border-radius:15px;background:#fff;color:#193d60;box-shadow:0 5px 15px rgba(16,53,82,.06);transition:border-color .16s ease,background .16s ease,transform .16s ease}
+.memory-pathway-essay:hover,.memory-pathway-essay:focus-visible{border-color:#317ecb;background:#f0f7ff;transform:translateY(-1px)}
+.memory-pathway-essay[aria-current=page]{border-color:#1471bd;background:#e9f4ff;box-shadow:inset 4px 0 #1471bd}
+.memory-pathway-essay strong{font-size:1.08rem;line-height:1.35}
+.memory-pathway-essay small{color:#526c7e;font-size:.92rem;line-height:1.5}
+.memory-pathway-essay .memory-pathway-arrow{color:#2472bf}
+.memory-pathway-more{margin-top:18px}
+[hidden]{display:none!important}
 .choice-text .choice-tail{display:inline-block;white-space:nowrap}
 .choice-grid .choice-card{min-width:0;width:100%}
 @media(max-width:400px){.choice-grid .choice-card{gap:7px;padding-inline:8px}.choice-grid .choice-arrow{flex:none}}
-@media(max-width:650px){.memory-catalogue-controls{grid-template-columns:1fr}.memory-catalogue{padding:14px}.memory-catalogue-heading{align-items:center}}
+@media(max-width:650px){.memory-catalogue{padding:15px}.memory-catalogue-heading{align-items:flex-start}.memory-pathway-row{min-height:96px;padding:16px}.memory-pathway-essay{padding:15px}.memory-pathway-essay strong{font-size:1rem}.memory-pathway-essay small{font-size:.88rem}}
+.memory-library-landing .hero{min-height:0}
+.memory-library-landing .hero-copy{padding:35px 0 30px}
+@media(max-width:650px){.memory-library-landing .hero-copy{padding:26px 0 22px}.memory-library-landing .hero h1{font-size:clamp(44px,11vw,64px);margin-bottom:17px}.memory-library-landing .hero-tags{gap:6px}.memory-library-landing .hero-tags span{padding:5px 8px;font-size:12px}}
