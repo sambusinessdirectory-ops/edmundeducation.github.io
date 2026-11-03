@@ -29,11 +29,15 @@
 .cur23-model-nav button{display:block;min-width:110px;padding:9px 14px;font:750 13px/1.3 system-ui,sans-serif;background:#f1f7f1;border:1px solid #accabb;color:#23594b;border-radius:8px}
 .cur23-model-nav button[aria-current="true"]{background:#145949;color:white;border-color:#145949}
 .cur23-model-note{margin:0 14px 16px;padding:11px 14px;border-left:3px solid #cf9b39;background:#f7f1de;font:600 14px/1.5 system-ui,sans-serif}
-.cur23-model-essay{max-width:860px;margin:0 auto;background:#fffefa;border:1px solid #d1ddd2;border-radius:11px;padding:24px clamp(18px,3vw,44px);box-shadow:0 5px 18px #173c4b0b;font:19px/1.7 Georgia,serif}
-.cur23-model-essay h3{font:700 28px/1.25 Georgia,serif;text-align:center;margin:0 0 24px}
-.cur23-model-essay p{margin:0 0 17px}.cur23-model-essay p:last-child{margin-bottom:0}
+/* The 2025 reader opens each native model inside a disclosure in the practice card. */
+.curation-model-essay{margin-top:18px;border:1px solid #b8d1c4;border-radius:12px;background:#f6fbf7;overflow:hidden}
+.curation-model-essay summary{padding:12px 14px;cursor:pointer;font:800 15px/1.45 system-ui;color:#164d42}
+.curation-model-essay article{padding:4px 16px 18px;background:#fffdf8;font:16px/1.65 Georgia,serif;color:#182e2b}
+.cur23-model-essay h4,.cur23-model-essay h5{font-family:Georgia,serif;margin:1em 0 .35em}
+.cur23-model-essay h4{font-size:1.3em}.cur23-model-essay h5{font-size:1em}
+.cur23-model-essay p{margin:0 0 1em}.cur23-model-essay p:last-child{margin-bottom:0}
 .cur23-model-essay .current-model{box-decoration-break:clone;-webkit-box-decoration-break:clone}
-@media(max-width:620px){.cur23-model-essay{font-size:17px;padding:18px}.cur23-model-essay h3{font-size:23px}.cur23-model-nav button{min-width:0;flex:1}}
+@media(max-width:620px){.cur23-model-nav button{min-width:0;flex:1}}
 
 /* Manual writing sequence: prompt, skeleton, independent draft, check, then model. */
 .cur23-prep-progress{margin:0 14px 12px;color:#466b5d;font:750 13px/1.5 system-ui,sans-serif}
@@ -74,3 +78,13 @@ mark.target[data-type="4"]{outline-color:#6baa60}
 mark.reject.target{background-image:linear-gradient(#c7222c,#c7222c)!important;background-position:left center!important;background-repeat:no-repeat!important;background-size:100% 3px!important;animation:cur23-reject .55s ease-out}
 @keyframes cur23-reject{from{background-size:0 3px}to{background-size:100% 3px}}
 @media(prefers-reduced-motion:reduce){mark.reject.target{animation:none}}
+
+/* The guide already exposes Help beside Back and Next. */
+body.cur23-open .learning-question-launcher{display:none!important}
+/* Keep the explanation and save controls reachable on short screens. */
+@media(max-width:620px){
+  .curation-dock{overflow-y:auto;overscroll-behavior:contain}
+  .curation-dock>*{flex-shrink:0}
+  .curation-dock .curation-actions{position:sticky;top:0;z-index:2}
+  .curation-dock .curation-content{overflow:visible}
+}
