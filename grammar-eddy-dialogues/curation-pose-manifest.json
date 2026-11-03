@@ -1,0 +1,174 @@
+{
+  "scope": "Indefinite Pronouns grammar curation",
+  "cycleLength": 33,
+  "poses": [
+    {
+      "rule": 1,
+      "sourceFilename": "Grammar taeching rule 1- Eddy’s Friendly Learning Dialogue.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-01.webp"
+    },
+    {
+      "rule": 2,
+      "sourceFilename": "Grammar taeching rule 2 - Dialogue Box - Smiling.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-02.webp"
+    },
+    {
+      "rule": 3,
+      "sourceFilename": "Grammar taeching rule 3 - Dialogue Box.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-03.webp"
+    },
+    {
+      "rule": 4,
+      "sourceFilename": "Grammar taeching rule 4 - Eddy Dialogue Box 5.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-04.webp"
+    },
+    {
+      "rule": 5,
+      "sourceFilename": "Grammar taeching rule 5 - Eddy Dialogue Box 7.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-05.webp"
+    },
+    {
+      "rule": 6,
+      "sourceFilename": "Grammar taeching rule 6 - Eddy Dialogue BOx ThumbsUp.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-06.webp"
+    },
+    {
+      "rule": 7,
+      "sourceFilename": "Grammar taeching rule 7 - Deep thinking Eddy Dialogue Box.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-07.webp"
+    },
+    {
+      "rule": 8,
+      "sourceFilename": "Grammar taeching rule 8 - Aristocratic Eddy.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-08.webp"
+    },
+    {
+      "rule": 9,
+      "sourceFilename": "Grammar taeching rule 9 - Escorting Eddy.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-09.webp"
+    },
+    {
+      "rule": 10,
+      "sourceFilename": "Grammar taeching rule 10 - Victory, with a wink and a peace sign! ✌️.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-10.webp"
+    },
+    {
+      "rule": 11,
+      "sourceFilename": "Grammar taeching rule 11 - Eddy and his magnificent mustache—twirled with maximum smugness!.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-11.webp"
+    },
+    {
+      "rule": 12,
+      "sourceFilename": "Grammar taeching rule 12 -Eddy brought popcorn—and he’s here for the drama. 🍿.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-12.webp"
+    },
+    {
+      "rule": 13,
+      "sourceFilename": "Grammar taeching rule 13 - Medieval Alchemist Eddy—brass goggles, bubbling purple potion, and a delighted discovery! ✨.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-13.webp"
+    },
+    {
+      "rule": 14,
+      "sourceFilename": "Grammar taeching rule 14 - Confucius Eddy in jade scholar’s robes, stroking his flowing beard with one finger raised to teach..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-14.webp"
+    },
+    {
+      "rule": 15,
+      "sourceFilename": "Grammar taeching rule 15 - Washington Eddy, with his powdered wig, blue-and-gold uniform, hand over heart, and tricorne at his side..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-15.webp"
+    },
+    {
+      "rule": 16,
+      "sourceFilename": "Grammar taeching rule 16 - Newton Eddy in his gravity-discovery moment—curly white wig, raised apple, and upward-pointing finger..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-16.webp"
+    },
+    {
+      "rule": 17,
+      "sourceFilename": "Grammar taeching rule 17 - Darwin Eddy, examining a tiny ladybird—with a magnified eye, fluffy white beard, and explorer’s notebook..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-17.webp"
+    },
+    {
+      "rule": 18,
+      "sourceFilename": "Grammar taeching rule 18 - Da Vinci.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-18.webp"
+    },
+    {
+      "rule": 19,
+      "sourceFilename": "Grammar taeching rule 19 - Here’s Franklin-cosplay Eddy with his tiny kite, dangling key, and triumphant “aha!” pose!.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-19.webp"
+    },
+    {
+      "rule": 20,
+      "sourceFilename": "Grammar taeching rule 20 - Here’s Einstein-cosplay Eddy—wild white hair, playful tongue-out expression, and his little E = mc² chalkboard!.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-20.webp"
+    },
+    {
+      "rule": 21,
+      "sourceFilename": "Grammar taeching rule 21 - Created diver Eddy with a classic brass helmet, curious expression, and the original English dialogue box..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-21.webp"
+    },
+    {
+      "rule": 22,
+      "sourceFilename": "Grammar taeching rule 22 - Created “Keep Asking Why” Eddy with the original English dialogue text..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-22.webp"
+    },
+    {
+      "rule": 23,
+      "sourceFilename": "Grammar taeching rule 23 - Created masked superhero Eddy with a dark cape, vigilant expression, and protective pose..png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-23.webp"
+    },
+    {
+      "rule": 24,
+      "sourceFilename": "Grammar taeching rule 24 - “Heh… exactly as planned… CHECKMATE!” ♟️.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-24.webp"
+    },
+    {
+      "rule": 25,
+      "sourceFilename": "Grammar taeching rule 25 - “MMPH! Just one more handful!” 🍿.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-25.webp"
+    },
+    {
+      "rule": 26,
+      "sourceFilename": "Grammar taeching rule 26 - “WOW! Is that a new planet?!” Eddy’s stargazing adventure begins. 🔭✨.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-26.webp"
+    },
+    {
+      "rule": 27,
+      "sourceFilename": "Grammar taeching rule 27 - “Hmm… what’s hiding over there?” Eddy’s on the case! 🔦.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-27.webp"
+    },
+    {
+      "rule": 28,
+      "sourceFilename": "Grammar taeching rule 28 - “Top secret! No peeking!” Eddy’s private thoughts are under lock and key. 📖.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-28.webp"
+    },
+    {
+      "rule": 29,
+      "sourceFilename": "Grammar taeching rule 29 - “Attention, everyone!” Eddy has the microphone. 🎤.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-29.webp"
+    },
+    {
+      "rule": 30,
+      "sourceFilename": "Grammar taeching rule 30 -Eureka! Eddy’s bright idea has arrived. 💡.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-30.webp"
+    },
+    {
+      "rule": 31,
+      "sourceFilename": "Grammar taeching rule 31 - “So… you’ve finally made it.” Eddy awaits his challenger.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-31.webp"
+    },
+    {
+      "rule": 32,
+      "sourceFilename": "Grammar taeching rule 32 - Swordsman.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-32.webp"
+    },
+    {
+      "rule": 33,
+      "sourceFilename": "Grammar taeching rule 33 - Wizard Eddy.png",
+      "asset": "grammar-eddy-dialogues/unless/eddy-33.webp"
+    }
+  ],
+  "excluded": [
+    "Teaching Grammar Rule 28 - Tiny Applause Eddy.png"
+  ]
+}
