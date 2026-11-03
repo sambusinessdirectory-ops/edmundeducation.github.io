@@ -101,7 +101,7 @@
 }
 .grammar-eddy-dialogue__art > img { position: absolute; z-index: 2; right: 0; bottom: 0; display: block; width: min(52%, 510px); height: auto; clip-path: inset(0 0 40% 0); pointer-events: none; }
 .grammar-eddy-dialogue--indefinite { width: min(100%, 1170px); }
-.grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art > img { width: min(45%, 420px); clip-path: inset(0 0 31% 32%); }
+.grammar-eddy-dialogue--indefinite .grammar-eddy-dialogue__art > img { width: min(45%, 420px); clip-path: polygon(0 0, 100% 0, 100% 69%, 32% 69%, 32% 61%, 0 54%); }
 .grammar-eddy-dialogue--eddy-aside .grammar-eddy-dialogue__art { width: calc(100% - 220px); }
 .grammar-eddy-dialogue--eddy-aside > img {
   position: absolute;
@@ -111,7 +111,7 @@
   display: block;
   width: min(380px, 40%);
   height: auto;
-  clip-path: inset(0 0 31% 32%);
+  clip-path: polygon(0 0, 100% 0, 100% 69%, 32% 69%, 32% 61%, 0 54%);
   pointer-events: none;
 }
 .grammar-eddy-dialogue__lesson {
