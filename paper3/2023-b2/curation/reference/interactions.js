@@ -1,7 +1,7 @@
 /* 2023 B2 interaction layer. Content decisions remain in the source and audit ledgers. */
 (() => {
   'use strict';
-  const css = new URL('reference/interactions.css', location.href).href;
+  const css = new URL('reference/interactions.css?v=20261103-step5', location.href).href;
   for (const root of [document.head, shell, native]) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -496,4 +496,72 @@
   shell.addEventListener('change',event => {if (event.target.closest('.curation-category-choices')) {decorateSource(rows[i].leaf || 4);lastDecorated = '';queueSave();}});
   if (rows[i].stage === 2 && reviewIndex >= 0) enterReview(reviewIndex);
   update23(true); saveNow();
+})();
+
+// Keep the writing chapter on its model essay even after a Data File visit.
+(() => {
+  'use strict';
+  const writingStarts = [
+    ['Public announcement concerning','Teen NetChef TV supports','William did flood','Some viewers believe','Finally, some viewers thought','We ask viewers'],
+    ['Dear all,','I recommend three courses','Hazard Awareness,','The Chef’s Special','Be Your Best!','Each course counts','Please sign up','Regards,'],
+    ['Viewer’s Choice: A New Way','TITLE CARD:','VOICEOVER: Meet','EPISODE 1 CARD:','VOICEOVER: In Episode','PRIZE CARD','VOICEOVER: One lucky','FlyingFood will','Viewer’s Choice -','Watch and vote!']
+  ];
+  let lastWritingStep = '';
+  function renderWritingModel(row) {
+    const signature = `${i}:${row.t}:${row.q}`;
+    if (signature === lastWritingStep && surface.classList.contains('cur23-writing-paper')) return;
+    lastWritingStep = signature;
+    const full = models[row.t-1].replace(/\s+/g,' ').trim();
+    const starts = writingStarts[row.t-1].map(phrase => full.indexOf(phrase)).filter(at => at >= 0);
+    if (!starts.includes(0)) starts.unshift(0);
+    starts.sort((a,b) => a-b);
+    const currentAt = row.pattern ? full.indexOf(row.q) : -1;
+    surface.replaceChildren();surface.className='paper cur23-writing-paper';
+    const header=document.createElement('header');header.className='cur23-model-header';
+    const eyebrow=document.createElement('span');eyebrow.textContent=`TASK ${row.t+7} · TEACHING MODEL`;
+    const heading=document.createElement('h2');heading.textContent=`Task ${'ABC'[row.t-1]} · 參考範文`;
+    const kind=document.createElement('p');kind.textContent=['網站公告 · 公眾','培訓推薦電郵 · 全體員工','宣傳短片講稿 · 觀眾'][row.t-1];
+    header.append(eyebrow,heading,kind);surface.append(header);
+    const nav=document.createElement('nav');nav.className='cur23-model-nav';nav.setAttribute('aria-label','切換三篇參考範文');
+    for(let task=1;task<=3;task++){
+      const button=document.createElement('button');button.type='button';button.textContent=`Task ${'ABC'[task-1]}`;
+      button.setAttribute('aria-current',String(task===row.t));
+      button.onclick=()=>jump23(rows.findIndex(item=>item.stage===4&&item.t===task&&item.pattern));
+      nav.append(button);
+    }
+    surface.append(nav);
+    if(row.plan||row.draft){const note=document.createElement('p');note.className='cur23-model-note';note.textContent=row.a;surface.append(note);}
+    const essay=document.createElement('div');essay.className='cur23-model-essay';
+    for(let j=0;j<starts.length;j++){
+      const lo=starts[j],hi=starts[j+1]??full.length,part=full.slice(lo,hi).trim();
+      if(!part)continue;
+      const paragraph=document.createElement(j===0?'h3':'p');
+      const at=currentAt>=lo&&currentAt<hi?currentAt-lo:-1;
+      if(at<0)paragraph.textContent=part;
+      else{
+        paragraph.append(part.slice(0,at));
+        const current=document.createElement('span');current.className='current-model';
+        current.append(...[...E('q').childNodes].map(node=>node.cloneNode(true)));
+        paragraph.append(current,part.slice(at+row.q.length));
+      }
+      essay.append(paragraph);
+    }
+    surface.append(essay);
+    E('title').textContent=`Task ${'ABC'[row.t-1]} · 參考範文`;
+  }
+  const previousDisplayUpdate = update23;
+  update23 = function(force=false) {
+    previousDisplayUpdate(force);
+    const row=rows[i],showNative=!opened||row.stage===0||row.stage===1||row.stage===3;
+    nativeHost.hidden=!showNative;
+    if(showNative)nativeHost.style.removeProperty('display');
+    else nativeHost.style.setProperty('display','none','important');
+    section23.classList.toggle('native-active',showNative);
+    E('title').hidden=opened&&row.stage===4;
+    if(opened&&row.stage===4){
+      E('pdf').hidden=true;surface.hidden=false;surface.style.removeProperty('display');
+      renderWritingModel(row);
+    }else lastWritingStep='';
+  };
+  update23(true);
 })();
