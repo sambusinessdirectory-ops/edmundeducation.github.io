@@ -18,6 +18,10 @@ await page.addInitScript(()=>{
 });
 const base=process.env.MEMORY_QA_URL||'http://127.0.0.1:8764/essay-memorization.html';
 const noOverflow=async label=>assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`${label}: horizontal overflow`);
+const snapshot=async name=>{
+  if(!process.env.MEMORY_QA_SCREENSHOT_DIR)return;
+  await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/${name}.png`});
+};
 
 await page.goto(base);
 await page.locator('.shell').waitFor({state:'visible'});
@@ -32,10 +36,21 @@ await noOverflow('landing');
 
 await page.locator('[data-memory-pathway-task="task-2"]').click();
 assert.equal(await page.locator('[data-memory-pathway-type]').count(),5);
+assert.equal(new Set(await page.locator('[data-memory-pathway-type]').evaluateAll(nodes=>nodes.map(node=>node.dataset.memoryPathwayTone))).size,5);
+assert.equal(await page.locator('.memory-pathway-symbol').count(),5);
 assert((await page.locator('[data-memory-pathway-count]').innerText()).includes('228'));
+await snapshot('memory-types-phone');
+if(process.env.MEMORY_QA_SCREENSHOT_DIR){await page.setViewportSize({width:1440,height:1000});await snapshot('memory-types-desktop');await page.setViewportSize({width:390,height:844});}
 await page.locator('[data-memory-pathway-type="Opinion"]').click();
 assert.equal(await page.locator('[data-memory-essay]').count(),24);
+const firstEssay=page.locator('[data-memory-essay]').first();
+assert.equal(await firstEssay.locator('.memory-essay-number strong').innerText(),'3');
+assert.equal(await firstEssay.locator('.memory-essay-type strong').innerText(),'Opinions');
+assert((await firstEssay.locator('.memory-essay-question').innerText()).includes('museums and galleries'));
+assert.equal(new Set(await firstEssay.locator('.memory-essay-number,.memory-essay-type,.memory-essay-question').evaluateAll(nodes=>nodes.map(node=>getComputedStyle(node).backgroundColor))).size,3);
 assert((await page.locator('[data-memory-pathway-count]').innerText()).includes('24 / 103'));
+await snapshot('memory-essays-phone');
+if(process.env.MEMORY_QA_SCREENSHOT_DIR){await page.setViewportSize({width:1440,height:1000});await snapshot('memory-essays-desktop');await page.setViewportSize({width:390,height:844});}
 await page.locator('[data-memory-pathway-more]').click();
 assert.equal(await page.locator('[data-memory-essay]').count(),48);
 await noOverflow('Task 2 Opinions');
@@ -49,6 +64,7 @@ assert.equal(await page.locator('[data-memory-essay="opinion:3"][aria-current="p
 await page.locator('[data-memory-pathway-go="home"]').click();
 await page.locator('[data-memory-pathway-task="task-1"]').click();
 assert.equal(await page.locator('[data-memory-pathway-type]').count(),7);
+assert.equal(new Set(await page.locator('[data-memory-pathway-type]').evaluateAll(nodes=>nodes.map(node=>node.dataset.memoryPathwayTone))).size,7);
 assert((await page.locator('[data-memory-pathway-count]').innerText()).includes('60'));
 await page.locator('[data-memory-pathway-type="Bar Charts"]').click();
 assert.equal(await page.locator('[data-memory-essay]').count(),8);

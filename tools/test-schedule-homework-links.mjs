@@ -1010,7 +1010,7 @@ assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels mu
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261102-song-homework1"/, "Homework catalog cache key is stale");
 assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261102-song-homework1/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261102-song-homework1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261103-week-ring/, "Schedule application cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261103-crayon-loop/, "Schedule application cache key is stale");
 assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261102-song-homework1/, "Homework Hot Keys application cache key is stale");
 assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261102-song-homework1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
