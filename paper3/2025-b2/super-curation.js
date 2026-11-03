@@ -457,7 +457,9 @@
     $$('#page-4 [data-curation-task]').forEach(paragraph=>paragraph.classList.toggle('curation-task-revealed',!!$('.curation-mark.is-revealed',paragraph)));
   }
   v3PodcastIds.push(...v3TranscriptTargets.map(span=>steps.podcast.find(step=>step.transcript&&step.target===span)?.id).filter(Boolean));
-  const allIds=new Set(chapters.flatMap(ch=>steps[ch.id].map(step=>step.id)));
+  const allSteps=chapters.flatMap(ch=>steps[ch.id]);
+  const stepsById=new Map(allSteps.map(step=>[step.id,step]));
+  const allIds=new Set(stepsById.keys());
   const blank=()=>({sequenceVersion:4,chapter:'boss',visited:[],positions:Object.fromEntries(chapters.map(ch=>[ch.id,0])),essayPositions:{A:-1,B:-1,C:-1},completed:[],bookmarks:[],evidence:{A:[],B:[],C:[]},drafts:{A:'',B:'',C:''},categories:{},heard:[],spotlight:true,dialogue:false,updated:Date.now()});
   const sanitize=raw=>{
     const state=blank();if(!raw||typeof raw!=='object')return state;
@@ -762,21 +764,27 @@
     }
   }
   function usedEssaySources(){
-    const active=current(),used=new Set();
-    for(const task of 'ABC'){
-      const limit=state.chapter==='writing'&&active?.essay&&active.task===task?state.positions.writing:state.essayPositions[task];
-      for(const step of steps.writing)if(step.essaySource&&step.task===task&&step.index<=limit)used.add(step.source.id);
-    }
-    return used;
+    // A saved essay position is a return point, not permission to show its answers
+    // while the learner is reading an earlier chapter or an earlier essay step.
+    if(state.chapter!=='writing')return new Set();
+    return new Set(steps.writing.filter(step=>step.essaySource&&step.index<=state.positions.writing).map(step=>step.source.id));
+  }
+  function visibleEvidence(task){
+    const chapterIndex=chapters.findIndex(ch=>ch.id===state.chapter);
+    return state.evidence[task].filter(id=>{
+      const step=stepsById.get(id);
+      const sourceChapterIndex=chapters.findIndex(ch=>ch.id===step?.chapter);
+      return sourceChapterIndex>=0&&(sourceChapterIndex<chapterIndex||sourceChapterIndex===chapterIndex&&step.index<=state.positions[state.chapter]);
+    });
   }
   function renderBank(){
     const used=usedEssaySources(),currentStep=current();
     for(const t of 'ABC'){
       const group=$(`.curation-bank-${t}`),list=$('ol',group);list.replaceChildren();
-      const ids=state.evidence[t].slice();
-      if(state.chapter==='writing')for(const step of steps.writing){if(step.essaySource&&step.task===t&&!ids.includes(step.source.id))ids.push(step.source.id);}
+      const ids=visibleEvidence(t);
+      if(state.chapter==='writing')for(const step of steps.writing){if(step.essaySource&&step.task===t&&step.index<=state.positions.writing&&!ids.includes(step.source.id))ids.push(step.source.id);}
       for(const id of ids){
-        const s=chapters.flatMap(c=>steps[c.id]).find(x=>x.id===id);if(!s)continue;
+        const s=stepsById.get(id);if(!s)continue;
         const li=el('li');li.dataset.sourceId=id;
         if(used.has(id)){li.classList.add('curation-bank-used');if(currentStep?.essaySource&&currentStep.source.id===id)li.classList.add('curation-bank-used-new');}
         const b=el('button');b.append(el('span','curation-bank-ink',s.quote));b.type='button';b.addEventListener('click',()=>{state.chapter=s.chapter;state.positions[s.chapter]=s.index;render();});

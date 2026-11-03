@@ -44,17 +44,11 @@
 
   function addEddyDialogue(view) {
     const isIndefinite = view.dataset.newGrammarCuration === "indefinite-pronouns";
-    const poses = [
-      ...Array.from({ length: 24 }, (_, index) => `grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp`),
-      "eddy-english-usage-dialogue.png",
-      "eddy-english-difference-dialogue.png",
-      "eddy-error-identifier-dialogue.png",
-      "eddy-student-progress-dialogue.png",
-      "eddy-first-question-dialogue.png",
-      "eddy-twentieth-question-dialogue.png",
-      "eddy-fortieth-question-dialogue.png",
-      "eddy-fun-fact-dialogue.png"
-    ];
+    // The Indefinite Pronouns cards use the assigned Grammar taeching rule 1–33 artwork.
+    // The Unless guide retains its original 24-pose cycle.
+    const poseCount = isIndefinite ? 33 : 24;
+    const poses = Array.from({ length: poseCount }, (_, index) =>
+      `grammar-eddy-dialogues/unless/eddy-${String(index + 1).padStart(2, "0")}.webp`);
     const summaryForUnlistedEnding = {
       "04": "-one 與 -body 大多是風格差異，不是嚴格的書面或口語分界。",
       "44": "elsewhere、someplace 等要按語域和英美用法選擇，不能當作拼錯的同一個字。",
@@ -86,7 +80,7 @@
       addChalkColors(lesson, index);
       art.append(lesson);
       const image = document.createElement("img");
-      image.src = poses[index % (isIndefinite ? 32 : 24)];
+      image.src = poses[index % poses.length];
       image.alt = "";
       image.width = 1671;
       image.height = 941;
