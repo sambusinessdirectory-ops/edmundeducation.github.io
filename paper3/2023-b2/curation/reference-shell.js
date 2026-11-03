@@ -11,9 +11,50 @@ function jump23(j){E('jump23').value=j;E('jump23').dispatchEvent(new Event('chan
 function nativePage(page,r){
  const root=native.querySelector('.source');root.classList.toggle('translated',lang);
  let stamp=[page,i].join(':');if(stamp===lastNative)return;lastNative=stamp;root.innerHTML=nativePages23[page-1];
- // Wrap matches inside original text nodes, retaining email headers, tables, lists and bilingual line structure.
- let items=rows.slice(0,i+1).filter(x=>x.stage===r.stage&&x.leaf===page).reverse();
- for(const item of items){const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let nodes=[],value='';while(walker.nextNode()){const n=walker.currentNode;if(n.parentElement.closest('.translation,details,header,mark,textarea'))continue;nodes.push([n,value.length]);value+=n.textContent+' '}let target=item.q;let normal=x=>x.toLowerCase().replace(/[’‘]/g,"'").replace(/[“”]/g,'"').replace(/[^\p{L}\p{N}]/gu,'');let norm='',map=[];for(let k=0;k<value.length;k++){let c=normal(value[k]);if(c){norm+=c;map.push(k)}}let key=normal(target),at=norm.indexOf(key);if(at<0||!key)continue;let lo=map[at],hi=map[at+key.length-1]+1;for(const [n,start] of nodes){let a=Math.max(0,lo-start),b=Math.min(n.length,hi-start);if(b<=a)continue;let range=document.createRange();range.setStart(n,a);range.setEnd(n,b);let m=document.createElement('mark');m.style.background=inks[item.t===5&&item.state==='REJECT'?item.topic:item.t];if(item===r)m.classList.add('target');if(item.t===6||item.state==='REJECT')m.classList.add('reject');range.surroundContents(m)}}
+ // Match against the intact page first. A later evidence phrase can sit inside
+ // an earlier annotated sentence, or cross several inline elements.
+ const normalize = text => text.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+ const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+ const nodes=[];
+ let normalized='';
+ while(walker.nextNode()){
+   const node=walker.currentNode;
+   if(node.parentElement.closest('.translation,details,header,textarea'))continue;
+   const offsets=[],start=normalized.length;
+   for(let k=0;k<node.length;k++){
+     const char=normalize(node.data[k]);
+     if(char){normalized+=char;offsets.push(k);}
+   }
+   if(offsets.length)nodes.push({node,start,offsets});
+ }
+ const spans=[];
+ for(let index=0;index<=i;index++){
+   const row=rows[index];
+   if(row.stage!==r.stage||row.leaf!==page)continue;
+   const text=normalize(row.q),start=normalized.indexOf(text);
+   if(text&&start>=0)spans.push({start,end:start+text.length,row,index});
+ }
+ for(const {node,start,offsets} of nodes){
+   const segments=spans.filter(s=>s.start<start+offsets.length&&s.end>start).map(s=>({
+     ...s,from:s.start<=start?0:offsets[s.start-start],
+     to:s.end>=start+offsets.length?node.length:offsets[s.end-start-1]+1
+   }));
+   if(!segments.length)continue;
+   const cuts=[...new Set([0,node.length,...segments.flatMap(s=>[s.from,s.to])])].sort((a,b)=>a-b);
+   const fragment=document.createDocumentFragment();
+   for(let j=1;j<cuts.length;j++){
+     const from=cuts[j-1],to=cuts[j],text=node.data.slice(from,to);
+     const span=segments.filter(s=>s.from<=from&&s.to>=to).at(-1);
+     if(!span){fragment.append(text);continue;}
+     const {row,index}=span,mark=document.createElement('mark');
+     mark.textContent=text;mark.dataset.stepIndex=index;
+     mark.style.background=inks[row.t===5&&row.state==='REJECT'?row.topic:row.t];
+     if(index===i){mark.className='target';mark.dataset.type=row.t;}
+     if(row.t===6||row.state==='REJECT')mark.classList.add('reject');
+     fragment.append(mark);
+   }
+   node.replaceWith(fragment);
+ }
 }
 function syncBank(){const groups=$s('#curation-bank-groups'),open=new Set([...groups.children].filter(x=>x.open).map(x=>x.dataset.t));groups.replaceChildren();for(let t=1;t<=3;t++){let d=document.createElement('details');d.className='curation-bank-'+['A','B','C'][t-1];d.dataset.t=t;d.open=open.has(String(t))||(rows[i].pattern&&rows[i].t===t);let buttons=[...E('bank').children[t-1].querySelectorAll('button')].filter(b=>{let f=facts.find(f=>f[0]===t&&f[2]===b.textContent);if(!f)return false;if(rows[i].stage===4)return true;if(b.classList.contains('spent'))return true;if(f[1]===19)return completed.has('heard:'+f[2]);return rows.some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2])&&completed.has(key23(x))) });let summary=document.createElement('summary');summary.innerHTML='<span>Task '+['A','B','C'][t-1]+'</span><strong data-count>'+buttons.length+' 句</strong>';d.append(summary);let ol=document.createElement('ol');for(let b of buttons){let li=document.createElement('li'),btn=document.createElement('button'),small=document.createElement('small');btn.textContent=b.textContent;small.textContent=b.nextElementSibling?.textContent||'';btn.onclick=()=>b.click();if(b.classList.contains('spent'))btn.style.textDecoration='line-through 3px #cb2530';li.append(btn,small);ol.append(li)}d.append(ol);groups.append(d)}}
 function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage),num=r.stage===2?cueIndex+1:ss.indexOf(r)+1,total=r.stage===2?cues.length:ss.length;let key=[i,num,done,visitIndex,E('next').disabled,help,lang,opened,tab,firstView,diag.open,completed.size].join(':');if(!force&&lastSync===key)return;lastSync=key;document.body.classList.toggle('cur23-open',opened);$s('.ref-root').classList.toggle('curation-podcast-active',r.stage===2&&opened);$s('.ref-root').classList.toggle('curation-active',opened);for(let s of ['.curation-dock','.curation-bank','.curation-stage'])$s(s).hidden=!opened;$s('#curation-toggle').textContent=opened?'✦ 離開 Curation':'✦ 進入 Curation';$s('#show-translation').checked=lang;allS('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.filter===tab));allS('.curation-stage-item').forEach((b,j)=>{const stageRows=rows.filter(x=>x.stage===j),finished=stageRows.every(x=>completed.has(key23(x)));b.classList.toggle('active',j===r.stage);b.classList.toggle('done',finished);b.querySelector('.curation-stage-dot').textContent=finished?'✓':j+1;b.querySelector('small').textContent=j===r.stage?num+'/'+total:finished?'完成':''});$s('.curation-stage-fill').style.width=r.stage*20+'%';

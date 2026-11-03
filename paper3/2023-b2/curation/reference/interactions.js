@@ -1,7 +1,7 @@
 /* 2023 B2 interaction layer. Content decisions remain in the source and audit ledgers. */
 (() => {
   'use strict';
-  const css = new URL('reference/interactions.css?v=20261103-manualflow', location.href).href;
+  const css = new URL('reference/interactions.css?v=20261103-sourcefocus', location.href).href;
   for (const root of [document.head, shell, native]) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -10,6 +10,7 @@
   }
   const $ = selector => shell.querySelector(selector);
   const normalize = text => String(text || '').toLowerCase().replace(/[’‘]/g, "'").replace(/[^\p{L}\p{N}]/gu, '');
+  const cueId = cue => 'cue:'+cue[0];
   const storageKey = 'cur23-v11-slots';
   const stageKey = 'cur23-v11-stage-positions';
   const reviewKey = 'cur23-v11-review';
@@ -93,7 +94,7 @@
         let parsed;try {parsed=JSON.parse(cleaned[key]);} catch {throw Error(`存檔內的 ${key} 格式無效`);}
         if (key === 'cur23-stars' || key === 'cur23-done') {
           if (!Array.isArray(parsed)) throw Error(`存檔內的 ${key} 格式無效`);
-          parsed=parsed.filter(id => typeof id === 'string' && (rowIds.has(id) || validWritingBookmark(id) || reviewUnits.some(unit => reviewId(unit) === id) || key === 'cur23-done' && facts.some(fact => `heard:${fact[2]}` === id)));
+          parsed=parsed.filter(id => typeof id === 'string' && (rowIds.has(id) || cues.some(cue => cueId(cue) === id) || validWritingBookmark(id) || reviewUnits.some(unit => reviewId(unit) === id) || key === 'cur23-done' && facts.some(fact => `heard:${fact[2]}` === id)));
           cleaned[key]=JSON.stringify([...new Set(parsed)]);
         } else if (!parsed || typeof parsed !== 'object' || Array.isArray(parsed)) throw Error(`存檔內的 ${key} 格式無效`);
         else if (key === 'cur23-stableUse') cleaned[key] = JSON.stringify(Object.fromEntries(Object.entries(parsed).filter(([task,entry]) => '123'.includes(task) && entry && typeof entry.key === 'string' && rowIds.has(entry.key) && Number.isInteger(Number(entry.n)))));
@@ -287,6 +288,7 @@
     const before = lastSync;
     oldUpdate(force);
     if (before !== lastSync || force) {recordPosition(); queueSave();}
+    $('#curation-bookmark-jump').textContent=books.length?books.length+' 個書籤　⌄':'選擇書籤　⌄';
     const row = rows[i], stageRows = rows.filter(x => x.stage === row.stage);
     if (row.stage === 2) {
       const total = cues.length + reviewUnits.length;
@@ -294,6 +296,9 @@
       else {
         $('#curation-step-count').textContent = `${cueIndex+1} / ${total} · 聆聽關鍵點 ${cueIndex+1} / ${cues.length}`;
         $('#curation-step-jump').textContent = `${cueIndex+1} / ${total} · ${cues[cueIndex][2] || '會議結束'}`;
+        const starred=books.includes(cueId(cues[cueIndex])) || cueIndex===0 && books.includes(key23(rows[first(2)]));
+        $('#curation-bookmark').textContent=starred?'★':'☆';
+        $('#curation-bookmark').setAttribute('aria-pressed',String(starred));
         const count = $('.curation-stage-item[data-chapter="podcast"] small'); if (count) count.textContent = `${cueIndex+1}/${total}`;
         $('#curation-next').textContent = cueIndex === cues.length-1 ? '逐句核對 →' : '下一步 →';
       }
@@ -391,7 +396,7 @@
       if(bookmarksOnly&&!books.includes(key23(row)))return;
       entries.push({label:`${row.q||row.a}`,detail:`${names23[row.stage]} · ${row.p||''}`,activate:()=>{if(rows[i].stage===2&&reviewIndex>=0)stagePositions[2]={key:key23(rows[i]),cue:cueIndex,review:reviewIndex};reviewIndex=-1;jump23(index);}});
     });
-    if (!bookmarksOnly && rows[i].stage === 2) cues.forEach((cue,index) => entries.push({label:`${index+1}. ${cue[2] || '會議結束'}`,detail:'聆聽關鍵點',activate:() => {reviewIndex=-1;localStorage.setItem(reviewKey,'-1');i=first(2);render();listen(index,false);update23(true);}}));
+    if (bookmarksOnly || rows[i].stage === 2) cues.forEach((cue,index) => (!bookmarksOnly || books.includes(cueId(cue)) || index===0 && books.includes(key23(rows[first(2)]))) && entries.push({label:`${index+1}. ${cue[2] || '會議結束'}`,detail:'聆聽關鍵點',activate:() => {reviewIndex=-1;localStorage.setItem(reviewKey,'-1');i=first(2);render();listen(index,false);update23(true);}}));
     if (!bookmarksOnly && rows[i].stage === 2 || bookmarksOnly) reviewUnits.forEach((unit,index) => {
       if (bookmarksOnly && !books.includes(reviewId(unit))) return;
       entries.push({label:`${index+1}. ${unit.sentence}`,detail:`會議逐字稿 · ${unit.speaker}`,activate:() => {enterReview(index);update23(true);}});
@@ -411,10 +416,11 @@
   $('#curation-bookmark-jump').onclick = () => picker(true);
   const oldBookmark = $('#curation-bookmark').onclick;
   $('#curation-bookmark').onclick = () => {
-    if (reviewIndex < 0 || rows[i].stage !== 2) {oldBookmark();queueSave();return;}
-    const id = reviewId(reviewUnits[reviewIndex]);
+    if (rows[i].stage !== 2) {oldBookmark();queueSave();return;}
+    const id = reviewIndex < 0 ? cueId(cues[cueIndex]) : reviewId(reviewUnits[reviewIndex]);
+    if(reviewIndex<0 && cueIndex===0 && books.includes(key23(rows[first(2)]))) books=books.map(key=>key===key23(rows[first(2)])?id:key);
     books = books.includes(id) ? books.filter(item => item !== id) : [...books,id];
-    localStorage.setItem('cur23-stars',JSON.stringify(books));renderReview();queueSave();
+    localStorage.setItem('cur23-stars',JSON.stringify(books));update23(true);queueSave();
   };
   // Preserve the real question form installed by reference/question.js.
   $('#curation-help').onclick = () => document.querySelector('.learning-question-launcher')?.click();
@@ -428,10 +434,10 @@
   $('.curation-character').hidden = !$('#curation-dialogue').checked;
   $('#curation-spotlight').checked = localStorage.getItem('cur23-spotlight') === '1';
   E('spot23').checked = $('#curation-spotlight').checked;
-  document.body.classList.toggle('spot',$('#curation-spotlight').checked);
+
   $('#curation-spotlight').onchange = event => {
     E('spot23').checked = event.target.checked;
-    document.body.classList.toggle('spot',event.target.checked);
+
     localStorage.setItem('cur23-spotlight',event.target.checked?'1':'0');queueSave();
   };
 
@@ -439,7 +445,7 @@
   const requirementPoints = new Map([
     ['show our support','1'],['acknowledge and explain William’s mistake','2'],['explain the misunderstandings','3'],
     ['Three courses will be enough','1'],['explain how their work will benefit from each one','2'],
-    ['script for the promotional video','1'],['both William and Dante giving some updates','2']
+    ['we’ve made several changes since that draft','1']
   ]);
   const initialRoutes = new Map([
     ['see the article from Big Cheese Celebrity Food Gossip',[5,'A']],
@@ -468,7 +474,7 @@
     const article = native.querySelector('.paper-page'); if (!article) return;
     const marks = [...article.querySelectorAll('mark')];
     for (const mark of marks) {
-      const candidate = rows.find((row,index) => row.leaf === page && index <= i && normalize(mark.textContent) === normalize(row.q));
+      const candidate = rows[Number(mark.dataset.stepIndex)];
       if (candidate) {
         const point = requirementPoints.get(candidate.q);
         if (page === 4 && point) {mark.classList.add('cur23-boss-point');mark.dataset.point=point;}

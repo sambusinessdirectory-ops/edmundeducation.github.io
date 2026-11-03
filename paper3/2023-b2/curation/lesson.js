@@ -55,10 +55,35 @@ for(const [page,type,topic,quote,why] of editorial23){
  if(!leaves[page].includes(quote))throw Error('Missing source passage: '+quote);
  rows.splice(writtenEnd,0,{stage:3,p:page,leaf:page,t:type,topic,q:quote,a:why,state:'CURRENT'});
 }
+// Audited v6 separates source directions, unverified claims and usable evidence.
+// Retain the earlier identifiers for existing positions, slots and bookmarks.
+const auditedEdits = [
+  [0,'present his side',5,'跟隨 Archie 與 William 的對話，核對當事人的解說。'],
+  [0,'both William and Dante',5,'William 和 Dante 都提供過更新。從聊天和電郵核對最新安排。'],
+  [3,'Viewers expressed shock',5,'小報交代影片瘋傳及公眾反應。讀到這裡仍須區分已知事實與指控。'],
+  [3,'Experts agree',5,'這是小報引述的評價。留意發言人的立場，公告須認真回應公眾疑慮。'],
+  [3,'“His eyes were clearly',5,'Cooke 把眼睛泛淚解讀成情緒失控。這是對方的推斷，須再查錄音。'],
+  [3,'Neither Puddle',5,'記者聯絡不到兩人回應，交代了公司發公告的背景。'],
+  [3,'Archie:Yes, but only',5,'只有粉絲熟悉其他影片，公司須向一般讀者交代完整背景。'],
+  [3,'Those of you who listened',2,'培訓範圍已由廚師擴展至全體員工。選課和解釋工作用途時，要照顧不同職務。'],
+  [3,'Similarly, staff',2,'導師須獲 Health Advisory Board（HAB）認可。比較食品衞生課程時，先核對這項硬條件。'],
+  [3,'We run training sessions',2,'The Grill Gurus 的所有導師均獲 HAB 認可，符合 Dante 對食品衞生培訓的要求。'],
+  [3,'The instructors gave out',5,'這位學員欣賞食安貼士，但正面評價不能取代 HAB 認可。']
+];
+for(const [stage,prefix,type,reason] of auditedEdits){
+  const row=rows.find(r=>r.stage===stage&&r.q.startsWith(prefix));
+  if(row){row.originalType=row.t;row.t=type;row.a=reason;}
+}
+for(const row of rows.filter(r=>r.stage===3&&r.q.startsWith('William:I’m so sorry!'))){
+  row.originalQuote=row.q;
+  const split=row.q.indexOf('I thought everyone');
+  if(row.t===1)row.q=row.q.slice(0,split).trim();
+  else{row.originalType=row.t;row.t=5;row.q=row.q.slice(split);row.a='William 擔心自己能否繼續主持節目。這句把話題帶到新節目，沒有補充水浸的原因。';}
+}
 const bodyRows=rows.filter(r=>r.stage===3).sort((a,b)=>a.p-b.p||leaves[a.p].indexOf(a.q)-leaves[b.p].indexOf(b.q));rows.splice(rows.findIndex(r=>r.stage===3),bodyRows.length,...bodyRows);
 E('jump23').replaceChildren(...rows.map((r,j)=>new Option((j+1)+' · '+(r.q||r.a).slice(0,48),j)));
 const routeView=render;render=function(){routeView();let r=rows[i];let button=E('refs').querySelector('.route23');if(button){button.firstChild.textContent=button.firstChild.textContent.replace('➜ ','');button.insertAdjacentHTML('afterbegin','<svg width="46" height="26" viewBox="0 0 46 26" aria-hidden="true"><path d="M2 23 Q13 1 37 8 M30 2 L39 8 L31 15" fill="none" stroke="#d0282d" stroke-width="2.5" stroke-linecap="round"/></svg>')}if(r.stage===3){E('meta').textContent='Data File 第 '+r.p+' 頁 · 逐句判讀 · 類型 '+r.t+(r.topic?' · Task '+['A','B','C'][r.topic-1]:'');if(r.state==='SUPERSEDED'&&r.p===6){E('a').textContent='這是故事板初稿。先保留候選，讀過 William 的聊天及 Dante 的更新才判斷是否採用。'}}};render();
-const key23=r=>[r.stage,r.t,r.p,r.q].join('|');const entry23=key=>rows.findIndex(r=>key23(r)===key);
+const key23=r=>[r.stage,r.originalType??r.t,r.p,r.originalQuote??r.q].join('|');const entry23=key=>rows.findIndex(r=>key23(r)===key);
 const stableUsage=()=>Object.fromEntries(Object.entries(shownByTask).filter(([t,v])=>rows[v.i]).map(([t,v])=>[t,{key:key23(rows[v.i]),n:v.n}]));
 function remember23(){localStorage.setItem('cur23-stable',key23(rows[i]));localStorage.setItem('cur23-stableUse',JSON.stringify(stableUsage()));if(active)localStorage.setItem('cur23-audioState',JSON.stringify({j:cueIndex,done,time:audio.currentTime}))}
 const stableView=render;render=function(){stableView();remember23()};const blueView=sourceVisit;sourceVisit=function(id){blueView(id);remember23()};

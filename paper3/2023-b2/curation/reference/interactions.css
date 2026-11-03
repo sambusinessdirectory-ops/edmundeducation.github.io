@@ -57,3 +57,20 @@
 .cur23-essay-content-A{background:#8eeaf0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .cur23-essay-content-B{background:#ffe486;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .cur23-essay-content-C{background:#f8bdc8;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+
+/* Reserve a reading band between the bank and the guide at narrow widths. */
+@media(max-width:1099px){
+  .curation-dock{max-height:42dvh}
+  body.cur23-open main{padding-bottom:65vh}
+}
+@media(max-width:620px){
+  .curation-dock{max-height:40dvh}
+  .curation-content{min-height:44px}
+}
+mark.target[data-type="1"]{outline-color:#0baabe}
+mark.target[data-type="2"]{outline-color:#d8ac19}
+mark.target[data-type="3"]{outline-color:#df758b}
+mark.target[data-type="4"]{outline-color:#6baa60}
+mark.reject.target{background-image:linear-gradient(#c7222c,#c7222c)!important;background-position:left center!important;background-repeat:no-repeat!important;background-size:100% 3px!important;animation:cur23-reject .55s ease-out}
+@keyframes cur23-reject{from{background-size:0 3px}to{background-size:100% 3px}}
+@media(prefers-reduced-motion:reduce){mark.reject.target{animation:none}}
