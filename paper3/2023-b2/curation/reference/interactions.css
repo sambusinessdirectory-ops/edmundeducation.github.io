@@ -1,0 +1,36 @@
+/* This sheet is loaded in the guide, native document, and meeting transcript roots. */
+.paper-page>header.cur23-has-file-stamps{min-height:69px;display:flex;align-items:center;gap:9px}
+.cur23-file-stamps{display:flex;align-items:center;gap:4px;flex:none;margin-right:7px}
+.cur23-file-stamp{display:grid;place-items:center;width:42px;height:44px;border:3px solid currentColor;border-radius:10px 12px 10px 13px;background:#fffdf7;box-shadow:2px 3px 0 #173c3528;font:900 30px/1 Georgia,serif;transform:rotate(-7deg)}
+.cur23-file-stamp:nth-child(2){margin-left:-10px;transform:rotate(6deg)}
+.cur23-file-stamp:nth-child(3){margin-left:-10px;transform:rotate(-3deg)}
+.cur23-file-stamp-A{color:#008c9d;background:#e5fbfc}.cur23-file-stamp-B{color:#9b7000;background:#fff4c3}.cur23-file-stamp-C{color:#b94964;background:#ffe7eb}
+.cur23-stamp-enter{animation:cur23-stamp .58s cubic-bezier(.2,1.4,.35,1) both}@keyframes cur23-stamp{from{opacity:0;scale:1.8;rotate:-25deg}to{opacity:1;scale:1;rotate:0deg}}
+.cur23-boss-point{position:relative;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-boss-point::before{content:attr(data-point);display:inline-grid;place-items:center;width:18px;height:18px;margin-right:3px;border:2px solid #d95643;border-radius:50%;color:#b64736;background:#fff9ed;font:800 13px/1 system-ui;vertical-align:super;transform:rotate(-9deg)}
+.cur23-boss-hint{background:#b9e7aa!important;box-shadow:0 0 0 2px #b9e7aa}
+.email-content p[data-curation-task]{position:relative;padding-right:40px;line-height:2.05;text-wrap:pretty}
+.email-content p.cur23-task-revealed::after{content:attr(data-curation-task);position:absolute;right:1px;top:.1em;display:grid;place-items:center;width:27px;height:27px;border-radius:50%;font:900 20px/1 Georgia,serif;transform:rotate(-8deg)}
+.email-content p[data-curation-task="A"].cur23-task-revealed::after{color:#008ca0;border:2px solid #00aabc}.email-content p[data-curation-task="B"].cur23-task-revealed::after{color:#ae7900;border:2px solid #dfb81c}.email-content p[data-curation-task="C"].cur23-task-revealed::after{color:#c04d68;border:2px solid #e995a5}
+.paper-page mark[data-step-index]{cursor:pointer}.paper-page mark[data-step-index]:focus-visible{outline:3px solid #287a70;outline-offset:3px}
+.cur23-review-current{outline:2px solid #d9aa24;outline-offset:3px;border-radius:5px}.cur23-review-sentence{background:#fff2a8;box-shadow:0 0 0 3px #fff2a8;border-radius:2px}.cur23-review-rejected{text-decoration:line-through 3px #c7222c}.cur23-review-task-1{background:#8eeaf0}.cur23-review-task-2{background:#ffe486}.cur23-review-task-3{background:#f8bdc8}
+.cur23-flight-1{background:#dff8f8;border-color:#24a2ac}.cur23-flight-2{background:#fff4c6;border-color:#bf892a}.cur23-flight-3{background:#ffe6eb;border-color:#cc687d}
+@media(max-width:620px){.paper-page>header.cur23-has-file-stamps{flex-wrap:wrap;min-height:88px}.cur23-file-stamp{width:34px;height:36px;font-size:24px}}
+@media(prefers-reduced-motion:reduce){.cur23-stamp-enter{animation:none!important}.curation-flying{transition:none!important}}
+@media print{.cur23-file-stamps{display:none!important}}
+
+/* Step 5 keeps all three teaching models visible in the writing workspace. */
+.cur23-writing-paper{max-height:none;overflow:visible;white-space:normal;padding:6px 4px 24px;color:#17332d}
+.cur23-model-header{border-bottom:1px solid #c5d7ca;padding:10px 14px 15px;margin:0 0 16px;background:#f1f7f1;border-radius:10px}
+.cur23-model-header span{font:800 11px/1.4 system-ui,sans-serif;letter-spacing:.12em;color:#507969}
+.cur23-model-header h2{font:700 clamp(24px,2.2vw,34px)/1.2 Georgia,serif;margin:7px 0;color:#173d35}
+.cur23-model-header p{font:600 13px/1.4 system-ui,sans-serif;margin:0;color:#547267}
+.cur23-model-nav{position:static;display:flex;gap:8px;flex-wrap:wrap;padding:0 14px 14px;margin:0;background:transparent;border:0;box-shadow:none}
+.cur23-model-nav button{display:block;min-width:110px;padding:9px 14px;font:750 13px/1.3 system-ui,sans-serif;background:#f1f7f1;border:1px solid #accabb;color:#23594b;border-radius:8px}
+.cur23-model-nav button[aria-current="true"]{background:#145949;color:white;border-color:#145949}
+.cur23-model-note{margin:0 14px 16px;padding:11px 14px;border-left:3px solid #cf9b39;background:#f7f1de;font:600 14px/1.5 system-ui,sans-serif}
+.cur23-model-essay{max-width:860px;margin:0 auto;background:#fffefa;border:1px solid #d1ddd2;border-radius:11px;padding:24px clamp(18px,3vw,44px);box-shadow:0 5px 18px #173c4b0b;font:19px/1.7 Georgia,serif}
+.cur23-model-essay h3{font:700 28px/1.25 Georgia,serif;text-align:center;margin:0 0 24px}
+.cur23-model-essay p{margin:0 0 17px}.cur23-model-essay p:last-child{margin-bottom:0}
+.cur23-model-essay .current-model{box-decoration-break:clone;-webkit-box-decoration-break:clone}
+@media(max-width:620px){.cur23-model-essay{font-size:17px;padding:18px}.cur23-model-essay h3{font-size:23px}.cur23-model-nav button{min-width:0;flex:1}}
