@@ -8383,6 +8383,18 @@ elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.clos
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.closeTeacherMove?.addEventListener("click", () => elements.teacherMoveDialog.close());
 const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid');
+function drawAssignedWeekRing(button) {
+ const ns='http://www.w3.org/2000/svg',svg=document.createElementNS(ns,'svg');
+ svg.classList.add('week-pencil-ring');svg.setAttribute('aria-hidden','true');svg.setAttribute('viewBox','0 0 160 76');svg.setAttribute('preserveAspectRatio','none');
+ const path=document.createElementNS(ns,'path'),d='M 36 4 C 69 -2 131 0 148 9 C 162 15 162 50 153 62 C 140 78 65 78 28 72 C 5 69 -3 59 1 33 C 3 10 12 5 40 3 Q 55 1 65 2';
+ path.setAttribute('d',d);path.setAttribute('pathLength','1');path.setAttribute('vector-effect','non-scaling-stroke');svg.append(path);button.append(svg);
+ if(matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+ const pen=document.createElementNS(ns,'g');pen.classList.add('week-moving-pencil');
+ pen.innerHTML='<path d="M0 0 L2 -7 L12 -17 L16 -13 L6 -3 Z" fill="#ffce72" stroke="#633d27" stroke-width="1.2"/><path d="M0 0 L2 -5 L4 -2 Z" fill="#be3334"/><path d="M11 -16 L14 -19 L18 -15 L15 -12 Z" fill="#e87f70" stroke="#633d27" stroke-width="1"/>';
+ const motion=document.createElementNS(ns,'animateMotion');motion.setAttribute('path',d);motion.setAttribute('dur','1.25s');motion.setAttribute('calcMode','paced');motion.setAttribute('begin','indefinite');motion.setAttribute('fill','freeze');pen.append(motion);svg.append(pen);
+ if(typeof motion.beginElement!=='function'){pen.remove();return;}
+ motion.beginElement();const trace=path.animate([{strokeDashoffset:'1'},{strokeDashoffset:'0'}],{duration:1250,easing:'linear'});trace.finished.then(()=>pen.remove(),()=>pen.remove());
+}
 let assignedWeekRequest=0;
 async function markAssignedWeeks(year){
  const ticket=++assignedWeekRequest,user=state.currentUser,student=activeStudent();
@@ -8395,7 +8407,7 @@ async function markAssignedWeeks(year){
   const dates=new Set(rows.map(row=>row.week_start));
   for(const button of weekGrid.querySelectorAll('button'))if(dates.has(button.dataset.week)){
    button.dataset.assigned='true';button.setAttribute('aria-label',button.getAttribute('aria-label')+' · 已安排功課');
-   const sticker=document.createElement('span');sticker.className='week-assigned-sticker';sticker.setAttribute('aria-hidden','true');button.append(sticker);
+   const sticker=document.createElement('span');sticker.className='week-assigned-sticker';sticker.setAttribute('aria-hidden','true');button.append(sticker);drawAssignedWeekRing(button);
   }
   status.textContent='Eddy 貼紙 · 已安排功課';
  }catch{if(ticket===assignedWeekRequest)status.textContent='功課標記未能載入，請重開週曆重試。';}
