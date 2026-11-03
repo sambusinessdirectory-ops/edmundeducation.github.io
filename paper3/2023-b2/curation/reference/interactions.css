@@ -34,3 +34,26 @@
 .cur23-model-essay p{margin:0 0 17px}.cur23-model-essay p:last-child{margin-bottom:0}
 .cur23-model-essay .current-model{box-decoration-break:clone;-webkit-box-decoration-break:clone}
 @media(max-width:620px){.cur23-model-essay{font-size:17px;padding:18px}.cur23-model-essay h3{font-size:23px}.cur23-model-nav button{min-width:0;flex:1}}
+
+/* Manual writing sequence: prompt, skeleton, independent draft, check, then model. */
+.cur23-prep-progress{margin:0 14px 12px;color:#466b5d;font:750 13px/1.5 system-ui,sans-serif}
+.cur23-writing-prompt{margin:0 14px 16px;padding:15px 18px;background:#f5f0e2;border-left:4px solid #c89136;border-radius:4px;font:18px/1.55 Georgia,serif}
+.cur23-writing-contract{display:grid;grid-template-columns:110px minmax(0,1fr);gap:0 12px;margin:0 14px 18px;border:1px solid #ccdacd;border-radius:9px;overflow:hidden;font:15px/1.5 system-ui,sans-serif}
+.cur23-writing-contract dt,.cur23-writing-contract dd{margin:0;padding:10px 12px;border-bottom:1px solid #dce8dc}
+.cur23-writing-contract dt{font-weight:800;background:#edf5ef}.cur23-writing-contract dd{background:#fffefa}
+.cur23-writing-contract dt:nth-last-of-type(1),.cur23-writing-contract dd:nth-last-of-type(1){border-bottom:0}
+.cur23-writing-skeleton{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin:0 14px 18px}
+.cur23-writing-skeleton label{display:block;padding:12px;border:1px solid #c7d9cc;border-radius:9px;background:#fffefa;font:14px/1.5 system-ui,sans-serif}
+.cur23-writing-skeleton strong{display:block;margin-bottom:6px;color:#204f42}
+.cur23-writing-skeleton textarea{width:100%;min-height:88px;padding:9px;border:1px solid #adccba;border-radius:5px;background:#fffef9;font:15px/1.5 Georgia,serif}
+.cur23-prep-draft-note{margin:0 14px 16px;padding:13px;background:#eaf4ed;border-radius:8px;font:700 15px/1.5 system-ui,sans-serif}
+.cur23-writing-checks{display:grid;gap:10px;margin:0 14px 18px;font:15px/1.5 system-ui,sans-serif}
+.cur23-writing-checks label{display:flex;align-items:flex-start;gap:8px;padding:11px 13px;background:#fffefa;border:1px solid #c8dacd;border-radius:7px}
+.cur23-writing-checks input{width:18px;height:18px;margin-top:2px;accent-color:#287a70;flex:none}
+.cur23-open-model{display:block;margin:0 14px 18px;padding:11px 16px;border:0;border-radius:8px;background:#155747;color:#fff;font:800 14px/1.3 system-ui,sans-serif}
+@media(max-width:620px){.cur23-writing-skeleton{grid-template-columns:1fr}.cur23-writing-contract{grid-template-columns:90px minmax(0,1fr)}.cur23-writing-prompt{font-size:16px}}
+
+.cur23-essay-structure{background:#e8dafa;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-essay-content-A{background:#8eeaf0;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-essay-content-B{background:#ffe486;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.cur23-essay-content-C{background:#f8bdc8;box-decoration-break:clone;-webkit-box-decoration-break:clone}
