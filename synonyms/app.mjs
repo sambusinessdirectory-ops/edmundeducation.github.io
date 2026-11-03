@@ -7,7 +7,7 @@ import { catalog, legacyCatalog } from './lesson-catalog.mjs?v=20261019-curation
 import { socialMediaAudio } from './social-media-audio.mjs?v=20260929-social1';
 import { guideAudio } from './guide-audio.mjs?v=20260928-guide1';
 import { detailedFeedback } from './detailed-feedback.mjs?v=20260928-feedback1';
-import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20260928-recordings1';
+import {mountRecorder,allRecordings,recordingBlob,uploadRecording} from './recordings.mjs?v=20261103-readalong';
 
 const lessonCatalog = [...catalog,...legacyCatalog].sort((a,b)=>a.rank-b.rank || Number(a.legacy||false)-Number(b.legacy||false));
 const modules = {important:importantModule,...Object.fromEntries(lessonCatalog.map(item=>[item.id,item])),'social-media':socialMediaModule};
@@ -474,7 +474,7 @@ host.addEventListener('click',async event=>{
   else if(button.hasAttribute('data-next'))nextQuestion();
   else if(button.hasAttribute('data-speak'))void playVoice();
   else if(button.dataset.guideAudio){const [kind,index]=button.dataset.guideAudio.split(':');void playGuideAudio(kind,index,button);}
-  else if(button.hasAttribute('data-open-recorder')){const q=current(),panel=host.querySelector('[data-recorder]');if(!q||!panel)return;stopVoice();panel.hidden=false;button.hidden=true;recorderDispose=mountRecorder(panel,{owner,token,question:q.id,rpc:window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc,onClose:()=>{recorderDispose?.();recorderDispose=null;panel.hidden=true;button.hidden=false;}});}
+  else if(button.hasAttribute('data-open-recorder')){const q=current(),panel=host.querySelector('[data-recorder]');if(!q||!panel)return;stopVoice();panel.hidden=false;button.hidden=true;recorderDispose=mountRecorder(panel,{expected:q.exercise.original,owner,token,question:q.id,rpc:window.EDMUND_LEARNING_PORTAL_CONTEXT.rpc,onClose:()=>{recorderDispose?.();recorderDispose=null;panel.hidden=true;button.hidden=false;}});}
   else if(button.dataset.playRecording)void playRecording(button);
   else if(button.dataset.uploadRecording)void retryRecording(button);
   else if(button.hasAttribute('data-retry-save')){if(pending.size)void syncPending();else void loadAccount();}

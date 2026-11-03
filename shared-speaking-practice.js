@@ -248,7 +248,7 @@
       state.recorder = mimeType ? new MediaRecorder(state.stream, { mimeType }) : new MediaRecorder(state.stream);
       state.recorder.ondataavailable = event => { if (event.data?.size) state.chunks.push(event.data); };
       state.recorder.onstop = () => finaliseRecording(state.recorder?.mimeType || mimeType || "audio/webm");
-      state.recorder.start(1000);
+      state.recorder.start(1000);window.CourseReading?.attachRecorder(state.recorder,(hasAnswerFeedback(card) && card.dataset.edmundAnswerText) || card.dataset.edmundPromptText,card);
       state.startedAt = Date.now();
       card.querySelector("[data-edmund-record-toggle]")?.classList.add("is-recording");
       const panel = dock();

@@ -5035,6 +5035,7 @@
           <div class="recording-status" data-recording-status><span role="status" aria-live="polite">準備好便按「開始錄音」。</span></div>
         </div>
         <div class="recorder-controls">
+          ${exercise && state.route.view==='exercise' ? '<label data-reading-choice hidden>朗讀示範答案 <select data-reading-model></select></label>' : ''}
           <button class="record-button" type="button" data-record-toggle>● 開始錄音</button>
           <button class="secondary-button finish-recording-button" type="button" data-finish-recording hidden>■ 完成並製作 MP3</button>
         </div>
@@ -6346,6 +6347,8 @@
       };
       recorder.onstop = () => finaliseRecording(generation, recorder.mimeType || "audio/webm");
       recorder.start(1000);
+      const selected=document.querySelector('[data-reading-model]');
+      if(!currentRecordingContext()?.isExam && selected?.value)window.CourseReading?.attachRecorder(recorder,selected.value,selected.parentElement);
       if (requestedContext.isExam) {
         stopMicrophoneCheck = window.EdmundSpeakingMicrophoneCheck?.(stream, {
           isActive: () => generation === state.recordingGeneration && state.mediaRecorder === recorder && recorder.state === "recording",

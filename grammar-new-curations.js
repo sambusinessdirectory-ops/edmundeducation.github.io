@@ -92,7 +92,7 @@
       image.height = 941;
       image.loading = "lazy";
       image.decoding = "async";
-      if (!isIndefinite) art.append(image);
+      art.append(image);
 
       const caption = document.createElement("figcaption");
       caption.className = "grammar-eddy-dialogue__text";
@@ -112,9 +112,86 @@
       if (chalkCopy.textContent.length > 260 || chalkCopy.querySelector("table") || chalkCopy.querySelectorAll("li").length > 3) {
         figure.classList.add("grammar-eddy-dialogue--dense");
       }
-      if (isIndefinite) figure.append(art, image, caption);
-      else figure.append(art, caption);
+      figure.append(art, caption);
       card.replaceChildren(figure);
+    });
+  }
+
+  // The pose artwork includes an old dialogue panel. Keep only the portrait above the real caption.
+  function placeEddy(art, image, caption) {
+    const board = art.getBoundingClientRect();
+    const box = caption.getBoundingClientRect();
+    const portraitHeight = image.getBoundingClientRect().height;
+    image.style.bottom = `${Math.ceil(board.bottom - box.top - 10 - portraitHeight * .31)}px`;
+    const placed = image.getBoundingClientRect();
+    return { left: placed.left + placed.width * .34, right: placed.right,
+      top: placed.top, bottom: placed.top + placed.height * .69 };
+  }
+
+  function lessonTextRects(lesson) {
+    const rects = [];
+    const walker = document.createTreeWalker(lesson, NodeFilter.SHOW_TEXT);
+    while (walker.nextNode()) {
+      if (!walker.currentNode.textContent.trim()) continue;
+      const range = document.createRange();
+      range.selectNodeContents(walker.currentNode);
+      rects.push(...range.getClientRects());
+    }
+    return rects;
+  }
+
+  function layoutIndefiniteEddy(view) {
+    if (view.hidden || view.dataset.newGrammarCuration !== "indefinite-pronouns") return;
+    const narrow = window.matchMedia("(max-width: 840px)").matches;
+    view.querySelectorAll(".grammar-eddy-dialogue--indefinite").forEach((figure) => {
+      const art = figure.querySelector(".grammar-eddy-dialogue__art");
+      const lesson = art.querySelector(".grammar-eddy-dialogue__lesson");
+      const caption = figure.querySelector(".grammar-eddy-dialogue__text");
+      const image = figure.querySelector("img");
+      figure.classList.remove("grammar-eddy-dialogue--eddy-aside");
+      if (image.parentElement !== art) art.append(image);
+      art.style.height = "";
+      lesson.style.bottom = "";
+      image.style.bottom = "";
+      let portrait = placeEddy(art, image, caption);
+      const textRects = lessonTextRects(lesson);
+      if (narrow) {
+        const textBottom = Math.max(lesson.getBoundingClientRect().top, ...textRects.map((rect) => rect.bottom));
+        const overlap = textBottom + 16 - portrait.top;
+        if (overlap > 0) {
+          const height = art.getBoundingClientRect().height;
+          art.style.height = `${Math.min(900, Math.ceil(height + overlap + 24))}px`;
+          portrait = placeEddy(art, image, caption);
+        }
+        lesson.style.bottom = `${Math.ceil(art.getBoundingClientRect().bottom - portrait.top + 12)}px`;
+        return;
+      }
+      const collision = textRects.some((rect) => rect.left < portrait.right && rect.right > portrait.left
+        && rect.top < portrait.bottom && rect.bottom > portrait.top);
+      if (collision) {
+        figure.classList.add("grammar-eddy-dialogue--eddy-aside");
+        figure.insertBefore(image, caption);
+        placeEddy(art, image, caption);
+        lesson.style.bottom = `${Math.ceil(art.getBoundingClientRect().bottom - caption.getBoundingClientRect().top + 12)}px`;
+        const extraText = lesson.scrollHeight - lesson.clientHeight;
+        if (extraText > 4) {
+          art.style.height = `${Math.min(950, Math.ceil(art.getBoundingClientRect().height + (extraText + 20) / .95))}px`;
+          placeEddy(art, image, caption);
+          lesson.style.bottom = `${Math.ceil(art.getBoundingClientRect().bottom - caption.getBoundingClientRect().top + 12)}px`;
+        }
+      } else if (lesson.scrollHeight > lesson.clientHeight + 4) {
+        lesson.style.bottom = `${Math.ceil(art.getBoundingClientRect().bottom - portrait.top + 12)}px`;
+      }
+    });
+  }
+
+  const pendingEddyLayouts = new WeakSet();
+  function scheduleIndefiniteLayout(view) {
+    if (view.dataset.newGrammarCuration !== "indefinite-pronouns" || pendingEddyLayouts.has(view)) return;
+    pendingEddyLayouts.add(view);
+    requestAnimationFrame(() => {
+      pendingEddyLayouts.delete(view);
+      layoutIndefiniteEddy(view);
     });
   }
 
@@ -219,6 +296,7 @@
     view.hidden = false;
     setRoute(slug);
     view.scrollIntoView({ behavior: "instant", block: "start" });
+    scheduleIndefiniteLayout(view);
   }
 
   function showLibrary() {
@@ -250,4 +328,6 @@
   const requested = new URLSearchParams(window.location.search).get("lesson");
   const initial = lessons.findIndex((lesson) => lesson.slug === requested);
   if (initial >= 0) open(allViews[initial], lessons[initial].slug);
+  window.addEventListener("resize", () => allViews.forEach(scheduleIndefiniteLayout));
+  document.fonts?.ready.then(() => allViews.forEach(scheduleIndefiniteLayout));
 })();

@@ -6493,6 +6493,7 @@
       { key: "spaced-repetition", label: "間隔重複記憶法 Spaced Repetition", labelLines: ["間隔重複記憶法", "Spaced Repetition"], group: "scope", kind: "route", target: "spaced-repetition-home", tone: "red", wide: true },
       { key: "daily-english", label: "日常英語", group: "resource", kind: "deck", target: "daily-english/general" },
       { key: "conversational-english", label: "對話英語 Conversational English", labelLines: ["對話英語", "Conversational English"], group: "resource", kind: "deck", target: "conversational-english/general" },
+      { key: "pronunciation-passes", label: "Pronunciation Passes 發音通過紀錄", labelLines:["發音通過紀錄","Pronunciation Passes"], group:"resource", kind:"route", target:"pronunciation-passes", tone:"orange" },
       { key: "bookmarks", label: "書簽 My Private Bookmarks", labelLines: ["書簽", "My Private Bookmarks"], group: "resource", kind: "route", target: "bookmarks-home", tone: "orange" },
       { key: "pop-songs", label: "英文流行曲", group: "resource", kind: "deck", target: "pop-songs/general" },
       { key: "news-analysis", label: "新聞分析", group: "resource", kind: "deck", target: "news-analysis/general" },
@@ -11784,6 +11785,7 @@
     }
 
     function canAccess(key) {
+      if(key==="pronunciation-passes") return currentUser?.role==="student";
       if(languageEdition.active && accessSections.some(s=>s.key===key)) return !!currentUser && (isAdmin() || currentUser.access?.[key] !== false);
       if (isAdmin()) return true;
       return Boolean(currentUser?.access?.[key]);
@@ -15377,6 +15379,19 @@
       );
     }
 
+    function showPronunciationPasses(){
+      showOptions("Pronunciation Passes · 發音通過紀錄","此瀏覽器已通過發音檢查的字卡。",()=>{
+        const groups=new Map();let total=0;
+        if(currentUser?.role==="student")for(let i=0;i<localStorage.length;i++){
+          const k=localStorage.key(i);if(!k?.startsWith('["pron-pass",'))continue;
+          try{const [,owner,ref]=JSON.parse(k);if(owner!==currentUser.id)continue;
+            const [deck,index,...parts]=ref.split("::");const date=new Date(Number(localStorage.getItem(k)));
+            if(!groups.has(deck))groups.set(deck,[]);groups.get(deck).push({text:parts.join("::"),date});total++;
+          }catch{}
+        }
+        return '<section class="bookmark-list-panel"><img src="eddy-pass-gallery.webp" alt="Eddy · pass!" width="220" height="220" style="display:block;max-width:70%;height:auto;margin:auto"><h2>'+total+' 張已通過字卡</h2>'+([...groups].map(([deck,rows])=>'<h3>'+escapeHtml(deckTitleFromId(deck)||deck)+'</h3><ul>'+rows.sort((a,b)=>b.date-a.date).map(r=>'<li>'+escapeHtml(r.text)+' · '+escapeHtml(r.date.toLocaleDateString("zh-HK"))+'</li>').join('')+'</ul>').join('')||'<p>通過第一次發音檢查後，字卡便會出現在這裡。</p>')+'</section>';
+      },"columns-grid one");
+    }
     function showBookmarksHome(push = true) {
       const rows = bookmarkRowsForStudent();
       showOptions(
@@ -18711,6 +18726,7 @@
           if (route === "government-hkpf-writing-composition") showGovernmentHkpfWritingComposition();
           if (route === "government-hkpf-cre-exam") openSearchDeckResult("government/hkpf/hkpf-cre-exam", true);
           if (route === "government-hkpf-history-and-facts") openSearchDeckResult("government/hkpf/history-and-facts", true);
+          if (route === "pronunciation-passes") showPronunciationPasses();
           if (route === "bookmarks-home") showBookmarksHome();
           const pushCustomRoute = !isStudentCustomOptionsView();
           if (route === "student-custom-home") showStudentCustomHome(pushCustomRoute);

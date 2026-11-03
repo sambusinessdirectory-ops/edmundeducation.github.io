@@ -2,7 +2,7 @@
 let dbPromise;
 function db(){return dbPromise ||=new Promise((resolve,reject)=>{const r=indexedDB.open('edmund-polysemy-lab-audio',1);r.onupgradeneeded=()=>r.result.createObjectStore('recordings');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
 async function stored(key,value){const d=await db();return new Promise((resolve,reject)=>{const t=d.transaction('recordings',value?'readwrite':'readonly'),r=value?t.objectStore('recordings').put(value,key):t.objectStore('recordings').get(key);t.oncomplete=()=>resolve(r.result);t.onerror=()=>reject(t.error||new Error('Device cache failed'));t.onabort=()=>reject(t.error||new Error('Device cache aborted'));});}
-export function mountRecorder(host,{key,companion,loadRecording,onRecorded,onSkip}){
+export function mountRecorder(host,{expected,key,companion,loadRecording,onRecorded,onSkip}){
  let alive=true,recorder=null,stream=null,url=null,timer=null,pending=false;
  host.classList.remove('has-recording');
  try{host.classList.toggle('has-recording',localStorage.getItem('edmund-polysemy-recorded:'+key)==='1');}catch{}
@@ -29,7 +29,7 @@ export function mountRecorder(host,{key,companion,loadRecording,onRecorded,onSki
    const mime=['audio/webm;codecs=opus','audio/mp4','audio/webm'].find(m=>MediaRecorder.isTypeSupported(m));recorder=new MediaRecorder(stream,{...(mime?{mimeType:mime}:{}),audioBitsPerSecond:96000});const chunks=[];let started=Date.now();
    recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);};recorder.onerror=()=>{status('錄音未能完成，請重試或跳過。');stop();};
    recorder.onstop=async()=>{if(!alive)return;host.querySelector('[data-stop]').hidden=true;host.querySelector('[data-record]').disabled=false;const blob=new Blob(chunks,{type:recorder.mimeType||'audio/webm'});if(!blob.size||Date.now()-started<600){status('錄音太短，請再試一次。');return;}playBlob(blob);status('正在保存錄音…');try{const synced=await onRecorded(blob);status(synced===false?'已保留在此裝置；請到「我的錄音」重試上傳。':'✓ 已保存，可從「我的錄音」重聽。');}catch{status('✓ 已錄好，可在本頁重聽；此瀏覽器未能保存錄音，離開後可能無法重聽。');}};
-   recorder.start();host.querySelector('[data-stop]').hidden=false;status('正在錄音…讀完後按「停止錄音」。');timer=setTimeout(stop,60000);
+   recorder.start();window.CourseReading?.attachRecorder(recorder,expected,host);host.querySelector('[data-stop]').hidden=false;status('正在錄音…讀完後按「停止錄音」。');timer=setTimeout(stop,60000);
   }catch{status('未能使用麥克風。請檢查瀏覽器權限，或按「這次先跳過」。');if(alive)host.querySelector('[data-record]').disabled=false;stream?.getTracks().forEach(t=>t.stop());}
   finally{pending=false;}
  };
