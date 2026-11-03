@@ -100,6 +100,64 @@
       tools.append(play.querySelector('.reading-controls'), play.querySelector('.progress-actions'), play.querySelector('.score-explanation'), play.querySelector('.utility-row'), $('.pilot-note'));
       cockpit.after(library);
       library.append(catalogue);
+      const cabinetTypes = {
+        'Opinion': {index:'01',code:'OP',formula:'立場＋兩項核心理由'},
+        'Discuss Both Views': {index:'02',code:'DV',formula:'雙方觀點＋個人立場'},
+        'Cause / Solution': {index:'03',code:'CS',formula:'問題／原因＋解決方法'},
+        'Advantages / Disadvantages': {index:'04',code:'AD',formula:'優點＋缺點'},
+        'Direct Question': {index:'05',code:'DQ',formula:'逐一回答指定問題'}
+      };
+      const cabinetTasks = {'task-1':{index:'01',code:'T1'},'task-2':{index:'02',code:'T2'}};
+      let cabinetFrame = 0;
+      const decorateCabinet = () => {
+        cancelAnimationFrame(cabinetFrame);
+        cabinetFrame = requestAnimationFrame(() => {
+          const typeRows = [...catalogue.querySelectorAll('[data-memory-pathway-type]')];
+          const taskRows = [...catalogue.querySelectorAll('[data-memory-pathway-task]')];
+          catalogue.dataset.pilotCabinetLevel = typeRows.length ? 'types' : taskRows.length ? 'tasks' : 'essays';
+          const kicker = catalogue.querySelector('.memory-catalogue-kicker');
+          if (kicker) kicker.textContent = typeRows.length ? 'IELTS TASK 2 ARCHIVE' : taskRows.length ? 'IELTS WRITING ARCHIVE' : 'MODEL ESSAY FILE INDEX';
+          const heading = catalogue.querySelector('#memory-pathway-title');
+          if (heading) heading.dataset.pilotArchiveTitle = typeRows.length ? 'QUESTION TYPE INDEX' : taskRows.length ? 'IELTS WRITING ARCHIVE' : 'MODEL ESSAY FILES';
+          for (const row of [...taskRows, ...typeRows]) {
+            const meta = typeRows.includes(row) ? cabinetTypes[row.dataset.memoryPathwayType] : cabinetTasks[row.dataset.memoryPathwayTask];
+            if (!meta) continue;
+            row.style.setProperty('--pilot-file-index', String(Number(meta.index) - 1));
+            row.dataset.pilotFileCode = meta.code;
+            const symbol = row.querySelector('.memory-pathway-symbol');
+            if (symbol && !symbol.querySelector('small')) {
+              const number = document.createElement('small');
+              number.textContent = meta.index;
+              const code = document.createElement('strong');
+              code.textContent = meta.code;
+              symbol.replaceChildren(number, code);
+            }
+            const copy = row.querySelector('.memory-pathway-row-copy');
+            if (meta.formula && copy && !copy.querySelector('.pilot-file-formula')) {
+              const formula = document.createElement('em');
+              formula.className = 'pilot-file-formula';
+              formula.textContent = meta.formula;
+              copy.querySelector(':scope > span')?.before(formula);
+            }
+            const total = copy?.querySelector(':scope > span');
+            if (total && !total.dataset.pilotFileCount) {
+              total.dataset.pilotFileCount = '';
+              total.textContent = `${total.textContent.match(/\d+/)?.[0] || '0'} FILES`;
+            }
+          }
+          replaceUIArrows(catalogue);
+          for (const arrow of catalogue.querySelectorAll('.memory-pathway-arrow')) {
+            if (arrow.querySelector('.pilot-open-copy')) continue;
+            const label = document.createElement('span');
+            label.className = 'pilot-open-copy';
+            label.textContent = 'OPEN FILE';
+            arrow.prepend(label);
+          }
+        });
+      };
+      new MutationObserver(decorateCabinet).observe(catalogue, {childList:true, subtree:true});
+      decorateCabinet();
+      library.addEventListener('toggle', () => document.body.classList.toggle('pilot-library-open', library.open));
       switchEssay.addEventListener('click', () => { library.open = true; library.querySelector('summary').focus(); });
       $('.hero').hidden = true;
 
