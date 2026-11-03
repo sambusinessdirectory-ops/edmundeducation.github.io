@@ -375,6 +375,11 @@
   }
   $('#curation-next').onclick = async () => {
     if (moving) return;
+    const direction=E('refs').querySelector('[data-destination]');
+    if(direction && routePhase()!=='returned'){
+      setRoutePhase(routePhase()==='visit'?'returned':'visit');
+      return;
+    }
     if(rows[i].stage===2 && reviewIndex<0 && done){completed.add(cueId(cues[cueIndex]));chaptersDone();}
     if (reviewIndex >= 0 && rows[i].stage === 2) {
       moving = true;
@@ -396,7 +401,7 @@
     if(opened && origin===i)oldNext(); update23(true);
   };
   const oldPrev = $('#curation-prev').onclick;
-  $('#curation-prev').onclick = () => { if (reviewIndex >= 0 && rows[i].stage === 2) reviewBack(); else oldPrev(); };
+  $('#curation-prev').onclick = () => { if(routePhase()==='visit'){setRoutePhase('');return}if(routePhase()==='returned'){setRoutePhase('visit');return}if (reviewIndex >= 0 && rows[i].stage === 2) reviewBack(); else oldPrev(); };
 
   for(const id of ['curation-close','curation-toggle']){
     const button=$('#'+id),toggle=button.onclick;
@@ -572,8 +577,12 @@
   let lastDecorated = '';
   update23 = function(force=false) {
     oldUpdateNative(force);
+    if(opened && rows[i].stage===1 && force){
+      const tasks=currentTasks(rows[i].leaf);
+      [...shell.querySelectorAll('.curation-category-choices input')].forEach((box,index)=>{box.checked=tasks.includes('ABC'[index]);});
+    }
     const signature = `${i}:${rows[i].leaf || 4}:${lastNative}`;
-    if (!nativeHost.hidden && (force || signature !== lastDecorated)) {decorateSource(rows[i].leaf || 4);lastDecorated = signature;}
+    if (opened && !nativeHost.hidden && (force || signature !== lastDecorated)) {decorateSource(Number(native.querySelector('.paper-page')?.id.split('-')[1]) || rows[i].leaf || 4);lastDecorated = signature;}
   };
   // Reapply category stamps immediately when a learner changes a provisional task.
   shell.addEventListener('change',event => {if (event.target.closest('.curation-category-choices')) {decorateSource(rows[i].leaf || 4);lastDecorated = '';queueSave();}});

@@ -13,7 +13,9 @@
   function targets() {
     if (!opened || diag.open) return [];
     switch (rows[i].stage) {
-      case 0: case 1: case 3: return [...native.querySelectorAll('mark.target')];
+      case 0: case 1: case 3:
+        if(routePhase()==='visit')return [...native.querySelectorAll('.paper-page > header')];
+        return [...native.querySelectorAll('mark.target')];
       case 2: return [...document.querySelectorAll('#turns .cur23-review-sentence')];
       case 4: return [...surface.querySelectorAll('.current-model')];
     }
@@ -60,7 +62,7 @@
   const update = update23;
   update23 = function(force=false) {
     update(force);
-    const row=rows[i], key=[opened,i,diag.open,visitIndex,lang,row.stage===2?$s('#curation-step-jump').textContent:''].join('|');
+    const row=rows[i], key=[opened,i,diag.open,visitIndex,lang,routePhase(),row.stage===2?$s('#curation-step-jump').textContent:''].join('|');
     if (key!==lastStep || force) {
       const guide=$s('#curation-explanation'), target=native.querySelector('mark.target');
       if (opened && (row.stage===0 || row.stage===3) && target && !guide.querySelector('.curation-translation')) {
@@ -78,6 +80,22 @@
         link.href='benchmark.pdf?v=audited-v6#page='+page;
         link.textContent='對照審訂教材 · 第 '+page+' 頁';guide.append(link);
       }
+      const phase=routePhase();
+      if(opened && phase==='visit'){
+        const page=Number(E('refs').querySelector('[data-destination]').dataset.destination);
+        $s('#curation-source').textContent='Data File 第 '+page+' 頁 · 由第 '+row.leaf+' 頁前往';
+        $s('#curation-title').textContent='資料指路 · '+pageRouteTitles[page];
+        $s('#curation-quote').textContent=row.q;
+        guide.replaceChildren();
+        const why=document.createElement('p');why.className='curation-process';why.textContent=row.a;
+        const back=document.createElement('p');back.textContent='先辨認文件及來源。下一步返回第 '+row.leaf+' 頁的提示句。';
+        guide.append(why,back);$s('#curation-step-actions').replaceChildren();
+        $s('#curation-next').textContent='返回原句 →';$s('#curation-prev').disabled=false;
+        $s('#curation-step-jump').textContent+=' · 來源頁';
+      }else if(opened && phase==='returned'){
+        const arrow=$s('#curation-step-actions [data-destination]');if(arrow)arrow.dataset.seen='1';
+        $s('#curation-step-jump').textContent+=' · 已返回';
+      }
       if(key!==lastStep) $s('.curation-content').scrollTop=0;
       schedule(key!==lastStep);lastStep=key;
     }
@@ -86,5 +104,14 @@
   $s('#curation-spotlight').addEventListener('change',()=>schedule(true));
   new ResizeObserver(()=>schedule(true)).observe(dock);
   window.addEventListener('load',()=>schedule(true));
+  const unknownSave=savedEntry23 && entry23(savedEntry23)<0;
+  if(unknownSave)jump23(0);
   update23(true);
+  if(unknownSave){
+    const status=$s('#curation-save-status');
+    status.textContent='原有步驟已更新，已返回任務指示。草稿及筆記仍可使用。';
+    status.dataset.noticeUntil=String(Date.now()+10000);
+  }
+  if($s('#curation-step-jump').textContent.trim() && $s('#curation-bank-groups').children.length===3)
+    document.documentElement.removeAttribute('data-loading');
 })();
