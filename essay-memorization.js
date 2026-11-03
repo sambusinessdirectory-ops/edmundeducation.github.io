@@ -4,7 +4,7 @@
   const selectedLesson = window.ESSAY_MEMORY_LESSONS?.[requestedKey];
   const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
   const pathwayTasks=[
-    {key:'task-1',exam:'IELTS Writing Task 1',label:'Task 1 (Charts)',subline:'圖表寫作',types:[
+    {key:'task-1',exam:'IELTS Writing Task 1',label:'Task 1 (Charts)',subline:'圖表寫作',tone:'charts',symbol:'▥',types:[
       {type:'Bar Charts',label:'Bar Charts',subline:'柱狀圖',tone:'amber',symbol:'▥'},
       {type:'Line Graph',label:'Line Graph',subline:'折線圖',tone:'sky',symbol:'⌁'},
       {type:'Pie Charts',label:'Pie Charts',subline:'圓餅圖',tone:'violet',symbol:'◕'},
@@ -13,7 +13,7 @@
       {type:'Tables',label:'Tables',subline:'表格題',tone:'slate',symbol:'▦'},
       {type:'Mixed Charts',label:'Mixed Charts',subline:'混合圖表',tone:'teal',symbol:'✦'}
     ]},
-    {key:'task-2',exam:'IELTS Writing Task 2',label:'Task 2 (Essay)',subline:'議論文寫作',types:[
+    {key:'task-2',exam:'IELTS Writing Task 2',label:'Task 2 (Essay)',subline:'議論文寫作',tone:'essay',symbol:'✎',types:[
       {type:'Opinion',label:'Opinions',subline:'立場題',tone:'coral',symbol:'✦'},
       {type:'Discuss Both Views',label:'Discuss both views + Your opinion',subline:'雙邊討論及個人意見',tone:'violet',symbol:'⇄'},
       {type:'Cause / Solution',label:'Cause and Solution',subline:'原因及解決方法',tone:'mint',symbol:'→'},
@@ -30,7 +30,7 @@
   const pathwayButton=(title,subtitle,count,attribute,value,presentation)=>{
     const button=document.createElement('button');button.type='button';button.className='memory-pathway-row';button.dataset[attribute]=value;
     if(presentation){
-      button.classList.add('memory-pathway-type-row');button.dataset.memoryPathwayTone=presentation.tone;
+      button.classList.add(attribute==='memoryPathwayTask'?'memory-pathway-task-row':'memory-pathway-type-row');button.dataset.memoryPathwayTone=presentation.tone;
       const symbol=document.createElement('span');symbol.className='memory-pathway-symbol';symbol.setAttribute('aria-hidden','true');symbol.textContent=presentation.symbol;
       button.append(symbol);
     }
@@ -58,7 +58,7 @@
     if(!pathwayTask){
       heading.textContent='IELTS Writing';description.textContent='先選 Task 1 或 Task 2，再按題型尋找範文。';
       count.textContent=`${approvedEssays.length} 篇範文`;crumbs.hidden=true;
-      for(const task of pathwayTasks)list.append(pathwayButton(task.label,task.subline,pathwayItems(task).length,'memoryPathwayTask',task.key));
+      for(const task of pathwayTasks)list.append(pathwayButton(task.label,task.subline,pathwayItems(task).length,'memoryPathwayTask',task.key,task));
       return;
     }
     crumbs.hidden=false;

@@ -31,8 +31,17 @@ assert.equal(await page.locator('[data-memory-catalogue-search]').count(),0);
 assert.equal(await page.locator('.setup-card').isVisible(),false);
 assert.equal(await page.locator('.mission').isVisible(),false);
 assert.equal(await page.locator('[data-memory-pathway-task]').count(),2);
+assert.deepEqual(await page.locator('[data-memory-pathway-task]').evaluateAll(nodes=>nodes.map(node=>node.dataset.memoryPathwayTone)),['charts','essay']);
+assert.equal(new Set(await page.locator('[data-memory-pathway-task]').evaluateAll(nodes=>nodes.map(node=>getComputedStyle(node).backgroundImage))).size,2);
 assert((await page.locator('[data-memory-pathway-count]').innerText()).includes('288'));
 await noOverflow('landing');
+if(process.env.MEMORY_QA_SCREENSHOT_DIR){
+  await page.locator('[data-memory-pathway]').evaluate(node=>node.scrollIntoView({block:'start'}));
+  await snapshot('memory-landing-phone');
+  await page.setViewportSize({width:1440,height:1000});await snapshot('memory-landing-desktop');
+  await page.setViewportSize({width:390,height:844});
+}
+await page.setViewportSize({width:320,height:700});await noOverflow('landing at 320px');await page.setViewportSize({width:390,height:844});
 
 await page.locator('[data-memory-pathway-task="task-2"]').click();
 assert.equal(await page.locator('[data-memory-pathway-type]').count(),5);
