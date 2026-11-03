@@ -2,7 +2,8 @@ const shellHost=document.createElement('div');document.body.append(shellHost);co
 shell.innerHTML='<link rel="stylesheet" href="reference/base.css"><link rel="stylesheet" href="reference/curation.css"><link rel="stylesheet" href="reference/shell.css"><div class="ref-root curation-active">'+referenceShell23+'<dialog class="curation-picker"><div class="curation-picker-head">跳至步驟 <button>×</button></div><input id="curation-picker-search" placeholder="搜尋步驟"><div class="choices"></div></dialog></div>';
 const $s=q=>shell.querySelector(q), allS=q=>[...shell.querySelectorAll(q)], chapters23=['boss','categorize','podcast','data','writing'];
 const section23=document.querySelector('main>section'),nativeHost=document.createElement('div');nativeHost.className='native-reader-host';section23.prepend(nativeHost);const native=nativeHost.attachShadow({mode:'open'});native.innerHTML='<link rel="stylesheet" href="reference/native.css"><style>:host{display:block}.paper-page{margin:0;width:100%;border:0}.translation{display:none}.translated .translation{display:block}mark{border-radius:3px}.target{outline:3px solid #206b5b;outline-offset:2px}.reject{text-decoration:line-through #c7222c 3px}article header{position:static}.native-document{overflow:visible}</style><div class="source"></div>';
-let help=false,lang=false,opened=true,firstView=true,tab='all',lastNative='',lastSync='',books=JSON.parse(localStorage.getItem('cur23-stars')||'[]'),completed=new Set(JSON.parse(localStorage.getItem('cur23-done')||'[]'));const chaptersDone=()=>localStorage.setItem('cur23-done',JSON.stringify([...completed]));
+function read23List(key){try{const value=JSON.parse(localStorage.getItem(key)||'[]');return Array.isArray(value)?value.filter(item=>typeof item==='string'):[]}catch{return []}}
+let help=false,lang=false,opened=true,firstView=true,tab='all',lastNative='',lastSync='',books=read23List('cur23-stars'),completed=new Set(read23List('cur23-done'));const chaptersDone=()=>localStorage.setItem('cur23-done',JSON.stringify([...completed]));
 const instructions=['先找寫作身分、文類、讀者、內容要求和指定來源。','按文件標題暫標任務，讀到新線索再核對。','聽到答案後暫停，逐項寫入筆記。','按資料頁連續閱讀，核對原句和任務。','先組織自己的內容與草稿，再按任務要求校對。'];
 const names23=['Boss letter · 讀任務與來源','Data File · 資料分類','會議錄音 · 邊聽邊記筆記','Data File · 逐句判讀','三篇寫作 · 逐句核對'];
 const types=['','1 Task A 直接可用','2 Task B 直接可用','3 Task C 直接可用','4 語義相關／可轉述','5 提示／指路','6 無關噪音／行政語'];
@@ -10,9 +11,50 @@ function jump23(j){E('jump23').value=j;E('jump23').dispatchEvent(new Event('chan
 function nativePage(page,r){
  const root=native.querySelector('.source');root.classList.toggle('translated',lang);
  let stamp=[page,i].join(':');if(stamp===lastNative)return;lastNative=stamp;root.innerHTML=nativePages23[page-1];
- // Wrap matches inside original text nodes, retaining email headers, tables, lists and bilingual line structure.
- let items=rows.slice(0,i+1).filter(x=>x.stage===r.stage&&x.leaf===page).reverse();
- for(const item of items){const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);let nodes=[],value='';while(walker.nextNode()){const n=walker.currentNode;if(n.parentElement.closest('.translation,details,header,mark,textarea'))continue;nodes.push([n,value.length]);value+=n.textContent+' '}let target=item.q;let normal=x=>x.toLowerCase().replace(/[’‘]/g,"'").replace(/[“”]/g,'"').replace(/[^\p{L}\p{N}]/gu,'');let norm='',map=[];for(let k=0;k<value.length;k++){let c=normal(value[k]);if(c){norm+=c;map.push(k)}}let key=normal(target),at=norm.indexOf(key);if(at<0||!key)continue;let lo=map[at],hi=map[at+key.length-1]+1;for(const [n,start] of nodes){let a=Math.max(0,lo-start),b=Math.min(n.length,hi-start);if(b<=a)continue;let range=document.createRange();range.setStart(n,a);range.setEnd(n,b);let m=document.createElement('mark');m.style.background=inks[item.t===5&&item.state==='REJECT'?item.topic:item.t];if(item===r)m.classList.add('target');if(item.t===6||item.state==='REJECT')m.classList.add('reject');range.surroundContents(m)}}
+ // Match against the intact page first. A later evidence phrase can sit inside
+ // an earlier annotated sentence, or cross several inline elements.
+ const normalize = text => text.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+ const walker=document.createTreeWalker(root,NodeFilter.SHOW_TEXT);
+ const nodes=[];
+ let normalized='';
+ while(walker.nextNode()){
+   const node=walker.currentNode;
+   if(node.parentElement.closest('.translation,details,header,textarea'))continue;
+   const offsets=[],start=normalized.length;
+   for(let k=0;k<node.length;k++){
+     const char=normalize(node.data[k]);
+     if(char){normalized+=char;offsets.push(k);}
+   }
+   if(offsets.length)nodes.push({node,start,offsets});
+ }
+ const spans=[];
+ for(let index=0;index<=i;index++){
+   const row=rows[index];
+   if(row.stage!==r.stage||row.leaf!==page)continue;
+   const text=normalize(row.q),start=normalized.indexOf(text);
+   if(text&&start>=0)spans.push({start,end:start+text.length,row,index});
+ }
+ for(const {node,start,offsets} of nodes){
+   const segments=spans.filter(s=>s.start<start+offsets.length&&s.end>start).map(s=>({
+     ...s,from:s.start<=start?0:offsets[s.start-start],
+     to:s.end>=start+offsets.length?node.length:offsets[s.end-start-1]+1
+   }));
+   if(!segments.length)continue;
+   const cuts=[...new Set([0,node.length,...segments.flatMap(s=>[s.from,s.to])])].sort((a,b)=>a-b);
+   const fragment=document.createDocumentFragment();
+   for(let j=1;j<cuts.length;j++){
+     const from=cuts[j-1],to=cuts[j],text=node.data.slice(from,to);
+     const span=segments.filter(s=>s.from<=from&&s.to>=to).at(-1);
+     if(!span){fragment.append(text);continue;}
+     const {row,index}=span,mark=document.createElement('mark');
+     mark.textContent=text;mark.dataset.stepIndex=index;
+     mark.style.background=inks[row.t===5&&row.state==='REJECT'?row.topic:row.t];
+     if(index===i){mark.className='target';mark.dataset.type=row.t;}
+     if(row.t===6||row.state==='REJECT')mark.classList.add('reject');
+     fragment.append(mark);
+   }
+   node.replaceWith(fragment);
+ }
 }
 function syncBank(){const groups=$s('#curation-bank-groups'),open=new Set([...groups.children].filter(x=>x.open).map(x=>x.dataset.t));groups.replaceChildren();for(let t=1;t<=3;t++){let d=document.createElement('details');d.className='curation-bank-'+['A','B','C'][t-1];d.dataset.t=t;d.open=open.has(String(t))||(rows[i].pattern&&rows[i].t===t);let buttons=[...E('bank').children[t-1].querySelectorAll('button')].filter(b=>{let f=facts.find(f=>f[0]===t&&f[2]===b.textContent);if(!f)return false;if(rows[i].stage===4)return true;if(b.classList.contains('spent'))return true;if(f[1]===19)return completed.has('heard:'+f[2]);return rows.some(x=>x.stage===3&&x.p===f[1]&&x.q.includes(f[2])&&completed.has(key23(x))) });let summary=document.createElement('summary');summary.innerHTML='<span>Task '+['A','B','C'][t-1]+'</span><strong data-count>'+buttons.length+' 句</strong>';d.append(summary);let ol=document.createElement('ol');for(let b of buttons){let li=document.createElement('li'),btn=document.createElement('button'),small=document.createElement('small');btn.textContent=b.textContent;small.textContent=b.nextElementSibling?.textContent||'';btn.onclick=()=>b.click();if(b.classList.contains('spent'))btn.style.textDecoration='line-through 3px #cb2530';li.append(btn,small);ol.append(li)}d.append(ol);groups.append(d)}}
 function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage),num=r.stage===2?cueIndex+1:ss.indexOf(r)+1,total=r.stage===2?cues.length:ss.length;let key=[i,num,done,visitIndex,E('next').disabled,help,lang,opened,tab,firstView,diag.open,completed.size].join(':');if(!force&&lastSync===key)return;lastSync=key;document.body.classList.toggle('cur23-open',opened);$s('.ref-root').classList.toggle('curation-podcast-active',r.stage===2&&opened);$s('.ref-root').classList.toggle('curation-active',opened);for(let s of ['.curation-dock','.curation-bank','.curation-stage'])$s(s).hidden=!opened;$s('#curation-toggle').textContent=opened?'✦ 離開 Curation':'✦ 進入 Curation';$s('#show-translation').checked=lang;allS('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',b.dataset.filter===tab));allS('.curation-stage-item').forEach((b,j)=>{const stageRows=rows.filter(x=>x.stage===j),finished=stageRows.every(x=>completed.has(key23(x)));b.classList.toggle('active',j===r.stage);b.classList.toggle('done',finished);b.querySelector('.curation-stage-dot').textContent=finished?'✓':j+1;b.querySelector('small').textContent=j===r.stage?num+'/'+total:finished?'完成':''});$s('.curation-stage-fill').style.width=r.stage*20+'%';
@@ -25,7 +67,7 @@ $s('#curation-quote').hidden=r.stage===1;
 if(r.stage===0){let guide=document.createElement('p');guide.className='curation-process';guide.textContent='讀任務電郵時，先辨認讀者、文類及指定來源。';ex.prepend(guide)}
 if(r.stage===1){let box=document.createElement('fieldset');box.className='curation-category-choices';box.innerHTML='<legend>你會先標哪個任務？</legend>';for(let task of ['A','B','C']){let label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.checked=localStorage.getItem('class23-'+i+task)==='1';cb.onchange=()=>localStorage.setItem('class23-'+i+task,cb.checked?'1':'0');label.append(cb,' Task '+task);box.append(label)}let b=document.createElement('button');b.className='curation-small';b.textContent='顯示讀後修正';let rev=document.createElement('p');rev.className='curation-revision';rev.hidden=true;const revisions={5:'對照 William 的聊天，分開已承認的水浸與其他指控。',6:'最新電郵確認 Mary Steward 及首集餡料，免費 app 已取代熱線。',7:'水浸與茶巾支援 Task A；嘉賓和投票更新支援 Task C。',8:'培訓與獎勵支援 Task B；節目及運送安排支援 Task C。',9:'根據 HAB 要求及工作需要選三門課程。',10:'參加者意見只可歸於該參加者。',3:'分開舊節目、William 影片、Golden Sun 投訴及新節目資料。'};rev.textContent='讀後修正：'+revisions[r.leaf];b.onclick=()=>{rev.hidden=!rev.hidden;b.textContent=rev.hidden?'顯示讀後修正':'收起讀後修正'};ex.append(rev);actions.append(b,box)}
 if(r.stage===2){let b=document.createElement('button');b.className='curation-small';b.textContent='↻ 重聽至 '+tstr(transcript[cues[cueIndex][0]].end-426);b.onclick=()=>listen(cueIndex,true);actions.append(b)}
-if(r.stage===4&&!r.pattern){let b=document.createElement('button');b.className='curation-small';b.textContent='查看 Task '+['A','B','C'][r.t-1]+' 參考範文';b.onclick=()=>jump23(rows.findIndex(x=>x.t===r.t&&x.pattern));let field=document.createElement('textarea');field.rows=5;field.className='curation-draft';field.placeholder='在這裡寫你的草稿或修訂…';field.value=localStorage.getItem('2023-draft-'+r.t)||'';let count=document.createElement('small');count.className='curation-word-count';function words(){count.textContent=(field.value.trim().match(/\S+/g)||[]).length+' words'}words();field.oninput=()=>{localStorage.setItem('2023-draft-'+r.t,field.value);E('draft').value=field.value;words()};actions.append(b,field,count)}
+
 if(!opened){nativeHost.hidden=false;section23.classList.add('native-active');lastNative=''}
 };
 function pick(book){let picker=$s('.curation-picker'),box=$s('.choices'),search=$s('#curation-picker-search');search.value='';function list(){box.replaceChildren();rows.forEach((r,j)=>{if(book?!books.includes(key23(r)):r.stage!==rows[i].stage)return;if(!(r.q+' '+r.a).toLowerCase().includes(search.value.toLowerCase()))return;let b=document.createElement('button');b.className='curation-picker-option';b.textContent=r.q||r.a;b.onclick=()=>{picker.close();jump23(j)};box.append(b)})}search.oninput=list;list();picker.showModal();search.focus()}
