@@ -468,3 +468,21 @@ h1{font:700 clamp(30px,4.5vw,58px)/1.06 Georgia,serif;margin:10px 0 14px}.hero>p
 @media(max-width:650px){.travel-ad-grid,.travel-fact-columns,.plaza-editor-layout,.plaza-room{grid-template-columns:1fr}.travel-browser-content,.travel-minutes,.travel-fact-file,.travel-press{padding:13px}.beacon-links{grid-template-columns:1fr}.travel-chart{padding:6px}}
 .travel-note-table{table-layout:fixed;max-width:100%;min-width:0}.travel-note-table th,.travel-note-table td{overflow-wrap:anywhere}.travel-note-table input{display:block;max-width:100%;box-sizing:border-box}
 .recreated-page .travel-note-table{min-width:0;width:100%;table-layout:fixed}
+/* Practice and source overview live outside the reconstructed exam pages. */
+.reader-intro,.reader-transcript,.practice-prep,.reader-model{max-width:900px;margin:0 auto 22px;padding:24px 28px;background:#fffdf8;border:1px solid #cbd9d7;border-radius:15px;box-shadow:0 10px 25px #173c4b0c}
+.reader-intro h1{font:700 clamp(27px,3vw,40px)/1.15 Georgia,serif;margin:0 0 10px;color:#17332d}
+.reader-intro p{margin:0 0 10px;color:#31515a;line-height:1.65}
+.reader-source-note{padding:12px 15px;background:#fff6dd;border:1px solid #ead9a7;border-radius:9px;font-size:13px}
+.reader-eyebrow{display:block;margin-bottom:8px;font:800 11px/1.4 system-ui,sans-serif;letter-spacing:1.5px;color:#16727c}
+.reader-transcript h2,.practice-prep h2{font:700 25px/1.2 Georgia,serif;margin:0 0 10px}
+.reader-transcript>p:first-of-type,.practice-prep>p{font-size:14px;color:#52695e}
+.reader-turn{padding:11px 0;border-bottom:1px solid #e0e9e3;font:16px/1.6 Georgia,serif}
+.reader-turn strong{display:inline-block;min-width:125px;color:#17483f;font:700 14px/1.6 system-ui,sans-serif}
+.reader-turn-zh{display:block;margin:5px 0 0 125px;padding-left:11px;border-left:2px solid #cee1d8;color:#3c6a69;font:14px/1.65 system-ui,sans-serif}
+.practice-prep label{display:block;margin-top:15px;font-weight:700;color:#17332d}
+.practice-prep textarea{display:block;width:100%;min-height:110px;margin-top:8px;padding:12px;border:1px solid #b7c7b8;border-radius:9px;background:#fffef9;color:#17332d;resize:vertical;font:16px/1.55 Georgia,serif}
+.reader-model{border-left:6px solid #287a70}
+.reader-model summary{cursor:pointer;color:#17483f;font-weight:800}
+.reader-model pre{white-space:pre-wrap;overflow-wrap:anywhere;font:17px/1.65 Georgia,serif;margin:17px 0 0;color:#17332d}
+@media(max-width:650px){.reader-intro,.reader-transcript,.practice-prep,.reader-model{padding:17px 15px}.reader-turn strong{display:block;min-width:0}.reader-turn-zh{margin-left:0}}
+@media print{.practice-prep,.reader-model{display:none!important}.reader-intro,.reader-transcript{box-shadow:none;border:0}}
