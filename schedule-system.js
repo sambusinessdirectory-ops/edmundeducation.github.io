@@ -8382,6 +8382,21 @@ elements.togglePreviousIncomplete.addEventListener("click", toggleEntryPreviousI
 elements.cancelDelete.addEventListener("click", () => elements.deleteDialog.close());
 elements.confirmDelete.addEventListener("click", deleteEntry);
 elements.closeTeacherMove?.addEventListener("click", () => elements.teacherMoveDialog.close());
+const chart=document.querySelector('#week-chart'), chartYear=chart.querySelector('select'), weekGrid=chart.querySelector('#week-chart-grid');
+function drawWeeks(){
+ const year=Number(chartYear.value);weekGrid.replaceChildren();let n=0;
+ for(let d=mondayFor(new Date(year,0,4,12));addDays(d,3).getFullYear()===year;d=addDays(d,7)){
+  n++;if(d<firstWeekStart()||d>lastWeekStart())continue;
+  const key=toISODate(d),btn=document.createElement('button');btn.type='button';
+  btn.textContent='Week '+n+' · 第 '+n+' 週'+(key===defaultWeekStart()?' · 本週':'')+'\n'+formatWeekRange(key);
+  btn.setAttribute('aria-current',String(key===state.weekStart));
+  btn.onclick=()=>{chart.close();changeWeek(Math.round((parseISODate(key)-parseISODate(state.weekStart))/86400000));};weekGrid.append(btn);
+ }
+}
+document.querySelector('[data-week-chart]').onclick=()=>{
+ chartYear.replaceChildren();for(let y=addDays(firstWeekStart(),3).getFullYear();y<=addDays(lastWeekStart(),3).getFullYear();y++)chartYear.add(new Option(y,y));
+ chartYear.value=addDays(parseISODate(state.weekStart),3).getFullYear();drawWeeks();chart.showModal();
+};chartYear.onchange=drawWeeks;
 elements.previousWeek.addEventListener("click", () => changeWeek(-7));
 elements.nextWeek.addEventListener("click", () => changeWeek(7));
 elements.currentWeek.addEventListener("click", async () => {

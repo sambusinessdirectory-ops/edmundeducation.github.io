@@ -1,5 +1,5 @@
 import {companionFor,companionName,companionStorageKeys} from './companion.mjs?v=20260928-shared-companion1';
-import {createMedia} from './media.mjs?v=20261003-mobile-play1';
+import {createMedia} from './media.mjs?v=20261103-readalong';
 import {modules,moduleMap,allQuestionMap,loadModule,selectModule,showModule,questions,senses,questionMap,orderedOptions,isCorrectAnswer,isCorrectEvent,replay,summary,dailyAnswers,hkDate,esc,highlighted} from './core.mjs?v=20261025-fairness1';
 import {sharedFeedback,pollDelay} from './live-sync.mjs?v=20261028-feedback1';
 const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];

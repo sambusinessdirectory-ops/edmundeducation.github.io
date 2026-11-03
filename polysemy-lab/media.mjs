@@ -1,4 +1,4 @@
-import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20260928-five-companions1';
+import {mountRecorder,storeRecording,listRecordings} from './recording.mjs?v=20261103-readalong';
 import {allQuestionMap,esc} from './core.mjs?v=20261003-polysemy-mass-2';
 let earlyManifestPromise,massManifestPromise;
 const readManifest=file=>fetch(new URL('./'+file+'?v=20261003-polysemy-voices3',import.meta.url)).then(r=>{if(!r.ok)throw Error();return r.json();});
@@ -104,7 +104,7 @@ export function createMedia({getUser,getModule,getCompanion,rpc}){
     message.textContent=error?.name==='NotAllowedError'?'請再次點按「聽示範」播放。':'音訊未能載入，請再試。';
    });
   };
-  host.querySelector('[data-open-recorder]').onclick=e=>{voice?.pause();playing=false;if(!listen.disabled)listen.textContent='聽示範';const panel=host.querySelector('.recorder');panel.hidden=false;e.currentTarget.hidden=true;dispose=mountRecorder(panel,{key:questionKey(owner,module,q.id),companion:getCompanion(),loadRecording:()=>restoreRecording(owner,module,q.id),onRecorded:blob=>save(blob,q.id,owner,module),onSkip:()=>{dispose();dispose=()=>{};panel.hidden=true;host.querySelector('[data-open-recorder]').hidden=false;}});};
+  host.querySelector('[data-open-recorder]').onclick=e=>{voice?.pause();playing=false;if(!listen.disabled)listen.textContent='聽示範';const panel=host.querySelector('.recorder');panel.hidden=false;e.currentTarget.hidden=true;dispose=mountRecorder(panel,{expected:q.en,key:questionKey(owner,module,q.id),companion:getCompanion(),loadRecording:()=>restoreRecording(owner,module,q.id),onRecorded:blob=>save(blob,q.id,owner,module),onSkip:()=>{dispose();dispose=()=>{};panel.hidden=true;host.querySelector('[data-open-recorder]').hidden=false;}});};
  }
  async function library(host){
   stop();
