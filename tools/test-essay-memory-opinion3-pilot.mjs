@@ -25,6 +25,9 @@ assert((await page.locator('.play-topline h2').evaluate(node=>getComputedStyle(n
 assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
 await page.waitForFunction(()=>Number.parseFloat(document.querySelector('#game-card')?.style.getPropertyValue('--pilot-type-scale'))>1.2);
 assert(await page.locator('#game-card .choice-card').first().evaluate(button=>Number.parseFloat(getComputedStyle(button).fontSize)>=20));
+assert.equal(await page.locator('#game-card .choice-arrow').first().evaluate(arrow=>arrow.querySelector('svg.pilot-arrow-svg')?.getAttribute('aria-hidden')), 'true');
+assert.equal(await page.locator('#game-card .choice-arrow').first().textContent(), '');
+assert(await page.locator('#game-card .choice-arrow svg').first().evaluate(svg=>svg.getBoundingClientRect().width>=18));
 assert.equal(await page.locator('#game-card').evaluate(card=>card.classList.contains('pilot-brief')),true);
 if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-desktop.png`});
 await page.setViewportSize({width:2048,height:1152});

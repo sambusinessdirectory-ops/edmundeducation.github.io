@@ -81,7 +81,9 @@ body.opinion3-terminal .hero{display:none!important}
 .opinion3-terminal .game-card .choice-card.is-right{border-color:#cf9e55;background:#f2e1bb;color:#252116}
 .opinion3-terminal .game-card .choice-card.is-wrong{border-color:#a43d38;background:#f3d7cb;color:#49231e}
 .opinion3-terminal .game-card .choice-symbol{flex:none;width:30px;height:30px;border:1px solid currentColor;border-radius:50%;background:transparent;color:inherit;font:700 14px/1 Inter,sans-serif}
-.opinion3-terminal .game-card .choice-arrow{color:var(--pilot-amber);font-size:18px}
+.opinion3-terminal .pilot-arrow-svg{display:inline-block;width:1em;height:1em;vertical-align:-.12em;flex:none;overflow:visible}
+.opinion3-terminal .game-card .choice-arrow{display:grid;place-items:center;flex:none;width:18px;height:18px;color:var(--pilot-amber);line-height:0}
+.opinion3-terminal .game-card .choice-arrow .pilot-arrow-svg{width:100%;height:100%}
 .opinion3-terminal .game-card .choice-text{overflow-wrap:anywhere;text-wrap:pretty}
 .opinion3-terminal .game-card .primary-button,.opinion3-terminal .game-card .secondary-button{border:0;border-radius:0;clip-path:polygon(0 0,96% 0,100% 100%,0 100%);background:#191b17;color:#f6f0e1;box-shadow:none;font-size:.76rem}
 .opinion3-terminal .game-card .primary-button:hover:not(:disabled){background:var(--pilot-red);box-shadow:none}
@@ -276,7 +278,7 @@ body.opinion3-terminal .shell{height:calc(100dvh - 48px);padding-block:5px 7px}
 .opinion3-terminal .game-card .choice-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:6px}
 .opinion3-terminal .game-card .choice-card{min-height:47px;padding:5px 8px;border-left-width:3px;font-size:calc(15px * var(--reader-scale));line-height:1.3;gap:7px;clip-path:polygon(0 0,97% 0,100% 100%,0 100%)}
 .opinion3-terminal .game-card .choice-symbol{width:23px;height:23px;font-size:11px}
-.opinion3-terminal .game-card .choice-arrow{font-size:13px}
+.opinion3-terminal .game-card .choice-arrow{width:18px;height:18px}
 .opinion3-terminal .game-card .choice-card:focus-visible,.opinion3-terminal .game-card .sequence-card:focus-visible{outline:3px solid #bd5b43;outline-offset:2px}
 .opinion3-terminal .game-card .choice-card:hover:not(:disabled),.opinion3-terminal .game-card .sequence-card:hover:not(:disabled){transform:translate3d(4px,-1px,0)}
 .opinion3-terminal .game-card .support-notes{margin:0;font-size:12px;line-height:1.3;color:#5d6257}
@@ -478,7 +480,7 @@ body.opinion3-terminal[data-pilot-reader-size="enlarged"] .game-card{overflow-y:
  .opinion3-terminal .game-card .choice-grid{gap:calc(7px * var(--pilot-type-scale))}
  .opinion3-terminal .game-card .choice-card{min-height:calc(47px * var(--pilot-type-scale));padding:calc(7px * var(--pilot-type-scale)) calc(10px * var(--pilot-type-scale));font-size:calc(15px * var(--reader-scale) * var(--pilot-type-scale));gap:calc(8px * var(--pilot-type-scale))}
  .opinion3-terminal .game-card .choice-symbol{width:clamp(29px,calc(23px * var(--pilot-type-scale)),39px);height:clamp(29px,calc(23px * var(--pilot-type-scale)),39px);font-size:calc(11px * var(--pilot-type-scale))}
- .opinion3-terminal .game-card .choice-arrow{font-size:calc(15px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .choice-arrow{width:calc(15px * var(--pilot-type-scale));height:calc(15px * var(--pilot-type-scale))}
  .opinion3-terminal .game-card .support-source{padding:calc(8px * var(--pilot-type-scale)) calc(10px * var(--pilot-type-scale));font-size:calc(17px * var(--reader-scale) * var(--pilot-type-scale));line-height:1.38}
  .opinion3-terminal .game-card .simple-source{font-size:calc(16px * var(--reader-scale) * var(--pilot-type-scale))}
  .opinion3-terminal .game-card .structure-translation{padding:calc(8px * var(--pilot-type-scale)) calc(10px * var(--pilot-type-scale));font-size:calc(15px * var(--reader-scale) * var(--pilot-type-scale));line-height:1.38}

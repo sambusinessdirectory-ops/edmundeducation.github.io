@@ -11,6 +11,36 @@
       const catalogue = $('.memory-catalogue');
       if (!shell || !mission || !play || !setup || !catalogue) return;
       document.body.classList.add('opinion3-terminal');
+      const makeArrow = direction => {
+        const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+        svg.setAttribute('class', 'pilot-arrow-svg');
+        svg.setAttribute('viewBox', '0 0 24 24');
+        svg.setAttribute('fill', 'none');
+        svg.setAttribute('aria-hidden', 'true');
+        svg.setAttribute('focusable', 'false');
+        const path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
+        path.setAttribute('d', direction === 'up-right' ? 'M5 19 19 5M10 5h9v9' : 'M4 12h15m-6-6 6 6-6 6');
+        path.setAttribute('stroke', 'currentColor');
+        path.setAttribute('stroke-width', '2');
+        path.setAttribute('stroke-linecap', 'square');
+        path.setAttribute('stroke-linejoin', 'miter');
+        svg.append(path);
+        return svg;
+      };
+      const replaceUIArrows = root => {
+        for (const holder of root.querySelectorAll('.choice-arrow, [aria-hidden="true"]')) {
+          const glyph = holder.textContent.trim();
+          if (glyph === '↗' || glyph === '→') holder.replaceChildren(makeArrow(glyph === '↗' ? 'up-right' : 'right'));
+        }
+        for (const control of root.querySelectorAll('button, a')) {
+          const tail = control.lastChild;
+          if (tail?.nodeType !== Node.TEXT_NODE) continue;
+          const match = tail.textContent.match(/([↗→])\s*$/u);
+          if (!match) continue;
+          tail.textContent = tail.textContent.slice(0, match.index);
+          control.append(makeArrow(match[1] === '↗' ? 'up-right' : 'right'));
+        }
+      };
       const syncReaderSize = () => { document.body.dataset.pilotReaderSize = Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--reader-scale')) > 1 ? 'enlarged' : 'standard'; };
       new MutationObserver(syncReaderSize).observe(document.documentElement, { attributes:true, attributeFilter:['style'] });
       syncReaderSize();
@@ -78,6 +108,8 @@
       tutorial.setAttribute('aria-labelledby', 'pilot-tutorial-title');
       tutorial.innerHTML = '<div class="pilot-tutorial-paper"><span class="pilot-tutorial-kicker">FIELD MANUAL / 03</span><h2 id="pilot-tutorial-title">這份訓練檔怎樣使用？</h2><ol><li><b>左側選關卡。</b>十一項訓練可隨時重溫。</li><li><b>中間完成當前練習。</b>答題、重組與朗讀按原本規則運作。</li><li><b>右側核對題目。</b>字體、語速、錄音和進度工具都在下方。</li></ol><button type="button" data-pilot-close>開始練習 <span aria-hidden="true">→</span></button></div>';
       document.body.append(tutorial);
+      replaceUIArrows(dossier);
+      replaceUIArrows(tutorial);
       hud.querySelector('[data-pilot-help]').addEventListener('click', () => tutorial.showModal());
       tutorial.querySelector('[data-pilot-close]').addEventListener('click', () => tutorial.close());
       tutorial.addEventListener('click', event => { if (event.target === tutorial) tutorial.close(); });
@@ -154,6 +186,7 @@
         const lead = card.firstElementChild;
         if (!lead || lead === lastLead) return;
         lastLead = lead;
+        replaceUIArrows(card);
         card.scrollTop = 0;
         reference.remove();
         reference.open = false;
@@ -241,6 +274,7 @@
           review.dataset.pilotReview = '';
           review.textContent = '範文論證對照 ↗';
           card.querySelector('[data-continue]')?.before(review);
+          replaceUIArrows(card);
         }
       };
       new MutationObserver(records => {
