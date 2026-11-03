@@ -40,6 +40,24 @@ async function checkReader() {
     assert.match(await page.locator('#curation-explanation').innerText(), /小報/);
     assert.equal(await page.locator('#curation-bank-groups details').count(), 3);
     assert.deepEqual(errors, []);
+    for (const mode of ['denied', 'full']) {
+      const restricted = await browser.newPage();
+      await restricted.addInitScript(mode => {
+        if (mode === 'full') {
+          Storage.prototype.setItem = () => { throw new DOMException('Full', 'QuotaExceededError'); };
+        } else {
+          for (const key of ['localStorage', 'sessionStorage']) {
+            Object.defineProperty(window, key, { get() { throw new DOMException('Blocked', 'SecurityError'); } });
+          }
+        }
+      }, mode);
+      await restricted.goto(url);
+      await restricted.locator('[data-chapter=categorize]').click();
+      assert.equal(await restricted.locator('html[data-loading]').count(), 0);
+      assert.equal(await restricted.locator('#curation-bank-groups details').count(), 3);
+      assert.match(await restricted.locator('#curation-save-status').textContent(), /匯出/);
+      await restricted.close();
+    }
   } finally {
     await browser.close();
   }
