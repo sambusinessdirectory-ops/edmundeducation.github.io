@@ -3146,7 +3146,7 @@
   <link rel="stylesheet" href="responsive.css?v=20260504-mobile-1">
 <link rel="stylesheet" href="language-learning.css?v=20260914-six-languages-1">
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261102-knowledge-pages1">
-</head>
+<style>.protected-review{position:relative;overflow:hidden;border-radius:12px;isolation:isolate;-webkit-touch-callout:none;user-select:none}.protected-review canvas{display:block;width:100%;height:auto;pointer-events:none}.protected-review::after{content:"";position:absolute;inset:0}</style><script defer src="review-display.js"></script></head>
 
 <body class="is-homepage-loading">
   <div class="homepage-loader" data-homepage-loader role="status" aria-busy="true" aria-live="polite">
@@ -3690,29 +3690,29 @@
     ];
 
     const studentCommentFiles = [
-      "Student's Comments/Comment 1 form Student H.png",
-      "Student's Comments/Comment 2 from Student T.png",
-      "Student's Comments/Comment 3 From Student Z.png",
-      "Student's Comments/Comment 4 from Parent G.png",
-      "Student's Comments/Comment 5 from Student X.png",
-      "Student's Comments/Comment 6 from Parent J.png",
-      "Student's Comments/Comment 7 from Parent M.png",
-      "Student's Comments/Comment 8 from Student Y.png",
-      "Student's Comments/Comment 9 from Student P.png",
-      "Student's Comments/Comment 10 from Parent B.png",
-      "Student's Comments/Comment 11 from Student MM.png",
-      "Student's Comments/Comment 12 from Student Z.png",
-      "Student's Comments/Comment 13 from Student O.png",
-      "Student's Comments/Comment 14 from Parent S.png",
-      "Student's Comments/Comment 15 from Parent HH.png",
-      "Student's Comments/Comment 16 from Parent E (Immigrated).png",
-      "Student's Comments/Comment 17 from Student A.png",
-      "Student's Comments/Comment 18 from Student A.png",
-      "Student's Comments/Comment 19 from Student A.png",
-      "Student's Comments/Comment 20 from Student J.png",
-      "Student's Comments/Comment 21 from Student W.png",
-      "Student's Comments/Comment 22 from Parent D.png",
-      "Student's Comments/Comment 23 from Parent F.png"
+      "Comment 1 form Student H.png",
+      "Comment 2 from Student T.png",
+      "Comment 3 From Student Z.png",
+      "Comment 4 from Parent G.png",
+      "Comment 5 from Student X.png",
+      "Comment 6 from Parent J.png",
+      "Comment 7 from Parent M.png",
+      "Comment 8 from Student Y.png",
+      "Comment 9 from Student P.png",
+      "Comment 10 from Parent B.png",
+      "Comment 11 from Student MM.png",
+      "Comment 12 from Student Z.png",
+      "Comment 13 from Student O.png",
+      "Comment 14 from Parent S.png",
+      "Comment 15 from Parent HH.png",
+      "Comment 16 from Parent E (Immigrated).png",
+      "Comment 17 from Student A.png",
+      "Comment 18 from Student A.png",
+      "Comment 19 from Student A.png",
+      "Comment 20 from Student J.png",
+      "Comment 21 from Student W.png",
+      "Comment 22 from Parent D.png",
+      "Comment 23 from Parent F.png"
     ];
 
     const studentCommentEmojis = [
@@ -3804,7 +3804,7 @@
               </header>
               <div class="student-comment-body">
                 <div class="student-comment-image-wrap">
-                  <img src="${escapeHtml(file)}" alt="${escapeHtml(label)}" loading="lazy" decoding="async" fetchpriority="low">
+                  <div class="protected-review"><canvas data-review-canvas="${index+1}" role="img" aria-label="${escapeHtml(label)}"></canvas></div>
                 </div>
                 <div class="student-comment-emojis" aria-label="Student reaction emojis">
                   ${commentEmojiChips()}
@@ -3827,28 +3827,9 @@
         const label = studentCommentLabel(file);
         return `<article class="company-review-preview__item">
           <h3>${escapeHtml(label)}</h3>
-          <img ${index < 2 ? `src="${escapeHtml(file)}"` : `data-src="${escapeHtml(file)}"`} alt="${escapeHtml(label)}" loading="lazy" decoding="async">
+          <div class="protected-review"><canvas data-review-canvas="${index+1}" role="img" aria-label="${escapeHtml(label)}"></canvas></div>
         </article>`;
       }).join("");
-
-      const deferredImages = feed.querySelectorAll("img[data-src]");
-      if ("IntersectionObserver" in window) {
-        const imageObserver = new IntersectionObserver(entries => {
-          entries.forEach(entry => {
-            if (!entry.isIntersecting) return;
-            const image = entry.target;
-            image.src = image.dataset.src;
-            image.removeAttribute("data-src");
-            imageObserver.unobserve(image);
-          });
-        }, { root: feed, rootMargin: "240px 0px" });
-        deferredImages.forEach(image => imageObserver.observe(image));
-      } else {
-        deferredImages.forEach(image => {
-          image.src = image.dataset.src;
-          image.removeAttribute("data-src");
-        });
-      }
 
       window.setTimeout(() => {
         preview.inert = false;
