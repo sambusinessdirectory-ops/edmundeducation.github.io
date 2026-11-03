@@ -57,7 +57,7 @@ for(const [index,key] of keys.entries()){
       if(key==='opinion:3'){
         await page.waitForTimeout(35);
         assert(await page.evaluate(()=>document.scrollingElement.scrollHeight<=innerHeight+2),`${key}: document scroll at stage ${stage+1}, round ${round+1}`);
-        assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');const pager=document.querySelector('.pilot-page-controls');return card.scrollHeight<=card.clientHeight+2 || !pager.hidden;}),`${key}: hidden clipped content at stage ${stage+1}, round ${round+1}`);
+        assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4;}),`${key}: hidden clipped content at stage ${stage+1}, round ${round+1}`);
       }
     }
   }

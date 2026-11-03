@@ -50,15 +50,42 @@ assert((await page.locator('.pilot-hud [data-pilot-stage]').textContent()).inclu
 assert.equal(await page.locator('#game-card [data-choice]').count(),4);
 await page.locator('#game-card [data-choice]').first().click();
 assert((await page.locator('#feedback').textContent()).trim().length>0);
+for(let index=0;index<4 && !(await page.locator('#game-card').evaluate(card=>card.classList.contains('is-correct')));index++){
+  await page.locator(`#game-card [data-choice="${index}"]`).evaluate(button=>button.click());
+}
+await page.waitForTimeout(100);
+assert.equal(await page.locator('#game-card').evaluate(card=>card.classList.contains('is-correct')),true);
+assert.equal(await page.locator('#game-card [data-pilot-review]').count(),1);
+await page.locator('#game-card [data-pilot-review]').click();
+assert.equal(await page.locator('.pilot-answer-reference').evaluate(node=>node.open),true);
 await page.locator('[data-stage="5"]').click();
-await page.waitForFunction(()=>document.querySelector('.pilot-page-controls')?.hidden===false);
-assert((await page.locator('.pilot-page-controls [data-pilot-page-status]').textContent()).match(/\/ [2-9]/));
-await page.locator('[data-pilot-page-next]').click();
-await page.waitForFunction(()=>document.querySelector('#game-card').scrollTop>0);
-if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-vocabulary-page2.png`});
+await page.locator('#step-select').evaluate(node=>{node.value='10';node.dispatchEvent(new Event('change'));});
+await page.locator('#game-card .pilot-glossary').waitFor();
+assert.equal(await page.locator('.pilot-page-controls').count(),0);
+assert.equal(await page.locator('.pilot-phrase-reference').count(),1);
+assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4;}));
+if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-vocabulary.png`});
+await page.locator('[data-stage="6"]').click();
+await page.locator('#step-select').evaluate(node=>{node.value='12';node.dispatchEvent(new Event('change'));});
+await page.locator('#game-card .pilot-annotated-source').waitFor();
+assert.equal(await page.locator('#game-card .structure-translation').count(),1);
+assert.equal(await page.locator('#game-card [data-choice]').count(),4);
+assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4;}));
 await page.setViewportSize({width:390,height:844});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
 assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
+assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4&&[...card.querySelectorAll('[data-choice]')].every(button=>button.getBoundingClientRect().bottom<=card.getBoundingClientRect().bottom+1);}));
+for(let index=0;index<4 && !(await page.locator('#game-card').evaluate(card=>card.classList.contains('is-correct')));index++){
+  await page.locator(`#game-card [data-choice="${index}"]`).evaluate(button=>button.click());
+}
+await page.locator('#game-card.is-correct [data-continue]').waitFor();
+assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4&&card.querySelector('[data-continue]').getBoundingClientRect().bottom<=card.getBoundingClientRect().bottom+1;}));
+await page.locator('#font-size-button').evaluate(button=>button.click());
+assert.equal(await page.locator('body').getAttribute('data-pilot-reader-size'),'enlarged');
+assert.equal(await page.locator('#game-card').evaluate(card=>getComputedStyle(card).overflowY),'auto');
+await page.locator('#font-size-button').evaluate(button=>button.click());
+await page.locator('#font-size-button').evaluate(button=>button.click());
+assert.equal(await page.locator('body').getAttribute('data-pilot-reader-size'),'standard');
 assert.equal(await page.locator('.pilot-programs').isVisible(),false);
 await page.locator('.pilot-drawer-shortcut').filter({hasText:'關卡'}).click();
 assert.equal(await page.locator('.pilot-programs').isVisible(),true);

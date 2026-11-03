@@ -11,6 +11,9 @@
       const catalogue = $('.memory-catalogue');
       if (!shell || !mission || !play || !setup || !catalogue) return;
       document.body.classList.add('opinion3-terminal');
+      const syncReaderSize = () => { document.body.dataset.pilotReaderSize = Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--reader-scale')) > 1 ? 'enlarged' : 'standard'; };
+      new MutationObserver(syncReaderSize).observe(document.documentElement, { attributes:true, attributeFilter:['style'] });
+      syncReaderSize();
       document.querySelector('meta[name="theme-color"]')?.setAttribute('content', '#272925');
 
       const siteToggle = document.createElement('button');
@@ -105,65 +108,124 @@
       syncHud();
 
       const card = $('#game-card');
-      const pager = document.createElement('nav');
-      pager.className = 'pilot-page-controls';
-      pager.setAttribute('aria-label', '練習內容分頁');
-      pager.innerHTML = '<button type="button" data-pilot-page-prev aria-label="上一頁">◀ 上一頁</button><span data-pilot-page-status aria-live="polite">FILE PAGE 1 / 1</span><button type="button" data-pilot-page-next aria-label="下一頁">下一頁 ▶</button>';
-      card.after(pager);
-      const pageState = { key: '', positions: [0], index: 0 };
-      let pageFrame = 0;
-      const pageKey = () => `${$('#stage-kicker').textContent}|${$('#round-number').textContent}`;
-      const syncPageButtons = () => {
-        pager.hidden = pageState.positions.length < 2;
-        pager.querySelector('[data-pilot-page-status]').textContent = `FILE PAGE ${pageState.index + 1} / ${pageState.positions.length}`;
-        pager.querySelector('[data-pilot-page-prev]').disabled = pageState.index === 0;
-        pager.querySelector('[data-pilot-page-next]').disabled = pageState.index === pageState.positions.length - 1;
-      };
-      const measurePages = () => {
-        pageFrame = 0;
-        const key = pageKey();
-        if (key !== pageState.key) { pageState.key = key; pageState.index = 0; }
-        const max = Math.max(0, card.scrollHeight - card.clientHeight);
-        const jump = Math.max(120, card.clientHeight - 36);
-        const cardTop = card.getBoundingClientRect().top;
-        const anchors = [...card.querySelectorAll(':scope > *, .support-table tr, .choice-card, .sequence-card, .sequence-slot, .concept-card, .translation-list p')]
-          .map(node => Math.round(node.getBoundingClientRect().top - cardTop + card.scrollTop))
-          .filter(top => top > 0 && top < max)
-          .sort((a, b) => a - b);
-        const positions = [0];
-        while (positions.at(-1) < max - 2 && positions.length < 60) {
-          const current = positions.at(-1);
-          const target = Math.min(max, current + jump);
-          const boundary = anchors.filter(top => top > current + Math.min(80, jump * .38) && top <= target).at(-1);
-          const next = boundary && target - boundary < jump * .35 ? boundary : target;
-          positions.push(next <= current + 20 ? target : next);
+      const sentences = window.ESSAY_MEMORY_LESSONS?.['opinion:3']?.sentences || [];
+      const meaningCues = [
+        '博物館塑造文化理解','有人主張只展本地作品','本文反對這項限制','國際館藏有兩項益處',
+        '外國作品提高教育價值','缺少比較會令理解狹窄','並列作品可看見文化共通點','國際藝術深化社會理解',
+        '作品呈現不同社會經驗','排除外國藝術削弱館藏價值','國際藝術也有益本地創作者','陌生技法促進藝術家進步',
+        '外來影響打破創作重複','年輕藝術家帶回新視角','多元展覽吸引更多觀眾','交替展覽也讓觀眾發現本地人才',
+        '結論：不應只展本地作品','重申反對立場','國際藝術有益公眾與本地藝術'
+      ];
+      const cueBySentence = new Map(sentences.map((sentence, index) => [sentence.english.trim().toLowerCase(), meaningCues[index]]));
+      const reference = document.createElement('details');
+      reference.className = 'pilot-phrase-reference';
+      reference.innerHTML = '<summary>完整字詞與小節表</summary>';
+      const answerReference = document.createElement('details');
+      answerReference.className = 'pilot-answer-reference';
+      answerReference.innerHTML = '<summary>範文論證對照</summary>';
+      let lastLead = null;
+      const presentRound = () => {
+        const lead = card.firstElementChild;
+        if (!lead || lead === lastLead) return;
+        lastLead = lead;
+        card.scrollTop = 0;
+        reference.remove();
+        reference.open = false;
+        answerReference.remove();
+        answerReference.open = false;
+        if (card.classList.contains('structure-card')) {
+          const parts = card.querySelector('.structure-parts');
+          if (parts) {
+            const pieces = [...parts.children];
+            const weights = pieces.map(piece => Math.max(2.6, Math.sqrt(piece.firstChild?.textContent?.trim().length || 10)));
+            parts.style.gridTemplateColumns = weights.map(weight => `minmax(0,${weight.toFixed(2)}fr)`).join(' ');
+            const source = card.querySelector(':scope > .support-source');
+            const segments = pieces.map(piece => ({text:piece.firstChild?.textContent || '',label:piece.querySelector('small')?.textContent || '',fixed:!piece.classList.contains('slot')}));
+            if (source && segments.map(segment => segment.text).join('').trim() === source.textContent.trim()) {
+              source.classList.add('pilot-annotated-source');
+              source.replaceChildren(...segments.map(segment => {
+                const mark = document.createElement('span');
+                mark.className = segment.fixed ? 'pilot-source-fixed' : 'pilot-source-slot';
+                mark.textContent = segment.text;
+                mark.title = segment.label;
+                return mark;
+              }));
+            }
+          }
         }
-        pageState.positions = positions;
-        if (card.classList.contains('is-correct') && card.querySelector('[data-continue]')) pageState.index = positions.length - 1;
-        pageState.index = Math.min(pageState.index, positions.length - 1);
-        card.scrollTo({ top: positions[pageState.index], behavior: 'instant' });
-        syncPageButtons();
-      };
-      const schedulePages = () => { if (!pageFrame) pageFrame = requestAnimationFrame(measurePages); };
-      pager.addEventListener('click', event => {
-        const direction = event.target.closest('[data-pilot-page-prev]') ? -1 : event.target.closest('[data-pilot-page-next]') ? 1 : 0;
-        if (!direction) return;
-        pageState.index = Math.min(pageState.positions.length - 1, Math.max(0, pageState.index + direction));
-        card.scrollTo({ top: pageState.positions[pageState.index], behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
-        syncPageButtons();
-      });
-      new MutationObserver(records => {
-        if (!records.some(record => record.addedNodes.length || record.removedNodes.length)) return;
+        if (card.classList.contains('simple-build') || card.classList.contains('exact-build')) {
+          card.querySelector(':scope > h3 + p')?.classList.add('pilot-build-instruction');
+          const table = card.querySelector('.support-table:not(.word-bank)');
+          if (table) {
+            const glossary = document.createElement('div');
+            glossary.className = 'pilot-glossary';
+            glossary.setAttribute('aria-label', '原文字詞、簡單說法與意思');
+            const rows = [...table.querySelectorAll('tbody tr')];
+            const activeChunk = card.querySelector('[data-build="0"]')?.textContent?.trim().toLowerCase() || '';
+            const relevant = rows.filter(row => [...row.cells].slice(0,2).some(cell => activeChunk.includes(cell.textContent.trim().toLowerCase())));
+            const visible = new Set((relevant.length ? relevant : rows).slice(0,4));
+            for (const row of rows) {
+              const cells = [...row.cells].map(cell => cell.textContent.trim());
+              const entry = document.createElement('div');
+              entry.className = `pilot-glossary-entry${visible.has(row) ? '' : ' pilot-glossary-optional'}`;
+              for (const [index, value] of cells.entries()) {
+                const part = document.createElement(index === 0 ? 'strong' : 'span');
+                part.className = `pilot-glossary-part pilot-glossary-part-${index}`;
+                part.textContent = value;
+                entry.append(part);
+              }
+              glossary.append(entry);
+            }
+            const fullTable = table.closest('.table-scroll');
+            fullTable.replaceWith(glossary);
+            reference.append(fullTable);
+          }
+          const bank = card.querySelector('.word-bank')?.closest('.table-scroll');
+          if (bank) reference.append(bank);
+          if (reference.children.length > 1) tools.append(reference);
+        }
+        if (card.classList.contains('sentence-map')) {
+          const paragraph = Number($('#step-select').value);
+          const paragraphSentences = sentences.filter(sentence => sentence.paragraph === paragraph);
+          for (const button of card.querySelectorAll('[data-sequence]')) {
+            const cue = meaningCues[sentences.indexOf(paragraphSentences[Number(button.dataset.sequence)])];
+            const strong = button.querySelector('strong');
+            if (cue && strong) { strong.textContent = cue; button.setAttribute('aria-label', cue); }
+            button.querySelector('small')?.remove();
+          }
+          for (const slot of card.querySelectorAll('.sequence-slot.filled span')) {
+            slot.textContent = cueBySentence.get(slot.textContent.trim().toLowerCase()) || slot.textContent;
+          }
+        }
+        card.querySelector('.sequence-slot:not(.filled)')?.classList.add('pilot-next-slot');
         card.classList.remove('pilot-panel-in');
         void card.offsetWidth;
         card.classList.add('pilot-panel-in');
-        schedulePages();
+      };
+      const presentSuccess = () => {
+        if (!card.classList.contains('is-correct')) return;
+        const connection = card.querySelector(':scope > .model-connection');
+        if (connection) {
+          answerReference.append(connection);
+          tools.append(answerReference);
+          const review = document.createElement('button');
+          review.type = 'button';
+          review.className = 'pilot-review-link';
+          review.dataset.pilotReview = '';
+          review.textContent = '範文論證對照 ↗';
+          card.querySelector('[data-continue]')?.before(review);
+        }
+      };
+      new MutationObserver(records => {
+        if (records.some(record => record.addedNodes.length || record.removedNodes.length)) { presentRound(); presentSuccess(); }
       }).observe(card, { childList: true });
-      new ResizeObserver(schedulePages).observe(card);
-      window.addEventListener('resize', schedulePages, { passive: true });
-      $('#font-size-button').addEventListener('click', () => setTimeout(schedulePages, 0));
-      document.fonts.ready.then(schedulePages);
-      schedulePages();
+      presentRound();
+      card.addEventListener('click', event => {
+        if (!event.target.closest('[data-pilot-review]')) return;
+        tools.open = true;
+        answerReference.open = true;
+        if (matchMedia('(max-width:1150px)').matches) openDrawer('dossier');
+      });
       const openTools = document.createElement('button');
       openTools.type = 'button';
       openTools.className = 'pilot-tools-shortcut';
