@@ -5,20 +5,20 @@
   const approvedEssays=(window.ESSAY_MEMORY_CATALOG||[]).filter(item=>window.ESSAY_MEMORY_APPROVED?.[item.key]);
   const pathwayTasks=[
     {key:'task-1',exam:'IELTS Writing Task 1',label:'Task 1 (Charts)',subline:'圖表寫作',types:[
-      {type:'Bar Charts',label:'Bar Charts',subline:'柱狀圖'},
-      {type:'Line Graph',label:'Line Graph',subline:'折線圖'},
-      {type:'Pie Charts',label:'Pie Charts',subline:'圓餅圖'},
-      {type:'Process Diagram',label:'Process Diagram',subline:'流程圖'},
-      {type:'Maps',label:'Maps',subline:'地圖題'},
-      {type:'Tables',label:'Tables',subline:'表格題'},
-      {type:'Mixed Charts',label:'Mixed Charts',subline:'混合圖表'}
+      {type:'Bar Charts',label:'Bar Charts',subline:'柱狀圖',tone:'amber',symbol:'▥'},
+      {type:'Line Graph',label:'Line Graph',subline:'折線圖',tone:'sky',symbol:'⌁'},
+      {type:'Pie Charts',label:'Pie Charts',subline:'圓餅圖',tone:'violet',symbol:'◕'},
+      {type:'Process Diagram',label:'Process Diagram',subline:'流程圖',tone:'mint',symbol:'↻'},
+      {type:'Maps',label:'Maps',subline:'地圖題',tone:'coral',symbol:'◇'},
+      {type:'Tables',label:'Tables',subline:'表格題',tone:'slate',symbol:'▦'},
+      {type:'Mixed Charts',label:'Mixed Charts',subline:'混合圖表',tone:'teal',symbol:'✦'}
     ]},
     {key:'task-2',exam:'IELTS Writing Task 2',label:'Task 2 (Essay)',subline:'議論文寫作',types:[
-      {type:'Opinion',label:'Opinions',subline:'立場題'},
-      {type:'Discuss Both Views',label:'Discuss both views + Your opinion',subline:'雙邊討論及個人意見'},
-      {type:'Cause / Solution',label:'Cause and Solution',subline:'原因及解決方法'},
-      {type:'Advantages / Disadvantages',label:'Advantage and Disadvantage',subline:'利弊題'},
-      {type:'Direct Question',label:'Direct question',subline:'直接問題'}
+      {type:'Opinion',label:'Opinions',subline:'立場題',tone:'coral',symbol:'✦'},
+      {type:'Discuss Both Views',label:'Discuss both views + Your opinion',subline:'雙邊討論及個人意見',tone:'violet',symbol:'⇄'},
+      {type:'Cause / Solution',label:'Cause and Solution',subline:'原因及解決方法',tone:'mint',symbol:'→'},
+      {type:'Advantages / Disadvantages',label:'Advantage and Disadvantage',subline:'利弊題',tone:'sky',symbol:'±'},
+      {type:'Direct Question',label:'Direct question',subline:'直接問題',tone:'amber',symbol:'?'}
     ]}
   ];
   const pathway=document.querySelector('[data-memory-pathway]');
@@ -27,8 +27,13 @@
   pathway.hidden=false;
   const pathwayItems=task=>approvedEssays.filter(item=>item.exam===task.exam);
   const typeItems=(task,type)=>pathwayItems(task).filter(item=>item.taskType===type.type);
-  const pathwayButton=(title,subtitle,count,attribute,value)=>{
+  const pathwayButton=(title,subtitle,count,attribute,value,presentation)=>{
     const button=document.createElement('button');button.type='button';button.className='memory-pathway-row';button.dataset[attribute]=value;
+    if(presentation){
+      button.classList.add('memory-pathway-type-row');button.dataset.memoryPathwayTone=presentation.tone;
+      const symbol=document.createElement('span');symbol.className='memory-pathway-symbol';symbol.setAttribute('aria-hidden','true');symbol.textContent=presentation.symbol;
+      button.append(symbol);
+    }
     const copy=document.createElement('span');copy.className='memory-pathway-row-copy';
     const name=document.createElement('strong');name.textContent=title;
     const detail=document.createElement('small');detail.textContent=subtitle;
@@ -62,7 +67,7 @@
       heading.textContent=pathwayTask.label;description.textContent='選擇題型，再進入指定範文。';
       count.textContent=`${pathwayItems(pathwayTask).length} 篇範文`;
       crumbs.append(pathwayCrumb(pathwayTask.label));
-      for(const type of pathwayTask.types)list.append(pathwayButton(type.label,type.subline,typeItems(pathwayTask,type).length,'memoryPathwayType',type.type));
+      for(const type of pathwayTask.types)list.append(pathwayButton(type.label,type.subline,typeItems(pathwayTask,type).length,'memoryPathwayType',type.type,type));
       return;
     }
     const essays=typeItems(pathwayTask,pathwayType);
@@ -73,11 +78,23 @@
       const link=document.createElement('a');link.className='memory-pathway-essay';
       link.href=`essay-memorization.html?essay=${encodeURIComponent(item.key)}`;link.dataset.memoryEssay=item.key;
       if(item.key===requestedKey)link.setAttribute('aria-current','page');
-      const copy=document.createElement('span');copy.className='memory-pathway-essay-copy';
-      const title=document.createElement('strong');title.textContent=item.title;
-      const question=document.createElement('small');question.textContent=item.question;
-      const arrow=document.createElement('span');arrow.className='memory-pathway-arrow';arrow.setAttribute('aria-hidden','true');arrow.textContent='→';
-      copy.append(title,question);link.append(copy,arrow);list.append(link);
+      const top=document.createElement('span');top.className='memory-pathway-essay-top';
+      const number=document.createElement('span');number.className='memory-essay-number';
+      const numberLabel=document.createElement('span');numberLabel.textContent='MODEL ESSAY';
+      const numberValue=document.createElement('strong');numberValue.textContent=item.title.match(/^Model Essay\s+(\d+)/i)?.[1]||item.key.split(':').at(-1);
+      number.append(numberLabel,numberValue);
+      const type=document.createElement('span');type.className='memory-essay-type';
+      const typeLabel=document.createElement('span');typeLabel.textContent='QUESTION TYPE · 題型';
+      const typeValue=document.createElement('strong');typeValue.textContent=pathwayType.label;
+      type.append(typeLabel,typeValue);
+      const arrow=document.createElement('span');arrow.className='memory-pathway-essay-arrow';arrow.setAttribute('aria-hidden','true');arrow.textContent='↗';
+      top.append(number,type,arrow);
+      const question=document.createElement('span');question.className='memory-essay-question';
+      const questionLabel=document.createElement('span');questionLabel.textContent='WRITING TASK · 題目';
+      const questionText=document.createElement('span');questionText.textContent=item.question;
+      question.append(questionLabel,questionText);
+      link.setAttribute('aria-label',`${item.title}：${item.question}`);
+      link.append(top,question);list.append(link);
     }
     more.hidden=pathwayShown>=essays.length;
     more.textContent=`顯示更多範文（${Math.min(pathwayShown,essays.length)} / ${essays.length} 篇）`;
