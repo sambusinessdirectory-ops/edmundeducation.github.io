@@ -67,6 +67,7 @@ await page.locator('[data-memory-essay="opinion:3"]').click();
 await page.locator('.mission').waitFor({state:'visible'});
 await page.waitForFunction(()=>document.title.includes('Model Essay 3'));
 assert((await page.title()).includes('Model Essay 3'));
+await page.locator('.pilot-library > summary').click();
 await page.locator('[data-memory-pathway-task="task-2"]').click();
 await page.locator('[data-memory-pathway-type="Opinion"]').click();
 assert.equal(await page.locator('[data-memory-essay="opinion:3"][aria-current="page"]').count(),1);

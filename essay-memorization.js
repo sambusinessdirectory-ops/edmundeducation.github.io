@@ -1041,4 +1041,5 @@
   }
 
   if (state.completed && stageDefinitions.every((stage,i)=>stage.rounds.every((_,j)=>state.solved[`${i}:${j}`]))) renderEnd(); else render();
+  if (requestedKey === 'opinion:3') window.EssayMemoryOpinion3Pilot?.init();
 })();

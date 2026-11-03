@@ -127,6 +127,7 @@ for(const key of keys){
   await page.goto(`${base}?essay=${encodeURIComponent(key)}`);
   assert((await page.title()).includes(lesson.title));
   assert.equal(await page.locator('[data-stage]').count(),11);
+  if(key==='opinion:3')await page.locator('.pilot-library > summary').click();
   await page.locator('[data-memory-pathway-task="task-2"]').click();
   const type={'opinion:3':'Opinion','discuss-both-views:4':'Discuss Both Views','cause-solution:2':'Cause / Solution'}[key];
   await page.locator('[data-memory-pathway-type]').filter({hasText:type==='Opinion'?'Opinions':type==='Discuss Both Views'?'Discuss both views + Your opinion':'Cause and Solution'}).click();
@@ -175,6 +176,7 @@ for(const key of keys){
   }
   assert.equal(await page.locator('[data-edmund-record-id]').count(),0);
   assert((await page.locator('.recording-practice a').getAttribute('href')).includes('essay-memory-recordings.html'));
+  if(key==='opinion:3')await page.locator('.pilot-tools > summary').click();
   const previousScale=await page.evaluate(()=>document.documentElement.style.getPropertyValue('--reader-scale'));
   await page.locator('#font-size-button').click();
   assert.notEqual(await page.evaluate(()=>document.documentElement.style.getPropertyValue('--reader-scale')),previousScale);
@@ -189,6 +191,7 @@ for(const key of keys){
 }
 // A backup belongs to one essay and cannot silently overwrite another lesson.
 await page.goto(`${base}?essay=opinion%3A3`);
+await page.locator('.pilot-tools > summary').click();
 const downloadPromise=page.waitForEvent('download');
 await page.locator('#export-progress').click();
 const download=await downloadPromise;
