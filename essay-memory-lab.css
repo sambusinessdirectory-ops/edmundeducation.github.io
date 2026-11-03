@@ -1,7 +1,10 @@
 /* The lesson view is an active recall session. The catalogue keeps its own lighter design. */
 body.memory-lab{--lab-ink:#101b27;--lab-panel:#172533;--lab-line:#334657;--lab-mist:#b6c7d3;--lab-signal:#76ddc8;--lab-success:#72c99e;--lab-alert:#d9867c;background:#0d151e;color:#edf5f4}
 body.memory-lab .lab-shell{max-width:1160px;padding:26px 22px 68px}
-body.memory-lab .lab-system-toggle{display:none}
+body.memory-lab .memory-header{min-height:64px;padding:10px 126px 10px 20px}
+body.memory-lab:not(.lab-system-open) .memory-header .edmund-system-header__inner>:not(.edmund-system-switcher){display:none!important}
+body.memory-lab:not(.lab-system-open) .memory-header .edmund-system-switcher__homebase{display:none!important}
+body.memory-lab .lab-system-toggle{display:block;position:absolute;z-index:4;top:13px;right:20px;padding:8px 11px;border:1px solid #7ca5a0;border-radius:2px;background:#17362f;color:#e8f8f2;font-size:12px;font-weight:800}
 body.memory-lab .lab-shell>.hero{display:none!important}
 body.memory-lab .play-area{margin:0;padding:30px 34px 36px;border:1px solid #2b3c4b;border-top:3px solid var(--lab-signal);border-radius:0;background:var(--lab-ink);box-shadow:none;color:#edf5f4;--accent:var(--lab-signal);--tint:#e5f6f0}
 .memory-lab .lab-session-bar{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 0 19px;border-bottom:1px solid var(--lab-line)}
@@ -30,6 +33,7 @@ body.memory-lab .play-area{margin:0;padding:30px 34px 36px;border:1px solid #2b3
 .memory-lab .play-topline h2{margin:7px 0 8px;color:#f3f6f1;font:750 clamp(1.7rem,3vw,2.35rem)/1.25 Inter,"Noto Sans TC",sans-serif;letter-spacing:-.035em}
 .memory-lab .stage-description{max-width:70ch;margin:0;color:#b9cad4;font-size:.87rem;line-height:1.6}
 .memory-lab .score-pill{display:flex;align-items:baseline;gap:5px;min-width:0;padding:0;border:0;border-radius:0;background:transparent;box-shadow:none;color:var(--lab-signal)}
+.memory-lab .score-pill[hidden]{display:none}
 .memory-lab .score-pill>span{font-size:1rem}.memory-lab .score-pill strong{font-size:1.25rem}.memory-lab .score-pill small{color:#a9bec7;font-size:.56rem;letter-spacing:.04em}
 .memory-lab .progress-track{height:4px;margin:20px 0 0;border-radius:0;background:#354958;overflow:hidden}
 .memory-lab .progress-track span{background:var(--lab-signal);border-radius:0;transition:width .55s ease}
