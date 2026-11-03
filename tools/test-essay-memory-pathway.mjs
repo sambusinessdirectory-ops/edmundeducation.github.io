@@ -67,7 +67,6 @@ await page.locator('[data-memory-essay="opinion:3"]').click();
 await page.locator('.mission').waitFor({state:'visible'});
 await page.waitForFunction(()=>document.title.includes('Model Essay 3'));
 assert((await page.title()).includes('Model Essay 3'));
-await page.locator('.lab-library > summary').click();
 await page.locator('[data-memory-pathway-task="task-2"]').click();
 await page.locator('[data-memory-pathway-type="Opinion"]').click();
 assert.equal(await page.locator('[data-memory-essay="opinion:3"][aria-current="page"]').count(),1);
@@ -83,7 +82,6 @@ assert.equal(await page.locator('[data-memory-pathway-more]').isVisible(),false)
 await page.setViewportSize({width:320,height:700});
 await noOverflow('Task 1 Bar Charts mobile');
 await page.locator('[data-memory-essay="task1-bar-charts:1"]').click();
-if(!(await page.locator('.lab-source').evaluate(node=>node.open)))await page.locator('.lab-source > summary').click();
 await page.locator('.memory-task1-visual img').waitFor({state:'visible'});
 assert.deepEqual(errors,[]);
 await browser.close();

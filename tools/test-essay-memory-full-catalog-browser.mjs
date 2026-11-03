@@ -41,7 +41,7 @@ for(const [index,key] of keys.entries()){
   if(key.startsWith('task1-'))assert(await page.locator('.memory-task1-visual img').count()>0,`${key}: chart`);
   for(let stage=0;stage<11;stage++){
     const node=page.locator(`[data-stage="${stage}"]`);
-    const checkAllStructures=process.env.MEMORY_QA_ALL_STRUCTURES==='1'&&(await node.getAttribute('aria-label')).includes('拆解與運用句型');
+    const checkAllStructures=process.env.MEMORY_QA_ALL_STRUCTURES==='1'&&(await node.innerText()).includes('拆解與運用句型');
     await node.click();
     const rounds=checkAllStructures?await page.locator('#step-select option').count():1;
     for(let round=0;round<rounds;round++){
@@ -50,11 +50,9 @@ for(const [index,key] of keys.entries()){
       if(checkAllStructures)assert((await page.locator('#step-select option').nth(round).innerText()).trim().length>5,`${key}: blank structure formula ${round+1}`);
       const overflowing=await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth
         ? [...document.querySelectorAll('body *')].filter(el=>el.getBoundingClientRect().right>innerWidth+1)
-          .sort((a,b)=>b.getBoundingClientRect().right-a.getBoundingClientRect().right)
-          .slice(0,8).map(el=>`${el.tagName}.${el.className||''}: ${Math.round(el.getBoundingClientRect().right)}px ${el.textContent?.trim().slice(0,45)}`)
+          .slice(0,6).map(el=>`${el.tagName}.${el.className||''}: ${Math.round(el.getBoundingClientRect().right)}px ${el.textContent?.trim().slice(0,45)}`)
         : []);
-      const layout=overflowing.length?await page.evaluate(()=>{const rail=document.querySelector('#stage-rail'),mission=document.querySelector('.mission'),play=document.querySelector('.play-area');return {html:document.documentElement.scrollWidth,body:document.body.scrollWidth,rail:{width:rail.getBoundingClientRect().width,scrollWidth:rail.scrollWidth,overflow:getComputedStyle(rail).overflowX},mission:mission.getBoundingClientRect().width,play:play.getBoundingClientRect().width,intrinsic:[...document.querySelectorAll('.play-area *')].filter(el=>el.clientWidth>0&&el.scrollWidth>el.clientWidth+2&&getComputedStyle(el).overflowX==='visible').slice(0,12).map(el=>[el.tagName,el.className,el.clientWidth,el.scrollWidth,el.textContent?.trim().slice(0,30)])};}):null;
-      assert(!overflowing.length,`${key}: horizontal overflow at stage ${stage+1}, round ${round+1}: ${JSON.stringify(layout)}; ${overflowing.join('; ')}`);
+      assert(!overflowing.length,`${key}: horizontal overflow at stage ${stage+1}, round ${round+1}: ${overflowing.join('; ')}`);
     }
   }
   assert.deepEqual(errors,[],`${key}: page errors`);
