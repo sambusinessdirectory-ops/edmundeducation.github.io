@@ -1,7 +1,7 @@
 /* 2023 B2 interaction layer. Content decisions remain in the source and audit ledgers. */
 (() => {
   'use strict';
-  const css = new URL('reference/interactions.css?v=20261103-sourcefocus', location.href).href;
+  const css = new URL('reference/interactions.css?v=20261103-native-writing', location.href).href;
   for (const root of [document.head, shell, native]) {
     const link = document.createElement('link');
     link.rel = 'stylesheet';
@@ -67,8 +67,7 @@
   };
   $('#curation-save-now').onclick = () => saveNow(`位置 ${bundle.active} · 已儲存`);
   $('#curation-export').onclick = () => {
-    if (!saveNow()) return;
-    const file = {format:bundle.format,version:1,paper:'2023-b2',slot:bundle.active,state:bundle.slots[bundle.active]};
+    const file = {format:bundle.format,version:1,paper:'2023-b2',slot:bundle.active,state:capture()};
     const url = URL.createObjectURL(new Blob([JSON.stringify(file,null,2)],{type:'application/json'}));
     const link = document.createElement('a');
     link.href = url; link.download = `paper3-2023-b2-curation-slot-${bundle.active}.json`;
@@ -121,32 +120,63 @@
   audio.addEventListener('timeupdate', () => { if (Math.floor(audio.currentTime) % 5 === 0) queueSave(); });
 
   // Bank rows follow the reached source boundary, including when an earlier stage is revisited.
-  const originalSyncBank = syncBank;
-  syncBank = function() {
-    originalSyncBank();
-    const stage = rows[i].stage;
-    for (const group of shell.querySelectorAll('#curation-bank-groups details')) {
-      for (const item of [...group.querySelectorAll('li')]) {
-        const text = item.querySelector('button')?.textContent;
-        const fact = facts.find(f => f[2] === text);
-        if (!fact) continue;
-        let visible = stage === 4;
-        if (fact[1] === 19 && stage === 2) {
-          const cue = cues.findIndex(c => transcript[c[0]].text.includes(fact[2]));
-          visible = reviewIndex >= 0 || (cue >= 0 && (cue < cueIndex || cue === cueIndex && done));
-        } else if (fact[1] === 19 && stage === 3) visible = true;
-        else if (fact[1] !== 19 && stage === 3) {
-          const exact = rows.findIndex(r => r.stage === 3 && r.p === fact[1] && normalize(r.q) === normalize(fact[2]));
-          const related = exact >= 0 ? exact : rows.findIndex(r => r.stage === 3 && r.p === fact[1] && normalize(r.q).includes(normalize(fact[2])));
-          visible = related >= 0 && related <= i;
-        }
-        if (!visible) item.remove();
+  // Resolve each fact to its exact collection step before considering a containing sentence.
+  const sourceOwners=facts.map(([task,page,quote])=>{
+    const text=normalize(quote);
+    const eligible=row=>row.stage===3 && row.t===task && row.leaf===page &&
+      row.state!=='REJECT' && row.state!=='SUPERSEDED';
+    const exact=rows.findIndex(row=>eligible(row) && normalize(row.q)===text);
+    return exact>=0?exact:rows.findIndex(row=>eligible(row) && normalize(row.q).includes(text));
+  });
+  syncBank=function(){
+    const current=rows[i],groups=$('#curation-bank-groups');
+    const openedTasks=new Set([...groups.children].filter(el=>el.open).map(el=>el.dataset.t));
+    const used=new Set(),modelFacts=new Set();
+    rows.forEach((row,index)=>{
+      if(!row.pattern)return;
+      const progress=shownByTask[row.t];
+      for(const [offset,id] of row.used.entries()){
+        modelFacts.add(id);
+        if(progress && (index<progress.i || index===progress.i && offset<progress.n))used.add(id);
       }
-      const count = group.querySelector('[data-count]');
-      if (count) count.textContent = `${group.querySelectorAll('li').length} 句`;
+    });
+    groups.replaceChildren();
+    for(let task=1;task<=3;task++){
+      const letter='ABC'[task-1],group=document.createElement('details');
+      group.className='curation-bank-'+letter;group.dataset.t=String(task);
+      group.open=current.pattern ? current.t===task : openedTasks.has(String(task));
+      const summary=document.createElement('summary'),label=document.createElement('span'),count=document.createElement('strong'),list=document.createElement('ol');
+      label.textContent='Task '+letter;count.dataset.count='';summary.append(label,count);group.append(summary,list);
+      const quoted=new Set();
+      facts.forEach((fact,id)=>{
+        if(fact[0]!==task || quoted.has(fact[1]+'|'+normalize(fact[2])))return;
+        const owner=sourceOwners[id],heard=completed.has('heard:'+fact[2]);
+        let collected=owner>=0 && completed.has(key23(rows[owner])) && (current.stage!==3 || owner<i);
+        if(fact[1]===19){
+          collected=heard;
+          if(current.stage===2 && reviewIndex<0){
+            const turn=transcript.findIndex(t=>normalize(t.text).includes(normalize(fact[2])));
+            collected=heard && turn>=0 && turn<=cues[cueIndex][0];
+          }
+        }
+        if(!collected && !(current.stage===4 && modelFacts.has(id)))return;
+        quoted.add(fact[1]+'|'+normalize(fact[2]));
+        const li=document.createElement('li'),button=document.createElement('button'),ink=document.createElement('span'),source=document.createElement('small');
+        ink.className='curation-bank-ink';ink.textContent=fact[2];button.append(ink);button.type='button';
+        li.classList.toggle('curation-bank-used',used.has(id));source.textContent=sourceLabel(fact);
+        button.onclick=()=>{
+          if(owner>=0){jump23(owner);return;}
+          if(fact[1]===19){
+            const target=reviewUnits.findIndex(unit=>normalize(unit.sentence).includes(normalize(fact[2])));
+            if(target>=0){enterReview(target);update23(true);return;}
+          }
+          sourceVisit(id);
+        };
+        li.append(button,source);list.append(li);
+      });
+      count.textContent=list.children.length+' 句';groups.append(group);
     }
   };
-
   // A stage button resumes the last stable step in that chapter.
   let stagePositions;
   try { stagePositions = JSON.parse(localStorage.getItem(stageKey) || '{}'); } catch { stagePositions = {}; }
@@ -254,7 +284,6 @@
     scriptWindow.classList.add('mobile-visible');
     E('transcript-toggle').setAttribute('aria-expanded','true');
     E('transcript-toggle').textContent='收起逐字稿';
-    completed.add(key23(rows[i]));chaptersDone();
     stagePositions[2] = {key:key23(rows[i]),cue:cueIndex,review:reviewIndex};
     localStorage.setItem(stageKey,JSON.stringify(stagePositions));
     renderReview(); queueSave();
@@ -271,7 +300,7 @@
   function reviewNext() {
     const unit = reviewUnits[reviewIndex], role = reviewRole(unit);
     completed.add(reviewId(unit));
-    if (role.fact) completed.add('heard:'+role.fact[2]);
+    for(const fact of facts)if(fact[1]===19 && normalize(unit.sentence).includes(normalize(fact[2])))completed.add('heard:'+fact[2]);
     chaptersDone();
     if (reviewIndex < reviewUnits.length-1) {reviewIndex++; renderReview(); update23(true);} else leaveReview();
   }
@@ -289,8 +318,14 @@
     oldUpdate(force);
     if (before !== lastSync || force) {recordPosition(); queueSave();}
     $('#curation-bookmark-jump').textContent=books.length?books.length+' 個書籤　⌄':'選擇書籤　⌄';
-    const row = rows[i], stageRows = rows.filter(x => x.stage === row.stage);
-    if (row.stage === 2) {
+    const row = rows[i];
+    const listeningStage=$('.curation-stage-item[data-chapter="podcast"]');
+    const finished=cues.every(cue=>completed.has(cueId(cue))) && reviewUnits.every(unit=>completed.has(reviewId(unit)));
+    listeningStage.classList.toggle('done',finished);
+    listeningStage.querySelector('.curation-stage-dot').textContent=finished?'✓':'3';
+    if(row.stage!==2)listeningStage.querySelector('small').textContent=finished?'完成':'';
+    if (opened && row.stage === 2) {
+      $('#curation-prev').disabled=reviewIndex<0 && cueIndex===0;
       const total = cues.length + reviewUnits.length;
       if (reviewIndex >= 0) renderReview();
       else {
@@ -340,6 +375,7 @@
   }
   $('#curation-next').onclick = async () => {
     if (moving) return;
+    if(rows[i].stage===2 && reviewIndex<0 && done){completed.add(cueId(cues[cueIndex]));chaptersDone();}
     if (reviewIndex >= 0 && rows[i].stage === 2) {
       moving = true;
       const unit = reviewUnits[reviewIndex], role = reviewRole(unit);
@@ -351,16 +387,26 @@
     const row = rows[i];
     const matching = row.stage === 3 && row.t >= 1 && row.t <= 3 && row.state !== 'REJECT' && row.state !== 'SUPERSEDED' && facts.some(f => f[0] === row.t && f[1] === row.p && normalize(row.q) === normalize(f[2]));
     const route = E('refs').querySelector('.route23');
+    const origin=i;
     if (matching && !diag.open && !routing && (!route || route.dataset.seen)) {
       moving = true;
       await fly(row.q,native.querySelector('mark.target'),row.t);
       moving = false;
     }
-    oldNext(); update23(true);
+    if(opened && origin===i)oldNext(); update23(true);
   };
   const oldPrev = $('#curation-prev').onclick;
   $('#curation-prev').onclick = () => { if (reviewIndex >= 0 && rows[i].stage === 2) reviewBack(); else oldPrev(); };
 
+  for(const id of ['curation-close','curation-toggle']){
+    const button=$('#'+id),toggle=button.onclick;
+    button.onclick=()=>{
+      if(opened){audio.pause();if(diag.open)diag.close();routing=false;}
+      toggle();
+      panel.hidden=scriptWindow.hidden=!opened || rows[i].stage!==2;
+      if(opened && rows[i].stage===2 && reviewIndex>=0)renderReview();
+    };
+  }
   // The step picker and bookmarks include every transcript review sentence.
   function picker(bookmarksOnly) {
     const dialog = $('.curation-picker'), list = $('.choices'), search = $('#curation-picker-search');
@@ -445,7 +491,7 @@
   const requirementPoints = new Map([
     ['show our support','1'],['acknowledge and explain William’s mistake','2'],['explain the misunderstandings','3'],
     ['Three courses will be enough','1'],['explain how their work will benefit from each one','2'],
-    ['we’ve made several changes since that draft','1']
+    ['Make sure you have the most up-to-date information in your script.','1']
   ]);
   const initialRoutes = new Map([
     ['see the article from Big Cheese Celebrity Food Gossip',[5,'A']],
@@ -453,6 +499,10 @@
     ['Corporate Training Intranet page, along with reviews',[9,'B']],
     ['script for the promotional video',[6,'C']],
     ['both William and Dante giving some updates',[8,'C']]
+  ]);
+  const discoveredStamps=new Map([
+    ['new show','C'],['Viewer’s Choice — updates','C'],
+    ['William Puddle’s viral video','A'],['Golden Sun Tower Private Kitchen complaints','B'],['New show: Viewer’s Choice','C']
   ]);
   const stampCache = new Map();
   function currentTasks(page) {
@@ -464,7 +514,9 @@
     });
     rows.forEach((r,index) => {
       if (r.stage !== 1 || r.leaf !== page || (rows[i].stage === 1 && index > i) || rows[i].stage < 1) return;
-      for (const task of 'ABC') if (localStorage.getItem('class23-'+index+task)==='1') tasks.add(task);
+      const discovered=discoveredStamps.get(r.q);
+      if(discovered)tasks.add(discovered);
+      for (const task of 'ABC') {const choice=localStorage.getItem('class23-'+index+task);if(choice==='1')tasks.add(task);else if(choice==='0')tasks.delete(task);}
     });
     const sourceLimit = rows[i].stage > 3 ? rows.length-1 : rows[i].stage === 3 ? i : -1;
     rows.slice(0,sourceLimit+1).filter(r => r.stage === 3 && r.p === page && r.t >= 1 && r.t <= 3 && r.state !== 'REJECT').forEach(r => tasks.add('ABC'[r.t-1]));
@@ -533,9 +585,9 @@
 (() => {
   'use strict';
   const writingStarts = [
-    ['Public announcement concerning','Teen NetChef TV supports','William did flood','Some viewers believe','Finally, some viewers thought','We ask viewers'],
-    ['Dear all,','I recommend three courses','Hazard Awareness,','The Chef’s Special','Be Your Best!','Each course counts','Please sign up','Regards,'],
-    ['Viewer’s Choice: A New Way','TITLE CARD:','VOICEOVER: Meet','EPISODE 1 CARD:','VOICEOVER: In Episode','PRIZE CARD','VOICEOVER: One lucky','FlyingFood will','Viewer’s Choice -','Watch and vote!']
+    ['Public announcement concerning','Teen NetChef TV supports','William did flood','Some viewers believe','Finally, some viewers thought'],
+    ['Dear all,','I recommend three courses','Hazard Awareness,','The Chef’s Special','Be Your Best!','Each course counts','Regards,','Nico Lin'],
+    ['Viewer’s Choice: A New Way','TITLE CARD:','VOICEOVER: Meet','EPISODE 1 CARD:','VOICEOVER: In Episode','PRIZE CARD','VOICEOVER: One lucky']
   ];
   const prepTitles = ['拆解題目','整理內容骨架','獨立完成初稿','核對事實及語氣'];
   const contracts = [
@@ -629,10 +681,15 @@
       }
     }
     surface.replaceChildren();surface.className='paper cur23-writing-paper';surface.append(paperHeader(row,false),taskNav());
-    const essay=document.createElement('div');essay.className='cur23-model-essay';
+    const details=document.createElement('details');details.open=true;details.className='curation-model-essay';
+    details.id='curation-model-'+'ABC'[row.t-1];
+    const summary=document.createElement('summary');summary.textContent='Task '+'ABC'[row.t-1]+' 參考範文 · Revised Benchmark Essay';
+    const essay=document.createElement('article');essay.lang='en';essay.className='cur23-model-essay';
+    details.append(summary,essay);
     for(let j=0;j<starts.length;j++){
       const lo=starts[j],rawHi=starts[j+1]??full.length,hi=rawHi>lo&&full[rawHi-1]===' '?rawHi-1:rawHi;
-      if(hi<=lo)continue;const paragraph=document.createElement(j===0?'h3':'p');
+      if(hi<=lo)continue;const card=row.t===3 && /^(TITLE CARD|EPISODE 1 CARD|PRIZE CARD)/.test(full.slice(lo));
+      const paragraph=document.createElement(card?'h5':j===0 && row.t!==2?'h4':'p');
       if(currentAt<lo||currentAt>=hi)appendColored(paragraph,lo,hi);
       else{
         appendColored(paragraph,lo,currentAt);
@@ -641,7 +698,7 @@
       }
       essay.append(paragraph);
     }
-    surface.append(essay);
+    surface.append(details);
   }
   for(let task=1;task<=3;task++){choose.children[task-1].onclick=()=>{const stage=rows[i].stage===3?3:4;const target=rows.findIndex(item=>item.stage===stage&&item.t===task);if(target>=0)jump23(target);};}
   const previousDisplayUpdate=update23;
@@ -655,7 +712,7 @@
     E('title').hidden=opened&&row.stage===4;
     E('open').hidden=opened&&row.stage===4;
     if(opened&&row.stage===4){
-      E('pdf').hidden=true;surface.hidden=false;surface.style.removeProperty('display');
+      surface.hidden=false;surface.style.removeProperty('display');
       const signature=`${i}:${row.t}:${row.q}`;
       if(signature!==lastWritingStep||!surface.classList.contains('cur23-writing-paper')){
         lastWritingStep=signature;
@@ -675,11 +732,15 @@
     previousCountUpdate(force);
     const row=rows[i];if(row.stage!==4||!opened)return;
     const offset=writingOffset(row),number=writingNumber(row);
-    shell.querySelector('#curation-step-count').textContent=`${number} / ${writingTotal} · ${row.pattern?'逐句核對':'寫作準備'}`;
+    shell.querySelector('#curation-step-count').textContent=`${number} / ${writingTotal} · ${row.pattern?(diag.open?'查看原文 ':'證據核對 ')+visitIndex+' / '+row.used.length:'寫作準備'}`;
     if(!row.pattern){const step=writingRows.filter(item=>item.t===row.t).indexOf(row);shell.querySelector('#curation-source').textContent=`Question-Answer Book · Task ${row.t+7}`;shell.querySelector('#curation-title').textContent=`Task ${'ABC'[row.t-1]} · ${prepTitles[step]}`;}
     const stepLabel=shell.querySelector('.curation-stage-item[data-chapter="writing"] small');
     if(stepLabel)stepLabel.textContent=`${number}/${writingTotal}`;
     shell.querySelector('#curation-step-jump').textContent=`${number} / ${writingTotal} · ${(row.q||row.a).slice(0,25)}`;
+    if(row.pattern){
+      const unit=writingRows.filter(item=>item.pattern && item.t===row.t).indexOf(row)+1;
+      shell.querySelector('#curation-title').textContent='Task '+'ABC'[row.t-1]+' · 範文第 '+unit+' 段導讀';
+    }
     if(row.pattern&&diag.open){
       const fact=row.used[visitIndex-1];
       if(fact!=null)shell.querySelector('#curation-source').textContent=`原文取證 · ${facts[fact][1]===19?'會議錄音':'Data File 第 '+facts[fact][1]+' 頁'}`;

@@ -75,8 +75,50 @@ $s('.curation-picker-head button').onclick=()=>$s('.curation-picker').close();$s
 for(let id of ['prev','next'])$s('#curation-'+id).onclick=()=>{if(id==='next'){completed.add(key23(rows[i]));if(active&&done)for(let f of facts)if(f[1]===19&&transcript[cues[cueIndex][0]].text.includes(f[2]))completed.add('heard:'+f[2]);chaptersDone()}E(id).click();firstView=false;help=false;update23(true)};
 $s('#curation-help').onclick=()=>{help=!help;update23(true)};$s('#curation-spotlight').onchange=()=>E('spot23').click();$s('#curation-dialogue').onchange=e=>{$s('.curation-dock').classList.toggle('dialogue',e.target.checked);$s('.curation-character').hidden=!e.target.checked};for(let id of ['curation-toggle','curation-close'])$s('#'+id).onclick=()=>{opened=!opened;update23(true)};
 allS('.curation-stage-item').forEach((b,j)=>b.onclick=()=>jump23(rows.findIndex(r=>r.stage===j)));allS('[data-filter]').forEach(b=>b.onclick=()=>{let filter=b.dataset.filter;jump23(rows.findIndex(r=>r.stage===({all:0,data:3,transcript:2,practice:4}[filter])));tab=filter;update23(true)});$s('#show-translation').onchange=e=>{lang=e.target.checked;if(active&&language.getAttribute('aria-pressed')!==String(lang))language.click();update23(true)};$s('#print-reader').onclick=()=>print();let mob=$s('#page-jump');mob.replaceChildren(new Option('跳至頁面',''));for(let j=1;j<=10;j++)mob.add(new Option(j+' · '+leaves[j].split('\n')[0],j));mob.onchange=()=>{let j=rows.findIndex(r=>r.leaf===+mob.value);if(j>=0)jump23(j);else nativePage(+mob.value,rows[i])};
-for(let j=1;j<=5;j++)$s('#curation-slot').add(new Option('位置 '+j,j));$s('#curation-slot').onchange=e=>slot.value=e.target.value;$s('#curation-save-now').onclick=()=>{sb[0].click();$s('#curation-save-status').textContent='已儲存'};$s('#curation-export').onclick=()=>sb[2].click();$s('#curation-import').onchange=async e=>{restore(JSON.parse(await e.target.files[0].text()));update23(true)};let load=document.createElement('button');load.textContent='載入';load.onclick=()=>{sb[1].click();update23(true)};$s('#curation-save-now').after(load);update23(true);setInterval(update23,160);
-const shellVisit23=sourceVisit;sourceVisit=function(id){const y=scrollY;shellVisit23(id);let f=facts[id];if(f[1]<=10){excerpt.replaceChildren();let host=document.createElement('div');excerpt.append(host);let sh=host.attachShadow({mode:'open'});sh.innerHTML='<link rel="stylesheet" href="reference/native.css"><style>:host{display:block}.translation,details,header,.native-label{display:none}.paper-page{margin:0}.native-document{padding:8px}mark{background:'+inks[f[0]]+';background-image:linear-gradient(#246fbd,#246fbd);background-position:left 55%;background-repeat:no-repeat;background-size:100% 4px;animation:strike 1s ease-out}@keyframes strike{from{background-size:0 4px}}</style>'+nativePages23[f[1]-1];let walk=document.createTreeWalker(sh.querySelector('.native-document'),NodeFilter.SHOW_TEXT),nodes=[],text='',norm=x=>x.toLowerCase().replace(/[’']/g,"'").replace(/[^\p{L}\p{N}]/gu,'');while(walk.nextNode()){let n=walk.currentNode;if(n.parentElement.closest('.translation,details'))continue;nodes.push([n,text.length]);text+=n.textContent+' '}let code='',map=[];for(let j=0;j<text.length;j++){let c=norm(text[j]);if(c){code+=c;map.push(j)}}let k=norm(f[2]),at=code.indexOf(k);if(at>=0){let lo=map[at],hi=map[at+k.length-1]+1;for(let [n,start] of nodes){let a=Math.max(0,lo-start),b=Math.min(n.length,hi-start);if(b>a){let rg=document.createRange();rg.setStart(n,a);rg.setEnd(n,b);rg.surroundContents(document.createElement('mark'))}}let focus=()=>{let mark=sh.querySelector('mark');if(mark&&diag.open)excerpt.scrollTop+=mark.getBoundingClientRect().top-excerpt.getBoundingClientRect().top-excerpt.clientHeight*.35};sh.querySelector('link').onload=focus;requestAnimationFrame(focus)}}window.scrollTo(0,y);update23(true)};
+for(let j=1;j<=5;j++)$s('#curation-slot').add(new Option('位置 '+j,j));$s('#curation-slot').onchange=e=>slot.value=e.target.value;$s('#curation-save-now').onclick=()=>{sb[0].click();$s('#curation-save-status').textContent='已儲存'};$s('#curation-export').onclick=()=>sb[2].click();$s('#curation-import').onchange=async e=>{restore(JSON.parse(await e.target.files[0].text()));update23(true)};let load=document.createElement('button');load.textContent='載入';load.onclick=()=>{sb[1].click();update23(true)};$s('#curation-save-now').after(load);update23(true);let lastAudioState='';
+setInterval(()=>{
+  if(!opened || !active)return;
+  const state=[cueIndex,done,E('next').disabled].join('|');
+  if(state!==lastAudioState){lastAudioState=state;update23(true);}
+},160);
+function previewNativePage(page,quote='',task=0,rejected=false){
+  excerpt.replaceChildren();
+  const host=document.createElement('div');
+  excerpt.append(host);
+  const root=host.attachShadow({mode:'open'});
+  const style=document.createElement('style');
+  style.textContent=`:host{display:block}.translation,details,header,.native-label{display:none}.paper-page{margin:0;width:100%}.native-document{padding:8px}mark{background:${inks[task]};background-image:linear-gradient(${rejected?'#c7222c':'#246fbd'},${rejected?'#c7222c':'#246fbd'});background-position:left 55%;background-repeat:no-repeat;background-size:100% 3px;animation:strike .6s ease-out}@keyframes strike{from{background-size:0 3px}}@media(prefers-reduced-motion:reduce){mark{animation:none}}`;
+  const css=document.createElement('link');css.rel='stylesheet';css.href='reference/native.css';
+  root.innerHTML=nativePages23[page-1];root.prepend(css,style);
+  excerpt.scrollTop=0;
+  if(!quote)return;
+  const normalize=s=>s.toLowerCase().replace(/[^\p{L}\p{N}]/gu,'');
+  const reader=document.createTreeWalker(root.querySelector('.native-document'),NodeFilter.SHOW_TEXT);
+  const nodes=[];let text='';
+  while(reader.nextNode()){
+    const node=reader.currentNode;
+    if(node.parentElement.closest('.translation,details'))continue;
+    nodes.push([node,text.length]);text+=node.textContent+' ';
+  }
+  let normalized='';const offsets=[];
+  for(let k=0;k<text.length;k++){const ch=normalize(text[k]);if(ch){normalized+=ch;offsets.push(k);}}
+  const term=normalize(quote),found=normalized.indexOf(term);if(found<0 || !term)return;
+  const low=offsets[found],high=offsets[found+term.length-1]+1;
+  for(const [node,start] of nodes){
+    const from=Math.max(0,low-start),to=Math.min(node.length,high-start);
+    if(to<=from)continue;
+    const range=document.createRange();range.setStart(node,from);range.setEnd(node,to);range.surroundContents(document.createElement('mark'));
+  }
+  const focus=()=>{const mark=root.querySelector('mark');if(mark&&diag.open)excerpt.scrollTop+=mark.getBoundingClientRect().top-excerpt.getBoundingClientRect().top-excerpt.clientHeight*.35;};
+  css.onload=focus;requestAnimationFrame(focus);
+}
+const shellVisit23=sourceVisit;
+sourceVisit=function(id){
+  const y=scrollY;shellVisit23(id);
+  const [task,page,quote]=facts[id];
+  if(page<=10)previewNativePage(page,quote,task);
+  window.scrollTo(0,y);update23(true);
+};
 // Multiple clauses in a model sentence may need different witnesses.
 for(const [unit,t,page,span,keyword,why] of [
 [1,1,19,"we think it's all been a misunderstanding","missing context","會議承認水浸，同時指出其他食安指控有誤會。"],
