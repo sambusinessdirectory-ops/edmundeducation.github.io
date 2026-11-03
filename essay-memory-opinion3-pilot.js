@@ -124,6 +124,32 @@
       answerReference.className = 'pilot-answer-reference';
       answerReference.innerHTML = '<summary>範文論證對照</summary>';
       let lastLead = null;
+      let fitFrame = 0;
+      const fitRound = () => {
+        cancelAnimationFrame(fitFrame);
+        fitFrame = requestAnimationFrame(() => {
+          if (!card.isConnected) return;
+          card.classList.remove('pilot-brief');
+          if (innerWidth <= 1150) { card.style.removeProperty('--pilot-type-scale'); return; }
+          const readerScale = Number.parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--reader-scale')) || 1;
+          let scale = Math.min(2.05, Math.max(1.4, innerHeight / 570));
+          card.style.setProperty('--pilot-type-scale', scale.toFixed(2));
+          if (readerScale === 1) {
+            while (scale > 1.01 && card.scrollHeight > card.clientHeight + 3) {
+              scale = Math.max(1, scale - 0.04);
+              card.style.setProperty('--pilot-type-scale', scale.toFixed(2));
+            }
+          }
+          if (card.querySelector(':scope > .question-intro') && card.querySelector(':scope > .choice-grid') && !card.classList.contains('structure-card')) {
+            const box = card.getBoundingClientRect();
+            const lastBottom = Math.max(...[...card.children].filter(child => getComputedStyle(child).display !== 'none').map(child => child.getBoundingClientRect().bottom));
+            if (lastBottom - box.top < box.height * .63) {
+              card.classList.add('pilot-brief');
+              if (card.scrollHeight > card.clientHeight + 3) card.classList.remove('pilot-brief');
+            }
+          }
+        });
+      };
       const presentRound = () => {
         const lead = card.firstElementChild;
         if (!lead || lead === lastLead) return;
@@ -201,6 +227,7 @@
         card.classList.remove('pilot-panel-in');
         void card.offsetWidth;
         card.classList.add('pilot-panel-in');
+        fitRound();
       };
       const presentSuccess = () => {
         if (!card.classList.contains('is-correct')) return;
@@ -217,9 +244,12 @@
         }
       };
       new MutationObserver(records => {
-        if (records.some(record => record.addedNodes.length || record.removedNodes.length)) { presentRound(); presentSuccess(); }
+        if (records.some(record => record.addedNodes.length || record.removedNodes.length)) { presentRound(); presentSuccess(); fitRound(); }
       }).observe(card, { childList: true });
       presentRound();
+      window.addEventListener('resize', fitRound);
+      new MutationObserver(fitRound).observe(document.documentElement, { attributes:true, attributeFilter:['style'] });
+      document.fonts?.ready.then(fitRound);
       card.addEventListener('click', event => {
         if (!event.target.closest('[data-pilot-review]')) return;
         tools.open = true;

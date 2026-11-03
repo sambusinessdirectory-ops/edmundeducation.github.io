@@ -464,3 +464,69 @@ body.opinion3-terminal .shell{height:calc(100dvh - 48px);padding-block:5px 7px}
 .opinion3-terminal .pilot-answer-reference>summary,.opinion3-terminal .pilot-phrase-reference>summary{cursor:pointer;font-weight:700;color:#e9dfc8}
 .opinion3-terminal .pilot-answer-reference .model-connection{margin-top:8px;max-height:60vh;overflow:auto}
 body.opinion3-terminal[data-pilot-reader-size="enlarged"] .game-card{overflow-y:auto;scrollbar-width:thin;scrollbar-color:#9b6043 #eee4d1}
+
+/* Desktop reading scale: fill the case file with readable learning material. */
+@media(min-width:1151px){
+ .opinion3-terminal .game-card{--pilot-type-scale:1.4;padding:calc(13px * var(--pilot-type-scale)) calc(16px * var(--pilot-type-scale));row-gap:calc(6px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.pilot-brief{display:flex;flex-direction:column;justify-content:center;gap:calc(13px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.pilot-brief>.question-intro{width:100%;margin:0}
+ .opinion3-terminal .game-card.pilot-brief>.choice-grid{width:100%}
+ .opinion3-terminal .game-card .question-label{padding:calc(4px * var(--pilot-type-scale)) calc(8px * var(--pilot-type-scale));font-size:calc(10px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .question-intro{margin-bottom:calc(8px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .question-intro h3{font-size:calc(18px * var(--reader-scale) * var(--pilot-type-scale));line-height:1.3}
+ .opinion3-terminal .game-card .question-intro p:not(.question-label){font-size:calc(13px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .choice-grid{gap:calc(7px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .choice-card{min-height:calc(47px * var(--pilot-type-scale));padding:calc(7px * var(--pilot-type-scale)) calc(10px * var(--pilot-type-scale));font-size:calc(15px * var(--reader-scale) * var(--pilot-type-scale));gap:calc(8px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .choice-symbol{width:clamp(29px,calc(23px * var(--pilot-type-scale)),39px);height:clamp(29px,calc(23px * var(--pilot-type-scale)),39px);font-size:calc(11px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .choice-arrow{font-size:calc(15px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .support-source{padding:calc(8px * var(--pilot-type-scale)) calc(10px * var(--pilot-type-scale));font-size:calc(17px * var(--reader-scale) * var(--pilot-type-scale));line-height:1.38}
+ .opinion3-terminal .game-card .simple-source{font-size:calc(16px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .structure-translation{padding:calc(8px * var(--pilot-type-scale)) calc(10px * var(--pilot-type-scale));font-size:calc(15px * var(--reader-scale) * var(--pilot-type-scale));line-height:1.38}
+ .opinion3-terminal .game-card.structure-card{gap:calc(7px * var(--pilot-type-scale)) calc(9px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.structure-card .structure-part{padding:calc(6px * var(--pilot-type-scale)) calc(8px * var(--pilot-type-scale));font-size:calc(16px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.structure-card .structure-part small{font-size:calc(11px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.structure-card .concept-grid{gap:calc(8px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.structure-card .concept-card,.opinion3-terminal .game-card.structure-card .concept-card:nth-child(2){padding:calc(9px * var(--pilot-type-scale)) calc(11px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.structure-card .concept-label{font-size:calc(10px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.structure-card .concept-card p{font-size:calc(17px * var(--reader-scale) * var(--pilot-type-scale));line-height:1.3}
+ .opinion3-terminal .game-card.structure-card .question-intro h3{font-size:calc(18px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.simple-build>h3,.opinion3-terminal .game-card.exact-build>h3,.opinion3-terminal .game-card>h3{font-size:calc(19px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card>h3+p{font-size:calc(13px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .build-mode{font-size:calc(10px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .build-source-label{font-size:calc(10px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .pilot-glossary{gap:calc(5px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .pilot-glossary-entry{padding:calc(5px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .pilot-glossary-entry strong,.opinion3-terminal .game-card .pilot-glossary-part-1{font-size:calc(12px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .pilot-glossary-part-2{font-size:calc(11px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .sequence-slot{min-height:calc(27px * var(--pilot-type-scale));padding:calc(4px * var(--pilot-type-scale)) calc(6px * var(--pilot-type-scale));font-size:calc(13px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .sequence-card{min-height:calc(40px * var(--pilot-type-scale));padding:calc(6px * var(--pilot-type-scale)) calc(8px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .sequence-card strong{font-size:calc(14px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card.sentence-map .sequence-card strong{font-size:calc(15px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .sequence-card small,.opinion3-terminal .game-card .option-heading,.opinion3-terminal .game-card .sequence-slot small{font-size:calc(10px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .speaking-text{padding:calc(9px * var(--pilot-type-scale));font-size:calc(18px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .reading-controls,.opinion3-terminal .game-card .reading-controls .mini-button,.opinion3-terminal .game-card .recording-practice .mini-button{font-size:calc(12px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .recording-practice{padding:calc(6px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .primary-button,.opinion3-terminal .game-card .secondary-button,.opinion3-terminal .game-card .pilot-review-link{padding:calc(8px * var(--pilot-type-scale)) calc(11px * var(--pilot-type-scale));font-size:calc(13px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .memory-tools .mini-button,.opinion3-terminal .game-card .memory-tools .role-badge{font-size:calc(11px * var(--pilot-type-scale))}
+ .opinion3-terminal .game-card .support-notes,.opinion3-terminal .game-card .translation-line,.opinion3-terminal .game-card .translation-list,.opinion3-terminal .game-card .translation-list p{font-size:calc(13px * var(--reader-scale) * var(--pilot-type-scale))}
+ .opinion3-terminal .stage-node .node-copy small{font-size:clamp(10px,.6vw,13px)}
+ .opinion3-terminal .stage-node .node-copy strong{font-size:clamp(16px,.9vw,21px)}
+ .opinion3-terminal .stage-node,.opinion3-terminal .stage-node:nth-child(n){min-height:clamp(41px,3.5vh,54px)}
+ .opinion3-terminal .pilot-panel-tab span,.opinion3-terminal .pilot-source-label{font-size:clamp(11px,.6vw,14px)}
+ .opinion3-terminal .pilot-dossier .setup-card strong{font-size:clamp(16px,.9vw,21px)}
+ .opinion3-terminal .pilot-dossier .setup-card p{font-size:clamp(15px,.8vw,20px);line-height:1.55}
+ .opinion3-terminal .pilot-dossier .setup-card a,.opinion3-terminal .pilot-switch-essay,.opinion3-terminal .pilot-tools>summary strong{font-size:clamp(13px,.7vw,17px)}
+ .opinion3-terminal .pilot-workspace-label>span,.opinion3-terminal .pilot-tools-shortcut,.opinion3-terminal .stage-kicker{font-size:clamp(12px,.65vw,15px)}
+ .opinion3-terminal .round-meta,.opinion3-terminal .step-picker,.opinion3-terminal #step-picker-open{font-size:clamp(13px,.7vw,16px)}
+}
+@media(min-width:1600px){.opinion3-terminal .pilot-cockpit{grid-template-columns:clamp(260px,16vw,330px) minmax(0,1fr) clamp(290px,17vw,350px)}}
+@media(min-width:1151px){
+ .opinion3-terminal .pilot-hud h1{font-size:clamp(30px,2vw,44px)}
+ .opinion3-terminal .pilot-hud-meter small{font-size:clamp(10px,.55vw,13px)}
+ .opinion3-terminal .pilot-hud-meter strong{font-size:clamp(20px,1vw,25px)}
+ .opinion3-terminal .pilot-hud-actions [data-pilot-help],.opinion3-terminal .pilot-hud-actions .learning-question-launcher{min-height:38px;font-size:clamp(14px,.7vw,19px)}
+ .opinion3-terminal .pilot-workspace-label>strong{font-size:clamp(19px,1vw,24px)}
+ .opinion3-terminal .mission-heading h2{font-size:clamp(15px,.8vw,19px)}
+ .opinion3-terminal .journey-count{font-size:clamp(11px,.6vw,14px)}
+ .opinion3-terminal .pilot-tools>summary span{font-size:clamp(11px,.6vw,14px)}
+}

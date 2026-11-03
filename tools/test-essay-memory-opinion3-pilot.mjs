@@ -23,7 +23,14 @@ assert((await page.locator('.pilot-hud [data-pilot-stage]').textContent()).inclu
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
 assert((await page.locator('.play-topline h2').evaluate(node=>getComputedStyle(node).fontFamily)).includes('Noto Serif TC Local'));
 assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
+await page.waitForFunction(()=>Number.parseFloat(document.querySelector('#game-card')?.style.getPropertyValue('--pilot-type-scale'))>1.2);
+assert(await page.locator('#game-card .choice-card').first().evaluate(button=>Number.parseFloat(getComputedStyle(button).fontSize)>=20));
+assert.equal(await page.locator('#game-card').evaluate(card=>card.classList.contains('pilot-brief')),true);
 if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-desktop.png`});
+await page.setViewportSize({width:2048,height:1152});
+await page.waitForFunction(()=>Number.parseFloat(document.querySelector('#game-card')?.style.getPropertyValue('--pilot-type-scale'))>=2);
+assert(await page.locator('#game-card .choice-card').first().evaluate(button=>Number.parseFloat(getComputedStyle(button).fontSize)>=29));
+assert(await page.locator('#game-card').evaluate(card=>card.scrollHeight<=card.clientHeight+4));
 await page.setViewportSize({width:390,height:844});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,JSON.stringify(await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(node=>node.getBoundingClientRect().right>innerWidth+1).slice(0,8).map(node=>[node.className,Math.round(node.getBoundingClientRect().right),node.scrollWidth]))));
 assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
@@ -70,6 +77,7 @@ await page.locator('#step-select').evaluate(node=>{node.value='12';node.dispatch
 await page.locator('#game-card .pilot-annotated-source').waitFor();
 assert.equal(await page.locator('#game-card .structure-translation').count(),1);
 assert.equal(await page.locator('#game-card [data-choice]').count(),4);
+await page.waitForFunction(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4;});
 assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');return card.scrollHeight<=card.clientHeight+4;}));
 await page.setViewportSize({width:390,height:844});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
