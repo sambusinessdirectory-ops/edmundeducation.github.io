@@ -50,6 +50,10 @@
       const tools = document.createElement('details');
       tools.className = 'pilot-tools';
       tools.innerHTML = '<summary><span>SESSION EQUIPMENT</span><strong>字體 · 朗讀 · 錄音 · 進度</strong></summary>';
+      const switchEssay = document.createElement('button');
+      switchEssay.className = 'pilot-switch-essay';
+      switchEssay.type = 'button';
+      switchEssay.textContent = 'FILE CABINET / 切換範文 →';
       const library = document.createElement('details');
       library.className = 'pilot-library';
       library.innerHTML = '<summary><span>FILE CABINET / 288 ESSAYS</span><strong>切換範文與題型</strong></summary>';
@@ -58,11 +62,12 @@
       cockpit.append(programs, workspace, dossier);
       programs.append(mission);
       workspace.append(workspaceLabel, play);
-      dossier.append(sourceLabel, setup, tools);
+      dossier.append(sourceLabel, setup, switchEssay, tools);
       play.querySelector('#feedback').after(play.querySelector('.step-picker'));
       tools.append(play.querySelector('.reading-controls'), play.querySelector('.progress-actions'), play.querySelector('.score-explanation'), play.querySelector('.utility-row'), $('.pilot-note'));
       cockpit.after(library);
       library.append(catalogue);
+      switchEssay.addEventListener('click', () => { library.open = true; library.querySelector('summary').focus(); });
       $('.hero').hidden = true;
 
       const tutorial = document.createElement('dialog');
@@ -100,18 +105,94 @@
       syncHud();
 
       const card = $('#game-card');
+      const pager = document.createElement('nav');
+      pager.className = 'pilot-page-controls';
+      pager.setAttribute('aria-label', '練習內容分頁');
+      pager.innerHTML = '<button type="button" data-pilot-page-prev aria-label="上一頁">◀ 上一頁</button><span data-pilot-page-status aria-live="polite">FILE PAGE 1 / 1</span><button type="button" data-pilot-page-next aria-label="下一頁">下一頁 ▶</button>';
+      card.after(pager);
+      const pageState = { key: '', positions: [0], index: 0 };
+      let pageFrame = 0;
+      const pageKey = () => `${$('#stage-kicker').textContent}|${$('#round-number').textContent}`;
+      const syncPageButtons = () => {
+        pager.hidden = pageState.positions.length < 2;
+        pager.querySelector('[data-pilot-page-status]').textContent = `FILE PAGE ${pageState.index + 1} / ${pageState.positions.length}`;
+        pager.querySelector('[data-pilot-page-prev]').disabled = pageState.index === 0;
+        pager.querySelector('[data-pilot-page-next]').disabled = pageState.index === pageState.positions.length - 1;
+      };
+      const measurePages = () => {
+        pageFrame = 0;
+        const key = pageKey();
+        if (key !== pageState.key) { pageState.key = key; pageState.index = 0; }
+        const max = Math.max(0, card.scrollHeight - card.clientHeight);
+        const jump = Math.max(120, card.clientHeight - 36);
+        const cardTop = card.getBoundingClientRect().top;
+        const anchors = [...card.querySelectorAll(':scope > *, .support-table tr, .choice-card, .sequence-card, .sequence-slot, .concept-card, .translation-list p')]
+          .map(node => Math.round(node.getBoundingClientRect().top - cardTop + card.scrollTop))
+          .filter(top => top > 0 && top < max)
+          .sort((a, b) => a - b);
+        const positions = [0];
+        while (positions.at(-1) < max - 2 && positions.length < 60) {
+          const current = positions.at(-1);
+          const target = Math.min(max, current + jump);
+          const boundary = anchors.filter(top => top > current + Math.min(80, jump * .38) && top <= target).at(-1);
+          const next = boundary && target - boundary < jump * .35 ? boundary : target;
+          positions.push(next <= current + 20 ? target : next);
+        }
+        pageState.positions = positions;
+        if (card.classList.contains('is-correct') && card.querySelector('[data-continue]')) pageState.index = positions.length - 1;
+        pageState.index = Math.min(pageState.index, positions.length - 1);
+        card.scrollTo({ top: positions[pageState.index], behavior: 'instant' });
+        syncPageButtons();
+      };
+      const schedulePages = () => { if (!pageFrame) pageFrame = requestAnimationFrame(measurePages); };
+      pager.addEventListener('click', event => {
+        const direction = event.target.closest('[data-pilot-page-prev]') ? -1 : event.target.closest('[data-pilot-page-next]') ? 1 : 0;
+        if (!direction) return;
+        pageState.index = Math.min(pageState.positions.length - 1, Math.max(0, pageState.index + direction));
+        card.scrollTo({ top: pageState.positions[pageState.index], behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+        syncPageButtons();
+      });
       new MutationObserver(records => {
         if (!records.some(record => record.addedNodes.length || record.removedNodes.length)) return;
         card.classList.remove('pilot-panel-in');
         void card.offsetWidth;
         card.classList.add('pilot-panel-in');
+        schedulePages();
       }).observe(card, { childList: true });
+      new ResizeObserver(schedulePages).observe(card);
+      window.addEventListener('resize', schedulePages, { passive: true });
+      $('#font-size-button').addEventListener('click', () => setTimeout(schedulePages, 0));
+      document.fonts.ready.then(schedulePages);
+      schedulePages();
       const openTools = document.createElement('button');
       openTools.type = 'button';
       openTools.className = 'pilot-tools-shortcut';
       openTools.textContent = 'TOOLS / 裝備';
-      openTools.addEventListener('click', () => { tools.open = true; tools.scrollIntoView({ behavior: 'smooth', block: 'nearest' }); });
+      openTools.addEventListener('click', () => { tools.open = true; if (matchMedia('(max-width:760px)').matches) openDrawer('dossier'); });
       workspaceLabel.append(openTools);
+      const openPrograms = document.createElement('button');
+      openPrograms.type = 'button';
+      openPrograms.className = 'pilot-drawer-shortcut';
+      openPrograms.textContent = '關卡';
+      const openDossier = document.createElement('button');
+      openDossier.type = 'button';
+      openDossier.className = 'pilot-drawer-shortcut';
+      openDossier.textContent = '題目';
+      workspaceLabel.append(openPrograms, openDossier);
+      const closeDrawer = () => document.body.classList.remove('pilot-drawer-programs', 'pilot-drawer-dossier');
+      const openDrawer = which => { closeDrawer(); document.body.classList.add(`pilot-drawer-${which}`); };
+      openPrograms.addEventListener('click', () => openDrawer('programs'));
+      openDossier.addEventListener('click', () => openDrawer('dossier'));
+      for (const panel of [programs, dossier]) {
+        const close = document.createElement('button');
+        close.type = 'button';
+        close.className = 'pilot-drawer-close';
+        close.textContent = '關閉 ×';
+        close.addEventListener('click', closeDrawer);
+        panel.prepend(close);
+      }
+      $('#stage-rail').addEventListener('click', closeDrawer);
+      document.addEventListener('keydown', event => { if (event.key === 'Escape') closeDrawer(); });
     }
   };
 })();

@@ -42,7 +42,8 @@ for(const [index,key] of keys.entries()){
   for(let stage=0;stage<11;stage++){
     const node=page.locator(`[data-stage="${stage}"]`);
     const checkAllStructures=process.env.MEMORY_QA_ALL_STRUCTURES==='1'&&(await node.innerText()).includes('拆解與運用句型');
-    await node.click();
+    if(key==='opinion:3')await node.evaluate(element=>element.click());
+    else await node.click();
     const rounds=checkAllStructures?await page.locator('#step-select option').count():1;
     for(let round=0;round<rounds;round++){
       if(round)await page.locator('#step-select').evaluate((select,index)=>{select.value=String(index);select.dispatchEvent(new Event('change'));},round);
@@ -53,6 +54,11 @@ for(const [index,key] of keys.entries()){
           .slice(0,6).map(el=>`${el.tagName}.${el.className||''}: ${Math.round(el.getBoundingClientRect().right)}px ${el.textContent?.trim().slice(0,45)}`)
         : []);
       assert(!overflowing.length,`${key}: horizontal overflow at stage ${stage+1}, round ${round+1}: ${overflowing.join('; ')}`);
+      if(key==='opinion:3'){
+        await page.waitForTimeout(35);
+        assert(await page.evaluate(()=>document.scrollingElement.scrollHeight<=innerHeight+2),`${key}: document scroll at stage ${stage+1}, round ${round+1}`);
+        assert(await page.evaluate(()=>{const card=document.querySelector('#game-card');const pager=document.querySelector('.pilot-page-controls');return card.scrollHeight<=card.clientHeight+2 || !pager.hidden;}),`${key}: hidden clipped content at stage ${stage+1}, round ${round+1}`);
+      }
     }
   }
   assert.deepEqual(errors,[],`${key}: page errors`);

@@ -21,9 +21,12 @@ assert.equal(await page.locator('.pilot-library').evaluate(node=>node.open),fals
 assert.equal(await page.locator('.pilot-tools').evaluate(node=>node.open),false);
 assert((await page.locator('.pilot-hud [data-pilot-stage]').textContent()).includes('01 / 11'));
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+assert((await page.locator('.play-topline h2').evaluate(node=>getComputedStyle(node).fontFamily)).includes('Noto Serif TC Local'));
+assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
 if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-desktop.png`});
 await page.setViewportSize({width:390,height:844});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,JSON.stringify(await page.evaluate(()=>[...document.querySelectorAll('body *')].filter(node=>node.getBoundingClientRect().right>innerWidth+1).slice(0,8).map(node=>[node.className,Math.round(node.getBoundingClientRect().right),node.scrollWidth]))));
+assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
 if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-phone-initial.png`});
 await page.locator('.pilot-site-toggle').click();
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
@@ -47,15 +50,30 @@ assert((await page.locator('.pilot-hud [data-pilot-stage]').textContent()).inclu
 assert.equal(await page.locator('#game-card [data-choice]').count(),4);
 await page.locator('#game-card [data-choice]').first().click();
 assert((await page.locator('#feedback').textContent()).trim().length>0);
+await page.locator('[data-stage="5"]').click();
+await page.waitForFunction(()=>document.querySelector('.pilot-page-controls')?.hidden===false);
+assert((await page.locator('.pilot-page-controls [data-pilot-page-status]').textContent()).match(/\/ [2-9]/));
+await page.locator('[data-pilot-page-next]').click();
+await page.waitForFunction(()=>document.querySelector('#game-card').scrollTop>0);
+if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-vocabulary-page2.png`});
 await page.setViewportSize({width:390,height:844});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
-assert((await page.locator('.pilot-workspace').boundingBox()).y<(await page.locator('.pilot-programs').boundingBox()).y);
+assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
+assert.equal(await page.locator('.pilot-programs').isVisible(),false);
+await page.locator('.pilot-drawer-shortcut').filter({hasText:'關卡'}).click();
+assert.equal(await page.locator('.pilot-programs').isVisible(),true);
+await page.locator('.pilot-programs .pilot-drawer-close').click();
+await page.locator('.pilot-drawer-shortcut').filter({hasText:'題目'}).click();
+assert.equal(await page.locator('.pilot-dossier').isVisible(),true);
+await page.locator('.pilot-dossier .pilot-drawer-close').click();
 if(process.env.MEMORY_QA_SCREENSHOT_DIR)await page.screenshot({path:`${process.env.MEMORY_QA_SCREENSHOT_DIR}/opinion3-terminal-phone.png`});
 await page.setViewportSize({width:320,height:740});
 assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false);
+assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false);
 for(const width of [768,1024]){
   await page.setViewportSize({width,height:900});
   assert.equal(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth),false,`${width}px tablet overflow`);
+  assert.equal(await page.evaluate(()=>document.scrollingElement.scrollHeight>innerHeight+2),false,`${width}px tablet document scroll`);
 }
 await page.goto(`${base}/essay-memorization.html?essay=opinion%3A4`);
 await page.locator('.play-area').waitFor({state:'visible'});

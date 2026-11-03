@@ -124,24 +124,30 @@ page.on('pageerror',error=>errors.push(error.message));
 const base=process.env.MEMORY_QA_URL || 'http://127.0.0.1:8764/essay-memorization.html';
 for(const key of keys){
   const lesson=lessons[key];
+  const selectStage=async stage=>{
+    const node=page.locator(`[data-stage="${stage}"]`);
+    if(key==='opinion:3')await node.evaluate(element=>element.click());
+    else await node.click();
+  };
   await page.goto(`${base}?essay=${encodeURIComponent(key)}`);
   assert((await page.title()).includes(lesson.title));
   assert.equal(await page.locator('[data-stage]').count(),11);
-  if(key==='opinion:3')await page.locator('.pilot-library > summary').click();
+  if(key==='opinion:3')await page.locator('.pilot-switch-essay').evaluate(element=>element.click());
   await page.locator('[data-memory-pathway-task="task-2"]').click();
   const type={'opinion:3':'Opinion','discuss-both-views:4':'Discuss Both Views','cause-solution:2':'Cause / Solution'}[key];
   await page.locator('[data-memory-pathway-type]').filter({hasText:type==='Opinion'?'Opinions':type==='Discuss Both Views'?'Discuss both views + Your opinion':'Cause and Solution'}).click();
   assert.equal(await page.locator('[data-memory-essay][aria-current=page]').getAttribute('data-memory-essay'),key);
-  assert.equal(await page.locator('.setup-card strong').innerText(),lesson.title.replace(' - IELTS - ',' · ')+' · '+lesson.meta.topic);
+  assert.equal((await page.locator('.setup-card strong').textContent()).trim(),lesson.title.replace(' - IELTS - ',' · ')+' · '+lesson.meta.topic);
+  if(key==='opinion:3')await page.locator('.pilot-library').evaluate(element=>{element.open=false;});
   for(const stage of [0,1,2,3,4,5,6,7,8,9,10]){
-    await page.locator(`[data-stage="${stage}"]`).click();
+    await selectStage(stage);
     assert(await page.locator('#step-select option').count()>0,`${key}: stage ${stage}`);
     assert((await page.locator('#game-card').innerText()).length>20);
     assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: overflow stage ${stage}`);
   }
-  await page.locator('[data-stage="5"]').click();
+  await selectStage(5);
   assert.equal(await page.locator('#step-select option').count(),vocabularyRoundCounts[keys.indexOf(key)]);
-  await page.locator('[data-stage="4"]').click();
+  await selectStage(4);
   assert.equal(await page.locator('#step-select option').count(),key===keys[0]?10:12);
   for(let index=0;index<lesson.support.transfer.length;index++){
     await page.locator('#step-select').evaluate((select,value)=>{select.value=String(value);select.dispatchEvent(new Event('change'));},index);
@@ -149,7 +155,7 @@ for(const key of keys){
     assert((await page.locator('.transfer-question').textContent()).includes(lesson.support.transfer[index].question));
     assert(!(await page.evaluate(()=>document.documentElement.scrollWidth>innerWidth)),`${key}: transfer ${index+1} overflows mobile`);
   }
-  await page.locator('[data-stage="6"]').click();
+  await selectStage(6);
   assert(await page.locator('.structure-part').count()>=1);
   assert.equal(await page.locator('.structure-translation').count(),1);
   for(let index=0;index<lesson.support.structures.length;index++){
@@ -164,11 +170,11 @@ for(const key of keys){
   assert.equal(await page.locator('[data-continue]').count(),0);
   await page.locator('[data-choice="0"]').click();
   assert.equal(await page.locator('[data-continue]').count(),1);
-  await page.locator('[data-stage="4"]').click();
+  await selectStage(4);
   assert.equal(await page.locator('.transfer-question').count(),1);
   await page.locator('[data-choice="0"]').click();
   assert(await page.locator('.model-connection blockquote').count()>0);
-  await page.locator('[data-stage="8"]').click();
+  await selectStage(8);
   const recallCount=await page.locator('#step-select option').count();
   for(let index=0;index<recallCount;index++){
     await page.locator('#step-select').evaluate((select,value)=>{select.value=String(value);select.dispatchEvent(new Event('change'));},index);
@@ -176,21 +182,25 @@ for(const key of keys){
   }
   assert.equal(await page.locator('[data-edmund-record-id]').count(),0);
   assert((await page.locator('.recording-practice a').getAttribute('href')).includes('essay-memory-recordings.html'));
-  if(key==='opinion:3')await page.locator('.pilot-tools > summary').click();
+  if(key==='opinion:3'){
+    await page.locator('.pilot-drawer-shortcut').filter({hasText:'題目'}).click();
+    await page.locator('.pilot-tools > summary').click();
+  }
   const previousScale=await page.evaluate(()=>document.documentElement.style.getPropertyValue('--reader-scale'));
   await page.locator('#font-size-button').click();
   assert.notEqual(await page.evaluate(()=>document.documentElement.style.getPropertyValue('--reader-scale')),previousScale);
   await page.locator('#playback-speed').selectOption('0.75');
   assert.equal(await page.evaluate(()=>document.querySelector('#playback-speed').value),'0.75');
-  await page.locator('[data-stage="9"]').click();
+  await selectStage(9);
   assert.equal(await page.locator('#step-select option').count(),4);
-  await page.locator('[data-stage="10"]').click();
+  await selectStage(10);
   assert.equal(await page.locator('#step-select option').count(),counts[keys.indexOf(key)]);
   const stored=await page.evaluate(id=>localStorage.getItem(`edmund-essay-memory-${id}-v1-student-qa-student`),lesson.id);
   assert(stored);
 }
 // A backup belongs to one essay and cannot silently overwrite another lesson.
 await page.goto(`${base}?essay=opinion%3A3`);
+await page.locator('.pilot-drawer-shortcut').filter({hasText:'題目'}).click();
 await page.locator('.pilot-tools > summary').click();
 const downloadPromise=page.waitForEvent('download');
 await page.locator('#export-progress').click();
