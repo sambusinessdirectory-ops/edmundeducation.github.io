@@ -122,7 +122,7 @@
     const board = art.getBoundingClientRect();
     const box = caption.getBoundingClientRect();
     const portraitHeight = image.getBoundingClientRect().height;
-    image.style.bottom = `${Math.ceil(board.bottom - box.top + 10 - portraitHeight * .31)}px`;
+    image.style.bottom = `${Math.ceil(board.bottom - box.top - 10 - portraitHeight * .31)}px`;
     const placed = image.getBoundingClientRect();
     return { left: placed.left + placed.width * .34, right: placed.right,
       top: placed.top, bottom: placed.top + placed.height * .69 };
