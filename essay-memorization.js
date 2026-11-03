@@ -570,6 +570,51 @@
     }
     document.querySelector('.pilot-note').textContent = `${essayLabel} · 選擇題及重組由系統核對；朗讀錄音只儲存在此瀏覽器的範文背書收藏，口說內容須自行重聽核對。進度自動儲存在本機；可下載備份及載入進度檔。`;
   }
+  function labDisclosure(className, kicker, label){
+    const details=document.createElement('details');details.className=className;
+    const summary=document.createElement('summary');
+    const eyebrow=document.createElement('span');eyebrow.textContent=kicker;
+    const title=document.createElement('strong');title.textContent=label;
+    summary.append(eyebrow,title);details.append(summary);return details;
+  }
+  const labMain=document.querySelector('.shell');
+  const labPlay=document.querySelector('.play-area');
+  const labMission=document.querySelector('.mission');
+  const labSetup=document.querySelector('.setup-card');
+  const labCatalogue=document.querySelector('.memory-catalogue');
+  document.body.classList.add('memory-lab');
+  labMain.classList.add('lab-shell');
+  const systemToggle=document.createElement('button');systemToggle.type='button';systemToggle.className='lab-system-toggle';systemToggle.setAttribute('aria-expanded','false');systemToggle.textContent='系統工具';
+  document.querySelector('.memory-header').append(systemToggle);
+  systemToggle.addEventListener('click',()=>{
+    const open=document.body.classList.toggle('lab-system-open');
+    systemToggle.setAttribute('aria-expanded',String(open));systemToggle.textContent=open?'收起工具':'系統工具';
+  });
+  document.querySelector('.hero').hidden=true;
+  labMain.prepend(labPlay);
+  const labBar=document.createElement('div');labBar.className='lab-session-bar';
+  const labIdentity=document.createElement('div');labIdentity.className='lab-session-identity';
+  const labKicker=document.createElement('span');labKicker.className='lab-session-kicker';labKicker.textContent='COGNITIVE LAB · ACTIVE RECALL';
+  const labName=document.createElement('strong');labName.textContent=essayLabel;
+  labIdentity.append(labKicker,labName);
+  const labLibraryButton=document.createElement('button');labLibraryButton.type='button';labLibraryButton.className='lab-library-trigger';labLibraryButton.textContent='更換範文 ↗';
+  labBar.append(labIdentity,labLibraryButton);labPlay.prepend(labBar);
+  const labSource=labDisclosure('lab-disclosure lab-source','SOURCE DOSSIER',isTask1?'原題圖表 · 先看原圖':'查看題目與原範文');
+  labSource.open=isTask1;
+  labBar.after(labSource);labSource.append(labSetup);
+  const taskGraphic=document.querySelector('.memory-task1-visual');if(taskGraphic)labSource.append(taskGraphic);
+  const readingControls=labPlay.querySelector('.reading-controls');
+  const labAudio=document.createElement('div');labAudio.className='lab-audio-strip';
+  labAudio.append(readingControls.querySelector('label[for="playback-speed"]'),readingControls.querySelector('#playback-speed'));
+  labPlay.querySelector('.round-meta').after(labAudio);
+  const labTools=labDisclosure('lab-disclosure lab-tools','SESSION TOOLS','字體、錄音與進度備份');
+  labPlay.querySelector('#feedback').after(labMission);
+  labMission.after(labPlay.querySelector('.step-picker'));
+  labPlay.querySelector('.step-picker').after(labTools);
+  labTools.append(readingControls,labPlay.querySelector('.progress-actions'),labPlay.querySelector('.score-explanation'),labPlay.querySelector('.utility-row'),document.querySelector('.pilot-note'));
+  const labLibrary=labDisclosure('lab-disclosure lab-library','ESSAY LIBRARY','選擇另一篇範文');
+  labPlay.after(labLibrary);labLibrary.append(labCatalogue);
+  labLibraryButton.addEventListener('click',()=>{labLibrary.open=true;labLibrary.scrollIntoView({behavior:'smooth',block:'start'});});
   document.querySelectorAll('[data-memory-essay]').forEach(link => { if (link.dataset.memoryEssay === (isPilot ? 'opinion:80' : requestedKey)) link.setAttribute('aria-current', 'page'); });
   const audio = new Audio(essay.audio);
   audio.preload = 'metadata';
@@ -656,19 +701,24 @@
     $('#stage-rail').innerHTML = stageDefinitions.map((stage, index) => {
       const done = stage.rounds.every((_, roundIndex) => state.solved[`${index}:${roundIndex}`]);
       const locked = false; // Let learners revisit any skill without replaying every earlier round.
-      return `<button class="stage-node ${index === state.stage ? 'active' : ''} ${done ? 'done' : ''}" type="button" data-stage="${index}" ${locked ? 'disabled' : ''} aria-label="${escapeHtml(stage.title)}${locked ? '，尚未解鎖' : ''}" ${index === state.stage ? 'aria-current="step"' : ''}><span class="node-icon" aria-hidden="true">${done ? '✓' : stage.icon}</span><span class="node-copy"><small>${String(index + 1).padStart(2, '0')} · ${stage.en}</small><strong>${stage.title}</strong></span></button>`;
+      return `<button class="stage-node ${index === state.stage ? 'active' : ''} ${done ? 'done' : ''}" type="button" data-stage="${index}" ${locked ? 'disabled' : ''} title="${escapeHtml(stage.title)}" aria-label="第 ${index+1} 關：${escapeHtml(stage.title)}${locked ? '，尚未解鎖' : ''}" ${index === state.stage ? 'aria-current="step"' : ''}><span class="node-icon" aria-hidden="true">${done ? '✓' : String(index+1).padStart(2,'0')}</span><span class="node-copy"><small>${stage.en}</small><strong>${stage.title}</strong></span></button>`;
     }).join('');
+    const rail=$('#stage-rail'),active=rail.querySelector('.active');
+    if(active){const railRect=rail.getBoundingClientRect(),nodeRect=active.getBoundingClientRect();rail.scrollLeft+=nodeRect.left-railRect.left-(railRect.width-nodeRect.width)/2;}
     $('#journey-count').textContent = `${stageDefinitions.filter((stage, index) => stage.rounds.every((_, roundIndex) => state.solved[`${index}:${roundIndex}`])).length} / ${stageDefinitions.length} 完成`;
   }
   function renderHeader() {
     const stage = stageDefinitions[state.stage];
-    $('#play-title').closest('.play-area').dataset.palette = state.stage % 5;
+    document.body.dataset.labStage=String(state.stage);
+    const phase=state.stage<5?['1','理解內容']:state.stage<7?['2','拆解語言']:['3','召回原文'];
+    labKicker.textContent=`COGNITIVE LAB · PHASE ${phase[0]}/3 · ${phase[1]}`;
     const solvedCount = Object.keys(state.solved).filter(key => state.solved[key]).length;
     const stars = Object.values(state.solved).reduce((sum, value) => sum + (Number(value) || 0), 0);
     $('#stage-kicker').textContent = `MISSION ${String(state.stage + 1).padStart(2, '0')} / ${stage.en}`;
     $('#play-title').textContent = stage.title;
     $('#stage-description').textContent = stage.description;
     $('#star-count').textContent = stars;
+    document.querySelector('.score-pill').hidden=stars===0;
     $('#round-number').textContent = `本關 ${state.round + 1} / ${stage.rounds.length}`;
     $('#overall-number').textContent = `全程 ${solvedCount} / ${totalRounds} 步`;
     const percent = Math.round(solvedCount / totalRounds * 100);
@@ -679,7 +729,7 @@
   }
   function renderQuiz(item) {
     const indices = orderedSeed(item.options.length, state.stage * 43 + state.round * 17);
-    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context && item.question?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span class="choice-text">${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div>`;
+    return `<div class="question-intro"><span class="question-mark">?</span><div><p class="question-label">SELECT THE BEST ANSWER</p><h3>${item.context && item.question?`<span class="transfer-context">${escapeHtml(item.context)}</span><span class="transfer-question">${escapeHtml(item.question)}</span>`:escapeHtml(item.prompt)}</h3>${item.detail ? `<p>${escapeHtml(item.detail)}</p>` : ''}</div></div><div class="choice-grid">${indices.map(index => `<button class="choice-card" type="button" data-choice="${index}"><span class="choice-symbol" aria-hidden="true">${String.fromCharCode(65 + indices.indexOf(index))}</span><span class="choice-text">${escapeHtml(item.options[index])}</span><span class="choice-arrow" aria-hidden="true">↗</span></button>`).join('')}</div><p class="lab-key-hint">鍵盤：A–D 或 1–4 選答案</p>`;
   }
   function shortChineseTail(element) {
     const lines = new Map();
@@ -990,9 +1040,21 @@
     if (!button || button.disabled) return;
     state.transitioning=false;state.checks=[];
     state.stage = Number(button.dataset.stage); state.round = 0; state.selection = []; state.hadMistake = false; state.revealTranslation = false;
-    audio.pause(); render();
+    audio.pause(); render(); focusLabGame();
   });
-  $('#step-select').addEventListener('change', event => { audio.pause();state.round=Number(event.target.value);state.selection=[];state.checks=[];state.transitioning=false;state.hadMistake=false;state.revealTranslation=false;render(); });
+  function focusLabGame(){ $('#game-card').scrollIntoView({behavior:matchMedia('(prefers-reduced-motion: reduce)').matches?'auto':'smooth',block:'start'}); }
+  $('#step-select').addEventListener('change', event => { audio.pause();state.round=Number(event.target.value);state.selection=[];state.checks=[];state.transitioning=false;state.hadMistake=false;state.revealTranslation=false;render();focusLabGame(); });
+  document.addEventListener('keydown',event=>{
+    if(event.altKey||event.ctrlKey||event.metaKey||$('#step-dialog').open)return;
+    if(event.target instanceof Element && event.target.closest('input,textarea,select,button,a,summary,[contenteditable]'))return;
+    const choices=[...$('#game-card').querySelectorAll('button[data-choice]:not(:disabled),button[data-multi]:not(:disabled)')];
+    const index=/^[1-4]$/.test(event.key)?Number(event.key)-1:/^[a-d]$/i.test(event.key)?event.key.toLowerCase().charCodeAt(0)-97:-1;
+    if(index>=0&&choices[index]){event.preventDefault();choices[index].click();return;}
+    if(event.key==='Enter'){
+      const next=$('#game-card').querySelector('[data-continue]:not(:disabled),[data-confirm]:not(:disabled),[data-speaking-done]:not(:disabled)');
+      if(next){event.preventDefault();next.click();}
+    }
+  });
   $('#game-card').addEventListener('click',save);
   function stepTitle(item) { return item.type==='structure' ? item.frame : item.prompt; }
   function renderStepOptions() {
