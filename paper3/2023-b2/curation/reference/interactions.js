@@ -17,18 +17,17 @@
   const isDataKey = key => key !== storageKey && !key.startsWith('cur23-slot') && (key.startsWith('cur23-') || key.startsWith('class23-') || key.startsWith('2023-draft-'));
   const capture = () => {
     const state = {};
-    for (let n = 0; n < localStorage.length; n++) {
-      const key = localStorage.key(n);
-      if (isDataKey(key)) state[key] = localStorage.getItem(key);
+    for (const key of readerStore23.keys()) {
+      if (isDataKey(key)) state[key] = readerStore23.getItem(key);
     }
     return state;
   };
   const apply = state => {
-    for (const key of Object.keys(localStorage)) if (isDataKey(key)) localStorage.removeItem(key);
-    for (const [key, value] of Object.entries(state)) if (isDataKey(key) && typeof value === 'string') localStorage.setItem(key, value);
+    for (const key of readerStore23.keys()) if (isDataKey(key)) readerStore23.removeItem(key);
+    for (const [key, value] of Object.entries(state)) if (isDataKey(key) && typeof value === 'string') readerStore23.setItem(key, value);
   };
   let bundle;
-  try { bundle = JSON.parse(localStorage.getItem(storageKey) || 'null'); } catch {}
+  try { bundle = JSON.parse(readerStore23.getItem(storageKey) || 'null'); } catch {}
   if (!bundle || bundle.format !== 'edmund-paper3-2023-b2-v11' || !bundle.slots || typeof bundle.slots !== 'object') {
     bundle = {format:'edmund-paper3-2023-b2-v11', version:1, active:'1', slots:{'1':capture()}};
   }
@@ -42,7 +41,11 @@
     clearTimeout(saveTimer);
     try {
       bundle.slots[bundle.active] = capture();
-      localStorage.setItem(storageKey, JSON.stringify(bundle));
+      readerStore23.setItem(storageKey, JSON.stringify(bundle));
+      if (!readerStore23.persistent) {
+        status.textContent='瀏覽器無法儲存。進度只保留於本頁，關閉前可匯出存檔。';
+        return false;
+      }
       if (message) {status.textContent = message;status.dataset.noticeUntil=String(Date.now()+4000);}
       else if (Date.now() > Number(status.dataset.noticeUntil || 0)) status.textContent = `位置 ${bundle.active} · 已自動儲存在這部裝置`;
       return true;
@@ -58,11 +61,11 @@
     if (!saveNow()) { slotSelect.value = bundle.active; return; }
     bundle.active = next;
     bundle.slots[next] ||= {};
-    localStorage.setItem(storageKey, JSON.stringify(bundle));
+    readerStore23.setItem(storageKey, JSON.stringify(bundle));
     window.removeEventListener('pagehide',remember23);
     audio.removeEventListener('pause',remember23);
     apply(bundle.slots[next]);
-    sessionStorage.setItem('cur23-v11-message', `已載入位置 ${next}`);
+    readerSession23.setItem('cur23-v11-message', `已載入位置 ${next}`);
     location.reload();
   };
   $('#curation-save-now').onclick = () => saveNow(`位置 ${bundle.active} · 已儲存`);
@@ -78,6 +81,7 @@
     const file = input.files?.[0];
     if (!file) return;
     try {
+      if (!readerStore23.persistent) throw Error("瀏覽器暫時無法儲存匯入的進度");
       if (file.size > 1024 * 1024) throw Error('存檔超過 1 MB');
       const value = JSON.parse(await file.text());
       if (value.format !== bundle.format || value.version !== 1 || value.paper !== '2023-b2' || !value.state || typeof value.state !== 'object' || Array.isArray(value.state)) throw Error('這不是有效的 2023 B2 存檔');
@@ -102,19 +106,19 @@
       if (cleaned['cur23-stable'] && !rowIds.has(cleaned['cur23-stable'])) delete cleaned['cur23-stable'];
       for (const key of ['cur23-position','cur23-cue','cur23-v11-review']) if (key in cleaned && !Number.isInteger(Number(cleaned[key]))) delete cleaned[key];
       bundle.slots[bundle.active] = cleaned;
-      localStorage.setItem(storageKey, JSON.stringify(bundle));
+      readerStore23.setItem(storageKey, JSON.stringify(bundle));
       window.removeEventListener('pagehide',remember23);
       audio.removeEventListener('pause',remember23);
       apply(cleaned);
-      sessionStorage.setItem('cur23-v11-message', `已匯入至位置 ${bundle.active}`);
+      readerSession23.setItem('cur23-v11-message', `已匯入至位置 ${bundle.active}`);
       location.reload();
     } catch (error) { status.textContent = `匯入失敗：${error.message}`;status.dataset.noticeUntil=String(Date.now()+4000); }
     input.value = '';
   };
-  const restoredMessage = sessionStorage.getItem('cur23-v11-message');
+  const restoredMessage = readerSession23.getItem('cur23-v11-message');
   status.textContent = restoredMessage || `位置 ${bundle.active} · 自動儲存已啟用`;
   if (restoredMessage) status.dataset.noticeUntil=String(Date.now()+4000);
-  sessionStorage.removeItem('cur23-v11-message');
+  readerSession23.removeItem('cur23-v11-message');
   document.addEventListener('input', queueSave, true);
   document.addEventListener('change', queueSave, true);
   audio.addEventListener('timeupdate', () => { if (Math.floor(audio.currentTime) % 5 === 0) queueSave(); });
@@ -179,15 +183,15 @@
   };
   // A stage button resumes the last stable step in that chapter.
   let stagePositions;
-  try { stagePositions = JSON.parse(localStorage.getItem(stageKey) || '{}'); } catch { stagePositions = {}; }
+  try { stagePositions = JSON.parse(readerStore23.getItem(stageKey) || '{}'); } catch { stagePositions = {}; }
   if (!stagePositions || typeof stagePositions !== 'object') stagePositions = {};
   const first = stage => rows.findIndex(row => row.stage === stage);
   function recordPosition() {
     const row = rows[i];
     stagePositions[row.stage] = {key:key23(row),cue:row.stage === 2 ? cueIndex : undefined,review:row.stage === 2 ? (reviewIndex >= 0 ? reviewIndex : stagePositions[2]?.review ?? -1) : undefined};
-    localStorage.setItem(stageKey, JSON.stringify(stagePositions));
+    readerStore23.setItem(stageKey, JSON.stringify(stagePositions));
   }
-  let reviewIndex = Number(localStorage.getItem(reviewKey) || -1);
+  let reviewIndex = Number(readerStore23.getItem(reviewKey) || -1);
   if (!Number.isInteger(reviewIndex)) reviewIndex = -1;
   const reviewUnits = transcript.slice(6,82).flatMap((turn, offset) => {
     const segments = typeof Intl.Segmenter === 'function'
@@ -273,7 +277,7 @@
     $('#curation-bookmark').setAttribute('aria-pressed', String(books.includes(reviewId(unit))));
     $('#curation-bookmark-jump').textContent = books.length ? `${books.length} 個書籤　⌄` : '選擇書籤　⌄';
     if (lastReview !== reviewIndex || lastReviewLanguage !== String(language.getAttribute('aria-pressed') === 'true')) paintReviewSentences();
-    localStorage.setItem(reviewKey, String(reviewIndex));
+    readerStore23.setItem(reviewKey, String(reviewIndex));
   }
   function enterReview(index=0) {
     const needsStage = rows[i].stage !== 2 || !E('notes23');
@@ -285,11 +289,11 @@
     E('transcript-toggle').setAttribute('aria-expanded','true');
     E('transcript-toggle').textContent='收起逐字稿';
     stagePositions[2] = {key:key23(rows[i]),cue:cueIndex,review:reviewIndex};
-    localStorage.setItem(stageKey,JSON.stringify(stagePositions));
+    readerStore23.setItem(stageKey,JSON.stringify(stagePositions));
     renderReview(); queueSave();
   }
   function leaveReview(targetStage=3) {
-    reviewIndex = -1; lastReview = -1; localStorage.setItem(reviewKey,'-1');
+    reviewIndex = -1; lastReview = -1; readerStore23.setItem(reviewKey,'-1');
     if (stagePositions[2]) stagePositions[2].review = -1;
     clearReviewFocus();
     scriptWindow.classList.remove('mobile-visible');
@@ -306,7 +310,7 @@
   }
   function reviewBack() {
     if (reviewIndex > 0) {reviewIndex--; renderReview(); update23(true); return;}
-    reviewIndex = -1; lastReview = -1; localStorage.setItem(reviewKey,'-1');
+    reviewIndex = -1; lastReview = -1; readerStore23.setItem(reviewKey,'-1');
     if (stagePositions[2]) stagePositions[2].review = -1;
     clearReviewFocus();
     listen(cues.length-1,false); audio.currentTime = transcript[cues.at(-1)[0]].end; done = true;
@@ -426,7 +430,7 @@
         const activate=offset=>{
           if(rows[i].stage===2&&reviewIndex>=0)stagePositions[2]={key:key23(rows[i]),cue:cueIndex,review:reviewIndex};
           reviewIndex=-1;jump23(index);
-          if(offset>0){visitIndex=Math.ceil(offset/2);shownByTask[row.t]={i,n:visitIndex};localStorage.setItem('cur23-shown',JSON.stringify(shownByTask));
+          if(offset>0){visitIndex=Math.ceil(offset/2);shownByTask[row.t]={i,n:visitIndex};readerStore23.setItem('cur23-shown',JSON.stringify(shownByTask));
             if(offset%2)sourceVisit(row.used[visitIndex-1]);else update23(true);
           }
         };
@@ -447,7 +451,7 @@
       if(bookmarksOnly&&!books.includes(key23(row)))return;
       entries.push({label:`${row.q||row.a}`,detail:`${names23[row.stage]} · ${row.p||''}`,activate:()=>{if(rows[i].stage===2&&reviewIndex>=0)stagePositions[2]={key:key23(rows[i]),cue:cueIndex,review:reviewIndex};reviewIndex=-1;jump23(index);}});
     });
-    if (bookmarksOnly || rows[i].stage === 2) cues.forEach((cue,index) => (!bookmarksOnly || books.includes(cueId(cue)) || index===0 && books.includes(key23(rows[first(2)]))) && entries.push({label:`${index+1}. ${cue[2] || '會議結束'}`,detail:'聆聽關鍵點',activate:() => {reviewIndex=-1;localStorage.setItem(reviewKey,'-1');i=first(2);render();listen(index,false);update23(true);}}));
+    if (bookmarksOnly || rows[i].stage === 2) cues.forEach((cue,index) => (!bookmarksOnly || books.includes(cueId(cue)) || index===0 && books.includes(key23(rows[first(2)]))) && entries.push({label:`${index+1}. ${cue[2] || '會議結束'}`,detail:'聆聽關鍵點',activate:() => {reviewIndex=-1;readerStore23.setItem(reviewKey,'-1');i=first(2);render();listen(index,false);update23(true);}}));
     if (!bookmarksOnly && rows[i].stage === 2 || bookmarksOnly) reviewUnits.forEach((unit,index) => {
       if (bookmarksOnly && !books.includes(reviewId(unit))) return;
       entries.push({label:`${index+1}. ${unit.sentence}`,detail:`會議逐字稿 · ${unit.speaker}`,activate:() => {enterReview(index);update23(true);}});
@@ -471,25 +475,25 @@
     const id = reviewIndex < 0 ? cueId(cues[cueIndex]) : reviewId(reviewUnits[reviewIndex]);
     if(reviewIndex<0 && cueIndex===0 && books.includes(key23(rows[first(2)]))) books=books.map(key=>key===key23(rows[first(2)])?id:key);
     books = books.includes(id) ? books.filter(item => item !== id) : [...books,id];
-    localStorage.setItem('cur23-stars',JSON.stringify(books));update23(true);queueSave();
+    readerStore23.setItem('cur23-stars',JSON.stringify(books));update23(true);queueSave();
   };
   // Preserve the real question form installed by reference/question.js.
   $('#curation-help').onclick = () => document.querySelector('.learning-question-launcher')?.click();
   $('#curation-dialogue').onchange = event => {
     $('.curation-dock').classList.toggle('dialogue',event.target.checked);
     $('.curation-character').hidden = !event.target.checked;
-    localStorage.setItem('cur23-dialogue',event.target.checked?'1':'0');queueSave();
+    readerStore23.setItem('cur23-dialogue',event.target.checked?'1':'0');queueSave();
   };
-  $('#curation-dialogue').checked = localStorage.getItem('cur23-dialogue') === '1';
+  $('#curation-dialogue').checked = readerStore23.getItem('cur23-dialogue') === '1';
   $('.curation-dock').classList.toggle('dialogue',$('#curation-dialogue').checked);
   $('.curation-character').hidden = !$('#curation-dialogue').checked;
-  $('#curation-spotlight').checked = localStorage.getItem('cur23-spotlight') === '1';
+  $('#curation-spotlight').checked = readerStore23.getItem('cur23-spotlight') === '1';
   E('spot23').checked = $('#curation-spotlight').checked;
 
   $('#curation-spotlight').onchange = event => {
     E('spot23').checked = event.target.checked;
 
-    localStorage.setItem('cur23-spotlight',event.target.checked?'1':'0');queueSave();
+    readerStore23.setItem('cur23-spotlight',event.target.checked?'1':'0');queueSave();
   };
 
   // Annotate the reconstructed source, preserving its original text and page order.
@@ -521,7 +525,7 @@
       if (r.stage !== 1 || r.leaf !== page || (rows[i].stage === 1 && index > i) || rows[i].stage < 1) return;
       const discovered=discoveredStamps.get(r.q);
       if(discovered)tasks.add(discovered);
-      for (const task of 'ABC') {const choice=localStorage.getItem('class23-'+index+task);if(choice==='1')tasks.add(task);else if(choice==='0')tasks.delete(task);}
+      for (const task of 'ABC') {const choice=readerStore23.getItem('class23-'+index+task);if(choice==='1')tasks.add(task);else if(choice==='0')tasks.delete(task);}
     });
     const sourceLimit = rows[i].stage > 3 ? rows.length-1 : rows[i].stage === 3 ? i : -1;
     rows.slice(0,sourceLimit+1).filter(r => r.stage === 3 && r.p === page && r.t >= 1 && r.t <= 3 && r.state !== 'REJECT').forEach(r => tasks.add('ABC'[r.t-1]));
@@ -621,7 +625,7 @@
     for(let task=1;task<=3;task++){
       const button=document.createElement('button');button.type='button';button.textContent=`Task ${'ABC'[task-1]}`;
       button.setAttribute('aria-current',String(task===rows[i].t));
-      button.onclick=()=>{const saved=shownByTask[task],target=rows[saved?.i]?.stage===4&&rows[saved.i]?.t===task?saved.i:rows.findIndex(item=>item.stage===4&&item.t===task);jump23(target);if(saved?.i===target&&rows[target]?.pattern){visitIndex=Math.max(0,Math.min(rows[target].used.length,Number(saved.n)||0));shownByTask[task]={i:target,n:visitIndex};localStorage.setItem('cur23-shown',JSON.stringify(shownByTask));update23(true);}};
+      button.onclick=()=>{const saved=shownByTask[task],target=rows[saved?.i]?.stage===4&&rows[saved.i]?.t===task?saved.i:rows.findIndex(item=>item.stage===4&&item.t===task);jump23(target);if(saved?.i===target&&rows[target]?.pattern){visitIndex=Math.max(0,Math.min(rows[target].used.length,Number(saved.n)||0));shownByTask[task]={i:target,n:visitIndex};readerStore23.setItem('cur23-shown',JSON.stringify(shownByTask));update23(true);}};
       nav.append(button);
     }
     return nav;
@@ -647,8 +651,8 @@
       const grid=document.createElement('div');grid.className='cur23-writing-skeleton';
       skeletons[row.t-1].forEach((label,index)=>{
         const field=document.createElement('label'),title=document.createElement('strong'),area=document.createElement('textarea');
-        const key=`cur23-plan-${row.t}-${index}`;title.textContent=label;area.rows=2;area.value=localStorage.getItem(key)||'';
-        area.setAttribute('aria-label',label);area.oninput=()=>localStorage.setItem(key,area.value);
+        const key=`cur23-plan-${row.t}-${index}`;title.textContent=label;area.rows=2;area.value=readerStore23.getItem(key)||'';
+        area.setAttribute('aria-label',label);area.oninput=()=>readerStore23.setItem(key,area.value);
         field.append(title,area);grid.append(field);
       });surface.append(grid);
     }else if(step===2){
@@ -657,7 +661,7 @@
       const list=document.createElement('div');list.className='cur23-writing-checks';
       checks[row.t-1].forEach((label,index)=>{
         const item=document.createElement('label'),box=document.createElement('input'),key=`cur23-check-${row.t}-${index}`;
-        box.type='checkbox';box.checked=localStorage.getItem(key)==='1';box.onchange=()=>localStorage.setItem(key,box.checked?'1':'0');
+        box.type='checkbox';box.checked=readerStore23.getItem(key)==='1';box.onchange=()=>readerStore23.setItem(key,box.checked?'1':'0');
         item.append(box,document.createTextNode(label));list.append(item);
       });surface.append(list);
       const open=document.createElement('button');open.type='button';open.className='cur23-open-model';open.textContent=`開啟 Task ${'ABC'[row.t-1]} 參考範文 →`;
@@ -762,12 +766,12 @@
     shell.querySelector('#curation-bookmark').setAttribute('aria-pressed',String(books.includes(bookmarkId)));
     shell.querySelector('#curation-bookmark-jump').textContent=books.length?`${books.length} 個書籤　⌄`:'選擇書籤　⌄';
     const state=JSON.stringify({key:key23(row),offset});
-    if(state!==lastVirtualState){localStorage.setItem(writingStepKey,state);lastVirtualState=state;}
+    if(state!==lastVirtualState){readerStore23.setItem(writingStepKey,state);lastVirtualState=state;}
   };
   const previousWritingBookmark=shell.querySelector('#curation-bookmark').onclick;
   shell.querySelector('#curation-bookmark').onclick=()=>{const row=rows[i],offset=row.stage===4?writingOffset(row):0;if(offset===0){previousWritingBookmark();return;}
     const id=`${key23(row)}|writing:${offset}`;books=books.includes(id)?books.filter(item=>item!==id):[...books,id];
-    localStorage.setItem('cur23-stars',JSON.stringify(books));update23(true);
+    readerStore23.setItem('cur23-stars',JSON.stringify(books));update23(true);
   };
   const previousWritingBack=shell.querySelector('#curation-prev').onclick;
   shell.querySelector('#curation-prev').onclick=()=>{
@@ -777,11 +781,11 @@
     const earlier=rows[i];
     if(atSentence&&earlier!==row&&earlier.stage===4&&earlier.pattern&&earlier.used.length){
       visitIndex=earlier.used.length;shownByTask[earlier.t]={i,n:visitIndex};
-      localStorage.setItem('cur23-shown',JSON.stringify(shownByTask));update23(true);
+      readerStore23.setItem('cur23-shown',JSON.stringify(shownByTask));update23(true);
     }
   };
   let savedWriting;
-  try{savedWriting=JSON.parse(localStorage.getItem(writingStepKey)||'null')}catch{}
+  try{savedWriting=JSON.parse(readerStore23.getItem(writingStepKey)||'null')}catch{}
   if(savedWriting&&rows[i].stage===4&&savedWriting.key===key23(rows[i])){
     const row=rows[i],offset=Number(savedWriting.offset);
     if(Number.isInteger(offset)&&offset>=0&&offset<=2*(row.used?.length||0)){

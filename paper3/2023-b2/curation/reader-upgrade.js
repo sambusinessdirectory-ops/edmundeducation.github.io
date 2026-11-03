@@ -30,8 +30,8 @@
     button.querySelector('span').textContent=label;
     pageNav.append(button);
   });
-  function safeRead(key){try{return localStorage.getItem(key)}catch{return null}}
-  function safeWrite(key,value){try{localStorage.setItem(key,value)}catch{}}
+  function safeRead(key){try{return readerStore23.getItem(key)}catch{return null}}
+  function safeWrite(key,value){try{readerStore23.setItem(key,value)}catch{}}
   function updateCounts(root){
     for(const area of root.querySelectorAll('textarea[data-count-id]')){
       const target=root.querySelector('[data-count-for="'+area.dataset.countId+'"]');
