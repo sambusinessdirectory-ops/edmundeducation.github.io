@@ -2237,7 +2237,9 @@
 [data-week-marker-status]{display:block;font-size:10px;color:#5d624c;line-height:1.4}
 #week-chart-grid button[data-assigned=true] b{padding-right:28px}
 .week-assigned-sticker{pointer-events:none;position:absolute;right:1px;top:-3px;width:33px;height:33px;transform:rotate(-6deg);background:url("homework-eddy/assigned-week.webp") center/contain no-repeat}
-.week-assigned-sticker::after{content:"";position:absolute;inset:-3px -6px -2px -5px;background:url("homework-eddy/pencil-loop.webp") center/100% 100% no-repeat;transform:rotate(-10deg)}
+.week-pencil-ring{position:absolute;inset:-3px -4px;width:calc(100% + 8px);height:calc(100% + 6px);overflow:visible;pointer-events:none}
+.week-pencil-ring>path{fill:none;stroke:#d03e43;stroke-width:2.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1;stroke-dashoffset:0}
+
 #week-chart-grid button:nth-child(3n) .week-assigned-sticker{transform:rotate(7deg)}
 </style>
   <link rel="stylesheet" href="shared-system-nav.css?v=20261022-character-coins1">
@@ -2962,7 +2964,7 @@
   <script defer src="eddy-schedule-incomplete-dialogue.js?v=20261101-three-day"></script>
   <script defer src="eddy-schedule-self-rating-dialogue.js?v=20261101-motivation1"></script>
   <script defer src="eddy-schedule-return-dialogue.js?v=20261026-1"></script>
-  <script type="module" src="schedule-system.js?v=20261103-assigned-week"></script>
+  <script type="module" src="schedule-system.js?v=20261103-week-ring"></script>
   <script src="student-activity-log.js?v=20260910-1"></script>
   <script defer src="schedule-toolbar.js?v=20261028-1"></script>
 <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
