@@ -69,6 +69,11 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("/course-materials/error-identifier/", step)
         self.assertIn("/supabase/migrations/20260827103531_eddie_farm_points.sql", step)
 
+    def test_practical_writing_scope_alone_checks_out_public_art_and_provenance(self):
+        step = BUILDERS[0].split("*'[practical-writing-release]'*)", 1)[1].split(";;", 1)[0]
+        self.assertIn("/dse-practical-writing-art/", step)
+        self.assertIn("/assets/dse-practical-writing/", step)
+
     def test_full_validation_keeps_complete_checkout(self):
         standard = BUILDERS[0]
         marker = "- name: Checkout complete repository"

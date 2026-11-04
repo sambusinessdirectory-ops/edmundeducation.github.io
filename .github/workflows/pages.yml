@@ -214,7 +214,7 @@ jobs:
 
           case "${RELEASE_TAGS}" in
             *'[practical-writing-release]'*)
-              echo '/assets/dse-practical-writing/' >> .git/info/sparse-checkout
+              printf '%s\n' '/dse-practical-writing-art/' '/assets/dse-practical-writing/' >> .git/info/sparse-checkout
               ;;
           esac
           case "${RELEASE_TAGS}" in
