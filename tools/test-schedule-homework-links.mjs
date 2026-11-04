@@ -11,6 +11,7 @@ import { modules as polysemyModules } from "../polysemy-lab/catalogue.mjs";
 import { HOMEWORK_RESOURCE_CATALOG } from "../homework-resource-catalog.mjs";
 import {
   HOMEWORK_ENTRY_TAGS,
+  HOMEWORK_RESOURCE_TYPES,
   MAX_HOMEWORK_RESOURCES,
   SCHEDULE_MESSAGE_MAX_LENGTH,
   acceptHomeworkAutocomplete,
@@ -70,6 +71,7 @@ assert.equal((byType.proverb || []).length, 12, "all Proverb lessons should be i
 assert.equal((byType["phrasal-verb"] || []).length, 329, "all Phrasal Verb lessons should be indexed");
 assert.equal((byType["writing-submission"] || []).length, 5144, "every Writing Practice exercise should have a Writing Submission assignment link");
 assert.equal((byType["reading-comprehension"] || []).length, 437, "all published Reading Comprehension exercises should be indexed once");
+assert.equal((byType["dse-reading-comprehension"] || []).length, 45, "all DSE Reading sections from 2012 through 2026 should be indexed once");
 assert.equal((byType["reading-analysis"] || []).length, 453, "all unique available IELTS Reading analyses should be indexed once");
 assert.equal((byType["model-essay-download"] || []).length, 14, "all DSE Writing Part A model-answer downloads should be indexed");
 assert.equal((byType["download-material"] || []).length, 939, "every item in the DSE/IELTS download portal should be indexed");
@@ -891,6 +893,10 @@ assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-analysi
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "Passage 1 Practice 1 Palladio").items[0]?.id, "reading-comprehension:p1-001");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "Passage 2 Practice 102 eco logical").items[0]?.id, "reading-comprehension:p2-102");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "Passage 3 Practice 172 handshake").items[0]?.id, "reading-comprehension:p3-172");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension").total, 482, "the general Reading Comprehension picker should combine all IELTS and DSE exercises");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "DSE 2025 Part A").items[0]?.id, "dse-reading-comprehension:dse-2025-a", "the general Reading Comprehension picker should find DSE papers");
+assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "dse-reading-comprehension", "DSE 2025 Part A").items[0]?.id, "dse-reading-comprehension:dse-2025-a", "the dedicated DSE picker should remain available");
+assert.equal(HOMEWORK_RESOURCE_TYPES.find((definition) => definition.type === "reading-comprehension")?.pickerTitle, "選擇 DSE / IELTS Reading 閱讀理解練習");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "common-expression", "See you around").items[0]?.id, "common-expression:speaking:common-expression-01");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "listening", "20 Part 4").items[0]?.id, "listening:ielts-listening-practice-20-part-4");
 assert.equal(
@@ -1053,9 +1059,9 @@ assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
 assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261104-memory-essay-homework1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-memory-essay-homework1/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-reading-comprehension2/, "Homework link helper cache key is stale");
 assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261104-memory-essay-homework1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261104-memory-essay-homework1/, "Schedule application cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261104-reading-comprehension2/, "Schedule application cache key is stale");
 assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261104-memory-essay-homework1/, "Homework Hot Keys application cache key is stale");
 assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261104-memory-essay-homework1/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
