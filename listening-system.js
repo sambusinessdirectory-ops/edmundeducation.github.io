@@ -3,7 +3,8 @@ import { render2016DigitalPaper } from './dse-listening-2016-paper-layout.mjs?v=
 import { createHorseyTrophies } from './horsey-trophies.mjs?v=20260915-phoebe2';
 import { createListeningTrophyProgress } from './listening-trophy-progress.mjs?v=20260915-companions1';
 import { mountFloatingWindow } from './floating-window.mjs?v=20260911';
-import { mountListeningTypes } from './listening-question-types.mjs?v=20260911';
+import { mountListeningTypes } from './listening-question-types.mjs?v=20261104-dse1';
+import { mountDseListeningTypes } from './dse-listening-question-types.mjs?v=20261104-dse1';
 import { createListeningStudy } from './listening-study.js?v=20260904-guide1';
 import { safeBookmarkHref } from './listening-study-core.mjs?v=20260904-guide1';
 import { createDseStudy, getDseGuide, hasDseGuide, loadDseGuide, dseGuideFailed, dseAnswerReplayStart } from './dse-listening-study.mjs?v=20260917-dse-all-years1';
@@ -61,6 +62,7 @@ const state = {
   dseSort: restorePreference("edmund-listening-dse-sort", "desc") === "asc" ? "asc" : "desc",
   dseYear: 0,
   dseTask: 1,
+  dseFocusQuestion: 0,
   dseLayout: "digital",
   dse2016Page: 3,
   dseZoom: 1,
@@ -348,16 +350,18 @@ function routeParams() {
   const part = Number(params.get("part"));
   const year = Number(params.get("year"));
   const task = Number(params.get("task"));
+  const question = Number(params.get("question"));
   return {
     section,
     practice: registeredPractices.has(practice) ? practice : 0,
     part: Number.isInteger(part) && part >= 1 && part <= 4 ? part : 0,
     year: Number.isInteger(year) && year >= 2012 && year <= 2026 ? year : 0,
-    task: Number.isInteger(task) && task >= 1 && task <= 4 ? task : 0
+    task: Number.isInteger(task) && task >= 1 && task <= 4 ? task : 0,
+    question: Number.isInteger(question) && question >= 1 && question <= 80 ? question : 0
   };
 }
 
-function updateRoute(section = "", practice = 0, part = 0, year = 0, task = 0) {
+function updateRoute(section = "", practice = 0, part = 0, year = 0, task = 0, question = 0) {
   const url = new URL(location.href);
   url.search = "";
   if (section) url.searchParams.set("section", section);
@@ -365,6 +369,7 @@ function updateRoute(section = "", practice = 0, part = 0, year = 0, task = 0) {
   if (part) url.searchParams.set("part", String(part));
   if (year) url.searchParams.set("year", String(year));
   if (task) url.searchParams.set("task", String(task));
+  if (section === "dse" && question) url.searchParams.set("question", String(question));
   history.replaceState(null, "", `${url.pathname}${url.search}${url.hash}`);
 }
 
@@ -372,7 +377,7 @@ function openRequestedRoute() {
   const requested = routeParams();
   elements.welcome.textContent = `您好，${state.user.name}！請選擇聆聽練習。`;
   if (new URL(location.href).searchParams.get('section') === 'bookmarks') return study.openBookmarks();
-  if (requested.section === "dse") return openSection("dse", { update: false, year: requested.year, task: requested.task });
+  if (requested.section === "dse") return openSection("dse", { update: false, year: requested.year, task: requested.task, question: requested.question });
   if (requested.section === "ielts" && requested.practice) return openPractice(requested.practice, requested.part, { update: false });
   if (requested.section === "ielts") return openSection("ielts", { update: false });
   openDashboard();
@@ -405,7 +410,7 @@ function openSection(section, options = {}) {
     }
     renderDseYearGrid();
     showView("dse");
-    if (DSE_CONTENT.has(requestedYear)) openDseYear(requestedYear, Number(options.task) || 1, { update: false });
+    if (DSE_CONTENT.has(requestedYear)) openDseYear(requestedYear, Number(options.task) || 1, { update: false, question: options.question });
     void loadAudioCatalogue().then(() => {
       renderDseYearGrid();
       if (DSE_CONTENT.has(state.dseYear)) renderDseTask(state.dseTask);
@@ -774,6 +779,7 @@ function renderDseTask(taskNumber) {
   bindDseTranscriptSync(task.number);
   setFloatingAudioPart(task.number);
   updateDseProgress();
+  if (state.dseFocusQuestion) requestAnimationFrame(() => focusDseQuestion(state.dseFocusQuestion));
 }
 
 async function ensureDseGuide(year) {
@@ -792,6 +798,28 @@ async function ensureDseGuide(year) {
   }
 }
 
+function focusDseQuestion(number) {
+  if (!number || !elements.dseWorkspace || state.view !== 'dse') return;
+  const root = elements.dseWorkspace;
+  root.querySelectorAll('.dse-question-type-target').forEach(node => node.classList.remove('dse-question-type-target'));
+  const answer = root.querySelector(`[data-dse-answer-q="${number}"], [data-dse-maze-q="${number}"], [data-dse-ranking="${number}"]`)
+    || [...root.querySelectorAll('[data-dse-answer-group], [data-dse-order-group]')]
+      .find(node => (node.dataset.dseAnswerGroup || node.dataset.dseOrderGroup || '').split(',').includes(String(number)));
+  if (!answer) return;
+  const page = answer.closest('.original-paper-page');
+  if (state.dseYear === 2016 && page) {
+    const pageNumber = Number(page.id.replace('original-paper-', ''));
+    if (DSE_2016_TASK_PAGES[state.dseTask]?.includes(pageNumber)) {
+      state.dse2016Page = pageNumber;
+      const select = root.querySelector('[data-dse-paper-page]');
+      if (select) select.value = String(pageNumber);
+    }
+  }
+  const target = answer.closest('.dse-answer-gap, .dse-multiple-choice, .dse-answer-group, .dse-maze, .digital-paper-choice-row, .archive-paper-block, label') || answer;
+  target.classList.add('dse-question-type-target');
+  target.scrollIntoView({behavior:'smooth', block:'center', inline:'nearest'});
+}
+
 function openDseYear(year, task = 1, options = {}) {
   const selectedYear = Number(year);
   const content = DSE_CONTENT.get(selectedYear);
@@ -805,11 +833,14 @@ function openDseYear(year, task = 1, options = {}) {
   }
   state.dseYear = selectedYear;
   state.dseTask = Number(task) >= 1 && Number(task) <= 4 ? Number(task) : 1;
+  const selectedTask = content.tasks.find(item => item.number === state.dseTask);
+  const requestedQuestion = Number(options.question);
+  state.dseFocusQuestion = dseTaskQuestionNumbers(selectedTask).includes(requestedQuestion) ? requestedQuestion : 0;
   state.dseLayout = 'digital';
   if (selectedYear === 2016) {
     state.dse2016Page = DSE_2016_TASK_PAGES[state.dseTask][0];
   }
-  if (options.update !== false) updateRoute("dse", 0, 0, selectedYear, state.dseTask);
+  if (options.update !== false) updateRoute("dse", 0, 0, selectedYear, state.dseTask, state.dseFocusQuestion);
   elements.dseYearGrid.hidden = true;
   elements.dseWorkspace.hidden = false;
   elements.dseWorkspace.innerHTML = `<header class="dse-workspace__head"><div><p class="eyebrow">${selectedYear} DSE PAPER 3 · PART A</p><h2 id="dse-workspace-title">${selectedYear} Part A 聆聽練習</h2><p>先閱讀整體情境，再開始 Task 1–4。</p></div><button class="secondary-button" type="button" data-back-dse-years>返回年份</button></header>
@@ -818,12 +849,13 @@ function openDseYear(year, task = 1, options = {}) {
     <div class="listening-part-tabs" role="tablist" aria-label="選擇 Part A Task">${content.tasks.map((item) => `<button type="button" role="tab" data-dse-task-tab="${item.number}" aria-selected="${item.number === state.dseTask}">Task ${item.number}<small>Q${dseTaskQuestionNumbers(item)[0]}–${dseTaskQuestionNumbers(item).at(-1)}</small></button>`).join("")}</div><div data-dse-task-host></div>`;
   renderDseTask(state.dseTask);
   void ensureDseGuide(selectedYear);
-  elements.dseWorkspace.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (!state.dseFocusQuestion) elements.dseWorkspace.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function backToDseYears() {
   pauseAllAudio();
   state.dseYear = 0;
+  state.dseFocusQuestion = 0;
   elements.dseWorkspace.hidden = true;
   elements.dseWorkspace.replaceChildren();
   elements.dseYearGrid.hidden = false;
@@ -1381,6 +1413,7 @@ document.addEventListener("click", (event) => {
   else if (button.matches("[data-dse-task-tab]")) {
     const task = Number(button.dataset.dseTaskTab);
     if (state.dseYear === 2016 && state.dseLayout === 'digital') state.dse2016Page = DSE_2016_TASK_PAGES[task][0];
+    state.dseFocusQuestion = 0;
     updateRoute("dse", 0, 0, state.dseYear, task);
     renderDseTask(task);
   }
@@ -1523,6 +1556,7 @@ async function initialise() {
 initialise();
 
 mountListeningTypes(document.querySelector('[data-listening-types]'), (practice, part, question) => openPractice(practice, part, {question}));
+mountDseListeningTypes(document.querySelector('[data-dse-listening-types]'), (year, task, question) => openDseYear(year, task, {question}));
 
 window.EdmundListeningTools={audio:selectedAudio,context:()=>state.view==='dse'?{system:'listening',section:'DSE',year:state.dseYear,part:state.dseTask,url:`listening-system.html?section=dse&year=${state.dseYear}&task=${state.dseTask}`}:{system:'listening',section:'IELTS',practice:state.practice,part:state.practicePart,url:`listening-system.html?practice=${state.practice}&part=${state.practicePart}`}};
 
