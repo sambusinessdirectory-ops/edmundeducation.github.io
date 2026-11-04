@@ -48,15 +48,9 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("Batch nearby pushes before expensive work", COORDINATOR)
         self.assertIn("sleep 15", COORDINATOR)
 
-    def test_focused_builds_supersede_older_work_but_full_builds_are_not_cancelled(self):
+    def test_running_build_finishes_while_pending_pushes_coalesce(self):
         for workflow in BUILDERS:
-            self.assertEqual(workflow.count("group: pages-build-main"), 1)
-        self.assertIn(
-            "cancel-in-progress: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') }}",
-            BUILDERS[0],
-        )
-        for workflow in BUILDERS[1:]:
-            self.assertEqual(workflow.count("cancel-in-progress: true"), 1)
+            self.assertIn("group: pages-build-main\n      cancel-in-progress: false", workflow)
 
     def test_fast_releases_skip_slow_runner_disk_reclamation(self):
         standard = BUILDERS[0]

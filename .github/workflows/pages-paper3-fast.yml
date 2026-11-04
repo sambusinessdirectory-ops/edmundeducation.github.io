@@ -18,7 +18,7 @@ jobs:
     timeout-minutes: 25
     concurrency:
       group: pages-build-main
-      cancel-in-progress: true
+      cancel-in-progress: false
     permissions:
       contents: read
       pages: read

@@ -8,8 +8,8 @@ GitHub Pages releases are coordinated by
   selects one standard, Paper 3, or homepage artifact builder.
 - Focused validation tags are recovered from the commits that produced each
   changed file, including files combined through concurrent merge commits.
-- Builds that already started may finish in parallel; later pushes do not
-  cancel them or force all work into a single build queue.
+- One artifact build runs at a time. It finishes even when another push arrives.
+  The newest pending build includes all changes since the deployed snapshot.
 - The publisher owns the only production Pages lock. It publishes only
   forward commits on the current `main` lineage, so intermediate progress is
   allowed but an older artifact can never roll back production.
