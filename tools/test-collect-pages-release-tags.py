@@ -76,6 +76,12 @@ tools/test-schedule-system.mjs
         self.assertIn("[listening-types-release]", tags)
         self.assertNotIn("[listening-release]", tags)
 
+    def test_shared_change_mixed_with_page_uses_full_build(self):
+        for shared in ("service-worker.js", "shared-companion.mjs", ".github/workflows/pages.yml"):
+            tags, _ = module.collect_path_scopes(["literary-device.html", shared], self.policy)
+            self.assertIn("[literary-release]", tags)
+            self.assertNotIn("[fast-deploy]", tags)
+
     def test_empty_path_set_is_not_fast(self):
         self.assertEqual(module.collect_path_scopes([], self.policy), ("", []))
 

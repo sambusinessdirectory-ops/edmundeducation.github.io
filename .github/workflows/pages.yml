@@ -56,6 +56,8 @@ jobs:
 
       - name: Classify Pages artifact preparation
         id: preparation
+        env:
+          FOCUSED: ${{ contains(inputs.release_tags, '[fast-deploy]') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -73,12 +75,13 @@ jobs:
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
 
           mode=full
-          if git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"; then
+          if [[ "${FOCUSED}" == true ]] && git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"; then
             mode=$(python3 tools/prepare-pages-incremental.py classify \
               --base "${snapshot_sha}" \
               --target "${GITHUB_SHA}")
           fi
           echo "mode=${mode}" >> "${GITHUB_OUTPUT}"
+          echo "snapshot_commit=${snapshot_commit}" >> "${GITHUB_OUTPUT}"
           echo "base_sha=${snapshot_sha}" >> "${GITHUB_OUTPUT}"
           echo "Pages artifact preparation: ${mode} from ${snapshot_sha}"
 
@@ -132,7 +135,7 @@ jobs:
           node tools/test-advanced-native.mjs
 
       - name: Validate focused Pages infrastructure release
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[infrastructure-release]') }}
+        if: ${{ contains(inputs.release_tags, '[infrastructure-release]') }}
         run: |
           python3 -m unittest \
             tools/test-classify-pages-release.py \
@@ -1014,7 +1017,7 @@ jobs:
         if: steps.preparation.outputs.mode == 'incremental'
         uses: actions/checkout@v6
         with:
-          ref: pages-snapshot
+          ref: ${{ steps.preparation.outputs.snapshot_commit }}
           path: pages-snapshot
           fetch-depth: 1
           persist-credentials: false

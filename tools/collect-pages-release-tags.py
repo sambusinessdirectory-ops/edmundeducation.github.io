@@ -65,7 +65,10 @@ def collect_path_scopes(
 
     # A single unclassified file sends the complete undeployed range through
     # full validation. Known scopes remain visible for route diagnostics.
-    if not uncovered:
+    shared = "[infrastructure-release]" in tags or any(
+        path.startswith(("shared-", ".github/workflows/")) for path in changed_paths
+    )
+    if not uncovered and not shared:
         tags.add(FAST)
     return " ".join(sorted(tags)), uncovered
 

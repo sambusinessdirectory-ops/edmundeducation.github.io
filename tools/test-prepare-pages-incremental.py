@@ -88,6 +88,21 @@ class PreparePagesIncrementalTests(unittest.TestCase):
         changed = set(paths_file.read_text(encoding="utf-8").splitlines())
         self.assertTrue({"index.html", "renamed.html", "added/app.js", *module.PWA_FILES} <= changed)
 
+    def test_page_edit_keeps_verified_audio_and_service_worker_urls(self):
+        self.write("literary-device.html", "New instructions")
+        self.commit("page only")
+        site = self.root / "_site"
+        site.mkdir()
+        worker = f'cache {self.base} https://cdn.example/audio.mp3'
+        (site / "service-worker.js").write_text(worker)
+        (site / "audio.json").write_bytes(b"verified audio output")
+        paths = self.root / "paths.txt"
+        with WorkingDirectory(self.root):
+            module.apply_delta(self.root, site, self.base, self.sha(), paths)
+        self.assertEqual((site / "service-worker.js").read_text(), worker.replace(self.base, "__EDMUND_RELEASE__"))
+        self.assertEqual((site / "audio.json").read_bytes(), b"verified audio output")
+        self.assertNotIn("service-worker.js", paths.read_text().splitlines())
+
     def test_sensitive_publication_rules_require_full_build(self):
         for path in (
             ".github/workflows/pages.yml",
