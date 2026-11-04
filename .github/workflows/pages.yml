@@ -297,9 +297,7 @@ jobs:
           node --check error-identifier-indefinite.js
           node tools/test-indefinite-pronouns-data.mjs
           node tools/test-indefinite-admin-answers.mjs
-          node tools/test-error-identifier-indefinite-feedback.mjs
-          node tools/test-error-identifier-jayden.mjs
-          node tools/test-indefinite-pronouns-import.mjs
+          node tools/test-error-identifier-feedback-contract.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[native-release]') }}
