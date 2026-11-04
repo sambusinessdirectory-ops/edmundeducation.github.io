@@ -77,6 +77,7 @@
     { id: "news-discussion", href: "news-discussion.html", zh: "熱議新聞討論", en: "News Discussion", homepageCard: 75 },
     { id: "ielts-writing-preview", href: "ielts-writing-question-preview.html", zh: "IELTS 寫作問題預覽系統", en: "IELTS Writing Preview", homepageCard: 77 },
     { id: "ielts-chart-teaching", href: "ielts-chart-teaching.html", zh: "IELTS 圖表教學系統", en: "IELTS Chart Studio", homepageCard: 79 },
+    { id: "dse-practical-writing", href: "dse-practical-writing.html", zh: "DSE 實用文練習系統", en: "DSE Practical Writing", homepageCard: 80 },
     { id: "policy-discussion", href: "policy-discussion.html", zh: "政策討論", en: "Policy Discussion", homepageCard: 78 },
     { id: "dse-argument-bank", href: "dse-argument-bank.html", zh: "DSE 論點大全", en: "DSE Speaking Argument Bank", homepageCard: 76 },
     { id: "excellent-learning", href: "excellent-learning-system.html", zh: "英文口音學習系統", en: "English Accent Learning System" },
@@ -133,7 +134,8 @@
     schedule: "edmund-schedule-session-v1",
     downloads: "edmundModelEssayDownloadSession",
     "excellent-learning": "edmund-excellent-learning-session-v1",
-    "dse-argument-bank": "edmund-dse-argument-bank-student-v1"
+    "dse-argument-bank": "edmund-dse-argument-bank-student-v1",
+    "dse-practical-writing": "edmund-dse-practical-writing-session-v1"
   });
 
   const LEARNING_PORTAL_IDS = Object.freeze([

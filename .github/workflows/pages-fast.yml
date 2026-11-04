@@ -7,22 +7,20 @@ on:
     branches: [main]
 
 permissions:
-  contents: read
+  contents: write
   pages: write
   id-token: write
 
 jobs:
-  deploy:
+  build:
     if: ${{ contains(github.event.head_commit.message, '[site-fast]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    concurrency:
-      group: pages
-      queue: single
-      cancel-in-progress: false
-    environment:
-      name: github-pages
-      url: https://edmundeducation.com/
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      artifact_name: ${{ steps.artifact.outputs.name }}
     env:
       PUSH_BEFORE: ${{ github.event.before }}
 
@@ -49,6 +47,7 @@ jobs:
           /tools/ielts-reading-analysis-publication-excludes.mjs
           /tools/add-paper3-study-support.py
           /tools/rewrite-pages-assets.py
+          /tools/update-pages-snapshot.sh
           PATTERNS
           git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "$GITHUB_SHA"
           git checkout -q --detach "$GITHUB_SHA"
@@ -141,15 +140,23 @@ jobs:
             grep -Fq "$GITHUB_SHA" "$path"
           done
 
+      - name: Name this build artifact
+        id: artifact
+        run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
+
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v4
         with:
-          name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
+          name: ${{ steps.artifact.outputs.name }}
           path: _site
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v5
-        with:
-          artifact_name: github-pages-${{ github.run_id }}-${{ github.run_attempt }}
-          timeout: 900000
-          error_count: 30
+  deploy:
+    needs: build
+    uses: ./.github/workflows/publish-pages-artifact.yml
+    with:
+      artifact_name: ${{ needs.build.outputs.artifact_name }}
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write

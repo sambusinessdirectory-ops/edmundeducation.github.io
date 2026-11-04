@@ -1,0 +1,176 @@
+name: Deploy GitHub Pages (fast Paper 3 edit)
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: read
+      pages: read
+    outputs:
+      artifact_name: ${{ steps.artifact.outputs.name }}
+    steps:
+      - name: Checkout deployed snapshot
+        uses: actions/checkout@v6
+        with:
+          ref: pages-snapshot
+          path: pages-snapshot
+          fetch-depth: 1
+
+      - name: Fetch focused Paper 3 source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          snapshot_sha=$(cat pages-snapshot/.source-sha)
+          echo "SNAPSHOT_SHA=${snapshot_sha}" >> "${GITHUB_ENV}"
+
+          mkdir source
+          cd source
+          git init -q
+          git remote add origin "https://github.com/${GITHUB_REPOSITORY}.git"
+          git config core.sparseCheckout true
+          git config core.sparseCheckoutCone false
+          git config remote.origin.promisor true
+          git config remote.origin.partialclonefilter blob:none
+          cat > .git/info/sparse-checkout <<'PATTERNS'
+          /paper3/
+          /service-worker.js
+          /pwa-register.js
+          /release.json
+          /tools/add-paper3-study-support.py
+          /tools/build-2023-b2-reader.py
+          /tools/check-2023-b2-entry.cjs
+          /tools/rewrite-pages-assets.py
+          /tools/update-pages-snapshot.sh
+          /tools/validate-2023-b2-verbatim.mjs
+          /workers/edmund-site-assets/src/site-pack-index-v1.json
+          /workers/edmund-site-assets/src/eddy-pack-index-v1.json
+          /workers/edmund-site-assets/src/flashcard-pack-index-v1.json
+          PATTERNS
+          git -c protocol.version=2 fetch --no-tags --depth=50 --filter=blob:none origin "${GITHUB_SHA}"
+          git -c protocol.version=2 fetch --no-tags --depth=1 --filter=blob:none origin "${snapshot_sha}"
+          git checkout -q --detach "${GITHUB_SHA}"
+          git merge-base --is-ancestor "${snapshot_sha}" "${GITHUB_SHA}"
+
+      - name: Reject changes that need the full release workflow
+        shell: bash
+        run: |
+          set -euo pipefail
+          git -C source diff --name-only "${SNAPSHOT_SHA}" "${GITHUB_SHA}" > /tmp/paper3-fast-changes.txt
+          test -s /tmp/paper3-fast-changes.txt
+          while IFS= read -r path; do
+            case "${path}" in
+              paper3/*|\
+              .github/workflows/pages-paper3-fast.yml|\
+              .github/workflows/publish-pages-artifact.yml|\
+              tools/build-2023-b2-reader.py|\
+              tools/check-2023-b2-entry.cjs|\
+              tools/test-proverb-system.mjs|\
+              tools/validate-2023-b2-verbatim.mjs) ;;
+              *) echo "Use the full release workflow for: ${path}" >&2; exit 1 ;;
+            esac
+          done < /tmp/paper3-fast-changes.txt
+
+      - name: Validate focused Paper 3 release
+        shell: bash
+        run: |
+          set -euo pipefail
+          while IFS= read -r path; do
+            case "${path}" in
+              *.js|*.mjs|*.cjs) node --check "source/${path}" ;;
+              *.py) python3 -m py_compile "source/${path}" ;;
+            esac
+          done < /tmp/paper3-fast-changes.txt
+          node --check source/tools/check-2023-b2-entry.cjs
+          node source/tools/validate-2023-b2-verbatim.mjs
+          node --check source/paper3/2025-b2/reader.js
+          node --check source/paper3/2025-b2/sentence-analysis.js
+          node --check source/paper3/2025-b2/listening-notes.js
+          node --check source/paper3/2025-b2/super-curation-highlights.js
+          node --check source/paper3/2025-b2/super-curation.js
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare focused publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir _site
+          rsync -a \
+            --exclude='.git' \
+            --exclude='.source-sha' \
+            pages-snapshot/ _site/
+
+          rm -rf _site/paper3
+          mkdir -p _site/paper3
+          unzip -oq source/paper3/reader-batch.zip 'paper3/*' -d _site
+          rsync -a --exclude='reader-batch.zip' source/paper3/ _site/paper3/
+          rm -f _site/paper3/reader-batch.zip
+          python3 source/tools/add-paper3-study-support.py _site/paper3
+          python3 source/tools/rewrite-pages-assets.py _site/paper3 --fast-scan
+
+      - name: Keep protected source material out of the Pages artifact
+        shell: bash
+        run: |
+          set -euo pipefail
+          test -s _site/index.html
+          test ! -d _site/assets
+          test ! -d _site/eddy-carrot-patch/assets
+          test ! -e _site/song-appreciation-data.js
+          test ! -e _site/news-discussion/news-1.json
+          test ! -e _site/dse-argument-bank/source.md
+          test -z "$(find _site/dse-argument-bank -maxdepth 1 -name '*-source.md' -print -quit)"
+          if grep -RIl --include='*.js' \
+            -e 'EDMUND_SONG_APPRECIATION_DATA' \
+            -e 'You, with your words like knives' \
+            -e 'Got me feeling like I' \
+            -e '《Mean》描寫被欺凌' \
+            _site/; then
+            echo 'Protected Song Appreciation material reached the Pages artifact.' >&2
+            exit 1
+          fi
+
+      - name: Stamp PWA release
+        shell: bash
+        run: |
+          set -euo pipefail
+          install -m 0644 source/service-worker.js _site/service-worker.js
+          install -m 0644 source/pwa-register.js _site/pwa-register.js
+          install -m 0644 source/release.json _site/release.json
+          for path in _site/service-worker.js _site/pwa-register.js _site/release.json; do
+            grep -Fq '__EDMUND_RELEASE__' "${path}"
+            sed -i "s/__EDMUND_RELEASE__/${GITHUB_SHA}/g" "${path}"
+            grep -Fq "${GITHUB_SHA}" "${path}"
+          done
+
+      - name: Name this build artifact
+        id: artifact
+        run: echo "name=github-pages-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}" >> "$GITHUB_OUTPUT"
+
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v4
+        with:
+          name: ${{ steps.artifact.outputs.name }}
+          path: _site
+
+  deploy:
+    needs: build
+    uses: ./.github/workflows/publish-pages-artifact.yml
+    with:
+      artifact_name: ${{ needs.build.outputs.artifact_name }}
+    permissions:
+      actions: read
+      contents: write
+      pages: write
+      id-token: write

@@ -1,4 +1,5 @@
 import unittest
+import tempfile
 
 from importlib.machinery import SourceFileLoader
 from pathlib import Path
@@ -52,6 +53,20 @@ class RewriteTests(unittest.TestCase):
         self.assertEqual(updated.count(module.ORIGIN), 3)
         self.assertEqual(updated, module.allow_asset_origin_in_csp(updated))
         self.assertIn("object-src 'none'", updated)
+
+    def test_paths_file_is_scoped_to_safe_relative_paths(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            paths_file = root / "paths.txt"
+            paths_file.write_text("index.html\nnested/app.js\n", encoding="utf-8")
+            self.assertEqual(
+                module.paths_from_file(root, paths_file),
+                [root / "index.html", root / "nested/app.js"],
+            )
+
+            paths_file.write_text("../outside.html\n", encoding="utf-8")
+            with self.assertRaisesRegex(RuntimeError, "Unsafe Pages path"):
+                module.paths_from_file(root, paths_file)
 
 
 if __name__ == "__main__":

@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=5,viewport-fit=cover">
+  <meta name="description" content="DSE 學生實用文練習系統：閱讀歷屆 Part A 題目、查看題目圖片並撰寫自動儲存的練習稿。">
+  <meta name="theme-color" content="#153a37">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self' https://cdn.jsdelivr.net; style-src 'self'; img-src 'self' data:; connect-src 'self' https://ookkxzgpdclzrrhfmvqx.supabase.co wss://ookkxzgpdclzrrhfmvqx.supabase.co; object-src 'none'; base-uri 'self'; form-action 'self'">
+  <title>DSE 實用文練習系統｜EdmundEducation</title>
+  <link rel="canonical" href="https://edmundeducation.com/dse-practical-writing.html">
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="stylesheet" href="/pwa-ui.css">
+  <link rel="stylesheet" href="shared-system-nav.css?v=20261104-dse-writing1">
+  <link rel="stylesheet" href="dse-practical-writing.css?v=20261104-1">
+  <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
+  <script defer src="/pwa-register.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳至主要內容</a>
+  <header class="edmund-system-header">
+    <div class="edmund-system-header__inner">
+      <div class="edmund-system-switcher" data-edmund-system-switcher data-system="dse-practical-writing">
+        <button class="edmund-system-switcher__trigger" type="button" data-system-switcher-trigger aria-label="開啟 EdmundEducation 系統快速切換">
+          <img class="edmund-system-switcher__logo" src="Company Logo for Cover Page.png" alt="">
+          <span class="edmund-system-switcher__copy"><strong>EdmundEducation</strong><small>DSE PRACTICAL WRITING</small></span>
+          <span class="edmund-system-switcher__chevron" aria-hidden="true">⌄</span>
+        </button>
+      </div>
+      <div class="account-actions" data-account-actions hidden>
+        <span data-account-name></span>
+        <button type="button" data-logout>登出</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main" class="page-shell">
+    <section class="login-view" data-view="login">
+      <div class="login-hero">
+        <p class="eyebrow">CARD 80 · DSE WRITING</p>
+        <div class="login-number" aria-hidden="true">80</div>
+        <h1>DSE 學生使用<span>實用文練習系統</span></h1>
+        <p>讀清情境、受眾與目的，再把思路寫成一篇完整實用文。</p>
+        <div class="document-motif" aria-hidden="true"><i></i><i></i><i></i></div>
+      </div>
+      <form class="login-panel" data-login-form novalidate>
+        <p class="eyebrow">STUDENT ACCESS</p>
+        <h2>登入學生帳戶<span>Student sign in</span></h2>
+        <label>用戶名稱 · Username<input name="username" autocomplete="username" maxlength="100" required></label>
+        <label>密碼 · Password<input name="password" type="password" autocomplete="current-password" maxlength="200" required></label>
+        <button class="primary-button" type="submit">進入練習系統 <span aria-hidden="true">→</span></button>
+        <p class="login-status" data-login-status role="status" aria-live="polite"></p>
+      </form>
+    </section>
+
+    <section class="app-view" data-view="app" hidden>
+      <header class="workspace-hero">
+        <div>
+          <p class="eyebrow">DSE PRACTICAL WRITING · PART A</p>
+          <h1>實用文練習系統</h1>
+          <p>選擇題目，分析寫作任務，然後完成自己的版本。</p>
+        </div>
+        <div class="hero-progress" aria-label="練習進度">
+          <strong data-draft-count>0</strong><span>/ <span data-task-count>0</span> 題已有草稿</span>
+        </div>
+      </header>
+
+      <div class="practice-layout">
+        <aside class="task-library" aria-label="DSE 實用文題目庫">
+          <div class="library-heading">
+            <div><p class="eyebrow">QUESTION LIBRARY</p><h2>題目庫</h2></div>
+            <span data-library-count></span>
+          </div>
+          <label class="search-field"><span class="visually-hidden">搜尋題目</span><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"></circle><path d="m16.5 16.5 4 4"></path></svg><input type="search" data-search placeholder="搜尋年份、標題或文體"></label>
+          <div class="task-list" data-task-list></div>
+        </aside>
+
+        <section class="writing-workspace" data-workspace aria-live="polite">
+          <div class="empty-workspace"><p class="eyebrow">READY WHEN YOU ARE</p><h2>先從左方選擇一道題目</h2><p>題目、圖片及寫作區會在這裡展開。</p></div>
+        </section>
+      </div>
+    </section>
+  </main>
+
+  <div class="save-toast" data-save-toast role="status" aria-live="polite" hidden>草稿已儲存</div>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.110.8/dist/umd/supabase.js" integrity="sha384-M65KxMm/JqBppck6onbmAgPVMBHrmPCf1L17Q+71EcvI9/VVI8j5cqoxQf6lj6h2" crossorigin="anonymous"></script>
+  <script src="supabase-config.js"></script>
+  <script src="writing-practice-dse-part-a-data.js?v=20261104-1"></script>
+  <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
+  <script src="shared-system-nav.js?v=20261104-dse-writing1"></script>
+  <script type="module" src="dse-practical-writing.mjs?v=20261104-1"></script>
+  <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
+</body>
+</html>

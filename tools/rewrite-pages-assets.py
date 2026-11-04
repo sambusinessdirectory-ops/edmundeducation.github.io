@@ -92,10 +92,24 @@ def allow_asset_origin_in_csp(value: str) -> str:
     return CSP_META.sub(update_meta, value)
 
 
+def paths_from_file(site: Path, paths_file: Path) -> list[Path]:
+    candidates = []
+    for line in paths_file.read_text(encoding="utf-8").splitlines():
+        if not line:
+            continue
+        relative = Path(line)
+        if relative.is_absolute() or ".." in relative.parts:
+            raise RuntimeError(f"Unsafe Pages path: {line}")
+        candidates.append(site / relative)
+    return candidates
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("site", type=Path)
-    parser.add_argument("--fast-scan", action="store_true", help="Use grep to select only text files containing asset links or a CSP meta tag")
+    scan_mode = parser.add_mutually_exclusive_group()
+    scan_mode.add_argument("--fast-scan", action="store_true", help="Use grep to select only text files containing asset links or a CSP meta tag")
+    scan_mode.add_argument("--paths-file", type=Path, help="Scan only newline-delimited paths relative to the Pages directory")
     args = parser.parse_args()
     if not args.site.is_dir():
         raise SystemExit(f"Missing Pages directory: {args.site}")
@@ -105,7 +119,9 @@ def main() -> int:
     root_dirs = directories(root_keys)
     eddy_dirs = directories(eddy_keys)
     touched = Counter()
-    if args.fast_scan:
+    if args.paths_file:
+        candidates = paths_from_file(args.site, args.paths_file)
+    elif args.fast_scan:
         command = ["grep", "-rIlZi", *(f"--include=*{extension}" for extension in sorted(EXTENSIONS)),
                    "-e", "assets/", "-e", "Content-Security-Policy", "--", str(args.site)]
         result = subprocess.run(command, capture_output=True, check=False)
