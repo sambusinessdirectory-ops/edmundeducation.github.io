@@ -331,22 +331,35 @@ jobs:
       - name: Validate focused release-gate repair
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[release-gate-repair]') }}
         run: |
-          node --test tools/test-eddie-farm.mjs
-          # These commits repair assertions, not the Reading corpus. Validate
+          run_gate() {
+            local label="$1"
+            shift
+            if ! "$@"; then
+              echo "::error title=Release gate command failed::${label}"
+              return 1
+            fi
+          }
+          run_gate 'Eddie Farm repair contract' node --test tools/test-eddie-farm.mjs
+          # These commits repair assertions, not the underlying product corpus. Validate
           # their syntax and the production cache contract here; real
           # Flashcard/Reading releases still run the complete corpus and audio
           # checks in their own focused gates.
-          node --check tools/test-ielts-reading-passage1-flashcards.mjs
-          node --check tools/test-ielts-reading-passage2-flashcards.mjs
-          node --check tools/test-business-concepts-book1-flashcards.mjs
-          node --check tools/test-flashcard-expansion-20260801-ui.mjs
-          node --check tools/test-government-civics-book1-flashcards.mjs
-          node --check tools/test-government-civics-book2-flashcards.mjs
-          node --check tools/test-government-civics-book3-flashcards.mjs
-          node --check tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
-          node --check tools/test-hkfsd-incident-report-flashcards.mjs
-          node --check tools/test-ielts-writing-task1-audio.mjs
-          grep -Fq 'flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2' flashcards.html
+          for repair_test in \
+            tools/test-ielts-reading-passage1-flashcards.mjs \
+            tools/test-ielts-reading-passage2-flashcards.mjs \
+            tools/test-business-concepts-book1-flashcards.mjs \
+            tools/test-flashcard-expansion-20260801-ui.mjs \
+            tools/test-government-civics-book1-flashcards.mjs \
+            tools/test-government-civics-book2-flashcards.mjs \
+            tools/test-government-civics-book3-flashcards.mjs \
+            tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs \
+            tools/test-hkfsd-incident-report-flashcards.mjs \
+            tools/test-ielts-writing-task1-audio.mjs
+          do
+            run_gate "Syntax: ${repair_test}" node --check "${repair_test}"
+          done
+          run_gate 'Current verified Flashcard audio cache pin' \
+            grep -Fq 'flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2' flashcards.html
 
       - name: Validate closet fast release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[practical-writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[listening-types-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') && !contains(inputs.release_tags, '[literary-release]') && !contains(inputs.release_tags, '[release-gate-repair]') }}
