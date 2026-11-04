@@ -65,6 +65,8 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("tools/collect-pages-release-tags.py", COORDINATOR)
         self.assertIn("inputs.release_tags", standard)
         self.assertNotIn("github.event.head_commit.message", standard)
+        self.assertIn("Validate focused Pages infrastructure release", standard)
+        self.assertIn("[infrastructure-release]", standard)
 
 
 if __name__ == "__main__":

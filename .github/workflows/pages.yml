@@ -91,7 +91,7 @@ jobs:
           node --check shared-companion.mjs
 
       - name: Validate closet fast release
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -122,6 +122,22 @@ jobs:
           node tools/build-flashcard-lazy-startup.mjs --check
           node tools/test-writing-synonyms.mjs
           node tools/test-advanced-native.mjs
+
+      - name: Validate focused Pages infrastructure release
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[infrastructure-release]') }}
+        run: |
+          python3 -m unittest \
+            tools/test-classify-pages-release.py \
+            tools/test-collect-pages-release-tags.py \
+            tools/test-pages-release-coordinator.py \
+            tools/test-prepare-pages-incremental.py \
+            tools/test-rewrite-pages-assets.py
+          python3 -m py_compile \
+            tools/classify-pages-release.py \
+            tools/collect-pages-release-tags.py \
+            tools/prepare-pages-incremental.py \
+            tools/rewrite-pages-assets.py
+          bash -n tools/update-pages-snapshot.sh
 
       - name: Validate focused flashcard release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[flashcard-release]') }}
