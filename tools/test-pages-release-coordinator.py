@@ -95,7 +95,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         marker = "- name: Validate focused Paper 3 curation release"
         step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
         self.assertIn("/paper3/2023-b2/curation/", standard)
-        self.assertIn("playwright install --with-deps chromium firefox", step)
+        self.assertIn("playwright install --with-deps chromium firefox webkit", step)
         self.assertIn("tools/check-2023-b2-v7.cjs", step)
         self.assertIn("127.0.0.1", step)
 

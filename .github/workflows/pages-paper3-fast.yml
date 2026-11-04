@@ -142,7 +142,7 @@ jobs:
           mkdir -p /tmp/paper3-playwright
           npm --prefix /tmp/paper3-playwright init -y >/dev/null
           npm --prefix /tmp/paper3-playwright install --no-save playwright@1.56.1 http-server@14.1.1 >/dev/null
-          /tmp/paper3-playwright/node_modules/.bin/playwright install --with-deps chromium firefox
+          /tmp/paper3-playwright/node_modules/.bin/playwright install --with-deps chromium firefox webkit
           /tmp/paper3-playwright/node_modules/.bin/http-server _site -p 4173 -c-1 >/tmp/paper3-http.log 2>&1 &
           server_pid=$!
           trap 'kill "${server_pid}"' EXIT

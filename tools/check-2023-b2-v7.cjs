@@ -1,5 +1,5 @@
 // V7 Paper 3 release gate. Pass a local or public 2023 B2 curation URL.
-const { chromium, firefox } = require('playwright');
+const { chromium, firefox, webkit } = require('playwright');
 const assert = require('node:assert/strict');
 const path = require('node:path');
 const { pathToFileURL } = require('node:url');
@@ -49,6 +49,7 @@ async function auditInitialPodcast(page){
     return {
       architecture:document.querySelector('#player')?.dataset.podcastArchitecture,
       transcriptArchitecture:document.querySelector('#trans')?.dataset.podcastArchitecture,
+      audioConnected:audio.isConnected,audioMuted:audio.muted,audioVolume:audio.volume,audioSource:audio.currentSrc,
       playerCount:document.querySelectorAll('#player').length,transcriptCount:document.querySelectorAll('#trans').length,
       timelines:document.querySelectorAll('.curation-player-timeline').length,pins:document.querySelectorAll('.curation-player-pin').length,
       legacy:document.querySelectorAll('.seek-wrap,.pin-layer,#notes23').length,
@@ -77,6 +78,7 @@ async function auditInitialPodcast(page){
     };
   });
   assert.equal(state.architecture,'v7-continuous-single-owner');assert.equal(state.transcriptArchitecture,'v7-continuous-single-owner');
+  assert.equal(state.audioConnected,true);assert.equal(state.audioMuted,false);assert(state.audioVolume>=.99,state);assert.match(state.audioSource,/meeting\.mp3/);
   assert.equal(state.playerCount,1);assert.equal(state.transcriptCount,1);assert.equal(state.timelines,1);assert.equal(state.pins,17);assert.equal(state.legacy,0);
   assert.match(state.timeText,/^0:00 \/ 6:52/);assert(Math.abs(state.currentTime-426)<.15,state);assert.equal(state.cueIndex,0);assert.equal(state.done,false);assert.equal(state.completed,-1);
   assert.match(state.cueProgress,/1 \/ 17/);assert.doesNotMatch(state.cueProgress,/166/);
@@ -186,4 +188,15 @@ async function firefoxRun(){
     assert.deepEqual(errors,[]);
   }finally{await browser.close()}
 }
-(async()=>{await chromiumRun();await firefoxRun()})().catch(error=>{console.error(error);process.exitCode=1});
+async function webkitRun(){
+  const browser=await webkit.launch();
+  try{
+    const page=await browser.newPage({reducedMotion:'no-preference'}),errors=[];page.on('pageerror',error=>errors.push(error.message));
+    await fresh(page);await enterPodcast(page);await waitForAudio(page);await auditInitialPodcast(page);
+    const before=await page.evaluate(()=>audio.currentTime);await page.locator('#play').click();await page.waitForTimeout(1500);
+    const playback=await page.evaluate(()=>({time:audio.currentTime,paused:audio.paused,muted:audio.muted,volume:audio.volume,connected:audio.isConnected}));
+    assert.equal(playback.paused,false,playback);assert.equal(playback.muted,false,playback);assert.equal(playback.connected,true,playback);assert(playback.volume>=.99,playback);assert(playback.time>before+.5,playback);
+    await page.locator('#play').click();assert.deepEqual(errors,[]);
+  }finally{await browser.close()}
+}
+(async()=>{await chromiumRun();await firefoxRun();await webkitRun()})().catch(error=>{console.error(error);process.exitCode=1});
