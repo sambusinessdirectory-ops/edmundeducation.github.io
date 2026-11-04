@@ -124,7 +124,7 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
     color: "#244a7a"
   }),
   Object.freeze({ type: "grammar", trigger: "Grammar", aliases: Object.freeze(["Grammar Practice"]), label: "Grammar", pickerTitle: "選擇語法模組或題目", pickerNoun: "語法練習", color: "#244a7a" }),
-  Object.freeze({ type: "error-identification", trigger: "Error Identification", aliases: Object.freeze(["Error Identifier", "Proofreading"]), label: "Error Identification", pickerTitle: "選擇錯因分析題目或文章", pickerNoun: "校對練習", color: "#754e82" }),
+  Object.freeze({ type: "error-identification", trigger: "Error Identification", aliases: Object.freeze(["Error Identifier", "Proofreading"]), label: "Error Identification", pickerTitle: "選擇 Module 或 Passage Mode", pickerNoun: "校對模式", color: "#754e82" }),
   Object.freeze({ type: "junior-exam-prep", trigger: "Junior Exam Prep", aliases: Object.freeze(["Jayden Homework", "Jayden Exam Prep"]), label: "Junior Exam Prep", pickerTitle: "選擇 Jayden 的考試溫習模組或文章", pickerNoun: "考試溫習", color: "#244e65" }),
   Object.freeze({ type: "song-appreciation", trigger: "Song appreciation", label: "Song appreciation", pickerTitle: "選擇歌曲教學模組", pickerNoun: "歌曲", color: "#d92364" }),
   Object.freeze({ type: "learning-portal", trigger: "Learning Portal", label: "Learning Portal", color: "#356f9f" })
@@ -321,9 +321,12 @@ export function normalizeHomeworkResource(value) {
   }
   if (type === "error-identification") {
     const mode = parsed.searchParams.get("mode"), question = parsed.searchParams.get("question"), passage = parsed.searchParams.get("passage");
-    if (!["single", "passage"].includes(mode)) return null;
-    const target = question ? `q${question}` : passage ? `passage-${passage}` : mode;
-    if (id !== `error-identification:${target}`) return null;
+    if (!["single", "indefinite", "jayden", "passage"].includes(mode)) return null;
+    const moduleByMode = { single: "module-1", indefinite: "module-2", jayden: "module-3", passage: "passage" };
+    const target = question ? `q${question}` : passage ? `passage-${passage}` : moduleByMode[mode];
+    const acceptedIds = [`error-identification:${target}`];
+    if (mode === "single" && !question) acceptedIds.push("error-identification:single");
+    if (!acceptedIds.includes(id)) return null;
   }
   if (type === "junior-exam-prep") {
     const module = parsed.searchParams.get("module"), question = parsed.searchParams.get("question");
@@ -361,10 +364,11 @@ export function normalizeHomeworkHref(value) {
       if (view === "practice" && (keys.length !== 3 || !positive("question", 1000000) || (lesson === "advanced-articles" && Number(parsed.searchParams.get("question")) < 151))) return null;
     } else if (parsed.pathname === "/error-identifier-system.html") {
       const mode = parsed.searchParams.get("mode");
-      if (!["single", "passage"].includes(mode)) return null;
-      const target = mode === "single" ? "question" : "passage";
-      if (keys.some(key => !["mode", target].includes(key)) || keys.length > 2) return null;
-      if (keys.length === 2 && !positive(target, 1000000)) return null;
+      if (!["single", "indefinite", "jayden", "passage"].includes(mode)) return null;
+      const target = mode === "single" ? "question" : mode === "passage" ? "passage" : "";
+      if (!target && keys.length !== 1) return null;
+      if (target && (keys.some(key => !["mode", target].includes(key)) || keys.length > 2)) return null;
+      if (target && keys.length === 2 && !positive(target, 1000000)) return null;
     } else {
       const module = parsed.searchParams.get("module");
       if (!["s2-exam-prep-oct-2026", "s2-exam-prep-advanced-tense", "s2-exam-prep-advanced-articles", "s2-exam-prep-advanced-non-tense-non-articles"].includes(module)) return null;
