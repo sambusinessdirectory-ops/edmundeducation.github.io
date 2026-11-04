@@ -13,7 +13,7 @@ const coreSeed = loadFlashcardCoreSeed();
 
 assert.ok(
   html.includes(
-    '<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20261012-custom1"></script>'
+    '<script src="flashcards-audio-manifest.js?v=edmund-neural-v1-20261027-last-train-r2"></script>'
   ),
   "The current audio manifest cache key is stale"
 );
