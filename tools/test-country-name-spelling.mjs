@@ -8,6 +8,7 @@ import { HK_GEOMETRY, MTR_COORDINATES, WORLD_GEOMETRY } from "../country-name-sp
 const here = dirname(fileURLToPath(import.meta.url));
 const root = resolve(here, "..");
 const html = readFileSync(join(root, "country-name-spelling.html"), "utf8");
+const baseCss = readFileSync(join(root, "country-name-spelling-terminal.css"), "utf8");
 const css = readFileSync(join(root, "country-name-spelling-terminal-v2.css"), "utf8");
 const app = readFileSync(join(root, "country-name-spelling-terminal-v2.mjs"), "utf8");
 
@@ -77,6 +78,8 @@ assert.equal(existsSync(join(root, "country-name-spelling-map/SOURCES.md")), tru
 
 assert.match(html, /country-name-spelling-terminal-v2\.mjs/);
 assert.match(html, /country-name-spelling-terminal-v2\.css/);
+assert.match(html, /20261104-homepage-serif1/);
+assert.match(html, /20261104-cinematic10/);
 assert.match(html, /data-edition="world"/);
 assert.match(html, /data-edition="hong-kong"/);
 assert.match(html, /data-terrain-map/);
@@ -95,6 +98,10 @@ assert.doesNotMatch(html, /data-target-name>FRANCE/i);
 assert.doesNotMatch(html, /M70 315L245 220/i, "old invented continent geometry must not remain in the page");
 
 assert.match(css, /perspective\(/);
+assert.match(baseCss, /font-family:\s*"Edmund Chinese Serif"/);
+assert.match(baseCss, /NotoSerifTC-VariableFont_wght\.ttf/);
+assert.match(baseCss, /unicode-range:/);
+assert.match(baseCss, /local\("Songti TC"\)/);
 assert.match(css, /prefers-reduced-motion:\s*reduce/);
 assert.match(css, /@media\s*\(max-width:\s*720px\)/);
 assert.match(css, /\.map-region\.is-target/);
