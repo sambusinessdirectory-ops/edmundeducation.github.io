@@ -90,6 +90,15 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         self.assertIn("tools/test-ielts-reading-passage2-flashcards.mjs", step)
         self.assertNotIn("tools/test-character-coins.mjs", step)
 
+    def test_standard_paper3_gate_runs_real_chromium_and_firefox_journey(self):
+        standard = BUILDERS[0]
+        marker = "- name: Validate focused Paper 3 curation release"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("/paper3/2023-b2/curation/", standard)
+        self.assertIn("playwright install --with-deps chromium firefox", step)
+        self.assertIn("tools/check-2023-b2-v7.cjs", step)
+        self.assertIn("127.0.0.1", step)
+
     def test_fast_releases_do_not_run_unrelated_song_quality_gate(self):
         standard = BUILDERS[0]
         marker = "- name: Check song exercise quality"

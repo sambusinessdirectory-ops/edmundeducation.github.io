@@ -191,6 +191,7 @@ jobs:
           case "${RELEASE_TAGS}" in
             *'[paper3-release]'*)
               cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /paper3/2023-b2/curation/
           /paper3/2025-b2/index.html
           /paper3/2025-b2/reader.js
           /paper3/2025-b2/sentence-analysis.js
@@ -685,6 +686,27 @@ jobs:
           node --check paper3/2025-b2/super-curation-highlights.js
           node --check paper3/2025-b2/super-curation.js
           node -e "const s=require('fs').readFileSync('paper3/2025-b2/index.html','utf8'); for(const name of ['super-curation.css','super-curation-highlights.js','super-curation.js']) if(!s.includes(name)) throw Error('Missing '+name)"
+          mkdir -p /tmp/paper3-playwright /tmp/paper3-evidence
+          npm --prefix /tmp/paper3-playwright init -y >/dev/null
+          npm --prefix /tmp/paper3-playwright install --no-save playwright@1.56.1 http-server@14.1.1 >/dev/null
+          /tmp/paper3-playwright/node_modules/.bin/playwright install --with-deps chromium firefox
+          /tmp/paper3-playwright/node_modules/.bin/http-server . -p 4173 -a 127.0.0.1 -c-1 >/tmp/paper3-http.log 2>&1 &
+          server_pid=$!
+          trap 'kill "${server_pid}"' EXIT
+          for attempt in {1..30}; do
+            if curl --fail --silent http://127.0.0.1:4173/paper3/2023-b2/curation/ >/dev/null; then break; fi
+            sleep 1
+          done
+          PAPER3_EVIDENCE_DIR=/tmp/paper3-evidence NODE_PATH=/tmp/paper3-playwright/node_modules node tools/check-2023-b2-v7.cjs 'http://127.0.0.1:4173/paper3/2023-b2/curation/?curation=1&release=${{ github.sha }}'
+
+      - name: Archive focused Paper 3 conformance evidence
+        if: ${{ always() && contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[paper3-release]') }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: paper3-v7-standard-conformance-${{ github.sha }}
+          path: /tmp/paper3-evidence
+          if-no-files-found: error
+          retention-days: 30
 
       - name: Validate focused DSE Reading release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[reading-release]') }}
