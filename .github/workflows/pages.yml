@@ -299,7 +299,22 @@ jobs:
               echo '/dse-argument-bank/' >> .git/info/sparse-checkout
               ;;
             *'[writing-preview-release]'*)
-              echo '/ielts-writing-preview/' >> .git/info/sparse-checkout
+              cat >> .git/info/sparse-checkout <<'PATTERNS'
+          /ielts-writing-preview/
+          /assets/writing-practice/questions/ielts-task1/
+          /assets/model-essays/
+          /writing-practice-*-data.js
+          /writing-audio*.js
+          /writing-submission-reference-data.mjs
+          /workers/model-essay-downloads/src/
+          /supabase/migrations/
+          /synonyms/
+          !/synonyms/audio/
+          !/synonyms/lesson-audio/
+          !/synonyms/source/
+          /polysemy-lab/
+          !/polysemy-lab/audio/
+          PATTERNS
               ;;
             *'[chart-release]'*)
               echo '/ielts-chart-teaching/' >> .git/info/sparse-checkout
