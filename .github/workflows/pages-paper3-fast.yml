@@ -11,7 +11,7 @@ permissions:
 
 jobs:
   build:
-    if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') }}
+    if: ${{ contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]') && !contains(github.event.head_commit.message, '[full-release]') }}
     runs-on: ubuntu-latest
     timeout-minutes: 25
     permissions:
