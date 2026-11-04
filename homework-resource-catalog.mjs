@@ -36462,6 +36462,2310 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "model-essay-downloads.html?catalog=dse-writing-part-a&item=3db28a2e7b7457d4"
   },
   {
+    "id": "model-essay-memorization:task1-bar-charts:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The chart below shows the number of households in the US by their annual income in 2007, 2011 and 2015. Summarise the information by selecting a",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A1"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below gives information on the numbers of participants for different activities at one social centre in Melbourne, Australia for the p",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A1"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The plans below show the site ofa farm in 1950 and the same site today. Summarise the information byselecting and reporting the main features, and mak",
+    "url": "essay-memorization.html?essay=task1-maps%3A1"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The charts below give information about a public library in a town called Little Chalfont. Summarise the information by selecting and reportin",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A1"
+  },
+  {
+    "id": "model-essay-memorization:task1-pie-charts:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts · The charts below show the average percentages in typical meals of three types of nutrients, all of which may be unhealthy if eaten too much. Sum",
+    "url": "essay-memorization.html?essay=task1-pie-charts%3A1"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows how fabric is manufactured from bamboo. Summarise the information by selecting and reporting the main features, and",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A1"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:1",
+    "type": "model-essay-memorization",
+    "ordinal": 1,
+    "label": "Model Essay 1 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The first table below shows changes in the total population of New York City from 1800 to 2000. The second and third tablesshow changes in the popul",
+    "url": "essay-memorization.html?essay=task1-tables%3A1"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · An increasing number of people are buying what they need online. What are the advantages and disadvantages for both individuals ",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A2"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Large businesses have big budgets for marketing and promotion and as a result, people gravitate towards buying their products. What proble",
+    "url": "essay-memorization.html?essay=cause-solution%3A2"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · The performance of staff can have a significant impact on the success of a company. What can companies do to increase staff productivity?",
+    "url": "essay-memorization.html?essay=direct-question%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The chart below gives information about how families in one country spent their weekly income in 1968 and in 2018. Summarise the information by ",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below gives information about the percentage of the population in four Asian countries living in cities from 1970 to 2020, with predic",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The plans below show a harbour in 2000 and how it looks today. Summarise the information by selecting and reporting the main features, and make compar",
+    "url": "essay-memorization.html?essay=task1-maps%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The charts below give information on the location and types of dance classes young people in a town in Australia are currently attending. Summ",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-pie-charts:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts · The charts below show the percentage of water used for different purposes in six areas of the world. Summarise the information by selecting and ",
+    "url": "essay-memorization.html?essay=task1-pie-charts%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows how a biofuel called ethanol is produced. Summarise the information by selecting and reporting the main features, a",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A2"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:2",
+    "type": "model-essay-memorization",
+    "ordinal": 2,
+    "label": "Model Essay 2 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The tables below give information about sales of Fairtrade*-labelled coffee and bananas in 1999 and 2004 in five European countries. Summarise the i",
+    "url": "essay-memorization.html?essay=task1-tables%3A2"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · It is common practice for some students to take a gap year between high school and university in order to do charitable work abr",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A3"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Rich countries are getting richer while poor countries are getting poorer. What is the cause of this? What could be done to solve this pro",
+    "url": "essay-memorization.html?essay=cause-solution%3A3"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some companies have uniforms for their staff which must be worn at all times. What are the advantages for a company of having a uniform? Ar",
+    "url": "essay-memorization.html?essay=direct-question%3A3"
+  },
+  {
+    "id": "model-essay-memorization:opinion:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Many people think that museums and galleries should only show work from local artists rather than work from other countries. Do you agree? (2021, 2",
+    "url": "essay-memorization.html?essay=opinion%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The chart below shows the results of a survey about people's coffee and tea buying and drinking habits in five Australian cities. Summarise the ",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below shows the average monthly change in the prices of three metals during 2014. Summarise the information by selecting and reporting",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The diagram below shows the floor plan of a public library 20 years ago and how it looks now. Summarise the information by selecting and reporting the",
+    "url": "essay-memorization.html?essay=task1-maps%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The table and charts below give information on the police budget for 2017 and 2018 in one area of Britain. The table shows where the money cam",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-pie-charts:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts · The charts below show the proportions of British students at one university in England who were able to speak other languages in addition to Eng",
+    "url": "essay-memorization.html?essay=task1-pie-charts%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows the manufacturing process for making sugar from sugar cane. Summarise the information by selecting and reporting th",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A3"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:3",
+    "type": "model-essay-memorization",
+    "ordinal": 3,
+    "label": "Model Essay 3 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table below provides statistics on several major metro (MRT) systems around the world. Summarise the information by selecting and reporting the ",
+    "url": "essay-memorization.html?essay=task1-tables%3A3"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some people enjoy change in life, while other people try to avoid it. What are the advantages and disadvantages of both approach",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A4"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Many young children have unsupervised access to the internet and are using the internet to socialise with others. This can lead to a numbe",
+    "url": "essay-memorization.html?essay=cause-solution%3A4"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Sales companies should recruit people who are hungry for money as they will make the most dedicated workers. Do you think money is the driv",
+    "url": "essay-memorization.html?essay=direct-question%3A4"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A4"
+  },
+  {
+    "id": "model-essay-memorization:opinion:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Artists need a certain amount of freedom to develop their creativity. Some people think that artists should have total freedom to express any thoug",
+    "url": "essay-memorization.html?essay=opinion%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The chart below shows the percentage of households in owned and rented accommodation in England and Wales between 1918 and 2011. Summarise the i",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below shows the number of shops that closed and the number of new shops that opened in one country between 2011 and 2018. Summarise th",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The maps below show an industrial area in the town of Norbiton, and planned future development of the site. Summarise the information by selecting and",
+    "url": "essay-memorization.html?essay=task1-maps%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The chart below shows the value of one country's exports in various categories during 2015 and 2016.Thetable shows the percentage change in ea",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-pie-charts:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts · The first chart below shows how energy is used in an average Australian household. The second chart shows the greenhouse gas emissions which res",
+    "url": "essay-memorization.html?essay=task1-pie-charts%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows the process for recycling plastic bottles. Summarise the information by selecting and reporting the main features, ",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A4"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:4",
+    "type": "model-essay-memorization",
+    "ordinal": 4,
+    "label": "Model Essay 4 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table chart below shows the number of nights spent by domestic and international tourists in Germany from 2016 to 2022 (in millions). Summarise ",
+    "url": "essay-memorization.html?essay=task1-tables%3A4"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · More and more businesses as well as individuals are choosing to communicate either professionally or socially using technology r",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A5"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people believe that the higher a product is priced, the more likely it is that people will want to buy it. To what extent does price i",
+    "url": "essay-memorization.html?essay=direct-question%3A5"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that when recruiting, companies should aim to take on people who are innovative and able to work independently while o",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A5"
+  },
+  {
+    "id": "model-essay-memorization:opinion:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Most artists earn low salaries and should therefore receive funding from the government in order for them to continue with their work. To what exte",
+    "url": "essay-memorization.html?essay=opinion%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The bar chart below shows the top ten countries for the production and consumption of electricity in 2014. Summarise the information by selectin",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The charts below show the changes in ownership of electrical appliances and amount of time spent doing housework in households in one country be",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The plans below show the site of anairport now and how it will look after redevelopment next year. Summarise the information by selecting and reportin",
+    "url": "essay-memorization.html?essay=task1-maps%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The chart below shows the value of one country's exports in various categories during 2015 and 2016.Thetable shows the percentage change in ea",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-pie-charts:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts · The charts below give information on the ages of the populations of Yemen and Italy in 2000 and projections for 2050. Summarise the information ",
+    "url": "essay-memorization.html?essay=task1-pie-charts%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows how instant noodles are manufactured. Summarise the information by selecting and reporting the main features, and m",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A5"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:5",
+    "type": "model-essay-memorization",
+    "ordinal": 5,
+    "label": "Model Essay 5 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table shows the worldwide market share of the mobile phone market for manufacturers in the years 2005 and 2006. Summarise the information by sel",
+    "url": "essay-memorization.html?essay=task1-tables%3A5"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some people think that being able to communicate with others online is breaking down geographical barriers and enabling people, ",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A6"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Crime rate, in most countries, is often higher in urban areas than in rural areas. Why do you think that is? What can be done to reduce th",
+    "url": "essay-memorization.html?essay=cause-solution%3A6"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people think that the only way to judge someone's success in business is by the amount of money they make. Is money a true indicator o",
+    "url": "essay-memorization.html?essay=direct-question%3A6"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that the only way to have success in business is to have a unique product. What factors, do you think, influence the s",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A6"
+  },
+  {
+    "id": "model-essay-memorization:opinion:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Due to the development and rapid expansion of supermarkets in some countries, many small, local business are unable to compete. Some people think t",
+    "url": "essay-memorization.html?essay=opinion%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The bar chart below shows the percentage of Australian men and women in different age groups who did regular physical activity in 2010. Summaris",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below shows the number of tourists visiting a particular Caribbean island between 2010 and 2017. Summarise the information by selectin",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The plans below show a public park when it first opened in 1920 and the same park today. Summarise the information by selecting and reporting the main",
+    "url": "essay-memorization.html?essay=task1-maps%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show t",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-pie-charts:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Pie Charts",
+    "detail": "IELTS Writing Task 1 · Pie Charts · The three pie charts below show the changes in annual spending by a particular UK school in 1981, 1991 and 2001. Summarise the information by se",
+    "url": "essay-memorization.html?essay=task1-pie-charts%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows how electricity is generated in a hydroelectric power station. Summarise the information by selecting and reporting",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A6"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:6",
+    "type": "model-essay-memorization",
+    "ordinal": 6,
+    "label": "Model Essay 6 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table below shows the results of a survey of first-year students taking various courses at a particular university. It shows how many of the stu",
+    "url": "essay-memorization.html?essay=task1-tables%3A6"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Many people believe that having a fixed punishment for all crimes is more efficient. What are the advantages and disadvantages o",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A7"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · In nearly all science courses at university, there are significantly more male students than female students. What is the reason for this?",
+    "url": "essay-memorization.html?essay=cause-solution%3A7"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people fail in school, but end up being successful in life. Why do you think that is the case? What is the most important thing to suc",
+    "url": "essay-memorization.html?essay=direct-question%3A7"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that it is better for a country's economy for people to spend money, while others believe that it would be better for ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A7"
+  },
+  {
+    "id": "model-essay-memorization:opinion:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Companies should provide sports and social facilities for local communities. To what extent do you agree? (Reported 2017, 2021)",
+    "url": "essay-memorization.html?essay=opinion%3A7"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The charts below show what UK graduate and postgraduate students who did not go into full-time work did after leaving college in 2008. Summarise",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A7"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below shows average carbon dioxide (CO2) emissions per person in the United Kingdom, Sweden, Italy and Portugal between 1967 and 2007.",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A7"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The two maps below show road access to a city hospital in 2007 and in 2010. Summarise the information by selecting and reporting the main features, an",
+    "url": "essay-memorization.html?essay=task1-maps%3A7"
+  },
+  {
+    "id": "model-essay-memorization:task1-mixed-charts:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Mixed Charts",
+    "detail": "IELTS Writing Task 1 · Mixed Charts · The table below shows the number of visitors to Ashdown Museum during the year before and the year after it was refurbished. The charts show t",
+    "url": "essay-memorization.html?essay=task1-mixed-charts%3A7"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagram below shows how geothermal energy is used to produce electricity. Summarise the information by selecting and reporting the main",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A7"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:7",
+    "type": "model-essay-memorization",
+    "ordinal": 7,
+    "label": "Model Essay 7 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table details the international tourist arrivals in millions in 8 countries in 2009 and 2010 and the changes (in percentages). Summarise the inf",
+    "url": "essay-memorization.html?essay=task1-tables%3A7"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some educationalists think that international exchange visits will benefit teenagers at the school. To what extent do the advant",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A8"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Many management interviews are based around assessing not only a person's level of experience and knowledge but also their personality. Is ",
+    "url": "essay-memorization.html?essay=direct-question%3A8"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that teenagers are happier than adults, but others do not agree. Discuss both sides and give your opinion.",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A8"
+  },
+  {
+    "id": "model-essay-memorization:opinion:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · \"If the product is good and meets consumer needs than advertising is unnecessary. To what extent do you agree? (2023)",
+    "url": "essay-memorization.html?essay=opinion%3A8"
+  },
+  {
+    "id": "model-essay-memorization:task1-bar-charts:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Bar Charts",
+    "detail": "IELTS Writing Task 1 · Bar Charts · The chart below shows the total number of minutes (in billions) of telephone calls in the UK, divided into three categories, from 1995—2002. Sum",
+    "url": "essay-memorization.html?essay=task1-bar-charts%3A8"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below gives information from a 2008 report about consumption of energy in the USA since 1980 with projections until 2030. Summarise th",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A8"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The plans below show the layout of a university's sports centre now, and how it will look after redevelopment. Summarise the information by selecting ",
+    "url": "essay-memorization.html?essay=task1-maps%3A8"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagrams below show the life cycle of a species of large fish called the salmon. Summarise the information by selecting and reporting t",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A8"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:8",
+    "type": "model-essay-memorization",
+    "ordinal": 8,
+    "label": "Model Essay 8 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table below gives information about management positions held by women in a European country in 2006. Summarise the information by selecting and",
+    "url": "essay-memorization.html?essay=task1-tables%3A8"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some schools are very strict about their school uniforms and the appearance of their pupils, while other schools have a very rel",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A9"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · The number of people who are at risk of serious health problems due to being overweight is increasing. What is the reason for the growth o",
+    "url": "essay-memorization.html?essay=cause-solution%3A9"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · It is often thought that the increase in juvenile crime can be attributed to violence in the media. Do you agree that this is the main caus",
+    "url": "essay-memorization.html?essay=direct-question%3A9"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that intelligence is innate, while others think that we can improve our intelligence through learning. Discuss both si",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A9"
+  },
+  {
+    "id": "model-essay-memorization:opinion:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some countries encourage foreign companies to open in their country. Many people think that the government should focus on encouraging local busine",
+    "url": "essay-memorization.html?essay=opinion%3A9"
+  },
+  {
+    "id": "model-essay-memorization:task1-line-graph:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Line Graph",
+    "detail": "IELTS Writing Task 1 · Line Graph · The graph below shows the quantities of goods transported in the UK between 1974 and 2002 by four different modes of transport. Summarise the in",
+    "url": "essay-memorization.html?essay=task1-line-graph%3A9"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The plans below show a public park when it first opened in 1920 and the same park today. Summarise the information by selecting and reporting the main",
+    "url": "essay-memorization.html?essay=task1-maps%3A9"
+  },
+  {
+    "id": "model-essay-memorization:task1-process-diagram:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Process Diagram",
+    "detail": "IELTS Writing Task 1 · Process Diagram · The diagrams below show the stages and equipment used in the cement-making process, and how cement is used to produce concrete for building",
+    "url": "essay-memorization.html?essay=task1-process-diagram%3A9"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:9",
+    "type": "model-essay-memorization",
+    "ordinal": 9,
+    "label": "Model Essay 9 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table below shows the consumption of three basic foods (wheat, maize, rice) by people in four different countries. Summarise the information by ",
+    "url": "essay-memorization.html?essay=task1-tables%3A9"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · In some countries, girls and boys are educated in different schools rather than in the same school. What are the advantages and ",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A10"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Walking is known to be beneficial for health and yet fewer and fewer people are walking these days. What are the reasons for this? What ca",
+    "url": "essay-memorization.html?essay=cause-solution%3A10"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Many crimes are often related to the consumption of alcohol. Some people think that the best way to reduce the crime rate is to ban alcohol",
+    "url": "essay-memorization.html?essay=direct-question%3A10"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think our first impression of someone is important, while others think we should not judge another person so quickly and sho",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A10"
+  },
+  {
+    "id": "model-essay-memorization:opinion:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Marketing and promotion is the key to a successful business. To what extent do you agree? (repeated frequently)",
+    "url": "essay-memorization.html?essay=opinion%3A10"
+  },
+  {
+    "id": "model-essay-memorization:task1-maps:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS Task 1 - Maps",
+    "detail": "IELTS Writing Task 1 · Maps · The two maps below show an island, before and after the construction of some tourist facilities. Summarise the information by selecting and reporting ",
+    "url": "essay-memorization.html?essay=task1-maps%3A10"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:10",
+    "type": "model-essay-memorization",
+    "ordinal": 10,
+    "label": "Model Essay 10 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table shows the Proportions of Pupils Attending Four Secondary School Types Between 2000 and 2009. Summarize the information by selecting and re",
+    "url": "essay-memorization.html?essay=task1-tables%3A10"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:11",
+    "type": "model-essay-memorization",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Fewer schools are requiring children to learn and improve their hand writing skills. Do the advantages outweigh the disadvantage",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A11"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:11",
+    "type": "model-essay-memorization",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · In many countries, people are moving away from rural areas and towards urban areas. Why do you think that is? What problems can this cause",
+    "url": "essay-memorization.html?essay=cause-solution%3A11"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:11",
+    "type": "model-essay-memorization",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some children receive almost no encouragement from their parents regarding their performance at school, while other children receive too mu",
+    "url": "essay-memorization.html?essay=direct-question%3A11"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:11",
+    "type": "model-essay-memorization",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that the government should be responsible for crime prevention, while others believe that it is the responsibility of ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A11"
+  },
+  {
+    "id": "model-essay-memorization:opinion:11",
+    "type": "model-essay-memorization",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Small businesses should avoid recruiting young women who do not have their own family in order to avoid paying maternity leave later on. To what ex",
+    "url": "essay-memorization.html?essay=opinion%3A11"
+  },
+  {
+    "id": "model-essay-memorization:task1-tables:11",
+    "type": "model-essay-memorization",
+    "ordinal": 11,
+    "label": "Model Essay 11 - IELTS Task 1 - Tables",
+    "detail": "IELTS Writing Task 1 · Tables · The table below gives information about the daily cost of water per person in five different countries. Summarize the information by selecting and r",
+    "url": "essay-memorization.html?essay=task1-tables%3A11"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:12",
+    "type": "model-essay-memorization",
+    "ordinal": 12,
+    "label": "Model Essay 12 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some people think it is better for children to grow up in the city, while others think that life in the countryside is more suit",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A12"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:12",
+    "type": "model-essay-memorization",
+    "ordinal": 12,
+    "label": "Model Essay 12 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · The population of most cities is growing as people move to cities to find work and new opportunities. What problems does overpopulation in",
+    "url": "essay-memorization.html?essay=cause-solution%3A12"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:12",
+    "type": "model-essay-memorization",
+    "ordinal": 12,
+    "label": "Model Essay 12 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people think that teachers should be able to ask disruptive children to leave the class. Do you think it is the best way to deal with ",
+    "url": "essay-memorization.html?essay=direct-question%3A12"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:12",
+    "type": "model-essay-memorization",
+    "ordinal": 12,
+    "label": "Model Essay 12 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Discipline is an ever increasing problem in modern schools. Some people think that discipline should be the responsibility of teachers, ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A12"
+  },
+  {
+    "id": "model-essay-memorization:opinion:12",
+    "type": "model-essay-memorization",
+    "ordinal": 12,
+    "label": "Model Essay 12 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The reason that most individuals are in debit is due to the overuse as well as irresponsible use of credit cards. Banks should not issue credit car",
+    "url": "essay-memorization.html?essay=opinion%3A12"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:13",
+    "type": "model-essay-memorization",
+    "ordinal": 13,
+    "label": "Model Essay 13 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · More and more children are accessing the internet unsupervised and at a younger age. This can sometimes put children at risk. What problem",
+    "url": "essay-memorization.html?essay=cause-solution%3A13"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:13",
+    "type": "model-essay-memorization",
+    "ordinal": 13,
+    "label": "Model Essay 13 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people think that educated people are more valuable than people who have learned skills through experience. Do you think that educated",
+    "url": "essay-memorization.html?essay=direct-question%3A13"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:13",
+    "type": "model-essay-memorization",
+    "ordinal": 13,
+    "label": "Model Essay 13 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people believe that children should not be given homework everyday, while others believe that they must get homework everyday in or",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A13"
+  },
+  {
+    "id": "model-essay-memorization:opinion:13",
+    "type": "model-essay-memorization",
+    "ordinal": 13,
+    "label": "Model Essay 13 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that ambition is essential for success. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A13"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:14",
+    "type": "model-essay-memorization",
+    "ordinal": 14,
+    "label": "Model Essay 14 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · In some countries, most people prefer to rent their homes rather than buying them. What are the advantages and disadvantages of ",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A14"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:14",
+    "type": "model-essay-memorization",
+    "ordinal": 14,
+    "label": "Model Essay 14 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · As a result of tourism and the increasing number of people travelling, there is a growing demand for more flights. What problems does this",
+    "url": "essay-memorization.html?essay=cause-solution%3A14"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:14",
+    "type": "model-essay-memorization",
+    "ordinal": 14,
+    "label": "Model Essay 14 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · The gap between education in richer countries and education in poorer countries is a growing concern. What solutions can you suggest to dea",
+    "url": "essay-memorization.html?essay=direct-question%3A14"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:14",
+    "type": "model-essay-memorization",
+    "ordinal": 14,
+    "label": "Model Essay 14 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some parents believe that their children should do educational activities during their free time. Others say that in this way children a",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A14"
+  },
+  {
+    "id": "model-essay-memorization:opinion:14",
+    "type": "model-essay-memorization",
+    "ordinal": 14,
+    "label": "Model Essay 14 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that charisma is essential for success. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A14"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:15",
+    "type": "model-essay-memorization",
+    "ordinal": 15,
+    "label": "Model Essay 15 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some people think that all children in school should learn a foreign language at an early age. What are the advantages and disad",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A15"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:15",
+    "type": "model-essay-memorization",
+    "ordinal": 15,
+    "label": "Model Essay 15 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Eco-tourism usually involves people visiting remote areas. Some people think this will have a negative impact on local cultures and commun",
+    "url": "essay-memorization.html?essay=cause-solution%3A15"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:15",
+    "type": "model-essay-memorization",
+    "ordinal": 15,
+    "label": "Model Essay 15 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · In some high schools, part of the curriculum requires students to participate in community work such as helping the elderly or disabled. In",
+    "url": "essay-memorization.html?essay=direct-question%3A15"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:15",
+    "type": "model-essay-memorization",
+    "ordinal": 15,
+    "label": "Model Essay 15 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Being able to speak a foreign language is an advantage these days. Some people think that children should start learning a foreign langu",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A15"
+  },
+  {
+    "id": "model-essay-memorization:opinion:15",
+    "type": "model-essay-memorization",
+    "ordinal": 15,
+    "label": "Model Essay 15 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that orator skills are essential for success. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A15"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:16",
+    "type": "model-essay-memorization",
+    "ordinal": 16,
+    "label": "Model Essay 16 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Companies spend millions each year on advertising online, in magazines and on billboards. These adverts can encourage people to ",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A16"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:16",
+    "type": "model-essay-memorization",
+    "ordinal": 16,
+    "label": "Model Essay 16 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · In some cities and towns all over the world, the high volume of traffic is a problem. What are the causes of this and what actions can be ",
+    "url": "essay-memorization.html?essay=cause-solution%3A16"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:16",
+    "type": "model-essay-memorization",
+    "ordinal": 16,
+    "label": "Model Essay 16 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · It is thought by some that a school teacher's role is to motivate and inspire students. However, other people believe that a teacher's prim",
+    "url": "essay-memorization.html?essay=direct-question%3A16"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:16",
+    "type": "model-essay-memorization",
+    "ordinal": 16,
+    "label": "Model Essay 16 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that schools should invest more money in technology, such as more computers, while others think more money should be s",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A16"
+  },
+  {
+    "id": "model-essay-memorization:opinion:16",
+    "type": "model-essay-memorization",
+    "ordinal": 16,
+    "label": "Model Essay 16 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that people skills are essential for success. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A16"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:17",
+    "type": "model-essay-memorization",
+    "ordinal": 17,
+    "label": "Model Essay 17 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Public libraries will soon no longer be housed in a building as all facilities and books will be available online for everyone t",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A17"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:17",
+    "type": "model-essay-memorization",
+    "ordinal": 17,
+    "label": "Model Essay 17 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · More and more people are moving away from an agricultural background to relocate to cities in order to look for work. What will be the con",
+    "url": "essay-memorization.html?essay=cause-solution%3A17"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:17",
+    "type": "model-essay-memorization",
+    "ordinal": 17,
+    "label": "Model Essay 17 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · With increasing populations and ever growing urban centers, many countries are losing their natural beauty spots. What benefits are there t",
+    "url": "essay-memorization.html?essay=direct-question%3A17"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:17",
+    "type": "model-essay-memorization",
+    "ordinal": 17,
+    "label": "Model Essay 17 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that parents have the greatest influence on their child's academic development, while others think that a child's teac",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A17"
+  },
+  {
+    "id": "model-essay-memorization:opinion:17",
+    "type": "model-essay-memorization",
+    "ordinal": 17,
+    "label": "Model Essay 17 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · People were happier in previous generations compared to now. To what extent do you agree",
+    "url": "essay-memorization.html?essay=opinion%3A17"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:18",
+    "type": "model-essay-memorization",
+    "ordinal": 18,
+    "label": "Model Essay 18 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Many countries aim to improve their living standard by economic development, but some important social values are lost as a resu",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A18"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:18",
+    "type": "model-essay-memorization",
+    "ordinal": 18,
+    "label": "Model Essay 18 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Many people find it hard to balance their work with other parts of their lives. What are the reasons for this? How can this problem be ove",
+    "url": "essay-memorization.html?essay=cause-solution%3A18"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:18",
+    "type": "model-essay-memorization",
+    "ordinal": 18,
+    "label": "Model Essay 18 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · With deforestation, urban development and illegal hunting, many animal species are becoming endangered as they lose their habitat and some ",
+    "url": "essay-memorization.html?essay=direct-question%3A18"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:18",
+    "type": "model-essay-memorization",
+    "ordinal": 18,
+    "label": "Model Essay 18 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that it is beneficial for old people to learn something new while others believe that once a person is past 65 years o",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A18"
+  },
+  {
+    "id": "model-essay-memorization:opinion:18",
+    "type": "model-essay-memorization",
+    "ordinal": 18,
+    "label": "Model Essay 18 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · People were stressed in previous generations compared to now. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A18"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:19",
+    "type": "model-essay-memorization",
+    "ordinal": 19,
+    "label": "Model Essay 19 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Globalisation has both advantages and disadvantages. Discuss both and give your opinion. ____ (advantage + disadvantage question",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A19"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:19",
+    "type": "model-essay-memorization",
+    "ordinal": 19,
+    "label": "Model Essay 19 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · In some developing countries, it is difficult to get good teachers to work in rural areas which can have a negative impact on the educatio",
+    "url": "essay-memorization.html?essay=cause-solution%3A19"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:19",
+    "type": "model-essay-memorization",
+    "ordinal": 19,
+    "label": "Model Essay 19 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Human activity has had a negative impact on plants and animals around the world. Some people think that this cannot be changed, while ot",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A19"
+  },
+  {
+    "id": "model-essay-memorization:opinion:19",
+    "type": "model-essay-memorization",
+    "ordinal": 19,
+    "label": "Model Essay 19 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Nowadays celebrities are more famous for their glamour and wealth than for their achievements, and this sets a bad example to young people. To what",
+    "url": "essay-memorization.html?essay=opinion%3A19"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:20",
+    "type": "model-essay-memorization",
+    "ordinal": 20,
+    "label": "Model Essay 20 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · In many cities there is a lack of space to develop and as a result, in order to modernise, old buildings are demolished and repl",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A20"
+  },
+  {
+    "id": "model-essay-memorization:cause-solution:20",
+    "type": "model-essay-memorization",
+    "ordinal": 20,
+    "label": "Model Essay 20 - IELTS - Cause / Solution",
+    "detail": "IELTS Writing Task 2 · Cause / Solution · Some people with a good education and experience in their field decide to move abroad to work. Why do you think that is? What problems doe",
+    "url": "essay-memorization.html?essay=cause-solution%3A20"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:20",
+    "type": "model-essay-memorization",
+    "ordinal": 20,
+    "label": "Model Essay 20 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think an international car-free day is an effective way to reduce air pollution. Others think there are more effective ways ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A20"
+  },
+  {
+    "id": "model-essay-memorization:opinion:20",
+    "type": "model-essay-memorization",
+    "ordinal": 20,
+    "label": "Model Essay 20 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some celebrities feel that the media violates their personal space and shares their private life publicly, while others feel it is just part of bei",
+    "url": "essay-memorization.html?essay=opinion%3A20"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:21",
+    "type": "model-essay-memorization",
+    "ordinal": 21,
+    "label": "Model Essay 21 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Many things that used to be done in the home by hands are now being done by machines. Does this development bring more advantage",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A21"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:21",
+    "type": "model-essay-memorization",
+    "ordinal": 21,
+    "label": "Model Essay 21 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · While some people consider global warming to be the most pressing environmental problem which we have at the moment, others believe that",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A21"
+  },
+  {
+    "id": "model-essay-memorization:opinion:21",
+    "type": "model-essay-memorization",
+    "ordinal": 21,
+    "label": "Model Essay 21 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The way someone dresses speaks volumes about their personality. To what extent do you agree? (common question)",
+    "url": "essay-memorization.html?essay=opinion%3A21"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:22",
+    "type": "model-essay-memorization",
+    "ordinal": 22,
+    "label": "Model Essay 22 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · New household appliances have resulted in more free time for women and has enabled them to both work and run a home with depende",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A22"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:22",
+    "type": "model-essay-memorization",
+    "ordinal": 22,
+    "label": "Model Essay 22 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that current environmental issues are global problems and should therefore be dealt with by the government while other",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A22"
+  },
+  {
+    "id": "model-essay-memorization:opinion:22",
+    "type": "model-essay-memorization",
+    "ordinal": 22,
+    "label": "Model Essay 22 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · With an increasing population communicating via the internet and text messaging, face to face communication will become a thing of the past. To wha",
+    "url": "essay-memorization.html?essay=opinion%3A22"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:23",
+    "type": "model-essay-memorization",
+    "ordinal": 23,
+    "label": "Model Essay 23 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · The development of tourism contributed to English becoming the most prominent language in the world. Some people think this will",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A23"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:23",
+    "type": "model-essay-memorization",
+    "ordinal": 23,
+    "label": "Model Essay 23 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that the role of parents is to discipline their children and teach them about right and wrong. Other people consider t",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A23"
+  },
+  {
+    "id": "model-essay-memorization:opinion:23",
+    "type": "model-essay-memorization",
+    "ordinal": 23,
+    "label": "Model Essay 23 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · With the development of online communication, people will never be alone and will always be able to make new friends. To what extent do you agree? ",
+    "url": "essay-memorization.html?essay=opinion%3A23"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:24",
+    "type": "model-essay-memorization",
+    "ordinal": 24,
+    "label": "Model Essay 24 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Many people around the world now take regular international flights. Do the advantages of this trend outweigh the disadvantages ",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A24"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:24",
+    "type": "model-essay-memorization",
+    "ordinal": 24,
+    "label": "Model Essay 24 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that the government is responsible for the rise in obesity in children, while others think it is the fault of the pare",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A24"
+  },
+  {
+    "id": "model-essay-memorization:opinion:24",
+    "type": "model-essay-memorization",
+    "ordinal": 24,
+    "label": "Model Essay 24 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Communication through text messaging and other instant forms of online communication are short and basic. Some people think this will be the death ",
+    "url": "essay-memorization.html?essay=opinion%3A24"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:25",
+    "type": "model-essay-memorization",
+    "ordinal": 25,
+    "label": "Model Essay 25 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some people think that it should be compulsory for people to retake their driving test every 5 years. What are the advantages an",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A25"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:25",
+    "type": "model-essay-memorization",
+    "ordinal": 25,
+    "label": "Model Essay 25 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Most modern families have both parents working and as a result children spend less and less time with their parents. What is the reason for",
+    "url": "essay-memorization.html?essay=direct-question%3A25"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:25",
+    "type": "model-essay-memorization",
+    "ordinal": 25,
+    "label": "Model Essay 25 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that public health is the responsibility of the government while others think that people should be responsible for th",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A25"
+  },
+  {
+    "id": "model-essay-memorization:opinion:25",
+    "type": "model-essay-memorization",
+    "ordinal": 25,
+    "label": "Model Essay 25 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Our personalities are predetermined as a result of our genes before we are born and there is nothing that can be done to alter our character traits",
+    "url": "essay-memorization.html?essay=opinion%3A25"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:26",
+    "type": "model-essay-memorization",
+    "ordinal": 26,
+    "label": "Model Essay 26 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · One way to solve the problem of congestion in cities is to build sky trains which run overhead rather than on or under the groun",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A26"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:26",
+    "type": "model-essay-memorization",
+    "ordinal": 26,
+    "label": "Model Essay 26 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · The nuclear family is well adapted to move geographically due to its size. Do you think children benefit in any way from moving? Do you thi",
+    "url": "essay-memorization.html?essay=direct-question%3A26"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:26",
+    "type": "model-essay-memorization",
+    "ordinal": 26,
+    "label": "Model Essay 26 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that old buildings should be protected, while others believe that they should be replaced by newer buildings. Discuss ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A26"
+  },
+  {
+    "id": "model-essay-memorization:opinion:26",
+    "type": "model-essay-memorization",
+    "ordinal": 26,
+    "label": "Model Essay 26 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that women are generally more peaceful than men as their characters are naturally more nurturing than aggressive. To what extent ",
+    "url": "essay-memorization.html?essay=opinion%3A26"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:27",
+    "type": "model-essay-memorization",
+    "ordinal": 27,
+    "label": "Model Essay 27 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Some employers want to be able to contact their staff at all times, even on holidays. Does this development have more advantages",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A27"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:27",
+    "type": "model-essay-memorization",
+    "ordinal": 27,
+    "label": "Model Essay 27 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · These days people are living into their 90's and beyond. As a result, there is increasing concern about care for the elderly. Do you think ",
+    "url": "essay-memorization.html?essay=direct-question%3A27"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:27",
+    "type": "model-essay-memorization",
+    "ordinal": 27,
+    "label": "Model Essay 27 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some companies sponsor sports as a way to advertise themselves. Some people think it is good, while others think there are disadvantages",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A27"
+  },
+  {
+    "id": "model-essay-memorization:opinion:27",
+    "type": "model-essay-memorization",
+    "ordinal": 27,
+    "label": "Model Essay 27 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The crime rate nowadays is decreasing compared to the past due to advance technology which can prevent and solve crime. Do you agree or disagree? (",
+    "url": "essay-memorization.html?essay=opinion%3A27"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:28",
+    "type": "model-essay-memorization",
+    "ordinal": 28,
+    "label": "Model Essay 28 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · More companies should employ older people. What are the advantages and disadvantages for a company doing this?",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A28"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:28",
+    "type": "model-essay-memorization",
+    "ordinal": 28,
+    "label": "Model Essay 28 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Should governments make decisions about people's lifestyle, or should people make their own decisions?",
+    "url": "essay-memorization.html?essay=direct-question%3A28"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:28",
+    "type": "model-essay-memorization",
+    "ordinal": 28,
+    "label": "Model Essay 28 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · More and more newspapers and news channels are using photographs to support their news articles and stories. Some people think that phot",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A28"
+  },
+  {
+    "id": "model-essay-memorization:opinion:28",
+    "type": "model-essay-memorization",
+    "ordinal": 28,
+    "label": "Model Essay 28 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · In some societies, the number of crimes committed by teenagers is growing. Some people think that regardless of age, teenagers who commit major cri",
+    "url": "essay-memorization.html?essay=opinion%3A28"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:29",
+    "type": "model-essay-memorization",
+    "ordinal": 29,
+    "label": "Model Essay 29 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · Many children are encouraged by their parents to get a part time job in their free time. What are the advantages and disadvantag",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A29"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:29",
+    "type": "model-essay-memorization",
+    "ordinal": 29,
+    "label": "Model Essay 29 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Should the amount of time spent on sport and exercise be increased in schools in order to tackle the problem of overweight children? Do you",
+    "url": "essay-memorization.html?essay=direct-question%3A29"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:29",
+    "type": "model-essay-memorization",
+    "ordinal": 29,
+    "label": "Model Essay 29 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people believe that what children watch on television influences their behaviour. Others say that amount of time spent watching tel",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A29"
+  },
+  {
+    "id": "model-essay-memorization:opinion:29",
+    "type": "model-essay-memorization",
+    "ordinal": 29,
+    "label": "Model Essay 29 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some countries are struggling with an increase in the rate of crime. Many people think that having more police on the streets is the only way to re",
+    "url": "essay-memorization.html?essay=opinion%3A29"
+  },
+  {
+    "id": "model-essay-memorization:advantage-disadvantage:30",
+    "type": "model-essay-memorization",
+    "ordinal": 30,
+    "label": "Model Essay 30 - IELTS - Advantages / Disadvantages",
+    "detail": "IELTS Writing Task 2 · Advantages / Disadvantages · The number of people working online from home has grown in some countries. What advantages and disadvantages can come of this tr",
+    "url": "essay-memorization.html?essay=advantage-disadvantage%3A30"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:30",
+    "type": "model-essay-memorization",
+    "ordinal": 30,
+    "label": "Model Essay 30 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Many countries are experiencing population growth and need more homes. Should these new homes be constructed in existing cities or should n",
+    "url": "essay-memorization.html?essay=direct-question%3A30"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:30",
+    "type": "model-essay-memorization",
+    "ordinal": 30,
+    "label": "Model Essay 30 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that e-books are the death of paper books, while others think that paper books will never disappear. Discuss both side",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A30"
+  },
+  {
+    "id": "model-essay-memorization:opinion:30",
+    "type": "model-essay-memorization",
+    "ordinal": 30,
+    "label": "Model Essay 30 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that women should not be allowed to work in the police force. Do you agree or disagree?",
+    "url": "essay-memorization.html?essay=opinion%3A30"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:31",
+    "type": "model-essay-memorization",
+    "ordinal": 31,
+    "label": "Model Essay 31 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Nowadays, a lot of buildings, such as offices and schools, are now being built with an open plan design. Why is that? Do you see this as a ",
+    "url": "essay-memorization.html?essay=direct-question%3A31"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:31",
+    "type": "model-essay-memorization",
+    "ordinal": 31,
+    "label": "Model Essay 31 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · More developing countries are given aid from international organisations to help them in their development plans. Some people argue that",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A31"
+  },
+  {
+    "id": "model-essay-memorization:opinion:31",
+    "type": "model-essay-memorization",
+    "ordinal": 31,
+    "label": "Model Essay 31 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think certain prisoners should be made to do unpaid community work instead of being put behind bars. To what extent do you agree? (Repo",
+    "url": "essay-memorization.html?essay=opinion%3A31"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:32",
+    "type": "model-essay-memorization",
+    "ordinal": 32,
+    "label": "Model Essay 32 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Most people think that the truth should be objective rather than subjective when it comes to the news. Do you think all news is true? What ",
+    "url": "essay-memorization.html?essay=direct-question%3A32"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:32",
+    "type": "model-essay-memorization",
+    "ordinal": 32,
+    "label": "Model Essay 32 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that a life is good for people while others believe that constant change can be too demanding on people. Discuss both ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A32"
+  },
+  {
+    "id": "model-essay-memorization:opinion:32",
+    "type": "model-essay-memorization",
+    "ordinal": 32,
+    "label": "Model Essay 32 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The death penalty is the best way to control and reduce serious crime. To what extent do you agree? (2018, 2020)",
+    "url": "essay-memorization.html?essay=opinion%3A32"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:33",
+    "type": "model-essay-memorization",
+    "ordinal": 33,
+    "label": "Model Essay 33 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · The majority of news being reported is bad news such as wars, famines, accidents and crime. Why do you think that is? Do you think the news",
+    "url": "essay-memorization.html?essay=direct-question%3A33"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:33",
+    "type": "model-essay-memorization",
+    "ordinal": 33,
+    "label": "Model Essay 33 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some scientists think that there are intelligent life forms on other planets and messages should be sent to contact them. Other scientis",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A33"
+  },
+  {
+    "id": "model-essay-memorization:opinion:33",
+    "type": "model-essay-memorization",
+    "ordinal": 33,
+    "label": "Model Essay 33 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · While it is sometimes thought that prison is the best place for criminals, others believe that there are better ways to deal with them. What is you",
+    "url": "essay-memorization.html?essay=opinion%3A33"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:34",
+    "type": "model-essay-memorization",
+    "ordinal": 34,
+    "label": "Model Essay 34 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people prefer to watch foreign films rather than locally produced films. Why is this? Do you think the government should spend more mo",
+    "url": "essay-memorization.html?essay=direct-question%3A34"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:34",
+    "type": "model-essay-memorization",
+    "ordinal": 34,
+    "label": "Model Essay 34 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that space exploration is a waste of resources, while others think that it is essential for mankind to continue to exp",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A34"
+  },
+  {
+    "id": "model-essay-memorization:opinion:34",
+    "type": "model-essay-memorization",
+    "ordinal": 34,
+    "label": "Model Essay 34 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that poverty is the reason behind most crimes. Do you agree or disagree?",
+    "url": "essay-memorization.html?essay=opinion%3A34"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:35",
+    "type": "model-essay-memorization",
+    "ordinal": 35,
+    "label": "Model Essay 35 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Many people buy products that they do not really need and replace old products with new ones unnecessarily. Why do people buy things they d",
+    "url": "essay-memorization.html?essay=direct-question%3A35"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:35",
+    "type": "model-essay-memorization",
+    "ordinal": 35,
+    "label": "Model Essay 35 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that dangerous sports should be banned, while others think people should be free to choose. Discuss both views and giv",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A35"
+  },
+  {
+    "id": "model-essay-memorization:opinion:35",
+    "type": "model-essay-memorization",
+    "ordinal": 35,
+    "label": "Model Essay 35 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that the parents of children who commit crime should also receive a punishment. Do you agree or disagree? (2020)",
+    "url": "essay-memorization.html?essay=opinion%3A35"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:36",
+    "type": "model-essay-memorization",
+    "ordinal": 36,
+    "label": "Model Essay 36 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Children who start reading earlier in life perform better later on in their school studies. How important are early reading skills in a chi",
+    "url": "essay-memorization.html?essay=direct-question%3A36"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:36",
+    "type": "model-essay-memorization",
+    "ordinal": 36,
+    "label": "Model Essay 36 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that sport teaches children how to compete, while others believe that children learn team work. Discuss both views and",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A36"
+  },
+  {
+    "id": "model-essay-memorization:opinion:36",
+    "type": "model-essay-memorization",
+    "ordinal": 36,
+    "label": "Model Essay 36 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · For centuries, important parts of education have remained such as reading, writing and maths. With the advent of computers, some people think that ",
+    "url": "essay-memorization.html?essay=opinion%3A36"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:37",
+    "type": "model-essay-memorization",
+    "ordinal": 37,
+    "label": "Model Essay 37 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · With the development of modern society is the loss of traditional ways of life. Is it important to keep our traditional ways of life? How c",
+    "url": "essay-memorization.html?essay=direct-question%3A37"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:37",
+    "type": "model-essay-memorization",
+    "ordinal": 37,
+    "label": "Model Essay 37 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Many countries want to host international sports events, while other countries think that hosting sports events has more problems than b",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A37"
+  },
+  {
+    "id": "model-essay-memorization:opinion:37",
+    "type": "model-essay-memorization",
+    "ordinal": 37,
+    "label": "Model Essay 37 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The government should allocate more funding to teaching sciences rather than other subjects in order for a country to develop and progress. To what",
+    "url": "essay-memorization.html?essay=opinion%3A37"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:38",
+    "type": "model-essay-memorization",
+    "ordinal": 38,
+    "label": "Model Essay 38 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Every culture, throughout time, has recorded its history in one way or another. In what ways can history be passed on to the next generatio",
+    "url": "essay-memorization.html?essay=direct-question%3A38"
+  },
+  {
+    "id": "model-essay-memorization:opinion:38",
+    "type": "model-essay-memorization",
+    "ordinal": 38,
+    "label": "Model Essay 38 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The role of education is to prepare children for the modern world. Schools should cut art and music out of the curriculum so that children can focu",
+    "url": "essay-memorization.html?essay=opinion%3A38"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:39",
+    "type": "model-essay-memorization",
+    "ordinal": 39,
+    "label": "Model Essay 39 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · All societies have their own music and art. In what way are music and art important for society and for the individual?",
+    "url": "essay-memorization.html?essay=direct-question%3A39"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:39",
+    "type": "model-essay-memorization",
+    "ordinal": 39,
+    "label": "Model Essay 39 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · An increasing number of people are now using the internet to meet new people and socialise. Some people think this has brought people cl",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A39"
+  },
+  {
+    "id": "model-essay-memorization:opinion:39",
+    "type": "model-essay-memorization",
+    "ordinal": 39,
+    "label": "Model Essay 39 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that students in high school should not waste their time studying literature, such as poems and novels. Do you agree? (2020)",
+    "url": "essay-memorization.html?essay=opinion%3A39"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:40",
+    "type": "model-essay-memorization",
+    "ordinal": 40,
+    "label": "Model Essay 40 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Modern technology is now very common in most work places. How do you think this has changed the way we work? Do you think there are disadva",
+    "url": "essay-memorization.html?essay=direct-question%3A40"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:40",
+    "type": "model-essay-memorization",
+    "ordinal": 40,
+    "label": "Model Essay 40 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people believe that to protect local culture, tourism should be banned in some areas, while others think that change is inevitable ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A40"
+  },
+  {
+    "id": "model-essay-memorization:opinion:40",
+    "type": "model-essay-memorization",
+    "ordinal": 40,
+    "label": "Model Essay 40 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Education should be accessible to people of all economic backgrounds. All levels of education, from primary school to tertiary education, should be",
+    "url": "essay-memorization.html?essay=opinion%3A40"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:41",
+    "type": "model-essay-memorization",
+    "ordinal": 41,
+    "label": "Model Essay 41 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · With the development of technology children are now living in a world that is completely different to what it was 50 years ago. What proble",
+    "url": "essay-memorization.html?essay=direct-question%3A41"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:41",
+    "type": "model-essay-memorization",
+    "ordinal": 41,
+    "label": "Model Essay 41 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think an international car-free day is an effective way to reduce air pollution. Others think there are more effective ways ",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A41"
+  },
+  {
+    "id": "model-essay-memorization:opinion:41",
+    "type": "model-essay-memorization",
+    "ordinal": 41,
+    "label": "Model Essay 41 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The best way to help underachieving pupils is to have compulsory after school activities which they must attend. This way they will become more inv",
+    "url": "essay-memorization.html?essay=opinion%3A41"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:42",
+    "type": "model-essay-memorization",
+    "ordinal": 42,
+    "label": "Model Essay 42 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Tourism is an important industry in many countries. What benefits do you think tourism brings to individuals and society? (2017, 2021 rewor",
+    "url": "essay-memorization.html?essay=direct-question%3A42"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:42",
+    "type": "model-essay-memorization",
+    "ordinal": 42,
+    "label": "Model Essay 42 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Some people think that in order to deal with the problem of congestion in cities, privately owned vehicles should be banned in city cent",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A42"
+  },
+  {
+    "id": "model-essay-memorization:opinion:42",
+    "type": "model-essay-memorization",
+    "ordinal": 42,
+    "label": "Model Essay 42 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · It is often said that governments spend too much money on projects to protect wildlife, while there are other problems that are more important? Do ",
+    "url": "essay-memorization.html?essay=opinion%3A42"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:43",
+    "type": "model-essay-memorization",
+    "ordinal": 43,
+    "label": "Model Essay 43 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · As a result of tourism, some historical buildings and sites are being damaged beyond repair. What could be done to prevent this? (2019, 202",
+    "url": "essay-memorization.html?essay=direct-question%3A43"
+  },
+  {
+    "id": "model-essay-memorization:discuss-both-views:43",
+    "type": "model-essay-memorization",
+    "ordinal": 43,
+    "label": "Model Essay 43 - IELTS - Discuss Both Views",
+    "detail": "IELTS Writing Task 2 · Discuss Both Views · Completing university education is thought by some to be the best way to get a good job. On the other hand, other people think that gett",
+    "url": "essay-memorization.html?essay=discuss-both-views%3A43"
+  },
+  {
+    "id": "model-essay-memorization:opinion:43",
+    "type": "model-essay-memorization",
+    "ordinal": 43,
+    "label": "Model Essay 43 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think the best way to solve global environmental problems is to increase the cost of fuel. To what extent do you agree or disagree? (Re",
+    "url": "essay-memorization.html?essay=opinion%3A43"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:44",
+    "type": "model-essay-memorization",
+    "ordinal": 44,
+    "label": "Model Essay 44 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · One way to solve the problem of congestion on the roads is to increase the tax on private vehicles. How could this alleviate congestion? Wh",
+    "url": "essay-memorization.html?essay=direct-question%3A44"
+  },
+  {
+    "id": "model-essay-memorization:opinion:44",
+    "type": "model-essay-memorization",
+    "ordinal": 44,
+    "label": "Model Essay 44 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The government should reduce the amount of money spent on local environmental problems and instead increase funding into urgent and more threatenin",
+    "url": "essay-memorization.html?essay=opinion%3A44"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:45",
+    "type": "model-essay-memorization",
+    "ordinal": 45,
+    "label": "Model Essay 45 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Finding job satisfaction is considered to be a luxury in many developing countries. Why do you think that is? Do you think job satisfaction",
+    "url": "essay-memorization.html?essay=direct-question%3A45"
+  },
+  {
+    "id": "model-essay-memorization:opinion:45",
+    "type": "model-essay-memorization",
+    "ordinal": 45,
+    "label": "Model Essay 45 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Although many people value their public parks, this space could be better used for other purposes such as residential areas for the ever growing po",
+    "url": "essay-memorization.html?essay=opinion%3A45"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:46",
+    "type": "model-essay-memorization",
+    "ordinal": 46,
+    "label": "Model Essay 46 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · In many developing countries, there is an increasing movement of workers from rural areas into the cities. Why do you think this happens? W",
+    "url": "essay-memorization.html?essay=direct-question%3A46"
+  },
+  {
+    "id": "model-essay-memorization:opinion:46",
+    "type": "model-essay-memorization",
+    "ordinal": 46,
+    "label": "Model Essay 46 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Both governments and individuals are spending vast amounts of money protecting animals and their habitat. This money could be better spent dealing ",
+    "url": "essay-memorization.html?essay=opinion%3A46"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:47",
+    "type": "model-essay-memorization",
+    "ordinal": 47,
+    "label": "Model Essay 47 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Getting promotion is one of the biggest drives for people to apply themselves and work hard in the modern workplace. Why do you think peopl",
+    "url": "essay-memorization.html?essay=direct-question%3A47"
+  },
+  {
+    "id": "model-essay-memorization:opinion:47",
+    "type": "model-essay-memorization",
+    "ordinal": 47,
+    "label": "Model Essay 47 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Many people believe that global environmental problems should be dealt with internationally rather than domestically. What is your opinion?",
+    "url": "essay-memorization.html?essay=opinion%3A47"
+  },
+  {
+    "id": "model-essay-memorization:direct-question:48",
+    "type": "model-essay-memorization",
+    "ordinal": 48,
+    "label": "Model Essay 48 - IELTS - Direct Question",
+    "detail": "IELTS Writing Task 2 · Direct Question · Some people think that people should choose their job based on income in order to provide security for their family. Do you think money is ",
+    "url": "essay-memorization.html?essay=direct-question%3A48"
+  },
+  {
+    "id": "model-essay-memorization:opinion:48",
+    "type": "model-essay-memorization",
+    "ordinal": 48,
+    "label": "Model Essay 48 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Restricting air travel is the only way to prevent air pollution. Do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A48"
+  },
+  {
+    "id": "model-essay-memorization:opinion:49",
+    "type": "model-essay-memorization",
+    "ordinal": 49,
+    "label": "Model Essay 49 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Children can learn effectively by watching television. Therefore they should be encouraged to watch television regularly at home and at school. To ",
+    "url": "essay-memorization.html?essay=opinion%3A49"
+  },
+  {
+    "id": "model-essay-memorization:opinion:50",
+    "type": "model-essay-memorization",
+    "ordinal": 50,
+    "label": "Model Essay 50 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Children these days have more freedom than in previous generations. Do you think this is a positive or negative development? (2021, 2023)",
+    "url": "essay-memorization.html?essay=opinion%3A50"
+  },
+  {
+    "id": "model-essay-memorization:opinion:51",
+    "type": "model-essay-memorization",
+    "ordinal": 51,
+    "label": "Model Essay 51 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The values we gain from our parents and family have more influence over our future success than any skills or knowledge learned in school. To what ",
+    "url": "essay-memorization.html?essay=opinion%3A51"
+  },
+  {
+    "id": "model-essay-memorization:opinion:52",
+    "type": "model-essay-memorization",
+    "ordinal": 52,
+    "label": "Model Essay 52 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · A government has a responsibility to its citizens to ensure their safety. Therefore, some people think that the government should increase spending",
+    "url": "essay-memorization.html?essay=opinion%3A52"
+  },
+  {
+    "id": "model-essay-memorization:opinion:53",
+    "type": "model-essay-memorization",
+    "ordinal": 53,
+    "label": "Model Essay 53 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that the government should give money to creative people, such as artists and musicians. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A53"
+  },
+  {
+    "id": "model-essay-memorization:opinion:54",
+    "type": "model-essay-memorization",
+    "ordinal": 54,
+    "label": "Model Essay 54 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The government should lower the budget on the arts in order to allocate more money to education. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A54"
+  },
+  {
+    "id": "model-essay-memorization:opinion:55",
+    "type": "model-essay-memorization",
+    "ordinal": 55,
+    "label": "Model Essay 55 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that only the government can make significant changes in society, while others think that individuals can have a lot of influence",
+    "url": "essay-memorization.html?essay=opinion%3A55"
+  },
+  {
+    "id": "model-essay-memorization:opinion:56",
+    "type": "model-essay-memorization",
+    "ordinal": 56,
+    "label": "Model Essay 56 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The prevention of health problems and illness is more important than treatment and medicine. Government funding should reflect this. To what extent",
+    "url": "essay-memorization.html?essay=opinion%3A56"
+  },
+  {
+    "id": "model-essay-memorization:opinion:57",
+    "type": "model-essay-memorization",
+    "ordinal": 57,
+    "label": "Model Essay 57 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · More and more people are suffering from health problems caused by a modern lifestyle which cannot be treated with modern medicines. Some people thi",
+    "url": "essay-memorization.html?essay=opinion%3A57"
+  },
+  {
+    "id": "model-essay-memorization:opinion:58",
+    "type": "model-essay-memorization",
+    "ordinal": 58,
+    "label": "Model Essay 58 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Health care should not be provided for free regardless of a person's income. The health of a person is in their own hands and they should, therefor",
+    "url": "essay-memorization.html?essay=opinion%3A58"
+  },
+  {
+    "id": "model-essay-memorization:opinion:59",
+    "type": "model-essay-memorization",
+    "ordinal": 59,
+    "label": "Model Essay 59 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The best way to improve health is to exercise daily. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A59"
+  },
+  {
+    "id": "model-essay-memorization:opinion:60",
+    "type": "model-essay-memorization",
+    "ordinal": 60,
+    "label": "Model Essay 60 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Doctors should be responsible for educating their patients about how to improve their health. Do you agree with this?",
+    "url": "essay-memorization.html?essay=opinion%3A60"
+  },
+  {
+    "id": "model-essay-memorization:opinion:61",
+    "type": "model-essay-memorization",
+    "ordinal": 61,
+    "label": "Model Essay 61 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Planting trees is very important for the environment. Some people say trees should be planted in the vacant areas of cities and towns, while others",
+    "url": "essay-memorization.html?essay=opinion%3A61"
+  },
+  {
+    "id": "model-essay-memorization:opinion:62",
+    "type": "model-essay-memorization",
+    "ordinal": 62,
+    "label": "Model Essay 62 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Cities should be designed to be attractive for local people and foreign tourists. Do you agree or disagree? (2023)",
+    "url": "essay-memorization.html?essay=opinion%3A62"
+  },
+  {
+    "id": "model-essay-memorization:opinion:63",
+    "type": "model-essay-memorization",
+    "ordinal": 63,
+    "label": "Model Essay 63 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Services, such as shops, schools and commercial centres should be relocated out of the city center. To what extent do you agree? (2023)",
+    "url": "essay-memorization.html?essay=opinion%3A63"
+  },
+  {
+    "id": "model-essay-memorization:opinion:64",
+    "type": "model-essay-memorization",
+    "ordinal": 64,
+    "label": "Model Essay 64 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Cities should prioritise parks rather than housing developments. To what extent do you agree? (appears most years in the test)",
+    "url": "essay-memorization.html?essay=opinion%3A64"
+  },
+  {
+    "id": "model-essay-memorization:opinion:65",
+    "type": "model-essay-memorization",
+    "ordinal": 65,
+    "label": "Model Essay 65 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · As computers translate quickly and accurately, is learning foreign languages a waste of time? To what extent do you agree or disagree? (2017, 2020,",
+    "url": "essay-memorization.html?essay=opinion%3A65"
+  },
+  {
+    "id": "model-essay-memorization:opinion:66",
+    "type": "model-essay-memorization",
+    "ordinal": 66,
+    "label": "Model Essay 66 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Scientists predict that all people will choose to speak the same global language in the future. Do you think this is a positive or negative develop",
+    "url": "essay-memorization.html?essay=opinion%3A66"
+  },
+  {
+    "id": "model-essay-memorization:opinion:67",
+    "type": "model-essay-memorization",
+    "ordinal": 67,
+    "label": "Model Essay 67 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some schools are no longer teaching children how to write with a pen. Do you think children should learn handwriting skills? (2024)",
+    "url": "essay-memorization.html?essay=opinion%3A67"
+  },
+  {
+    "id": "model-essay-memorization:opinion:68",
+    "type": "model-essay-memorization",
+    "ordinal": 68,
+    "label": "Model Essay 68 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that a person can never understand the culture of a country unless they speak the language. Do you agree with this opinion?",
+    "url": "essay-memorization.html?essay=opinion%3A68"
+  },
+  {
+    "id": "model-essay-memorization:opinion:69",
+    "type": "model-essay-memorization",
+    "ordinal": 69,
+    "label": "Model Essay 69 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that you can never become fluent in a language unless you have spent time living or working in that country. To what extent do yo",
+    "url": "essay-memorization.html?essay=opinion%3A69"
+  },
+  {
+    "id": "model-essay-memorization:opinion:70",
+    "type": "model-essay-memorization",
+    "ordinal": 70,
+    "label": "Model Essay 70 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Violence in the media promotes violence in society. To what extent do you agree? (repeated topic)",
+    "url": "essay-memorization.html?essay=opinion%3A70"
+  },
+  {
+    "id": "model-essay-memorization:opinion:71",
+    "type": "model-essay-memorization",
+    "ordinal": 71,
+    "label": "Model Essay 71 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · In the last few decades, there have been more and more cases of famous people being hounded by the press. Some people think that famous people in t",
+    "url": "essay-memorization.html?essay=opinion%3A71"
+  },
+  {
+    "id": "model-essay-memorization:opinion:72",
+    "type": "model-essay-memorization",
+    "ordinal": 72,
+    "label": "Model Essay 72 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · With the development of online media, there is no future for the radio. To what extent do you agree? (2016, 2017, 2018, 2020)",
+    "url": "essay-memorization.html?essay=opinion%3A72"
+  },
+  {
+    "id": "model-essay-memorization:opinion:73",
+    "type": "model-essay-memorization",
+    "ordinal": 73,
+    "label": "Model Essay 73 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that cinemas will one day close due to the popularity of online streaming services for films and series. Do you agree or disagree",
+    "url": "essay-memorization.html?essay=opinion%3A73"
+  },
+  {
+    "id": "model-essay-memorization:opinion:74",
+    "type": "model-essay-memorization",
+    "ordinal": 74,
+    "label": "Model Essay 74 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · One of the prime times for advertising on TV is when children get back from school. Some people think that advertisements aimed at children should ",
+    "url": "essay-memorization.html?essay=opinion%3A74"
+  },
+  {
+    "id": "model-essay-memorization:opinion:75",
+    "type": "model-essay-memorization",
+    "ordinal": 75,
+    "label": "Model Essay 75 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that foreign films have a negative impact on local culture. To what extent do you agree or disagree? (2020)",
+    "url": "essay-memorization.html?essay=opinion%3A75"
+  },
+  {
+    "id": "model-essay-memorization:opinion:76",
+    "type": "model-essay-memorization",
+    "ordinal": 76,
+    "label": "Model Essay 76 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Films that are based on historical events ought to be completely accurate. Do you agree? (2019, 2021, 2023)",
+    "url": "essay-memorization.html?essay=opinion%3A76"
+  },
+  {
+    "id": "model-essay-memorization:opinion:77",
+    "type": "model-essay-memorization",
+    "ordinal": 77,
+    "label": "Model Essay 77 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Many people think that fast food companies should not be allowed to advertise, while others believe that all companies should have the right to adv",
+    "url": "essay-memorization.html?essay=opinion%3A77"
+  },
+  {
+    "id": "model-essay-memorization:opinion:78",
+    "type": "model-essay-memorization",
+    "ordinal": 78,
+    "label": "Model Essay 78 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think books are losing importance as a source of information and entertainment. To what extent do you agree? (Reported 2017, GT)",
+    "url": "essay-memorization.html?essay=opinion%3A78"
+  },
+  {
+    "id": "model-essay-memorization:opinion:79",
+    "type": "model-essay-memorization",
+    "ordinal": 79,
+    "label": "Model Essay 79 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that children who spend a lot of time reading children's story books are wasting their time which could be better used doing othe",
+    "url": "essay-memorization.html?essay=opinion%3A79"
+  },
+  {
+    "id": "model-essay-memorization:opinion:80",
+    "type": "model-essay-memorization",
+    "ordinal": 80,
+    "label": "Model Essay 80 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Libraries should focus on improving their technological resources rather than on building a larger collection of paper books. To what extent do you",
+    "url": "essay-memorization.html?essay=opinion%3A80"
+  },
+  {
+    "id": "model-essay-memorization:opinion:81",
+    "type": "model-essay-memorization",
+    "ordinal": 81,
+    "label": "Model Essay 81 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · In many countries women no longer feel the need to get married. Some people believe that this is because women are able to earn their own income an",
+    "url": "essay-memorization.html?essay=opinion%3A81"
+  },
+  {
+    "id": "model-essay-memorization:opinion:82",
+    "type": "model-essay-memorization",
+    "ordinal": 82,
+    "label": "Model Essay 82 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Most societies have homeless people. Some people think that the best way to help them is to give them money. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A82"
+  },
+  {
+    "id": "model-essay-memorization:opinion:83",
+    "type": "model-essay-memorization",
+    "ordinal": 83,
+    "label": "Model Essay 83 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · It is sometimes thought that people who travel outside of their own country are more tolerant and understanding of others. To what extent do you ag",
+    "url": "essay-memorization.html?essay=opinion%3A83"
+  },
+  {
+    "id": "model-essay-memorization:opinion:84",
+    "type": "model-essay-memorization",
+    "ordinal": 84,
+    "label": "Model Essay 84 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The government is spending a lot of money to discover life on other planets. Some people think that the government is wasting money and should spen",
+    "url": "essay-memorization.html?essay=opinion%3A84"
+  },
+  {
+    "id": "model-essay-memorization:opinion:85",
+    "type": "model-essay-memorization",
+    "ordinal": 85,
+    "label": "Model Essay 85 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that introducing children to team sports is the best way to teach children teamwork. To what extent do you agree? (2023)",
+    "url": "essay-memorization.html?essay=opinion%3A85"
+  },
+  {
+    "id": "model-essay-memorization:opinion:86",
+    "type": "model-essay-memorization",
+    "ordinal": 86,
+    "label": "Model Essay 86 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Ensuring that children have regular physical exercise should be the responsibility of parents and therefore schools should not waste valuable schoo",
+    "url": "essay-memorization.html?essay=opinion%3A86"
+  },
+  {
+    "id": "model-essay-memorization:opinion:87",
+    "type": "model-essay-memorization",
+    "ordinal": 87,
+    "label": "Model Essay 87 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that companies should provide employees with exercise time during the day. What is your opinion about this? (2016)",
+    "url": "essay-memorization.html?essay=opinion%3A87"
+  },
+  {
+    "id": "model-essay-memorization:opinion:88",
+    "type": "model-essay-memorization",
+    "ordinal": 88,
+    "label": "Model Essay 88 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · With an increasing overweight population some people think universities should make sport a compulsory module on all degree courses. To what extent",
+    "url": "essay-memorization.html?essay=opinion%3A88"
+  },
+  {
+    "id": "model-essay-memorization:opinion:89",
+    "type": "model-essay-memorization",
+    "ordinal": 89,
+    "label": "Model Essay 89 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Professional sports people are often idolised by young children. Some people think that they, therefore, have a responsibility to be good role mode",
+    "url": "essay-memorization.html?essay=opinion%3A89"
+  },
+  {
+    "id": "model-essay-memorization:opinion:90",
+    "type": "model-essay-memorization",
+    "ordinal": 90,
+    "label": "Model Essay 90 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that sports involving violence, such as boxing and martial arts, should be banned from TV as well as from international sporting ",
+    "url": "essay-memorization.html?essay=opinion%3A90"
+  },
+  {
+    "id": "model-essay-memorization:opinion:91",
+    "type": "model-essay-memorization",
+    "ordinal": 91,
+    "label": "Model Essay 91 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people argue that technological inventions, such as mobile phones, are making people socially less interactive. Do you agree or disagree? (Rep",
+    "url": "essay-memorization.html?essay=opinion%3A91"
+  },
+  {
+    "id": "model-essay-memorization:opinion:92",
+    "type": "model-essay-memorization",
+    "ordinal": 92,
+    "label": "Model Essay 92 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Nowadays children watch a lot of TV and play video games. However, some people think that these activities are not good for a child's mental health",
+    "url": "essay-memorization.html?essay=opinion%3A92"
+  },
+  {
+    "id": "model-essay-memorization:opinion:93",
+    "type": "model-essay-memorization",
+    "ordinal": 93,
+    "label": "Model Essay 93 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · It is common nowadays for each member of the family to have their own piece of modern technology. Some people think this will lead to a breakdown i",
+    "url": "essay-memorization.html?essay=opinion%3A93"
+  },
+  {
+    "id": "model-essay-memorization:opinion:94",
+    "type": "model-essay-memorization",
+    "ordinal": 94,
+    "label": "Model Essay 94 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · With more people choosing to watch travel programs on TV and social media, fewer people will be willing to pay the costs of traveling abroad. To wh",
+    "url": "essay-memorization.html?essay=opinion%3A94"
+  },
+  {
+    "id": "model-essay-memorization:opinion:95",
+    "type": "model-essay-memorization",
+    "ordinal": 95,
+    "label": "Model Essay 95 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that when a person travels into a different culture they should adapt to the local practices and customs. To what extent do you a",
+    "url": "essay-memorization.html?essay=opinion%3A95"
+  },
+  {
+    "id": "model-essay-memorization:opinion:96",
+    "type": "model-essay-memorization",
+    "ordinal": 96,
+    "label": "Model Essay 96 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Raising the cost of international flights is the best way to reduce air pollution. Do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A96"
+  },
+  {
+    "id": "model-essay-memorization:opinion:97",
+    "type": "model-essay-memorization",
+    "ordinal": 97,
+    "label": "Model Essay 97 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that in order to solve traffic and transportation problems people should be encouraged to live in cities rather than in suburbs o",
+    "url": "essay-memorization.html?essay=opinion%3A97"
+  },
+  {
+    "id": "model-essay-memorization:opinion:98",
+    "type": "model-essay-memorization",
+    "ordinal": 98,
+    "label": "Model Essay 98 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · The impact that the growing demand for more flights has had on the environment is a major concern for many countries. Some people believe that one ",
+    "url": "essay-memorization.html?essay=opinion%3A98"
+  },
+  {
+    "id": "model-essay-memorization:opinion:99",
+    "type": "model-essay-memorization",
+    "ordinal": 99,
+    "label": "Model Essay 99 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · A poor infrastructure hinders under-developed countries from progressing and modernising. Some people think that this should be the first problem t",
+    "url": "essay-memorization.html?essay=opinion%3A99"
+  },
+  {
+    "id": "model-essay-memorization:opinion:100",
+    "type": "model-essay-memorization",
+    "ordinal": 100,
+    "label": "Model Essay 100 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · First impressions are important. Some people think that doing well in interviews is the key to securing a good job. To what extent do you agree?",
+    "url": "essay-memorization.html?essay=opinion%3A100"
+  },
+  {
+    "id": "model-essay-memorization:opinion:101",
+    "type": "model-essay-memorization",
+    "ordinal": 101,
+    "label": "Model Essay 101 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Doctors, nurses and teachers make a great contribution to society and should be payed more than entertainment and sports celebrities. Do you agree ",
+    "url": "essay-memorization.html?essay=opinion%3A101"
+  },
+  {
+    "id": "model-essay-memorization:opinion:103",
+    "type": "model-essay-memorization",
+    "ordinal": 103,
+    "label": "Model Essay 103 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Paying all workers the same salary in a company promotes harmony and respect amongst colleagues. To what extent do you agree or disagree?",
+    "url": "essay-memorization.html?essay=opinion%3A103"
+  },
+  {
+    "id": "model-essay-memorization:opinion:104",
+    "type": "model-essay-memorization",
+    "ordinal": 104,
+    "label": "Model Essay 104 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Bringing in foreign workers to fill positions that domestic workers are unwilling to do can cause problems in the local community and should theref",
+    "url": "essay-memorization.html?essay=opinion%3A104"
+  },
+  {
+    "id": "model-essay-memorization:opinion:105",
+    "type": "model-essay-memorization",
+    "ordinal": 105,
+    "label": "Model Essay 105 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · Some people think that employers should ensure a supportive and pleasant work environment where each employee is respected and valued equally, whil",
+    "url": "essay-memorization.html?essay=opinion%3A105"
+  },
+  {
+    "id": "model-essay-memorization:opinion:106",
+    "type": "model-essay-memorization",
+    "ordinal": 106,
+    "label": "Model Essay 106 - IELTS - Opinion",
+    "detail": "IELTS Writing Task 2 · Opinion · In many countries, it is common for families to own and run their own business. Some people think this is the best way to run a business, while oth",
+    "url": "essay-memorization.html?essay=opinion%3A106"
+  },
+  {
     "id": "native-english:scoop",
     "type": "native-english",
     "ordinal": 1,

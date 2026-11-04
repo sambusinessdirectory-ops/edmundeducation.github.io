@@ -24,6 +24,14 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
   Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks", color: "#e49a31" }),
   Object.freeze({
+    type: "model-essay-memorization",
+    trigger: "memorization model essay",
+    label: "Model Essay Memorization",
+    pickerTitle: "選擇範文背誦練習",
+    pickerNoun: "範文背誦練習",
+    color: "#a3473b"
+  }),
+  Object.freeze({
     type: "writing-submission",
     trigger: "Submission Writing",
     aliases: Object.freeze(["Writing Submission"]),
@@ -128,6 +136,7 @@ const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   "ielts-question-types": Object.freeze(["/ielts-writing-question-preview.html"]),
   flashcards: Object.freeze(["/flashcards.html"]),
   "fill-blanks": Object.freeze(["/writing-practice.html"]),
+  "model-essay-memorization": Object.freeze(["/essay-memorization.html"]),
   "writing-submission": Object.freeze(["/writing-submission.html"]),
   idiom: Object.freeze(["/idiom-system.html"]),
   proverb: Object.freeze(["/proverb-system.html"]),
@@ -206,6 +215,7 @@ const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/song-appreciation.html": Object.freeze(["song"]),
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
+  "/essay-memorization.html": Object.freeze(["essay"]),
   "/writing-submission.html": Object.freeze(["exercise", "manualTopic", "speakingTopic"]),
   "/idiom-system.html": Object.freeze(["lesson"]),
   "/proverb-system.html": Object.freeze(["lesson"]),
@@ -289,6 +299,10 @@ export function normalizeHomeworkResource(value) {
   if (
     type === "model-essay-download"
     && parsed.searchParams.get("catalog") !== "dse-writing-part-a"
+  ) return null;
+  if (
+    type === "model-essay-memorization"
+    && id !== `${type}:${parsed.searchParams.get("essay")}`
   ) return null;
   const article = parsed.searchParams.get("article") || "";
   const section = parsed.searchParams.get("section") || "";
@@ -424,6 +438,9 @@ export function normalizeHomeworkHref(value) {
   if (parsed.pathname === "/model-essay-downloads.html") {
     if (!DOWNLOAD_CATALOG_KEY_SET.has(parsed.searchParams.get("catalog") || "")) return null;
     if (!/^[a-f0-9]{16}$/i.test(parsed.searchParams.get("item") || "")) return null;
+  }
+  if (parsed.pathname === "/essay-memorization.html") {
+    if (!/^[a-z0-9-]+:[1-9]\d*$/i.test(parsed.searchParams.get("essay") || "")) return null;
   }
   if (parsed.pathname.startsWith("/common-expression-")) {
     if (!/^common-expression-\d+$/i.test(parsed.searchParams.get("lesson") || "")) return null;
