@@ -20,6 +20,15 @@ const HOMEWORK_ENTRY_TAG_BY_KEY = new Map(HOMEWORK_ENTRY_TAGS.map((tag) => [tag.
 
 export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
   Object.freeze({type:"logic-reading",trigger:"Logic Reading",label:"Logic Reading",color:"#176f67"}),
+  Object.freeze({
+    type: "dse-practical-writing",
+    trigger: "DSE Practical Writing",
+    aliases: Object.freeze(["DSE 實用文"]),
+    label: "DSE Practical Writing",
+    pickerTitle: "選擇 DSE 實用文學習或練習",
+    pickerNoun: "DSE 實用文項目",
+    color: "#8f3028"
+  }),
   Object.freeze({ type: "ielts-question-types", trigger: "IELTS Question Types", label: "IELTS Question Types", color: "#5b6364" }),
   Object.freeze({ type: "flashcards", trigger: "Flash Cards", label: "Flash Cards", color: "#3f73d8" }),
   Object.freeze({ type: "fill-blanks", trigger: "Fill in the blanks", label: "Fill in the blanks", color: "#e49a31" }),
@@ -133,6 +142,7 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
 const TYPE_BY_NAME = new Map(HOMEWORK_RESOURCE_TYPES.map((item) => [item.type, item]));
 const ALLOWED_PAGES_BY_TYPE = Object.freeze({
   "song-appreciation": Object.freeze(["/song-appreciation.html"]),
+  "dse-practical-writing": Object.freeze(["/dse-practical-writing.html"]),
   "ielts-question-types": Object.freeze(["/ielts-writing-question-preview.html"]),
   flashcards: Object.freeze(["/flashcards.html"]),
   "fill-blanks": Object.freeze(["/writing-practice.html"]),
@@ -213,6 +223,7 @@ const DOWNLOAD_CATALOG_KEYS = Object.freeze([
 const DOWNLOAD_CATALOG_KEY_SET = new Set(DOWNLOAD_CATALOG_KEYS);
 const EXPECTED_PARAMETERS_BY_PAGE = Object.freeze({
   "/song-appreciation.html": Object.freeze(["song"]),
+  "/dse-practical-writing.html": Object.freeze(["mode", "item"]),
   "/flashcards.html": Object.freeze(["deck"]),
   "/writing-practice.html": Object.freeze(["exercise"]),
   "/essay-memorization.html": Object.freeze(["essay"]),
@@ -292,6 +303,11 @@ export function normalizeHomeworkResource(value) {
   const parsed = new URL(url, "https://edmundeducation.com/");
   if (!ALLOWED_PAGES_BY_TYPE[type]?.includes(parsed.pathname)) return null;
   if (type === "ielts-question-types" && id !== `ielts-question-types:${parsed.hash.slice(1)}`) return null;
+  if (type === "dse-practical-writing") {
+    const mode = parsed.searchParams.get("mode");
+    const item = parsed.searchParams.get("item");
+    if (!["learning", "practice"].includes(mode) || id !== `dse-practical-writing:${mode}:${item}`) return null;
+  }
   if (
     (type === "video-class-series" && !parsed.searchParams.get("series"))
     || (type === "video-class-video" && !parsed.searchParams.get("video"))
@@ -422,6 +438,13 @@ export function normalizeHomeworkHref(value) {
         : null;
     if (!allowedModes?.has(mode)) return null;
     return `speaking-system.html?${parsed.searchParams.toString()}`;
+  }
+  if (parsed.pathname === "/dse-practical-writing.html") {
+    if (actualParameters.length !== 2 || !actualParameters.includes("mode") || !actualParameters.includes("item")) return null;
+    const mode = parsed.searchParams.get("mode") || "";
+    const item = parsed.searchParams.get("item") || "";
+    if (!["learning", "practice"].includes(mode) || !/^[a-z0-9][a-z0-9-]{0,79}$/i.test(item)) return null;
+    return `dse-practical-writing.html?${parsed.searchParams.toString()}`;
   }
   if (parsed.pathname === "/listening-system.html") {
     const section = parsed.searchParams.get("section");

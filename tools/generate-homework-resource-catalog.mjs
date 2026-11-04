@@ -1,5 +1,6 @@
 import { PAPER3_WRITING_TOPICS } from '../paper3-writing-topics.mjs';
 import { speakingTopicLabel } from '../writing-speaking-topics.mjs';
+import { writingFormats, practiceMissions } from '../dse-practical-writing-data.mjs';
 import { readFile, readdir, writeFile } from "node:fs/promises";
 import path from "node:path";
 import vm from "node:vm";
@@ -927,8 +928,30 @@ async function songHomeworkResources() {
   return [...songs.values()];
 }
 
+function dsePracticalWritingResources() {
+  return [
+    ...writingFormats.map((unit) => ({
+      id: `dse-practical-writing:learning:${unit.id}`,
+      type: 'dse-practical-writing',
+      ordinal: Number(unit.number),
+      label: `Learning ${unit.number} · ${unit.title} · ${unit.zhTitle}`,
+      detail: 'DSE Practical Writing · 學習模式',
+      url: `dse-practical-writing.html?mode=learning&item=${encodeURIComponent(unit.id)}`
+    })),
+    ...practiceMissions.map((mission) => ({
+      id: `dse-practical-writing:practice:${mission.id}`,
+      type: 'dse-practical-writing',
+      ordinal: Number(mission.number),
+      label: `Practice ${mission.number} · ${mission.title} · ${mission.zhTitle}`,
+      detail: `${mission.type} · ${mission.zhType} · 練習模式`,
+      url: `dse-practical-writing.html?mode=practice&item=${encodeURIComponent(mission.id)}`
+    }))
+  ];
+}
+
 const resources = [
   ...await songHomeworkResources(),
+  ...dsePracticalWritingResources(),
   {id:'ielts-question-types:task1',type:'ielts-question-types',label:'IELTS Question Types · Task 1',detail:'IELTS Writing · Diagrams',url:'ielts-writing-question-preview.html#task1'},
   {id:'ielts-question-types:task2',type:'ielts-question-types',label:'IELTS Question Types · Task 2',detail:'IELTS Writing · Essays',url:'ielts-writing-question-preview.html#task2'},
   ...await flashcardResources(allFiles),
