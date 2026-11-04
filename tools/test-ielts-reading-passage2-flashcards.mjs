@@ -265,6 +265,9 @@ if (!dataOnly) {
   const missing = [];
   let localAudio = 0;
   let cloudAudio = 0;
+  let customAudio = 0;
+  const verifiedCustomAudio = 'https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3';
+  assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
   const cloudIndexUsage = new Map();
   const verifiedManifestOverrides = {
     "appear to be": "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3"
@@ -277,6 +280,10 @@ if (!dataOnly) {
       continue;
     }
     const digest = crypto.createHash("sha256").update(front).digest("hex").slice(0, 24);
+    if (front === "appear to be" && audioUrl === verifiedCustomAudio) {
+      customAudio += 1;
+      continue;
+    }
     if (audioUrl.startsWith("assets/flashcards/audio/edmund-neural/")) {
       const localPath = path.join(root, audioUrl);
       if (!fs.existsSync(localPath) || fs.statSync(localPath).size <= 1000) {
@@ -313,7 +320,8 @@ if (!dataOnly) {
     if (missing.length >= 20) break;
   }
   assert(!missing.length, `Missing Passage 2 audio:\n${missing.join("\n")}`);
-  assert(localAudio + cloudAudio === audioUniqueFronts.size, `Validated ${localAudio + cloudAudio} of ${audioUniqueFronts.size} Passage 2 recordings`);
+  assert(customAudio === 1, `Expected one verified custom recording, found ${customAudio}`);
+  assert(localAudio + cloudAudio + customAudio === audioUniqueFronts.size, `Validated ${localAudio + cloudAudio + customAudio} of ${audioUniqueFronts.size} Passage 2 recordings`);
   assert((cloudIndexUsage.get("flashcard-pack-index-passage2.json") || 0) > 0, "No Passage 2 card resolves through the Passage 2 cloud release");
   assert((cloudIndexUsage.get("flashcard-pack-index-reading-expansion.json") || 0) > 0, "No new Passage 2 card resolves through the Reading expansion release");
   audioResult = {
@@ -321,6 +329,7 @@ if (!dataOnly) {
     manifestEntries: Object.keys(manifest).length,
     localAudio,
     cloudAudio,
+    customAudio,
     cloudIndexUsage: Object.fromEntries(cloudIndexUsage)
   };
 }

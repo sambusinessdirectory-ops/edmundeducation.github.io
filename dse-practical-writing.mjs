@@ -71,7 +71,7 @@ function renderMap() {
   const completed = isLearning ? 0 : items.filter(item => isComplete(item.id)).length;
   $('[data-screen-root]').innerHTML = `<section class="campaign-map ${isLearning ? 'is-learning' : 'is-practice'}">
     <div class="map-toolbar">${renderBack('返回模式選擇')}<div><p class="eyebrow">${isLearning ? 'LEARNING' : 'PRACTICE'}</p><h1>${isLearning ? '實用文學習目錄' : '實用文練習目錄'}</h1></div><div class="map-count"><strong>${isLearning ? items.length : completed}</strong><span>${isLearning ? '個學習單元' : `/ ${items.length} 已完成`}</span></div></div>
-    <div class="map-index">${items.map(item => `<button type="button" data-item-id="${escapeHtml(item.id)}"><b>${escapeHtml(item.number)}</b><span>${escapeHtml(item.title)}</span><small>${escapeHtml(item.zhTitle)}</small></button>`).join('')}</div>
+    <div class="map-index">${items.map(item => `<button type="button" data-item-id="${escapeHtml(item.id)}" aria-label="${escapeHtml(`${item.number} ${item.title} ${item.zhTitle}`)}"><b>${escapeHtml(item.number)}</b><span><strong>${escapeHtml(item.zhTitle)}</strong><small>${escapeHtml(item.title)}</small></span></button>`).join('')}</div>
   </section>`;
 }
 function bilingual(en, zh, tag = 'p') { return `<${tag} class="bilingual-copy"><span lang="en">${nl2html(en)}</span>${state.translation ? `<span lang="zh-Hant">${nl2html(zh)}</span>` : ''}</${tag}>`; }
@@ -105,6 +105,7 @@ function renderPracticeBriefing(item) {
 function renderBriefing() {
   state.screen = 'briefing'; const item = activeItem(); if (!item) { renderMap(); return; }
   $('[data-screen-root]').innerHTML = `<section class="briefing-scene">${state.mode === 'learning' ? renderLearningBriefing(item) : renderPracticeBriefing(item)}</section>`;
+  window.scrollTo(0, 0);
 }
 function renderRequirementPanel(item) {
   return `<aside class="desk-panel desk-requirements"><div class="desk-panel__head"><p class="eyebrow">MISSION NOTES</p><h2>內容要點</h2></div><div class="desk-scroll"><section class="desk-situation"><h3>Situation</h3>${bilingual(item.situation, item.situationZh, 'div')}</section>${item.requirements.map(group => `<section><h3>${escapeHtml(state.translation ? group.zhHeading : group.heading)}</h3><ul>${group.points.map(([en, zh]) => `<li>${escapeHtml(state.translation ? zh : en)}</li>`).join('')}</ul></section>`).join('')}</div></aside>`;
@@ -119,6 +120,7 @@ function renderWorkspace() {
     <header class="desk-toolbar">${renderBack('返回任務簡報')}<div><p class="eyebrow">WRITING MISSION ${escapeHtml(item.number)}</p><h1>${escapeHtml(item.title)}</h1></div><div class="desk-toolbar__actions">${renderTranslationToggle()}<button class="field-button" type="button" data-action="model">查看參考範文</button></div></header>
     <div class="desk-grid">${renderRequirementPanel(item)}<main class="desk-editor"><div class="paper-heading"><div><p class="eyebrow">MY WRITING · 我的文章</p><h2>${escapeHtml(item.zhTitle)}</h2></div><span><strong data-word-count>${wordCount(draft)}</strong> words</span></div><textarea data-editor spellcheck="true" autocomplete="off" placeholder="Start writing here…">${escapeHtml(draft)}</textarea><div class="editor-footer"><span data-save-indicator>${draft ? '已載入已儲存草稿' : '輸入後即時自動儲存'}</span><div><button type="button" data-action="clear" ${draft ? '' : 'hidden'}>清除草稿</button><button class="submit-writing" type="button" data-action="submit">${isComplete(item.id) ? '已提交 · 再次完成' : '完成並提交'}</button></div></div></main>${renderExpressionPanel(item)}</div>
   </section>`;
+  window.scrollTo(0, 0);
   requestAnimationFrame(() => $('[data-editor]')?.focus({ preventScroll: true }));
 }
 function saveActiveDraft({ quiet = false } = {}) {
