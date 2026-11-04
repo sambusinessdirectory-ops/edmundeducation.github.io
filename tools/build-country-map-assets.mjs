@@ -2,6 +2,7 @@
 
 import fs from "node:fs";
 import path from "node:path";
+import zlib from "node:zlib";
 import { fileURLToPath } from "node:url";
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -197,38 +198,125 @@ function elevationAt(buffers, longitude, latitude) {
   return elevation < -1000 ? 0 : elevation;
 }
 
+const CRC_TABLE = (() => {
+  const table = new Uint32Array(256);
+  for (let index = 0; index < 256; index += 1) {
+    let value = index;
+    for (let bit = 0; bit < 8; bit += 1) value = (value & 1) ? (0xedb88320 ^ (value >>> 1)) : (value >>> 1);
+    table[index] = value >>> 0;
+  }
+  return table;
+})();
+
+function crc32(buffer) {
+  let value = 0xffffffff;
+  for (const byte of buffer) value = CRC_TABLE[(value ^ byte) & 0xff] ^ (value >>> 8);
+  return (value ^ 0xffffffff) >>> 0;
+}
+
+function pngChunk(type, data) {
+  const name = Buffer.from(type, "ascii");
+  const length = Buffer.alloc(4);
+  length.writeUInt32BE(data.length);
+  const checksum = Buffer.alloc(4);
+  checksum.writeUInt32BE(crc32(Buffer.concat([name, data])));
+  return Buffer.concat([length, name, data, checksum]);
+}
+
+function writeRgbaPng(file, width, height, pixels) {
+  const header = Buffer.alloc(13);
+  header.writeUInt32BE(width, 0);
+  header.writeUInt32BE(height, 4);
+  header[8] = 8;
+  header[9] = 6;
+  const rows = Buffer.alloc(height * (width * 4 + 1));
+  for (let y = 0; y < height; y += 1) {
+    const destination = y * (width * 4 + 1);
+    rows[destination] = 0;
+    pixels.copy(rows, destination + 1, y * width * 4, (y + 1) * width * 4);
+  }
+  fs.writeFileSync(file, Buffer.concat([
+    Buffer.from([137, 80, 78, 71, 13, 10, 26, 10]),
+    pngChunk("IHDR", header),
+    pngChunk("IDAT", zlib.deflateSync(rows, { level:9 })),
+    pngChunk("IEND", Buffer.alloc(0))
+  ]));
+}
+
 function buildHongKongRelief() {
   const buffers = {
     113:fs.readFileSync(source.elevation113),
     114:fs.readFileSync(source.elevation114)
   };
+  // Match the browser viewBox so the raster coastline and official district
+  // vectors share the same projection without non-uniform stretching.
   const width = 1400;
-  const height = 880;
+  const height = 827;
   const elevations = new Float32Array(width * height);
+  const rawLand = new Uint8Array(width * height);
   for (let y = 0; y < height; y += 1) {
     const latitude = HK_BOUNDS.north - (y / (height - 1)) * (HK_BOUNDS.north - HK_BOUNDS.south);
     for (let x = 0; x < width; x += 1) {
       const longitude = HK_BOUNDS.west + (x / (width - 1)) * (HK_BOUNDS.east - HK_BOUNDS.west);
-      elevations[y * width + x] = elevationAt(buffers, longitude, latitude);
+      const elevation = elevationAt(buffers, longitude, latitude);
+      elevations[y * width + x] = elevation;
+      rawLand[y * width + x] = elevation > 0 ? 1 : 0;
     }
   }
-  const pixels = Buffer.alloc(width * height);
+
+  // A two-pixel dilation retains reclaimed lowlands and narrow islands while
+  // keeping Victoria Harbour and the major marine channels visibly open.
+  const land = new Uint8Array(rawLand.length);
+  for (let y = 0; y < height; y += 1) {
+    for (let x = 0; x < width; x += 1) {
+      let value = 0;
+      for (let dy = -2; dy <= 2 && !value; dy += 1) {
+        const row = y + dy;
+        if (row < 0 || row >= height) continue;
+        for (let dx = -2; dx <= 2; dx += 1) {
+          const column = x + dx;
+          if (column >= 0 && column < width && rawLand[row * width + column]) { value = 1; break; }
+        }
+      }
+      land[y * width + x] = value;
+    }
+  }
+
+  const pixels = Buffer.alloc(width * height * 4);
   const azimuth = (315 * Math.PI) / 180;
   const altitude = (42 * Math.PI) / 180;
   const cell = 30;
-  for (let y = 1; y < height - 1; y += 1) {
-    for (let x = 1; x < width - 1; x += 1) {
-      const dzdx = (elevations[y * width + x + 1] - elevations[y * width + x - 1]) / (2 * cell);
-      const dzdy = (elevations[(y + 1) * width + x] - elevations[(y - 1) * width + x]) / (2 * cell);
+  for (let y = 0; y < height; y += 1) {
+    for (let x = 0; x < width; x += 1) {
+      const index = y * width + x;
+      const offset = index * 4;
+      if (!land[index]) {
+        pixels[offset + 3] = 0;
+        continue;
+      }
+      const sampleX = Math.max(1, Math.min(width - 2, x));
+      const sampleY = Math.max(1, Math.min(height - 2, y));
+      const dzdx = (elevations[sampleY * width + sampleX + 1] - elevations[sampleY * width + sampleX - 1]) / (2 * cell);
+      const dzdy = (elevations[(sampleY + 1) * width + sampleX] - elevations[(sampleY - 1) * width + sampleX]) / (2 * cell);
       const slope = Math.atan(Math.hypot(dzdx, dzdy));
       const aspect = Math.atan2(dzdy, -dzdx);
       const shade = Math.sin(altitude) * Math.cos(slope) + Math.cos(altitude) * Math.sin(slope) * Math.cos(azimuth - aspect);
-      pixels[y * width + x] = Math.max(30, Math.min(245, Math.round(116 + shade * 116)));
+      const elevation = Math.max(0, elevations[index]);
+      const highland = Math.min(1, elevation / 650);
+      const lowland = Math.max(0, 1 - elevation / 120);
+      const texture = Math.sin(x * .037 + y * .021) * 2.2;
+      const light = Math.max(.54, Math.min(1.18, .68 + shade * .43));
+      const red = (143 - highland * 35 + lowland * 6) * light + texture;
+      const green = (158 - highland * 24 + lowland * 3) * light + texture;
+      const blue = (150 - highland * 28 + lowland * 7) * light + texture;
+      pixels[offset] = Math.max(38, Math.min(226, Math.round(red)));
+      pixels[offset + 1] = Math.max(46, Math.min(231, Math.round(green)));
+      pixels[offset + 2] = Math.max(45, Math.min(226, Math.round(blue)));
+      pixels[offset + 3] = 255;
     }
   }
-  const header = Buffer.from(`P5\n${width} ${height}\n255\n`);
-  const output = process.env.COUNTRY_MAP_HK_RELIEF || "/private/tmp/country-map-source/hong-kong-relief.pgm";
-  fs.writeFileSync(output, Buffer.concat([header, pixels]));
+  const output = process.env.COUNTRY_MAP_HK_RELIEF || path.join(OUTPUT_DIRECTORY, "hong-kong-relief.png");
+  writeRgbaPng(output, width, height, pixels);
   return { width, height, output };
 }
 

@@ -70,6 +70,9 @@ for (const [file, minimum] of [["world-relief.jpg", 100_000], ["hong-kong-relief
   assert.equal(existsSync(path), true, `missing terrain asset ${file}`);
   assert.equal(statSync(path).size >= minimum, true, `${file} is too small to be the production relief layer`);
 }
+const hongKongPng = readFileSync(join(root, "country-name-spelling-map/hong-kong-relief.png"));
+assert.equal(hongKongPng.toString("ascii", 1, 4), "PNG", "Hong Kong terrain must be a PNG");
+assert.equal(hongKongPng[25], 6, "Hong Kong terrain must be RGBA so Victoria Harbour and the sea remain transparent");
 assert.equal(existsSync(join(root, "country-name-spelling-map/SOURCES.md")), true, "map sources and licences must be documented");
 
 assert.match(html, /country-name-spelling-terminal-v2\.mjs/);
@@ -77,6 +80,10 @@ assert.match(html, /country-name-spelling-terminal-v2\.css/);
 assert.match(html, /data-edition="world"/);
 assert.match(html, /data-edition="hong-kong"/);
 assert.match(html, /data-terrain-map/);
+assert.match(html, /data-terrain-scan/);
+assert.match(html, /data-mobile-relief/);
+assert.match(html, /hong-kong-land-mask/);
+assert.match(html, /map-water-surface/);
 assert.match(html, /data-location-inset/);
 assert.match(html, /data-map-regions/);
 assert.match(html, /data-flag/);
@@ -93,6 +100,9 @@ assert.match(css, /@media\s*\(max-width:\s*720px\)/);
 assert.match(css, /\.map-region\.is-target/);
 assert.match(css, /\.mission-visual__inset/);
 assert.match(css, /\.rail-line\.is-active/);
+assert.match(css, /\.map-viewport\.is-hong-kong/);
+assert.match(css, /\.map-water-surface/);
+assert.match(css, /\.mobile-map-relief/);
 assert.match(app, /SpeechSynthesisUtterance/);
 assert.match(app, /localStorage\.setItem/);
 assert.match(app, /normaliseAnswer/);
@@ -102,6 +112,9 @@ assert.match(app, /WORLD_GEOMETRY/);
 assert.match(app, /HK_GEOMETRY/);
 assert.match(app, /editDistance/);
 assert.match(app, /REVEAL FULL NAME/);
+assert.match(app, /hongKongLandMask/);
+assert.match(app, /hong-kong-land-mask/);
+assert.match(app, /20261104-coastline2/);
 assert.match(app, /country-name-spelling-flags/);
 assert.doesNotMatch(app, /assets\/country-name-spelling\/flags/);
 
