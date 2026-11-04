@@ -22,7 +22,8 @@ permissions:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    # The Paper 3 browser gate installs Playwright 1.56.1 system dependencies.
+    runs-on: ${{ contains(inputs.release_tags, '[paper3-release]') && 'ubuntu-24.04' || 'ubuntu-latest' }}
     timeout-minutes: 60
     permissions:
       actions: write
