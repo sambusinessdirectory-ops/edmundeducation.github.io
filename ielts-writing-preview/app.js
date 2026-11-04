@@ -16,7 +16,6 @@
   const DEVICE_KEY = 'edmund-ielts-preview-device-v1';
   const SPEED_KEY = 'edmund-ielts-preview-speed-v1';
   const SIZE_KEY = 'edmund-ielts-preview-size-v1';
-  const TASK2_THEME_KEY = 'edmund-ielts-preview-task2-theme-v1';
   const imageUrl = (path) => /^https?:\/\//i.test(path) ? path : `/${path.replace(/^\//, '')}`;
   const $ = (id) => document.getElementById(id);
   const node = (name, className, text) => {
@@ -43,16 +42,6 @@
   const safeStorage = (kind) => {
     try { return window[kind]; } catch { return null; }
   };
-  let task2Theme = 'dark';
-  try { task2Theme = safeStorage('localStorage')?.getItem(TASK2_THEME_KEY) === 'light' ? 'light' : 'dark'; } catch { /* Private browsing keeps the current theme in memory. */ }
-  function applyTask2Theme() {
-    document.body.dataset.task2Theme = task2Theme;
-    const button = $('task2-theme-toggle');
-    button.setAttribute('aria-pressed', String(task2Theme === 'light'));
-    button.querySelector('.task2-theme-icon').textContent = task2Theme === 'light' ? '☾' : '☼';
-    button.querySelector('.task2-theme-label').textContent = task2Theme === 'light' ? '夜間模式' : '日間模式';
-  }
-  applyTask2Theme();
   function storageKey() {
     const universal = readStoredObject(safeStorage('sessionStorage'), 'edmund-universal-student-session-v1');
     const writing = readStoredObject(safeStorage('localStorage'), 'edmundWritingSession');
@@ -949,12 +938,6 @@
     showTab(location.hash === '#task2' ? 'task2' : 'task1');
     $('task1-search').addEventListener('input', filterTask1);
     $('task2-search').addEventListener('input', filterTask2);
-    $('task2-theme-toggle').addEventListener('click', () => {
-      task2Theme = task2Theme === 'light' ? 'dark' : 'light';
-      applyTask2Theme();
-      closeMenu();
-      try { safeStorage('localStorage')?.setItem(TASK2_THEME_KEY, task2Theme); } catch { /* The choice remains active for this visit. */ }
-    });
     $('study-tools-toggle').addEventListener('click', () => {
       const expanded = document.querySelector('.study-tools').classList.toggle('is-open');
       $('study-tools-toggle').setAttribute('aria-expanded', String(expanded));
@@ -989,10 +972,6 @@
     window.setInterval(() => { void refreshAdmin(); }, 2000);
     window.setInterval(() => { void studentHeartbeat(); }, 10000);
     window.addEventListener('storage', (event) => {
-      if (event.key === TASK2_THEME_KEY) {
-        task2Theme = event.newValue === 'light' ? 'light' : 'dark';
-        applyTask2Theme();
-      }
       if (event.key === `${activeStorageKey}:task1`) {
         savedTask1 = readStoredObject(safeStorage('localStorage'), event.key);
         refreshTask1Buttons();
