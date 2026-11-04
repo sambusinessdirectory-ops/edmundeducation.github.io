@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { readFileSync } from 'node:fs';
+import { existsSync, readFileSync } from 'node:fs';
 import test from 'node:test';
 
 const read = path => readFileSync(new URL(`../${path}`, import.meta.url), 'utf8');
@@ -52,7 +52,7 @@ test('two source-derived modes contain 13 learning units and 13 complete bilingu
   assert.match(dataSource, /The Growing Problem of Electronic Waste/);
 });
 
-test('generic catalogue, briefing, three-column writing workspace and model review follow the requested flow', () => {
+test('original route catalogue, document briefing, three-column writing workspace and model review follow the requested flow', () => {
   assert.match(app, /campaign-map/);
   assert.match(app, /briefing-scene/);
   assert.match(app, /desk-requirements/);
@@ -69,6 +69,23 @@ test('generic catalogue, briefing, three-column writing workspace and model revi
   assert.doesNotMatch(css, /operations-map|mission-briefing|writing-desk\.jpg|scene-art/);
   assert.doesNotMatch(app, /showFunctions|model-function|寫作功能對齊/);
   assert.doesNotMatch(css, /model-function|counter-increment|counter\(modelBlock/);
+});
+
+test('production design uses only the original, provenance-documented education artwork', () => {
+  const assets = [
+    'assets/dse-practical-writing/learning-route-v1.webp',
+    'assets/dse-practical-writing/writing-desk-v1.webp',
+    'assets/dse-practical-writing/briefing-folio-v1.webp'
+  ];
+  assert.ok(assets.every(asset => existsSync(new URL(`../${asset}`, import.meta.url))));
+  assert.match(css, /learning-route-v1\.webp/);
+  assert.match(css, /writing-desk-v1\.webp/);
+  assert.match(css, /briefing-folio-v1\.webp/);
+  const provenance = read('assets/dse-practical-writing/PROVENANCE.md');
+  assert.match(provenance, /generated specifically for EdmundEducation/);
+  for (const source of [html, app, css, provenance]) {
+    assert.doesNotMatch(source, /Achtung|Cthulhu|Continue Campaign|New Campaign|Exit Game/i);
+  }
 });
 
 test('drafting is student-scoped, autosaved, completable and responsive', () => {
