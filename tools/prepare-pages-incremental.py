@@ -148,6 +148,14 @@ def apply_delta(source_root: Path, site_root: Path, base: str, target: str, path
             rewritten.add(path)
 
     for relative in PWA_FILES:
+        # The snapshot already contains verified, rewritten asset URLs. Undo
+        # only its release stamp so the normal stamping step can run again.
+        published = site_root / relative
+        if relative not in rewritten and published.is_file():
+            content = published.read_text(encoding="utf-8")
+            if base in content:
+                published.write_text(content.replace(base, "__EDMUND_RELEASE__"), encoding="utf-8")
+                continue
         if not copy_public_file(source_root, site_root, relative):
             raise RuntimeError(f"Missing required PWA source file: {relative}")
         rewritten.add(relative)

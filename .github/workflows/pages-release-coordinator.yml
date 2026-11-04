@@ -71,10 +71,13 @@ jobs:
           route=standard
           release_tags=
           if git merge-base --is-ancestor "${base_sha}" "${GITHUB_SHA}"; then
-            git diff --name-only "${base_sha}" "${GITHUB_SHA}" > /tmp/pages-release-paths.txt
+            git diff --no-renames --name-only "${base_sha}" "${GITHUB_SHA}" > /tmp/pages-release-paths.txt
             route=$(python3 tools/classify-pages-release.py /tmp/pages-release-paths.txt)
             release_tags=$(python3 tools/collect-pages-release-tags.py \
               --paths-file /tmp/pages-release-paths.txt)
+            if [[ "${release_tags}" != *"[fast-deploy]"* ]]; then
+              route=standard
+            fi
           fi
 
           echo "base_sha=${base_sha}" >> "${GITHUB_OUTPUT}"

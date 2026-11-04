@@ -113,11 +113,6 @@ def main() -> int:
     args = parser.parse_args()
     if not args.site.is_dir():
         raise SystemExit(f"Missing Pages directory: {args.site}")
-    root_keys = load_keys("site-pack-index-v1.json")
-    root_keys.update(load_flashcard_keys())
-    eddy_keys = load_keys("eddy-pack-index-v1.json")
-    root_dirs = directories(root_keys)
-    eddy_dirs = directories(eddy_keys)
     touched = Counter()
     if args.paths_file:
         candidates = paths_from_file(args.site, args.paths_file)
@@ -130,11 +125,24 @@ def main() -> int:
         candidates = (Path(os.fsdecode(name)) for name in result.stdout.split(b"\0") if name)
     else:
         candidates = args.site.rglob("*")
+    indexes = None
+    def verified_indexes():
+        root_keys = load_keys("site-pack-index-v1.json")
+        root_keys.update(load_flashcard_keys())
+        eddy_keys = load_keys("eddy-pack-index-v1.json")
+        return root_keys, eddy_keys, directories(root_keys), directories(eddy_keys)
+
+    if not args.paths_file:
+        indexes = verified_indexes()
     for path in candidates:
         if not path.is_file() or path.suffix.lower() not in EXTENSIONS:
             continue
         original = path.read_text(encoding="utf-8")
-        updated = rewrite(original, path.relative_to(args.site), root_keys, eddy_keys, root_dirs, eddy_dirs)
+        updated = original
+        if LOCAL.search(original) or ABSOLUTE.search(original):
+            if indexes is None:
+                indexes = verified_indexes()
+            updated = rewrite(original, path.relative_to(args.site), *indexes)
         if path.suffix.lower() == ".html":
             updated = allow_asset_origin_in_csp(updated)
         if updated != original:

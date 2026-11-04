@@ -101,7 +101,7 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
     def test_router_compares_against_deployed_snapshot(self):
         self.assertIn("refs/heads/pages-snapshot", COORDINATOR)
         self.assertIn('git show "${snapshot_commit}:.source-sha"', COORDINATOR)
-        self.assertIn('git diff --name-only "${base_sha}" "${GITHUB_SHA}"', COORDINATOR)
+        self.assertIn('git diff --no-renames --name-only "${base_sha}" "${GITHUB_SHA}"', COORDINATOR)
 
     def test_standard_builder_uses_all_undeployed_release_tags(self):
         standard = BUILDERS[0]
