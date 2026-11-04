@@ -45,6 +45,7 @@ jobs:
         uses: actions/checkout@v6
 
       - name: Check song exercise quality
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[song-release]') }}
         run: |
           node tools/check-song-quality.mjs
           node tools/test-song-route.mjs
@@ -90,8 +91,15 @@ jobs:
           node --check shared-system-nav.js
           node --check shared-companion.mjs
 
+      - name: Validate focused release-gate repair
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[release-gate-repair]') }}
+        run: |
+          node --test tools/test-eddie-farm.mjs
+          node tools/test-ielts-reading-passage1-flashcards.mjs
+          node tools/test-ielts-reading-passage2-flashcards.mjs
+
       - name: Validate closet fast release
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[infrastructure-release]') && !contains(inputs.release_tags, '[classroom-release]') && !contains(inputs.release_tags, '[flashcard-release]') && !contains(inputs.release_tags, '[sentence-release]') && !contains(inputs.release_tags, '[phrasal-release]') && !contains(inputs.release_tags, '[proverb-release]') && !contains(inputs.release_tags, '[idiom-release]') && !contains(inputs.release_tags, '[speaking-release]') && !contains(inputs.release_tags, '[writing-release]') && !contains(inputs.release_tags, '[practical-writing-release]') && !contains(inputs.release_tags, '[polysemy-release]') && !contains(inputs.release_tags, '[synonyms-release]') && !contains(inputs.release_tags, '[grammar-release]') && !contains(inputs.release_tags, '[native-release]') && !contains(inputs.release_tags, '[italian-release]') && !contains(inputs.release_tags, '[homework-release]') && !contains(inputs.release_tags, '[reading-release]') && !contains(inputs.release_tags, '[listening-release]') && !contains(inputs.release_tags, '[listening-types-release]') && !contains(inputs.release_tags, '[professional-release]') && !contains(inputs.release_tags, '[paper3-release]') && !contains(inputs.release_tags, '[junior-release]') && !contains(inputs.release_tags, '[irregular-release]') && !contains(inputs.release_tags, '[news-release]') && !contains(inputs.release_tags, '[dse-arguments-release]') && !contains(inputs.release_tags, '[error-id-release]') && !contains(inputs.release_tags, '[coin-release]') && !contains(inputs.release_tags, '[song-release]') && !contains(inputs.release_tags, '[writing-preview-release]') && !contains(inputs.release_tags, '[chart-release]') && !contains(inputs.release_tags, '[homepage-rollback]') && !contains(inputs.release_tags, '[homepage-release]') && !contains(inputs.release_tags, '[country-spelling-release]') && !contains(inputs.release_tags, '[literary-release]') && !contains(inputs.release_tags, '[release-gate-repair]') }}
         run: |
           node tools/test-common-expression-closet.mjs
           node --test tools/test-eddy-cosmetics.mjs
@@ -137,6 +145,9 @@ jobs:
             tools/collect-pages-release-tags.py \
             tools/prepare-pages-incremental.py \
             tools/rewrite-pages-assets.py
+          node --check pwa-register.js
+          node --check service-worker.js
+          node --check shared-system-nav.js
           bash -n tools/update-pages-snapshot.sh
 
       - name: Validate focused flashcard release
@@ -175,6 +186,14 @@ jobs:
           grep -Fq 'object-fit: contain;' homepage-system-deck.css
           grep -Fq 'pointer-events: none;' homepage-system-deck.css
           node --check homepage-system-deck.js
+
+      - name: Validate focused Literary Device release
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[literary-release]') }}
+        run: |
+          node --check literary-device-data.js
+          node --check literary-device.js
+          grep -Fq 'literary-device-data.js' literary-device.html
+          grep -Fq 'literary-device.js' literary-device.html
 
       - name: Validate focused Phrasal Verb login release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[phrasal-release]') }}
@@ -278,6 +297,9 @@ jobs:
           node --check error-identifier-indefinite.js
           node tools/test-indefinite-pronouns-data.mjs
           node tools/test-indefinite-admin-answers.mjs
+          node tools/test-error-identifier-indefinite-feedback.mjs
+          node tools/test-error-identifier-jayden.mjs
+          node tools/test-indefinite-pronouns-import.mjs
 
       - name: Validate focused Native English release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[native-release]') }}
@@ -304,6 +326,7 @@ jobs:
           node --check error-identifier-passage.js
           node --check junior-exam-prep/app.mjs
           node tools/test-homework-course-links.mjs
+          node --check tools/generate-homework-resource-catalog.mjs
           node tools/test-junior-exam-prep.mjs
           node --check schedule-system.js
           node --check schedule-homework-export.mjs
@@ -382,6 +405,11 @@ jobs:
       - name: Validate focused Paper 3 curation release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[paper3-release]') }}
         run: |
+          node --check paper3/2023-b2/curation/lesson.js
+          node --check paper3/2023-b2/curation/meeting.js
+          node --check paper3/2023-b2/curation/podcast-v7.js
+          node tools/paper3/validate-v7-requirements.mjs
+          grep -Fq "podcastArchitectureVersion23='7-continuous-single-owner'" paper3/2023-b2/curation/index.html
           node --check paper3/2025-b2/reader.js
           node --check paper3/2025-b2/sentence-analysis.js
           node --check paper3/2025-b2/listening-notes.js
@@ -401,6 +429,8 @@ jobs:
           node tools/test-dse-reading-translations.mjs
           node tools/test-dse-deep-analysis.mjs
           node tools/test-dse-analysis-batch.mjs
+          node tools/test-ielts-reading-passage1-flashcards.mjs
+          node tools/test-ielts-reading-passage2-flashcards.mjs
 
       - name: Validate focused DSE Listening release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[listening-release]') }}
@@ -425,6 +455,19 @@ jobs:
           node --check ielts-super-curation.mjs
           node tools/test-dse-listening-2022-2024.mjs
 
+      - name: Validate focused DSE Listening question-type release
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[listening-types-release]') }}
+        run: |
+          node --check listening-system.js
+          node --check dse-listening-question-types.mjs
+          node --check listening-question-types.mjs
+          node --check question-type-finder.mjs
+          node tools/test-listening-system.mjs
+          node tools/generate-dse-listening-question-types.mjs > /dev/null
+          git diff --exit-code -- dse-listening-question-types.json
+          node tools/test-dse-listening-question-types.mjs
+          node --check tools/test-dse-listening-question-types-browser.mjs
+
       - name: Validate focused Speaking release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[speaking-release]') }}
         run: |
@@ -442,6 +485,16 @@ jobs:
           node --check country-name-spelling-data.mjs
           node --check country-name-spelling-terminal.mjs
           node tools/test-country-name-spelling.mjs
+
+      - name: Validate focused DSE Practical Writing release
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[practical-writing-release]') }}
+        run: |
+          test -s assets/dse-practical-writing/briefing-folio-v1.webp
+          test -s assets/dse-practical-writing/learning-route-v1.webp
+          test -s assets/dse-practical-writing/writing-desk-v1.webp
+          node --test tools/test-dse-practical-writing.mjs
+          node --check tools/test-dse-practical-writing-browser.mjs
+          node --check dse-practical-writing.mjs
 
       - name: Validate focused Writing release
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[writing-release]') }}
