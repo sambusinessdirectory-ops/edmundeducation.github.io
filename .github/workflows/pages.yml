@@ -1,9 +1,11 @@
-name: Deploy GitHub Pages
+name: Build complete GitHub Pages artifact
 
 on:
-  push:
-    branches: [main]
-  workflow_dispatch:
+  workflow_call:
+    outputs:
+      artifact_name:
+        description: Prepared Pages artifact name
+        value: ${{ jobs.build.outputs.artifact_name }}
 
 permissions:
   actions: write
@@ -13,10 +15,6 @@ permissions:
 
 jobs:
   build:
-    # Simple homepage artwork and focused Paper 3 updates use fast workflows.
-    # Mixed-scope releases can explicitly request a complete artifact while
-    # retaining focused validation by adding [full-release].
-    if: ${{ contains(github.event.head_commit.message, '[full-release]') || (!contains(github.event.head_commit.message, '[site-fast]') && !(contains(github.event.head_commit.message, '[fast-deploy]') && contains(github.event.head_commit.message, '[paper3-release]'))) }}
     runs-on: ubuntu-latest
     timeout-minutes: 60
     permissions:
@@ -1095,14 +1093,3 @@ jobs:
         with:
           name: ${{ steps.artifact.outputs.name }}
           path: _site
-
-  deploy:
-    needs: build
-    uses: ./.github/workflows/publish-pages-artifact.yml
-    with:
-      artifact_name: ${{ needs.build.outputs.artifact_name }}
-    permissions:
-      actions: read
-      contents: write
-      pages: write
-      id-token: write
