@@ -3,10 +3,16 @@ import {
   WORLD_COUNTRIES, WORLD_MODES, WORLD_OCEANS, WORLD_REGIONS, WORLD_SPECIALS
 } from "./country-name-spelling-data.mjs";
 import { HK_GEOMETRY, HK_VIEWBOX, MTR_COORDINATES, WORLD_GEOMETRY, WORLD_VIEWBOX } from "./country-name-spelling-map/map-geometry.mjs";
+import {
+  countrySpellingLocalKey, countrySpellingStatesEqual, createDefaultCountrySpellingProgress,
+  mergeCountrySpellingProgress, normaliseCountrySpellingProgress
+} from "./country-name-spelling-progress.mjs?v=20261104-account-sync1";
 
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-country-name-spelling-session-v1";
-const PROGRESS_KEY = "edmund-country-name-spelling-progress-v2";
+const LEGACY_PROGRESS_KEY = "edmund-country-name-spelling-progress-v2";
+const REMOTE_PROGRESS_KEY = "edmundCountrySpellingProgressV1";
+const SYNC_DEBOUNCE_MS = 650;
 const WORLD_RELIEF = "country-name-spelling-map/world-relief.jpg";
 const HK_RELIEF = "country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2";
 const SVG_NS = "http://www.w3.org/2000/svg";
@@ -39,6 +45,7 @@ const elements = {
   content: document.querySelector('[data-view="content"]'),
   form: document.querySelector("[data-login-form]"),
   loginStatus: document.querySelector("[data-login-status]"),
+  syncStatus: document.querySelector("[data-sync-status]"),
   actions: document.querySelector("[data-account-actions]"),
   accountName: document.querySelector("[data-account-name]"),
   logout: document.querySelector("[data-logout]"),
@@ -105,7 +112,15 @@ let gameReady = false;
 let mapCamera = null;
 let cameraAnimation = 0;
 let pronunciationAudio = null;
-let state = loadProgress();
+let state = createDefaultCountrySpellingProgress();
+let accountProgressKey = "";
+let remoteProgressVersion = 0;
+let remoteCanonicalState = createDefaultCountrySpellingProgress();
+let syncReady = false;
+let syncDirty = false;
+let syncTimer = 0;
+let syncInFlight = null;
+let legacyProgressMigrated = false;
 
 function svgNode(tag, attributes = {}, text = "") {
   const node = document.createElementNS(SVG_NS, tag);
@@ -114,26 +129,144 @@ function svgNode(tag, attributes = {}, text = "") {
   return node;
 }
 
-function loadProgress() {
-  const fallback = { edition:"world", worldMode:"Country names", filters:{ world:"All", "hong-kong":"Districts" }, current:{}, attempts:0, correct:0, streak:0, mastered:[], hints:0, failures:{}, solved:false, revealed:[], usedFullReveal:false, trapVisible:false, showMasteredMap:true };
+function readStoredProgress(key) {
+  if (!key) return null;
   try {
-    const value = JSON.parse(localStorage.getItem(PROGRESS_KEY) || "null");
-    if (!value || typeof value !== "object") return fallback;
-    return {
-      ...fallback,
-      ...value,
-      filters: { ...fallback.filters, ...(value.filters || {}) },
-      current: { ...(value.current || {}) },
-      failures: { ...(value.failures || {}) },
-      mastered: Array.isArray(value.mastered) ? value.mastered.filter((id) => typeof id === "string") : []
-    };
+    const value = JSON.parse(localStorage.getItem(key) || "null");
+    return value && typeof value === "object" && !Array.isArray(value)
+      ? normaliseCountrySpellingProgress(value)
+      : null;
   } catch {
-    return fallback;
+    return null;
   }
 }
 
-function saveProgress() {
-  try { localStorage.setItem(PROGRESS_KEY, JSON.stringify(state)); } catch {}
+function writeLocalProgress() {
+  if (!accountProgressKey) return;
+  try { localStorage.setItem(accountProgressKey, JSON.stringify(state)); } catch {}
+}
+
+function setSyncStatus(mode, copy) {
+  if (!elements.syncStatus) return;
+  elements.syncStatus.dataset.syncState = mode;
+  elements.syncStatus.textContent = copy;
+}
+
+function queueProgressSync(delay = SYNC_DEBOUNCE_MS) {
+  if (!syncReady || !session?.token || session.id === "preview") return;
+  clearTimeout(syncTimer);
+  syncTimer = window.setTimeout(() => { void flushProgressSync(); }, delay);
+}
+
+function saveProgress(options = {}) {
+  state = normaliseCountrySpellingProgress({ ...state, updatedAt: Date.now() });
+  writeLocalProgress();
+  if (!syncReady || !session?.token || session.id === "preview") return;
+  syncDirty = true;
+  setSyncStatus("pending", "ACCOUNT SYNC · PENDING");
+  queueProgressSync(options.immediate ? 0 : SYNC_DEBOUNCE_MS);
+}
+
+function findRemoteProgressRow(rows) {
+  return (Array.isArray(rows) ? rows : []).find((row) => row?.key === REMOTE_PROGRESS_KEY) || null;
+}
+
+async function readRemoteProgress() {
+  const rows = await rpc("flashcard_student_get_state_v2", { p_token:session.token });
+  const row = findRemoteProgressRow(rows);
+  remoteProgressVersion = Number.isSafeInteger(Number(row?.version)) ? Number(row.version) : 0;
+  remoteCanonicalState = normaliseCountrySpellingProgress(row?.value);
+  return { row, value:remoteCanonicalState };
+}
+
+async function hydrateAccountProgress() {
+  clearTimeout(syncTimer);
+  syncReady = false;
+  syncDirty = false;
+  remoteProgressVersion = 0;
+  accountProgressKey = countrySpellingLocalKey(session?.id);
+  const accountLocal = readStoredProgress(accountProgressKey);
+  const legacyLocal = accountLocal ? null : readStoredProgress(LEGACY_PROGRESS_KEY);
+  legacyProgressMigrated = Boolean(legacyLocal);
+  const local = accountLocal || (legacyLocal
+    ? normaliseCountrySpellingProgress({ ...legacyLocal, updatedAt:legacyLocal.updatedAt || Date.now() })
+    : createDefaultCountrySpellingProgress());
+  state = local;
+  writeLocalProgress();
+  setSyncStatus("syncing", "ACCOUNT SYNC · LOADING…");
+  try {
+    const { row, value:server } = await readRemoteProgress();
+    state = mergeCountrySpellingProgress(server, local);
+    writeLocalProgress();
+    syncReady = true;
+    syncDirty = !row || !countrySpellingStatesEqual(state, server);
+    setSyncStatus(syncDirty ? "pending" : "saved", syncDirty ? "ACCOUNT SYNC · PENDING" : "ACCOUNT PROGRESS SYNCED");
+    if (syncDirty) await flushProgressSync({ retryConflicts:true });
+  } catch {
+    remoteCanonicalState = createDefaultCountrySpellingProgress();
+    remoteProgressVersion = 0;
+    syncReady = true;
+    syncDirty = true;
+    setSyncStatus("offline", "OFFLINE · SAVED ON THIS DEVICE");
+  }
+}
+
+async function flushProgressSync(options = {}) {
+  if (!syncReady || !syncDirty || !session?.token || session.id === "preview") return false;
+  if (syncInFlight) return syncInFlight;
+  clearTimeout(syncTimer);
+  const tokenAtStart = session.token;
+  syncInFlight = (async () => {
+    let attempts = options.retryConflicts === false ? 1 : 3;
+    while (attempts > 0 && session?.token === tokenAtStart && syncDirty) {
+      attempts -= 1;
+      const snapshot = normaliseCountrySpellingProgress(state);
+      const snapshotUpdatedAt = snapshot.updatedAt;
+      setSyncStatus("syncing", "ACCOUNT SYNC · SAVING…");
+      try {
+        const receipt = await rpc("flashcard_student_upsert_state_v2", {
+          p_token:tokenAtStart,
+          p_key:REMOTE_PROGRESS_KEY,
+          p_value:snapshot,
+          p_request_id:crypto.randomUUID(),
+          p_expected_version:remoteProgressVersion
+        });
+        if (receipt?.status === "accepted") {
+          remoteProgressVersion = Number(receipt.resultingVersion || remoteProgressVersion + 1);
+          remoteCanonicalState = snapshot;
+          syncDirty = state.updatedAt !== snapshotUpdatedAt;
+          writeLocalProgress();
+          if (!syncDirty && legacyProgressMigrated) {
+            try { localStorage.removeItem(LEGACY_PROGRESS_KEY); } catch {}
+            legacyProgressMigrated = false;
+          }
+          setSyncStatus(syncDirty ? "pending" : "saved", syncDirty ? "ACCOUNT SYNC · PENDING" : "ACCOUNT PROGRESS SYNCED");
+          if (syncDirty) queueProgressSync(0);
+          return true;
+        }
+        if (receipt?.code === "version_conflict") {
+          const { value:server } = await readRemoteProgress();
+          state = mergeCountrySpellingProgress(server, state);
+          state.updatedAt = Math.max(state.updatedAt, Date.now());
+          writeLocalProgress();
+          syncDirty = true;
+          continue;
+        }
+        throw new Error(receipt?.code || "progress_sync_rejected");
+      } catch {
+        setSyncStatus("offline", "OFFLINE · SAVED ON THIS DEVICE");
+        syncDirty = true;
+        return false;
+      }
+    }
+    if (syncDirty) queueProgressSync(1500);
+    return !syncDirty;
+  })();
+  try {
+    return await syncInFlight;
+  } finally {
+    syncInFlight = null;
+  }
 }
 
 function supabaseClient() {
@@ -177,10 +310,18 @@ function showContent() {
   elements.actions.hidden = false;
   elements.accountName.textContent = `${session.name} · 學生`;
   if (!gameReady) initialiseGame();
+  else render();
 }
 
 function clearSession() {
+  clearTimeout(syncTimer);
   session = null;
+  syncReady = false;
+  syncDirty = false;
+  accountProgressKey = "";
+  remoteProgressVersion = 0;
+  remoteCanonicalState = createDefaultCountrySpellingProgress();
+  state = createDefaultCountrySpellingProgress();
   try { sessionStorage.removeItem(SESSION_KEY); } catch {}
   elements.login.hidden = false;
   elements.content.hidden = true;
@@ -717,7 +858,9 @@ function renderIdentity(item) {
 function render() {
   const item = currentItem();
   if (!item) return;
-  state.current[currentKey()] = item.id;
+  const key = currentKey();
+  const selectedChanged = state.current[key] !== item.id;
+  state.current[key] = item.id;
   elements.editionButtons.forEach((button) => button.classList.toggle("is-active", button.dataset.edition === state.edition));
   elements.worldModes.hidden = state.edition !== "world";
   elements.mapConsole.classList.toggle("has-world-modes", state.edition === "world");
@@ -737,7 +880,7 @@ function render() {
   renderMap(item);
   renderIdentity(item);
   renderStats(item);
-  saveProgress();
+  if (selectedChanged) saveProgress();
 }
 
 function editDistance(left, right) {
@@ -934,6 +1077,7 @@ function initialiseGame() {
     state.revealed = [];
     state.usedFullReveal = false;
     state.trapVisible = false;
+    saveProgress();
     render();
   }));
   elements.worldModeButtons.forEach((button) => button.addEventListener("click", () => {
@@ -945,6 +1089,7 @@ function initialiseGame() {
     state.revealed = [];
     state.usedFullReveal = false;
     state.trapVisible = false;
+    saveProgress();
     render();
   }));
   elements.answer.addEventListener("input", () => {
@@ -987,32 +1132,51 @@ elements.form.addEventListener("submit", async (event) => {
     });
     const row = Array.isArray(rows) ? rows[0] : null;
     if (!row?.session_token || !await validate(String(row.session_token))) throw new Error("用戶名稱或密碼不正確。");
+    await hydrateAccountProgress();
     showContent();
   } catch (error) {
     elements.loginStatus.textContent = error.message || "未能登入。";
   }
 });
 
-elements.logout.addEventListener("click", clearSession);
+elements.logout.addEventListener("click", async () => {
+  elements.logout.disabled = true;
+  try { await flushProgressSync({ retryConflicts:true }); } finally {
+    clearSession();
+    elements.logout.disabled = false;
+  }
+});
+
+window.addEventListener("online", () => {
+  if (syncDirty) void flushProgressSync({ retryConflicts:true });
+});
+document.addEventListener("visibilitychange", () => {
+  if (document.visibilityState === "hidden" && syncDirty) void flushProgressSync({ retryConflicts:true });
+});
 
 (async () => {
   const previewParameters = new URLSearchParams(location.search);
   const localPreview = ["localhost", "127.0.0.1"].includes(location.hostname)
     && previewParameters.has("preview");
   if (localPreview) {
+    session = { token:"local-preview", id:"preview", name:"Preview", role:"student" };
+    accountProgressKey = countrySpellingLocalKey(session.id);
+    state = readStoredProgress(accountProgressKey) || createDefaultCountrySpellingProgress();
     if (previewParameters.get("edition") === "hong-kong") state.edition = "hong-kong";
     if (previewParameters.get("filter") === "mtr") state.filters["hong-kong"] = "MTR stations";
     if (previewParameters.get("filter") === "challenge") state.filters.world = "Challenge!";
     if (previewParameters.get("filter") === "oceans") state.filters.world = "Oceans";
     if (previewParameters.get("mode") === "adjectives") state.worldMode = "Country adjectives";
-    session = { token:"local-preview", id:"preview", name:"Preview", role:"student" };
     return showContent();
   }
   let saved = null;
   try { saved = JSON.parse(sessionStorage.getItem(SESSION_KEY) || "null"); } catch {}
   saved ||= window.EdmundSystemNav?.bridgeStudentSession?.() || window.EdmundSystemNav?.getStudentSession?.();
   try {
-    if (saved?.token && await validate(saved.token)) return showContent();
+    if (saved?.token && await validate(saved.token)) {
+      await hydrateAccountProgress();
+      return showContent();
+    }
   } catch {}
   clearSession();
 })();

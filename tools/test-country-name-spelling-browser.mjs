@@ -11,7 +11,7 @@ page.on("console", (message) => {
   if (message.type() === "error" && !message.text().includes("Applying inline style violates")) errors.push(message.text());
 });
 await page.goto(url, { waitUntil:"networkidle" });
-await page.evaluate(() => localStorage.removeItem("edmund-country-name-spelling-progress-v2"));
+await page.evaluate(() => localStorage.removeItem("edmund-country-name-spelling-progress-v3:preview"));
 await page.reload({ waitUntil:"networkidle" });
 await page.locator('[data-view="content"]').waitFor({ state:"visible" });
 assert.equal(await page.locator("[data-map-viewport]").evaluate((node) => node.getBoundingClientRect().height > 300), true);
@@ -70,7 +70,7 @@ await page.locator("[data-speak]").click();
 assert.equal((await oceanAudioResponse).status(), 200);
 
 await page.evaluate(() => {
-  const key = "edmund-country-name-spelling-progress-v2";
+  const key = "edmund-country-name-spelling-progress-v3:preview";
   const state = JSON.parse(localStorage.getItem(key));
   state.filters.world = "All";
   state.worldMode = "Country names";
