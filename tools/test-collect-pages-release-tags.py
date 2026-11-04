@@ -90,7 +90,7 @@ tools/test-schedule-system.mjs
         ]
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(uncovered, [])
-        self.assertEqual(tags, "[fast-deploy] [full-artifact] [infrastructure-release]")
+        self.assertEqual(tags, "[fast-deploy] [infrastructure-release]")
 
     def test_verified_audio_pin_repairs_use_the_test_only_gate(self):
         paths = [
@@ -100,7 +100,7 @@ tools/test-schedule-system.mjs
         ]
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(uncovered, [])
-        self.assertEqual(tags, "[audio-contract-release] [fast-deploy] [full-artifact] [release-gate-repair]")
+        self.assertEqual(tags, "[fast-deploy] [release-gate-repair]")
 
     def test_homework_assets_and_worker_changes_keep_the_focused_route(self):
         paths = [
@@ -113,10 +113,18 @@ tools/test-schedule-system.mjs
         self.assertEqual(uncovered, [])
         self.assertEqual(tags, "[fast-deploy] [homework-release]")
 
-    def test_known_workflow_builds_full_artifact_with_all_affected_checks(self):
+    def test_known_workflow_uses_focused_infrastructure_checks(self):
         tags, uncovered = module.collect_path_scopes([".github/workflows/pages.yml", "literary-device.html"], self.policy)
         self.assertFalse(uncovered)
-        self.assertEqual(set(tags.split()), {"[fast-deploy]", "[full-artifact]", "[infrastructure-release]", "[literary-release]"})
+        self.assertEqual(set(tags.split()), {"[fast-deploy]", "[infrastructure-release]", "[literary-release]"})
+
+    def test_real_audio_manifest_change_keeps_the_full_artifact_gate(self):
+        tags, uncovered = module.collect_path_scopes(["flashcards-audio-manifest.js"], self.policy)
+        self.assertFalse(uncovered)
+        self.assertEqual(
+            set(tags.split()),
+            {"[audio-contract-release]", "[fast-deploy]", "[flashcard-release]", "[full-artifact]"},
+        )
 
     def test_empty_path_set_is_not_fast(self):
         self.assertEqual(module.collect_path_scopes([], self.policy), ("", []))

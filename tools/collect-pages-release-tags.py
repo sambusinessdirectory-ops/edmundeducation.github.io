@@ -62,7 +62,7 @@ def collect_path_scopes(
         # must not pull the unchanged multi-gigabyte product corpus merely
         # because a product scope also has a broad test filename pattern.
         if "[release-gate-repair]" in matches:
-            matches &= {"[release-gate-repair]", "[audio-contract-release]"}
+            matches = {"[release-gate-repair]"}
         if matches:
             tags.update(matches)
         else:
@@ -77,7 +77,7 @@ def collect_path_scopes(
     )
     if not uncovered and not shared:
         tags.add(FAST)
-        if tags.intersection({"[infrastructure-release]", "[audio-contract-release]"}):
+        if "[audio-contract-release]" in tags:
             tags.add("[full-artifact]")
     return " ".join(sorted(tags)), uncovered
 

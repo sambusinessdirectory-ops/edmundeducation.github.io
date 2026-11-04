@@ -354,7 +354,11 @@ jobs:
             tools/test-government-civics-book3-flashcards.mjs \
             tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs \
             tools/test-hkfsd-incident-report-flashcards.mjs \
-            tools/test-ielts-writing-task1-audio.mjs
+            tools/test-hkfsd-incident-report-3.mjs \
+            tools/test-hkfsd-incident-report-writing.mjs \
+            tools/test-ielts-writing-task1-audio.mjs \
+            tools/test-dse-writing-part-b-audio.mjs \
+            tools/load-verified-writing-audio.mjs
           do
             run_gate "Syntax: ${repair_test}" node --check "${repair_test}"
           done

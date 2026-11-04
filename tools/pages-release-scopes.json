@@ -26,6 +26,7 @@
       "tools/update-pages-snapshot.sh"
     ],
     "[audio-contract-release]": [
+      "flashcards-audio-manifest.js",
       "tools/test-business-concepts-book1-flashcards.mjs",
       "tools/test-flashcard-expansion-20260801-ui.mjs",
       "tools/test-government-civics-book1-flashcards.mjs",
@@ -37,7 +38,8 @@
       "tools/test-hkfsd-incident-report-writing.mjs",
       "tools/test-ielts-writing-task1-audio.mjs",
       "tools/test-dse-writing-part-b-audio.mjs",
-      "tools/load-verified-writing-audio.mjs"
+      "tools/load-verified-writing-audio.mjs",
+      "writing-audio*-manifest.js"
     ],
     "[classroom-release]": [
       "classroom-*",
@@ -233,7 +235,11 @@
       "tools/test-government-civics-book*-flashcards.mjs",
       "tools/test-hkfsd-*-flashcards.mjs",
       "tools/test-ielts-reading-passage*-flashcards.mjs",
-      "tools/test-ielts-writing-task1-audio.mjs"
+      "tools/test-ielts-writing-task1-audio.mjs",
+      "tools/test-dse-writing-part-b-audio.mjs",
+      "tools/test-hkfsd-incident-report-3.mjs",
+      "tools/test-hkfsd-incident-report-writing.mjs",
+      "tools/load-verified-writing-audio.mjs"
     ],
     "[country-spelling-release]": [
       "country-name-spelling-audio/**",
