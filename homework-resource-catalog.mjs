@@ -9369,6 +9369,214 @@ export const HOMEWORK_RESOURCE_CATALOG = Object.freeze([
     "url": "listening-system.html?section=dse&year=2026&task=4"
   },
   {
+    "id": "dse-practical-writing:learning:enquiry",
+    "type": "dse-practical-writing",
+    "ordinal": 1,
+    "label": "Learning 01 · Letter of Enquiry · 查詢信",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=enquiry"
+  },
+  {
+    "id": "dse-practical-writing:learning:bad-news-email",
+    "type": "dse-practical-writing",
+    "ordinal": 2,
+    "label": "Learning 02 · Negative Email · 壞消息電郵",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=bad-news-email"
+  },
+  {
+    "id": "dse-practical-writing:learning:reply",
+    "type": "dse-practical-writing",
+    "ordinal": 3,
+    "label": "Learning 03 · Letter of Reply · 回覆信",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=reply"
+  },
+  {
+    "id": "dse-practical-writing:learning:report",
+    "type": "dse-practical-writing",
+    "ordinal": 4,
+    "label": "Learning 04 · Report · 報告",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=report"
+  },
+  {
+    "id": "dse-practical-writing:learning:proposal",
+    "type": "dse-practical-writing",
+    "ordinal": 5,
+    "label": "Learning 05 · Proposal · 建議書",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=proposal"
+  },
+  {
+    "id": "dse-practical-writing:learning:formal-request",
+    "type": "dse-practical-writing",
+    "ordinal": 6,
+    "label": "Learning 06 · Letter of Request · 正式請求信",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=formal-request"
+  },
+  {
+    "id": "dse-practical-writing:learning:promotional-article",
+    "type": "dse-practical-writing",
+    "ordinal": 7,
+    "label": "Learning 07 · Promotional Article · 宣傳文章",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=promotional-article"
+  },
+  {
+    "id": "dse-practical-writing:learning:invite-spokesperson",
+    "type": "dse-practical-writing",
+    "ordinal": 8,
+    "label": "Learning 08 · Invitation — Spokesperson · 邀請信：擔任代言人",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=invite-spokesperson"
+  },
+  {
+    "id": "dse-practical-writing:learning:invite-winners",
+    "type": "dse-practical-writing",
+    "ordinal": 9,
+    "label": "Learning 09 · Invitation — Winners · 邀請信：得獎者",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=invite-winners"
+  },
+  {
+    "id": "dse-practical-writing:learning:informal-request",
+    "type": "dse-practical-writing",
+    "ordinal": 10,
+    "label": "Learning 10 · Informal Letter of Request · 非正式請求信",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=informal-request"
+  },
+  {
+    "id": "dse-practical-writing:learning:press-release",
+    "type": "dse-practical-writing",
+    "ordinal": 11,
+    "label": "Learning 11 · Press Release · 新聞稿",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=press-release"
+  },
+  {
+    "id": "dse-practical-writing:learning:speech",
+    "type": "dse-practical-writing",
+    "ordinal": 12,
+    "label": "Learning 12 · Speech · 演講辭",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=speech"
+  },
+  {
+    "id": "dse-practical-writing:learning:outline",
+    "type": "dse-practical-writing",
+    "ordinal": 13,
+    "label": "Learning 13 · Informative Article / Outline · 資料文章與寫作大綱",
+    "detail": "DSE Practical Writing · 學習模式",
+    "url": "dse-practical-writing.html?mode=learning&item=outline"
+  },
+  {
+    "id": "dse-practical-writing:practice:workshop-enquiry",
+    "type": "dse-practical-writing",
+    "ordinal": 1,
+    "label": "Practice 01 · Educational Technology Workshop Enquiry · 教育科技工作坊查詢",
+    "detail": "Letter of Enquiry · 查詢信 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=workshop-enquiry"
+  },
+  {
+    "id": "dse-practical-writing:practice:absence-presentation",
+    "type": "dse-practical-writing",
+    "ordinal": 2,
+    "label": "Practice 02 · Absence from a Group Presentation · 未能出席小組匯報",
+    "detail": "Bad News Email · 壞消息電郵 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=absence-presentation"
+  },
+  {
+    "id": "dse-practical-writing:practice:photography-reply",
+    "type": "dse-practical-writing",
+    "ordinal": 3,
+    "label": "Practice 03 · Youth Photography Competition Enquiry · 青年攝影比賽查詢",
+    "detail": "Letter of Reply · 回覆信 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=photography-reply"
+  },
+  {
+    "id": "dse-practical-writing:practice:online-learning-report",
+    "type": "dse-practical-writing",
+    "ordinal": 4,
+    "label": "Practice 04 · Problems with a School's Online Learning System · 學校網上學習系統問題報告",
+    "detail": "Formal Report · 正式報告 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=online-learning-report"
+  },
+  {
+    "id": "dse-practical-writing:practice:school-recycling",
+    "type": "dse-practical-writing",
+    "ordinal": 5,
+    "label": "Practice 05 · Improving a School Recycling Programme · 改善學校回收計劃",
+    "detail": "Proposal · 建議書 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=school-recycling"
+  },
+  {
+    "id": "dse-practical-writing:practice:training-request",
+    "type": "dse-practical-writing",
+    "ordinal": 6,
+    "label": "Practice 06 · Changes to a Staff Training Programme · 修改員工培訓計劃",
+    "detail": "Letter of Request · 正式請求信 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=training-request"
+  },
+  {
+    "id": "dse-practical-writing:practice:space-exhibition",
+    "type": "dse-practical-writing",
+    "ordinal": 7,
+    "label": "Practice 07 · Beyond Earth: Journey into Space · 《超越地球：太空之旅》展覽",
+    "detail": "Promotional Article · 宣傳文章 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=space-exhibition"
+  },
+  {
+    "id": "dse-practical-writing:practice:reading-ambassador",
+    "type": "dse-practical-writing",
+    "ordinal": 8,
+    "label": "Practice 08 · Invitation to Become a Reading Ambassador · 邀請擔任閱讀大使",
+    "detail": "Invitation — Spokesperson · 邀請信：擔任代言人 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=reading-ambassador"
+  },
+  {
+    "id": "dse-practical-writing:practice:innovation-winners",
+    "type": "dse-practical-writing",
+    "ordinal": 9,
+    "label": "Practice 09 · Young Inventors Technology Experience Day · 青年發明家科技體驗日",
+    "detail": "Invitation — Winners · 邀請信：得獎者 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=innovation-winners"
+  },
+  {
+    "id": "dse-practical-writing:practice:charity-bazaar",
+    "type": "dse-practical-writing",
+    "ordinal": 10,
+    "label": "Practice 10 · Suggestions for a School Charity Bazaar · 改善學校慈善義賣會的建議",
+    "detail": "Informal Letter · 非正式書信 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=charity-bazaar"
+  },
+  {
+    "id": "dse-practical-writing:practice:freshgo-response",
+    "type": "dse-practical-writing",
+    "ordinal": 11,
+    "label": "Practice 11 · Response to Food Delivery Allegations · 回應外賣服務指控",
+    "detail": "Press Release · 新聞稿 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=freshgo-response"
+  },
+  {
+    "id": "dse-practical-writing:practice:meals-of-hope",
+    "type": "dse-practical-writing",
+    "ordinal": 12,
+    "label": "Practice 12 · Celebrating Meals of Hope · 慶祝「希望膳食」計劃成果",
+    "detail": "Speech · 演講辭 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=meals-of-hope"
+  },
+  {
+    "id": "dse-practical-writing:practice:electronic-waste",
+    "type": "dse-practical-writing",
+    "ordinal": 13,
+    "label": "Practice 13 · The Growing Problem of Electronic Waste · 日益嚴重的電子廢物問題",
+    "detail": "Informative Article · 資料文章 · 練習模式",
+    "url": "dse-practical-writing.html?mode=practice&item=electronic-waste"
+  },
+  {
     "id": "dse-reading-comprehension:dse-2012-a",
     "type": "dse-reading-comprehension",
     "ordinal": 2012,

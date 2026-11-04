@@ -22,7 +22,7 @@
   <link rel="preload" as="image" href="country-name-spelling-map/world-relief.jpg">
   <link rel="preload" as="image" href="country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2">
   <link rel="stylesheet" href="country-name-spelling-terminal.css?v=20261104-homepage-serif1">
-  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-cinematic10">
+  <link rel="stylesheet" href="country-name-spelling-terminal-v2.css?v=20261104-mastery-kokoro1">
   <script defer src="/pwa-register.js"></script>
 <link rel="stylesheet" href="/eddy-global-dialogues.css?v=20261028-hover-guard1">
 </head>
@@ -80,7 +80,14 @@
         <section class="map-console" aria-label="互動地圖">
           <header class="console-heading">
             <div><span data-map-sequence>// WORLD MAP 01</span><strong data-map-heading>Essential countries</strong></div>
-            <p><i></i> GEOSPATIAL LINK / LIVE</p>
+            <div class="console-heading__tools">
+              <p><i></i> GEOSPATIAL LINK / LIVE</p>
+              <button class="mastery-colour-toggle" type="button" role="switch" aria-checked="true" data-mastery-colour-toggle>
+                <span class="mastery-colour-toggle__long">MASTERED MAP / 答對變綠</span>
+                <span class="mastery-colour-toggle__short">答對變綠</span>
+                <i aria-hidden="true"></i>
+              </button>
+            </div>
           </header>
           <nav class="map-filters" data-map-filters aria-label="地圖分類"></nav>
 
@@ -180,7 +187,7 @@
   <script src="supabase-config.js"></script>
   <script src="eddy-global-dialogues.js?v=20261027-homeonly1"></script>
   <script src="shared-system-nav.js?v=20261104-country-map1"></script>
-  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-cinematic9"></script>
+  <script type="module" src="country-name-spelling-terminal-v2.mjs?v=20261104-mastery-kokoro1"></script>
   <script defer src="/eddy-password-error-dialogue.js?v=20261030-1"></script>
 </body>
 </html>

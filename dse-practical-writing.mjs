@@ -15,6 +15,13 @@ const client = window.supabase?.createClient?.(config.url, config.anonKey, {
   auth: { persistSession: true, storage: resilientStorage, autoRefreshToken: true, detectSessionInUrl: false }
 });
 const state = { user: null, screen: 'hub', mode: '', activeId: '', translation: false, modelTranslation: false, saveTimer: 0, toastTimer: 0 };
+const requestedDestination = (() => {
+  const params = new URLSearchParams(location.search);
+  const mode = params.get('mode') || '';
+  const activeId = params.get('item') || '';
+  const collection = mode === 'learning' ? writingFormats : mode === 'practice' ? practiceMissions : [];
+  return collection.some(item => item.id === activeId) ? { mode, activeId } : null;
+})();
 
 async function rpc(name, args = {}) {
   if (!client) throw new Error('登入服務暫時未能載入，請重新整理頁面。');
@@ -64,7 +71,7 @@ function renderMap() {
   const completed = isLearning ? 0 : items.filter(item => isComplete(item.id)).length;
   $('[data-screen-root]').innerHTML = `<section class="campaign-map ${isLearning ? 'is-learning' : 'is-practice'}">
     <div class="map-toolbar">${renderBack('返回模式選擇')}<div><p class="eyebrow">${isLearning ? 'LEARNING' : 'PRACTICE'}</p><h1>${isLearning ? '實用文學習目錄' : '實用文練習目錄'}</h1></div><div class="map-count"><strong>${isLearning ? items.length : completed}</strong><span>${isLearning ? '個學習單元' : `/ ${items.length} 已完成`}</span></div></div>
-    <div class="map-index">${items.map(item => `<button type="button" data-item-id="${escapeHtml(item.id)}"><b>${escapeHtml(item.number)}</b><span>${escapeHtml(item.title)}</span><small>${escapeHtml(item.zhTitle)}</small></button>`).join('')}</div>
+    <div class="map-index">${items.map(item => `<button type="button" data-item-id="${escapeHtml(item.id)}" aria-label="${escapeHtml(`${item.number} ${item.title} ${item.zhTitle}`)}"><b>${escapeHtml(item.number)}</b><span><strong>${escapeHtml(item.zhTitle)}</strong><small>${escapeHtml(item.title)}</small></span></button>`).join('')}</div>
   </section>`;
 }
 function bilingual(en, zh, tag = 'p') { return `<${tag} class="bilingual-copy"><span lang="en">${nl2html(en)}</span>${state.translation ? `<span lang="zh-Hant">${nl2html(zh)}</span>` : ''}</${tag}>`; }
@@ -98,6 +105,7 @@ function renderPracticeBriefing(item) {
 function renderBriefing() {
   state.screen = 'briefing'; const item = activeItem(); if (!item) { renderMap(); return; }
   $('[data-screen-root]').innerHTML = `<section class="briefing-scene">${state.mode === 'learning' ? renderLearningBriefing(item) : renderPracticeBriefing(item)}</section>`;
+  window.scrollTo(0, 0);
 }
 function renderRequirementPanel(item) {
   return `<aside class="desk-panel desk-requirements"><div class="desk-panel__head"><p class="eyebrow">MISSION NOTES</p><h2>內容要點</h2></div><div class="desk-scroll"><section class="desk-situation"><h3>Situation</h3>${bilingual(item.situation, item.situationZh, 'div')}</section>${item.requirements.map(group => `<section><h3>${escapeHtml(state.translation ? group.zhHeading : group.heading)}</h3><ul>${group.points.map(([en, zh]) => `<li>${escapeHtml(state.translation ? zh : en)}</li>`).join('')}</ul></section>`).join('')}</div></aside>`;
@@ -112,6 +120,7 @@ function renderWorkspace() {
     <header class="desk-toolbar">${renderBack('返回任務簡報')}<div><p class="eyebrow">WRITING MISSION ${escapeHtml(item.number)}</p><h1>${escapeHtml(item.title)}</h1></div><div class="desk-toolbar__actions">${renderTranslationToggle()}<button class="field-button" type="button" data-action="model">查看參考範文</button></div></header>
     <div class="desk-grid">${renderRequirementPanel(item)}<main class="desk-editor"><div class="paper-heading"><div><p class="eyebrow">MY WRITING · 我的文章</p><h2>${escapeHtml(item.zhTitle)}</h2></div><span><strong data-word-count>${wordCount(draft)}</strong> words</span></div><textarea data-editor spellcheck="true" autocomplete="off" placeholder="Start writing here…">${escapeHtml(draft)}</textarea><div class="editor-footer"><span data-save-indicator>${draft ? '已載入已儲存草稿' : '輸入後即時自動儲存'}</span><div><button type="button" data-action="clear" ${draft ? '' : 'hidden'}>清除草稿</button><button class="submit-writing" type="button" data-action="submit">${isComplete(item.id) ? '已提交 · 再次完成' : '完成並提交'}</button></div></div></main>${renderExpressionPanel(item)}</div>
   </section>`;
+  window.scrollTo(0, 0);
   requestAnimationFrame(() => $('[data-editor]')?.focus({ preventScroll: true }));
 }
 function saveActiveDraft({ quiet = false } = {}) {
@@ -148,7 +157,21 @@ function handleAction(action) {
   if (action === 'clear') { if (!confirm('確定清除這一道任務的草稿？')) return; writeDraft(state.activeId, ''); renderWorkspace(); showToast('草稿已清除'); return; }
   if (action === 'submit') { const editor = $('[data-editor]'); if (!editor?.value.trim()) { alert('請先完成文章，然後再提交。'); editor?.focus(); return; } saveActiveDraft({ quiet: true }); setComplete(state.activeId); showToast('練習已完成並儲存'); $('[data-action="submit"]').textContent = '已提交 · 再次完成'; }
 }
-function showApp() { $('[data-view="login"]').hidden = true; $('[data-view="app"]').hidden = false; $('[data-account-actions]').hidden = false; $('[data-account-name]').textContent = `${state.user.name} · 學生`; renderHub(); }
+function showApp() {
+  $('[data-view="login"]').hidden = true;
+  $('[data-view="app"]').hidden = false;
+  $('[data-account-actions]').hidden = false;
+  $('[data-account-name]').textContent = `${state.user.name} · 學生`;
+  if (requestedDestination) {
+    state.mode = requestedDestination.mode;
+    state.activeId = requestedDestination.activeId;
+    state.translation = false;
+    state.modelTranslation = false;
+    renderBriefing();
+    return;
+  }
+  renderHub();
+}
 function showLogin() { state.user = null; state.screen = 'hub'; state.mode = ''; state.activeId = ''; $('[data-view="login"]').hidden = false; $('[data-view="app"]').hidden = true; $('[data-account-actions]').hidden = true; $('[data-login-status]').textContent = ''; }
 function remember(user) { state.user = { token: String(user.token), id: String(user.id || ''), name: String(user.name || 'Student'), role: 'student' }; try { sessionStorage.setItem(sessionKey, JSON.stringify(state.user)); } catch {} try { window.EdmundSystemNav?.rememberStudentSession?.(state.user); } catch {} }
 async function validate(token) { const rows = await rpc('flashcard_student_session_profile', { p_token: String(token) }); const profile = Array.isArray(rows) ? rows[0] : null; if (!profile?.id) return false; remember({ token: profile.session_token || token, id: profile.id, name: profile.name }); return true; }
