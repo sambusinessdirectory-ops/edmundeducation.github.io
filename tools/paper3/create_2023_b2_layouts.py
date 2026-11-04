@@ -36,8 +36,15 @@ situation = [
 toc = [(3, 'Listening note-taking sheet for online staff meeting'), (4, 'Email from Archie Li to Nico Lin'), (5, 'Big Cheese Celebrity Food Gossip article'), (6, 'Draft storyboard for the promotional video, with Dante Cruz’s comments'), (7, 'Chat between William Puddle and Archie Li'), (8, 'All staff weekly email from Dante Cruz'), (9, 'Corporate Training Intranet page'), (10, 'Corporate Training: reviews from previous participants')]
 put(2, '<section class="recreated-page situation-page" aria-label="2023 B2 situation and contents"><div class="situation-box"><h2>Part B</h2><h3>Situation</h3>' + ''.join(bi(*x) for x in situation) + '</div><div class="contents-box"><h3>Contents</h3><ol>' + ''.join(f'<li><a href="#page-{n}">{escape(label)} <span>{n}</span></a></li>' for n, label in toc) + '</ol></div></section>')
 
-notes = [('Live, Study, Cook', '《Live, Study, Cook》'), ('Filming schedule', '拍攝時間表'), ('Kinds of food in the competition', '比賽食物種類'), ('William Puddle’s viral video', 'William Puddle 的爆紅影片'), ('Golden Sun Tower Private Kitchen complaints', 'Golden Sun Tower Private Kitchen 投訴'), ('New show: Viewer’s Choice', '新節目：《Viewer’s Choice》')]
-put(3, '<section class="recreated-page conference-notes" aria-label="Online staff meeting notes"><h2>Listening note-taking sheet for online staff meeting</h2>' + bi('Listen to the recording of an online staff meeting between the show producer Ms Winnie Tang, the Director of Teen NetChef TV Mr Dante Cruz, and the Marketing Manager Mr Archie Li.', '聆聽製作人 Winnie Tang、總監 Dante Cruz 和市場經理 Archie Li 的網上員工會議。') + '<div class="notes-form-body">' + ''.join(f'<h3>{escape(en)}</h3><p class="translation" lang="zh-Hant">{escape(zh)}</p><textarea data-note="3-{i}" rows="4" aria-label="Notes: {escape(en, quote=True)}"></textarea>' for i, (en, zh) in enumerate(notes, 1)) + '</div></section>')
+notes = [
+    ('live-study-cook', 'Live, Study, Cook', '《Live, Study, Cook》'),
+    ('filming-schedule', 'Filming schedule', '拍攝時間表'),
+    ('food-kinds', 'Kinds of food in the competition', '比賽食物種類'),
+    ('william-video', 'William Puddle’s viral video', 'William Puddle 的爆紅影片'),
+    ('golden-sun', 'Golden Sun Tower Private Kitchen complaints', 'Golden Sun Tower Private Kitchen 投訴'),
+    ('viewers-choice', 'New show: Viewer’s Choice', '新節目：《Viewer’s Choice》'),
+]
+put(3, '<section class="recreated-page conference-notes note-sheet" aria-label="Online staff meeting notes"><h2>Listening note-taking sheet for online staff meeting</h2>' + bi('Listen to the recording of an online staff meeting between the show producer Ms Winnie Tang, the Director of Teen NetChef TV Mr Dante Cruz, and the Marketing Manager Mr Archie Li.', '聆聽製作人 Winnie Tang、總監 Dante Cruz 和市場經理 Archie Li 的網上員工會議。') + '<div class="notes-form-body">' + ''.join(f'<h3 id="notes-heading-{slug}">{escape(en)}</h3><p class="translation" lang="zh-Hant">{escape(zh)}</p><textarea id="notes-{slug}" data-note="3-{i}" rows="4" aria-labelledby="notes-heading-{slug}"></textarea>' for i, (slug, en, zh) in enumerate(notes, 1)) + '</div></section>')
 
 archie = [
     ('Dear Nico,', 'Nico：'), ('Here are your tasks for today.', '以下是你今天的工作。'),

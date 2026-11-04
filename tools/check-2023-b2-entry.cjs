@@ -63,6 +63,42 @@ async function checkReader() {
     assert(await page.locator('.source #page-5 h5').first().isVisible());
     assert.match(await page.locator('#curation-explanation').innerText(), /小報/);
     assert.equal(await page.locator('#curation-bank-groups details').count(), 3);
+    await page.evaluate(() => jump23(rows.findIndex(row => row.stage === 1 && row.q === 'New show: Viewer’s Choice')));
+    const noteSheetAudit = await page.evaluate(() => {
+      const root = document.querySelector('.native-reader-host').shadowRoot;
+      const page3 = root.querySelector('#page-3');
+      const headings = [...page3.querySelectorAll('.note-sheet .notes-form-body>h3')];
+      const fields = [...page3.querySelectorAll('.note-sheet textarea')];
+      notes(16);
+      return {
+        ids: fields.map(field => field.id),
+        headings: headings.map(heading => heading.textContent.trim()),
+        noise: headings.filter(heading => heading.classList.contains('curation-note-noise')).length,
+        tasks: headings.filter(heading => heading.classList.contains('curation-note-task')).map(heading => heading.dataset.task),
+        evidence: page3.querySelectorAll('.notes-evidence').length,
+        values: Object.fromEntries(fields.map(field => [field.id,field.value])),
+        synthetic: document.querySelectorAll('#notes23').length,
+        exported: Object.keys(snapshot().podcastNotes || {}).sort(),
+      };
+    });
+    assert.deepEqual(noteSheetAudit.ids,['notes-live-study-cook','notes-filming-schedule','notes-food-kinds','notes-william-video','notes-golden-sun','notes-viewers-choice']);
+    assert(!noteSheetAudit.headings.some(heading => heading.includes('Staff training')));
+    assert.equal(noteSheetAudit.noise,3);
+    assert.deepEqual(noteSheetAudit.tasks,['A/B','B','C']);
+    assert.equal(noteSheetAudit.evidence,6);
+    assert.match(noteSheetAudit.values['notes-live-study-cook'],/10 episodes/);
+    assert.match(noteSheetAudit.values['notes-filming-schedule'],/October/);
+    assert.match(noteSheetAudit.values['notes-food-kinds'],/Main dishes[\s\S]*Desserts/);
+    assert.match(noteSheetAudit.values['notes-william-video'],/Flood[\s\S]*Social media training/);
+    assert.match(noteSheetAudit.values['notes-golden-sun'],/Burnt toast[\s\S]*Fire safety training/);
+    assert.match(noteSheetAudit.values['notes-viewers-choice'],/Viewer’s Choice[\s\S]*Fully live/);
+    assert.equal(noteSheetAudit.synthetic,0);
+    assert.deepEqual(noteSheetAudit.exported,['3-1','3-2','3-3','3-4','3-5','3-6']);
+    await page.locator('[data-chapter=podcast]').click();
+    assert(await page.locator('.source #page-3 .note-sheet').isVisible());
+    assert(await page.locator('.curation-player').isVisible());
+    assert(await page.locator('.curation-transcript-window').isVisible());
+    assert.equal(await page.locator('#notes23').count(),0);
     assert.deepEqual(errors, []);
     for (const mode of ['denied', 'full']) {
       const restricted = await browser.newPage();

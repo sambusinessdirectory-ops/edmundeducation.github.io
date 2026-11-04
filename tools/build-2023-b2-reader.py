@@ -26,4 +26,10 @@ if 'data-reader-source="boss-letter.js"' not in html:
     if meeting_tag not in html:
         raise ValueError("Missing meeting-data.js script anchor")
     html = html.replace(meeting_tag, boss_tag + meeting_tag, 1)
+podcast_tag = '<script data-reader-source="podcast-v4.js"></script>'
+podcast_anchor = '<script data-reader-source="reference/benchmark-pages.js">'
+if 'data-reader-source="podcast-v4.js"' not in html:
+    if podcast_anchor not in html:
+        raise ValueError("Missing benchmark-pages.js script anchor")
+    html = html.replace(podcast_anchor, podcast_tag + podcast_anchor, 1)
 index.write_text(scripts.sub(embed, html))

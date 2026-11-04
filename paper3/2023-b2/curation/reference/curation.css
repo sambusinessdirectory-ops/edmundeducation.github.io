@@ -209,7 +209,9 @@
 .curation-note-task{position:relative;padding-right:40px}
 .curation-active .curation-note-task.is-revealed::after{content:attr(data-task);display:inline-grid;place-items:center;margin-left:12px;width:32px;height:32px;border:2px solid currentColor;border-radius:8px;transform:rotate(-6deg);font:900 22px/1 Georgia,serif;vertical-align:middle}
 .curation-active .curation-note-task-A::after{color:#008c9d;background:#e5fbfc}
+.curation-active .curation-note-task-B::after{color:#a87900;background:#fff4bd}
 .curation-active .curation-note-task-C::after{color:#b94964;background:#ffe7eb}
+.curation-active .curation-note-task-AB::after{width:42px;color:#12616b;background:linear-gradient(90deg,#e5fbfc 0 50%,#fff4bd 50%);font-size:14px;letter-spacing:-1px}
 .curation-active .curation-note-noise.is-revealed .curation-pen-line{background-size:100% 3px}
 .curation-active #curation-spotlight{accent-color:#175849}
 .curation-model-essay{margin-top:18px;border:1px solid #b8d1c4;border-radius:12px;background:#f6fbf7;overflow:hidden}
@@ -224,6 +226,7 @@
 
 /* Reveal the supplied transcript only as its recording cue is reached. */
 .curation-active .curation-transcript-sentence.is-revealed.curation-transcript-A{background:#8ce7eb;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.curation-active .curation-transcript-sentence.is-revealed.curation-transcript-B{background:#ffe577;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .curation-active .curation-transcript-sentence.is-revealed.curation-transcript-C{background:#f7b1be;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .curation-active .curation-transcript-sentence.is-revealed.curation-transcript-listening{background:#dbecc6;box-decoration-break:clone;-webkit-box-decoration-break:clone}
 .curation-active .curation-transcript-strike.is-revealed .curation-pen-line{background-size:100% 2.5px}
@@ -237,6 +240,29 @@
 /* Note-sheet evidence takes on its writing-task color only after that audio cue. */
 .curation-active #notes-wellness.curation-note-highlight-A{background-color:#d9f5f6!important;box-shadow:inset 4px 0 #008c9d}
 .curation-active #notes-parents.curation-note-highlight-C{background-color:#fce1e7!important;box-shadow:inset 4px 0 #c35070}
+.curation-active textarea.curation-note-highlight-A{background-color:#e5fbfc!important;box-shadow:inset 4px 0 #008c9d}
+.curation-active textarea.curation-note-highlight-B{background-color:#fff7cf!important;box-shadow:inset 4px 0 #c89a18}
+.curation-active textarea.curation-note-highlight-C{background-color:#ffe9ed!important;box-shadow:inset 4px 0 #c35070}
+
+/* Per-heading recording evidence mirrors the 2025 note-sheet component. */
+.notes-evidence{margin:10px 0 14px;border:1px solid #d8bd75;border-radius:12px;background:#fff9e9;overflow:hidden;font:16px/1.7 system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#14394d}
+.notes-evidence>summary{padding:10px 14px;cursor:pointer;font-size:14px;font-weight:800;color:#12616b}
+.notes-evidence>summary:hover{background:#fff0c6}
+.notes-evidence>summary:focus-visible,.notes-evidence-transcript:focus-visible{outline:2px solid #16727c;outline-offset:-3px}
+.notes-evidence-content{padding:0 16px 16px}
+.notes-evidence-scope{font:800 14px/1.5 system-ui,-apple-system,"Noto Sans TC",sans-serif;color:#9b5917;margin:4px 0 10px}
+.notes-evidence-tip{font:15px/1.7 system-ui,-apple-system,"Noto Sans TC",sans-serif;margin:0 0 12px}
+.notes-section-play{margin:0 0 10px;border:1px solid #2f8177;border-radius:7px;background:#eaf6f2;color:#15564d;padding:7px 10px;font-weight:800;cursor:pointer}
+.notes-evidence-transcript{max-height:390px;overflow-y:auto;overscroll-behavior:contain;border-top:1px solid #e5d7b6;padding-top:10px}
+.notes-evidence-transcript .speech{display:grid;grid-template-columns:86px minmax(0,1fr);gap:7px 10px;padding:9px 0;border-bottom:1px solid #eadfc5}
+.notes-evidence-transcript .speaker{font-size:13px;color:#12616b}
+.notes-evidence-transcript p{margin:0;font:15px/1.6 Georgia,serif}
+.notes-evidence-transcript .translation{grid-column:2;color:#43685f;font:13px/1.55 system-ui,-apple-system,"Noto Sans TC",sans-serif}
+:host-context(body.cur23-podcast-active) #page-3 .conference-notes{width:100%;max-width:none;margin:0}
+:host-context(body.cur23-podcast-active) #page-3 .notes-form-body{padding:18px 24px}
+:host-context(body.cur23-podcast-active) #page-3 .notes-form-body>textarea{min-height:118px;transition:background-color .25s ease,box-shadow .25s ease}
+@media(max-width:550px){.notes-evidence-transcript .speech{grid-template-columns:1fr;gap:3px}.notes-evidence-transcript .translation{grid-column:1}.notes-evidence-content{padding:0 12px 12px}}
+@media print{.notes-evidence{display:none!important}}
 
 /* Keep the same recording controls available while reading the supplied transcript. */
 .curation-active #page-3 .notes-audio.curation-audio-floating{position:fixed;z-index:130;width:auto;box-sizing:border-box;margin:0;padding:9px 12px 10px;border:2px solid #3c978c;border-radius:12px;background:#eaf5f3;box-shadow:0 12px 34px #10292146}
@@ -263,6 +289,7 @@
 @media(max-width:620px){.curation-podcast-active .curation-dock{max-height:35vh;z-index:150}.curation-podcast-active .curation-transcript-window{height:26vh;max-height:220px}}
 
 .curation-transcript-window-head .curation-transcript-translate{margin-left:auto;border:1px solid #a7d0c6;border-radius:6px;background:#f2faf7;color:#174d42;padding:5px 9px;cursor:pointer;font:700 11px/1.2 system-ui,sans-serif;touch-action:auto;white-space:nowrap}.curation-transcript-window-head .curation-transcript-translate[aria-pressed="true"]{background:#d3ede5}.curation-transcript-window.show-translation .translation{display:block;color:#43685f;font:12px/1.55 system-ui,-apple-system,"Noto Sans TC",sans-serif;margin-top:5px}
+.curation-transcript-window.show-translation .speech .translation{display:block;grid-column:2}
 
 /* The essay walkthrough uses red only for the bank's "used" mark, and navy for a quoted source. */
 .curation-model-essay .curation-essay-unit{border-radius:3px;transition:box-shadow .25s ease,background-color .25s ease}
