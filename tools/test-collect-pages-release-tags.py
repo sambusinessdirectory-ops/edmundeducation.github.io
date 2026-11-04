@@ -35,6 +35,51 @@ class CollectPagesReleaseTagsTests(unittest.TestCase):
     def test_empty_history_is_not_fast(self):
         self.assertEqual(module.collect([]), "")
 
+    def test_traces_both_tagged_parents_of_untagged_merge_resolution(self):
+        blobs = {
+            ("base", "page.html"): "old",
+            ("infra", "page.html"): "infra",
+            ("writing", "page.html"): "writing",
+            ("merge", "page.html"): "combined",
+        }
+        commits = {
+            "base": ([], "old release"),
+            "infra": (["base"], "[fast-deploy] [infrastructure-release] infra"),
+            "writing": (["base"], "[fast-deploy] [writing-release] writing"),
+            "merge": (["infra", "writing"], "automatic merge"),
+        }
+        tags = module.collect_changed_path_tags(
+            "base",
+            "merge",
+            ["page.html"],
+            lambda commit, path: blobs.get((commit, path)),
+            lambda commit: commits[commit],
+        )
+        self.assertEqual(
+            tags,
+            "[fast-deploy] [infrastructure-release] [writing-release]",
+        )
+
+    def test_untagged_non_merge_file_origin_disables_fast_validation(self):
+        blobs = {
+            ("base", "page.html"): "old",
+            ("target", "page.html"): "new",
+        }
+        commits = {
+            "base": ([], "old release"),
+            "target": (["base"], "untagged content change"),
+        }
+        self.assertEqual(
+            module.collect_changed_path_tags(
+                "base",
+                "target",
+                ["page.html"],
+                lambda commit, path: blobs.get((commit, path)),
+                lambda commit: commits[commit],
+            ),
+            "",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
