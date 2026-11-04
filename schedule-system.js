@@ -54,7 +54,7 @@ import {
   normalizeHomeworkResource,
   parseScheduleMessage,
   serializeScheduleMessage
-} from "./schedule-homework-links.mjs?v=20261104-memory-essay-homework1";
+} from "./schedule-homework-links.mjs?v=20261104-reading-comprehension2";
 import { HOMEWORK_LINK_EXPORT_SYSTEMS, filterHomeworkLinkExportResources, formatHomeworkExport, formatHomeworkLinkExport, validExportWeek } from "./schedule-homework-export.mjs?v=20261104-memory-essay-homework1";
 import {
   ScheduleGroupShiftError,

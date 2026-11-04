@@ -48,7 +48,7 @@ export const HOMEWORK_RESOURCE_TYPES = Object.freeze([
     trigger: "Reading Comprehension",
     aliases: Object.freeze(["IELTS Reading Exercise"]),
     label: "Reading Comprehension",
-    pickerTitle: "選擇 IELTS Reading 閱讀理解練習",
+    pickerTitle: "選擇 DSE / IELTS Reading 閱讀理解練習",
     pickerNoun: "閱讀理解練習",
     color: "#176f67"
   }),
@@ -617,7 +617,8 @@ export function filterHomeworkResources(catalog, type, query = "", limit = 60) {
   const normalizedQuery = String(query || "").normalize("NFKC").trim().toLocaleLowerCase("en");
   const tokens = normalizedQuery.split(/\s+/).filter(Boolean);
   const matches = (Array.isArray(catalog) ? catalog : []).filter((resource) => {
-    if (resource?.type !== type) return false;
+    const resourceType = resource?.type;
+    if (resourceType !== type && !(type === "reading-comprehension" && resourceType === "dse-reading-comprehension")) return false;
     const normalizedOrdinal = homeworkResourceOrdinal(resource);
     const ordinal = normalizedOrdinal === null ? "" : String(normalizedOrdinal);
     const prompt = Array.isArray(resource?.questionPrompt) ? resource.questionPrompt.join(" ") : "";
