@@ -38,15 +38,22 @@
   };
 
   dashboard.insertAdjacentHTML("beforeend", `<section class="error-id-mode-page" data-error-id-modes aria-labelledby="error-id-mode-heading">
-    <div class="error-id-mode-intro"><p class="eyebrow">ERROR IDENTIFIER · PROOFREADING STUDIO</p><h2 id="error-id-mode-heading">選擇你的校對方式</h2></div>
-    <div class="error-id-mode-grid">
-      <button class="error-id-mode-card" type="button" data-open-mode="single"><span class="error-id-mode-card__icon" aria-hidden="true">Aa</span><span class="error-id-mode-card__eyebrow">MODE 01 · SINGLE SENTENCE</span><strong>單句模式</strong><span class="error-id-mode-card__foot"><b>共 ${questions.length} 題</b><span>開始練習 ↗</span></span></button>
-      <button class="error-id-mode-card error-id-mode-card--passage" type="button" data-open-mode="passage"><span class="error-id-mode-card__icon" aria-hidden="true">¶</span><span class="error-id-mode-card__eyebrow">MODE 02 · PASSAGE</span><strong>文章模式</strong><span class="error-id-mode-card__foot"><b>11 篇文章</b><span>開始練習 ↗</span></span></button>
+    <div class="error-id-mode-intro"><p class="eyebrow">ERROR IDENTIFIER · PROOFREADING STUDIO</p><h2 id="error-id-mode-heading">選擇練習模式</h2><p>三個單句校對 Module 會自動接續至第一題未完成題目；文章校對則保留獨立閱讀模式。</p></div>
+    <div class="error-id-mode-stack">
+      <section class="error-id-mode-section" aria-labelledby="error-id-single-modules-heading">
+        <div class="error-id-mode-section__heading"><div><span>SINGLE SENTENCE</span><h3 id="error-id-single-modules-heading">單句校對 Modules</h3></div><p>按學習進度依序完成；每次進入都會自動接續。</p></div>
+        <div class="error-id-module-list">
+          <button class="error-id-module-card error-id-mode-card error-id-module-card--one" type="button" data-open-mode="single" data-module="1"><span class="error-id-module-card__number" aria-hidden="true">01</span><span class="error-id-module-card__copy"><span>MODULE 1 · SINGLE SENTENCE</span><strong>Module 1</strong><small>基礎與延伸單句校對</small></span><span class="error-id-module-card__action"><b>共 ${questions.length} 題</b><span>繼續目前進度 ↗</span></span></button>
+        </div>
+      </section>
+      <section class="error-id-passage-choice-wrap" aria-labelledby="error-id-passage-choice-heading">
+        <button class="error-id-passage-choice error-id-mode-card error-id-mode-card--passage" type="button" data-open-mode="passage"><span class="error-id-passage-choice__icon" aria-hidden="true">¶</span><span class="error-id-passage-choice__copy"><span>PASSAGE MODE</span><strong id="error-id-passage-choice-heading">文章校對模式</strong><small>閱讀完整文章，再逐行判斷及改正。</small></span><span class="error-id-passage-choice__action"><b>11 篇文章</b><span>選擇文章 ↗</span></span></button>
+      </section>
     </div>
   </section>
   <section class="error-id-workspace" data-error-id-single hidden aria-labelledby="error-id-heading">
-    <div class="error-id-workspace__top"><button type="button" class="error-id-back" data-back-modes>← 返回模式選擇</button><span class="error-id-workspace__label">MODE 01 · 單句模式</span></div>
-    <div class="error-id-intro"><div><p class="eyebrow">ONE SENTENCE AT A TIME</p><h2 id="error-id-heading">細看一句，改好一處</h2><p>選擇 ✓ 或 ✕。若句子有錯，點選錯誤字詞；要選連續多字，再點最後一字。</p></div><div class="error-id-progress"><strong data-error-id-range-count>0 / 60</strong><span>本組已完成</span></div></div>
+    <div class="error-id-workspace__top"><button type="button" class="error-id-back" data-back-modes>← 返回模式選擇</button><span class="error-id-workspace__label">MODULE 1 · 單句校對</span></div>
+    <div class="error-id-intro"><div><p class="eyebrow">MODULE 1 · ONE SENTENCE AT A TIME</p><h2 id="error-id-heading">細看一句，改好一處</h2><p>選擇 ✓ 或 ✕。若句子有錯，點選錯誤字詞；要選連續多字，再點最後一字。</p></div><div class="error-id-progress"><strong data-error-id-range-count>0 / 60</strong><span>本組已完成</span></div></div>
     <div class="error-id-controls"><div class="error-id-range-tabs" role="group" aria-label="選擇單句題組"><button type="button" data-range="core">基礎 60 題 <span>01–60</span></button><button type="button" data-range="new">新增 284 題 <span>61–344</span></button><button type="button" data-range="all">全部 ${questions.length} 題</button></div><div class="error-id-view-tabs" role="group" aria-label="題目顯示方式"><button type="button" data-view-mode="one">單題</button><button type="button" data-view-mode="list">列表</button></div></div>
     <div class="error-id-progress-track" aria-hidden="true"><span data-error-id-progress-fill></span></div>
     <div class="error-id-feedback-summary" data-error-id-feedback-summary hidden></div>
@@ -194,8 +201,8 @@
     const open = event.target.closest("[data-open-mode]");
     if (open) {
       if (open.dataset.openMode === "single") {
+        state.current = firstIncomplete(1, questions.length);
         state.range = state.current <= 60 ? "core" : "new";
-        state.current = firstIncomplete(...rangeBounds());
       }
       setMode(open.dataset.openMode);
       return;

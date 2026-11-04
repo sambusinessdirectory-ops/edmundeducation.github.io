@@ -55,7 +55,7 @@ const straightApostrophes = (value) => String(value || "").replaceAll("’", "'"
 
 const ids = new Set(HOMEWORK_RESOURCE_CATALOG.map((resource) => resource.id));
 assert.equal(ids.size, HOMEWORK_RESOURCE_CATALOG.length, "catalog ids must be unique");
-assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15509, "catalogue includes every released resource plus all 26 DSE Practical Writing links");
+assert.equal(HOMEWORK_RESOURCE_CATALOG.length, 15156, "catalogue includes every released resource plus all 26 DSE Practical Writing links");
 const byType = HOMEWORK_RESOURCE_CATALOG.reduce((groups, resource) => {
   (groups[resource.type] ||= []).push(resource);
   return groups;
@@ -908,6 +908,12 @@ assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-compreh
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "reading-comprehension", "DSE 2025 Part A").items[0]?.id, "dse-reading-comprehension:dse-2025-a", "the general Reading Comprehension picker should find DSE papers");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "dse-reading-comprehension", "DSE 2025 Part A").items[0]?.id, "dse-reading-comprehension:dse-2025-a", "the dedicated DSE picker should remain available");
 assert.equal(HOMEWORK_RESOURCE_TYPES.find((definition) => definition.type === "reading-comprehension")?.pickerTitle, "選擇 DSE / IELTS Reading 閱讀理解練習");
+assert.deepEqual(
+  filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "error-identification", "", 60).items.map((resource) => resource.id),
+  ["error-identification:module-1", "error-identification:module-2", "error-identification:module-3", "error-identification:passage"],
+  "Error Identifier homework picker should expose only three modules and Passage Mode"
+);
+assert.equal(HOMEWORK_RESOURCE_TYPES.find((definition) => definition.type === "error-identification")?.pickerTitle, "選擇 Module 或 Passage Mode");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "common-expression", "See you around").items[0]?.id, "common-expression:speaking:common-expression-01");
 assert.equal(filterHomeworkResources(HOMEWORK_RESOURCE_CATALOG, "listening", "20 Part 4").items[0]?.id, "listening:ielts-listening-practice-20-part-4");
 assert.equal(
@@ -1069,12 +1075,12 @@ assert.match(scheduleJs, /!visibleMessage && !selectedTags\.length/, "a tag-only
 assert.match(scheduleJs, /button\.classList\.add\("has-entry-tag-wraps"\)/);
 assert.match(scheduleJs, /button\.style\.setProperty\(`--entry-tag-wrap-\$\{index \+ 1\}`, tag\.color\)/);
 assert.match(scheduleJs, /badge\.className = "entry-custom-tag"/, "tag labels must remain readable alongside coloured wraps");
-assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261104-dse-practical-writing1"/, "Homework catalog cache key is stale");
-assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-dse-practical-writing1/, "Homework link helper cache key is stale");
-assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261104-dse-practical-writing1/, "Homework export cache key is stale");
-assert.match(scheduleHtml, /schedule-system\.js\?v=20261104-dse-practical-writing1/, "Schedule application cache key is stale");
-assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261104-dse-practical-writing1/, "Homework Hot Keys application cache key is stale");
-assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261104-dse-practical-writing1/, "Homework Hot Keys helper cache key is stale");
+assert.match(scheduleJs, /HOMEWORK_CATALOG_URL = "\.\/homework-resource-catalog\.mjs\?v=20261104-dse-practical-writing2"/, "Homework catalog cache key is stale");
+assert.match(scheduleJs, /schedule-homework-links\.mjs\?v=20261104-dse-practical-writing2/, "Homework link helper cache key is stale");
+assert.match(scheduleJs, /schedule-homework-export\.mjs\?v=20261104-dse-practical-writing2/, "Homework export cache key is stale");
+assert.match(scheduleHtml, /schedule-system\.js\?v=20261104-dse-practical-writing2/, "Schedule application cache key is stale");
+assert.match(hotKeysHtml, /schedule-homework-hotkeys-admin\.js\?v=20261104-dse-practical-writing2/, "Homework Hot Keys application cache key is stale");
+assert.match(hotKeysJs, /schedule-homework-links\.mjs\?v=20261104-dse-practical-writing2/, "Homework Hot Keys helper cache key is stale");
 assert.match(scheduleJs, /homeworkLinkContent\(link, resource, isDownload\)/, "homework links should render a consistent vector icon");
 assert.match(scheduleJs, /M10 2\.5v10/, "download links should include a vector download path");
 assert.match(scheduleJs, /insertHomeworkResourceTitle\(/, "selected homework titles should be copied into editable slot text");

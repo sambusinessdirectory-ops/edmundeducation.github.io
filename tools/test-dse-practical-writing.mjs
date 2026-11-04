@@ -11,10 +11,10 @@ const nav = read('shared-system-nav.js');
 const dataSource = read('dse-practical-writing-data.mjs');
 const { learningUnits, practiceMissions, writingFormats } = await import('../dse-practical-writing-data.mjs');
 
-test('Card 80 routes to the new DSE practical-writing system with the requested line break', () => {
+test('Card 81 routes to the new DSE practical-writing system with the requested line break', () => {
   assert.match(homepage, /href="dse-practical-writing\.html"[^>]*aria-label="DSE 學生使用 實用文練習系統"/);
   assert.match(homepage, /DSE 學生使用<br>實用文練習系統/);
-  assert.match(nav, /id: "dse-practical-writing"[^\n]+homepageCard: 80/);
+  assert.match(nav, /id: "dse-practical-writing"[^\n]+homepageCard: 81/);
 });
 
 test('system is protected by an existing-student login and restores shared student sessions', () => {

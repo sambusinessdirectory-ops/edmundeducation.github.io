@@ -86,9 +86,6 @@ jobs:
   standard:
     needs: route
     if: needs.route.outputs.route == 'standard'
-    concurrency:
-      group: pages-candidate-main
-      cancel-in-progress: true
     uses: ./.github/workflows/pages.yml
     with:
       release_tags: ${{ needs.route.outputs.release_tags }}
@@ -100,9 +97,6 @@ jobs:
   paper3:
     needs: route
     if: needs.route.outputs.route == 'paper3'
-    concurrency:
-      group: pages-candidate-main
-      cancel-in-progress: true
     uses: ./.github/workflows/pages-paper3-fast.yml
     permissions:
       actions: read
@@ -112,9 +106,6 @@ jobs:
   site:
     needs: route
     if: needs.route.outputs.route == 'site'
-    concurrency:
-      group: pages-candidate-main
-      cancel-in-progress: true
     uses: ./.github/workflows/pages-fast.yml
     with:
       base_sha: ${{ needs.route.outputs.base_sha }}
