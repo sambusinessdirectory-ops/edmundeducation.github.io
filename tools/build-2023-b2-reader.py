@@ -32,10 +32,10 @@ if 'data-reader-source="podcast-v4.js"' not in html:
     if podcast_anchor not in html:
         raise ValueError("Missing benchmark-pages.js script anchor")
     html = html.replace(podcast_anchor, podcast_tag + podcast_anchor, 1)
-html = re.sub(r'<script data-reader-source="podcast-v5\.js">.*?</script>', '', html, flags=re.S)
-podcast_v6_tag = '<script data-reader-source="podcast-v6.js"></script>'
-if 'data-reader-source="podcast-v6.js"' not in html:
+html = re.sub(r'<script data-reader-source="podcast-v[56]\.js">.*?</script>', '', html, flags=re.S)
+podcast_v7_tag = '<script data-reader-source="podcast-v7.js"></script>'
+if 'data-reader-source="podcast-v7.js"' not in html:
     if podcast_anchor not in html:
         raise ValueError("Missing benchmark-pages.js script anchor")
-    html = html.replace(podcast_anchor, podcast_v6_tag + podcast_anchor, 1)
+    html = html.replace(podcast_anchor, podcast_v7_tag + podcast_anchor, 1)
 index.write_text(scripts.sub(embed, html))
