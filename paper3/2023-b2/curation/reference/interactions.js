@@ -449,7 +449,7 @@
       }
       if(!bookmarksOnly&&row.stage!==rows[i].stage)return;
       if(bookmarksOnly&&!books.includes(key23(row)))return;
-      entries.push({label:`${row.q||row.a}`,detail:`${names23[row.stage]} · ${row.p||''}`,activate:()=>{if(rows[i].stage===2&&reviewIndex>=0)stagePositions[2]={key:key23(rows[i]),cue:cueIndex,review:reviewIndex};reviewIndex=-1;jump23(index);}});
+      entries.push({label:`${row.manualQuote||row.q||row.a}`,detail:row.stage===3?`${provenance23[row.origin]||'補充取證'} · Data File 第 ${row.p||''} 頁${row.manualPdfLabel?' · PDF 第 '+row.manualPdfLabel+' 頁':''}`:`${names23[row.stage]} · ${row.p||''}`,search:curationSearchText23(row),activate:()=>{if(rows[i].stage===2&&reviewIndex>=0)stagePositions[2]={key:key23(rows[i]),cue:cueIndex,review:reviewIndex};reviewIndex=-1;jump23(index);}});
     });
     if (bookmarksOnly || rows[i].stage === 2) cues.forEach((cue,index) => (!bookmarksOnly || books.includes(cueId(cue)) || index===0 && books.includes(key23(rows[first(2)]))) && entries.push({label:`${index+1}. ${cue[2] || '會議結束'}`,detail:'聆聽關鍵點',activate:() => {reviewIndex=-1;readerStore23.setItem(reviewKey,'-1');i=first(2);render();listen(index,false);update23(true);}}));
     if (!bookmarksOnly && rows[i].stage === 2 || bookmarksOnly) reviewUnits.forEach((unit,index) => {
@@ -460,7 +460,7 @@
       const button = document.createElement('button'); button.type='button'; button.className='curation-picker-option';
       const strong=document.createElement('strong'), small=document.createElement('span');
       strong.textContent=entry.label; small.textContent=entry.detail; button.append(strong,small);
-      button.dataset.search = `${entry.label} ${entry.detail}`.toLowerCase();
+      button.dataset.search = `${entry.label} ${entry.detail} ${entry.search||''}`.toLowerCase();
       button.onclick=() => {dialog.close();entry.activate();}; list.append(button);
     }
     if (!entries.length) { const empty=document.createElement('p');empty.className='curation-picker-empty';empty.textContent='暫時沒有書籤。按導覽卡的星號新增。';list.append(empty); }

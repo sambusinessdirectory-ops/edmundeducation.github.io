@@ -7,6 +7,8 @@ let help=false,lang=false,opened=true,firstView=true,tab='all',lastNative='',las
 const instructions=['先找寫作身分、文類、讀者、內容要求和指定來源。','按文件標題暫標任務，讀到新線索再核對。','聽到答案後暫停，逐項寫入筆記。','按資料頁連續閱讀，核對原句和任務。','先組織自己的內容與草稿，再按任務要求校對。'];
 const names23=['Boss letter · 讀任務與來源','Data File · 資料分類','會議錄音 · 邊聽邊記筆記','Data File · 逐句判讀','三篇寫作 · 逐句核對'];
 const types=['','1 Task A 直接可用','2 Task B 直接可用','3 Task C 直接可用','4 語義相關／可轉述','5 提示／指路','6 無關噪音／行政語'];
+const provenance23={manual:'原版導讀 · 逐字',evidence:'補充取證',editorial:'編輯補充'};
+function curationSearchText23(r){return [r.q,r.a,r.manualQuote,r.manualType,...(r.manualAnalysis||[]),provenance23[r.origin]||''].filter(Boolean).join(' ')}
 function jump23(j){E('jump23').value=j;E('jump23').dispatchEvent(new Event('change'));firstView=false;tab='all';update23(true)}
 function nativePage(page,r){
  const root=native.querySelector('.source');root.classList.toggle('translated',lang);
@@ -64,13 +66,26 @@ function update23(force=false){let r=rows[i],ss=rows.filter(x=>x.stage===r.stage
 const originalUpdate23=update23;
 update23=function(force=false){let old=lastSync;originalUpdate23(force);if(!force&&old===lastSync)return;const r=rows[i],actions=$s('#curation-step-actions'),ex=$s('#curation-explanation');if(r.stage===4&&r.pattern&&r.used.length)$s('#curation-step-count').textContent+=' · '+(diag.open?'查看原文':'證據核對')+' '+Math.min(visitIndex,r.used.length)+' / '+r.used.length;if(r.stage===4&&r.pattern){let reason=ex.querySelector('p');if(reason)reason.prepend('取用理由 · ');let structure=document.createElement('p');structure.className='curation-structure';structure.textContent='可借用的句式／版面 · '+r.pattern;ex.append(structure)}
 $s('#curation-quote').hidden=false;
+if(r.stage===3){
+  $s('#curation-quote').textContent=r.manualQuote||r.q;
+  ex.replaceChildren();
+  const badge=document.createElement('p');badge.className='curation-provenance curation-provenance-'+r.origin;badge.textContent=provenance23[r.origin]||'補充取證';ex.append(badge);
+  const banner=document.createElement('p');banner.className='curation-type curation-type-'+r.t;banner.textContent=r.manualType||('類型：'+types[r.t]);ex.append(banner);
+  if(r.origin==='manual'){
+    const heading=document.createElement('p');heading.className='curation-analysis-heading';heading.textContent='分析（原文）';
+    const list=document.createElement('ul');list.className='curation-verbatim-analysis';for(const line of r.manualAnalysis){const item=document.createElement('li');item.textContent=line;list.append(item)}
+    ex.append(heading,list);$s('#curation-source').textContent='Data File 第 '+r.p+' 頁 · 原版導讀逐字收錄 · PDF 第 '+r.manualPdfLabel+' 頁';
+  }else{
+    const paragraph=document.createElement('p');paragraph.textContent=r.a;ex.append(paragraph);$s('#curation-source').textContent='Data File 第 '+r.p+' 頁 · '+(provenance23[r.origin]||'補充取證');
+  }
+}
 if(r.stage===0){let guide=document.createElement('p');guide.className='curation-process';guide.textContent='讀任務電郵時，先辨認讀者、文類及指定來源。';ex.prepend(guide)}
 if(r.stage===1){let box=document.createElement('fieldset');box.className='curation-category-choices';box.innerHTML='<legend>你會先標哪個任務？</legend>';for(let task of ['A','B','C']){let label=document.createElement('label'),cb=document.createElement('input');cb.type='checkbox';cb.checked=readerStore23.getItem('class23-'+i+task)==='1';cb.onchange=()=>readerStore23.setItem('class23-'+i+task,cb.checked?'1':'0');label.append(cb,' Task '+task);box.append(label)}let b=document.createElement('button');b.className='curation-small';b.textContent='顯示讀後修正';let rev=document.createElement('p');rev.className='curation-revision';rev.hidden=true;const revisions={5:'對照 William 的聊天，分開已承認的水浸與其他指控。',6:'最新電郵確認 Mary Steward 及首集餡料，免費 app 已取代熱線。',7:'水浸與茶巾支援 Task A；嘉賓和投票更新支援 Task C。',8:'培訓與獎勵支援 Task B；節目及運送安排支援 Task C。',9:'根據 HAB 要求及工作需要選三門課程。',10:'參加者意見只可歸於該參加者。',3:'分開舊節目、William 影片、Golden Sun 投訴及新節目資料。'};rev.textContent='讀後修正：'+revisions[r.leaf];b.onclick=()=>{rev.hidden=!rev.hidden;b.textContent=rev.hidden?'顯示讀後修正':'收起讀後修正'};ex.append(rev);actions.append(b,box)}
 if(r.stage===2){let b=document.createElement('button');b.className='curation-small';b.textContent='↻ 重聽至 '+tstr(transcript[cues[cueIndex][0]].end-426);b.onclick=()=>listen(cueIndex,true);actions.append(b)}
 
 if(!opened){nativeHost.hidden=false;section23.classList.add('native-active');lastNative=''}
 };
-function pick(book){let picker=$s('.curation-picker'),box=$s('.choices'),search=$s('#curation-picker-search');search.value='';function list(){box.replaceChildren();rows.forEach((r,j)=>{if(book?!books.includes(key23(r)):r.stage!==rows[i].stage)return;if(!(r.q+' '+r.a).toLowerCase().includes(search.value.toLowerCase()))return;let b=document.createElement('button');b.className='curation-picker-option';b.textContent=r.q||r.a;b.onclick=()=>{picker.close();jump23(j)};box.append(b)})}search.oninput=list;list();picker.showModal();search.focus()}
+function pick(book){let picker=$s('.curation-picker'),box=$s('.choices'),search=$s('#curation-picker-search');search.value='';function list(){box.replaceChildren();rows.forEach((r,j)=>{if(book?!books.includes(key23(r)):r.stage!==rows[i].stage)return;if(!curationSearchText23(r).toLowerCase().includes(search.value.toLowerCase()))return;let b=document.createElement('button');b.className='curation-picker-option';b.textContent=r.manualQuote||r.q||r.a;b.onclick=()=>{picker.close();jump23(j)};box.append(b)})}search.oninput=list;list();picker.showModal();search.focus()}
 $s('.curation-picker-head button').onclick=()=>$s('.curation-picker').close();$s('#curation-step-jump').onclick=()=>pick(false);$s('#curation-bookmark-jump').onclick=()=>pick(true);$s('#curation-bookmark').onclick=()=>{let k=key23(rows[i]);books=books.includes(k)?books.filter(v=>v!==k):[...books,k];readerStore23.setItem('cur23-stars',JSON.stringify(books));update23(true)};
 for(let id of ['prev','next'])$s('#curation-'+id).onclick=()=>{if(id==='next'){completed.add(key23(rows[i]));if(active&&done)for(let f of facts)if(f[1]===19&&transcript[cues[cueIndex][0]].text.includes(f[2]))completed.add('heard:'+f[2]);chaptersDone()}E(id).click();firstView=false;help=false;update23(true)};
 $s('#curation-help').onclick=()=>{help=!help;update23(true)};$s('#curation-spotlight').onchange=()=>E('spot23').click();$s('#curation-dialogue').onchange=e=>{$s('.curation-dock').classList.toggle('dialogue',e.target.checked);$s('.curation-character').hidden=!e.target.checked};for(let id of ['curation-toggle','curation-close'])$s('#'+id).onclick=()=>{opened=!opened;update23(true)};
