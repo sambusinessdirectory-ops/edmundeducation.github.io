@@ -2,7 +2,10 @@
   "version": 1,
   "scopes": {
     "[infrastructure-release]": [
-      ".github/workflows/pages*.yml",
+      ".github/workflows/pages.yml",
+      ".github/workflows/pages-fast.yml",
+      ".github/workflows/pages-paper3-fast.yml",
+      ".github/workflows/pages-release-coordinator.yml",
       ".github/workflows/publish-pages-artifact.yml",
       "index.html",
       "pwa-register.js",
@@ -21,6 +24,20 @@
       "tools/test-prepare-pages-incremental.py",
       "tools/test-rewrite-pages-assets.py",
       "tools/update-pages-snapshot.sh"
+    ],
+    "[audio-contract-release]": [
+      "tools/test-business-concepts-book1-flashcards.mjs",
+      "tools/test-flashcard-expansion-20260801-ui.mjs",
+      "tools/test-government-civics-book1-flashcards.mjs",
+      "tools/test-government-civics-book2-flashcards.mjs",
+      "tools/test-government-civics-book3-flashcards.mjs",
+      "tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs",
+      "tools/test-hkfsd-incident-report-flashcards.mjs",
+      "tools/test-hkfsd-incident-report-3.mjs",
+      "tools/test-hkfsd-incident-report-writing.mjs",
+      "tools/test-ielts-writing-task1-audio.mjs",
+      "tools/test-dse-writing-part-b-audio.mjs",
+      "tools/load-verified-writing-audio.mjs"
     ],
     "[classroom-release]": [
       "classroom-*",

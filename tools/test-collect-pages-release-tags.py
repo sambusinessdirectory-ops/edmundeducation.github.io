@@ -76,8 +76,8 @@ tools/test-schedule-system.mjs
         self.assertIn("[listening-types-release]", tags)
         self.assertNotIn("[listening-release]", tags)
 
-    def test_public_shared_change_mixed_with_page_uses_full_build(self):
-        for shared in ("service-worker.js", "shared-companion.mjs"):
+    def test_shared_change_mixed_with_page_uses_full_build(self):
+        for shared in ("service-worker.js", "shared-companion.mjs", ".github/workflows/pages-new.yml"):
             tags, _ = module.collect_path_scopes(["literary-device.html", shared], self.policy)
             self.assertIn("[literary-release]", tags)
             self.assertNotIn("[fast-deploy]", tags)
@@ -90,7 +90,7 @@ tools/test-schedule-system.mjs
         ]
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(uncovered, [])
-        self.assertEqual(tags, "[fast-deploy] [infrastructure-release]")
+        self.assertEqual(tags, "[fast-deploy] [full-artifact] [infrastructure-release]")
 
     def test_verified_audio_pin_repairs_use_the_test_only_gate(self):
         paths = [
@@ -100,7 +100,7 @@ tools/test-schedule-system.mjs
         ]
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(uncovered, [])
-        self.assertEqual(tags, "[fast-deploy] [release-gate-repair]")
+        self.assertEqual(tags, "[audio-contract-release] [fast-deploy] [full-artifact] [release-gate-repair]")
 
     def test_homework_assets_and_worker_changes_keep_the_focused_route(self):
         paths = [
@@ -112,6 +112,11 @@ tools/test-schedule-system.mjs
         tags, uncovered = module.collect_path_scopes(paths, self.policy)
         self.assertEqual(uncovered, [])
         self.assertEqual(tags, "[fast-deploy] [homework-release]")
+
+    def test_known_workflow_builds_full_artifact_with_all_affected_checks(self):
+        tags, uncovered = module.collect_path_scopes([".github/workflows/pages.yml", "literary-device.html"], self.policy)
+        self.assertFalse(uncovered)
+        self.assertEqual(set(tags.split()), {"[fast-deploy]", "[full-artifact]", "[infrastructure-release]", "[literary-release]"})
 
     def test_empty_path_set_is_not_fast(self):
         self.assertEqual(module.collect_path_scopes([], self.policy), ("", []))

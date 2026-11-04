@@ -36,7 +36,7 @@ jobs:
 
     steps:
       - name: Reclaim runner disk for the website repository
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -48,11 +48,11 @@ jobs:
           df -h /
 
       - name: Checkout complete repository
-        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') }}
+        if: ${{ !contains(inputs.release_tags, '[fast-deploy]') || contains(inputs.release_tags, '[full-artifact]') }}
         uses: actions/checkout@v6
 
       - name: Fetch focused release files without R2-backed source trees
-        if: ${{ contains(inputs.release_tags, '[fast-deploy]') }}
+        if: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') }}
         shell: bash
         env:
           RELEASE_BASE: ${{ inputs.base_sha }}
@@ -276,7 +276,7 @@ jobs:
       - name: Classify Pages artifact preparation
         id: preparation
         env:
-          FOCUSED: ${{ contains(inputs.release_tags, '[fast-deploy]') }}
+          FOCUSED: ${{ contains(inputs.release_tags, '[fast-deploy]') && !contains(inputs.release_tags, '[full-artifact]') }}
         shell: bash
         run: |
           set -euo pipefail
@@ -312,6 +312,21 @@ jobs:
           node --check idiom-system.js
           node --check shared-system-nav.js
           node --check shared-companion.mjs
+
+      - name: Verify affected audio contracts with the complete source
+        if: ${{ contains(inputs.release_tags, '[audio-contract-release]') }}
+        run: |
+          node tools/test-business-concepts-book1-flashcards.mjs
+          node tools/test-flashcard-expansion-20260801-ui.mjs
+          node tools/test-government-civics-book1-flashcards.mjs
+          node tools/test-government-civics-book2-flashcards.mjs
+          node tools/test-government-civics-book3-flashcards.mjs
+          node tools/test-hkfsd-concept-vocabulary-book1-flashcards.mjs
+          node tools/test-hkfsd-incident-report-flashcards.mjs
+          node tools/test-hkfsd-incident-report-3.mjs
+          node tools/test-hkfsd-incident-report-writing.mjs
+          node tools/test-ielts-writing-task1-audio.mjs
+          node tools/test-dse-writing-part-b-audio.mjs
 
       - name: Validate focused release-gate repair
         if: ${{ contains(inputs.release_tags, '[fast-deploy]') && contains(inputs.release_tags, '[release-gate-repair]') }}
@@ -1352,6 +1367,26 @@ jobs:
         run: |
           test ! -e _site/dse-practical-writing-media
           test ! -e _site/assets/dse-practical-writing
+
+      - name: Compare unchanged audio manifests with the published site
+        if: ${{ contains(inputs.release_tags, '[full-artifact]') }}
+        env:
+          SNAPSHOT: ${{ steps.preparation.outputs.snapshot_commit }}
+          BASE: ${{ steps.preparation.outputs.base_sha }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          git ls-tree --name-only "$SNAPSHOT" > "$RUNNER_TEMP/pages-snapshot-files"
+          while IFS= read -r path; do
+            case "$path" in *audio*manifest*.js)
+              if git diff --quiet "$BASE" "$GITHUB_SHA" -- "$path"; then
+                test "$(git rev-parse "$SNAPSHOT:$path")" = "$(git hash-object "_site/$path")" || {
+                  echo "::error::Unchanged deployed audio differs in $path"
+                  exit 1
+                }
+              fi ;;
+            esac
+          done < "$RUNNER_TEMP/pages-snapshot-files"
 
       - name: Stamp PWA release
         run: |

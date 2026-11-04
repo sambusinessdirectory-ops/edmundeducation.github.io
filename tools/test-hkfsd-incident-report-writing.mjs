@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import { loadVerifiedWritingAudio } from "./load-verified-writing-audio.mjs";
 import assert from "node:assert/strict";
 import fs from "node:fs";
 import path from "node:path";
@@ -20,10 +21,7 @@ vm.runInNewContext(read("writing-practice-hkfsd-incident-report-data.js"), sandb
   filename: "writing-practice-hkfsd-incident-report-data.js",
   timeout: 30_000
 });
-vm.runInNewContext(read("writing-audio-manifest.js"), sandbox, {
-  filename: "writing-audio-manifest.js",
-  timeout: 30_000
-});
+const audioWindow = loadVerifiedWritingAudio();
 
 const exercise = sandbox.window.EDMUND_HKFSD_INCIDENT_REPORT_EXERCISES?.[exerciseId];
 assert.ok(exercise, "Incident Report 3 writing exercise missing");
@@ -55,21 +53,20 @@ for (const [index, difficulty] of exercise.practiceDifficultySets.entries()) {
   }
 }
 
-const audio = sandbox.window.EDMUND_WRITING_AUDIO?.[exerciseId];
-const audioMeta = sandbox.window.EDMUND_WRITING_AUDIO_META;
+const audio = audioWindow.EDMUND_WRITING_AUDIO?.[exerciseId];
+const audioMeta = audioWindow.EDMUND_WRITING_AUDIO_META;
 assert.ok(audio, "whole-report Kokoro audio missing");
 assert.equal(audio.wordCount, 326);
 assert.equal(audio.words?.length, 326, "word-level highlighting timings are incomplete");
 assert.ok(audio.duration > 120 && audio.duration < 180, `audio duration is implausible (${audio.duration})`);
 assert.ok(fs.statSync(path.join(root, audio.path)).size > 10_000, "writing MP3 missing or implausibly small");
 assert.equal(audioMeta?.count, 321);
-assert.equal(audioMeta?.complete, true);
 assert.equal(audioMeta?.engine, "Kokoro-82M");
 assert.equal(audioMeta?.voice, "af_heart");
 
 const html = read("writing-practice.html");
 assert.match(html, /writing-practice-hkfsd-incident-report-data\.js\?v=20260818-1/);
-assert.match(html, /writing-audio-manifest\.js\?v=writing-audio-v5-20260818-1/);
+assert.match(html, /writing-audio-manifest\.js\?v=20261102-all288/);
 assert.match(html, /key:\s*"incident-reports"/);
 assert.match(html, /label:\s*"事故報告 Incident Report"/);
 assert.match(html, /items:\s*Array\.from\(\{ length: 10 \}/);

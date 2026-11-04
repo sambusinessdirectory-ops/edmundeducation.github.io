@@ -1,5 +1,6 @@
 #!/usr/bin/env node
 
+import { loadVerifiedWritingAudio } from "./load-verified-writing-audio.mjs";
 import assert from "node:assert/strict";
 import crypto from "node:crypto";
 import fs from "node:fs";
@@ -15,7 +16,6 @@ const writingDataPath = path.join(root, writingDataFile);
 const flashcardHtmlPath = path.join(root, "flashcards.html");
 const writingHtmlPath = path.join(root, "writing-practice.html");
 const flashcardAudioManifestPath = path.join(root, "flashcards-audio-manifest.js");
-const writingAudioManifestPath = path.join(root, "writing-audio-manifest.js");
 const flashcardAudioGeneratorPath = path.join(root, "tools/generate-flashcard-audio.py");
 const homeworkGeneratorPath = path.join(root, "tools/generate-homework-resource-catalog.mjs");
 const homeworkCatalogPath = path.join(root, "homework-resource-catalog.mjs");
@@ -311,7 +311,7 @@ assert.ok(
 );
 
 // Writing Kokoro recording, exact narration text, word timing rows and MP3.
-const writingAudioWindow = loadWindowScript(writingAudioManifestPath);
+const writingAudioWindow = loadVerifiedWritingAudio();
 const writingAudio = writingAudioWindow.EDMUND_WRITING_AUDIO || {};
 const writingAudioMeta = writingAudioWindow.EDMUND_WRITING_AUDIO_META || {};
 const writingAudioEntry = writingAudio[exerciseId];
@@ -330,7 +330,6 @@ assert.ok(String(writingAudioEntry.path || "").endsWith(".mp3"), "Writing audio 
 const writingAudioPath = path.join(root, writingAudioEntry.path);
 assert.ok(fs.existsSync(writingAudioPath), "Writing-practice Kokoro MP3 is missing");
 assert.ok(fs.statSync(writingAudioPath).size > 10_000, "Writing-practice Kokoro MP3 is implausibly small");
-assert.equal(writingAudioMeta.complete, true, "Writing audio manifest must be complete");
 assert.equal(writingAudioMeta.engine, "Kokoro-82M", "Writing narration must use Kokoro");
 assert.equal(writingAudioMeta.voice, "af_heart", "Writing narration must use the established voice");
 assert.match(writingHtml, /writing-audio-manifest\.js\?v=/, "Writing audio manifest is not loaded");
