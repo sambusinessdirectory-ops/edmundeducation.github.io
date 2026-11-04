@@ -21,7 +21,11 @@ offline and does not depend on live third-party map services.
   <https://www.had.gov.hk/psi/hong-kong-administrative-boundaries/index.htm>
 - **Terrain elevation:** AWS Open Data Terrain Tiles / Mapzen terrain tiles,
   NASA SRTM-derived elevation data. The committed image is a locally generated
-  hillshade, not a copied basemap.
+  hillshade, not a copied basemap. The same elevation raster supplies the alpha
+  coastline mask: zero-elevation marine cells remain transparent, while a
+  two-pixel lowland recovery preserves reclaimed coast and small islands. This
+  keeps Victoria Harbour and the principal marine channels open even though
+  official district polygons also contain administrative water areas.
   <https://registry.opendata.aws/terrain-tiles/>
 - **MTR station coordinates:** public ArcGIS feature layer used only to resolve
   geographic point coordinates. The curated lesson names, line grouping and
@@ -33,3 +37,5 @@ offline and does not depend on live third-party map services.
 - Country, district and station positions are never invented by CSS percentages.
 - The Hong Kong relief and district boundaries share the same fixed geographic
   bounds, so the official polygons remain aligned with the terrain image.
+- The sea is rendered separately by the interface. District colour and relief
+  are masked to land, so water is never created by decorative CSS percentages.

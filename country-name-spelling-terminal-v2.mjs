@@ -4,6 +4,8 @@ import { HK_GEOMETRY, HK_VIEWBOX, MTR_COORDINATES, WORLD_GEOMETRY, WORLD_VIEWBOX
 const CONFIG = window.EDMUND_SUPABASE || {};
 const SESSION_KEY = "edmund-country-name-spelling-session-v1";
 const PROGRESS_KEY = "edmund-country-name-spelling-progress-v2";
+const WORLD_RELIEF = "country-name-spelling-map/world-relief.jpg";
+const HK_RELIEF = "country-name-spelling-map/hong-kong-relief.png?v=20261104-coastline2";
 const SVG_NS = "http://www.w3.org/2000/svg";
 const REDUCED_MOTION = window.matchMedia("(prefers-reduced-motion: reduce)");
 const LINE_COLOURS = Object.freeze({
@@ -37,12 +39,14 @@ const elements = {
   editionButtons: [...document.querySelectorAll("[data-edition]")],
   filters: document.querySelector("[data-map-filters]"),
   terrainMap: document.querySelector("[data-terrain-map]"),
+  terrainScan: document.querySelector("[data-terrain-scan]"),
   terrainClip: document.querySelector("[data-terrain-clip]"),
   reliefImage: document.querySelector("[data-relief-image]"),
   regions: document.querySelector("[data-map-regions]"),
   mtrNetwork: document.querySelector("[data-mtr-network]"),
   annotations: document.querySelector("[data-map-annotations]"),
   viewport: document.querySelector("[data-map-viewport]"),
+  mobileRelief: document.querySelector("[data-mobile-relief]"),
   plane: document.querySelector("[data-map-plane]"),
   markers: document.querySelector("[data-map-markers]"),
   reticle: document.querySelector("[data-target-reticle]"),
@@ -360,6 +364,27 @@ function terrainPaths(collection, selectedKey, key = "code") {
   }));
 }
 
+function hongKongLandMask(id) {
+  const definitions = svgNode("defs");
+  const mask = svgNode("mask", {
+    id,
+    x:0,
+    y:0,
+    width:HK_VIEWBOX.width,
+    height:HK_VIEWBOX.height,
+    maskUnits:"userSpaceOnUse",
+    style:"mask-type:alpha"
+  });
+  mask.append(svgNode("image", {
+    href:HK_RELIEF,
+    width:HK_VIEWBOX.width,
+    height:HK_VIEWBOX.height,
+    preserveAspectRatio:"none"
+  }));
+  definitions.append(mask);
+  return definitions;
+}
+
 function renderMtrNetwork(item, destination = elements.mtrNetwork, inset = false) {
   if (!inset) destination.replaceChildren();
   if (state.edition !== "hong-kong" || currentFilter() !== "MTR stations") return;
@@ -399,6 +424,7 @@ function mapCandidates(item) {
 
 function renderAnnotations(item) {
   const pool = activePool();
+  const camera = cameraFor(item);
   const targetIndex = Math.max(0, pool.findIndex((candidate) => candidate.id === item.id));
   const nodes = [];
   for (const { candidate, point } of mapCandidates(item)) {
@@ -413,7 +439,11 @@ function renderAnnotations(item) {
     group.append(svgNode("circle", { r:target ? 4.2 : 2.3, class:"map-point__core", "vector-effect":"non-scaling-stroke" }));
     if (target) {
       group.append(svgNode("circle", { r:22, class:"map-point__ring", "vector-effect":"non-scaling-stroke" }));
-      const callout = svgNode("g", { class:"map-target__label", transform:"translate(15 -30)" });
+      const horizontal = (point.x - camera.x) / camera.width;
+      const vertical = (point.y - camera.y) / camera.height;
+      const calloutX = horizontal > .78 ? -133 : 15;
+      const calloutY = vertical < .16 ? 12 : -30;
+      const callout = svgNode("g", { class:"map-target__label", transform:`translate(${calloutX} ${calloutY})` });
       callout.append(svgNode("rect", { x:0, y:0, width:118, height:28, rx:1 }));
       callout.append(svgNode("text", { x:9, y:18 }, `TARGET ${String(targetIndex + 1).padStart(2, "0")} · ${candidate.zh}`));
       group.append(callout);
@@ -444,17 +474,24 @@ function renderMap(item) {
   const geometry = isWorld ? WORLD_GEOMETRY : HK_GEOMETRY;
   const viewbox = isWorld ? WORLD_VIEWBOX : HK_VIEWBOX;
   const selectedKey = isWorld ? item.code : (currentFilter() === "Districts" ? item.id : "");
+  elements.viewport.classList.toggle("is-hong-kong", !isWorld);
+  elements.terrainMap.classList.toggle("is-hong-kong", !isWorld);
+  if (isWorld) elements.terrainScan.removeAttribute("mask");
+  else elements.terrainScan.setAttribute("mask", "url(#hong-kong-land-mask)");
   elements.terrainMap.setAttribute("aria-label", isWorld ? "世界國家地形圖" : "香港十八區地形圖");
   elements.terrainClip.replaceChildren(...terrainPaths(geometry, selectedKey, isWorld ? "code" : "id"));
   elements.regions.replaceChildren(...terrainPaths(geometry, selectedKey, isWorld ? "code" : "id"));
-  elements.reliefImage.setAttribute("href", isWorld ? "country-name-spelling-map/world-relief.jpg" : "country-name-spelling-map/hong-kong-relief.png");
+  const relief = isWorld ? WORLD_RELIEF : HK_RELIEF;
+  elements.reliefImage.setAttribute("href", relief);
   elements.reliefImage.setAttribute("width", viewbox.width);
   elements.reliefImage.setAttribute("height", viewbox.height);
-  elements.terrainMap.querySelectorAll(".map-base-grid,.map-base-micro-grid").forEach((rect) => {
+  elements.reliefImage.setAttribute("preserveAspectRatio", "none");
+  elements.terrainMap.querySelectorAll(".map-water-surface,.map-harbour-light,.map-base-grid,.map-base-micro-grid").forEach((rect) => {
     rect.setAttribute("width", viewbox.width); rect.setAttribute("height", viewbox.height);
   });
   const point = itemPoint(item);
-  elements.viewport.style.setProperty("--mobile-relief", `url(\"${isWorld ? "country-name-spelling-map/world-relief.jpg" : "country-name-spelling-map/hong-kong-relief.png"}\")`);
+  elements.viewport.style.setProperty("--mobile-relief", `url(\"${relief}\")`);
+  elements.mobileRelief.src = relief;
   elements.viewport.style.setProperty("--mobile-map-aspect", `${viewbox.width} / ${viewbox.height}`);
   elements.mobileTarget.style.left = `${(point.x / viewbox.width) * 100}%`;
   elements.mobileTarget.style.top = `${(point.y / viewbox.height) * 100}%`;
@@ -463,6 +500,8 @@ function renderMap(item) {
   renderMtrNetwork(item);
   renderAnnotations(item);
   elements.coordinateReadout.textContent = coordinateCopy(item);
+  elements.viewport.classList.remove("is-acquiring");
+  requestAnimationFrame(() => elements.viewport.classList.add("is-acquiring"));
   animateCamera(cameraFor(item));
 }
 
@@ -527,7 +566,10 @@ function renderIdentity(item) {
     elements.locationInset.setAttribute("viewBox", `0 0 ${HK_VIEWBOX.width} ${HK_VIEWBOX.height}`);
     if (currentFilter() === "Districts") {
       const shape = HK_BY_ID.get(item.id);
-      elements.locationInset.replaceChildren(...terrainPaths(shape ? [shape] : HK_GEOMETRY, item.id, "id"));
+      const maskId = "mission-district-land-mask";
+      const land = svgNode("g", { mask:`url(#${maskId})` });
+      land.append(...terrainPaths(shape ? [shape] : HK_GEOMETRY, item.id, "id"));
+      elements.locationInset.replaceChildren(hongKongLandMask(maskId), land);
       if (shape) elements.locationInset.setAttribute("viewBox", viewBoxString(pathBounds(shape.path)));
       elements.visualLabel.textContent = "DISTRICT SILHOUETTE / 區界辨認";
     } else {
