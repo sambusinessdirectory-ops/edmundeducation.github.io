@@ -4,6 +4,7 @@ import fs from "node:fs";
 import crypto from "node:crypto";
 import path from "node:path";
 import vm from "node:vm";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
@@ -11,6 +12,25 @@ const dataOnly = process.argv.includes("--data-only");
 
 function read(relativePath) {
   return fs.readFileSync(path.join(root, relativePath), "utf8");
+}
+
+function trackedFiles(relativeRoot) {
+  const output = execFileSync(
+    "git",
+    ["ls-files", "-z", "--", relativeRoot],
+    {
+      cwd: root,
+      encoding: "utf8",
+      maxBuffer: 32 * 1024 * 1024
+    }
+  );
+  return new Set(output.split("\0").filter(Boolean));
+}
+
+function sourceFileAvailable(relativePath, trackedAudioFiles) {
+  const absolutePath = path.join(root, relativePath);
+  if (fs.existsSync(absolutePath)) return fs.statSync(absolutePath).size > 1000;
+  return trackedAudioFiles.has(relativePath);
 }
 
 function parseAssignment(source, marker, endMarker) {
@@ -182,20 +202,18 @@ if (!dataOnly) {
   let cloudAudio = 0;
   let expansionAudio = 0;
   let customAudio = 0;
-  const verifiedManifestOverrides = {
-    "appear to be": "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3"
-  };
+  const verifiedCustomAudio = "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3";
+  assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
+  const trackedAudioFiles = trackedFiles("assets/flashcards/audio/edmund-neural");
   for (const front of audioFronts) {
     const digest = crypto.createHash("sha256").update(front).digest("hex").slice(0, 24);
     const url = manifest[front];
     const expectedLocal = `assets/flashcards/audio/edmund-neural/v1/${digest.slice(0, 2)}/${digest}.mp3`;
-    if (url === expectedLocal) {
-      const localPath = path.join(root, expectedLocal);
-      if (!fs.existsSync(localPath) || fs.statSync(localPath).size <= 1000) missing.push(`${front}: invalid local audio`);
-      else localAudio += 1;
-    } else if (verifiedManifestOverrides[front] === url) {
-      cloudAudio += 1;
+    if (front === "appear to be" && url === verifiedCustomAudio) {
       customAudio += 1;
+    } else if (url === expectedLocal) {
+      if (!sourceFileAvailable(expectedLocal, trackedAudioFiles)) missing.push(`${front}: invalid local audio`);
+      else localAudio += 1;
     } else {
       const match = indexes.find(({ value }) =>
         url === `${String(value.cloudBaseUrl).replace(/\/+$/, "")}/${value.audioPathPrefix}${digest.slice(0, 2)}/${digest}.mp3`
@@ -211,7 +229,8 @@ if (!dataOnly) {
     if (missing.length >= 20) break;
   }
   assert(!missing.length, `Missing Passage 3 audio:\n${missing.join("\n")}`);
-  assert(localAudio + cloudAudio === audioFronts.size, `Validated ${localAudio + cloudAudio} of ${audioFronts.size} Passage 3 recordings`);
+  assert(customAudio === 1, `Expected one verified custom recording, found ${customAudio}`);
+  assert(localAudio + cloudAudio + customAudio === audioFronts.size, `Validated ${localAudio + cloudAudio + customAudio} of ${audioFronts.size} Passage 3 recordings`);
   assert(expansionAudio > 0, "No Passage 3 recording resolves through the Reading expansion release");
   audioResult = { checked: true, manifestEntries: audioMeta.count, localAudio, cloudAudio, expansionAudio, customAudio };
 }

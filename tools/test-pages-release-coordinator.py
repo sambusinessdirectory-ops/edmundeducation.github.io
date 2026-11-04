@@ -1,3 +1,4 @@
+import json
 import re
 import unittest
 from pathlib import Path
@@ -11,6 +12,9 @@ BUILDERS = [
     (WORKFLOWS / name).read_text(encoding="utf-8")
     for name in ("pages.yml", "pages-paper3-fast.yml", "pages-fast.yml")
 ]
+SCOPE_POLICY = json.loads(
+    (ROOT / "tools" / "pages-release-scopes.json").read_text(encoding="utf-8")
+)
 
 
 class PagesReleaseCoordinatorTests(unittest.TestCase):
@@ -55,6 +59,21 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
         self.assertIn("!contains(inputs.release_tags, '[fast-deploy]')", step)
 
+    def test_test_only_gate_repairs_do_not_run_unrelated_product_suites(self):
+        standard = BUILDERS[0]
+        marker = "- name: Validate focused release-gate repair"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("tools/test-eddie-farm.mjs", step)
+        self.assertIn("tools/test-ielts-reading-passage2-flashcards.mjs", step)
+        self.assertNotIn("tools/test-character-coins.mjs", step)
+
+    def test_fast_releases_do_not_run_unrelated_song_quality_gate(self):
+        standard = BUILDERS[0]
+        marker = "- name: Check song exercise quality"
+        step = standard.split(marker, 1)[1].split("\n      - name:", 1)[0]
+        self.assertIn("!contains(inputs.release_tags, '[fast-deploy]')", step)
+        self.assertIn("contains(inputs.release_tags, '[song-release]')", step)
+
     def test_production_deployment_is_not_cancellable(self):
         self.assertIn("group: pages", PUBLISHER)
         self.assertIn("cancel-in-progress: false", PUBLISHER)
@@ -88,11 +107,20 @@ class PagesReleaseCoordinatorTests(unittest.TestCase):
         standard = BUILDERS[0]
         self.assertIn("release_tags: ${{ needs.route.outputs.release_tags }}", COORDINATOR)
         self.assertIn("tools/collect-pages-release-tags.py", COORDINATOR)
+        self.assertIn("/tools/pages-release-scopes.json", COORDINATOR)
         self.assertIn("--paths-file /tmp/pages-release-paths.txt", COORDINATOR)
+        self.assertNotIn('--base "${base_sha}"', COORDINATOR)
+        self.assertNotIn('--target "${GITHUB_SHA}"', COORDINATOR)
         self.assertIn("inputs.release_tags", standard)
         self.assertNotIn("github.event.head_commit.message", standard)
         self.assertIn("Validate focused Pages infrastructure release", standard)
         self.assertIn("[infrastructure-release]", standard)
+
+    def test_every_deterministic_scope_has_a_validation_gate(self):
+        standard = BUILDERS[0]
+        for tag in SCOPE_POLICY["scopes"]:
+            with self.subTest(tag=tag):
+                self.assertIn(tag, standard)
 
 
 if __name__ == "__main__":

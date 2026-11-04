@@ -4,6 +4,7 @@ import crypto from "node:crypto";
 import fs from "node:fs";
 import path from "node:path";
 import vm from "node:vm";
+import { execFileSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { loadFlashcardCoreSeed } from "./flashcard-core-seed-fixture.mjs";
 
@@ -12,6 +13,25 @@ const dataOnly = process.argv.includes("--data-only");
 
 function read(relativePath) {
   return fs.readFileSync(path.join(root, relativePath), "utf8");
+}
+
+function trackedFiles(relativeRoot) {
+  const output = execFileSync(
+    "git",
+    ["ls-files", "-z", "--", relativeRoot],
+    {
+      cwd: root,
+      encoding: "utf8",
+      maxBuffer: 32 * 1024 * 1024
+    }
+  );
+  return new Set(output.split("\0").filter(Boolean));
+}
+
+function sourceFileAvailable(relativePath, trackedAudioFiles) {
+  const absolutePath = path.join(root, relativePath);
+  if (fs.existsSync(absolutePath)) return fs.statSync(absolutePath).size > 1000;
+  return trackedAudioFiles.has(relativePath);
 }
 
 function parseAssignment(source, marker, endMarker = ";\n") {
@@ -269,9 +289,7 @@ if (!dataOnly) {
   const verifiedCustomAudio = 'https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3';
   assert(read("workers/edmund-audio/src/index.js").includes("assets/flashcards/audio/edmund-neural/v1-custom-20261024/"), "Custom audio route is not enabled");
   const cloudIndexUsage = new Map();
-  const verifiedManifestOverrides = {
-    "appear to be": "https://edmund-neural-audio.edmundeducation.workers.dev/assets/flashcards/audio/edmund-neural/v1-custom-20261024/last-train/c648933976dad95a218d37fe.mp3"
-  };
+  const trackedAudioFiles = trackedFiles("assets/flashcards/audio/edmund-neural");
   for (const front of audioUniqueFronts) {
     const audioUrl = manifest[front];
     if (!audioUrl) {
@@ -285,18 +303,12 @@ if (!dataOnly) {
       continue;
     }
     if (audioUrl.startsWith("assets/flashcards/audio/edmund-neural/")) {
-      const localPath = path.join(root, audioUrl);
-      if (!fs.existsSync(localPath) || fs.statSync(localPath).size <= 1000) {
+      if (!sourceFileAvailable(audioUrl, trackedAudioFiles)) {
         missing.push(`${front}: missing or undersized local file ${audioUrl}`);
       } else {
         localAudio += 1;
       }
       if (missing.length >= 20) break;
-      continue;
-    }
-
-    if (verifiedManifestOverrides[front] === audioUrl) {
-      cloudAudio += 1;
       continue;
     }
 
